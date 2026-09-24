@@ -351,7 +351,7 @@ The production goal is not "cheap-looking HD-2D." It is **economical HD-2D that 
 
 The following scene-building rules were previously split into a separate scene-construction document. They are now part of the Agent System master authority so **use the Agent Brain** and **build the scene** resolve through one document.
 
-#### 3. Dialogue Director scene-job packet
+### 3. Dialogue Director scene-job packet
 
 Before drafting, the Dialogue Director should be able to answer these fields.
 
@@ -408,7 +408,7 @@ If these fields are unknown because the current story/map design has not establi
 
 ---
 
-#### 4. Scene modes
+### 4. Scene modes
 
 #### Mode A — Full authored stop scene
 Best for:
@@ -489,7 +489,7 @@ Use only when current battle authority explicitly permits an authored pause/tran
 
 ---
 
-#### 5. Area-design rules that directly affect dialogue
+### 5. Area-design rules that directly affect dialogue
 
 The ongoing JRPG area study is research/design guidance. Its current numerical timing bands are not silently locked canon.
 
@@ -578,7 +578,7 @@ If the player reuses space under a changed objective or state, dialogue should n
 
 ---
 
-#### 6. Gameplay-loop pressure and dialogue readiness
+### 6. Gameplay-loop pressure and dialogue readiness
 
 For scene placement, use a qualitative dialogue-readiness state.
 
@@ -614,7 +614,7 @@ RED can become an authored protected pause only when current story/gameplay auth
 
 ---
 
-#### 10. Economical HD-2D staging
+### 10. Economical HD-2D staging
 
 The goal is **economical**, not cheap-looking.
 
@@ -684,7 +684,7 @@ If a scene becomes emotionally flat when reduced to text boxes alone, use the ex
 
 ---
 
-#### 12. Visual-first information rule
+### 12. Visual-first information rule
 
 Before writing exposition, ask what the player can already see.
 
@@ -706,7 +706,7 @@ Important spatial discoveries should receive a clean visual beat before portrait
 
 ---
 
-#### 13. Scene rhythm
+### 13. Scene rhythm
 
 A useful important-scene rhythm may include:
 
@@ -727,7 +727,7 @@ Do not mechanically apply every step.
 
 ---
 
-#### 14. Scene economy
+### 14. Scene economy
 
 Before finalizing, remove:
 - repeated explanations;
@@ -753,7 +753,7 @@ Preserve:
 
 ---
 
-#### 15. Canon Checker scene audit
+### 15. Canon Checker scene audit
 
 A scene should not commit until the checker can answer yes to the relevant questions.
 
