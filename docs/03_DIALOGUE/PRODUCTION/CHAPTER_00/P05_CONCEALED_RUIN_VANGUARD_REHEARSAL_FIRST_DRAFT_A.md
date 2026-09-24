@@ -64,7 +64,7 @@ The Card remains inert for the entire encounter.
 
 No incomplete protection, green-and-gold geometry, Card reaction, identity reveal, or transformation occurs.
 
-Battle presentation owns combat movement. Any mid-battle dialogue, if later added by encounter authority, must remain speech-only.
+Battle presentation owns combat movement. **No spoken dialogue occurs during the active encounter.**
 
 ---
 
