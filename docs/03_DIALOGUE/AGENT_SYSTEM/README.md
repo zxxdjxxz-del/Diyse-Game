@@ -152,6 +152,334 @@ Agents and the Director must know what kind of scene they are inside:
 
 The scene type changes acceptable line density, body movement, interruption risk, pacing, and staging cost.
 
+## Runtime truth hierarchy
+
+The Agent Brain must distinguish three kinds of information. They do **not** use the same retrieval rules.
+
+### A. Hard current context — inject, do not retrieve
+
+These facts must be supplied directly from current authority for the scene:
+
+- chapter / sequence / exact story position;
+- current participant list and party state;
+- current location / sub-area / cell / area phase;
+- current character identity, age, Face, Base/Subclass labels, and current unlock state;
+- current equipment/weapon prohibitions or other hard identity restrictions that matter to the scene;
+- current recruitment status;
+- current reveal/knowledge gates;
+- explicit forbidden future knowledge;
+- current relationship chronology gate;
+- current gameplay pressure / recovery state when narratively relevant;
+- current world terminology and other hard naming corrections;
+- current player-control/dialogue legality.
+
+Hard context is **not optional memory**.
+
+Examples:
+- Vaelira's no-bow identity is not something the runtime "remembers if relevant";
+- Seyrik's recruitment timing is not inferred from relationship warmth;
+- a subclass ability is not available because an old scene happened to mention it;
+- a future reveal cannot surface because semantic retrieval considered it relevant.
+
+If hard context is missing, stale, contradictory, or unresolved, the runtime must **stop or mark the dependency open rather than guess**.
+
+### B. Persistent personal memory — authorize, then retrieve selectively
+
+Persistent memory contains things a specific character legitimately experienced, learned, was told, inferred, promised, shared, corrected, or established through prior committed scenes.
+
+Memory may be selective and imperfect.
+
+However:
+
+> **Retrieval may fail. Authorization may not.**
+
+A character may fail to remember an old joke in a specific moment. A character may **not** retrieve a private event they never witnessed or a fact they have not learned.
+
+### C. Momentary cognition — intentionally variable
+
+Momentary cognition includes:
+- what catches attention first;
+- which authorized memory comes to mind;
+- current inference;
+- current emotional appraisal;
+- misunderstanding;
+- competing wants;
+- whether to speak;
+- what to reveal;
+- whether to stay silent.
+
+This is where human variability belongs.
+
+Hard canon should not drift in order to simulate human cognition.
+
+## Epistemic-state contract
+
+The runtime must not flatten all available information into "known."
+
+Character-facing information should carry an epistemic status when the distinction matters:
+
+- **known_fact** — directly established for this character;
+- **direct_observation** — personally witnessed but still open to interpretation;
+- **trusted_report** — reported by a source this character currently accepts;
+- **heard_claim** — heard but not established;
+- **inference** — conclusion drawn from evidence;
+- **suspicion** — live possibility with insufficient support;
+- **assumption** — currently treated as true without sufficient verification;
+- **misunderstanding** — active incorrect model the character plausibly holds;
+- **unknown** — not known;
+- **forbidden_future** — author/runtime knows it exists but this character cannot access it.
+
+Rules:
+- confidence does not upgrade an inference into a fact;
+- repetition does not upgrade a claim into a fact;
+- another character knowing something does not make it shared;
+- writer knowledge never enters the character-facing packet merely because it would produce cleaner exposition;
+- corrections should update the belief/memory record rather than silently rewriting the character's past state;
+- a character can remember **what they believed then** and **what they know now** as separate things.
+
+## Persistent-memory record contract
+
+Meaningful persistent memories should be attributable rather than stored as free-floating lore.
+
+Where implementation supports it, a memory record should carry:
+
+- memory ID;
+- owner / character;
+- source chapter / scene / event;
+- acquisition mode: observed / told / inferred / participated / promised / corrected;
+- people present;
+- privacy / visibility scope;
+- epistemic status at acquisition;
+- current epistemic status;
+- whether later corrected;
+- correction source;
+- relationship(s) involved;
+- emotional salience;
+- practical salience;
+- unresolved obligation or open-thread link;
+- last meaningful callback/use where useful.
+
+### Memory retrieval order
+
+Memory retrieval is two-stage:
+
+1. **Authorization gate**
+   - Did this character have access?
+   - Had the event happened by this story position?
+   - Was the information private?
+   - Was it actually transferred?
+   - Has a later correction changed its status?
+   - Is the memory prohibited by current chronology?
+
+2. **Salience selection**
+   - current relationship relevance;
+   - current scene similarity;
+   - recency;
+   - emotional importance;
+   - practical usefulness;
+   - unresolved obligation;
+   - embarrassment;
+   - repetition;
+   - character-specific memory bias.
+
+Relevance must **never** bypass authorization.
+
+### Character-specific salience
+
+The permanent brain may bias which authorized memories surface.
+
+Examples:
+- Nimera may retrieve exact wording, provenance, contradiction, and correction history;
+- Torren may retrieve route conditions, practical consequence, physical pattern, and people's habits;
+- Cyanis may over-retrieve failures, promises, exposure, and unfinished responsibility;
+- Ilyra may retrieve explicit boundaries, what actually helped, and how a person preferred care;
+- Vaelira may retrieve prediction failures, changed variables, calibration corrections, and conditions that altered a model.
+
+These are salience biases, not supernatural recall.
+
+## Relationship runtime state
+
+Do not compress a relationship into one friendship number.
+
+For the people actually interacting, runtime should supply the dimensions that matter to the current scene. Useful dimensions include:
+
+- chronology stage;
+- trust;
+- familiarity;
+- conflict safety;
+- disagreement tolerance;
+- teasing permission;
+- profanity / vulgar-banter permission;
+- affectionate-insult permission;
+- physical-care / touch permission where relevant;
+- favor-asking comfort;
+- refusal safety;
+- willingness to ask preference;
+- willingness to state preference;
+- ordinary-company comfort;
+- silence comfort;
+- disclosure comfort;
+- shared jokes / callbacks;
+- borrowed language;
+- unresolved friction;
+- recent rupture;
+- recent repair;
+- current asymmetry, if one person is more comfortable than the other.
+
+These dimensions can progress independently.
+
+Examples:
+- Ilyra and Seyrik may establish **safe refusal** before affectionate insult;
+- Torren and Nimera may develop professional respect before paternal/familial meaning;
+- Vaelira may borrow a profane phrase before she becomes generally high-comfort with profanity;
+- two people may have high trust and low disclosure comfort.
+
+Relationship state must be **story-position specific**, not inferred from the eventual endpoint.
+
+## Scene-local Person state
+
+Before a Person Agent proposes dialogue, the runtime should assemble a temporary scene-local state.
+
+Useful fields:
+
+- immediate wants;
+- immediate avoidances;
+- current task;
+- physical activity;
+- attention target;
+- private emotional appraisal;
+- what the character thinks is happening;
+- what they are uncertain about;
+- active belief / suspicion / misunderstanding;
+- relevant authorized memories;
+- open conversational threads;
+- what they are willing to discuss;
+- what they are unwilling to discuss;
+- whether they want company / distance / action / information / amusement / silence;
+- whether they currently want to speak;
+- what would make them interrupt;
+- what they prefer to keep private;
+- visible expression / performance choice.
+
+A permanent trait does not automatically become the scene motive.
+
+Example:
+Ilyra may permanently care about agency, but her actual scene motive may be:
+> **I want Seyrik to come eat with me.**
+
+That is enough.
+
+## Competing-motive rule
+
+Person Agents may hold multiple live motives at once.
+
+Examples:
+- Cyanis wants rest **and** wants to finish the work;
+- Ilyra wants Seyrik's company **and** does not want to pressure him;
+- Vaelira wants the answer **and** recognizes that obtaining it could be intrusive;
+- Nimera wants to ask the question **and** knows the question may not be hers to ask;
+- Torren wants to solve the practical problem **and** knows taking over would violate somebody else's choice.
+
+The scene should emerge from which motive wins, which is suppressed, and what remains visible.
+
+Do not reduce a character to one selected trait.
+
+## Private appraisal vs visible expression
+
+Internal response and outward expression are separate runtime decisions.
+
+A character may:
+- feel fear;
+- make a joke;
+- become physically still;
+- discuss only the practical issue;
+- choose not to reveal the fear.
+
+Runtime should therefore distinguish:
+- **private appraisal**;
+- **visible nonverbal expression**;
+- **spoken expression**;
+- **withheld content**.
+
+Performance tells do not automatically become dialogue.
+
+## Pre-generation reliability gate
+
+Before rehearsal/dialogue generation, validate:
+
+1. exact story position;
+2. participant/recruitment legality;
+3. hard current identity facts;
+4. knowledge and reveal gates;
+5. forbidden future knowledge;
+6. location and player-control legality;
+7. relationship chronology and relevant relationship dimensions;
+8. current physical/emotional state;
+9. memory authorization;
+10. active epistemic states;
+11. scene-local wants / avoidances / attention;
+12. unresolved dependencies.
+
+If any hard field conflicts with current authority:
+- use owning current authority;
+- repair stale runtime synthesis;
+- do not ask a Person Agent to reconcile the contradiction in dialogue.
+
+## Post-generation validation gate
+
+Before a generated scene can be accepted:
+
+- verify every factual claim against current hard context;
+- verify every memory/callback belonged to that speaker;
+- verify every relationship behavior is earned at this story position;
+- verify no belief/suspicion was accidentally stated as authorial fact;
+- verify no future knowledge leaked;
+- verify no stale class/Face/equipment/name survived;
+- verify no character became narrator/canon checker;
+- verify silence would not be stronger than redundant participation;
+- verify staging/player-control legality.
+
+Bad output is revised **behind the fiction**.
+
+## Post-scene learning / continuity update
+
+After a scene passes the Canon Checker, ask:
+
+> **What actually changed because this scene happened?**
+
+Possible committed changes include:
+- new fact learned;
+- claim heard;
+- inference formed;
+- suspicion strengthened/weakened;
+- misunderstanding created/corrected;
+- preference learned;
+- boundary stated;
+- promise made;
+- joke/callback established;
+- favor given;
+- rupture created;
+- repair completed;
+- relationship permission changed;
+- open thread created/resolved;
+- character discovered or stated something about their own preference.
+
+**No change** is a valid result.
+
+Do not automatically advance:
+- trust;
+- friendship;
+- intimacy;
+- disclosure;
+- profanity permission;
+- affectionate insult;
+- physical familiarity;
+- forgiveness.
+
+Only explicitly earned deltas persist.
+
+Open-conversation rehearsal, sandbox generation, or rejected drafts do not update authored continuity.
+
 ## Information firewall
 
 Agents must never use:
@@ -382,11 +710,21 @@ Before drafting, the Dialogue Director should be able to answer these fields.
 - whether normal hostile pressure resumes immediately afterward.
 
 #### People
-- each participant's current state;
-- relationship state among the people actually interacting;
-- personal memories relevant to this moment;
-- what each person knows;
-- what each person plausibly notices first.
+- each participant's current physical/emotional state;
+- hard current identity/context facts injected from authority;
+- relationship runtime state among the people actually interacting;
+- relationship dimensions relevant to this exact scene;
+- personal memories **authorized first**, then selected for salience;
+- memory provenance / privacy where the callback matters;
+- what each person knows as known fact;
+- what each person only observed / heard / inferred / suspects / assumes / misunderstands;
+- what each person plausibly notices first;
+- each person's immediate wants and avoidances;
+- current task / physical activity;
+- what each person is willing or unwilling to discuss;
+- relevant open threads;
+- private appraisal vs visible/spoken expression;
+- whether each person currently has a motive to speak at all.
 
 #### World life
 - local civilian/work activity;
@@ -753,14 +1091,21 @@ Preserve:
 A scene should not commit until the checker can answer yes to the relevant questions.
 
 #### Canon
+- Is every hard current fact injected from owning authority rather than guessed from memory?
 - Is every fact current?
 - Does every character know only what they can know here?
+- Was each callback/memory authorized for that character before relevance was considered?
+- Is a claim/inference/suspicion clearly still a claim/inference/suspicion rather than silently upgraded to fact?
 - Are current terminology/classes/Faces/equipment/location names used?
 - Does the scene preserve mandatory story causality?
+- Did any future knowledge, stale authority, or private memory leak into a Person Agent?
 
 #### Character
 - Does each participant sound like this person at this point in the relationship?
+- Does each speaker have a scene-local motive rather than merely a relevant trait?
 - Are reactions shaped by current fatigue/stress/history rather than generic drama?
+- Are private appraisal, visible expression, and spoken disclosure appropriately separated?
+- Are competing motives allowed rather than collapsing the person to one trait?
 - Is anyone explaining their character-sheet theme too perfectly?
 - Does every spoken line have a character-local reason beyond informing the player?
 - Is anyone functioning as narrator, recap voice, canon checker, correctness confirmer, or continuity reconciler?
@@ -794,6 +1139,17 @@ A scene should not commit until the checker can answer yes to the relevant quest
 
 Only after these checks should authored story memory/state be committed.
 
+The commit step must record **deltas, not a rewritten personality**:
+- what was learned;
+- what was merely heard;
+- what was inferred;
+- what was corrected;
+- what preference/boundary/callback became established;
+- what relationship permission genuinely changed;
+- which open threads remain unresolved.
+
+If nothing earned persistence, commit no character/relationship delta.
+
 ## Runtime service
 
 The current external service lives at:
@@ -802,6 +1158,20 @@ The current external service lives at:
 Its `brains/` and shared `context/` files are deployment/runtime synthesis only. They should identify their source-authority paths so stale runtime data can be audited quickly.
 
 The service should receive shared world/magic-and-Cards/economy/dialogue-life/scene-construction context in addition to the character brain, personal memory/state, and observable scene payload.
+
+For authored generation, the service should assemble a **validated scene packet** in this order:
+
+1. hard current context from owning authority;
+2. chronology/knowledge authorization;
+3. relationship runtime dimensions;
+4. authorized persistent memory retrieval;
+5. epistemic state;
+6. current physical/emotional state;
+7. scene-local wants / avoidances / attention;
+8. private appraisal / visible-expression choice;
+9. dialogue/scene rules.
+
+Semantic relevance is never allowed to outrank chronology, privacy, ownership, or current canon.
 
 ## Commit rule
 
