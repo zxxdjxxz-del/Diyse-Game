@@ -25,9 +25,11 @@ from pathlib import Path
 from typing import Any
 
 ROOT = Path(__file__).resolve().parents[2]
+sys.path.insert(0, str(ROOT / "external-services/canary"))
+from runtime_context import SCHEMA as CONTEXT_SCHEMA, ContextError, build_person_context, validate_plan
 SPEC_SCHEMA = "diyse_scene_authority_spec_v1"
 AUTHORITY_PACKET_SCHEMA = "diyse_scene_authority_packet_v1"
-COMPILER_VERSION = "1.2.0"
+COMPILER_VERSION = "1.3.0"
 
 CANON_STATUS_PATH = "docs/00_MASTER_CONTROL/CURRENT_CANON_STATUS.md"
 
@@ -476,6 +478,72 @@ def compile_spec_data(spec: dict[str, Any], root: Path = ROOT) -> dict[str, Any]
     anchors, anchor_provenance = _compile_exact_anchors(root, spec, participants)
     source_records.extend(anchor_provenance)
 
+    # Authors provide authority once, not a hand-built context for every person.
+    # Structured annotations disambiguate ownership/status; prose is never guessed.
+    context_plan = {
+        "schema": CONTEXT_SCHEMA,
+        "chapter_id": spec["chapter_id"],
+        "scene_identity": {"scene_id": spec["scene_id"], "story_position": spec["story_position"],
+                           "participants": participants},
+        "forbidden_reveals": copy.deepcopy(spec.get("forbidden_reveals", [])),
+        "story_clock": copy.deepcopy(spec.get("story_clock", {})),
+        "forward_only": spec.get("forward_only", False),
+        "continuity_policy": copy.deepcopy(spec.get("continuity_policy", {"mode": "none"})),
+        "memory_policies": {cid: context["memory_authorization"]
+                            for cid, context in person_runtime_contexts.items()
+                            if cid in {_normalize_character_id(str(x)) for x in spec.get("person_runtime_contexts", {})}},
+        "assertions": [],
+    }
+    for cid, context in person_runtime_contexts.items():
+        if set(context) - {"memory_authorization"}:
+            raise CompileError(f"{cid}: use source-backed context_assertions instead of manual runtime state")
+    try:
+        validate_plan(context_plan, participants)
+    except ContextError as exc:
+        raise CompileError(str(exc)) from exc
+    # Owning scene sections can embed reusable typed annotations. Selecting that
+    # authority section is sufficient; authors do not repeat the annotations in specs.
+    for record in source_records:
+        if record["category"] != "story_authority":
+            continue
+        for selection in record["selections"]:
+            for match in re.finditer(r"^```diyse-context\s*\n(.*?)^```\s*$", selection["text"], re.M | re.S):
+                try:
+                    entries = json.loads(match.group(1))
+                except json.JSONDecodeError as exc:
+                    raise CompileError("Invalid diyse-context JSON in selected story authority") from exc
+                if not isinstance(entries, list):
+                    raise CompileError("diyse-context block must contain an assertion list")
+                for raw in entries:
+                    if not isinstance(raw, dict):
+                        raise CompileError("diyse-context assertions must be objects")
+                    assertion = copy.deepcopy(raw)
+                    assertion["source_proof"] = {"path": record["path"], "file_sha256": record["file_sha256"],
+                                                 "section_sha256": selection["sha256"]}
+                    context_plan["assertions"].append(assertion)
+    assertions = spec.get("context_assertions", [])
+    if not isinstance(assertions, list):
+        raise CompileError("context_assertions must be a list")
+    for raw in assertions:
+        if not isinstance(raw, dict) or not isinstance(raw.get("source"), dict):
+            raise CompileError("Every context assertion requires an exact current source")
+        record = _compile_source_record(root, raw["source"], "person_context_authority")
+        quote = raw.get("source_quote")
+        if not isinstance(quote, str) or not quote.strip() or not any(
+                quote in selection["text"] for selection in record["selections"]):
+            raise CompileError("Context assertion source_quote must occur verbatim in its selected source")
+        assertion = copy.deepcopy(raw)
+        assertion.pop("source")
+        assertion.pop("source_quote")
+        assertion["source_proof"] = {"path": record["path"], "file_sha256": record["file_sha256"],
+                                     "quote_sha256": _sha256_text(quote)}
+        context_plan["assertions"].append(assertion)
+        source_records.append(record)
+    try:
+        validate_plan(context_plan, participants)
+    except ContextError as exc:
+        raise CompileError(str(exc)) from exc
+
     spec_sha256 = _sha256_text(_canonical_json(spec))
     authority_packet: dict[str, Any] = {
         "schema": AUTHORITY_PACKET_SCHEMA,
@@ -484,6 +552,7 @@ def compile_spec_data(spec: dict[str, Any], root: Path = ROOT) -> dict[str, Any]
         "scene_id": spec["scene_id"],
         "chapter_id": spec["chapter_id"],
         "scene_spec_sha256": spec_sha256,
+        "context_construction": context_plan,
         "participant_profile_sources": participant_fingerprints,
         "source_records": source_records,
         "compiler_guards": {
@@ -513,6 +582,7 @@ def compile_spec_data(spec: dict[str, Any], root: Path = ROOT) -> dict[str, Any]
         "participants": participants,
         "participant_profiles": participant_profiles,
         "person_runtime_contexts": person_runtime_contexts,
+        "context_construction": copy.deepcopy(context_plan),
         "scene_purpose": spec["scene_purpose"],
         "authority_packet": authority_packet,
         "scene_context": copy.deepcopy(spec.get("scene_context_seed", {})),
@@ -525,6 +595,10 @@ def compile_spec_data(spec: dict[str, Any], root: Path = ROOT) -> dict[str, Any]
         "production_cost_ceiling": str(spec.get("production_cost_ceiling", "economical")),
     }
 
+    request_seed["person_runtime_contexts"] = {
+        cid: build_person_context(request_seed, cid) for cid in participants
+    }
+
     return {
         "schema": "diyse_scene_authority_compilation_v1",
         "compiler_version": COMPILER_VERSION,
@@ -532,7 +606,8 @@ def compile_spec_data(spec: dict[str, Any], root: Path = ROOT) -> dict[str, Any]
         "request_seed": request_seed,
         "dynamic_runtime_requirements": [
             "live persistent Person-Agent revisions/state and safe memory indexes are fetched by the Orchestrator",
-            "persistent story memory is unavailable unless person_runtime_contexts explicitly authorizes it",
+            "automatic contexts are rebuilt from context_construction and authorized committed continuity",
+            "persistent story memory is unavailable unless continuity_policy or a per-person policy authorizes it",
             "historical/regeneration scenes should authorize memory by explicit IDs or source scene IDs rather than all_committed_story",
             "current recent-gameplay/combat/fatigue state must be supplied or merged at build time when relevant",
             "live encounter pressure must be supplied at build time when relevant",

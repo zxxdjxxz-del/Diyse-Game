@@ -886,3 +886,30 @@ scene_construction:
     - character_used_as_continuity_reconciler
     - redundant_correctness_confirmation
     - repeated_fact_for_player_clarity_without_character_motive
+
+# Implementation contract: deterministic construction, not a second character authority.
+automatic_person_context_construction:
+  schema: diyse_person_context_construction_v1
+  implementation: external-services/canary/runtime_context.py
+  hard_context: injected_from_compiled_current_authority_never_ranked
+  sources:
+    - selected_story_authority_diyse_context_annotations
+    - source_verified_scene_assertions
+    - authorized_approved_person_local_continuity_effects
+    - curated_live_observations_labeled_as_observations
+  authorization_order:
+    - explicit_scene_or_person_policy_default_none
+    - owner_and_privacy
+    - canon_snapshot_and_PASS_plus_author_approval_provenance
+    - strict_prior_chronology_or_explicit_prior_scene_assertion
+    - forbidden_topic_exclusion
+    - reconstruct_all_legal_effects_before_salience_selection
+  unresolved_policy: unknown_or_open_never_guess
+  memory_corrections: append_only_as_of_scene_preserve_prior_belief_history
+  transient_state: requires_explicit_scene_applicability
+  relationships: directed_independent_dimensions_only_for_people_present
+  motives: preserve_competing_wants_and_avoidances_no_automatic_winner
+  participation: silence_and_nonparticipation_do_not_require_model_calls
+  expression_channels: [private_appraisal, visible_behavior, spoken_expression, withheld_content]
+  persistence: read_only_build_PASS_and_author_approval_required_at_both_commit_endpoints
+  legacy_contexts: memory_policy_only_other_manual_state_requires_source_backed_migration

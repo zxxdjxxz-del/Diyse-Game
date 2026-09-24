@@ -14,6 +14,10 @@ on:
       - 'tests/dialogue/validate_current_dialogue_resources.gd'
       - 'tests/dialogue/test_agent_magic_card_context.py'
       - 'external-services/canary/context/magic_and_cards.yaml'
+      - 'external-services/canary/runtime_context.py'
+      - 'external-services/canary/context/dialogue_system.yaml'
+      - 'tests/dialogue/test_automatic_person_context.py'
+      - 'tools/dialogue/compile_scene_authority.py'
       - 'external-services/canary/person_agent.py'
       - 'external-services/canary/scene_orchestrator.py'
       - 'external-services/canary/README.md'
@@ -33,6 +37,15 @@ jobs:
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
+
+      - name: Install Person Agent test dependencies
+        run: python3 -m pip install -r external-services/canary/requirements.txt
+
+      - name: Validate automatic Person context and runtime contracts
+        run: |
+          python3 tests/dialogue/test_automatic_person_context.py
+          python3 tests/dialogue/test_person_agent_runtime_contract.py
+          python3 tests/dialogue/test_scene_authority_compiler.py
 
       - name: Validate Agent lived magic and Prime knowledge firewall
         run: python3 tests/dialogue/test_agent_magic_card_context.py
