@@ -560,6 +560,21 @@ conversation_model:
     - absurd_premise_taken_seriously
     - increasingly_intentional_participation
   profanity:
+    calibration:
+      full_game_spoken_line_band: 5_to_8_percent
+      center_target: about_6_percent
+      measure: spoken_lines_containing_real_profanity_not_swear_word_count
+      quota: false
+      clean_substitutes_do_not_count: true
+      stage_bands:
+        initial_chapter_4_ordinary: 0_to_1_percent
+        developing_trust: 2_to_5_percent
+        established_trust: 5_to_8_percent
+        late_stable: 6_to_10_percent_scene_mix_dependent
+      scene_variance:
+        - frightened_or_angry_scene_can_run_far_above_stage_band
+        - calm_dialogue_set_can_contain_zero
+        - never_insert_swears_mechanically_to_hit_percentage
     progression: clean_first_then_earned
     early_default: no_hard_profanity_while_composed
     early_clean_register:
