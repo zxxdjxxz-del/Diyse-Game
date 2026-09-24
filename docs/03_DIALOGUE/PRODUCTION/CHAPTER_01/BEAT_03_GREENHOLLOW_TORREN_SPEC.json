@@ -4,24 +4,83 @@
   "chapter_id": "chapter_01",
   "story_position": "Chapter 1 — Beat 3 — Greenhollow / Torren",
   "production_ready": false,
-  "participants": ["cyanis", "ilyra", "maevra", "torren"],
+  "participants": [
+    "cyanis",
+    "ilyra",
+    "maevra",
+    "torren"
+  ],
   "scene_purpose": "Introduce Torren Harth in Greenhollow, demonstrate why Maevra sought his current route expertise, let Torren naturally register Maevra's splinted Broken Convoy injury, brief him only on the Card/Caelora facts needed for travel, establish the direct Greenhollow-Dunmere road as unavailable, and make Hollow Watch the condition before the deeper southern journey while showing practiced Maevra/Torren familiarity without exposing their private chronology.",
   "story_sources": [
-    {"path": "docs/02_STORY/CHAPTERS/CHAPTER_01.md", "sections": ["Beat 3 — Greenhollow / Torren"], "role": "current_chapter_01_beat_03_story_authority"},
-    {"path": "docs/02_STORY/CHAPTERS/CHAPTER_01_MAEVRA_BROKEN_ARM_LOCK.md", "whole_file": true, "role": "maevra_chapter_1_injury_authority"},
-    {"path": "docs/02_STORY/CHAPTERS/CARD_CASING_TRANSITION_LOCK.md", "whole_file": true, "role": "current_card_physical_state_authority"}
+    {
+      "path": "docs/02_STORY/CHAPTERS/CHAPTER_01.md",
+      "sections": [
+        "Beat 3 — Greenhollow / Torren"
+      ],
+      "role": "current_chapter_01_beat_03_story_authority"
+    },
+    {
+      "path": "docs/02_STORY/CHAPTERS/CHAPTER_01_MAEVRA_BROKEN_ARM_LOCK.md",
+      "whole_file": true,
+      "role": "maevra_chapter_1_injury_authority"
+    },
+    {
+      "path": "docs/02_STORY/CHAPTERS/CARD_CASING_TRANSITION_LOCK.md",
+      "whole_file": true,
+      "role": "current_card_physical_state_authority"
+    }
   ],
   "additional_authority_sources": [
-    {"path": "docs/13_UI_AND_IMPLEMENTATION/FIELD_TRAVERSAL_AND_DIALOGUE_PRESENTATION_LOCK.md", "whole_file": true, "role": "current_field_town_scene_presentation"},
-    {"path": "docs/13_UI_AND_IMPLEMENTATION/DIALOGUE_UI.md", "whole_file": true, "role": "portrait_dialogue_box_authority"},
-    {"path": "docs/01_CHARACTERS/PLAYABLE/Torren.md", "whole_file": true, "role": "torren_character_social_progression_and_reveal_authority"},
-    {"path": "docs/01_CHARACTERS/SUPPORTING/Maevra.md", "whole_file": true, "role": "maevra_character_familiarity_rank_and_reveal_authority"},
-    {"path": "docs/01_CHARACTERS/RELATIONSHIPS/PERMANENT_SIX_RELATIONSHIP_MAP.md", "whole_file": true, "role": "permanent_relationship_language"},
-    {"path": "external-services/canary/brains/torren.yaml", "whole_file": true, "role": "current_torren_runtime_person_brain"},
-    {"path": "external-services/canary/brains/maevra.yaml", "whole_file": true, "role": "current_maevra_runtime_person_brain"},
-    {"path": "docs/03_DIALOGUE/AGENT_SYSTEM/REHEARSAL_FIRST_AUTHORING_LOCK.md", "whole_file": true, "role": "rehearsal_first_dialogue_method"},
-    {"path": "docs/03_DIALOGUE/AGENT_SYSTEM/KNOWLEDGE_FIREWALL_INVISIBILITY_RULE.md", "whole_file": true, "role": "invisible_knowledge_firewall"},
-    {"path": "docs/03_DIALOGUE/AGENT_SYSTEM/MATURE_ADULT_SPEECH_AND_PROFANITY_LOCK.md", "whole_file": true, "role": "mature_adult_register_rule"}
+    {
+      "path": "docs/13_UI_AND_IMPLEMENTATION/FIELD_TRAVERSAL_AND_DIALOGUE_PRESENTATION_LOCK.md",
+      "whole_file": true,
+      "role": "current_field_town_scene_presentation"
+    },
+    {
+      "path": "docs/13_UI_AND_IMPLEMENTATION/DIALOGUE_UI.md",
+      "whole_file": true,
+      "role": "portrait_dialogue_box_authority"
+    },
+    {
+      "path": "docs/01_CHARACTERS/PLAYABLE/Torren.md",
+      "whole_file": true,
+      "role": "torren_character_social_progression_and_reveal_authority"
+    },
+    {
+      "path": "docs/01_CHARACTERS/SUPPORTING/Maevra.md",
+      "whole_file": true,
+      "role": "maevra_character_familiarity_rank_and_reveal_authority"
+    },
+    {
+      "path": "docs/01_CHARACTERS/RELATIONSHIPS/PERMANENT_SIX_RELATIONSHIP_MAP.md",
+      "whole_file": true,
+      "role": "permanent_relationship_language"
+    },
+    {
+      "path": "external-services/canary/brains/torren.yaml",
+      "whole_file": true,
+      "role": "current_torren_runtime_person_brain"
+    },
+    {
+      "path": "external-services/canary/brains/maevra.yaml",
+      "whole_file": true,
+      "role": "current_maevra_runtime_person_brain"
+    },
+    {
+      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/REHEARSAL_FIRST_AUTHORING_LOCK.md",
+      "whole_file": true,
+      "role": "rehearsal_first_dialogue_method"
+    },
+    {
+      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/SPOKEN_DIALOGUE_VS_NARRATION_LOCK.md",
+      "whole_file": true,
+      "role": "spoken_dialogue_narration_and_invisible_knowledge_firewall"
+    },
+    {
+      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/MATURE_ADULT_SPEECH_AND_PROFANITY_LOCK.md",
+      "whole_file": true,
+      "role": "mature_adult_register_rule"
+    }
   ],
   "scene_context_seed": {
     "location_name": "Greenhollow route-board area",
@@ -35,7 +94,10 @@
     "immediate_destination_on_entry": "Greenhollow",
     "location_presentation": "town_field_models_allowed",
     "dialogue_presentation": "portraits_plus_dialogue_box",
-    "combat_party_on_entry": ["cyanis", "ilyra"],
+    "combat_party_on_entry": [
+      "cyanis",
+      "ilyra"
+    ],
     "maevra_injury_state": "broken_arm_splinted_from_broken_convoy_attack",
     "maevra_party_status": "noncombat_traveling_companion",
     "torren_party_status_on_entry": "not_yet_traveling_with_group",
@@ -52,9 +114,35 @@
     "Hollow Watch has been held by the Black Host for roughly a week and excavation traffic has gone up.",
     "Torren joins the Hollow Watch operation as temporary combat support."
   ],
-  "forbidden_presentation": ["repeated_route_board_chalk_animation", "chalk_handoff_business", "field_case_or_equipment_prep_animation", "repeated_pointing_or_turning_for_dialogue", "ambient_cart_or_prop_vignettes_authored_by_dialogue", "extended_medical_discussion_of_maevra_arm"],
-  "forbidden_reveals": ["exact_maevra_torren_history_duration", "maevra_torren_enlistment_ages", "maevra_torren_former_lovers_or_sex_history", "maevra_torren_breakup_or_reunion_history", "maevra_torren_current_romantic_status", "torren_private_romantic_feelings", "hollow_watch_garrison_fate_before_investigation", "black_host_excavation_target", "older_descent_beneath_fort", "ancient_ruin_true_purpose", "wayfinder_or_junction_ancient_significance", "prime_or_last_sentinel_identity", "bearer_or_authorization_explanation"],
-  "forbidden_dialogue_drift": ["torren_as_route_exposition_device_only", "torren_forced_to_one_word_turns_by_template", "maevra_as_command_exposition_only", "sanitized_uniformly_polite_adult_dialogue"],
+  "forbidden_presentation": [
+    "repeated_route_board_chalk_animation",
+    "chalk_handoff_business",
+    "field_case_or_equipment_prep_animation",
+    "repeated_pointing_or_turning_for_dialogue",
+    "ambient_cart_or_prop_vignettes_authored_by_dialogue",
+    "extended_medical_discussion_of_maevra_arm"
+  ],
+  "forbidden_reveals": [
+    "exact_maevra_torren_history_duration",
+    "maevra_torren_enlistment_ages",
+    "maevra_torren_former_lovers_or_sex_history",
+    "maevra_torren_breakup_or_reunion_history",
+    "maevra_torren_current_romantic_status",
+    "torren_private_romantic_feelings",
+    "hollow_watch_garrison_fate_before_investigation",
+    "black_host_excavation_target",
+    "older_descent_beneath_fort",
+    "ancient_ruin_true_purpose",
+    "wayfinder_or_junction_ancient_significance",
+    "prime_or_last_sentinel_identity",
+    "bearer_or_authorization_explanation"
+  ],
+  "forbidden_dialogue_drift": [
+    "torren_as_route_exposition_device_only",
+    "torren_forced_to_one_word_turns_by_template",
+    "maevra_as_command_exposition_only",
+    "sanitized_uniformly_polite_adult_dialogue"
+  ],
   "allowed_information_transfers": [],
   "exact_line_anchors": [],
   "max_beats": 26,
