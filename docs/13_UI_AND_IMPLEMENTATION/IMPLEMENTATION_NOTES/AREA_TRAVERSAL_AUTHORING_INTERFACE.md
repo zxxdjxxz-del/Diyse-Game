@@ -159,7 +159,7 @@ How quickly the player reaches:
 A long route can have slow progression but healthy beat pacing.
 
 ### Dialogue implication
-Do not assume a long traversal requires a major cutscene every few minutes. Minor dialogue, NPC texture, discoveries, encounters and landmarks can share the pacing load.
+Do not assume a long traversal requires a major cutscene every few minutes. Authored **stop scenes**, NPC interactions at stopped locations, discoveries, encounters, landmarks, and deliberate silence can share the pacing load. Dialogue does not run over player-controlled movement.
 
 ---
 
@@ -200,12 +200,14 @@ Examples:
 - intentional safe route segment.
 
 ### AMBER — active but manageable
-Good for short dialogue or walking exchange.
+Good for a **brief authored stop only when stopping is credible**.
 Examples:
-- ordinary encounter-enabled road;
-- investigation corridor;
-- transitional field segment;
+- ordinary encounter-enabled road with a natural safe pocket;
+- investigation corridor with a deliberate inspection stop;
+- transitional field segment with a clear authored threshold;
 - location where urgency exists but is not immediate.
+
+AMBER never means dialogue layered over movement.
 
 ### RED — sustained pressure
 Avoid ordinary long dialogue.
@@ -217,49 +219,60 @@ Examples:
 - active battle;
 - immediate threat corridor.
 
-A RED state may contain a deliberate story-combat pause only when current story/gameplay authority creates one.
+A RED state does not support spoken dialogue during active traversal or active combat. If dialogue is essential, move it to a pre-combat threshold, post-combat resolution, or another credible authored stop.
 
 ---
 
-## 9. Dialogue-safe traversal
+## 9. Dialogue timing on routes and around combat
 
 Standing dialogue-facing gameplay rule:
 
-- Mandatory authored walking dialogue temporarily suppresses encounter triggering for the exchange plus a short buffer.
-- The local encounter-pressure state is **preserved**, not reset, discarded, or exploited.
-- Short post-battle banter can use the normal grace window.
-- Long dialogue requires a credible safe context or explicit protected traversal window.
-- Do not weaken an area's intended combat identity globally just to make room for prose.
-- If a corridor is supposed to feel like high-pressure pursuit, move the processing conversation to the next secured threshold.
-- Boss aftermaths, major recruitment, surrender/capture, Prime awakening, major revelation, and genuine transformation endings deserve authored breathing room before random pressure resumes.
+> **Traversal is silent while player control is active. Active combat is also dialogue-free.**
 
-Current implementation may represent the exact suppression mechanics differently over time, but the pacing purpose remains controlling unless explicitly revised.
+For route dialogue:
+- use a natural stopping point, story-bearing cell, secured pocket, interaction trigger, or other authored threshold;
+- pause/lock movement before dialogue begins;
+- preserve the local encounter-pressure state across the stop rather than resetting or exploiting it;
+- return cleanly to exploration when the scene ends;
+- if stopping would damage an area's pressure or navigation identity, defer the conversation.
+
+For battle-related dialogue:
+- pre-fight dialogue ends before battle control begins;
+- active battle contains no spoken dialogue or combat barks;
+- post-battle dialogue begins only after combat has fully resolved;
+- bosses, recruitment, surrender/capture, Prime awakening, major revelation, and genuine transformation endings may receive authored breathing room before encounter pressure resumes.
+
+Do not weaken an area's intended combat identity globally just to make room for prose.
 
 ---
 
 ## 10. Normal traversal is gameplay
 
-Diyse should not become a walk-and-talk game by default.
+Diyse should not become a walk-and-talk game.
 
-Normal traversal may contain dialogue, but the core pattern remains available:
+The core route pattern is:
 
-> **gameplay → natural stopping point → authored scene → gameplay**
+> **gameplay → natural stopping point → authored stop scene when needed → gameplay**
 
-Walking conversation is especially appropriate when:
-- the speaker is commenting on the route;
-- the environment is part of what is being discussed;
-- an NPC is physically leading the group;
-- the scene is short enough not to punish exploration control;
-- maintaining motion improves naturalism.
+Silence during travel is intentional, not missing content. Route characterization can also come from:
+- exploration choices;
+- environment and landmarks;
+- encounter pressure;
+- discoveries;
+- NPCs at fixed locations;
+- authored scenes at thresholds;
+- post-combat scenes after combat has ended.
 
-Stop-and-talk is better when:
-- precise blocking matters;
-- silence matters;
+A stop scene is appropriate when:
+- somebody genuinely needs to say something before the group continues;
+- a route decision must be made;
+- evidence needs discussion;
+- relationship texture earns a pause;
 - multiple people need readable reactions;
-- the player needs to process a reveal;
-- traversal pressure would undermine delivery.
+- the player needs to process a reveal.
 
----
+If none of those justify stopping play, let traversal remain silent.
+
 
 ## 11. Side paths and optional dialogue
 
