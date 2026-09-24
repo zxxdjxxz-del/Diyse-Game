@@ -144,11 +144,22 @@ class Store:
     def memories(self, namespace: str, limit: int = 12) -> list[dict[str, Any]]:
         with self.connect() as con:
             rows = con.execute(
-                "SELECT content_json FROM memories WHERE namespace=? "
-                "ORDER BY created_at DESC LIMIT ?",
+                "SELECT memory_id,memory_type,scope_id,content_json,created_at "
+                "FROM memories WHERE namespace=? ORDER BY created_at DESC LIMIT ?",
                 (namespace, limit),
             ).fetchall()
-            return [json.loads(row["content_json"]) for row in rows]
+            result: list[dict[str, Any]] = []
+            for row in rows:
+                content = json.loads(row["content_json"])
+                if not isinstance(content, dict):
+                    content = {"content": content}
+                record = dict(content)
+                record.setdefault("memory_id", row["memory_id"])
+                record.setdefault("memory_type", row["memory_type"])
+                record.setdefault("scope_id", row["scope_id"])
+                record.setdefault("created_at", row["created_at"])
+                result.append(record)
+            return result
 
     def state(self) -> dict[str, Any]:
         with self.connect() as con:
@@ -170,6 +181,10 @@ class Store:
         content: dict[str, Any],
     ) -> bool:
         memory_id = content.get("memory_id") or str(uuid.uuid4())
+        stored_content = dict(content)
+        stored_content.setdefault("memory_id", memory_id)
+        stored_content.setdefault("memory_type", memory_type)
+        stored_content.setdefault("scope_id", scope_id)
         before = con.total_changes
         con.execute(
             "INSERT OR IGNORE INTO memories("
@@ -180,7 +195,7 @@ class Store:
                 namespace,
                 memory_type,
                 scope_id,
-                json.dumps(content, ensure_ascii=False),
+                json.dumps(stored_content, ensure_ascii=False),
                 datetime.datetime.now(datetime.timezone.utc).isoformat(),
             ),
         )
@@ -371,6 +386,69 @@ def compact_brain() -> dict[str, Any]:
     return result
 
 
+def authorized_memories_for_turn(
+    namespace: str,
+    person_runtime_context: dict[str, Any],
+) -> tuple[list[dict[str, Any]], dict[str, Any]]:
+    """Apply authorization before salience. Relevance must never broaden access."""
+    candidate_limit = 64 if namespace == "story" else 24
+    all_memories = STORE.memories(namespace, limit=candidate_limit)
+
+    if namespace != "story":
+        return all_memories, {
+            "mode": "conversation_namespace",
+            "authorized_count": len(all_memories),
+            "candidate_count": len(all_memories),
+        }
+
+    policy_value = person_runtime_context.get("memory_authorization", {})
+    policy = policy_value if isinstance(policy_value, dict) else {}
+    mode = str(policy.get("mode", "none")).strip().lower()
+
+    if mode == "none":
+        authorized: list[dict[str, Any]] = []
+    elif mode == "explicit_ids":
+        allowed_ids = {
+            str(value)
+            for value in policy.get("authorized_memory_ids", [])
+            if str(value).strip()
+        }
+        authorized = [
+            memory
+            for memory in all_memories
+            if str(memory.get("memory_id", "")) in allowed_ids
+        ]
+    elif mode == "scene_ids":
+        allowed_scene_ids = {
+            str(value)
+            for value in policy.get("authorized_scene_ids", [])
+            if str(value).strip()
+        }
+        authorized = [
+            memory
+            for memory in all_memories
+            if str(memory.get("source_scene_id", memory.get("scope_id", "")))
+            in allowed_scene_ids
+        ]
+    elif mode == "all_committed_story":
+        # Compatibility mode for known-forward-only authoring. Historical rewrite
+        # requests should use explicit_ids or scene_ids instead.
+        authorized = all_memories
+    else:
+        authorized = []
+
+    return authorized, {
+        "mode": mode,
+        "authorized_count": len(authorized),
+        "candidate_count": len(all_memories),
+        "authorized_memory_ids": [
+            str(memory.get("memory_id", ""))
+            for memory in authorized
+            if str(memory.get("memory_id", ""))
+        ],
+    }
+
+
 TURN_PROMPT = f"""
 You are the persistent external Diyse Person Agent for {CHARACTER_NAME}.
 
@@ -388,6 +466,15 @@ Dialogue performance:
 - comedy timing may use deadpan, pause, escalation, callback, awkwardness or refusal only when natural;
 - silence/nonparticipation are valid;
 - competence does not equal omniscience.
+
+Runtime reliability:
+- hard current context in person_runtime_context is injected authority for this turn, not a memory guess;
+- only the supplied authorized_memories are available as persistent story memory;
+- memory authorization happens before relevance; never infer access to an omitted memory;
+- preserve epistemic status: known fact, observation, report, claim, inference, suspicion, assumption, misunderstanding, and unknown are not interchangeable;
+- relationship dimensions may progress independently; do not infer late intimacy from one strong dimension;
+- use the scene-local wants/avoidances/attention if supplied, but permanent traits do not automatically become the scene motive;
+- private appraisal, visible action, speech, and withheld content may differ.
 
 Knowledge firewall:
 - shared context is runtime synthesis, not omniscience;
@@ -437,6 +524,7 @@ class TurnRequest(BaseModel):
     scene_context: dict[str, Any] = Field(default_factory=dict)
     current_floor_state: dict[str, Any] = Field(default_factory=dict)
     allowed_information_transfers: list[Any] = Field(default_factory=list)
+    person_runtime_context: dict[str, Any] = Field(default_factory=dict)
 
 
 class CommitRequest(BaseModel):
@@ -506,18 +594,24 @@ async def turn(req: TurnRequest, authorization: str | None = Header(default=None
         raise HTTPException(409, "Canon snapshot mismatch.")
 
     memory_namespace = "story" if req.continuity_namespace == "story" else "sandbox"
+    authorized_memories, memory_authorization_audit = authorized_memories_for_turn(
+        memory_namespace,
+        req.person_runtime_context,
+    )
     result = await model_json(
         TURN_PROMPT,
         {
             "brain": compact_brain(),
             "shared_context": SHARED_CONTEXT,
-            "memories": STORE.memories(memory_namespace),
+            "authorized_memories": authorized_memories,
+            "memory_authorization_audit": memory_authorization_audit,
             "current_state": STORE.state(),
             "request": req.model_dump(),
         },
     )
     result["request_id"] = req.request_id
     result["character_id"] = CHARACTER_ID
+    result["memory_authorization_audit"] = memory_authorization_audit
     return result
 
 
