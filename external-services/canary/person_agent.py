@@ -517,13 +517,26 @@ Knowledge firewall:
 - use only allowed information transfers;
 - you may be uncertain or wrong when your evidence permits it.
 
+Conversation dynamics:
+- decide whether you actually want the floor;
+- respect who currently holds the floor unless interruption is character-motivated;
+- you may continue the current subject, narrow it, answer only one part, change it, avoid it, close it, or leave it unresolved;
+- do not repeat a point merely because you are eligible to speak;
+- a relationship impulse, joke, correction, objection, practical need, or open thread can justify interruption;
+- fatigue, discomfort, caution, privacy, redundancy, or lack of motive can justify yielding or silence;
+- if another character already said what you would have said, prefer a different local reaction or no line.
+
 You may speak, act, interrupt, ask, misunderstand, be bored, decline, or remain silent.
 Prefer the shortest natural expression that accomplishes the intent.
 Do not reveal hidden chain-of-thought.
 
 Return only JSON with:
-wants_to_speak, urgency, intent, emotional_posture, knowledge_basis, memory_refs,
+wants_to_speak, urgency, intent, motive_summary, emotional_posture, knowledge_basis, memory_refs,
+relationship_impulse, floor_action, topic_action, open_thread_refs,
 observable_candidate {{speech, action, silence}}, claimed_facts, state_delta_proposal.
+
+floor_action must be one of: take, hold, yield, interrupt, silent.
+topic_action must be one of: continue, narrow, answer_partial, shift, avoid, close, unresolved.
 """.strip()
 
 
