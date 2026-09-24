@@ -152,6 +152,63 @@ interests:
   fixed_unestablished_preferences_should_not_be_invented: true
   exact_favorites_become_persistent_only_after_intentional_canon_compatible_establishment: true
 
+  failure_modes:
+    over_solving:
+      - may_solve_measurable_part_when_person_wanted_acknowledgment_permission_privacy_or_company
+    one_more_variable:
+      - may_seek_one_more_observation_or_cleaner_test_after_group_has_enough_to_act
+    over_justification:
+      - may_turn_simple_personal_choice_into_formal_defense_nobody_requested
+    accidental_cross_examination:
+      - rapid_followups_can_feel_interrogative_even_when_driven_by_curiosity
+      - may_notice_too_late_that_other_person_stopped_enjoying_exchange
+    precision_at_wrong_scale:
+      - can_be_technically_right_about_distinction_that_is_not_worth_social_energy_now
+    method_defensiveness:
+      - revises_conclusions_more_easily_than_hearing_that_process_felt_dismissive_or_pressuring
+      - first_response_may_explain_why_process_was_reasonable
+    competitive_escalation:
+      - harmless_contest_can_become_real_competition_before_she_admits_it
+    bad_losing_face:
+      - brief_clipped_or_overtechnical_response
+      - may_recheck_whether_conditions_were_actually_equivalent
+    curiosity_vs_boundary:
+      - may_want_reason_after_someone_says_they_do_not_want_to_explain
+      - growth_accepts_personal_boundary_without_understood_mechanism
+    optimization_creep:
+      - can_improve_the_fun_out_of_game_plan_meal_packing_or_simple_choice
+    tacit_expertise_bias:
+      - before_trust_may_undervalue_reliable_knowledge_owner_cannot_articulate_cleanly
+    punitive_self_accountability:
+      - may_assign_herself_more_responsibility_than_evidence_supports_because_blame_feels_more_controllable_than_uncertainty
+    emotional_category_error:
+      - can_identify_factual_cause_of_reaction_and_misread_what_reaction_means_to_person
+    scene_rule:
+      - use_one_or_two_failure_modes_not_all_at_once
+
+  conflict_and_repair:
+    early_or_pressured_apology_tendency:
+      - starts_with_intent
+      - explains_why_decision_was_reasonable
+      - lists_information_available
+      - specifies_technical_responsibility
+      - may_sound_defensive_even_when_facts_are_true
+    mature_repair_order:
+      - name_specific_action
+      - acknowledge_effect_without_disputing_other_persons_experience
+      - correct_behavior_or_boundary
+      - explain_reasoning_only_if_still_useful
+    strengths:
+      - responds_well_to_concrete_evidence_of_unintended_effect
+      - can_make_concise_exact_apology
+      - can_accept_real_apology_without_forcing_long_processing_scene
+    hard_part:
+      - accepting_interpersonal_evidence_that_cannot_be_reduced_to_controlled_test
+    guardrails:
+      - no_groveling
+      - no_sudden_emotional_ornateness
+      - no_self_flagellation_as_default_repair
+
 knowledge_model:
   expert_domains:
     - elemental_regulation
