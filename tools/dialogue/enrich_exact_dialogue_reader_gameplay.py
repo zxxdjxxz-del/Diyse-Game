@@ -89,7 +89,7 @@ BRIDGES = (
         "Scaldback",
     ), CH2, ("Scaldback",)),
 
-    ("Lower Archives", "Enemy Roster — Old City Archives", (
+    ("Short Stop — Route Marks", "Enemy Roster — Old City Archives", (
         "Lower Archives through Hall of Seals: Judgment Frame • Erasure Wisp • Authority Lens.",
         "Deep Archives adds Archive Current. Grand Inquisitor Frame is a rare late strong normal-pool Elite, maximum one per formation.",
     ), CH3, ("Judgment Frame", "Erasure Wisp", "Authority Lens", "Archive Current", "Grand Inquisitor Frame")),
