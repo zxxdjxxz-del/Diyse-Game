@@ -1,4 +1,4 @@
-schema_version: 1
+schema_version: 2
 status: RUNTIME_SYNTHESIS
 source_authority:
   - docs/03_DIALOGUE/README.md
@@ -20,6 +20,300 @@ brain_invocation_contract:
     - observable_scene_context
     - shared_dialogue_and_scene_rules
   runtime_yaml_is_not_the_whole_brain: true
+
+runtime_reliability_contract:
+  principle: hard_canon_cannot_drift_human_recall_can
+  truth_layers:
+    hard_current_context:
+      mode: injected_not_retrieved
+      required:
+        - chapter_sequence_and_exact_story_position
+        - participant_and_party_state
+        - location_sub_area_cell_and_area_phase
+        - current_character_identity_age_face_and_class_labels
+        - current_unlock_state
+        - hard_equipment_or_weapon_restrictions_when_relevant
+        - recruitment_status
+        - reveal_and_knowledge_gates
+        - forbidden_future_knowledge
+        - relationship_chronology_gate
+        - gameplay_pressure_and_recovery_when_narratively_relevant
+        - current_names_and_terminology
+        - player_control_and_dialogue_legality
+      on_missing_or_conflict:
+        - owning_current_authority_wins
+        - repair_stale_runtime_synthesis
+        - mark_dependency_open_if_authority_itself_is_unresolved
+        - never_guess
+        - never_reconcile_contradiction_through_character_dialogue
+
+    persistent_personal_memory:
+      mode: authorize_then_retrieve_selectively
+      rule: retrieval_may_fail_authorization_may_not
+      examples:
+        - promises
+        - conflicts
+        - favors
+        - jokes_and_callbacks
+        - boundaries
+        - preferences
+        - prior_beliefs_and_corrections
+        - relationship_specific_language
+        - unresolved_threads
+
+    momentary_cognition:
+      mode: intentionally_variable
+      may_change:
+        - attention
+        - retrieved_authorized_memory
+        - inference
+        - suspicion
+        - emotional_appraisal
+        - misunderstanding
+        - competing_motives
+        - willingness_to_speak
+        - disclosure_choice
+        - silence
+
+  epistemic_state_model:
+    statuses:
+      known_fact: directly_established_for_this_character
+      direct_observation: personally_witnessed_open_to_interpretation
+      trusted_report: reported_by_currently_accepted_source
+      heard_claim: heard_not_established
+      inference: conclusion_drawn_from_evidence
+      suspicion: live_possibility_with_insufficient_support
+      assumption: treated_as_true_without_sufficient_verification
+      misunderstanding: active_incorrect_model_plausible_from_evidence
+      unknown: not_known
+      forbidden_future: runtime_knows_but_character_cannot_access
+    rules:
+      - confidence_does_not_upgrade_inference_to_fact
+      - repetition_does_not_upgrade_claim_to_fact
+      - one_character_knowing_does_not_make_information_shared
+      - author_knowledge_never_enters_person_packet_for_exposition_convenience
+      - corrections_update_status_without_erasing_prior_belief_history
+      - character_can_remember_what_they_believed_then_and_what_they_know_now
+
+  memory_record_contract:
+    recommended_fields:
+      - memory_id
+      - owner_character
+      - source_chapter_scene_or_event
+      - acquisition_mode
+      - people_present
+      - privacy_visibility_scope
+      - epistemic_status_at_acquisition
+      - current_epistemic_status
+      - corrected_boolean
+      - correction_source
+      - relationships_involved
+      - emotional_salience
+      - practical_salience
+      - unresolved_obligation_or_open_thread
+      - last_meaningful_callback_when_useful
+    acquisition_modes:
+      - observed
+      - told
+      - inferred
+      - participated
+      - promised
+      - corrected
+
+  memory_retrieval:
+    stage_1_authorization:
+      - did_character_have_access
+      - had_event_happened_by_story_position
+      - was_information_private
+      - was_information_actually_transferred
+      - has_later_correction_changed_status
+      - is_memory_prohibited_by_current_chronology
+    stage_2_salience:
+      - current_relationship_relevance
+      - current_scene_similarity
+      - recency
+      - emotional_importance
+      - practical_usefulness
+      - unresolved_obligation
+      - embarrassment
+      - repetition
+      - character_specific_memory_bias
+    hard_rule: relevance_never_bypasses_authorization
+    character_salience_examples:
+      Nimera:
+        - exact_wording
+        - provenance
+        - contradiction
+        - correction_history
+      Torren:
+        - route_conditions
+        - practical_consequence
+        - physical_pattern
+        - peoples_habits
+      Cyanis:
+        - failures
+        - promises
+        - exposure
+        - unfinished_responsibility
+      Ilyra:
+        - explicit_boundaries
+        - what_actually_helped
+        - preferred_form_of_care_or_space
+      Vaelira:
+        - prediction_failures
+        - changed_variables
+        - calibration_corrections
+        - conditions_that_changed_model
+
+  relationship_runtime_vector:
+    principle: no_single_friendship_number
+    dimensions:
+      - chronology_stage
+      - trust
+      - familiarity
+      - conflict_safety
+      - disagreement_tolerance
+      - teasing_permission
+      - profanity_vulgar_banter_permission
+      - affectionate_insult_permission
+      - physical_care_touch_permission_when_relevant
+      - favor_asking_comfort
+      - refusal_safety
+      - willingness_to_ask_preference
+      - willingness_to_state_preference
+      - ordinary_company_comfort
+      - silence_comfort
+      - disclosure_comfort
+      - shared_jokes_callbacks
+      - borrowed_language
+      - unresolved_friction
+      - recent_rupture
+      - recent_repair
+      - asymmetry_between_people
+    rules:
+      - dimensions_progress_independently
+      - current_story_position_controls_state
+      - eventual_endpoint_never_backfills_earlier_stage
+    examples:
+      - Ilyra_Seyrik_safe_refusal_can_precede_affectionate_insult
+      - Torren_Nimera_professional_respect_precedes_familial_meaning
+      - Vaelira_can_borrow_phrase_before_general_profanity_comfort
+      - high_trust_can_coexist_with_low_disclosure_comfort
+
+  scene_local_person_state:
+    fields:
+      - immediate_wants
+      - immediate_avoidances
+      - current_task
+      - physical_activity
+      - attention_target
+      - private_emotional_appraisal
+      - current_interpretation_of_scene
+      - uncertainty
+      - active_belief_suspicion_or_misunderstanding
+      - relevant_authorized_memories
+      - open_conversational_threads
+      - willing_to_discuss
+      - unwilling_to_discuss
+      - company_distance_action_information_amusement_or_silence_preference
+      - current_desire_to_speak
+      - interruption_trigger
+      - privacy_preference
+      - visible_expression_choice
+    rule: permanent_trait_does_not_automatically_become_scene_motive
+
+  competing_motives:
+    allowed: true
+    examples:
+      Cyanis:
+        - wants_rest
+        - wants_to_finish_work
+      Ilyra:
+        - wants_Seyriks_company
+        - does_not_want_to_pressure_him
+      Vaelira:
+        - wants_answer
+        - recognizes_method_could_be_intrusive
+      Nimera:
+        - wants_to_ask_question
+        - knows_question_may_not_be_hers_to_ask
+      Torren:
+        - wants_to_solve_problem
+        - knows_taking_over_would_violate_choice
+    output_rule: scene_emerges_from_which_motive_wins_which_is_suppressed_and_what_remains_visible
+
+  private_vs_visible:
+    separate:
+      - private_appraisal
+      - visible_nonverbal_expression
+      - spoken_expression
+      - withheld_content
+    rule: performance_tell_does_not_require_verbal_explanation
+
+  pre_generation_gate:
+    validate:
+      - exact_story_position
+      - participant_and_recruitment_legality
+      - hard_current_identity_facts
+      - knowledge_and_reveal_gates
+      - forbidden_future_knowledge
+      - location_and_player_control_legality
+      - relationship_chronology_and_dimensions
+      - current_physical_emotional_state
+      - memory_authorization
+      - active_epistemic_states
+      - scene_local_wants_avoidances_attention
+      - unresolved_dependencies
+    failure_behavior:
+      - owning_authority_wins
+      - stale_runtime_is_repaired
+      - unresolved_authority_is_marked_open
+      - no_person_agent_dialogue_is_used_to_patch_conflict
+
+  post_generation_gate:
+    validate:
+      - factual_claims_against_hard_context
+      - memory_and_callback_ownership
+      - relationship_behavior_is_earned
+      - belief_or_suspicion_not_upgraded_to_authorial_fact
+      - no_future_knowledge_leak
+      - no_stale_class_face_equipment_or_name
+      - no_narrator_or_canon_checker_behavior
+      - silence_considered_over_redundant_participation
+      - staging_and_player_control_legality
+    repair_mode: revise_behind_fiction
+
+  post_scene_commit:
+    question: what_actually_changed_because_this_scene_happened
+    possible_deltas:
+      - new_fact_learned
+      - claim_heard
+      - inference_formed
+      - suspicion_strengthened_or_weakened
+      - misunderstanding_created_or_corrected
+      - preference_learned
+      - boundary_stated
+      - promise_made
+      - joke_or_callback_established
+      - favor_given
+      - rupture_created
+      - repair_completed
+      - relationship_permission_changed
+      - open_thread_created_or_resolved
+      - self_preference_discovered_or_stated
+    no_change_is_valid: true
+    do_not_auto_advance:
+      - trust
+      - friendship
+      - intimacy
+      - disclosure
+      - profanity_permission
+      - affectionate_insult
+      - physical_familiarity
+      - forgiveness
+    persistence_rule:
+      - only_canon_checker_PASS_commits
+      - sandbox_rehearsal_or_rejected_draft_never_commits
 
 dialogue_life:
   craft_formula:
@@ -217,7 +511,7 @@ dialogue_life:
     Ilyra_Torren: low_verbal_density_professional_respect_comfortable_silence
     Ilyra_Nimera: warmth_curiosity_preservation_dry_profane_humor
     Ilyra_Vaelira: calm_real_disagreement_consequence_vs_technical_possibility
-    Ilyra_Seyrik: careful_language_around_guilt_injury_care_agency_consent_then_ordinary_topics
+    Ilyra_Seyrik: major_earned_friendship_safe_refusal_accountability_without_self_erasure_to_ordinary_company_humor_mutual_preference_and_reciprocal_care
     Torren_Nimera: familial_protective_teasing_without_infantilization
     Torren_Vaelira: field_evidence_vs_model_evidence_useful_funny_friction
     Torren_Seyrik: veteran_shorthand_restrained_conversation_few_words
@@ -303,10 +597,20 @@ scene_construction:
       - dialogue_readiness
       - player_control_mode
     people:
-      - current_state
-      - relationship_state
-      - relevant_memories
+      - current_physical_emotional_state
+      - hard_current_identity_context
+      - relationship_runtime_vector
+      - relationship_dimensions_relevant_to_scene
+      - authorized_then_salient_memories
+      - memory_provenance_when_callback_matters
+      - epistemic_states_known_observed_reported_inferred_suspected_assumed_misunderstood_unknown
       - knowledge_boundaries
+      - immediate_wants_and_avoidances
+      - current_task_and_physical_activity
+      - open_threads
+      - willing_and_unwilling_topics
+      - private_appraisal_vs_visible_expression
+      - current_motive_to_speak_or_remain_silent
     world_life:
       - local_work_or_civilian_activity
       - route_supply_repair_weather_pressure
@@ -391,6 +695,28 @@ scene_construction:
         - keep_short_or_carefully_stage
       RED:
         - avoid_ordinary_long_dialogue
+
+  reliability_pipeline:
+    before_rehearsal:
+      - inject_hard_context
+      - validate_chronology_and_knowledge_authorization
+      - resolve_relationship_runtime_dimensions
+      - retrieve_only_authorized_memories
+      - label_epistemic_status
+      - assemble_scene_local_person_state
+      - allow_competing_motives
+    after_rehearsal_before_commit:
+      - validate_fact_claims
+      - validate_memory_ownership
+      - validate_relationship_timing
+      - validate_epistemic_status
+      - validate_future_knowledge_firewall
+      - validate_staging_and_player_control_legality
+      - revise_bad_output_behind_fiction
+    after_canon_checker_PASS:
+      - commit_only_earned_deltas
+      - preserve_open_threads
+      - no_change_is_valid
 
   performance_contract:
     character_local_speech:
