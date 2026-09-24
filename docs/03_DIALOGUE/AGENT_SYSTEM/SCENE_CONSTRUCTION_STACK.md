@@ -111,7 +111,31 @@ Use current battle and encounter authority when dialogue touches combat:
 
 ---
 
-## 3. Dialogue Director scene-job packet
+## 3. Per-character turn rule
+
+Once the shared scene job is assembled, do **not** give every character the same scene interpretation and merely rewrite it in six voices.
+
+For each relevant person, run:
+
+> **Notice → Interpret → Choose → Express**
+
+- **Notice:** what this specific person actually attends to first or finds salient;
+- **Interpret:** what they think it means using only their knowledge, memory, relationship, and state;
+- **Choose:** whether they speak, act, react, interrupt, joke, withhold, or remain silent;
+- **Express:** only then apply their individual voice and performance.
+
+The full character stack informs all four stages simultaneously. Do not treat voice as a cosmetic pass applied after a generic shared thought.
+
+The process may stay implicit during drafting; the writer does not need to print four fields for every line.
+
+This rule is especially important in ensemble scenes. Different characters should sometimes:
+- notice different evidence;
+- disagree about what the same evidence means;
+- care about different consequences;
+- decide the moment does not require them;
+- react physically while somebody else speaks.
+
+## 5. Dialogue Director scene-job packet
 
 Before drafting, the Dialogue Director should be able to answer these fields.
 
@@ -168,7 +192,7 @@ If these fields are unknown because the current story/map design has not establi
 
 ---
 
-## 4. Scene modes
+## 5. Scene modes
 
 ### Mode A — Full authored stop scene
 Best for:
@@ -249,7 +273,7 @@ Use only when current battle authority explicitly permits an authored pause/tran
 
 ---
 
-## 5. Area-design rules that directly affect dialogue
+## 6. Area-design rules that directly affect dialogue
 
 The ongoing JRPG area study is research/design guidance. Its current numerical timing bands are not silently locked canon.
 
@@ -338,7 +362,7 @@ If the player reuses space under a changed objective or state, dialogue should n
 
 ---
 
-## 6. Gameplay-loop pressure and dialogue readiness
+## 7. Gameplay-loop pressure and dialogue readiness
 
 For scene placement, use a qualitative dialogue-readiness state.
 
@@ -374,7 +398,7 @@ RED can become an authored protected pause only when current story/gameplay auth
 
 ---
 
-## 7. Mature-adult naturalism
+## 8. Mature-adult naturalism
 
 Characters may:
 - interrupt;
@@ -396,7 +420,7 @@ Important dialogue earns precision. Most dialogue should not sound like a quotat
 
 ---
 
-## 8. Comedy timing
+## 9. Comedy timing
 
 Comedy is built from character and timing, not inserted joke quota.
 
@@ -418,7 +442,7 @@ Do not flatten pair languages into one universal party banter voice.
 
 ---
 
-## 9. Anime expressiveness
+## 10. Anime expressiveness
 
 Anime influence supplies:
 - readable expression changes;
@@ -439,7 +463,7 @@ Use the field model, portrait, camera, pause, and sound together so dialogue doe
 
 ---
 
-## 10. Economical HD-2D staging
+## 11. Economical HD-2D staging
 
 The goal is **economical**, not cheap-looking.
 
@@ -509,7 +533,7 @@ If a scene becomes emotionally flat when reduced to text boxes alone, use the ex
 
 ---
 
-## 11. Character-local speech rule
+## 12. Character-local speech rule
 
 Every line must belong to the speaker as a **person**, not merely be useful to the screenplay.
 
@@ -541,7 +565,7 @@ The **Canon Checker validates the scene externally**. It does not have an in-wor
 
 > **Canon correctness belongs behind the curtain. Character motive belongs on the page.**
 
-## 12. Visual-first information rule
+## 13. Visual-first information rule
 
 Before writing exposition, ask what the player can already see.
 
@@ -563,7 +587,7 @@ Important spatial discoveries should receive a clean visual beat before portrait
 
 ---
 
-## 13. Scene rhythm
+## 14. Scene rhythm
 
 A useful important-scene rhythm may include:
 
@@ -584,7 +608,7 @@ Do not mechanically apply every step.
 
 ---
 
-## 14. Scene economy
+## 15. Scene economy
 
 Before finalizing, remove:
 - repeated explanations;
@@ -610,7 +634,7 @@ Preserve:
 
 ---
 
-## 15. Canon Checker scene audit
+## 16. Canon Checker scene audit
 
 A scene should not commit until the checker can answer yes to the relevant questions.
 
