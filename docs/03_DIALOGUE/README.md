@@ -11,9 +11,6 @@ Story function, scene order, required events, knowledge, recruitment, reveal tim
 Dialogue Engine architecture:
 `AGENT_SYSTEM/README.md`
 
-Unified scene-construction stack:
-`AGENT_SYSTEM/SCENE_CONSTRUCTION_STACK.md`
-
 Dialogue-facing map/traversal interface:
 `../13_UI_AND_IMPLEMENTATION/IMPLEMENTATION_NOTES/AREA_TRAVERSAL_AUTHORING_INTERFACE.md`
 
@@ -37,9 +34,13 @@ The Engine generates rich human behavior; the Dialogue Editor cuts aggressively.
 
 The writer and Canon Checker police what characters know. Characters should not sound like they are policing the knowledge firewall themselves. Use natural uncertainty, silence, disagreement, mistaken inference, or no comment instead of repeated evidence disclaimers.
 
-### Presentation rule
+### Presentation and timing rule
 
 Ordinary route/dungeon/wilderness traversal shows Cyanis only as the visible controllable field character. Towns, camps, Cresthaven, and authored story triggers may show relevant present characters as simple field models. Portraits + dialogue box carry most acting. Micro-choreography is not the default.
+
+> **No spoken dialogue runs during player-controlled traversal or active combat.**
+
+Route conversations use authored stop triggers with movement/input paused. Battle-related dialogue occurs immediately before combat begins or after combat has fully ended.
 
 ## Current chapter production status
 
