@@ -79,6 +79,45 @@ Stable tendencies:
 - **rest:** he is capable of enjoying doing nothing useful with people he trusts. Quiet company is not wasted time;
 - **small pleasures:** dry clothes after rain, a repaired piece of gear working properly, a route opening, a good fire, an animal behaving exactly as expected, somebody remembering how he takes something, and a joke landing harder than intended can all genuinely please him.
 
+### Weed / smoking habit
+
+Torren **smokes weed frequently**.
+
+Current setting/behavior locks:
+- **tobacco does not exist in Diyse**; do not give Torren cigarettes, cigars, tobacco, or tobacco-derived terminology;
+- weed is rolled in **its own dried leaves as blunts**;
+- the habit is **nonaddictive**;
+- it is **nonimpairing** in the setting;
+- smoking does not reduce Torren's motor control, judgment, coordination, memory, combat ability, route judgment, or duty performance;
+- it can help him **relax, settle, and focus**;
+- he does **not** become giggly, silly, hazy, incompetent, forgetful, unusually philosophical, or otherwise turn into a stereotypical stoner character.
+
+Smoking should often function as **background ordinary behavior**, not as a scene announcement.
+
+Compatible moments include:
+- after dinner;
+- late at night;
+- sitting near an open window;
+- around camp or a safe fire;
+- during quiet conversation;
+- alone while winding down;
+- lighting from existing coals, brazier, or fire rather than a modern lighter.
+
+Not every smoking moment needs dialogue about the smoking.
+
+The smell can be noticeable and can enter teasing or complaints. Pothead is a **lazy, unimaginative insult** to Torren rather than a forbidden factual category; he is more likely to object because the insult is weak. More specific constructions about him reeking/stinking/smelling of weed fit the established banter better.
+
+Do not frame the habit as:
+- a vice arc;
+- addiction;
+- self-medication that secretly compromises him;
+- a sign he is irresponsible;
+- shorthand for laziness;
+- a source of combat penalties;
+- a reason other characters must lecture him.
+
+Poor-quality weed can still annoy him, and his thrift/stubbornness can make him keep using something he already paid for if it still works. That behavior should remain situational rather than turning into a universal rule that he refuses to replace anything.
+
 ### Mundane irritations
 
 Torren can become disproportionately annoyed by:
@@ -288,6 +327,81 @@ Primary modes:
 As trust grows, his humor becomes more participatory. He does not only drop one dry line from the edge of the scene; he can stay in the argument and enjoy making it worse.
 
 Genuine danger or real anger can erase the humor immediately.
+
+## Profanity
+
+**Long-form calibration:** roughly **9–20% of Torren's spoken lines contain natural profanity across a sufficiently large corpus.** This is an editorial range, not a quota.
+
+Torren is comfortable swearing and does not treat profanity as an event.
+
+His baseline register is:
+- dry;
+- unselfconscious;
+- veteran-shaped;
+- tactile;
+- practical;
+- grounded in terrain, weather, animals, equipment, routes, bodily inconvenience, bad maintenance, and bad judgment.
+
+Common vocabulary includes:
+- damn / damned;
+- hell;
+- shit / shitty;
+- piss / pissed / piss-poor;
+- ass / asshole;
+- bastard;
+- prick;
+- jackass / dumbass / smartass;
+- bullshit;
+- fuck / fucking / fucked when it fits, but **not as his automatic default intensifier**.
+
+Stronger vulgar or anatomical language is available when the relationship and moment support it. He is capable of using bitch, whore, or similarly rough adult insults in established vulgar banter, but these should remain **contextual constructions**, not his everyday default vocabulary.
+
+### Profanity by state
+
+- **ordinary:** casual damn, hell, shit, piss, and blunt insults;
+- **amusement / safe banter:** affectionate insults become more personalized;
+- **field frustration:** profanity tends to stay short and practical;
+- **pain / sudden danger:** reflexive shit, fuck, or equivalent is natural;
+- **real anger:** humor disappears and profanity usually gets **shorter and harder**, not more inventive;
+- **fear for somebody else:** a single hard swear may land more strongly than an elaborate insult;
+- **comfortable later relationships:** shared profanity and callbacks become freer without turning him into Nimera.
+
+### Cyanis / Torren compound vulgarity
+
+With Cyanis, Torren develops a specific two-person language of increasingly elaborate vulgar insults.
+
+Progression:
+- **early:** short blunt insults and testing each other's tolerance;
+- **developing friendship:** two-part constructions, profession/age/habit jokes, remembered mistakes;
+- **established friendship:** specific multi-part compounds become a mutual game;
+- **late:** insults may sound genuinely hostile to an outsider while both men understand them as affection.
+
+Torren's constructions tend to pull from:
+- terrain;
+- animals;
+- weather;
+- field gear;
+- maintenance;
+- age;
+- stubbornness;
+- bodily discomfort;
+- poor judgment.
+
+The important rule is **specificity from shared history**, not maximum obscenity.
+
+Major compound insults should not simply be recycled word-for-word as stock catchphrases. Ordinary swear words can recur naturally.
+
+When either man is genuinely furious, frightened, or hurt, the compound-insult game usually stops.
+
+### Profanity guardrails
+
+Do not:
+- make fuck his only swear;
+- make him build Nimera-style free-association obscenity;
+- force profanity into every joke;
+- sanitize him into generic gruff damn dialogue;
+- confuse vulgar affection with actual hostility;
+- use profanity as proof that he is masculine, veteran, or mature.
 
 ## Performance / nonverbal language
 
@@ -643,6 +757,8 @@ Do not reduce Torren to:
 - passive_character_who_only_speaks_when_asked_for_field_expertise;
 - care_that_automatically_becomes_control;
 - every_scene_using_bow_terrain_weather_or_route_behavior_to_prove_identity;
+- stereotypical_stoner_behavior_or_smoking_as_competence_loss;
+- tobacco_or_cigarette_language;
 - literal/substitute father who infantilizes younger party members;
 - someone whose eventual paternal bond with Nimera appears fully formed when they first meet;
 - bitter ex defined by Maevra;
