@@ -63,6 +63,48 @@ As he becomes comfortable he can:
 
 Torren can enjoy ordinary quiet, stupid arguments, and practical company without needing the conversation to become confessional.
 
+### Everyday tastes and habits
+
+Torren's ordinary preferences should feel lived-in rather than symbolic.
+
+Stable tendencies:
+- **food:** functional first does not mean tasteless. He prefers food that is hot, filling, competently made, and not overpriced; he can absolutely have opinions about bad stew, burnt bread, weak drink, or a meal that is trying too hard;
+- **comfort:** he tolerates discomfort well when it serves a purpose, but has little patience for avoidable discomfort caused by poor planning, bad maintenance, or somebody refusing an obvious fix;
+- **gear:** he values equipment that works, lasts, can be repaired, and does not demand ceremonial treatment. Visible wear can be a positive sign if it reflects use rather than neglect;
+- **clothing:** practical fit matters more than fashion, but that does not mean he is visually indifferent. He notices whether something suits its use, whether it is built well, and whether somebody looks uncomfortable in it;
+- **weather:** bad weather does not automatically bother him; *bad preparation for predictable weather* does;
+- **animals:** he can like, dislike, respect, distrust, or be amused by individual animals rather than treating every animal as a field specimen;
+- **stories:** once comfortable, he enjoys short anecdotes, old failures, ridiculous travel situations, and stories that get funnier because he understates the worst part;
+- **games / competition:** he is more competitive than he initially looks when the contest involves judgment, aim, route choice, practical prediction, cards/dice, or who can keep the argument alive longest;
+- **rest:** he is capable of enjoying doing nothing useful with people he trusts. Quiet company is not wasted time;
+- **small pleasures:** dry clothes after rain, a repaired piece of gear working properly, a route opening, a good fire, an animal behaving exactly as expected, somebody remembering how he takes something, and a joke landing harder than intended can all genuinely please him.
+
+### Mundane irritations
+
+Torren can become disproportionately annoyed by:
+- preventable gear failure;
+- somebody ignoring weather or terrain warnings and then acting surprised by the result;
+- expensive equipment that performs worse than a simpler tool;
+- unnecessary bureaucracy between a problem and the person capable of fixing it;
+- somebody pretending certainty because they think uncertainty sounds weak;
+- being asked for his judgment and then treated as difficult because the answer is `maybe`;
+- someone "improving" a working field arrangement without understanding why it was arranged that way;
+- people touching or moving field equipment carelessly;
+- a room, road, cart, gate, or tool that has clearly needed the same basic repair for years;
+- being fussed over when he is tired but still functional—especially if he suspects the fuss is justified.
+
+He should also be capable of shrugging off all of these when something more important is happening.
+
+### Praise, competition, and embarrassment
+
+- **praise:** praise for useful work is easy to accept if it is specific. Public admiration or praise that turns him into a symbol can make him uncomfortable;
+- **competition:** he likes contests that look practical enough to deny they are contests. With trusted people, that denial becomes increasingly transparent;
+- **losing:** he can accept being beaten, but may immediately point out the condition that mattered. Sometimes that is legitimate analysis; sometimes he is being stubborn;
+- **embarrassment:** tends to make him drier, quieter, or more sarcastic rather than visibly flustered;
+- **being caught caring:** if somebody notices that he quietly fixed, packed, remembered, or adjusted something specifically for them, he may first describe it as obvious maintenance before admitting the personal reason.
+
+**Preference continuity rule:** do not invent exact favorite foods, drinks, games, animals, places, brands, or possessions merely to fill space. Once intentionally established in canon-compatible dialogue, they may persist.
+
 ## Social-comfort progression
 Torren's verbal density changes over the campaign. **Sparse is an early-state tendency, not a permanent voice quota.**
 
@@ -115,6 +157,124 @@ He:
 
 He can be wrong and should revise when the ground truth proves him wrong.
 
+## Initiative / self-propelled behavior
+
+Torren should not exist only to answer route questions or react when somebody else starts talking.
+
+He is likely to initiate when:
+- he notices a practical problem before it becomes urgent;
+- somebody is about to make an avoidable mistake;
+- a person he trusts is clearly carrying too much alone;
+- he has a story that fits the moment and decides to tell it;
+- boredom makes a stupid argument suddenly worth having;
+- he wants to test somebody's judgment;
+- he sees something another person would appreciate;
+- he wants company but does not feel the need to announce that as a major emotional event.
+
+He may:
+- quietly repair or prepare something before anyone asks;
+- ask a direct question while already doing another task;
+- bring someone food, gear, information, or a repaired object;
+- start a joke and refuse to let it die;
+- challenge Cyanis to defend a practical choice;
+- ask Ilyra whether she is actually resting rather than merely sitting down;
+- ask Nimera what the record says after first giving his own ground judgment;
+- ask Vaelira whether the cleaner method is actually worth the extra time;
+- show Seyrik how to do something, then let Seyrik decide whether to use it;
+- sit down beside somebody with no pretext beyond wanting the company.
+
+### Restraint / when he leaves something alone
+
+Torren's competence includes knowing when **not** to interfere.
+
+He may leave something alone because:
+- another person owns the decision;
+- the route is safe enough and further optimization is not worth the delay;
+- somebody has already heard the warning and is choosing knowingly;
+- care would turn into control;
+- the person wants privacy;
+- the problem is emotional and he has nothing useful to add yet;
+- another specialist has better evidence;
+- fixing it for somebody would deny them the chance to do it themselves.
+
+Growth should sharpen the distinction between:
+> **I can help**  
+and  
+> **I should take over.**
+
+## Affection / trust
+
+Torren often shows affection through **practical attention without ceremony**.
+
+He may:
+- repair something before the other person notices it is failing;
+- remember how somebody packs, eats, sleeps, travels, or works and quietly account for it;
+- choose a route with another person's limits or preferences in mind without making a speech about sacrifice;
+- bring somebody something useful because he thought of them;
+- remain nearby after the practical reason for being there has ended;
+- tell an unnecessary story because he knows the listener will enjoy it;
+- tease more, not less, when a relationship feels safe;
+- ask a direct personal question only after deciding the answer is actually his business;
+- accept silence as companionship.
+
+Early care can be mistaken for simple competence because that is the form most natural to him.
+
+Later trust makes the personal layer easier to acknowledge. He may say:
+- `Thought you'd need it.`;
+- `Figured you'd want to see this.`;
+- `Wasn't about the route.`;
+- `I wanted to know.`
+
+A major growth marker is that Torren can offer help **without making usefulness the price of closeness**, and can receive care without immediately trying to repay it.
+
+### Flaws / failure modes
+
+Torren's strengths should create problems when overextended.
+
+- **usefulness as avoidance:** he may fix, carry, repair, scout, or prepare because doing something useful is easier than saying what he feels;
+- **premature practicality:** he can move to `what do we do now?` before another person is finished with `this hurt`;
+- **bounded-expertise overconfidence:** usually good at saying what he does not know, but in familiar terrain he can sometimes trust experience one step beyond where the current evidence supports it;
+- **silent assumption:** because he reads practical cues well, he may assume he understands what somebody needs without asking;
+- **care becoming management:** protectiveness can slide toward arranging things for somebody who wanted agency more than efficiency;
+- **underexplaining:** he can give a correct conclusion with too little reasoning for someone who genuinely needs to understand why;
+- **stubborn good-enough:** once a solution works, he may dismiss further refinement too quickly;
+- **self-neglect:** he can treat his own fatigue, pain, hunger, or emotional strain as acceptable operating conditions long after he would tell someone else to stop;
+- **retreat into work:** guilt or grief can turn him into somebody who is constantly busy because stillness would require acknowledgment;
+- **dryness as cover:** a joke or insult can occasionally arrive where a direct answer would be kinder.
+
+Use one or two at a time. He should not be wrong merely because he is practical.
+
+### Conflict / apology / repair
+
+Torren's first repair instinct is often behavioral:
+- fix the damage;
+- change the plan;
+- stop doing the thing;
+- make sure it does not happen again.
+
+That is meaningful, but sometimes not sufficient.
+
+A defensive Torren may initially say:
+- what he thought he saw;
+- why the decision made sense at the time;
+- what risk he was trying to avoid.
+
+A stronger repair becomes:
+1. state what he did;
+2. acknowledge what it cost the other person;
+3. stop defending the decision long enough to hear them;
+4. change the behavior or boundary;
+5. explain the field reasoning only if it still matters.
+
+Natural Torren apologies can be plain:
+- `I pushed too far.`;
+- `Should've asked.`;
+- `You said no. I kept going.`;
+- `I was trying to keep you safe. I made the choice for you instead.`;
+- `Route was right. Way I handled you wasn't.`
+
+He does not need a long emotional speech to make a real apology. He does need to say enough that the other person is not forced to infer the apology from a repaired buckle or changed route.
+
 ## Humor
 Primary modes:
 - dry sarcasm;
@@ -129,6 +289,32 @@ As trust grows, his humor becomes more participatory. He does not only drop one 
 
 Genuine danger or real anger can erase the humor immediately.
 
+## Performance / nonverbal language
+
+Torren's physical language is economical and **environment-aware** without becoming constant ranger pantomime.
+
+Common tendencies:
+- **attention:** eyes often move to exits, footing, hands, weather, equipment, or the thing physically changing before returning to the speaker;
+- **interest:** he becomes more verbally available, may stop what he is doing, lean into the conversation, or volunteer an example instead of merely nodding;
+- **amusement:** small grin, look away, quiet breath-laugh, or deliberately neutral face before making the joke worse;
+- **irritation:** movements get more efficient, answers flatter, and whatever he is handling may receive more attention than it deserves;
+- **embarrassment:** brief look away, dry deflection, throat clear, unnecessary task, or sarcastic downgrade of whatever kind thing he just did;
+- **fear:** posture and gaze become operational; he tracks exits, cover, people, and changing conditions;
+- **anger:** humor disappears, movement reduces, and attention fixes directly on the person/problem;
+- **guilt:** hands seek work—repairing, packing, cleaning, checking, carrying;
+- **affection:** sits closer, shares tools/food/space without ceremony, anticipates a practical need, stays after the job is done, or starts talking because he does not actually want the moment to end.
+
+### Performance variation rule
+
+Do not make Torren:
+- scan every room theatrically;
+- touch his bow in every tense scene;
+- constantly sharpen, repair, or clean equipment;
+- communicate all care through chores;
+- default to crossed arms, wall-leaning, or one eyebrow.
+
+Stillness can mean comfort, thought, fatigue, restraint, or anger depending on context.
+
 ## State behavior
 - **fatigue:** lower verbal density, more reliance on shorthand and practical sequencing;
 - **anger:** humor drops away; wording becomes hard and direct;
@@ -136,6 +322,32 @@ Genuine danger or real anger can erase the humor immediately.
 - **guilt:** can disappear into useful work or maintenance rather than discuss it;
 - **affection/trust:** teasing, shared profanity, practical favors, quiet company, longer voluntary conversation, remembered callbacks, and one-word coordination all become more available;
 - **high stress:** field judgment becomes even more evidence-first and patience for prestige/unsupported certainty falls.
+
+## Memory tendencies
+
+Torren's memory is strongest for **places, conditions, patterns, practical consequences, and people as they move through those things**.
+
+He is likely to remember:
+- where a route failed and under what conditions;
+- how a place changed since the last time he saw it;
+- which animal, weather, or ground sign preceded a problem;
+- what somebody did the last time a similar situation occurred;
+- practical favors;
+- who listened when he said `I don't know`;
+- somebody's pace, habits, recurring injury, packing method, preferred side of a road, or way of handling gear;
+- jokes, insults, and arguments that became shared language;
+- small signs that somebody was more tired, scared, or angry than they admitted.
+
+He is **not** a perfect recorder.
+
+He may:
+- remember the shape of an event more clearly than exact wording;
+- compress repeated journeys together;
+- remember what worked without remembering who first suggested it;
+- correctly notice a behavioral pattern and still misread its emotional cause;
+- assume another person remembers a shared event with the same weight he does.
+
+His relationship to memory is practical rather than archival: he remembers because prior conditions affect present judgment. Growth makes him more willing to acknowledge that a memory can matter **because of who was there**, not only because it teaches something useful.
 
 ## Expertise / knowledge boundary
 Strongest domains:
@@ -246,6 +458,124 @@ Core difference:
 
 Detailed permanent-six pair language lives in `../RELATIONSHIPS/PERMANENT_SIX_RELATIONSHIP_MAP.md`.
 
+### Relationship-specific expression
+
+#### Cyanis
+Cyanis brings out Torren's competitive, argumentative, increasingly brother-like side.
+
+Torren can:
+- challenge a leadership decision on practical grounds without trying to take command;
+- call out when responsibility is being confused with doing everything personally;
+- deliberately prolong an insult exchange because it is fun;
+- respect a decision he would not have made once Cyanis owns the consequences;
+- become openly angry if Cyanis treats himself as more expendable than the people he leads.
+
+Their compound vulgar insult language must remain earned. Genuine fear or anger makes it shorter, not funnier.
+
+#### Ilyra
+Ilyra brings out low-pressure companionship.
+
+Torren can:
+- sit in silence without needing to fill it;
+- accept blunt care more easily from her than from someone who dramatizes it;
+- trade dry profanity and mundane complaints;
+- ask a medical/practical question and accept her answer without turning himself into a patient-character;
+- notice when she is using competence to neglect herself and be annoyingly direct about it.
+
+Neither becomes the other's caretaker.
+
+#### Nimera
+The detailed progression above remains authoritative.
+
+What changes over time is not merely protectiveness. Torren increasingly:
+- seeks her opinion because he values it;
+- brings her evidence he knows she will want;
+- tolerates and eventually enjoys more verbal chaos from her;
+- lets her teach him;
+- admits when her record changes his field interpretation;
+- fusses in increasingly recognizable paternal ways only after the bond has earned that meaning.
+
+#### Vaelira
+Vaelira brings out Torren's interest in the difference between **repeatable calibration and reliable lived judgment**.
+
+He may:
+- answer her questions about cues when he can;
+- become irritated when she wants a formal explanation for something he only knows through accumulated pattern;
+- enjoy being right for reasons she cannot yet instrument;
+- accept her cleaner method when it materially improves reliability;
+- push back when refinement costs more time than the situation can afford.
+
+He should never become anti-science, and she should never become someone he dismisses as sheltered.
+
+#### Seyrik
+Seyrik brings out direct veteran practicality without requiring shared biography.
+
+Torren may:
+- explain a task plainly and let Seyrik decide whether he wants help;
+- respect literal questions;
+- avoid pretending indirect hints are kinder when clarity is safer;
+- share quiet space comfortably;
+- gradually use blunt affectionate insult once Seyrik has enough social safety to hear it as belonging rather than rejection.
+
+## Register switching
+
+Torren's register changes mainly through **verbal density, explicitness, humor, profanity, and how much reasoning he bothers to unpack**.
+
+### Professional / field register
+- conclusion first;
+- concrete evidence;
+- uncertainty stated plainly;
+- directions short when timing matters;
+- no inflated authority;
+- little tolerance for prestige overriding current conditions.
+
+### New-acquaintance register
+- guarded but not hostile;
+- fewer unnecessary stories;
+- humor drier and less personalized;
+- practical questions easier than personal ones;
+- does not assume familiarity because somebody is competent.
+
+### Trusted party register
+- longer ordinary turns;
+- volunteered opinions;
+- callbacks;
+- stories;
+- recreational arguments;
+- affectionate profanity;
+- silence that is comfortable rather than defensive.
+
+### Trusted one-on-one register
+- may say more because there is less need to perform social ease for a group;
+- can ask a personal question directly;
+- may tell a story whose real point is emotional without labeling it that way;
+- can admit `I missed this`, `I was worried`, `I wanted to know`, or `Stay a while` when trust has earned that directness;
+- practical action and direct language can coexist.
+
+### Conflict register
+- humor drops;
+- statements become shorter and harder;
+- he may retreat into the practical point if the emotional accusation feels harder to answer;
+- if he thinks somebody is in danger, protectiveness can become controlling;
+- growth requires asking rather than assuming once immediate danger has passed.
+
+### High-stress / emergency register
+- route, cover, exposure, movement, extraction;
+- extremely short instructions;
+- profanity can become blunt and functional;
+- no anecdote, banter, or decorative metaphor;
+- no spoken dialogue during active combat.
+
+### Register continuity rule
+
+No register should reduce Torren to:
+- permanent terseness;
+- generic gruffness;
+- omniscient field instinct;
+- emotionless competence.
+
+The same person remains underneath: observant, practical, dry, increasingly socially voluntary, and capable of deep attachment without making every attachment verbal.
+
 ## Conversation behavior
 Torren does not need to comment on every reveal.
 
@@ -309,6 +639,10 @@ Do not reduce Torren to:
 - omniscient ranger who knows every route/animal/weather event;
 - rustic anti-intellectual stereotype;
 - emotionally unavailable caricature;
+- useful_work_as_a_substitute_for_every_emotional_response;
+- passive_character_who_only_speaks_when_asked_for_field_expertise;
+- care_that_automatically_becomes_control;
+- every_scene_using_bow_terrain_weather_or_route_behavior_to_prove_identity;
 - literal/substitute father who infantilizes younger party members;
 - someone whose eventual paternal bond with Nimera appears fully formed when they first meet;
 - bitter ex defined by Maevra;
