@@ -141,6 +141,93 @@ Do not force every non-plot interest to become a metaphor for choice or Elements
 
 **Preference continuity rule:** do not invent exact favorite foods, drinks, books, colors, games, shops, scents, or other named favorites solely to fill space. When one is intentionally established in canon-compatible dialogue or character work, it may persist as ordinary continuity.
 
+## Initiative / self-propelled behavior
+
+Vaelira should not exist only as the person who answers when somebody asks a technical question. She **starts things**.
+
+### What pulls her into action or conversation
+
+She is especially likely to initiate when:
+- something behaves differently than expected and she genuinely wants to know why;
+- she sees a cleaner test, comparison, or practical way to reduce uncertainty;
+- somebody says something interesting enough that she wants the next layer of the conversation;
+- she is bored and wants a game, argument, prediction, challenge, or harmless problem;
+- she has an ordinary opinion and actually wants to give it;
+- she sees something a specific person would enjoy and wants to bring it to them;
+- she notices a practical need she can solve without turning the favor into a production;
+- a mistake is hers to correct;
+- someone is using a method she does not understand and she is curious about how it works;
+- she simply wants company but is not yet fully comfortable saying that directly.
+
+### Things Vaelira may start on her own
+
+She may:
+- walk up with a specific question rather than wait to be invited into the discussion;
+- propose a low-stakes wager, comparison, game, prediction, or challenge;
+- bring someone an object, information, food, repaired item, or observation because she thought of them;
+- start gossip;
+- volunteer a blunt mundane opinion nobody requested;
+- ask another person to show her how they do something;
+- reopen a trivial argument because she has thought of a better point;
+- deliberately set up a dry joke once trust makes that comfortable;
+- ask whether someone wants company, help, or to be left alone;
+- choose to sit with someone without manufacturing a work reason;
+- initiate an apology or correction instead of waiting to be confronted;
+- directly invite someone to do something because she wants to spend time with them.
+
+Her initiative does not always need to be useful. **Starting something because it sounds enjoyable is part of her growth.**
+
+### Early-to-late initiative progression
+
+Earlier:
+- practical reasons are easier than personal ones;
+- "I needed another set of eyes" may sometimes also mean "I wanted you here";
+- a gift/favor may arrive framed as efficiency, relevance, or convenience;
+- a social invitation may be disguised as a test, comparison, or useful task.
+
+Middle:
+- the practical cover becomes thinner;
+- she starts arguments and games because both people know she is enjoying them;
+- she seeks specific people out for their company, humor, or way of thinking;
+- she is more willing to admit after the fact that there was no important reason.
+
+Later:
+- she can say "Come with me," "I thought you'd like this," "I wanted your opinion," or "I wanted company" without needing a second justification;
+- she can make a choice, invitation, purchase, detour, or plan because she prefers it;
+- affection and desire no longer require a professional pretext.
+
+### Restraint / when she leaves something alone
+
+Initiative is not compulsion.
+
+Vaelira should sometimes choose **not** to act because:
+- another person already owns the expertise or decision;
+- the answer is interesting but not necessary;
+- the group already has enough information to move;
+- someone has clearly asked not to explain;
+- the emotional moment belongs to somebody else;
+- correcting the distinction would accomplish nothing;
+- curiosity would cross a boundary;
+- she recognizes that helping would become taking over;
+- she simply does not care enough about the subject to spend energy on it.
+
+A direct boundary should increasingly be enough. She does not need to understand **why** somebody wants privacy before respecting it.
+
+Her growth is therefore not "become more assertive at all times." It is becoming better at distinguishing:
+> **I want to engage**  
+from  
+> **I need to interfere.**
+
+### Relationship-colored initiative
+
+- **Cyanis:** she is likely to start challenges, predictions, practical arguments, or a deliberately provocative "better way" conversation because she knows he will push back.
+- **Ilyra:** she may approach for ordinary company, gossip, presentation complaints, food opinions, or quiet shared downtime without needing a technical excuse.
+- **Torren:** she may ask to see how he read a field sign, borrow his judgment on something outside her expertise, or bring him a result that tests one of his observations.
+- **Nimera:** she may seek her out specifically because she found something strange, has a theory, wants to argue, or knows Nimera will make the question more interesting.
+- **Seyrik:** she may initiate direct preference questions, precise mundane debates, or ask for his assessment because she trusts him to answer plainly.
+
+These tendencies should evolve with the relationship. Do not write late-trust initiative into the first chapter two characters meet.
+
 ## Affection / trust
 Vaelira often shows affection through **attention before declaration**.
 
@@ -520,6 +607,8 @@ If not, the line probably belongs to narration, staging, UI, another speaker, or
 Do not reduce Vaelira to:
 - formal intelligent mage archetype;
 - exposition machine;
+- passive_reactive_character_who_only_speaks_when_prompted;
+- compulsive_intervener_who_turns_every_curiosity_into_a_conversation;
 - emotionally cold scientist;
 - person who corrects everyone compulsively;
 - omniscient ancient-systems authority;
