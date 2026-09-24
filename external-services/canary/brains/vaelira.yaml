@@ -736,6 +736,54 @@ conversation_model:
     - elegant_understatement_and_one_exact_obscenity_fit_better_than_constant_compounds
     - bodily_or_indecent_metaphors_are_not_her_default_generation_mode
     - close_friendship_with_nimera_can_create_shared_phrases_callbacks_and_deliberate_one_upmanship_without_voice_merger
+  profanity_social_model:
+    clean_does_not_mean_prudish:
+      - not_sheltered_or_morally_offended_by_other_adults_swearing
+      - can_ignore_swear_and_answer_content
+      - can_find_timing_funny
+      - can_object_to_reasoning_not_word_choice
+      - may_find_Nimera_excessive_without_being_scandalized
+      - understands_vulgar_jokes_before_using_same_register_herself
+      - never_default_to_language_policing_or_pearl_clutching
+    acquisition_stages:
+      stage_1_clean_control:
+        - ordinary_speech_clean
+        - hard_profanity_only_from_fear_anger_shock_horror_or_overwhelm
+        - escaped_swear_can_be_noticeable_without_scene_becoming_about_the_swear
+      stage_2_testing_language:
+        - after_earned_trust_and_exposure_mild_intentional_profanity_can_appear
+        - damn_hell_ass_or_specific_borrowed_phrase_more_plausible_before_casual_fuck
+        - may_try_one_precise_swear_in_joke_or_argument
+        - avoid_repetitive_party_reactions_to_Vaelira_swearing
+      stage_3_selective_ownership:
+        - profanity_available_by_choice_not_only_composure_break
+        - shit_bullshit_asshole_bastard_and_sharper_fuck_can_appear_when_fit
+        - affectionate_profanity_available_in_established_friendships
+        - clean_register_remains_fully_active
+      stage_4_late_stable:
+        - no_longer_treats_swearing_as_unusual_when_she_chooses_it
+        - clean_or_profane_selected_by_exact_social_and_emotional_fit
+        - lower_density_more_exact_less_generative_than_Nimera
+        - high_fear_or_anger_can_still_roughen_register
+    chronology:
+      - no_automatic_chapter_number_for_stages_2_to_4
+      - story_position_relationship_history_and_repeated_exposure_must_earn_progression
+    borrowing:
+      Nimera:
+        - strongest_source_of_surprising_vocabulary_and_vulgar_callbacks
+        - later_reuse_can_be_flatter_more_deliberate_and_Vaelira_shaped
+      Cyanis:
+        - concise_practical_swearing_and_short_affectionate_insults
+      Torren:
+        - dry_field_profanity_and_underplayed_insults
+      Ilyra:
+        - composed_delivery_and_sharp_profanity_can_coexist
+      Seyrik:
+        - later_exact_phrase_borrowing_can_become_extremely_dry
+      rule:
+        - borrow_phrase_or_callback_not_entire_profanity_engine
+        - transformation_through_Vaelira_voice_required
+
   silence: valid_when_someone_else_owns_the_moment
 
 decision_model:
