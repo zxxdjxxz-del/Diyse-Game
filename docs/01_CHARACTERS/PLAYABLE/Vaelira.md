@@ -325,17 +325,105 @@ Primary modes:
 
 Vaelira's **initial spoken register is deliberately clean**.
 
-Early on, when she has control of herself, she does **not** use ordinary hard profanity. Her frustration language favors clean substitutes and clean insults such as:
+Early on, when she has control of herself, she does **not** use ordinary hard profanity. Her clean register is broad enough that she should not sound as though she only knows `darn` and `heck`.
+
+#### Early clean vocabulary
+
+**Exclamations / immediate frustration**
 - `darn`;
 - `darn it`;
 - `shoot`;
 - `heck`;
-- `jerk`;
-- `ridiculous`;
-- `awful`;
-- other natural clean equivalents that fit the sentence.
+- `what the heck?`;
+- `oh, come on`;
+- `come on`;
+- `seriously?`;
+- `really?`;
+- `unbelievable`;
+- `for goodness' sake`;
+- `for pity's sake`;
+- `what in the world?`;
+- dry `wonderful`, `perfect`, or `excellent` when something has clearly gone wrong.
 
-These are examples, not catchphrases.
+**Clean intensifiers**
+- `ridiculously`;
+- `absurdly`;
+- `completely`;
+- `utterly`;
+- `incredibly`;
+- `seriously`;
+- `wildly`;
+- `painfully`;
+- `spectacularly`;
+- `impossibly`;
+- `freaking` when a slightly rougher clean substitute fits;
+- `blasted` / `blasted thing` only occasionally so it does not become an archaic affectation.
+
+**Clean judgments**
+- `ridiculous`;
+- `absurd`;
+- `nonsense`;
+- `garbage`;
+- `a mess`;
+- `a disaster`;
+- `awful`;
+- `terrible`;
+- `unacceptable`;
+- `sloppy`;
+- `reckless`;
+- `pointless`;
+- `irritating`;
+- `infuriating`;
+- `obnoxious`;
+- `appalling`;
+- `horrifying`;
+- `a terrible idea`;
+- `an impressively bad idea`.
+
+**Clean insults / teasing**
+- `jerk`;
+- `idiot`;
+- `fool`;
+- `nuisance`;
+- `menace`;
+- `pest`;
+- `show-off`;
+- `disaster`;
+- `you impossible person`;
+- `you absolute nuisance`;
+- `you are insufferable`;
+- `you are ridiculous`;
+- `you are enjoying this far too much`;
+- `I dislike you a little right now`;
+- playful `I am reconsidering this friendship` when the relationship has earned it.
+
+**Clean refusal / disbelief**
+- `absolutely not`;
+- `not a chance`;
+- `no. Definitely not.`;
+- `that cannot possibly be your plan`;
+- `you cannot be serious`;
+- `tell me you're joking`;
+- `I refuse to believe that was intentional`;
+- `there is no reasonable version of that idea`;
+- `I am not dignifying that with an answer`;
+- `I heard you. I was hoping I heard you incorrectly`.
+
+**Vaelira-shaped clean constructions**
+- `That is not even close to the same condition.`;
+- `You changed three variables and called it a comparison.`;
+- `That is an extremely creative way to make the problem worse.`;
+- `I object to every part of that sentence.`;
+- `That answer has somehow created more questions.`;
+- `I was happier before you explained it.`;
+- `Please stop improving the disaster.`;
+- `You have made "bad" need a more precise definition.`;
+- `That is impressively unhelpful.`;
+- `I would like the last ten seconds back.`;
+- `No. Try again with a plan that survives contact with reality.`
+
+These are a **lexical/construction pool, not catchphrases**. The clean register should remain adult, dry, exact, and natural rather than making her sound childlike or artificially sanitized.
+
 
 Early real profanity is a **loss-of-control tell**, not casual vocabulary. It may break through when she is:
 - genuinely scared;
@@ -349,6 +437,82 @@ Ordinary irritation, teasing, competition, intellectual delight, boredom, and lo
 When a real swear escapes early, it should feel noticeable precisely because she normally edits herself clean. She may briefly register that she said it, or simply be too overwhelmed to care.
 
 Later relationship/cultural exposure can make real profanity more available **intentionally**, but the progression must be earned. Even later, she remains more controlled and selective than Nimera; she does not suddenly adopt Nimera's density, bodily invention, or free-association vulgarity.
+
+#### Real profanity vocabulary
+
+When early composure genuinely breaks—or later, once intentional profanity has been earned—Vaelira's adult register can include:
+
+**Core exclamations**
+- `damn`;
+- `damn it`;
+- `hell`;
+- `what the hell`;
+- `shit`;
+- `oh shit`;
+- `fuck`;
+- `what the fuck`;
+- `for fuck's sake`.
+
+**Judgment / failure language**
+- `bullshit`;
+- `complete bullshit`;
+- `this is shit`;
+- `shitshow`;
+- `clusterfuck` later and sparingly;
+- `fucked`;
+- `completely fucked`;
+- `fucked-up`;
+- `half-assed`;
+- `piss-poor`.
+
+**Insults**
+- `ass`;
+- `asshole`;
+- `bastard`;
+- `prick`;
+- `jackass`;
+- `dumbass`;
+- `smartass`;
+- `shithead` later and rarely;
+- `pain in the ass`;
+- `insufferable asshole`;
+- `smug bastard`;
+- `reckless asshole`;
+- `you absolute ass`.
+
+**Profane intensification**
+- `damn` / `damned`;
+- `fucking`;
+- `shitty`;
+- `hell of a`;
+- `not a fucking chance`;
+- `absolutely fucking not`;
+- `that is fucking absurd`;
+- `that is not remotely fucking stable`.
+
+**Vaelira-shaped profane constructions**
+- `That is not a fucking control condition.`;
+- `You changed the input and the environment. What the fuck did you think you were measuring?`;
+- `That reading is complete bullshit.`;
+- `No. The model is wrong. Fuck.`;
+- `That is a spectacularly shitty boundary assumption.`;
+- `We are not touching the fucking unstable core.`;
+- `That is not "close enough." That is how people get fucking killed.`;
+- `The whole test is fucked if the baseline moved.`;
+- `I have no idea what the fuck that is.`;
+- `Oh, shit. Back up.`;
+- `Fuck. Move.`;
+- `You smug bastard.` when affectionate profanity is earned.
+
+Her later profanity should remain **structurally Vaelira**: concise, exact, often attached to a failed condition, bad assumption, dangerous boundary, disbelief, or very specific irritation. She can also swear simply; not every profane line needs technical language.
+
+Avoid making her later vocabulary:
+- constantly sexual;
+- constantly anatomical;
+- dominated by elaborate obscene metaphors;
+- a copy of Nimera's rapid vulgar invention;
+- profanity for every minor inconvenience;
+- a sudden personality replacement once she learns to swear more freely.
 
 She should sharpen ensemble comedy without being assigned the permanent "straight woman who stops the fun" role.
 
