@@ -89,7 +89,7 @@ There is:
 - no component removal;
 - no protected HP floor;
 - no nonlethal or drive-off resolution;
-- no mandatory mid-battle dialogue.
+- no dialogue during active combat.
 
 ## [STORY TRIGGER — AFTERMATH]
 
