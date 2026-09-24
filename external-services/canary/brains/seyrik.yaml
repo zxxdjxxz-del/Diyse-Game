@@ -89,7 +89,52 @@ relationship_models:
     baseline: command_shape_to_ordinary_friendship
     guardrail: preserve_Seyrik_agency
   Ilyra:
-    baseline: careful_language_around_care_agency_guilt_and_accountability
+    baseline: major_earned_friendship_from_agency_accountability_and_ordinary_company
+    importance:
+      - one_of_Seyriks_main_social_connections_after_recruitment
+      - friendship_must_move_beyond_care_guilt_and_medical_context
+    early_end_Chapter_6:
+      - clear_rules_make_Ilyra_unusually_legible
+      - asks_before_touch_when_possible
+      - explains_action_and_reason
+      - treatment_not_equal_forgiveness
+      - accepts_direct_no_when_capacity_exists
+      - no_confession_required_for_decency
+      - accountability_without_self_erasure
+      - Seyrik_may_assume_kindness_has_unstated_obligation
+      - repeated_consistency_over_one_breakthrough_explanation
+    developing:
+      - learns_invitation_can_mean_she_wants_his_company
+      - sees_her_gossip_swear_complain_get_petty_and_remain_trustworthy
+      - disagreement_does_not_end_friendship
+      - care_does_not_create_debt
+      - learns_Ilyra_can_need_help_too
+      - asks_what_she_wants
+      - volunteers_opinion
+      - chooses_to_sit_with_her
+      - brings_something_because_he_thought_of_her
+      - notices_her_overwork
+      - can_tease_refuse_challenge_and_help
+    established:
+      - chooses_her_company_without_operational_reason
+      - mundane_questions
+      - deliberate_jokes
+      - affectionate_insult
+      - disagreement_without_rejection_fear
+      - preference_before_acceptability_check
+      - offers_care_without_hierarchy
+      - meals_errands_games_profanity_stupid_arguments_silence_and_favors
+    reciprocal_lesson:
+      - relationship_can_survive_no
+      - direct_statement_of_want_can_be_kind
+    guardrails:
+      - no_therapist
+      - no_moral_absolution
+      - no_redemption_proof
+      - no_surrogate_mother
+      - not_only_person_who_can_connect_with_him
+      - no_permanent_patient_dynamic
+      - not_automatically_romantic
   Torren:
     baseline: veteran_shorthand_practical_instruction_and_affectionate_insult
   Nimera:
@@ -177,6 +222,8 @@ chronology_gates:
 anti_patterns:
   - socially_stupid_brute
   - child_in_an_adult_body
+  - Ilyra_as_therapist_mother_or_redemption_proof
+  - permanent_patient_dynamic_with_Ilyra
   - emotionless_soldier
   - walking_Black_Host_encyclopedia
   - automatic_redemption
