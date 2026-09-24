@@ -386,6 +386,34 @@ def compact_brain() -> dict[str, Any]:
     return result
 
 
+def safe_memory_index(namespace: str = "story", limit: int = 64) -> list[dict[str, Any]]:
+    """Expose authorization metadata without exposing full private memory content."""
+    records = STORE.memories(namespace, limit=limit)
+    allowed_fields = (
+        "memory_id",
+        "memory_type",
+        "scope_id",
+        "source_scene_id",
+        "source_story_position",
+        "acquisition_mode",
+        "privacy_visibility_scope",
+        "epistemic_status_at_acquisition",
+        "current_epistemic_status",
+        "relationships_involved",
+        "open_thread",
+        "open_thread_id",
+        "created_at",
+    )
+    return [
+        {
+            key: record.get(key)
+            for key in allowed_fields
+            if record.get(key) is not None
+        }
+        for record in records
+    ]
+
+
 def authorized_memories_for_turn(
     namespace: str,
     person_runtime_context: dict[str, Any],
@@ -581,6 +609,8 @@ def context_snapshot(authorization: str | None = Header(default=None)):
         "character_id": CHARACTER_ID,
         "story_revision": STORE.revision(),
         "current_state": STORE.state(),
+        "story_memory_index": safe_memory_index("story"),
+        "brain_runtime_sections": sorted(compact_brain().keys()),
         "canon_snapshot_id": CANON_SNAPSHOT_ID,
     }
 
