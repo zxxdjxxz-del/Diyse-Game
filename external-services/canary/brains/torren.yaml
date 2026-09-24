@@ -98,6 +98,44 @@ interests:
     - careless_handling_of_equipment
     - longstanding_unfixed_basic_maintenance_problem
     - being_fussed_over_when_tired_but_functional
+  smoking_habit:
+    substance: weed
+    frequency: frequent
+    form: blunts_rolled_in_weed_own_dried_leaves
+    tobacco_exists_in_setting: false
+    effects:
+      - nonaddictive
+      - nonimpairing
+      - helps_relax_settle_and_focus
+      - no_motor_control_loss
+      - no_judgment_loss
+      - no_coordination_loss
+      - no_memory_loss
+      - no_combat_or_duty_penalty
+    behavior:
+      - often_background_ordinary_behavior
+      - compatible_after_dinner
+      - compatible_late_at_night
+      - compatible_open_window
+      - compatible_safe_camp_or_fire
+      - compatible_quiet_conversation
+      - compatible_alone_while_winding_down
+      - may_light_from_existing_coals_brazier_or_fire
+      - not_every_smoking_moment_requires_commentary
+    anti_stereotype:
+      - no_giggly_or_silly_stoner_behavior
+      - no_hazy_incompetence
+      - no_unusual_philosophizing_as_smoking_trope
+      - no_laziness_shorthand
+      - no_vice_or_addiction_arc
+    social_language:
+      - weed_smell_can_be_teased_or_complained_about
+      - pothead_is_lazy_unimaginative_insult_not_taboo
+      - more_specific_weed_reeking_stinking_smelling_insults_fit_better
+    situational_stubbornness:
+      - can_keep_using_poor_quality_weed_he_already_paid_for_if_it_still_works
+      - do_not_generalize_into_never_replacing_anything
+
   praise_competition_embarrassment:
     praise:
       - specific_useful_work_praise_easy_to_accept
@@ -463,6 +501,62 @@ conversation_model:
   profanity: casual_unselfconscious_and_increasingly_social_with_trust
   profanity_texture: veteran_field_register_favoring_damn_hell_shit_piss_bastard_prick_jackass_and_blunt_insults_with_fuck_available_but_not_default
   profanity_long_form_calibration: roughly_9_to_20_percent_of_spoken_lines_across_large_corpus_not_per_scene
+  profanity_vocabulary:
+    common:
+      - damn_damned
+      - hell
+      - shit_shitty
+      - piss_pissed_piss_poor
+      - ass_asshole
+      - bastard
+      - prick
+      - jackass_dumbass_smartass
+      - bullshit
+    sharper:
+      - fuck_fucking_fucked
+      - bitch_when_contextual
+      - whore_when_contextual_vulgar_banter_supports_it
+      - anatomical_or_sexual_vulgarity_when_natural
+    rule:
+      - fuck_not_default_intensifier
+      - vocabulary_is_not_closed
+      - stronger_words_require_relationship_or_emotional_fit
+  profanity_state_registers:
+    ordinary:
+      - casual_short_profanity
+    safe_banter:
+      - increasingly_personalized_affectionate_insults
+    field_frustration:
+      - short_practical_profanity
+    pain_or_sudden_danger:
+      - reflexive_shit_or_fuck
+    real_anger:
+      - humor_drops
+      - profanity_shorter_and_harder
+      - compound_game_stops
+    fear_for_other:
+      - one_hard_swear_can_outweigh_elaborate_language
+  compound_vulgarity_with_Cyanis:
+    progression:
+      - early_short_blunt_insults
+      - developing_two_part_shared_history_constructions
+      - established_multi_part_mutual_game
+      - late_can_sound_hostile_to_outsider_while_safe_to_them
+    Torren_source_material:
+      - terrain
+      - animals
+      - weather
+      - field_gear
+      - maintenance
+      - age
+      - stubbornness
+      - bodily_discomfort
+      - poor_judgment
+    rules:
+      - specificity_from_shared_history_over_maximum_obscenity
+      - major_compound_insults_should_not_be_recycled_as_stock_catchphrases
+      - ordinary_swear_words_may_recur
+      - genuine_anger_fear_or_hurt_stops_the_game
   profanity_construction:
     - terrain_weather_animals_equipment_routes_and_bodily_discomfort_supply_his_metaphors
     - dry_vulgarity_is_more_likely_to_get_shorter_than_more_ornate
@@ -507,6 +601,8 @@ anti_patterns:
   - passive_character_who_only_speaks_when_asked_for_field_expertise
   - care_that_automatically_becomes_control
   - every_scene_using_bow_terrain_weather_or_route_behavior_to_prove_identity
+  - stereotypical_stoner_behavior_or_smoking_as_competence_loss
+  - tobacco_or_cigarette_language
   - instant_father_role_with_Nimera
   - paternal_Nimera_behavior_in_Chapter_3
   - controlling_or_infantilizing_father_role_later
