@@ -96,7 +96,7 @@ BRIDGES = (
     ("Boss Battle — Archive Scribe Engine", "Boss — Archive Scribe Engine", (
         "Archive Scribe Engine",
     ), CH3, ("Archive Scribe Engine",)),
-    ("Cresthaven / Ancient Tower Base / First Command Warden", "Enemy Roster — Cresthaven Ancient Tower Base", (
+    ("Short Ancient Dungeon — Tower Foundation", "Enemy Roster — Cresthaven Ancient Tower Base", (
         "Watch Sentry • Watch Ballista • Watch Captain Frame • Command Guard Frame • Authority Lens • Command Ring Drone",
         "Watch Captain Frame remains maximum one per formation. The immediate First Command Warden approach is safe.",
     ), CH3, ("Watch Sentry", "Watch Ballista", "Watch Captain Frame", "Command Guard Frame", "Authority Lens", "Command Ring Drone", "First Command Warden")),
