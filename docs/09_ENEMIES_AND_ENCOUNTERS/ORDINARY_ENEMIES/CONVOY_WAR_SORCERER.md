@@ -87,3 +87,14 @@ Current locked Chapter-0 appearance:
 > `../../14_ART_AND_VISUALS/ENEMIES/CHAPTER_00_ENEMY_VISUAL_AUTHORITY.md`
 
 Combat/encounter mechanics remain owned by this file; visual identity is owned by the art-domain authority above.
+
+## Exact current visual master
+The Convoy War-Sorcerer's exact Chapter-0 appearance is the approved render recorded in:
+> `../../14_ART_AND_VISUALS/ENEMIES/CHAPTER_00_ENEMY_VISUAL_AUTHORITY.md`
+
+Master fingerprint:
+- image-generation ID: `6da6acea-2115-45f3-870b-1651c27286f7`
+- SHA-256: `4090842e2e765cecc83235d1ddf79d0b211872f3abbf2baff0955bd3bfff3573`
+- dimensions: **1145 × 1374**
+
+The visual master controls helmet/hood treatment, armor-vs-cloth balance, staff geometry, purple focus crystal, and overall B00/B00.5 silhouette over older prose.
