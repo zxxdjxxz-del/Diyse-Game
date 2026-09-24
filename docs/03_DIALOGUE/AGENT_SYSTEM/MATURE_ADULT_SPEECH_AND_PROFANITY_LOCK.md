@@ -310,7 +310,7 @@ Cleaning is valid only when the cleaner wording is more truthful to the speaker 
 ## Relationship with other locks
 
 This lock works alongside:
-- `STORY_BEAT_AS_GUARDRAIL_LOCK.md`;
+- `REHEARSAL_FIRST_AUTHORING_LOCK.md` (including story-beat-as-guardrail);
 - `NATURAL_TURN_LENGTH_AND_FLOOR_HOLDING_LOCK.md`;
 - `SPOKEN_DIALOGUE_VS_NARRATION_LOCK.md`;
 - current character authorities;
