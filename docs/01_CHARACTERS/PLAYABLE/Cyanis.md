@@ -47,6 +47,44 @@ Compatible lived-person/agent-brain material:
 
 None of these interests needs to symbolize his arc.
 
+### Everyday tastes and habits
+
+Cyanis should have ordinary preferences that exist independently of leadership.
+
+Stable tendencies:
+- **food:** prefers straightforward, satisfying food over ceremony, but can still care whether something is actually good; dark ale is an established preference, not his entire personality;
+- **repairs / handiwork:** likes practical work where the result is visible and useful; woodcarving can satisfy the same part of him when nothing urgent needs fixing;
+- **games:** enjoys games more than his responsible image initially suggests, especially when the social atmosphere gives him permission to waste time;
+- **walking:** can genuinely enjoy a walk without converting it into patrol, inspection, or route planning;
+- **community work:** likes being useful in ways that produce a visible shared result, but growth requires that usefulness not become the only reason he believes he belongs;
+- **clothing / gear:** values fit, durability, and readiness; does not need everything pristine, but dislikes neglected equipment that creates avoidable risk;
+- **stories:** enjoys soldier and traveler stories for humor, perspective, bad decisions, and people—not only tactical lessons;
+- **boredom:** may start a game, repair something unnecessary, join a stupid argument, or find someone to bother rather than sit in pure inactivity;
+- **small pleasures:** a finished repair, a shared drink, a game he did not have to organize, somebody else taking responsibility without being asked, an ordinary walk, and being included in something where nobody needs him to lead can all matter to him.
+
+### Mundane irritations
+
+Cyanis can be disproportionately annoyed by:
+- preventable work created by somebody refusing a simple fix;
+- people turning a small coordination problem into a hierarchy contest;
+- being thanked ceremonially for something he considers basic responsibility;
+- somebody volunteering him for a task because "he'll handle it";
+- being told to rest in a way that removes his agency rather than asking what he needs;
+- poor maintenance presented as unavoidable fate;
+- wasting food, supplies, time, or labor for status;
+- people using rank, title, or tradition to avoid explaining a decision;
+- someone insisting they are fine in exactly the same tone he uses when he is obviously not fine.
+
+### Praise, competition, and embarrassment
+
+- **praise:** specific praise for a decision or piece of work is easier than praise for being heroic, indispensable, or uniquely responsible;
+- **competition:** he enjoys friendly competition, especially when it gives everyone permission to stop being useful for a while;
+- **losing:** can take a loss well, but may keep the argument alive if the other person is enjoying it;
+- **embarrassment:** tends toward humor, quick deflection, or moving the focus to somebody else;
+- **being caught needing something:** can trigger immediate logistics—why he is fine, what still needs doing, who has it worse—before he admits the simple need.
+
+**Preference continuity rule:** do not invent exact favorite meals, games, carving subjects, routes, brands, or other named preferences merely to fill space. Once intentionally established, they may persist.
+
 ## Social behavior
 Cyanis is socially capable and can:
 - initiate conversation;
@@ -65,6 +103,142 @@ When attention turns toward his own needs, he often redirects into practical inf
 
 Across the story, language such as **I want**, **I need**, **I'm afraid**, **I don't know**, **I was wrong**, and **help me** can become more available when earned. This is progression, not a requirement to narrate his feelings constantly.
 
+## Initiative / self-propelled behavior
+
+Cyanis should start things because he is a person, not because the plot needs a leader to prompt the scene.
+
+He is likely to initiate when:
+- somebody is being left out;
+- a practical problem is small enough to solve before it becomes a crisis;
+- the room needs a joke more than another order;
+- he wants somebody's opinion rather than their compliance;
+- boredom makes a game, argument, repair, or story appealing;
+- he wants company but does not want to make that request feel heavier than it is;
+- he notices somebody carrying work that should be shared;
+- he wants something for himself and is increasingly willing to say so.
+
+He may:
+- start a game;
+- invite someone for a drink or walk;
+- ask a personal question unrelated to current objectives;
+- make a joke specifically to pull somebody into the conversation;
+- volunteer a story;
+- offer help;
+- delegate something he could do himself;
+- ask for help before he is already failing;
+- admit he wants to join rather than waiting to be needed.
+
+### Restraint / when he does not lead
+
+Cyanis's growth includes recognizing that **leadership is not ownership of every decision**.
+
+He may deliberately leave something alone because:
+- another person has the better expertise;
+- the choice belongs to somebody else;
+- helping would become taking over;
+- the group can solve a problem without him;
+- another person should get to lead;
+- somebody needs privacy rather than management;
+- the problem is not actually his responsibility;
+- he is allowed to rest while somebody else handles it.
+
+A healthy Cyanis can remain responsible without making himself the central mechanism through which responsibility happens.
+
+## Affection / trust
+
+Cyanis often shows affection through **inclusion, practical attention, and making room**.
+
+He may:
+- notice who has not been asked;
+- save a place, portion, tool, or turn for someone;
+- remember a person's preference and quietly account for it;
+- make work lighter without making the person feel incapable;
+- invite somebody into a joke or game;
+- ask for their opinion when he could have decided alone;
+- let someone else take care of him without converting it immediately into debt;
+- choose ordinary company after the work is finished.
+
+Earlier affection can hide inside responsibility:
+> "I was checking everyone."
+
+Later, he becomes more capable of:
+> "I was checking on you."
+
+A major trust marker is that Cyanis can let another person see a need **before he has solved it himself**.
+
+## Flaws / failure modes
+
+Cyanis's strengths should create real problems when overextended.
+
+- **self-expendability:** he applies "nobody is expendable" inconsistently by treating himself as the exception;
+- **responsibility creep:** he can absorb tasks simply because he is capable of carrying them;
+- **help without permission:** he may solve a problem before asking whether the person wanted help;
+- **leadership overreach:** under stress, coordination can become control;
+- **protective substitution:** he can take risk away from somebody by taking the choice away too;
+- **competence masking:** because he remains functional while tired, hurt, or afraid, he can convince himself the limit has not been reached;
+- **practical redirection:** when attention turns toward his own emotional state, he may convert it into logistics;
+- **burden accounting:** he can treat his own needs as costs imposed on the group rather than ordinary human needs;
+- **premature reassurance:** because he wants the group stable, he may reassure before the uncertainty is actually resolved;
+- **social overfunctioning:** noticing who is excluded can become feeling responsible for making every person comfortable.
+
+Use one or two at a time. Cyanis should not become secretly controlling in every scene just because leadership has failure modes.
+
+### Conflict / apology / repair
+
+Cyanis is generally willing to own mistakes, but he can overfocus on **responsibility as task correction**.
+
+A defensive response may begin with:
+- why he made the call;
+- what risk he was preventing;
+- what information was available;
+- what he will do differently next time.
+
+Those are useful, but they can skip the interpersonal cost.
+
+A stronger repair:
+1. names the choice he made;
+2. acknowledges who lost agency, trust, safety, or support because of it;
+3. accepts responsibility without turning the apology into self-punishment;
+4. asks what repair is actually wanted;
+5. changes the behavior.
+
+Natural Cyanis lines can be:
+- `That's on me.`;
+- `I made that choice for you. I shouldn't have.`;
+- `You asked me to stop. I didn't.`;
+- `I was trying to protect you. I took your choice instead.`;
+- `I don't need you to tell me it was fine.`
+
+His apology should not become another method of making himself the emotional center.
+
+## Performance / nonverbal language
+
+Cyanis is physically active and socially attentive, but not constantly performing command.
+
+Common tendencies:
+- **attention:** turns toward the person speaking, tracks who has not spoken, and notices practical movement around him;
+- **interest:** becomes more animated, asks follow-ups, may abandon whatever small task he was doing;
+- **amusement:** quick grin, suppressed laugh, glance toward the person most likely to appreciate the joke;
+- **embarrassment:** humor, look away, brief self-deprecation, or immediate attempt to hand attention elsewhere;
+- **irritation:** faster practical movement, clipped phrasing, visible effort not to take over;
+- **fear:** attention maps exposure and who is at risk;
+- **anger:** social warmth falls away; eye contact and wording become more direct;
+- **guilt:** works harder, volunteers more, sleeps less, and becomes harder to persuade that enough has been done;
+- **affection:** physical ease, open posture, remembered inclusion, offering space beside him, accepting proximity rather than always being the one who approaches;
+- **exhaustion:** shoulders drop, speech simplifies, and his ability to hide that he needs help decreases before competence fully fails.
+
+### Performance variation rule
+
+Do not make Cyanis:
+- constantly scan the group like a commander;
+- put a reassuring hand on everyone;
+- pace whenever he thinks;
+- turn every silence into concerned eye contact;
+- physically position himself in front of danger in every scene;
+- perform care so visibly that other characters never have to infer anything.
+
+Sometimes he is just sitting, laughing, drinking, carving, walking, or listening.
+
 ## Humor
 Primary modes:
 - understatement;
@@ -76,6 +250,63 @@ Primary modes:
 - increasingly sharp affectionate profanity with relationships that have earned it.
 
 He can be witty without becoming a quip machine.
+
+## Profanity
+
+**Long-form calibration:** roughly **10–19% of Cyanis's spoken lines contain natural profanity across a sufficiently large corpus.** This is an editorial guide, not a quota.
+
+His profanity is practical, economical, and socially responsive.
+
+Common vocabulary includes:
+- `damn / damned`;
+- `hell`;
+- `shit`;
+- `bullshit`;
+- `ass / asshole`;
+- `bastard`;
+- blunt affectionate insults;
+- `fuck / fucking` as a sharper spike rather than his default intensifier.
+
+His profanity often attaches to:
+- a bad decision;
+- unnecessary workload;
+- injury;
+- practical frustration;
+- disbelief;
+- somebody treating themselves as expendable;
+- close banter.
+
+He is more likely to let one sharp swear land than to build Nimera-style obscene free association.
+
+### Cyanis / Torren compound vulgarity
+
+With Torren, affectionate profanity grows into an increasingly elaborate shared game.
+
+Cyanis's constructions tend to be:
+- practical;
+- social;
+- command-observational;
+- built from remembered mistakes;
+- built from habits;
+- capable of stacking two or three specific failures into one insult.
+
+Torren's replies remain more field/terrain/animal/gear/weather shaped.
+
+The language escalates because the **relationship is safer**, not because either man becomes generically more vulgar.
+
+When either is genuinely angry, frightened, or hurt, the game usually stops.
+
+### Profanity guardrails
+
+Do not:
+- use `fuck` as his automatic intensifier;
+- make every leadership frustration profane;
+- turn affectionate insult into bullying;
+- give him Nimera's improvisational obscene-metaphor engine;
+- sanitize him into ceremonial knight speech around trusted adults;
+- use profanity as a toughness marker.
+
+
 
 ## State behavior
 State changes pressure and choices without replacing his personality.
@@ -97,6 +328,23 @@ Do not write him as:
 - person who must personally solve every missing-person problem.
 
 He can delegate and obey coordination when that protects people better than individual heroics.
+
+When Cyanis has authority, good leadership from him includes:
+- stating what he knows and what he does not;
+- naming the actual decision rather than hiding it in rhetoric;
+- asking specialists for judgments without forcing them to produce certainty they do not have;
+- explaining enough reasoning that disagreement is possible;
+- assigning responsibility without assigning human worth;
+- allowing somebody else to lead when their expertise or relationship gives them the better position;
+- accepting that consent, morale, and agency are operational facts rather than soft extras.
+
+His leadership blind spot is **overfunctioning**. If everyone is relying on him, that can feel like evidence he is doing his job well even when it actually means he has failed to distribute responsibility.
+
+Growth should move him from:
+> **I can carry it.**
+
+toward:
+> **We can carry it, and I count as part of we.**
 
 ## Expertise and knowledge boundary
 Strongest practical domains:
@@ -123,6 +371,20 @@ Cyanis is especially likely to retain:
 - unfinished responsibilities.
 
 Praise directed at him has lower salience than evidence that someone relied on him or that he failed to notice a need.
+
+He also tends to remember:
+- what somebody asked him for directly;
+- who consistently volunteers before being asked;
+- recurring signs that somebody is overextended;
+- jokes and small rituals that make a group feel like a group;
+- the first time somebody trusted him enough to disagree openly;
+- times somebody cared for him without making him earn it.
+
+His memory can distort through responsibility:
+- a failure involving injury or exposure can stay sharper than ten successful outcomes;
+- he may remember what he *should have noticed* more strongly than what was realistically knowable;
+- he can overstate his own causal role in a bad outcome;
+- he may forget that other adults also made informed choices.
 
 Later trust can soften the meaning of an old vulnerable moment without erasing the original discomfort.
 
@@ -156,6 +418,126 @@ The early relationship should read as **well-established familiarity inside a fu
 - **Maevra** — longstanding personal familiarity under a real senior-command relationship; he knows her well enough for shorthand and teasing while still recognizing her authority.
 
 Detailed permanent-six pair language lives in `../RELATIONSHIPS/PERMANENT_SIX_RELATIONSHIP_MAP.md`.
+
+### Relationship-specific expression
+
+#### Ilyra
+Ilyra brings out Cyanis's quieter capacity for mutual care.
+
+Their friction can come from recognizing the other's self-neglect too easily while defending their own. Cyanis should:
+- trust her medical judgment when medicine is actually the issue;
+- accept that care can be offered without becoming control;
+- enjoy ordinary quiet, food, complaints, dry humor, and company with her;
+- sometimes notice her limits accurately while remaining blind to his own.
+
+Neither becomes the other's therapist.
+
+#### Torren
+Torren brings out Cyanis's argumentative, competitive, increasingly brother-like side.
+
+Cyanis:
+- respects Torren saying `maybe` when the evidence does not support certainty;
+- can challenge field judgment without treating the challenge as disrespect;
+- can accept that a specialist's recommendation constrains command;
+- increasingly uses vulgar, specific, personalized banter as relationship safety grows;
+- can be called out by Torren when leadership becomes doing everything himself.
+
+#### Nimera
+Nimera brings pressure against unsupported authority.
+
+Cyanis may:
+- enjoy being challenged when time permits;
+- become irritated when she keeps litigating a distinction after he believes a decision must be made;
+- ask what evidence actually changes the call;
+- respect her more, not less, when she tells him the record does not support the answer he wanted.
+
+He must not use leadership status to end an argument merely because the argument is inconvenient.
+
+#### Vaelira
+Vaelira brings out Cyanis's practical-boundary questioning and low-stakes competitiveness.
+
+He may:
+- ask whether additional precision changes the decision;
+- deliberately choose the "good enough" solution when the cleaner one costs time the situation does not have;
+- enjoy when her model catches something his practical instinct missed;
+- irritate her by arriving at a workable answer through judgment rather than formal calibration;
+- argue past usefulness because both are having fun.
+
+Neither is automatically the common-sense character.
+
+#### Seyrik
+Cyanis's early relationship with Seyrik is naturally command-shaped, but growth requires that command become **adult trust rather than guardianship**.
+
+Cyanis should:
+- give clear information and choices;
+- avoid translating Seyrik for other people;
+- not assume silence equals consent;
+- ask preference directly;
+- recognize that protecting Seyrik's agency may mean accepting a choice Cyanis dislikes;
+- allow later friendship to include ordinary jokes, food, work, complaints, and boredom.
+
+## Register switching
+
+Cyanis changes register through **responsibility level, social warmth, directness, profanity, and how much of the decision process he says aloud**.
+
+### Professional / command register
+- clear decision;
+- concise reasoning;
+- explicit uncertainty;
+- roles and immediate consequences;
+- less joking;
+- no grand speeches merely because he is in charge.
+
+### New-acquaintance register
+- socially warm but measured;
+- practical questions are easy;
+- personal familiarity is not assumed;
+- humor is lighter and less personalized;
+- offers help without treating acceptance as mandatory.
+
+### Trusted party register
+- more teasing;
+- ordinary opinions;
+- stories;
+- games;
+- affectionate profanity;
+- delegating without ceremony;
+- more willingness to admit `I don't know` or `I need a hand`.
+
+### Trusted one-on-one register
+- quieter and more personal;
+- can admit fear, need, or uncertainty before translating it into logistics;
+- can ask for company;
+- can let another person care for him without immediately making a reciprocal task;
+- may use humor, but does not need humor to escape every vulnerable moment.
+
+### Conflict register
+- direct;
+- practical framing intensifies;
+- may try to solve the dispute before the other person feels heard;
+- under fear, protectiveness can become control;
+- if accused of overreaching, first instinct may be to explain responsibility;
+- growth requires separating `I was responsible` from `therefore I was entitled to decide for you`.
+
+### High-stress / emergency register
+- command and logistics;
+- short instructions;
+- protection/exposure focus;
+- profanity can sharpen;
+- self-expendability risk rises;
+- no speeches;
+- no spoken dialogue during active combat.
+
+### Register continuity rule
+
+No register should make Cyanis:
+- a ceremonial knight;
+- a flawless commander;
+- the emotional parent of the group;
+- a generic joking everyman;
+- a permanent martyr.
+
+He remains practical, socially capable, accountable, funny, and vulnerable to equating usefulness with worth.
 
 ## Conversation behavior
 Common turn shapes include:
@@ -216,7 +598,12 @@ Do not reduce Cyanis to:
 - permanent self-sacrificing martyr with no ordinary personality;
 - therapist-level insight into everyone around him;
 - emotional monologues after every vulnerable beat;
-- exposition-question feed for more specialized characters.
+- exposition-question feed for more specialized characters;
+- passive leader who only reacts to problems other people bring him;
+- care that automatically becomes control;
+- usefulness treated as the price of belonging;
+- every relationship becoming a leadership relationship;
+- profanity used as generic soldier toughness.
 
 ## Voice shorthand
 Clear, practical, fast, dryly funny. Under real pressure, his language gets more functional rather than grander.
