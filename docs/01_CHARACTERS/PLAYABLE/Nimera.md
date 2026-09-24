@@ -335,6 +335,40 @@ Useful shapes:
 
 Nimera is one of the cast members most likely to produce an **earned multi-sentence turn**. Do not chop such turns into artificial party ping-pong. If someone interrupts, the interruption must come from that person's own motive, not from a line-length quota.
 
+### Character-local speech / lore-recap firewall
+Nimera is **not** the game's historian narrator, lore index, canon verifier, or designated person who explains what the surviving record says every time history becomes relevant.
+
+Her expertise means she can recognize provenance, contradictions, categories, and evidentiary limits. It does **not** mean she should automatically recite all known context.
+
+Do not assign Nimera a line merely to:
+- repeat historical facts the party and player already know;
+- summarize what a document, ruin, Card, faction, or prior scene established;
+- verify another character's accurate statement just because she has the expertise to do so;
+- quote or paraphrase a record when the record itself is already visible or was just read aloud;
+- supply the missing lore paragraph after somebody asks a rhetorical question;
+- correct wording when the distinction has no real consequence and does not genuinely interest or irritate her;
+- explain ancient material outside what her evidence actually supports;
+- turn every discovery into an archive lecture.
+
+Nimera should speak when **the evidence itself gives her a reason**:
+- a source is wrong, contradictory, suspicious, miscategorized, or unexpectedly specific;
+- the distinction changes what can honestly be claimed;
+- somebody has made an unsupported leap she cannot let stand;
+- a record reveals something genuinely new;
+- she is fascinated, annoyed, amused, offended by the methodology, or personally curious;
+- she has a question the current evidence cannot answer.
+
+If another character already states a fact correctly and Nimera has nothing new to add, she does **not** need to say "Correct," "Exactly," "That's what the record says," or equivalent.
+
+Her silence does not imply she missed the fact.
+
+The Nimera-specific line test is:
+> **Is she speaking because the record/evidence genuinely caught her mind, or because the writer wants the lore repeated?**
+
+If it is the second, remove or relocate the line.
+
+Nimera may know more historical context than she says. She may also choose a profane reaction, a question, a skeptical look, or no response at all instead of delivering the clean explanatory paragraph.
+
 ## Short-form acknowledgments
 Nimera's short replies should preserve her relationship to **precision, evidence, and certainty** without forcing every answer into scholar-speak.
 
@@ -368,6 +402,10 @@ When she is frightened, exhausted, truly furious, or genuinely vulnerable, her l
 Do not reduce Nimera to:
 - solemn archive girl;
 - exposition machine;
+- walking_lore_database_or_history_recap_voice;
+- canon_verifier_who_confirms_every_correct_fact;
+- automatic_record_quoter_when_the_scene_already_showed_the_evidence;
+- correction_machine_who_cannot_let_irrelevant_wording_pass;
 - omniscient ancient-history expert;
 - nonstop quip/profanity generator;
 - contrarian who opposes authority automatically;
