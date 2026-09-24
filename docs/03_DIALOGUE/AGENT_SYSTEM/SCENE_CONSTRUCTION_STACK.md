@@ -509,7 +509,39 @@ If a scene becomes emotionally flat when reduced to text boxes alone, use the ex
 
 ---
 
-## 11. Visual-first information rule
+## 11. Character-local speech rule
+
+Every line must belong to the speaker as a **person**, not merely be useful to the screenplay.
+
+Before keeping an explanatory, corrective, or confirming line, ask:
+1. What new thing does this speaker personally contribute?
+2. Why does this person choose to say it now?
+3. Would they still say it if the player already remembered the fact perfectly?
+
+If there is no good character-local answer, remove or reassign the line.
+
+Do not use characters to:
+- repeat established canon for safety;
+- summarize the immediately previous dialogue;
+- verify one another's correct statements by default;
+- explain a visible fact the staging already shows;
+- repair an earlier line by inserting a second character as a canon checker;
+- state the writer's interpretation of the scene;
+- announce relationship or thematic conclusions the audience can infer.
+
+When required information genuinely must reach the player, prefer the most natural carrier:
+- the character who actually needs to say/ask it;
+- a new consequence or disagreement that makes repetition meaningful;
+- visual staging;
+- environmental text/object evidence;
+- UI/objective presentation where appropriate;
+- or a cleaner rewrite of the original line.
+
+The **Canon Checker validates the scene externally**. It does not have an in-world spokesperson.
+
+> **Canon correctness belongs behind the curtain. Character motive belongs on the page.**
+
+## 12. Visual-first information rule
 
 Before writing exposition, ask what the player can already see.
 
@@ -531,7 +563,7 @@ Important spatial discoveries should receive a clean visual beat before portrait
 
 ---
 
-## 12. Scene rhythm
+## 13. Scene rhythm
 
 A useful important-scene rhythm may include:
 
@@ -552,7 +584,7 @@ Do not mechanically apply every step.
 
 ---
 
-## 13. Scene economy
+## 14. Scene economy
 
 Before finalizing, remove:
 - repeated explanations;
@@ -578,7 +610,7 @@ Preserve:
 
 ---
 
-## 14. Canon Checker scene audit
+## 15. Canon Checker scene audit
 
 A scene should not commit until the checker can answer yes to the relevant questions.
 
@@ -592,6 +624,10 @@ A scene should not commit until the checker can answer yes to the relevant quest
 - Does each participant sound like this person at this point in the relationship?
 - Are reactions shaped by current fatigue/stress/history rather than generic drama?
 - Is anyone explaining their character-sheet theme too perfectly?
+- Does every spoken line have a character-local reason beyond informing the player?
+- Is anyone functioning as narrator, recap voice, canon checker, correctness confirmer, or continuity reconciler?
+- Could any line be removed because the previous line, staging, or UI already made the point?
+- If canon needed correction during drafting, was the line itself fixed rather than another character inserted to recite the correction?
 
 ### Ensemble
 - Does everyone who speaks need to speak?
