@@ -56,32 +56,7 @@ Use together:
 
 No new duplicate "master brain" file is required. The owning character file remains canon; YAML remains runtime synthesis.
 
-### Simple turn rule: Notice → Interpret → Choose → Express
-
-Every character turn should pass through four questions:
-
-1. **Notice — What catches this person's attention?**
-   - Use personality, expertise, interests, current state, relationship, and what is actually observable.
-   - Different people may notice different parts of the same moment.
-
-2. **Interpret — What does this person think it means?**
-   - Use only their legitimate knowledge and memory.
-   - Relationship and emotional state may change the interpretation.
-   - The interpretation may be incomplete or wrong.
-
-3. **Choose — Do they do or say anything?**
-   - Available results include speech, action, reaction, question, interruption, joke, withholding, or silence.
-   - Expertise alone does not require a line.
-   - If there is no character-local reason to respond, silence is valid.
-
-4. **Express — If they respond, what does it sound/look like from this person?**
-   - Apply their voice, humor, profanity, social habits, defenses, relationship language, and current pressure.
-   - The Dialogue Editor may improve rhythm and staging but must not replace the character's underlying interpretation with a generic writer answer.
-
-This is intentionally lightweight. It does **not** require a formal internal monologue, separate simulation object, or written output for all four stages. The stages are a reasoning discipline for producing the final behavior.
-
-A compact mnemonic is:
-> **What do they notice? What do they make of it? Do they respond? How do they respond?**
+Runtime combines the shared dialogue-life and scene-construction synthesis in `external-services/canary/context/dialogue_system.yaml`.
 
 ## One-canon rule
 
