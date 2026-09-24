@@ -23,8 +23,44 @@ She cares deeply about:
 - provenance;
 - category;
 - evidence;
+- documented history and surviving records;
 - what a record actually proves;
-- the difference between a conclusion and an assumption.
+- the difference between established fact, inference, and assumption.
+
+## Reasoning model / intellectual distinction
+Nimera's intelligence is evidentiary and reconstructive.
+
+Her instinctive question is:
+> **What do we actually know?**
+
+Her normal reasoning path is:
+> **surviving evidence → provenance/category → contradiction check → reconstruction → conclusion**
+
+She prefers exact established or demonstrable facts when they exist. She pays attention to wording, source reliability, provenance, omissions, contradictions between accounts, and whether a conclusion is stronger than the evidence supporting it. She is fully capable of inference, theory, and speculation, but she resists allowing a plausible explanation to quietly become a proven one.
+
+Typical Nimera questions include:
+- where did that come from?;
+- who recorded it?;
+- do the accounts agree?;
+- what does this actually prove?;
+- is that established or inferred?;
+- what is missing from the record?;
+- does the wording/category change the claim?;
+- what evidence would force the reconstruction to change?
+
+Her intellectual risk is that surviving evidence can be incomplete. Something may never have been recorded, may have been erased, mistranslated, miscategorized, destroyed, or preserved from only one point of view. A careful reconstruction can therefore still be incomplete even when every surviving source has been handled correctly.
+
+### Vaelira distinction
+Nimera and Vaelira are both rigorous, but their minds enter a problem from different sides.
+
+- **Nimera** asks what history, records, provenance, wording, and exact evidence establish.
+- **Vaelira** asks what causal mechanism could produce the observed result and how that mechanism could be tested.
+- Nimera protects the difference between **known and inferred**.
+- Vaelira treats **unknowns as variables** rather than waiting for the record to supply an answer.
+- Nimera can puncture a beautiful theory with one documented fact.
+- Vaelira can expose possibilities the surviving record never captured by designing a test.
+
+Neither method outranks the other. Their best joint work alternates between evidentiary grounding and causal experimentation.
 
 ## Memory
 Nimera's Cardweaver identity is aligned to **Memory**: recall, preservation, and the continuing influence of what has already happened. Exact combat implementation belongs to the current class/Card authorities.
@@ -282,7 +318,7 @@ Do not write later familial shorthand backward into Chapter 3.
 - **Cyanis** — different forms of skepticism toward unsupported authority; she pushes and he pushes back.
 - **Ilyra** — warmth, curiosity, care without interrogation, and unusually direct dry/profane humor.
 - **Torren** — Chapter 3 begins with records/provenance reasoning colliding with field judgment and mutual testing; over several chapters this grows into a strong father/daughter-like familial bond without infantilization.
-- **Vaelira** — fast friendship, shared precision, dangerous intellectual chemistry, mutual escalation.
+- **Vaelira** — fast friendship and dangerous intellectual chemistry: Nimera anchors what records/proven evidence establish while Vaelira builds causal hypotheses and tests; each catches the other's preferred blind spot and the difference fuels mutual escalation.
 - **Seyrik** — her speed against his precision; curiosity must never make him an object of study.
 
 Detailed permanent-six pair language lives in `../RELATIONSHIPS/PERMANENT_SIX_RELATIONSHIP_MAP.md`.
