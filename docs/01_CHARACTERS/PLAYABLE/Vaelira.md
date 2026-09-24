@@ -647,6 +647,75 @@ They should not become magical mind-readers. A familiar person can notice a tell
 - **affection/trust:** playfulness, competitive engagement, practical attentiveness, shared shorthand, direct personal preference, and willingness to look briefly foolish become more available;
 - **high stress:** language becomes concise and model-focused; uncertainty must remain explicit rather than being hidden for reassurance.
 
+## Memory tendencies
+
+Vaelira's memory is strong where **causal structure, correction, and personal attention** overlap.
+
+She is especially likely to retain:
+- the condition under which a prediction failed;
+- the variable that forced a model revision;
+- calibration mistakes and the correction that fixed them;
+- a person who admitted uncertainty instead of bluffing;
+- a surprising result that overturned one of her expectations;
+- exact practical details tied to something she cares about;
+- small preferences, complaints, habits, or requests from people she is attached to;
+- moments when she became more visibly excited, competitive, embarrassed, or personally invested than she intended.
+
+She does **not** have photographic recall.
+
+Her memory can fail in character-specific ways:
+- she may remember the causal sequence better than the exact wording of a conversation;
+- she may remember what somebody chose but misread why it mattered to them;
+- she can over-retain her own mistakes and underweight evidence that other people have already forgiven them;
+- embarrassment can make a trivial social moment feel more memorable to her than it was to everyone else;
+- she may preserve an outdated assumption in her notes specifically because she wants the correction history visible rather than erased.
+
+When a model changes, Vaelira prefers **revision with traceability** over pretending the earlier model never existed. That preference can carry into personal memory: she does not need the past version of herself to have been stupid in order for the current version to be better.
+
+## Authority / institution relationship
+
+Vaelira is **not reflexively anti-authority**.
+
+She respects:
+- demonstrated expertise;
+- competent procedure;
+- reproducible results;
+- standards that exist for a reason;
+- independent review;
+- people who can explain the limits of their own authority;
+- institutions that preserve correction rather than hiding it.
+
+A title, consensus, or long-standing procedure can make a claim worth taking seriously. It does **not** make the claim true.
+
+Her institutional vulnerability is subtler: when a competent system keeps producing useful local results, she can trust its chosen boundaries for too long. A process that works repeatedly can become harder for her to question at the level of:
+> **What did we decide not to measure?**
+
+This is part of the Chapter 4 Annex failure and should remain available as a broader character lesson without making her suspicious of every institution afterward.
+
+When authority and evidence conflict, Vaelira tends to:
+1. identify the exact disagreement;
+2. ask what observation or assumption supports the current rule;
+3. test or broaden the boundary where possible;
+4. preserve specific responsibility;
+5. change the procedure if the failure is procedural;
+6. resist substituting punishment for correction.
+
+She does not like scapegoating because it produces the appearance of decisiveness without necessarily fixing the system. That does **not** mean nobody is accountable. She is comfortable saying:
+- this part was mine;
+- that part was yours;
+- this procedure failed;
+- this assumption was shared;
+- this decision needs to change.
+
+When **she** holds technical authority:
+- she can give firm instructions without apologizing for competence;
+- she should not inflate certainty to make others obey;
+- she should state what is known, what is uncertain, and what action follows;
+- she can delegate rather than personally controlling every task;
+- after failure, she is vulnerable to over-owning the result and may need to distinguish leadership responsibility from total causal responsibility.
+
+Growth should not turn Vaelira into someone who distrusts systems. It should make her better at asking whether the system's success criteria are **too narrow**.
+
 ## Professional boundary
 Vaelira's expertise is:
 - elemental regulation;
@@ -899,6 +968,52 @@ No register should erase her core:
 - increasing willingness to act from desire.
 
 Do not write "professional Vaelira" as emotionless, "private Vaelira" as suddenly gushy, or "late Vaelira" as a completely different profanity-heavy speaker.
+
+## Short-form replies / acknowledgments
+
+Vaelira may absolutely answer with ordinary human brevity. Precision does not require a qualifier on every reply.
+
+Natural short forms include:
+- `Yes.`;
+- `No.`;
+- `Maybe.`;
+- `Probably.`;
+- `Apparently.`;
+- `For now.`;
+- `I think so.`;
+- `I don't think so.`;
+- `Not yet.`;
+- `Different problem.`;
+- `That helps.`;
+- `That's useful.`;
+- `I see it.`;
+- `All right.`;
+- `Interesting.`;
+- `I hadn't considered that.`;
+- `Fair.` when it is a genuine concession rather than a default acknowledgment.
+
+Her more technical short replies should appear only when the distinction actually matters:
+- `Under those conditions.`;
+- `Same result.`;
+- `Not from that.`;
+- `That's not what follows.`;
+- `We can't say that yet.`;
+- `Consistent, not confirmed.`
+
+Avoid turning `Correct.`, `Exactly.`, `Possibly.`, `Not necessarily.`, or `That's right.` into repetitive signature acknowledgments. They remain available, but should be chosen because they fit the immediate thought.
+
+A bare `yes` or `no` is often more natural than attaching a technical clause merely to remind the audience she is intelligent.
+
+If another person has already completed the thought, silence may be better than any acknowledgment at all.
+
+Under danger or urgent authored scenes, brevity can become purely functional:
+- `Back.`;
+- `Move.`;
+- `Wait.`;
+- `Don't touch it.`;
+- `Now.`
+
+This does not authorize spoken dialogue during active combat.
 
 ## Conversation behavior
 Common shapes:
