@@ -1,0 +1,499 @@
+schema_version: 1
+status: RUNTIME_SYNTHESIS
+source_authority:
+  - docs/03_DIALOGUE/README.md
+  - docs/03_DIALOGUE/AGENT_SYSTEM/README.md
+  - docs/03_DIALOGUE/AGENT_SYSTEM/SCENE_CONSTRUCTION_STACK.md
+  - docs/01_CHARACTERS/RELATIONSHIPS/PERMANENT_SIX_RELATIONSHIP_MAP.md
+  - docs/13_UI_AND_IMPLEMENTATION/IMPLEMENTATION_NOTES/AREA_TRAVERSAL_AUTHORING_INTERFACE.md
+  - docs/13_UI_AND_IMPLEMENTATION/DIALOGUE_UI.md
+  - docs/14_ART_AND_VISUALS/ART_VISUAL_MASTER.md
+  - docs/14_ART_AND_VISUALS/DIYSE_VISUAL_STYLE_CANON.md
+
+brain_invocation_contract:
+  use_agent_brain_means:
+    - canonical_character_authority
+    - runtime_brain_synthesis
+    - current_relationship_state
+    - story_position_knowledge_and_chronology
+    - established_personal_memory
+    - current_state
+    - observable_scene_context
+    - shared_dialogue_and_scene_rules
+  runtime_yaml_is_not_the_whole_brain: true
+
+dialogue_life:
+  craft_formula:
+    - talk_like_people
+    - react_like_anime_characters
+    - time_jokes_like_a_comedy
+    - structure_important_scenes_like_a_great_rpg
+    - remember_they_are_living_through_a_war
+    - occasionally_let_them_argue_about_absolutely_nothing
+
+  craft_sources_as_methods_not_imitation:
+    naturalistic_film_and_tv:
+      use_for:
+        - interruptions
+        - unfinished_sentences
+        - false_starts
+        - repetition
+        - wrong_part_answers
+        - subject_changes
+        - dead_ends
+        - misunderstandings
+        - awkward_silence
+        - imperfect_self_understanding
+    comedy:
+      use_for:
+        - timing
+        - escalation
+        - awkwardness
+        - callbacks
+        - misunderstanding
+        - deadpan
+        - overconfidence
+        - committing_harder_to_stupid_positions
+        - ensemble_comedy
+      rule: comedy_arises_from_character_not_invisible_writer
+    anime:
+      use_for:
+        - expressive_personality
+        - tonal_elasticity
+        - heightened_but_specific_reactions
+        - found_family_chemistry
+        - emotional_sincerity
+        - ensemble_banter
+        - fast_transitions_between_comedy_calm_danger_and_grief
+      avoid:
+        - constant_screaming
+        - generic_catchphrases
+        - sexualized_gag_reactions
+        - announcing_visible_emotions
+        - constant_friendship_speeches
+        - everyone_becoming_stupid_for_comedy
+        - stock_archetype_behavior
+    wartime_naturalism:
+      can_shape:
+        - fatigue
+        - casualty_awareness
+        - food_and_supply_pressure
+        - travel_routes
+        - watches
+        - wounds
+        - evacuations
+        - displaced_civilians
+        - missing_people
+        - practical_preparation
+        - professional_shorthand
+        - gallows_humor
+        - sleep
+        - routine
+      rule: characters_may_forget_the_war_for_a_few_minutes_but_the_world_does_not
+
+  core_rules:
+    - characters_do_not_know_they_are_in_a_story
+    - character_knowledge_is_permission_not_obligation_to_speak
+    - every_line_needs_character_local_motive_beyond_player_information_need
+    - canon_correctness_is_authoring_property_not_character_role
+    - character_sheet_theme_is_for_writer_not_character
+    - not_every_conversation_must_accomplish_plot_lore_arc_or_reward
+    - characters_may_talk_because_bored_hungry_cold_irritated_curious_tired_or_comfortable
+    - humor_comes_from_personality_and_relationship
+    - all_six_can_be_funny_for_different_reasons
+    - important_dialogue_earns_eloquence
+    - most_speech_should_sound_spoken_not_written
+    - silence_is_participation
+    - selective_participation_beats_party_roll_call
+    - once_the_point_lands_get_out
+    - characters_may_refuse_defer_joke_leave_or_answer_only_the_practical_part
+    - characters_may_misunderstand_each_other
+    - relationships_progress_through_shorthand_callbacks_teasing_borrowed_language_and_comfortable_silence
+
+  mature_adult_speech:
+    - adults_can_swear_when_voice_and_relationship_support_it
+    - adults_can_be_petty_or_wrong
+    - adults_can_fail_to_find_the_right_words
+    - adults_can_avoid_the_real_subject
+    - adults_can_sit_in_silence
+    - competence_does_not_equal_emotional_omniscience
+    - do_not_sanitize_every_exchange_into_polite_rpg_dialogue
+
+  cinematic_subtext_tools:
+    - pause
+    - look
+    - turn_away
+    - posture_shift
+    - field_model_gesture
+    - portrait_expression_change
+    - someone_starts_then_stops
+    - someone_notices_and_says_nothing
+    - ordinary_task_continues_under_conversation
+    - music_or_sound_drop
+    - silence_after_line
+
+  comedy_timing_tools:
+    - setup_beat_reaction
+    - deadpan_hold
+    - escalation
+    - callback
+    - misunderstanding
+    - awkward_silence
+    - overconfidence
+    - overcommitment
+    - reversal
+    - refusal_of_expected_reaction
+    - relationship_specific_insult
+
+  available_naturalism_tools:
+    - interruptions
+    - false_starts
+    - fragments
+    - repeated_words
+    - partial_answers
+    - wrong_part_answers
+    - subject_changes
+    - dead_ends
+    - misunderstanding
+    - awkward_silence
+    - failed_jokes
+    - arrivals_and_leavings
+    - simultaneous_clusters
+    - self_revision
+    - memory_corrections
+    - unresolved_conversations
+
+  surface_hidden_subject_rule:
+    - characters_may_discuss_the_concrete_surface_thing_while_emotional_subtext_remains_unspoken
+    - do_not_force_the_hidden_subject_into_explicit_dialogue
+
+  narrator_canon_checker_firewall:
+    universal: true
+    line_test: would_this_character_still_say_this_if_no_player_needed_the_information_repeated
+    do_not_use_any_character_to:
+      - restate_fact_another_character_just_established
+      - repeat_objective_location_relationship_reveal_rule_or_chronology_for_player_clarity
+      - summarize_preceding_exchange
+      - reconcile_canon_or_continuity_aloud
+      - confirm_another_characters_correct_statement_without_personal_reason
+      - finish_another_characters_exposition
+      - state_scene_theme_or_author_interpretation
+      - translate_author_only_knowledge_into_dialogue
+      - explain_visible_staging_that_already_communicates_the_point
+      - provide_tidy_conclusion_after_point_has_landed
+    valid_reasons_to_speak:
+      - new_observation
+      - new_inference
+      - objection
+      - genuine_question
+      - decision
+      - action_need
+      - joke
+      - misunderstanding
+      - emotional_reaction
+      - relationship_impulse
+      - professional_need
+      - personal_interest
+    silence_rule:
+      - if_point_is_established_and_character_has_no_new_local_motive_prefer_silence
+    imperfection_permissions:
+      - may_misunderstand
+      - may_focus_on_wrong_detail
+      - may_draw_plausible_incomplete_conclusion
+      - may_decide_not_to_correct
+      - may_know_answer_and_choose_not_to_speak
+      - may_react_instead_of_explain
+    canon_checker_separation:
+      - canon_checker_is_invisible_to_fiction
+      - fix_replace_or_remove_bad_line_at_authoring_layer
+      - never_insert_character_only_to_recite_correct_canon
+      - never_add_yes_exactly_or_to_be_clear_line_only_to_prove_compliance
+
+  pair_languages:
+    Cyanis_Ilyra: attentive_comfortable_increasing_private_softness_practical_care_shared_silence
+    Cyanis_Torren: fast_competitive_affectionate_insults_brother_like_direct_practical_trust
+    Cyanis_Nimera: push_and_push_back_fast_corrections_intellectual_respect
+    Cyanis_Vaelira: different_kinds_of_intelligence_useful_disagreement_playful_challenge
+    Cyanis_Seyrik: formal_command_shape_to_ordinary_friendship_without_speaking_for_him
+    Ilyra_Torren: low_verbal_density_professional_respect_comfortable_silence
+    Ilyra_Nimera: warmth_curiosity_preservation_dry_profane_humor
+    Ilyra_Vaelira: calm_real_disagreement_consequence_vs_technical_possibility
+    Ilyra_Seyrik: careful_language_around_guilt_injury_care_agency_consent_then_ordinary_topics
+    Torren_Nimera: familial_protective_teasing_without_infantilization
+    Torren_Vaelira: field_evidence_vs_model_evidence_useful_funny_friction
+    Torren_Seyrik: veteran_shorthand_restrained_conversation_few_words
+    Nimera_Vaelira: fast_friendship_shared_curiosity_dangerous_intellectual_chemistry
+    Nimera_Seyrik: her_speed_vs_his_precision_dry_comedy
+    Vaelira_Seyrik: serious_intellectual_compatibility_dangerous_systems_funny_mundane_disagreement
+
+  relationship_progression:
+    early:
+      - more_formality
+      - more_explanation
+      - safer_jokes
+      - awkward_pauses
+      - professional_boundaries
+    middle:
+      - interruptions
+      - callbacks
+      - teasing
+      - shorthand
+      - inside_jokes
+    late:
+      - fewer_explanations
+      - private_language
+      - borrowed_phrases
+      - fast_coordination
+      - practical_affection
+      - comfortable_silence
+
+  anti_patterns:
+    - six_people_waiting_for_their_turn_to_comment
+    - everyone_explaining_their_theme
+    - wiki_prose
+    - constant_screaming
+    - generic_catchphrases
+    - friendship_speeches
+    - comedy_that_makes_competent_people_stupid
+    - therapy_session_structure_for_every_relationship
+    - every_line_trying_to_be_quotable
+    - every_serious_scene_needing_a_joke
+    - every_quiet_scene_becoming_trauma_processing
+    - character_as_narrator
+    - character_as_scene_summarizer
+    - character_as_canon_checker
+    - character_as_continuity_reconciler
+    - character_as_automatic_correctness_confirmer
+    - player_clarity_fact_repetition_without_character_motive
+
+scene_construction:
+  core_scene_formula:
+    - character
+    - relationship
+    - knowledge
+    - recent_experience
+    - physical_location
+    - gameplay_pressure
+    - lived_world
+    - scene_purpose
+    - hd2d_staging
+    - production_cost
+
+  required_director_inputs:
+    story:
+      - chapter_or_sequence
+      - story_position
+      - purpose
+      - mandatory_facts_or_events
+      - forbidden_future_knowledge
+      - participants
+      - party_state
+    geography:
+      - location
+      - sub_area_or_cell
+      - cell_role
+      - area_phase
+      - visible_environmental_information
+      - entry_context
+      - exit_context
+    gameplay:
+      - recent_gameplay
+      - encounter_pressure_before
+      - encounter_pressure_after
+      - recovery_state
+      - dialogue_readiness
+      - player_control_mode
+    people:
+      - current_state
+      - relationship_state
+      - relevant_memories
+      - knowledge_boundaries
+    world_life:
+      - local_work_or_civilian_activity
+      - route_supply_repair_weather_pressure
+      - ordinary_life_opportunity
+    presentation:
+      - scene_mode
+      - portrait_need
+      - field_model_blocking
+      - camera_need
+      - prop_or_environment_interaction
+      - lighting_sound_state_change
+      - production_cost_tier
+
+  scene_modes:
+    full_authored_stop_scene:
+      use_for:
+        - major_decision
+        - revelation
+        - recruitment
+        - confrontation
+        - emotionally_complex_processing
+      requirements:
+        - safe_or_protected_context
+    walking_or_traversal_dialogue:
+      use_for:
+        - short_contextual_exchange
+        - route_observation
+        - relationship_texture
+        - low_complexity_explanation
+      rules:
+        - use_only_where_pressure_permits
+        - mandatory_exchange_may_temporarily_suppress_encounter_triggering
+        - preserve_local_encounter_pressure
+        - do_not_run_long_dialogue_inside_high_pressure_pursuit
+    post_battle_reaction:
+      rules:
+        - keep_short_unless_explicit_safe_scene_follows
+        - natural_home_is_post_battle_grace
+    story_bearing_cell:
+      tools:
+        - optional_npc_talk
+        - landmark_observation
+        - short_party_exchange
+        - environmental_discovery
+        - local_dispute
+        - relationship_beat
+    character_life_hub_camp:
+      tools:
+        - ordinary_life
+        - food
+        - repair
+        - gossip
+        - games
+        - pointless_arguments
+        - low_stakes_vulnerability
+        - silence
+    boss_threshold:
+      rules:
+        - do_not_over_explain_what_environment_or_prior_story_already_established
+        - give_major_aftermath_a_real_breath
+    story_combat_pause:
+      rules:
+        - only_when_current_battle_authority_permits
+        - never_imply_free_illegal_actions
+
+  area_design_interface:
+    principles:
+      - playable_density_over_raw_footprint
+      - locations_are_sequences_or_networks_of_meaningful_cells
+      - story_can_be_distributed_across_sub_areas
+      - beat_pacing_is_not_the_same_as_progression_pacing
+      - silence_and_gameplay_are_legitimate_pacing
+      - optional_narrative_branches_must_not_hide_required_story_comprehension
+      - retraversal_should_reflect_changed_context
+      - exact_area_minutes_and_counts_remain_open_unless_current_owner_locks_them
+    cell_roles:
+      - entry
+      - traversal
+      - branch
+      - reward
+      - challenge
+      - recovery
+      - story
+      - landmark
+      - boss
+    dialogue_readiness:
+      GREEN:
+        - full_dialogue_is_naturally_credible
+      AMBER:
+        - keep_short_or_carefully_stage
+      RED:
+        - avoid_ordinary_long_dialogue
+
+  performance_contract:
+    character_local_speech:
+      - every_line_must_have_speaker_motive_beyond_player_information_need
+      - character_knowledge_is_permission_not_obligation_to_explain
+      - do_not_restate_established_fact_without_new_personal_reason
+      - do_not_use_character_as_narrator_recap_voice_canon_checker_or_continuity_reconciler
+      - do_not_confirm_another_speakers_correctness_by_default
+      - do_not_explain_what_staging_or_ui_already_makes_clear
+      - if_point_has_landed_and_no_new_motive_prefer_silence
+      - canon_checker_repairs_generation_behind_the_scenes_not_through_character_dialogue
+      - line_test_would_speaker_still_say_it_if_player_already_remembered_fact
+    mature_adult_naturalism:
+      - spoken_not_written
+      - interruptions_allowed
+      - unfinished_sentences_allowed
+      - wrong_part_answers_allowed
+      - misunderstandings_allowed
+      - natural_profanity_only_by_established_voice
+      - adults_can_be_competent_without_being_emotionally_omniscient
+    anime_expressiveness:
+      - readable_expression_changes
+      - specific_body_language
+      - emotional_sincerity
+      - tonal_elasticity
+      - fast_movement_between_mundane_comedy_danger_and_grief
+    comedy_timing:
+      - setup_beat_reaction
+      - deadpan_hold
+      - escalation
+      - callback
+      - misunderstanding
+      - awkward_silence
+      - overconfidence
+      - overcommitment
+      - refusal_of_expected_reaction
+    cinematic_subtext:
+      - pause
+      - look
+      - turn_away
+      - field_model_gesture
+      - portrait_expression_change
+      - aborted_answer
+      - noticed_but_unspoken_detail
+      - ordinary_task_continues
+      - silence_after_line
+
+  hd2d_staging:
+    current_character_runtime:
+      - b00_rigged_3d_field_and_battle_models
+      - high_resolution_2d_portraits_where_appropriate
+    economical_first_tools:
+      - existing_field_environment
+      - model_position_and_facing
+      - small_authored_gesture
+      - portrait_expression_change
+      - silent_beat
+      - restrained_camera_reframe
+      - prop_interaction
+      - lighting_shift
+      - sound_cue
+      - music_drop_or_return
+      - background_npc_movement
+      - environment_state_swap
+      - existing_weather_or_particle_layer
+    reserve_for_earned_moments:
+      - bespoke_full_body_animation
+      - large_destruction_event
+      - extensive_crowd_simulation
+      - unique_cinematic_environment_build
+      - complex_one_use_transformation_animation
+    rules:
+      - economical_does_not_mean_cheap_looking
+      - spend_complexity_where_player_sees_and_feels_it
+      - sell_scale_with_composition_depth_sound_light_background_motion_and_state_changes
+      - important_visual_information_gets_a_clean_read_before_portrait_text_density
+      - presentation_never_creates_illegal_gameplay_actions
+      - do_not_reintroduce_retired_80px_200px_sprite_production_gates
+
+  anti_patterns:
+    - writing_screenplay_first_then_forcing_it_into_map
+    - six_person_roll_call
+    - explaining_visible_environment_in_full
+    - long_dialogue_inside_sustained_pressure_without_authored_pause
+    - resetting_encounter_pressure_to_make_walking_dialogue_convenient
+    - using_optional_branch_for_required_main_story_comprehension
+    - adding_banter_to_every_quiet_interval
+    - generic_party_comedy_voice
+    - stock_anime_reactions
+    - expensive_bespoke_animation_for_routine_scene
+    - making_map_size_or_runtime_numbers_canon_from_research_only_guidance
+    - character_used_as_narrator
+    - character_used_as_recap_machine
+    - character_used_as_canon_checker
+    - character_used_as_continuity_reconciler
+    - redundant_correctness_confirmation
+    - repeated_fact_for_player_clarity_without_character_motive
