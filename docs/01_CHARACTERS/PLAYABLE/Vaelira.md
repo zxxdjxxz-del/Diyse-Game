@@ -61,6 +61,27 @@ Her story should not reduce "choice" to rejection of expertise or responsibility
 Her Character Quest, **The Sky No One Chose**, centers on:
 > choosing by desire rather than merely accepting the life that competence, expectation, or circumstance appears to prescribe.
 
+### Desire / self-definition pressure
+Vaelira is not incapable of wanting things. The pressure is that she has learned to trust **reasons** more readily than desire by itself.
+
+When making an important choice, her first instinct is often to justify it through:
+- evidence;
+- usefulness;
+- expected consequences;
+- competence;
+- responsibility;
+- what can be defended as the sensible answer.
+
+A direct **"What do you want?"** can therefore be harder for her than **"What should we do?"**
+
+She may initially translate a personal question into a solvable one: what is practical, what is safest, what has the best expected result, or what another person needs. This is not emotional stupidity and should not make her helpless or indecisive. She can know exactly what she likes and still hesitate to treat **wanting it** as sufficient justification.
+
+Growth should make direct first-person desire more available:
+- "I want this.";
+- "I don't want that.";
+- "I chose it because I wanted to.";
+- admitting that enjoyment, curiosity, attachment, beauty, or personal preference can matter even when they are not the most defensible variable on the page.
+
 ## Ordinary-life identity
 Vaelira is not "formal intelligent mage" in downtime.
 
@@ -71,9 +92,35 @@ Compatible lived-person behavior:
 - capable of being embarrassed by how enthusiastic she became;
 - increasingly playful as familiarity grows;
 - comfortable with simple reactions when a simple reaction is what a person would actually say;
-- able to discuss ordinary annoyances, food, travel, equipment, weather, sleep, or mundane disagreements without turning them into elemental lectures.
+- able to discuss ordinary annoyances, food, travel, equipment, weather, sleep, gossip, presentation, or mundane disagreements without turning them into elemental lectures;
+- capable of getting petty about a low-stakes disagreement and continuing because she is enjoying herself;
+- not immune to vanity: she generally likes looking composed and put-together and can be annoyed when travel, weather, soot, mud, or somebody else's carelessness ruins that presentation;
+- exact about the condition, placement, and calibration of professional tools without requiring her entire personal space to be sterile or laboratory-neat.
 
-Do not force every non-plot interest to become a metaphor for choice or Elements.
+### Behavioral anchors
+- **interest:** composure becomes more animated rather than disappearing; she leans into the problem, asks follow-up questions quickly, and may forget she was trying to appear detached;
+- **competition:** she especially enjoys prediction, optimization, controlled challenges, and finding the cleaner solution; losing bothers her briefly, but an unexpected result can become more interesting than winning;
+- **being wrong:** a wrong prediction can produce a flash of irritation or embarrassment, followed by genuine engagement if the contradictory evidence is good;
+- **boredom:** she is prone to inventing small predictions, tests, efficiency challenges, or "what happens if..." questions rather than simply sitting with nothing to engage her;
+- **professional order:** she is protective of calibrated tools, notes, and arrangements whose position actually matters; she should not become a generic neat-freak about every personal object;
+- **praise:** professional praise is comparatively easy for her to accept; praise that reveals how much she personally cared, wanted, enjoyed, or hoped for something can make her more self-conscious;
+- **novelty:** a genuinely unexplained result can override irritation very quickly. Curiosity is one of the fastest ways through her composure.
+
+Do not force every non-plot interest to become a metaphor for choice or Elements. These tendencies should create ordinary scenes, not turn every meal, room, or joke into a miniature experiment.
+
+## Affection / trust
+Vaelira often shows affection through **attention before declaration**.
+
+She may:
+- remember a small preference or complaint and quietly account for it later;
+- bring a person the information, object, or observation she knows they will specifically appreciate;
+- ask for another person's expertise because she actually values how they think;
+- adjust a plan around someone without making a performance of the favor;
+- share an interesting discovery because her first thought was that a particular person would enjoy it;
+- invite someone into a challenge, prediction, or argument as a form of companionship;
+- become more willing to look foolish, lose, be teased, or admit excitement around people she trusts.
+
+Earlier, she may disguise some care as practicality or technical necessity. Later trust should make direct care more available rather than trapping her forever behind deniable favors.
 
 ## Social behavior
 Vaelira:
@@ -82,7 +129,23 @@ Vaelira:
 - can admit another person's method produced the right answer;
 - notices when her explanation is overshooting the audience and can restate plainly;
 - can misunderstand emotional meaning even while understanding the technical situation perfectly;
-- becomes more willing over time to participate in jokes rather than only analyze why they are technically wrong.
+- becomes more willing over time to participate in jokes rather than only analyze why they are technically wrong;
+- enjoys being correct, but should care more about the result surviving scrutiny than about preserving her status;
+- can become sharply irritated when someone knowingly ignores inconvenient evidence, falsifies certainty, or refuses to test a claim they keep insisting is true;
+- is generally more tolerant of ignorance than of intellectual dishonesty;
+- may become conspicuously more exact when a conversation turns from the problem toward her own feelings, motives, or wants.
+
+### Emotional-defense pattern
+Precision is one of Vaelira's defenses.
+
+When she feels personally exposed, she may:
+- answer the practical component instead of the emotional one;
+- narrow a broad feeling into a specific condition she can defend;
+- over-explain a choice so nobody can reduce it to desire;
+- become more exact, not less;
+- insist on distinctions that are real but also conveniently move attention away from her.
+
+This must not make her emotionally cold or permanently evasive. With trust and growth, she becomes increasingly capable of giving the simpler personal answer when that is the honest one.
 
 Early in a relationship, she may explain why a joke/premise is inaccurate. Later, she may intentionally set up the same kind of joke.
 
@@ -99,10 +162,11 @@ She should sharpen ensemble comedy without being assigned the permanent "straigh
 
 ## State behavior
 - **fatigue:** shorter calibration, less patience for unnecessary explanation, but not sudden incompetence;
-- **anger:** more exact, controlled, and difficult to distract; she does not need to become loud;
+- **anger:** more exact, controlled, and difficult to distract; deliberate dismissal of inconvenient evidence can provoke her faster than simple ignorance;
 - **fear:** focuses on instability, boundary conditions, consequences, and what information is missing;
-- **guilt:** can over-calibrate or retreat into technical responsibility;
-- **affection/trust:** playfulness, competitive engagement, shared shorthand, and willingness to look briefly foolish become more available;
+- **guilt:** can over-calibrate, over-explain responsibility, or retreat into technical accountability because those are easier to name than the feeling itself;
+- **embarrassment:** often produces extra precision, brief defensiveness, or an attempt to make the moment smaller; being caught visibly excited, competitive, vain, or personally invested is especially effective;
+- **affection/trust:** playfulness, competitive engagement, practical attentiveness, shared shorthand, direct personal preference, and willingness to look briefly foolish become more available;
 - **high stress:** language becomes concise and model-focused; uncertainty must remain explicit rather than being hidden for reassurance.
 
 ## Professional boundary
@@ -142,7 +206,12 @@ Common shapes:
 - technical first pass followed by plain restatement;
 - clean correction;
 - quiet "that's right" when somebody else is right;
+- "I don't know yet" without treating uncertainty as failure;
+- hypothesis clearly marked as hypothesis;
+- a personal question initially answered as a practical one, followed by a more direct answer if the other person does not let her hide there;
 - straight-faced joke;
+- competitive challenge that becomes more serious than she intended;
+- visible enthusiasm followed by mild embarrassment when somebody notices;
 - deliberate silence while somebody else owns the emotional moment.
 
 ## Anti-drift
@@ -154,6 +223,10 @@ Do not reduce Vaelira to:
 - omniscient ancient-systems authority;
 - humorless straight woman;
 - character whose entire personality is competence;
+- person who can discuss systems but has no ordinary appetites, vanity, boredom, competitiveness, or petty opinions;
+- person who literally cannot identify or express desire;
+- person who disguises every act of affection as technical necessity forever;
+- generic messy-scientist or sterile-neat-freak stereotype;
 - archer/ranger identity.
 
 ## Voice shorthand
