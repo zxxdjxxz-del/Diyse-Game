@@ -572,6 +572,43 @@ def validate_director_plan(plan: dict[str, Any], participants: list[str], max_be
             if cid in participants and cid not in eligible:
                 eligible.append(cid)
         beat["eligible_speakers"] = eligible
+
+        floor_owner = beat.get("floor_owner")
+        if floor_owner not in (None, "null", ""):
+            try:
+                normalized_floor = normalize_id(str(floor_owner))
+            except HTTPException as exc:
+                raise HTTPException(502, "Dialogue Director returned invalid floor_owner.") from exc
+            if normalized_floor not in participants:
+                raise HTTPException(502, f"Dialogue Director floor_owner is not a participant: {normalized_floor}")
+            beat["floor_owner"] = normalized_floor
+        else:
+            beat["floor_owner"] = None
+
+        interruption_window = str(beat.get("interruption_window", "natural"))
+        if interruption_window not in {"closed", "natural", "strong"}:
+            raise HTTPException(
+                502,
+                f"Dialogue Director returned unsupported interruption_window: {interruption_window}",
+            )
+        beat["interruption_window"] = interruption_window
+
+        topic_policy = str(beat.get("topic_policy", "continue"))
+        if topic_policy not in {
+            "continue",
+            "narrow",
+            "partial_answer",
+            "shift_allowed",
+            "avoid_allowed",
+            "close_allowed",
+            "unresolved_allowed",
+        }:
+            raise HTTPException(
+                502,
+                f"Dialogue Director returned unsupported topic_policy: {topic_policy}",
+            )
+        beat["topic_policy"] = topic_policy
+
         if not eligible:
             beat["allow_silence"] = True
 
@@ -595,12 +632,44 @@ def local_scene_checks(
                 f"Required exact-line anchor missing or altered for {anchor['speaker_id']}: {anchor['text']}"
             )
 
+    allowed_floor_transitions = {"take", "hold", "yield", "interrupt", "silent"}
+    allowed_topic_actions = {
+        "continue",
+        "narrow",
+        "answer_partial",
+        "shift",
+        "avoid",
+        "close",
+        "unresolved",
+    }
+
     for beat in scene_beats:
         speaker = beat.get("selected_speaker_id")
         if speaker not in (None, "null") and speaker not in participants:
             violations.append(f"Beat {beat.get('beat_id')} uses nonparticipant speaker {speaker}.")
         if "choices" in beat:
             violations.append(f"Beat {beat.get('beat_id')} contains player dialogue choices.")
+
+        floor_transition = beat.get("floor_transition")
+        if floor_transition is not None and floor_transition not in allowed_floor_transitions:
+            violations.append(
+                f"Beat {beat.get('beat_id')} has unsupported floor_transition {floor_transition}."
+            )
+
+        topic_action = beat.get("topic_action")
+        if topic_action is not None and topic_action not in allowed_topic_actions:
+            violations.append(
+                f"Beat {beat.get('beat_id')} has unsupported topic_action {topic_action}."
+            )
+
+        if bool(beat.get("silence", False)):
+            if floor_transition not in (None, "silent", "yield"):
+                violations.append(
+                    f"Silent beat {beat.get('beat_id')} has incompatible floor_transition {floor_transition}."
+                )
+            if str(beat.get("text", "")).strip():
+                violations.append(f"Silent beat {beat.get('beat_id')} contains spoken text.")
+
     return violations
 
 
