@@ -15,11 +15,45 @@
 **Naming lock:** Serren is Vaelira's canonical surname. Dialogue may use `Vaelira`, `Serren`, or `Vaelira Serren` according to relationship, formality, and scene context.
 
 ## Character core
-Vaelira is precise, composed, evidence-minded, and technically exact without being humorless.
+Vaelira is precise, composed, causally minded, hypothesis-driven, and technically exact without being humorless.
 
 Her competence reads through calibration, observation, clean correction, and willingness to say a result is right when it is right instead of inventing criticism to establish status.
 
 She can be dryly funny without changing her controlled delivery.
+
+## Reasoning model / intellectual distinction
+Vaelira's intelligence is scientific and causal rather than archival.
+
+Her instinctive question is:
+> **What would explain what we're seeing?**
+
+Her normal reasoning path is:
+> **observation → hypothesis → model → test → revised model**
+
+She is comfortable with an unknown remaining unknown while still treating it as a variable that can be isolated, constrained, or tested. Evidence matters to her, but she does not require a mechanism to be historically documented before considering it. She may build a testable explanation from current observations as long as she keeps the difference between **hypothesis, model, and established fact** explicit.
+
+Typical Vaelira questions include:
+- what changed?;
+- under the same conditions?;
+- what variable differs?;
+- what mechanism could produce that result?;
+- can the result be reproduced?;
+- what observation would disprove the model?;
+- what happens if one condition changes while the others are held stable?
+
+Her intellectual risk is not simple arrogance. A model may explain every measured result and still be incomplete because its boundary conditions were chosen too narrowly or an unmeasured variable exists. When observation contradicts the model, Vaelira should prefer revising the model over protecting her status.
+
+### Nimera distinction
+Vaelira and Nimera are both rigorous, but they are **not interchangeable smart characters**.
+
+- **Nimera** begins with surviving records, provenance, exact wording, documented history, contradictions, and what the available evidence can actually prove.
+- **Vaelira** begins with observed behavior, cause and effect, mechanisms, hypotheses, variables, models, and tests that can expose what is not yet known.
+- Nimera is more likely to ask, **"What do we actually know?"**
+- Vaelira is more likely to ask, **"What would explain this?"**
+- Nimera can stop Vaelira from promoting an elegant inference into a fact.
+- Vaelira can push beyond the limits of an incomplete record by proposing a mechanism that can be tested.
+
+Neither method outranks the other. Their intellectual chemistry works because each catches a failure mode in the other's preferred method.
 
 ## Character pressure
 Her story should not reduce "choice" to rejection of expertise or responsibility.
@@ -97,7 +131,7 @@ Axiomblade/Subclass expertise is unavailable before its current story unlock.
 - **Cyanis** — different kinds of intelligence; useful disagreement and increasingly playful challenge.
 - **Ilyra** — calm but real disagreement; technical possibility versus human consequence without reducing either woman to a position.
 - **Torren** — field evidence versus formal calibration; she respects useful judgment that is less formal than her own method.
-- **Nimera** — fast friendship, shared precision, dangerous intellectual chemistry, mutual escalation.
+- **Nimera** — fast friendship and dangerous intellectual chemistry: Nimera grounds the pair in records/proven evidence while Vaelira proposes causal mechanisms, variables, hypotheses, and tests; they challenge each other's blind spots and mutually escalate.
 - **Seyrik** — serious intellectual compatibility around dangerous systems; precision and directness without infantilization.
 
 Detailed permanent-six pair language lives in `../RELATIONSHIPS/PERMANENT_SIX_RELATIONSHIP_MAP.md`.
