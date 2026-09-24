@@ -232,7 +232,7 @@ conversation_model:
   vulnerability: unusually_simple_when_genuinely_exposed
   profanity: high_frequent_casual_and_precise
   profanity_texture: full_range_vulgar_profane_bodily_indecent_insulting_and_socially_inappropriate_language_with_no_single_default_crutch_until_true_fury_may_remove_it
-  profanity_long_form_calibration: roughly_20_to_35_percent_of_spoken_lines_across_large_corpus_not_per_scene
+  profanity_long_form_calibration: roughly_22_to_35_percent_of_spoken_lines_across_large_corpus_not_per_scene
   profanity_vocabulary:
     core_everyday:
       - fuck_fucking_fucked_fucker
