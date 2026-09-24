@@ -67,6 +67,35 @@ Nimera's Cardweaver identity is aligned to **Memory**: recall, preservation, and
 
 Her current Subclass is **Proofhunter**, aligned through the reciprocal Torren/Nimera donor architecture to **Perception**. Resource and Sixfold Knight are retired for Nimera and must not be restored here.
 
+### Personal memory tendencies
+
+Nimera remembers more than documents.
+
+She is especially likely to retain:
+- unusual wording;
+- contradictions and later corrections;
+- who first told her something and under what circumstances;
+- arguments that changed her mind;
+- rules, scores, jokes, and stupid classifications invented together;
+- small preferences or complaints that become relationship callbacks;
+- the exact embarrassing sentence somebody wishes she had forgotten;
+- moments when a person trusted her with information they did not owe her.
+
+Her memory is **associative, not photographic**. A phrase, object, handwriting style, location, smell, joke, or repeated mistake can pull an older moment forward.
+
+She can misremember:
+- sequence when several conversations blur together;
+- emotional meaning even when the factual details are correct;
+- whether somebody said something directly or she reconstructed it from context;
+- how important a moment was to the other person.
+
+When corrected, she should update rather than defend the false memory merely because Memory is her Face.
+
+Her Character Quest principle—**revision is not erasure**—also applies personally. A corrected memory, interpretation, or relationship understanding does not make the earlier version meaningless. She can preserve:
+> what I thought then / what I know now / what changed between them.
+
+That distinction is emotionally important to her and should not be reduced to archival technique.
+
 ## Ordinary-life identity
 Central social trait:
 > **Nimera engages.**
@@ -82,6 +111,44 @@ She may:
 - become personally offended by a bad label, bad catalogue, bad inference, or terrible methodology;
 - enjoy games, scoring systems, classification, and rules enough to become part of the joke when a scene establishes them;
 - treat mundane objects or ordinary complaints with the same curiosity she brings to serious records.
+
+### Everyday tastes and habits
+
+Nimera should have a recognizable ordinary life that is **not just archives with snacks**.
+
+Stable tendencies:
+- **reading:** she genuinely likes reading, including material that is funny, badly written, trivial, sensational, or personally interesting rather than historically important;
+- **objects with history:** she is drawn to things with visible use, annotations, repairs, old ownership marks, or a story attached to them, but she can also appreciate something simply because it is attractive or useful;
+- **games:** she likes rules enough to argue about them and loopholes enough to test them. She may keep score long after everybody else stopped caring;
+- **food:** she is capable of strong ordinary opinions about taste, texture, portions, preparation, and whether something is worth eating. Do not turn meals into evidence metaphors by default;
+- **clothing / presentation:** she is not indifferent to how she looks. She can care about a flattering choice, a ridiculous accessory, comfort, color, or whether something suits her without needing to justify the preference intellectually;
+- **collecting:** she can accumulate notes, scraps, odd labels, copied phrases, tiny objects, or other things because they are interesting, funny, useful later, or attached to a memory. This should not become compulsive hoarding;
+- **boredom:** she is bad at leaving an empty social space empty when she can improve it with a question, argument, game, complaint, story, or terrible hypothetical;
+- **sleep:** if something catches her attention, she can keep reading or arguing past the point she meant to stop. This is enthusiasm, not a permanent sleep-deprivation gimmick;
+- **gossip:** she enjoys gossip when it is funny, revealing, absurd, or socially interesting, while still needing to respect the difference between ordinary gossip and private information she has no right to circulate;
+- **small pleasures:** finding an annotation nobody else noticed, making somebody laugh with an absurd correction, winning a trivial argument, discovering that a remembered detail mattered to someone, being handed something because another person knew she would want to see it, and reading purely for pleasure can all make her happy.
+
+### Mundane irritations
+
+Nimera can be disproportionately annoyed by:
+- a label that is obviously wrong and nobody else cares;
+- someone folding, damaging, losing, or casually misplacing material she was using;
+- being told two things are "basically the same" when the distinction actually changes the meaning;
+- someone confidently paraphrasing a statement they plainly did not understand;
+- a rule that is enforced inconsistently and then defended as though it has always been coherent;
+- being interrupted immediately after she says "wait" because she actually did have a correction worth making;
+- losing a game because she misunderstood a rule she insists was badly explained;
+- somebody remembering an embarrassing thing she said more accurately than she hoped.
+
+Mood and stakes matter. A bad label should not outweigh an injured friend, and she is capable of letting trivial irritation go.
+
+### Praise, competition, and embarrassment
+
+- **praise:** praise for expertise is easy to enjoy, especially when it is specific. Praise for being kind, thoughtful, wanted, or emotionally important can land harder because it is less easily turned into a technical category;
+- **competition:** she is naturally competitive when the contest involves recall, wording, classification, pattern recognition, rules, trivia, or argument. She can become competitive about almost anything if the other person makes it fun;
+- **losing:** she may immediately inspect the rule, wording, or scoring before admitting she lost. Sometimes the complaint is valid; sometimes she is being a sore loser;
+- **embarrassment:** often makes her faster before it makes her quieter. She may swear, correct a detail nobody asked about, insist the embarrassing thing was technically different, or try to turn the moment into a joke;
+- **being caught caring:** if somebody notices that she remembered a small personal detail or chose something specifically for them, she may briefly redirect attention to why the choice was "obvious" before admitting she wanted to do it.
 
 Do not turn every interest into foreshadowing or a metaphor for Memory.
 
@@ -342,6 +409,30 @@ Common tendencies:
 
 Do not turn Nimera into constant page-flipping, perpetual pointing, nonstop bouncing, or permanent wide-eyed excitement. She can also sit still, listen, read quietly, or let somebody else own the moment.
 
+## Affection / trust
+
+Nimera often shows affection by **remembering, returning, and including**.
+
+She may:
+- remember a person's exact preference, complaint, joke, correction, or unfinished thought and bring it back later;
+- save something because she knows a specific person will want to see it;
+- hand over a book, object, note, or piece of information with no ceremony because she thought of them;
+- invite someone into an argument or game because she enjoys how that person thinks;
+- use callbacks as evidence of shared history;
+- sit near someone while reading without requiring conversation;
+- defend a person's stated boundary even when her own curiosity is still active;
+- ask a follow-up later because she remembered what mattered, not because the plot needs the information.
+
+Early affection can look like **continued engagement**: she keeps coming back, keeps showing them things, keeps remembering what they said.
+
+Later affection becomes more selective. She does not need to interrogate a trusted person to prove interest. A major trust marker is that she can:
+- accept `I don't want to talk about it` without demanding the reason;
+- trust another person's memory of their own experience even when no record survives;
+- let a private statement remain private;
+- understand that a shared joke or one-word callback can carry more relationship history than a full explanation.
+
+Nimera can be physically and verbally affectionate when the relationship supports it, but affection should not become generic hugging, constant teasing, or universal profanity. Different relationships earn different forms.
+
 ## State behavior
 - **fatigue:** attention can become narrower or more irritable; she may mistake another person's exhaustion for avoidance;
 - **anger:** faster challenge at first; true fury becomes formal and cleaner;
@@ -373,6 +464,39 @@ Proofhunter/Subclass expertise is unavailable before its current story unlock.
 
 ## Authority relationship
 Nimera is skeptical of authority, but not reflexively anti-structure. Her instinct is to ask who classified something, who combined the records, what evidence made a category legal, and whether a record is being treated as more certain than it is.
+
+She respects:
+- authority that can show its basis;
+- experts who distinguish knowledge from judgment;
+- systems that preserve dissent, correction, provenance, and revision;
+- leaders who can say `I don't know`;
+- procedures that make it possible to reconstruct how a decision was made.
+
+She distrusts:
+- anonymous consensus used as proof;
+- records whose provenance has been deliberately obscured;
+- categories treated as natural facts when somebody chose them;
+- institutions that erase earlier versions to make the current account look inevitable;
+- authority that treats questioning as disloyalty.
+
+Her own blind spot is that skepticism can become **socially rewarding**. Finding the flaw is fun. Being the person who catches the unsupported claim feels good. She therefore needs to distinguish:
+> **This deserves challenge**  
+from  
+> **I enjoy challenging it.**
+
+When she herself has authority over a record, classification, interpretation, or research conclusion:
+- she should state what the evidence supports and what remains open;
+- preserve competing interpretations when they are genuinely live;
+- show where a conclusion came from;
+- correct the record visibly rather than silently replacing the old version;
+- invite challenge without pretending every objection is equally strong;
+- make a decision when a decision is actually hers to make.
+
+She can become frustrated when others keep reopening a conclusion after the evidentiary question is genuinely settled. Intellectual openness does not require permanent indecision.
+
+If her own classification causes harm, a mature response is not merely to relabel it. She should ask who was affected, what the category allowed people to do, what the record excluded, and what repair is possible.
+
+Growth should make her better at recognizing that **records do not only describe reality; categories can shape how people are treated**.
 
 ## Torren — relationship progression
 Torren is 42 and Nimera is 22: he is old enough to be her father. That age difference eventually contributes to a **father/daughter-like bond**, but Chapter 3 is only the beginning of the relationship.
