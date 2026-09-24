@@ -143,13 +143,12 @@ State may influence behavior without replacing personality:
 ### 6. Scene-construction context
 Agents and the Director must know what kind of scene they are inside:
 - full stop-and-talk authored scene;
-- short post-battle reaction;
-- walking/traversal exchange;
+- authored route/traversal stop with player movement paused;
+- short post-battle reaction after combat has fully ended;
 - optional NPC interaction;
 - camp/hub Character-Life scene;
 - pre-boss or post-boss scene;
-- investigation / inspection exchange;
-- battle-story pause or transformation handoff.
+- investigation / inspection exchange.
 
 The scene type changes acceptable line density, body movement, interruption risk, pacing, and staging cost.
 
@@ -321,10 +320,11 @@ Dialogue is not required to verbalize what staging can communicate.
 Dialogue placement must respect what the player is doing.
 
 - Normal exploration remains gameplay; it is not merely a hallway between cutscenes.
-- Long dialogue requires a breathable authored context: a settlement, camp, secured room, recovery point, story-bearing cell, safe pocket, or explicitly protected traversal window.
-- Short post-battle reaction is naturally suited to post-battle grace.
-- Mandatory walking dialogue may use encounter suppression only for the authored exchange and short buffer; local encounter pressure is preserved rather than reset.
-- Do not place a long mandatory conversation inside a corridor whose intended identity is pursuit or sustained high pressure; move the processing scene to the next credible safe threshold.
+- **No spoken dialogue runs while player-controlled traversal is active.** If a route conversation is needed, trigger an authored stop and pause/lock movement first.
+- **No spoken dialogue runs during active combat.** Battle-related dialogue may occur immediately before combat begins or after combat has fully ended.
+- Long dialogue requires a breathable authored context: a settlement, camp, secured room, recovery point, story-bearing cell, safe pocket, or explicitly protected stop.
+- Short post-battle reaction is naturally suited to post-battle grace after victory/defeat resolution has completed.
+- Do not place a mandatory conversation inside a corridor whose intended identity is pursuit or sustained high pressure; move the processing scene to the next credible safe threshold.
 - Boss aftermaths, recruitment handoffs, major revelations, Prime awakenings, surrender/capture beats, and genuine transformations deserve an authored breath before normal hostile pressure resumes.
 - Important spatial discoveries should receive a clean visual read before portraits/text obscure them.
 
@@ -421,20 +421,18 @@ Best for:
 
 Use a safe threshold or deliberately protected story cell. Player movement may lock.
 
-#### Mode B — Walking / traversal dialogue
+#### Mode B — Authored traversal stop
 Best for:
-- short contextual exchange;
-- route observations;
-- relationship texture;
-- low-complexity explanation that belongs to movement;
-- conversation that benefits from the environment remaining active.
+- short contextual exchange tied to a route;
+- route observations that genuinely need dialogue;
+- relationship texture at a natural pause;
+- brief explanation that should happen before exploration resumes.
 
 Rules:
-- use only where gameplay pressure permits;
-- player movement/camera/path following may continue;
-- mandatory walking dialogue temporarily suppresses encounter triggering for the authored window plus a short buffer;
-- encounter pressure is preserved, not reset;
-- do not use a long walking scene in a high-pressure pursuit corridor.
+- player-controlled movement is paused/locked for the conversation;
+- the scene is a triggered stop, not dialogue layered over movement;
+- preserve local encounter pressure across the stop rather than resetting it;
+- if stopping would damage the area's pressure or pacing, defer the conversation to the next credible safe threshold.
 
 #### Mode C — Post-battle reaction
 Best for:
@@ -483,9 +481,6 @@ Post-boss dialogue receives a real breath after:
 - major revelation.
 
 Do not immediately throw the player into a random encounter after a major authored payoff.
-
-#### Mode G — Story-combat pause
-Use only when current battle authority explicitly permits an authored pause/transition. The dialogue must not imply free actions outside the legal battle system.
 
 ---
 
