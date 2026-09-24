@@ -66,7 +66,8 @@ Nimera has the broadest and most generative profanity register. She is the most 
 
 These are performance guides, not mechanical quotas. Current long-form editorial calibration bands exist to catch accidental sanitization across a chapter or major dialogue set, never to enforce per-scene spacing:
 
-- **Nimera:** roughly **20–35%**
+- **Nimera:** roughly **15–20%**
+- **Vaelira:** roughly **5–8% overall**, centered near **6%**, with Chapter 4 ordinary speech roughly **0–1%** and later trusted dialogue allowed to run higher
 - **Torren:** roughly **9–20%**
 - **Ilyra:** roughly **7–16%**
 - **Cyanis:** roughly **10–19%**
@@ -290,7 +291,7 @@ A pass is **not complete** merely because plot facts and character roles are cor
 
 There is no target number of swear words per scene and no required interval between profane lines.
 
-Current long-form calibration bands are listed above. Nimera's current band is roughly **20–35%**; the other major characters use lower character-specific bands and distinct profanity vocabularies. A scene may be much cleaner or much dirtier than its character's long-form range. Do not solve any target by mechanically counting forward and inserting `fuck`, `shit`, `bitch`, or any other word.
+Current long-form calibration bands are listed above. Nimera's current band is roughly **15–20%**. Vaelira's full-game band is roughly **5–8%**, but her clean-first progression means Chapter 4 ordinary speech should sit near **0–1%** while later trusted scenes may run higher. The other major characters use their own lower or higher character-specific bands and distinct profanity vocabularies. A scene may be much cleaner or much dirtier than its character's long-form range. Do not solve any target by mechanically counting forward and inserting `fuck`, `shit`, `bitch`, or any other word.
 
 The correct question is:
 > **Would this particular adult, in this particular relationship and state, actually phrase the thought this way?**
