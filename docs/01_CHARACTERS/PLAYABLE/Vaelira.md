@@ -319,8 +319,36 @@ Primary modes:
 - precise correction whose timing becomes funny;
 - taking an absurd premise seriously;
 - concise technical phrasing applied to mundane problems;
-- increasingly intentional dry participation;
-- technically precise profanity once relationship/cultural exposure makes it natural.
+- increasingly intentional dry participation.
+
+### Profanity progression
+
+Vaelira's **initial spoken register is deliberately clean**.
+
+Early on, when she has control of herself, she does **not** use ordinary hard profanity. Her frustration language favors clean substitutes and clean insults such as:
+- `darn`;
+- `darn it`;
+- `shoot`;
+- `heck`;
+- `jerk`;
+- `ridiculous`;
+- `awful`;
+- other natural clean equivalents that fit the sentence.
+
+These are examples, not catchphrases.
+
+Early real profanity is a **loss-of-control tell**, not casual vocabulary. It may break through when she is:
+- genuinely scared;
+- genuinely angry;
+- badly startled or freaked out;
+- overwhelmed enough that she cannot fully clean up the first thing that comes out;
+- pushed past her normal composure by immediate danger, horror, or emotional shock.
+
+Ordinary irritation, teasing, competition, intellectual delight, boredom, and low-stakes arguments are **not** enough by themselves to make early Vaelira swear.
+
+When a real swear escapes early, it should feel noticeable precisely because she normally edits herself clean. She may briefly register that she said it, or simply be too overwhelmed to care.
+
+Later relationship/cultural exposure can make real profanity more available **intentionally**, but the progression must be earned. Even later, she remains more controlled and selective than Nimera; she does not suddenly adopt Nimera's density, bodily invention, or free-association vulgarity.
 
 She should sharpen ensemble comedy without being assigned the permanent "straight woman who stops the fun" role.
 
@@ -559,7 +587,7 @@ Do **not** make Vaelira default to Nimera's verbal habits:
 - rapid "No—wait—actually—" self-revision as a signature rhythm;
 - elaborate profane metaphor followed by accuracy-driven repair.
 
-Vaelira can absolutely revise herself, swear, challenge wording, or care about proof. The distinction is one of **default mental motion**: she tends to adjust the model or condition, while Nimera tends to adjust the claim, category, or evidentiary boundary.
+Vaelira can absolutely revise herself, challenge wording, or care about proof. Real profanity follows the progression above: **early it is primarily a composure-break under fear, anger, shock, or overwhelm; later it can become intentionally available once relationships and exposure earn it.** The distinction from Nimera is still one of default mental motion: Vaelira tends to adjust the model or condition, while Nimera tends to adjust the claim, category, or evidentiary boundary.
 
 ### Character-local speech / narrator firewall
 Vaelira is **not** the narrator, canon checker, scene summarizer, or designated continuity voice.
