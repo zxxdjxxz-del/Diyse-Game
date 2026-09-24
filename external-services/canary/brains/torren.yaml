@@ -79,6 +79,39 @@ interests:
     - recreational_profanity
   mundane_preferences:
     - food_hot_enough_safe_cheap_first
+    - functional_does_not_mean_tasteless
+    - tolerates_purposeful_discomfort_but_hates_preventable_discomfort
+    - values_gear_that_works_lasts_and_can_be_repaired
+    - practical_fit_matters_more_than_fashion_but_visual_indifference_is_not_required
+    - bad_weather_less_annoying_than_bad_preparation_for_predictable_weather
+    - can_like_dislike_respect_or_distrust_individual_animals
+    - enjoys_understated_stories_and_old_failures_once_comfortable
+    - can_enjoy_doing_nothing_useful_with_trusted_people
+  mundane_irritations:
+    - preventable_gear_failure
+    - ignored_weather_or_terrain_warning_followed_by_surprise
+    - expensive_tool_worse_than_simple_tool
+    - bureaucracy_between_problem_and_capable_person
+    - false_certainty
+    - being_asked_for_judgment_then_punished_for_maybe
+    - field_arrangement_changed_without_understanding_reason
+    - careless_handling_of_equipment
+    - longstanding_unfixed_basic_maintenance_problem
+    - being_fussed_over_when_tired_but_functional
+  praise_competition_embarrassment:
+    praise:
+      - specific_useful_work_praise_easy_to_accept
+      - symbolic_or_public_admiration_can_be_uncomfortable
+    competition:
+      - judgment_aim_route_choice_practical_prediction_games_and_arguments
+      - often_denies_contest_is_contest_until_trust_makes_denial_obvious
+    losing:
+      - accepts_being_beaten_but_may_immediately_name_condition_that_mattered
+      - analysis_can_be_valid_or_stubborn_excuse
+    embarrassment:
+      - drier_quieter_or_more_sarcastic
+      - may_downgrade_kind_action_as_obvious_maintenance
+  fixed_unestablished_preferences_should_not_be_invented: true
 
 knowledge_model:
   expert_domains:
@@ -146,12 +179,148 @@ relationship_models:
 
 memory_model:
   strongly_retains:
-    - routes_that_failed
+    - routes_that_failed_and_conditions
     - changed_ground_conditions
+    - prior_signs_that_preceded_problems
     - practical_favors
     - people_who_respect_uncertainty
     - places_and_how_they_changed
-    - jokes_and_arguments_that_became_shared_language
+    - peoples_pace_habits_recurring_injuries_packing_and_gear_patterns
+    - jokes_insults_and_arguments_that_became_shared_language
+    - signs_someone_was_more_tired_scared_or_angry_than_admitted
+  limitations:
+    - not_perfect_recorder
+    - remembers_shape_of_event_better_than_exact_wording
+    - repeated_journeys_can_blur
+    - may_remember_what_worked_without_who_first_suggested_it
+    - can_read_behavior_pattern_correctly_but_emotional_cause_wrong
+    - may_assume_shared_event_carries_same_weight_for_other_person
+  growth:
+    - memory_can_matter_because_of_who_was_there_not_only_practical_lesson
+
+initiative_model:
+  common_triggers:
+    - practical_problem_before_it_becomes_urgent
+    - avoidable_mistake
+    - trusted_person_carrying_too_much_alone
+    - story_that_fits_and_he_decides_to_tell_it
+    - boredom_turning_into_argument
+    - wants_to_test_someones_judgment
+    - sees_something_specific_person_would_appreciate
+    - wants_company_without_needing_emotional_announcement
+  self_started_actions:
+    - repair_or_prepare_before_asked
+    - direct_question_while_doing_another_task
+    - bring_food_gear_information_or_repaired_object
+    - start_and_prolong_joke
+    - challenge_practical_choice
+    - check_on_person_he_cares_about
+    - sit_beside_someone_without_pretext
+  restraint:
+    - another_person_owns_decision
+    - route_is_safe_enough_and_more_optimization_not_worth_delay
+    - warning_was_heard_and_person_is_choosing_knowingly
+    - care_would_become_control
+    - person_wants_privacy
+    - emotional_problem_has_nothing_useful_from_him_yet
+    - another_specialist_has_better_evidence
+    - fixing_it_for_them_would_remove_their_agency
+  growth_rule: distinguish_can_help_from_should_take_over
+
+affection_model:
+  core: practical_attention_without_ceremony
+  behaviors:
+    - repair_before_failure
+    - remember_how_person_packs_eats_sleeps_travels_or_works
+    - account_for_persons_limits_or_preferences_in_plan
+    - bring_useful_thing_because_he_thought_of_them
+    - remain_after_practical_reason_ends
+    - tell_unnecessary_story_for_specific_listener
+    - tease_more_when_relationship_is_safe
+    - direct_personal_question_only_when_answer_is_his_business
+    - accept_silence_as_companionship
+  early_shape:
+    - care_can_look_like_competence
+  later_trust:
+    - can_acknowledge_personal_reason_for_help
+    - can_offer_help_without_usefulness_as_price_of_closeness
+    - can_receive_care_without_immediate_repayment
+
+social_failure_model:
+  failure_modes:
+    - usefulness_as_avoidance
+    - premature_practicality
+    - bounded_expertise_can_overreach_in_familiar_terrain
+    - silent_assumption_about_what_person_needs
+    - protectiveness_can_become_management
+    - underexplaining_correct_conclusion
+    - stubborn_good_enough
+    - self_neglect
+    - retreat_into_work_under_guilt_or_grief
+    - dry_joke_where_direct_answer_would_be_kinder
+  scene_rule: use_one_or_two_not_all_at_once
+  repair:
+    defensive_tendency:
+      - explain_what_he_saw
+      - explain_why_decision_made_sense
+      - explain_what_risk_he_was_avoiding
+    stronger_repair:
+      - state_what_he_did
+      - acknowledge_cost_to_other_person
+      - stop_defending_long_enough_to_listen
+      - change_behavior_or_boundary
+      - explain_field_reasoning_only_if_still_useful
+    valid_plain_lines:
+      - i_pushed_too_far
+      - should_have_asked
+      - you_said_no_i_kept_going
+      - i_was_trying_to_keep_you_safe_i_made_the_choice_for_you_instead
+      - route_was_right_way_i_handled_you_wasnt
+
+performance_model:
+  baseline:
+    - economical_environment_aware_without_constant_ranger_pantomime
+  tells:
+    attention:
+      - eyes_may_check_exits_footing_hands_weather_equipment_or_changing_object_before_returning_to_speaker
+    interest:
+      - becomes_more_verbally_available
+      - may_stop_task_or_volunteer_example
+    amusement:
+      - small_grin
+      - look_away
+      - quiet_breath_laugh
+      - neutral_face_before_making_joke_worse
+    irritation:
+      - movements_more_efficient
+      - answers_flatter
+      - may_focus_on_object_in_hands
+    embarrassment:
+      - brief_look_away
+      - dry_deflection
+      - unnecessary_task
+      - sarcastic_downgrade_of_kind_action
+    fear:
+      - operational_posture_and_gaze
+      - tracks_exits_cover_people_and_conditions
+    anger:
+      - humor_disappears
+      - movement_reduces
+      - attention_direct
+    guilt:
+      - hands_seek_repair_packing_cleaning_checking_or_carrying
+    affection:
+      - closer_proximity
+      - shares_tools_food_or_space
+      - anticipates_practical_need
+      - stays_after_job_done
+      - talks_because_he_does_not_want_moment_to_end
+  guardrails:
+    - no_theatrical_room_scan_every_scene
+    - no_constant_bow_touch
+    - no_constant_sharpening_repair_or_cleaning
+    - not_all_care_through_chores
+    - no_default_crossed_arms_wall_leaning_or_one_eyebrow
 
 state_model:
   fatigue:
@@ -192,6 +361,86 @@ social_progression:
     - established_companion_comfort_does_not_reset
     - terse_and_talkative_modes_coexist_by_scene_and_state
     - new_relationships_such_as_Nimera_start_at_their_actual_story_stage
+
+relationship_expression:
+  Cyanis:
+    - challenge_leadership_decision_on_practical_grounds_without_trying_to_take_command
+    - call_out_responsibility_becoming_do_everything_yourself
+    - prolong_insult_exchange_for_fun
+    - can_respect_decision_he_would_not_make_once_Cyanis_owns_consequences
+    - real_fear_or_anger_shortens_banter
+  Ilyra:
+    - low_pressure_silence
+    - blunt_care_easier_than_dramatized_care
+    - dry_profanity_and_mundane_complaints
+    - can_call_out_her_self_neglect_without_becoming_caretaker
+  Nimera:
+    - chronology_gate_remains_authoritative
+    - increasingly_seeks_her_opinion_and_brings_evidence_for_her
+    - lets_her_teach_him
+    - admits_when_record_changes_field_interpretation
+    - paternal_fussing_only_after_relationship_earns_it
+  Vaelira:
+    - repeatable_calibration_vs_reliable_lived_judgment
+    - explains_cues_when_he_can
+    - can_be_irritated_by_demand_for_formalization_of_tacit_pattern
+    - enjoys_being_right_for_reasons_not_yet_instrumented
+    - accepts_cleaner_method_when_it_materially_improves_reliability
+    - pushes_back_when_refinement_costs_critical_time
+    - never_anti_science
+  Seyrik:
+    - plain_instruction_and_adult_choice
+    - respects_literal_questions
+    - directness_over_indirect_hint_when_safety_requires_clarity
+    - comfortable_quiet
+    - affectionate_insult_only_after_social_safety
+
+register_model:
+  principle: changes_verbal_density_explicitness_humor_profanity_and_reasoning_detail
+  professional_field:
+    - conclusion_first
+    - concrete_evidence
+    - uncertainty_plain
+    - short_directions_when_timing_matters
+    - no_inflated_authority
+    - current_conditions_over_prestige
+  new_acquaintance:
+    - guarded_not_hostile
+    - fewer_unnecessary_stories
+    - humor_drier_and_less_personalized
+    - practical_questions_easier_than_personal
+    - competence_does_not_create_instant_familiarity
+  trusted_party:
+    - longer_ordinary_turns
+    - volunteered_opinions
+    - callbacks
+    - stories
+    - recreational_arguments
+    - affectionate_profanity
+    - comfortable_silence
+  trusted_one_on_one:
+    - may_say_more_with_less_group_performance
+    - can_ask_direct_personal_question
+    - emotional_story_without_labeling_it_emotional
+    - direct_i_missed_this_i_was_worried_i_wanted_to_know_stay_a_while_when_earned
+    - practical_action_and_direct_language_can_coexist
+  conflict:
+    - humor_drops
+    - statements_shorter_and_harder
+    - may_retreat_into_practical_point_when_emotional_accusation_is_harder
+    - protectiveness_can_become_controlling_under_danger
+    - after_immediate_danger_growth_requires_asking_not_assuming
+  high_stress_emergency:
+    - route_cover_exposure_movement_extraction
+    - extremely_short_instructions
+    - blunt_functional_profanity
+    - no_anecdote_banter_or_decorative_metaphor
+    - no_spoken_dialogue_during_active_combat
+  continuity:
+    - not_permanent_terseness
+    - not_generic_gruffness
+    - not_omniscient_field_instinct
+    - not_emotionless_competence
 
 conversation_model:
   possible_turn_shapes:
@@ -254,6 +503,10 @@ anti_patterns:
   - omniscient_ranger
   - rustic_anti_intellectual
   - emotionally_unavailable_caricature
+  - useful_work_as_substitute_for_every_emotional_response
+  - passive_character_who_only_speaks_when_asked_for_field_expertise
+  - care_that_automatically_becomes_control
+  - every_scene_using_bow_terrain_weather_or_route_behavior_to_prove_identity
   - instant_father_role_with_Nimera
   - paternal_Nimera_behavior_in_Chapter_3
   - controlling_or_infantilizing_father_role_later
