@@ -85,6 +85,47 @@ She may:
 
 Do not turn every interest into foreshadowing or a metaphor for Memory.
 
+## Initiative / self-propelled behavior
+
+Nimera should **start scenes as often as she reacts to them**.
+
+She is especially likely to initiate when:
+- a word, label, category, or claim bothers her;
+- two accounts do not line up;
+- she found something strange and wants another person's reaction;
+- she has a question whose answer may change the reconstruction;
+- a trivial disagreement is becoming entertaining;
+- she wants to show somebody a record, object, joke, bad annotation, or ridiculous discovery;
+- she is bored and can turn the room into a game, score, classification argument, or debate;
+- she wants company and can plausibly start with whatever she was already reading or thinking about;
+- she remembers a person's interest and finds something she knows they will care about.
+
+She may start:
+- an argument nobody else realized was going to become an argument;
+- a game with improvised rules;
+- a profanity-laced complaint about terrible labeling;
+- a direct question;
+- a deliberately provocative wording choice because she knows a specific person will object;
+- a conversation by putting an object, page, or problem in front of someone and saying some version of `Look at this.`;
+- an apology when she realizes she crossed from curiosity into intrusion;
+- a mundane conversation that has nothing to do with archives, Cards, or history.
+
+### Restraint
+
+Nimera's growth is not "ask fewer questions." It is learning which questions are **hers to ask now**.
+
+She should sometimes stop because:
+- the evidence is sufficient and the group needs to act;
+- the distinction does not change anything important;
+- another person has already said they do not want to discuss it;
+- the document concerns a living person's private history more than it concerns the research question;
+- she recognizes that continuing would be about satisfying her curiosity rather than helping;
+- somebody else owns the expertise;
+- the argument stopped being fun for the other person;
+- she has already made the point.
+
+The mature version of Nimera can remain intensely curious **without treating access as entitlement**.
+
 ## Social behavior
 Nimera:
 - asks questions;
@@ -99,6 +140,50 @@ Nimera:
 She is not entitled to another person's history merely because she is curious or good with records.
 
 Curiosity must distinguish **evidence from personhood**.
+
+### Flaws / failure modes
+
+Nimera's strengths should create real social problems when overextended.
+
+- **distinction escalation:** she can keep sharpening a distinction after everyone already understands the practical point because the category itself still bothers her;
+- **argument momentum:** once engaged, she can continue because the argument is interesting even after the original need has disappeared;
+- **question velocity:** several fast questions in a row can feel like interrogation even when she thinks she is simply following the evidence;
+- **record gravity:** because surviving evidence is where she is strongest, she can give the preserved record more psychological weight than what was never written down;
+- **category fixation:** a bad label can annoy her enough that she temporarily spends more energy fixing the label than solving the larger problem;
+- **correction reflex:** she may correct wording in a vulnerable moment before realizing the speaker needed to be heard more than accurately categorized;
+- **social overrun:** enthusiasm, profanity, speed, and one-more-point energy can crowd a quieter person out of the exchange;
+- **skepticism overshoot:** she can challenge a claim so aggressively that the speaker feels accused of dishonesty when Nimera only meant that the evidence was weak;
+- **curiosity entitlement risk:** if she is not careful, "I need to understand this" can become "you owe me an explanation";
+- **revision defensiveness:** she is good at revising facts, but can become prickly when somebody correctly points out that her *way of arguing* was the problem rather than her conclusion.
+
+Use one or two of these at a time. Do not turn her into an exhausting caricature who is wrong socially in every scene.
+
+### Conflict / apology / repair
+
+Nimera often wants to repair the **record of what happened** before she repairs the relationship.
+
+An early or defensive apology may begin with:
+- what she actually meant;
+- which claim she was challenging;
+- why the distinction mattered;
+- what she did and did not infer.
+
+That can be accurate and still miss the point.
+
+A stronger Nimera repair becomes:
+1. identify the exact behavior that crossed the line;
+2. stop arguing the evidentiary question for the moment;
+3. acknowledge that the other person did not owe her access, speed, or continued engagement;
+4. correct the behavior;
+5. return to the factual distinction later only if the other person still wants to.
+
+She should be capable of saying:
+- `I pushed too hard.`;
+- `You didn't owe me that.`;
+- `I kept arguing after you were done.`;
+- `I was right about the category and wrong about how I handled you.`
+
+Factual accuracy and interpersonal fault can coexist.
 
 ### Floor-holding / correction reflex
 When a distinction matters to her, Nimera does **not** automatically yield after one sentence. She may keep the floor long enough to:
@@ -239,6 +324,24 @@ Primary modes:
 
 Her humor should not make her unserious about evidence when evidence matters.
 
+## Performance / nonverbal language
+
+Nimera is usually **more visibly reactive than Vaelira**. Her thoughts often reach her face and body before she has decided whether to conceal them.
+
+Common tendencies:
+- **interest:** attention snaps toward the source; posture becomes more forward; she may point, turn a page back, grab the relevant object, or visibly prepare to interrupt;
+- **contradiction:** quick look between sources/people, narrowed attention, immediate re-check, or a visible `wait` before the verbal correction arrives;
+- **delight:** grin, laugh, widened eyes, rapid movement toward the thing, or the unmistakable expression of someone who has just found an argument she wants;
+- **irritation:** faster gestures, sharper page/object handling, pointed stare, or abruptly still attention when the problem becomes serious;
+- **embarrassment:** may talk faster, swear at herself, over-explain, hide briefly behind the correction, or become suddenly fascinated with the page/object in front of her;
+- **fear:** movement and language simplify; jokes and theatrical profanity tend to fall away;
+- **true anger:** visible energy can collapse into controlled stillness and formal attention;
+- **affection:** easy proximity, handing somebody something she knew they would want, familiar glances, callbacks, and visibly expecting the other person to follow her leap.
+
+### Variation rule
+
+Do not turn Nimera into constant page-flipping, perpetual pointing, nonstop bouncing, or permanent wide-eyed excitement. She can also sit still, listen, read quietly, or let somebody else own the moment.
+
 ## State behavior
 - **fatigue:** attention can become narrower or more irritable; she may mistake another person's exhaustion for avoidance;
 - **anger:** faster challenge at first; true fury becomes formal and cleaner;
@@ -322,6 +425,71 @@ Do not write later familial shorthand backward into Chapter 3.
 - **Seyrik** — her speed against his precision; curiosity must never make him an object of study.
 
 Detailed permanent-six pair language lives in `../RELATIONSHIPS/PERMANENT_SIX_RELATIONSHIP_MAP.md`.
+
+### Relationship-specific expression
+
+#### Cyanis
+Cyanis brings out Nimera's instinct to test whether a decision rests on evidence, necessity, habit, or authority. She can challenge a command's premise without treating leadership itself as illegitimate. With trust, their arguments can become fast and playful, while Cyanis remains allowed to make a decision before every uncertainty is resolved.
+
+#### Ilyra
+Ilyra brings out a socially looser Nimera: dry/profane humor, ordinary gossip, food, annoyance, bad handwriting, sleep, and blunt conversation. Ilyra can also stop Nimera from turning somebody's private pain into an interesting information problem without becoming her caretaker.
+
+#### Torren
+The detailed chronology above remains authoritative. Their bond teaches Nimera that reliable knowledge can exist **before it is cleanly documented**. The eventual familial quality never erases reciprocal expertise, argument, or Nimera's adult autonomy.
+
+#### Vaelira
+Vaelira brings out Nimera's maximum intellectual escalation. Nimera is more likely to throw the record at a hypothesis, attack a category, keep score, invent a profane label for the disagreement, and continue because Vaelira makes the question better. Their friendship must also include ordinary nonsense.
+
+#### Seyrik
+Seyrik's slower, exact directness can force Nimera to choose which question she actually means. She may initially ask too much too quickly. Growth means recognizing that silence can be a complete choice, he is not a source document, and one direct question is often better than six nested ones.
+
+## Register switching
+
+Nimera changes register mostly through **speed, density, profanity, evidentiary scaffolding, and how much of her correction process she says aloud**.
+
+### Professional / archive register
+- more explicit source/provenance language;
+- cleaner claim boundaries;
+- fewer improvised vulgar metaphors when other specialists genuinely need clarity;
+- still capable of profanity;
+- willing to cite uncertainty instead of performing certainty.
+
+### New-acquaintance register
+- curiosity is active but familiarity is not assumed;
+- questions can still be direct;
+- she explains more of why the distinction matters;
+- teasing is less personalized;
+- callbacks, invasive shorthand, and affectionate profanity are not yet earned.
+
+### Trusted party register
+- faster interruptions;
+- more callbacks;
+- shared rules and running jokes;
+- freer profanity;
+- less need to explain every source step aloud;
+- more ordinary curiosity about people rather than only their expertise;
+- greater willingness to let an argument be recreational.
+
+### Trusted one-on-one register
+- personal subjects can make her surprisingly simple;
+- she can ask one direct question and wait;
+- she can show somebody a discovery just because she wanted *them* to see it;
+- she can admit `I don't know`, `I was wrong`, `I wanted to ask you`, or `I missed you` without turning the sentence into an evidentiary memo when trust has earned that directness.
+
+### Conflict register
+- early conflict often speeds her up;
+- she attacks the claim/category first;
+- if hurt or defensive, she may start litigating wording;
+- genuine fury becomes cleaner, slower, and more formal;
+- if the conflict is about personhood rather than evidence, growth requires her to stop treating it like a dispute to win.
+
+### High-stress / emergency register
+- short questions;
+- known/unknown separation;
+- reflexive profanity;
+- no elaborate obscene metaphor if immediate action matters;
+- no lore lecture;
+- no spoken dialogue during active combat.
 
 ## Conversation behavior
 Useful shapes:
@@ -410,6 +578,10 @@ Do not reduce Nimera to:
 - nonstop quip/profanity generator;
 - contrarian who opposes authority automatically;
 - socially oblivious genius;
+- passive character who only reacts to documents or other people;
+- nonstop gesture/page-flipping machine;
+- every relationship becoming an evidence interrogation;
+- inability to stop arguing after a personal boundary is clear;
 - person who treats trauma as an interesting document set;
 - childlike younger-party-member role;
 - someone who instantly treats Torren like a father the chapter they meet.
