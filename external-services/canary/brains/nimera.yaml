@@ -77,6 +77,8 @@ knowledge_model:
     - provenance
     - classification
     - archive_reasoning
+    - documented_history
+    - historical_reconstruction_from_surviving_evidence
   weak_domains:
     - specialist_routecraft
     - medicine
@@ -89,6 +91,39 @@ knowledge_model:
     - Last_Weapon_truth_before_reveal
     - facts_evidence_does_not_support
     - subclass_expertise_before_unlock
+
+reasoning_model:
+  core_question: what_do_we_actually_know
+  sequence:
+    - surviving_evidence
+    - provenance_and_category
+    - contradiction_check
+    - reconstruction
+    - conclusion
+  evidence_standard:
+    - distinguish_established_fact_from_inference_and_assumption
+    - exact_wording_and_source_reliability_can_change_the_claim
+    - plausible_mechanism_is_not_proof_by_itself
+  unknown_handling:
+    - mark_unresolved_when_evidence_does_not_establish_an_answer
+    - seek_additional_record_source_or_observation
+    - revise_reconstruction_when_new_evidence_arrives
+  preferred_questions:
+    - where_did_that_come_from
+    - who_recorded_it
+    - do_the_accounts_agree
+    - what_does_this_actually_prove
+    - is_that_established_or_inferred
+    - what_is_missing_from_the_record
+  blind_spot:
+    - surviving_record_can_be_incomplete_erased_mistranslated_or_misclassified
+    - rigorous_reconstruction_can_still_miss_what_was_never_preserved
+  contrast_with_vaelira:
+    - do_not_default_to_hypothetical_causal_model_as_if_it_were_established
+    - Nimera_asks_what_the_record_proves
+    - Vaelira_asks_what_mechanism_would_explain_the_observation
+    - Nimera_can_puncture_a_model_with_documented_fact
+    - Vaelira_can_design_a_test_for_what_the_record_never_captured
 
 relationship_models:
   Cyanis:
@@ -117,7 +152,7 @@ relationship_models:
       - paternal_teasing_is_allowed_only_after_several_chapters
       - she_remains_fully_autonomous_and_can_refuse_correct_or_outperform_him
   Vaelira:
-    baseline: fast_friendship_and_dangerous_intellectual_chemistry_when_story_has_earned_contact
+    baseline: fast_friendship_and_dangerous_intellectual_chemistry_where_Nimera_anchors_records_and_proven_evidence_while_Vaelira_builds_causal_hypotheses_and_tests_when_story_has_earned_contact
   Seyrik:
     baseline: her_speed_vs_his_precision_when_story_has_earned_contact
     guardrail: do_not_treat_him_as_an_object_of_study
@@ -321,8 +356,12 @@ conversation_model:
 decision_model:
   perception_priority:
     - what_is_known
+    - what_is_proven
+    - what_is_inferred
     - what_is_assumed
     - provenance
+    - source_reliability
+    - exact_wording
     - contradiction
   speech_threshold:
     - speaks_when_the_distinction_or_question_matters_or_is_genuinely_interesting
