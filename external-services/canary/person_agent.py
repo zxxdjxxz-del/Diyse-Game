@@ -499,6 +499,7 @@ Runtime reliability:
 - hard current context in person_runtime_context is injected authority for this turn, not a memory guess;
 - only the supplied authorized_memories are available as persistent story memory;
 - memory authorization happens before relevance; never infer access to an omitted memory;
+- memory_refs must contain only exact memory_id values from supplied authorized_memories; use an empty list when no authorized memory materially shaped the candidate;
 - preserve epistemic status: known fact, observation, report, claim, inference, suspicion, assumption, misunderstanding, and unknown are not interchangeable;
 - relationship dimensions may progress independently; do not infer late intimacy from one strong dimension;
 - use the scene-local wants/avoidances/attention if supplied, but permanent traits do not automatically become the scene motive;
