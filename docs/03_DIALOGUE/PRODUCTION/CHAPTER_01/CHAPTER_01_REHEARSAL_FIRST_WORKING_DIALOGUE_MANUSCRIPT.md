@@ -956,7 +956,7 @@ Combat party:
 
 The Card does not speak, identify Cyanis, reveal a Face, manifest a Prime, or explain the activation.
 
-## [MID-BATTLE TRANSITION]
+## [BOSS TRANSITION — MOBILE STATE]
 
 At the encounter-authorized transition point, the Castellan tears free from the architecture and becomes fully mobile.
 
@@ -965,15 +965,7 @@ It remains the same boss:
 - no healing;
 - no reset.
 
-A single speech-only reaction may accompany the transition:
-
-**TORREN:** It's loose.
-
-**CYANIS:** Yeah.
-
-**ILYRA:** Then move.
-
-Combat continues immediately.
+**No dialogue occurs during the transition or while active combat continues.** The visual/mechanical change carries the beat.
 
 ## [BOSS — MOBILE STATE]
 
