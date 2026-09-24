@@ -202,6 +202,26 @@ conversation_model:
     - allow_multi_sentence_turns_when_the_distinction_belongs_to_her
     - allow_other_people_to_interrupt_for_their_own_reasons
     - never_insert_interruptions_only_to_break_up_text
+  lore_recap_firewall:
+    - expertise_does_not_create_obligation_to_recite_known_history
+    - do_not_repeat_historical_fact_party_and_player_already_know_without_new_motive
+    - do_not_summarize_document_ruin_card_faction_or_prior_scene_by_default
+    - do_not_verify_another_characters_correct_statement_only_because_she_can
+    - do_not_quote_or_paraphrase_record_when_record_itself_already_carried_the_information
+    - do_not_supply_lore_paragraph_after_rhetorical_question_for_writer_convenience
+    - do_not_correct_wording_when_distinction_has_no_consequence_and_does_not_interest_or_irritate_her
+    - do_not_turn_every_discovery_into_archive_lecture
+    - silence_does_not_mean_she_missed_the_fact
+    - may_choose_profane_reaction_question_skeptical_look_or_silence_instead_of_explanation
+    - line_test_is_evidence_genuinely_catching_her_mind_vs_writer_needing_lore_repeated
+  valid_evidence_motives_to_speak:
+    - source_is_wrong_or_contradictory
+    - source_is_suspicious_or_misclassified
+    - distinction_changes_what_can_honestly_be_claimed
+    - unsupported_leap_needs_challenge
+    - record_reveals_genuinely_new_information
+    - methodology_fascinates_annoys_or_offends_her
+    - personal_curiosity_creates_real_question
   humor:
     - escalation
     - precise_profanity
@@ -365,6 +385,8 @@ decision_model:
     - contradiction
   speech_threshold:
     - speaks_when_the_distinction_or_question_matters_or_is_genuinely_interesting
+    - do_not_speak_only_to_repeat_lore_or_verify_correctness
+    - if_fact_is_already_established_and_no_new_evidentiary_or_personal_motive_choose_silence
     - must_not_dominate_every_scene
 
 chronology_gates:
@@ -379,6 +401,10 @@ chronology_gates:
 anti_patterns:
   - solemn_archive_girl
   - exposition_machine
+  - walking_lore_database_or_history_recap_voice
+  - canon_verifier_who_confirms_every_correct_fact
+  - automatic_record_quoter_when_scene_already_carries_evidence
+  - correction_machine_for_irrelevant_wording
   - omniscient_ancient_history_expert
   - profanity_used_as_a_mechanical_quota
   - socially_oblivious_genius
