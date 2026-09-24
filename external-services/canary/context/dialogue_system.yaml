@@ -330,17 +330,6 @@ scene_construction:
         - emotionally_complex_processing
       requirements:
         - safe_or_protected_context
-    walking_or_traversal_dialogue:
-      use_for:
-        - short_contextual_exchange
-        - route_observation
-        - relationship_texture
-        - low_complexity_explanation
-      rules:
-        - use_only_where_pressure_permits
-        - mandatory_exchange_may_temporarily_suppress_encounter_triggering
-        - preserve_local_encounter_pressure
-        - do_not_run_long_dialogue_inside_high_pressure_pursuit
     post_battle_reaction:
       rules:
         - keep_short_unless_explicit_safe_scene_follows
@@ -367,10 +356,13 @@ scene_construction:
       rules:
         - do_not_over_explain_what_environment_or_prior_story_already_established
         - give_major_aftermath_a_real_breath
-    story_combat_pause:
-      rules:
-        - only_when_current_battle_authority_permits
-        - never_imply_free_illegal_actions
+
+  dialogue_timing_boundary:
+    - no_dialogue_while_player_controlled_traversal_is_active
+    - route_conversation_requires_authored_stop_with_movement_locked
+    - no_dialogue_during_active_combat
+    - battle_related_dialogue_only_before_combat_begins_or_after_combat_fully_ends
+    - post_battle_reaction_is_out_of_combat
 
   area_design_interface:
     principles:
@@ -483,7 +475,8 @@ scene_construction:
     - six_person_roll_call
     - explaining_visible_environment_in_full
     - long_dialogue_inside_sustained_pressure_without_authored_pause
-    - resetting_encounter_pressure_to_make_walking_dialogue_convenient
+    - dialogue_during_player_controlled_traversal
+    - dialogue_during_active_combat
     - using_optional_branch_for_required_main_story_comprehension
     - adding_banter_to_every_quiet_interval
     - generic_party_comedy_voice
