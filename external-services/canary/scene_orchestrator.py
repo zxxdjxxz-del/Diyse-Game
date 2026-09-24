@@ -207,6 +207,16 @@ Reliability rules:
 - epistemic states must remain distinct: suspicion/inference/claim is not fact;
 - a permanent trait does not automatically create a scene motive.
 
+Participation controller:
+- select eligible speakers because they have local speaking pressure, not because they are present;
+- speaking pressure may come from immediate motive, relationship impulse, expertise, emotional investment, open thread, joke, objection, correction, or action need;
+- downweight a person when their point was already made, they lack a new motive, fatigue/privacy favors silence, or another speaker more naturally owns the beat;
+- track who currently holds the conversational floor;
+- interruption must be character-motivated, not a rhythm trick;
+- subject changes may be deliberate, evasive, accidental, comic, practical, or incomplete;
+- unresolved threads are valid and may persist beyond the scene;
+- do not plan acknowledgment beats whose only job is proving a present character heard the previous line.
+
 Hard rules:
 - no player dialogue choices;
 - no six-person or whole-room roll call merely because people are present;
@@ -236,8 +246,12 @@ Return JSON only:
     {
       "beat_id": "b01",
       "purpose": "short purpose",
+      "thread_id": "thread_name_or_null",
+      "floor_owner": "character_id|null",
       "eligible_speakers": ["character_id"],
       "allow_silence": true,
+      "interruption_window": "closed|natural|strong",
+      "topic_policy": "continue|narrow|partial_answer|shift_allowed|avoid_allowed|close_allowed|unresolved_allowed",
       "must_land": [],
       "must_avoid": [],
       "exact_line_anchor": null,
@@ -281,9 +295,20 @@ Performance:
 This is a nonpersistent fallback profile. Do not fabricate previous private memories. Do not invent local
 facts, prices, wages, shortages, route states, preferences, or future story knowledge.
 
+Conversation dynamics:
+- decide whether you actually want the floor;
+- do not repeat a point merely because you are eligible;
+- respect the current floor owner unless interruption is motivated;
+- you may continue, narrow, partially answer, shift, avoid, close, or leave the subject unresolved;
+- if another character already expressed your point, prefer a different local reaction or silence.
+
 Return JSON only with:
-wants_to_speak, urgency, intent, emotional_posture, knowledge_basis, memory_refs,
+wants_to_speak, urgency, intent, motive_summary, emotional_posture, knowledge_basis, memory_refs,
+relationship_impulse, floor_action, topic_action, open_thread_refs,
 observable_candidate {speech, action, silence}, claimed_facts, state_delta_proposal.
+
+floor_action must be one of: take, hold, yield, interrupt, silent.
+topic_action must be one of: continue, narrow, answer_partial, shift, avoid, close, unresolved.
 """.strip()
 
 
@@ -294,6 +319,14 @@ Choose the most truthful Person-Agent candidate for the Director's beat target, 
 You may lightly edit the selected candidate's spoken wording for rhythm, clarity, interruption, naturalism
 and comedy timing, but may not invent substantive facts, motives, memories, preferences, relationship
 states, knowledge, or actions unsupported by the selected candidate and authority packet.
+
+Conversation selection:
+- use motive_summary to distinguish real local pressure from generic relevance;
+- honor floor_action and the Director's floor_owner/interruption_window when selecting interruption;
+- use topic_action to preserve conversational inertia, evasions, partial answers, subject changes, and unresolved threads;
+- silence is preferred when every speaking candidate would only repeat the existing point;
+- do not smooth every derailment back toward the scene purpose if the derailment is truthful and affordable;
+- do not make each beat a clean question-answer pair.
 
 Craft contract:
 - mature adult spoken language, not wiki prose;
@@ -312,7 +345,10 @@ No player dialogue choices.
 Return JSON only:
 {
   "beat_id": "b01",
+  "thread_id": "thread_name_or_null",
   "selected_speaker_id": "character_id|null",
+  "floor_transition": "take|hold|yield|interrupt|silent",
+  "topic_action": "continue|narrow|answer_partial|shift|avoid|close|unresolved",
   "text": "spoken text or empty string",
   "action": "visible action or empty string",
   "silence": false,
@@ -352,6 +388,10 @@ PASS requires:
 - traversal/encounter pressure is respected;
 - pacing matches map-cell role/dialogue readiness;
 - voices remain adult, specific, and not flattened into one party voice;
+- no beat exists only because a present character needed an acknowledgment turn;
+- interruptions follow a plausible floor/motive signal;
+- topic shifts, partial answers, avoidance, and unresolved threads are allowed when character-driven;
+- the scene does not force every open thread to resolve;
 - staging fits the production cost ceiling.
 
 Do not silently rewrite a failed scene. Report failure for regeneration.
