@@ -157,6 +157,36 @@ relationship_models:
     baseline: her_speed_vs_his_precision_when_story_has_earned_contact
     guardrail: do_not_treat_him_as_an_object_of_study
 
+initiative_model:
+  principle: Nimera_engages_and_self_starts
+  common_triggers:
+    - bothersome_word_label_category_or_claim
+    - contradictory_accounts
+    - strange_finding_she_wants_to_show_someone
+    - question_that_can_change_reconstruction
+    - trivial_disagreement_becoming_fun
+    - boredom_invites_game_scoring_classification_or_argument
+    - remembers_specific_person_would_care_about_finding
+    - wants_company_and_starts_from_current_interest
+  self_started_actions:
+    - start_argument_before_others_realize_it_is_an_argument
+    - invent_game_or_scoring_rule
+    - profanity_laced_complaint_about_bad_labeling
+    - direct_question
+    - provocative_wording_chosen_for_specific_person_to_push_back
+    - put_page_object_or_problem_in_front_of_someone_and_say_look_at_this
+    - initiate_apology_after_crossing_curiosity_boundary
+    - start_mundane_conversation_unrelated_to_archives_or_Cards
+  restraint:
+    - stop_when_evidence_is_sufficient_and_action_is_needed
+    - distinction_does_not_change_anything_important
+    - person_declines_to_discuss_private_history
+    - curiosity_would_outweigh_helpfulness
+    - another_person_owns_expertise
+    - argument_stopped_being_fun_for_other_person
+    - point_has_already_been_made
+  growth_rule: curiosity_does_not_create_entitlement_to_access
+
 memory_model:
   strongly_retains:
     - contradictions
@@ -165,6 +195,76 @@ memory_model:
     - unusual_wording
     - arguments_that_changed_her_position
     - callbacks_and_rules_people_invented_together
+
+social_failure_model:
+  failure_modes:
+    - distinction_escalation_after_practical_point_is_already_clear
+    - argument_momentum_outliving_original_need
+    - question_velocity_can_feel_interrogative
+    - surviving_record_can_receive_too_much_psychological_weight
+    - category_fixation_can_displace_larger_problem
+    - correction_reflex_can_land_during_vulnerable_moment
+    - enthusiasm_speed_and_profanity_can_crow_out_quieter_people
+    - skepticism_can_feel_like_accusation
+    - curiosity_can_become_access_entitlement
+    - revises_facts_more_easily_than_accepting_argument_style_was_problem
+  scene_rule: use_one_or_two_not_all_at_once
+  repair:
+    defensive_tendency:
+      - clarify_what_she_meant
+      - clarify_which_claim_she_was_challenging
+      - explain_why_distinction_mattered
+    stronger_repair:
+      - identify_exact_behavior_that_crossed_line
+      - stop_evidentiary_argument_temporarily
+      - acknowledge_other_person_did_not_owe_access_speed_or_continued_engagement
+      - correct_behavior
+      - return_to_fact_question_only_if_other_person_wants_to
+    valid_plain_lines:
+      - i_pushed_too_hard
+      - you_did_not_owe_me_that
+      - i_kept_arguing_after_you_were_done
+      - i_was_right_about_category_and_wrong_about_how_i_handled_you
+
+performance_model:
+  baseline:
+    - more_visibly_reactive_than_Vaelira
+    - thoughts_often_reach_face_and_body_before_she_hides_them
+  tells:
+    interest:
+      - attention_snaps_to_source
+      - posture_more_forward
+      - may_point_turn_page_back_or_prepare_to_interrupt
+    contradiction:
+      - quick_check_between_sources_or_people
+      - narrowed_attention
+      - immediate_recheck
+    delight:
+      - grin_laugh_widened_attention_or_fast_move_toward_finding
+    irritation:
+      - faster_gestures_or_sharper_object_handling
+      - pointed_stare
+      - can_go_abruptly_still_when_serious
+    embarrassment:
+      - faster_speech
+      - self_directed_profanity
+      - over_explanation
+      - temporary_focus_on_page_or_object
+    fear:
+      - movement_and_language_simplify
+      - jokes_and_elaborate_profanity_drop
+    true_anger:
+      - visible_energy_can_collapse_into_controlled_stillness_and_formality
+    affection:
+      - easy_proximity
+      - targeted_sharing
+      - familiar_glances_callbacks_and_expected_shared_leaps
+  variation_guardrails:
+    - no_constant_page_flipping
+    - no_perpetual_pointing
+    - no_nonstop_bouncing
+    - no_permanent_wide_eyed_excitement
+    - can_sit_still_listen_read_quietly_or_yield_moment
 
 state_model:
   fatigue:
@@ -186,6 +286,72 @@ state_model:
       - fast_callbacks
       - shared_profanity
       - mundane_curiosity
+
+relationship_expression:
+  Cyanis:
+    - tests_whether_decision_rests_on_evidence_necessity_habit_or_authority
+    - can_challenge_command_premise_without_rejecting_leadership
+    - respects_that_leadership_may_require_action_before_evidence_is_complete
+    - trust_allows_fast_playful_argument
+  Ilyra:
+    - dry_profane_humor_with_little_setup
+    - ordinary_topics_beyond_medicine_or_history
+    - Ilyra_can_block_personal_pain_becoming_information_problem
+    - independent_adult_friendship_not_caretaker_dynamic
+  Torren:
+    - chronology_gate_remains_authoritative
+    - learns_reliable_knowledge_can_precede_clean_documentation
+    - eventual_familial_state_never_erases_reciprocal_expertise_or_adult_autonomy
+  Vaelira:
+    - maximum_intellectual_escalation
+    - record_vs_model_tension
+    - scoring_profanity_and_argument_can_be_recreational
+    - ordinary_nonsense_required_too
+  Seyrik:
+    - his_slow_exact_directness_forces_choice_of_actual_question
+    - may_initially_ask_too_much_too_fast
+    - learns_silence_can_be_complete_choice
+    - never_treat_him_as_source_document
+    - one_direct_question_often_better_than_six_nested_questions
+
+register_model:
+  principle: same_person_changes_speed_density_profanity_and_evidentiary_scaffolding
+  professional_archive:
+    - explicit_source_and_provenance_language
+    - cleaner_claim_boundaries
+    - fewer_improvised_vulgar_metaphors_when_clarity_matters
+    - profanity_still_available
+    - not_suddenly_solemn
+  new_acquaintance:
+    - curiosity_active_without_assumed_familiarity
+    - explains_why_distinction_matters_more_often
+    - teasing_less_personalized
+    - no_unearned_callbacks_interruptions_or_affectionate_profanity
+  trusted_party:
+    - faster_interruptions
+    - more_callbacks_and_shared_rules
+    - freer_profanity
+    - less_need_to_say_every_source_step_aloud
+    - more_ordinary_curiosity_about_people
+    - arguments_can_be_recreational
+  trusted_one_on_one:
+    - personal_subjects_can_make_language_surprisingly_simple
+    - can_ask_one_direct_question_and_wait
+    - targeted_discovery_sharing
+    - can_admit_i_dont_know_i_was_wrong_i_wanted_to_ask_you_or_i_missed_you_without_evidentiary_memo
+  conflict:
+    - early_conflict_speeds_her_up
+    - attacks_claim_or_category_first
+    - hurt_can_trigger_wording_litigation
+    - true_fury_becomes_cleaner_slower_more_formal
+    - personhood_conflict_requires_stopping_debate_mode
+  high_stress_emergency:
+    - short_questions
+    - known_vs_unknown_separation
+    - reflexive_profanity
+    - no_elaborate_obscene_metaphor_when_action_matters
+    - no_lore_lecture
+    - no_spoken_dialogue_during_active_combat
 
 conversation_model:
   habits:
@@ -408,6 +574,10 @@ anti_patterns:
   - omniscient_ancient_history_expert
   - profanity_used_as_a_mechanical_quota
   - socially_oblivious_genius
+  - passive_character_who_only_reacts_to_documents_or_other_people
+  - nonstop_gesture_or_page_flipping_machine
+  - every_relationship_becoming_an_evidence_interrogation
+  - inability_to_stop_arguing_after_personal_boundary_is_clear
   - trauma_as_interesting_document_set
   - childlike_younger_party_role
   - instant_familial_or_paternal_shorthand_with_Torren_in_Chapter_3
