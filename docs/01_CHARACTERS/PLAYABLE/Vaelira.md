@@ -200,12 +200,115 @@ Axiomblade/Subclass expertise is unavailable before its current story unlock.
 
 Detailed permanent-six pair language lives in `../RELATIONSHIPS/PERMANENT_SIX_RELATIONSHIP_MAP.md`.
 
+### Relationship-specific expression
+
+These are **pressures, not exclusive trait ownership**. Cyanis does not own Vaelira's competitiveness, Ilyra does not own her social ease, Torren does not own her curiosity, Nimera does not own her intellectual play, and Seyrik does not own her directness. The same trait may appear with anyone when the situation earns it.
+
+#### Cyanis
+Cyanis tends to bring out Vaelira's **competitive, argumentative, slightly smug, increasingly playful** side.
+
+She responds well when he asks the practical boundary question that exposes an assumption she has overcomplicated. She is much less pleased when he reaches the right answer through intuition, luck, or "good enough" reasoning and then looks satisfied about it.
+
+Ordinary-life chemistry may include:
+- low-stakes predictions, estimates, efficiency arguments, games, and "which approach actually works" challenges;
+- Vaelira wanting the cleaner method while Cyanis is satisfied once a solution is reliable enough;
+- Cyanis enjoying the moment she becomes visibly more invested than she intended;
+- Vaelira deliberately continuing an argument after the useful part is over because she is having fun;
+- either of them being wrong without the relationship turning into a competence contest.
+
+Cyanis may sometimes ask the simple personal question Vaelira has translated into a practical one, but he must **not** become her therapist or automatic desire-detector. He can misread her; she can reject his interpretation.
+
+With trust, Vaelira becomes more willing to let him see that she wanted to win, enjoyed the argument, cared about the answer, or chose something because she liked it.
+
+**Guardrail:** do not reduce them to scientist-versus-common-sense. Both are intelligent adults using different decision habits.
+
+#### Ilyra
+Ilyra tends to bring out a **lower-pressure social Vaelira**: dry amusement, gossip, ordinary complaints, presentation/vanity, blunt opinions, and quiet companionship that does not need to become technical work.
+
+Their professional disagreements can be real. Vaelira may focus on what is possible, controllable, or mechanically sound; Ilyra may focus on what the intervention costs a person or what agency remains. Neither woman is automatically the moral or intellectual winner.
+
+Ordinary-life chemistry may include:
+- gossip and petty judgments that have nothing to do with medicine or Elements;
+- complaints about travel, rooms, weather, ruined clothes/presentation, bad organization, or somebody else's irritating habits;
+- Ilyra catching that Vaelira is more excited, pleased, embarrassed, or invested than her wording admits;
+- Vaelira answering the practical version first, then sometimes conceding the simpler personal answer;
+- comfortable silence without either woman becoming caretaker or lecturer.
+
+Ilyra may notice Vaelira's preference, but she does not diagnose her. Vaelira can be wrong about Ilyra too.
+
+**Guardrail:** this is an independent adult friendship, not healer-and-patient, scientist-and-conscience, or "the women talk about feelings" by default.
+
+#### Torren
+Torren tends to bring out Vaelira's fascination with **tacit expertise**: knowledge produced by long observation and repeated field experience even when the person using it does not formalize the model the way she would.
+
+A recurring productive friction is:
+- Torren knows something from terrain, weather, movement, gear, animals, or accumulated experience;
+- Vaelira wants to know **what cues produced the judgment**;
+- Torren may be able to explain them, explain only some of them, or deliberately give her an underexplained answer because he knows it annoys her.
+
+Vaelira should not dismiss a reliable field judgment because it was not instrumented. Torren should not be written as anti-science or magically correct because he is experienced.
+
+Ordinary-life chemistry may include:
+- "good enough" versus cleaner calibration;
+- equipment condition and maintenance;
+- predictions made from different kinds of evidence;
+- Vaelira becoming briefly irritated when Torren is right for reasons he cannot yet articulate cleanly;
+- Torren becoming amused when she keeps asking after the practical problem is already solved.
+
+With trust, one sign of respect is Vaelira **not needing to formalize every useful thing he knows before she will use it**.
+
+**Guardrail:** their relationship is not formal science correcting a rustic outdoorsman, or field instinct humiliating a sheltered academic. Each has real expertise the other lacks.
+
+#### Nimera
+Nimera brings out Vaelira's **maximum intellectual play and escalation**.
+
+The difference remains structural:
+- Nimera asks what the surviving evidence actually establishes;
+- Vaelira asks what mechanism could explain the observation and how to test it.
+
+That difference can become recreational. They may turn trivial questions into arguments, invent tests, keep score, classify outcomes, challenge each other's assumptions, or continue well after anybody else stopped caring.
+
+Their comedy should remain distinct:
+- Nimera is faster, more verbally explosive, more profane, more likely to attack wording/category/evidence;
+- Vaelira is more controlled, conditional, causal, and straight-faced, with competitiveness leaking through the composure.
+
+They can catch each other's blind spots:
+- Nimera can stop Vaelira from treating an elegant mechanism as established fact;
+- Vaelira can stop Nimera from treating the surviving record as if it explains the mechanism;
+- either may notice when the other is defending ego rather than method.
+
+With trust, they increasingly share discoveries because the other person is the **first person they want to show**, not because the information must be professionally transmitted.
+
+**Guardrail:** do not merge them into one "smart girl" voice, and do not make every scene an experiment, archive argument, or profanity contest.
+
+#### Seyrik
+Seyrik tends to bring out Vaelira's comfort with **plain directness**.
+
+Because he is willing to ask what a word, condition, instruction, or distinction actually means instead of bluffing understanding, Vaelira does not need to soften precision into vague social language. She should respect that.
+
+Their serious compatibility around dangerous systems can coexist with mundane comedy. Two very precise people disagreeing about something trivial can be funnier than either of them trying to perform a joke.
+
+Both characters have arcs involving personal preference, but the causes are different:
+- Seyrik was denied ordinary choice through coercive institutional conditioning;
+- Vaelira has a habit of treating defensible reasons as more legitimate than desire.
+
+Do not turn that parallel into a therapy mirror.
+
+Ordinary-life chemistry may include:
+- exact questions that unexpectedly become funny;
+- deadpan disagreement where nobody is certain at first whether a joke occurred;
+- Vaelira asking Seyrik what **he wants** without embedding the "correct" answer in the question;
+- Seyrik challenging her conclusion directly and being taken seriously;
+- later intentional use of each other's precision for very dry humor.
+
+**Guardrail:** Vaelira never treats Seyrik as a specimen, rehabilitation project, or fascinating case. Directness must preserve his adult agency.
+
 ## Conversation behavior
 Common shapes:
 - precise answer;
 - technical first pass followed by plain restatement;
 - clean correction;
-- quiet "that's right" when somebody else is right;
+- quiet confirmation when she is personally engaged and the confirmation itself changes the exchange;
 - "I don't know yet" without treating uncertainty as failure;
 - hypothesis clearly marked as hypothesis;
 - a personal question initially answered as a practical one, followed by a more direct answer if the other person does not let her hide there;
