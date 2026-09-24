@@ -469,6 +469,16 @@ A scene spec must explicitly name:
 - any exact-line anchors that are still explicitly preserved;
 - maximum beat count and production-cost ceiling.
 
+A scene spec may also provide protected `person_runtime_contexts` for any participant. This is the preferred authoring surface for:
+- persistent-memory authorization;
+- relationship runtime dimensions;
+- epistemic status for scene-relevant beliefs/claims/suspicions;
+- scene-local wants, avoidances, attention, and willingness to speak;
+- open relationship/conversation threads;
+- other hard per-person constraints that must survive the live-runtime merge.
+
+The compiler emits `memory_authorization: {"mode":"none"}` for participants without an explicit memory policy. Persistent story memory is therefore unavailable by default rather than silently broadening retrieval.
+
 A scene spec may also provide `person_runtime_contexts` for the named participants. This is the preferred authoring surface for:
 - memory authorization;
 - relationship runtime dimensions;
