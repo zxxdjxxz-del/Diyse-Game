@@ -74,9 +74,9 @@
       "role": "rehearsal_first_and_reductive_authoring_lock"
     },
     {
-      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/KNOWLEDGE_FIREWALL_INVISIBILITY_RULE.md",
+      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/SPOKEN_DIALOGUE_VS_NARRATION_LOCK.md",
       "whole_file": true,
-      "role": "invisible_knowledge_firewall"
+      "role": "spoken_dialogue_narration_and_invisible_knowledge_firewall"
     },
     {
       "path": "docs/03_DIALOGUE/AGENT_SYSTEM/RANDOM_ENCOUNTER_PRESENTATION_LOCK.md",
