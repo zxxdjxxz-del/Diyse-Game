@@ -18,7 +18,7 @@ from docx.oxml.ns import qn
 
 ROOT = Path(__file__).resolve().parents[2]
 READER = ROOT / "build/dialogue/DIYSE_Chapters_0-3_Spoiler_Free_Exact_Dialogue_Reader_CURRENT.docx"
-EXPECTED_DIALOGUE_LINES = 2038
+EXPECTED_DIALOGUE_LINES = 2035
 LABEL_RE = re.compile(r"^.+:\s*$")
 CHAPTER_BREAKS = {"Chapter 1", "Chapter 2", "Chapter 3"}
 
