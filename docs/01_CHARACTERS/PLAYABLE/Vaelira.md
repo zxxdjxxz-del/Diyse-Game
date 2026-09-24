@@ -769,6 +769,125 @@ Ordinary-life chemistry may include:
 
 **Guardrail:** Vaelira never treats Seyrik as a specimen, rehabilitation project, or fascinating case. Directness must preserve his adult agency.
 
+## Register switching
+
+Vaelira's voice should change with **audience, safety, stakes, and role** without becoming a different character.
+
+### Professional / public register
+
+With Annex staff, officials, unfamiliar specialists, or in a setting where she is responsible for a technical judgment:
+- sentence structure is clean and economical;
+- claims are scoped carefully;
+- uncertainty is named rather than hidden;
+- jokes are rarer and drier;
+- personal preference is less likely to enter the argument unless directly relevant;
+- early profanity remains absent except for a genuine composure break;
+- she avoids performative authority language and does not inflate certainty to sound impressive.
+
+She can be firm without sounding ceremonial.
+
+A professional Vaelira is more likely to say:
+- `The reading is stable. The cause isn't.`
+- `I can tell you what changed. I can't tell you why yet.`
+- `No. That conclusion is ahead of the evidence.`
+than to give a long lecture simply because she has the floor.
+
+### New-acquaintance register
+
+With people she does not yet know well:
+- she is polite but not sugary;
+- curiosity can be direct;
+- humor exists, but she is less likely to risk a joke that depends on familiarity;
+- she may explain more context because shared assumptions are not yet established;
+- personal questions are more likely to be answered through practical framing;
+- clean speech is especially stable.
+
+She does not become stiff, aristocratic, or socially blank around strangers.
+
+### Early-party register
+
+After joining but before deep trust:
+- technical shorthand begins to develop;
+- dry reactions and low-stakes disagreement become more common;
+- she may volunteer ordinary opinions;
+- she is increasingly willing to be teased;
+- she may start games, predictions, or small arguments;
+- affection still often travels through usefulness, attention, or practical reason;
+- clean substitutions remain her normal language;
+- a hard swear still signals that something genuinely broke through her control.
+
+### Trusted party register
+
+With established trust:
+- explanations shorten because shared context already exists;
+- she interrupts more naturally;
+- she can use callbacks and private shorthand;
+- she is more willing to say `I like it`, `I hate that`, `I wanted to`, or `I don't want to` without defending the preference;
+- jokes can become more deliberate;
+- teasing can become more pointed;
+- silence becomes easier because she does not need to prove engagement;
+- intentional profanity may become available according to the progression lock.
+
+Trust should make her **less defended**, not automatically louder.
+
+### Trusted one-on-one register
+
+Private conversation with someone she trusts can become simpler than group dialogue.
+
+She may:
+- use fewer qualifiers when she knows the other person understands her method;
+- admit uncertainty without packaging it;
+- say a preference before giving reasons;
+- ask a personal question directly instead of disguising it as logistics;
+- let a joke sit without explaining it;
+- acknowledge embarrassment or affection in one concise sentence and move on;
+- speak more quietly or plainly when the subject matters rather than producing a bigger speech.
+
+The strongest intimacy marker for Vaelira is often **reduced need to justify herself**.
+
+### Conflict register
+
+When disagreement becomes real rather than playful:
+- she stops decorating the argument;
+- the exact point of dispute becomes narrower;
+- she may become more formal if she is angry enough to control herself tightly;
+- interruptions decrease if she is trying not to say something careless;
+- if the conflict hits a personal insecurity, over-explanation can spike;
+- if composure breaks, profanity may appear even early.
+
+She should not become cutting merely because she can formulate a precise insult. Precision under anger can hurt people; if she does that, the script should treat it as behavior with consequences rather than a cool character moment.
+
+### High-stress / emergency register
+
+Under immediate danger:
+- syntax shortens;
+- causal language becomes action-oriented;
+- she prioritizes what is changing, what will happen next, and what must be done;
+- uncertainty is compressed but not falsified;
+- no speeches;
+- no decorative technical vocabulary;
+- no mid-battle dialogue; this applies to pre-combat, post-combat, and other authored emergency scenes outside active combat.
+
+Examples of shape:
+- `Back.`
+- `Not stable.`
+- `That changed. Move.`
+- `I don't know. Don't touch it.`
+- `Fuck. Back up.` if the composure-break threshold is genuinely met.
+
+### Register continuity rule
+
+No register should erase her core:
+- causal reasoning;
+- explicit uncertainty;
+- exactness;
+- dry humor;
+- personal preference pressure;
+- curiosity;
+- increasing willingness to act from desire.
+
+Do not write "professional Vaelira" as emotionless, "private Vaelira" as suddenly gushy, or "late Vaelira" as a completely different profanity-heavy speaker.
+
 ## Conversation behavior
 Common shapes:
 - precise answer;
