@@ -12,7 +12,7 @@ This is a **chapter-role register**, so a recurring identity may appear in multi
 | 0 | Ordinary/carryover | Black Host Raider |
 | 0 | Ordinary/carryover | Black Host Crossbowman |
 | 0 | Ordinary/carryover | Ruin Shieldbearer |
-| 0 | Ordinary/carryover | Convoy Rift Hound |
+| 0 | Ordinary/carryover | War Hound |
 | 0 | Authored/protected | Ruin Vanguard Pursuer — concealed Seyrik; mandatory protected disengagement |
 | 0 | Authored | Convoy War-Sorcerer |
 | 0 | Mandatory named/boss | Riftmaw |
@@ -601,9 +601,9 @@ The old v72 order is superseded.
 Current exact authored order:
 1. P01 — Black Host Raider + Black Host Crossbowman;
 2. P01 — Black Host Raider + Ruin Shieldbearer;
-3. P01 — 2 Convoy Rift Hounds;
-4. P02 — Black Host Crossbowman + Convoy Rift Hound;
-5. P02 — 1 Convoy Rift Hound;
+3. P01 — 2 War Hounds;
+4. P02 — Black Host Crossbowman + War Hound;
+5. P02 — 1 War Hound;
 6. P05 — Ruin Vanguard Pursuer / concealed Seyrik; protected disengagement;
 7. P06 — Riftmaw + Convoy War-Sorcerer combined final boss.
 
