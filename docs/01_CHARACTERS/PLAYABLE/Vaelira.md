@@ -237,6 +237,58 @@ Primary modes:
 
 She should sharpen ensemble comedy without being assigned the permanent "straight woman who stops the fun" role.
 
+## Performance / nonverbal language
+
+Vaelira's composure should be **visible but alive**. She is not statue-still, permanently folded-armed, or expressionless.
+
+Her default physical language is economical:
+- movements tend to look intentional rather than restless;
+- when listening, she usually gives the speaker real attention instead of performing constant note-taking or equipment checks;
+- she does not need to touch her staff, tools, hair, clothing, or notes in every scene;
+- stillness can mean concentration, annoyance, restraint, uncertainty, or comfort depending on context.
+
+### Common tells
+
+- **interest:** she turns more fully toward the subject, tracks details closely, asks faster follow-ups, and may physically lean into the exchange before noticing she has become visibly invested;
+- **genuine surprise:** a brief loss of prepared composure—pause, widened attention, unfinished response, or immediate second look—before analysis catches up;
+- **amusement:** small smile, side glance, held silence, understated look toward the person who caused it, or a line delivered with almost no change in tone;
+- **competition:** attention narrows; responses get quicker; she may become slightly more forward in posture or visibly ready for the next round while pretending the stakes are still trivial;
+- **embarrassment:** may look away briefly, make an unnecessary clarification, reduce the importance of what just happened, recompose her posture/presentation, or become abruptly more exact;
+- **irritation:** movements become more deliberate rather than more chaotic. She may stop what she was doing to give the problem or person her full attention;
+- **anger:** controlled stillness is often more natural than shouting. When she raises her voice, it should mean the situation actually pushed her there rather than being her standard anger animation;
+- **uncertainty:** she can pause without filling the silence, visually re-check what she observed, or hold an answer until she has decided what she can honestly claim;
+- **guilt:** she may keep her hands or attention occupied with notes, equipment, sequence reconstruction, or corrective work because fixing something feels easier than sitting inside the feeling;
+- **fatigue:** presentation becomes less curated, pauses lengthen, and she is less inclined to spend energy disguising annoyance or enthusiasm;
+- **affection / trust:** physical ease matters more than generic touch. She may stay nearby after the practical reason is gone, share space without guarding it, hand something over without ceremony, allow someone into her working area, or visibly relax when a particular person joins her;
+- **being cared for:** if someone notices a preference or quietly does something specifically for her, she may initially inspect the practical detail before the personal meaning catches up. The delayed realization can be more revealing than an immediate emotional speech.
+
+### Performance variation rule
+
+Do **not** turn any tell into a signature animation that fires every time the emotion appears.
+
+For example:
+- embarrassment is not always fixing clothing;
+- thinking is not always touching her chin;
+- irritation is not always crossed arms;
+- affection is not always a softened smile;
+- scientific attention is not always staring at notes;
+- uncertainty is not always verbal hesitation.
+
+Choose the physical response from the exact scene, current relationship, what her hands are already doing, and how much she wants the emotion seen.
+
+### Social visibility
+
+Vaelira is often **less successful at hiding interest than she thinks**.
+
+People who know her well may notice:
+- the extra question she did not need to ask;
+- the way she stays after the problem is technically finished;
+- how quickly she answers when a competition matters;
+- that she checked an object's presentation twice because someone specific will see it;
+- the difference between silence because she is detached and silence because she is trying not to show too much.
+
+They should not become magical mind-readers. A familiar person can notice a tell and still interpret it incorrectly.
+
 ## State behavior
 - **fatigue:** shorter calibration, less patience for unnecessary explanation, but not sudden incompetence;
 - **anger:** more exact, controlled, and difficult to distract; deliberate dismissal of inconvenient evidence can provoke her faster than simple ignorance;
@@ -472,6 +524,8 @@ Do not reduce Vaelira to:
 - person who corrects everyone compulsively;
 - omniscient ancient-systems authority;
 - humorless straight woman;
+- expressionless_or_statue_still_scientist;
+- repetitive_signature_gesture_machine;
 - character whose entire personality is competence;
 - character whose flaws disappear because she is usually technically correct;
 - person who can discuss systems but has no ordinary appetites, vanity, boredom, competitiveness, or petty opinions;
