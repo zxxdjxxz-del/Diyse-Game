@@ -192,7 +192,7 @@ After dialogue survives the Editor and Canon Checker, translate the beat into th
 #### Ordinary traversal
 > **Cyanis remains the sole visible party field character.**
 
-Legal walking dialogue may use portraits/text while Cyanis moves. A guide does not need to appear physically just because they are directing the route.
+No dialogue runs while Cyanis is moving under player control. If the route needs a conversation, the game must trigger an authored stop and pause/lock movement before the dialogue begins.
 
 #### Authored triggered scene
 > **Relevant present characters may appear as field models once the scene trigger stops ordinary traversal.**
@@ -223,13 +223,18 @@ Do not stack repeated tracks, broken brush, mud details, scratches, bones, extra
 
 > **Prefer one necessary story visual over five supporting visual details.**
 
-## Walking dialogue
+## Traversal and combat dialogue boundary
 
-`WALKING_DIALOGUE_LOCK.md` still controls when speech may happen during traversal.
+There is **no walking/traversal dialogue** and **no mid-battle dialogue**.
 
-A legal Torren- or Maevra-guided walking exchange does **not** require that guide on the field. Cyanis remains the visible traversal avatar; the guide speaks through the portrait/dialogue UI.
+- During ordinary player-controlled traversal, dialogue does not run.
+- A route conversation requires an authored trigger that stops traversal first.
+- During active combat, dialogue does not run.
+- Boss or battle-related dialogue belongs immediately before combat begins or after combat has fully ended.
+- Post-battle reaction may be brief, but it is still a post-combat state rather than an active-battle bark.
 
-If the party reaches an authored stop/trigger, the relevant characters may then appear as field models for that scene.
+This boundary is global. A guide, relationship beat, lore observation, joke, or dramatic line does not create an exception.
+
 
 ## Quality tests
 
