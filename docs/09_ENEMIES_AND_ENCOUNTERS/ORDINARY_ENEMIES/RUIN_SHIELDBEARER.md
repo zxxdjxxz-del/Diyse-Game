@@ -100,3 +100,14 @@ Chapter-2 action grammar:
 The retired Bastion Shield Guard's ally-targeted **Hold Line** is not part of the current Ruin Shieldbearer identity.
 
 Final Chapter-2 raw-body/difficulty certification remains open for the current three-person party.
+
+## Exact current visual master
+The Ruin Shieldbearer's exact current approved appearance is the 2026-09-23 B00/B00.5-style render recorded in:
+> `../../14_ART_AND_VISUALS/ENEMIES/CHAPTER_00_ENEMY_VISUAL_AUTHORITY.md`
+
+Master fingerprint:
+- image-generation ID: `bf4897a7-8f7e-4110-a6f0-2125ecd6d60f`
+- SHA-256: `18d1237f4f933bdf6dbcba7f9b4df90c5090ec413ebe334cb5a4982c221fb2d7`
+- dimensions: **1122 × 1402**
+
+The image controls shield geometry, spear choice/proportion, armor mass, helmet treatment, red cloth proportion, and overall silhouette over older prose.
