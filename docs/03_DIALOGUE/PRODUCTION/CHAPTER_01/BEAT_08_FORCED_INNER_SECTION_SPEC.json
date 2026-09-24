@@ -44,14 +44,9 @@
       "role": "rehearsal_first_authoring_lock"
     },
     {
-      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/KNOWLEDGE_FIREWALL_INVISIBILITY_RULE.md",
+      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/SPOKEN_DIALOGUE_VS_NARRATION_LOCK.md",
       "whole_file": true,
-      "role": "invisible_knowledge_firewall"
-    },
-    {
-      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/WALKING_DIALOGUE_LOCK.md",
-      "whole_file": true,
-      "role": "walking_dialogue_hard_lock"
+      "role": "spoken_dialogue_narration_and_invisible_knowledge_firewall"
     },
     {
       "path": "docs/03_DIALOGUE/AGENT_SYSTEM/RANDOM_ENCOUNTER_PRESENTATION_LOCK.md",
@@ -64,7 +59,7 @@
     "area_phase": "hostile_unknown_inner_ruin",
     "dialogue_readiness": "RED_during_traversal_GREEN_at_story_stops",
     "static_story_context_only": true,
-    "runtime_note": "Connective gameplay beat with one brief breach reaction only. HARD REDUCTION: no full breach investigation, no second threshold scene, no Card-status checklist, no pre-boss banter, and no walking dialogue. The deeper architecture becomes cleaner and more intact while Host forcing signs thin out. Card remains inert throughout Beat 8. Beat 9 begins when the party enters the Castellan chamber."
+    "runtime_note": "Connective gameplay beat with one brief breach reaction only. HARD REDUCTION: no full breach investigation, no second threshold scene, no Card-status checklist, no pre-boss banter, and no dialogue during ordinary traversal. The deeper architecture becomes cleaner and more intact while Host forcing signs thin out. Card remains inert throughout Beat 8. Beat 9 begins when the party enters the Castellan chamber."
   },
   "current_floor_state": {
     "card_state": "intact_directly_carried_and_inert",
