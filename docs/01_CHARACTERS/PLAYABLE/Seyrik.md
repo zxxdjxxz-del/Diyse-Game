@@ -134,13 +134,122 @@ Neither sibling owns the other's memories.
 
 ## Relationship shorthand
 - **Cyanis** — begins formal/command-shaped; trust must not make Cyanis speak for him; can develop into surprisingly ordinary friendship.
-- **Ilyra** — careful language around guilt, injury, care, agency, consent, and accountability; later ordinary subjects are essential.
+- **Ilyra** — one of Seyrik's major earned friendships after recruitment; begins around care, agency, guilt, and accountability but deliberately grows into ordinary adult friendship, humor, mutual preference, disagreement, and chosen company.
 - **Torren** — veteran shorthand, practical instruction, restrained conversation, eventually affectionate insult and direct adult friendship.
 - **Nimera** — her speed against his precision; she must distinguish evidence from personhood while he learns to challenge her back.
 - **Vaelira** — serious intellectual compatibility around dangerous systems; direct precision is useful to both.
 - **Talia** — sibling love with boundaries, accountability, disagreement, and no automatic restoration of childhood closeness.
 
 Detailed permanent-six pair language lives in `../RELATIONSHIPS/PERMANENT_SIX_RELATIONSHIP_MAP.md`.
+
+## Ilyra — friendship progression
+
+Ilyra becomes **one of Seyrik's main social connections in the permanent party** after his Chapter 6 recruitment.
+
+The relationship matters because she gives him an experience he has had very little of:
+- care without ownership;
+- disagreement without expulsion;
+- accountability without forced self-erasure;
+- curiosity without interrogation;
+- friendship without obedience;
+- ordinary company without a required function.
+
+She does not ask him to perform redemption correctly before she likes him.
+
+He does not need to become emotionally easy for the friendship to work.
+
+### Early — first party period after Chapter 6
+
+Seyrik is likely to understand Ilyra first through clear rules:
+- she asks before touching when possible;
+- she explains what she is doing;
+- she separates treatment from forgiveness;
+- she accepts a direct no when he has the capacity to give it;
+- she does not require confession in exchange for care;
+- she can say he is responsible for harm without implying suffering is what he should want.
+
+This can make her unusually legible to him.
+
+He may still:
+- answer too formally;
+- assume a kind action carries an unstated obligation;
+- ask what response is expected;
+- interpret disagreement as a possible loss of standing.
+
+Ilyra should not rush to reassure all of this away. Repeated consistency matters more than one explanation.
+
+### Developing friendship
+
+Their bond becomes personal through repetition.
+
+Seyrik begins to learn:
+- Ilyra may invite him somewhere because she wants his company;
+- she can swear, gossip, complain, lose patience, or be petty without ceasing to be trustworthy;
+- her disagreement can be real and the friendship can remain intact;
+- her care does not make him indebted;
+- she sometimes wants help and does not always want to be the capable one.
+
+He can begin to:
+- ask what she wants;
+- volunteer an opinion before being asked;
+- choose to sit with her;
+- bring her something because he thought of her;
+- notice when she is tired or overworking;
+- tell her directly when he thinks she is applying one rule to everyone except herself;
+- tease her;
+- refuse her;
+- challenge her;
+- help her.
+
+The relationship must become **reciprocal**.
+
+### Established friendship
+
+Later, Ilyra should be one of the people around whom Seyrik most easily practices ordinary adulthood.
+
+He can:
+- choose her company for no operational reason;
+- ask a mundane question with no hidden purpose;
+- complain;
+- joke deliberately;
+- use affectionate insult;
+- disagree without bracing for rejection;
+- state a preference before checking whether it is acceptable;
+- tell her she is wrong;
+- offer care without treating care as a hierarchy.
+
+Their friendship can contain:
+- meals;
+- errands;
+- games;
+- dry profanity;
+- clothing or appearance opinions;
+- stupid arguments;
+- shared silence;
+- reciprocal favors;
+- Ilyra asking him to come along because she simply wants him there.
+
+One of the most important things Seyrik can learn through Ilyra is:
+> **a relationship can survive the word no.**
+
+One of the most important things Ilyra can learn through Seyrik is:
+> **stating what she wants plainly can be kinder than making the other person infer it.**
+
+### Guardrails
+
+Do not make Ilyra:
+- Seyrik's therapist;
+- his moral absolution;
+- his redemption proof;
+- his surrogate mother;
+- the only person who can connect with him.
+
+Do not make Seyrik:
+- her permanent patient;
+- dependent on her permission to make choices;
+- grateful for basic personhood as though that is the relationship's whole emotional engine.
+
+This is a **major adult friendship**, not a treatment arc and not automatically romantic.
 
 ## Conversation behavior
 Common shapes:
