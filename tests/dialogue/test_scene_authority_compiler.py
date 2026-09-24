@@ -42,6 +42,11 @@ def main() -> int:
     expect(request["participants"] == ["cyanis", "ilyra", "maevra"], "participant order changed")
     expect(request["exact_line_anchors"] == [], "fixture should not invent exact anchors")
     expect(request["current_floor_state"] == {}, "compiler must not invent live floor state")
+    for cid in request["participants"]:
+        expect(
+            request["person_runtime_contexts"][cid]["memory_authorization"] == {"mode": "none"},
+            f"{cid} should default to no persistent story memory without explicit authorization",
+        )
 
     packet = request["authority_packet"]
     expect(packet["schema"] == "diyse_scene_authority_packet_v1", "wrong authority packet schema")
@@ -131,6 +136,53 @@ def main() -> int:
     bad_anchor = json.loads(json.dumps(anchored))
     bad_anchor["exact_line_anchors"][0]["text"] = "This line is not current authority."
     expect_compile_error(bad_anchor, "unsupported exact anchor must fail verification")
+
+    explicit_context = json.loads(json.dumps(source_spec))
+    explicit_context["person_runtime_contexts"] = {
+        "ilyra": {
+            "memory_authorization": {
+                "mode": "scene_ids",
+                "authorized_scene_ids": ["CH00_S05", "CH01_S01"],
+            },
+            "relationship_runtime_state": {
+                "chronology_stage": "chapter_01_established_party",
+                "silence_comfort": "established",
+            },
+            "epistemic_state": {
+                "route_hypothesis": {
+                    "status": "inference",
+                    "value": "the road may be intentionally avoided",
+                }
+            },
+            "scene_local_state": {
+                "immediate_wants": ["get through the checkpoint without unnecessary escalation"],
+            },
+        }
+    }
+    explicit_compiled = compiler.compile_spec_data(explicit_context, root=ROOT)
+    expect(
+        explicit_compiled["request_seed"]["person_runtime_contexts"]["ilyra"]
+        == explicit_context["person_runtime_contexts"]["ilyra"],
+        "explicit per-person runtime context was not preserved",
+    )
+
+    nonparticipant_context = json.loads(json.dumps(source_spec))
+    nonparticipant_context["person_runtime_contexts"] = {
+        "seyrik": {"memory_authorization": {"mode": "none"}}
+    }
+    expect_compile_error(
+        nonparticipant_context,
+        "person runtime context for a nonparticipant must fail",
+    )
+
+    malformed_context = json.loads(json.dumps(source_spec))
+    malformed_context["person_runtime_contexts"] = {
+        "ilyra": {"memory_authorization": ["not", "an", "object"]}
+    }
+    expect_compile_error(
+        malformed_context,
+        "malformed memory authorization must fail",
+    )
 
     print("Diyse scene authority compiler validation passed.")
     return 0
