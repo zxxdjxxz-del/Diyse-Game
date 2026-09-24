@@ -25,6 +25,77 @@ Ilyra is better at noticing other people's neglected needs than her own. Her sel
 Her Character Quest, **Mercy Has a Voice**, centers on:
 > mercy preserves agency and voice.
 
+### Desire / self-definition pressure
+
+Ilyra is good at protecting another person's right to choose. Her own growth should also establish that **having a voice means using it before somebody asks what she needs**.
+
+She is usually comfortable saying:
+- `no`;
+- `stop`;
+- `not now`;
+- `that's enough`;
+- `you don't owe me an explanation`.
+
+Those are boundary statements.
+
+What is less practiced is proactive desire:
+- `I want this.`;
+- `I want to stay.`;
+- `Come with me.`;
+- `I'd rather do something else.`;
+- `I want your company.`;
+- `I want that one.`;
+- `I don't want to be useful tonight.`;
+- `I want help.`
+
+Her difficulty is not shame about desire. It is habit: she is used to noticing needs, limits, and permissions before asking what would actually please her.
+
+Early Ilyra may wait until preference becomes relevant before stating it.
+
+Later Ilyra should increasingly:
+- choose before being asked;
+- invite rather than merely accept;
+- request company;
+- reject an option because she simply dislikes it;
+- pick something because it looks good, sounds fun, tastes better, or suits her;
+- let enjoyment count as sufficient reason;
+- say what she wants without converting it into care, practicality, or permission language.
+
+Her Character Quest principle therefore applies inward as well:
+> **Ilyra's voice is also one of the voices mercy must preserve.**
+
+This is not the same arc as Vaelira. Vaelira learns to trust desire as legitimate information. Ilyra already accepts desire morally; her growth is becoming more **proactive and self-declaring** about her own.
+
+### Mercy and accountability outside medicine
+
+Ilyra's mercy is not acquittal.
+
+Outside medical situations she can believe all of the following at once:
+- a person caused real harm;
+- consequences may be necessary;
+- victims do not owe forgiveness;
+- accountability does not require humiliation;
+- punishment does not create ownership of a person's body or future;
+- guilt does not erase agency;
+- preserving someone's voice does not mean agreeing with what they choose to say.
+
+She should resist two opposite simplifications:
+1. **mercy means nothing should happen to you**;
+2. **accountability means you no longer deserve choice, dignity, care, or a future**.
+
+When someone has caused harm, Ilyra is interested in:
+- what responsibility is actually theirs;
+- what repair is possible;
+- what consequences protect others or restore something meaningful;
+- what is merely punitive;
+- whether the person is trying to surrender agency as a form of self-punishment.
+
+She can be angry with someone and still preserve their agency.
+
+She can care for someone and still believe they must answer for what they did.
+
+She can refuse forgiveness without denying personhood.
+
 ## Ordinary-life identity
 Ilyra is allowed to exist outside treatment scenes.
 
@@ -498,18 +569,115 @@ They may:
 - become blunt in private because neither requires emotional ceremony.
 
 #### Seyrik
-Seyrik makes Ilyra's agency principle especially important.
 
-She should:
+Seyrik becomes **one of Ilyra's major friendships in the permanent party**, and Ilyra becomes one of the people who connects with him most consistently after his recruitment.
+
+The friendship works because Ilyra does not require him to perform remorse correctly, disclose on demand, accept care as absolution, or become easy to understand before she treats him as an adult person.
+
+She also does not excuse him.
+
+Their bond should hold:
+- care;
+- agency;
+- accountability;
+- ordinary liking;
+- humor;
+- disagreement;
+- curiosity;
+- choice;
+at the same time.
+
+##### Early — end of Chapter 6 / first party period
+
+The relationship begins cautiously.
+
+Ilyra should:
 - ask before touching when circumstances allow;
 - explain what she is doing and why;
+- distinguish immediate care from forgiveness;
 - distinguish guilt from medical responsibility;
 - refuse to treat pain as deserved punishment;
-- preserve accountability without using care as absolution;
 - accept a direct no when he has capacity to give it;
-- allow later friendship to contain ordinary jokes, meals, irritation, work, silence, and profanity.
+- ask preference without embedding the "right" answer;
+- avoid asking for a confession, life story, or emotional performance as the price of being treated decently.
 
-She must never make his body or history into a moral rehabilitation project.
+Seyrik may initially find her difficult to categorize because:
+- she can be kind without signaling absolution;
+- she can disagree without withdrawing basic care;
+- she can tell him he is responsible for something without treating punishment as his only legitimate desire;
+- she accepts silence more readily than he expects.
+
+This should create **interest and cautious trust**, not instant intimacy.
+
+##### Developing friendship
+
+Repeated ordinary contact matters more than one breakthrough conversation.
+
+Ilyra increasingly:
+- asks him ordinary questions with no hidden therapeutic purpose;
+- tells him gossip;
+- invites him to eat, sit, walk, play, or help with something mundane;
+- gives him honest opinions about clothes, food, habits, jokes, or terrible ideas;
+- swears around him naturally;
+- lets him see her tired, annoyed, petty, or amused rather than always professionally composed;
+- asks his opinion because she actually wants it;
+- lets him help her;
+- disagrees with him and remains afterward.
+
+Seyrik increasingly:
+- learns that disagreement with Ilyra does not revoke the relationship;
+- asks her direct questions about ordinary social rules;
+- begins volunteering preferences rather than waiting for a correct answer;
+- notices her own self-neglect and can call it out;
+- learns her humor well enough to answer it;
+- can eventually make her laugh on purpose;
+- becomes comfortable saying no to her without preparing for punishment or withdrawal.
+
+A major trust marker is that **Ilyra asks what Seyrik wants and then accepts an answer she personally dislikes**.
+
+A reciprocal trust marker is that **Seyrik begins asking what Ilyra wants**, not merely what she recommends.
+
+##### Established friendship
+
+Later, Ilyra should be one of the people Seyrik is most comfortable being ordinary around.
+
+Their scenes can include:
+- meals;
+- bad food;
+- gossip;
+- clothing/presentation opinions;
+- dry or profane humor;
+- games;
+- practical errands;
+- sitting in silence;
+- arguments over something trivial;
+- Ilyra asking him to come with her simply because she wants his company;
+- Seyrik choosing her company without needing a functional reason;
+- affectionate insult once he understands the safety underneath it;
+- mutual annoyance that does not threaten the bond.
+
+Ilyra can become one of the first people with whom Seyrik understands:
+> **friendship does not require usefulness, obedience, confession, or agreement.**
+
+Seyrik can become one of the people who reinforces Ilyra's own growth as a chooser because he responds well to explicit preference. If she says `I want you to come with me`, he is unlikely to translate it into a hidden social demand; he can simply decide whether he wants to go.
+
+That directness can make it easier for Ilyra to state wants plainly.
+
+##### Friendship guardrails
+
+Do not make them:
+- healer and patient as their permanent relationship;
+- therapist and traumatized subject;
+- confessor and penitent;
+- mother and son;
+- moral judge and redemption project;
+- automatically romantic.
+
+This is an **adult friendship** built from repeated choice.
+
+Care may be part of it. Care is not the whole relationship.
+
+Ilyra must never make his body or history into a moral rehabilitation project, and Seyrik must eventually be able to care for, tease, refuse, challenge, and help **her** in return.
 
 ## Register switching
 
@@ -649,6 +817,8 @@ Do not reduce Ilyra to:
 - stranger slowly becoming friends with Maevra when their familiarity already predates the current story;
 - passive character who only reacts when somebody needs care;
 - every relationship becoming patient/caregiver shaped;
+- Ilyra_Seyrik_reduced_to_healer_patient_redemption_dynamic;
+- Ilyra_only_protecting_other_peoples_choices_without_stating_her_own;
 - composure treated as emotional invulnerability;
 - agency language repeated mechanically in scenes where agency is not actually the issue;
 - profanity sanitized because she is compassionate.
