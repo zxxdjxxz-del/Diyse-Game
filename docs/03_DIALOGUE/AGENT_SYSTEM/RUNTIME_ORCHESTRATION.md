@@ -18,10 +18,8 @@ Static authority and live observation are separate channels:
 
 Live observations may influence dialogue and staging. They do not rewrite canon.
 
-See:
-- `AUTHORITY_PACKET_COMPILER.md`
-- `LIVE_RUNTIME_CONTEXT.md`
-- `SCENE_CONSTRUCTION_STACK.md`
+Detailed compiler and live-runtime contracts are included later in this file.
+The Agent System and scene-construction authority now lives in `README.md`.
 
 ---
 
@@ -377,3 +375,308 @@ Still separate production work:
 The architectural rule remains:
 
 > Dialogue is built from the playable scene, living people, living world, map/gameplay rhythm and actual HD-2D production language together—not written in isolation and fitted into the game afterward.
+
+
+---
+
+## 17. Repository authority compiler — detailed contract
+
+This section absorbs the former separate `AUTHORITY_PACKET_COMPILER.md` contract.
+
+## Purpose
+
+The Scene Orchestrator should not be handed a giant undifferentiated repository dump and asked to decide what is current.
+
+The authority compiler creates a deterministic scene request seed from **explicit current owning sources**. It exists to make the current one-canon / authority-precedence rules operational before any model writes a line.
+
+The chain is:
+
+> current repository authority → deterministic compiler → scene authority packet → live gameplay/state merge → Dialogue Director → Person Agents → Editor → Canon Checker → Godot packet
+
+The compiler is not a story writer and does not decide scene content.
+
+## Hard source rules
+
+The compiler accepts current `docs/` authority only.
+
+It rejects as scene authority:
+- `docs/90_WORKING/`;
+- `docs/99_ARCHIVE/`;
+- `docs/03_DIALOGUE/LINE_COMPLETE/` historical transcripts;
+- pre-reorganization `docs/chapters/` paths.
+
+A missing requested Markdown heading is a **fatal compile error**. The compiler does not silently widen retrieval to the whole file.
+
+Historical wording may still be consulted manually as provenance where current policy permits, but it is not allowed to leak into the generated authority packet merely because the current source is shorter.
+
+## What is compiled automatically
+
+Every scene packet receives a bounded current guardrail set covering:
+- current master authority state;
+- authority precedence / no-silent-resurrection rule;
+- current party/chapter/combat/Card/economy terminology;
+- story → dialogue handoff / cleanup rule;
+- global Dialogue Engine regeneration rule;
+- critical implementation-facing overrides.
+
+When at least two permanent party members are present, the current permanent-six relationship map is also included automatically.
+
+For each named participant, the compiler packages that participant's current file from `01_CHARACTERS` as a profile source. The profile is still subordinate to the owning domain and is not a second canon copy.
+
+## Scene spec responsibilities
+
+A scene spec must explicitly name:
+- `scene_id`;
+- `chapter_id`;
+- `story_position`;
+- participants;
+- scene purpose;
+- one or more current `02_STORY` source sections;
+- any additional current scene-specific authority needed;
+- any static scene-context seed that is genuinely established;
+- any allowed information transfers;
+- any exact-line anchors that are still explicitly preserved;
+- maximum beat count and production-cost ceiling.
+
+The compiler does **not** infer an old S### mapping from historical line-complete material. If current story authority has not yet mapped a rewritten lean beat to a specific production scene ID, the spec must not pretend that mapping is closed.
+
+## Exact-line anchors
+
+Exact-line anchors are exceptional.
+
+Every exact-line anchor in a spec must:
+1. name a participant speaker;
+2. provide the literal required text;
+3. cite a **current** `03_DIALOGUE` source/section;
+4. appear verbatim in that current source.
+
+If the literal line is absent from the cited current source, compilation fails.
+
+This prevents an old historically locked transcript from becoming exact production dialogue merely because a legacy compiler or test still contains it.
+
+## Runtime-state boundary
+
+Repository compilation cannot know live gameplay state.
+
+The compiler deliberately does not invent:
+- current HP/MP or injury state;
+- fatigue after the player's actual route;
+- recent battle sequence;
+- current random-encounter pressure;
+- exact field position;
+- live map-cell state that can vary at runtime;
+- current persistent Person-Agent memory/revision;
+- C0–C3 cutscene tier;
+- V1–V4 VFX tier.
+
+These must be supplied/merged at scene-build time by the game/orchestration layer when relevant.
+
+## Fingerprints
+
+Every compiled source carries:
+- repository path;
+- full-file SHA-256;
+- selected-section SHA-256;
+- selected text.
+
+The final authority packet also carries a deterministic bundle SHA-256. The default request ID contains the first 12 characters of that bundle fingerprint.
+
+This does not make a packet permanent authority. It makes stale packets detectable and reviewable.
+
+## Proof fixture
+
+Current deterministic proof:
+> `tests/dialogue/fixtures/authority_ch1_brackenwall_protocol.json`
+
+It intentionally uses:
+> `PROOF_CH1_BRACKENWALL_PROTOCOL`
+
+rather than asserting an unresolved current S### mapping.
+
+Validation:
+> `python3 tests/dialogue/test_scene_authority_compiler.py`
+
+The test verifies current snapshot derivation, exact section extraction, character routing, relationship inclusion, source fingerprints, archive/working/history rejection, missing-heading failure, and current exact-anchor verification.
+
+## Example usage
+
+From repository root:
+
+```bash
+python3 tools/dialogue/compile_scene_authority.py \
+  tests/dialogue/fixtures/authority_ch1_brackenwall_protocol.json \
+  --output /tmp/ch1_brackenwall_authority.json
+```
+
+The resulting `request_seed` is shaped for the current `/v1/scene/build` request. Before production submission, merge live runtime state that the scene actually requires and ensure the Orchestrator deployment uses the same `canon_snapshot_id`.
+
+---
+
+## 18. Live runtime context — detailed contract
+
+This section absorbs the former separate `LIVE_RUNTIME_CONTEXT.md` contract.
+
+## Purpose
+
+The repository authority compiler answers:
+> What is currently true in Diyse canon for this authored scene?
+
+The live runtime context answers:
+> What is observably happening in this particular playthrough at the instant the scene starts?
+
+Those are deliberately separate channels.
+
+A generated scene request therefore has two different sources of truth:
+- `authority_packet` — current repository-owned story/character/world/system authority;
+- `scene_context.runtime_observable` — curated live/provisional game observations.
+
+Runtime observation can influence dialogue timing, fatigue, map awareness and encounter pacing. It does **not** gain permission to rewrite canon.
+
+## Why raw GameState is forbidden
+
+The current proof `GameState` still contains implementation-era data that is useful for engineering regression but is not safe Dialogue Engine context. Examples include stale Face labels, proof equipment identities, proof Prime/bearer data and an internal `gold` reward key.
+
+Therefore:
+> **Never serialize `GameState`, `GameState.to_save_dict()`, or another raw save/state container into a Dialogue Engine request.**
+
+The current builder reads only:
+- `current_area`;
+- `field_position`.
+
+Everything else must come through an explicitly curated runtime channel.
+
+## Curated runtime sections
+
+### Field
+Captured automatically from the supplied GameState node when available:
+- current area ID;
+- field position as JSON-safe x/y/z numbers.
+
+This is runtime positioning, not lore authority.
+
+### Map
+Current allowed map-observation fields:
+- `cell_id`;
+- `area_phase`;
+- `dialogue_readiness` (`GREEN`, `AMBER`, `RED`);
+- `location_name`;
+- `visible_facts`;
+- `route_state`;
+- `time_context`;
+- `context_status`.
+
+Allowed `context_status` values:
+- `current_runtime`;
+- `provisional_runtime`;
+- `observed_runtime`;
+- `unknown_runtime`.
+
+The builder adds:
+> `authority = runtime_observation_not_story_authority`
+
+For current provisional grayboxes or map blockouts, use `provisional_runtime`. Do not promote their topology to story canon merely because the player is standing inside that engineering scene.
+
+### Recent gameplay
+Current allowed fields:
+- `recent_events`;
+- `recent_combat_summary`;
+- `recovery_state`;
+- `fatigue_context`;
+- `current_task`.
+
+These should be brief, observable summaries. They are not a route for copying a combat log, inventory dump or author-only analysis into the scene.
+
+### Interaction
+Current allowed fields:
+- `movement_enabled`;
+- `input_locked`;
+- `interaction_id`;
+- `interaction_kind`.
+
+### Encounter pressure
+Captured automatically from the supplied field encounter controller when available:
+- enabled;
+- authored pause state;
+- battle-active state;
+- context-configured state;
+- encounter area ID;
+- normalized accumulated pressure;
+- transition grace;
+- whether an encounter is already pending.
+
+It deliberately does **not** expose formation IDs, pending enemy lists, EXP rewards or implementation calibration such as world-units-per-S.
+
+## Protected compiled fields
+
+Runtime merge may not alter:
+- request ID;
+- scene ID;
+- continuity namespace;
+- story position;
+- canon snapshot ID;
+- participants;
+- participant profiles;
+- scene purpose;
+- authority packet;
+- allowed information transfers;
+- exact-line anchors;
+- maximum beat count;
+- production-cost ceiling.
+
+`current_floor_state` is also left untouched by the automatic live merge. It may contain carefully authored knowledge/state constraints, but the runtime builder will not fill it from raw `GameState.flags`.
+
+If `scene_context.runtime_observable` is already present in a compiled request seed, the merge fails. That namespace belongs to the live runtime boundary.
+
+## Raw-state rejection
+
+The runtime input validator rejects raw/state-container keys such as:
+- inventory;
+- equipment;
+- Standard Card container;
+- Prime container;
+- Relic inventory;
+- Forge Components;
+- flags;
+- rewards;
+- `gold`;
+- proof bearer/progression internals.
+
+Unknown top-level/nested fields also fail instead of being silently forwarded.
+
+All caller-supplied runtime values must be JSON-safe. Godot objects/resources/vectors cannot be inserted through the curated input; the builder performs its own explicit Vector3 conversion for field position.
+
+## Canon-snapshot gate
+
+The runtime builder receives the expected deployment/runtime canon snapshot ID.
+
+It rejects the merge if:
+- the compiled request has no snapshot;
+- the compiled request snapshot differs from the expected runtime snapshot;
+- the authority packet snapshot differs from the request seed.
+
+This is an early local guard. The external Orchestrator and Person Agents retain their own snapshot checks.
+
+## Current validation
+
+Headless validation:
+> `tests/dialogue/validate_dialogue_runtime_context_builder.gd`
+
+The test deliberately supplies the existing proof `GameState`—including its stale/internal data—and verifies that only the safe area/position subset reaches `runtime_observable`.
+
+It also verifies:
+- compiled protected fields cannot be overwritten;
+- map observations retain provisional/non-authoritative labeling;
+- encounter pressure/grace is merged;
+- raw inventory/equipment/Prime/flag/economy fields are rejected;
+- snapshot mismatch fails;
+- a compiled seed cannot spoof `runtime_observable`.
+
+## Remaining map integration
+
+The builder now provides the safe merge boundary, but each production field/map still needs a small current map-context provider that can identify its live cell/phase/readiness without pretending provisional blockout data is canon.
+
+Until those providers exist, map context is supplied explicitly to the builder through the same validated schema.
+
+The intended production chain is:
+
+> compiled current authority seed → live GameState/encounter capture + current map provider → curated runtime request → external Scene Orchestrator
