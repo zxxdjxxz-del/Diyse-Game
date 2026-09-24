@@ -520,10 +520,32 @@ They must **not** look like three unrelated armor sets.
 
 ---
 
-# Convoy Rift Hound
+# War Hound
+
+## Exact approved War Hound visual master
+
+**Status:** **LOCKED EXACT VISUAL — 2026-09-23**
+
+Approved render:
+- image-generation ID: `66068793-484e-4f4d-a703-6657d5041c44`
+- approved file SHA-256: `2108a1cd66d42512342c96f4cf02787d0a06aee20410145ff20c77bfbeec192a`
+- dimensions: **1155 × 1362**
+- presentation: clean white-background B00/B00.5-style individual enemy reference
+
+This exact approved render overrides earlier hound prose where incidental details differ.
+
+Locked identity:
+- **War Hound**, not Rift Hound;
+- natural Black Host military war dog;
+- pitbull-type anatomy;
+- black / dark-charcoal coat;
+- restrained dirty-white markings;
+- battle-worn scars;
+- black harness with crimson accents;
+- no Rift effects or mutation.
 
 ## Core visual identity
-Fast Black Host-employed war-beast / rift-touched predator used in convoy interception.
+Fast Black Host-employed war-beast / natural predator used in convoy interception.
 
 ## Silhouette
 - low, fast quadruped;
@@ -838,7 +860,7 @@ Large Black Host war-beast boss: a heavy rift predator more extreme than the Hou
 - large low quadrupedal beast;
 - broad front half;
 - enormous maw is the defining feature;
-- heavier and more monstrous than a Convoy Rift Hound;
+- heavier and more monstrous than a War Hound;
 - still fundamentally beast-based.
 
 ## Anatomy
@@ -898,7 +920,7 @@ These seven Chapter-0 visual identities are now locked:
 1. Black Host Raider
 2. Black Host Crossbowman
 3. Ruin Shieldbearer
-4. Convoy Rift Hound
+4. War Hound
 5. Ruin Vanguard Pursuer / concealed Seyrik
 6. Convoy War-Sorcerer
 7. Riftmaw
