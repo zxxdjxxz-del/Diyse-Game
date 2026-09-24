@@ -27,7 +27,7 @@ from typing import Any
 ROOT = Path(__file__).resolve().parents[2]
 SPEC_SCHEMA = "diyse_scene_authority_spec_v1"
 AUTHORITY_PACKET_SCHEMA = "diyse_scene_authority_packet_v1"
-COMPILER_VERSION = "1.1.0"
+COMPILER_VERSION = "1.2.0"
 
 CANON_STATUS_PATH = "docs/00_MASTER_CONTROL/CURRENT_CANON_STATUS.md"
 
@@ -390,6 +390,19 @@ def validate_spec(spec: dict[str, Any]) -> None:
         raise CompileError("additional_authority_sources must be a list")
     if not isinstance(spec.get("scene_context_seed", {}), dict):
         raise CompileError("scene_context_seed must be an object")
+    if not isinstance(spec.get("person_runtime_contexts", {}), dict):
+        raise CompileError("person_runtime_contexts must be an object")
+    for raw_id, raw_context in spec.get("person_runtime_contexts", {}).items():
+        _normalize_character_id(str(raw_id))
+        if not isinstance(raw_context, dict):
+            raise CompileError(
+                f"person_runtime_contexts[{raw_id!r}] must be an object"
+            )
+        memory_policy = raw_context.get("memory_authorization", {})
+        if memory_policy is not None and not isinstance(memory_policy, dict):
+            raise CompileError(
+                f"person_runtime_contexts[{raw_id!r}].memory_authorization must be an object"
+            )
     if not isinstance(spec.get("current_floor_state", {}), dict):
         raise CompileError("current_floor_state must be an object")
     if not isinstance(spec.get("allowed_information_transfers", []), list):
@@ -418,6 +431,22 @@ def compile_spec_data(spec: dict[str, Any], root: Path = ROOT) -> dict[str, Any]
         cid = _normalize_character_id(str(raw))
         if cid not in participants:
             participants.append(cid)
+
+    person_runtime_contexts: dict[str, dict[str, Any]] = {}
+    for raw_id, raw_context in spec.get("person_runtime_contexts", {}).items():
+        cid = _normalize_character_id(str(raw_id))
+        if cid not in participants:
+            raise CompileError(
+                f"person_runtime_contexts contains nonparticipant character: {cid}"
+            )
+        person_runtime_contexts[cid] = copy.deepcopy(raw_context)
+
+    # Safe default: authored story scenes do not receive persistent story memory unless
+    # the scene spec explicitly authorizes it. The Orchestrator adds the hard scene
+    # identity context and other empty runtime dimensions as needed.
+    for cid in participants:
+        context = person_runtime_contexts.setdefault(cid, {})
+        context.setdefault("memory_authorization", {"mode": "none"})
 
     source_records: list[dict[str, Any]] = []
     for source in DEFAULT_GLOBAL_SOURCES:
@@ -483,6 +512,7 @@ def compile_spec_data(spec: dict[str, Any], root: Path = ROOT) -> dict[str, Any]
         "canon_snapshot_id": canon_snapshot_id,
         "participants": participants,
         "participant_profiles": participant_profiles,
+        "person_runtime_contexts": person_runtime_contexts,
         "scene_purpose": spec["scene_purpose"],
         "authority_packet": authority_packet,
         "scene_context": copy.deepcopy(spec.get("scene_context_seed", {})),
@@ -501,7 +531,9 @@ def compile_spec_data(spec: dict[str, Any], root: Path = ROOT) -> dict[str, Any]
         "production_ready": bool(spec.get("production_ready", True)),
         "request_seed": request_seed,
         "dynamic_runtime_requirements": [
-            "live persistent Person-Agent revisions/state are fetched by the Orchestrator",
+            "live persistent Person-Agent revisions/state and safe memory indexes are fetched by the Orchestrator",
+            "persistent story memory is unavailable unless person_runtime_contexts explicitly authorizes it",
+            "historical/regeneration scenes should authorize memory by explicit IDs or source scene IDs rather than all_committed_story",
             "current recent-gameplay/combat/fatigue state must be supplied or merged at build time when relevant",
             "live encounter pressure must be supplied at build time when relevant",
             "runtime map/cell/area-phase facts must be supplied when they are not already locked by the scene spec",
