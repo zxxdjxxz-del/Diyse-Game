@@ -22,8 +22,8 @@ Currently locked:
 2. Black Host Crossbowman
 3. Ruin Shieldbearer
 4. War Hound
+5. Ruin Vanguard Pursuer / concealed Seyrik
 
 Still awaiting exact image lock:
-- Ruin Vanguard Pursuer / concealed Seyrik presentation
 - Convoy War-Sorcerer
 - Riftmaw
