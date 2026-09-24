@@ -100,9 +100,12 @@ Current service endpoints:
 Persistent Person Agents provide:
 - current brain synthesis;
 - personal story memory;
+- a safe story-memory **index** for authorization without exposing full private memory content;
 - current runtime state;
 - optimistic story revision;
 - character-local knowledge behavior.
+
+The runtime brain passed to the model includes all current behavioral layers that exist in the YAML, including reasoning, initiative, affection, failure/repair, performance, authority, relationship-expression, register, and self-care progression where defined.
 
 YAML brains are runtime synthesis, never independent canon.
 
@@ -149,11 +152,22 @@ A normal build request contains:
 - scene purpose;
 - current authority packet;
 - participant profiles where needed;
+- **person_runtime_contexts** for per-character hard context, relationship dimensions, epistemic state, scene-local motive state, open threads, and memory authorization;
 - curated map/recent-gameplay/encounter context;
 - current floor/knowledge constraints;
 - allowed information transfers;
 - required exact-line anchors;
 - beat/cost limits.
+
+For authored story generation, persistent story memory is **deny-by-default** unless the relevant person's runtime context explicitly authorizes it.
+
+Supported authorization shapes currently include:
+- `{"mode":"none"}` — no persistent story memory;
+- `{"mode":"explicit_ids","authorized_memory_ids":[...]}` — exact memory IDs;
+- `{"mode":"scene_ids","authorized_scene_ids":[...]}` — memories originating in explicitly authorized prior scenes;
+- `{"mode":"all_committed_story"}` — compatibility mode for known forward-only authoring only.
+
+Historical rewrites and regeneration passes should **not** use `all_committed_story` because later committed memories may exist.
 
 Unknown facts stay unknown. The request is not padded with invented map/economy/story detail.
 
@@ -275,7 +289,24 @@ On PASS the checker may propose conservative durable memories, such as:
 - unresolved misunderstanding;
 - meaningful observed event.
 
+New durable memories should carry enough provenance for later authorization where applicable:
+- source scene;
+- source story position;
+- acquisition mode;
+- people present;
+- privacy/visibility scope;
+- epistemic status at acquisition/current status;
+- relationship linkage;
+- salience;
+- unresolved/open-thread linkage.
+
 Do not store every line merely because it occurred.
+
+Retrieval is explicitly two-stage:
+1. authorization;
+2. salience.
+
+Relevance is never permission.
 
 `POST /v1/scene/commit` requires:
 - `author_approved: true`;
@@ -437,6 +468,17 @@ A scene spec must explicitly name:
 - any allowed information transfers;
 - any exact-line anchors that are still explicitly preserved;
 - maximum beat count and production-cost ceiling.
+
+A scene spec may also provide `person_runtime_contexts` for the named participants. This is the preferred authoring surface for:
+- memory authorization;
+- relationship runtime dimensions;
+- epistemic status;
+- scene-local wants/avoidances;
+- open threads;
+- willingness/unwillingness to discuss;
+- other hard per-person constraints that should survive live-runtime merge.
+
+The compiler normalizes these by participant and emits `memory_authorization: {"mode":"none"}` for any participant without an explicit policy.
 
 The compiler does **not** infer an old S### mapping from historical line-complete material. If current story authority has not yet mapped a rewritten lean beat to a specific production scene ID, the spec must not pretend that mapping is closed.
 
@@ -616,6 +658,7 @@ Runtime merge may not alter:
 - canon snapshot ID;
 - participants;
 - participant profiles;
+- **person runtime contexts**;
 - scene purpose;
 - authority packet;
 - allowed information transfers;
