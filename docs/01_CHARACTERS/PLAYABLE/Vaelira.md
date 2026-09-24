@@ -514,6 +514,64 @@ Avoid making her later vocabulary:
 - profanity for every minor inconvenience;
 - a sudden personality replacement once she learns to swear more freely.
 
+#### Relationship to other people's profanity
+
+Vaelira's early clean speech does **not** mean she is prudish, sheltered, morally offended by profanity, or constantly reacting to other adults swearing.
+
+She may:
+- ignore a swear completely because the content matters more than the word;
+- find the timing funny;
+- object to the reasoning while not caring about the profanity;
+- give Nimera a look because the phrasing is excessive, not because Vaelira is scandalized by adult language;
+- understand vulgar jokes even when she would not yet phrase one that way herself;
+- occasionally answer somebody's profanity with a clean equivalent that preserves the same emotional force.
+
+Do not write early Vaelira as saying things like "language," clutching pearls, or policing the group unless a **specific contextual reason** exists.
+
+Her clean register is a personal speech habit and self-editing pattern.
+
+#### Profanity acquisition / social progression
+
+The transition from clean speech to intentional profanity should be audible across the game without becoming a gimmick.
+
+**Stage 1 — clean control**
+- ordinary speech stays clean;
+- hard profanity appears only when fear, anger, shock, horror, or overwhelm breaks through;
+- if a swear escapes, it can surprise the people who know her clean register;
+- Vaelira herself may notice afterward, but the scene does not need to stop and celebrate the swear.
+
+**Stage 2 — testing the language**
+- after enough trust/exposure, mild intentional terms may appear first;
+- `damn`, `hell`, `ass`, or a pointed borrowed phrase are more plausible before casual `fuck`;
+- she may use one experimentally precise swear in a joke or argument, then continue as though she is evaluating whether it fit;
+- the rest of the group may notice, but repeated "Vaelira swore!" reactions would become artificial quickly.
+
+**Stage 3 — selective ownership**
+- profanity is now available by choice, not only by composure failure;
+- `shit`, `bullshit`, `asshole`, `bastard`, and sharper `fuck/fucking` can appear when the thought genuinely wants them;
+- affectionate profanity can enter established friendships;
+- her clean vocabulary remains fully alive and may still dominate many scenes.
+
+**Stage 4 — late stable register**
+- Vaelira no longer mentally treats a swear as unusual just because she said it;
+- she can deploy clean or profane wording based on exact emotional/social fit;
+- her profanity remains lower-density, more exact, and less generative than Nimera's;
+- genuine fear/anger can still produce rougher language than ordinary late-game banter.
+
+No exact chapter number is automatically attached to Stages 2–4. Story position, relationship history, repeated exposure, and authored dialogue determine when they are earned.
+
+#### Borrowed language
+
+Vaelira can absorb language from people she spends time with, but she should **transform it through her own voice**.
+
+- **Nimera:** strongest source of surprising vocabulary, vulgar phrasing, and specific callbacks; Vaelira may later reuse one of Nimera's phrases with much flatter, more deliberate delivery.
+- **Cyanis:** may normalize concise practical swearing and short affectionate insults.
+- **Torren:** may contribute dry field profanity and underplayed insults.
+- **Ilyra:** may normalize the idea that composed delivery and sharp profanity are not contradictory.
+- **Seyrik:** later reciprocal borrowing can be especially dry because both may reuse exact wording very deliberately.
+
+Borrowing should create relationship history, not voice merger. Vaelira may quote, adapt, or deliberately return a phrase, but she does not suddenly inherit another character's whole profanity engine.
+
 She should sharpen ensemble comedy without being assigned the permanent "straight woman who stops the fun" role.
 
 ## Performance / nonverbal language
