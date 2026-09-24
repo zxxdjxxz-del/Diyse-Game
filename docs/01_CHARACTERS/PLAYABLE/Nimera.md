@@ -331,7 +331,7 @@ The correction does not always need to happen. Sometimes **“Oh, fuck.”** is 
 These are examples of register, **not mandatory catchphrases**. Do not mechanically cycle through them, and do not make every discovery produce an expletive.
 
 ### Expanded vocabulary and figure-of-speech space
-Nimera's profanity vocabulary is **open-ended**, not a closed approved-word list. In addition to her existing core use of `fuck`, `shit`, `bullshit`, `damn`, `hell`, `ass/asshole`, `bastard`, and `piss/pissed`, she may naturally use stronger or more specific adult language when the relationship, emotion, and sentence support it: `motherfucker`, `bitch`, `prick`, `dick/dickhead`, `cock/cockhead`, `jackass/dumbass/smartass`, `fuckwit/fuckbrain`, `shitwit/shitheel/shit-for-brains`, `clusterfuck`, `half-assed`, `balls/bollocks`, `son of a bitch`, and rare high-impact `cunt`.
+Nimera's profanity vocabulary is **open-ended**, not a closed approved-word list. In addition to her existing core use of `fuck`, `shit`, `bullshit`, `damn`, `hell`, `ass/asshole`, `bastard`, and `piss/pissed`, she may naturally use stronger or more specific adult language when the relationship, emotion, and sentence support it: `motherfucker`, `bitch`, `prick`, `dick/dickhead`, `cock/cockhead`, `jackass/dumbass/smartass`, `fuckwit/fuckbrain`, `shitwit/shitheel/shit-for-brains`, `clusterfuck`, `half-assed`, `balls`, `son of a bitch`, and `cunt`.
 
 The point is **range**, not escalation for its own sake. She may build:
 - anatomical or bodily vulgarity;
@@ -359,7 +359,7 @@ Profanity changes with state:
 
 `fuck` may remain frequent, but it must not become her only intensifier. Writers should vary grammatical function: noun, verb, adjective, exclamation, insult, compound, comparison, metaphor, affectionate vulgarity, analytical vulgarity, and self-directed profanity.
 
-Stronger terms such as `motherfucker` or `cunt` are available but should retain force rather than becoming neutral filler. Avoid identity-based slurs, casual sexual-violence metaphors, and Earth-specific religious exclamations that do not belong to world canon.
+`Motherfucker` can still carry extra force when used that way, while `cunt` does **not** require special rare/high-impact handling and may appear naturally when it fits Nimera's sentence, relationship, and mood. Avoid identity-based slurs, casual sexual-violence metaphors, and Earth-specific religious exclamations that do not belong to world canon.
 
 A good new Nimera swear is allowed to be something nobody has written before. The line should be generated from **her mood + surroundings + current subject + relationship + correction reflex**.
 
