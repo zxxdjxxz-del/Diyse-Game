@@ -28,6 +28,17 @@ This is a character-logic map, not a substitute for exact dialogue scripts. It a
 
 Relationship change should be audible without the cast announcing it.
 
+### Vaelira language-acclimation progression
+
+Vaelira enters the party with a deliberately clean spoken register. This is **not prudishness** and does not require her to object when other adults swear.
+
+- **early:** she remains clean in ordinary speech; real profanity is a fear/anger/shock/overwhelm composure-break;
+- **developing trust:** she may test mild intentional profanity or deliberately return a borrowed phrase;
+- **established trust:** selective profanity and affectionate insult become available while clean language remains normal;
+- **late:** she freely chooses clean versus profane wording without becoming high-density or Nimera-like.
+
+Nimera is the strongest source of surprising borrowed vocabulary, but Cyanis, Torren, Ilyra, and Seyrik can all influence specific phrasing through relationship history. Borrowed language should become a callback, not erase Vaelira's own voice.
+
 Typical progression language:
 - **early:** more formality, explanation, awkward pauses, safer jokes, misunderstanding, professional boundaries;
 - **middle:** interruption, callbacks, anticipation, teasing, shorthand, inside jokes, increasing trust;
