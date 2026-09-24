@@ -76,6 +76,9 @@ craft_sources_as_methods_not_imitation:
 
 core_rules:
   - characters_do_not_know_they_are_in_a_story
+  - character_knowledge_is_permission_not_obligation_to_speak
+  - every_line_needs_character_local_motive_beyond_player_information_need
+  - canon_correctness_is_authoring_property_not_character_role
   - character_sheet_theme_is_for_writer_not_character
   - not_every_conversation_must_accomplish_plot_lore_arc_or_reward
   - characters_may_talk_because_bored_hungry_cold_irritated_curious_tired_or_comfortable
@@ -147,6 +150,48 @@ surface_hidden_subject_rule:
   - characters_may_discuss_the_concrete_surface_thing_while_emotional_subtext_remains_unspoken
   - do_not_force_the_hidden_subject_into_explicit_dialogue
 
+narrator_canon_checker_firewall:
+  universal: true
+  line_test: would_this_character_still_say_this_if_no_player_needed_the_information_repeated
+  do_not_use_any_character_to:
+    - restate_fact_another_character_just_established
+    - repeat_objective_location_relationship_reveal_rule_or_chronology_for_player_clarity
+    - summarize_preceding_exchange
+    - reconcile_canon_or_continuity_aloud
+    - confirm_another_characters_correct_statement_without_personal_reason
+    - finish_another_characters_exposition
+    - state_scene_theme_or_author_interpretation
+    - translate_author_only_knowledge_into_dialogue
+    - explain_visible_staging_that_already_communicates_the_point
+    - provide_tidy_conclusion_after_point_has_landed
+  valid_reasons_to_speak:
+    - new_observation
+    - new_inference
+    - objection
+    - genuine_question
+    - decision
+    - action_need
+    - joke
+    - misunderstanding
+    - emotional_reaction
+    - relationship_impulse
+    - professional_need
+    - personal_interest
+  silence_rule:
+    - if_point_is_established_and_character_has_no_new_local_motive_prefer_silence
+  imperfection_permissions:
+    - may_misunderstand
+    - may_focus_on_wrong_detail
+    - may_draw_plausible_incomplete_conclusion
+    - may_decide_not_to_correct
+    - may_know_answer_and_choose_not_to_speak
+    - may_react_instead_of_explain
+  canon_checker_separation:
+    - canon_checker_is_invisible_to_fiction
+    - fix_replace_or_remove_bad_line_at_authoring_layer
+    - never_insert_character_only_to_recite_correct_canon
+    - never_add_yes_exactly_or_to_be_clear_line_only_to_prove_compliance
+
 pair_languages:
   Cyanis_Ilyra: attentive_comfortable_increasing_private_softness_practical_care_shared_silence
   Cyanis_Torren: fast_competitive_affectionate_insults_brother_like_direct_practical_trust
@@ -197,3 +242,9 @@ anti_patterns:
   - every_line_trying_to_be_quotable
   - every_serious_scene_needing_a_joke
   - every_quiet_scene_becoming_trauma_processing
+  - character_as_narrator
+  - character_as_scene_summarizer
+  - character_as_canon_checker
+  - character_as_continuity_reconciler
+  - character_as_automatic_correctness_confirmer
+  - player_clarity_fact_repetition_without_character_motive
