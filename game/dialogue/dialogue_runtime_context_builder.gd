@@ -73,6 +73,7 @@ const PROTECTED_REQUEST_KEYS := [
 	"canon_snapshot_id",
 	"participants",
 	"participant_profiles",
+	"person_runtime_contexts",
 	"scene_purpose",
 	"authority_packet",
 	"allowed_information_transfers",
