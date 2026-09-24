@@ -74,11 +74,6 @@
       "role": "rehearsal_first_and_presentation_normalization_contract"
     },
     {
-      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/WALKING_DIALOGUE_LOCK.md",
-      "whole_file": true,
-      "role": "walking_dialogue_hard_lock"
-    },
-    {
       "path": "docs/03_DIALOGUE/AGENT_SYSTEM/RANDOM_ENCOUNTER_PRESENTATION_LOCK.md",
       "whole_file": true,
       "role": "random_encounter_hard_lock"
