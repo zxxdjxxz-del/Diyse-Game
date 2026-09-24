@@ -16,7 +16,8 @@ This applies to ordinary Black Host troops, wildlife, constructs, and other non-
 - Dialogue may not assume an exact ordinary enemy composition, exact count, or exact battle result.
 - Do not write `Combat begins` for ordinary enemies.
 - Do not build mandatory `after this fight` story stops around ordinary enemies.
-- Optional post-random-encounter banter may exist when appropriate, but the story beat must still function if that bark never fires.
+- Optional post-random-encounter dialogue may exist only **after combat has fully ended** and must not be required for story progression.
+- No spoken dialogue occurs during an active random encounter.
 - Bosses remain authored encounters. A chapter boss or other explicitly designated boss is not converted into a random encounter by this rule.
 
 ## HD-2D interaction
