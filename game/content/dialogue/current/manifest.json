@@ -53,7 +53,7 @@
           "scene_kind": "mandatory",
           "slot_id": "P05",
           "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_00/P05_CONCEALED_RUIN_VANGUARD_REHEARSAL_FIRST_DRAFT_A.md",
-          "source_sha256": "1aca75d81ff4441ca673b6c05654449bfbac93ae69791a4f4faa32f5bc0de32d",
+          "source_sha256": "fe830115cdeabdf23ba28e536f7227f68ef66344009432d729649a3ebf098035",
           "spoken_lines": 41,
           "spoken_sha256": "186de490d9f82859b0ba8598a94ab55b037e2d618d0bde81d3ffd670dac2b88e",
           "title": "Concealed Ruin Vanguard"
@@ -64,7 +64,7 @@
           "scene_kind": "mandatory",
           "slot_id": "P06",
           "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_00/P06_RIFTMAW_WAR_SORCERER_REHEARSAL_FIRST_DRAFT_A.md",
-          "source_sha256": "dbace2ab3d2eb6ef2286307f107f43718c356e88f81ea84002267001a8c9cc97",
+          "source_sha256": "a77e1ea5d6450e54c7e455eaa36821b524c23369aaa51ef0bbb5d316b041f977",
           "spoken_lines": 52,
           "spoken_sha256": "027bb7c8bbcf0d77f8a3c9bcd1dc70a7b00a95bd21c2bdb2cfc45c7f2322784e",
           "title": "Riftmaw + War-Sorcerer / Final Broken Convoy Confrontation"
@@ -190,9 +190,9 @@
           "scene_kind": "mandatory",
           "slot_id": "B09",
           "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/BEAT_09_HOLLOW_WATCH_CASTELLAN_DRAFT_A.md",
-          "source_sha256": "85605862d0982325f2268cc451de903da9082a2ae92ca1d2f4137108f308ac03",
-          "spoken_lines": 17,
-          "spoken_sha256": "c33f94333c6706add34c9fa4a7bc51810e5f4696f6bbf377fa69ae9284e0d3cb",
+          "source_sha256": "1418974d5a5356604600a0c18189ca7b751ed85833f524a6b88a26af37c37859",
+          "spoken_lines": 14,
+          "spoken_sha256": "3604224a8e6e08235da8557cfadf0f419f1ae7f0444bf71755edd08d6b37d390",
           "title": "Hollow Watch Castellan"
         },
         {
@@ -234,7 +234,7 @@
           "scene_kind": "mandatory",
           "slot_id": "B13",
           "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/BEAT_13_BRIARHIDE_STALKER_DRAFT_A.md",
-          "source_sha256": "f317003e18349a446beb1cdac1bbc467bef405e182e64058f4c98cb479dee982",
+          "source_sha256": "7c0372bacd0c340a0b38b4812a97319b912fd0e9e6e1ea9c54f7ff1ba5b9ff5f",
           "spoken_lines": 20,
           "spoken_sha256": "31251192e355055c4af39485474d47b082bd68615eb7f9c37830664622f48736",
           "title": "Briarhide Stalker"
@@ -415,7 +415,7 @@
           "scene_kind": "mandatory",
           "slot_id": "B12",
           "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_02/BEAT_12_BASTION_COMMAND_ASCENT_REHEARSAL_FIRST_WORKING_DIALOGUE.md",
-          "source_sha256": "f8fb8560c5659ac969cb1bb1110889ece7e18b6e9e32b964900e0d840d88ad2c",
+          "source_sha256": "275d3264758e3c8bb860f114dda14fdc946726d74a6790811d293c550cf1bdb6",
           "spoken_lines": 32,
           "spoken_sha256": "b55c32ebcc21db28775e8d05da16c25f5e1fe3cfc4f731d1324c37452b947d86",
           "title": "Chapter 2 — Beat 12 — Bastion Command Ascent"
@@ -670,9 +670,9 @@
       ]
     }
   },
-  "expected_total_spoken": 2038,
-  "global_spoken_sha256": "62663b99472949102d6da29c59989b0f48f504a9e87d8af3c3cfc4086685db44",
+  "expected_total_spoken": 2035,
+  "global_spoken_sha256": "ab7ebf98da21d00703ce345bb19326354a21e0c13951458787bd4090df77b68a",
   "schema": "diyse_current_runtime_dialogue_manifest_v1",
   "source_authority": "docs/03_DIALOGUE/PRODUCTION",
-  "total_spoken": 2038
+  "total_spoken": 2035
 }
