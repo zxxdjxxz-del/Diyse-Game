@@ -206,13 +206,15 @@ Hard rules:
 - do not invent prices, wages, shortages, route states, preferences or lore facts;
 - RED dialogue readiness does not support an ordinary long scene;
 - preserve gameplay/encounter pressure rather than resetting it for convenience;
+- no dialogue while player-controlled traversal is active; route dialogue requires an authored stop with movement locked;
+- no dialogue during active combat; battle-related dialogue belongs before combat begins or after combat fully ends;
 - required story comprehension does not live only in optional side-path dialogue;
 - exact-line anchors marked required must be planned verbatim for the named speaker;
 - current authority_packet outranks generic genre expectation.
 
 Return JSON only:
 {
-  "scene_mode": "full_authored_stop_scene|walking_or_traversal_dialogue|post_battle_reaction|story_bearing_cell|character_life_hub_camp|boss_threshold|story_combat_pause|microbeat_or_defer",
+  "scene_mode": "full_authored_stop_scene|post_battle_reaction|story_bearing_cell|character_life_hub_camp|boss_threshold|microbeat_or_defer",
   "dialogue_readiness": "GREEN|AMBER|RED",
   "production_cost_tier": "economical|moderate|bespoke",
   "movement_lock": true,
@@ -324,6 +326,8 @@ PASS requires:
 - required exact-line anchors appear verbatim from the required speaker;
 - mandatory story facts land and forbidden reveals remain absent;
 - valid participant/speaker identity;
+- no dialogue during player-controlled traversal;
+- no dialogue during active combat;
 - no player dialogue choices;
 - staging implies no illegal gameplay action;
 - traversal/encounter pressure is respected;
@@ -423,6 +427,20 @@ def validate_anchors(anchors: list[ExactLineAnchor], participants: list[str]) ->
 
 
 def validate_director_plan(plan: dict[str, Any], participants: list[str], max_beats: int):
+    allowed_scene_modes = {
+        "full_authored_stop_scene",
+        "post_battle_reaction",
+        "story_bearing_cell",
+        "character_life_hub_camp",
+        "boss_threshold",
+        "microbeat_or_defer",
+    }
+    scene_mode = plan.get("scene_mode")
+    if scene_mode not in allowed_scene_modes:
+        raise HTTPException(502, f"Dialogue Director returned unsupported scene_mode: {scene_mode}")
+    if scene_mode != "microbeat_or_defer" and not bool(plan.get("movement_lock", True)):
+        raise HTTPException(502, "Dialogue scenes require movement_lock; walking/traversal dialogue is not supported.")
+
     beats = plan.get("beat_plan")
     if not isinstance(beats, list):
         raise HTTPException(502, "Dialogue Director did not return beat_plan as a list.")
