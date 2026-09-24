@@ -16,7 +16,7 @@ This is a character-logic map, not a substitute for exact dialogue scripts. It a
 | Ilyra / Torren | care and field pragmatism without interrogation | begins low-verbal-density and professionally quiet; grows into dry jokes, profanity, ordinary conversation, and comfortable silence where neither needs to fill the air |
 | Ilyra / Nimera | unusually direct dry/profane humor plus low-pressure care | warmth, curiosity, preservation, and humor; Ilyra is less scandalized by Nimera than Nimera may expect |
 | Ilyra / Vaelira | professional precision and care without intrusion | calm but real disagreement over consequence versus technical possibility; independent friendship also supports gossip, presentation/vanity, ordinary complaints, dry humor, and quiet companionship without therapist dynamics |
-| Ilyra / Seyrik | mercy does not remove agency or accountability | careful language around guilt, injury, care, agency, and consent; later relationship must also contain ordinary subjects |
+| Ilyra / Seyrik | mercy does not remove agency or accountability; grows into one of Seyrik's major permanent-party friendships | begins with careful clarity around guilt, injury, care, agency, consent, and responsibility; develops through repeated ordinary contact into mutual humor, preference, profanity, disagreement, chosen company, reciprocal care, and safe use of `no` without therapist/patient or redemption-project framing |
 | Torren / Nimera | Ch3 begins as first-contact field judgment vs archival/provenance reasoning; later reciprocal training and trust become familial | early: mutual testing, correction, accidental comedy, professional respect; later over several chapters: increasingly personal practical care and private shorthand; eventual destination: strong father/daughter-like bond without infantilization or loss of Nimera's adult agency |
 | Torren / Vaelira | empirical ground judgment and formal calibration can respect each other | tacit field expertise versus formal model/calibration; Vaelira wants the cues behind reliable judgment, Torren may not always formalize them cleanly; "good enough" versus cleaner method creates useful and often funny friction without anti-science/anti-field caricature |
 | Torren / Seyrik | adult friendship allows directness, practical instruction, and eventually affectionate insult | veteran shorthand, restrained conversation, and sometimes very few words |
@@ -64,6 +64,26 @@ Torren's own increasing comfort is also audible across chapters.
 - **Chapter 1:** expertise is his easiest route into longer speech; he is guarded but already begins voluntary joking and affectionate irritation by the end.
 - **Chapter 2:** he is noticeably more comfortable with Cyanis, Ilyra, and Maevra; he may start jokes, prolong arguments, tell stories, volunteer mundane opinions, and speak in complete ordinary turns even when no route/map expertise is required.
 - **Chapter 3+:** that comfort remains with established companions. It does **not** automatically transfer to newly met characters such as Nimera; each new relationship must earn its own shorthand.
+
+### Ilyra / Seyrik friendship progression lock
+
+Ilyra should become **one of Seyrik's main social connections after his end-of-Chapter-6 recruitment**.
+
+- **first party period:** clarity, consent, treatment without absolution, accountability without self-erasure, cautious trust; no instant intimacy;
+- **developing friendship:** ordinary invitations, meals, gossip, errands, jokes, profanity, direct questions, disagreement that does not threaten the bond, Seyrik beginning to ask what Ilyra wants, and Ilyra increasingly stating those wants plainly;
+- **established friendship:** reciprocal care, chosen company without functional reason, affectionate insult, shared silence, stupid arguments, mutual preference, and the expectation that either person can say `no` without losing the relationship.
+
+The friendship is important precisely because it becomes **ordinary**.
+
+Do not reduce it to:
+- healer/patient;
+- therapist/traumatized subject;
+- confessor/penitent;
+- moral judge/redemption project;
+- mother/son;
+- automatic romance.
+
+Ilyra must not be Seyrik's only meaningful connection, but she should be one of the **strongest and most consistent**.
 
 ### Torren / Nimera progression lock
 Torren is 42 and Nimera is 22, so he is old enough to be her father. That age gap matters to the eventual emotional shape of the relationship, but the paternal quality must be **earned over several chapters**.
