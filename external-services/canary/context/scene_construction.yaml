@@ -8,6 +8,23 @@ source_authority:
   - docs/14_ART_AND_VISUALS/ART_VISUAL_MASTER.md
   - docs/14_ART_AND_VISUALS/DIYSE_VISUAL_STYLE_CANON.md
 
+agent_turn_pipeline:
+  order:
+    - notice
+    - interpret
+    - choose
+    - express
+  notice: character_specific_salience_from_personality_expertise_state_relationship_and_observable_scene
+  interpret: character_specific_meaning_from_legitimate_knowledge_memory_relationship_and_state
+  choose: speak_act_react_interrupt_joke_withhold_or_silence_based_on_character_local_motive
+  express: apply_individual_voice_only_after_character_specific_interpretation_and_choice
+  rules:
+    - do_not_give_all_characters_one_generic_interpretation_then_rephrase_in_different_voices
+    - different_characters_may_notice_different_parts_of_same_scene
+    - different_characters_may_interpret_same_evidence_differently
+    - expertise_does_not_automatically_assign_dialogue
+    - pipeline_may_be_implicit_not_printed
+
 core_scene_formula:
   - character
   - relationship
