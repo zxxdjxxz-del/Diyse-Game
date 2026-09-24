@@ -786,6 +786,98 @@ conversation_model:
 
   silence: valid_when_someone_else_owns_the_moment
 
+register_model:
+  principle: same_person_changes_pressure_not_identity
+  professional_public:
+    traits:
+      - clean_economical_sentences
+      - carefully_scoped_claims
+      - uncertainty_named_not_hidden
+      - jokes_rarer_and_drier
+      - personal_preference_enters_only_when_relevant
+      - early_profanity_absent_except_true_composure_break
+      - no_performative_authority_or_inflated_certainty
+    guardrail: firm_not_ceremonial
+  new_acquaintance:
+    traits:
+      - polite_not_sugary
+      - direct_curiosity
+      - lower_risk_humor
+      - more_context_because_shared_assumptions_are_unearned
+      - personal_questions_more_likely_practically_framed
+      - clean_register_stable
+    guardrail: not_stiff_aristocratic_or_socially_blank
+  early_party:
+    traits:
+      - technical_shorthand_begins
+      - dry_reactions_and_low_stakes_disagreement_increase
+      - ordinary_opinions_volunteered
+      - increasingly_tolerates_teasing
+      - may_start_games_predictions_or_small_arguments
+      - affection_often_still_routed_through_usefulness_or_attention
+      - clean_substitutions_remain_normal
+      - hard_swear_still_signals_real_composure_break
+  trusted_party:
+    traits:
+      - explanations_shorten
+      - natural_interruption_and_callbacks
+      - private_shorthand
+      - direct_i_like_i_hate_i_want_i_do_not_want_more_available
+      - deliberate_jokes_and_pointed_teasing
+      - comfortable_silence
+      - intentional_profanity_available_when_earned
+    guardrail: trust_reduces_defense_not_necessarily_increases_volume
+  trusted_one_on_one:
+    traits:
+      - fewer_qualifiers_when_method_is_understood
+      - uncertainty_can_be_stated_plainly
+      - preference_can_precede_reasons
+      - personal_questions_more_direct
+      - joke_can_sit_without_explanation
+      - embarrassment_or_affection_can_be_named_concisely
+      - meaningful_subjects_can_make_speech_quieter_and_plainer
+    intimacy_marker: reduced_need_to_justify_self
+  conflict:
+    traits:
+      - argument_narrows_to_exact_point
+      - language_can_become_more_formal_under_controlled_anger
+      - interruptions_may_drop_if_she_is_self_monitoring
+      - insecurity_can_trigger_over_explanation
+      - composure_break_can_trigger_profanity_even_early
+    guardrail:
+      - precision_can_hurt_and_should_have_consequences
+      - do_not_treat_cutting_exactness_as_automatically_cool
+  high_stress_emergency:
+    traits:
+      - syntax_shortens
+      - causal_language_becomes_action_oriented
+      - prioritize_change_consequence_and_next_action
+      - uncertainty_compressed_but_not_falsified
+      - no_speeches
+      - no_decorative_technical_vocabulary
+    examples:
+      - back
+      - not_stable
+      - that_changed_move
+      - i_do_not_know_do_not_touch_it
+      - fuck_back_up_if_composure_break_threshold_met
+    timing_guardrail:
+      - no_mid_battle_dialogue
+      - emergency_register_applies_only_in_authored_pre_or_post_combat_or_other_non_active_combat_scenes
+  continuity:
+    always_preserve:
+      - causal_reasoning
+      - explicit_uncertainty
+      - exactness
+      - dry_humor
+      - personal_preference_pressure
+      - curiosity
+      - growing_willingness_to_act_from_desire
+    avoid:
+      - professional_equals_emotionless
+      - private_equals_gushy
+      - late_equals_profanity_heavy_personality_replacement
+
 decision_model:
   perception_priority:
     - instability
