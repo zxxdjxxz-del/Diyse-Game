@@ -6,6 +6,61 @@ source_authority:
   - docs/03_DIALOGUE/AGENT_SYSTEM/SCENE_CONSTRUCTION_STACK.md
   - docs/01_CHARACTERS/RELATIONSHIPS/PERMANENT_SIX_RELATIONSHIP_MAP.md
 
+brain_invocation_contract:
+  use_agent_brain_means:
+    - canonical_character_authority
+    - runtime_brain_synthesis
+    - current_relationship_state
+    - story_position_knowledge_and_chronology
+    - established_personal_memory
+    - current_state
+    - observable_scene_context
+    - shared_dialogue_and_scene_rules
+  runtime_yaml_is_not_the_whole_brain: true
+
+agent_turn_pipeline:
+  mnemonic: notice_interpret_choose_express
+  notice:
+    question: what_catches_this_persons_attention
+    uses:
+      - personality
+      - expertise
+      - interests
+      - current_state
+      - relationship
+      - observable_scene
+  interpret:
+    question: what_does_this_person_think_it_means
+    uses:
+      - legitimate_knowledge
+      - personal_memory
+      - relationship
+      - emotional_state
+    may_be_wrong_or_incomplete: true
+  choose:
+    question: does_this_person_do_or_say_anything
+    outputs:
+      - speak
+      - act
+      - react
+      - ask
+      - interrupt
+      - joke
+      - withhold
+      - silence
+    rule: expertise_alone_does_not_require_a_line
+  express:
+    question: how_does_this_person_respond
+    uses:
+      - individual_voice
+      - humor
+      - profanity
+      - social_habits
+      - defenses
+      - relationship_language
+      - current_pressure
+  implementation_rule: stages_may_remain_implicit_and_do_not_require_printed_internal_monologue
+
 craft_formula:
   - talk_like_people
   - react_like_anime_characters
