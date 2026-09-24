@@ -13,9 +13,9 @@ Current authored combat order:
 **Cyanis solo**
 1. Black Host Raider + Black Host Crossbowman;
 2. Black Host Raider + Ruin Shieldbearer;
-3. 2 Convoy Rift Hounds;
-4. Black Host Crossbowman + Convoy Rift Hound;
-5. 1 Convoy Rift Hound.
+3. 2 War Hounds;
+4. Black Host Crossbowman + War Hound;
+5. 1 War Hound.
 
 **After Ilyra joins**
 6. Ruin Vanguard Pursuer / concealed Seyrik — protected disengagement;
@@ -101,7 +101,7 @@ Approximate direct damage under the current formula before crits or temporary de
 | Ch0 Raider | 46.8 | 65.5 | 55.2 |
 | Crossbowman | 47.5 | 66.5 | 55.2 |
 | Ruin Shieldbearer | 41.3 | 57.8 | 49.0 |
-| Beast Handler / Convoy Rift Hound | 43.6 | 61.0 | ~50–51 |
+| Beast Handler / War Hound | 43.6 | 61.0 | ~50–51 |
 | Ruin Vanguard Pursuer | 38.7 | 54.2 | 45.3 |
 | Riftmaw | 38.7 | 54.2 | 45.3 |
 | Injured Soldier | 43.0 | 60.1 | 51.5 |
@@ -119,7 +119,7 @@ The individual actions are deliberately low-pressure against Cyanis's starting d
 No Power adjustment required.
 
 ### 0-02 — Handler Pressure
-Beast Handler + Convoy Rift Hound
+Beast Handler + War Hound
 
 Result:
 > **PASS**
@@ -160,7 +160,7 @@ At 340 HP:
 Result:
 > **ADJUSTED**
 
-### 0-05 — S002 Convoy Rift Hound
+### 0-05 — S002 War Hound
 Exactly one Hound.
 
 Result:
