@@ -80,7 +80,7 @@ These ranges measure spoken lines containing natural profanity across a sufficie
 
 Shared vocabulary must be transformed by character-specific construction:
 
-- **Nimera:** widest vocabulary and highest invention rate; profane technical analogies, anatomical vulgarity, obscene compounds, improvised figures of speech, and accuracy-driven self-correction. Strong terms such as `motherfucker` and rare high-impact `cunt` are available when earned. `fuck` is frequent but cannot become her only tool.
+- **Nimera:** widest vocabulary and highest invention rate; profane technical analogies, anatomical vulgarity, obscene compounds, improvised figures of speech, and accuracy-driven self-correction. `Motherfucker` is available when earned, while `cunt` does not require special rare/high-impact handling and may appear naturally when it fits her sentence, relationship, and mood. `fuck` is frequent but cannot become her only tool.
 - **Cyanis:** practical soldier/leader profanity. Plain, economical, often attached to a decision, frustration, workload, injury, or affectionate jab. He is more likely to call something `bullshit`, a person an `asshole` or `bastard`, or let one sharp `fuck` land than build a three-line obscene metaphor.
 - **Torren:** veteran field profanity. Dry, unselfconscious, tactile, and grounded in weather, terrain, animals, equipment, bodily discomfort, bad routes, and bad judgment. He can be vulgar, but the joke usually gets shorter rather than more ornate.
 - **Ilyra:** composed dry profanity with surgical timing. She can use anatomical language more literally and precisely than the others, deploy `asshole`, `prick`, `bullshit`, or a rare `fuck` with cutting economy, and say something filthy without changing her calm delivery.
@@ -123,8 +123,7 @@ Nimera may naturally draw from:
 - `ass/asshole`, `bastard`, `bitch`, `prick`;
 - `dick/dickhead/dickbrain`, `cock/cockhead`;
 - `jackass/dumbass/smartass`, `fuckwit/fuckbrain`, `shitwit/shitheel/shit-for-brains`;
-- `clusterfuck`, `half-assed`, `balls/bollocks`, `son of a bitch`;
-- rare high-impact `cunt` when the moment genuinely calls for it.
+- `clusterfuck`, `half-assed`, `balls`, `son of a bitch`, `cunt`.
 
 She may create fresh anatomical, bodily, indecent, consensual-sexual, mechanical, archaeological, institutional, animal, food, or impossible-geometry comparisons. Her language may be affectionate, hostile, analytical, delighted, frightened, exhausted, or self-directed.
 
