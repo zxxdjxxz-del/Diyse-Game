@@ -2,7 +2,7 @@
 
 **Status:** ACTIVE DIALOGUE-ENGINE CRAFT AUTHORITY  
 **Domain:** spoken character performance across all current and future dialogue passes  
-**Applies to:** Person-Agent rehearsal, Dialogue Editor passes, character-balance audits, Character-Life scenes, mainline story dialogue, walking dialogue where otherwise legal, and later chapter generation.
+**Applies to:** Person-Agent rehearsal, Dialogue Editor passes, character-balance audits, Character-Life scenes, mainline story dialogue, authored stop scenes, pre-/post-battle dialogue, and later chapter generation.
 
 ## Core rule
 
