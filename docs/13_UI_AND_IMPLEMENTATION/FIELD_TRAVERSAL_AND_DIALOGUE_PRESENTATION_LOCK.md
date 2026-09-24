@@ -12,7 +12,7 @@ During ordinary route/dungeon/wilderness traversal:
 
 The rest of the traveling/combat party is present in story and gameplay state, but they do **not** trail behind Cyanis as visible field models during normal traversal.
 
-This remains true when another character is guiding the party. A Torren-led route means Torren is directing the group in story/dialogue; it does **not** require Torren to be rendered walking beside or ahead of Cyanis during normal exploration.
+This remains true when another character is guiding the party. A Torren-led route means the route is being directed in story and at authored stop scenes; it does **not** create dialogue while Cyanis is moving or require Torren to be rendered walking beside or ahead of Cyanis during normal exploration.
 
 Do not author ordinary traversal staging such as:
 - Torren walking ahead on-screen;
@@ -95,13 +95,20 @@ Physical field presentation is appropriate for:
 
 Even in a triggered scene, use the simplest blocking that communicates the moment. Often that means the relevant characters appear, hold sensible positions, and portraits/dialogue do the rest.
 
-## Walking dialogue clarification
+## Dialogue timing boundary
 
-`WALKING_DIALOGUE_LOCK.md` governs **when dialogue may occur while the player is traversing**. It does not mean the guide must be visibly walking on the field.
+> **There is no dialogue during ordinary player-controlled traversal and no dialogue during active combat.**
 
-For example, Torren may guide Cyanis through a route via portrait/dialogue-box instructions while Cyanis remains the sole visible traversal character. If the game stops for an authored scene, Torren's field model may then appear normally for that scene.
+If a route needs conversation:
+1. reach an authored trigger or natural stopping point;
+2. pause/lock player movement;
+3. run the dialogue scene;
+4. return cleanly to exploration.
+
+If a battle needs character dialogue, place it immediately before combat begins or after combat has fully ended. Active combat itself remains dialogue-free.
 
 Town/camp/Cresthaven conversations may begin with the relevant character already physically present in the location.
+
 
 ## Authoring consequence
 
