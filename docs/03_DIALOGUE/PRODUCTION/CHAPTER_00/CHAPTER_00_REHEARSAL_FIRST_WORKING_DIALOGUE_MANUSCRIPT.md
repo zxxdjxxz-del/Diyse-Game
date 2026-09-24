@@ -879,7 +879,7 @@ The Card remains inert for the entire encounter.
 
 No incomplete protection, green-and-gold geometry, Card reaction, identity reveal, or transformation occurs.
 
-Battle presentation owns combat movement. Any mid-battle dialogue, if later added by encounter authority, must remain speech-only.
+Battle presentation owns combat movement. **No spoken dialogue occurs during the active encounter.**
 
 ---
 
@@ -1113,7 +1113,7 @@ Rift Lance Preparation does not occur before Round 2 unless encounter authority 
 
 The Card response is not selectable and is not a Prime activation.
 
-Mid-battle dialogue is optional and speech-only. The dialogue layer does not script character movement.
+**No spoken dialogue occurs during active boss combat.** The dialogue layer resumes only after the encounter has fully resolved.
 
 ---
 
