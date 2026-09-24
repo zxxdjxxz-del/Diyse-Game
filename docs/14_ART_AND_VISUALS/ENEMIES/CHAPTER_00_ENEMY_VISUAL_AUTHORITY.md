@@ -364,6 +364,37 @@ Cloth:
 
 # Ruin Shieldbearer
 
+## Exact approved Shieldbearer visual master
+
+**Status:** **LOCKED EXACT VISUAL — 2026-09-23**
+
+Approved render:
+- image-generation ID: `bf4897a7-8f7e-4110-a6f0-2125ecd6d60f`
+- approved file SHA-256: `18d1237f4f933bdf6dbcba7f9b4df90c5090ec413ebe334cb5a4982c221fb2d7`
+- dimensions: **1122 × 1402**
+- presentation: clean white-background B00/B00.5-style full-body reference
+
+This exact approved render now overrides earlier Shieldbearer prose where incidental details differ.
+
+Locked visual relationship to the Raider:
+- same Black Host helmet / armor family;
+- broader and more heavily armored than the Raider;
+- stronger but still practical chest/shoulder construction;
+- large, simple military tower shield dominates the silhouette;
+- compact one-handed spear is the secondary weapon;
+- red tunic/cloth and black underlayers remain visible;
+- practical heavy leg armor;
+- no glow;
+- no luminous channels;
+- still clearly below Seyrik in armor complexity and status.
+
+Do not:
+- replace the spear with a sword;
+- make the spear a long two-handed polearm;
+- turn the shield into ornate commander equipment;
+- add purple channels or any glow;
+- elaborate the chest/shoulders toward Seyrik's personalized armor tier.
+
 ## Core visual identity
 Heavy Black Host defensive infantry with a Ruin-affiliated edge.
 
