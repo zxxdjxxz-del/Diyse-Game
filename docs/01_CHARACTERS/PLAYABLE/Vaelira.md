@@ -106,7 +106,40 @@ Compatible lived-person behavior:
 - **praise:** professional praise is comparatively easy for her to accept; praise that reveals how much she personally cared, wanted, enjoyed, or hoped for something can make her more self-conscious;
 - **novelty:** a genuinely unexplained result can override irritation very quickly. Curiosity is one of the fastest ways through her composure.
 
+### Everyday tastes and habits
+
+These are stable tendencies, not a requirement to turn every downtime scene into a checklist.
+
+- **craft / objects:** Vaelira tends to prefer things that are well-made, deliberate, durable, and cleanly constructed over things that are merely expensive or ostentatious. She notices fit, balance, materials, finish, and whether an object feels intentional;
+- **beauty:** she genuinely responds to beauty, proportion, color, craftsmanship, and elegant design. Earlier in her arc she may be tempted to justify liking something through workmanship or utility when the simpler truth is that she simply likes it;
+- **clothing / presentation:** she prefers clothing and equipment that fit properly, sit correctly, and look intentionally assembled. Her vanity is about looking composed and like herself, not chasing luxury or needing constant attention;
+- **personal space:** she likes usable order rather than display-perfect order. Important things should be where she expects them; unrelated clutter can exist without becoming a crisis;
+- **food:** she is **not** a food-is-fuel character. She develops ordinary opinions about quality, preparation, texture, presentation, and whether something is actually enjoyable. Exact favorite dishes or drinks remain open until intentionally established;
+- **comfort:** she is not delicate, but she notices preventable discomfort. Mud because the route is hard is one thing; mud because someone kicked a puddle at her is another. A poor night's sleep because the situation demanded it bothers her less than a preventably miserable room or somebody making unnecessary noise;
+- **leisure:** she naturally enjoys games, puzzles, challenges, predictions, optimization problems, and other activities where she can make a call and see how it turns out. The activity does not have to be intellectually prestigious;
+- **watching competence:** she can enjoy watching another person do something they are genuinely good at even when the skill is outside her field. Curiosity does not always need to become interrogation;
+- **restlessness:** if she has nothing to do for too long, she may seek a challenge, conversation, small problem, game, or harmless argument rather than passively endure boredom;
+- **sleep / absorption:** when genuinely absorbed, she can stay up later than she intended and resent the consequences the next morning. This is occasional enthusiasm, not a permanent sleep-deprived-scientist trope;
+- **shopping / choosing:** when given options, she can spend more time than expected comparing quality, fit, construction, or small differences. Part of her growth is becoming able to say, "I like this one," without manufacturing a superior objective case for it;
+- **gossip:** she can enjoy ordinary gossip because people are interesting and sometimes ridiculous. Gossip does not need to become psychological diagnosis, evidence analysis, or moral judgment;
+- **small pleasures:** clean clothes after travel, an unexpectedly elegant solution, a well-made object, a good game, being right about something harmless, being surprised by something better than expected, and having a specific person appreciate something she chose can all please her without needing symbolic weight.
+
+### Mundane irritations
+
+Vaelira can be disproportionately annoyed by:
+- somebody handling calibrated or personally arranged equipment without asking;
+- preventable mess, especially when it lands on her or on something she just put in order;
+- confident "close enough" judgments when the difference actually matters;
+- being rushed through a choice and then being told the details did not matter;
+- somebody insisting she has no preference because she initially gave practical reasons;
+- sloppy work being defended as if criticism of the work is criticism of the person;
+- losing a trivial challenge she had privately decided was no longer trivial.
+
+She should also have ordinary days where none of these matter much. Mood, fatigue, company, and stakes can change how strongly she reacts.
+
 Do not force every non-plot interest to become a metaphor for choice or Elements. These tendencies should create ordinary scenes, not turn every meal, room, or joke into a miniature experiment.
+
+**Preference continuity rule:** do not invent exact favorite foods, drinks, books, colors, games, shops, scents, or other named favorites solely to fill space. When one is intentionally established in canon-compatible dialogue or character work, it may persist as ordinary continuity.
 
 ## Affection / trust
 Vaelira often shows affection through **attention before declaration**.
