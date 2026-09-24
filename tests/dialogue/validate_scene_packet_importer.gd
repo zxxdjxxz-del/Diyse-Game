@@ -135,6 +135,23 @@ func _run() -> void:
 	var bad_result: Dictionary = importer.build_scene(bad_packet, bad_metadata)
 	_expect(not (bad_result.get("failures", []) as Array).is_empty(), "Malformed packet must be rejected")
 
+	for forbidden_mode in ["walking_or_traversal_dialogue", "story_combat_pause"]:
+		var forbidden_packet := packet.duplicate(true)
+		forbidden_packet["scene_id"] = "TEST_FORBIDDEN_%s" % forbidden_mode
+		forbidden_packet["scene_mode"] = forbidden_mode
+		var forbidden_metadata := metadata.duplicate(true)
+		forbidden_metadata["scene_id"] = forbidden_packet["scene_id"]
+		var forbidden_result: Dictionary = importer.build_scene(forbidden_packet, forbidden_metadata)
+		_expect(not (forbidden_result.get("failures", []) as Array).is_empty(), "Forbidden dialogue scene mode must be rejected: %s" % forbidden_mode)
+
+	var moving_packet := packet.duplicate(true)
+	moving_packet["scene_id"] = "TEST_MOVING_DIALOGUE"
+	moving_packet["movement_lock"] = false
+	var moving_metadata := metadata.duplicate(true)
+	moving_metadata["scene_id"] = "TEST_MOVING_DIALOGUE"
+	var moving_result: Dictionary = importer.build_scene(moving_packet, moving_metadata)
+	_expect(not (moving_result.get("failures", []) as Array).is_empty(), "Dialogue with movement unlocked must be rejected")
+
 	_finish()
 
 func _expect(condition: bool, message: String) -> void:
