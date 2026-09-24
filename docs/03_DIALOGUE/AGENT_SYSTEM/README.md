@@ -480,6 +480,92 @@ Only explicitly earned deltas persist.
 
 Open-conversation rehearsal, sandbox generation, or rejected drafts do not update authored continuity.
 
+## Conversation floor / inertia / open-thread contract
+
+A scene is not six independent characters answering the same prompt.
+
+### Participation selection
+
+Before each beat, ask which present characters actually have **speaking pressure**.
+
+Speaking pressure may come from:
+- immediate motive;
+- relationship impulse;
+- expertise that changes the beat;
+- emotional investment;
+- an open thread;
+- joke;
+- objection;
+- correction;
+- action need.
+
+Silence/yield pressure may come from:
+- the point already being made;
+- no new motive;
+- fatigue;
+- discomfort;
+- privacy;
+- caution;
+- redundancy;
+- another person owning the beat more naturally.
+
+Presence alone is never a reason to speak.
+
+### Conversational floor
+
+The runtime should track who currently holds the floor.
+
+A Person Agent may:
+- **take** the floor;
+- **hold** it;
+- **yield**;
+- **interrupt**;
+- remain **silent**.
+
+Interruption must have a character-local reason. It is not a generic tool for making dialogue feel lively.
+
+### Topic action
+
+A character may:
+- continue the current subject;
+- narrow it;
+- answer only part;
+- shift subjects;
+- avoid;
+- close the subject;
+- leave it unresolved.
+
+Not every question should receive a complete answer.
+
+A truthful derailment does not have to be forced back toward the scene purpose merely because the author knows what the scene is "about."
+
+### Open threads
+
+Scenes may leave behind:
+- unanswered questions;
+- unfinished arguments;
+- borrowed items;
+- promises;
+- insults awaiting retaliation;
+- awkward moments;
+- concerns someone chose not to pursue;
+- unresolved suspicions.
+
+An open thread becomes durable continuity only if the Canon Checker determines it was meaningfully established.
+
+Later callbacks to that thread still require normal memory authorization.
+
+### Ensemble geometry
+
+Prefer:
+- one pair carrying the exchange while others react nonverbally;
+- two simultaneous social clusters;
+- a character entering late because something finally gives them motive;
+- a character leaving the exchange;
+- silence after the point lands.
+
+Avoid acknowledgment turns whose only function is to prove every present character heard the previous line.
+
 ## Information firewall
 
 Agents must never use:
