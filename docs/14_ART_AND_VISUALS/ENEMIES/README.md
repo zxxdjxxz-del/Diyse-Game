@@ -20,9 +20,9 @@ The accumulating Chapter-0 enemy visual file should contain **only explicitly ap
 Currently locked:
 1. Black Host Raider
 2. Black Host Crossbowman
+3. Ruin Shieldbearer
 
 Still awaiting exact image lock:
-- Ruin Shieldbearer
 - Convoy Rift Hound
 - Ruin Vanguard Pursuer / concealed Seyrik presentation
 - Convoy War-Sorcerer
