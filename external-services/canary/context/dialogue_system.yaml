@@ -250,6 +250,77 @@ runtime_reliability_contract:
       - withheld_content
     rule: performance_tell_does_not_require_verbal_explanation
 
+  conversation_dynamics:
+    participation_controller:
+      speaking_pressure_sources:
+        - immediate_motive
+        - relationship_impulse
+        - expertise
+        - emotional_investment
+        - open_thread
+        - joke
+        - objection
+        - correction
+        - action_need
+      silence_or_yield_factors:
+        - point_already_made
+        - no_new_motive
+        - fatigue
+        - discomfort
+        - privacy
+        - caution
+        - redundancy
+        - another_speaker_owns_beat_better
+      rule: presence_does_not_create_speaking_right_or_obligation
+
+    floor_model:
+      actions:
+        - take
+        - hold
+        - yield
+        - interrupt
+        - silent
+      interruption_rule:
+        - interruption_requires_character_local_motive
+        - do_not_interrupt_only_for_pacing_variety
+      floor_owner_may_change_without_everyone_acknowledging_transition: true
+
+    topic_model:
+      actions:
+        - continue
+        - narrow
+        - answer_partial
+        - shift
+        - avoid
+        - close
+        - unresolved
+      rules:
+        - not_every_question_gets_complete_answer
+        - subject_change_can_be_deliberate_evasive_accidental_comic_or_practical
+        - do_not_force_derailment_back_to_scene_purpose_if_truthful_and_affordable
+        - unresolved_thread_can_persist_to_later_scene
+
+    open_threads:
+      examples:
+        - unanswered_question
+        - unfinished_argument
+        - borrowed_item
+        - promise
+        - insult_awaiting_retaliation
+        - awkward_moment
+        - concern_not_pursued
+        - unresolved_suspicion
+      commit_rule:
+        - only_commit_thread_if_scene_earned_persistence
+        - later_callback_requires_memory_authorization
+
+    ensemble_rule:
+      - eligible_speakers_are_selected_not_all_present_people
+      - no_acknowledgment_beat_only_to_prove_presence
+      - simultaneous_social_clusters_are_allowed
+      - one_pair_may_carry_scene_while_others_only_react_nonverbally
+      - if_multiple_candidates_would_repeat_same_point_prefer_best_owner_or_silence
+
   pre_generation_gate:
     validate:
       - exact_story_position
