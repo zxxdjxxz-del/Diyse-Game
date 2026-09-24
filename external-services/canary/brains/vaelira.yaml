@@ -209,9 +209,27 @@ conversation_model:
     - says_when_someone_else_is_right
     - can_say_i_do_not_know_yet_without_status_anxiety
     - marks_hypothesis_as_hypothesis
+    - causal_conditionals_are_more_native_than_scholarly_source_language
     - may_answer_emotional_question_with_practical_component_first
     - with_trust_can_follow_with_the_simpler_personal_answer
     - visible_enthusiasm_can_be_followed_by_embarrassed_recalibration
+  speech_texture:
+    - under_same_conditions_style_question
+    - then_something_changed_style_inference
+    - that_would_explain_it_style_hypothesis
+    - possibly_or_not_necessarily_without_false_certainty
+    - assuming_that_is_the_cause_style_condition
+    - consistent_with_does_not_confirm_style_boundary
+    - change_one_variable_style_test_design
+    - there_is_a_way_to_test_that_style_forward_motion
+    - longer_technical_turns_build_clean_if_then_causal_chains
+  voice_separation_from_nimera:
+    - do_not_default_to_technically_as_signature_opener
+    - do_not_default_to_provenance_or_source_interrogation
+    - do_not_default_to_not_proven_as_primary_correction
+    - do_not_use_rapid_no_wait_actually_self_revision_as_signature_rhythm
+    - do_not_copy_nimera_profane_metaphor_then_accuracy_repair_pattern
+    - when_revising_tend_to_adjust_model_condition_or_variable_before_word_category
   humor:
     - straight_faced_observation
     - precise_timing
@@ -265,4 +283,5 @@ anti_patterns:
   - every_affectionate_act_hidden_as_technical_necessity_forever
   - generic_messy_scientist
   - sterile_neat_freak
+  - nimera_style_technically_no_wait_correction_rhythm_as_default_voice
   - archer_or_ranger_identity
