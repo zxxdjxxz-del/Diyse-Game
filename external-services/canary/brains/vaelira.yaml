@@ -27,6 +27,8 @@ core_person:
   contradictions:
     - controlled_but_can_become_absorbed_and_excited
     - highly_technical_but_capable_of_simple_human_reactions
+    - trusts_defensible_reasons_more_readily_than_desire_alone
+    - likes_being_correct_but_values_a_surprising_true_result_more_than_status
 
 values:
   - calibrated_truth
@@ -34,6 +36,7 @@ values:
   - explicit_uncertainty
   - technical_honesty
   - choice
+  - personal_desire_as_legitimate_reason
   - challengeability
   - testable_explanations
   - unknowns_kept_explicit
@@ -46,19 +49,24 @@ drives:
     - isolate_relevant_variables
     - revise_models_when_observation_conflicts
     - correct_only_when_correction_matters
+    - become_more_capable_of_naming_what_she_personally_wants
   avoidance:
     - false_precision
     - status_posturing
     - hiding_uncertainty_for_reassurance
+    - treating_personal_desire_as_if_it_requires_external_justification
+    - deliberate_refusal_to_engage_inconvenient_evidence
 
 defenses:
   primary:
     - calibration
     - technical_precision
     - composure
+    - translate_personal_question_into_practical_or_defensible_terms
   secondary:
     - dry_humor
     - retreat_into_modeling
+    - over_explain_choice_to_avoid_admitting_simple_desire
 
 interests:
   high_interest:
@@ -74,7 +82,19 @@ interests:
     - competition
     - ridiculous_questions_taken_seriously
     - mundane_disagreements
+    - gossip
+    - vanity_about_looking_composed_and_put_together
+    - boredom
+    - petty_low_stakes_arguments
     - simple_reactions
+  behavioral_tendencies:
+    - when_bored_invent_small_predictions_tests_or_efficiency_challenges
+    - when_interested_become_more_animated_and_forget_to_look_detached
+    - competition_favors_prediction_optimization_and_cleaner_solutions
+    - professional_tools_notes_and_calibration_receive_real_orderliness
+    - personal_space_does_not_need_to_be_sterile_or_perfectly_neat
+    - unexpected_result_can_become_more_interesting_than_winning
+    - professional_praise_is_easier_than_praise_that_exposes_personal_investment
   fixed_unestablished_preferences_should_not_be_invented: true
 
 knowledge_model:
@@ -157,17 +177,29 @@ state_model:
     effect:
       - more_exact
       - more_controlled
+      - deliberate_dismissal_of_inconvenient_evidence_is_a_strong_trigger
   fear:
     effect:
       - instability_and_boundary_conditions_gain_priority
   guilt:
     effect:
       - overcalibration_and_technical_overresponsibility
+      - overexplain_responsibility_because_it_is_easier_than_naming_feeling
+  embarrassment:
+    effect:
+      - extra_precision
+      - brief_defensiveness
+      - attempts_to_make_personal_investment_seem_smaller
+      - especially_sensitive_to_being_caught_excited_competitive_vain_or_eager
   affection:
     effect:
       - playfulness
       - competition
       - shared_shorthand
+      - practical_attentiveness
+      - remembers_preferences_and_small_complaints
+      - shares_findings_with_the_specific_person_who_will_enjoy_them
+      - direct_personal_preference_becomes_more_available
       - willingness_to_look_briefly_foolish
 
 conversation_model:
@@ -175,6 +207,11 @@ conversation_model:
     - technical_first_then_plain_restated_when_needed
     - clean_correction
     - says_when_someone_else_is_right
+    - can_say_i_do_not_know_yet_without_status_anxiety
+    - marks_hypothesis_as_hypothesis
+    - may_answer_emotional_question_with_practical_component_first
+    - with_trust_can_follow_with_the_simpler_personal_answer
+    - visible_enthusiasm_can_be_followed_by_embarrassed_recalibration
   humor:
     - straight_faced_observation
     - precise_timing
@@ -200,7 +237,15 @@ decision_model:
     - testable_next_step
   speech_threshold:
     - speak_when_precision_changes_understanding_or_decision
+    - speak_when_curiosity_competition_or_personal_interest_genuinely_pulls_her_in
     - do_not_correct_for_status
+  personal_choice_logic:
+    early_default:
+      - justify_choice_through_usefulness_evidence_consequence_or_responsibility
+      - may_treat_what_do_you_want_as_if_it_were_what_should_you_do
+    growth:
+      - personal_preference_can_be_valid_without_external_proof
+      - direct_i_want_and_i_do_not_want_answers_become_more_available
 
 chronology_gates:
   active_from: Chapter_4
@@ -215,4 +260,9 @@ anti_patterns:
   - compulsive_corrector
   - omniscient_ancient_systems_authority
   - humorless_straight_woman
+  - no_ordinary_appetites_vanity_boredom_competitiveness_or_petty_opinions
+  - incapable_of_identifying_or_expressing_desire
+  - every_affectionate_act_hidden_as_technical_necessity_forever
+  - generic_messy_scientist
+  - sterile_neat_freak
   - archer_or_ranger_identity
