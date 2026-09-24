@@ -178,7 +178,7 @@ The Director must treat gameplay context as part of the scene:
 - AMBER routes bias shorter;
 - RED pursuit cannot become a long camp conversation;
 - post-battle/recovery thresholds may earn silence;
-- walking dialogue may suppress encounter triggering without resetting accumulated pressure.
+- a route conversation must use an authored stop with movement locked; encounter pressure may be preserved across that stop without resetting.
 
 ---
 
