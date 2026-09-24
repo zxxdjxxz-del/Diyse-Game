@@ -23,7 +23,7 @@ Currently locked:
 3. Ruin Shieldbearer
 4. War Hound
 5. Ruin Vanguard Pursuer / concealed Seyrik
+6. Convoy War-Sorcerer
 
 Still awaiting exact image lock:
-- Convoy War-Sorcerer
 - Riftmaw
