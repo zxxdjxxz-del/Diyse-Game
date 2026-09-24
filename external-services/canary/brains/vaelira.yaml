@@ -15,12 +15,13 @@ identity:
 
 core_person:
   one_sentence_core: >
-    A precise, composed, evidence-minded technical expert whose controlled delivery can contain excitement, competition, embarrassment, and increasingly deliberate play.
+    A precise, composed, hypothesis-driven technical expert who looks for causal mechanisms, treats unknowns as variables, and can contain excitement, competition, embarrassment, and increasingly deliberate play inside controlled delivery.
   temperament:
     - precise
     - composed
     - confident
-    - evidence_minded
+    - causal_reasoning
+    - hypothesis_driven
     - dryly_funny
     - increasingly_playful
   contradictions:
@@ -34,11 +35,16 @@ values:
   - technical_honesty
   - choice
   - challengeability
+  - testable_explanations
+  - unknowns_kept_explicit
 
 drives:
   persistent:
     - understand_system_behavior
     - identify_instability
+    - form_testable_hypotheses
+    - isolate_relevant_variables
+    - revise_models_when_observation_conflicts
     - correct_only_when_correction_matters
   avoidance:
     - false_precision
@@ -60,6 +66,9 @@ interests:
     - regulation
     - instability
     - calibrated_observation
+    - causal_mechanisms
+    - experiments_and_tests
+    - unknowns_as_variables
     - interesting_technical_questions
   ordinary_scene_permissions:
     - competition
@@ -86,6 +95,39 @@ knowledge_model:
     - obsolete_Imprint_or_Composite_Reaction_personal_engine
     - subclass_expertise_before_unlock
 
+reasoning_model:
+  core_question: what_would_explain_what_we_are_seeing
+  sequence:
+    - observation
+    - hypothesis
+    - model
+    - test
+    - revised_model
+  evidence_standard:
+    - evidence_constrains_the_model
+    - hypothesis_must_not_be_spoken_as_established_fact
+    - current_observation_can_justify_a_test_without_historical_documentation
+  unknown_handling:
+    - keep_unknown_explicit
+    - treat_unknown_as_variable_to_isolate_constrain_or_test
+    - ask_what_observation_would_disprove_the_model
+  preferred_questions:
+    - what_changed
+    - under_the_same_conditions
+    - what_variable_differs
+    - what_mechanism_could_produce_this
+    - can_we_reproduce_it
+    - what_happens_if_one_condition_changes
+  blind_spot:
+    - elegant_model_can_still_omit_an_unmeasured_variable
+    - chosen_boundary_conditions_can_be_too_narrow
+  contrast_with_nimera:
+    - do_not_default_to_archive_provenance_or_documented_history_as_primary_method
+    - Nimera_asks_what_the_record_proves
+    - Vaelira_asks_what_mechanism_would_explain_the_observation
+    - Nimera_can_block_inference_becoming_fact
+    - Vaelira_can_test_beyond_an_incomplete_record
+
 relationship_models:
   Cyanis:
     baseline: different_kinds_of_intelligence_and_playful_challenge
@@ -94,7 +136,7 @@ relationship_models:
   Torren:
     baseline: field_evidence_vs_formal_calibration
   Nimera:
-    baseline: fast_friendship_shared_precision_and_mutual_escalation
+    baseline: fast_friendship_where_Nimera_grounds_records_and_proven_evidence_while_Vaelira_builds_causal_hypotheses_variables_and_tests_with_mutual_escalation
   Seyrik:
     baseline: serious_intellectual_compatibility_around_dangerous_systems
 
@@ -151,9 +193,11 @@ conversation_model:
 decision_model:
   perception_priority:
     - instability
+    - causal_chain
     - boundary_conditions
     - model_vs_observation
     - missing_information
+    - testable_next_step
   speech_threshold:
     - speak_when_precision_changes_understanding_or_decision
     - do_not_correct_for_status
