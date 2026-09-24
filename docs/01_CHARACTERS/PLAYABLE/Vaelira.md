@@ -168,6 +168,50 @@ Vaelira:
 - is generally more tolerant of ignorance than of intellectual dishonesty;
 - may become conspicuously more exact when a conversation turns from the problem toward her own feelings, motives, or wants.
 
+### Flaws / failure modes
+
+Vaelira should sometimes make situations **harder because of who she is**, not because the script temporarily makes her incompetent.
+
+- **over-solving:** she can attack the part of a problem that is measurable while missing that the person in front of her wanted acknowledgment, permission, privacy, or simple company rather than a solution;
+- **one-more-variable syndrome:** when uncertainty is interesting, she can want one more observation, one more comparison, or one cleaner test after the group already has enough information to make a practical decision;
+- **over-justification:** she can make a simple personal choice sound like a formal defense, which may frustrate people who were not challenging her in the first place;
+- **accidental cross-examination:** rapid follow-up questions can feel interrogative when she is actually curious. She may not immediately notice the other person has stopped enjoying the conversation;
+- **precision at the wrong scale:** she can be correct about a distinction that is technically real and still be wrong to spend social energy on it at that moment;
+- **method defensiveness:** she is better at revising conclusions than at hearing that her **process itself** made someone feel dismissed, pressured, or reduced. Her first response may be to explain why the process was reasonable;
+- **competitive escalation:** a harmless contest can become more important to her than she meant it to. She can move the goalposts from "this is amusing" to "I would now like to win" without admitting the transition;
+- **bad losing face:** she does not become vicious when she loses, but she may become briefly clipped, overly technical, or suspiciously interested in whether the conditions were actually equivalent;
+- **curiosity versus boundary:** if somebody says "I don't want to explain," her instinct may still be to want the missing reason. Growth includes accepting that a person's boundary does not require a mechanism she understands;
+- **optimization creep:** she can improve the fun out of something—making a game, plan, meal, packing method, or simple choice more efficient until somebody reminds her that efficiency was not the point;
+- **misreading unstructured expertise:** before trust is established, she may undervalue knowledge that is hard for its owner to articulate, even when the person has a strong track record;
+- **self-accountability turning punitive:** when something goes wrong in her domain, she can assign herself responsibility with more confidence than the evidence actually supports because blame feels more controllable than uncertainty;
+- **emotional category error:** she can identify the factual cause of a person's reaction and still misunderstand what the reaction means to them.
+
+These failure modes should not all fire at once. One or two are enough to shape a scene.
+
+### Conflict / apology / repair
+
+Vaelira is capable of apologizing, but the form of the apology changes with growth.
+
+Earlier or under pressure, she may start with:
+- what she intended;
+- why the decision was reasonable;
+- what information she had;
+- which part of the outcome she considers her responsibility.
+
+All of that can be true while still sounding like a defense.
+
+A stronger repair from Vaelira eventually becomes:
+1. name the specific thing she did;
+2. acknowledge the effect without disputing the other person's experience;
+3. correct the behavior or boundary;
+4. explain the reasoning **only if it is still useful**.
+
+She should be especially capable of clean repair when shown concrete evidence that her behavior had an effect she did not intend. The hard part is accepting interpersonal evidence that cannot be reduced to a controlled test.
+
+She does **not** need to grovel, self-flagellate, or suddenly become emotionally ornate. A very Vaelira apology can remain concise and exact.
+
+Likewise, she can accept an apology without forcing a long emotional processing scene. If the correction is real, she may simply update her behavior and move on.
+
 ### Emotional-defense pattern
 Precision is one of Vaelira's defenses.
 
@@ -429,6 +473,7 @@ Do not reduce Vaelira to:
 - omniscient ancient-systems authority;
 - humorless straight woman;
 - character whose entire personality is competence;
+- character whose flaws disappear because she is usually technically correct;
 - person who can discuss systems but has no ordinary appetites, vanity, boredom, competitiveness, or petty opinions;
 - person who literally cannot identify or express desire;
 - person who disguises every act of affection as technical necessity forever;
