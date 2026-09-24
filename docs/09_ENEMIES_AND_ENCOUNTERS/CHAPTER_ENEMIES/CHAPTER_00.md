@@ -9,7 +9,7 @@
 - Black Host Raider
 - Black Host Crossbowman
 - Ruin Shieldbearer
-- Convoy Rift Hound
+- War Hound
 
 ## Support objects / support identities
 - None
@@ -41,13 +41,13 @@ Exact current encounter authority:
 ### Opening ambush — Cyanis solo
 1. **Opening Line** — Black Host Raider + Black Host Crossbowman.
 2. **Shield Push** — Black Host Raider + Ruin Shieldbearer.
-3. **Hound Rush** — 2 Convoy Rift Hounds.
+3. **Hound Rush** — 2 War Hounds.
 
 The opening S001 combat segment ends here. **Do not place concealed Seyrik or Riftmaw in the opening chain.**
 
 ### Wreck Field — Cyanis solo
-4. **Mixed Pressure** — Black Host Crossbowman + Convoy Rift Hound.
-5. **Survivor-Route Hound** — 1 Convoy Rift Hound.
+4. **Mixed Pressure** — Black Host Crossbowman + War Hound.
+5. **Survivor-Route Hound** — 1 War Hound.
 
 P03 / Evacuation Relay remains combat-free.
 
@@ -119,7 +119,7 @@ The Chapter-0 combat roster is exactly:
 - Ruin Shieldbearer
 
 ### Chapter-0-specific combat identities
-- Convoy Rift Hound
+- War Hound
 - Ruin Vanguard Pursuer — concealed Seyrik Rell
 - Riftmaw
 - Convoy War-Sorcerer
