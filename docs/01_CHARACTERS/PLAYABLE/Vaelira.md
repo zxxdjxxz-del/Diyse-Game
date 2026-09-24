@@ -323,6 +323,18 @@ Primary modes:
 
 ### Profanity progression
 
+**Long-form calibration:** roughly **5–8% of Vaelira's spoken lines contain real profanity across a sufficiently large full-game corpus, with ~6% as the center target. This is not a quota.**
+
+Progression matters more than the aggregate:
+- **initial / Chapter 4 ordinary speech:** roughly **0–1%**, with real profanity almost entirely limited to genuine fear, anger, shock, horror, or overwhelm breaking composure;
+- **developing trust:** roughly **2–5%** when viewed across a sufficiently large dialogue set;
+- **established trust:** roughly **5–8%**;
+- **late stable register:** roughly **6–10%** depending on scene mix, with clean speech still fully active.
+
+These bands measure **spoken lines containing real profanity**, not the number of swear words. Clean substitutes such as `darn`, `shoot`, `heck`, or `jerk` do not count as profanity for calibration.
+
+A single frightened scene may run much dirtier than the current stage and a long calm scene may contain none. Do not insert profanity mechanically to satisfy a percentage.
+
 Vaelira's **initial spoken register is deliberately clean**.
 
 Early on, when she has control of herself, she does **not** use ordinary hard profanity. Her clean register is broad enough that she should not sound as though she only knows `darn` and `heck`.
