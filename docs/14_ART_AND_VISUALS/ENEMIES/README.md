@@ -24,6 +24,6 @@ Currently locked:
 4. War Hound
 5. Ruin Vanguard Pursuer / concealed Seyrik
 6. Convoy War-Sorcerer
+7. Riftmaw
 
-Still awaiting exact image lock:
-- Riftmaw
+**Chapter 0 exact visual set: COMPLETE — 7/7 locked.**
