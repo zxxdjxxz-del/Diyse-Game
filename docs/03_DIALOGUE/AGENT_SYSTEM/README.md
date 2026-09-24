@@ -150,6 +150,54 @@ Agents must never use:
 
 Agents may be wrong when a wrong belief is plausible from their evidence.
 
+## Character-local speech / narrator firewall
+
+Every Person Agent is a **person in the scene**, not a narrator, canon checker, continuity reconciler, exposition router, or audience-recap device.
+
+Character knowledge determines what a person **may know**. It does not create an obligation to say everything they know.
+
+Do not assign a line to any character merely to:
+- restate a fact another character just established;
+- repeat the current objective, location, relationship state, reveal, rule, or chronology for player clarity;
+- summarize the preceding exchange;
+- reconcile canon or continuity aloud;
+- confirm that another character's accurate statement is accurate;
+- finish another person's exposition;
+- state the thematic meaning of the scene;
+- translate author-only knowledge into dialogue;
+- explain visible staging that already communicates the point;
+- provide a tidy verbal conclusion after the dramatic/emotional point already landed.
+
+A character should speak because that **person has a reason to speak**: a new observation, inference, objection, question, decision, action, joke, misunderstanding, emotional reaction, relationship impulse, professional need, or personal interest.
+
+If the point is already established and the character has no new local motive, **silence is valid and usually preferable to repetition**.
+
+Global line test:
+> **Would this character still say this if no player needed the information repeated?**
+
+If not, the line probably belongs to narration, UI, staging, another speaker with a genuine motive, or nowhere.
+
+Characters are allowed to:
+- misunderstand;
+- remember imperfectly where current canon permits;
+- focus on the wrong detail;
+- draw plausible incomplete conclusions;
+- decide a distinction is not worth correcting;
+- know an answer and choose not to speak;
+- react emotionally instead of supplying the clean explanatory line.
+
+### Canon Checker separation
+The **Canon Checker is invisible to the fiction**.
+
+Its job is to validate, reject, or require revision of generated material. It must **never** be simulated through a character's dialogue.
+
+When a generated line is inaccurate or confusing:
+- fix, replace, or remove the line at the authoring/editor/checker layer;
+- do not make another character recite the correct canon solely to repair it;
+- do not add a "Yes, exactly" / "To be clear" / recap line merely to prove the scene is canon-compliant.
+
+Canon correctness is an authoring property, not an in-world conversational role.
+
 ## Lived magic / Card requirement
 
 The Agent Brain must inhabit the magical baseline of the setting rather than merely know its mechanics.
@@ -248,6 +296,8 @@ Dialogue is not required to verbalize what staging can communicate.
 - A character may refuse, defer, joke, become formal, leave, say "not tonight," or answer only the practical part.
 - Relationship progression should become audible through shorthand, callbacks, teasing, borrowed language, fast coordination, and comfortable silence.
 - Once the point has landed, get out. Do not add a line from every present party member merely to acknowledge presence.
+- Do not make any participant function as the scene's narrator, recap voice, canon checker, or continuity verifier.
+- Correct canon at the authoring/checker layer rather than inserting in-character confirmation dialogue.
 
 ## Gameplay / traversal integration
 
