@@ -7,7 +7,7 @@ lives under game/content/dialogue/current/ and is the game-facing wording mirror
 The compiler is intentionally strict:
 - current atomics are the only spoken-wording authority;
 - speaker labels must be ALL-CAPS inline Markdown dialogue labels;
-- all 2,038 current spoken lines must compile in exact order and wording;
+- all current spoken lines must compile in exact order and wording;
 - generated Resources embed source/spoken hashes;
 - legacy S001-S021 Resources are not used as input.
 """
@@ -26,7 +26,7 @@ from typing import Any
 ROOT = Path(__file__).resolve().parents[2]
 PROD = ROOT / "docs/03_DIALOGUE/PRODUCTION"
 OUT_ROOT = ROOT / "game/content/dialogue/current"
-EXPECTED_TOTAL_SPOKEN = 2038
+EXPECTED_TOTAL_SPOKEN = 2035
 
 DIALOGUE_RE = re.compile(r"^\*\*([^*\n]+):\*\*\s*(.*)$")
 HEADING_RE = re.compile(r"^(#{1,6})\s+(.+?)\s*$")
@@ -219,19 +219,10 @@ def scene_mode(scene: SceneSource, source_text: str) -> tuple[str, bool, dict[st
             {"during_scene": "not_applicable", "after_scene": "not_applicable"},
             {"control_mode": "hub"},
         )
-    low = source_text.casefold()
-    walking = (
-        "walking-dialogue lock" in low
-        or "[guided traversal dialogue" in low
-        or "walking dialogue" in low
-    )
-    if walking:
-        return (
-            "walking_or_traversal_dialogue",
-            False,
-            {"during_scene": "preserve", "after_scene": "continue_existing_state"},
-            {"control_mode": "exploration"},
-        )
+    # Dialogue never runs during player-controlled traversal. Route dialogue must
+    # already be authored as a stop scene before it reaches the runtime compiler.
+    # Active combat likewise never hosts spoken dialogue; pre/post battle scenes
+    # compile as ordinary authored stop scenes.
     return (
         "full_authored_stop_scene",
         True,
