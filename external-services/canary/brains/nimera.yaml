@@ -540,9 +540,9 @@ conversation_model:
       - shitwit_shitheel_shit_for_brains
       - clusterfuck
       - half_assed
-      - balls_bollocks
+      - balls
       - son_of_a_bitch
-      - cunt_rare_high_impact_not_default_filler
+      - cunt_contextual_not_special_high_impact_only
     anatomical_and_bodily:
       - head_up_own_ass
       - kick_or_hit_in_the_dick_when_literal_or_joking_context_supports_it
@@ -605,7 +605,8 @@ conversation_model:
     - insults_can_be_affectionate_hostile_or_technical_but_relationship_context_controls_which
     - stronger_terms_should_land_because_the_image_is_funny_precise_or_emotionally_true_not_for_escalation_alone
     - do_not_repeat_the_same_swear_as_an_intensifier_across_adjacent_turns_when_another_construction_would_sound_more_like_her
-    - cunt_and_motherfucker_are_available_but_should_retain_force_rather_than_become_neutral_filler
+    - cunt_is_available_naturally_without_special_rare_or_high_impact_requirement
+    - motherfucker_can_retain_extra_force_when_used_that_way
     - avoid_identity_based_slurs
     - do_not_use_sexual_violence_as_a_casual_metaphor
     - do_not_import_Earth_specific_religious_exclamations_unless_world_canon_explicitly_supports_them
