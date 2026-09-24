@@ -1,11 +1,14 @@
-# Convoy Rift Hound
+# War Hound
 
 **Chapter:** 0 — Broken Convoy  
 **Status:** **POWER COMPLETE / RAW BODY AUTHORED**
 
-This is the exact Chapter-0 hound identity named in line-complete S002.
+## Identity correction — 2026-09-23
+**Current identity:** **War Hound**
 
-It is not silently replaced by the later generic Rift Hound body.
+The old filename is retained temporarily as a compatibility path only. Chapter 0 does **not** use a Rift Hound. Rift Hounds belong later.
+
+The existing raw body is retained provisionally until the later balance pass, but Rift-coded action naming/typing is **not current visual/identity canon** and requires a dedicated action-kit cleanup before final mechanical closure.
 
 ## Body
 | Lv | HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR |
@@ -37,10 +40,10 @@ It is not silently replaced by the later generic Rift Hound body.
 No harmful-status rider in Chapter 0.
 
 ## Chapter-0 placement lock
-Convoy Rift Hound appears in Chapter 0 in three authored uses:
-- P01 Hound Rush — **2 Convoy Rift Hounds**;
-- P02 Wreck Field Mixed Pressure — **1 Convoy Rift Hound + 1 Black Host Crossbowman**;
-- P02 Survivor-Route Hound — **1 Convoy Rift Hound**.
+War Hound appears in Chapter 0 in three authored uses:
+- P01 Hound Rush — **2 War Hounds**;
+- P02 Wreck Field Mixed Pressure — **1 War Hound + 1 Black Host Crossbowman**;
+- P02 Survivor-Route Hound — **1 War Hound**.
 
 Do not add:
 - Beast Handler;
@@ -59,3 +62,29 @@ Current locked Chapter-0 appearance:
 > `../../14_ART_AND_VISUALS/ENEMIES/CHAPTER_00_ENEMY_VISUAL_AUTHORITY.md`
 
 Combat/encounter mechanics remain owned by this file; visual identity is owned by the art-domain authority above.
+
+
+## Exact current visual master
+**Status:** **LOCKED EXACT VISUAL — 2026-09-23**
+
+Approved War Hound render:
+- image-generation ID: `66068793-484e-4f4d-a703-6657d5041c44`
+- SHA-256: `2108a1cd66d42512342c96f4cf02787d0a06aee20410145ff20c77bfbeec192a`
+- dimensions: **1155 × 1362**
+- presentation: clean white-background DIYSE B00/B00.5-style individual enemy reference
+
+Locked appearance:
+- natural pitbull-type war dog;
+- very muscular, broad, low, powerful build;
+- black / very dark charcoal short coat;
+- limited dirty white markings on muzzle, chest, and lower paws;
+- healed battle scars;
+- vicious trained-war-dog expression;
+- simplified black harness with restrained crimson accents and worn metal hardware;
+- no Rift mutation;
+- no supernatural glow;
+- no magical eyes;
+- no wolf-like long fur.
+
+Visual authority:
+> `../../14_ART_AND_VISUALS/ENEMIES/CHAPTER_00_ENEMY_VISUAL_AUTHORITY.md`
