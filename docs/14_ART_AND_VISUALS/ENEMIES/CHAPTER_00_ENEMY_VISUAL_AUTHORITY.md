@@ -1,6 +1,6 @@
 # Diyse — Chapter 0 Enemy Visual Authority
 
-**Status:** **LOCKED CURRENT VISUAL CANON — 2026-09-22**  
+**Status:** **LOCKED CURRENT VISUAL CANON — 2026-09-24**  
 **Chapter:** 0 — The Broken Convoy  
 **Rendering authority:** `../DIYSE_VISUAL_STYLE_CANON.md`  
 **Faction visual authority:** `../ENVIRONMENTS/BLACK_HOST_VISUAL_LANGUAGE.md`  
@@ -919,6 +919,41 @@ Highest-command purple luminous channels are **not represented by any Chapter-0 
 ---
 
 # Riftmaw
+
+## Exact approved Riftmaw visual master
+
+**Status:** **LOCKED EXACT VISUAL — 2026-09-24**
+
+Approved render:
+- image-generation ID: `425bdff5-41bd-4c2e-90b8-34c58c06ad00`
+- approved file SHA-256: `0d7058da574b838a22ab5a1835278eff0e2ab3e60f13ff62a9df37687f0e3dd1`
+- dimensions: **1122 × 1402**
+- presentation: clean white-background B00/B00.5-style full-body creature reference
+
+This exact approved render is the authoritative Chapter-0 Riftmaw appearance and overrides earlier prose where incidental details differ.
+
+Locked visual details:
+- enormous low quadrupedal Black Host war-beast;
+- extremely broad shoulders and forequarters;
+- thick black / dark-charcoal hide;
+- massive front paws and heavy claws;
+- **vertical split maw dominates the entire head and silhouette**;
+- multiple rows of large uneven teeth;
+- small intense eyes remain visible to either side of the maw;
+- restrained deep red-violet Rift coloration is confined mainly to the inner maw/fissures;
+- Black Host handling is shown through practical dark restraint harness, rings, straps, chains, and bolted fittings;
+- rough scars and wear keep the beast battle-used rather than ceremonial;
+- armor/hardware remains utility-first rather than decorative;
+- creature is a living war-beast, not a humanoid, dragon, construct, undead creature, or amorphous demon.
+
+Do not:
+- reduce the mouth to an ordinary animal jaw;
+- add humanoid armor or a rider;
+- make the beast upright/bipedal;
+- add ornate commander armor;
+- cover the body in luminous channels;
+- make the Rift glow dominate the exterior surface;
+- turn it into a giant War Hound clone.
 
 ## Core visual identity
 Large Black Host war-beast boss: a heavy rift predator more extreme than the Hounds and visually suitable for the Chapter-0 climax.
