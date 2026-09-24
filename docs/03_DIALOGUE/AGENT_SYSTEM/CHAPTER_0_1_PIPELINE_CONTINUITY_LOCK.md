@@ -21,7 +21,7 @@ Do not revert later chapters to the older simplified dialogue-agent method, a ge
 6. **Spoken-dialogue vs narration audit** — test every surviving explanatory line against `SPOKEN_DIALOGUE_VS_NARRATION_LOCK.md`. Remove, compress, or reassign dialogue that merely repeats visible staging, restates a report the room has already heard, replays earlier exposition for the player, verbalizes production intent, or turns an authority figure into a narrator. New-listener briefings must carry only what that listener needs and allow the listener to pull further detail through character-driven questions. Evidence owners may still explain conclusions only they can responsibly make.
 7. **Economical HD-2D staging / implementation pass** — translate the surviving dialogue into the established field, portrait, dialogue-box, battle, and traversal presentation without inventing unnecessary cinematic choreography. Dialogue-box pagination does not define when a conversational turn ends.
 
-`REHEARSAL_FIRST_AUTHORING_LOCK.md`, `NATURAL_TURN_LENGTH_AND_FLOOR_HOLDING_LOCK.md`, `MATURE_ADULT_SPEECH_AND_PROFANITY_LOCK.md`, `SPOKEN_DIALOGUE_VS_NARRATION_LOCK.md`, `KNOWLEDGE_FIREWALL_INVISIBILITY_RULE.md`, `README.md`, `RUNTIME_ORCHESTRATION.md`, and other current Agent System locks remain binding parts of this workflow.
+`REHEARSAL_FIRST_AUTHORING_LOCK.md`, `NATURAL_TURN_LENGTH_AND_FLOOR_HOLDING_LOCK.md`, `MATURE_ADULT_SPEECH_AND_PROFANITY_LOCK.md`, `SPOKEN_DIALOGUE_VS_NARRATION_LOCK.md`, `README.md`, `RUNTIME_ORCHESTRATION.md`, and other current Agent System locks remain binding parts of this workflow.
 
 ## Natural-turn correction
 
