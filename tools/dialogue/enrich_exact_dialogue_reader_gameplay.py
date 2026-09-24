@@ -32,13 +32,13 @@ BRIDGES = (
     ("Cyanis Solo", "Opening Ambush", (
         "Combat 1 — Cyanis solo: Black Host Raider + Black Host Crossbowman.",
         "Combat 2 — Cyanis solo: Black Host Raider + Ruin Shieldbearer.",
-        "Combat 3 — Cyanis solo: 2 Convoy Rift Hounds.",
+        "Combat 3 — Cyanis solo: 2 War Hounds.",
         "Chapter 0 uses authored/tutorial encounters rather than the normal random-encounter cadence.",
-    ), CH0, ("Black Host Raider", "Black Host Crossbowman", "Ruin Shieldbearer", "2 Convoy Rift Hounds")),
+    ), CH0, ("Black Host Raider", "Black Host Crossbowman", "Ruin Shieldbearer", "2 War Hounds")),
     ("Hound Pressure", "Wreck Field", (
-        "Combat 4 — Cyanis solo: Black Host Crossbowman + Convoy Rift Hound.",
-        "Combat 5 — Cyanis solo: one lone Convoy Rift Hound threatening the survivor route.",
-    ), CH0, ("Black Host Crossbowman + Convoy Rift Hound", "one lone Convoy Rift Hound")),
+        "Combat 4 — Cyanis solo: Black Host Crossbowman + War Hound.",
+        "Combat 5 — Cyanis solo: one lone War Hound threatening the survivor route.",
+    ), CH0, ("Black Host Crossbowman + War Hound", "1 War Hound")),
     ("The Pursuer", "Concealed Ruin Vanguard", (
         "Combat party: Cyanis + Ilyra.",
         "Enemy: Ruin Vanguard Pursuer. The pursuer's identity remains unknown to the party.",
