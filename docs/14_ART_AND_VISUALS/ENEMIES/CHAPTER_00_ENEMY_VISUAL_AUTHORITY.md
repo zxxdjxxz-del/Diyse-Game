@@ -610,6 +610,38 @@ Underlying identity:
 
 Seyrik's current repository character master remains the authority for his actual face, build, armor identity, palette, and signature weapon. Chapter 0 changes only **presentation/concealment**, not his true appearance.
 
+## Exact approved Ruin Vanguard Pursuer visual master
+
+**Status:** **LOCKED EXACT VISUAL — 2026-09-24**
+
+Approved uploaded render:
+- source file: `1000030142.png`
+- approved file SHA-256: `c6ea82c58c628679536447fd6a55b00d306651f99a39599fba4124262d7aa011`
+- dimensions: **1287 × 1536**
+- presentation: clean white-background B00/B00.5-style full-body reference
+
+This exact uploaded image is the authoritative Chapter-0 **Ruin Vanguard Pursuer / concealed Seyrik** appearance.
+
+Locked concealment treatment:
+- Seyrik's established armor/body design remains intact rather than being redesigned;
+- lower face is concealed by the approved black half-mask;
+- the mask extends over the mask-side eye enough to conceal that eye;
+- one restrained Entity-derived horn/crest rises from the masked side;
+- correct blond hair remains visible;
+- the opposite eye / upper face remains partially visible;
+- oversized greatsword remains part of the silhouette;
+- no glow;
+- no purple channels;
+- no commander-tier redesign.
+
+Do not:
+- replace this with a full helmet;
+- expose both eyes clearly;
+- enlarge the horn into a crown;
+- alter Seyrik's established armor family;
+- add luminous channels or Entity-core effects;
+- make the Chapter-0 presentation a different person or armor set.
+
 ## Core visual identity
 Terrifying elite Ruin Vanguard whose exact identity is obscured, but who should retrospectively feel unmistakably consistent with Seyrik.
 
