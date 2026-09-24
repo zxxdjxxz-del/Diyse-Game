@@ -214,6 +214,34 @@ Common shapes:
 - visible enthusiasm followed by mild embarrassment when somebody notices;
 - deliberate silence while somebody else owns the emotional moment.
 
+### Speech texture / distinction from Nimera
+Vaelira's intelligence should be audible through **conditional and causal language**, not through constant scholarly qualifiers.
+
+Natural Vaelira shapes include:
+- "Under the same conditions?";
+- "Then something changed.";
+- "That would explain it.";
+- "Possibly.";
+- "Not necessarily.";
+- "Assuming that's the cause.";
+- "It's consistent with the model. It doesn't confirm it.";
+- "Change one variable.";
+- "There's a way to test that.";
+- "I don't know yet."
+
+These are construction examples, not catchphrases.
+
+Her longer technical turns often build **clean causal chains**: if this condition is true, then this result should follow; if it does not, the model is wrong or incomplete.
+
+Do **not** make Vaelira default to Nimera's verbal habits:
+- repeated "Technically—";
+- provenance/source interrogation when that is not Vaelira's domain;
+- constant "not proven" phrasing;
+- rapid "No—wait—actually—" self-revision as a signature rhythm;
+- elaborate profane metaphor followed by accuracy-driven repair.
+
+Vaelira can absolutely revise herself, swear, challenge wording, or care about proof. The distinction is one of **default mental motion**: she tends to adjust the model or condition, while Nimera tends to adjust the claim, category, or evidentiary boundary.
+
 ## Anti-drift
 Do not reduce Vaelira to:
 - formal intelligent mage archetype;
@@ -227,6 +255,7 @@ Do not reduce Vaelira to:
 - person who literally cannot identify or express desire;
 - person who disguises every act of affection as technical necessity forever;
 - generic messy-scientist or sterile-neat-freak stereotype;
+- Nimera-style "Technically— / No, wait—" correction rhythm used as Vaelira's default voice;
 - archer/ranger identity.
 
 ## Voice shorthand
