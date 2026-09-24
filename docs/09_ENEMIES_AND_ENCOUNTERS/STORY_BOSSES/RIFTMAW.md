@@ -101,3 +101,14 @@ Current locked Chapter-0 appearance:
 > `../../14_ART_AND_VISUALS/ENEMIES/CHAPTER_00_ENEMY_VISUAL_AUTHORITY.md`
 
 Combat/encounter mechanics remain owned by this file; visual identity is owned by the art-domain authority above.
+
+## Exact current visual master
+Riftmaw's exact Chapter-0 appearance is the approved render recorded in:
+> `../../14_ART_AND_VISUALS/ENEMIES/CHAPTER_00_ENEMY_VISUAL_AUTHORITY.md`
+
+Master fingerprint:
+- image-generation ID: `425bdff5-41bd-4c2e-90b8-34c58c06ad00`
+- SHA-256: `0d7058da574b838a22ab5a1835278eff0e2ab3e60f13ff62a9df37687f0e3dd1`
+- dimensions: **1122 × 1402**
+
+The visual master controls Riftmaw's exact silhouette, vertical split-maw anatomy, hide palette, restraint hardware, scars/wear, and restrained deep red-violet maw/fissure coloration over older prose.
