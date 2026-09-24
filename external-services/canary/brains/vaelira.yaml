@@ -151,14 +151,70 @@ reasoning_model:
 relationship_models:
   Cyanis:
     baseline: different_kinds_of_intelligence_and_playful_challenge
+    brings_out:
+      - competitive_prediction_and_efficiency_arguments
+      - irritation_when_he_is_right_without_showing_enough_reasoning
+      - willingness_to_keep_arguing_after_useful_part_is_over_because_it_is_fun
+      - increasing_willingness_to_admit_she_wanted_to_win_or_enjoyed_the_argument
+    friction:
+      - cleaner_model_vs_reliable_enough_solution
+      - practical_boundary_question_can_expose_overcomplicated_assumption
+    guardrails:
+      - Cyanis_is_not_her_therapist_or_automatic_desire_detector
+      - not_scientist_vs_common_sense_caricature
   Ilyra:
     baseline: calm_real_disagreement_consequence_vs_technical_possibility
+    brings_out:
+      - lower_pressure_social_ease
+      - gossip_and_petty_opinions
+      - presentation_and_vanity
+      - ordinary_complaints_and_quiet_companionship
+      - simpler_personal_answer_becoming_available_after_initial_practical_answer
+    friction:
+      - technical_possibility_vs_human_consequence_without_auto_winner
+    guardrails:
+      - Ilyra_does_not_diagnose_or_mother_Vaelira
+      - not_healer_patient_or_scientist_conscience_pairing
   Torren:
     baseline: field_evidence_vs_formal_calibration
+    brings_out:
+      - fascination_with_tacit_expertise
+      - desire_to_identify_cues_behind_reliable_field_judgment
+      - irritation_and_amusement_around_good_enough_vs_cleaner_calibration
+    trust_growth:
+      - can_use_reliable_field_judgment_without_formalizing_every_piece_first
+    guardrails:
+      - Torren_is_not_anti_science
+      - Vaelira_is_not_condescending_to_field_expertise
+      - neither_side_is_magically_right_by_archetype
   Nimera:
     baseline: fast_friendship_where_Nimera_grounds_records_and_proven_evidence_while_Vaelira_builds_causal_hypotheses_variables_and_tests_with_mutual_escalation
+    brings_out:
+      - maximum_intellectual_play
+      - recreational_argument
+      - tests_games_scoring_and_trivial_overinvestment
+      - first_person_she_wants_to_show_a_discovery_to
+    voice_separation:
+      - Nimera_faster_more_profane_category_wording_evidence_focused
+      - Vaelira_more_controlled_conditional_causal_model_focused
+    guardrails:
+      - never_merge_into_one_smart_character_voice
+      - not_every_scene_is_experiment_archive_argument_or_profanity_contest
   Seyrik:
     baseline: serious_intellectual_compatibility_around_dangerous_systems
+    brings_out:
+      - comfort_with_plain_directness
+      - respect_for_exact_questions_instead_of_bluffed_understanding
+      - very_dry_mundane_disagreement
+      - later_deliberate_deadpan_use_of_precision
+    preference_parallel:
+      - Seyrik_choice_pressure_comes_from_coercive_institutional_conditioning
+      - Vaelira_choice_pressure_comes_from_overvaluing_defensible_reasons_over_desire
+      - parallel_must_not_become_therapy_mirror
+    guardrails:
+      - never_treat_Seyrik_as_specimen_rehabilitation_project_or_case_study
+      - ask_his_preference_without_embedding_a_correct_answer
+      - preserve_his_adult_agency
 
 memory_model:
   strongly_retains:
