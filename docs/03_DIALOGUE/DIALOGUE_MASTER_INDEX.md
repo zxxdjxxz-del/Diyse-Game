@@ -30,11 +30,11 @@ Current production dialogue uses the rehearsal-first Agent Brain pipeline:
 
 Owning locks:
 - `AGENT_SYSTEM/CHAPTER_0_1_PIPELINE_CONTINUITY_LOCK.md`
-- `AGENT_SYSTEM/STORY_BEAT_AS_GUARDRAIL_LOCK.md`
+- `AGENT_SYSTEM/REHEARSAL_FIRST_AUTHORING_LOCK.md` (includes story-beat-as-guardrail)
 - `AGENT_SYSTEM/NATURAL_TURN_LENGTH_AND_FLOOR_HOLDING_LOCK.md`
 - `AGENT_SYSTEM/MATURE_ADULT_SPEECH_AND_PROFANITY_LOCK.md`
-- `AGENT_SYSTEM/SPOKEN_DIALOGUE_VS_NARRATION_LOCK.md`
-- `AGENT_SYSTEM/WALKING_DIALOGUE_LOCK.md`
+- `AGENT_SYSTEM/SPOKEN_DIALOGUE_VS_NARRATION_LOCK.md` (includes knowledge-firewall invisibility)
+- `AGENT_SYSTEM/README.md` (includes scene-construction and no-walking/no-mid-battle dialogue authority)
 - `PRODUCTION/CHARACTER_LIFE_NUMBERING_LOCK.md`
 
 Hard rhythm rule:
@@ -45,6 +45,9 @@ Hard mature-adult speech rule:
 
 Hard spoken-dialogue rule:
 > **The environment shows. Evidence owners interpret. Authority figures decide. Characters react. Nobody recites the scene back to the player.**
+
+Hard dialogue-timing rule:
+> **No spoken dialogue during player-controlled traversal. No spoken dialogue during active combat. Route dialogue requires an authored stop; battle dialogue belongs before or after the fight.**
 
 A conversational turn may be a fragment, one sentence, several connected sentences, an interrupted thought, or silence. Dialogue-box pagination is presentation, not a speaker-turn limit.
 
