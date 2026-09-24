@@ -7,12 +7,10 @@ const ALLOWED_ACTIVE_SIDES := ["left", "right", "none"]
 const ALLOWED_ADVANCE_MODES := ["manual"]
 const ALLOWED_SCENE_MODES := [
 	"full_authored_stop_scene",
-	"walking_or_traversal_dialogue",
 	"post_battle_reaction",
 	"story_bearing_cell",
 	"character_life_hub_camp",
 	"boss_threshold",
-	"story_combat_pause",
 	"microbeat_or_defer",
 ]
 const ALLOWED_DIALOGUE_READINESS := ["GREEN", "AMBER", "RED"]
@@ -66,6 +64,8 @@ func validate_schema(registry: DiyseDialoguePortraitRegistry = null) -> Array[St
 		failures.append("completion_flag is required")
 	if scene_mode not in ALLOWED_SCENE_MODES:
 		failures.append("Unsupported scene_mode: %s" % scene_mode)
+	if not movement_lock:
+		failures.append("Dialogue scenes require movement_lock; walking/traversal dialogue is not supported")
 	if dialogue_readiness not in ALLOWED_DIALOGUE_READINESS:
 		failures.append("Unsupported dialogue_readiness: %s" % dialogue_readiness)
 	if production_cost_tier not in ALLOWED_PRODUCTION_COST_TIERS:
