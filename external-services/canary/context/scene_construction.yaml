@@ -143,6 +143,16 @@ area_design_interface:
       - avoid_ordinary_long_dialogue
 
 performance_contract:
+  character_local_speech:
+    - every_line_must_have_speaker_motive_beyond_player_information_need
+    - character_knowledge_is_permission_not_obligation_to_explain
+    - do_not_restate_established_fact_without_new_personal_reason
+    - do_not_use_character_as_narrator_recap_voice_canon_checker_or_continuity_reconciler
+    - do_not_confirm_another_speakers_correctness_by_default
+    - do_not_explain_what_staging_or_ui_already_makes_clear
+    - if_point_has_landed_and_no_new_motive_prefer_silence
+    - canon_checker_repairs_generation_behind_the_scenes_not_through_character_dialogue
+    - line_test_would_speaker_still_say_it_if_player_already_remembered_fact
   mature_adult_naturalism:
     - spoken_not_written
     - interruptions_allowed
@@ -222,3 +232,9 @@ anti_patterns:
   - stock_anime_reactions
   - expensive_bespoke_animation_for_routine_scene
   - making_map_size_or_runtime_numbers_canon_from_research_only_guidance
+  - character_used_as_narrator
+  - character_used_as_recap_machine
+  - character_used_as_canon_checker
+  - character_used_as_continuity_reconciler
+  - redundant_correctness_confirmation
+  - repeated_fact_for_player_clarity_without_character_motive
