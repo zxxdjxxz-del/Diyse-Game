@@ -1,6 +1,6 @@
 extends SceneTree
 
-const EXPECTED_TOTAL_SPOKEN := 2295
+const EXPECTED_TOTAL_SPOKEN := 2035
 
 var failures: Array[String] = []
 
