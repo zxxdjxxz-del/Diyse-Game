@@ -372,7 +372,8 @@ rules, candidate provenance, and Dialogue Engine craft rules.
 PASS requires:
 - no future/author-only knowledge leak;
 - no private memory transfer without authorization;
-- every memory_refs entry used by a persistent candidate must be present in that candidate's memory_authorization_audit;
+- every memory_refs entry used by a persistent candidate must be an exact authorized memory_id present in that candidate's memory_authorization_audit;
+- a candidate with memory_authorization mode none must not cite or rely on persistent story memory;
 - no claim/inference/suspicion/assumption/misunderstanding is silently upgraded to fact;
 - relationship behavior must fit the supplied relationship runtime dimensions;
 - scene-local motives must be plausible and not merely restatements of permanent traits;
