@@ -161,6 +161,7 @@ class SceneBuildRequest(BaseModel):
     canon_snapshot_id: str
     participants: list[str]
     participant_profiles: dict[str, dict[str, Any]] = Field(default_factory=dict)
+    person_runtime_contexts: dict[str, dict[str, Any]] = Field(default_factory=dict)
     scene_purpose: str
     authority_packet: dict[str, Any] = Field(default_factory=dict)
     scene_context: dict[str, Any] = Field(default_factory=dict)
@@ -197,6 +198,14 @@ Synthesize simultaneously:
 Diyse authoring mnemonic:
 Talk like people. React like anime characters. Time jokes like a comedy. Structure important scenes
 like a great RPG. Remember they are living through a war. Let ordinary life exist when the context earns it.
+
+Reliability rules:
+- hard current context outranks retrieval and model inference;
+- person_runtime_contexts contain per-character relationship/epistemic/memory/motive constraints when supplied;
+- persistent memory must be authorized before it is relevant;
+- do not plan a callback or relationship behavior that the corresponding person runtime context does not permit;
+- epistemic states must remain distinct: suspicion/inference/claim is not fact;
+- a permanent trait does not automatically create a scene motive.
 
 Hard rules:
 - no player dialogue choices;
@@ -251,7 +260,13 @@ You are a scene-bound Diyse Person Agent for the named character.
 
 The supplied participant_profile is current character authority for this scene. Treat it as a person,
 not a list of traits to recite. Use only that profile, supplied authority/story position, shared Diyse
-world/economy/dialogue/scene context, allowed information transfers, and observable scene history.
+world/economy/dialogue/scene context, allowed information transfers, observable scene history, and the
+supplied person_runtime_context.
+
+The person_runtime_context is the scene-local reliability layer. Hard context is injected rather than
+guessed. Treat memory authorization as a hard gate. Preserve epistemic labels rather than upgrading an
+inference, suspicion, claim, assumption, or misunderstanding into fact. Relationship dimensions may
+progress independently, and scene-local motive should outrank generic trait recitation.
 
 Performance:
 - mature adult speech appropriate to the specific person;
@@ -321,6 +336,10 @@ rules, candidate provenance, and Dialogue Engine craft rules.
 PASS requires:
 - no future/author-only knowledge leak;
 - no private memory transfer without authorization;
+- every memory_refs entry used by a persistent candidate must be present in that candidate's memory_authorization_audit;
+- no claim/inference/suspicion/assumption/misunderstanding is silently upgraded to fact;
+- relationship behavior must fit the supplied relationship runtime dimensions;
+- scene-local motives must be plausible and not merely restatements of permanent traits;
 - no stale/conflicting terminology when current authority is supplied;
 - no invented fixed local facts, prices, wages, route conditions, shortages, preferences or lore;
 - required exact-line anchors appear verbatim from the required speaker;
@@ -339,8 +358,13 @@ Do not silently rewrite a failed scene. Report failure for regeneration.
 
 For PASS, produce conservative durable-memory ledgers only for the persistent_agent_ids supplied.
 A character only receives memories they could plausibly observe/learn. Do not store every line.
+Each new durable memory should include, where applicable:
+memory_type, source_scene_id, source_story_position, acquisition_mode, people_present,
+privacy_visibility_scope, epistemic_status_at_acquisition, current_epistemic_status,
+relationships_involved, emotional_salience, practical_salience, and open_thread linkage.
+Corrections should preserve prior-belief history rather than silently rewriting it.
 Profile-only participants may receive memory proposals separately, but they are not automatically committed.
-Do not propose whole-state replacement.
+Do not propose whole-state replacement or automatically advance trust/intimacy/forgiveness.
 
 Return JSON only:
 {
@@ -386,6 +410,54 @@ def normalized_participants(req: SceneBuildRequest) -> tuple[list[str], dict[str
             },
         )
     return participants, profiles
+
+
+def normalized_person_runtime_contexts(
+    req: SceneBuildRequest,
+    participants: list[str],
+) -> dict[str, dict[str, Any]]:
+    result: dict[str, dict[str, Any]] = {}
+    participant_set = set(participants)
+
+    for raw_id, raw_context in req.person_runtime_contexts.items():
+        cid = normalize_id(raw_id)
+        if cid not in participant_set:
+            raise HTTPException(
+                400,
+                detail={
+                    "error": "person_runtime_context_for_nonparticipant",
+                    "character_id": cid,
+                },
+            )
+        if not isinstance(raw_context, dict):
+            raise HTTPException(
+                400,
+                detail={
+                    "error": "person_runtime_context_must_be_object",
+                    "character_id": cid,
+                },
+            )
+        result[cid] = dict(raw_context)
+
+    for cid in participants:
+        context = result.setdefault(cid, {})
+        context.setdefault(
+            "hard_context",
+            {
+                "scene_id": req.scene_id,
+                "story_position": req.story_position,
+                "canon_snapshot_id": req.canon_snapshot_id,
+                "participant_id": cid,
+                "participants": participants,
+            },
+        )
+        context.setdefault("relationship_runtime_state", {})
+        context.setdefault("epistemic_state", {})
+        context.setdefault("scene_local_state", {})
+        context.setdefault("open_threads", [])
+        context.setdefault("memory_authorization", {"mode": "none"})
+
+    return result
 
 
 def profile_person_view(profile: dict[str, Any]) -> dict[str, Any]:
@@ -552,6 +624,7 @@ async def build_scene(
         raise HTTPException(409, "Canon snapshot mismatch.")
 
     participants, profiles = normalized_participants(req)
+    person_runtime_contexts = normalized_person_runtime_contexts(req, participants)
     anchors = validate_anchors(req.exact_line_anchors, participants)
     persistent_ids = [cid for cid in participants if cid in AGENT_URLS]
     profile_only_ids = [cid for cid in participants if cid not in AGENT_URLS]
@@ -566,6 +639,7 @@ async def build_scene(
         **req.model_dump(),
         "participants": participants,
         "participant_profiles": profiles,
+        "person_runtime_contexts": person_runtime_contexts,
         "persistent_agent_ids": persistent_ids,
         "profile_only_ids": profile_only_ids,
         "exact_line_anchors": anchors,
@@ -636,6 +710,7 @@ async def build_scene(
                     "scene_context": scene_context,
                     "current_floor_state": req.current_floor_state,
                     "allowed_information_transfers": req.allowed_information_transfers,
+                    "person_runtime_context": person_runtime_contexts.get(cid, {}),
                 }
                 return cid, "persistent", await agent_request(cid, "POST", "/v1/turn", payload)
 
@@ -648,6 +723,7 @@ async def build_scene(
                 "scene_context": scene_context,
                 "current_floor_state": req.current_floor_state,
                 "allowed_information_transfers": req.allowed_information_transfers,
+                "person_runtime_context": person_runtime_contexts.get(cid, {}),
                 "shared_context": SHARED_CONTEXT,
             }
             return cid, "profile", await model_json(PROFILE_AGENT_PROMPT, profile_payload)
@@ -672,6 +748,7 @@ async def build_scene(
             "authority_packet": req.authority_packet,
             "participants": participants,
             "participant_profiles": profiles,
+            "person_runtime_contexts": person_runtime_contexts,
             "scene_context": req.scene_context,
             "director_plan": director_plan,
             "beat_target": beat_target,
@@ -694,6 +771,7 @@ async def build_scene(
         "authority_packet": req.authority_packet,
         "participants": participants,
         "participant_profiles": profiles,
+        "person_runtime_contexts": person_runtime_contexts,
         "persistent_agent_ids": persistent_ids,
         "profile_only_ids": profile_only_ids,
         "allowed_information_transfers": req.allowed_information_transfers,
@@ -737,6 +815,7 @@ async def build_scene(
             cid: "persistent" if cid in persistent_ids else "profile"
             for cid in participants
         },
+        "person_runtime_contexts": person_runtime_contexts,
         "agent_snapshots": agent_snapshots,
         "expected_previous_revisions": {
             cid: str(snapshot.get("story_revision", "0"))
