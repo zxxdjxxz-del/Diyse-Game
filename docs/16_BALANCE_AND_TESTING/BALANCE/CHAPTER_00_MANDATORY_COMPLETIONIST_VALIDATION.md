@@ -19,7 +19,7 @@ Current authored combat order:
 
 **After Ilyra joins**
 6. Ruin Vanguard Pursuer / concealed Seyrik — protected disengagement;
-7. Riftmaw + Convoy War-Sorcerer — one combined final boss encounter with the current three-round second-flare protection.
+7. Riftmaw + Battle Sorcerer — one combined final boss encounter with the current three-round second-flare protection.
 
 Retired Chapter-0 combat assumptions:
 - Beast Handler;
@@ -215,7 +215,7 @@ After Chapter 0 is recertified, Chapter 1 remains separately reopened for its cu
 Do not redo the already-authored preliminary mandatory story-boss recertification for Chapters 1–13 unless the broader formation/resource pass exposes a contradiction.
 
 Proceed to:
-> **Chapter 1 ordinary formations + Watch Captain Frame + authored/nonlethal content + Cistern Devourer**, while carrying Hollow Watch Castellan's existing mandatory/completionist boss recertification forward.
+> **Chapter 1 ordinary formations + Watch Captain Frame + authored/nonlethal content + Cistern Devourer**, while carrying Watch Castellan's existing mandatory/completionist boss recertification forward.
 
 
 ## Progression-rebalance boundary
