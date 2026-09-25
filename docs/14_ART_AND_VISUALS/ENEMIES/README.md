@@ -27,3 +27,14 @@ Currently locked:
 7. Riftmaw
 
 **Chapter 0 exact visual set: COMPLETE — 7/7 locked.**
+
+## Exact Chapter 0 source masters
+
+Machine-readable exact-source authority:
+> [`asset_sources/enemies/chapter_00/current/APPROVED_SOURCE_MANIFEST.json`](../../../asset_sources/enemies/chapter_00/current/APPROVED_SOURCE_MANIFEST.json)
+
+Canonical binary destination:
+> [`asset_sources/enemies/chapter_00/current/`](../../../asset_sources/enemies/chapter_00/current/)
+
+The seven visual designs are **7/7 approved and fingerprinted**. Repository binary sync remains **PENDING** until the PNGs at those destinations match the registered SHA-256 values exactly. Do not substitute compressed, resized, optimized, regenerated, or visually similar files.
+
