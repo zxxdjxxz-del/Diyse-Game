@@ -15,7 +15,7 @@
 | 5 | Beat 5 | `BEAT_05_OLD_CITY_ACCESS_ARCHIVE_DESCENT_DRAFT_A.md` | `2bba880980c269e13d67fc66ed11be942120909f27691c30b129ee3f66b8a7eb` |
 | 6 | Beat 6 | `BEAT_06_SCHOLAR_IN_REDACTED_STACKS_DRAFT_A.md` | `5e76af818708514a72c4ea647e4fefdc1526842ba1d5beeaa7d4c1e3174bc4f6` |
 | 7 | Beat 7 | `BEAT_07_LOWER_ARCHIVES_DRAFT_A.md` | `4ad14ec3f304bfaeb957bb54724b76d3e3fd85ff124c6873081ba929cfb8167a` |
-| 8 | Beat 8 | `BEAT_08_BURIED_COLLECTIONS_RECENT_READER_DRAFT_A.md` | `a3df521d940a5d04667770e3c820f658724f0bd032f80ef4c86f893020236899` |
+| 8 | Beat 8 | `BEAT_08_BURIED_COLLECTIONS_RECENT_READER_DRAFT_A.md` | `d699b00f289a4e3175a7381db42d050d679efca98b41880e2ae793b11231ce0a` |
 | 9 | Beat 9 | `BEAT_09_HALL_OF_SEALS_RECENT_READER_DRAFT_A.md` | `7b131e08f41cefd7ed72ca82a5693917bc4ad3ee02ce8915d607b88c36beecb7` |
 | 10 | Beat 10 | `BEAT_10_DEEP_ARCHIVES_DRAFT_A.md` | `c70d72910b62a9045b55cc10a581854fcdaf559b3c3d12c5cacc3ca14cea803d` |
 | 11 | Beat 11 | `BEAT_11_ARCHIVE_SCRIBE_ENGINE_DRAFT_A.md` | `4907ea3ba8efac6befbe7f559773b965cce08c0fe6f979d20ddd62ec58284686` |
@@ -1221,7 +1221,7 @@ Transition into:
 ## Beat 8
 
 **Atomic source:** `BEAT_08_BURIED_COLLECTIONS_RECENT_READER_DRAFT_A.md`  
-**Source SHA-256:** `a3df521d940a5d04667770e3c820f658724f0bd032f80ef4c86f893020236899`
+**Source SHA-256:** `d699b00f289a4e3175a7381db42d050d679efca98b41880e2ae793b11231ce0a`
 
 # Chapter 3 — Beat 8
 # Buried Collections / Recent Reader
@@ -1262,6 +1262,40 @@ Nimera checks it.
 **TORREN:** I can read, Pellan.
 
 **NIMERA:** I never doubted literacy. Judgment remains under review.
+
+Nimera turns back through several older Card references, then stops on a repeated term.
+
+**NIMERA:** There's a phrase that keeps turning up in Diysean material. Prime Card.
+
+**CYANIS:** Prime?
+
+**NIMERA:** In inscriptions. Fragmentary texts. Later copies of older writing. Enough independent appearances that the words are real, not one scholar's bad guess.
+
+**ILYRA:** Meaning?
+
+**NIMERA:** Nobody fucking knows. That's the point.
+
+She pulls one later commentary closer.
+
+**NIMERA:** The historians who found the term didn't understand it either. Half the useful notes are basically `Prime Card appears here again; meaning unknown.`
+
+**TORREN:** Then how do they know it isn't just an old name for a normal Card?
+
+**NIMERA:** Context. When the old writing mentions ordinary Cards and Prime Cards in the same material, it treats them as different things. That's as far as the evidence goes.
+
+**TORREN:** Anyone ever see one?
+
+**NIMERA:** Not that anyone can prove. No surviving specimen identified as one. No reliable eyewitness description. No account that tells us what one looks like or what the bastard actually does.
+
+**CYANIS:** Could this be one?
+
+Nimera looks at the Card, then at him.
+
+**NIMERA:** Could be a royal chamber pot if we lower the evidence bar far enough. We do not have evidence to call it Prime. Weird Card plus mysterious ancient term does not equal same thing.
+
+**ILYRA:** So Prime Card is an old Diysean term we know they used. We still don't know what they meant by it.
+
+**NIMERA:** Exactly. The words survived. The fucking explanation didn't.
 
 ### [GAMEPLAY — MIXED RESEARCH TABLES]
 
@@ -1374,6 +1408,8 @@ Transition into:
 ## Beat-8 end state
 
 - limited historical precedent exists for dormant Cards later becoming responsive without classifying Cyanis's Card;
+- surviving Diysean writings and inscriptions repeatedly use **Prime Card** in contexts that distinguish it from ordinary Standard Cards; later historians who encountered the term also did not understand what it meant, and no verified sighting, specimen description, or functional account survives;
+- Cyanis's Card remains unclassified and is not identified as Prime;
 - older authority-seal material distinguishes a working magical seal from its visible impression;
 - related authority-seal practices may predate Yahtrea without proving lineage;
 - someone relatively recently researched an overlapping cluster of Card, seal, Westways, and Face material;

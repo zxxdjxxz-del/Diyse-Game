@@ -5,10 +5,10 @@
 [resource]
 script = ExtResource("1_scene")
 schema_version = 1
-scene_id = "CH01_B13_BRIARHIDE_STALKER"
+scene_id = "CH01_B13_THORNHIDE"
 chapter_id = "chapter_01"
 scene_kind = "mandatory"
-location_id = "LOC_BRIARHIDE_STALKER"
+location_id = "LOC_THORNHIDE"
 trigger_id = "trigger.chapter_01.b13"
 completion_flag = "scene.ch01_b13.complete"
 participants = Array[String](["cyanis", "ilyra", "maevra", "torren"])
@@ -21,7 +21,7 @@ encounter_policy = {"during_scene": "temporarily_suppress_trigger", "after_scene
 return_to_gameplay = {"control_mode": "exploration"}
 cutscene_tier = "C0"
 vfx_tier = "V1"
-authoring_notes = "CURRENT runtime dialogue compiled from docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/BEAT_13_BRIARHIDE_STALKER_DRAFT_A.md. docs/03_DIALOGUE/PRODUCTION is exact spoken-wording authority; legacy S001-S021 Resources are not source authority. Source SHA-256: 7c0372bacd0c340a0b38b4812a97319b912fd0e9e6e1ea9c54f7ff1ba5b9ff5f. Spoken-sequence SHA-256: 31251192e355055c4af39485474d47b082bd68615eb7f9c37830664622f48736. Spoken lines: 20."
+authoring_notes = "CURRENT runtime dialogue compiled from docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/BEAT_13_BRIARHIDE_STALKER_DRAFT_A.md. docs/03_DIALOGUE/PRODUCTION is exact spoken-wording authority; legacy S001-S021 Resources are not source authority. Source SHA-256: c2c3d202a6887791e6beccb8a323c68b0321d271c300f6aa42c567e8874331da. Spoken-sequence SHA-256: 31251192e355055c4af39485474d47b082bd68615eb7f9c37830664622f48736. Spoken lines: 20."
 beats = [
 {"beat_id": "CH01_B13_L0001", "speaker_id": "cyanis", "text": "There.", "left": {}, "right": {}, "active_side": "none", "advance_mode": "manual", "cues": {"pause_ms": 80, "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE"], "source_section": "[STORY TRIGGER — FIRST CLEAR SIGHTING]", "source_speaker_label": "CYANIS", "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/BEAT_13_BRIARHIDE_STALKER_DRAFT_A.md", "source_line": 36}},
 {"beat_id": "CH01_B13_L0002", "speaker_id": "torren", "text": "Yeah.", "left": {}, "right": {}, "active_side": "none", "advance_mode": "manual", "cues": {"pause_ms": 80, "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE"], "source_section": "[STORY TRIGGER — FIRST CLEAR SIGHTING]", "source_speaker_label": "TORREN", "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/BEAT_13_BRIARHIDE_STALKER_DRAFT_A.md", "source_line": 40}},

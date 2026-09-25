@@ -5,10 +5,10 @@
 [resource]
 script = ExtResource("1_scene")
 schema_version = 1
-scene_id = "CH01_B09_HOLLOW_WATCH_CASTELLAN"
+scene_id = "CH01_B09_WATCH_CASTELLAN"
 chapter_id = "chapter_01"
 scene_kind = "mandatory"
-location_id = "LOC_HOLLOW_WATCH_CASTELLAN"
+location_id = "LOC_WATCH_CASTELLAN"
 trigger_id = "trigger.chapter_01.b09"
 completion_flag = "scene.ch01_b09.complete"
 participants = Array[String](["cyanis", "ilyra", "maevra", "torren"])
@@ -21,7 +21,7 @@ encounter_policy = {"during_scene": "temporarily_suppress_trigger", "after_scene
 return_to_gameplay = {"control_mode": "exploration"}
 cutscene_tier = "C0"
 vfx_tier = "V1"
-authoring_notes = "CURRENT runtime dialogue compiled from docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/BEAT_09_HOLLOW_WATCH_CASTELLAN_DRAFT_A.md. docs/03_DIALOGUE/PRODUCTION is exact spoken-wording authority; legacy S001-S021 Resources are not source authority. Source SHA-256: 1418974d5a5356604600a0c18189ca7b751ed85833f524a6b88a26af37c37859. Spoken-sequence SHA-256: 3604224a8e6e08235da8557cfadf0f419f1ae7f0444bf71755edd08d6b37d390. Spoken lines: 14."
+authoring_notes = "CURRENT runtime dialogue compiled from docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/BEAT_09_HOLLOW_WATCH_CASTELLAN_DRAFT_A.md. docs/03_DIALOGUE/PRODUCTION is exact spoken-wording authority; legacy S001-S021 Resources are not source authority. Source SHA-256: 18af6bd6300504bc968d43aa1e22a41f1bbc4c4a13f2477d1e59282ae72fe336. Spoken-sequence SHA-256: 3604224a8e6e08235da8557cfadf0f419f1ae7f0444bf71755edd08d6b37d390. Spoken lines: 14."
 beats = [
 {"beat_id": "CH01_B09_L0001", "speaker_id": "ilyra", "text": "Cyanis.", "left": {}, "right": {}, "active_side": "none", "advance_mode": "manual", "cues": {"pause_ms": 80, "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE"], "source_section": "[STORY TRIGGER — CHAMBER ACTIVATION]", "source_speaker_label": "ILYRA", "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/BEAT_09_HOLLOW_WATCH_CASTELLAN_DRAFT_A.md", "source_line": 19}},
 {"beat_id": "CH01_B09_L0002", "speaker_id": "cyanis", "text": "I know.", "left": {}, "right": {}, "active_side": "none", "advance_mode": "manual", "cues": {"pause_ms": 80, "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE"], "source_section": "[STORY TRIGGER — CHAMBER ACTIVATION]", "source_speaker_label": "CYANIS", "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/BEAT_09_HOLLOW_WATCH_CASTELLAN_DRAFT_A.md", "source_line": 21}},

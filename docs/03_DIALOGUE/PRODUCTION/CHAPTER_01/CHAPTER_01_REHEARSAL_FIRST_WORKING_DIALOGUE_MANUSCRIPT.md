@@ -16,11 +16,11 @@
 | 6 | Beat 6 | `BEAT_06_BLACK_HOST_EXCAVATION_LOWER_ACCESS_DRAFT_A.md` | `6152a8d706caaa2ea9c2f9093aa515e721fa4490d3949b6fc5e6d2e357dd033a` |
 | 7 | Beat 7 | `BEAT_07_LOWER_JUNCTION_SIX_CHANNELS_DRAFT_A.md` | `6fa43af677bd674f8bf6e36822c47f7630441b357250a9a58a50650d01e83c3e` |
 | 8 | Beat 8 | `BEAT_08_FORCED_INNER_SECTION_DRAFT_A.md` | `f645dff0a1aef8bd840502541e08eb2aa39744dec47d6275a77248424392668c` |
-| 9 | Beat 9 | `BEAT_09_HOLLOW_WATCH_CASTELLAN_DRAFT_A.md` | `1418974d5a5356604600a0c18189ca7b751ed85833f524a6b88a26af37c37859` |
+| 9 | Beat 9 | `BEAT_09_HOLLOW_WATCH_CASTELLAN_DRAFT_A.md` | `18af6bd6300504bc968d43aa1e22a41f1bbc4c4a13f2477d1e59282ae72fe336` |
 | 10 | Beat 10 | `BEAT_10_POST_CASTELLAN_MURAL_DRAFT_A.md` | `17ebace1545d216a1f36b46c5b2083fdd1a0cc7df59513e0d8617e1ff55e36c8` |
 | 11 | Beat 11 | `BEAT_11_HOLLOW_WATCH_RESOLUTION_TORREN_RECRUITMENT_DRAFT_A.md` | `c705f7ac1502de3669f37a55bc38d9eb1eb60884b6f491909b73fa6c77861e02` |
 | 12 | Beat 12 | `BEAT_12_SOUTHERN_BRIAR_PASSAGE_DRAFT_A.md` | `ac006fab6f7a0b21edaeef99b9f280ddf06f7e5023deee5e4a42bffa91643a61` |
-| 13 | Beat 13 | `BEAT_13_BRIARHIDE_STALKER_DRAFT_A.md` | `7c0372bacd0c340a0b38b4812a97319b912fd0e9e6e1ea9c54f7ff1ba5b9ff5f` |
+| 13 | Beat 13 | `BEAT_13_BRIARHIDE_STALKER_DRAFT_A.md` | `c2c3d202a6887791e6beccb8a323c68b0321d271c300f6aa42c567e8874331da` |
 | 14 | Beat 14 | `BEAT_14_THE_JUNCTION_HIDDEN_MONUMENT_DRAFT_A.md` | `6f4be76e0aaf51217d69dbb2b8914ebedb18bab9a09d54e087d8a41d50ec46a8` |
 | 15 | Beat 15 | `BEAT_15_JUNCTION_CAMP_CLEANUP_DRAFT_A.md` | `206613b8a977fe5e9b6b9c6aed9fd610c13470c70de6d63c83aba8ee78db6210` |
 | 16 | C02 — Torren's Version of Dinner | `C03_TORRENS_VERSION_OF_DINNER_REHEARSAL_FIRST_DRAFT_C.md` | `ebcbba9cc2119a7cbc7cddd31e8b10b08152e4b2f35c36cd558de636ebc1e2fd` |
@@ -888,7 +888,7 @@ The party enters.
 
 ## [GAMEPLAY HANDOFF]
 
-**Beat 9 — Watch Castellan** begins as the chamber responds to Cyanis crossing into the protected space.
+**Beat 9 — Hollow Watch Castellan** begins as the chamber responds to Cyanis crossing into the protected space.
 
 Known:
 - the Black Host could not open the protected access normally;
@@ -903,7 +903,7 @@ Known:
 ## Beat 9
 
 **Atomic source:** `BEAT_09_HOLLOW_WATCH_CASTELLAN_DRAFT_A.md`  
-**Source SHA-256:** `1418974d5a5356604600a0c18189ca7b751ed85833f524a6b88a26af37c37859`
+**Source SHA-256:** `18af6bd6300504bc968d43aa1e22a41f1bbc4c4a13f2477d1e59282ae72fe336`
 
 # Chapter 1 — Beat 9
 # Watch Castellan
@@ -1304,13 +1304,13 @@ Farther south, the party reaches a clear track pressed deeply into the route.
 
 Movement pauses.
 
-The Thornhide itself is not visible.
+The Briarhide itself is not visible.
 
 **CYANIS:** That's a big son of a bitch.
 
 Torren's tone changes immediately.
 
-**TORREN:** Thornhide.
+**TORREN:** Briarhide.
 
 He studies what the track actually gives him.
 
@@ -1348,7 +1348,7 @@ A beat.
 
 The stop ends.
 
-The Thornhide is still not shown.
+The Briarhide Stalker is still not shown.
 
 ## [GAMEPLAY — DEEPER SOUTHERN BRIAR]
 
@@ -1362,7 +1362,7 @@ The area design itself demonstrates that Torren is successfully getting the part
 
 ## [STORY TRIGGER — LATE OVERGROWN SIDE ACCESS]
 
-Late in Southern Briar, after the Thornhide track stop, the group reaches a heavily overgrown stone-lined cut branching away from the usable route.
+Late in Southern Briar, after the Briarhide track stop, the group reaches a heavily overgrown stone-lined cut branching away from the usable route.
 
 This is in the final third or quarter of the area.
 
@@ -1400,11 +1400,11 @@ Player control resumes.
 
 The final stretch becomes more direct.
 
-Navigation tension eases; the Thornhide tension replaces it.
+Navigation tension eases; the Briarhide tension replaces it.
 
 There is **no additional dialogue**.
 
-The Thornhide itself is **not shown in Beat 12**.
+The Briarhide Stalker itself is **not shown in Beat 12**.
 
 ## [GAMEPLAY HANDOFF]
 
@@ -1413,7 +1413,7 @@ Beat 12 ends during normal traversal immediately before the Stalker's first clea
 Known:
 - Torren has demonstrated why his current route knowledge matters through successful navigation rather than spoken guidance;
 - Southern Briar is moderately maze-like without becoming a puzzle dungeon;
-- a very large Thornhide has recently moved along the party's route;
+- a very large Briarhide has recently moved along the party's route;
 - the party has not yet seen the animal itself;
 - the late overgrown stone-lined side access has been seen and left unexplored;
 - that side access is close enough to the final stretch that a later cleanup backtrack will be short;
@@ -1421,14 +1421,14 @@ Known:
 - the Card remains inert.
 
 Next mandatory beat:
-**Thornhide**
+**Briarhide Stalker**
 
 ---
 
 ## Beat 13
 
 **Atomic source:** `BEAT_13_BRIARHIDE_STALKER_DRAFT_A.md`  
-**Source SHA-256:** `7c0372bacd0c340a0b38b4812a97319b912fd0e9e6e1ea9c54f7ff1ba5b9ff5f`
+**Source SHA-256:** `c2c3d202a6887791e6beccb8a323c68b0321d271c300f6aa42c567e8874331da`
 
 # Chapter 1 — Beat 13
 # Thornhide
@@ -1858,7 +1858,7 @@ Next mandatory beat:
 
 Player control is active.
 
-The group camps near the Junction after the Thornhide fight and the hidden-monument discovery.
+The group camps near the Junction after the Briarhide Stalker fight and the hidden-monument discovery.
 
 This is a safe camp area.
 
