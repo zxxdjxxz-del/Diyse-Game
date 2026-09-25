@@ -23,7 +23,10 @@ The registered SHA-256 fingerprint, native dimensions, and approved-source ident
 Current exact-source status:
 - visual approvals: **COMPLETE — 7/7 locked**;
 - source fingerprints: **COMPLETE — 7/7 registered**;
-- repository binary byte-sync: **PENDING until each destination file hashes exactly to the registered source**.
+- repository exact-master binary byte-sync: **COMPLETE — 7/7**;
+- convenience/reference PDF binary sync: **PENDING**.
+
+The seven repository blobs were verified against the exact approved source sizes and Git-blob identities generated from those same source bytes. The concealed-Seyrik master is stored as native JPEG/JFIF under a `.jpg` destination; it was not converted or re-encoded.
 
 All designs use Diyse's current:
 > **Seinen HD-2D Fantasy with Chaotic Variable Line Weight + Graphic Anime-Stylized Rendering**
