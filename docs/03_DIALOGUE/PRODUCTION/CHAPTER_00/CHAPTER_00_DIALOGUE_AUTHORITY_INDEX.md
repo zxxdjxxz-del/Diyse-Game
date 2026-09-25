@@ -147,3 +147,14 @@ P01 and P02 received presentation-only gameplay staging updates so the five Cyan
 No spoken dialogue, reveal order, Card state, or encounter identity was changed by this spacing pass.
 
 The synchronized combined manuscript has been regenerated from the current P01/P02 atomic sources after this update.
+
+
+## Current Person-Brain compatibility audit
+
+**September 25, 2026: PASS — no dialogue regeneration required.**
+
+The current exact atomics were rechecked against the live runtime Person Brains and current relationship chronology after the Person-Brain architecture expansion.
+
+See the chapter-local `*_PERSON_BRAIN_COMPATIBILITY_AUDIT.md`.
+
+This pass does not freeze future revision if canon, scene authority, or a live Person Brain materially changes. It establishes that the current approved wording remains a plausible output of the current agents and should not be regenerated merely for architectural parity.
