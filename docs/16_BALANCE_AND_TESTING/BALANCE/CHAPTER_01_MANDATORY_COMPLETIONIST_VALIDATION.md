@@ -3,7 +3,7 @@
 **Chapter:** 1 — Brackenwall and the Wayfinder  
 **Current status:** **STRUCTURAL REVALIDATION ACTIVE / NUMERIC DIFFICULTY CERTIFICATION DEFERRED UNTIL LEVEL-SPINE REBALANCE**  
 **Direct-damage Power audit:** **CLOSED — do not reopen Power coefficients from this correction alone**  
-**Reason reopened:** current story/production authority has superseded key party-state and Briarhide assumptions used by the prior v77/v78 validation.
+**Reason reopened:** current story/production authority has superseded key party-state and Thornhide assumptions used by the prior v77/v78 validation.
 
 ---
 
@@ -41,7 +41,7 @@ Two material assumptions are retired:
    Current production beats keep Maevra physically present in the story while outside the battle party. Any throughput, survivability, round-count, or Hunt estimate that added Maevra's combat contribution must be recalculated.
 
 2. **Thornhide is not protected/nonlethal.**  
-   Current exact Beat-13 authority makes Briarhide the required Chapter-1 final boss: a natural wild Greater Beast defeated through ordinary lethal combat. There is no Black Host Irritant Fitting, 25% protected floor, stabilization objective, or retreat-alive resolution.
+   Current exact Beat-13 authority makes Thornhide the required Chapter-1 final boss: a natural wild Greater Beast defeated through ordinary lethal combat. There is no Black Host Irritant Fitting, 25% protected floor, stabilization objective, or retreat-alive resolution.
 
 Current exact story/dialogue authority:
 - `../../03_DIALOGUE/PRODUCTION/CHAPTER_01/BEAT_13_BRIARHIDE_STALKER_DRAFT_A.md`
@@ -61,7 +61,7 @@ This correction does not itself change:
 - ordinary enemy direct-damage Power coefficients;
 - Watch Captain direct-damage Power coefficients;
 - Watch Castellan direct-damage Power coefficients;
-- Briarhide direct-damage Power coefficients;
+- Thornhide direct-damage Power coefficients;
 - Cistern Devourer direct-damage Power coefficients.
 
 Any later stat/HP change must come from the active mandatory-vs-completionist encounter validation, not from reopening the Power audit by implication.
@@ -108,7 +108,7 @@ Do not reuse the old v77/v78 assumption that Maevra contributes battle damage or
 Current Chapter-1 production authority must own the exact combat roster beat by beat. In particular:
 - Maevra may travel with the group and appear in triggered scenes;
 - that does **not** make her commandable or a battle-party body;
-- Beat 13 explicitly uses **Cyanis + Ilyra + Torren** against Briarhide while Maevra remains noncombat;
+- Beat 13 explicitly uses **Cyanis + Ilyra + Torren** against Thornhide while Maevra remains noncombat;
 - all-target enemy actions therefore strike at most **3** player bodies in Chapter 1;
 - single-target pressure must be evaluated against 2 targets early and 3 targets from Hollow Watch onward, never 4.
 
@@ -116,7 +116,7 @@ Torren's exact transition from guide/support to permanent combat member must lik
 
 ---
 
-## Briarhide firewall
+## Thornhide firewall
 
 Current encounter resolution:
 > **NORMAL LETHAL BOSS VICTORY**
@@ -157,5 +157,5 @@ Needlewing, Rootmaw, and Rubbleback now have authored raw bodies and direct-dama
 
 After the new level spine is locked:
 1. rebuild actual early/mid/late Chapter-1 mandatory and completionist party levels;
-2. rerun ordinary formations, Watch Captain, Castellan, Southern Briar, Briarhide, and Cistern Devourer;
+2. rerun ordinary formations, Watch Captain, Castellan, Southern Briar, Thornhide, and Cistern Devourer;
 3. only then close final formation weights / HP-stat adjustments / difficulty certification.
