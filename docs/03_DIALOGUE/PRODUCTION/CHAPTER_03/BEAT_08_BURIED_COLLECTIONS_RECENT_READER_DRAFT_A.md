@@ -38,6 +38,32 @@ Nimera checks it.
 
 **NIMERA:** I never doubted literacy. Judgment remains under review.
 
+Nimera turns back through several older Card references, then stops on a repeated term.
+
+**NIMERA:** There's a phrase I keep finding in older Card records. Prime Card.
+
+**CYANIS:** Prime?
+
+**NIMERA:** Repeatedly. Different centuries, different hands, same damned term.
+
+**ILYRA:** Meaning?
+
+**NIMERA:** That's the infuriating part. The records clearly separate Prime Cards from ordinary Standard Cards, so it isn't just an old fancy name for the same shit we use now.
+
+**TORREN:** Anyone ever see one?
+
+**NIMERA:** Not in any surviving record I've found. No known specimen. No eyewitness account that actually describes one. Nothing useful about what one looks like or what the bastard does. They write `Prime Card` like the reader is already supposed to know what the hell that means, then neglect to preserve the part where anyone explains it.
+
+**CYANIS:** Could this be one?
+
+Nimera looks at the Card, then at him.
+
+**NIMERA:** Could be a royal chamber pot if we lower the evidence bar far enough. We do not have evidence to call it Prime. Weird Card plus mysterious old Card word does not equal same thing.
+
+**ILYRA:** So the term is real. The definition isn't.
+
+**NIMERA:** Exactly. Prime Card is a real category in the records. Everything after that is a fucking hole.
+
 ### [GAMEPLAY — MIXED RESEARCH TABLES]
 
 The player follows surviving citations through Card material, older authority-seal references, and Westways expedition records.
@@ -149,6 +175,8 @@ Transition into:
 ## Beat-8 end state
 
 - limited historical precedent exists for dormant Cards later becoming responsive without classifying Cyanis's Card;
+- older records repeatedly use **Prime Card** as a category distinct from ordinary Standard Cards, but no surviving known sighting, physical description, or functional account explains what a Prime Card is or does;
+- Cyanis's Card remains unclassified and is not identified as Prime;
 - older authority-seal material distinguishes a working magical seal from its visible impression;
 - related authority-seal practices may predate Yahtrea without proving lineage;
 - someone relatively recently researched an overlapping cluster of Card, seal, Westways, and Face material;
