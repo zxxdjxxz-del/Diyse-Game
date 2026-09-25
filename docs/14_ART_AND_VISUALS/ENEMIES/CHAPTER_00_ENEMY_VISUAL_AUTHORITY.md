@@ -8,6 +8,23 @@
 
 This file owns the current **visual identity** of Chapter-0 enemies. Enemy combat files own stats, actions, encounter behavior, and placement. If an older visual description conflicts with this file, this file wins unless a newer explicit visual approval replaces it.
 
+## Exact-source repository lane
+
+The seven explicitly approved Chapter-0 enemy masters are registered in the machine-readable exact-source manifest:
+
+> [`asset_sources/enemies/chapter_00/current/APPROVED_SOURCE_MANIFEST.json`](../../../asset_sources/enemies/chapter_00/current/APPROVED_SOURCE_MANIFEST.json)
+
+Intended repository master directory:
+
+> [`asset_sources/enemies/chapter_00/current/`](../../../asset_sources/enemies/chapter_00/current/)
+
+The registered SHA-256 fingerprint, native dimensions, and approved-source identity outrank any older or substitute binary under the repository's exact-binary sync exception. **Do not re-encode, resize, crop, optimize, recolor, retouch, or otherwise resave an approved master merely to make Git sync easier.**
+
+Current exact-source status:
+- visual approvals: **COMPLETE — 7/7 locked**;
+- source fingerprints: **COMPLETE — 7/7 registered**;
+- repository binary byte-sync: **PENDING until each destination file hashes exactly to the registered source**.
+
 All designs use Diyse's current:
 > **Seinen HD-2D Fantasy with Chaotic Variable Line Weight + Graphic Anime-Stylized Rendering**
 
