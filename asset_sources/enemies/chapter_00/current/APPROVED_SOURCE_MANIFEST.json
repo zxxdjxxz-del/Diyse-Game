@@ -60,9 +60,9 @@
       "exact_binary_sync": "complete",
       "source_file": "1000030142.png"
     },
-    "convoy_war_sorcerer": {
-      "display_name": "Convoy War-Sorcerer",
-      "expected_repository_path": "asset_sources/enemies/chapter_00/current/convoy_war_sorcerer.png",
+    "battle_sorcerer": {
+      "display_name": "Battle Sorcerer",
+      "expected_repository_path": "asset_sources/enemies/chapter_00/current/battle_sorcerer.png",
       "media_format": "PNG",
       "width": 1145,
       "height": 1374,
