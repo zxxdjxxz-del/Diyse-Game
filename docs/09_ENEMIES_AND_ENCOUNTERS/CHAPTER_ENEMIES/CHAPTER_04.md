@@ -20,7 +20,7 @@
 - Elemental Researcher — nonlethal
 - Annex Battle Mage — nonlethal
 - Crucible Attendant — nonlethal
-- Elder Briarhide — mandatory nonlethal
+- Elder Thornhide — mandatory nonlethal
 - Reaction Conduit — mandatory nonlethal stabilization
 
 ## Strong normal-pool identity
@@ -80,7 +80,7 @@ Regional Hunt #4 remains outside this batch.
 - Vaelira becomes a legal permanent-party option after S022, with active party still capped at four;
 - current ordinary roster / raw bodies / Powers — **PASS / RETAIN**;
 - Annex Duelist — **PASS / RETAIN**;
-- Elder Briarhide / Reaction Conduit / Regulation Crucible → The Seventh Reaction — **PASS / RETAIN**;
+- Elder Thornhide / Reaction Conduit / Regulation Crucible → The Seventh Reaction — **PASS / RETAIN**;
 - Crown Prototype — **PASS / RETAIN at Lv20 recommendation**;
 - protected Annex staff remain placement dependencies;
 - no raw-stat or direct-damage Power change.
