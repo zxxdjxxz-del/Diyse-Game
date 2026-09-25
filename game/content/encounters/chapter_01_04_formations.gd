@@ -15,15 +15,15 @@ const AREAS := {
 		"max_enemies": 2,
 		"formations": {
 			"light": [
-				{"id": "ch01_greenhollow_l01", "weight": 50.0, "exp": 45, "enemies": ["Greenhollow Stalker", "Thornvine Creeper"], "subareas": ["upper_briar_west", "upper_briar_east"]},
-				{"id": "ch01_greenhollow_l02", "weight": 50.0, "exp": 45, "enemies": ["Greenhollow Stalker", "Greenhollow Stalker"], "subareas": ["upper_briar_west", "upper_briar_east"]},
+				{"id": "ch01_greenhollow_l01", "weight": 50.0, "exp": 45, "enemies": ["Thicket Stalker", "Vine Creeper"], "subareas": ["upper_briar_west", "upper_briar_east"]},
+				{"id": "ch01_greenhollow_l02", "weight": 50.0, "exp": 45, "enemies": ["Thicket Stalker", "Thicket Stalker"], "subareas": ["upper_briar_west", "upper_briar_east"]},
 			],
 			"standard": [
-				{"id": "ch01_greenhollow_s01", "weight": 50.0, "exp": 55, "enemies": ["Briar Boar", "Thornvine Creeper"], "subareas": ["upper_briar_west", "upper_briar_east"]},
-				{"id": "ch01_greenhollow_s02", "weight": 50.0, "exp": 55, "enemies": ["Greenhollow Stalker", "Briar Boar"], "subareas": ["upper_briar_west", "upper_briar_east"]},
+				{"id": "ch01_greenhollow_s01", "weight": 50.0, "exp": 55, "enemies": ["Briar Boar", "Vine Creeper"], "subareas": ["upper_briar_west", "upper_briar_east"]},
+				{"id": "ch01_greenhollow_s02", "weight": 50.0, "exp": 55, "enemies": ["Thicket Stalker", "Briar Boar"], "subareas": ["upper_briar_west", "upper_briar_east"]},
 			],
 			"heavy": [
-				{"id": "ch01_greenhollow_h01", "weight": 50.0, "exp": 70, "enemies": ["Thornvine Creeper", "Thornvine Creeper"], "subareas": ["upper_briar_east"]},
+				{"id": "ch01_greenhollow_h01", "weight": 50.0, "exp": 70, "enemies": ["Vine Creeper", "Vine Creeper"], "subareas": ["upper_briar_east"]},
 				{"id": "ch01_greenhollow_h02", "weight": 50.0, "exp": 70, "enemies": ["Briar Boar", "Briar Boar"], "subareas": ["upper_briar_east"]},
 			],
 		},
@@ -52,16 +52,16 @@ const AREAS := {
 		"max_enemies": 5,
 		"formations": {
 			"light": [
-				{"id": "ch01_briar_south_l01", "weight": 50.0, "exp": 45, "enemies": ["Needlewing", "Greenhollow Stalker", "Briar Boar"], "subareas": ["south_opening", "south_hard_middle", "south_side_approach", "south_final_leg", "south_cleanup_return"]},
-				{"id": "ch01_briar_south_l02", "weight": 50.0, "exp": 45, "enemies": ["Rootmaw", "Thornvine Creeper", "Needlewing"], "subareas": ["south_opening", "south_hard_middle", "south_side_approach"]},
+				{"id": "ch01_briar_south_l01", "weight": 50.0, "exp": 45, "enemies": ["Needlewing", "Thicket Stalker", "Briar Boar"], "subareas": ["south_opening", "south_hard_middle", "south_side_approach", "south_final_leg", "south_cleanup_return"]},
+				{"id": "ch01_briar_south_l02", "weight": 50.0, "exp": 45, "enemies": ["Rootmaw", "Vine Creeper", "Needlewing"], "subareas": ["south_opening", "south_hard_middle", "south_side_approach"]},
 			],
 			"standard": [
-				{"id": "ch01_briar_south_s01", "weight": 50.0, "exp": 55, "enemies": ["Rootmaw", "Thornvine Creeper", "Thornvine Creeper", "Needlewing"], "subareas": ["south_hard_middle", "south_side_approach"]},
-				{"id": "ch01_briar_south_s02", "weight": 50.0, "exp": 55, "enemies": ["Brambleback", "Briar Boar", "Thornvine Creeper"], "subareas": ["south_opening", "south_hard_middle", "south_side_approach", "south_final_leg", "south_cleanup_return"]},
+				{"id": "ch01_briar_south_s01", "weight": 50.0, "exp": 55, "enemies": ["Rootmaw", "Vine Creeper", "Vine Creeper", "Needlewing"], "subareas": ["south_hard_middle", "south_side_approach"]},
+				{"id": "ch01_briar_south_s02", "weight": 50.0, "exp": 55, "enemies": ["Rubbleback", "Briar Boar", "Vine Creeper"], "subareas": ["south_opening", "south_hard_middle", "south_side_approach", "south_final_leg", "south_cleanup_return"]},
 			],
 			"heavy": [
-				{"id": "ch01_briar_south_h01", "weight": 50.0, "exp": 70, "enemies": ["Brambleback", "Briar Boar", "Rootmaw", "Thornvine Creeper"], "subareas": ["south_hard_middle", "south_final_leg", "south_cleanup_return"]},
-				{"id": "ch01_briar_south_h02", "weight": 50.0, "exp": 70, "enemies": ["Needlewing", "Needlewing", "Greenhollow Stalker", "Rootmaw", "Briar Boar"], "subareas": ["south_hard_middle", "south_final_leg", "south_cleanup_return"]},
+				{"id": "ch01_briar_south_h01", "weight": 50.0, "exp": 70, "enemies": ["Rubbleback", "Briar Boar", "Rootmaw", "Vine Creeper"], "subareas": ["south_hard_middle", "south_final_leg", "south_cleanup_return"]},
+				{"id": "ch01_briar_south_h02", "weight": 50.0, "exp": 70, "enemies": ["Needlewing", "Needlewing", "Thicket Stalker", "Rootmaw", "Briar Boar"], "subareas": ["south_hard_middle", "south_final_leg", "south_cleanup_return"]},
 			],
 		},
 	},
