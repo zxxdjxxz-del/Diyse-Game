@@ -7,7 +7,7 @@ Exactly **6 Story Primes**.
 
 | Story Prime | Face | Bearer | Acquired | Awakens |
 |---|---|---|---|---|
-| **Last Sentinel** | Might | Cyanis | Ch4 | Ch5 — Deepforge sovereign-chamber |
+| **Last Sentinel** | Might | Cyanis | **Ch4 — Elder Thornhide battle / first verified modern manifestation** | Ch5 — Deepforge sovereign-chamber |
 | **Last Cartographer** | Perception | Torren | Ch5 | Ch8 — Horizon Vault / western survey |
 | **Last Convergence** | Elements | Vaelira | Ch6 | end Ch7 — Sixfold Volition |
 | **Last Scribe** | Memory | Nimera | Ch7 | Ch11 — Custodian / truth archive |
@@ -16,6 +16,7 @@ Exactly **6 Story Primes**.
 
 All Story Primes:
 - begin Recovered when acquired;
+- for **Last Sentinel**, Chapter 3 confirmation is not acquisition: the **Chapter-4 Elder Thornhide manifestation is the Recovered transition / acquisition event**;
 - awaken through mandatory story progression;
 - are final at Awakened;
 - use the normal Prime-slot access rules after acquisition.
