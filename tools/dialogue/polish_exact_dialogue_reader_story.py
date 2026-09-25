@@ -14,7 +14,7 @@ from docx import Document
 
 ROOT = Path(__file__).resolve().parents[2]
 READER = ROOT / "build/dialogue/DIYSE_Chapters_0-3_Spoiler_Free_Exact_Dialogue_Reader_CURRENT.docx"
-EXPECTED_DIALOGUE_LINES = 2049
+EXPECTED_DIALOGUE_LINES = 2055
 LABEL_RE = re.compile(r"^.+:\s*$")
 
 PROSE_REPLACEMENTS = {
