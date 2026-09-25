@@ -332,3 +332,49 @@ Chapter 1 must not reveal:
 
 ## Optional handoff
 Regional Hunt #1 — Cistern Devourer becomes returnable when Wayfinder's old-water / cistern notation gives the party enough information to recognize the **overgrown access previously passed in southern Briar Passage**. The Hunt's physical entrance is in Briar Passage and is available during the Wayfinder-camp cleanup window before Chapter 2 begins.
+
+
+---
+
+
+## Environmental storytelling lock
+
+Chapter 1 is the benchmark for environmental storytelling in the opening game. Preserve the principle that **the player should often understand what happened in a place before the party fully discusses it**.
+
+### Briar Passage
+The Passage should read as a real old route being reclaimed by wilderness:
+- remnants of intentional road/route construction remain visible beneath roots, erosion, and growth;
+- wildlife paths and territorial disturbance should be distinguishable from maintained human travel;
+- later Thornhide signs should feel like escalation of an ecology already present rather than boss foreshadowing pasted onto the final section;
+- do not restore the retired false trail, old waystone, split, or crossing concepts.
+
+### Greenhollow
+Greenhollow should visibly contrast with the Passage:
+- maintained lived-in spaces, working travel routines, and local adaptation to an unreliable road;
+- Torren's familiarity with the region should be legible through the place itself rather than requiring continuous route exposition.
+
+### Hollow Watch
+Most of the fort's story is environmental:
+- occupation overlays a dead/abandoned Yahtrean garrison rather than replacing it cleanly;
+- Black Host staging, excavation supplies, moved debris, improvised access, and damaged defensive spaces show an active dig;
+- the descent from fort basement into Ancient structure should move through a clear material sequence:
+  **Yahtrean fort → disturbed/reused foundations → mixed construction → predominantly Diysean structure → active Ancient defenses**;
+- the excavation path downward should be understandable from logistics/damage before anyone explains it;
+- the six-channel area must look used by people without implying the Black Host understood or deliberately selected among the collapsed channels.
+
+### Post-Castellan / Wayfinder
+The mural and Wayfinder remain physical evidence, not lore terminals:
+- damaged surfaces, incomplete surviving geometry, physical breakage through the Caelora-area center, and visible route density should do most of the work;
+- the unexplained second marking system must look materially distinct from ordinary roads without being identified as underground infrastructure by the party;
+- Face markings may be seen but not interpreted into their hidden network function.
+
+### Southern Briar / Thornhide
+The natural climax should be prepared environmentally:
+- increasingly fresh large-animal disturbance;
+- broken vegetation / territorial markings / displaced smaller wildlife where appropriate;
+- the final clear sighting belongs to Beat 13 as already locked.
+
+Do not add environmental clues that solve:
+- what the second Wayfinder system is;
+- what the Face markings mean;
+- what occupied the broken Caelora center.
