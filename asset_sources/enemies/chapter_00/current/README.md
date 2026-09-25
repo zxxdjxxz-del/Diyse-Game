@@ -13,7 +13,7 @@ Approved exact repository masters:
 | Ruin Shieldbearer | [`ruin_shieldbearer.png`](ruin_shieldbearer.png) | PNG | 1122 × 1402 | `18d1237f4f933bdf6dbcba7f9b4df90c5090ec413ebe334cb5a4982c221fb2d7` |
 | War Hound | [`war_hound.png`](war_hound.png) | PNG | 1155 × 1362 | `2108a1cd66d42512342c96f4cf02787d0a06aee20410145ff20c77bfbeec192a` |
 | Ruin Vanguard Pursuer / concealed Seyrik | [`ruin_vanguard_pursuer_concealed_seyrik.jpg`](ruin_vanguard_pursuer_concealed_seyrik.jpg) | JPEG/JFIF | 1287 × 1536 | `c6ea82c58c628679536447fd6a55b00d306651f99a39599fba4124262d7aa011` |
-| Convoy War-Sorcerer | [`convoy_war_sorcerer.png`](convoy_war_sorcerer.png) | PNG | 1145 × 1374 | `4090842e2e765cecc83235d1ddf79d0b211872f3abbf2baff0955bd3bfff3573` |
+| Battle Sorcerer | [`battle_sorcerer.png`](battle_sorcerer.png) | PNG | 1145 × 1374 | `4090842e2e765cecc83235d1ddf79d0b211872f3abbf2baff0955bd3bfff3573` |
 | Riftmaw | [`riftmaw.png`](riftmaw.png) | PNG | 1122 × 1402 | `0d7058da574b838a22ab5a1835278eff0e2ab3e60f13ff62a9df37687f0e3dd1` |
 
 Reference packet destination:
