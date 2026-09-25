@@ -30,7 +30,7 @@ Before S022:
 **Maevra is not part of the Chapter-4 default balance baseline.**
 
 ### S022 recruitment transition
-After Elder Briarhide:
+After Elder Thornhide:
 - Vaelira joins permanently;
 - five permanent characters are available;
 - only four may be active at once.
@@ -40,7 +40,7 @@ Therefore post-S022 completionist testing may optimize party composition, but it
 ---
 
 ## 2. Mandatory vs completionist checkpoints
-### Elder Briarhide — S022
+### Elder Thornhide — S022
 Existing encounter-specific progression proof remains valid:
 - mandatory: **Lv13**;
 - fixed-content completionist: **Lv15**;
