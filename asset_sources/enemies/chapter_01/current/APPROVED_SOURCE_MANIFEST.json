@@ -5,6 +5,20 @@
   "sync_rule": "Only explicitly approved exact images may be registered. A repository binary is authoritative only when its SHA-256 matches its registered source exactly. Never alter a master during sync.",
   "repository_root": "asset_sources/enemies/chapter_01/current",
   "new_master_count_target": 12,
-  "locked_count": 0,
-  "masters": {}
+  "locked_count": 1,
+  "masters": {
+    "thicket_stalker": {
+      "display_name": "Thicket Stalker",
+      "approved_local_date": "2026-09-25",
+      "expected_repository_path": "asset_sources/enemies/chapter_01/current/thicket_stalker.png",
+      "media_format": "PNG",
+      "width": 1312,
+      "height": 1199,
+      "size_bytes": 1267907,
+      "sha256": "69ab97e9bcb26cffd2c58f6c14eb8027d60d7b7cf60175109f07365c647b6cd4",
+      "exact_binary_sync": "pending",
+      "image_generation_id": "bbbba546-7ff0-4c67-affe-366974b66d53",
+      "visual_lock": "Single clean white-background enemy master. Sleek black panther-like natural predator; slightly leaner rather than heavily muscular; uniform near-black coat with no scars and no white markings; bold bright yellow eyes; hard dark dorsal spines running from the neck down the back, with the largest mid-back spines reduced so the panther silhouette remains dominant; long feline tail; large claws; low aggressive stalking/lunging pose; crisp DIYSE anime/HD-2D source-art look."
+    }
+  }
 }
