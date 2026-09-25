@@ -27,14 +27,14 @@ Source binaries:
 Chapter 1 requires **12 new exact visual masters**:
 
 ### Northern / first Briar
-1. Greenhollow Stalker — **PENDING**
-2. Thornvine Creeper — **PENDING**
+1. Thicket Stalker — **PENDING**
+2. Vine Creeper — **PENDING**
 3. Briar Boar — **PENDING**
 
 ### Southern Briar additions
 4. Needlewing — **PENDING**
 5. Rootmaw — **PENDING**
-6. Brambleback — **PENDING**
+6. Rubbleback — **PENDING**
 
 ### Hollow Watch — ancient constructs
 7. Watch Sentry — **PENDING**
@@ -42,8 +42,8 @@ Chapter 1 requires **12 new exact visual masters**:
 9. Watch Captain Frame — **PENDING**
 
 ### Mandatory named encounters
-10. Hollow Watch Castellan — **PENDING**
-11. Briarhide Stalker — **PENDING**
+10. Watch Castellan — **PENDING**
+11. Thornhide — **PENDING**
 
 ### Regional Hunt
 12. Cistern Devourer — **PENDING**
@@ -53,15 +53,15 @@ Chapter 1 requires **12 new exact visual masters**:
 The visual pass must preserve the current enemy identity boundaries already established by the enemy domain:
 
 - Briar Passage wildlife is natural regional ecology, not Black-Host mutation.
-- Greenhollow Stalker, Briar Boar, Needlewing, and Brambleback are natural wildlife.
-- Thornvine Creeper and Rootmaw are natural plant / plant-beast threats, not Ancient constructs.
+- Thicket Stalker, Briar Boar, Needlewing, and Rubbleback are natural wildlife.
+- Vine Creeper and Rootmaw are natural plant / plant-beast threats, not Ancient constructs.
 - Needlewing is a small fast aerial predator/harasser.
 - Rootmaw is a slow durable predatory growth / plant-beast.
-- Brambleback is a broad heavily protected animal with bark/thorn-like growth.
+- Rubbleback is a broad heavily protected animal with bark/thorn-like growth.
 - Watch Sentry, Watch Ballista, and Watch Captain Frame are true Ancient constructs.
 - Watch Ballista is a fixed defensive emplacement, not a mobile humanoid.
-- Hollow Watch Castellan is the mandatory one-bar Fortress → Walking same-body construct mini-boss.
-- Briarhide Stalker is a naturally occurring wild Greater Beast. It has **no Black Host collar, fitting, corruption, or control apparatus**.
+- Watch Castellan is the mandatory one-bar Fortress → Walking same-body construct mini-boss.
+- Thornhide is a naturally occurring wild Greater Beast. It has **no Black Host collar, fitting, corruption, or control apparatus**.
 - Cistern Devourer is Regional Hunt #1; its final exact visual remains pending.
 
 ## Exact-master presentation rule
