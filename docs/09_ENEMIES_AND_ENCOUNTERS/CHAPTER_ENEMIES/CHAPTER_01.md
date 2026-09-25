@@ -20,14 +20,14 @@ Every Chapter-1 enemy, formation, mini-boss, boss, and Hunt validation must use 
 ## Ordinary / repeatable
 
 ### Briar Passage — northern / first-traversal natural threats
-- Greenhollow Stalker
-- Thornvine Creeper
+- Thicket Stalker
+- Vine Creeper
 - Briar Boar
 
 ### Southern Briar — additional native threats
 - Needlewing
 - Rootmaw
-- Brambleback
+- Rubbleback
 
 Southern Briar uses all six natural-threat identities: the three established northern species plus these three deeper-route natives.
 
@@ -50,8 +50,8 @@ Southern Briar uses all six natural-threat identities: the three established nor
 - None
 
 ## Mandatory named / boss
-- **Hollow Watch Castellan — mandatory Hollow Watch mini-boss; one bar; Fortress → Walking same-bar**
-- **Briarhide Stalker — required Chapter-1 main/final boss; wild Greater Beast; normal lethal victory; no protected HP floor**
+- **Watch Castellan — mandatory Hollow Watch mini-boss; one bar; Fortress → Walking same-bar**
+- **Thornhide — required Chapter-1 main/final boss; wild Greater Beast; normal lethal victory; no protected HP floor**
 
 ## Regional Hunt
 - Regional Hunt #1 — Cistern Devourer
@@ -64,13 +64,13 @@ Summary:
 `../ORDINARY_ENEMIES/CHAPTER_01_POWER_AND_RAW_REGISTER.md`
 
 Special current authorities:
-- Northern/first-traversal Briar uses Greenhollow Stalker / Thornvine Creeper / Briar Boar.
-- Southern Briar adds Needlewing / Rootmaw / Brambleback and may mix all six natural-threat identities.
+- Northern/first-traversal Briar uses Thicket Stalker / Vine Creeper / Briar Boar.
+- Southern Briar adds Needlewing / Rootmaw / Rubbleback and may mix all six natural-threat identities.
 - Black Host and construct ordinary enemies are Hollow Watch-only.
 - Watch Captain Frame is folded into the lower Hollow Watch normal pool; it is not optional content.
 - Brackenwall Reaver is removed from the active Chapter-1 roster; its identity/data remain retained for possible later placement.
 - Watch Sentry → Ballista marked-shot relationship is now explicit.
-- **Briarhide Stalker is a natural wild Greater Beast with no Black Host involvement, no irritant fitting/collar, no morality puzzle, and no protected 25% floor. Its required encounter resolves by normal boss victory.**
+- **Thornhide is a natural wild Greater Beast with no Black Host involvement, no irritant fitting/collar, no morality puzzle, and no protected 25% floor. Its required encounter resolves by normal boss victory.**
 - Watch Captain Frame retains its Power-complete body but requires normal-pool placement revalidation.
 - Chapter 1 uses Bleed as its only harmful-status rider in this batch.
 
@@ -89,7 +89,7 @@ Hunt raw stats remain in their owning authorities. Former optional-Elite identit
 
 The prior v77/v78 certification used superseded assumptions, most importantly:
 - Maevra was incorrectly counted as a combat-party guest;
-- Briarhide Stalker was incorrectly validated as a protected/nonlethal fitting objective.
+- Thornhide was incorrectly validated as a protected/nonlethal fitting objective.
 
 Current production authority keeps Maevra outside the battle party and resolves Briarhide by normal lethal boss victory.
 
@@ -115,14 +115,14 @@ Any older aggregate/register text that still describes Briarhide as protected or
 The following Chapter-1 enemy identities and names are **LOCKED** unless explicitly revised later.
 
 ### Northern / first Briar
-- Greenhollow Stalker
-- Thornvine Creeper
+- Thicket Stalker
+- Vine Creeper
 - Briar Boar
 
 ### Southern Briar additions
 - Needlewing
 - Rootmaw
-- Brambleback
+- Rubbleback
 
 ### Hollow Watch — Black Host
 - Black Host Raider
@@ -135,13 +135,13 @@ The following Chapter-1 enemy identities and names are **LOCKED** unless explici
 - Watch Captain Frame
 
 ### Mandatory named encounters
-- Hollow Watch Castellan — mini-boss
-- Briarhide Stalker — Chapter-1 main/final boss
+- Watch Castellan — mini-boss
+- Thornhide — Chapter-1 main/final boss
 
 ### Optional combat
 - Cistern Devourer — Regional Hunt #1
 
-This lock covers **identity, name, and Chapter-1 area assignment**. Needlewing / Rootmaw / Brambleback now also have authored raw bodies and action Powers. Final formation weights and mandatory/completionist encounter validation remain open, including Watch Captain's converted normal-pool placement.
+This lock covers **identity, name, and Chapter-1 area assignment**. Needlewing / Rootmaw / Rubbleback now also have authored raw bodies and action Powers. Final formation weights and mandatory/completionist encounter validation remain open, including Watch Captain's converted normal-pool placement.
 
 
 ## Structural encounter closure — 2026-09-22
