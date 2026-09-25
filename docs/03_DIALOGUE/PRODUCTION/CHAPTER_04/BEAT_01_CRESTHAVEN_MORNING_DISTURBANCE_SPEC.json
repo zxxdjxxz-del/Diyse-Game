@@ -63,7 +63,7 @@
     "mirena_traveling": false,
     "cyanis_card_state": "stable deep Ruby after the Chapter-3 First Command Warden",
     "last_sentinel_state": "LAST SENTINEL CONFIRMED is known; no verified modern manifestation; not yet Recovered",
-    "prime_card_knowledge": "The party knows Prime Card is a recurring Ancient Diysean term distinct in context from ordinary Standard Cards, but surviving scholarship does not know what it means, looks like, or does; Cyanis's Card is not classified as Prime.",
+    "prime_card_knowledge": "The party knows Prime Card is a recurring Ancient Diysean term distinct in context from ordinary Standard Cards. After LAST SENTINEL CONFIRMED and the Card's immediate deep-Ruby stabilization, Prime Card is an active but unproven hypothesis for Cyanis's Card; nobody knows what Prime Cards are or do, and the Card is not classified as Prime.",
     "immediate_safety": "Torren has found evidence of a very large creature crossing/approaching occupied Cresthaven grounds; no confirmed missing resident or casualty at scene start."
   },
   "allowed_information_transfers": [
@@ -92,8 +92,8 @@
           "value": "The First Command Warden ended with LAST SENTINEL CONFIRMED; his Card later stabilized deep Ruby."
         },
         "prime_card_classification": {
-          "status": "unknown",
-          "value": "He does not know whether his Card is what Ancient sources called a Prime Card."
+          "status": "hypothesis",
+          "value": "He considers that his Card might be what Ancient sources called a Prime Card because of the Warden/Ruby sequence, but he does not know that it is one."
         },
         "ivorybridge": {
           "status": "known_fact",
@@ -138,8 +138,8 @@
           "value": "She witnessed the First Command Warden sequence and Cyanis's later deep-Ruby Card stabilization."
         },
         "prime_card_classification": {
-          "status": "unknown",
-          "value": "The historical Prime Card term is unresolved and does not classify Cyanis's Card."
+          "status": "hypothesis",
+          "value": "She has explicitly raised that Cyanis's Card might be one of the Ancient Prime Cards, but treats that as an unproven possibility."
         }
       },
       "scene_local_state": {
@@ -186,6 +186,10 @@
         "last_sentinel": {
           "status": "known_fact",
           "value": "He witnessed LAST SENTINEL CONFIRMED and the later Ruby stabilization; he does not know the mechanism."
+        },
+        "prime_card_classification": {
+          "status": "hypothesis",
+          "value": "The Warden naming Last Sentinel immediately before the Card stabilized makes Prime plausible to him, but not proven."
         }
       },
       "scene_local_state": {
@@ -231,8 +235,8 @@
           "value": "Ancient sources repeatedly use Prime Card distinctly from ordinary Standard Cards; later historians did not understand the term."
         },
         "cyanis_prime_classification": {
-          "status": "unknown",
-          "value": "There is insufficient evidence to classify Cyanis's Card as Prime."
+          "status": "hypothesis",
+          "value": "Prime Card is now a materially better hypothesis for Cyanis's Card after the Warden/Ruby sequence, but evidence remains insufficient for classification."
         }
       },
       "scene_local_state": {
