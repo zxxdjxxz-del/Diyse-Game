@@ -4,7 +4,12 @@
   "chapter_id": "chapter_03",
   "story_position": "Chapter 3 — Beat 8 — Buried Collections / Recent Reader",
   "production_ready": true,
-  "participants": ["cyanis", "ilyra", "torren", "nimera"],
+  "participants": [
+    "cyanis",
+    "ilyra",
+    "torren",
+    "nimera"
+  ],
   "authoring_mode": "rehearsal_first_agent_driven",
   "director_rule": "Use the current Agent Brains to let the party discover a recent archival research trail through physical evidence. Nimera owns provenance/classification expertise without becoming an exposition machine; Torren owns field/use evidence only when actually visible. Do not make the recent reader conveniently lead to the later Westways Wayfinder recordbook.",
   "scene_context": {
@@ -16,6 +21,7 @@
   },
   "hard_outcomes": [
     "Historical material provides limited precedent for dormant Cards later becoming responsive without classifying Cyanis's Card.",
+    "Older Card records repeatedly use the term \"Prime Card\" as a category distinct from ordinary Standard Cards, but no surviving known record provides a verified sighting, specimen description, or explanation of what a Prime Card does.",
     "Seal material distinguishes a magical working seal from the visible impression/crest it leaves.",
     "Related authority-seal practice appears older than Yahtrea without proving direct lineage.",
     "Physical archival evidence establishes a relatively recent research trail across overlapping Card, seal, Westways and Face subjects.",
@@ -24,7 +30,7 @@
     "The later Westways recordbook/Wayfinder-copy discovery is not part of this recent-reader trail."
   ],
   "knowledge_and_reveal_boundaries": [
-    "No Prime classification.",
+    "The archival term \"Prime Card\" may be named as an unresolved historical category, but Cyanis's Card must not be classified as Prime and no Prime function may be inferred.",
     "No Might identification.",
     "No Last Sentinel wording.",
     "No deep-Ruby state.",
