@@ -11,8 +11,8 @@ Fixed one-time authored rewards. They are exempt from weak-enemy diminishing ret
 Subtotal: **745 EXP / 172 CEXP**
 | Mandatory authored event | EXP | CEXP |
 |---|---:|---:|
-| Hollow Watch Castellan — mandatory mini-boss clear | 300 | 65 |
-| Briarhide Stalker — normal lethal boss victory | 120 | 28 |
+| Watch Castellan — mandatory mini-boss clear | 300 | 65 |
+| Thornhide — normal lethal boss victory | 120 | 28 |
 | Greenhollow civilians secured / Torren permanent recruitment | 75 | 19 |
 | Wayfinder Junction documented / chapter clear | 250 | 60 |
 
@@ -41,7 +41,7 @@ Subtotal: **4,520 EXP / 264 CEXP**
 Subtotal: **5,938 EXP / 304 CEXP**
 | Mandatory authored event | EXP | CEXP |
 |---|---:|---:|
-| Elder Briarhide — nonlethal resolution | 500 | 28 |
+| Elder Thornhide — nonlethal resolution | 500 | 28 |
 | Vaelira recruitment / expedition milestone | 450 | 30 |
 | Reaction Conduit — nonlethal resolution | 850 | 42 |
 | Regulation Crucible → Seventh Reaction full clear | 2,800 | 120 |
