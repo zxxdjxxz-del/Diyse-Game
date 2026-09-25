@@ -45,8 +45,8 @@ BRIDGES = (
     ), CH0, ("Ruin Vanguard Pursuer",)),
     ("Final Push", "Broken Convoy", (
         "Combat party: Cyanis + Ilyra.",
-        "Boss encounter: Riftmaw + Convoy War-Sorcerer.",
-    ), CH0, ("Riftmaw", "Convoy War-Sorcerer")),
+        "Boss encounter: Riftmaw + Battle Sorcerer.",
+    ), CH0, ("Riftmaw", "Battle Sorcerer")),
 
     ("Halfway Stop", "Enemy Roster — Northern Briar Passage", (
         "Thicket Stalker • Vine Creeper • Briar Boar",
