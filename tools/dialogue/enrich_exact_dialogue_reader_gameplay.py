@@ -64,7 +64,7 @@ BRIDGES = (
         "Thornhide",
     ), CH1, ("Thornhide",)),
     ("First Clear Sighting", "Enemy Roster — Southern Briar", (
-        "Thicket Stalker • Vine Creeper • Briar Boar • Needlewing • Rootmaw • Brambleback",
+        "Thicket Stalker • Vine Creeper • Briar Boar • Needlewing • Rootmaw • Rubbleback",
     ), CH1, ("Thicket Stalker", "Vine Creeper", "Briar Boar", "Needlewing", "Rootmaw", "Rubbleback")),
     ("Torren's Version of Dinner", "Optional Regional Hunt — Cistern Devourer", (
         "Cistern Devourer",
