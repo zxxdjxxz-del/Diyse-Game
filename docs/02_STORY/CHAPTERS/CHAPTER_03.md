@@ -98,7 +98,7 @@ The seal thread does not point the party to Cresthaven.
 ### Card / Last Sentinel thread
 Unstable Card through the Archives → First Command Warden at Cresthaven → **PREVIOUS ERROR** → **LAST SENTINEL CONFIRMED** → Warden fully inert → Card stabilizes deep Ruby.
 
-Prime, Might, bearer status, and the full meaning of Last Sentinel remain unresolved in Chapter 3.
+Prime, Might, bearer status, and the full meaning of Last Sentinel remain unresolved in Chapter 3. **Last Sentinel is not yet Recovered in Chapter 3; its Recovered transition occurs during its first verified modern manifestation in the Chapter-4 Elder Thornhide battle.**
 
 ---
 
@@ -673,7 +673,7 @@ The following remain unresolved:
 - bearer status;
 - Prime classification;
 - Might classification;
-- Last Sentinel recovery, manifestation, awakening, or use.
+- Last Sentinel recovery, manifestation, awakening, or use; **the next locked state change is its transition into Recovered during the Chapter-4 Elder Thornhide battle.**
 
 ---
 
