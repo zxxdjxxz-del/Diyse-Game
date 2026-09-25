@@ -53,7 +53,7 @@
     }
   ],
   "scene_context_seed": {
-    "location_name": "protected mural chamber beyond Hollow Watch Castellan",
+    "location_name": "protected mural chamber beyond Watch Castellan",
     "area_phase": "post_boss_protected_discovery",
     "dialogue_readiness": "GREEN",
     "static_story_context_only": true,
