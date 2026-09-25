@@ -29,7 +29,7 @@ The Thornhide is there.
 
 This is the first clear visual reveal of the animal.
 
-It is simply an exceptionally large native Briarhide. There is no Black Host equipment, corruption, machinery, special wound, or other condition to diagnose.
+It is simply an exceptionally large native Thornhide. There is no Black Host equipment, corruption, machinery, special wound, or other condition to diagnose.
 
 A beat.
 
@@ -93,7 +93,7 @@ There is:
 
 ## [STORY TRIGGER — AFTERMATH]
 
-The Briarhide lies still.
+The Thornhide lies still.
 
 For a moment, nobody says anything.
 
@@ -133,7 +133,7 @@ The scene ends.
 
 Player control returns.
 
-The Briarhide threat is gone and the route forward is open.
+The Thornhide threat is gone and the route forward is open.
 
 Chapter 1's final combat climax is complete.
 
