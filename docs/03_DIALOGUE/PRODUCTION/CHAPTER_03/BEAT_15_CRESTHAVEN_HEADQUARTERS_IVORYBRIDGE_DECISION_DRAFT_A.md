@@ -28,6 +28,18 @@ Mirena studies the Ruby Card but does not reach for it.
 
 **CYANIS:** No idea. Just the words.
 
+**ILYRA:** What if the damn thing is one of those Prime Cards?
+
+**CYANIS:** Same thought.
+
+**TORREN:** Warden names Last Sentinel. Card changes right after. Hell of a coincidence.
+
+**NIMERA:** Yes. Which makes Prime a better hypothesis than it was in the Archives.
+
+**MIRENA:** But still a hypothesis.
+
+**NIMERA:** Very much. We still don't know what a Prime Card is, what one does, or whether this bastard qualifies. I'm not turning a suspicious sequence into a fucking definition.
+
 **MIRENA:** Useful in exactly the wrong way.
 
 ### [HEADQUARTERS]
@@ -157,7 +169,7 @@ Current next investigative direction:
 ## Beat-15 end state
 
 - First Command Warden and Ruby Card events are reported without being solved;
-- Prime/Might/bearer status remains unresolved;
+- Prime Card becomes an explicit working hypothesis for Cyanis's Card, but remains unconfirmed; Might/bearer status remains unresolved;
 - Cresthaven becomes operational headquarters;
 - Regional Hunt #3 unlocks;
 - Mirena and Maevra return to Caelora after the handoff;
