@@ -36,11 +36,13 @@ First player-control objective:
 > **Inspect the disturbance**
 
 The environment/player inspection establishes:
-- enormous creature;
-- path toward the forest;
-- territorial movement/marking rather than deliberate attack;
-- older range signs;
-- restoration/reoccupation has altered habitual range.
+- enormous fresh tracks / displaced soil / crushed brush;
+- movement line toward the forest rather than toward occupied rooms;
+- territorial rub/marking behavior rather than deliberate attack;
+- weathered older signs that a large animal used this ground before current reoccupation;
+- recent clearing/work boundaries/materials or reopened use physically crossing/narrowing that older route;
+- no mauled resident or deliberate breach of living quarters;
+- no Black Host or Ancient-system evidence.
 
 Torren's Elder Thornhide identification must be earned from the evidence.
 
