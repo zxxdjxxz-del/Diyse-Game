@@ -184,6 +184,33 @@ def main() -> int:
         "malformed memory authorization must fail",
     )
 
+    chapter4_spec_path = ROOT / "docs/03_DIALOGUE/PRODUCTION/CHAPTER_04/BEAT_01_CRESTHAVEN_MORNING_DISTURBANCE_SPEC.json"
+    chapter4 = compiler.compile_spec_file(chapter4_spec_path, root=ROOT)
+    chapter4_request = chapter4["request_seed"]
+    expect(
+        chapter4_request["scene_id"] == "CH04_BEAT01_CRESTHAVEN_MORNING_DISTURBANCE",
+        "Chapter 4 Beat 1 scene authority did not compile with the expected ID",
+    )
+    expect(
+        chapter4_request["participants"] == ["cyanis", "ilyra", "torren", "nimera"],
+        "Chapter 4 Beat 1 participant order changed",
+    )
+    expect(
+        chapter4_request["current_floor_state"]["last_sentinel_state"]
+        == "LAST SENTINEL CONFIRMED is known; no verified modern manifestation; not yet Recovered",
+        "Chapter 4 Beat 1 lost the unrecovered Last Sentinel opening state",
+    )
+    expect(
+        chapter4_request["person_runtime_contexts"]["torren"]["epistemic_state"]["creature_identity"]["status"]
+        == "inference",
+        "Torren must not enter Beat 1 with Elder Thornhide identity promoted to known fact",
+    )
+    for cid in chapter4_request["participants"]:
+        expect(
+            chapter4_request["person_runtime_contexts"][cid]["memory_authorization"] == {"mode": "none"},
+            f"Chapter 4 Beat 1 must keep persistent story memory deny-by-default for {cid}",
+        )
+
     print("Diyse scene authority compiler validation passed.")
     return 0
 
