@@ -9,7 +9,7 @@ Approved destinations:
 - `black_host_crossbowman.png`
 - `ruin_shieldbearer.png`
 - `war_hound.png`
-- `ruin_vanguard_pursuer_concealed_seyrik.png`
+- `ruin_vanguard_pursuer_concealed_seyrik.jpg`
 - `convoy_war_sorcerer.png`
 - `riftmaw.png`
 
@@ -27,6 +27,8 @@ Until a destination binary hashes exactly to the manifest, the registered approv
 
 ## Binary-sync state
 
-**PENDING.**
+**EXACT ENEMY MASTER SYNC: COMPLETE — 7/7.**
 
-The exact seven approved PNGs and the final reference PDF are fingerprinted and staged for promotion, but the repository binary paths must not be marked complete until the bytes at those paths match this manifest exactly.
+All seven repository master binaries match the approved source byte identities registered in the manifest. The concealed-Seyrik master is stored as `.jpg` because its native approved byte stream is JPEG/JFIF despite the original uploaded filename ending in `.png`; no conversion was performed.
+
+**Reference PDF sync:** PENDING. The PDF is a convenience/reference packet and does not control the seven individual exact visual masters.
