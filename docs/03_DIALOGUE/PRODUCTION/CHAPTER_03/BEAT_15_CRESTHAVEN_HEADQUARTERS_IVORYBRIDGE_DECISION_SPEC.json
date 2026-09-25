@@ -4,9 +4,17 @@
   "chapter_id": "chapter_03",
   "story_position": "Chapter 3 — Beat 15 — Cresthaven Headquarters / Cleanup / Ivorybridge Decision",
   "production_ready": true,
-  "participants": ["cyanis","ilyra","torren","nimera","mirena","maevra"],
+  "participants": [
+    "cyanis",
+    "ilyra",
+    "torren",
+    "nimera",
+    "mirena",
+    "maevra"
+  ],
   "hard_outcomes": [
     "The permanent four report PREVIOUS ERROR, LAST SENTINEL CONFIRMED and the subsequent deep-Ruby Card stabilization to Mirena/Maevra without resolving meaning or causation.",
+    "The Warden message plus immediate deep-Ruby stabilization makes Prime Card an explicit working hypothesis for Cyanis's Card, but the party does not treat that hypothesis as classification or proof.",
     "Cresthaven becomes the party's operational headquarters.",
     "Mirena provides the newly accessible Old City Archive side-passage update for Regional Hunt #3.",
     "The party revisits the Westways recordbook map after physically confirming the tower site.",
@@ -17,7 +25,17 @@
     "Chapter-3 cleanup opens with Cyanis, Ilyra, Torren and Nimera."
   ],
   "forbidden_reveals": [
-    "prime","might","bearer_status","last_sentinel_meaning","previous_error_meaning","ruby_causation","ancient_map_labels_ivorybridge","confirmed_route_to_ivorybridge","route_destination","calder"
+    "might",
+    "bearer_status",
+    "last_sentinel_meaning",
+    "previous_error_meaning",
+    "ruby_causation",
+    "ancient_map_labels_ivorybridge",
+    "confirmed_route_to_ivorybridge",
+    "route_destination",
+    "calder",
+    "confirmed_prime_card_classification",
+    "prime_card_function"
   ],
   "true_voice_requirements": {
     "nimera": "Live brain; profanity remains high/frequent and integrated, 15–35% long-form anti-sanitization calibration across a large corpus, not quota.",
