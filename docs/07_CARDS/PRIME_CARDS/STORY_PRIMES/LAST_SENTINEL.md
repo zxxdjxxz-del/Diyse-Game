@@ -8,6 +8,14 @@
 **Narrative bearer:** Cyanis  
 **Progression:** Recovered → Awakened
 
+## Acquisition / Recovered transition
+- Chapter 3 ends with **LAST SENTINEL CONFIRMED** and Cyanis's Card stabilized deep Ruby, but Last Sentinel is **not yet Recovered** and is not gameplay-usable.
+- During the **Chapter-4 Elder Thornhide battle**, Last Sentinel manifests for the first verified modern Prime action.
+- **That manifestation is the transition into Recovered and the acquisition event.**
+- The Recovered manifestation uses **Sentinel Impact** as the one strong Recovered signature action and dismisses in the same ordinary round under the global Recovered-Prime rule.
+- The Elder Thornhide survives and retreats.
+- Last Sentinel is **not Awakened** by this event.
+
 ## Command package
 | Command | Target | Formula | Power | Base Hit | Effect |
 |---|---|---|---:|---:|---|
