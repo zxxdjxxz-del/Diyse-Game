@@ -22,7 +22,7 @@
 | 12 | Beat 12 | `BEAT_12_INNER_COLLECTIONS_WESTWAYS_RECORDBOOK_SEALWRIGHT_DRAFT_A.md` | `35c62c209dfb0b7e11b47189c461302d953a1c615562d68041df135ab61933d5` |
 | 13 | Beat 13 | `BEAT_13_RETURN_TO_MIRENA_CRESTHAVEN_IDENTIFIED_DRAFT_A.md` | `7c8ce93da4885efb1f31d2a6d928090684d20fe856802c9e5fdd3cabb835d76e` |
 | 14 | Beat 14 | `BEAT_14_CRESTHAVEN_TOWER_BASE_FIRST_COMMAND_WARDEN_DRAFT_A.md` | `2781f5907cf6ee5c56ecf854161c9b262659a346b298da297c3166db0b080ec5` |
-| 15 | Beat 15 | `BEAT_15_CRESTHAVEN_HEADQUARTERS_IVORYBRIDGE_DECISION_DRAFT_A.md` | `c6132f9f95f04c2d3aa1e62e27d765ce6a8caf0b88231c22e84f6feaad91045e` |
+| 15 | Beat 15 | `BEAT_15_CRESTHAVEN_HEADQUARTERS_IVORYBRIDGE_DECISION_DRAFT_A.md` | `00ef57aaa9f4d038c3ca89a4a109bf45ff7b0689e3eb5ab3ac222c0bdab415a4` |
 | 16 | C06 — Nimera Takes Over a Table | `H01_NIMERA_TAKES_OVER_A_TABLE_DRAFT_A.md` | `ff4a018648dc2eebb94335b6687c5a8e72aac0d00b43c8fbaa3bb6191de6648a` |
 | 17 | C07 — Ilyra and Nimera | `H03_ILYRA_AND_NIMERA_DRAFT_A.md` | `1157586b03d4265d502a51d2b57a4dc5052d6fb387a17377b60a3499bb2955ec` |
 
@@ -2462,7 +2462,7 @@ Transition into:
 ## Beat 15
 
 **Atomic source:** `BEAT_15_CRESTHAVEN_HEADQUARTERS_IVORYBRIDGE_DECISION_DRAFT_A.md`  
-**Source SHA-256:** `c6132f9f95f04c2d3aa1e62e27d765ce6a8caf0b88231c22e84f6feaad91045e`
+**Source SHA-256:** `00ef57aaa9f4d038c3ca89a4a109bf45ff7b0689e3eb5ab3ac222c0bdab415a4`
 
 # Chapter 3 — Beat 15
 # Cresthaven Headquarters / Cleanup / Ivorybridge Decision
@@ -2493,6 +2493,18 @@ Mirena studies the Ruby Card but does not reach for it.
 **MIRENA:** Last Sentinel.
 
 **CYANIS:** No idea. Just the words.
+
+**ILYRA:** What if the damn thing is one of those Prime Cards?
+
+**CYANIS:** Same thought.
+
+**TORREN:** Warden names Last Sentinel. Card changes right after. Hell of a coincidence.
+
+**NIMERA:** Yes. Which makes Prime a better hypothesis than it was in the Archives.
+
+**MIRENA:** But still a hypothesis.
+
+**NIMERA:** Very much. We still don't know what a Prime Card is, what one does, or whether this bastard qualifies. I'm not turning a suspicious sequence into a fucking definition.
 
 **MIRENA:** Useful in exactly the wrong way.
 
@@ -2623,7 +2635,7 @@ Current next investigative direction:
 ## Beat-15 end state
 
 - First Command Warden and Ruby Card events are reported without being solved;
-- Prime/Might/bearer status remains unresolved;
+- Prime Card becomes an explicit working hypothesis for Cyanis's Card, but remains unconfirmed; Might/bearer status remains unresolved;
 - Cresthaven becomes operational headquarters;
 - Regional Hunt #3 unlocks;
 - Mirena and Maevra return to Caelora after the handoff;

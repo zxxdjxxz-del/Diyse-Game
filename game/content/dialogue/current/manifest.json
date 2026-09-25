@@ -640,9 +640,9 @@
           "scene_kind": "mandatory",
           "slot_id": "B15",
           "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_03/BEAT_15_CRESTHAVEN_HEADQUARTERS_IVORYBRIDGE_DECISION_DRAFT_A.md",
-          "source_sha256": "c6132f9f95f04c2d3aa1e62e27d765ce6a8caf0b88231c22e84f6feaad91045e",
-          "spoken_lines": 39,
-          "spoken_sha256": "0bf3550db77e96adf9783956db433fe15564ee445edce1cdc893d030572633e1",
+          "source_sha256": "00ef57aaa9f4d038c3ca89a4a109bf45ff7b0689e3eb5ab3ac222c0bdab415a4",
+          "spoken_lines": 45,
+          "spoken_sha256": "65af8e23c9617cc5e6a6acd82f2f072ce9e08841dfca37322bbc28e262f57a33",
           "title": "Cresthaven Headquarters / Cleanup / Ivorybridge Decision"
         },
         {
@@ -670,9 +670,9 @@
       ]
     }
   },
-  "expected_total_spoken": 2049,
-  "global_spoken_sha256": "ef3425210e7b67b34728fd441f30fb6156683e98528830df2346792e1b6acac6",
+  "expected_total_spoken": 2055,
+  "global_spoken_sha256": "b62f83e497e4fa63948091700d63cc1d8c9443c9ca99ab1ccf67c3fd2bff1c7d",
   "schema": "diyse_current_runtime_dialogue_manifest_v1",
   "source_authority": "docs/03_DIALOGUE/PRODUCTION",
-  "total_spoken": 2049
+  "total_spoken": 2055
 }
