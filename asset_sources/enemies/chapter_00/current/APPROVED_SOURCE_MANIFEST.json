@@ -13,7 +13,7 @@
       "height": 1402,
       "size_bytes": 1476535,
       "sha256": "446ff9e2275fbbd2d44be3b5c61f8cc1136d910e53a760d3a605dfcee8d2687f",
-      "exact_binary_sync": "pending",
+      "exact_binary_sync": "complete",
       "image_generation_id": "5e43d4ff-833c-4e99-8d13-b6a0beeeea8b"
     },
     "black_host_crossbowman": {
@@ -24,7 +24,7 @@
       "height": 1402,
       "size_bytes": 1542643,
       "sha256": "845b344ebf8d45b3c078b9ffc3dd094c19407bdfe07819608dfcbd07960c96a5",
-      "exact_binary_sync": "pending",
+      "exact_binary_sync": "complete",
       "image_generation_id": "9a2c6742-47e3-4401-86b2-b5c1d01cba93"
     },
     "ruin_shieldbearer": {
@@ -35,7 +35,7 @@
       "height": 1402,
       "size_bytes": 1482486,
       "sha256": "18d1237f4f933bdf6dbcba7f9b4df90c5090ec413ebe334cb5a4982c221fb2d7",
-      "exact_binary_sync": "pending",
+      "exact_binary_sync": "complete",
       "image_generation_id": "bf4897a7-8f7e-4110-a6f0-2125ecd6d60f"
     },
     "war_hound": {
@@ -46,18 +46,18 @@
       "height": 1362,
       "size_bytes": 1624946,
       "sha256": "2108a1cd66d42512342c96f4cf02787d0a06aee20410145ff20c77bfbeec192a",
-      "exact_binary_sync": "pending",
+      "exact_binary_sync": "complete",
       "image_generation_id": "66068793-484e-4f4d-a703-6657d5041c44"
     },
     "ruin_vanguard_pursuer": {
       "display_name": "Ruin Vanguard Pursuer / concealed Seyrik",
-      "expected_repository_path": "asset_sources/enemies/chapter_00/current/ruin_vanguard_pursuer_concealed_seyrik.png",
-      "media_format": "PNG",
+      "expected_repository_path": "asset_sources/enemies/chapter_00/current/ruin_vanguard_pursuer_concealed_seyrik.jpg",
+      "media_format": "JPEG/JFIF",
       "width": 1287,
       "height": 1536,
       "size_bytes": 217870,
       "sha256": "c6ea82c58c628679536447fd6a55b00d306651f99a39599fba4124262d7aa011",
-      "exact_binary_sync": "pending",
+      "exact_binary_sync": "complete",
       "source_file": "1000030142.png"
     },
     "convoy_war_sorcerer": {
@@ -68,7 +68,7 @@
       "height": 1374,
       "size_bytes": 1598698,
       "sha256": "4090842e2e765cecc83235d1ddf79d0b211872f3abbf2baff0955bd3bfff3573",
-      "exact_binary_sync": "pending",
+      "exact_binary_sync": "complete",
       "image_generation_id": "6da6acea-2115-45f3-870b-1651c27286f7"
     },
     "riftmaw": {
@@ -79,7 +79,7 @@
       "height": 1402,
       "size_bytes": 2011118,
       "sha256": "0d7058da574b838a22ab5a1835278eff0e2ab3e60f13ff62a9df37687f0e3dd1",
-      "exact_binary_sync": "pending",
+      "exact_binary_sync": "complete",
       "image_generation_id": "425bdff5-41bd-4c2e-90b8-34c58c06ad00"
     }
   },
@@ -90,5 +90,6 @@
     "size_bytes": 16565479,
     "sha256": "93ce44e9efe110c57e01a07cfd9cfd0da328af0934de81161107708199fcfab9",
     "exact_binary_sync": "pending"
-  }
+  },
+  "source_format_note": "Six approved enemy masters are native PNG byte streams. Ruin Vanguard Pursuer / concealed Seyrik is a native JPEG/JFIF byte stream despite the original uploaded filename ending in .png; the repository .jpg destination preserves the exact approved bytes without conversion."
 }
