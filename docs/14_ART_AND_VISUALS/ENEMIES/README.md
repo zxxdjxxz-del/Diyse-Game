@@ -24,7 +24,7 @@ Currently locked:
 3. Ruin Shieldbearer
 4. War Hound
 5. Ruin Vanguard Pursuer / concealed Seyrik
-6. Convoy War-Sorcerer
+6. Battle Sorcerer
 7. Riftmaw
 
 **Chapter 0 exact visual set: COMPLETE — 7/7 locked.**
