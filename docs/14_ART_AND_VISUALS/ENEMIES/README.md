@@ -36,5 +36,5 @@ Machine-readable exact-source authority:
 Canonical binary destination:
 > [`asset_sources/enemies/chapter_00/current/`](../../../asset_sources/enemies/chapter_00/current/)
 
-The seven visual designs are **7/7 approved and fingerprinted**. Repository binary sync remains **PENDING** until the PNGs at those destinations match the registered SHA-256 values exactly. Do not substitute compressed, resized, optimized, regenerated, or visually similar files.
+The seven visual designs are **7/7 approved, fingerprinted, and exact-binary synced in the repository**. Do not substitute compressed, resized, optimized, regenerated, or visually similar files. The separate convenience/reference PDF may be synced independently and does not outrank the seven exact individual masters.
 
