@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "production_started_local_date": "2026-09-25",
+  "authority": "newest explicit user-approved exact Chapter 1 enemy visual masters",
+  "sync_rule": "Only explicitly approved exact images may be registered. A repository binary is authoritative only when its SHA-256 matches its registered source exactly. Never alter a master during sync.",
+  "repository_root": "asset_sources/enemies/chapter_01/current",
+  "new_master_count_target": 12,
+  "locked_count": 0,
+  "masters": {}
+}
