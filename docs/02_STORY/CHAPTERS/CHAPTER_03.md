@@ -284,12 +284,14 @@ Mandatory:
   - Six-Face material;
   - the Diysean ruins in the Westways;
 - Nimera establishes one bounded piece of older Card scholarship:
-  - the words **Prime Card / Prime Cards** recur across surviving older records she has studied;
-  - the term is clearly used as something distinct from ordinary **Standard Cards**;
+  - the words **Prime Card / Prime Cards** recur in surviving **Diysean writings and inscriptions**, and in later copies/commentaries preserving those Ancient references;
+  - later historians who encountered the term **did not understand what it meant either**;
+  - their scholarship preserves the repeated term and notes its uncertainty rather than supplying a lost known definition;
+  - contextual evidence shows Ancient sources treat **Prime Cards** as distinct from ordinary **Standard Cards**;
   - no surviving known record gives a verified physical description of a Prime Card;
   - no known person in the surviving record is established to have actually seen one;
   - no surviving known account establishes what a Prime Card does;
-  - the historical term therefore exists without a usable modern definition;
+  - the Ancient term is therefore real, but its referent and function remain unknown;
   - this does **not** classify Cyanis's Card as Prime;
 - the recent reader's identity remains unknown;
 - this research trail does **not** lead the party to the Westways recordbook map;
@@ -649,7 +651,7 @@ At Chapter-3 end, the party may know:
 - no simple recorded theft explains the anomaly;
 - historical magically significant seal traditions existed;
 - an unknown recent reader researched overlapping Card/authority subjects;
-- older records repeatedly use **Prime Card** as a category distinct from ordinary Standard Cards, but no surviving known sighting, physical description, or functional account explains what a Prime Card actually is or does;
+- surviving Diysean writings and inscriptions repeatedly use **Prime Card** in contexts distinct from ordinary Standard Cards; later historians who found those references also did not understand the term, and no verified sighting, identified specimen, physical description, or functional account explains what a Prime Card actually is or does;
 - someone practiced increasingly sophisticated seal reproduction in an Ancient Sealwright chamber;
 - later practice attempts involved very powerful magic;
 - the actual Wayfinder is an Ancient Diysean artifact thousands of years old;
