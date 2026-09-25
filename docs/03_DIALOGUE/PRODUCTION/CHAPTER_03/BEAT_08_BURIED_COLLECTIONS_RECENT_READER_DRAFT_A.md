@@ -40,29 +40,37 @@ Nimera checks it.
 
 Nimera turns back through several older Card references, then stops on a repeated term.
 
-**NIMERA:** There's a phrase I keep finding in older Card records. Prime Card.
+**NIMERA:** There's a phrase that keeps turning up in Diysean material. Prime Card.
 
 **CYANIS:** Prime?
 
-**NIMERA:** Repeatedly. Different centuries, different hands, same damned term.
+**NIMERA:** In inscriptions. Fragmentary texts. Later copies of older writing. Enough independent appearances that the words are real, not one scholar's bad guess.
 
 **ILYRA:** Meaning?
 
-**NIMERA:** That's the infuriating part. The records clearly separate Prime Cards from ordinary Standard Cards, so it isn't just an old fancy name for the same shit we use now.
+**NIMERA:** Nobody fucking knows. That's the point.
+
+She pulls one later commentary closer.
+
+**NIMERA:** The historians who found the term didn't understand it either. Half the useful notes are basically `Prime Card appears here again; meaning unknown.`
+
+**TORREN:** Then how do they know it isn't just an old name for a normal Card?
+
+**NIMERA:** Context. When the old writing mentions ordinary Cards and Prime Cards in the same material, it treats them as different things. That's as far as the evidence goes.
 
 **TORREN:** Anyone ever see one?
 
-**NIMERA:** Not in any surviving record I've found. No known specimen. No eyewitness account that actually describes one. Nothing useful about what one looks like or what the bastard does. They write `Prime Card` like the reader is already supposed to know what the hell that means, then neglect to preserve the part where anyone explains it.
+**NIMERA:** Not that anyone can prove. No surviving specimen identified as one. No reliable eyewitness description. No account that tells us what one looks like or what the bastard actually does.
 
 **CYANIS:** Could this be one?
 
 Nimera looks at the Card, then at him.
 
-**NIMERA:** Could be a royal chamber pot if we lower the evidence bar far enough. We do not have evidence to call it Prime. Weird Card plus mysterious old Card word does not equal same thing.
+**NIMERA:** Could be a royal chamber pot if we lower the evidence bar far enough. We do not have evidence to call it Prime. Weird Card plus mysterious ancient term does not equal same thing.
 
-**ILYRA:** So the term is real. The definition isn't.
+**ILYRA:** So Prime Card is an old Diysean term we know they used. We still don't know what they meant by it.
 
-**NIMERA:** Exactly. Prime Card is a real category in the records. Everything after that is a fucking hole.
+**NIMERA:** Exactly. The words survived. The fucking explanation didn't.
 
 ### [GAMEPLAY — MIXED RESEARCH TABLES]
 
@@ -175,7 +183,7 @@ Transition into:
 ## Beat-8 end state
 
 - limited historical precedent exists for dormant Cards later becoming responsive without classifying Cyanis's Card;
-- older records repeatedly use **Prime Card** as a category distinct from ordinary Standard Cards, but no surviving known sighting, physical description, or functional account explains what a Prime Card is or does;
+- surviving Diysean writings and inscriptions repeatedly use **Prime Card** in contexts that distinguish it from ordinary Standard Cards; later historians who encountered the term also did not understand what it meant, and no verified sighting, specimen description, or functional account survives;
 - Cyanis's Card remains unclassified and is not identified as Prime;
 - older authority-seal material distinguishes a working magical seal from its visible impression;
 - related authority-seal practices may predate Yahtrea without proving lineage;
