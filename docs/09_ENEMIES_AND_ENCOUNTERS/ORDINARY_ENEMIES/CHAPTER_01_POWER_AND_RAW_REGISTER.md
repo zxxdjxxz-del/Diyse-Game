@@ -14,26 +14,26 @@ Individual enemy files remain the owning authority.
 | Black Host Raider | 2 | 120 | 26 | 10 | 14 | 12 | 22 | 0 | 0 | 120 / 145 |
 | Black Host Crossbowman | 2 | 95 | 25 | 10 | 12 | 12 | 24 | 5 | 0 | 125 / 155 |
 | Ruin Shieldbearer | 3 | 165 | 25 | 18 | 23 | 19 | 17 | 0 | 5 | 115 / 135 |
-| Greenhollow Stalker | 3 | 135 | 29 | 10 | 15 | 13 | 27 | 5 | 0 | 140 / 125 |
-| Thornvine Creeper | 3 | 155 | 23 | 24 | 18 | 18 | 15 | 0 | 5 | 115 / 120 |
+| Thicket Stalker | 3 | 135 | 29 | 10 | 15 | 13 | 27 | 5 | 0 | 140 / 125 |
+| Vine Creeper | 3 | 155 | 23 | 24 | 18 | 18 | 15 | 0 | 5 | 115 / 120 |
 | Briar Boar | 4 | 195 | 32 | 8 | 22 | 15 | 21 | 0 | 0 | 160 / 145 |
 | Needlewing | 4 | 120 | 27 | 18 | 13 | 16 | 31 | 10 | 0 | 130 / 115 |
 | Rootmaw | 5 | 230 | 30 | 30 | 24 | 23 | 14 | 0 | 5 | 140 / 135 |
-| Brambleback | 5 | 265 | 35 | 8 | 29 | 18 | 18 | 0 | 5 | 165 / AoE 95 |
+| Rubbleback | 5 | 265 | 35 | 8 | 29 | 18 | 18 | 0 | 5 | 165 / AoE 95 |
 | Watch Sentry | 3 | 130 | 24 | 26 | 20 | 21 | 24 | 0 | 10 | 120 |
 | Watch Ballista | 4 | 170 | 40 | 0 | 22 | 18 | 18 | 0 | 10 | 135 / marked 200 |
 
 ## Current placement boundary
 
 Active Chapter-1 ordinary roster with closed numeric bodies:
-- Northern/first Briar: Greenhollow Stalker / Thornvine Creeper / Briar Boar
+- Northern/first Briar: Thicket Stalker / Vine Creeper / Briar Boar
 - Hollow Watch Black Host: Black Host Raider / Black Host Crossbowman / Ruin Shieldbearer
 - Hollow Watch constructs: Watch Sentry / Watch Ballista
 
 Southern-Briar identities now authored:
 - Needlewing — fast aerial harasser;
 - Rootmaw — slow durable mixed physical/Earth pressure;
-- Brambleback — armored bruiser with capped three-target sweep.
+- Rubbleback — armored bruiser with capped three-target sweep.
 
 Strong normal-pool converted identity:
 - Watch Captain Frame — retains its existing body/Power in the Elite owner file; normal-pool placement revalidation required.
@@ -41,7 +41,7 @@ Strong normal-pool converted identity:
 Brackenwall Reaver's authored body remains retained in its individual file, but it is not part of the active Chapter-1 roster or Chapter-1 formation validation after the 2026-09-22 roster trim.
 
 Chapter-1 authored/protected:
-- Briarhide Stalker — **PASS**
+- Thornhide — **PASS**
 - Black Host Irritant Fitting — **POWER COMPLETE**
 
 Chapter-1 strong normal-pool identity:
