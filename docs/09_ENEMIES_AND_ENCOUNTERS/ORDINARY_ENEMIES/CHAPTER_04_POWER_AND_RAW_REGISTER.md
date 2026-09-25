@@ -73,7 +73,7 @@ Annex Duelist:
 
 ## Already certified mandatory special encounters
 Separately owned and unchanged:
-- Elder Briarhide — **PASS**
+- Elder Thornhide — **PASS**
 - Reaction Conduit — **PASS**
 - Regulation Crucible → The Seventh Reaction — **PASS**
 
