@@ -1,6 +1,6 @@
 > **v96 BLEED RULE NOTE:** Bleed now starts at **3% Max HP per qualifying proc** and escalates to **4%** after the affected unit completes 3 turns with that Bleed uncleared. The Normal/Smart and Safety lines remain valid for the encounter-body verdict because their tested Ballista-priority policy prevented Heavy Bolt Bleed from occurring. The historical Aggressive support-ignore Bleed-risk percentages below are **superseded** and must be refreshed before being used as current risk metrics.
 
-# Hollow Watch Castellan — True-Battle Certification v93
+# Watch Castellan — True-Battle Certification v93
 
 **Encounter:** Chapter 1 / S008  
 **Test layer:** actual round-resolution simulation, distinct from paper balance  
