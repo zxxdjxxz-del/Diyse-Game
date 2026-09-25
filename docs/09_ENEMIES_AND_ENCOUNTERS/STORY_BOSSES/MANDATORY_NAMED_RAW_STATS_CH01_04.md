@@ -8,12 +8,12 @@
 
 | Ch | Encounter / form | Lv | HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR | Architecture |
 |---:|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---|
-| 1 | **Briarhide Stalker** | 4 | 850 | 34 | 18 | 22 | 20 | 29 | 10 | 0 | nonlethal; Irritant Fitting objective / 25% protected floor |
-| 1 | **Hollow Watch Castellan** | 6 | 450 | 42 | 27 | 27 | 24 | 25 | 0 | 5 | one bar; Fortress → Walking same-bar |
+| 1 | **Thornhide** | 4 | 850 | 34 | 18 | 22 | 20 | 29 | 10 | 0 | nonlethal; Irritant Fitting objective / 25% protected floor |
+| 1 | **Watch Castellan** | 6 | 450 | 42 | 27 | 27 | 24 | 25 | 0 | 5 | one bar; Fortress → Walking same-bar |
 | 2 | **Archive Leviathan** | 9 | 1,900 | 50 | 52 | 31 | 33 | 25 | 0 | 5 | one bar; Recorded Pattern → Emergent same-bar |
 | 2 | **Commander Rhazek — Bastion Master** | 10 | 2,050 | 58 | 44 | 36 | 32 | 27 | 5 | 5 | one bar; Bastion Master → Ruin Escalation same-bar; survives/withdraws |
 | 3 | **First Command Warden** | 14 | 2,850 | 72 | 72 | 43 | 43 | 30 | 0 | 10 | one bar; Imposed Authority → Challenged Authority same-bar |
-| 4 | **Elder Briarhide** | 14 | 2,100 | 72 | 28 | 60 | 55 | 36 | 10 | 5 | mandatory nonlethal; fixed 4-round Last Sentinel sequence |
+| 4 | **Elder Thornhide** | 14 | 2,100 | 72 | 28 | 60 | 55 | 36 | 10 | 5 | mandatory nonlethal; fixed 4-round Last Sentinel sequence |
 | 4 | **Reaction Conduit** | 17 | 2,400 | 58 | 80 | 50 | 55 | 33 | 5 | 5 | mandatory nonlethal stabilization; four-expression cycle |
 | 4 | **Regulation Crucible — Form I** | 18 | 2,400 | 64 | 90 | 54 | 57 | 30 | 0 | 10 | Form I; four targetable elemental chambers |
 | 4 | **The Seventh Reaction — Form II** | 19 | 2,900 | 72 | 98 | 58 | 62 | 32 | 0 | 10 | genuine fresh Form II; inherits surviving chamber traits |
@@ -24,7 +24,7 @@
 - Same-bar states do not refresh Prime availability.
 
 
-## Hollow Watch Castellan working recertification override
+## Watch Castellan working recertification override
 The former Audit129-compatible line:
 > Lv6 / 1,758 HP / 36 ATK / 27 MAG / 27 DEF / 24 Spirit / 25 SPD
 
@@ -178,7 +178,7 @@ Expected:
 State B begins at 45% HP with no refill and no Prime refresh.
 
 
-## Elder Briarhide working recertification
+## Elder Thornhide working recertification
 
 Actual S022 route:
 - mandatory **Lv13**
@@ -198,7 +198,7 @@ Power block:
 Round 4:
 - forced Recovered Last Sentinel
 - Sentinel Impact — **340 Power / 40% Defense penetration**
-- Elder Briarhide retreats alive
+- Elder Thornhide retreats alive
 
 Duration:
 > **exactly 4 rounds on mandatory and completionist routes**
@@ -285,7 +285,7 @@ Expected complete encounter:
 - high-side **~9–11**
 
 
-## Briarhide Stalker Power-complete override
+## Thornhide Power-complete override
 Raw body remains:
 > Lv4 / HP850 / ATK34 / MAG18 / DEF22 / Spirit20 / SPD29 / EVA10 / SR0
 
