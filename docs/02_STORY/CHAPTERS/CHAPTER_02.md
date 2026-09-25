@@ -61,6 +61,71 @@ Once the prisoners are freed and organized inside the defeated Old Bastion, the 
 
 ---
 
+
+## Environmental storytelling lock
+
+Chapter 2 should make its infiltration/rescue story understandable through physical spaces and changing human use, not only through exposition.
+
+### Dunmere
+The settlement should show the consequences of the Old Bastion controlling the corridor without reviving the retired poisoned-water plot:
+- reduced or redirected road traffic;
+- travel goods/animals/people waiting on the safe side of the route;
+- signs that normal Greenhollow–Dunmere movement has become unreliable;
+- local life continues rather than presenting Dunmere as a disaster zone.
+
+No poisoned-water visuals, contamination residue, or water-crisis storytelling may return.
+
+### Old Waterworks
+The route should visibly communicate age and declining use:
+- maintained Dunmere/Yahtrean utility construction near the entry;
+- increasingly disused service sections;
+- repairs/reuse built over older foundations;
+- eventual dominance of Ancient construction;
+- ordinary water pressure, wet traversal, mineral staining, broken channels, and creature ecology provide environmental hazard;
+- the sealed future-Hunt side door may be visibly real and inaccessible, but must not explain itself.
+
+The lack of routine Black Host presence is itself environmental information: this should feel like a forgotten covert approach rather than an occupied tunnel.
+
+### Sunken Archive
+The Archive should tell a different story than the Waterworks:
+- preservation/storage architecture remains recognizable despite flooding and damage;
+- shelves/frames/containers/mechanisms should suggest organized long-term storage without requiring a lore lecture;
+- flooding, collapsed connections, displaced wildlife, and surviving constructs show how the place changed after abandonment;
+- the Archive Leviathan should feel like part of the current ruined ecology occupying a once-controlled space.
+
+Do not add a replacement map mural or cartographic payoff.
+
+### Secret passage / Prisoner Galleries
+The transition should communicate **reuse across civilizations**:
+- the concealed Ancient passage physically intersects later Bastion construction;
+- prisoner galleries should show repeated holding/transit use through wear, bedding, water, restraints/security architecture, improvised personal traces, and separation of captives;
+- environmental evidence may show that groups have come and gone, but must not reveal the onward destination;
+- current prisoners' lived testimony remains the authority for what happened to them.
+
+### Old Bastion
+The Bastion must visibly function as an active military/logistical position:
+- maintained defensive points;
+- guard rotation spaces;
+- stocked equipment/supply areas;
+- messenger/order traffic;
+- prisoner staging/handling spaces;
+- care of Black Host wounded;
+- routes between lower holding areas and command spaces that make operational sense.
+
+This should make Rhazek's local control believable before the confrontation.
+
+### After Rhazek
+The environment should visibly change after local Black Host control breaks:
+- command movement collapses or withdraws;
+- gates/checkpoints stop functioning as Host control points;
+- prisoners can begin using the maintained exit;
+- the route reopening should be physically credible before Dunmere confirms it.
+
+Do not add manifests, exact prisoner totals, transfer ledgers, or environmental clues that identify the onward destination.
+
+
+---
+
 # Locked 16-Beat Structure
 
 ## Beat 1 — Path Outside Dunmere
