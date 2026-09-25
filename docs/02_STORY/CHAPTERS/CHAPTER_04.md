@@ -38,15 +38,15 @@ Maevra is not a traveling fifth; she has already returned to **Caelora** with Mi
 - Chapter 3 ends with **Last Sentinel identified / confirmed as a real Ancient designation and classified as a Might Prime**, but it is **not yet Recovered and is not gameplay-usable**.
 - no Prime manifestation or Last Sentinel recovery occurs during the Chapter-3 ending or its Cresthaven cleanup window.
 - **Chapter 4 S022 — Brilliant Answer is the recovery event.**
-- during the Elder Briarhide fight, Last Sentinel manifests for the first verified modern Prime action; that manifestation is when Last Sentinel becomes **Recovered** and first becomes usable in play.
+- during the Elder Thornhide fight, Last Sentinel manifests for the first verified modern Prime action; that manifestation is when Last Sentinel becomes **Recovered** and first becomes usable in play.
 
 ## S022 key outcomes
 - S022 starts only after the player explicitly begins Chapter 4 from the Cresthaven cleanup hub.
-- Elder Briarhide resolves nonlethally.
+- Elder Thornhide resolves nonlethally.
 - **Last Sentinel manifests for the first verified modern Prime action.**
 - that first manifestation changes Last Sentinel from identified / unrecovered to **Recovered / gameplay-usable**.
 - its Recovered manifestation is one legal signature action, then dismisses in the same round.
-- Elder Briarhide survives/retreats.
+- Elder Thornhide survives/retreats.
 - **Vaelira Serren joins permanently**.
 
 Roster becomes five permanent characters while active battle party remains four.
