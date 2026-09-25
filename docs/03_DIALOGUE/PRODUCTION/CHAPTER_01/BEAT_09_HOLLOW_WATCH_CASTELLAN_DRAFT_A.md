@@ -1,5 +1,5 @@
 # Chapter 1 — Beat 9
-# Hollow Watch Castellan
+# Watch Castellan
 ## CURRENT LOCKED DIALOGUE — TRUE-VOICE / DIALOGUE-ECONOMY PASS
 
 **Status:** CURRENT ATOMIC DIALOGUE AUTHORITY — 2026-09-19
