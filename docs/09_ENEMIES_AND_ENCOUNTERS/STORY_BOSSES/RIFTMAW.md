@@ -3,7 +3,7 @@
 **Chapter:** 0 mandatory named / boss  
 **Status:** **POWER COMPLETE / RETAINED / COMBINED-FINAL-BOSS REVALIDATION REQUIRED**
 
-Riftmaw is explicitly retained as one body in the combined Chapter-0 final boss encounter with the Convoy War-Sorcerer.
+Riftmaw is explicitly retained as one body in the combined Chapter-0 final boss encounter with the Battle Sorcerer.
 
 ## Story identity / Chapter-0 placement
 - **Riftmaw is a Black Host beast.**
@@ -11,7 +11,7 @@ Riftmaw is explicitly retained as one body in the combined Chapter-0 final boss 
 - It is **not** an unrelated wild creature, accidental battlefield scavenger, or independent third-party threat.
 - In the current Chapter-0 structure, Riftmaw is fought only in **P06**, after Ilyra has joined Cyanis and after the concealed Ruin Vanguard Pursuer / Seyrik encounter has ended.
 - A genuine noncombat triage / defensive-repositioning interval separates Seyrik from P06.
-- P06 is one combined final boss encounter: **Riftmaw + Convoy War-Sorcerer**.
+- P06 is one combined final boss encounter: **Riftmaw + Battle Sorcerer**.
 - The second incomplete Card flare is active at the opening of this fight and provides the current authored **Defense +15% / Spirit +15% for Rounds 1–3** to Cyanis + Ilyra.
 - The exact breeding, training, handler, transport, and release method for Riftmaw remain open unless established by later beast / Black Host authority.
 
@@ -65,7 +65,7 @@ No fresh-body Prime refresh.
 Riftmaw remains:
 > **a mandatory named/boss body inside the single Chapter-0 combined final encounter**
 
-The Convoy War-Sorcerer is the other body in that same P06 encounter. Both must be defeated; there is no separate later War-Sorcerer fight.
+The Battle Sorcerer is the other body in that same P06 encounter. Both must be defeated; there is no separate later War-Sorcerer fight.
 
 ## Chapter-0 validation note
 The earlier Chapter-0 difficulty pass found that the prior **760 HP** body created excessive solo solved-state duration against mandatory Lv1 Cyanis.
@@ -85,7 +85,7 @@ Preserved unchanged:
 - one-bar architecture
 - no harmful-status rider
 
-The current story structure now places Riftmaw together with the Convoy War-Sorcerer against **Cyanis + Ilyra** under the three-round second-flare protection. The old solo-Riftmaw validation is therefore historical only. Chapter-0 difficulty validation must be rerun for the combined P06 package. This reopens encounter validation only; it does **not** reopen the completed Power audit.
+The current story structure now places Riftmaw together with the Battle Sorcerer against **Cyanis + Ilyra** under the three-round second-flare protection. The old solo-Riftmaw validation is therefore historical only. Chapter-0 difficulty validation must be rerun for the combined P06 package. This reopens encounter validation only; it does **not** reopen the completed Power audit.
 
 ## P06 behavior lock
 - Riftmaw Bite / Ruin Maw / Rift Pulse use the normal action-selection fallback when legal.
@@ -94,7 +94,7 @@ The current story structure now places Riftmaw together with the Convoy War-Sorc
 - Maw Guard never stacks with itself.
 - Single-target actions select equally between conscious Cyanis and Ilyra.
 - Riftmaw has no hidden preference for the lower-HP target, Ilyra, Cyanis, or the character most recently healed.
-- Riftmaw does not gain a combo/assist attack from the Convoy War-Sorcerer.
+- Riftmaw does not gain a combo/assist attack from the Battle Sorcerer.
 
 ## Visual authority
 Current locked Chapter-0 appearance:
