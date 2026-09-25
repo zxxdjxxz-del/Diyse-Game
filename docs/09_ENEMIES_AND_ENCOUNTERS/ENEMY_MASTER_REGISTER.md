@@ -14,22 +14,22 @@ This is a **chapter-role register**, so a recurring identity may appear in multi
 | 0 | Ordinary/carryover | Ruin Shieldbearer |
 | 0 | Ordinary/carryover | War Hound |
 | 0 | Authored/protected | Ruin Vanguard Pursuer — concealed Seyrik; mandatory protected disengagement |
-| 0 | Authored | Convoy War-Sorcerer |
+| 0 | Authored | Battle Sorcerer |
 | 0 | Mandatory named/boss | Riftmaw |
 | 1 | Ordinary/carryover | Black Host Raider — limited carryover |
 | 1 | Ordinary/carryover | Black Host Crossbowman — limited carryover |
 | 1 | Ordinary/carryover | Ruin Shieldbearer — limited carryover |
-| 1 | Ordinary/carryover | Greenhollow Stalker |
+| 1 | Ordinary/carryover | Thicket Stalker |
 | 1 | Ordinary | Needlewing |
 | 1 | Ordinary | Rootmaw |
-| 1 | Ordinary | Brambleback |
-| 1 | Ordinary/carryover | Thornvine Creeper |
+| 1 | Ordinary | Rubbleback |
+| 1 | Ordinary/carryover | Vine Creeper |
 | 1 | Ordinary/carryover | Briar Boar |
 | 1 | Ordinary/carryover | Watch Sentry |
 | 1 | Ordinary/carryover | Watch Ballista |
-| 1 | Mandatory named/boss | Briarhide Stalker — Chapter-1 main/final boss; normal lethal victory |
+| 1 | Mandatory named/boss | Thornhide — Chapter-1 main/final boss; normal lethal victory |
 | 1 | Strong normal-pool Elite | Watch Captain Frame |
-| 1 | Mandatory mini-boss | Hollow Watch Castellan — one bar; Fortress → Walking same-bar |
+| 1 | Mandatory mini-boss | Watch Castellan — one bar; Fortress → Walking same-bar |
 | 1 | Regional Hunt | Regional Hunt #1 — Cistern Devourer |
 | 2 | Ordinary/carryover | Bogshell |
 | 2 | Ordinary/carryover | Cistern Leech |
@@ -64,7 +64,7 @@ This is a **chapter-role register**, so a recurring identity may appear in multi
 | 4 | Authored/protected | Elemental Researcher — nonlethal |
 | 4 | Authored/protected | Annex Battle Mage — nonlethal |
 | 4 | Authored/protected | Crucible Attendant — nonlethal |
-| 4 | Authored/protected | Elder Briarhide — mandatory nonlethal |
+| 4 | Authored/protected | Elder Thornhide — mandatory nonlethal |
 | 4 | Authored/protected | Reaction Conduit — mandatory nonlethal stabilization |
 | 4 | Elite | Annex Duelist — one chassis / one bar / exactly four elemental states |
 | 4 | Mandatory named/boss | Regulation Crucible — fresh Form I |
@@ -152,7 +152,7 @@ This is a **chapter-role register**, so a recurring identity may appear in multi
 | 9 | Mandatory named/boss | Equal Mercy Arbiter — one continuous HP bar |
 | 9 | Mandatory named/boss | Commander Rhazek — Reforged Commander → Bastion Devourer — genuine fresh body |
 | 9 | Regional Hunt | Regional Hunt #9 — Mercyfallen Behemoth |
-| 10 | Ordinary/carryover | Thornvine Creeper |
+| 10 | Ordinary/carryover | Vine Creeper |
 | 10 | Ordinary/carryover | Briar Boar |
 | 10 | Ordinary/carryover | Archive Scribe Engine |
 | 10 | Ordinary/carryover | Judgment Frame |
@@ -232,19 +232,19 @@ Existing Power/raw-complete identities:
 - Black Host Raider — Chapter-1 Hollow Watch variant;
 - Black Host Crossbowman — Chapter-1 Hollow Watch variant;
 - Ruin Shieldbearer — Chapter-1 Hollow Watch variant;
-- Greenhollow Stalker;
-- Thornvine Creeper;
+- Thicket Stalker;
+- Vine Creeper;
 - Briar Boar;
 - Watch Sentry;
 - Watch Ballista;
 - Watch Captain Frame — Power complete, now strong normal-pool construct;
-- Hollow Watch Castellan — mini-boss body retained pending current-party revalidation;
-- Briarhide Stalker — normal lethal Chapter-1 final boss.
+- Watch Castellan — mini-boss body retained pending current-party revalidation;
+- Thornhide — normal lethal Chapter-1 final boss.
 
 New Southern-Briar identities:
 - Needlewing;
 - Rootmaw;
-- Brambleback.
+- Rubbleback.
 
 Those three names/identities/placements are locked, but their raw bodies/action Powers remain open. Therefore the Chapter-1 ordinary-enemy authoring pass is **reopened only for those three identities**, and encounter validation remains reopened for the current formations/party states.
 
@@ -253,7 +253,7 @@ Brackenwall Reaver is not part of the active Chapter-1 roster.
 Chapter-0 current firewall:
 - exactly five Cyanis-solo fights before Ilyra joins;
 - Ruin Vanguard Pursuer / concealed Seyrik after Ilyra joins;
-- one combined Riftmaw + Convoy War-Sorcerer final boss;
+- one combined Riftmaw + Battle Sorcerer final boss;
 - no Beast Handler;
 - no injured Iron Cohort Soldier.
 
@@ -336,7 +336,7 @@ Protected-staff placement rule:
 > Elemental Researcher / Annex Battle Mage / Crucible Attendant are Power-complete but do not random-spawn and are not inserted into current mandatory line-complete scenes.
 
 Already separately complete:
-- Elder Briarhide
+- Elder Thornhide
 - Reaction Conduit
 - Regulation Crucible / Seventh Reaction
 
@@ -501,7 +501,7 @@ Regional Hunt #9 remains separate.
 Chapter-10 reused ordinary action pass: **PASS**
 
 Complete:
-- Thornvine Creeper — Ch10
+- Vine Creeper — Ch10
 - Briar Boar — Ch10
 - Archive Scribe Engine — Ch10
 - Judgment Frame — Ch10
@@ -605,7 +605,7 @@ Current exact authored order:
 4. P02 — Black Host Crossbowman + War Hound;
 5. P02 — 1 War Hound;
 6. P05 — Ruin Vanguard Pursuer / concealed Seyrik; protected disengagement;
-7. P06 — Riftmaw + Convoy War-Sorcerer combined final boss.
+7. P06 — Riftmaw + Battle Sorcerer combined final boss.
 
 P03 and P07:
 > no combat
@@ -620,7 +620,7 @@ Ruin Vanguard Pursuer:
 > **SEYRIK CONCEALED / protected retreat / Power complete**
 
 P06:
-> both Riftmaw and Convoy War-Sorcerer must be defeated; three-round **Defense +15% / Spirit +15%** authored protection; Rift Lance Preparation Round2+; no injured Soldier.
+> both Riftmaw and Battle Sorcerer must be defeated; three-round **Defense +15% / Spirit +15%** authored protection; Rift Lance Preparation Round2+; no injured Soldier.
 
 Chapter 0:
 > no harmful party statuses / Player-Level static / encounter validation reopened for the five-fight solo sequence and combined final boss.
