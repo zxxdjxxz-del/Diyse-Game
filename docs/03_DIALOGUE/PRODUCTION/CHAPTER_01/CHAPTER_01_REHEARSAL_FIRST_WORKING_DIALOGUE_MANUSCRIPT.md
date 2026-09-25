@@ -1304,13 +1304,13 @@ Farther south, the party reaches a clear track pressed deeply into the route.
 
 Movement pauses.
 
-The Briarhide itself is not visible.
+The Thornhide itself is not visible.
 
 **CYANIS:** That's a big son of a bitch.
 
 Torren's tone changes immediately.
 
-**TORREN:** Briarhide.
+**TORREN:** Thornhide.
 
 He studies what the track actually gives him.
 
@@ -1362,7 +1362,7 @@ The area design itself demonstrates that Torren is successfully getting the part
 
 ## [STORY TRIGGER — LATE OVERGROWN SIDE ACCESS]
 
-Late in Southern Briar, after the Briarhide track stop, the group reaches a heavily overgrown stone-lined cut branching away from the usable route.
+Late in Southern Briar, after the Thornhide track stop, the group reaches a heavily overgrown stone-lined cut branching away from the usable route.
 
 This is in the final third or quarter of the area.
 
@@ -1400,7 +1400,7 @@ Player control resumes.
 
 The final stretch becomes more direct.
 
-Navigation tension eases; the Briarhide tension replaces it.
+Navigation tension eases; the Thornhide tension replaces it.
 
 There is **no additional dialogue**.
 
@@ -1413,7 +1413,7 @@ Beat 12 ends during normal traversal immediately before the Stalker's first clea
 Known:
 - Torren has demonstrated why his current route knowledge matters through successful navigation rather than spoken guidance;
 - Southern Briar is moderately maze-like without becoming a puzzle dungeon;
-- a very large Briarhide has recently moved along the party's route;
+- a very large Thornhide has recently moved along the party's route;
 - the party has not yet seen the animal itself;
 - the late overgrown stone-lined side access has been seen and left unexplored;
 - that side access is close enough to the final stretch that a later cleanup backtrack will be short;
@@ -1461,7 +1461,7 @@ The Thornhide is there.
 
 This is the first clear visual reveal of the animal.
 
-It is simply an exceptionally large native Briarhide. There is no Black Host equipment, corruption, machinery, special wound, or other condition to diagnose.
+It is simply an exceptionally large native Thornhide. There is no Black Host equipment, corruption, machinery, special wound, or other condition to diagnose.
 
 A beat.
 
@@ -1525,7 +1525,7 @@ There is:
 
 ## [STORY TRIGGER — AFTERMATH]
 
-The Briarhide lies still.
+The Thornhide lies still.
 
 For a moment, nobody says anything.
 
@@ -1565,7 +1565,7 @@ The scene ends.
 
 Player control returns.
 
-The Briarhide threat is gone and the route forward is open.
+The Thornhide threat is gone and the route forward is open.
 
 Chapter 1's final combat climax is complete.
 
