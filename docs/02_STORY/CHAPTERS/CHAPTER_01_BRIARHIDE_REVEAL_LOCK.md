@@ -1,4 +1,4 @@
-# Chapter 1 — Briarhide Reveal Lock
+# Chapter 1 — Thornhide Reveal Lock
 
 **Status:** CURRENT EXPLICIT USER LOCK  
 **Domain:** Chapter 1 story/reveal timing  
@@ -8,11 +8,11 @@
 
 > **The player does not clearly see the Thornhide until the party is about to fight it.**
 
-Beat 12 may establish that a large Briarhide is active in Southern Briar through restrained indirect information, such as the already-approved single track and Torren's identification of it.
+Beat 12 may establish that a large Thornhide is active in Southern Briar through restrained indirect information, such as the already-approved single track and Torren's identification of it.
 
 Beat 12 must **not** include:
 - a clear on-field Stalker sighting;
-- the Briarhide stepping onto the route and then leaving;
+- the Thornhide stepping onto the route and then leaving;
 - a stalking/circling sequence;
 - a pre-boss visual encounter separated from the actual boss confrontation;
 - dialogue that assumes the party has already seen the Stalker.
