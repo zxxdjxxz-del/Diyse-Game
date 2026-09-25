@@ -5,7 +5,7 @@
 **Current structural source:** the completed approved/locked Chapter-0 manuscript supplied by the user on 2026-09-08.
 
 **Status:** CURRENT COMPLETED CHAPTER-0 STRUCTURE — **P01 → P02 → P03 → P04 → P05 → P06 → P07 → optional C01**.  
-The former eight-beat split that separated Riftmaw from the final War-Sorcerer confrontation is superseded. **Riftmaw + Convoy War-Sorcerer are now one combined final boss encounter in P06.**
+The former eight-beat split that separated Riftmaw from the final War-Sorcerer confrontation is superseded. **Riftmaw + Battle Sorcerer are now one combined final boss encounter in P06.**
 
 ---
 
@@ -26,7 +26,7 @@ The former eight-beat split that separated Riftmaw from the final War-Sorcerer c
 - No character may treat the Card's initial nonactivation as evidence that it is a Prime, bearer-linked, chosen, or exceptionally powerful.
 - The **first incomplete response in P04 is the first moment the Card itself becomes genuinely anomalous** rather than merely important cargo that does not work.
 - The recovered Card remains protected cargo inside its damaged recovery casing through the start of P06.
-- The casing breaks **during P06's combined Riftmaw + Convoy War-Sorcerer boss fight** after the second incomplete response has begun.
+- The casing breaks **during P06's combined Riftmaw + Battle Sorcerer boss fight** after the second incomplete response has begun.
 - The Card itself survives intact.
 - From the casing break onward, the casing is unusable and retired from active continuity; Cyanis carries the Card itself.
 - The Card is not identified in Chapter 0 as a Prime, Might, Last Sentinel, bearer-confirmation device, Last Weapon, or Entity-related mechanism.
@@ -40,7 +40,7 @@ The former eight-beat split that separated Riftmaw from the final War-Sorcerer c
 - No Card protection remains active during the concealed Ruin Vanguard encounter.
 
 #### Second flare — P06
-- Occurs during the combined **Riftmaw + Convoy War-Sorcerer** final push.
+- Occurs during the combined **Riftmaw + Battle Sorcerer** final push.
 - It provides the current story-bounded opening protection to Cyanis + Ilyra for the first three rounds under encounter authority.
 - It fully fades after the encounter.
 - It is not selectable and is not a Prime activation.
@@ -291,7 +291,7 @@ Do not identify Prime, Might, Last Sentinel, bearer/ownership status, ancient La
 ## P06 — Riftmaw + War-Sorcerer / Final Broken Convoy Confrontation
 
 **Purpose**
-- combine Riftmaw and the Convoy War-Sorcerer into the single final mandatory boss encounter;
+- combine Riftmaw and the Battle Sorcerer into the single final mandatory boss encounter;
 - confirm Riftmaw as a Black Host war-beast asset;
 - make the final push a defense of the occupied treatment/evacuation space;
 - trigger the second incomplete Card flare;
@@ -319,7 +319,7 @@ Do not identify Prime, Might, Last Sentinel, bearer/ownership status, ancient La
 **Combined final boss encounter**
 Enemies:
 - **Riftmaw**
-- **Convoy War-Sorcerer**
+- **Battle Sorcerer**
 
 Locks:
 - Cyanis + Ilyra party;
