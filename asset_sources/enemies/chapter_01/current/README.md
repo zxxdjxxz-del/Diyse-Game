@@ -2,13 +2,22 @@
 
 Canonical destination for exact approved Chapter-1 enemy visual masters.
 
-**Current state:** visual production in progress — **0 / 12 new Chapter-1 masters locked**.
+**Current state:** visual production in progress — **1 / 12 new Chapter-1 masters locked**.
 
 The three reused Black Host enemies remain sourced from:
 > `../../chapter_00/current/`
 
-New Chapter-1 destination filenames are reserved as approvals occur:
-- `thicket_stalker.png`
+## Locked
+
+- `thicket_stalker.png` — **LOCKED 2026-09-25**
+  - Exact approved generation: `bbbba546-7ff0-4c67-affe-366974b66d53`
+  - Native size: 1312 × 1199 PNG
+  - SHA-256: `69ab97e9bcb26cffd2c58f6c14eb8027d60d7b7cf60175109f07365c647b6cd4`
+  - Exact binary promotion: **pending**
+  - Visual authority: sleek black panther-like natural predator; slightly lean build; no scars or white coloring; bold bright yellow eyes; hard dark dorsal spines down the neck/back with restrained mid-back height; long feline tail; large claws; low aggressive stalking/lunging pose; single white-background DIYSE anime/HD-2D master.
+
+## Remaining reserved destination filenames
+
 - `vine_creeper.png`
 - `briar_boar.png`
 - `needlewing.png`
