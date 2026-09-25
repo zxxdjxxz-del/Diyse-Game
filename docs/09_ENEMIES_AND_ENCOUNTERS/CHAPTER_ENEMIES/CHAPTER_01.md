@@ -91,14 +91,14 @@ The prior v77/v78 certification used superseded assumptions, most importantly:
 - Maevra was incorrectly counted as a combat-party guest;
 - Thornhide was incorrectly validated as a protected/nonlethal fitting objective.
 
-Current production authority keeps Maevra outside the battle party and resolves Briarhide by normal lethal boss victory.
+Current production authority keeps Maevra outside the battle party and resolves Thornhide by normal lethal boss victory.
 
 The direct-damage Power audit remains closed. The encounter-validation pass must now be rerun against the current mandatory and completionist party states.
 
 Owning balance record:
 `../../16_BALANCE_AND_TESTING/BALANCE/CHAPTER_01_MANDATORY_COMPLETIONIST_VALIDATION.md`
 
-## Briarhide correction lock — 2026-09-12
+## Thornhide correction lock — 2026-09-12
 Current exact story/dialogue authority `../../03_DIALOGUE/PRODUCTION/CHAPTER_01/BEAT_13_BRIARHIDE_STALKER_DRAFT_A.md` controls the encounter fiction and resolution:
 - real required Chapter-1 final boss;
 - wild animal / natural Greater Beast;
@@ -108,7 +108,7 @@ Current exact story/dialogue authority `../../03_DIALOGUE/PRODUCTION/CHAPTER_01/
 - no nonlethal/morality objective;
 - **normal boss victory**.
 
-Any older aggregate/register text that still describes Briarhide as protected or nonlethal is stale and must not override this correction.
+Any older aggregate/register text that still describes Thornhide as protected or nonlethal is stale and must not override this correction.
 
 
 ## Chapter-1 enemy identity/name lock — 2026-09-22
@@ -158,7 +158,7 @@ Closed structurally:
 - safe/no-random story pockets;
 - Watch Captain as strong normal-pool construct;
 - Castellan mini-boss role;
-- Briarhide final-boss role;
+- Thornhide final-boss role;
 - Cistern Devourer Hunt role;
 - individual enemy behavior/targeting rules.
 
