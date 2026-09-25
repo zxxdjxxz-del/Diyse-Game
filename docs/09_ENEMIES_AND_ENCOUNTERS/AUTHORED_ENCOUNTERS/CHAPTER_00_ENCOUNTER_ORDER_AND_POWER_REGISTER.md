@@ -12,7 +12,7 @@ Chapter 0 deliberately separates Cyanis's solo tutorial pressure from the heavie
 - P02 contains two shorter Wreck Field fights, including the existing lone-Hound survivor-route beat.
 - P03 remains combat-free.
 - **Ruin Vanguard Pursuer / concealed Seyrik does not appear in combat until after Ilyra has joined Cyanis in the defense.**
-- after a real noncombat reset, **Riftmaw + Convoy War-Sorcerer form one combined final boss encounter** under current story authority.
+- after a real noncombat reset, **Riftmaw + Battle Sorcerer form one combined final boss encounter** under current story authority.
 
 ## Chapter-0 Card-response combat rule
 Chapter 0 uses **two separate incomplete-response flares**.
@@ -92,7 +92,7 @@ A real noncombat reset is mandatory:
 - Cyanis + Ilyra receive a discrete breathing interval before the final push.
 
 ### P06
-Riftmaw + Convoy War-Sorcerer is the final mandatory combat.
+Riftmaw + Battle Sorcerer is the final mandatory combat.
 
 ### P07
 > **NO COMBAT**
@@ -197,7 +197,7 @@ There must be a real story/triage/repositioning interval before P06.
 ### 0-07 — P06 Combined Final Boss — CYANIS + ILYRA
 Formation:
 - Riftmaw
-- Convoy War-Sorcerer
+- Battle Sorcerer
 
 This is the single final mandatory boss encounter for Chapter 0.
 
@@ -209,7 +209,7 @@ Current story/encounter locks:
 - second incomplete Card flare grants **Defense +15% / Spirit +15% for Rounds 1–3**;
 - Rift Lance Preparation no earlier than Round 2;
 - the damaged recovery casing breaks during the fight after the second flare is active;
-- victory requires defeating both Riftmaw and the Convoy War-Sorcerer;
+- victory requires defeating both Riftmaw and the Battle Sorcerer;
 - both are defeated in the same encounter.
 
 ### P07
@@ -227,7 +227,7 @@ Aftermath / survivor recovery / overnight-camp handoff.
 | War Hound | 2 | 142 | 135 / 130 Ruin / 145 |
 | Ruin Vanguard Pursuer | 4 | 620 | 150 / 155 Ruin |
 | Riftmaw | 4 | 340 | 165 / 175 Ruin / 120 AoE |
-| Convoy War-Sorcerer | 4 | 620 | 140 / 100 AoE / 210 Ruin |
+| Battle Sorcerer | 4 | 620 | 140 / 100 AoE / 210 Ruin |
 
 ## Chapter-0 status boundary
 Chapter 0:
@@ -264,7 +264,7 @@ Difficulty-validation status:
 Revalidation must cover:
 - cumulative resource pressure across the five Cyanis-solo fights;
 - P05 Ruin Vanguard Pursuer against Cyanis + Ilyra;
-- the combined P06 Riftmaw + Convoy War-Sorcerer final boss against Cyanis + Ilyra with the current three-round Card protection.
+- the combined P06 Riftmaw + Battle Sorcerer final boss against Cyanis + Ilyra with the current three-round Card protection.
 
 Raw stats/Powers are not automatically changed by the placement revision.
 
@@ -280,6 +280,6 @@ Chapter 0 uses exactly these combat identities:
 - War Hound;
 - Ruin Vanguard Pursuer / concealed Seyrik;
 - Riftmaw;
-- Convoy War-Sorcerer.
+- Battle Sorcerer.
 
 Beast Handler and injured Iron Cohort Soldier are removed from Chapter-0 combat placement.
