@@ -145,6 +145,261 @@ They do **not** preassign:
 
 ---
 
+
+## Environmental storytelling lock
+
+Chapter 4 should make its major conclusions visible through **space, ecology, physical magical systems, staff behavior, damage progression, and area-state change** before dialogue summarizes them.
+
+The chapter-wide rule is:
+> **the player should be able to see the evidence chain forming.**
+
+Do not turn every clue into an inspect prompt and do not let environmental presentation bypass the chapter's reveal firewalls.
+
+### Cresthaven morning / Elder Thornhide territory
+
+The opening problem should read first as a physical/ecological disturbance, not a monster alarm.
+
+Visible evidence may include:
+- recently reopened paths, cleared brush, temporary work fencing, stacked restoration materials, or newly occupied work areas extending into previously quiet ground;
+- fresh enormous tracks, displaced soil, crushed brush, bark-rub/territorial marking, and a clear path toward the forest;
+- older weathered signs of the same large animal using the area before Cresthaven was reoccupied;
+- restoration activity physically narrowing, blocking, or cutting across that habitual route;
+- damage concentrated along movement/marking lines rather than around people, food stores, or occupied rooms;
+- no mauled residents, deliberately breached living quarters, or other evidence of a targeted attack.
+
+The environment should let the player progressively infer:
+> **this animal was already here, and Cresthaven's return changed the space around it.**
+
+Torren's eventual Elder Thornhide identification should organize the evidence, not create it.
+
+### Elder Thornhide tracking / confrontation space
+
+The short pursuit should reinforce territorial behavior:
+- repeated old travel paths or wallow/rub sites;
+- fresh heavy disturbance layered over older use;
+- displaced smaller wildlife or recently abandoned animal space where appropriate;
+- the confrontation area should feel like long-used territory rather than a villain arena.
+
+Do not place:
+- Black Host staging;
+- Ancient activation machinery;
+- a convenient Prime symbol;
+- environmental evidence that the Thornhide was deliberately sent.
+
+Last Sentinel's first manifestation should therefore feel like an intrusion of the Card mystery into an otherwise understandable natural conflict.
+
+### Post-Thornhide field state
+
+After the retreat:
+- the Elder Thornhide's escape route remains physically readable;
+- the territory is damaged but not transformed into a corpse-strewn victory arena;
+- the party's position relative to the Crown-road corridor should be legible through terrain and route orientation;
+- the practical shortcut decision should arise from geography, not a newly discovered secret marker.
+
+### Forest shortcut
+
+The Beat-4 forest route should tell a modest travel story rather than introduce another mystery:
+- remnants of old route grading, drainage, retaining stone, cut-throughs, or other ordinary infrastructure may survive;
+- vegetation and erosion show long periods of inconsistent use;
+- forks/reconnections should feel like terrain history, not puzzle corridors;
+- small abandoned maintenance traces or weathered Crown/Yahtrean travel remnants are acceptable;
+- reward pockets should feel like believable side spaces, not Ancient revelation rooms.
+
+The forest may visually echo the layered age of the world, but it must not introduce a new Face, Prime, Wayfinder, or hidden-destination clue.
+
+### Crown road
+
+Reaching maintained Crown ground should be an immediate environmental relief:
+- clearer grade;
+- maintained drainage/bridges/markers where appropriate;
+- recent cart/foot traffic;
+- fewer signs of large wildlife claiming the route;
+- visible repair/maintenance rather than unexplained perfect infrastructure.
+
+Comparison with the copied Wayfinder may be supported by broad route alignment only. No surviving roadside symbol should conveniently translate the Ancient map.
+
+### Ivorybridge
+
+Ivorybridge should feel like a functioning place with an existing technical culture before Vaelira becomes relevant.
+
+Show:
+- normal residents, trade, travel, maintenance, and public infrastructure;
+- practical elemental craft integrated into ordinary work where setting-appropriate;
+- technicians/workers treating magical systems as tools rather than wonders;
+- the specific problem Vaelira is addressing as a legitimate local fault/calibration issue with visible physical symptoms.
+
+Vaelira's competence should be demonstrated through what changes in the environment:
+- unstable or inefficient behavior becomes stable;
+- a misaligned component is corrected;
+- a recurring physical symptom stops;
+- workers can resume normal operation.
+
+Do not use NPC praise or signage to tell the player she is brilliant.
+
+### Reaction Annex — healthy arrival state
+
+The Annex must first look **competent, maintained, and safe**.
+
+Show:
+- staffed work areas;
+- maintained conduits, calibration marks, wards, shutters, valves, rings, plates, gauges, reagent/containment spaces, or equivalent physical magical apparatus;
+- documented maintenance and replacement rather than pristine impossible machinery;
+- routine safety habits;
+- prior small irregularities that plausibly look minor in isolation;
+- no visual evidence of obvious negligence or a facility already on the verge of catastrophe.
+
+The later crisis only works if the player believes the Annex was genuinely functioning.
+
+### Elemental Laboratory Ring — four branch baselines
+
+Each branch should have a clear visual/physical identity while sharing one coherent facility grammar.
+
+Fire:
+- controlled heat transfer;
+- thermal shielding;
+- burn-safe containment;
+- stable venting or heat-routing behavior.
+
+Ice:
+- controlled cold transfer;
+- frost/condensation boundaries;
+- insulated containment;
+- stable cryonic routing.
+
+Lightning:
+- controlled discharge paths;
+- grounding/insulation;
+- predictable relay behavior;
+- visible safe dissipation.
+
+Earth:
+- load-bearing / compression / structural-response apparatus;
+- reinforced supports;
+- controlled pressure/load transfer;
+- stable defensive/structural behavior.
+
+The important environmental result:
+> **each branch works.**
+
+Any small variance should look ordinary enough that the player understands why staff did not treat it as an emergency.
+
+### Combined overlay / residual trace
+
+After all four branch diagnostics:
+- the same apparatus that showed stable individual behavior should expose a small persistent residual only when results are compared/overlaid;
+- the residual should be visible as a relationship/return imbalance, repeated trace, non-settling indicator, or equivalent physical magical behavior;
+- it should not look like a fifth elemental color/type.
+
+Its geometry may faintly resemble the Wayfinder pattern, but it must remain a resemblance rather than a translation.
+
+### Interaction Gallery — six correct pair relationships
+
+The six pairings should be readable through shared infrastructure:
+- coupled stations;
+- paired conduits/rings/containment paths;
+- energy/load visibly passing from one correct relationship into another;
+- successful settling after each isolated pair test.
+
+The environmental story before the crisis is:
+> **the pair models are working too.**
+
+Do not telegraph the later failure by making one pairing obviously broken.
+
+### Reaction Conduit crisis
+
+The crisis should emerge as a **system-level failure of settling**, not an exploding bad component.
+
+Show the escalation physically:
+- a residual persists after a locally correct adjustment;
+- balancing apparatus reroutes load into another valid pair relationship;
+- that relationship responds correctly;
+- the remaining imbalance moves again rather than disappearing;
+- shutters/wards/relays progressively engage in reasonable containment responses;
+- the cycle accelerates because each local correction is valid while the whole fails to settle.
+
+The affected researcher/technician becomes trapped inside that escalating regulation path rather than being revealed as the cause.
+
+After the nonlethal encounter:
+- the local apparatus may be damaged/overloaded;
+- logs/physical indicators still show the pair relationships behaved within expected rules;
+- the evidence points deeper toward Central Regulation.
+
+### Central Regulation
+
+The deeper facility should make the complete system physically legible:
+- all four elemental feeds converge into shared regulation architecture;
+- local pair behaviors remain recognizable inside the whole;
+- the persistent residual can be traced across all four rather than isolated to one branch;
+- containment hardware shows increasingly heavy intervention;
+- damage/stress patterns demonstrate repeated redistribution rather than one broken source.
+
+The strongest Wayfinder resemblance belongs here because the player can finally see the **whole-system interaction geometry**.
+
+It must not visually reveal:
+- Face notation;
+- Ancient purpose;
+- regional network meaning;
+- a hidden fifth element.
+
+### Regulation Crucible
+
+Form I environmental design should make the combat rule understandable without excessive explanation:
+- four distinct chamber feeds surround a central core;
+- only the currently active pair visibly energizes/opens;
+- dormant chambers visibly lock/dim/seal;
+- destroyed chambers remain physically destroyed/inactive;
+- the central core visibly accepts every active pairing.
+
+When the core collapses:
+- surviving architecture folds/reroutes inward;
+- destroyed channels stay absent;
+- surviving traits visibly carry into the unified form.
+
+### The Seventh Reaction
+
+The unified form should visually prove:
+- all four elemental identities are still present;
+- surviving Form-I traits remain;
+- no new elemental identity appears;
+- the behavior is new because of the complete interaction, not because a new substance/color/type arrived.
+
+At peak output, the Wayfinder resemblance should be perceptible in the complete-system geometry before anyone verbalizes the implication.
+
+### Safe upper labs / aftermath
+
+The environment should show institutional response:
+- damaged areas isolated;
+- injured people receiving care;
+- equipment tagged/secured;
+- logs/material evidence preserved rather than discarded;
+- surviving staff actively reconstructing the sequence;
+- the Reaction Conduit researcher alive.
+
+The Annex should not visually collapse into incompetence after the crisis.
+
+### Ivorybridge morning / revised practice
+
+Chapter-4 learning should be visible before any debrief:
+- anomalies previously treated as disposable noise are now preserved/marked for review;
+- whole-system validation has a distinct procedural place from branch/pair validation;
+- assumptions are physically/documentarily recorded;
+- old records remain present with corrections/addenda rather than being erased.
+
+This is the environmental payoff for Vaelira/Nimera's shared principle:
+> correction changes the record; it does not delete the fact that the earlier model once looked sufficient.
+
+### Cresthaven return
+
+Vaelira's arrival should produce a small practical change rather than a ceremonial recruitment display:
+- a workable research/calibration space is assigned;
+- equipment/notes can coexist with the existing map/archive workspace;
+- Cresthaven remains partly restored, partly rough, and visibly lived-in by the growing party.
+
+Do not fully repair the headquarters between chapters.
+
+
+---
+
 # Current 12-Beat Structure
 
 ## Beat 1 — Cresthaven Morning Disturbance
