@@ -888,7 +888,7 @@ The party enters.
 
 ## [GAMEPLAY HANDOFF]
 
-**Beat 9 — Hollow Watch Castellan** begins as the chamber responds to Cyanis crossing into the protected space.
+**Beat 9 — Watch Castellan** begins as the chamber responds to Cyanis crossing into the protected space.
 
 Known:
 - the Black Host could not open the protected access normally;
@@ -906,7 +906,7 @@ Known:
 **Source SHA-256:** `1418974d5a5356604600a0c18189ca7b751ed85833f524a6b88a26af37c37859`
 
 # Chapter 1 — Beat 9
-# Hollow Watch Castellan
+# Watch Castellan
 ## CURRENT LOCKED DIALOGUE — TRUE-VOICE / DIALOGUE-ECONOMY PASS
 
 **Status:** CURRENT ATOMIC DIALOGUE AUTHORITY — 2026-09-19
@@ -1348,7 +1348,7 @@ A beat.
 
 The stop ends.
 
-The Briarhide Stalker is still not shown.
+The Thornhide is still not shown.
 
 ## [GAMEPLAY — DEEPER SOUTHERN BRIAR]
 
@@ -1404,7 +1404,7 @@ Navigation tension eases; the Briarhide tension replaces it.
 
 There is **no additional dialogue**.
 
-The Briarhide Stalker itself is **not shown in Beat 12**.
+The Thornhide itself is **not shown in Beat 12**.
 
 ## [GAMEPLAY HANDOFF]
 
@@ -1421,7 +1421,7 @@ Known:
 - the Card remains inert.
 
 Next mandatory beat:
-**Briarhide Stalker**
+**Thornhide**
 
 ---
 
@@ -1431,7 +1431,7 @@ Next mandatory beat:
 **Source SHA-256:** `7c0372bacd0c340a0b38b4812a97319b912fd0e9e6e1ea9c54f7ff1ba5b9ff5f`
 
 # Chapter 1 — Beat 13
-# Briarhide Stalker
+# Thornhide
 ## CURRENT LOCKED DIALOGUE — TRUE-VOICE / DIALOGUE-ECONOMY PASS
 
 **Status:** CURRENT ATOMIC DIALOGUE AUTHORITY — 2026-09-19
@@ -1444,7 +1444,7 @@ Cyanis is the only visible party field character during ordinary traversal.
 
 There is no dialogue before the boss trigger.
 
-The Briarhide Stalker has not been clearly seen yet.
+The Thornhide has not been clearly seen yet.
 
 The Card remains inert.
 
@@ -1457,7 +1457,7 @@ Maevra remains with the traveling group but does not participate in combat.
 
 The usable route opens ahead.
 
-The Briarhide Stalker is there.
+The Thornhide is there.
 
 This is the first clear visual reveal of the animal.
 
@@ -1512,7 +1512,7 @@ Combat party:
 
 Maevra does not participate.
 
-The Briarhide Stalker is defeated and killed through ordinary combat victory.
+The Thornhide is defeated and killed through ordinary combat victory.
 
 There is:
 - no corruption phase;
@@ -1858,7 +1858,7 @@ Next mandatory beat:
 
 Player control is active.
 
-The group camps near the Junction after the Briarhide Stalker fight and the hidden-monument discovery.
+The group camps near the Junction after the Thornhide fight and the hidden-monument discovery.
 
 This is a safe camp area.
 
