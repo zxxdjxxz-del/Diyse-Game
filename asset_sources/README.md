@@ -4,6 +4,16 @@
 
 This directory is intentionally separate from runtime-ready Godot assets. The tracked `.gdignore` keeps archival packages out of Godot import scanning.
 
+## Diyse-original exact visual masters
+
+Approved Diyse-original character and enemy reference masters use exact-source lanes in this tree rather than runtime asset folders.
+
+Current lanes:
+- [`characters/current/`](characters/current/) — exact current character visual masters;
+- [`enemies/chapter_00/current/`](enemies/chapter_00/current/) — exact Chapter 0 enemy visual masters and locked reference packet.
+
+For an exact-source lane, the registered SHA-256 controls binary identity. Do not re-encode or optimize an approved master during repository promotion.
+
 ## Public-repository safety split
 
 `Diyse-Game` is currently a **public** repository.
