@@ -13,12 +13,12 @@ Exactly:
 
 | Ch | Encounter / form | Lv | HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR | Architecture |
 |---:|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---|
-| 1 | **Briarhide Stalker** | 4 | 850 | 34 | 18 | 22 | 20 | 29 | 10 | 0 | normal lethal victory; Chapter-1 final boss |
-| 1 | **Hollow Watch Castellan** | 6 | 450 | 42 | 27 | 27 | 24 | 25 | 0 | 5 | mandatory mini-boss; one bar; Fortress → Walking same-bar |
+| 1 | **Thornhide** | 4 | 850 | 34 | 18 | 22 | 20 | 29 | 10 | 0 | normal lethal victory; Chapter-1 final boss |
+| 1 | **Watch Castellan** | 6 | 450 | 42 | 27 | 27 | 24 | 25 | 0 | 5 | mandatory mini-boss; one bar; Fortress → Walking same-bar |
 | 2 | **Archive Leviathan** | 9 | 1,900 | 50 | 52 | 31 | 33 | 25 | 0 | 5 | one bar; Recorded Pattern → Emergent same-bar |
 | 2 | **Commander Rhazek — Bastion Master** | 10 | 2,050 | 58 | 44 | 36 | 32 | 27 | 5 | 5 | one bar; survives/withdraws |
 | 3 | **First Command Warden** | 14 | 2,850 | 72 | 72 | 43 | 43 | 30 | 0 | 10 | one bar; command-state shift |
-| 4 | **Elder Briarhide** | 14 | 2,100 | 72 | 28 | 60 | 55 | 36 | 10 | 5 | mandatory nonlethal; fixed sequence |
+| 4 | **Elder Thornhide** | 14 | 2,100 | 72 | 28 | 60 | 55 | 36 | 10 | 5 | mandatory nonlethal; fixed sequence |
 | 4 | **Reaction Conduit** | 17 | 2,400 | 58 | 80 | 50 | 55 | 33 | 5 | 5 | mandatory nonlethal stabilization |
 | 4 | **Regulation Crucible — Form I** | 18 | 2,400 | 64 | 90 | 54 | 57 | 30 | 0 | 10 | Form I; four elemental chambers |
 | 4 | **The Seventh Reaction — Form II** | 19 | 2,900 | 72 | 98 | 58 | 62 | 32 | 0 | 10 | genuine fresh Form II |
@@ -60,7 +60,7 @@ This applies to every fresh-body encounter above, including Regulation Crucible 
 
 ## Representative true-battle certification
 Completed:
-- **Hollow Watch Castellan — v93 historical PASS under the superseded Maevra-party assumption; current Cyanis + Ilyra + Torren revalidation required**;
+- **Watch Castellan — v93 historical PASS under the superseded Maevra-party assumption; current Cyanis + Ilyra + Torren revalidation required**;
 - **Archive Leviathan — v97 PASS / RETAIN**;
 - **Regulation Crucible → The Seventh Reaction — v99 PASS / RETAIN**;
 - **Warden of the Nameless / Revision Arbiter — v100 PASS / RETAIN**;
