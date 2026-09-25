@@ -182,9 +182,9 @@ Castellan chamber:
 ### Southern Briar
 Encounter suppression:
 - Greenhollow departure seam — SAFE;
-- Briarhide-track authored stop — SAFE;
+- Thornhide-track authored stop — SAFE;
 - late overgrown-side-access authored stop — SAFE;
-- Briarhide first-sighting / boss approach buffer — SAFE;
+- Thornhide first-sighting / boss approach buffer — SAFE;
 - post-boss quiet route and Wayfinder — SAFE.
 
 **Readable opening**
@@ -220,7 +220,7 @@ Eligible:
 This shifts the last active stretch from route-reading pressure toward predator / heavy-wildlife pressure.
 
 **Cleanup return to the Cistern access**
-After Briarhide is defeated, the short late-Southern-Briar backtrack uses the same **final-leg pool** until the side-access SAFE pocket is reached.
+After Thornhide is defeated, the short late-Southern-Briar backtrack uses the same **final-leg pool** until the side-access SAFE pocket is reached.
 
 ### Wayfinder
 - SAFE;
