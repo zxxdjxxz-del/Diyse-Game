@@ -102,6 +102,82 @@ The Warden message plus the Card's immediate deep-Ruby stabilization makes **Pri
 
 ---
 
+
+## Environmental storytelling lock
+
+Chapter 3 should let physical layering, archive use, and evidence handling carry as much of the investigation as dialogue.
+
+### Caelora
+The capital should visibly communicate **modern life built over older civilization**:
+- functioning streets, Crown institutions, trade, residences, and civic movement remain primary;
+- older masonry, reused foundations, buried/embedded construction, or mismatched structural layers may appear naturally;
+- this is background continuity, not a reveal that an Ancient capital existed here.
+
+### Old City Archives — upper to lower progression
+The dungeon should visibly shift through layers of control:
+- active Crown-maintained archive spaces;
+- mapped/repaired older sections;
+- degraded or poorly catalogued storage;
+- damaged vertical connections and collapsed routes;
+- increasingly dominant Diysean architecture/mechanisms;
+- deepest spaces where modern adaptation becomes minimal.
+
+The Crown should look competent while still visibly using a complex it does not fully understand.
+
+### Recent-reader trail
+The recent investigation should be reconstructed from **physical research behavior**:
+- volumes removed from normal placement;
+- multiple references opened to related passages;
+- copied citations, bookmarks/markers, disturbed storage, comparison notes, or equivalent non-digital traces;
+- evidence should imply deliberate cross-referencing without conveniently identifying the reader.
+
+Prime Card references remain textual/inscriptional evidence whose meaning is unknown; no environmental depiction should show what a Prime Card physically looks like.
+
+### Hall of Seals / Sealwright evidence
+Physical evidence should distinguish:
+- surviving historical seals;
+- maintenance/renewal tools or traditions;
+- later attempts to reproduce or imitate authority effects;
+- increasingly powerful failed/partial work where current authority allows.
+
+The environment may prove repeated effort and sophistication, but must not show a successful method or identify Calder.
+
+### Inner Collections / Westways recordbook
+The recordbook should feel like something preserved because it remained in an old collection, not a conveniently spotlighted quest object:
+- surrounding material should establish a real regional-record context;
+- its copied Wayfinder information is valuable because the party recognizes what they are looking at;
+- the copy's rougher hand-rendered quality should visibly contrast with the true Wayfinder.
+
+### Cresthaven
+The fort should tell its reuse history before the Warden does anything:
+- ordinary later Crown fort construction above;
+- oversized ancient foundations extending beyond the fort footprint;
+- later mortar/repairs fitted awkwardly onto older stone;
+- roots, fractures, and weathering crossing both periods;
+- deeper spaces becoming progressively more command-oriented and Ancient.
+
+The player should understand:
+> **the modern fort reused the base of something vastly larger**
+
+before the party knows what the surviving lower structure was for.
+
+### Chapter-end state
+As Cresthaven becomes headquarters:
+- previously abandoned rooms become selectively usable;
+- maps/records/supplies/treatment/sleeping functions occupy practical spaces;
+- other sections remain sealed, dusty, damaged, or under restoration;
+- the visual transition should communicate that the party has gained a working base without pretending the whole fort is repaired.
+
+Environmental evidence must not solve:
+- who created the impossible royal-seal response;
+- what Prime Cards physically are/do;
+- Last Sentinel meaning;
+- the Wayfinder second-system meaning;
+- the all-six-Faces network truth.
+
+
+---
+
 # Current 15-Beat Structure
 
 ## Beat 1 — Caelora Gate / Arrival
