@@ -43,7 +43,8 @@ At Chapter-4 opening:
 - Cyanis's Card is stable deep Ruby;
 - **Last Sentinel is not yet Recovered**;
 - no verified modern Prime manifestation has occurred;
-- the party does not possess a reliable modern definition of what a **Prime Card** is or does.
+- the party does not possess a reliable modern definition of what a **Prime Card** is or does;
+- because of the Warden's **LAST SENTINEL CONFIRMED** message followed by Cyanis's deep-Ruby stabilization, **Prime Card is an active but unproven hypothesis for Cyanis's Card**.
 
 During the **Elder Thornhide battle**:
 - Last Sentinel manifests for the first verified modern time;
@@ -53,8 +54,8 @@ During the **Elder Thornhide battle**:
 
 Character-knowledge firewall:
 - the party may recognize that the Card produced a qualitatively new manifestation;
-- the party may connect it to **LAST SENTINEL CONFIRMED**;
-- the event does **not automatically authorize the characters to identify Cyanis's Card as a Prime Card**;
+- the party may connect it to **LAST SENTINEL CONFIRMED** and to their existing Prime-Card hypothesis;
+- the event does **not automatically authorize the characters to upgrade that hypothesis into confirmed Prime classification**;
 - the historical term **Prime Card** remains incompletely understood unless later evidence explicitly closes that gap.
 
 ## Four-element lock
