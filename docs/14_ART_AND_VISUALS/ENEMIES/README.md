@@ -5,8 +5,9 @@ This folder owns current enemy appearance/design canon.
 Shared rendering:
 > `../DIYSE_VISUAL_STYLE_CANON.md`
 
-Current locked chapter enemy authority:
-- `CHAPTER_00_ENEMY_VISUAL_AUTHORITY.md` — Chapter 0 Black Host troops, Rift beasts, concealed Ruin Vanguard Pursuer, and War-Sorcerer.
+Current chapter enemy authorities:
+- `CHAPTER_00_ENEMY_VISUAL_AUTHORITY.md` — Chapter 0 exact enemy visual set, complete 7/7.
+- `CHAPTER_01_ENEMY_VISUAL_AUTHORITY.md` — Chapter 1 visual production; 12 new exact masters plus 3 inherited Chapter-0 Black Host masters.
 
 Enemy mechanics, stats, actions, encounter placement, and AI remain owned by:
 > `../../09_ENEMIES_AND_ENCOUNTERS/`
