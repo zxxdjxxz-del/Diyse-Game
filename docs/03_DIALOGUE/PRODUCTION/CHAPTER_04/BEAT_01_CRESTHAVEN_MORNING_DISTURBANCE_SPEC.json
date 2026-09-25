@@ -1,0 +1,260 @@
+{
+  "schema": "diyse_scene_authority_spec_v1",
+  "scene_id": "CH04_BEAT01_CRESTHAVEN_MORNING_DISTURBANCE",
+  "chapter_id": "chapter_04",
+  "story_position": "Chapter 4 — Beat 1 — Cresthaven Morning Disturbance",
+  "production_ready": false,
+  "participants": [
+    "cyanis",
+    "ilyra",
+    "torren",
+    "nimera"
+  ],
+  "scene_purpose": "Open Chapter 4 the morning after the player deliberately begins it, establish a large territorial animal disturbance caused in part by Cresthaven reoccupation, let the party inspect evidence without a recap briefing, and hand directly into following the Elder Thornhide trail.",
+  "story_sources": [
+    {
+      "path": "docs/02_STORY/CHAPTERS/CHAPTER_04.md",
+      "sections": [
+        "Chapter-start handoff from Chapter 3",
+        "Last Sentinel state lock",
+        "Person-Brain authoring lock",
+        "Beat 1 — Cresthaven Morning Disturbance"
+      ],
+      "role": "chapter_04_opening_and_beat_01"
+    }
+  ],
+  "additional_authority_sources": [
+    {
+      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/REHEARSAL_FIRST_AUTHORING_LOCK.md",
+      "whole_file": true,
+      "role": "rehearsal_first_authoring"
+    },
+    {
+      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/NATURAL_TURN_LENGTH_AND_FLOOR_HOLDING_LOCK.md",
+      "whole_file": true,
+      "role": "natural_turns"
+    },
+    {
+      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/MATURE_ADULT_SPEECH_AND_PROFANITY_LOCK.md",
+      "whole_file": true,
+      "role": "adult_voice"
+    }
+  ],
+  "scene_context_seed": {
+    "location_name": "Cresthaven headquarters",
+    "time_of_day": "morning",
+    "area_phase": "chapter_04_opening_hub_to_field_handoff",
+    "dialogue_readiness": "GREEN",
+    "static_story_context_only": true,
+    "chapter_start_confirmed": true,
+    "runtime_note": "Exact player position, optional cleanup history, current HP/MP, fatigue, weather, and other live gameplay state must come from the runtime merge if relevant. Do not invent them from repository authority."
+  },
+  "current_floor_state": {
+    "chapter_03_cleanup_closed": true,
+    "ivorybridge_next_lead": "already chosen in Chapter 3; Beat 1 does not choose the destination again",
+    "permanent_roster": [
+      "cyanis",
+      "ilyra",
+      "torren",
+      "nimera"
+    ],
+    "active_party_cap": 4,
+    "maevra_traveling": false,
+    "mirena_traveling": false,
+    "cyanis_card_state": "stable deep Ruby after the Chapter-3 First Command Warden",
+    "last_sentinel_state": "LAST SENTINEL CONFIRMED is known; no verified modern manifestation; not yet Recovered",
+    "prime_card_knowledge": "The party knows Prime Card is a recurring Ancient Diysean term distinct in context from ordinary Standard Cards, but surviving scholarship does not know what it means, looks like, or does; Cyanis's Card is not classified as Prime.",
+    "immediate_safety": "Torren has found evidence of a very large creature crossing/approaching occupied Cresthaven grounds; no confirmed missing resident or casualty at scene start."
+  },
+  "allowed_information_transfers": [
+    "Torren may report only the morning physical evidence he directly observed before waking/gathering the others.",
+    "Chapter-3 events witnessed by the permanent four may be treated as shared hard story knowledge without fuzzy retrieval.",
+    "No one may transfer author-only Last Sentinel Recovered/Prime-system mechanics into character knowledge."
+  ],
+  "person_runtime_contexts": {
+    "cyanis": {
+      "memory_authorization": {
+        "mode": "none"
+      },
+      "relationship_runtime_state": {
+        "chronology_stage": "chapter_04_established_four_person_party",
+        "ilyra": "established mutual practical care and ordinary quiet",
+        "torren": "practical trust growing into close friendship; banter is earned but not late-game maximal",
+        "nimera": "newer Chapter-3 relationship with growing intellectual/social trust"
+      },
+      "epistemic_state": {
+        "morning_disturbance": {
+          "status": "report",
+          "value": "Torren reports a very large creature crossed or approached occupied Cresthaven grounds."
+        },
+        "last_sentinel": {
+          "status": "known_fact",
+          "value": "The First Command Warden ended with LAST SENTINEL CONFIRMED; his Card later stabilized deep Ruby."
+        },
+        "prime_card_classification": {
+          "status": "unknown",
+          "value": "He does not know whether his Card is what Ancient sources called a Prime Card."
+        },
+        "ivorybridge": {
+          "status": "known_fact",
+          "value": "The party already chose Ivorybridge as the next practical northern investigation point in Chapter 3."
+        }
+      },
+      "scene_local_state": {
+        "immediate_wants": [
+          "find out whether anyone at Cresthaven is in danger",
+          "understand what crossed the grounds",
+          "move quickly without inventing a threat theory"
+        ],
+        "avoidances": [
+          "turning the morning into a Chapter-3 recap",
+          "taking over Torren's field expertise",
+          "treating the disturbance as hostile before evidence supports it"
+        ],
+        "attention": [
+          "occupied people and exposed spaces",
+          "Torren's direct field evidence",
+          "what action is actually needed now"
+        ]
+      }
+    },
+    "ilyra": {
+      "memory_authorization": {
+        "mode": "none"
+      },
+      "relationship_runtime_state": {
+        "chronology_stage": "chapter_04_established_four_person_party",
+        "cyanis": "established mutual practical care and ordinary quiet",
+        "torren": "low-pressure professional respect growing into easy friendship",
+        "nimera": "new Chapter-3 warm/dry/profane friendship and curiosity"
+      },
+      "epistemic_state": {
+        "morning_disturbance": {
+          "status": "report",
+          "value": "A very large creature crossed or approached the grounds; no confirmed casualty is known at scene start."
+        },
+        "last_sentinel": {
+          "status": "known_fact",
+          "value": "She witnessed the First Command Warden sequence and Cyanis's later deep-Ruby Card stabilization."
+        },
+        "prime_card_classification": {
+          "status": "unknown",
+          "value": "The historical Prime Card term is unresolved and does not classify Cyanis's Card."
+        }
+      },
+      "scene_local_state": {
+        "immediate_wants": [
+          "confirm the actual human risk",
+          "help inspect the situation without turning it into a medical scene",
+          "respond to evidence rather than alarm"
+        ],
+        "avoidances": [
+          "automatic caretaking assignment",
+          "inventing intent for the creature",
+          "acting as the group's moral or safety narrator"
+        ],
+        "attention": [
+          "whether anyone is actually hurt or missing",
+          "what physical evidence changes the risk picture",
+          "the others' direct observations"
+        ]
+      }
+    },
+    "torren": {
+      "memory_authorization": {
+        "mode": "none"
+      },
+      "relationship_runtime_state": {
+        "chronology_stage": "chapter_04_established_four_person_party",
+        "cyanis": "practical trust growing into brother-like friendship",
+        "ilyra": "low-pressure respect growing into easy friendship",
+        "nimera": "post-Chapter-3 early trust; still far from later paternal shorthand"
+      },
+      "epistemic_state": {
+        "morning_disturbance": {
+          "status": "observation",
+          "value": "He has personally seen fresh evidence that a very large creature crossed or approached occupied Cresthaven grounds."
+        },
+        "creature_identity": {
+          "status": "inference",
+          "value": "The evidence is consistent with a huge territorial animal, but the Elder Thornhide identification should be earned from inspection rather than treated as known before the grounds are read."
+        },
+        "casualty_state": {
+          "status": "known_fact",
+          "value": "He has no confirmed missing resident or casualty when he wakes/gathers the group."
+        },
+        "last_sentinel": {
+          "status": "known_fact",
+          "value": "He witnessed LAST SENTINEL CONFIRMED and the later Ruby stabilization; he does not know the mechanism."
+        }
+      },
+      "scene_local_state": {
+        "immediate_wants": [
+          "get the group looking at the physical disturbance quickly",
+          "determine what animal crossed the grounds and where it went",
+          "keep the read bounded to what the ground actually shows"
+        ],
+        "avoidances": [
+          "speculating about Black Host or Ancient causes without evidence",
+          "turning route/animal expertise into certainty before inspection",
+          "long briefing before the player can inspect the grounds"
+        ],
+        "attention": [
+          "tracks",
+          "damage/marking pattern",
+          "older range signs",
+          "where restoration changed the animal's habitual movement"
+        ]
+      }
+    },
+    "nimera": {
+      "memory_authorization": {
+        "mode": "none"
+      },
+      "relationship_runtime_state": {
+        "chronology_stage": "chapter_04_newer_party_member_after_chapter_03",
+        "cyanis": "newer intellectual push-pull with growing social trust",
+        "ilyra": "warm/dry/profane friendship beginning to settle",
+        "torren": "early competence respect and argument; no paternal shorthand"
+      },
+      "epistemic_state": {
+        "morning_disturbance": {
+          "status": "report",
+          "value": "She knows only the group's reported morning disturbance until she sees the physical evidence herself."
+        },
+        "last_sentinel": {
+          "status": "known_fact",
+          "value": "She witnessed the Warden's exact LAST SENTINEL CONFIRMED wording and the Card's later Ruby stabilization."
+        },
+        "prime_card_term": {
+          "status": "known_fact",
+          "value": "Ancient sources repeatedly use Prime Card distinctly from ordinary Standard Cards; later historians did not understand the term."
+        },
+        "cyanis_prime_classification": {
+          "status": "unknown",
+          "value": "There is insufficient evidence to classify Cyanis's Card as Prime."
+        }
+      },
+      "scene_local_state": {
+        "immediate_wants": [
+          "see what evidence actually exists before adding a theory",
+          "preserve distinctions between observation and inference",
+          "help solve the immediate problem rather than drag the party back into archive analysis"
+        ],
+        "avoidances": [
+          "generic historian exposition",
+          "treating animal evidence as her expert domain",
+          "using the Prime Card term to classify Cyanis's Card"
+        ],
+        "attention": [
+          "what is directly observable",
+          "contradictions between claims and evidence",
+          "whether any conclusion is being promoted too quickly"
+        ]
+      }
+    }
+  },
+  "exact_line_anchors": [],
+  "max_beats": 22,
+  "production_cost_ceiling": "economical"
+}
