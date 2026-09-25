@@ -240,7 +240,7 @@ Wayfinder Junction is the chapter's actual waystone/cartographic monument.
 
 **Purpose**
 - make Southern Briar a substantial exploration area whose navigation difficulty proves why Torren matters;
-- establish the Briarhide threat;
+- establish the Thornhide threat;
 - preserve the late overgrown side access for the cleanup backtrack.
 
 **Current sequence**
@@ -249,7 +249,7 @@ Wayfinder Junction is the chapter's actual waystone/cartographic monument.
 - map structure itself demonstrates Torren's route competence;
 - Southern Briar is **moderately maze-like**, not heavily labyrinthine: a few meaningful forks, one or two reconnecting loops, misleading-looking branches, natural route ambiguity;
 - exactly two authored stops:
-  1. **Briarhide track first** — very large, recent, animal not yet seen;
+  1. **Thornhide track first** — very large, recent, animal not yet seen;
   2. **late overgrown stone-lined side access** in the final third/quarter — known opening, wrong direction for Dunmere, exact destination unknown;
 - final stretch becomes more direct as predator tension replaces navigation tension;
 - no false trail, split/crossing, Old Waystone, or major Ancient discovery;
@@ -264,7 +264,7 @@ Wayfinder Junction is the chapter's actual waystone/cartographic monument.
 
 **Current sequence**
 - first clear sighting occurs immediately before combat;
-- Stalker is an exceptionally strong native Briarhide, not corrupted, controlled, mechanized, or wounded by a special device;
+- Stalker is an exceptionally strong native Thornhide, not corrupted, controlled, mechanized, or wounded by a special device;
 - normal lethal boss fight with Cyanis + Ilyra + Torren;
 - Maevra remains noncombat;
 - no purification, component-removal, protected-HP, or nonlethal resolution;
