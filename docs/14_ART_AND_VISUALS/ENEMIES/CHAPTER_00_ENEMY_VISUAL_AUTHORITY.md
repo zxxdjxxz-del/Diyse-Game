@@ -68,7 +68,7 @@ Chapter-0 glow firewall:
 - Crossbowman — no glow;
 - Ruin Shieldbearer — no glow;
 - Ruin Vanguard Pursuer / Seyrik — no glow;
-- Convoy War-Sorcerer — no armor glow.
+- Battle Sorcerer — no armor glow.
 
 **Red never functions as luminous armor-channel color.**
 Only the highest Black Host commanders may carry luminous armor channels, and those channels are **purple**.
@@ -107,7 +107,7 @@ For Chapter 0, read the humanoid enemies in this order:
 **Ruin Vanguard Pursuer / Seyrik**  
 → middle-ground elite; personalized and clearly above specialists
 
-**Convoy War-Sorcerer**  
+**Battle Sorcerer**  
 → officer-adjacent caster; more refined construction, still below highest-command luminous tier
 
 None of these Chapter-0 humanoids use glowing armor channels.
@@ -757,9 +757,9 @@ Must communicate:
 
 ---
 
-# Convoy War-Sorcerer
+# Battle Sorcerer
 
-## Exact approved Convoy War-Sorcerer visual master
+## Exact approved Battle Sorcerer visual master
 
 **Status:** **LOCKED EXACT VISUAL — 2026-09-24**
 
@@ -769,7 +769,7 @@ Approved render:
 - dimensions: **1145 × 1374**
 - presentation: clean white-background B00/B00.5-style full-body reference
 
-This exact approved render is the authoritative Chapter-0 Convoy War-Sorcerer appearance and overrides earlier prose where incidental details differ.
+This exact approved render is the authoritative Chapter-0 Battle Sorcerer appearance and overrides earlier prose where incidental details differ.
 
 Locked visual details:
 - full Black Host helmet under a deep crimson hood;
@@ -927,7 +927,7 @@ At a glance, Chapter 0 should show the Black Host hierarchy without needing labe
 - visibly more Entity-derived shape language;
 - no glow.
 
-**Convoy War-Sorcerer**
+**Battle Sorcerer**
 - officer-adjacent refinement;
 - more deliberate/sculpted plate and cloth;
 - no armor glow.
@@ -1044,7 +1044,7 @@ These seven Chapter-0 visual identities are now locked:
 3. Ruin Shieldbearer
 4. War Hound
 5. Ruin Vanguard Pursuer / concealed Seyrik
-6. Convoy War-Sorcerer
+6. Battle Sorcerer
 7. Riftmaw
 
 Future concept art, generated references, field/battle models, animations, promotional art, and optional 2D derivatives must preserve the locked silhouette, material, palette-family, role-read, and prohibited-regression rules above.
