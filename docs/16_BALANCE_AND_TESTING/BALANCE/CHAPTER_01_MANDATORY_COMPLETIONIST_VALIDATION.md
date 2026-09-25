@@ -40,7 +40,7 @@ Two material assumptions are retired:
 1. **Maevra is not a Chapter-1 combat-party guest.**  
    Current production beats keep Maevra physically present in the story while outside the battle party. Any throughput, survivability, round-count, or Hunt estimate that added Maevra's combat contribution must be recalculated.
 
-2. **Briarhide Stalker is not protected/nonlethal.**  
+2. **Thornhide is not protected/nonlethal.**  
    Current exact Beat-13 authority makes Briarhide the required Chapter-1 final boss: a natural wild Greater Beast defeated through ordinary lethal combat. There is no Black Host Irritant Fitting, 25% protected floor, stabilization objective, or retreat-alive resolution.
 
 Current exact story/dialogue authority:
@@ -60,7 +60,7 @@ The project-wide direct-damage **Power audit remains closed**.
 This correction does not itself change:
 - ordinary enemy direct-damage Power coefficients;
 - Watch Captain direct-damage Power coefficients;
-- Hollow Watch Castellan direct-damage Power coefficients;
+- Watch Castellan direct-damage Power coefficients;
 - Briarhide direct-damage Power coefficients;
 - Cistern Devourer direct-damage Power coefficients.
 
@@ -73,13 +73,13 @@ Any later stat/HP change must come from the active mandatory-vs-completionist en
 Re-run Chapter 1 against the current campaign route and actual party state at each encounter point.
 
 At minimum, re-check:
-- Northern / first Briar formations using Greenhollow Stalker / Thornvine Creeper / Briar Boar;
+- Northern / first Briar formations using Thicket Stalker / Vine Creeper / Briar Boar;
 - Hollow Watch Black Host formations using Black Host Raider / Black Host Crossbowman / Ruin Shieldbearer;
 - Hollow Watch construct formations using Watch Sentry / Watch Ballista;
 - Watch Captain Frame as a **strong normal-pool construct**, not optional side content;
-- Hollow Watch Castellan as the mandatory **mini-boss**;
-- Southern Briar formations using all six locked natural identities: Greenhollow Stalker / Thornvine Creeper / Briar Boar / Needlewing / Rootmaw / Brambleback;
-- **Briarhide Stalker as the normal lethal mandatory Chapter-1 final boss**;
+- Watch Castellan as the mandatory **mini-boss**;
+- Southern Briar formations using all six locked natural identities: Thicket Stalker / Vine Creeper / Briar Boar / Needlewing / Rootmaw / Rubbleback;
+- **Thornhide as the normal lethal mandatory Chapter-1 final boss**;
 - Cistern Devourer at its actual Hunt-access state.
 
 For every encounter, test both required baselines:
@@ -147,7 +147,7 @@ Git history preserves that analysis if comparison is needed; it must not be copi
 
 Specific previously derived values such as the Watch Captain's 500 HP may remain in their owning enemy files until the new validation tests them, but this file no longer certifies those values as balanced against the current party or its new normal-pool frequency.
 
-Needlewing, Rootmaw, and Brambleback now have authored raw bodies and direct-damage Powers. Their **balance certification and final formation weights remain open** and must be tested against the current three-character Chapter-1 party before encounter validation can close.
+Needlewing, Rootmaw, and Rubbleback now have authored raw bodies and direct-damage Powers. Their **balance certification and final formation weights remain open** and must be tested against the current three-character Chapter-1 party before encounter validation can close.
 
 ---
 
