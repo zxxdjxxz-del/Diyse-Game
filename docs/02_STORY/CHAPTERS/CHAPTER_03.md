@@ -283,6 +283,14 @@ Mandatory:
   - older authority/seal practices;
   - Six-Face material;
   - the Diysean ruins in the Westways;
+- Nimera establishes one bounded piece of older Card scholarship:
+  - the words **Prime Card / Prime Cards** recur across surviving older records she has studied;
+  - the term is clearly used as something distinct from ordinary **Standard Cards**;
+  - no surviving known record gives a verified physical description of a Prime Card;
+  - no known person in the surviving record is established to have actually seen one;
+  - no surviving known account establishes what a Prime Card does;
+  - the historical term therefore exists without a usable modern definition;
+  - this does **not** classify Cyanis's Card as Prime;
 - the recent reader's identity remains unknown;
 - this research trail does **not** lead the party to the Westways recordbook map;
 - the map will be found later because the party reaches older collections, not because the recent reader conveniently points to it.
@@ -520,7 +528,8 @@ Still unresolved:
 - what LAST SENTINEL CONFIRMED means;
 - whether the phrase refers to Cyanis, the Card, or another state/relationship;
 - bearer status;
-- Prime classification;
+- whether Cyanis's Card is a Prime Card;
+- what a Prime Card physically is or does beyond the unresolved archival term;
 - Might classification;
 - Last Sentinel recovery/manifestation/use.
 
@@ -640,6 +649,7 @@ At Chapter-3 end, the party may know:
 - no simple recorded theft explains the anomaly;
 - historical magically significant seal traditions existed;
 - an unknown recent reader researched overlapping Card/authority subjects;
+- older records repeatedly use **Prime Card** as a category distinct from ordinary Standard Cards, but no surviving known sighting, physical description, or functional account explains what a Prime Card actually is or does;
 - someone practiced increasingly sophisticated seal reproduction in an Ancient Sealwright chamber;
 - later practice attempts involved very powerful magic;
 - the actual Wayfinder is an Ancient Diysean artifact thousands of years old;
