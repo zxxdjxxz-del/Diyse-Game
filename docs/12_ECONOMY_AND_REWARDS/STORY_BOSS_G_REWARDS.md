@@ -20,12 +20,12 @@ Mandatory named/story encounter economic rewards use:
 ## Exact encounter payouts
 | Ch | Mandatory encounter | G | Economy note |
 |---:|---|---:|---|
-| 1 | **Briarhide Stalker** | **600 G** | protected/nonlethal resolution still pays |
-| 1 | **Hollow Watch Castellan** | **600 G** | resolved hostile encounter |
+| 1 | **Thornhide** | **600 G** | protected/nonlethal resolution still pays |
+| 1 | **Watch Castellan** | **600 G** | resolved hostile encounter |
 | 2 | **Archive Leviathan** | **900 G** | resolved hostile encounter |
 | 2 | **Commander Rhazek — Bastion Master** | **1,000 G** | protected withdrawal/resolution still pays |
 | 3 | **First Command Warden** | **1,600 G** | resolved chapter boss |
-| 4 | **Elder Briarhide** | **1,600 G** | mandatory nonlethal fixed sequence still pays |
+| 4 | **Elder Thornhide** | **1,600 G** | mandatory nonlethal fixed sequence still pays |
 | 4 | **Reaction Conduit** | **1,600 G** | stabilization resolution still pays |
 | 4 | **Regulation Crucible → The Seventh Reaction** | **2,200 G** | one payout for complete two-form encounter |
 | 5 | **Furnace Tyrant** | **2,200 G** | resolved chapter boss |
@@ -51,7 +51,7 @@ Mandatory named/story encounter economic rewards use:
 The mandatory named/story encounter layer contributes:
 > **92,700 G**
 
-Of this, **7,800 G** is specifically the restored protected/nonlethal payout layer for Briarhide Stalker, Chapter-2 Rhazek, Elder Briarhide, Reaction Conduit, and Seyrik.
+Of this, **7,800 G** is specifically the restored protected/nonlethal payout layer for Thornhide, Chapter-2 Rhazek, Elder Thornhide, Reaction Conduit, and Seyrik.
 
 ## Protected/nonlethal rule — LOCKED
 Do not restore the old blanket rule:
