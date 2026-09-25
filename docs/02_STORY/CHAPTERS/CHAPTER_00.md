@@ -65,6 +65,55 @@ The former eight-beat split that separated Riftmaw from the final War-Sorcerer c
 
 ---
 
+
+## Environmental storytelling lock
+
+Chapter 0 should communicate the convoy disaster primarily through the changing field state, not repeated explanation.
+
+### Before the ambush
+The convoy should visibly read as a working mixed military/civilian movement:
+- wagons, pack loads, escorts, civilian travelers, medical/support presence, and ordinary road spacing;
+- the recovered Card remains secured inside its already-damaged recovery casing as protected cargo rather than displayed as a mystery object;
+- the player should understand what a functioning convoy looks like before seeing it broken.
+
+### Opening ambush / Wreck Field
+The environment must carry the immediate story:
+- disrupted wagon positions, shattered cargo, blast/scorch damage, broken road furniture, dropped equipment, and improvised cover;
+- wounded and trapped survivors occupy plausible positions created by the attack rather than standing as quest markers;
+- the battlefield geography becomes increasingly legible as Cyanis moves through it;
+- the **north cut is conspicuously more usable** while other escape/pursuit lines are damaged or obstructed, supporting Cyanis's refusal to chase without proving why the Black Host left it open;
+- Black Host withdrawal should leave signs of an organized disengagement rather than a total rout.
+
+Do not hide a Prime/Last-Sentinel clue in the wreckage.
+
+### Field Triage Camp
+The same damaged space should visibly transform:
+- salvageable wagons/canvas become shelter and treatment cover;
+- wounded are consolidated into a defensible working triage area;
+- usable supplies and personnel are reorganized rather than magically replaced;
+- Ilyra's medical authority is reinforced by how the camp functions around her work, not only by dialogue.
+
+### Final confrontation / aftermath
+After the Riftmaw + Battle Sorcerer fight:
+- organized Black Host pressure visibly collapses;
+- the recovery casing remains physically broken as established by the battle;
+- survivors recover equipment, consolidate loads, and prepare usable wagons;
+- the chapter's final state should visibly contrast with the opening convoy: fewer people, damaged gear, but restored order.
+
+### Overnight state
+When most survivors depart:
+- the wreck/relay area becomes markedly quieter and emptier;
+- remaining fires, stacked salvage, abandoned damage, and a small practical guard footprint communicate that the emergency has passed;
+- C01's quietness should be earned by this environmental change rather than created only through dialogue.
+
+Environmental details may reinforce known events but must not reveal:
+- why the Black Host wanted the Card;
+- Seyrik's identity;
+- Prime / Last Sentinel / bearer meaning.
+
+
+---
+
 # Current Mainline Structure
 
 ## P01 — Convoy / Opening Ambush
