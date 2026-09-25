@@ -2,7 +2,7 @@
   "schema": "diyse_scene_authority_spec_v1",
   "scene_id": "CH01_BEAT13_BRIARHIDE_STALKER",
   "chapter_id": "chapter_01",
-  "story_position": "Chapter 1 — Beat 13 — Briarhide Stalker / Chapter-1 Final Boss",
+  "story_position": "Chapter 1 — Beat 13 — Thornhide / Chapter-1 Final Boss",
   "production_ready": false,
   "participants": [
     "cyanis",
@@ -10,12 +10,12 @@
     "maevra",
     "torren"
   ],
-  "scene_purpose": "Deliver Chapter 1's final combat climax with the Briarhide Stalker, first revealing the animal immediately before the boss fight, resolving it as a normal natural-wild-beast encounter, and opening the route to the quieter Junction discovery.",
+  "scene_purpose": "Deliver Chapter 1's final combat climax with the Thornhide, first revealing the animal immediately before the boss fight, resolving it as a normal natural-wild-beast encounter, and opening the route to the quieter Junction discovery.",
   "story_sources": [
     {
       "path": "docs/02_STORY/CHAPTERS/CHAPTER_01.md",
       "sections": [
-        "Beat 13 — Briarhide Stalker / Chapter-1 Final Boss",
+        "Beat 13 — Thornhide / Chapter-1 Final Boss",
         "Beat 14 — Wayfinder Junction / Six Ways Through"
       ],
       "role": "base_chapter_01_boss_and_handoff_authority"
@@ -58,7 +58,7 @@
     "area_phase": "chapter_final_boss",
     "dialogue_readiness": "GREEN_pre_and_post_boss_RED_during_combat",
     "static_story_context_only": true,
-    "runtime_note": "HARD FIRST-SIGHTING RULE: do not clearly show the Briarhide Stalker before this boss trigger. Ordinary approach traversal shows Cyanis only. At the boss trigger the relevant cast may appear as simple field models; the Stalker itself is the required visual focus. Keep the pre-fight reveal concise and begin combat immediately afterward. The Stalker is a natural exceptionally strong Briarhide: no corruption, control, armor, device, special wound, purification, component-removal, or nonlethal solution. Combat party is Cyanis + Ilyra + Torren; Maevra never participates. No dialogue occurs during active combat. After ordinary victory, use only a short portrait/dialogue exchange and return to Cyanis-only traversal. The Junction monument remains unrevealed until Beat 14. Cyanis carries the intact Card and it remains inert."
+    "runtime_note": "HARD FIRST-SIGHTING RULE: do not clearly show the Thornhide before this boss trigger. Ordinary approach traversal shows Cyanis only. At the boss trigger the relevant cast may appear as simple field models; the Stalker itself is the required visual focus. Keep the pre-fight reveal concise and begin combat immediately afterward. The Stalker is a natural exceptionally strong Briarhide: no corruption, control, armor, device, special wound, purification, component-removal, or nonlethal solution. Combat party is Cyanis + Ilyra + Torren; Maevra never participates. No dialogue occurs during active combat. After ordinary victory, use only a short portrait/dialogue exchange and return to Cyanis-only traversal. The Junction monument remains unrevealed until Beat 14. Cyanis carries the intact Card and it remains inert."
   },
   "current_floor_state": {
     "visible_traversal_character_before_trigger": "cyanis_only",
@@ -75,7 +75,7 @@
   },
   "required_story_beats": [
     "Cyanis reaches the final route trigger before the Junction without having clearly seen the Stalker earlier.",
-    "The Briarhide Stalker is first clearly shown immediately before combat and blocks the usable route.",
+    "The Thornhide is first clearly shown immediately before combat and blocks the usable route.",
     "A very short character reaction may occur.",
     "Boss combat begins with Cyanis, Ilyra, and Torren only.",
     "The Stalker is defeated through normal combat victory.",
