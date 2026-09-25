@@ -42,7 +42,7 @@ Do not restore:
 - damaged crossing / civilian crossing;
 - separate Old Waystone;
 - stranded civilians / Lower Woods rescue as Torren's recruitment event;
-- Greenhollow Briarhide Stalker fight;
+- Greenhollow Thornhide fight;
 - early Hollow Watch map rubbing;
 - separate post-Castellan Hollow Watch route plate.
 
@@ -184,7 +184,7 @@ Wayfinder Junction is the chapter's actual waystone/cartographic monument.
 
 ---
 
-## Beat 9 — Hollow Watch Castellan
+## Beat 9 — Watch Castellan
 
 **Purpose**
 - deliver Hollow Watch's mandatory mini-boss climax and show an unexplained Card/chamber response without resolving causation.
@@ -257,7 +257,7 @@ Wayfinder Junction is the chapter's actual waystone/cartographic monument.
 
 ---
 
-## Beat 13 — Briarhide Stalker
+## Beat 13 — Thornhide
 
 **Purpose**
 - provide Chapter 1's final combat climax and clear the route to the Junction.
@@ -319,7 +319,7 @@ Wayfinder Junction is the chapter's actual waystone/cartographic monument.
 - **CHAPTER 1 END**.
 
 ## Chapter-1 dramatic shape
-**Brackenwall Card custody anomaly → Caelora objective → Maevra seeks Torren → first Briar traversal → Greenhollow / Card briefing → Torren requires Hollow Watch resolved → occupied Hollow Watch / dead garrison → excavation → six-channel human-use clue → forced inner breach → implicit Card-triggered Castellan activation → Castellan → post-boss catastrophe/map mural → Torren permanently joins → southern Briar → Torren notes an overgrown off-route side access → wild-predator signs → Briarhide Stalker sighting → Briarhide Stalker final boss → Wayfinder Junction payoff → western ancient Diyse revealed as a dense regional route map with many city structures plus a second unexplained marking system → largest cluster converges around present-day Caelora but the Wayfinder is broken through its center → existing Dunmere-bound route is recognized inside the older network → Wayfinder water/cistern notation identifies the earlier Briar-side access as meaningful → Torren calls for camp → optional C03/C04/C05 Character-Life scenes / southern-Briar Cistern Devourer backtrack → next-morning continuation toward Dunmere.**
+**Brackenwall Card custody anomaly → Caelora objective → Maevra seeks Torren → first Briar traversal → Greenhollow / Card briefing → Torren requires Hollow Watch resolved → occupied Hollow Watch / dead garrison → excavation → six-channel human-use clue → forced inner breach → implicit Card-triggered Castellan activation → Castellan → post-boss catastrophe/map mural → Torren permanently joins → southern Briar → Torren notes an overgrown off-route side access → wild-predator signs → Thornhide sighting → Thornhide final boss → Wayfinder Junction payoff → western ancient Diyse revealed as a dense regional route map with many city structures plus a second unexplained marking system → largest cluster converges around present-day Caelora but the Wayfinder is broken through its center → existing Dunmere-bound route is recognized inside the older network → Wayfinder water/cistern notation identifies the earlier Briar-side access as meaningful → Torren calls for camp → optional C03/C04/C05 Character-Life scenes / southern-Briar Cistern Devourer backtrack → next-morning continuation toward Dunmere.**
 
 ## Knowledge firewall
 Chapter 1 must not reveal:
