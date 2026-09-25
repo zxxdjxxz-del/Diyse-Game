@@ -16,7 +16,7 @@
 
 ## Authored / protected / nonlethal
 - **Ruin Vanguard Pursuer — concealed Seyrik Rell; authored protected disengagement after Ilyra joins Cyanis in combat.**
-- **Convoy War-Sorcerer — authored final Broken Convoy confrontation.**
+- **Battle Sorcerer — authored final Broken Convoy confrontation.**
 
 ## Mandatory named / boss
 - **Riftmaw — mandatory named/boss encounter after Ilyra joins Cyanis in combat.**
@@ -79,7 +79,7 @@ A real noncombat field / triage / defensive-repositioning interval must separate
 ### Final Broken Convoy boss — Cyanis + Ilyra
 Formation:
 - Riftmaw
-- Convoy War-Sorcerer
+- Battle Sorcerer
 
 This is one combined final mandatory boss encounter under current Chapter-0 story authority.
 
@@ -122,7 +122,7 @@ The Chapter-0 combat roster is exactly:
 - War Hound
 - Ruin Vanguard Pursuer — concealed Seyrik Rell
 - Riftmaw
-- Convoy War-Sorcerer
+- Battle Sorcerer
 
 Beast Handler and injured Iron Cohort Soldier are **not Chapter-0 combat enemies**.
 
@@ -139,7 +139,7 @@ Closed structurally:
 - P03/P04/P07 no-combat boundaries;
 - Cyanis + Ilyra party state for P05/P06;
 - protected Seyrik disengagement;
-- combined Riftmaw + Convoy War-Sorcerer final boss;
+- combined Riftmaw + Battle Sorcerer final boss;
 - Chapter-0 no-harmful-status boundary;
 - individual enemy action legality / targeting behavior.
 
