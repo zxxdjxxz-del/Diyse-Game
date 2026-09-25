@@ -65,7 +65,7 @@ Neither method outranks the other. Their best joint work alternates between evid
 ## Memory
 Nimera's Cardweaver identity is aligned to **Memory**: recall, preservation, and the continuing influence of what has already happened. Exact combat implementation belongs to the current class/Card authorities.
 
-Her current Subclass is **Proofhunter**, aligned through the reciprocal Torren/Nimera donor architecture to **Perception**. Resource and Sixfold Knight are retired for Nimera and must not be restored here.
+Her current Subclass is **Proofhunter**, aligned through the reciprocal Torren/Nimera donor architecture to **Perception**.
 
 ### Personal memory tendencies
 
