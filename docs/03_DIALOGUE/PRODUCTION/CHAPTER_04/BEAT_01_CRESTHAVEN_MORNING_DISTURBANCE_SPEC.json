@@ -18,6 +18,7 @@
         "Chapter-start handoff from Chapter 3",
         "Last Sentinel state lock",
         "Person-Brain authoring lock",
+        "Environmental storytelling lock",
         "Beat 1 — Cresthaven Morning Disturbance"
       ],
       "role": "chapter_04_opening_and_beat_01"
@@ -64,7 +65,25 @@
     "cyanis_card_state": "stable deep Ruby after the Chapter-3 First Command Warden",
     "last_sentinel_state": "LAST SENTINEL CONFIRMED is known; no verified modern manifestation; not yet Recovered",
     "prime_card_knowledge": "The party knows Prime Card is a recurring Ancient Diysean term distinct in context from ordinary Standard Cards. After LAST SENTINEL CONFIRMED and the Card's immediate deep-Ruby stabilization, Prime Card is an active but unproven hypothesis for Cyanis's Card; nobody knows what Prime Cards are or do, and the Card is not classified as Prime.",
-    "immediate_safety": "Torren has found evidence of a very large creature crossing/approaching occupied Cresthaven grounds; no confirmed missing resident or casualty at scene start."
+    "immediate_safety": "Torren has found evidence of a very large creature crossing/approaching occupied Cresthaven grounds; no confirmed missing resident or casualty at scene start.",
+    "environmental_evidence": {
+      "fresh_disturbance": [
+        "enormous fresh tracks / displaced soil / crushed brush",
+        "territorial bark-rub or equivalent marking",
+        "movement line leads toward forest rather than occupied rooms"
+      ],
+      "older_use": [
+        "weathered older signs show a large animal used this ground before current reoccupation"
+      ],
+      "human_change": [
+        "recent Cresthaven clearing, temporary work boundary, materials, or reopened use physically narrows/cuts across the older animal route"
+      ],
+      "negative_evidence": [
+        "no mauled resident",
+        "no deliberate breach of living quarters",
+        "no evidence of Black Host staging or Ancient activation"
+      ]
+    }
   },
   "allowed_information_transfers": [
     "Torren may report only the morning physical evidence he directly observed before waking/gathering the others.",
@@ -190,6 +209,10 @@
         "prime_card_classification": {
           "status": "hypothesis",
           "value": "The Warden naming Last Sentinel immediately before the Card stabilized makes Prime plausible to him, but not proven."
+        },
+        "restoration_range_conflict": {
+          "status": "inference",
+          "value": "Fresh and older field evidence may support that Cresthaven's renewed use is interfering with an established large-animal range; this must be inferred from the inspected ground rather than assumed before inspection."
         }
       },
       "scene_local_state": {
