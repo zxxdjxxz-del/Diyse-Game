@@ -217,3 +217,14 @@ If Chapter-2 sources disagree:
 8. historical material only as provenance.
 
 > **Chapter 2 exact dialogue authority is current at 431 mandatory spoken lines plus the current 65-line C05 `Still Burns` = 496 total. B06 Western Map Mural remains retired.**
+
+
+## Current Person-Brain compatibility audit
+
+**September 25, 2026: PASS — no dialogue regeneration required.**
+
+The current exact atomics were rechecked against the live runtime Person Brains and current relationship chronology after the Person-Brain architecture expansion.
+
+See the chapter-local `*_PERSON_BRAIN_COMPATIBILITY_AUDIT.md`.
+
+This pass does not freeze future revision if canon, scene authority, or a live Person Brain materially changes. It establishes that the current approved wording remains a plausible output of the current agents and should not be regenerated merely for architectural parity.
