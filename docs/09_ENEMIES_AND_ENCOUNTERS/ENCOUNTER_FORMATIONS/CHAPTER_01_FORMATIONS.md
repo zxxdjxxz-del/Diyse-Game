@@ -14,11 +14,11 @@ The first Briar traversal is structurally authored for **Cyanis + Ilyra only**. 
 
 | Tier | Formation | Composition | Within-tier weight |
 |---|---|---|---:|
-| Light | **Trail Pair** | 1 Greenhollow Stalker + 1 Thornvine Creeper | 50% |
-| Light | **Predator Pair** | 2 Greenhollow Stalkers | 50% |
-| Standard | **Briar Pair** | 1 Briar Boar + 1 Thornvine Creeper | 50% |
-| Standard | **Boar Trail** | 1 Greenhollow Stalker + 1 Briar Boar | 50% |
-| Heavy | **Thorn Pair** | 2 Thornvine Creepers | 50% |
+| Light | **Trail Pair** | 1 Thicket Stalker + 1 Vine Creeper | 50% |
+| Light | **Predator Pair** | 2 Thicket Stalkers | 50% |
+| Standard | **Briar Pair** | 1 Briar Boar + 1 Vine Creeper | 50% |
+| Standard | **Boar Trail** | 1 Thicket Stalker + 1 Briar Boar | 50% |
+| Heavy | **Thorn Pair** | 2 Vine Creepers | 50% |
 | Heavy | **Boar Pair** | 2 Briar Boars | 50% |
 
 The three locked northern species remain unchanged. Variety comes from pairing and role mix, not adding bodies to the field.
@@ -54,18 +54,18 @@ Its **final selection weight is OPEN** until the mandatory level/progression reb
 Southern Briar uses the northern three plus the three locked Southern-only identities:
 - Needlewing
 - Rootmaw
-- Brambleback
+- Rubbleback
 
 This phase is structurally authored for **Cyanis + Ilyra + Torren** and may use **3–5 active enemies**. Southern Briar is the Chapter-1 exception that may reach five enemies in one formation.
 
 | Tier | Formation | Composition | Within-tier weight |
 |---|---|---|---:|
-| Light | **Predator Trail** | 1 Needlewing + 1 Greenhollow Stalker + 1 Briar Boar | 50% |
-| Light | **Rooted Skirmish** | 1 Rootmaw + 1 Thornvine Creeper + 1 Needlewing | 50% |
-| Standard | **Rootbound Growth** | 1 Rootmaw + 2 Thornvine Creepers + 1 Needlewing | 50% |
-| Standard | **Bramble Wall** | 1 Brambleback + 1 Briar Boar + 1 Thornvine Creeper | 50% |
-| Heavy | **Heavy Woods** | 1 Brambleback + 1 Briar Boar + 1 Rootmaw + 1 Thornvine Creeper | 50% |
-| Heavy | **Canopy Rush** | 2 Needlewings + 1 Greenhollow Stalker + 1 Rootmaw + 1 Briar Boar | 50% |
+| Light | **Predator Trail** | 1 Needlewing + 1 Thicket Stalker + 1 Briar Boar | 50% |
+| Light | **Rooted Skirmish** | 1 Rootmaw + 1 Vine Creeper + 1 Needlewing | 50% |
+| Standard | **Rootbound Growth** | 1 Rootmaw + 2 Vine Creepers + 1 Needlewing | 50% |
+| Standard | **Bramble Wall** | 1 Rubbleback + 1 Briar Boar + 1 Vine Creeper | 50% |
+| Heavy | **Heavy Woods** | 1 Rubbleback + 1 Briar Boar + 1 Rootmaw + 1 Vine Creeper | 50% |
+| Heavy | **Canopy Rush** | 2 Needlewings + 1 Thicket Stalker + 1 Rootmaw + 1 Briar Boar | 50% |
 
 The listed Southern-Briar compositions are the current **structural formation set** for the three-character party.
 
@@ -255,21 +255,21 @@ No northern-Briar formation uses hidden focus-fire. Single-target enemy actions 
 - **Predator Trail** — fast Needlewing/Stalker pressure around a sturdier Boar.
 - **Rooted Skirmish** — Rootmaw anchors while Needlewing creates speed contrast.
 - **Rootbound Growth** — slower durability-heavy control of battle tempo without adding a new harmful status.
-- **Bramble Wall** — armored Brambleback plus physical wildlife creates a sturdier three-body line.
+- **Bramble Wall** — armored Rubbleback plus physical wildlife creates a sturdier three-body line.
 - **Heavy Woods** — four durable/slow-to-medium bodies; endurance-oriented rather than speed-oriented.
 - **Canopy Rush** — five-enemy Southern-Briar ceiling; two Needlewings create the fastest opening pressure, but all single-target actions still use fair legal targeting rather than scripted dogpiling.
 
 ## Roster boundary
 
 **Northern / first Briar**
-- Greenhollow Stalker
-- Thornvine Creeper
+- Thicket Stalker
+- Vine Creeper
 - Briar Boar
 
 **Southern Briar adds**
 - Needlewing
 - Rootmaw
-- Brambleback
+- Rubbleback
 
 **Hollow Watch — Black Host**
 - Black Host Raider
@@ -285,8 +285,8 @@ No northern-Briar formation uses hidden focus-fire. Single-target enemy actions 
 - Brackenwall Reaver
 
 Mandatory named encounters:
-- Hollow Watch Castellan — mandatory mini-boss
-- Briarhide Stalker — Chapter-1 main/final boss
+- Watch Castellan — mandatory mini-boss
+- Thornhide — Chapter-1 main/final boss
 
 Optional combat:
 - Regional Hunt #1 — Cistern Devourer only
