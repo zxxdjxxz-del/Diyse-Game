@@ -301,6 +301,6 @@ Black Host Irritant Fitting:
 - required nonlethal objective
 
 While fitting survives:
-> Briarhide floor = **213 HP / 25% Max HP**
+> Thornhide floor = **213 HP / 25% Max HP**
 
-Fitting 0 HP ends battle immediately with Briarhide retreat alive.
+Fitting 0 HP ends battle immediately with Thornhide retreat alive.
