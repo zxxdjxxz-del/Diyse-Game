@@ -13,7 +13,7 @@ At Chapter 4 opening, the traveling permanent roster is:
 
 Maevra is **not** the default Chapter-4 traveling fifth and is not part of the Chapter-4 balance baseline.
 
-After the mandatory S022 Elder Briarhide encounter, **Vaelira joins permanently**. The available permanent roster becomes five, while the active battle party remains capped at four.
+After the mandatory S022 Elder Thornhide encounter, **Vaelira joins permanently**. The available permanent roster becomes five, while the active battle party remains capped at four.
 
 ## Encounter-volume architecture
 Retain the established Chapter-4 stochastic traversal model:
