@@ -1,5 +1,5 @@
 # Chapter 1 — Beat 13
-# Briarhide Stalker
+# Thornhide
 ## CURRENT LOCKED DIALOGUE — TRUE-VOICE / DIALOGUE-ECONOMY PASS
 
 **Status:** CURRENT ATOMIC DIALOGUE AUTHORITY — 2026-09-19
@@ -12,7 +12,7 @@ Cyanis is the only visible party field character during ordinary traversal.
 
 There is no dialogue before the boss trigger.
 
-The Briarhide Stalker has not been clearly seen yet.
+The Thornhide has not been clearly seen yet.
 
 The Card remains inert.
 
@@ -25,7 +25,7 @@ Maevra remains with the traveling group but does not participate in combat.
 
 The usable route opens ahead.
 
-The Briarhide Stalker is there.
+The Thornhide is there.
 
 This is the first clear visual reveal of the animal.
 
@@ -80,7 +80,7 @@ Combat party:
 
 Maevra does not participate.
 
-The Briarhide Stalker is defeated and killed through ordinary combat victory.
+The Thornhide is defeated and killed through ordinary combat victory.
 
 There is:
 - no corruption phase;
