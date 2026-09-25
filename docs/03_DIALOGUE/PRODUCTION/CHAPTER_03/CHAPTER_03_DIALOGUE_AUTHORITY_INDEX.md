@@ -227,3 +227,14 @@ Completed results:
 The current Chapter-3 runtime resources, combined manuscript, reader outputs, and global manifest are **synchronized and verified** against this source set.
 
 Compiler durable roster state remains correctly attached to **B06**: **ROSTER_ADD_NIMERA_PERMANENT**.
+
+
+## Current Person-Brain compatibility audit
+
+**September 25, 2026: PASS — no dialogue regeneration required.**
+
+The current exact atomics were rechecked against the live runtime Person Brains and current relationship chronology after the Person-Brain architecture expansion.
+
+See the chapter-local `*_PERSON_BRAIN_COMPATIBILITY_AUDIT.md`.
+
+This pass does not freeze future revision if canon, scene authority, or a live Person Brain materially changes. It establishes that the current approved wording remains a plausible output of the current agents and should not be regenerated merely for architectural parity.
