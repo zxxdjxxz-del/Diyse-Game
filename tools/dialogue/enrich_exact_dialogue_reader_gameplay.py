@@ -2,7 +2,7 @@
 """Restore the approved world intro and currently validated encounter bridges to the Ch0-3 reader.
 
 Run after presentation cleanup/heading normalization and before layout repair.
-All 2,055 spoken lines are immutable.
+All 2,021 spoken lines are immutable.
 """
 from __future__ import annotations
 
@@ -49,26 +49,21 @@ BRIDGES = (
     ), CH0, ("Riftmaw", "Battle Sorcerer")),
 
     ("Halfway Stop", "Enemy Roster — Northern Briar Passage", (
-        "Thicket Stalker • Vine Creeper • Briar Boar",
-    ), CH1, ("Thicket Stalker", "Vine Creeper", "Briar Boar")),
-    ("Hollow Watch Reveal", "Enemy Roster — Greenhollow / Hollow Watch Approach", (
-        "Thicket Stalker • Vine Creeper • Briar Boar",
-    ), CH1, ("Thicket Stalker", "Vine Creeper", "Briar Boar")),
-    ("Garrison Discovery", "Enemy Roster — Hollow Watch", (
-        "Black Host Raider • Black Host Crossbowman • Ruin Shieldbearer • Watch Sentry • Watch Ballista • Watch Captain Frame",
-    ), CH1, ("Black Host Raider", "Black Host Crossbowman", "Ruin Shieldbearer", "Watch Sentry", "Watch Ballista", "Watch Captain Frame")),
-    ("Castellan Chamber Approach", "Mini-Boss — Watch Castellan", (
-        "Watch Castellan",
-    ), CH1, ("Watch Castellan",)),
+        "Thicket Stalker • Vine Creeper • Bullhog",
+    ), CH1, ("Thicket Stalker", "Vine Creeper", "Bullhog")),
+    ("Hollow Watch Reveal", "Enemy Roster — Hollow Watch Surface", (
+        "Black Host Raider • Black Host Crossbowman • Black Host Shieldbearer",
+    ), CH1, ("Black Host Raider", "Black Host Crossbowman", "Black Host Shieldbearer")),
+    ("Garrison Discovery", "Hollow Watch Excavation Combat", (
+        "Underground random encounters use Construct only.",
+        "Shield Construct is a fixed authored stronger encounter; it is not random and not a miniboss.",
+    ), CH1, ("Construct", "Shield Construct")),
     ("First Clear Sighting", "Boss — Thornhide", (
         "Thornhide",
     ), CH1, ("Thornhide",)),
     ("First Clear Sighting", "Enemy Roster — Southern Briar", (
-        "Thicket Stalker • Vine Creeper • Briar Boar • Needlewing • Rootmaw • Rubbleback",
-    ), CH1, ("Thicket Stalker", "Vine Creeper", "Briar Boar", "Needlewing", "Rootmaw", "Rubbleback")),
-    ("Torren's Version of Dinner", "Optional Regional Hunt — Cistern Devourer", (
-        "Cistern Devourer",
-    ), CH1, ("Cistern Devourer",)),
+        "Thicket Stalker • Vine Creeper • Bullhog • Needlewing • Burrowclaw • Barkling",
+    ), CH1, ("Thicket Stalker", "Vine Creeper", "Bullhog", "Needlewing", "Burrowclaw", "Barkling")),
 
     ("Sealed Side Door", "Enemy Roster — Old Waterworks", (
         "Bogshell • Cistern Leech • Needlewing",
@@ -109,7 +104,7 @@ BRIDGES = (
 )
 
 FORMATION_AUTHORITIES = (
-    (CH1_FORMATIONS, ("Briar Passage — first / northern traversal", "Hollow Watch — occupied fort / Black Host", "Southern Briar Passage", "Watch Castellan", "Thornhide")),
+    (CH1_FORMATIONS, ("Briar Passage — first / northern traversal", "Hollow Watch — surface / Black Host", "Hollow Watch — excavation / ancient defenses", "Southern Briar Passage", "Shield Construct", "Thornhide")),
     (CH2_FORMATIONS, ("Old Waterworks", "Sunken Archive", "Old Bastion", "Watch Sentry in Chapter 2", "Full Bastion Response")),
     (CH3_FORMATIONS, ("Old City Archives", "Cresthaven Ancient tower base", "Archive Scribe Engine", "First Command Warden", "Way-Fort Marauder / Rift Boltman / Black Host Ward-Sorcerer are retired from Chapter 3")),
 )
