@@ -157,3 +157,10 @@ If an older support packet disagrees with the current chapter master:
 4. historical files never override live authority.
 
 > **Stable structural identity in filenames; mutable production state in metadata and Git.**
+
+
+## Automated enforcement
+
+`python tools/dialogue/validate_authority_naming.py` validates the live `CHAPTERS/` root. It rejects mutable-state filenames such as `WORKING`, `CORRECTION`, `REVISION`, retired `BRIARHIDE` naming, old beat-specific `CHAPTER_##_BEAT_##_...` packets in the live root, and malformed `CH##_B##` / `CH##_C##` support identities.
+
+The `HISTORICAL/` subtree is intentionally excluded from current-name enforcement because those filenames are provenance.

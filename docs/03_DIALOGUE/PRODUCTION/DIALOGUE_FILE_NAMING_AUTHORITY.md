@@ -152,3 +152,16 @@ If a filename, manifest, reader, runtime resource, or older audit disagrees with
 5. Git history supplies provenance.
 
 > **Stable identity in filenames; mutable state in metadata and Git.**
+
+
+## Automated enforcement
+
+Run:
+
+```text
+python tools/dialogue/validate_authority_naming.py
+```
+
+The validator rejects legacy/mutable production filenames, non-contiguous live beat IDs, Character-Life numbering gaps/duplicates, malformed canonical B/C files, scene-spec IDs that disagree with their filenames, and retired cross-chapter naming.
+
+GitHub Actions runs the same check through `Authority Naming Validation`.

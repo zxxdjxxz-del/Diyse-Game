@@ -1,0 +1,30 @@
+name: Authority Naming Validation
+
+on:
+  push:
+    paths:
+      - 'docs/02_STORY/CHAPTERS/**'
+      - 'docs/03_DIALOGUE/**'
+      - 'tools/dialogue/validate_authority_naming.py'
+      - '.github/workflows/authority-naming-validation.yml'
+  pull_request:
+    paths:
+      - 'docs/02_STORY/CHAPTERS/**'
+      - 'docs/03_DIALOGUE/**'
+      - 'tools/dialogue/validate_authority_naming.py'
+      - '.github/workflows/authority-naming-validation.yml'
+
+jobs:
+  validate-naming:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Validate canonical authority naming
+        run: python tools/dialogue/validate_authority_naming.py
