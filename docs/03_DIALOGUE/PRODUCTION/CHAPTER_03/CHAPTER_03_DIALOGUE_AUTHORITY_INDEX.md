@@ -4,7 +4,7 @@
 **Status:** FULL SOURCE-LEVEL DIALOGUE CLOSURE — REVISED 15-BEAT STRUCTURE CURRENT  
 **Migration date:** September 23, 2026  
 **Primary story authority:** ../../../02_STORY/CHAPTERS/CHAPTER_03.md  
-**Current spoken-line count after tightening:** **544 mandatory + 142 Character-Life = 686 total**  
+**Current spoken-line count after tightening:** **564 mandatory + 142 Character-Life = 706 total**  
 **Post-tightening differentiated mature-register audit:** **PASS**
 - Nimera — **49 / 229 = 21.4%** — target **20–35%**
 - Cyanis — **14 / 111 = 12.6%** — target **7–14%**
@@ -25,21 +25,22 @@ The profanity-differentiation pass remains active: Nimera retains the broadest v
 
 ## Current mandatory atomic sequence
 
-1. BEAT_01_CAELORA_GATE_ARRIVAL_DRAFT_A.md
-2. BEAT_02_ROYAL_AUDIENCE_CH2_REPORT_DRAFT_A.md
-3. BEAT_03_IMPOSSIBLE_ORDERS_DRAFT_A.md
-4. BEAT_04_SEAL_NOT_USED_DRAFT_A.md
-5. BEAT_05_OLD_CITY_ACCESS_ARCHIVE_DESCENT_DRAFT_A.md
-6. BEAT_06_SCHOLAR_IN_REDACTED_STACKS_DRAFT_A.md
-7. BEAT_07_LOWER_ARCHIVES_DRAFT_A.md
-8. BEAT_08_BURIED_COLLECTIONS_RECENT_READER_DRAFT_A.md
-9. BEAT_09_HALL_OF_SEALS_RECENT_READER_DRAFT_A.md
-10. BEAT_10_DEEP_ARCHIVES_DRAFT_A.md
-11. BEAT_11_ARCHIVE_SCRIBE_ENGINE_DRAFT_A.md
-12. BEAT_12_INNER_COLLECTIONS_WESTWAYS_RECORDBOOK_SEALWRIGHT_DRAFT_A.md
-13. BEAT_13_RETURN_TO_MIRENA_CRESTHAVEN_IDENTIFIED_DRAFT_A.md
-14. BEAT_14_CRESTHAVEN_TOWER_BASE_FIRST_COMMAND_WARDEN_DRAFT_A.md
-15. BEAT_15_CRESTHAVEN_HEADQUARTERS_IVORYBRIDGE_DECISION_DRAFT_A.md
+1. `CH03_B01_CAELORA_GATE_ARRIVAL_DIALOGUE.md`
+2. `CH03_B02_ROYAL_AUDIENCE_CH2_REPORT_DIALOGUE.md`
+3. `CH03_B03_IMPOSSIBLE_ORDERS_DIALOGUE.md`
+4. `CH03_B04_SEAL_NOT_USED_DIALOGUE.md`
+5. `CH03_B05_OLD_CITY_ACCESS_ARCHIVE_DESCENT_DIALOGUE.md`
+6. `CH03_B06_SCHOLAR_IN_REDACTED_STACKS_NIMERA_JOINS_DIALOGUE.md`
+7. `CH03_B07_LOWER_ARCHIVES_DIALOGUE.md`
+8. `CH03_B08_BURIED_COLLECTIONS_RECENT_READER_DIALOGUE.md`
+9. `CH03_B09_HALL_OF_SEALS_RECENT_READER_DIALOGUE.md`
+10. `CH03_B10_DEEP_ARCHIVES_DIALOGUE.md`
+11. `CH03_B11_ARCHIVE_SCRIBE_ENGINE_DIALOGUE.md`
+12. `CH03_B12_INNER_COLLECTIONS_WESTWAYS_RECORDBOOK_SEALWRIGHT_DIALOGUE.md`
+13. `CH03_B13_RETURN_TO_MIRENA_CRESTHAVEN_IDENTIFIED_DIALOGUE.md`
+14. `CH03_B14_CRESTHAVEN_TOWER_BASE_FIRST_COMMAND_WARDEN_DIALOGUE.md`
+15. `CH03_B15_CRESTHAVEN_HEADQUARTERS_IVORYBRIDGE_DECISION_DIALOGUE.md`
+
 
 Character-Life:
 - C06 — Nimera Takes Over a Table — C06_NIMERA_TAKES_OVER_A_TABLE_DIALOGUE.md
@@ -219,8 +220,8 @@ Source dialogue is structurally current and the Chapter-3 **tightening + mature-
 Completed results:
 - repeated reasoning was cut rather than personality;
 - natural floor-holding was preserved;
-- mandatory dialogue reduced from **631 to 544 spoken lines**;
-- total Chapter-3 dialogue reduced from **807 to 686 spoken lines**;
+- mandatory dialogue reduced from **631 to 564 spoken lines**;
+- total Chapter-3 dialogue reduced from **807 to 706 spoken lines**;
 - the differentiation pass lowered non-Nimera profanity density and removed the overuse of shared `fuck/fucking` intensifiers while preserving naturally mature speech;
 - the two protected First Command Warden messages are compiled as Warden-spoken runtime dialogue in B14.
 
