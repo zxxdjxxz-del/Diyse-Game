@@ -68,13 +68,12 @@ func _run() -> void:
 			"after_scene": "restore_prior_pressure",
 		},
 	}
-	runner.scene_started.emit("TEST_WALK", walking_metadata)
-	_expect(player.movement_enabled(), "Walking dialogue must preserve movement when movement_lock=false")
-	_expect(encounters.authored_paused, "Walking dialogue may suppress encounter triggering without stopping traversal")
-	runner.scene_finished.emit("TEST_WALK")
-	_expect(player.movement_enabled(), "Walking-dialogue finish must keep prior enabled movement state")
-	_expect(not encounters.authored_paused, "Walking-dialogue finish must restore encounter pause state")
-	_expect(_near(float(encounters.pressure.distance_s), before_distance), "Walking dialogue suppression must preserve pressure rather than safe-reset it")
+	var walking_validation: Array[String] = bridge.validate_metadata(walking_metadata)
+	_expect(not walking_validation.is_empty(), "Walking/traversal dialogue metadata must be rejected by the current no-walking-dialogue rule")
+	_expect(bridge.active_scene_id().is_empty(), "Rejected walking dialogue must not become the active scene")
+	_expect(player.movement_enabled(), "Rejected walking dialogue must not alter movement state")
+	_expect(not encounters.authored_paused, "Rejected walking dialogue must not alter encounter pause state")
+	_expect(_near(float(encounters.pressure.distance_s), before_distance), "Rejected walking dialogue must not alter encounter pressure")
 
 	# Existing outer authored locks must survive a nested dialogue policy application.
 	player.set_movement_enabled(false)
