@@ -306,7 +306,7 @@ Current synchronization invariants:
 1. current production atomics are the only exact spoken-wording input authority;
 2. the combined manuscripts are regenerated from those atomics;
 3. the current runtime mirror is regenerated from those atomics;
-4. the runtime mirror must contain exactly **2,001 spoken lines across 56 scenes**;
+4. the runtime mirror must contain exactly **2,021 spoken lines across 56 scenes**;
 5. protected exact-line anchors and retired-canon guards must pass;
 6. the reader may restore player-facing world/gameplay context from its owning authorities but may not alter spoken dialogue;
 7. `python tools/dialogue/sync_current_dialogue.py --check` and `python tools/dialogue/compile_current_runtime_dialogue.py --check` must pass after future source edits;

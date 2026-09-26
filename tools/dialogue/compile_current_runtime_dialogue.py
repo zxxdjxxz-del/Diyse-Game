@@ -27,7 +27,7 @@ from typing import Any
 ROOT = Path(__file__).resolve().parents[2]
 PROD = ROOT / "docs/03_DIALOGUE/PRODUCTION"
 OUT_ROOT = ROOT / "game/content/dialogue/current"
-EXPECTED_TOTAL_SPOKEN = 2001
+EXPECTED_TOTAL_SPOKEN = 2021
 
 DIALOGUE_RE = re.compile(r"^\*\*([^*\n]+):\*\*\s*(.*)$")
 HEADING_RE = re.compile(r"^(#{1,6})\s+(.+?)\s*$")
