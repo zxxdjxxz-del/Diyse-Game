@@ -239,6 +239,31 @@ When the question concerns another person's motives, Ilyra should preserve the d
 > and  
 > **we think we know why.**
 
+### Usage / anti-overuse rule
+
+Counterfactual reasoning is a **recognizable tendency, not a scene obligation**.
+
+Many Ilyra scenes should contain no explicit counterfactual at all. She still needs ordinary conversation, direct decisions, jokes, irritation, medicine when relevant, silence, gossip, desire, and simple factual answers.
+
+Use the trait when:
+- the scene is resting on an assumption that genuinely matters;
+- a different interpretation would materially change consequences;
+- uncertainty about motive, category, or outcome is actually present;
+- another character has become too certain too quickly;
+- the speculative branch itself is socially or comedically interesting.
+
+Do not invoke it merely because:
+- the writer needs someone to state uncertainty;
+- the scene contains a mystery;
+- Ilyra is present;
+- a route or terrain question needs solving;
+- another specialist already owns the relevant uncertainty;
+- the answer is already known to the characters;
+- active danger requires a direct decision rather than more branching;
+- emotional directness would be stronger than intellectualizing the moment.
+
+A strong Ilyra scene may simply contain a direct statement such as `No`, `I want to stay`, `That's enough`, or a joke. The counterfactual trait should make her more distinct, not consume the rest of her personality.
+
 ### Story progression
 
 The counterfactual trait should become more visible as stakes and relationships expand, but it is **not** a line quota.
