@@ -4,7 +4,7 @@
 
 [resource]
 script = ExtResource("1")
-environment_id = "CH04_SIXFOLD_ANNEX"
+environment_id = "CH04_THORNHIDE_TERRITORY"
 initial_state = "ACTIVE"
-available_states = Array[String](["BASE", "ACTIVE", "CLOSED", "CLEARED", "POST_STORY"])
-persistent_flag_prefix = "environment.chapter_04.sixfold_annex"
+available_states = Array[String](["BASE", "ACTIVE", "RETREAT", "POST_STORY"])
+persistent_flag_prefix = "environment.chapter_04.thornhide_territory"

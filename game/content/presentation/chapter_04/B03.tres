@@ -4,11 +4,11 @@
 
 [resource]
 script = ExtResource("1")
-scene_id = "S025"
+scene_id = "B03"
 chapter_id = "chapter_04"
-environment_family = "CH04_SIXFOLD_ANNEX"
+environment_family = "CH04_THORNHIDE_TERRITORY"
 battle_background_family = ""
 cutscene_tier = "C1"
 vfx_tier = "V1"
 encounter_mode = "none"
-presentation_tags = Array[String](["HD2D", "NO_RANDOM", "POSTCRISIS_SAFE", "PROCEDURAL_SAFEGUARD_STATE_CHANGES", "PORTRAIT_PAPERWORK_LED", "REACTION_ANNEX", "LEGACY_ENVIRONMENT_ID_ONLY"])
+presentation_tags = Array[String](["HD2D", "PRE_DIALOGUE_STRUCTURE", "NO_RANDOM", "FIELD_AFTERMATH", "THORNHIDE_RETREAT_CONFIRMED", "PRIME_MEANING_UNRESOLVED", "SHORTCUT_DECISION"])

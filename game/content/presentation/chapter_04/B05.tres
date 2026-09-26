@@ -4,11 +4,11 @@
 
 [resource]
 script = ExtResource("1")
-scene_id = "S026"
+scene_id = "B05"
 chapter_id = "chapter_04"
 environment_family = "CH04_IVORYBRIDGE"
 battle_background_family = ""
 cutscene_tier = "C1"
 vfx_tier = "V1"
 encounter_mode = "none"
-presentation_tags = Array[String](["HD2D", "NO_RANDOM", "IVORYBRIDGE_SAFE", "NORMAL_WORLDMAP_DEPARTURE", "CRESTHAVEN_STATE1_REUSE", "NO_WORKSHOP_EXPANSION_YET"])
+presentation_tags = Array[String](["HD2D", "PRE_DIALOGUE_STRUCTURE", "NO_RANDOM", "IVORYBRIDGE_SAFE", "VAELIRA_WORK_INTRO", "VAELIRA_PERMANENT_RECRUIT", "ARCANE_STAFFS", "WAYFINDER_PATTERN_RESEMBLANCE_ONLY", "NO_FACE_INTERACTION_IDENTIFICATION"])

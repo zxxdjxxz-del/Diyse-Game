@@ -4,7 +4,7 @@
 
 [resource]
 script = ExtResource("1")
-environment_id = "CH04_REGULATION_CORE"
+environment_id = "CH04_CENTRAL_REGULATION"
 initial_state = "ACTIVE"
-available_states = Array[String](["BASE", "ACTIVE", "POST_BOSS", "CLEARED"])
-persistent_flag_prefix = "environment.chapter_04.regulation_core"
+available_states = Array[String](["BASE", "ACTIVE", "FORM_I", "FORM_II", "POST_BOSS", "CLEARED"])
+persistent_flag_prefix = "environment.chapter_04.central_regulation"

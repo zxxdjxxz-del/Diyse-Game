@@ -13,7 +13,7 @@ At Chapter 4 opening, the traveling permanent roster is:
 
 Maevra is **not** the default Chapter-4 traveling fifth and is not part of the Chapter-4 balance baseline.
 
-After the mandatory S022 Elder Thornhide encounter, **Vaelira joins permanently**. The available permanent roster becomes five, while the active battle party remains capped at four.
+The Elder Thornhide encounter occurs in **B02 before Vaelira joins**. **Vaelira joins permanently in B05 at Ivorybridge**, before the Reaction Annex sequence. The available permanent roster then becomes five, while the active battle party remains capped at four.
 
 ## Encounter-volume architecture
 Retain the established Chapter-4 stochastic traversal model:
@@ -21,21 +21,21 @@ Retain the established Chapter-4 stochastic traversal model:
 - phase centers: **6 opening / 6 middle / 7 late**;
 - battle count remains emergent from route geometry, exploration, backtracking, safe pockets, and encounter pressure rather than a fixed quota.
 
-## Opening formations — target party state around Lv13
+## Early Reaction Annex formations — target party state around Lv13
 | Formation | Composition | Weight |
 |---|---|---:|
 | Annex Probe | Reaction Node + 2 Reaction Hound + Element Mirror | 30% |
 | Reaction Mesh | 2 Reaction Node + Reaction Hound + Composite Elemental | 45% |
 | Mirror Pack | Reaction Node + Reaction Hound + Element Mirror + Composite Elemental | 25% |
 
-## Middle formations — target party state around Lv15
+## Mid Reaction Annex formations — target party state around Lv15
 | Formation | Composition | Weight |
 |---|---|---:|
 | Composite Screen | 2 Reaction Node + Reaction Hound + Composite Elemental | 30% |
 | Mirror Reaction | Element Mirror + 2 Reaction Hound + Composite Elemental | 45% |
 | Crucible Escort | Reaction Node + Element Mirror + Composite Elemental + Annex Crucible Guard | 25% |
 
-## Late formations — target party state around Lv17
+## Late Reaction Annex / Central Regulation formations — target party state around Lv17
 | Formation | Composition | Weight |
 |---|---|---:|
 | Crucible Line | Annex Crucible Guard + Composite Elemental + Reaction Node + Reaction Hound | 30% |

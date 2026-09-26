@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="DiyseScenePresentationDefinition" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://game/presentation/scene_presentation_definition.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+scene_id = "B02"
+chapter_id = "chapter_04"
+environment_family = "CH04_THORNHIDE_TERRITORY"
+battle_background_family = "CH04_THORNHIDE_TERRITORY"
+cutscene_tier = "C3"
+vfx_tier = "V4"
+encounter_mode = "fixed_authored"
+presentation_tags = Array[String](["HD2D", "PRE_DIALOGUE_STRUCTURE", "NO_RANDOM", "ELDER_THORNHIDE_AUTHORED", "NONLETHAL_DRIVE_OFF", "FIRST_VERIFIED_MODERN_MANIFESTATION", "LAST_SENTINEL_RECOVERED_TRANSITION", "LAST_SENTINEL_NOT_AWAKENED", "ELDER_THORNHIDE_RETREATS_ALIVE", "VAELIRA_NOT_PRESENT"])

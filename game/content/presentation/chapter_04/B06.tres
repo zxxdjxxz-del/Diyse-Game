@@ -4,11 +4,11 @@
 
 [resource]
 script = ExtResource("1")
-scene_id = "C09"
+scene_id = "B06"
 chapter_id = "chapter_04"
-environment_family = "CH04_IVORYBRIDGE"
+environment_family = "CH04_REACTION_ANNEX"
 battle_background_family = ""
-cutscene_tier = "C0"
+cutscene_tier = "C1"
 vfx_tier = "V1"
 encounter_mode = "none"
-presentation_tags = Array[String](["HD2D", "NO_RANDOM", "CHARACTER_LIFE", "IVORYBRIDGE_LODGING", "PORTRAIT_LED", "LOW_LAMP_NIGHT_STATE"])
+presentation_tags = Array[String](["HD2D", "PRE_DIALOGUE_STRUCTURE", "NO_RANDOM", "FUNCTIONING_REACTION_ANNEX", "CONTROLLED_COMPARISON", "FOUR_ELEMENT_DIAGNOSTIC_PLAN", "NO_STAFF_NEGLECT_FRAMING"])

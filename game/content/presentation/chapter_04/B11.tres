@@ -4,11 +4,11 @@
 
 [resource]
 script = ExtResource("1")
-scene_id = "C08"
+scene_id = "B11"
 chapter_id = "chapter_04"
-environment_family = "CH04_SOUTHHOLD_ROADSIDE"
+environment_family = "CH04_REACTION_ANNEX"
 battle_background_family = ""
-cutscene_tier = "C0"
+cutscene_tier = "C1"
 vfx_tier = "V1"
 encounter_mode = "none"
-presentation_tags = Array[String](["HD2D", "NO_RANDOM", "CHARACTER_LIFE", "UNFAMILIAR_ROADSIDE_STOP", "GENERIC_CAMP_OVERLAY", "NO_MODERN_LIGHTER", "LEGACY_ENVIRONMENT_ID_ONLY"])
+presentation_tags = Array[String](["HD2D", "PRE_DIALOGUE_STRUCTURE", "NO_RANDOM", "POSTCRISIS_SAFE", "SAFE_UPPER_LABS", "REACTION_CONDUIT_SURVIVES", "EVIDENCE_PRESERVED", "MODEL_REVISION", "WAYFINDER_UNRESOLVED"])

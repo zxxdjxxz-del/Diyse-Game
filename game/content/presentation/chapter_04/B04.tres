@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="DiyseScenePresentationDefinition" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://game/presentation/scene_presentation_definition.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+scene_id = "B04"
+chapter_id = "chapter_04"
+environment_family = "CH04_FOREST_CROWN_ROUTE"
+battle_background_family = "CH04_FOREST_ROUTE"
+cutscene_tier = "C1"
+vfx_tier = "V1"
+encounter_mode = "random_allowed"
+presentation_tags = Array[String](["HD2D", "PRE_DIALOGUE_STRUCTURE", "RANDOM_ALLOWED", "FOREST_SHORTCUT", "CROWN_ROAD_PAYOFF", "NO_WALKING_DIALOGUE", "NO_NEW_MAJOR_MYSTERY", "IVORYBRIDGE_ALREADY_SELECTED"])

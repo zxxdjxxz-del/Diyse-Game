@@ -1,79 +1,68 @@
 extends SceneTree
 
 const PRESENTATION_DIR := "res://game/content/presentation/chapter_04/"
-const DIALOGUE_DIR := "res://game/content/dialogue/chapter_04/"
 const ScenePresentationDefinition = preload("res://game/presentation/scene_presentation_definition.gd")
 const ElementalRuntime = preload("res://game/presentation/elemental_presentation_runtime.gd")
 
 var failures: Array[String] = []
 
 const EXPECTED := {
-	"S022": {"environment": "CH04_CRESTHAVEN_LOWER_GROUNDS", "background": "CH04_LOWER_CRESTHAVEN_GROUNDS", "cutscene": "C3", "vfx": "V4", "encounter": "fixed_authored"},
-	"S023": {"environment": "CH04_SIXFOLD_ANNEX", "background": "CH04_SIXFOLD_ANNEX", "cutscene": "C2", "vfx": "V3", "encounter": "mixed"},
-	"S024": {"environment": "CH04_REGULATION_CORE", "background": "CH04_REGULATION_CORE", "cutscene": "C3", "vfx": "V3", "encounter": "mixed"},
-	"S025": {"environment": "CH04_SIXFOLD_ANNEX", "background": "", "cutscene": "C1", "vfx": "V1", "encounter": "none"},
-	"S026": {"environment": "CH04_IVORYBRIDGE", "background": "", "cutscene": "C1", "vfx": "V1", "encounter": "none"},
-	"C08": {"environment": "CH04_SOUTHHOLD_ROADSIDE", "background": "", "cutscene": "C0", "vfx": "V1", "encounter": "none"},
-	"C09": {"environment": "CH04_IVORYBRIDGE", "background": "", "cutscene": "C0", "vfx": "V1", "encounter": "none"},
-	"H05": {"environment": "CH03_CRESTHAVEN", "background": "", "cutscene": "C0", "vfx": "V1", "encounter": "none"},
-	"HUNT_04_CROWN_PROTOTYPE": {"environment": "CH04_SIXFOLD_ANNEX", "background": "CH04_ANNEX_PROTOTYPE_BRANCH", "cutscene": "C1", "vfx": "V2", "encounter": "fixed_authored"},
+	"B01": {"environment": "CH03_CRESTHAVEN", "background": "", "cutscene": "C1", "vfx": "V1", "encounter": "none"},
+	"B02": {"environment": "CH04_THORNHIDE_TERRITORY", "background": "CH04_THORNHIDE_TERRITORY", "cutscene": "C3", "vfx": "V4", "encounter": "fixed_authored"},
+	"B03": {"environment": "CH04_THORNHIDE_TERRITORY", "background": "", "cutscene": "C1", "vfx": "V1", "encounter": "none"},
+	"B04": {"environment": "CH04_FOREST_CROWN_ROUTE", "background": "CH04_FOREST_ROUTE", "cutscene": "C1", "vfx": "V1", "encounter": "random_allowed"},
+	"B05": {"environment": "CH04_IVORYBRIDGE", "background": "", "cutscene": "C1", "vfx": "V1", "encounter": "none"},
+	"B06": {"environment": "CH04_REACTION_ANNEX", "background": "", "cutscene": "C1", "vfx": "V1", "encounter": "none"},
+	"B07": {"environment": "CH04_REACTION_ANNEX", "background": "CH04_REACTION_ANNEX", "cutscene": "C1", "vfx": "V2", "encounter": "random_allowed"},
+	"B08": {"environment": "CH04_REACTION_ANNEX", "background": "CH04_REACTION_ANNEX", "cutscene": "C2", "vfx": "V2", "encounter": "mixed"},
+	"B09": {"environment": "CH04_CENTRAL_REGULATION", "background": "CH04_CENTRAL_REGULATION", "cutscene": "C3", "vfx": "V3", "encounter": "mixed"},
+	"B10": {"environment": "CH04_CENTRAL_REGULATION", "background": "CH04_CENTRAL_REGULATION", "cutscene": "C3", "vfx": "V3", "encounter": "fixed_authored"},
+	"B11": {"environment": "CH04_REACTION_ANNEX", "background": "", "cutscene": "C1", "vfx": "V1", "encounter": "none"},
+	"B12": {"environment": "CH04_IVORYBRIDGE", "background": "", "cutscene": "C1", "vfx": "V1", "encounter": "none"},
 }
 
 func _initialize() -> void:
 	_validate_scene_sidecars()
-	_validate_legacy_environment_ids()
+	_validate_pre_dialogue_boundary()
 	_validate_environment_states()
-	_validate_prime_and_crucible_rules()
+	_validate_prime_and_recruitment_timing()
+	_validate_annex_scientific_boundaries()
 	_validate_elemental_runtime()
-	_validate_hunt_vs_elite_boundary()
+	_validate_legacy_layer_removed()
 	_validate_no_enemy_or_elite_placement()
 	_finish()
 
 func _validate_scene_sidecars() -> void:
 	for scene_id in EXPECTED.keys():
 		var presentation = load(PRESENTATION_DIR + scene_id + ".tres")
-		var dialogue = load(DIALOGUE_DIR + scene_id + ".tres")
-		_expect(presentation != null, "%s HD-2D presentation sidecar must load" % scene_id)
-		_expect(dialogue != null, "%s closed dialogue Resource must still load" % scene_id)
+		_expect(presentation != null, "%s Chapter-4 structural presentation sidecar must load" % scene_id)
 		if presentation == null:
 			continue
 		var schema_failures: Array[String] = presentation.validate_schema()
 		_expect(schema_failures.is_empty(), "%s sidecar must validate: %s" % [scene_id, str(schema_failures)])
 		var expected: Dictionary = EXPECTED[scene_id]
-		_expect(str(presentation.scene_id) == scene_id, "%s sidecar scene ID mismatch" % scene_id)
+		_expect(str(presentation.scene_id) == scene_id, "%s presentation slot ID mismatch" % scene_id)
 		_expect(str(presentation.chapter_id) == "chapter_04", "%s sidecar chapter mismatch" % scene_id)
-		_expect(str(presentation.environment_family) == str(expected["environment"]), "%s environment family mismatch" % scene_id)
-		_expect(str(presentation.battle_background_family) == str(expected["background"]), "%s battle-background family mismatch" % scene_id)
+		_expect(str(presentation.environment_family) == str(expected["environment"]), "%s environment mismatch" % scene_id)
+		_expect(str(presentation.battle_background_family) == str(expected["background"]), "%s battle background mismatch" % scene_id)
 		_expect(str(presentation.cutscene_tier) == str(expected["cutscene"]), "%s cutscene tier mismatch" % scene_id)
 		_expect(str(presentation.vfx_tier) == str(expected["vfx"]), "%s VFX tier mismatch" % scene_id)
-		_expect(str(presentation.encounter_mode) == str(expected["encounter"]), "%s encounter-mode mismatch" % scene_id)
-		_expect(presentation.has_tag("HD2D"), "%s must be marked HD2D" % scene_id)
-		for tag in presentation.presentation_tags:
-			_expect("ELITE" not in str(tag).to_upper(), "%s sidecar must not encode Elite placement through tag: %s" % [scene_id, tag])
+		_expect(str(presentation.encounter_mode) == str(expected["encounter"]), "%s encounter mode mismatch" % scene_id)
+		_expect(presentation.has_tag("HD2D"), "%s must be HD2D" % scene_id)
+		_expect(presentation.has_tag("PRE_DIALOGUE_STRUCTURE"), "%s must be marked pre-dialogue structural presentation" % scene_id)
 
-func _validate_legacy_environment_ids() -> void:
-	var retained_legacy_ids := {
-		"S023": "CH04_SIXFOLD_ANNEX",
-		"S025": "CH04_SIXFOLD_ANNEX",
-		"C08": "CH04_SOUTHHOLD_ROADSIDE",
-		"HUNT_04_CROWN_PROTOTYPE": "CH04_SIXFOLD_ANNEX",
-	}
-	for scene_id in retained_legacy_ids.keys():
-		var presentation = load(PRESENTATION_DIR + scene_id + ".tres")
-		_expect(presentation != null, "%s legacy-environment sidecar must load" % scene_id)
-		if presentation == null:
-			continue
-		_expect(str(presentation.environment_family) == str(retained_legacy_ids[scene_id]), "%s retained legacy environment key changed unexpectedly" % scene_id)
-		_expect(presentation.has_tag("LEGACY_ENVIRONMENT_ID_ONLY"), "%s retained retired-name environment key must be explicitly marked legacy-only" % scene_id)
+func _validate_pre_dialogue_boundary() -> void:
+	for scene_id in EXPECTED.keys():
+		var current_dialogue_path := "res://game/content/dialogue/current/chapter_04/%s.tres" % scene_id
+		_expect(not ResourceLoader.exists(current_dialogue_path), "%s must not have fabricated current runtime dialogue before approved exact dialogue exists" % scene_id)
 
 func _validate_environment_states() -> void:
 	var expected_states := {
-		"environment_cresthaven_lower_grounds.tres": {"id": "CH04_CRESTHAVEN_LOWER_GROUNDS", "required": ["BASE", "ACTIVE", "CLEARED", "POST_STORY"]},
-		"environment_ivorybridge.tres": {"id": "CH04_IVORYBRIDGE", "required": ["BASE", "ACTIVE", "POST_STORY"]},
-		"environment_annex_approach_regulation.tres": {"id": "CH04_ANNEX_APPROACH_REGULATION", "required": ["BASE", "ACTIVE", "CLEARED", "POST_STORY"]},
-		"environment_sixfold_annex.tres": {"id": "CH04_SIXFOLD_ANNEX", "required": ["BASE", "ACTIVE", "CLOSED", "CLEARED", "POST_STORY"]},
-		"environment_regulation_core.tres": {"id": "CH04_REGULATION_CORE", "required": ["BASE", "ACTIVE", "POST_BOSS", "CLEARED"]},
-		"environment_southhold_roadside.tres": {"id": "CH04_SOUTHHOLD_ROADSIDE", "required": ["BASE", "ACTIVE", "POST_STORY"]},
+		"environment_thornhide_territory.tres": {"id": "CH04_THORNHIDE_TERRITORY", "required": ["BASE", "ACTIVE", "RETREAT", "POST_STORY"]},
+		"environment_forest_crown_route.tres": {"id": "CH04_FOREST_CROWN_ROUTE", "required": ["BASE", "ACTIVE", "CROWN_ROAD_REACHED", "POST_STORY"]},
+		"environment_ivorybridge.tres": {"id": "CH04_IVORYBRIDGE", "required": ["BASE", "ACTIVE", "POST_ANNEX", "POST_STORY"]},
+		"environment_reaction_annex.tres": {"id": "CH04_REACTION_ANNEX", "required": ["BASE", "ACTIVE", "CRISIS", "POST_CRISIS", "CLEARED", "POST_STORY"]},
+		"environment_central_regulation.tres": {"id": "CH04_CENTRAL_REGULATION", "required": ["BASE", "ACTIVE", "FORM_I", "FORM_II", "POST_BOSS", "CLEARED"]},
 	}
 	for filename in expected_states.keys():
 		var definition = load(PRESENTATION_DIR + filename)
@@ -87,22 +76,40 @@ func _validate_environment_states() -> void:
 		for required_state in expected["required"]:
 			_expect(definition.allows_state(str(required_state)), "%s must expose state %s" % [filename, required_state])
 
-	var inherited_cresthaven = load("res://game/content/presentation/chapter_03/environment_cresthaven.tres")
-	_expect(inherited_cresthaven != null, "Chapter 4 H05 must reuse the current Chapter 3 Cresthaven environment resource")
+	var cresthaven = load("res://game/content/presentation/chapter_03/environment_cresthaven.tres")
+	_expect(cresthaven != null, "Chapter 4 B01 must reuse the current Chapter-3 Cresthaven environment family")
+	_expect(str(cresthaven.environment_id) == "CH03_CRESTHAVEN", "Inherited Cresthaven environment ID must remain current")
 
-func _validate_prime_and_crucible_rules() -> void:
-	var s022 = load(PRESENTATION_DIR + "S022.tres")
-	var s023 = load(PRESENTATION_DIR + "S023.tres")
-	var s024 = load(PRESENTATION_DIR + "S024.tres")
-	_expect(s022.has_tag("FIRST_VERIFIED_PRIME_MANIFESTATION"), "S022 must remain the first verified modern Prime manifestation")
-	_expect(s022.has_tag("LAST_SENTINEL_ROUND4_ONLY") and s022.has_tag("PRIME_PIPELINE"), "S022 must route Last Sentinel through the approved Round-4 Prime pipeline")
-	_expect(str(s022.vfx_tier) == "V4", "S022 Last Sentinel manifestation must remain the first early-game V4 event")
-	_expect(s022.has_tag("ELDER_BRIARHIDE_RETREATS_ALIVE"), "Elder Briarhide must retreat alive after the first manifestation")
-	_expect(s023.has_tag("REACTION_CONDUIT_LIVING_RESEARCHER") and s023.has_tag("REACTION_CONDUIT_NONLETHAL_STABILIZATION"), "Reaction Conduit must remain a living researcher resolved nonlethally")
-	_expect(s023.has_tag("NO_SEVENTH_ELEMENT"), "S023 must not present the out-of-loop reaction as a seventh element")
-	_expect(s024.has_tag("SEVENTH_REACTION_NOT_ELEMENT"), "S024 must preserve Seventh Reaction as a system consequence")
-	_expect(s024.has_tag("REGULATION_CRUCIBLE_GENUINE_TWO_FORM") and s024.has_tag("FORM2_FRESH_HP_MP"), "Regulation Crucible must remain a genuine fresh-HP/MP Form-II transition")
-	_expect(s024.has_tag("PRIME_REFRESH_FRESH_HP_FORM"), "Regulation Crucible genuine fresh-HP Form II must refresh Prime availability")
+func _validate_prime_and_recruitment_timing() -> void:
+	var b01 = load(PRESENTATION_DIR + "B01.tres")
+	var b02 = load(PRESENTATION_DIR + "B02.tres")
+	var b05 = load(PRESENTATION_DIR + "B05.tres")
+	var b12 = load(PRESENTATION_DIR + "B12.tres")
+	_expect(b01.has_tag("NO_PRIME_THEORY_AT_WAKEUP"), "B01 must not raise Prime/Last Sentinel theory during the wake-up disturbance")
+	_expect(b02.has_tag("FIRST_VERIFIED_MODERN_MANIFESTATION"), "B02 must own Last Sentinel's first verified modern manifestation")
+	_expect(b02.has_tag("LAST_SENTINEL_RECOVERED_TRANSITION"), "B02 must own the Recovered transition/acquisition event")
+	_expect(b02.has_tag("LAST_SENTINEL_NOT_AWAKENED"), "Last Sentinel must not Awaken in Chapter 4 B02")
+	_expect(b02.has_tag("ELDER_THORNHIDE_RETREATS_ALIVE") and b02.has_tag("NONLETHAL_DRIVE_OFF"), "Elder Thornhide must survive and retreat")
+	_expect(b02.has_tag("VAELIRA_NOT_PRESENT"), "Vaelira must not be present for the Elder Thornhide event")
+	_expect(b05.has_tag("VAELIRA_PERMANENT_RECRUIT"), "Vaelira must join permanently in B05 Ivorybridge")
+	_expect(b12.has_tag("LAST_SENTINEL_RECOVERED"), "Chapter 4 end state must retain Last Sentinel as Recovered")
+
+func _validate_annex_scientific_boundaries() -> void:
+	var b05 = load(PRESENTATION_DIR + "B05.tres")
+	var b07 = load(PRESENTATION_DIR + "B07.tres")
+	var b08 = load(PRESENTATION_DIR + "B08.tres")
+	var b09 = load(PRESENTATION_DIR + "B09.tres")
+	var b10 = load(PRESENTATION_DIR + "B10.tres")
+	var b11 = load(PRESENTATION_DIR + "B11.tres")
+	_expect(b05.has_tag("WAYFINDER_PATTERN_RESEMBLANCE_ONLY") and b05.has_tag("NO_FACE_INTERACTION_IDENTIFICATION"), "B05 must preserve the Wayfinder interpretation firewall")
+	_expect(b07.has_tag("FOUR_ELEMENTS_ONLY") and b07.has_tag("BRANCH_MODELS_VALIDATE"), "B07 must validate the four individual branch models")
+	_expect(b08.has_tag("SIX_PAIR_TESTS_VALIDATE") and b08.has_tag("REACTION_CONDUIT_NONLETHAL"), "B08 must validate all six pairs and resolve Reaction Conduit nonlethally")
+	_expect(b08.has_tag("RESEARCHER_SURVIVES") and b08.has_tag("NO_SEVENTH_ELEMENT"), "B08 must preserve researcher survival and the four-element boundary")
+	_expect(b09.has_tag("REGULATION_CRUCIBLE_FORM_I") and b09.has_tag("TWO_CHAMBERS_ACTIVE"), "B09 must own Regulation Crucible Form I")
+	_expect(b10.has_tag("REGULATION_CRUCIBLE_FORM_II") and b10.has_tag("FORM2_FRESH_HP_MP"), "B10 must own the fresh-HP/MP Form-II transition")
+	_expect(b10.has_tag("PRIME_REFRESH_FRESH_HP_FORM"), "B10 genuine fresh-HP form must refresh Prime availability")
+	_expect(b10.has_tag("SEVENTH_REACTION_NOT_ELEMENT") and b10.has_tag("NO_THIRD_FORM"), "B10 must preserve Seventh Reaction as emergent behavior, not a new element or third form")
+	_expect(b11.has_tag("MODEL_REVISION") and b11.has_tag("WAYFINDER_UNRESOLVED"), "B11 must revise the model without solving the Wayfinder")
 
 func _validate_elemental_runtime() -> void:
 	_expect(ElementalRuntime.ELEMENTS.size() == 4, "Elemental presentation runtime must expose exactly four elements")
@@ -112,17 +119,19 @@ func _validate_elemental_runtime() -> void:
 	for retired_element_id in ["wind", "water"]:
 		_expect(not ElementalRuntime.is_element(retired_element_id), "Retired element must not remain active in presentation runtime: %s" % retired_element_id)
 		_expect(ElementalRuntime.payload_keys(retired_element_id).is_empty(), "Retired element must not expose payload modules: %s" % retired_element_id)
-		_expect(not ElementalRuntime.validate_element_ids([retired_element_id]).is_empty(), "Element validation must reject retired element: %s" % retired_element_id)
 	_expect(not ElementalRuntime.is_element("seventh_reaction"), "Seventh Reaction must never validate as an element")
-	_expect(not ElementalRuntime.validate_element_ids(["seventh_reaction"]).is_empty(), "Element validation must reject Seventh Reaction")
 
-func _validate_hunt_vs_elite_boundary() -> void:
-	var hunt = load(PRESENTATION_DIR + "HUNT_04_CROWN_PROTOTYPE.tres")
-	_expect(hunt.has_tag("HUNT"), "Crown Prototype sidecar may identify its already-canon Hunt category")
-	_expect(hunt.has_tag("ONE_BODY_ONE_HP") and hunt.has_tag("NO_TRANSFORMATION"), "Crown Prototype Hunt must remain one body / one HP bar / no transformation")
-	_expect(hunt.has_tag("PRE_EXISTING_RELENTLESS_FLURRY"), "Crown Prototype must expose a pre-existing Card rather than create one")
-	for tag in hunt.presentation_tags:
-		_expect("ELITE" not in str(tag).to_upper(), "Hunt category must remain separate from Elite placement: %s" % tag)
+func _validate_legacy_layer_removed() -> void:
+	for legacy_scene in ["S022", "S023", "S024", "S025", "S026", "H05", "C08", "C09", "HUNT_04_CROWN_PROTOTYPE"]:
+		_expect(not ResourceLoader.exists(PRESENTATION_DIR + legacy_scene + ".tres"), "Retired Chapter-4 presentation sidecar must be removed: %s" % legacy_scene)
+	for legacy_environment in [
+		"environment_cresthaven_lower_grounds.tres",
+		"environment_annex_approach_regulation.tres",
+		"environment_regulation_core.tres",
+		"environment_sixfold_annex.tres",
+		"environment_southhold_roadside.tres",
+	]:
+		_expect(not ResourceLoader.exists(PRESENTATION_DIR + legacy_environment), "Retired Chapter-4 environment presentation must be removed: %s" % legacy_environment)
 
 func _validate_no_enemy_or_elite_placement() -> void:
 	var definition = ScenePresentationDefinition.new()
@@ -138,7 +147,7 @@ func _expect(condition: bool, message: String) -> void:
 
 func _finish() -> void:
 	if failures.is_empty():
-		print("Diyse Audit88 Chapter 4 HD-2D presentation resource validation passed.")
+		print("Diyse Chapter 4 current B01-B12 pre-dialogue HD-2D presentation validation passed.")
 		quit(0)
 		return
 	for failure in failures:

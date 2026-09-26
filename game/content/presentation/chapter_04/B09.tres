@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="DiyseScenePresentationDefinition" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://game/presentation/scene_presentation_definition.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+scene_id = "B09"
+chapter_id = "chapter_04"
+environment_family = "CH04_CENTRAL_REGULATION"
+battle_background_family = "CH04_CENTRAL_REGULATION"
+cutscene_tier = "C3"
+vfx_tier = "V3"
+encounter_mode = "mixed"
+presentation_tags = Array[String](["HD2D", "PRE_DIALOGUE_STRUCTURE", "RANDOM_ALLOWED", "CENTRAL_REGULATION", "REGULATION_CRUCIBLE_FORM_I", "FOUR_CHAMBERS_PLUS_CORE", "TWO_CHAMBERS_ACTIVE", "CINDER_JUDGMENT_CRITICAL_PATH", "NO_FACE_EXPLANATION"])

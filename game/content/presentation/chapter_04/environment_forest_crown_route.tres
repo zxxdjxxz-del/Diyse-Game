@@ -4,7 +4,7 @@
 
 [resource]
 script = ExtResource("1")
-environment_id = "CH04_SOUTHHOLD_ROADSIDE"
-initial_state = "BASE"
-available_states = Array[String](["BASE", "ACTIVE", "POST_STORY"])
-persistent_flag_prefix = "environment.chapter_04.southhold_roadside"
+environment_id = "CH04_FOREST_CROWN_ROUTE"
+initial_state = "ACTIVE"
+available_states = Array[String](["BASE", "ACTIVE", "CROWN_ROAD_REACHED", "POST_STORY"])
+persistent_flag_prefix = "environment.chapter_04.forest_crown_route"
