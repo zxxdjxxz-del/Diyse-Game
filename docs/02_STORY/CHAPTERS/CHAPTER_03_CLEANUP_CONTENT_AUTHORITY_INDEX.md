@@ -29,7 +29,7 @@ Historical H02 and H04 remain retired unless explicitly reopened.
 ## C06 — Nimera Takes Over a Table
 **Status:** STRUCTURE + EXACT DIALOGUE COMPLETE  
 **Structural authority:** `CHAPTER_03_CHARACTER_LIFE_H01_NIMERA_TAKES_OVER_A_TABLE_WORKING.md`  
-**Exact dialogue authority:** `../../03_DIALOGUE/PRODUCTION/CHAPTER_03/H01_NIMERA_TAKES_OVER_A_TABLE_DRAFT_A.md` — **96 spoken lines**
+**Exact dialogue authority:** `../../03_DIALOGUE/PRODUCTION/CHAPTER_03/H01_NIMERA_TAKES_OVER_A_TABLE_DRAFT_A.md` — **75 spoken lines**
 
 Core locks:
 - Cresthaven records / map / investigation room;
@@ -52,7 +52,7 @@ Core locks:
 ## C07 — Ilyra and Nimera
 **Status:** STRUCTURE + EXACT DIALOGUE COMPLETE  
 **Structural authority:** `CHAPTER_03_CHARACTER_LIFE_H03_ILYRA_AND_NIMERA_WORKING.md`  
-**Exact dialogue authority:** `../../03_DIALOGUE/PRODUCTION/CHAPTER_03/H03_ILYRA_AND_NIMERA_DRAFT_A.md` — **80 spoken lines**
+**Exact dialogue authority:** `../../03_DIALOGUE/PRODUCTION/CHAPTER_03/H03_ILYRA_AND_NIMERA_DRAFT_A.md` — **67 spoken lines**
 
 Current direction:
 - C07 is simply a **fun Character-Life scene between Ilyra and Nimera being themselves together at Cresthaven**;
@@ -120,8 +120,8 @@ Corrections from that audit are now applied:
 ## Current cleanup production status
 - Beat-15 Cresthaven handoff — **COMPLETE STRUCTURALLY**
 - Archive-passage Hunt unlock — **LOCKED**
-- C06 / canonical C06 — **STRUCTURE + EXACT DIALOGUE COMPLETE — 96 lines**
-- C07 / canonical C07 — **STRUCTURE + EXACT DIALOGUE COMPLETE — 80 lines**
+- C06 / canonical C06 — **STRUCTURE + EXACT DIALOGUE COMPLETE — 75 lines**
+- C07 / canonical C07 — **STRUCTURE + EXACT DIALOGUE COMPLETE — 67 lines**
 - Regional Hunt #3 story/access layer — **COMPLETE**
 - Chapter-3 cleanup / continuity audit — **COMPLETE**
 - final `CHAPTER_03.md` consolidation — **COMPLETE**

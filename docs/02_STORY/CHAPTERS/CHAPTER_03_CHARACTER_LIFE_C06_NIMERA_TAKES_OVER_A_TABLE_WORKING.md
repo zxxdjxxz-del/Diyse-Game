@@ -46,4 +46,4 @@ The scene ends with Cyanis and Torren leaving while Nimera is still defending he
 ## End state
 The records room feels inhabited by the permanent party. Nimera has effectively claimed the table through use rather than formal assignment.
 
-**Current exact dialogue length:** **96 spoken lines.**
+**Current exact dialogue length:** **75 spoken lines.**

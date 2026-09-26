@@ -43,4 +43,4 @@ No mandatory story clue, Card event, Ancient revelation, seal information, Hunt 
 ## End state
 The supply room feels more lived-in, and the player understands Ilyra/Nimera chemistry a little better without a sentimental conclusion.
 
-**Current exact dialogue length:** **80 spoken lines.**
+**Current exact dialogue length:** **67 spoken lines.**
