@@ -48,7 +48,9 @@
     "dialogue_readiness": "GREEN",
     "static_story_context_only": true,
     "chapter_start_confirmed": true,
-    "runtime_note": "Exact player position, optional cleanup history, current HP/MP, fatigue, weather, and other live gameplay state must come from the runtime merge if relevant. Do not invent them from repository authority."
+    "runtime_note": "Exact player position, optional cleanup history, current HP/MP, fatigue, weather, and other live gameplay state must come from the runtime merge if relevant. Do not invent them from repository authority.",
+    "no_walking_dialogue": true,
+    "no_mid_battle_dialogue": true
   },
   "current_floor_state": {
     "chapter_03_cleanup_closed": true,

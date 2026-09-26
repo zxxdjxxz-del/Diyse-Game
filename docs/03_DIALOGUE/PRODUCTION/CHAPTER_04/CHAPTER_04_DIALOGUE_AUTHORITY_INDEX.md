@@ -1,7 +1,7 @@
 # DIYSE — Chapter 4 Dialogue Authority Index
 
 **Status:** CURRENT CHAPTER-4 PRE-DIALOGUE PRODUCTION AUTHORITY  
-**Date:** 2026-09-25
+**Date:** 2026-09-26
 
 ## Authority order
 
