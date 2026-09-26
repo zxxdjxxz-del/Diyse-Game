@@ -3,6 +3,7 @@
 **Chapter:** 1  
 **Status:** **CURRENT 12-BEAT ATOMIC DIALOGUE AUTHORITY — 2026-09-25 CONTINUITY SURGERY COMPLETE**  
 **Combined read-through:** `CHAPTER_01_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md` — current synchronized derived mirror.  
+**Current exact-dialogue reader:** `DIYSE_Chapters_0-3_Spoiler_Free_Exact_Dialogue_Reader_CURRENT_2026-09-25.docx` — regenerated from the current atomics after the 12-beat continuity pass.  
 **Current spoken-line counts:** **272 mandatory + 159 Character-Life = 431 if all three optional scenes are viewed.**
 
 ## Authority rule
@@ -166,7 +167,7 @@ Chapter 1 also retains the project-wide rule:
 - Character-Life atomics — **CURRENT**;
 - combined manuscript — **CURRENT SYNCHRONIZED DERIVED MIRROR**;
 - current Person-Brain compatibility — **PRESERVED THROUGH STRUCTURAL PASS**;
-- exact-dialogue reader — **must be regenerated from these atomics before it again becomes the newest reader authority**;
+- exact-dialogue reader — **CURRENT: `DIYSE_Chapters_0-3_Spoiler_Free_Exact_Dialogue_Reader_CURRENT_2026-09-25.docx`**; older unnumbered/numbered readers are historical snapshots;
 - legacy implementation dialogue resources — **DERIVED / require later synchronization**.
 
 ## Conflict order
