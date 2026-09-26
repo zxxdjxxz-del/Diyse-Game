@@ -1,6 +1,6 @@
 # Chapter 3 — Beat 13 — Return to Mirena / Cresthaven Identified
 
-**Status:** CURRENT WORKING BEAT PACKET  
+**Status:** CURRENT STORY SUPPORT  
 **Primary authority:** CHAPTER_03.md
 
 ## Purpose

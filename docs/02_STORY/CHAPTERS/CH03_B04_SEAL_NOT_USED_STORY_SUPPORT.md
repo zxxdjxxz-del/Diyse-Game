@@ -1,7 +1,7 @@
 # Chapter 3 — Beat 4 — The Seal That Wasn't Used
 
-**Status:** CURRENT WORKING BEAT PACKET — DEVELOPED  
-**Parent working structure:** `CHAPTER_03_BEAT_DEVELOPMENT_WORKING.md`  
+**Status:** CURRENT STORY SUPPORT — DEVELOPED  
+**Parent beat structure:** `CHAPTER_03_BEAT_STRUCTURE.md`  
 **Primary chapter authority:** `CHAPTER_03.md`
 
 ## Beat purpose

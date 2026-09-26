@@ -1,6 +1,6 @@
 # Chapter 3 — Beat 15 — Cresthaven Headquarters / Cleanup / Ivorybridge Decision
 
-**Status:** CURRENT WORKING BEAT PACKET  
+**Status:** CURRENT STORY SUPPORT  
 **Primary authority:** CHAPTER_03.md  
 **Cleanup authority:** CHAPTER_03_CLEANUP_OVERLAY.md
 
