@@ -1,0 +1,48 @@
+{
+  "schema": "diyse_scene_authority_spec_v1",
+  "scene_id": "CH01_BEAT06_HOLLOW_WATCH_EXCAVATION",
+  "chapter_id": "chapter_01",
+  "story_position": "Chapter 1 — Beat 6 — Hollow Watch Excavation",
+  "production_ready": true,
+  "participants": [
+    "cyanis",
+    "ilyra",
+    "maevra",
+    "torren"
+  ],
+  "scene_purpose": "Compress Hollow Watch below-ground play into a short Black Host excavation that breaks into a few Diysean rooms, preserve the civilian-use clue, and stage the fixed Shield Construct without boss framing.",
+  "story_sources": [
+    {
+      "path": "docs/02_STORY/CHAPTERS/CHAPTER_01.md",
+      "sections": [
+        "Beat 6 — Hollow Watch Excavation"
+      ],
+      "role": "current_chapter_01_story_authority"
+    }
+  ],
+  "scene_context_seed": {
+    "location_name": "Hollow Watch excavation / short Diysean corridor",
+    "area_phase": "compact_underground_excavation",
+    "dialogue_readiness": "GREEN",
+    "static_story_context_only": true,
+    "runtime_note": "No walking dialogue. Preserve the exact brief excavation reaction and civilian-relief exchange from CURRENT(6). Shield Construct receives no new pre-fight, mid-battle, or aftermath dialogue."
+  },
+  "current_floor_state": {
+    "black_host_presence": "none_after_entering_diysean_corridor",
+    "ordinary_enemy_pool": "construct_only",
+    "shield_construct": "fixed_authored_stronger_encounter_not_miniboss",
+    "card_state": "intact_directly_carried_by_cyanis_and_inert",
+    "torren_party_status": "temporary_combat_ally"
+  },
+  "allowed_information_transfers": [],
+  "exact_line_anchors": [],
+  "production_cost_ceiling": "short corridor plus few rooms; one fixed Shield Construct encounter",
+  "required_story_beats": [
+    "Recognizable fort construction gives way to older structure.",
+    "Preserve the civilian-use relief exchange without the Six-Channel Junction.",
+    "Show abandoned Black Host excavation evidence without resolving why the excavation ended.",
+    "Use Constructs only underground.",
+    "Stage the fixed Shield Construct as a stronger ordinary authored fight with no boss framing.",
+    "Continue to the landscape-depiction chamber."
+  ]
+}
