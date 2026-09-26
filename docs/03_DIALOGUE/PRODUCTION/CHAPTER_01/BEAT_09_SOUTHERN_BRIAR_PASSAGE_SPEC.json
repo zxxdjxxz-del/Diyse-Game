@@ -1,0 +1,46 @@
+{
+  "schema": "diyse_scene_authority_spec_v1",
+  "scene_id": "CH01_BEAT09_SOUTHERN_BRIAR_PASSAGE",
+  "chapter_id": "chapter_01",
+  "story_position": "Chapter 1 — Beat 9 — Southern Briar Passage",
+  "production_ready": true,
+  "participants": [
+    "cyanis",
+    "ilyra",
+    "maevra",
+    "torren"
+  ],
+  "scene_purpose": "Make Southern Briar a substantial route-reading area, establish Thornhide through one track/sign stop, and keep the first clear creature reveal for the boss beat.",
+  "story_sources": [
+    {
+      "path": "docs/02_STORY/CHAPTERS/CHAPTER_01.md",
+      "sections": [
+        "Beat 9 — Southern Briar Passage"
+      ],
+      "role": "current_chapter_01_story_authority"
+    }
+  ],
+  "scene_context_seed": {
+    "location_name": "Southern Briar Passage",
+    "area_phase": "major_wilderness_traversal",
+    "dialogue_readiness": "GREEN",
+    "static_story_context_only": true,
+    "runtime_note": "No walking dialogue. Preserve CURRENT(6) track exchange with Briarhide renamed Thornhide. Remove the old overgrown side-access scene completely."
+  },
+  "current_floor_state": {
+    "torren_party_status": "permanent",
+    "maevra_combat_status": "noncombat",
+    "thornhide_visibility": "not_clearly_seen_until_beat_10",
+    "side_access_hook": "removed"
+  },
+  "allowed_information_transfers": [],
+  "exact_line_anchors": [],
+  "production_cost_ceiling": "one authored track/sign stop inside substantial exploration",
+  "required_story_beats": [
+    "Demonstrate route difficulty through map design rather than spoken guidance.",
+    "Stop once at a very large recent Thornhide track/sign.",
+    "Do not show Thornhide clearly.",
+    "Do not include the retired side-access/Cistern hook.",
+    "Thin ordinary encounter pressure near Thornhide territory."
+  ]
+}
