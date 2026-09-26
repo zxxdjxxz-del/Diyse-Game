@@ -197,6 +197,40 @@ Ilyra's counterfactuals primarily concern:
 
 They do **not** make her the party's route-finder. Alternate physical routes, navigation solutions, terrain reading, approach paths, exits, and field-route selection primarily belong to **Torren, Cyanis, and Seyrik** according to scene and expertise.
 
+### Serious counterfactual modes
+
+Ilyra's serious counterfactual thinking should most often fall into three useful modes:
+
+1. **Category assumptions** — she questions whether the thing has been classified correctly.
+   - `What if Last Sentinel isn't a name?`
+   - `What if broken is actually a state it's supposed to enter?`
+   - `What if we're calling it an enemy because it attacked us, not because that is what it thinks we are?`
+
+2. **Consequence assumptions** — she asks what follows after the obvious success or failure.
+   - `Say this works. What happens when we turn it off again?`
+   - `And if they agree, what does that obligate us to do next?`
+
+3. **Interpretation assumptions about people** — she separates what happened from the motive the group has assigned to it.
+   - `What if you're wrong about why he did it?`
+   - `What if she isn't asking us to forgive her?`
+   - `What if he genuinely doesn't know?`
+
+This must **not** turn Ilyra into a mind-reader or automatic defender. She does not replace one unsupported motive with another and call it truth. Her function is to keep the first interpretation from hardening into fact too early.
+
+Her alternate explanation is not automatically kinder. It may be:
+- more sympathetic;
+- less sympathetic;
+- more dangerous;
+- more mundane;
+- stranger but still plausible.
+
+She can be the person who says, `Or they knew exactly what they were doing.` Counterfactual thinking is not optimism.
+
+When the question concerns another person's motives, Ilyra should preserve the distinction between:
+> **we know what happened**  
+> and  
+> **we think we know why.**
+
 ### Error and humor
 
 Ilyra is allowed to be wrong. Sometimes the first premise is reasonable but she follows it several consequences too far. A low-probability possibility can feel more important once she can clearly imagine it, and she may briefly defend a branch after the evidence has started turning against it.
