@@ -8,23 +8,23 @@
 
 | Order | Canonical slot | Atomic source | SHA-256 |
 |---:|---|---|---|
-| 1 | P01 | `P01_CONVOY_OPENING_AMBUSH_REHEARSAL_FIRST_DRAFT_A.md` | `6400086443d8ceda4b330bdfbc2159701c4df3b3a0643e4282b81d395562db94` |
-| 2 | P02 | `P02_WRECK_FIELD_REHEARSAL_FIRST_DRAFT_A.md` | `385de62d34ebc90d6ea48deb7b65faed3501413ca3a5c877b26c71a83e563ea8` |
-| 3 | P03 | `P03_EVACUATION_RELAY_DECISION_REHEARSAL_FIRST_DRAFT_A.md` | `5ea2f9aa605e768f5edc6050a7db6d413cf70ed0dc604503459cc02005126f51` |
-| 4 | P04 | `P04_FIELD_TRIAGE_ILYRA_FIRST_FLARE_REHEARSAL_FIRST_DRAFT_A.md` | `4cdf72d5880ff5ce670987a048cdcf73936cf44c27344c17601b8ee636edbb51` |
-| 5 | P05 | `P05_CONCEALED_RUIN_VANGUARD_REHEARSAL_FIRST_DRAFT_A.md` | `fe830115cdeabdf23ba28e536f7227f68ef66344009432d729649a3ebf098035` |
-| 6 | P06 | `P06_RIFTMAW_WAR_SORCERER_REHEARSAL_FIRST_DRAFT_A.md` | `a77e1ea5d6450e54c7e455eaa36821b524c23369aaa51ef0bbb5d316b041f977` |
-| 7 | P07 | `P07_AFTERMATH_SURVIVOR_RECOVERY_REHEARSAL_FIRST_DRAFT_B.md` | `c71457f84bec26015d04638fc92d7d727a001264f3d6ef0306e2559d6c724b01` |
-| 8 | C01 — Six Minutes | `C01_SIX_MINUTES_REHEARSAL_FIRST_DRAFT_A.md` | `7e9c1840ef85a80757ecc4742775a73a0ca88cf218889c6380c9fa6756e8e972` |
+| 1 | Beat 1 | `CH00_B01_CONVOY_OPENING_AMBUSH_DIALOGUE.md` | `268d61224ec44aa0be60f3c497e0891714789e7ecf8bf8ebe5872526b7c1e128` |
+| 2 | Beat 2 | `CH00_B02_WRECK_FIELD_DIALOGUE.md` | `28eda9e26ac07ac256db8835deea580c10a362fdf6d3dd4b5af224b2872db33f` |
+| 3 | Beat 3 | `CH00_B03_EVACUATION_RELAY_DECISION_DIALOGUE.md` | `112780bc576fef7e7de330615ba710d5815bb905ae8612948547739aa4534e6f` |
+| 4 | Beat 4 | `CH00_B04_FIELD_TRIAGE_ILYRA_FIRST_FLARE_DIALOGUE.md` | `70c62c84cd0bcf7b2c4beaef92b43b475fbcb4c2895172b69133c0da90d7ed64` |
+| 5 | Beat 5 | `CH00_B05_CONCEALED_RUIN_VANGUARD_DIALOGUE.md` | `9b268703e081968dabe9bf2c17a9fdd9adaaac26ff0ff685bf4fdcb616d7a658` |
+| 6 | Beat 6 | `CH00_B06_RIFTMAW_WAR_SORCERER_DIALOGUE.md` | `875751323e5b8e7a4c9e3ac78565e32f551153aedc333ffea9f9bff761dad2c1` |
+| 7 | Beat 7 | `CH00_B07_AFTERMATH_SURVIVOR_RECOVERY_DIALOGUE.md` | `5b6fe2d0f237bc76072b5684c774c7c1f8840804af33470c1d8a08b467d0af42` |
+| 8 | C01 — Six Minutes | `C01_SIX_MINUTES_DIALOGUE.md` | `550a269deb8e6a23b0545c9fcda79a4ae422ade27f619e870a0426483993379b` |
 
 ---
 
-## P01
+## Beat 1
 
-**Atomic source:** `P01_CONVOY_OPENING_AMBUSH_REHEARSAL_FIRST_DRAFT_A.md`  
-**Source SHA-256:** `6400086443d8ceda4b330bdfbc2159701c4df3b3a0643e4282b81d395562db94`
+**Atomic source:** `CH00_B01_CONVOY_OPENING_AMBUSH_DIALOGUE.md`  
+**Source SHA-256:** `268d61224ec44aa0be60f3c497e0891714789e7ecf8bf8ebe5872526b7c1e128`
 
-# Chapter 0 — P01
+# Chapter 0 — B01
 # Convoy / Opening Ambush
 ## REHEARSAL-FIRST PRODUCTION DRAFT — PERSON-BRAIN PERFORMANCE PASS
 
@@ -144,7 +144,7 @@ Battle ends and player control returns again. The road damage, smoke, and worsen
 
 **Combat 3:** 2 Convoy Rift Hounds.
 
-Combat 3 is the final P01 fight. After victory, the player reaches the Wreck Field and encounters rescue/investigation gameplay before any further battle.
+Combat 3 is the final B01 fight. After victory, the player reaches the Wreck Field and encounters rescue/investigation gameplay before any further battle.
 
 No Beast Handler appears in Chapter 0.  
 No concealed Ruin Vanguard appears here.  
@@ -161,7 +161,7 @@ Cyanis remains separated on the east side with survivors still exposed.
 
 The Card remains cased and inert.
 
-Player control moves into **P02 — Wreck Field**.
+Player control moves into **B02 — Wreck Field**.
 
 ---
 
@@ -175,12 +175,12 @@ Player control moves into **P02 — Wreck Field**.
 
 ---
 
-## P02
+## Beat 2
 
-**Atomic source:** `P02_WRECK_FIELD_REHEARSAL_FIRST_DRAFT_A.md`  
-**Source SHA-256:** `385de62d34ebc90d6ea48deb7b65faed3501413ca3a5c877b26c71a83e563ea8`
+**Atomic source:** `CH00_B02_WRECK_FIELD_DIALOGUE.md`  
+**Source SHA-256:** `28eda9e26ac07ac256db8835deea580c10a362fdf6d3dd4b5af224b2872db33f`
 
-# Chapter 0 — P02
+# Chapter 0 — B02
 # Wreck Field
 ## REHEARSAL-FIRST PRODUCTION DRAFT — PERSON-BRAIN PERFORMANCE PASS
 
@@ -314,7 +314,7 @@ The Hound appears.
 
 **AUTHORED COMBAT — CYANIS SOLO VS. CONVOY RIFT HOUND.**
 
-This is not an ordinary random encounter; it is the explicit P02 story encounter.
+This is not an ordinary random encounter; it is the explicit B02 story encounter.
 
 No added transformation or hidden meaning.
 
@@ -380,7 +380,7 @@ Story state remains deliberately unresolved: the north withdrawal may be genuine
 
 The Card remains cased and inert.
 
-Next: **P03 — Evacuation Relay Decision.**
+Next: **B03 — Evacuation Relay Decision.**
 
 ---
 
@@ -394,12 +394,12 @@ Next: **P03 — Evacuation Relay Decision.**
 
 ---
 
-## P03
+## Beat 3
 
-**Atomic source:** `P03_EVACUATION_RELAY_DECISION_REHEARSAL_FIRST_DRAFT_A.md`  
-**Source SHA-256:** `5ea2f9aa605e768f5edc6050a7db6d413cf70ed0dc604503459cc02005126f51`
+**Atomic source:** `CH00_B03_EVACUATION_RELAY_DECISION_DIALOGUE.md`  
+**Source SHA-256:** `112780bc576fef7e7de330615ba710d5815bb905ae8612948547739aa4534e6f`
 
-# Chapter 0 — P03
+# Chapter 0 — B03
 # Evacuation Relay Decision
 ## REHEARSAL-FIRST PRODUCTION DRAFT — PERSON-BRAIN PERFORMANCE PASS
 
@@ -503,13 +503,13 @@ The ranking officer retains command. Cyanis has changed the plan by giving a bet
 
 No Card response occurs.
 
-Next: **P04 — Field Triage Camp / Ilyra / First Incomplete Response.**
+Next: **B04 — Field Triage Camp / Ilyra / First Incomplete Response.**
 
 ---
 
 ## Person-Brain performance note
 
-- the prior spoken/narration correction remains intact: Cyanis does not re-explain the full north-cut evidence already established in P02; `You said that. What changes now?` still turns the argument toward the new casualty state.
+- the prior spoken/narration correction remains intact: Cyanis does not re-explain the full north-cut evidence already established in B02; `You said that. What changes now?` still turns the argument toward the new casualty state.
 - Cyanis now delivers the field report as one competent linked unit rather than waiting for a checklist interrogation.
 - the officer's resistance is conversational and character-aware: he challenges both the tactical cost and Cyanis's habit of objecting to risk while volunteering himself for it.
 - Cyanis can say `You're right` plainly when the criticism is useful.
@@ -518,12 +518,12 @@ Next: **P04 — Field Triage Camp / Ilyra / First Incomplete Response.**
 
 ---
 
-## P04
+## Beat 4
 
-**Atomic source:** `P04_FIELD_TRIAGE_ILYRA_FIRST_FLARE_REHEARSAL_FIRST_DRAFT_A.md`  
-**Source SHA-256:** `4cdf72d5880ff5ce670987a048cdcf73936cf44c27344c17601b8ee636edbb51`
+**Atomic source:** `CH00_B04_FIELD_TRIAGE_ILYRA_FIRST_FLARE_DIALOGUE.md`  
+**Source SHA-256:** `70c62c84cd0bcf7b2c4beaef92b43b475fbcb4c2895172b69133c0da90d7ed64`
 
-# Chapter 0 — P04
+# Chapter 0 — B04
 # Field Triage Camp / Ilyra / First Incomplete Response
 ## REHEARSAL-FIRST PRODUCTION DRAFT — PERSON-BRAIN PERFORMANCE PASS
 
@@ -791,9 +791,9 @@ Scene ends before it turns into recruitment dialogue.
 
 ---
 
-## P04 end state
+## B04 end state
 
-The first incomplete green-and-gold response has occurred and fully ended. Cyanis did not intentionally activate it. Ilyra has observed a real physical correlation between the phenomenon and Cyanis without identifying the cause. The Card is inert before P05. Ilyra has independently joined the defense because the treatment space requires the perimeter to hold.
+The first incomplete green-and-gold response has occurred and fully ended. Cyanis did not intentionally activate it. Ilyra has observed a real physical correlation between the phenomenon and Cyanis without identifying the cause. The Card is inert before B05. Ilyra has independently joined the defense because the treatment space requires the perimeter to hold.
 
 No Prime, Might, Last Sentinel, bearer, ancient-weapon, or Entity explanation is revealed.
 
@@ -808,18 +808,18 @@ No Prime, Might, Last Sentinel, bearer, ancient-weapon, or Entity explanation is
 
 ---
 
-## P05
+## Beat 5
 
-**Atomic source:** `P05_CONCEALED_RUIN_VANGUARD_REHEARSAL_FIRST_DRAFT_A.md`  
-**Source SHA-256:** `fe830115cdeabdf23ba28e536f7227f68ef66344009432d729649a3ebf098035`
+**Atomic source:** `CH00_B05_CONCEALED_RUIN_VANGUARD_DIALOGUE.md`  
+**Source SHA-256:** `9b268703e081968dabe9bf2c17a9fdd9adaaac26ff0ff685bf4fdcb616d7a658`
 
-# Chapter 0 — P05
+# Chapter 0 — B05
 # Concealed Ruin Vanguard
 ## REHEARSAL-FIRST PRODUCTION DRAFT — PERSON-BRAIN PERFORMANCE + ILYRA ROLE-BALANCE PASS
 
 ---
 
-### [PERIMETER — AFTER P04]
+### [PERIMETER — AFTER B04]
 
 The first green-and-gold flare is completely over.
 
@@ -931,7 +931,7 @@ Nobody infers who he is, why he withdrew, or whether the north cut was bait.
 
 ### [NONCOMBAT RESET — TRIAGE LINE]
 
-The scene returns to the defended treatment area before P06.
+The scene returns to the defended treatment area before B06.
 
 There is a real noncombat interval here.
 
@@ -1003,27 +1003,27 @@ Player control can return briefly inside the defended area before the final atta
 
 ---
 
-## P05 end state
+## B05 end state
 
-The concealed Ruin Vanguard has withdrawn alive. Cyanis and Ilyra do not know his identity and do not chase. The encounter proves nothing about the northern withdrawal. The first flare remains fully over and the Card remains inert. The player receives a genuine breathing/reset interval before P06.
+The concealed Ruin Vanguard has withdrawn alive. Cyanis and Ilyra do not know his identity and do not chase. The encounter proves nothing about the northern withdrawal. The first flare remains fully over and the Card remains inert. The player receives a genuine breathing/reset interval before B06.
 
 ## Person-Brain / Ilyra role-balance note
 
 - the threat approach stays appropriately terse, but Cyanis gives the actual uncertainty behind `just one` rather than using the line as empty ominous setup.
 - Ilyra's refusal to chase is tactical judgment, not healer-coded caution.
-- the reset scene is deliberately not built around Ilyra handing Cyanis water and administering another check. Cyanis takes water himself, Ilyra discusses uncertainty and the Vanguard because she is curious and skeptical, and Cyanis volunteers the symptom update from continuity already established in P04.
+- the reset scene is deliberately not built around Ilyra handing Cyanis water and administering another check. Cyanis takes water himself, Ilyra discusses uncertainty and the Vanguard because she is curious and skeptical, and Cyanis volunteers the symptom update from continuity already established in B04.
 - Ilyra explicitly values not inventing answers when evidence is incomplete, giving her a nonmedical reasoning trait that can recur without making her an expert outside her domains.
 - their humor can start becoming more comfortable without implying instant intimacy.
 - no identity, motive, northern-cut answer, or Card information is added.
 
 ---
 
-## P06
+## Beat 6
 
-**Atomic source:** `P06_RIFTMAW_WAR_SORCERER_REHEARSAL_FIRST_DRAFT_A.md`  
-**Source SHA-256:** `a77e1ea5d6450e54c7e455eaa36821b524c23369aaa51ef0bbb5d316b041f977`
+**Atomic source:** `CH00_B06_RIFTMAW_WAR_SORCERER_DIALOGUE.md`  
+**Source SHA-256:** `875751323e5b8e7a4c9e3ac78565e32f551153aedc333ffea9f9bff761dad2c1`
 
-# Chapter 0 — P06
+# Chapter 0 — B06
 # Riftmaw + War-Sorcerer / Final Broken Convoy Confrontation
 ## REHEARSAL-FIRST PRODUCTION DRAFT — PERSON-BRAIN PERFORMANCE PASS
 
@@ -1031,7 +1031,7 @@ The concealed Ruin Vanguard has withdrawn alive. Cyanis and Ilyra do not know hi
 
 ### [FINAL PUSH — STORY TRIGGER]
 
-The noncombat reset from P05 has had time to breathe.
+The noncombat reset from B05 has had time to breathe.
 
 The recovered Card is still inside its damaged recovery casing and remains inert when the final push begins.
 
@@ -1279,9 +1279,9 @@ Scene ends.
 
 ---
 
-## P06 end state
+## B06 end state
 
-Riftmaw and the Convoy War-Sorcerer are defeated in the combined final encounter. The second incomplete Card flare has occurred and fully ended. The recovery casing breaks during the fight; the Card survives intact and Cyanis picks it up afterward. From here through P07, camp cleanup, departure, and Chapter 1, the group carries the Card itself. Nobody has identified the phenomenon as Prime, Might, Last Sentinel, bearer confirmation, an ancient weapon, or anything Entity-related.
+Riftmaw and the Convoy War-Sorcerer are defeated in the combined final encounter. The second incomplete Card flare has occurred and fully ended. The recovery casing breaks during the fight; the Card survives intact and Cyanis picks it up afterward. From here through B07, camp cleanup, departure, and Chapter 1, the group carries the Card itself. Nobody has identified the phenomenon as Prime, Might, Last Sentinel, bearer confirmation, an ancient weapon, or anything Entity-related.
 
 ## Person-Brain performance note
 
@@ -1293,12 +1293,12 @@ Riftmaw and the Convoy War-Sorcerer are defeated in the combined final encounter
 
 ---
 
-## P07
+## Beat 7
 
-**Atomic source:** `P07_AFTERMATH_SURVIVOR_RECOVERY_REHEARSAL_FIRST_DRAFT_B.md`  
-**Source SHA-256:** `c71457f84bec26015d04638fc92d7d727a001264f3d6ef0306e2559d6c724b01`
+**Atomic source:** `CH00_B07_AFTERMATH_SURVIVOR_RECOVERY_DIALOGUE.md`  
+**Source SHA-256:** `5b6fe2d0f237bc76072b5684c774c7c1f8840804af33470c1d8a08b467d0af42`
 
-# Chapter 0 — P07
+# Chapter 0 — B07
 # Aftermath / Survivor Recovery / Overnight Camp
 ## REHEARSAL-FIRST PRODUCTION DRAFT — PERSON-BRAIN PERFORMANCE PASS
 
@@ -1310,7 +1310,7 @@ The final boss encounter is over.
 
 The Broken Convoy does not celebrate. The immediate organized Black Host push has failed, but the field still contains wounded people, missing people, damaged wagons, and unfinished work.
 
-The recovery casing was destroyed during P06. Cyanis now carries the intact Card itself. It is dark and inert.
+The recovery casing was destroyed during B06. Cyanis now carries the intact Card itself. It is dark and inert.
 
 The active triage area may contain the people actually present as simple field models. Portraits and the dialogue box carry the conversation.
 
@@ -1532,7 +1532,7 @@ The player may remain in cleanup or use the later explicit **Continue to Bracken
 
 ---
 
-## P07 end state
+## B07 end state
 
 - the immediate Black Host convoy-interception operation is over;
 - recovery work, not celebration, closes the crisis;
@@ -1557,8 +1557,8 @@ The player may remain in cleanup or use the later explicit **Continue to Bracken
 
 ## C01 — Six Minutes
 
-**Atomic source:** `C01_SIX_MINUTES_REHEARSAL_FIRST_DRAFT_A.md`  
-**Source SHA-256:** `7e9c1840ef85a80757ecc4742775a73a0ca88cf218889c6380c9fa6756e8e972`
+**Atomic source:** `C01_SIX_MINUTES_DIALOGUE.md`  
+**Source SHA-256:** `550a269deb8e6a23b0545c9fcda79a4ae422ade27f619e870a0426483993379b`
 
 # Chapter 0 — Character-Life C01
 # Six Minutes
@@ -1566,7 +1566,7 @@ The player may remain in cleanup or use the later explicit **Continue to Bracken
 
 ### [OVERNIGHT CAMP — OPTIONAL CHARACTER-LIFE TRIGGER]
 
-Late evening after P07.
+Late evening after B07.
 
 Most of the surviving convoy has already moved toward Brackenwall. Cyanis and Ilyra remain at the quieter field camp with the intact, inert Card and minimal practical support.
 
