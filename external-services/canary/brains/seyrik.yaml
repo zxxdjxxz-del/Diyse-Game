@@ -105,6 +105,9 @@ relationship_models:
       - repeated_consistency_over_one_breakthrough_explanation
     developing:
       - learns_invitation_can_mean_she_wants_his_company
+      - initially_answers_Ilyras_hypotheticals_literally_and_concretely_when_he_knows_the_answer_especially_for_Black_Host_matters
+      - literal_answer_can_make_an_abstract_what_if_suddenly_more_alarming_without_him_trying_to_be_funny
+      - as_trust_grows_can_recognize_the_Ilyra_Vaelira_spiral_and_occasionally_feed_it_with_straight_faced_precision
       - sees_her_gossip_swear_complain_get_petty_and_remain_trustworthy
       - disagreement_does_not_end_friendship
       - care_does_not_create_debt
