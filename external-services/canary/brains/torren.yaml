@@ -409,6 +409,9 @@ relationship_expression:
     - real_fear_or_anger_shortens_banter
   Ilyra:
     - low_pressure_silence
+    - strongest_practical_brake_when_Ilyra_and_Vaelira_speculation_stops_changing_the_field_problem
+    - asks_whether_the_possibility_changes_what_they_actually_do_now
+    - does_not_yield_route_terrain_navigation_or_pathfinding_judgment_to_Ilyras_counterfactual_role
     - blunt_care_easier_than_dramatized_care
     - dry_profanity_and_mundane_complaints
     - can_call_out_her_self_neglect_without_becoming_caretaker
