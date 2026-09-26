@@ -617,12 +617,12 @@ Ilyra can recognize Maevra's attempts to work through discomfort because she has
 Neither woman should become the other's caretaker or therapist. Their familiarity can be adult, irreverent, practical, profane, and ordinary.
 
 ## Relationship shorthand
-- **Cyanis** — mutual practical care, mirrored self-neglect, increasingly comfortable ordinary-life quiet; neither becomes the other's therapist or solution.
-- **Torren** — low-pressure professional respect; care and field pragmatism can coexist with long silences.
-- **Nimera** — care without interrogation; warmth, curiosity, unusually direct dry/profane humor.
-- **Vaelira** — professional precision without intrusion; calm disagreement when technical possibility and human consequence pull differently.
-- **Seyrik** — careful language around guilt, injury, care, agency, consent, and accountability; relationship must eventually include ordinary things too.
-- **Maevra** — established personal familiarity under a real senior-command relationship; Ilyra knows her well enough for shorthand, teasing, and accurate baseline comparison while still recognizing Maevra's authority.
+- **Cyanis** — mutual practical care, mirrored self-neglect, increasingly comfortable ordinary-life quiet; Ilyra can stress-test an assumption before a decision without treating leadership as hers to seize, and once the decision is made she generally commits rather than continuing to reopen it. Neither becomes the other's therapist or solution.
+- **Torren** — low-pressure professional respect; Ilyra may question motives, consequences, or assumptions around a situation while trusting Torren's route, terrain, and field judgment where it belongs. Care and field pragmatism can coexist with long silences.
+- **Nimera** — care without interrogation; warmth, curiosity, unusually direct dry/profane humor. Ilyra opens possibilities; Nimera asks what evidence actually earns confidence in them.
+- **Vaelira** — professional precision without intrusion; Ilyra's counterfactual branches and Vaelira's mechanism-first theories can produce either real insight or occasional mutual speculative spirals.
+- **Seyrik** — careful language around guilt, injury, care, agency, consent, and accountability; early on his literal answers can unexpectedly sharpen Ilyra's hypotheticals, while later trust allows dry straight-faced participation. Relationship must eventually include ordinary things too.
+- **Maevra** — established personal familiarity under a real senior-command relationship; Ilyra knows her well enough to challenge an assumption or anticipate an objection without pretending familiarity erases command authority.
 - **Talia** — care without prying; respects boundaries as boundaries.
 
 Detailed permanent-six pair language lives in `../RELATIONSHIPS/PERMANENT_SIX_RELATIONSHIP_MAP.md`.
@@ -641,6 +641,12 @@ She can:
 
 Their intimacy should grow through **permission and mutual trust**, not through her monitoring him.
 
+Counterfactual expression with Cyanis:
+- she may test one assumption before he commits;
+- she is not trying to win command or force a different choice;
+- once he makes the call, she usually stops reopening the branch unless new information appears;
+- with familiarity, Cyanis may recognize from her expression that another possibility is coming before she says it.
+
 #### Torren
 Torren brings out low-pressure practical companionship.
 
@@ -652,6 +658,11 @@ Ilyra may:
 - enjoy his stories and weed-smell complaints without turning him into a patient;
 - let him help her practically without supervising every detail.
 
+Counterfactual expression with Torren:
+- Ilyra may ask what changes if an enemy's intention, a social assumption, or an expected consequence is wrong;
+- she does not compete with him over terrain, pathfinding, route choice, or physical approach;
+- Torren is one of the people most comfortable answering, `Possible. Doesn't matter right now.`
+
 #### Nimera
 Nimera brings out Ilyra's sharper humor and tolerance for verbal chaos.
 
@@ -662,6 +673,13 @@ Ilyra can:
 - ask questions without pretending curiosity is automatically compassionate;
 - enjoy Nimera's intensity without parenting her.
 
+Counterfactual expression with Nimera:
+- Ilyra is comfortable opening a possibility without claiming it;
+- Nimera naturally asks what evidence supports the first premise;
+- Ilyra can push back when Nimera treats an incomplete record as a complete picture;
+- Nimera can kill an unsupported branch with one inconvenient fact;
+- neither is the automatic winner.
+
 #### Vaelira
 Vaelira brings out professional precision plus ordinary female friendship without collapsing either woman into role.
 
@@ -671,6 +689,15 @@ They may:
 - appreciate one another's composure while recognizing it can hide strain;
 - give each other space without interpreting distance as rejection;
 - become blunt in private because neither requires emotional ceremony.
+
+Counterfactual expression with Vaelira:
+- Ilyra opens a plausible branch;
+- Vaelira asks what mechanism could make it real;
+- Ilyra follows the consequence;
+- Vaelira may extend the mechanism;
+- sometimes this finds the actual problem;
+- occasionally they push a reasonable premise too far and unsettle themselves;
+- either woman can stop the spiral, and Vaelira should reject physically impossible premises rather than validating everything.
 
 #### Seyrik
 
@@ -690,6 +717,12 @@ Their bond should hold:
 - curiosity;
 - choice;
 at the same time.
+
+Counterfactual expression with Seyrik changes over time:
+- early, Ilyra may ask a partly speculative question and receive a completely literal answer from Black Host experience;
+- his answer can make the hypothetical more alarming because he is supplying concrete knowledge, not because he is trying to frighten her;
+- as trust develops, he learns when she is exploring a branch rather than requesting intelligence;
+- later he may occasionally extend one with perfectly straight-faced precision because he understands the humor, without becoming a prankster.
 
 ##### Early — end of Chapter 6 / first party period
 
