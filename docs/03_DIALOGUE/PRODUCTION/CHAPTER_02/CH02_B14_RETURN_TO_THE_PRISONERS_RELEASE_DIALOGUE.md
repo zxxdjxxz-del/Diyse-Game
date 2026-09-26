@@ -1,4 +1,4 @@
-# Chapter 2 — Beat 15 — Return to the Prisoners / Release
+# Chapter 2 — Beat 14 — Return to the Prisoners / Release
 
 **Status:** CURRENT TRUE-VOICE / DIALOGUE-ECONOMY ATOMIC AUTHORITY — 2026-09-19
 **Story authority:** `../../../02_STORY/CHAPTERS/CHAPTER_02.md`

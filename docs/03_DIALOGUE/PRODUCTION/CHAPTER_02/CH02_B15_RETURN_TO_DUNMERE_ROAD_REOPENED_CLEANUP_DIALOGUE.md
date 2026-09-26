@@ -1,4 +1,4 @@
-# Chapter 2 — Beat 16 — Return to Dunmere / Road Reopened / Cleanup
+# Chapter 2 — Beat 15 — Return to Dunmere / Road Reopened / Cleanup
 
 **Status:** CURRENT TRUE-VOICE / DIALOGUE-ECONOMY ATOMIC AUTHORITY — 2026-09-19
 **Story authority:** `../../../02_STORY/CHAPTERS/CHAPTER_02.md`

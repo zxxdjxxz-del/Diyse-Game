@@ -1,7 +1,7 @@
 # Chapter 2 Character-Life — C05 — Still Burns
 
 **Status:** CURRENT EXACT DIALOGUE AUTHORITY — TIGHTENED TRUE-VOICE / NATURALISM PASS
-**Availability:** Chapter 2 cleanup, after the Beat-16 Dunmere elder resolution and before the explicit Chapter-3 start interaction
+**Availability:** Chapter 2 cleanup, after the Beat-15 Dunmere elder resolution and before the explicit Chapter-3 start interaction
 **Participants:** Torren, Ilyra, Maevra, Cyanis
 
 ## Scene seed

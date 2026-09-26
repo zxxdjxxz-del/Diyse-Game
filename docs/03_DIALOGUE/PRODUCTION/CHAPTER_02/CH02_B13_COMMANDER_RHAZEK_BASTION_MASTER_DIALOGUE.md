@@ -1,11 +1,11 @@
-# Chapter 2 — Beat 14 — Commander Rhazek / Bastion Master
+# Chapter 2 — Beat 13 — Commander Rhazek / Bastion Master
 
 **Status:** CURRENT TRUE-VOICE / DIALOGUE-ECONOMY ATOMIC AUTHORITY — 2026-09-19
 **Story authority:** `../../../02_STORY/CHAPTERS/CHAPTER_02.md`
 
 ### [BOSS HANDOFF]
 
-Beat 14 begins immediately from Beat 13.
+Beat 13 begins immediately from Beat 12.
 
 The unnamed masked officer has already left on Rhazek's operational orders.
 
