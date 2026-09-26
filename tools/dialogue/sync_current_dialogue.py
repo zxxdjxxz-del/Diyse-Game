@@ -76,7 +76,7 @@ CHAPTERS: tuple[ChapterSpec, ...] = (
     ChapterSpec(
         "01",
         "Chapter 1",
-        beats(1, 12)
+        tuple(SourceSpec(f"Beat {n}", f"CH01_B{n:02d}_*_DIALOGUE.md") for n in range(1, 13))
         + (
             SourceSpec("C02 — Torren's Version of Dinner", "C02_TORRENS_VERSION_OF_DINNER_DIALOGUE.md"),
             SourceSpec("C03 — What the Map Says", "C03_WHAT_THE_MAP_SAYS_DIALOGUE.md"),

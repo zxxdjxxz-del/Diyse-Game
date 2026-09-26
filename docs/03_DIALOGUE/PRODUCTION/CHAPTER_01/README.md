@@ -11,8 +11,8 @@ Current Chapters 0–3 exact-dialogue reader:
 `DIYSE_Chapters_0-3_Spoiler_Free_Exact_Dialogue_Reader_CURRENT_2026-09-25.docx`
 
 Current mainline material:
-- Beat 01 through Beat 12 production drafts;
-- matching Beat 01 through Beat 12 scene specs.
+- canonical `CH01_B01` through `CH01_B12` dialogue atomics;
+- matching canonical `CH01_B01` through `CH01_B12` scene specs.
 
 Current Character-Life material:
 - **C02 — Torren's Version of Dinner** — `C02_TORRENS_VERSION_OF_DINNER_DIALOGUE.md`
