@@ -26,4 +26,12 @@ Random encounters support the reductive production target: ordinary enemy pressu
 
 ## Chapter 1 correction
 
-For the current Chapter 1 rehearsal-first rebuild, Hollow Watch, its excavation, and its inner ruin use random encounters for ordinary Black Host troops and Diysean defenses. The Hollow Watch Castellan remains an authored boss encounter. Any earlier Beat 1–8 wording that implies mandatory ordinary combat, fixed Sentry activation, or a required room-clear fight must be rewritten as random-encounter gameplay or removed.
+Current Chapter 1 placement is:
+
+- Hollow Watch **approach / surface** uses random encounters for ordinary Black Host troops;
+- after the party enters the Diysean excavation corridor, ordinary random encounters are **Construct-only**;
+- the **Shield Construct** is a fixed authored stronger encounter, outside the random pool, but it is **not a miniboss** and receives no boss-style framing;
+- **Watch Castellan is retired** from the current Chapter 1 structure and must not be restored;
+- the removed Six-Channel / surviving-channel / protected-inner structure is not current.
+
+Any earlier wording that implies mandatory ordinary combat, fixed ordinary-Sentry activation, a required room-clear fight, underground Black Host randoms, or a Castellan encounter must be rewritten to the current structure or removed.
