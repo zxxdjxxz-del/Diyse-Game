@@ -78,6 +78,12 @@ Canonical routing:
 
 When a runtime profile conflicts with an owning current domain, the owning domain wins and the runtime profile must be regenerated/fixed.
 
+## Automatic context construction
+
+The context stack below is now assembled by a shared deterministic builder before scene generation. Authors select current authority and explicitly authorize continuity; they do not manually populate each person's runtime context. Unknown or contradictory state remains open. The builder adds no character canon and performs no persistence.
+
+Implementation, typed authority annotations, chronology, approved continuity effects, migration, and limits: [Automatic Person runtime context](AUTOMATIC_PERSON_CONTEXT.md).
+
 ## Person Agent context stack
 
 Each character turn should be grounded in:

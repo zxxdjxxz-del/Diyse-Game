@@ -15,6 +15,10 @@ import yaml
 from fastapi import FastAPI, Header, HTTPException
 from pydantic import BaseModel, Field
 
+from runtime_context import (ContextError, authorize_memories, build_person_context,
+                             person_request_view, select_salient_memories, validate_effect, clock,
+                             memory_person_view)
+
 RAW_CHARACTER_ID = os.getenv("CHARACTER_ID", "cyanis")
 SERVICE_VERSION = os.getenv("SERVICE_VERSION", "2.20.0")
 BRAIN_PROFILE_VERSION = os.getenv("BRAIN_PROFILE_VERSION", "v2.20-unified-scene")
@@ -154,7 +158,7 @@ class Store:
                 if not isinstance(content, dict):
                     content = {"content": content}
                 record = dict(content)
-                record.setdefault("memory_id", row["memory_id"])
+                record["memory_id"] = row["memory_id"]
                 record.setdefault("memory_type", row["memory_type"])
                 record.setdefault("scope_id", row["scope_id"])
                 record.setdefault("created_at", row["created_at"])
@@ -417,64 +421,17 @@ def safe_memory_index(namespace: str = "story", limit: int = 64) -> list[dict[st
 def authorized_memories_for_turn(
     namespace: str,
     person_runtime_context: dict[str, Any],
+    request: dict[str, Any] | None = None,
 ) -> tuple[list[dict[str, Any]], dict[str, Any]]:
-    """Apply authorization before salience. Relevance must never broaden access."""
-    candidate_limit = 64 if namespace == "story" else 24
-    all_memories = STORE.memories(namespace, limit=candidate_limit)
-
-    if namespace != "story":
-        return all_memories, {
-            "mode": "conversation_namespace",
-            "authorized_count": len(all_memories),
-            "candidate_count": len(all_memories),
-        }
-
-    policy_value = person_runtime_context.get("memory_authorization", {})
-    policy = policy_value if isinstance(policy_value, dict) else {}
-    mode = str(policy.get("mode", "none")).strip().lower()
-
-    if mode == "none":
-        authorized: list[dict[str, Any]] = []
-    elif mode == "explicit_ids":
-        allowed_ids = {
-            str(value)
-            for value in policy.get("authorized_memory_ids", [])
-            if str(value).strip()
-        }
-        authorized = [
-            memory
-            for memory in all_memories
-            if str(memory.get("memory_id", "")) in allowed_ids
-        ]
-    elif mode == "scene_ids":
-        allowed_scene_ids = {
-            str(value)
-            for value in policy.get("authorized_scene_ids", [])
-            if str(value).strip()
-        }
-        authorized = [
-            memory
-            for memory in all_memories
-            if str(memory.get("source_scene_id", memory.get("scope_id", "")))
-            in allowed_scene_ids
-        ]
-    elif mode == "all_committed_story":
-        # Compatibility mode for known-forward-only authoring. Historical rewrite
-        # requests should use explicit_ids or scene_ids instead.
-        authorized = all_memories
-    else:
-        authorized = []
-
-    return authorized, {
-        "mode": mode,
-        "authorized_count": len(authorized),
-        "candidate_count": len(all_memories),
-        "authorized_memory_ids": [
-            str(memory.get("memory_id", ""))
-            for memory in authorized
-            if str(memory.get("memory_id", ""))
-        ],
-    }
+    """Recheck current authority at consumption, never trust a cached context's IDs."""
+    if request is None:
+        return [], {"mode": "none", "authorized_count": 0, "candidate_count": 0}
+    records = STORE.memories(namespace, limit=-1) if namespace == "story" else []
+    authorized, audit = authorize_memories(records, request, CHARACTER_ID)
+    context = build_person_context(request, CHARACTER_ID, records)
+    selected = [memory_person_view(row, context) for row in select_salient_memories(authorized)]
+    audit["selected_memory_ids"] = [row["memory_id"] for row in selected]
+    return selected, audit
 
 
 TURN_PROMPT = f"""
@@ -567,6 +524,11 @@ class TurnRequest(BaseModel):
     current_floor_state: dict[str, Any] = Field(default_factory=dict)
     allowed_information_transfers: list[Any] = Field(default_factory=list)
     person_runtime_context: dict[str, Any] = Field(default_factory=dict)
+    context_construction: dict[str, Any] = Field(default_factory=lambda: {"schema": "diyse_person_context_construction_v1"})
+    participants: list[str] = Field(default_factory=lambda: [CHARACTER_ID])
+    participant_profiles: dict[str, dict[str, Any]] = Field(default_factory=dict)
+    authority_packet: dict[str, Any] = Field(default_factory=dict)
+    expected_story_revision: str | None = None
 
 
 class CommitRequest(BaseModel):
@@ -574,6 +536,8 @@ class CommitRequest(BaseModel):
     scene_id: str
     canon_snapshot_id: str
     canon_check_status: str
+    author_approved: bool = False
+    source_story_clock: dict[str, int] = Field(default_factory=dict)
     filtered_event_ledger: dict[str, Any]
     expected_previous_revision: str
 
@@ -622,37 +586,65 @@ def context_snapshot(authorization: str | None = Header(default=None)):
     return {
         "character_id": CHARACTER_ID,
         "story_revision": STORE.revision(),
-        "current_state": STORE.state(),
-        "story_memory_index": safe_memory_index("story"),
+        "story_memory_index": safe_memory_index("story", limit=-1),
         "brain_runtime_sections": sorted(compact_brain().keys()),
         "canon_snapshot_id": CANON_SNAPSHOT_ID,
     }
 
 
+def construct_runtime_context(req: TurnRequest) -> tuple[dict[str, Any], list[dict[str, Any]], dict[str, Any]]:
+    if req.continuity_namespace not in {"story", "sandbox"}:
+        raise HTTPException(400, "Invalid continuity namespace.")
+    if req.canon_snapshot_id != CANON_SNAPSHOT_ID:
+        raise HTTPException(409, "Canon snapshot mismatch.")
+    # Hold the local commit lock across revision + records: one coherent snapshot.
+    with STORE.lock:
+        revision = STORE.revision()
+        if req.expected_story_revision is not None and req.expected_story_revision != revision:
+            raise HTTPException(409, "Continuity revision changed; rebuild scene context.")
+        request = req.model_dump()
+        records = STORE.memories("story", limit=-1) if req.continuity_namespace == "story" else []
+        try:
+            context = build_person_context(request, CHARACTER_ID, records, revision)
+            authorized, audit = authorize_memories(records, request, CHARACTER_ID)
+        except ContextError as exc:
+            raise HTTPException(400, str(exc)) from exc
+    selected = [memory_person_view(row, context) for row in select_salient_memories(authorized)]
+    audit["selected_memory_ids"] = [row["memory_id"] for row in selected]
+    return context, selected, audit
+
+
+@app.post("/v1/runtime-context")
+def runtime_context(req: TurnRequest, authorization: str | None = Header(default=None)):
+    require_auth(authorization)
+    context, _, _ = construct_runtime_context(req)
+    return {"character_id": CHARACTER_ID, "story_revision": context["continuity_revision"],
+            "canon_snapshot_id": CANON_SNAPSHOT_ID, "person_runtime_context": context}
+
+
 @app.post("/v1/turn")
 async def turn(req: TurnRequest, authorization: str | None = Header(default=None)):
     require_auth(authorization)
-    if req.continuity_namespace not in {"story", "sandbox"}:
-        raise HTTPException(400, "Invalid continuity namespace.")
-    if req.continuity_namespace == "story" and req.canon_snapshot_id != CANON_SNAPSHOT_ID:
-        raise HTTPException(409, "Canon snapshot mismatch.")
-
-    memory_namespace = "story" if req.continuity_namespace == "story" else "sandbox"
-    authorized_memories, memory_authorization_audit = authorized_memories_for_turn(
-        memory_namespace,
-        req.person_runtime_context,
-    )
-    result = await model_json(
-        TURN_PROMPT,
-        {
-            "brain": compact_brain(),
-            "shared_context": SHARED_CONTEXT,
-            "authorized_memories": authorized_memories,
-            "memory_authorization_audit": memory_authorization_audit,
-            "current_state": STORE.state(),
-            "request": req.model_dump(),
-        },
-    )
+    context, authorized_memories, memory_authorization_audit = construct_runtime_context(req)
+    if context["scene_local_state"]["participation"] in {"silent", "nonparticipating"}:
+        result = {"wants_to_speak": False, "floor_action": "silent", "memory_refs": [],
+                  "observable_candidate": {"speech": "", "action": "", "silence": True},
+                  "state_delta_proposal": {}}
+    else:
+        result = await model_json(
+            TURN_PROMPT,
+            {
+                "brain": compact_brain(),
+                "shared_context": SHARED_CONTEXT,
+                "authorized_memories": authorized_memories,
+                "memory_authorization_audit": memory_authorization_audit,
+                "current_state": {"physical": context["physical_state"], "emotional": context["emotional_state"]},
+                "request": person_request_view(req.model_dump(), CHARACTER_ID, context),
+            },
+        )
+    refs = result.get("memory_refs", [])
+    if not isinstance(refs, list) or any(ref not in memory_authorization_audit["selected_memory_ids"] for ref in refs):
+        raise HTTPException(502, "Person Agent returned an unauthorized memory reference.")
     result["request_id"] = req.request_id
     result["character_id"] = CHARACTER_ID
     result["memory_authorization_audit"] = memory_authorization_audit
@@ -662,15 +654,39 @@ async def turn(req: TurnRequest, authorization: str | None = Header(default=None
 @app.post("/v1/commit")
 def commit(req: CommitRequest, authorization: str | None = Header(default=None)):
     require_auth(authorization)
+    if not req.author_approved:
+        raise HTTPException(400, "Story memory commit requires explicit author approval.")
     if req.canon_check_status != "PASS":
         raise HTTPException(400, "Only Canon Checker PASS can be committed.")
     if req.canon_snapshot_id != CANON_SNAPSHOT_ID:
         raise HTTPException(409, "Canon snapshot mismatch.")
+    ledger = dict(req.filtered_event_ledger)
+    ledger["scene_id"] = req.scene_id
+    stamped = []
+    if req.source_story_clock and clock(req.source_story_clock) is None:
+        raise HTTPException(400, "Invalid source_story_clock.")
+    for raw in ledger.get("memories", []):
+        if not isinstance(raw, dict):
+            raise HTTPException(400, "Memory records must be objects.")
+        memory = dict(raw)
+        try:
+            for effect in memory.get("context_effects", []):
+                validate_effect(effect)
+        except (ContextError, TypeError) as exc:
+            raise HTTPException(400, str(exc)) from exc
+        memory.update({"owner_id": CHARACTER_ID, "source_scene_id": req.scene_id,
+                       "scope_id": req.scene_id, "source_story_clock": req.source_story_clock,
+                       "canon_snapshot_id": req.canon_snapshot_id,
+                       "commit_provenance": {"canon_check_status": "PASS", "author_approved": True}})
+        # A person-local ledger defaults private; presence never grants another person access.
+        memory.setdefault("privacy_visibility_scope", "private")
+        stamped.append(memory)
+    ledger["memories"] = stamped
     try:
         return STORE.commit_story(
             req.request_id,
             req.expected_previous_revision,
-            req.filtered_event_ledger,
+            ledger,
         )
     except RevisionConflict as exc:
         raise HTTPException(

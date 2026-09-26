@@ -10,7 +10,7 @@ Generated wording is not canon merely because the canary produced it. Current ow
 
 ## 1. Current end-to-end chain
 
-> **Current repository authority → authority compiler → curated live runtime merge → Scene Orchestrator → Dialogue Director → Person Agents → Beat Editor → Canon Checker → Godot handoff → controlled preview/import → human approval → optional story-memory commit**
+> **Current repository authority → authority compiler → curated live runtime merge → Scene Orchestrator → automatic per-person context construction → Dialogue Director → Person Agents → Beat Editor → Canon Checker → Godot handoff → controlled preview/import → human approval → optional story-memory commit**
 
 Static authority and live observation are separate channels:
 - `authority_packet` = repository-owned current authority;
@@ -93,6 +93,7 @@ Current service endpoints:
 - `GET /health`
 - `GET /v1/identity`
 - `GET /v1/context-snapshot`
+- `POST /v1/runtime-context` — read-only scene-specific reconstruction
 - `POST /v1/turn`
 - `POST /v1/commit`
 - `POST /v1/open-conversation`
@@ -101,7 +102,7 @@ Persistent Person Agents provide:
 - current brain synthesis;
 - personal story memory;
 - a safe story-memory **index** for authorization without exposing full private memory content;
-- current runtime state;
+- current scene-applicable runtime state (not the latest unsliced state snapshot);
 - optimistic story revision;
 - character-local knowledge behavior.
 
@@ -152,20 +153,20 @@ A normal build request contains:
 - scene purpose;
 - current authority packet;
 - participant profiles where needed;
-- **person_runtime_contexts** for per-character hard context, relationship dimensions, epistemic state, scene-local motive state, open threads, and memory authorization;
+- protected **context_construction** inputs; **person_runtime_contexts** are automatically constructed outputs, rebuilt from current authority and approved continuity;
 - curated map/recent-gameplay/encounter context;
 - current floor/knowledge constraints;
 - allowed information transfers;
 - required exact-line anchors;
 - beat/cost limits.
 
-For authored story generation, persistent story memory is **deny-by-default** unless the relevant person's runtime context explicitly authorizes it.
+For authored story generation, persistent story memory is **deny-by-default** unless the scene or person continuity policy explicitly authorizes it. Ownership, privacy, provenance, canon snapshot, and chronology are always checked before salience.
 
 Supported authorization shapes currently include:
 - `{"mode":"none"}` — no persistent story memory;
 - `{"mode":"explicit_ids","authorized_memory_ids":[...]}` — exact memory IDs;
 - `{"mode":"scene_ids","authorized_scene_ids":[...]}` — memories originating in explicitly authorized prior scenes;
-- `{"mode":"all_committed_story"}` — compatibility mode for known forward-only authoring only.
+- `{"mode":"all_committed_story"}` — requires explicit forward-only authoring plus an exact numeric story clock; future memories remain denied.
 
 Historical rewrites and regeneration passes should **not** use `all_committed_story` because later committed memories may exist.
 
@@ -314,7 +315,7 @@ Relevance is never permission.
 - matching canon snapshot;
 - expected previous revision for every persistent participant receiving a ledger.
 
-Per-person services retain their own independent snapshot/revision/PASS checks.
+Per-person services retain their own independent snapshot/revision/PASS checks and also require `author_approved: true`. New memories receive service-stamped provenance and an explicit source story clock where available.
 
 ---
 
@@ -469,26 +470,9 @@ A scene spec must explicitly name:
 - any exact-line anchors that are still explicitly preserved;
 - maximum beat count and production-cost ceiling.
 
-A scene spec may also provide protected `person_runtime_contexts` for any participant. This is the preferred authoring surface for:
-- persistent-memory authorization;
-- relationship runtime dimensions;
-- epistemic status for scene-relevant beliefs/claims/suspicions;
-- scene-local wants, avoidances, attention, and willingness to speak;
-- open relationship/conversation threads;
-- other hard per-person constraints that must survive the live-runtime merge.
+The compiler automatically constructs per-person contexts. Optional `story_clock`, `continuity_policy`, and source-backed `context_assertions` supply only information that cannot be derived safely. Selected owning story sections can embed reusable `diyse-context` annotations. Approved character-local `context_effects` carry continuity forward without authors copying relationship, belief, or thread state into every new scene.
 
-The compiler emits `memory_authorization: {"mode":"none"}` for participants without an explicit memory policy. Persistent story memory is therefore unavailable by default rather than silently broadening retrieval.
-
-A scene spec may also provide `person_runtime_contexts` for the named participants. This is the preferred authoring surface for:
-- memory authorization;
-- relationship runtime dimensions;
-- epistemic status;
-- scene-local wants/avoidances;
-- open threads;
-- willingness/unwillingness to discuss;
-- other hard per-person constraints that should survive live-runtime merge.
-
-The compiler normalizes these by participant and emits `memory_authorization: {"mode":"none"}` for any participant without an explicit policy.
+Legacy `person_runtime_contexts` may provide memory authorization only; unproven manual runtime state requires migration to source-backed assertions. No-policy scenes still deny all persistent memory. Full schema, migration rules, privacy/chronology gates, and deliberate limitations: [Automatic Person context](AUTOMATIC_PERSON_CONTEXT.md).
 
 The compiler does **not** infer an old S### mapping from historical line-complete material. If current story authority has not yet mapped a rewritten lean beat to a specific production scene ID, the spec must not pretend that mapping is closed.
 
@@ -669,6 +653,7 @@ Runtime merge may not alter:
 - participants;
 - participant profiles;
 - **person runtime contexts**;
+- **automatic context construction inputs**;
 - scene purpose;
 - authority packet;
 - allowed information transfers;
@@ -676,7 +661,7 @@ Runtime merge may not alter:
 - maximum beat count;
 - production-cost ceiling.
 
-`current_floor_state` is also left untouched by the automatic live merge. It may contain carefully authored knowledge/state constraints, but the runtime builder will not fill it from raw `GameState.flags`.
+`current_floor_state` is also left untouched by the automatic live merge. The Person-facing boundary only forwards supported conversational floor controls. Legacy free-form knowledge/state constraints stay author-facing until migrated to owned typed assertions; they are never filled from raw `GameState.flags`.
 
 If `scene_context.runtime_observable` is already present in a compiled request seed, the merge fails. That namespace belongs to the live runtime boundary.
 

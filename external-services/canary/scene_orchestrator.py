@@ -14,6 +14,8 @@ import yaml
 from fastapi import FastAPI, Header, HTTPException
 from pydantic import BaseModel, Field
 
+from runtime_context import ContextError, build_person_context, person_request_view, identity_from_profile
+
 SERVICE_VERSION = os.getenv("SERVICE_VERSION", "2.20.0")
 CANON_SNAPSHOT_ID = os.getenv("CANON_SNAPSHOT_ID", "development")
 MODEL_API_URL = os.getenv("MODEL_API_URL") or None
@@ -162,6 +164,7 @@ class SceneBuildRequest(BaseModel):
     participants: list[str]
     participant_profiles: dict[str, dict[str, Any]] = Field(default_factory=dict)
     person_runtime_contexts: dict[str, dict[str, Any]] = Field(default_factory=dict)
+    context_construction: dict[str, Any] = Field(default_factory=lambda: {"schema": "diyse_person_context_construction_v1"})
     scene_purpose: str
     authority_packet: dict[str, Any] = Field(default_factory=dict)
     scene_context: dict[str, Any] = Field(default_factory=dict)
@@ -177,6 +180,7 @@ class SceneCommitRequest(BaseModel):
     scene_id: str
     canon_snapshot_id: str
     author_approved: bool
+    source_story_clock: dict[str, int] = Field(default_factory=dict)
     canon_check_status: str
     per_character_event_ledgers: dict[str, dict[str, Any]]
     expected_previous_revisions: dict[str, str]
@@ -404,6 +408,13 @@ memory_type, source_scene_id, source_story_position, acquisition_mode, people_pr
 privacy_visibility_scope, epistemic_status_at_acquisition, current_epistemic_status,
 relationships_involved, emotional_salience, practical_salience, and open_thread linkage.
 Corrections should preserve prior-belief history rather than silently rewriting it.
+Use append-only context_effects inside memory records for explicit earned runtime deltas.
+Each effect has kind (relationship, epistemic, thread, local, physical, emotional), key, value;
+relationship requires target_id and an independently earned dimension; epistemic requires status;
+thread requires status open/resolved. Transient local/physical/emotional effects require explicit
+applies_to_scene_ids; otherwise they will not carry forward. No hard-canon effects from memory.
+Do not put forbidden future answers in memories. Only character-local learned evidence belongs here.
+The service stamps owner, source scene/clock, canon snapshot, and commit approval provenance.
 Profile-only participants may receive memory proposals separately, but they are not automatically committed.
 Do not propose whole-state replacement or automatically advance trust/intimacy/forgiveness.
 
@@ -480,25 +491,18 @@ def normalized_person_runtime_contexts(
             )
         result[cid] = dict(raw_context)
 
+    # Cached/manual contexts are never an authority source for the rebuild.
     for cid in participants:
         context = result.setdefault(cid, {})
-        context.setdefault(
-            "hard_context",
-            {
-                "scene_id": req.scene_id,
-                "story_position": req.story_position,
-                "canon_snapshot_id": req.canon_snapshot_id,
-                "participant_id": cid,
-                "participants": participants,
-            },
-        )
-        context.setdefault("relationship_runtime_state", {})
-        context.setdefault("epistemic_state", {})
-        context.setdefault("scene_local_state", {})
-        context.setdefault("open_threads", [])
         context.setdefault("memory_authorization", {"mode": "none"})
+    try:
+        request = req.model_dump()
+        request["participants"] = participants
+        request["participant_profiles"] = {normalize_id(key): value for key, value in req.participant_profiles.items()}
+        return {cid: build_person_context(request, cid) for cid in participants}
+    except ContextError as exc:
+        raise HTTPException(400, str(exc)) from exc
 
-    return result
 
 
 def profile_person_view(profile: dict[str, Any]) -> dict[str, Any]:
@@ -521,7 +525,17 @@ def profile_person_view(profile: dict[str, Any]) -> dict[str, Any]:
         if normalized in {"prime", "story_prime", "prime_card", "story_prime_association"}:
             result.pop(key, None)
 
-    return result
+    # Whole biographies include later arc endpoints. Preserve bounded personality
+    # direction without treating that biography as current character knowledge.
+    view = {key: result[key] for key in ("character_id", "character", "core_person", "values",
+                                        "voice_direction", "anti_patterns") if key in result}
+    view["identity"] = identity_from_profile(result)
+    for heading in ("Character core", "Voice shorthand"):
+        match = re.search(r"^## " + re.escape(heading) + r"\n(.*?)(?=^## |\Z)",
+                          result.get("authority_text", ""), re.M | re.S)
+        if match:
+            view[heading.lower().replace(" ", "_")] = match.group(1).strip()
+    return view
 
 
 def validate_anchors(anchors: list[ExactLineAnchor], participants: list[str]) -> list[dict[str, Any]]:
@@ -744,6 +758,24 @@ async def build_scene(
 
     snapshot_pairs = await asyncio.gather(*(get_snapshot(cid) for cid in persistent_ids))
     agent_snapshots = {cid: snapshot for cid, snapshot in snapshot_pairs}
+    for cid, snapshot in agent_snapshots.items():
+        if snapshot.get("character_id") != cid or snapshot.get("canon_snapshot_id") != req.canon_snapshot_id:
+            raise HTTPException(409, "Person Agent identity/canon snapshot mismatch.")
+
+    async def get_runtime_context(cid: str) -> tuple[str, dict[str, Any]]:
+        payload = {**req.model_dump(), "participants": participants, "participant_profiles": profiles,
+                   "expected_story_revision": str(agent_snapshots[cid]["story_revision"])}
+        response = await agent_request(cid, "POST", "/v1/runtime-context", payload)
+        if response.get("character_id") != cid or response.get("story_revision") != agent_snapshots[cid]["story_revision"]:
+            raise HTTPException(409, "Person context revision/identity mismatch.")
+        return cid, response["person_runtime_context"]
+
+    for cid, context in await asyncio.gather(*(get_runtime_context(cid) for cid in persistent_ids)):
+        person_runtime_contexts[cid] = context
+    # The director must not receive unfiltered indexes or the live latest-state snapshot.
+    agent_snapshots = {cid: {key: value for key, value in snapshot.items()
+                            if key in {"character_id", "story_revision", "canon_snapshot_id"}}
+                       for cid, snapshot in agent_snapshots.items()}
 
     director_payload = {
         **req.model_dump(),
@@ -769,6 +801,11 @@ async def build_scene(
             anchor_id = normalize_id(str(anchor["speaker_id"]))
             if anchor_id in participants:
                 eligible = [anchor_id]
+
+        eligible = [cid for cid in eligible if person_runtime_contexts[cid]["scene_local_state"]["participation"]
+                    not in {"silent", "nonparticipating"}]
+        if not eligible:
+            beat_target["allow_silence"] = True
 
         observable_scene = [
             {
@@ -821,6 +858,11 @@ async def build_scene(
                     "current_floor_state": req.current_floor_state,
                     "allowed_information_transfers": req.allowed_information_transfers,
                     "person_runtime_context": person_runtime_contexts.get(cid, {}),
+                    "participants": participants,
+                    "participant_profiles": profiles,
+                    "context_construction": req.context_construction,
+                    "authority_packet": req.authority_packet,
+                    "expected_story_revision": str(agent_snapshots[cid]["story_revision"]),
                 }
                 return cid, "persistent", await agent_request(cid, "POST", "/v1/turn", payload)
 
@@ -836,6 +878,8 @@ async def build_scene(
                 "person_runtime_context": person_runtime_contexts.get(cid, {}),
                 "shared_context": SHARED_CONTEXT,
             }
+            profile_payload = person_request_view(profile_payload, cid, person_runtime_contexts[cid]) | {
+                "participant_profile": profile_person_view(profiles[cid]), "shared_context": SHARED_CONTEXT}
             return cid, "profile", await model_json(PROFILE_AGENT_PROMPT, profile_payload)
 
         candidate_rows = await asyncio.gather(*(fetch_candidate(cid) for cid in eligible))
@@ -873,6 +917,10 @@ async def build_scene(
         scene_beats.append(edited)
 
     local_violations = local_scene_checks(anchors, participants, scene_beats)
+    for beat in scene_beats:
+        cid = beat.get("selected_speaker_id")
+        if cid in person_runtime_contexts and person_runtime_contexts[cid]["scene_local_state"]["participation"] in {"silent", "nonparticipating"} and str(beat.get("text", "")).strip():
+            local_violations.append(f"Silent/nonparticipating person {cid} was assigned speech.")
     checker_payload = {
         "scene_id": req.scene_id,
         "story_position": req.story_position,
@@ -936,6 +984,7 @@ async def build_scene(
         "canon_check": canon_check,
         "commit_ready": canon_check.get("status") == "PASS",
         "commit_bundle": {
+            "source_story_clock": req.context_construction.get("story_clock", {}),
             "canon_check_status": canon_check.get("status"),
             "per_character_event_ledgers": persistent_ledgers,
             "profile_only_memory_proposals": canon_check.get(
@@ -979,6 +1028,8 @@ async def commit_scene(
             "scene_id": req.scene_id,
             "canon_snapshot_id": req.canon_snapshot_id,
             "canon_check_status": "PASS",
+            "author_approved": True,
+            "source_story_clock": req.source_story_clock,
             "filtered_event_ledger": ledger,
             "expected_previous_revision": req.expected_previous_revisions[cid],
         }
