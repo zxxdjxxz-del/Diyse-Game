@@ -10,7 +10,7 @@ Approved exact repository masters:
 | --- | --- | --- | ---: | --- |
 | Black Host Raider | [`black_host_raider.png`](black_host_raider.png) | PNG | 1122 × 1402 | `446ff9e2275fbbd2d44be3b5c61f8cc1136d910e53a760d3a605dfcee8d2687f` |
 | Black Host Crossbowman | [`black_host_crossbowman.png`](black_host_crossbowman.png) | PNG | 1122 × 1402 | `845b344ebf8d45b3c078b9ffc3dd094c19407bdfe07819608dfcbd07960c96a5` |
-| Ruin Shieldbearer | [`ruin_shieldbearer.png`](ruin_shieldbearer.png) | PNG | 1122 × 1402 | `18d1237f4f933bdf6dbcba7f9b4df90c5090ec413ebe334cb5a4982c221fb2d7` |
+| Black Host Shieldbearer | [`black_host_shieldbearer.png`](black_host_shieldbearer.png) | PNG | 1122 × 1402 | `18d1237f4f933bdf6dbcba7f9b4df90c5090ec413ebe334cb5a4982c221fb2d7` |
 | War Hound | [`war_hound.png`](war_hound.png) | PNG | 1155 × 1362 | `2108a1cd66d42512342c96f4cf02787d0a06aee20410145ff20c77bfbeec192a` |
 | Ruin Vanguard Pursuer / concealed Seyrik | [`ruin_vanguard_pursuer_concealed_seyrik.jpg`](ruin_vanguard_pursuer_concealed_seyrik.jpg) | JPEG/JFIF | 1287 × 1536 | `c6ea82c58c628679536447fd6a55b00d306651f99a39599fba4124262d7aa011` |
 | Battle Sorcerer | [`battle_sorcerer.png`](battle_sorcerer.png) | PNG | 1145 × 1374 | `4090842e2e765cecc83235d1ddf79d0b211872f3abbf2baff0955bd3bfff3573` |
