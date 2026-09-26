@@ -66,6 +66,14 @@ Her Character Quest principle therefore applies inward as well:
 
 This is not the same arc as Vaelira. Vaelira learns to trust desire as legitimate information. Ilyra already accepts desire morally; her growth is becoming more **proactive and self-declaring** about her own.
 
+Her counterfactual instinct can support this growth without becoming self-help dialogue. Early Ilyra is more practiced at asking what changes if **someone else's** assumption is wrong than at questioning her own default assumption that her preference can wait. Later, the same mental flexibility can occasionally turn inward:
+- `What if I don't need a better reason than wanting to stay?` is the underlying movement, not a required line;
+- she can consider that usefulness is not the only valid reason for choosing something;
+- she can imagine an option in which she asks for company, rest, help, or pleasure before necessity forces the issue;
+- eventually she should need less counterfactual scaffolding and simply say what she wants.
+
+The endpoint is not Ilyra constantly asking herself `what if?` It is that a woman who readily preserves alternate possibilities for everyone else learns to preserve possibilities for herself too.
+
 ### Mercy and accountability outside medicine
 
 Ilyra's mercy is not acquittal.
