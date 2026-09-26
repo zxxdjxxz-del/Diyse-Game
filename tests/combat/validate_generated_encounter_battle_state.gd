@@ -7,27 +7,47 @@ const Catalog = preload("res://game/content/encounters/chapter_01_04_formations.
 
 func _initialize() -> void:
 	var failures: Array[String] = []
-	_validate_greenhollow_coverage(failures)
+	_validate_catalog_proof_coverage(failures)
+	_validate_representative_chapter_setups(failures)
 	_validate_generated_setup_and_rewards(failures)
 	_validate_enemy_cap_and_invalid_data(failures)
 	_validate_base_demo_regression(failures)
 	_finish(failures)
 
-func _validate_greenhollow_coverage(failures: Array[String]) -> void:
-	for tier in ["light", "standard", "heavy"]:
-		var formations: Array = Catalog.formations_for_area_tier("ch01_greenhollow", tier)
-		if formations.is_empty():
-			failures.append("Greenhollow %s formation pool is unexpectedly empty" % tier)
-			continue
-		for formation in formations:
-			var units := ProofEnemyData.build_units(formation.get("enemies", []))
-			if units.size() != formation.get("enemies", []).size():
-				failures.append("Proof combat data does not cover %s" % str(formation.get("id", "unknown")))
+func _validate_catalog_proof_coverage(failures: Array[String]) -> void:
+	for area_id in Catalog.area_ids():
+		for tier in Catalog.TIER_NAMES:
+			var formations: Array = Catalog.formations_for_area_tier(area_id, tier)
+			if formations.is_empty():
+				failures.append("%s %s formation pool is unexpectedly empty" % [area_id, tier])
+				continue
+			for formation in formations:
+				var units := ProofEnemyData.build_units(formation.get("enemies", []))
+				if units.size() != formation.get("enemies", []).size():
+					failures.append("Proof combat data does not cover %s" % str(formation.get("id", "unknown")))
 
 	if not ProofEnemyData.definition_for("Definitely Not An Enemy").is_empty():
 		failures.append("Proof combat data accepted an unknown enemy identity")
 	if not ProofEnemyData.build_units(["Thicket Stalker", "Definitely Not An Enemy"]).is_empty():
 		failures.append("Proof combat data returned a partial unit list for an unsupported formation")
+
+func _validate_representative_chapter_setups(failures: Array[String]) -> void:
+	var representatives := [
+		{"chapter": 2, "area": "ch02_old_bastion", "tier": "heavy"},
+		{"chapter": 3, "area": "ch03_old_city_archives", "tier": "heavy"},
+		{"chapter": 4, "area": "ch04_reaction_annex", "tier": "heavy"},
+	]
+	for representative in representatives:
+		var area_id := str(representative["area"])
+		var tier := str(representative["tier"])
+		var formation: Dictionary = Catalog.formations_for_area_tier(area_id, tier)[0]
+		var units := ProofEnemyData.build_units(formation.get("enemies", []))
+		var battle = GeneratedBattleState.new()
+		if not battle.setup_generated_formation(units, int(formation.get("exp", 0)), 0, str(formation.get("id", ""))):
+			failures.append("Generated battle state rejected representative Chapter %d formation %s" % [
+				int(representative["chapter"]),
+				str(formation.get("id", "")),
+			])
 
 func _validate_generated_setup_and_rewards(failures: Array[String]) -> void:
 	var formation: Dictionary = Catalog.formations_for_area_tier("ch01_greenhollow", "heavy")[0]

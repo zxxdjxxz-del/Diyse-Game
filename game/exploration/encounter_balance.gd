@@ -28,8 +28,8 @@ const CHAPTER_PROFILES := {
 		"exp_anchors": {"light": 215, "standard": 280, "heavy": 315},
 		"expected_ordinary_exp_pool": 5200,
 		"typical_min": 3,
-		"typical_max": 4,
-		"max_enemies": 5,
+		"typical_max": 5,
+		"max_enemies": 6,
 	},
 	4: {
 		"expected_encounters": 19,
@@ -38,7 +38,7 @@ const CHAPTER_PROFILES := {
 		"expected_ordinary_exp_pool": 7300,
 		"typical_min": 4,
 		"typical_max": 5,
-		"max_enemies": 6,
+		"max_enemies": 5,
 	},
 	5: {
 		"expected_encounters": 20,

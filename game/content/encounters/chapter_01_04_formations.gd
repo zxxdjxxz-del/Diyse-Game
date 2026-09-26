@@ -4,7 +4,7 @@ class_name DiyseChapter0104FormationCatalog
 const TIER_NAMES := ["light", "standard", "heavy"]
 
 # Engineering/runtime formation catalog.
-# Chapters 1-2 are reconciled to the current 2026-09-25 / 2026-09-23 encounter authorities.
+# Chapters 1-4 are reconciled to the current structural encounter authorities.
 # Hunts, fixed authored encounters, mandatory named encounters, and bosses are absent from random pools.
 # Tier placement / weights / EXP here remain executable engineering values pending later balance recalibration.
 # Enemy identity, formation composition, area caps, and subarea eligibility follow current structural authority.
@@ -115,76 +115,88 @@ const AREAS := {
 			],
 		},
 	},
-	"ch03_way_fort": {
+	"ch03_old_city_archives": {
 		"chapter": 3,
+		"max_enemies": 6,
+		# Exact composition/subarea eligibility is current authority.
+		# Tier weights and EXP remain engineering/runtime values pending final progression certification.
 		"formations": {
 			"light": [
-				{"id": "ch03_wayfort_l01", "weight": 50.0, "exp": 215, "enemies": ["Way-Fort Marauder", "Rift Boltman", "Black Host Ward-Sorcerer"]},
-				{"id": "ch03_wayfort_l02", "weight": 50.0, "exp": 215, "enemies": ["Way-Fort Marauder", "Way-Fort Marauder", "Rift Boltman"]},
+				{"id": "ch03_old_city_l01", "weight": 25.0, "exp": 215, "enemies": ["Judgment Frame", "Erasure Wisp", "Erasure Wisp"], "subareas": ["lower_archives"]},
+				{"id": "ch03_old_city_l02", "weight": 25.0, "exp": 215, "enemies": ["Judgment Frame", "Authority Lens", "Erasure Wisp"], "subareas": ["lower_archives"]},
+				{"id": "ch03_old_city_l03", "weight": 25.0, "exp": 215, "enemies": ["Judgment Frame", "Judgment Frame", "Erasure Wisp", "Authority Lens"], "subareas": ["lower_archives"]},
+				{"id": "ch03_old_city_l04", "weight": 25.0, "exp": 215, "enemies": ["Judgment Frame", "Erasure Wisp", "Erasure Wisp", "Authority Lens"], "subareas": ["lower_archives"]},
 			],
 			"standard": [
-				{"id": "ch03_wayfort_s01", "weight": 50.0, "exp": 280, "enemies": ["Way-Fort Marauder", "Way-Fort Marauder", "Rift Boltman", "Black Host Ward-Sorcerer"]},
-				{"id": "ch03_wayfort_s02", "weight": 50.0, "exp": 280, "enemies": ["Way-Fort Marauder", "Rift Boltman", "Rift Boltman", "Black Host Ward-Sorcerer"]},
+				{"id": "ch03_old_city_s01", "weight": 11.0, "exp": 280, "enemies": ["Judgment Frame", "Erasure Wisp", "Erasure Wisp", "Authority Lens"], "subareas": ["buried_collections"]},
+				{"id": "ch03_old_city_s02", "weight": 11.0, "exp": 280, "enemies": ["Judgment Frame", "Judgment Frame", "Erasure Wisp", "Authority Lens"], "subareas": ["buried_collections"]},
+				{"id": "ch03_old_city_s03", "weight": 11.0, "exp": 280, "enemies": ["Judgment Frame", "Erasure Wisp", "Erasure Wisp", "Erasure Wisp", "Authority Lens"], "subareas": ["buried_collections"]},
+				{"id": "ch03_old_city_s04", "weight": 11.0, "exp": 280, "enemies": ["Judgment Frame", "Judgment Frame", "Erasure Wisp", "Erasure Wisp", "Authority Lens"], "subareas": ["buried_collections"]},
+				{"id": "ch03_old_city_s05", "weight": 11.0, "exp": 280, "enemies": ["Judgment Frame", "Authority Lens", "Authority Lens", "Erasure Wisp"], "subareas": ["hall_of_seals"]},
+				{"id": "ch03_old_city_s06", "weight": 11.0, "exp": 280, "enemies": ["Judgment Frame", "Judgment Frame", "Authority Lens", "Erasure Wisp", "Erasure Wisp"], "subareas": ["hall_of_seals"]},
+				{"id": "ch03_old_city_s07", "weight": 11.0, "exp": 280, "enemies": ["Judgment Frame", "Authority Lens", "Authority Lens", "Erasure Wisp", "Erasure Wisp"], "subareas": ["hall_of_seals"]},
+				{"id": "ch03_old_city_s08", "weight": 11.0, "exp": 280, "enemies": ["Judgment Frame", "Judgment Frame", "Authority Lens", "Authority Lens", "Erasure Wisp"], "subareas": ["hall_of_seals"]},
+				{"id": "ch03_old_city_s09", "weight": 12.0, "exp": 280, "enemies": ["Judgment Frame", "Archive Current", "Authority Lens", "Erasure Wisp", "Erasure Wisp"], "subareas": ["hall_to_deep_transition"]},
 			],
 			"heavy": [
-				{"id": "ch03_wayfort_h01", "weight": 50.0, "exp": 315, "enemies": ["Way-Fort Marauder", "Way-Fort Marauder", "Rift Boltman", "Rift Boltman", "Black Host Ward-Sorcerer"]},
-				{"id": "ch03_wayfort_h02", "weight": 50.0, "exp": 315, "enemies": ["Way-Fort Marauder", "Way-Fort Marauder", "Way-Fort Marauder", "Rift Boltman", "Black Host Ward-Sorcerer"]},
+				{"id": "ch03_old_city_h01", "weight": 22.5, "exp": 315, "enemies": ["Judgment Frame", "Archive Current", "Archive Current", "Authority Lens", "Erasure Wisp"], "subareas": ["deep_archives"]},
+				{"id": "ch03_old_city_h02", "weight": 22.5, "exp": 315, "enemies": ["Judgment Frame", "Judgment Frame", "Archive Current", "Authority Lens", "Erasure Wisp"], "subareas": ["deep_archives"]},
+				{"id": "ch03_old_city_h03", "weight": 22.5, "exp": 315, "enemies": ["Judgment Frame", "Archive Current", "Archive Current", "Erasure Wisp", "Erasure Wisp", "Authority Lens"], "subareas": ["deep_archives"]},
+				{"id": "ch03_old_city_h04", "weight": 22.5, "exp": 315, "enemies": ["Judgment Frame", "Judgment Frame", "Archive Current", "Erasure Wisp", "Erasure Wisp", "Authority Lens"], "subareas": ["deep_archives"]},
+				{"id": "ch03_old_city_h05", "weight": 5.0, "exp": 315, "enemies": ["Grand Inquisitor Frame", "Judgment Frame", "Authority Lens", "Erasure Wisp"], "subareas": ["deep_archives"]},
+				{"id": "ch03_old_city_h06", "weight": 5.0, "exp": 315, "enemies": ["Grand Inquisitor Frame", "Judgment Frame", "Archive Current", "Authority Lens", "Erasure Wisp"], "subareas": ["deep_archives"]},
 			],
 		},
 	},
-	"ch03_suppressed_archives": {
+	"ch03_cresthaven_tower": {
 		"chapter": 3,
-		# Engineering placeholders only. Exact revised Beat-7..10 placement/weights remain open.
-		# Archive Scribe Engine is a mandatory Beat-11 boss and is forbidden from random pools.
+		"max_enemies": 6,
 		"formations": {
 			"light": [
-				{"id": "ch03_archives_l01", "weight": 50.0, "exp": 215, "enemies": ["Judgment Frame", "Erasure Wisp", "Erasure Wisp"]},
-				{"id": "ch03_archives_l02", "weight": 50.0, "exp": 215, "enemies": ["Erasure Wisp", "Erasure Wisp", "Judgment Frame"]},
+				{"id": "ch03_cresthaven_l01", "weight": 25.0, "exp": 215, "enemies": ["Watch Sentry", "Watch Sentry", "Watch Ballista", "Authority Lens"], "subareas": ["tower_foundation"]},
+				{"id": "ch03_cresthaven_l02", "weight": 25.0, "exp": 215, "enemies": ["Watch Sentry", "Watch Ballista", "Watch Ballista", "Authority Lens"], "subareas": ["tower_foundation"]},
+				{"id": "ch03_cresthaven_l03", "weight": 25.0, "exp": 215, "enemies": ["Watch Captain Frame", "Watch Sentry", "Watch Ballista", "Authority Lens"], "subareas": ["tower_foundation"]},
+				{"id": "ch03_cresthaven_l04", "weight": 25.0, "exp": 215, "enemies": ["Watch Sentry", "Watch Sentry", "Watch Ballista", "Watch Ballista", "Authority Lens"], "subareas": ["tower_foundation"]},
 			],
 			"standard": [
-				{"id": "ch03_archives_s01", "weight": 50.0, "exp": 280, "enemies": ["Judgment Frame", "Judgment Frame", "Erasure Wisp", "Erasure Wisp"]},
-				{"id": "ch03_archives_s02", "weight": 50.0, "exp": 280, "enemies": ["Judgment Frame", "Erasure Wisp", "Erasure Wisp", "Erasure Wisp"]},
+				{"id": "ch03_cresthaven_s01", "weight": 20.0, "exp": 280, "enemies": ["Command Guard Frame", "Authority Lens", "Command Ring Drone", "Command Ring Drone"], "subareas": ["command_interior"]},
+				{"id": "ch03_cresthaven_s02", "weight": 20.0, "exp": 280, "enemies": ["Command Guard Frame", "Command Guard Frame", "Authority Lens", "Command Ring Drone", "Command Ring Drone"], "subareas": ["command_interior"]},
+				{"id": "ch03_cresthaven_s03", "weight": 20.0, "exp": 280, "enemies": ["Command Guard Frame", "Watch Sentry", "Watch Ballista", "Authority Lens", "Command Ring Drone"], "subareas": ["command_interior"]},
+				{"id": "ch03_cresthaven_s04", "weight": 20.0, "exp": 280, "enemies": ["Watch Captain Frame", "Command Guard Frame", "Authority Lens", "Command Ring Drone", "Command Ring Drone"], "subareas": ["command_interior"]},
+				{"id": "ch03_cresthaven_s05", "weight": 20.0, "exp": 280, "enemies": ["Command Guard Frame", "Watch Sentry", "Watch Ballista", "Watch Ballista", "Authority Lens", "Command Ring Drone"], "subareas": ["command_interior"]},
 			],
 			"heavy": [
-				{"id": "ch03_archives_h01", "weight": 50.0, "exp": 315, "enemies": ["Judgment Frame", "Judgment Frame", "Erasure Wisp", "Erasure Wisp", "Erasure Wisp"]},
-				{"id": "ch03_archives_h02", "weight": 50.0, "exp": 315, "enemies": ["Judgment Frame", "Judgment Frame", "Judgment Frame", "Erasure Wisp", "Erasure Wisp"]},
-			],
-		},
-	},
-	"ch03_command_station": {
-		"chapter": 3,
-		"formations": {
-			"light": [
-				{"id": "ch03_command_l01", "weight": 50.0, "exp": 215, "enemies": ["Command-Station Sentry", "Authority Lens", "Command Ring Drone"]},
-				{"id": "ch03_command_l02", "weight": 50.0, "exp": 215, "enemies": ["Command-Station Sentry", "Command Ring Drone", "Command Ring Drone"]},
-			],
-			"standard": [
-				{"id": "ch03_command_s01", "weight": 50.0, "exp": 280, "enemies": ["Command-Station Sentry", "Command-Station Sentry", "Authority Lens", "Command Ring Drone"]},
-				{"id": "ch03_command_s02", "weight": 50.0, "exp": 280, "enemies": ["Command-Station Sentry", "Authority Lens", "Command Ring Drone", "Command Ring Drone"]},
-			],
-			"heavy": [
-				{"id": "ch03_command_h01", "weight": 50.0, "exp": 315, "enemies": ["Command-Station Sentry", "Command-Station Sentry", "Authority Lens", "Command Ring Drone", "Command Ring Drone"]},
-				{"id": "ch03_command_h02", "weight": 50.0, "exp": 315, "enemies": ["Command-Station Sentry", "Authority Lens", "Authority Lens", "Command Ring Drone", "Command Ring Drone"]},
+				{"id": "ch03_cresthaven_h01", "weight": 20.0, "exp": 315, "enemies": ["Command Guard Frame", "Command Guard Frame", "Authority Lens", "Command Ring Drone", "Command Ring Drone"], "subareas": ["warden_approach"]},
+				{"id": "ch03_cresthaven_h02", "weight": 20.0, "exp": 315, "enemies": ["Command Guard Frame", "Watch Sentry", "Watch Ballista", "Authority Lens", "Command Ring Drone"], "subareas": ["warden_approach"]},
+				{"id": "ch03_cresthaven_h03", "weight": 20.0, "exp": 315, "enemies": ["Watch Captain Frame", "Command Guard Frame", "Authority Lens", "Command Ring Drone", "Command Ring Drone"], "subareas": ["warden_approach"]},
+				{"id": "ch03_cresthaven_h04", "weight": 20.0, "exp": 315, "enemies": ["Command Guard Frame", "Watch Sentry", "Watch Ballista", "Watch Ballista", "Authority Lens", "Command Ring Drone"], "subareas": ["warden_approach"]},
+				{"id": "ch03_cresthaven_h05", "weight": 20.0, "exp": 315, "enemies": ["Watch Captain Frame", "Command Guard Frame", "Watch Sentry", "Watch Ballista", "Authority Lens", "Command Ring Drone"], "subareas": ["warden_approach"]},
 			],
 		},
 	},
 	"ch04_reaction_annex": {
 		"chapter": 4,
+		"max_enemies": 5,
+		# Repeatable baseline rows use recovered authoritative 30/45/25 weights.
+		# Annex Duelist is intentionally not encoded here until its one-time/frequency insertion is locked.
 		"formations": {
 			"light": [
-				{"id": "ch04_annex_l01", "weight": 50.0, "exp": 315, "enemies": ["Reaction Node", "Reaction Node", "Reaction Hound", "Element Mirror"]},
-				{"id": "ch04_annex_l02", "weight": 50.0, "exp": 315, "enemies": ["Composite Elemental", "Reaction Node", "Reaction Hound", "Element Mirror"]},
+				{"id": "ch04_annex_l01", "weight": 30.0, "exp": 315, "enemies": ["Reaction Node", "Reaction Hound", "Reaction Hound", "Element Mirror"], "subareas": ["annex_early"]},
+				{"id": "ch04_annex_l02", "weight": 45.0, "exp": 315, "enemies": ["Reaction Node", "Reaction Node", "Reaction Hound", "Composite Elemental"], "subareas": ["annex_early"]},
+				{"id": "ch04_annex_l03", "weight": 25.0, "exp": 315, "enemies": ["Reaction Node", "Reaction Hound", "Element Mirror", "Composite Elemental"], "subareas": ["annex_early"]},
 			],
 			"standard": [
-				{"id": "ch04_annex_s01", "weight": 50.0, "exp": 375, "enemies": ["Composite Elemental", "Reaction Node", "Reaction Node", "Reaction Hound", "Element Mirror"]},
-				{"id": "ch04_annex_s02", "weight": 50.0, "exp": 375, "enemies": ["Annex Crucible Guard", "Reaction Node", "Reaction Hound", "Element Mirror", "Element Mirror"]},
+				{"id": "ch04_annex_s01", "weight": 30.0, "exp": 375, "enemies": ["Reaction Node", "Reaction Node", "Reaction Hound", "Composite Elemental"], "subareas": ["annex_mid"]},
+				{"id": "ch04_annex_s02", "weight": 45.0, "exp": 375, "enemies": ["Element Mirror", "Reaction Hound", "Reaction Hound", "Composite Elemental"], "subareas": ["annex_mid"]},
+				{"id": "ch04_annex_s03", "weight": 25.0, "exp": 375, "enemies": ["Reaction Node", "Element Mirror", "Composite Elemental", "Annex Crucible Guard"], "subareas": ["annex_mid"]},
 			],
 			"heavy": [
-				{"id": "ch04_annex_h01", "weight": 50.0, "exp": 460, "enemies": ["Composite Elemental", "Annex Crucible Guard", "Reaction Node", "Reaction Hound", "Element Mirror", "Element Mirror"]},
-				{"id": "ch04_annex_h02", "weight": 50.0, "exp": 460, "enemies": ["Composite Elemental", "Composite Elemental", "Reaction Node", "Reaction Hound", "Element Mirror", "Annex Crucible Guard"]},
+				{"id": "ch04_annex_h01", "weight": 30.0, "exp": 460, "enemies": ["Annex Crucible Guard", "Composite Elemental", "Reaction Node", "Reaction Hound"], "subareas": ["annex_late", "central_regulation"]},
+				{"id": "ch04_annex_h02", "weight": 45.0, "exp": 460, "enemies": ["Annex Crucible Guard", "Annex Crucible Guard", "Element Mirror", "Reaction Hound", "Reaction Hound"], "subareas": ["annex_late", "central_regulation"]},
+				{"id": "ch04_annex_h03", "weight": 25.0, "exp": 460, "enemies": ["Annex Crucible Guard", "Composite Elemental", "Element Mirror", "Reaction Node", "Reaction Hound"], "subareas": ["annex_late", "central_regulation"]},
 			],
 		},
-	},
+	}
 }
 
 static func has_area(area_id: String) -> bool:

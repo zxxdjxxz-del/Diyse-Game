@@ -13,9 +13,8 @@ const ALLOWED_BY_AREA := {
 	"ch02_dunmere_waterworks": ["Bogshell", "Cistern Leech", "Needlewing"],
 	"ch02_sunken_archive": ["Archive Current", "Memory Scribe", "Bogshell", "Cistern Leech", "Needlewing"],
 	"ch02_old_bastion": ["Black Host Raider", "Black Host Crossbowman", "Ruin Shieldbearer", "Black Host War-Sorcerer", "Rift Hound"],
-	"ch03_way_fort": ["Way-Fort Marauder", "Rift Boltman", "Black Host Ward-Sorcerer"],
-	"ch03_suppressed_archives": ["Archive Scribe Engine", "Judgment Frame", "Erasure Wisp"],
-	"ch03_command_station": ["Command-Station Sentry", "Authority Lens", "Command Ring Drone"],
+	"ch03_old_city_archives": ["Judgment Frame", "Erasure Wisp", "Authority Lens", "Archive Current", "Grand Inquisitor Frame"],
+	"ch03_cresthaven_tower": ["Watch Sentry", "Watch Ballista", "Watch Captain Frame", "Command Guard Frame", "Authority Lens", "Command Ring Drone"],
 	"ch04_reaction_annex": ["Reaction Node", "Composite Elemental", "Reaction Hound", "Element Mirror", "Annex Crucible Guard"],
 }
 
@@ -56,6 +55,8 @@ func _initialize() -> void:
 	_validate_pressure(failures)
 	_validate_chapter_01_04_catalog(failures)
 	_validate_chapter_01_subareas(failures)
+	_validate_chapter_03_subareas(failures)
+	_validate_chapter_04_subareas(failures)
 	_validate_selector(failures)
 	_finish(failures)
 
@@ -160,6 +161,9 @@ func _validate_chapter_01_04_catalog(failures: Array[String]) -> void:
 		failures.append("Chapter 1-4 catalog must contain exactly the approved first-pass area tables")
 	if Catalog.has_area("ch03_caelora"):
 		failures.append("Caelora lawful personnel must not receive an ordinary random-farm table")
+	for retired_area in ["ch03_way_fort", "ch03_suppressed_archives", "ch03_command_station"]:
+		if Catalog.has_area(retired_area):
+			failures.append("Retired Chapter 3 runtime area must not return: %s" % retired_area)
 	if Catalog.max_enemies_for_area("ch01_greenhollow") != 2:
 		failures.append("First Briar must retain its 2-enemy structural cap")
 	if Catalog.max_enemies_for_area("ch01_hollow_watch") != 3:
@@ -172,6 +176,12 @@ func _validate_chapter_01_04_catalog(failures: Array[String]) -> void:
 		failures.append("Sunken Archive must allow up to 5 active enemies")
 	if Catalog.max_enemies_for_area("ch02_old_bastion") != 6:
 		failures.append("Old Bastion must allow up to 6 active enemies")
+	if Catalog.max_enemies_for_area("ch03_old_city_archives") != 6:
+		failures.append("Old City Archives must allow up to 6 active enemies")
+	if Catalog.max_enemies_for_area("ch03_cresthaven_tower") != 6:
+		failures.append("Cresthaven tower base must allow up to 6 active enemies")
+	if Catalog.max_enemies_for_area("ch04_reaction_annex") != 5:
+		failures.append("Reaction Annex repeatable formations must cap at 5 active enemies")
 
 	var seen_ids := {}
 	for area_id in area_ids:
@@ -252,6 +262,62 @@ func _validate_chapter_01_subareas(failures: Array[String]) -> void:
 		failures.append("Black Host Shield Line must not appear underground")
 	if "ch01_hollow_watch_l02" in Catalog.formation_ids_for_subarea("ch01_hollow_watch", "hw_surface"):
 		failures.append("Construct-only excavation encounters must not leak onto the Hollow Watch surface")
+
+
+func _validate_chapter_03_subareas(failures: Array[String]) -> void:
+	var expected := {
+		"ch03_old_city_archives": {
+			"lower_archives": 4,
+			"buried_collections": 4,
+			"hall_of_seals": 4,
+			"hall_to_deep_transition": 1,
+			"deep_archives": 6,
+		},
+		"ch03_cresthaven_tower": {
+			"tower_foundation": 4,
+			"command_interior": 5,
+			"warden_approach": 5,
+		},
+	}
+	for area_id in expected.keys():
+		var actual_subareas := Catalog.subarea_ids_for_area(area_id)
+		if actual_subareas.size() != expected[area_id].size():
+			failures.append("%s subarea count drifted from current Chapter 3 placement" % area_id)
+		for subarea_id in expected[area_id].keys():
+			var ids := Catalog.formation_ids_for_subarea(area_id, subarea_id)
+			if ids.size() != int(expected[area_id][subarea_id]):
+				failures.append("%s / %s expected %d eligible runtime tier entries, got %d" % [
+					area_id,
+					subarea_id,
+					int(expected[area_id][subarea_id]),
+					ids.size(),
+				])
+
+	for tier in Catalog.TIER_NAMES:
+		for formation in Catalog.formations_for_area_tier("ch03_old_city_archives", tier):
+			if "Archive Scribe Engine" in formation.get("enemies", []):
+				failures.append("Archive Scribe Engine must never random-spawn")
+		for formation in Catalog.formations_for_area_tier("ch03_cresthaven_tower", tier):
+			if "First Command Warden" in formation.get("enemies", []):
+				failures.append("First Command Warden must never random-spawn")
+
+func _validate_chapter_04_subareas(failures: Array[String]) -> void:
+	var expected := {
+		"annex_early": 3,
+		"annex_mid": 3,
+		"annex_late": 3,
+		"central_regulation": 3,
+	}
+	for subarea_id in expected.keys():
+		var ids := Catalog.formation_ids_for_subarea("ch04_reaction_annex", subarea_id)
+		if ids.size() != int(expected[subarea_id]):
+			failures.append("ch04_reaction_annex / %s expected %d formations, got %d" % [
+				subarea_id,
+				int(expected[subarea_id]),
+				ids.size(),
+			])
+	if Catalog.formation_ids_for_subarea("ch04_reaction_annex", "annex_early").has("ch04_annex_h01"):
+		failures.append("Late Annex pressure must not leak into the early Annex pool")
 
 func _validate_selector(failures: Array[String]) -> void:
 	var selector = Selector.new(9876)
