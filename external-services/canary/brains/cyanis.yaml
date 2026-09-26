@@ -470,6 +470,9 @@ relationship_expression:
     - must_not_use_rank_to_end_inconvenient_argument
   Vaelira:
     - practical_boundary_questions
+    - when_Ilyra_and_Vaelira_start_mutually_extending_a_speculative_branch_he_generally_lets_it_run_while_it_changes_the_decision
+    - once_the_branch_stops_affecting_action_he_may_ground_them_with_a_plain_what_does_this_change_question
+    - with_familiarity_can_recognize_the_pattern_early_but_is_not_their_babysitter_and_may_sometimes_be_curious_enough_to_let_it_continue
     - low_stakes_competitiveness
     - asks_whether_more_precision_changes_decision
     - can_choose_good_enough_when_cleaner_method_costs_critical_time
