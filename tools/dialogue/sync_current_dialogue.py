@@ -7,8 +7,8 @@ source-closed before this tool is run.
 
 This tool deliberately writes *derived artifacts only*:
 - CHAPTER_##_DIALOGUE_MANUSCRIPT.md for Chapters 0-3
-- docs/03_DIALOGUE/PRODUCTION/CHAPTER_0_3_DIALOGUE_SYNC_MANIFEST.md
-- build/dialogue/DIYSE_Chapters_0-3_Spoiler_Free_Exact_Dialogue_Reader_CURRENT.docx
+- docs/03_DIALOGUE/PRODUCTION/CHAPTERS_00_03_DIALOGUE_SYNC_MANIFEST.md
+- build/dialogue/DIYSE_Chapters_00-03_Spoiler_Free_Exact_Dialogue_Reader.docx
 
 It does NOT modify chapter authority indexes or the Dialogue Master Index. Those
 source-authority/status files must be promoted manually only after generated-output
@@ -32,9 +32,9 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
 PROD = ROOT / "docs/03_DIALOGUE/PRODUCTION"
-SYNC_MANIFEST = PROD / "CHAPTER_0_3_DIALOGUE_SYNC_MANIFEST.md"
+SYNC_MANIFEST = PROD / "CHAPTERS_00_03_DIALOGUE_SYNC_MANIFEST.md"
 SOURCE_CLOSURE = PROD / "CHAPTER_00_03_FULL_SOURCE_CLOSURE_2026-09-13.md"
-READER_OUT = ROOT / "build/dialogue/DIYSE_Chapters_0-3_Spoiler_Free_Exact_Dialogue_Reader_CURRENT.docx"
+READER_OUT = ROOT / "build/dialogue/DIYSE_Chapters_00-03_Spoiler_Free_Exact_Dialogue_Reader.docx"
 
 
 @dataclass(frozen=True)

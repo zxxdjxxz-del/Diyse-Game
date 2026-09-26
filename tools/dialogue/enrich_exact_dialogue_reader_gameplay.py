@@ -13,7 +13,7 @@ from docx import Document
 from docx.shared import Pt
 
 ROOT = Path(__file__).resolve().parents[2]
-READER = ROOT / "build/dialogue/DIYSE_Chapters_0-3_Spoiler_Free_Exact_Dialogue_Reader_CURRENT.docx"
+READER = ROOT / "build/dialogue/DIYSE_Chapters_00-03_Spoiler_Free_Exact_Dialogue_Reader.docx"
 INTRO = ROOT / "docs/04_WORLD_AND_LORE/PLAYER_FACING_WORLD_INTRO.md"
 CH0 = ROOT / "docs/09_ENEMIES_AND_ENCOUNTERS/CHAPTER_ENEMIES/CHAPTER_00.md"
 CH1 = ROOT / "docs/09_ENEMIES_AND_ENCOUNTERS/CHAPTER_ENEMIES/CHAPTER_01.md"
