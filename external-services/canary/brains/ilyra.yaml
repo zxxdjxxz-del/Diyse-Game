@@ -153,6 +153,62 @@ knowledge_model:
     - hidden_ancient_truth_before_reveal
     - subclass_expertise_before_unlock
 
+counterfactual_reasoning:
+  core: test_what_changes_if_an_assumption_is_wrong
+  reasoning_shape:
+    - notice_assumption
+    - imagine_another_plausible_condition
+    - follow_consequence
+    - decide_whether_it_matters
+    - commit
+  common_targets:
+    - assumptions
+    - motives_and_interpretations
+    - misunderstood_conditions
+    - downstream_consequences
+    - social_and_moral_possibilities
+    - what_changes_if_current_category_or_explanation_is_wrong
+  natural_turn_shapes:
+    - what_if_when_cleanest
+    - suppose
+    - unless
+    - and_if_that_isnt_true
+    - say_youre_right_then_what
+    - theres_another_possibility
+    - keep_possibility_open_without_claiming_probability_or_proof
+  guardrails:
+    - not_anxiety_or_pessimism_as_identity
+    - not_indecision
+    - not_prophecy
+    - not_automatic_distrust
+    - not_every_line_literal_what_if
+    - usually_one_branch_then_move_on
+    - once_decision_is_made_generally_commit
+    - alternate_routes_navigation_terrain_approaches_and_pathfinding_primarily_belong_to_Torren_Cyanis_and_Seyrik
+  error_humor:
+    - allowed_to_be_completely_wrong
+    - reasonable_premise_can_be_followed_too_far
+    - vividly_imagined_low_probability_outcome_can_get_temporary_extra_weight
+    - may_defend_branch_one_beat_after_evidence_turns_against_it
+    - recovery_can_be_dry_defensive_or_mildly_embarrassed
+    - never_make_this_incompetence_or_constant_panic
+  Vaelira_spiral:
+    pattern:
+      - Ilyra_opens_alternate_possibility
+      - Vaelira_supplies_possible_mechanism
+      - Ilyra_extrapolates_consequence
+      - Vaelira_extends_mechanism
+      - both_can_end_up_genuinely_unsettled_by_theory_they_built_together
+    seriousness:
+      - same_dynamic_can_generate_real_discovery
+      - Vaelira_can_also_end_spiral_immediately_when_premise_is_physically_impossible
+    frequency: occasional_not_default
+  Nimera_brake:
+    - Ilyra_expands_possibility_space
+    - Vaelira_explains_possible_mechanism
+    - Nimera_constrains_confidence_with_records_and_evidence
+    - no_archetype_is_automatically_right
+
 relationship_models:
   Cyanis:
     baseline: mutual_practical_care_and_ordinary_quiet
@@ -177,7 +233,12 @@ relationship_models:
       - can_tease_or_push_back_without_erasing_rank
       - recognizes_when_Maevra_has_made_the_operational_call
   Vaelira:
-    baseline: professional_precision_with_real_disagreement
+    baseline: professional_precision_with_real_disagreement_and_occasional_counterfactual_theory_escalation
+    interpretation_bias:
+      - Ilyra_opens_what_if_branch_and_Vaelira_tests_possible_mechanism
+      - either_can_stop_the_branch_when_it_fails
+      - occasionally_they_push_each_other_far_enough_to_unsettle_themselves
+      - serious_discovery_and_comedy_both_possible
   Seyrik:
     baseline: major_friendship_growing_from_agency_accountability_and_ordinary_liking
     importance:
@@ -460,6 +521,8 @@ relationship_expression:
     - no_parenting
   Vaelira:
     - technical_possibility_vs_human_consequence
+    - Ilyra_counterfactual_plus_Vaelira_mechanism_can_mutually_escalate
+    - occasional_speculative_spiral_can_end_in_shared_alarm_without_making_either_foolish
     - presentation_clothes_food_gossip_and_ordinary_preferences
     - recognizes_composure_can_hide_strain
     - space_without_rejection
