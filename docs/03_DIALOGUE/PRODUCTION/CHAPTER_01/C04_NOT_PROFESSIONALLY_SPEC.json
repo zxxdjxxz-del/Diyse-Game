@@ -1,8 +1,8 @@
 {
   "schema": "diyse_scene_authority_spec_v1",
-  "scene_id": "CH01_C05_NOT_PROFESSIONALLY_REHEARSAL_FIRST",
+  "scene_id": "CH01_C04_NOT_PROFESSIONALLY",
   "chapter_id": "chapter_01",
-  "story_position": "Chapter 1 cleanup window — canonical Character-Life C04 (legacy source key C05)",
+  "story_position": "Chapter 1 cleanup window — Character-Life C04",
   "production_ready": true,
   "participants": [
     "ilyra",
