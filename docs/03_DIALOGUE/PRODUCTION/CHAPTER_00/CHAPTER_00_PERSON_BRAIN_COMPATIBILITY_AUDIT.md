@@ -10,13 +10,13 @@ This is a compatibility audit, not a rewrite pass. The question is whether the a
 
 ## Result
 All current Chapter-0 atomics pass:
-- P01 — Convoy / Opening Ambush — PASS
-- P02 — Wreck Field — PASS
-- P03 — Evacuation Relay Decision — PASS
-- P04 — Field Triage / Ilyra / First Flare — PASS
-- P05 — Concealed Ruin Vanguard — PASS
-- P06 — Riftmaw + War-Sorcerer — PASS
-- P07 — Aftermath / Survivor Recovery — PASS
+- B01 — Convoy / Opening Ambush — PASS
+- B02 — Wreck Field — PASS
+- B03 — Evacuation Relay Decision — PASS
+- B04 — Field Triage / Ilyra / First Flare — PASS
+- B05 — Concealed Ruin Vanguard — PASS
+- B06 — Riftmaw + War-Sorcerer — PASS
+- B07 — Aftermath / Survivor Recovery — PASS
 - C01 — Six Minutes — PASS
 
 ## Character findings
@@ -31,7 +31,7 @@ Current dialogue remains consistent with:
 - minimizing his own condition before giving better information;
 - leadership without automatic summary ownership.
 
-P01–P03 are especially strong fits for the current brain's command-without-centrality model.
+B01–B03 are especially strong fits for the current brain's command-without-centrality model.
 
 ### Ilyra
 Current dialogue remains consistent with:
@@ -41,13 +41,13 @@ Current dialogue remains consistent with:
 - no therapist/mother/conscience default;
 - respecting Cyanis's self-report once precise information is actually needed.
 
-P04 and P06 are medically dense because the Card produces real physiological changes. P05 deliberately gives Ilyra tactical skepticism and ordinary conversation outside care, preventing medical-role lock-in.
+B04 and B06 are medically dense because the Card produces real physiological changes. B05 deliberately gives Ilyra tactical skepticism and ordinary conversation outside care, preventing medical-role lock-in.
 
 ### Cyanis / Ilyra relationship chronology
 The relationship grows plausibly from first-contact professional cooperation into early mutual practical care and ordinary humor. C01 is particularly compatible with the current brains: both characters recognize the other's self-neglect without turning the scene into therapy.
 
 ## Watch notes
-- P06's post-boss medical check and P07's continued observation are care-forward, but they are directly earned by the Card-linked symptoms and therefore are not generic Ilyra-role leakage.
+- B06's post-boss medical check and B07's continued observation are care-forward, but they are directly earned by the Card-linked symptoms and therefore are not generic Ilyra-role leakage.
 - Do not add extra Ilyra health checks to surrounding gameplay simply because the existing ones are valid.
 - Do not regenerate C01 into a more explicit emotional conversation; its mundane humor and shared stillness are a better match for the current brains.
 

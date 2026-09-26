@@ -36,7 +36,7 @@ NON_ALNUM_RE = re.compile(r"[^a-z0-9]+")
 # Chapter 3 current structure recruits Nimera permanently in B06.
 # Protected First Command Warden messages compile as B14 spoken dialogue.
 DURABLE_FLAGS: dict[tuple[str, str], list[str]] = {
-    ("00", "P07"): [
+    ("00", "B07"): [
         "ROSTER_ADD_ILYRA_PERMANENT",
         "STORY_CHAPTER_00_COMPLETE",
         "ROUTE_BRACKENWALL_UNLOCKED",
@@ -133,8 +133,8 @@ def source_set() -> list[SceneSource]:
 
     ch0 = chapter_dir("00")
     for n in range(1, 8):
-        scenes.append(SceneSource("00", f"P{n:02d}", unique_glob(ch0, f"P{n:02d}_*.md"), "mandatory"))
-    scenes.append(SceneSource("00", "C01", unique_glob(ch0, "C01_SIX_MINUTES_*.md"), "character_life"))
+        scenes.append(SceneSource("00", f"B{n:02d}", unique_glob(ch0, f"CH00_B{n:02d}_*_DIALOGUE.md"), "mandatory"))
+    scenes.append(SceneSource("00", "C01", unique_glob(ch0, "C01_SIX_MINUTES_DIALOGUE.md"), "character_life"))
 
     ch1 = chapter_dir("01")
     for n in range(1, 13):

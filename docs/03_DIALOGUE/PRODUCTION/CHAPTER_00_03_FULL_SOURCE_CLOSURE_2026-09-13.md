@@ -93,7 +93,7 @@ Authority index:
 - `CHAPTER_00/CHAPTER_00_DIALOGUE_AUTHORITY_INDEX.md`
 
 Current live dialogue:
-- P01–P07;
+- B01–B07;
 - C01 `Six Minutes`.
 
 Closed checks:

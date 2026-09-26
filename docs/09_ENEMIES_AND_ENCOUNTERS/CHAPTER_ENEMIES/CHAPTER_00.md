@@ -49,7 +49,7 @@ The opening S001 combat segment ends here. **Do not place concealed Seyrik or Ri
 4. **Mixed Pressure** — Black Host Crossbowman + War Hound.
 5. **Survivor-Route Hound** — 1 War Hound.
 
-P03 / Evacuation Relay remains combat-free.
+B03 / Evacuation Relay remains combat-free.
 
 ### Evacuation Relay
 > **No combat.**
@@ -107,7 +107,7 @@ Structural enemy/encounter status:
 > **CLOSED — roster / order / spacing / party state / behavior**
 
 Numeric difficulty/resource status:
-> **DEFERRED — five-fight Cyanis-solo endurance + P05 Seyrik + combined P06 final boss must be revalidated in the later balance/progression pass**
+> **DEFERRED — five-fight Cyanis-solo endurance + B05 Seyrik + combined B06 final boss must be revalidated in the later balance/progression pass**
 
 
 ## Chapter-0 enemy identity/name lock — 2026-09-22
@@ -136,8 +136,8 @@ Closed structurally:
 - exact enemy roster;
 - five Cyanis-solo encounters and their order;
 - inter-fight breathing/spacing requirements;
-- P03/P04/P07 no-combat boundaries;
-- Cyanis + Ilyra party state for P05/P06;
+- B03/B04/B07 no-combat boundaries;
+- Cyanis + Ilyra party state for B05/B06;
 - protected Seyrik disengagement;
 - combined Riftmaw + Battle Sorcerer final boss;
 - Chapter-0 no-harmful-status boundary;
