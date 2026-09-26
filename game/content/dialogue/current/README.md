@@ -4,7 +4,7 @@ This directory is generated from docs/03_DIALOGUE/PRODUCTION/CHAPTER_00 through
 CHAPTER_03. Those atomics remain exact spoken-wording authority.
 
 manifest.json is the game-facing catalog for the current Chapters 0-3 dialogue.
-Chapter 0's older S001-S006/C01-C02 runtime mirror has been retired; Git history preserves it. Older sibling chapter_01 through chapter_04 folders remain legacy implementation/proof assets pending their own retirement and must not be used as current dialogue wording authority.
+All older chapter_00 through chapter_04 S/H/legacy-C runtime mirrors have been retired. Git history preserves them. This directory is the sole live chapter-dialogue runtime mirror for approved Chapters 0-3.
 
 Regenerate with:
 
