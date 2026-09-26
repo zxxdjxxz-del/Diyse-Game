@@ -1,4 +1,4 @@
-# Chapter 0 — P03
+# Chapter 0 — B03
 # Evacuation Relay Decision
 ## REHEARSAL-FIRST PRODUCTION DRAFT — PERSON-BRAIN PERFORMANCE PASS
 
@@ -102,13 +102,13 @@ The ranking officer retains command. Cyanis has changed the plan by giving a bet
 
 No Card response occurs.
 
-Next: **P04 — Field Triage Camp / Ilyra / First Incomplete Response.**
+Next: **B04 — Field Triage Camp / Ilyra / First Incomplete Response.**
 
 ---
 
 ## Person-Brain performance note
 
-- the prior spoken/narration correction remains intact: Cyanis does not re-explain the full north-cut evidence already established in P02; `You said that. What changes now?` still turns the argument toward the new casualty state.
+- the prior spoken/narration correction remains intact: Cyanis does not re-explain the full north-cut evidence already established in B02; `You said that. What changes now?` still turns the argument toward the new casualty state.
 - Cyanis now delivers the field report as one competent linked unit rather than waiting for a checklist interrogation.
 - the officer's resistance is conversational and character-aware: he challenges both the tactical cost and Cyanis's habit of objecting to risk while volunteering himself for it.
 - Cyanis can say `You're right` plainly when the criticism is useful.

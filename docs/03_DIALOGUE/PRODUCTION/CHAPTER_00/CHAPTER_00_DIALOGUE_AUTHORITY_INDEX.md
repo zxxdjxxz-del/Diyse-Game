@@ -1,7 +1,7 @@
 # Chapter 0 — Dialogue Authority Index
 
 **Chapter:** 0 — Broken Convoy  
-**Status:** **FULL SOURCE-LEVEL DIALOGUE CLOSURE — P01–P07 + C01; ATOMIC DIALOGUE + CURRENT PERSON BRAINS ALIGNED**  
+**Status:** **FULL SOURCE-LEVEL DIALOGUE CLOSURE — B01–B07 + C01; ATOMIC DIALOGUE + CURRENT PERSON BRAINS ALIGNED**  
 **Combined read-through:** `CHAPTER_00_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md` — derived read-through; standalone atomics remain exact wording authority  
 **Current atomic spoken-line counts:** **309 mandatory + 79 C01 = 388 if C01 is viewed.**  
 **Rhythm:** `../../AGENT_SYSTEM/NATURAL_TURN_LENGTH_AND_FLOOR_HOLDING_LOCK.md`  
@@ -10,7 +10,7 @@
 
 ## Authority rule
 
-1. Standalone P01–P07 and C01 files are exact wording authority.
+1. Standalone B01–B07 and C01 files are exact wording authority.
 2. Current character files and `external-services/canary/brains/*.yaml` are current Person-Brain authority.
 3. Current dialogue-engine locks govern rhythm, mature-adult register, and spoken-vs-narration interpretation.
 4. The combined manuscript is non-authoritative until regenerated from current atomics.
@@ -18,14 +18,14 @@
 
 ## Current sequence
 
-1. `P01_CONVOY_OPENING_AMBUSH_REHEARSAL_FIRST_DRAFT_A.md`
-2. `P02_WRECK_FIELD_REHEARSAL_FIRST_DRAFT_A.md`
-3. `P03_EVACUATION_RELAY_DECISION_REHEARSAL_FIRST_DRAFT_A.md`
-4. `P04_FIELD_TRIAGE_ILYRA_FIRST_FLARE_REHEARSAL_FIRST_DRAFT_A.md`
-5. `P05_CONCEALED_RUIN_VANGUARD_REHEARSAL_FIRST_DRAFT_A.md`
-6. `P06_RIFTMAW_WAR_SORCERER_REHEARSAL_FIRST_DRAFT_A.md`
-7. `P07_AFTERMATH_SURVIVOR_RECOVERY_REHEARSAL_FIRST_DRAFT_B.md`
-8. optional **C01 — Six Minutes** — `C01_SIX_MINUTES_REHEARSAL_FIRST_DRAFT_A.md`
+1. `CH00_B01_CONVOY_OPENING_AMBUSH_DIALOGUE.md`
+2. `CH00_B02_WRECK_FIELD_DIALOGUE.md`
+3. `CH00_B03_EVACUATION_RELAY_DECISION_DIALOGUE.md`
+4. `CH00_B04_FIELD_TRIAGE_ILYRA_FIRST_FLARE_DIALOGUE.md`
+5. `CH00_B05_CONCEALED_RUIN_VANGUARD_DIALOGUE.md`
+6. `CH00_B06_RIFTMAW_WAR_SORCERER_DIALOGUE.md`
+7. `CH00_B07_AFTERMATH_SURVIVOR_RECOVERY_DIALOGUE.md`
+8. optional **C01 — Six Minutes** — `C01_SIX_MINUTES_DIALOGUE.md`
 
 ## Current runtime-brain alignment
 
@@ -62,7 +62,7 @@ That medical emphasis is scene-earned, not a general party-role template.
 Current result:
 - Ilyra owns real triage and real clinical observations where the scene requires them;
 - she does not own Cyanis's choices, thoughts, or direct physical experience;
-- P05 and C01 establish humor, profanity, tactical uncertainty, curiosity, first impressions, teasing, and ordinary adult social behavior outside medical work;
+- B05 and C01 establish humor, profanity, tactical uncertainty, curiosity, first impressions, teasing, and ordinary adult social behavior outside medical work;
 - her competence does not convert her into party mother, therapist, or automatic safety voice.
 
 ## Mature-adult speech — CLOSED
@@ -83,12 +83,12 @@ No profanity is inserted by quota; command/medical clarity remains clean where c
 
 The 2026-09-23 pass removed the remaining targeted canon-checker constructions from spoken dialogue.
 
-Current P01–P07 + C01 audit:
+Current B01–B07 + C01 audit:
 - **zero** targeted `that's all we know / important distinction / what do we know / not proven / that's the fact` constructions;
 - plain human uncertainty such as `Don't know`, `No idea`, or a character admitting uncertainty remains where natural;
-- P05 now expresses Ilyra's discomfort with uncertainty as irritation rather than a research-method speech;
-- P06 keeps her medical caution concrete rather than reciting knowledge-state boundaries;
-- P07 rejects a third Card test in ordinary language rather than summarizing the evidence ledger.
+- B05 now expresses Ilyra's discomfort with uncertainty as irritation rather than a research-method speech;
+- B06 keeps her medical caution concrete rather than reciting knowledge-state boundaries;
+- B07 rejects a third Card test in ordinary language rather than summarizing the evidence ledger.
 
 Reveal firewalls remain production constraints, not required spoken dialogue.
 
@@ -100,15 +100,15 @@ The spoken-dialogue rule remains:
 > **The environment shows. Evidence owners interpret. Authority figures decide. Characters react. Nobody recites the scene back to the player.**
 
 Material prior corrections remain in force, including:
-- P03 — Cyanis reports what changed operationally rather than re-explaining the same suspicion to the same officer;
-- P07 — Ilyra states her decision once and gives the reason when Cyanis actually challenges it.
+- B03 — Cyanis reports what changed operationally rather than re-explaining the same suspicion to the same officer;
+- B07 — Ilyra states her decision once and gives the reason when Cyanis actually challenges it.
 
 ## Chapter-0 story/party boundaries preserved
 
 - Cyanis is solo initially.
-- Ilyra joins combat in P04.
-- P05 Ruin Vanguard Pursuer is Cyanis + Ilyra.
-- P06 Riftmaw + War-Sorcerer is Cyanis + Ilyra.
+- Ilyra joins combat in B04.
+- B05 Ruin Vanguard Pursuer is Cyanis + Ilyra.
+- B06 Riftmaw + War-Sorcerer is Cyanis + Ilyra.
 - no random encounter table is introduced into Chapter 0.
 - Card first/second flare remains incomplete/unclassified.
 - no levels are gained in Chapter 0.
@@ -138,15 +138,15 @@ If Chapter-0 sources disagree:
 7. combined manuscript only after verified resynchronization;
 8. historical material only as provenance.
 
-> **Chapter 0 exact dialogue authority is current through P01–P07 plus C01. The combined manuscript is synchronized as a derived read-through; standalone atomic files remain wording authority.**
+> **Chapter 0 exact dialogue authority is current through B01–B07 plus C01. The combined manuscript is synchronized as a derived read-through; standalone atomic files remain wording authority.**
 
 
 ## 2026-09-22 encounter-spacing synchronization
-P01 and P02 received presentation-only gameplay staging updates so the five Cyanis-solo fights are discrete encounters with noncombat traversal/rescue space between them.
+B01 and B02 received presentation-only gameplay staging updates so the five Cyanis-solo fights are discrete encounters with noncombat traversal/rescue space between them.
 
 No spoken dialogue, reveal order, Card state, or encounter identity was changed by this spacing pass.
 
-The synchronized combined manuscript has been regenerated from the current P01/P02 atomic sources after this update.
+The synchronized combined manuscript has been regenerated from the current B01/B02 atomic sources after this update.
 
 
 ## Current Person-Brain compatibility audit

@@ -157,7 +157,7 @@ Legacy source filenames do not override canonical numbering.
 
 | Chapter | Source-level status | Chapter authority | Derived manuscript |
 |---|---|---|---|
-| Ch0 | **FULL SOURCE CLOSURE** — P01–P07 + C01; Person-Brain + Cyanis audit + Ilyra balance + adult speech + natural-turn + spoken-vs-narration; current brains aligned | `PRODUCTION/CHAPTER_00/CHAPTER_00_DIALOGUE_AUTHORITY_INDEX.md` | **CURRENT — SYNCHRONIZED** |
+| Ch0 | **FULL SOURCE CLOSURE** — B01–B07 + C01; Person-Brain + Cyanis audit + Ilyra balance + adult speech + natural-turn + spoken-vs-narration; current brains aligned | `PRODUCTION/CHAPTER_00/CHAPTER_00_DIALOGUE_AUTHORITY_INDEX.md` | **CURRENT — SYNCHRONIZED** |
 | Ch1 | **LOCKED CURRENT SOURCE** — Beats 1–12 true-voice + Chapters 0–3 continuity audited; C02/C03/C04 retained current | `PRODUCTION/CHAPTER_01/CHAPTER_01_DIALOGUE_AUTHORITY_INDEX.md` | **CURRENT — SYNCHRONIZED** |
 | Ch2 | **FULL SOURCE CLOSURE** — Beats 1–15 + C05; final ensemble + Ilyra + Torren progression + Maevra rank/friendship + adult speech + natural-turn + spoken-vs-narration; current brains aligned | `PRODUCTION/CHAPTER_02/CHAPTER_02_DIALOGUE_AUTHORITY_INDEX.md` | **CURRENT — SYNCHRONIZED** |
 | Ch3 | **FULL SOURCE CLOSURE** — Beats 1–15 + C06/C07; Person-Brain + Ilyra + Torren progression + Torren/Nimera first-contact + Nimera adult speech + current Face/subclass terminology; current brains/specs aligned | `PRODUCTION/CHAPTER_03/CHAPTER_03_DIALOGUE_AUTHORITY_INDEX.md` | **CURRENT — SYNCHRONIZED** |
@@ -169,13 +169,13 @@ The standalone atomics remain exact wording authority. The current derived manus
 # Chapter 0 key state
 
 Sequence:
-> **P01 → P02 → P03 → P04 → P05 → P06 → P07 → optional C01 → explicit departure to Brackenwall**
+> **B01 → B02 → B03 → B04 → B05 → B06 → B07 → optional C01 → explicit departure to Brackenwall**
 
 Current locks:
 - Cyanis solo initially;
-- Ilyra joins combat in P04;
-- P05 Ruin Vanguard Pursuer = Cyanis + Ilyra;
-- P06 Riftmaw + War-Sorcerer = Cyanis + Ilyra;
+- Ilyra joins combat in B04;
+- B05 Ruin Vanguard Pursuer = Cyanis + Ilyra;
+- B06 Riftmaw + War-Sorcerer = Cyanis + Ilyra;
 - no random encounter table;
 - Card flares remain incomplete/unclassified;
 - no Chapter-0 levels.

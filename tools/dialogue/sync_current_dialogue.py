@@ -70,8 +70,8 @@ CHAPTERS: tuple[ChapterSpec, ...] = (
     ChapterSpec(
         "00",
         "Chapter 0",
-        tuple(SourceSpec(f"P{n:02d}", f"P{n:02d}_*.md") for n in range(1, 8))
-        + (SourceSpec("C01 — Six Minutes", "C01_SIX_MINUTES_*.md"),),
+        tuple(SourceSpec(f"Beat {n}", f"CH00_B{n:02d}_*_DIALOGUE.md") for n in range(1, 8))
+        + (SourceSpec("C01 — Six Minutes", "C01_SIX_MINUTES_DIALOGUE.md"),),
     ),
     ChapterSpec(
         "01",

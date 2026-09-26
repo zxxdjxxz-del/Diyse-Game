@@ -1,4 +1,4 @@
-# Chapter 0 — P04
+# Chapter 0 — B04
 # Field Triage Camp / Ilyra / First Incomplete Response
 ## REHEARSAL-FIRST PRODUCTION DRAFT — PERSON-BRAIN PERFORMANCE PASS
 
@@ -266,9 +266,9 @@ Scene ends before it turns into recruitment dialogue.
 
 ---
 
-## P04 end state
+## B04 end state
 
-The first incomplete green-and-gold response has occurred and fully ended. Cyanis did not intentionally activate it. Ilyra has observed a real physical correlation between the phenomenon and Cyanis without identifying the cause. The Card is inert before P05. Ilyra has independently joined the defense because the treatment space requires the perimeter to hold.
+The first incomplete green-and-gold response has occurred and fully ended. Cyanis did not intentionally activate it. Ilyra has observed a real physical correlation between the phenomenon and Cyanis without identifying the cause. The Card is inert before B05. Ilyra has independently joined the defense because the treatment space requires the perimeter to hold.
 
 No Prime, Might, Last Sentinel, bearer, ancient-weapon, or Entity explanation is revealed.
 

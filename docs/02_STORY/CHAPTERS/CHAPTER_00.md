@@ -4,8 +4,8 @@
 **Domain rule:** this file owns mandatory Chapter-0 story structure, scene order, reveal order, recruitment state, knowledge changes, chapter-end cleanup, and story outcomes. Exact spoken wording belongs to `03_DIALOGUE`; combat mechanics/numbers belong to live battle/encounter authority.  
 **Current structural source:** the completed approved/locked Chapter-0 manuscript supplied by the user on 2026-09-08.
 
-**Status:** CURRENT COMPLETED CHAPTER-0 STRUCTURE — **P01 → P02 → P03 → P04 → P05 → P06 → P07 → optional C01**.  
-The former eight-beat split that separated Riftmaw from the final War-Sorcerer confrontation is superseded. **Riftmaw + Battle Sorcerer are now one combined final boss encounter in P06.**
+**Status:** CURRENT COMPLETED CHAPTER-0 STRUCTURE — **B01 → B02 → B03 → B04 → B05 → B06 → B07 → optional C01**.  
+The former eight-beat split that separated Riftmaw from the final War-Sorcerer confrontation is superseded. **Riftmaw + Battle Sorcerer are now one combined final boss encounter in B06.**
 
 ---
 
@@ -14,32 +14,32 @@ The former eight-beat split that separated Riftmaw from the final War-Sorcerer c
 ### Party / progression
 - Chapter 0 grants **no Player Levels**.
 - Cyanis Dovaren is the only permanent controllable character at the beginning.
-- Ilyra Amarin first enters during **P04 — Field Triage Camp / First Incomplete Response**.
-- After P04, the active combat pair is **Cyanis + Ilyra**.
+- Ilyra Amarin first enters during **B04 — Field Triage Camp / First Incomplete Response**.
+- After B04, the active combat pair is **Cyanis + Ilyra**.
 - Chapter 0 ends with **Cyanis + Ilyra** as the permanent combat-capable party.
 - The concealed Ruin Vanguard Pursuer is **Seyrik Rell** writer-facing only; he is not identified in Chapter 0.
 
 ### Recovered Card / ancient artifact
 - The **Crown had the Card excavated** from an ancient site and explicitly ordered it transported to **Caelora**.
 - Its opening importance comes from that Crown order, provenance, protected chain of custody, and destination — **not from Cards being rare or inherently mysterious**.
-- Before P04, the Card has not activated. This is strange but makes it plausibly look **inert, failed, damaged, or useless**, not secretly powerful.
+- Before B04, the Card has not activated. This is strange but makes it plausibly look **inert, failed, damaged, or useless**, not secretly powerful.
 - No character may treat the Card's initial nonactivation as evidence that it is a Prime, bearer-linked, chosen, or exceptionally powerful.
-- The **first incomplete response in P04 is the first moment the Card itself becomes genuinely anomalous** rather than merely important cargo that does not work.
-- The recovered Card remains protected cargo inside its damaged recovery casing through the start of P06.
-- The casing breaks **during P06's combined Riftmaw + Battle Sorcerer boss fight** after the second incomplete response has begun.
+- The **first incomplete response in B04 is the first moment the Card itself becomes genuinely anomalous** rather than merely important cargo that does not work.
+- The recovered Card remains protected cargo inside its damaged recovery casing through the start of B06.
+- The casing breaks **during B06's combined Riftmaw + Battle Sorcerer boss fight** after the second incomplete response has begun.
 - The Card itself survives intact.
 - From the casing break onward, the casing is unusable and retired from active continuity; Cyanis carries the Card itself.
 - The Card is not identified in Chapter 0 as a Prime, Might, Last Sentinel, bearer-confirmation device, Last Weapon, or Entity-related mechanism.
 - It produces exactly **two incomplete green-and-gold protective flares**.
 
-#### First flare — P04
+#### First flare — B04
 - Occurs during the Field Triage Camp crisis.
 - Fragmented green-and-gold geometry briefly stabilizes threatened cover/movement space.
 - The effect follows/strains Cyanis strongly enough for Ilyra to observe the correlation.
-- It fully subsides before P05.
+- It fully subsides before B05.
 - No Card protection remains active during the concealed Ruin Vanguard encounter.
 
-#### Second flare — P06
+#### Second flare — B06
 - Occurs during the combined **Riftmaw + Battle Sorcerer** final push.
 - It provides the current story-bounded opening protection to Cyanis + Ilyra for the first three rounds under encounter authority.
 - It fully fades after the encounter.
@@ -56,7 +56,7 @@ The former eight-beat split that separated Riftmaw from the final War-Sorcerer c
 
 ### Chapter-end transition
 - Chapter 0 does **not** automatically roll into Chapter 1.
-- After P07, most surviving convoy personnel, wounded, civilians, and usable wagons continue onward.
+- After B07, most surviving convoy personnel, wounded, civilians, and usable wagons continue onward.
 - Cyanis + Ilyra remain overnight at the stabilized relay/wreck-field camp with the intact Card itself and only minimal practical guard/support.
 - **C01 — Six Minutes** is optional and does not advance the chapter.
 - The actual Chapter-1 boundary is the explicit **Continue to Brackenwall?** / equivalent progression interaction.
@@ -116,7 +116,7 @@ Environmental details may reinforce known events but must not reveal:
 
 # Current Mainline Structure
 
-## P01 — Convoy / Opening Ambush
+## B01 — Convoy / Opening Ambush
 
 **Purpose**
 - introduce Cyanis through ordinary professional competence rather than prophecy/chosen-one framing;
@@ -162,7 +162,7 @@ Environmental details may reinforce known events but must not reveal:
 **Combat 3 — Cyanis solo**
 - 2 War Hounds
 
-After Combat 3, P01 hands off into Wreck Field rescue/investigation before another fight can occur.
+After Combat 3, B01 hands off into Wreck Field rescue/investigation before another fight can occur.
 
 **End state**
 - convoy badly damaged, not destroyed;
@@ -172,14 +172,14 @@ After Combat 3, P01 hands off into Wreck Field rescue/investigation before anoth
 - Card remains cased/inert;
 - Ilyra not yet present.
 
-**Handoff:** P02 — Wreck Field.
+**Handoff:** B02 — Wreck Field.
 
 **Reveal firewall**
 Do not reveal Black Host scout motive, Seyrik identity, Prime/Might/Last Sentinel, bearer status, or ancient-weapon truth.
 
 ---
 
-## P02 — Wreck Field
+## B02 — Wreck Field
 
 **Purpose**
 - show the human/logistical cost of the ambush;
@@ -208,11 +208,11 @@ Do not reveal Black Host scout motive, Seyrik identity, Prime/Might/Last Sentine
 - Card remains cased/inert;
 - Ilyra not yet present.
 
-**Handoff:** P03 — Evacuation Relay Decision.
+**Handoff:** B03 — Evacuation Relay Decision.
 
 ---
 
-## P03 — Evacuation Relay Decision
+## B03 — Evacuation Relay Decision
 
 **Purpose**
 - establish Cyanis as a professional willing to challenge an unsafe order for concrete reasons;
@@ -234,11 +234,11 @@ Do not reveal Black Host scout motive, Seyrik identity, Prime/Might/Last Sentine
 - ranking officer retains command;
 - Cyanis demonstrates judgment without becoming rogue/infallible.
 
-**Handoff:** P04 — Field Triage Camp / Ilyra / First Incomplete Response.
+**Handoff:** B04 — Field Triage Camp / Ilyra / First Incomplete Response.
 
 ---
 
-## P04 — Field Triage Camp / Ilyra / First Incomplete Response
+## B04 — Field Triage Camp / Ilyra / First Incomplete Response
 
 **Purpose**
 - introduce Ilyra Amarin through independent Blue Warden medical authority;
@@ -289,17 +289,17 @@ Do not reveal Black Host scout motive, Seyrik identity, Prime/Might/Last Sentine
 - nobody can explain it;
 - Cyanis is visibly affected/strained;
 - Ilyra has observed/treated him;
-- Card is inert before P05;
+- Card is inert before B05;
 - Cyanis + Ilyra are now the active combat pair.
 
-**Handoff:** P05 — Concealed Ruin Vanguard.
+**Handoff:** B05 — Concealed Ruin Vanguard.
 
 **Reveal firewall**
 Do not identify Prime, Might, Last Sentinel, bearer/ownership status, ancient Last Weapon, or meaning of the green-and-gold geometry.
 
 ---
 
-## P05 — Concealed Ruin Vanguard
+## B05 — Concealed Ruin Vanguard
 
 **Purpose**
 - give Cyanis + Ilyra their first ordinary combat pressure together after Ilyra joins;
@@ -324,8 +324,8 @@ Do not identify Prime, Might, Last Sentinel, bearer/ownership status, ancient La
 **Required post-encounter behavior**
 - Cyanis does not chase.
 - Ilyra's treatment-space priorities reinforce holding the line.
-- The player receives a real noncombat breathing interval / perimeter reset before P06.
-- P06 may not begin as an automatic continuation of the P05 battle result screen; the camp/perimeter must visibly return to noncombat activity first.
+- The player receives a real noncombat breathing interval / perimeter reset before B06.
+- B06 may not begin as an automatic continuation of the B05 battle result screen; the camp/perimeter must visibly return to noncombat activity first.
 
 **End state**
 - Pursuer gone alive;
@@ -333,11 +333,11 @@ Do not identify Prime, Might, Last Sentinel, bearer/ownership status, ancient La
 - encounter does not prove the northern route was bait;
 - Card remains cased/inert.
 
-**Handoff:** noncombat reset → P06.
+**Handoff:** noncombat reset → B06.
 
 ---
 
-## P06 — Riftmaw + War-Sorcerer / Final Broken Convoy Confrontation
+## B06 — Riftmaw + War-Sorcerer / Final Broken Convoy Confrontation
 
 **Purpose**
 - combine Riftmaw and the Battle Sorcerer into the single final mandatory boss encounter;
@@ -405,11 +405,11 @@ Locks:
 - neither can be deliberately reproduced or explained;
 - recovery/accounting remains unfinished.
 
-**Handoff:** P07 — Aftermath / Survivor Recovery / Overnight Camp.
+**Handoff:** B07 — Aftermath / Survivor Recovery / Overnight Camp.
 
 ---
 
-## P07 — Aftermath / Survivor Recovery / Overnight Camp
+## B07 — Aftermath / Survivor Recovery / Overnight Camp
 
 **Purpose**
 - close the crisis through recovery work rather than celebration;
