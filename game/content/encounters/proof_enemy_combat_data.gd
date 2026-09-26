@@ -8,16 +8,15 @@ class_name DiyseProofEnemyCombatData
 const DEFINITIONS := {
 	"Black Host Raider": {"hp": 28, "mp": 0, "speed": 8},
 	"Black Host Crossbowman": {"hp": 24, "mp": 0, "speed": 9},
+	"Black Host Shieldbearer": {"hp": 38, "mp": 0, "speed": 5},
 	"Ruin Shieldbearer": {"hp": 38, "mp": 0, "speed": 5},
-	"Greenhollow Stalker": {"hp": 30, "mp": 0, "speed": 10},
-	"Thornvine Creeper": {"hp": 24, "mp": 0, "speed": 6},
-	"Briar Boar": {"hp": 40, "mp": 0, "speed": 7},
+	"Thicket Stalker": {"hp": 30, "mp": 0, "speed": 10},
+	"Vine Creeper": {"hp": 24, "mp": 0, "speed": 6},
+	"Bullhog": {"hp": 40, "mp": 0, "speed": 7},
 	"Needlewing": {"hp": 22, "mp": 0, "speed": 12},
-	"Rootmaw": {"hp": 34, "mp": 0, "speed": 5},
-	"Brambleback": {"hp": 44, "mp": 0, "speed": 5},
-	"Hollow Watch Sentry": {"hp": 32, "mp": 0, "speed": 8},
-	"Hollow Watch Ballista": {"hp": 36, "mp": 0, "speed": 5},
-	"Watch Captain Frame": {"hp": 60, "mp": 0, "speed": 8},
+	"Burrowclaw": {"hp": 34, "mp": 0, "speed": 5},
+	"Barkling": {"hp": 44, "mp": 0, "speed": 5},
+	"Construct": {"hp": 32, "mp": 0, "speed": 8},
 }
 
 static func has_enemy(enemy_name: String) -> bool:

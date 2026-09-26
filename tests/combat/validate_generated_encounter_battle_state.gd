@@ -26,7 +26,7 @@ func _validate_greenhollow_coverage(failures: Array[String]) -> void:
 
 	if not ProofEnemyData.definition_for("Definitely Not An Enemy").is_empty():
 		failures.append("Proof combat data accepted an unknown enemy identity")
-	if not ProofEnemyData.build_units(["Greenhollow Stalker", "Definitely Not An Enemy"]).is_empty():
+	if not ProofEnemyData.build_units(["Thicket Stalker", "Definitely Not An Enemy"]).is_empty():
 		failures.append("Proof combat data returned a partial unit list for an unsupported formation")
 
 func _validate_generated_setup_and_rewards(failures: Array[String]) -> void:
@@ -61,7 +61,7 @@ func _validate_generated_setup_and_rewards(failures: Array[String]) -> void:
 		failures.append("Generated proof encounter invented a gold reward")
 
 func _validate_enemy_cap_and_invalid_data(failures: Array[String]) -> void:
-	var base_def := ProofEnemyData.definition_for("Thornvine Creeper")
+	var base_def := ProofEnemyData.definition_for("Vine Creeper")
 	var eight: Array[Dictionary] = []
 	for _i in range(8):
 		eight.append(base_def.duplicate(true))

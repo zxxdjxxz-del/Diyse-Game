@@ -7,12 +7,12 @@ const Catalog = preload("res://game/content/encounters/chapter_01_04_formations.
 const LevelCurve = preload("res://game/core/progression/level_curve.gd")
 
 const ALLOWED_BY_AREA := {
-	"ch01_greenhollow": ["Greenhollow Stalker", "Thornvine Creeper", "Briar Boar"],
-	"ch01_hollow_watch": ["Black Host Raider", "Black Host Crossbowman", "Ruin Shieldbearer", "Hollow Watch Sentry", "Hollow Watch Ballista", "Watch Captain Frame"],
-	"ch01_briar_south": ["Greenhollow Stalker", "Thornvine Creeper", "Briar Boar", "Needlewing", "Rootmaw", "Brambleback"],
-	"ch02_dunmere_waterworks": ["Redwater Initiate", "Bogshell", "Cistern Leech"],
-	"ch02_sunken_archive": ["Archive Current", "Memory Scribe", "Vault Sentinel", "Drowned Archive Maw"],
-	"ch02_red_transfer_bastion": ["Bastion Shield Guard", "Bastion Crossbow Guard", "Transfer Adept", "Black Host Raider", "Beast Handler", "Rift Hound"],
+	"ch01_greenhollow": ["Thicket Stalker", "Vine Creeper", "Bullhog"],
+	"ch01_hollow_watch": ["Black Host Raider", "Black Host Crossbowman", "Black Host Shieldbearer", "Construct"],
+	"ch01_briar_south": ["Thicket Stalker", "Vine Creeper", "Bullhog", "Needlewing", "Burrowclaw", "Barkling"],
+	"ch02_dunmere_waterworks": ["Bogshell", "Cistern Leech", "Needlewing"],
+	"ch02_sunken_archive": ["Archive Current", "Memory Scribe", "Bogshell", "Cistern Leech", "Needlewing"],
+	"ch02_red_transfer_bastion": ["Black Host Raider", "Black Host Crossbowman", "Ruin Shieldbearer", "Black Host War-Sorcerer", "Rift Hound"],
 	"ch03_way_fort": ["Way-Fort Marauder", "Rift Boltman", "Black Host Ward-Sorcerer"],
 	"ch03_suppressed_archives": ["Archive Scribe Engine", "Judgment Frame", "Erasure Wisp"],
 	"ch03_command_station": ["Command-Station Sentry", "Authority Lens", "Command Ring Drone"],
@@ -142,10 +142,16 @@ func _validate_chapter_01_04_catalog(failures: Array[String]) -> void:
 		failures.append("Caelora lawful personnel must not receive an ordinary random-farm table")
 	if Catalog.max_enemies_for_area("ch01_greenhollow") != 2:
 		failures.append("First Briar must retain its 2-enemy structural cap")
-	if Catalog.max_enemies_for_area("ch01_hollow_watch") != 4:
-		failures.append("Hollow Watch must retain its 4-enemy structural cap")
-	if Catalog.max_enemies_for_area("ch01_briar_south") != 5:
-		failures.append("Southern Briar must allow up to 5 active enemies")
+	if Catalog.max_enemies_for_area("ch01_hollow_watch") != 3:
+		failures.append("Hollow Watch surface must cap at 3 active enemies")
+	if Catalog.max_enemies_for_area("ch01_briar_south") != 4:
+		failures.append("Southern Briar must cap at 4 active enemies")
+	if Catalog.max_enemies_for_area("ch02_dunmere_waterworks") != 5:
+		failures.append("Old Waterworks must allow up to 5 active enemies")
+	if Catalog.max_enemies_for_area("ch02_sunken_archive") != 5:
+		failures.append("Sunken Archive must allow up to 5 active enemies")
+	if Catalog.max_enemies_for_area("ch02_red_transfer_bastion") != 6:
+		failures.append("Old Bastion must allow up to 6 active enemies")
 
 	var seen_ids := {}
 	for area_id in area_ids:
@@ -187,46 +193,45 @@ func _validate_chapter_01_subareas(failures: Array[String]) -> void:
 	var expected := {
 		"ch01_greenhollow": {
 			"upper_briar_west": 4,
-			"upper_briar_east": 6,
+			"upper_briar_east": 4,
 		},
 		"ch01_hollow_watch": {
-			"hw_approach": 3,
+			"hw_approach": 2,
 			"hw_surface": 3,
-			"hw_excavation_early": 3,
-			"hw_excavation_transition": 6,
-			"hw_excavation_deep": 4,
-			"hw_surviving_channel": 4,
-			"hw_protected_inner": 4,
+			"hw_excavation_corridor": 3,
 		},
 		"ch01_briar_south": {
-			"south_opening": 3,
-			"south_hard_middle": 6,
-			"south_side_approach": 4,
-			"south_final_leg": 4,
-			"south_cleanup_return": 4,
+			"south_opening": 2,
+			"south_early_middle": 3,
+			"south_main_middle": 4,
+			"south_deep": 6,
+			"south_final_leg": 3,
 		},
 	}
 	for area_id in expected.keys():
 		var actual_subareas := Catalog.subarea_ids_for_area(area_id)
 		if actual_subareas.size() != expected[area_id].size():
-			failures.append("%s subarea count drifted from Chapter 1 structural placement" % area_id)
+			failures.append("%s subarea count drifted from current Chapter 1 placement" % area_id)
 		for subarea_id in expected[area_id].keys():
 			var ids := Catalog.formation_ids_for_subarea(area_id, subarea_id)
 			if ids.size() != int(expected[area_id][subarea_id]):
-				failures.append("%s / %s expected %d eligible formations, got %d" % [
+				failures.append("%s / %s expected %d eligible runtime tier entries, got %d" % [
 					area_id,
 					subarea_id,
 					int(expected[area_id][subarea_id]),
 					ids.size(),
 				])
+
 	if "ch01_briar_south_h02" in Catalog.formation_ids_for_subarea("ch01_briar_south", "south_opening"):
-		failures.append("Five-enemy Canopy Rush must not appear in Southern Briar opening")
-	if "ch01_briar_south_h02" not in Catalog.formation_ids_for_subarea("ch01_briar_south", "south_hard_middle"):
-		failures.append("Five-enemy Canopy Rush must be eligible in Southern Briar hard middle")
-	if "ch01_hollow_watch_h03" in Catalog.formation_ids_for_subarea("ch01_hollow_watch", "hw_surface"):
-		failures.append("Watch Captain Frame must not appear on Hollow Watch surface")
-	if "ch01_hollow_watch_h03" not in Catalog.formation_ids_for_subarea("ch01_hollow_watch", "hw_excavation_deep"):
-		failures.append("Watch Captain Frame must become eligible in deep Hollow Watch excavation")
+		failures.append("Canopy Rush must not appear in Southern Briar opening")
+	if "ch01_briar_south_h02" not in Catalog.formation_ids_for_subarea("ch01_briar_south", "south_deep"):
+		failures.append("Canopy Rush must become eligible only in deep Southern Briar")
+	if "ch01_briar_south_h01" in Catalog.formation_ids_for_subarea("ch01_briar_south", "south_final_leg"):
+		failures.append("Four-enemy Deep Briar Mix must drop out before the Thornhide approach")
+	if "ch01_hollow_watch_h01" in Catalog.formation_ids_for_subarea("ch01_hollow_watch", "hw_excavation_corridor"):
+		failures.append("Black Host Shield Line must not appear underground")
+	if "ch01_hollow_watch_l02" in Catalog.formation_ids_for_subarea("ch01_hollow_watch", "hw_surface"):
+		failures.append("Construct-only excavation encounters must not leak onto the Hollow Watch surface")
 
 func _validate_selector(failures: Array[String]) -> void:
 	var selector = Selector.new(9876)

@@ -4,11 +4,10 @@ class_name DiyseChapter0104FormationCatalog
 const TIER_NAMES := ["light", "standard", "heavy"]
 
 # Engineering/runtime formation catalog.
-# Chapter 1 has been reconciled to the current 2026-09-22 enemy-placement locks.
-# Hunts, mandatory named encounters, and bosses are absent from random pools.
-# Strong normal-pool enemies such as Watch Captain Frame may appear where current canon permits.
-# Chapter-1 formation weights here are executable engineering placeholders. Structural composition/subarea
-# eligibility is current; final selection frequency remains open pending the later level/progression rebalance.
+# Chapters 1-2 are reconciled to the current 2026-09-25 / 2026-09-23 encounter authorities.
+# Hunts, fixed authored encounters, mandatory named encounters, and bosses are absent from random pools.
+# Tier placement / weights / EXP here remain executable engineering values pending later balance recalibration.
+# Enemy identity, formation composition, area caps, and subarea eligibility follow current structural authority.
 const AREAS := {
 	"ch01_greenhollow": {
 		"chapter": 1,
@@ -16,103 +15,105 @@ const AREAS := {
 		"formations": {
 			"light": [
 				{"id": "ch01_greenhollow_l01", "weight": 50.0, "exp": 45, "enemies": ["Thicket Stalker", "Vine Creeper"], "subareas": ["upper_briar_west", "upper_briar_east"]},
-				{"id": "ch01_greenhollow_l02", "weight": 50.0, "exp": 45, "enemies": ["Thicket Stalker", "Thicket Stalker"], "subareas": ["upper_briar_west", "upper_briar_east"]},
+				{"id": "ch01_greenhollow_l02", "weight": 50.0, "exp": 45, "enemies": ["Bullhog", "Vine Creeper"], "subareas": ["upper_briar_west", "upper_briar_east"]},
 			],
 			"standard": [
-				{"id": "ch01_greenhollow_s01", "weight": 50.0, "exp": 55, "enemies": ["Briar Boar", "Vine Creeper"], "subareas": ["upper_briar_west", "upper_briar_east"]},
-				{"id": "ch01_greenhollow_s02", "weight": 50.0, "exp": 55, "enemies": ["Thicket Stalker", "Briar Boar"], "subareas": ["upper_briar_west", "upper_briar_east"]},
+				{"id": "ch01_greenhollow_s01", "weight": 100.0, "exp": 55, "enemies": ["Thicket Stalker", "Bullhog"], "subareas": ["upper_briar_west", "upper_briar_east"]},
 			],
 			"heavy": [
-				{"id": "ch01_greenhollow_h01", "weight": 50.0, "exp": 70, "enemies": ["Vine Creeper", "Vine Creeper"], "subareas": ["upper_briar_east"]},
-				{"id": "ch01_greenhollow_h02", "weight": 50.0, "exp": 70, "enemies": ["Briar Boar", "Briar Boar"], "subareas": ["upper_briar_east"]},
+				{"id": "ch01_greenhollow_h01", "weight": 100.0, "exp": 70, "enemies": ["Thicket Stalker", "Vine Creeper"], "subareas": ["upper_briar_west", "upper_briar_east"]},
 			],
 		},
 	},
 	"ch01_hollow_watch": {
 		"chapter": 1,
-		"max_enemies": 4,
+		"max_enemies": 3,
 		"formations": {
 			"light": [
-				{"id": "ch01_hollow_watch_l01", "weight": 50.0, "exp": 45, "enemies": ["Black Host Raider", "Black Host Raider", "Black Host Crossbowman"], "subareas": ["hw_approach", "hw_surface", "hw_excavation_early", "hw_excavation_transition"]},
-				{"id": "ch01_hollow_watch_l02", "weight": 50.0, "exp": 45, "enemies": ["Hollow Watch Sentry", "Hollow Watch Sentry"], "subareas": ["hw_excavation_transition", "hw_excavation_deep", "hw_surviving_channel", "hw_protected_inner"]},
+				{"id": "ch01_hollow_watch_l01", "weight": 50.0, "exp": 45, "enemies": ["Black Host Raider", "Black Host Crossbowman"], "subareas": ["hw_approach", "hw_surface"]},
+				{"id": "ch01_hollow_watch_l02", "weight": 50.0, "exp": 45, "enemies": ["Construct"], "subareas": ["hw_excavation_corridor"]},
 			],
 			"standard": [
-				{"id": "ch01_hollow_watch_s01", "weight": 50.0, "exp": 55, "enemies": ["Black Host Raider", "Black Host Crossbowman", "Ruin Shieldbearer"], "subareas": ["hw_approach", "hw_surface", "hw_excavation_early", "hw_excavation_transition"]},
-				{"id": "ch01_hollow_watch_s02", "weight": 50.0, "exp": 55, "enemies": ["Hollow Watch Sentry", "Hollow Watch Sentry", "Hollow Watch Ballista"], "subareas": ["hw_excavation_transition", "hw_excavation_deep", "hw_surviving_channel", "hw_protected_inner"]},
+				{"id": "ch01_hollow_watch_s01", "weight": 50.0, "exp": 55, "enemies": ["Black Host Raider", "Black Host Raider", "Black Host Crossbowman"], "subareas": ["hw_approach", "hw_surface"]},
+				{"id": "ch01_hollow_watch_s02", "weight": 50.0, "exp": 55, "enemies": ["Construct", "Construct"], "subareas": ["hw_excavation_corridor"]},
 			],
 			"heavy": [
-				{"id": "ch01_hollow_watch_h01", "weight": 34.0, "exp": 70, "enemies": ["Black Host Crossbowman", "Black Host Crossbowman", "Ruin Shieldbearer"], "subareas": ["hw_approach", "hw_surface", "hw_excavation_early", "hw_excavation_transition"]},
-				{"id": "ch01_hollow_watch_h02", "weight": 33.0, "exp": 70, "enemies": ["Hollow Watch Sentry", "Hollow Watch Ballista", "Hollow Watch Ballista"], "subareas": ["hw_excavation_transition", "hw_excavation_deep", "hw_surviving_channel", "hw_protected_inner"]},
-				{"id": "ch01_hollow_watch_h03", "weight": 33.0, "exp": 70, "enemies": ["Watch Captain Frame", "Hollow Watch Sentry", "Hollow Watch Ballista"], "subareas": ["hw_excavation_deep", "hw_surviving_channel", "hw_protected_inner"]},
+				{"id": "ch01_hollow_watch_h01", "weight": 50.0, "exp": 70, "enemies": ["Black Host Raider", "Black Host Crossbowman", "Black Host Shieldbearer"], "subareas": ["hw_surface"]},
+				{"id": "ch01_hollow_watch_h02", "weight": 50.0, "exp": 70, "enemies": ["Construct", "Construct"], "subareas": ["hw_excavation_corridor"]},
 			],
 		},
 	},
 	"ch01_briar_south": {
 		"chapter": 1,
-		"max_enemies": 5,
+		"max_enemies": 4,
 		"formations": {
 			"light": [
-				{"id": "ch01_briar_south_l01", "weight": 50.0, "exp": 45, "enemies": ["Needlewing", "Thicket Stalker", "Briar Boar"], "subareas": ["south_opening", "south_hard_middle", "south_side_approach", "south_final_leg", "south_cleanup_return"]},
-				{"id": "ch01_briar_south_l02", "weight": 50.0, "exp": 45, "enemies": ["Rootmaw", "Vine Creeper", "Needlewing"], "subareas": ["south_opening", "south_hard_middle", "south_side_approach"]},
+				{"id": "ch01_briar_south_l01", "weight": 50.0, "exp": 45, "enemies": ["Needlewing", "Thicket Stalker", "Bullhog"], "subareas": ["south_opening", "south_early_middle", "south_main_middle", "south_deep", "south_final_leg"]},
+				{"id": "ch01_briar_south_l02", "weight": 50.0, "exp": 45, "enemies": ["Needlewing", "Vine Creeper", "Bullhog"], "subareas": ["south_opening", "south_early_middle", "south_main_middle", "south_deep"]},
 			],
 			"standard": [
-				{"id": "ch01_briar_south_s01", "weight": 50.0, "exp": 55, "enemies": ["Rootmaw", "Vine Creeper", "Vine Creeper", "Needlewing"], "subareas": ["south_hard_middle", "south_side_approach"]},
-				{"id": "ch01_briar_south_s02", "weight": 50.0, "exp": 55, "enemies": ["Rubbleback", "Briar Boar", "Vine Creeper"], "subareas": ["south_opening", "south_hard_middle", "south_side_approach", "south_final_leg", "south_cleanup_return"]},
+				{"id": "ch01_briar_south_s01", "weight": 50.0, "exp": 55, "enemies": ["Burrowclaw", "Thicket Stalker", "Vine Creeper"], "subareas": ["south_early_middle", "south_main_middle", "south_deep", "south_final_leg"]},
+				{"id": "ch01_briar_south_s02", "weight": 50.0, "exp": 55, "enemies": ["Barkling", "Bullhog", "Needlewing"], "subareas": ["south_main_middle", "south_deep", "south_final_leg"]},
 			],
 			"heavy": [
-				{"id": "ch01_briar_south_h01", "weight": 50.0, "exp": 70, "enemies": ["Rubbleback", "Briar Boar", "Rootmaw", "Vine Creeper"], "subareas": ["south_hard_middle", "south_final_leg", "south_cleanup_return"]},
-				{"id": "ch01_briar_south_h02", "weight": 50.0, "exp": 70, "enemies": ["Needlewing", "Needlewing", "Thicket Stalker", "Rootmaw", "Briar Boar"], "subareas": ["south_hard_middle", "south_final_leg", "south_cleanup_return"]},
+				{"id": "ch01_briar_south_h01", "weight": 50.0, "exp": 70, "enemies": ["Barkling", "Burrowclaw", "Vine Creeper", "Needlewing"], "subareas": ["south_deep"]},
+				{"id": "ch01_briar_south_h02", "weight": 50.0, "exp": 70, "enemies": ["Needlewing", "Needlewing", "Thicket Stalker", "Bullhog"], "subareas": ["south_deep"]},
 			],
 		},
 	},
 	"ch02_dunmere_waterworks": {
 		"chapter": 2,
+		"max_enemies": 5,
 		"formations": {
 			"light": [
-				{"id": "ch02_dunmere_l01", "weight": 50.0, "exp": 130, "enemies": ["Cistern Leech", "Cistern Leech", "Bogshell"]},
-				{"id": "ch02_dunmere_l02", "weight": 50.0, "exp": 130, "enemies": ["Needlewing", "Cistern Leech", "Cistern Leech"]},
+				{"id": "ch02_dunmere_l01", "weight": 50.0, "exp": 130, "enemies": ["Bogshell", "Cistern Leech", "Cistern Leech"], "subareas": ["waterworks_early", "waterworks_flooded_middle"]},
+				{"id": "ch02_dunmere_l02", "weight": 50.0, "exp": 130, "enemies": ["Needlewing", "Cistern Leech", "Cistern Leech"], "subareas": ["waterworks_early", "waterworks_flooded_middle"]},
 			],
 			"standard": [
-				{"id": "ch02_dunmere_s01", "weight": 50.0, "exp": 165, "enemies": ["Needlewing", "Bogshell", "Cistern Leech"]},
-				{"id": "ch02_dunmere_s02", "weight": 50.0, "exp": 165, "enemies": ["Bogshell", "Bogshell", "Cistern Leech", "Cistern Leech"]},
+				{"id": "ch02_dunmere_s01", "weight": 50.0, "exp": 165, "enemies": ["Bogshell", "Cistern Leech", "Needlewing", "Needlewing"], "subareas": ["waterworks_early", "waterworks_flooded_middle", "waterworks_ancient_threshold"]},
+				{"id": "ch02_dunmere_s02", "weight": 50.0, "exp": 165, "enemies": ["Bogshell", "Cistern Leech", "Cistern Leech", "Cistern Leech"], "subareas": ["waterworks_flooded_middle", "waterworks_ancient_threshold"]},
 			],
 			"heavy": [
-				{"id": "ch02_dunmere_h01", "weight": 50.0, "exp": 200, "enemies": ["Needlewing", "Needlewing", "Bogshell", "Cistern Leech"]},
-				{"id": "ch02_dunmere_h02", "weight": 50.0, "exp": 200, "enemies": ["Needlewing", "Bogshell", "Cistern Leech", "Cistern Leech"]},
+				{"id": "ch02_dunmere_h01", "weight": 100.0, "exp": 200, "enemies": ["Bogshell", "Needlewing", "Needlewing", "Cistern Leech", "Cistern Leech"], "subareas": ["waterworks_flooded_middle", "waterworks_ancient_threshold"]},
 			],
 		},
 	},
 	"ch02_sunken_archive": {
 		"chapter": 2,
+		"max_enemies": 5,
 		"formations": {
 			"light": [
-				{"id": "ch02_archive_l01", "weight": 50.0, "exp": 130, "enemies": ["Archive Current", "Memory Scribe", "Hollow Watch Sentry"]},
-				{"id": "ch02_archive_l02", "weight": 50.0, "exp": 130, "enemies": ["Needlewing", "Archive Current", "Cistern Leech"]},
+				{"id": "ch02_archive_l01", "weight": 50.0, "exp": 130, "enemies": ["Bogshell", "Cistern Leech", "Archive Current"], "subareas": ["archive_entrance", "archive_mid"]},
+				{"id": "ch02_archive_l02", "weight": 50.0, "exp": 130, "enemies": ["Needlewing", "Archive Current", "Memory Scribe"], "subareas": ["archive_entrance", "archive_mid", "archive_depths"]},
 			],
 			"standard": [
-				{"id": "ch02_archive_s01", "weight": 50.0, "exp": 165, "enemies": ["Memory Scribe", "Hollow Watch Sentry", "Archive Current", "Archive Current"]},
-				{"id": "ch02_archive_s02", "weight": 50.0, "exp": 165, "enemies": ["Bogshell", "Cistern Leech", "Needlewing", "Archive Current"]},
+				{"id": "ch02_archive_s01", "weight": 50.0, "exp": 165, "enemies": ["Archive Current", "Archive Current", "Memory Scribe", "Cistern Leech"], "subareas": ["archive_mid", "archive_depths"]},
+				{"id": "ch02_archive_s02", "weight": 50.0, "exp": 165, "enemies": ["Bogshell", "Archive Current", "Memory Scribe", "Needlewing"], "subareas": ["archive_entrance", "archive_mid", "archive_depths"]},
 			],
 			"heavy": [
-				{"id": "ch02_archive_h01", "weight": 50.0, "exp": 200, "enemies": ["Memory Scribe", "Hollow Watch Sentry", "Hollow Watch Sentry", "Archive Current"]},
-				{"id": "ch02_archive_h02", "weight": 50.0, "exp": 200, "enemies": ["Needlewing", "Bogshell", "Cistern Leech", "Memory Scribe"]},
+				{"id": "ch02_archive_h01", "weight": 100.0, "exp": 200, "enemies": ["Archive Current", "Archive Current", "Memory Scribe", "Bogshell", "Cistern Leech"], "subareas": ["archive_depths"]},
 			],
 		},
 	},
 	"ch02_red_transfer_bastion": {
+		# Legacy runtime area key retained until the presentation/environment asset is renamed.
+		# Current story/encounter identity is Old Bastion.
 		"chapter": 2,
+		"max_enemies": 6,
 		"formations": {
 			"light": [
-				{"id": "ch02_bastion_l01", "weight": 50.0, "exp": 130, "enemies": ["Bastion Crossbow Guard", "Transfer Adept", "Black Host Raider"]},
-				{"id": "ch02_bastion_l02", "weight": 50.0, "exp": 130, "enemies": ["Bastion Shield Guard", "Beast Handler", "Rift Hound"]},
+				{"id": "ch02_bastion_l01", "weight": 50.0, "exp": 130, "enemies": ["Black Host Raider", "Black Host Crossbowman", "Ruin Shieldbearer"], "subareas": ["bastion_alarm_opening", "bastion_alerted_interior"]},
+				{"id": "ch02_bastion_l02", "weight": 50.0, "exp": 130, "enemies": ["Black Host Raider", "Rift Hound", "Rift Hound", "Black Host Crossbowman"], "subareas": ["bastion_alarm_opening"]},
 			],
 			"standard": [
-				{"id": "ch02_bastion_s01", "weight": 50.0, "exp": 165, "enemies": ["Bastion Shield Guard", "Bastion Crossbow Guard", "Transfer Adept", "Rift Hound"]},
-				{"id": "ch02_bastion_s02", "weight": 50.0, "exp": 165, "enemies": ["Bastion Shield Guard", "Black Host Raider", "Beast Handler", "Rift Hound"]},
+				{"id": "ch02_bastion_s01", "weight": 50.0, "exp": 165, "enemies": ["Ruin Shieldbearer", "Black Host Crossbowman", "Black Host Crossbowman", "Black Host Raider"], "subareas": ["bastion_alarm_opening", "bastion_alerted_interior", "bastion_final_ascent"]},
+				{"id": "ch02_bastion_s02", "weight": 50.0, "exp": 165, "enemies": ["Ruin Shieldbearer", "Black Host War-Sorcerer", "Black Host Crossbowman", "Black Host Raider"], "subareas": ["bastion_alarm_opening", "bastion_alerted_interior"]},
 			],
 			"heavy": [
-				{"id": "ch02_bastion_h01", "weight": 50.0, "exp": 200, "enemies": ["Bastion Shield Guard", "Bastion Crossbow Guard", "Bastion Crossbow Guard", "Transfer Adept"]},
-				{"id": "ch02_bastion_h02", "weight": 50.0, "exp": 200, "enemies": ["Bastion Shield Guard", "Transfer Adept", "Beast Handler", "Rift Hound"]},
+				{"id": "ch02_bastion_h01", "weight": 25.0, "exp": 200, "enemies": ["Ruin Shieldbearer", "Black Host Raider", "Black Host Raider", "Black Host Raider", "Black Host Crossbowman"], "subareas": ["bastion_alerted_interior", "bastion_final_ascent"]},
+				{"id": "ch02_bastion_h02", "weight": 25.0, "exp": 200, "enemies": ["Ruin Shieldbearer", "Black Host Raider", "Black Host Raider", "Black Host Crossbowman", "Black Host War-Sorcerer"], "subareas": ["bastion_final_ascent"]},
+				{"id": "ch02_bastion_h03", "weight": 25.0, "exp": 200, "enemies": ["Ruin Shieldbearer", "Black Host Raider", "Black Host Crossbowman", "Rift Hound", "Rift Hound"], "subareas": ["bastion_alerted_interior", "bastion_final_ascent"]},
+				{"id": "ch02_bastion_h04", "weight": 25.0, "exp": 200, "enemies": ["Ruin Shieldbearer", "Black Host Raider", "Black Host Raider", "Black Host Raider", "Black Host Crossbowman", "Black Host Crossbowman"], "subareas": ["bastion_final_ascent"]},
 			],
 		},
 	},
