@@ -138,6 +138,51 @@ Keep the new chemistry **selective**. Chapter 4 should aim for roughly three mea
 
 Do not require a matching counterfactual beat in Beats 6, 7, 9, 10, or 12. Those scenes are allowed to use completely different parts of Ilyra and Vaelira's personalities.
 
+### Beat-8 serious reasoning handoff
+
+Preferred logical shape after the six pair tests have validated but the residual continues:
+
+1. the group has good reason to trust the individual branch and pair results;
+2. Ilyra notices the hidden assumption: **that successful local validation means the complete system should settle**;
+3. she opens the branch rather than naming the scientific answer;
+4. Vaelira checks whether the readings permit all local relationships to remain correct while the total system behaves differently;
+5. only then does attention shift toward the complete-system level and Central Regulation.
+
+Ilyra should not introduce technical terms she does not own. A natural thought shape is closer to:
+> what if none of the pairs are the thing that's wrong?
+
+Vaelira's job is to translate that into mechanism/model language if the evidence supports it.
+
+This is still a **hypothesis at Beat 8**, not the final Seventh Reaction conclusion. Beat 9 provides direct whole-system observation and Beat 10 proves the chapter's scientific conclusion through the boss/presentation.
+
+### Beat-11 first speculative spiral boundary
+
+The first real Ilyra/Vaelira runaway theory should begin **after** the evidence chain is secure and immediate danger is over.
+
+Safe starting premise:
+> if a complete four-element system can produce emergent behavior here, a sufficiently similar complete system elsewhere might also require whole-system validation rather than pairwise validation alone.
+
+Allowed escalation:
+- asking how similar the conditions would need to be;
+- wondering which variables would matter most;
+- realizing they do not yet know the threshold;
+- imagining increasingly unpleasant consequences in purely conditional terms;
+- becoming visibly less comfortable as each supplies another plausible condition.
+
+Required brakes:
+- they do not establish that another such system actually exists;
+- they do not identify a location where this will happen;
+- they do not infer the Ancient Wayfinder's true six-Face network;
+- they do not infer Prime activation behavior;
+- they do not turn hypothetical risk into a new mandatory quest;
+- another character may ground the discussion by asking what evidence supports the first premise or whether the theory changes any current action.
+
+Tone progression should be:
+> calm curiosity → technical/counterfactual extension → realization of implication → mutual unease → grounding/recovery
+
+not:
+> instant panic → screaming → slapstick.
+
 Cognitive separation:
 - **Ilyra:** opens counterfactual possibility — what changes if the current assumption is wrong?
 - **Vaelira:** tests mechanism — how could that possibility physically or magically occur?
