@@ -15,7 +15,7 @@ This is a character-logic map, not a substitute for exact dialogue scripts. It a
 | Cyanis / Seyrik | trust must not become speaking for Seyrik; adult agency remains his | initially formal/command-shaped; develops toward surprisingly ordinary friendship without forced informality |
 | Ilyra / Torren | care and field pragmatism without interrogation | begins low-verbal-density and professionally quiet; grows into dry jokes, profanity, ordinary conversation, and comfortable silence where neither needs to fill the air |
 | Ilyra / Nimera | unusually direct dry/profane humor plus low-pressure care | warmth, curiosity, preservation, and humor; Ilyra is less scandalized by Nimera than Nimera may expect |
-| Ilyra / Vaelira | professional precision and care without intrusion | calm but real disagreement over consequence versus technical possibility; independent friendship also supports gossip, presentation/vanity, ordinary complaints, dry humor, and quiet companionship without therapist dynamics |
+| Ilyra / Vaelira | counterfactual possibility meeting causal mechanism, alongside professional precision and care without intrusion | Ilyra naturally opens plausible `what if` branches; Vaelira tests how those branches could work. The pairing can produce real discoveries or, occasionally, a comic mutual escalation where each gives the other one more reason the scenario might be possible until both have unsettled themselves. Either can stop the spiral; Vaelira should reject physically impossible premises cleanly. Their friendship also supports gossip, presentation/vanity, ordinary complaints, dry humor, and quiet companionship without therapist dynamics. |
 | Ilyra / Seyrik | mercy does not remove agency or accountability; grows into one of Seyrik's major permanent-party friendships | begins with careful clarity around guilt, injury, care, agency, consent, and responsibility; develops through repeated ordinary contact into mutual humor, preference, profanity, disagreement, chosen company, reciprocal care, and safe use of `no` without therapist/patient or redemption-project framing |
 | Torren / Nimera | Ch3 begins as first-contact field judgment vs archival/provenance reasoning; later reciprocal training and trust become familial | early: mutual testing, correction, accidental comedy, professional respect; later over several chapters: increasingly personal practical care and private shorthand; eventual destination: strong father/daughter-like bond without infantilization or loss of Nimera's adult agency |
 | Torren / Vaelira | empirical ground judgment and formal calibration can respect each other | tacit field expertise versus formal model/calibration; Vaelira wants the cues behind reliable judgment, Torren may not always formalize them cleanly; "good enough" versus cleaner method creates useful and often funny friction without anti-science/anti-field caricature |
@@ -64,6 +64,26 @@ Torren's own increasing comfort is also audible across chapters.
 - **Chapter 1:** expertise is his easiest route into longer speech; he is guarded but already begins voluntary joking and affectionate irritation by the end.
 - **Chapter 2:** he is noticeably more comfortable with Cyanis, Ilyra, and Maevra; he may start jokes, prolong arguments, tell stories, volunteer mundane opinions, and speak in complete ordinary turns even when no route/map expertise is required.
 - **Chapter 3+:** that comfort remains with established companions. It does **not** automatically transfer to newly met characters such as Nimera; each new relationship must earn its own shorthand.
+
+### Ilyra / Vaelira counterfactual-theory progression lock
+
+This dynamic begins only after Vaelira joins in **Chapter 4** and should grow through recognition rather than arrive as established shorthand.
+
+- **early Chapter 4:** Ilyra may offer an alternate possibility and discover that Vaelira takes the mechanism seriously instead of merely dismissing the hypothetical. Their exchange remains mostly professional.
+- **developing:** Ilyra increasingly trusts Vaelira to follow a speculative branch, while Vaelira learns that Ilyra's counterfactual questions can expose assumptions worth testing. Either can still stop an unproductive branch.
+- **established:** they can anticipate and extend one another's reasoning quickly. Serious scenes may use this to find a real overlooked possibility. Low-stakes scenes may let the pair push a plausible premise several steps too far until they have genuinely scared or unsettled themselves.
+- **comic reversal:** Ilyra can be joking when Vaelira suddenly realizes the joke implies a real mechanism; Vaelira can also flatly kill one of Ilyra's absurd possibilities because it is physically impossible.
+
+The humor works because both characters remain intelligent. Do not make the pattern constant, do not make either woman gullible, and do not turn speculative escalation into their only interaction.
+
+**Three-way cognition with Nimera:**
+- Ilyra expands the plausible possibility space;
+- Vaelira asks what mechanism could produce it and how it could be tested;
+- Nimera constrains what confidence the group has earned from records, provenance, and evidence.
+
+This is a useful ensemble tendency, not a mandatory speaking order. None of the three is automatically correct by archetype.
+
+**Route boundary:** Ilyra's counterfactual role does not make her an alternate-route/pathfinding specialist. Terrain, navigation, physical approaches, exits, and route selection remain primarily Torren/Cyanis/Seyrik territory according to scene expertise.
 
 ### Ilyra / Seyrik friendship progression lock
 
