@@ -2,11 +2,14 @@ extends RefCounted
 class_name DiyseLevelCurve
 
 const MIN_LEVEL := 1
-const MAX_LEVEL := 60
+const MAX_LEVEL := 70
 const RAMP_START_LEVEL := 17
-const RAMP_END_LEVEL := 59
+const RAMP_REFERENCE_END_LEVEL := 59
 const RAMP_GAIN := 0.35
 const ROUND_EPSILON := 0.000001
+
+# The locked Player EXP formula keeps the same /42 ramp denominator beyond Lv60.
+# RAMP_REFERENCE_END_LEVEL is therefore a formula reference, not the player cap.
 
 static func level_up_cost(current_level: int) -> int:
 	if current_level < MIN_LEVEL or current_level >= MAX_LEVEL:
@@ -14,7 +17,7 @@ static func level_up_cost(current_level: int) -> int:
 	var base_cost := 100 * (2 * current_level - 1)
 	if current_level < RAMP_START_LEVEL:
 		return base_cost
-	var multiplier := 1.0 + RAMP_GAIN * float(current_level - RAMP_START_LEVEL) / float(RAMP_END_LEVEL - RAMP_START_LEVEL)
+	var multiplier := 1.0 + RAMP_GAIN * float(current_level - RAMP_START_LEVEL) / float(RAMP_REFERENCE_END_LEVEL - RAMP_START_LEVEL)
 	return _round_to_nearest_hundred_half_even(float(base_cost) * multiplier)
 
 static func cumulative_exp_for_level(level: int) -> int:

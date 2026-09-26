@@ -37,6 +37,16 @@ const EXP_MILESTONES := {
 	58: 384200,
 	59: 399600,
 	60: 415400,
+	61: 431600,
+	62: 448100,
+	63: 465000,
+	64: 482300,
+	65: 500000,
+	66: 518100,
+	67: 536500,
+	68: 555300,
+	69: 574500,
+	70: 594100,
 }
 
 func _initialize() -> void:
@@ -79,6 +89,8 @@ func _validate_balance_profiles(failures: Array[String]) -> void:
 		failures.append("Chapter 1 heavy-tier cutoff is incorrect")
 
 func _validate_level_curve(failures: Array[String]) -> void:
+	if LevelCurve.MAX_LEVEL != 70:
+		failures.append("Player level cap must be 70")
 	for level in EXP_MILESTONES.keys():
 		var expected := int(EXP_MILESTONES[level])
 		var actual := LevelCurve.cumulative_exp_for_level(int(level))
@@ -90,10 +102,18 @@ func _validate_level_curve(failures: Array[String]) -> void:
 		failures.append("312,399 EXP must remain Level 52")
 	if LevelCurve.level_for_exp(312400) != 53:
 		failures.append("312,400 EXP must be Level 53")
-	if LevelCurve.level_for_exp(9999999) != 60:
-		failures.append("Level curve must clamp at Level 60")
-	if LevelCurve.exp_to_next_level(415400) != 0:
-		failures.append("Level 60 must not expose overflow level progression")
+	if LevelCurve.level_for_exp(594099) != 69:
+		failures.append("594,099 EXP must remain Level 69")
+	if LevelCurve.level_for_exp(594100) != 70:
+		failures.append("594,100 EXP must reach Level 70")
+	if LevelCurve.level_for_exp(9999999) != 70:
+		failures.append("Level curve must clamp at Level 70")
+	if LevelCurve.level_up_cost(69) != 19600:
+		failures.append("Level 69 -> 70 must cost 19,600 EXP")
+	if LevelCurve.exp_to_next_level(574500) != 19600:
+		failures.append("Level 69 at 574,500 EXP must need 19,600 EXP to reach Level 70")
+	if LevelCurve.exp_to_next_level(594100) != 0:
+		failures.append("Level 70 must not expose overflow level progression")
 
 func _validate_pressure(failures: Array[String]) -> void:
 	if Pressure.chance_for_spacing(0.34) != 0.0:
