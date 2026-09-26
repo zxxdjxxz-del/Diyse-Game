@@ -54,14 +54,16 @@ func _run_validation() -> void:
 
 	for early_id in ["B01", "B02", "B03"]:
 		if loaded.has(early_id):
-			_expect("ilyra" not in loaded[early_id].participants, "Ilyra must not enter before B04: %s" % early_id)
+			var early_scene: DiyseDialogueSceneDefinition = loaded[early_id]
+			_expect("ilyra" not in early_scene.participants, "Ilyra must not enter before B04: %s" % early_id)
 	for later_id in ["B04", "B05", "B06", "B07"]:
 		if loaded.has(later_id):
-			_expect("ilyra" in loaded[later_id].participants, "Ilyra must be present after her B04 entry: %s" % later_id)
+			var later_scene: DiyseDialogueSceneDefinition = loaded[later_id]
+			_expect("ilyra" in later_scene.participants, "Ilyra must be present after her B04 entry: %s" % later_id)
 
 	if loaded.has("C01"):
-		var c01 = loaded["C01"]
-		_expect(c01.participants == Array[String](["ilyra", "cyanis"]), "C01 Six Minutes must remain Ilyra + Cyanis")
+		var c01: DiyseDialogueSceneDefinition = loaded["C01"]
+		_expect(c01.participants == ["ilyra", "cyanis"], "C01 Six Minutes must remain Ilyra + Cyanis")
 		var spoken_text := ""
 		for beat in c01.beats:
 			spoken_text += " " + str(beat.get("text", "")).to_lower()
