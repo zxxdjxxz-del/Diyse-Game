@@ -3,7 +3,7 @@
 **Current whole-project written authority:** **v2.20 / Audit135**, plus later explicit user corrections/current domain migrations.  
 **Domain rule:** this file owns mandatory Chapter-2 story structure, scene order, reveal order, recruitment state, knowledge changes, and story outcomes. Exact dialogue belongs to the current rehearsal-first Agent Brain pipeline in `03_DIALOGUE`; combat mechanics belong to battle/encounter authority.
 
-**Status:** **LOCKED REVISED CHAPTER-2 STORY STRUCTURE / 15 ACTIVE MANDATORY BEATS + C05. LEGACY B06 MAP-MURAL SLOT RETIRED.**
+**Status:** **LOCKED REVISED CHAPTER-2 STORY STRUCTURE / 15 ACTIVE MANDATORY BEATS + C05.**
 
 ## Dialogue-production rule
 Chapter 2 uses the locked Chapter-0/1 production method:
@@ -126,7 +126,7 @@ Do not add manifests, exact prisoner totals, transfer ledgers, or environmental 
 
 ---
 
-# Locked 16-Beat Structure
+# Locked 15-Beat Structure
 
 ## Beat 1 — Path Outside Dunmere
 Purpose: clean Chapter-2 opening immediately outside Dunmere.
@@ -215,20 +215,12 @@ Purpose: establish the ancient complex as a substantial location.
 - older than the waterworks and Old Bastion;
 - not an active Black Host facility.
 
-End → Beat 7.
+End → Beat 6.
 
 ---
 
-## Legacy B06 — Western Map Mural — RETIRED
-There is **no Chapter-2 map mural scene or second major cartographic discovery**.
 
-The Chapter-1 Wayfinder remains the party's latest major Ancient map evidence throughout Chapter 2. Do not add a replacement wall map, route plate, Crest-marked map structure, Caelora-city map reveal, or equivalent cartographic payoff elsewhere in this chapter.
-
-The B06 identifier is retired only to preserve stable downstream production/runtime numbering. Current story flow goes directly from Beat 5 to Beat 7.
-
----
-
-## Beat 7 — Archive Depths
+## Beat 6 — Archive Depths
 Purpose: substantial deeper exploration of the Ancient complex before the boss.
 
 - worsening environmental pressure/hazards;
@@ -237,11 +229,11 @@ Purpose: substantial deeper exploration of the Ancient complex before the boss.
 - no clean alternate route;
 - Archive Leviathan blocks progression.
 
-End → Beat 8.
+End → Beat 7.
 
 ---
 
-## Beat 8 — Archive Leviathan
+## Beat 7 — Archive Leviathan
 Purpose: Sunken Archive combat climax.
 
 - this is not the Major Hunt Worldscar Leviathan;
@@ -251,11 +243,11 @@ Purpose: Sunken Archive combat climax.
 - exact mechanics/rewards remain encounter authority;
 - victory opens physical progression, not exposition or records.
 
-End → Beat 9.
+End → Beat 8.
 
 ---
 
-## Beat 9 — Secret Passage Discovery
+## Beat 8 — Secret Passage Discovery
 Purpose: connect the ancient Archive directly to the Old Bastion prisoner infrastructure.
 
 - old concealed passage belongs to the ancient structure;
@@ -267,11 +259,11 @@ Purpose: connect the ancient Archive directly to the Old Bastion prisoner infras
 Hard rule:
 > **There is no transfer-records story beat between the Archive and the prisoners.**
 
-End → Beat 10.
+End → Beat 9.
 
 ---
 
-## Beat 10 — Prisoner Galleries / First Contact
+## Beat 9 — Prisoner Galleries / First Contact
 Purpose: make the kidnapping operation human and reveal the Old Bastion's holding/transit function through lived prisoner experience.
 
 Current prisoners include:
@@ -294,11 +286,11 @@ Ilyra asks consent before non-emergency examination/treatment where appropriate;
 
 Prisoners credibly identify **Commander Rhazek as the officer commanding the Old Bastion**. The party recognizes him as a known high-ranking Black Host commander.
 
-End → local part of galleries freed, but escape remains unsafe while Rhazek controls the fort / Beat 11.
+End → local part of galleries freed, but escape remains unsafe while Rhazek controls the fort / Beat 10.
 
 ---
 
-## Beat 11 — Prisoner Safe Area / Exit Problem
+## Beat 10 — Prisoner Safe Area / Exit Problem
 Purpose: create a defensible lower safe area and convert the rescue into a tactical requirement.
 
 - prisoners retain agency/control of their safe-area interior;
@@ -311,11 +303,11 @@ Decision:
 
 Maevra remains noncombat and may help organize the prisoners.
 
-End → Beat 12.
+End → Beat 11.
 
 ---
 
-## Beat 12 — Bastion Command Ascent
+## Beat 11 — Bastion Command Ascent
 Purpose: transition into the active Black Host fort and carry the party toward Rhazek.
 
 Hard rule:
@@ -323,13 +315,13 @@ Hard rule:
 
 Show a coherent subset of guard rotations, maintained equipment/supplies, logistical/support spaces, messenger/order traffic, gates/checkpoints, prisoner handling/staging, and legitimate care of Host wounded. Do not recreate the retired records beat through manifests, exact totals, or a destination ledger.
 
-Resistance becomes organized as surprise erodes. No infinite reinforcements. The masked officer is reserved for Beat 13.
+Resistance becomes organized as surprise erodes. No infinite reinforcements. The masked officer is reserved for Beat 12.
 
-End → Beat 13.
+End → Beat 12.
 
 ---
 
-## Beat 13 — Rhazek / Masked Officer
+## Beat 12 — Rhazek / Masked Officer
 Purpose: direct confrontation, establish Rhazek's policy ownership, and seed Seyrik without identification.
 
 Hard rule:
@@ -337,15 +329,15 @@ Hard rule:
 
 An unnamed masked second officer is reporting to him. Writer-facing truth: **Seyrik Rell**. Player-facing firewall: unnamed, masked, not correctly identified, no subtitle/document/history/future-recruitment reveal, and no exaggerated future-party framing.
 
-The masked officer leaves on credible operational business/order before combat and does not participate in Beat 14.
+The masked officer leaves on credible operational business/order before combat and does not participate in Beat 13.
 
 Rhazek knowingly authorized and commands the Old Bastion's kidnapping/forced-transfer policy. He does not deny it, blame rogue soldiers, or pretend coercion is consent. He does not reveal the onward destination.
 
-End → Beat 14.
+End → Beat 13.
 
 ---
 
-## Beat 14 — Commander Rhazek / Bastion Master
+## Beat 13 — Commander Rhazek / Bastion Master
 Purpose: command-layer combat climax.
 
 Locks:
@@ -363,11 +355,11 @@ Rhazek survives a credible military withdrawal. No teleport, magical vanish, sec
 
 Victory provides the practical access/control needed to make the maintained road-side exit usable. No post-boss switch dungeon.
 
-End → Beat 15.
+End → Beat 14.
 
 ---
 
-## Beat 15 — Return to the Prisoners / Release
+## Beat 14 — Return to the Prisoners / Release
 Purpose: complete the Bastion-side rescue as a human action.
 
 Starting state:
@@ -394,11 +386,11 @@ Direct-transition rule:
 
 Once prisoners are freed, organized, and beginning to leave, the story may transition directly to Dunmere.
 
-End → Beat 16.
+End → Beat 15.
 
 ---
 
-## Beat 16 — Return to Dunmere / Road Reopened / Chapter-2 Cleanup
+## Beat 15 — Return to Dunmere / Road Reopened / Chapter-2 Cleanup
 Purpose: confirm the rescue and world-state consequences economically and open the cleanup window.
 
 Opening:

@@ -21,25 +21,24 @@
 
 ## Mainline atomic authority
 
-1. `BEAT_01_PATH_OUTSIDE_DUNMERE_REHEARSAL_FIRST_WORKING_DIALOGUE.md`
-2. `BEAT_02_DUNMERE_ARRIVAL_MISSING_TRAVELERS_NATURAL_TURN_WORKING_DIALOGUE.md`
-3. `BEAT_03_DUNMERE_ELDER_HIDDEN_APPROACH_REHEARSAL_FIRST_WORKING_DIALOGUE.md`
-4. `BEAT_04_OLD_WATERWORKS_REHEARSAL_FIRST_WORKING_DIALOGUE.md`
-5. `BEAT_05_SUNKEN_ARCHIVE_ENTRANCE_NATURAL_TURN_WORKING_DIALOGUE.md`
-6. **B06 RETIRED — no Western Map Mural atomic scene**
-7. `BEAT_07_ARCHIVE_DEPTHS_REHEARSAL_FIRST_WORKING_DIALOGUE.md`
-8. `BEAT_08_ARCHIVE_LEVIATHAN_REHEARSAL_FIRST_WORKING_DIALOGUE.md`
-9. `BEAT_09_SECRET_PASSAGE_DISCOVERY_REHEARSAL_FIRST_WORKING_DIALOGUE.md`
-10. `BEAT_10_PRISONER_GALLERIES_FIRST_CONTACT_NATURAL_TURN_WORKING_DIALOGUE.md`
-11. `BEAT_11_PRISONER_SAFE_AREA_EXIT_PROBLEM_NATURAL_TURN_WORKING_DIALOGUE.md`
-12. `BEAT_12_BASTION_COMMAND_ASCENT_REHEARSAL_FIRST_WORKING_DIALOGUE.md`
-13. `BEAT_13_RHAZEK_MASKED_OFFICER_REHEARSAL_FIRST_WORKING_DIALOGUE.md`
-14. `BEAT_14_COMMANDER_RHAZEK_BASTION_MASTER_REHEARSAL_FIRST_WORKING_DIALOGUE.md`
-15. `BEAT_15_RETURN_TO_THE_PRISONERS_RELEASE_REHEARSAL_FIRST_WORKING_DIALOGUE.md`
-16. `BEAT_16_RETURN_TO_DUNMERE_ROAD_REOPENED_CLEANUP_REHEARSAL_FIRST_WORKING_DIALOGUE.md`
+1. `CH02_B01_PATH_OUTSIDE_DUNMERE_DIALOGUE.md`
+2. `CH02_B02_DUNMERE_ARRIVAL_MISSING_TRAVELERS_DIALOGUE.md`
+3. `CH02_B03_DUNMERE_ELDER_HIDDEN_APPROACH_DIALOGUE.md`
+4. `CH02_B04_OLD_WATERWORKS_DIALOGUE.md`
+5. `CH02_B05_SUNKEN_ARCHIVE_ENTRANCE_DIALOGUE.md`
+6. `CH02_B06_ARCHIVE_DEPTHS_DIALOGUE.md`
+7. `CH02_B07_ARCHIVE_LEVIATHAN_DIALOGUE.md`
+8. `CH02_B08_SECRET_PASSAGE_DISCOVERY_DIALOGUE.md`
+9. `CH02_B09_PRISONER_GALLERIES_FIRST_CONTACT_DIALOGUE.md`
+10. `CH02_B10_PRISONER_SAFE_AREA_EXIT_PROBLEM_DIALOGUE.md`
+11. `CH02_B11_BASTION_COMMAND_ASCENT_DIALOGUE.md`
+12. `CH02_B12_RHAZEK_MASKED_OFFICER_DIALOGUE.md`
+13. `CH02_B13_COMMANDER_RHAZEK_BASTION_MASTER_DIALOGUE.md`
+14. `CH02_B14_RETURN_TO_THE_PRISONERS_RELEASE_DIALOGUE.md`
+15. `CH02_B15_RETURN_TO_DUNMERE_ROAD_REOPENED_CLEANUP_DIALOGUE.md`
 
 Character-Life:
-- **C05 — Still Burns** — legacy source `C06_STILL_BURNS_REHEARSAL_FIRST_WORKING_DIALOGUE.md`
+- **C05 — Still Burns** — `C05_STILL_BURNS_DIALOGUE.md`
 
 ## Current runtime-brain alignment
 
@@ -71,13 +70,13 @@ Current rule:
 
 Story-earned medical ownership remains in:
 - Beat 2 — bounded clarity/head-injury check before relying on testimony;
-- Beat 10 — consent-based assessment of an actually wounded prisoner;
-- Beat 11 — wound-management/mobility limits for that patient;
-- Beat 15 — practical evacuation/mobility instructions for weakened/wounded captives.
+- Beat 9 — consent-based assessment of an actually wounded prisoner;
+- Beat 10 — wound-management/mobility limits for that patient;
+- Beat 14 — practical evacuation/mobility instructions for weakened/wounded captives.
 
 Generic caretaker/conscience assignments were removed where medicine did not own them:
-- Beat 14 — no automatic post-battle scan or rescue-conscience repetition;
-- Beat 16 — no generic human-success/moral summary assigned to Ilyra.
+- Beat 13 — no automatic post-battle scan or rescue-conscience repetition;
+- Beat 15 — no generic human-success/moral summary assigned to Ilyra.
 
 ### Torren
 Current rule:
@@ -98,7 +97,7 @@ Result:
 - friendship and social familiarity remain real underneath hierarchy;
 - she is not only operational summary/authorization;
 - when pressure drops she jokes, argues, swears and participates socially;
-- Beat 16 gives her the immediate human-success statement rather than confining her to operational consequences.
+- Beat 15 gives her the immediate human-success statement rather than confining her to operational consequences.
 
 ## Maevra / Torren reveal boundary — CLOSED
 
@@ -150,7 +149,7 @@ The heaviest compression was concentrated in the prisoner/Bastion chain:
 - the post-boss pursuit choice remains intact;
 - Dunmere still receives the information it actually needs to reopen the road.
 
-B13 remains the chapter's largest confrontation scene but is reduced from **58 → 45 spoken lines**.
+B12 remains the chapter's largest confrontation scene but is reduced from **58 → 45 spoken lines**.
 
 C05 `Still Burns` was tightened from **83 → 65 spoken lines** while preserving the drowned-stash premise, group pile-on, Torren's stubborn `still burns` logic, and the final attempted second smoke.
 
@@ -171,8 +170,8 @@ Material spoken-vs-narration revisions remain in force in Beats 2, 5, 10, 13, 14
 
 - Beat 1 — Torren enters Chapter 2 already socially open.
 - Beat 2 — Torren joins ordinary humor before switching into serious field judgment.
-- Beat 14 — Ilyra no longer performs automatic post-battle medical/conscience duty.
-- Beat 16 — Maevra owns immediate human success, Torren road consequence, Ilyra ordinary betting-pool banter.
+- Beat 13 — Ilyra no longer performs automatic post-battle medical/conscience duty.
+- Beat 15 — Maevra owns immediate human success, Torren road consequence, Ilyra ordinary betting-pool banter.
 - C05 `Still Burns` — Torren/Maevra/group adult social behavior retained; exact Maevra/Torren timeline leak removed.
 
 ## Current story boundaries preserved
@@ -192,7 +191,7 @@ Material spoken-vs-narration revisions remain in force in Beats 2, 5, 10, 13, 14
 
 ## Current production state
 
-- atomic dialogue — **CURRENT for 15 active mandatory beats; B06 retired**;
+- atomic dialogue — **CURRENT for 15 active mandatory beats with continuous B01–B15 numbering**;
 - final ensemble character balance — **COMPLETE**;
 - Ilyra role balance — **COMPLETE**;
 - Torren social progression — **COMPLETE**;
@@ -216,7 +215,7 @@ If Chapter-2 sources disagree:
 7. combined manuscript only after verified resynchronization;
 8. historical material only as provenance.
 
-> **Chapter 2 exact dialogue authority is current at 431 mandatory spoken lines plus the current 65-line C05 `Still Burns` = 496 total. B06 Western Map Mural remains retired.**
+> **Chapter 2 exact dialogue authority is current at 431 mandatory spoken lines plus the current 65-line C05 `Still Burns` = 496 total. The retired Western Map Mural does not reserve an active beat number.**
 
 
 ## Current Person-Brain compatibility audit

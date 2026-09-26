@@ -9,10 +9,10 @@
 This is the single cumulative structural/development workspace for Chapter 2. Keep this file updated as Chapter 2 is refined so the chapter can be recovered without relying on chat history.
 
 ## Current production closure
-> **Chapter 2 has 15 active mandatory mainline beats. The legacy B06 Western Map Mural slot is retired and has no current atomic dialogue.**
+> **Chapter 2 has 15 active mandatory mainline beats, numbered continuously B01–B14.**
 
 Storage note:
-- exact wording authority is the 15 active standalone Beat files in `../../03_DIALOGUE/PRODUCTION/CHAPTER_02/`; legacy B06 is retired;
+- exact wording authority is the 15 active standalone Beat files in `../../03_DIALOGUE/PRODUCTION/CHAPTER_02/`, numbered B01–B14;
 - `C06_STILL_BURNS_REHEARSAL_FIRST_WORKING_DIALOGUE.md` is the current 83-line Chapter-2 cleanup Character-Life scene (canonical C05);
 - `../../03_DIALOGUE/PRODUCTION/CHAPTER_02/CHAPTER_02_DIALOGUE_AUTHORITY_INDEX.md` is the current dialogue-location/authority map;
 - the combined manuscript is stale and must be regenerated from the atomics before use as a current read-through.
@@ -26,7 +26,7 @@ Storage note:
 > **scene/world state → independent Person Agent Brain rehearsals → Dialogue Editor → invisible Canon/Knowledge Checker → economical HD-2D staging/implementation**
 
 ## Current structure
-Chapter 2 has **15 active mandatory beats**, with the old B06 map-mural slot retired to preserve stable downstream IDs. The former dedicated prisoner-escort beat and separate road-secured beat are also retired. After Beat 15 frees and organizes the prisoners, the story may transition directly back to Dunmere. Beat 16 confirms that the current prisoners are safe and the Greenhollow–Dunmere road is reopened.
+Chapter 2 has **15 active mandatory beats**, with the old B06 map-mural slot retired to preserve stable downstream IDs. The former dedicated prisoner-escort beat and separate road-secured beat are also retired. After Beat 14 frees and organizes the prisoners, the story may transition directly back to Dunmere. Beat 15 confirms that the current prisoners are safe and the Greenhollow–Dunmere road is reopened.
 
 ## Locked Active Skeleton / Stable IDs
 1. Path Outside Dunmere
@@ -227,7 +227,7 @@ The scene should preserve the practical question:
 Torren may judge directionality/route viability, but he cannot know where the Ancient complex ultimately exits. Cyanis, Ilyra, and Maevra can register the scale without deciding to abandon the rescue for a full investigation.
 
 ### Gameplay role
-After the initial threshold scene, control returns to exploration quickly. Beat 5 should allow enough movement through the entrance portion for the player to absorb the Archive's visual identity before the route deepens into Beat 7.
+After the initial threshold scene, control returns to exploration quickly. Beat 5 should allow enough movement through the entrance portion for the player to absorb the Archive's visual identity before the route deepens into Beat 6.
 
 No second authored exposition scene is required unless area design later shows a strong natural stop.
 
@@ -242,29 +242,12 @@ By the end:
 - there is **no Chapter-2 western map mural or replacement cartographic reveal**;
 - the deeper history, boss, secret passage, and Bastion connection remain unrevealed.
 
-Handoff → **Beat 7 — Archive Depths**.
+Handoff → **Beat 6 — Archive Depths**.
 
 ---
 
-# Legacy B06 — Western Map Mural — RETIRED
-**Development status:** RETIRED BY EXPLICIT USER DIRECTION — 2026-09-23
 
-There is no Chapter-2 Western Map Mural scene.
-
-Do not replace it elsewhere in Chapter 2 with:
-- another regional Ancient wall map;
-- a route-network plate;
-- a reveal of a giant ancient city at modern Caelora;
-- a Crest-marked northern structure;
-- a cartographic explanation that fills in the Chapter-1 Wayfinder's broken Caelora-area center.
-
-The Chapter-1 Wayfinder remains the latest major Ancient cartographic evidence during Chapter 2.
-
-Stable production/runtime numbering resumes at B07.
-
----
-
-# Beat 7 — Archive Depths
+# Beat 6 — Archive Depths
 **Development status:** CURRENT WORKING BEAT PACKET — DEVELOPED
 
 Purpose: turn the deeper Archive into sustained exploration pressure and build naturally into the Archive Leviathan without inserting a major cartographic/lore reveal.
@@ -289,7 +272,7 @@ Use a combination of:
 The player should get a **meaningful exploration stretch**, not a hallway directly from the entrance threshold to the boss.
 
 ### No cartographic replacement
-Beat 7 must not quietly replace the retired B06 reveal.
+Beat 6 must not quietly replace the retired B06 reveal.
 
 Do not add:
 - a map or complete route-network reveal;
@@ -298,7 +281,7 @@ Do not add:
 - a Crest-marked cartographic structure;
 - a named Ancient civilization lecture;
 - Black Host transfer records;
-- a secret passage reveal before Beat 9.
+- a secret passage reveal before Beat 8.
 
 Environmental storytelling may reinforce the Archive's preservation/storage function, but it should not become a substitute cartographic lore dump.
 
@@ -312,7 +295,7 @@ Allowed cues include:
 - a distant heavy movement that cannot yet be visually identified.
 
 Hard reveal boundary:
-> **The party does not identify, name, classify, or explain the Archive Leviathan during Beat 7.**
+> **The party does not identify, name, classify, or explain the Archive Leviathan during Beat 6.**
 
 At first, structural settling remains a plausible explanation. By the later part of the beat, the group can reasonably conclude that **something large is moving ahead**, but not what it is.
 
@@ -327,23 +310,23 @@ Torren may test available branches and establish that:
 This should feel like geography and damage forcing the confrontation, not a gamey boss-door lock.
 
 ### Maevra / boss staging
-Maevra remains physically with the group through Beat 7 but **does not enter Beat 8 combat**.
+Maevra remains physically with the group through Beat 6 but **does not enter Beat 7 combat**.
 
 Near the final approach, the area should provide a believable last stable/defensible position—such as an intact landing, raised shelf, side recess, or equivalent—where Maevra can remain once it becomes clear that the route ahead contains an immediate large threat.
 
 Do not make this a melodramatic separation scene. Maevra understands the arrangement and the trio do not waste time pretending she is combat-capable in her current state.
 
 ### Dialogue rhythm
-Beat 7 is exploration-first. Two short authored stops are sufficient:
+Beat 6 is exploration-first. Two short authored stops are sufficient:
 1. first credible disturbance that is not caused by the party;
-2. final route check confirming the only useful way forward leads toward the disturbance and establishing Maevra's safe position before Beat 8.
+2. final route check confirming the only useful way forward leads toward the disturbance and establishing Maevra's safe position before Beat 7.
 
 No walking banter is needed unless Torren is actively guiding at a specific traversal point.
 
 ### End state
-Beat 7 should end at the threshold of a larger flooded chamber/deeper route space. The party knows **something large is ahead**, but the actual visual reveal/identification and confrontation belong to Beat 8.
+Beat 6 should end at the threshold of a larger flooded chamber/deeper route space. The party knows **something large is ahead**, but the actual visual reveal/identification and confrontation belong to Beat 7.
 
-### Beat-7 knowledge checkpoint
+### Beat-6 knowledge checkpoint
 By the end:
 - the deeper Archive has provided substantial exploration after the mural;
 - environmental pressure and non-Host danger have increased;
@@ -355,18 +338,18 @@ By the end:
 - Maevra has a credible noncombat staging position immediately before the encounter;
 - the trio remains committed to pushing through because the Old Bastion rescue lies beyond the route they are trying to find.
 
-Handoff → **Beat 8 — Archive Leviathan**.
+Handoff → **Beat 7 — Archive Leviathan**.
 
 ---
 
-# Beat 8 — Archive Leviathan
+# Beat 7 — Archive Leviathan
 **Development status:** CURRENT WORKING BEAT PACKET — DEVELOPED
 
-Purpose: deliver the Sunken Archive combat climax, pay off the large disturbances seeded in Beat 7, and clear the physical route deeper without converting the boss into a lore-delivery device.
+Purpose: deliver the Sunken Archive combat climax, pay off the large disturbances seeded in Beat 6, and clear the physical route deeper without converting the boss into a lore-delivery device.
 
 ### Starting state
 - Cyanis, Ilyra, and Torren enter the deeper flooded chamber;
-- Maevra remains at the raised/defensible position established at the end of Beat 7;
+- Maevra remains at the raised/defensible position established at the end of Beat 6;
 - the trio knows only that something large has been moving ahead;
 - the way they need to investigate continues through/across this chamber;
 - no Black Host presence has appeared in the Archive.
@@ -419,7 +402,7 @@ After the fight:
 - the chamber becomes safely traversable enough for the party to proceed;
 - the route beyond the creature is now physically accessible because its body/presence no longer occupies or denies the usable way forward.
 
-Do not reveal the Beat-9 secret passage during the boss death itself. Beat 8 only gets the party **deeper**.
+Do not reveal the Beat-8 secret passage during the boss death itself. Beat 7 only gets the party **deeper**.
 
 ### Maevra rejoin
 Once the chamber is secure, Maevra can rejoin without drama. A short confirmation that everyone is still functional is enough. She does not need to be rescued from her safe position or apologize for not fighting.
@@ -432,7 +415,7 @@ Torren can inspect the newly usable continuation and establish only:
 
 The group remains focused on reaching the kidnapped people.
 
-### Beat-8 knowledge checkpoint
+### Beat-7 knowledge checkpoint
 By the end:
 - the party has defeated the large creature responsible for the flooded-depth disturbances;
 - the trio still does not know its origin, intended function, age, or deeper significance;
@@ -442,11 +425,11 @@ By the end:
 - the party still has not discovered the secret passage into the Old Bastion;
 - the kidnapped people remain the immediate objective.
 
-Handoff → **Beat 9 — Secret Passage Discovery**.
+Handoff → **Beat 8 — Secret Passage Discovery**.
 
 ---
 
-# Beat 9 — Secret Passage Discovery
+# Beat 8 — Secret Passage Discovery
 **Development status:** CURRENT WORKING BEAT PACKET — DEVELOPED
 
 Purpose: pay off the waterworks infiltration by revealing that the Ancient Archive physically intersects the Old Bastion's later foundations and provide a covert route directly into the Prisoner Galleries without inserting another lore or records beat.
@@ -522,7 +505,7 @@ One authored discovery stop is enough:
 
 No mystical activation, Ancient voice, vision, or explanatory hologram is needed.
 
-### Beat-9 knowledge checkpoint
+### Beat-8 knowledge checkpoint
 By the end:
 - the party has discovered a concealed passage belonging to the Ancient complex;
 - they can open/use it from the Archive side during Chapter 2;
@@ -534,11 +517,11 @@ By the end:
 - no transfer records, exact totals, onward destination, Rhazek intelligence, or Seyrik information has been found;
 - the party has not yet spoken with the prisoners or learned the Bastion's holding/transit function.
 
-Handoff → **Beat 10 — Prisoner Galleries / First Contact**.
+Handoff → **Beat 9 — Prisoner Galleries / First Contact**.
 
 ---
 
-# Beat 10 — Prisoner Galleries / First Contact
+# Beat 9 — Prisoner Galleries / First Contact
 **Development status:** CURRENT WORKING BEAT PACKET — DEVELOPED
 
 Purpose: make the Old Bastion kidnapping operation human through direct contact with the captives, free the local holding section, establish from lived experience that the Bastion is a **holding/transit site**, and identify Commander Rhazek as the officer commanding the fort without revealing information the prisoners cannot know.
@@ -611,7 +594,7 @@ Allowed conclusion here:
 - Rhazek is commanding this fort;
 - the operation is therefore not plausibly just a few low-level soldiers acting without command structure.
 
-Do **not** spend Beat 13's reveal early. Beat 10 does not yet establish through prisoner omniscience that Rhazek personally authored every kidnapping/forced-transfer policy detail. His explicit policy ownership remains for the direct confrontation.
+Do **not** spend Beat 12's reveal early. Beat 9 does not yet establish through prisoner omniscience that Rhazek personally authored every kidnapping/forced-transfer policy detail. His explicit policy ownership remains for the direct confrontation.
 
 ### Escape problem appears naturally
 Once the local cells are open, the group considers getting everyone out.
@@ -625,10 +608,10 @@ Ilyra can confirm this based on the people she has just seen/examined.
 
 Torren can establish that a fort of this type must have a maintained proper exit, but that route is controlled by the active Bastion above.
 
-This creates Beat 11 rather than triggering an immediate prisoner escort.
+This creates Beat 10 rather than triggering an immediate prisoner escort.
 
 ### End state
-By the end of Beat 10:
+By the end of Beat 9:
 - the local Prisoner Gallery section is secure;
 - current local holding doors are open;
 - prisoners want rescue and are cooperating;
@@ -639,11 +622,11 @@ By the end of Beat 10:
 - the party knows the way they entered cannot safely evacuate everyone;
 - immediate next task is to consolidate everyone into a defensible lower safe area and determine how to secure a proper Bastion exit.
 
-Handoff → **Beat 11 — Prisoner Safe Area / Exit Problem**.
+Handoff → **Beat 10 — Prisoner Safe Area / Exit Problem**.
 
 ---
 
-# Beat 11 — Prisoner Safe Area / Exit Problem
+# Beat 10 — Prisoner Safe Area / Exit Problem
 **Development status:** CURRENT WORKING BEAT PACKET — DEVELOPED
 
 The prisoners gather in a defensible lower safe area. The secret-passage → Archive → waterworks route is unsuitable for a mixed evacuation group containing injured/weakened people.
@@ -657,43 +640,43 @@ Maevra remains noncombat and helps organize the prisoners.
 
 Current dialogue source: `../../03_DIALOGUE/PRODUCTION/CHAPTER_02/CHAPTER_02_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md`.
 
-Handoff → **Beat 12**.
+Handoff → **Beat 11**.
 
 ---
 
-# Beat 12 — Bastion Command Ascent
+# Beat 11 — Bastion Command Ascent
 **Development status:** CURRENT WORKING BEAT PACKET — DEVELOPED
 
 > **The Old Bastion is a functioning Black Host military position, not an abandoned villain dungeon.**
 
 Show a coherent subset of guard rotations, maintained equipment/supplies, logistical/support spaces, messenger/order traffic, gates/checkpoints, prisoner handling/staging, and legitimate care of Host wounded. Do not recreate the retired records beat through manifests, exact totals, or a ledger naming the onward destination.
 
-Resistance becomes organized as surprise erodes. No infinite reinforcements. The party already knows Rhazek is here. The unnamed masked officer is reserved for Beat 13.
+Resistance becomes organized as surprise erodes. No infinite reinforcements. The party already knows Rhazek is here. The unnamed masked officer is reserved for Beat 12.
 
 Current dialogue source: `../../03_DIALOGUE/PRODUCTION/CHAPTER_02/BEAT_12_BASTION_COMMAND_ASCENT_REHEARSAL_FIRST_WORKING_DIALOGUE.md`.
 
-Handoff → **Beat 13**.
+Handoff → **Beat 12**.
 
 ---
 
-# Beat 13 — Rhazek / Masked Officer
+# Beat 12 — Rhazek / Masked Officer
 **Development status:** CURRENT WORKING BEAT PACKET — DEVELOPED
 
 > **Rhazek is already working when the party arrives.**
 
 An unnamed masked second officer is reporting to him. Writer-facing truth: this is **Seyrik Rell**. Player-facing firewall: unnamed, masked, not identified, no subtitle/document/history/recruitment reveal, and no exaggerated future-party framing.
 
-The masked officer leaves on credible operational business/order before combat and does not join Beat 14.
+The masked officer leaves on credible operational business/order before combat and does not join Beat 13.
 
 Rhazek knowingly authorized and commands the Old Bastion's kidnapping/forced-transfer policy. He does not deny it, blame rogue soldiers, or pretend coercion is consent. He does not reveal the onward destination.
 
 Current dialogue source: `../../03_DIALOGUE/PRODUCTION/CHAPTER_02/BEAT_13_RHAZEK_MASKED_OFFICER_REHEARSAL_FIRST_WORKING_DIALOGUE.md`.
 
-Handoff → **Beat 14**.
+Handoff → **Beat 13**.
 
 ---
 
-# Beat 14 — Commander Rhazek / Bastion Master
+# Beat 13 — Commander Rhazek / Bastion Master
 **Development status:** CURRENT WORKING BEAT PACKET — DEVELOPED
 
 Command-layer combat climax.
@@ -714,11 +697,11 @@ Victory gives the party practical access/control needed to make the maintained r
 
 Current dialogue source: `../../03_DIALOGUE/PRODUCTION/CHAPTER_02/BEAT_14_COMMANDER_RHAZEK_BASTION_MASTER_REHEARSAL_FIRST_WORKING_DIALOGUE.md`.
 
-Handoff → **Beat 15**.
+Handoff → **Beat 14**.
 
 ---
 
-# Beat 15 — Return to the Prisoners / Release
+# Beat 14 — Return to the Prisoners / Release
 **Development status:** CURRENT WORKING BEAT PACKET — DEVELOPED / DIRECT DUNMERE TRANSITION
 
 Starting state:
@@ -746,11 +729,11 @@ Once the group is freed, organized, and beginning to leave through the secured e
 
 Current dialogue source: `../../03_DIALOGUE/PRODUCTION/CHAPTER_02/BEAT_15_RETURN_TO_THE_PRISONERS_RELEASE_REHEARSAL_FIRST_WORKING_DIALOGUE.md`.
 
-Handoff → **Beat 16**.
+Handoff → **Beat 15**.
 
 ---
 
-# Beat 16 — Return to Dunmere / Road Reopened / Cleanup
+# Beat 15 — Return to Dunmere / Road Reopened / Cleanup
 **Development status:** CURRENT WORKING BEAT PACKET — DEVELOPED / MAINLINE LANDING COMPLETE
 
 The story opens back in Dunmere after enough time for the safe evacuation/return to have succeeded. Cyanis, Ilyra, Torren, and Maevra are present.
@@ -791,19 +774,19 @@ Current cleanup Character-Life authority:
 - Beat 4 — current rehearsal-first Draft A.
 - Beat 5 — current rehearsal-first Draft A.
 - Beat 6 — **RETIRED; no Western Map Mural scene**.
+- Beat 6 — current rehearsal-first Draft A.
 - Beat 7 — current rehearsal-first Draft A.
 - Beat 8 — current rehearsal-first Draft A.
-- Beat 9 — current rehearsal-first Draft A.
-- Beat 10 — current rehearsal-first Draft A; **Prisoner Galleries secured, holding/transit function and Rhazek command established through prisoner experience**.
-- Beat 11 — current rehearsal-first Draft A; lower safe area / proper-exit plan established.
-- Beat 12 — current rehearsal-first working dialogue complete; functioning Bastion ascent and finite alert response established.
-- Beat 13 — current rehearsal-first working dialogue complete; Rhazek policy ownership and unnamed masked-officer departure established.
-- Beat 14 — current rehearsal-first working dialogue complete; Rhazek defeated locally, credible withdrawal, road gate usable.
-- Beat 15 — current rehearsal-first working dialogue complete; party returns to prisoners and begins evacuation with no escort dungeon.
-- Beat 16 — current rehearsal-first working dialogue complete; Dunmere resolution, road reopened, cleanup window established.
+- Beat 9 — current rehearsal-first Draft A; **Prisoner Galleries secured, holding/transit function and Rhazek command established through prisoner experience**.
+- Beat 10 — current rehearsal-first Draft A; lower safe area / proper-exit plan established.
+- Beat 11 — current rehearsal-first working dialogue complete; functioning Bastion ascent and finite alert response established.
+- Beat 12 — current rehearsal-first working dialogue complete; Rhazek policy ownership and unnamed masked-officer departure established.
+- Beat 13 — current rehearsal-first working dialogue complete; Rhazek defeated locally, credible withdrawal, road gate usable.
+- Beat 14 — current rehearsal-first working dialogue complete; party returns to prisoners and begins evacuation with no escort dungeon.
+- Beat 15 — current rehearsal-first working dialogue complete; Dunmere resolution, road reopened, cleanup window established.
 - C06 — `Still Burns` — current working dialogue.
 
-> **Chapter-2 mainline rehearsal-first working pass is complete for 15 active mandatory beats; stable IDs continue through Beat 16 with B06 retired.**
+> **Chapter-2 mainline rehearsal-first working pass is complete for 15 active mandatory beats; stable IDs continue through Beat 15 with B06 retired.**
 
 No Chapter-3 dialogue should begin automatically from this state; Chapter 3 remains behind the explicit advance-story confirmation and its own chapter authority.
 
