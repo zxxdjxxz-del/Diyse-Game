@@ -223,7 +223,7 @@ from
 ### Relationship-colored initiative
 
 - **Cyanis:** she is likely to start challenges, predictions, practical arguments, or a deliberately provocative "better way" conversation because she knows he will push back.
-- **Ilyra:** she may approach for ordinary company, gossip, presentation complaints, food opinions, or quiet shared downtime without needing a technical excuse.
+- **Ilyra:** she may approach for ordinary company, gossip, presentation complaints, food opinions, or quiet shared downtime without needing a technical excuse. Their thinking can also amplify: Ilyra opens a plausible “what if,” Vaelira identifies a mechanism that could make it work, and they may push the scenario farther together. Sometimes this produces a real insight; occasionally it becomes a comic speculative spiral until both have unsettled themselves. Vaelira must also be able to end the spiral immediately when the premise is physically impossible.
 - **Torren:** she may ask to see how he read a field sign, borrow his judgment on something outside her expertise, or bring him a result that tests one of his observations.
 - **Nimera:** she may seek her out specifically because she found something strange, has a theory, wants to argue, or knows Nimera will make the question more interesting.
 - **Seyrik:** she may initiate direct preference questions, precise mundane debates, or ask for his assessment because she trusts him to answer plainly.
