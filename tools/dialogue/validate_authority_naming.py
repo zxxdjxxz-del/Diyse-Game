@@ -15,6 +15,7 @@ ROOT = Path(__file__).resolve().parents[2]
 STORY_ROOT = ROOT / "docs/02_STORY/CHAPTERS"
 PROD_ROOT = ROOT / "docs/03_DIALOGUE/PRODUCTION"
 DIALOGUE_ROOT = ROOT / "docs/03_DIALOGUE"
+RUNTIME_DIALOGUE_ROOT = ROOT / "game/content/dialogue"
 
 CHAPTER_DIR_RE = re.compile(r"^CHAPTER_(\d{2})$")
 B_DIALOGUE_RE = re.compile(
@@ -188,6 +189,18 @@ def validate_story_root(errors: list[str]) -> None:
             errors.append(f"{path.relative_to(ROOT)}: malformed Character-Life story support")
 
 
+def validate_runtime_dialogue_tree(errors: list[str]) -> None:
+    # Chapters 0-3 use the generated current/ tree only. The old S/H runtime
+    # trees are superseded and must not be recreated beside current authority.
+    for chapter in range(4):
+        legacy_dir = RUNTIME_DIALOGUE_ROOT / f"chapter_{chapter:02d}"
+        if legacy_dir.exists():
+            errors.append(
+                f"{legacy_dir.relative_to(ROOT)}: retired legacy runtime dialogue tree; "
+                "use game/content/dialogue/current/chapter_##/"
+            )
+
+
 def validate_cross_chapter_names(errors: list[str]) -> None:
     for directory in (DIALOGUE_ROOT, PROD_ROOT):
         for path in directory.iterdir():
@@ -213,6 +226,7 @@ def main() -> int:
     errors: list[str] = []
     validate_production(errors)
     validate_story_root(errors)
+    validate_runtime_dialogue_tree(errors)
     validate_cross_chapter_names(errors)
 
     if errors:
