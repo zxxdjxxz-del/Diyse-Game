@@ -1,13 +1,35 @@
-# Chapter 1 — Rehearsal-First Working Dialogue Manuscript
+# DIYSE — Chapter 1 — Synchronized Rehearsal-First Working Dialogue Manuscript
 
-**Status:** CURRENT SYNCHRONIZED DERIVED MIRROR — 2026-09-25  
-**Mainline structure:** 12 beats  
-**Exact wording authority:** standalone atomic dialogue files in this folder  
-**Protected source for preserved lines during the 12-beat continuity pass:** `DIYSE_Chapters_0-3_Spoiler_Free_Exact_Dialogue_Reader_CURRENT(6).docx`
+**Status:** CURRENT DERIVED READ-THROUGH — SYNCHRONIZED AGAINST CURRENT ATOMIC DIALOGUE SOURCES
 
-This manuscript is regenerated from the current Chapter-1 atomics. If it ever disagrees with a standalone atomic, the standalone atomic wins.
+**Authority rule:** standalone atomic scene files remain exact wording authority. This file is generated, not hand-authored. After any atomic edit, rerun `python tools/dialogue/sync_current_dialogue.py` before describing this manuscript as current.
+
+## Source manifest
+
+| Order | Canonical slot | Atomic source | SHA-256 |
+|---:|---|---|---|
+| 1 | Beat 1 | `BEAT_01_BRACKENWALL_PROTOCOL_DRAFT_A.md` | `9adf084cb2027fdff79a39e50442a1ed5328239f66085f6ef84becfb167e827c` |
+| 2 | Beat 2 | `BEAT_02_BRIAR_PASSAGE_FIRST_TRAVERSAL_DRAFT_A.md` | `1c0f56ff7beb9c207084b1ceb0b500d6c0f807f2e299ea9f4533f5473ea7fffe` |
+| 3 | Beat 3 | `BEAT_03_GREENHOLLOW_TORREN_DRAFT_A.md` | `82d236d8f130c93833a76d0d708addb9c8d9daecd5f85b34bae45af78366913a` |
+| 4 | Beat 4 | `BEAT_04_HOLLOW_WATCH_APPROACH_DRAFT_A.md` | `4e394644f33730a631c211e75d7473afe330e60a1a227e2e2a7ce5062d2f8145` |
+| 5 | Beat 5 | `BEAT_05_OCCUPIED_HOLLOW_WATCH_FORT_DRAFT_A.md` | `5ecfaf0148531e91a17ae11dcf398aeea21caf746e2d3b1e2348c71a61ccfa87` |
+| 6 | Beat 6 | `BEAT_06_HOLLOW_WATCH_EXCAVATION_DRAFT_A.md` | `48fb94bb0a7723e04c8788b87edd3c5ae73caded8f34bd001313ec886e80babd` |
+| 7 | Beat 7 | `BEAT_07_HOLLOW_WATCH_LANDSCAPE_DEPICTION_DRAFT_A.md` | `3b50b2cc6207837d92e6c3b7d4cde8530167d68de2fd6a845c8ad4eb4b39d383` |
+| 8 | Beat 8 | `BEAT_08_GREENHOLLOW_RESOLUTION_TORREN_RECRUITMENT_DRAFT_A.md` | `dd94b9af8cbd20de43c1cb42b8c0662ae976fed750ee4f6521a568e1aa8f08dd` |
+| 9 | Beat 9 | `BEAT_09_SOUTHERN_BRIAR_PASSAGE_DRAFT_A.md` | `fc454c2077786a1fd489d4a79247d71fd6caedccbb0289567da1cd0dc8e6175d` |
+| 10 | Beat 10 | `BEAT_10_THORNHIDE_DRAFT_A.md` | `e008158d9b9970b31c89f5398b97a27cf252f49275a95ed820dcb02f432c3530` |
+| 11 | Beat 11 | `BEAT_11_THE_JUNCTION_HIDDEN_MONUMENT_DRAFT_A.md` | `b501752ad55350418a2fda6e1be39a0bda0840ae9f261e0594ad52c0a676bf28` |
+| 12 | Beat 12 | `BEAT_12_JUNCTION_CAMP_CLEANUP_DRAFT_A.md` | `8f4578d9f3d6bb1ac14fced205a12d7bf08643c8d732bec120692319e0e24a25` |
+| 13 | C02 — Torren's Version of Dinner | `C03_TORRENS_VERSION_OF_DINNER_REHEARSAL_FIRST_DRAFT_C.md` | `ebcbba9cc2119a7cbc7cddd31e8b10b08152e4b2f35c36cd558de636ebc1e2fd` |
+| 14 | C03 — What the Map Says | `C04_WHAT_THE_MAP_SAYS_REHEARSAL_FIRST_DRAFT_A.md` | `95b3543190d0e5ba166ad0b0d726ee2d922228f4370eb82f7d8ef6af2f369b6d` |
+| 15 | C04 — Not Professionally | `C05_NOT_PROFESSIONALLY_REHEARSAL_FIRST_DRAFT_D.md` | `29724fe0f2b066490993faf9af03e7cc629731b085a7cc414570fe7dc429fdbd` |
 
 ---
+
+## Beat 1
+
+**Atomic source:** `BEAT_01_BRACKENWALL_PROTOCOL_DRAFT_A.md`  
+**Source SHA-256:** `9adf084cb2027fdff79a39e50442a1ed5328239f66085f6ef84becfb167e827c`
 
 # Chapter 1 — Beat 1
 # Brackenwall / Protocol
@@ -203,6 +225,11 @@ Player control returns in Brackenwall.
 
 ---
 
+## Beat 2
+
+**Atomic source:** `BEAT_02_BRIAR_PASSAGE_FIRST_TRAVERSAL_DRAFT_A.md`  
+**Source SHA-256:** `1c0f56ff7beb9c207084b1ceb0b500d6c0f807f2e299ea9f4533f5473ea7fffe`
+
 # Chapter 1 — Beat 2
 # Briar Passage / First Traversal
 ## CURRENT LOCKED DIALOGUE — TRUE-VOICE / DIALOGUE-ECONOMY PASS
@@ -285,6 +312,11 @@ Next mandatory scene:
 **Greenhollow / Torren**
 
 ---
+
+## Beat 3
+
+**Atomic source:** `BEAT_03_GREENHOLLOW_TORREN_DRAFT_A.md`  
+**Source SHA-256:** `82d236d8f130c93833a76d0d708addb9c8d9daecd5f85b34bae45af78366913a`
 
 # Chapter 1 — Beat 3
 # Greenhollow / Torren
@@ -420,6 +452,11 @@ Maevra remains noncombat.
 
 ---
 
+## Beat 4
+
+**Atomic source:** `BEAT_04_HOLLOW_WATCH_APPROACH_DRAFT_A.md`  
+**Source SHA-256:** `4e394644f33730a631c211e75d7473afe330e60a1a227e2e2a7ce5062d2f8145`
+
 # Chapter 1 — Beat 4
 # Hollow Watch Approach
 ## CURRENT LOCKED DIALOGUE — TRUE-VOICE / DIALOGUE-ECONOMY PASS
@@ -507,6 +544,11 @@ Next mandatory scene:
 **Occupied Hollow Watch**
 
 ---
+
+## Beat 5
+
+**Atomic source:** `BEAT_05_OCCUPIED_HOLLOW_WATCH_FORT_DRAFT_A.md`  
+**Source SHA-256:** `5ecfaf0148531e91a17ae11dcf398aeea21caf746e2d3b1e2348c71a61ccfa87`
 
 # Chapter 1 — Beat 5
 # Occupied Hollow Watch
@@ -613,6 +655,11 @@ Next mandatory section:
 **Black Host Excavation / Lower Access**
 
 ---
+
+## Beat 6
+
+**Atomic source:** `BEAT_06_HOLLOW_WATCH_EXCAVATION_DRAFT_A.md`  
+**Source SHA-256:** `48fb94bb0a7723e04c8788b87edd3c5ae73caded8f34bd001313ec886e80babd`
 
 # Chapter 1 — Beat 6
 # Hollow Watch Excavation
@@ -727,6 +774,11 @@ Next mandatory scene:
 
 ---
 
+## Beat 7
+
+**Atomic source:** `BEAT_07_HOLLOW_WATCH_LANDSCAPE_DEPICTION_DRAFT_A.md`  
+**Source SHA-256:** `3b50b2cc6207837d92e6c3b7d4cde8530167d68de2fd6a845c8ad4eb4b39d383`
+
 # Chapter 1 — Beat 7
 # Hollow Watch Landscape Depiction
 ## CURRENT LOCKED DIALOGUE — 12-BEAT CONTINUITY PASS
@@ -818,6 +870,11 @@ Next mandatory scene:
 **Beat 8 — Greenhollow Resolution / Torren Recruitment**
 
 ---
+
+## Beat 8
+
+**Atomic source:** `BEAT_08_GREENHOLLOW_RESOLUTION_TORREN_RECRUITMENT_DRAFT_A.md`  
+**Source SHA-256:** `dd94b9af8cbd20de43c1cb42b8c0662ae976fed750ee4f6521a568e1aa8f08dd`
 
 # Chapter 1 — Beat 8
 # Greenhollow Resolution / Torren Recruitment
@@ -929,6 +986,11 @@ Next mandatory beat:
 **Beat 9 — Southern Briar Passage**
 
 ---
+
+## Beat 9
+
+**Atomic source:** `BEAT_09_SOUTHERN_BRIAR_PASSAGE_DRAFT_A.md`  
+**Source SHA-256:** `fc454c2077786a1fd489d4a79247d71fd6caedccbb0289567da1cd0dc8e6175d`
 
 # Chapter 1 — Beat 9
 # Southern Briar Passage
@@ -1042,6 +1104,11 @@ Next mandatory beat:
 **Beat 10 — Thornhide**
 
 ---
+
+## Beat 10
+
+**Atomic source:** `BEAT_10_THORNHIDE_DRAFT_A.md`  
+**Source SHA-256:** `e008158d9b9970b31c89f5398b97a27cf252f49275a95ed820dcb02f432c3530`
 
 # Chapter 1 — Beat 10
 # Thornhide
@@ -1183,6 +1250,11 @@ Next mandatory beat:
 **Beat 11 — The Junction / Hidden Monument**
 
 ---
+
+## Beat 11
+
+**Atomic source:** `BEAT_11_THE_JUNCTION_HIDDEN_MONUMENT_DRAFT_A.md`  
+**Source SHA-256:** `b501752ad55350418a2fda6e1be39a0bda0840ae9f261e0594ad52c0a676bf28`
 
 # Chapter 1 — Beat 11
 # The Junction / Hidden Monument
@@ -1409,6 +1481,11 @@ Next mandatory beat:
 
 ---
 
+## Beat 12
+
+**Atomic source:** `BEAT_12_JUNCTION_CAMP_CLEANUP_DRAFT_A.md`  
+**Source SHA-256:** `8f4578d9f3d6bb1ac14fced205a12d7bf08643c8d732bec120692319e0e24a25`
+
 # Chapter 1 — Beat 12
 # Junction Camp / Chapter 1 Cleanup Window
 ## CURRENT LOCKED DIALOGUE — 12-BEAT CONTINUITY PASS
@@ -1524,14 +1601,10 @@ Card:
 
 ---
 
-# Optional Character-Life Scenes
+## C02 — Torren's Version of Dinner
 
-Canonical cleanup-window IDs:
-- **C02 — Torren's Version of Dinner**
-- **C03 — What the Map Says**
-- **C04 — Not Professionally**
-
-Legacy filenames remain in use for these three standalone sources.
+**Atomic source:** `C03_TORRENS_VERSION_OF_DINNER_REHEARSAL_FIRST_DRAFT_C.md`  
+**Source SHA-256:** `ebcbba9cc2119a7cbc7cddd31e8b10b08152e4b2f35c36cd558de636ebc1e2fd`
 
 # Chapter 1 — Character-Life C02
 # Torren's Version of Dinner
@@ -1697,6 +1770,11 @@ Scene ends.
 
 ---
 
+## C03 — What the Map Says
+
+**Atomic source:** `C04_WHAT_THE_MAP_SAYS_REHEARSAL_FIRST_DRAFT_A.md`  
+**Source SHA-256:** `95b3543190d0e5ba166ad0b0d726ee2d922228f4370eb82f7d8ef6af2f369b6d`
+
 # Chapter 1 — Character-Life C03
 # What the Map Says
 ## CURRENT LOCKED CHARACTER-LIFE DIALOGUE — TIGHTENED TRUE-VOICE PASS
@@ -1850,6 +1928,11 @@ Torren's head comes up as Cyanis leaves.
 Scene ends.
 
 ---
+
+## C04 — Not Professionally
+
+**Atomic source:** `C05_NOT_PROFESSIONALLY_REHEARSAL_FIRST_DRAFT_D.md`  
+**Source SHA-256:** `29724fe0f2b066490993faf9af03e7cc629731b085a7cc414570fe7dc429fdbd`
 
 # Chapter 1 — Character-Life C04
 # Not Professionally
@@ -2018,3 +2101,9 @@ Ilyra does not decide aloud which part she means.
 **MAEVRA:** Ruined it.
 
 Scene ends.
+
+---
+
+## Synchronization footer
+
+This derived manuscript was assembled exclusively from the atomics listed above. No dialogue wording was rewritten during assembly.

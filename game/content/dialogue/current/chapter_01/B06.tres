@@ -5,24 +5,28 @@
 [resource]
 script = ExtResource("1_scene")
 schema_version = 1
-scene_id = "CH01_B06_BLACK_HOST_EXCAVATION_LOWER_ACCESS"
+scene_id = "CH01_B06_HOLLOW_WATCH_EXCAVATION"
 chapter_id = "chapter_01"
 scene_kind = "mandatory"
-location_id = "LOC_BLACK_HOST_EXCAVATION_LOWER_ACCESS"
+location_id = "LOC_HOLLOW_WATCH_EXCAVATION"
 trigger_id = "trigger.chapter_01.b06"
 completion_flag = "scene.ch01_b06.complete"
 participants = Array[String](["cyanis", "ilyra", "maevra", "torren"])
-story_position = "Chapter 1 — Beat 6 — Black Host Excavation / Lower Access"
+story_position = "Chapter 1 — Beat 6 — Hollow Watch Excavation"
 scene_mode = "full_authored_stop_scene"
 movement_lock = true
-dialogue_readiness = "AMBER"
+dialogue_readiness = "GREEN"
 production_cost_tier = "economical"
 encounter_policy = {"during_scene": "temporarily_suppress_trigger", "after_scene": "restore_prior_pressure"}
 return_to_gameplay = {"control_mode": "exploration"}
 cutscene_tier = "C0"
 vfx_tier = "V1"
-authoring_notes = "CURRENT runtime dialogue compiled from docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/BEAT_06_BLACK_HOST_EXCAVATION_LOWER_ACCESS_DRAFT_A.md. docs/03_DIALOGUE/PRODUCTION is exact spoken-wording authority; legacy S001-S021 Resources are not source authority. Source SHA-256: 6152a8d706caaa2ea9c2f9093aa515e721fa4490d3949b6fc5e6d2e357dd033a. Spoken-sequence SHA-256: 9d0dad4a0a378944f1986b38a4e06ac28416b25a3af9ae0460949826df610582. Spoken lines: 2."
+authoring_notes = "CURRENT runtime dialogue compiled from docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/BEAT_06_HOLLOW_WATCH_EXCAVATION_DRAFT_A.md. docs/03_DIALOGUE/PRODUCTION is exact spoken-wording authority; legacy S001-S021 Resources are not source authority. Source SHA-256: 48fb94bb0a7723e04c8788b87edd3c5ae73caded8f34bd001313ec886e80babd. Spoken-sequence SHA-256: 133f4702ab987d40c5d162aa061ee15363001fe06652c1c41aee0e1fb6737e8c. Spoken lines: 6."
 beats = [
-{"beat_id": "CH01_B06_L0001", "speaker_id": "torren", "text": "That's not fort work anymore. Fort was built around this.", "left": {}, "right": {}, "active_side": "none", "advance_mode": "manual", "cues": {"pause_ms": 80, "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE"], "source_section": "[BRIEF REACTION — EXCAVATION TRANSITION]", "source_speaker_label": "TORREN", "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/BEAT_06_BLACK_HOST_EXCAVATION_LOWER_ACCESS_DRAFT_A.md", "source_line": 32}},
-{"beat_id": "CH01_B06_L0002", "speaker_id": "maevra", "text": "Host kept cutting anyway.", "left": {}, "right": {}, "active_side": "none", "advance_mode": "manual", "cues": {"pause_ms": 80, "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE"], "source_section": "[BRIEF REACTION — EXCAVATION TRANSITION]", "source_speaker_label": "MAEVRA", "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/BEAT_06_BLACK_HOST_EXCAVATION_LOWER_ACCESS_DRAFT_A.md", "source_line": 34}}
+{"beat_id": "CH01_B06_L0001", "speaker_id": "torren", "text": "That's not fort work anymore. Fort was built around this.", "left": {}, "right": {}, "active_side": "none", "advance_mode": "manual", "cues": {"pause_ms": 80, "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE"], "source_section": "[BRIEF REACTION — EXCAVATION TRANSITION]", "source_speaker_label": "TORREN", "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/BEAT_06_HOLLOW_WATCH_EXCAVATION_DRAFT_A.md", "source_line": 31}},
+{"beat_id": "CH01_B06_L0002", "speaker_id": "maevra", "text": "Host kept cutting anyway.", "left": {}, "right": {}, "active_side": "none", "advance_mode": "manual", "cues": {"pause_ms": 80, "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE"], "source_section": "[BRIEF REACTION — EXCAVATION TRANSITION]", "source_speaker_label": "MAEVRA", "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/BEAT_06_HOLLOW_WATCH_EXCAVATION_DRAFT_A.md", "source_line": 33}},
+{"beat_id": "CH01_B06_L0003", "speaker_id": "cyanis", "text": "Evacuation?", "left": {}, "right": {}, "active_side": "none", "advance_mode": "manual", "cues": {"pause_ms": 80, "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE"], "source_section": "[ENVIRONMENTAL DISCOVERY — CIVILIAN-USE RELIEF]", "source_speaker_label": "CYANIS", "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/BEAT_06_HOLLOW_WATCH_EXCAVATION_DRAFT_A.md", "source_line": 49}},
+{"beat_id": "CH01_B06_L0004", "speaker_id": "torren", "text": "Maybe. They're moving both ways. Could've been people getting out, moving between places, sheltering. Relief doesn't tell us which.", "left": {}, "right": {}, "active_side": "none", "advance_mode": "manual", "cues": {"pause_ms": 80, "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE"], "source_section": "[ENVIRONMENTAL DISCOVERY — CIVILIAN-USE RELIEF]", "source_speaker_label": "TORREN", "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/BEAT_06_HOLLOW_WATCH_EXCAVATION_DRAFT_A.md", "source_line": 53}},
+{"beat_id": "CH01_B06_L0005", "speaker_id": "ilyra", "text": "But they expected people who couldn't move on their own.", "left": {}, "right": {}, "active_side": "none", "advance_mode": "manual", "cues": {"pause_ms": 80, "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE"], "source_section": "[ENVIRONMENTAL DISCOVERY — CIVILIAN-USE RELIEF]", "source_speaker_label": "ILYRA", "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/BEAT_06_HOLLOW_WATCH_EXCAVATION_DRAFT_A.md", "source_line": 57}},
+{"beat_id": "CH01_B06_L0006", "speaker_id": "maevra", "text": "And a lot of them. That's enough for now.", "left": {}, "right": {}, "active_side": "none", "advance_mode": "manual", "cues": {"pause_ms": 80, "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE"], "source_section": "[ENVIRONMENTAL DISCOVERY — CIVILIAN-USE RELIEF]", "source_speaker_label": "MAEVRA", "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/BEAT_06_HOLLOW_WATCH_EXCAVATION_DRAFT_A.md", "source_line": 61}}
 ]

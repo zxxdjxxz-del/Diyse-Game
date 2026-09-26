@@ -8,28 +8,28 @@
 
 | Order | Canonical slot | Atomic source | SHA-256 |
 |---:|---|---|---|
-| 1 | Beat 1 | `BEAT_01_PATH_OUTSIDE_DUNMERE_REHEARSAL_FIRST_WORKING_DIALOGUE.md` | `a393d9575bdefdbb34a6b8af8d19dc9d495f5902eea18d1b72e822667573dea7` |
-| 2 | Beat 2 | `BEAT_02_DUNMERE_ARRIVAL_MISSING_TRAVELERS_NATURAL_TURN_WORKING_DIALOGUE.md` | `d57ecb5a75186d72f4efe12b1ff1947ade1b5e70599874f40e093d73958b3ee0` |
-| 3 | Beat 3 | `BEAT_03_DUNMERE_ELDER_HIDDEN_APPROACH_REHEARSAL_FIRST_WORKING_DIALOGUE.md` | `040b96f7e6d949cac26e1490b690c4337d23805754397fa97df86cd7de8ec097` |
-| 4 | Beat 4 | `BEAT_04_OLD_WATERWORKS_REHEARSAL_FIRST_WORKING_DIALOGUE.md` | `7bb9a70171f34046d37b1ee1e6515f85d1936c190ae697cb50758158da5899bb` |
-| 5 | Beat 5 | `BEAT_05_SUNKEN_ARCHIVE_ENTRANCE_NATURAL_TURN_WORKING_DIALOGUE.md` | `473b69f3b12373147059cfdc45e7254bcf7a08e4f31e6b6059fdd2a5b0c11f4e` |
-| 6 | Beat 7 | `BEAT_07_ARCHIVE_DEPTHS_REHEARSAL_FIRST_WORKING_DIALOGUE.md` | `483f6d4907b6f4d87f285ba5a2fd8fb5ca6b19fdf3d5539887af04be483a4f3d` |
-| 7 | Beat 8 | `BEAT_08_ARCHIVE_LEVIATHAN_REHEARSAL_FIRST_WORKING_DIALOGUE.md` | `b219b398ef2bb7a1433c9b38af1738b3c109c73f2746f72bf06c62cbad3002b6` |
-| 8 | Beat 9 | `BEAT_09_SECRET_PASSAGE_DISCOVERY_REHEARSAL_FIRST_WORKING_DIALOGUE.md` | `20c972af8bc5480b44acaa7ac79fdb5cc8a22e9fede12d47e9e138776693eac1` |
-| 9 | Beat 10 | `BEAT_10_PRISONER_GALLERIES_FIRST_CONTACT_NATURAL_TURN_WORKING_DIALOGUE.md` | `0eec6e3dc4c7c49c9081af718597157ca7d1198979ad519acde8f7ae48be1537` |
-| 10 | Beat 11 | `BEAT_11_PRISONER_SAFE_AREA_EXIT_PROBLEM_NATURAL_TURN_WORKING_DIALOGUE.md` | `708366533760a4ecd9707207858f3cb075eedb936dd6b142c4555a787ecacf26` |
-| 11 | Beat 12 | `BEAT_12_BASTION_COMMAND_ASCENT_REHEARSAL_FIRST_WORKING_DIALOGUE.md` | `275d3264758e3c8bb860f114dda14fdc946726d74a6790811d293c550cf1bdb6` |
-| 12 | Beat 13 | `BEAT_13_RHAZEK_MASKED_OFFICER_REHEARSAL_FIRST_WORKING_DIALOGUE.md` | `63beb9a8792b9ab70a2af941804cf1dd68d16f31e651e12e4166414938e72855` |
-| 13 | Beat 14 | `BEAT_14_COMMANDER_RHAZEK_BASTION_MASTER_REHEARSAL_FIRST_WORKING_DIALOGUE.md` | `c2f5f14e7d47c7cb9fb1ca90943862cfb14d7400fd3ece00f523ad0d374bcda2` |
-| 14 | Beat 15 | `BEAT_15_RETURN_TO_THE_PRISONERS_RELEASE_REHEARSAL_FIRST_WORKING_DIALOGUE.md` | `43df77cfbe6b02074e6793dee6ca83e22c8281da12c2ed89fb7c47960ffcd7fb` |
-| 15 | Beat 16 | `BEAT_16_RETURN_TO_DUNMERE_ROAD_REOPENED_CLEANUP_REHEARSAL_FIRST_WORKING_DIALOGUE.md` | `cad0a1ba48b1a0a532015b11d5f18825a2ddd16396c8902d4aad2ffeea0cc8ee` |
-| 16 | C05 — Still Burns | `C06_STILL_BURNS_REHEARSAL_FIRST_WORKING_DIALOGUE.md` | `cc500ca772701b12701d9724c0457f8e68a2d6c57ab33dc4b36f1df9d65509f7` |
+| 1 | Beat 1 | `CH02_B01_PATH_OUTSIDE_DUNMERE_DIALOGUE.md` | `a393d9575bdefdbb34a6b8af8d19dc9d495f5902eea18d1b72e822667573dea7` |
+| 2 | Beat 2 | `CH02_B02_DUNMERE_ARRIVAL_MISSING_TRAVELERS_DIALOGUE.md` | `d57ecb5a75186d72f4efe12b1ff1947ade1b5e70599874f40e093d73958b3ee0` |
+| 3 | Beat 3 | `CH02_B03_DUNMERE_ELDER_HIDDEN_APPROACH_DIALOGUE.md` | `040b96f7e6d949cac26e1490b690c4337d23805754397fa97df86cd7de8ec097` |
+| 4 | Beat 4 | `CH02_B04_OLD_WATERWORKS_DIALOGUE.md` | `7bb9a70171f34046d37b1ee1e6515f85d1936c190ae697cb50758158da5899bb` |
+| 5 | Beat 5 | `CH02_B05_SUNKEN_ARCHIVE_ENTRANCE_DIALOGUE.md` | `473b69f3b12373147059cfdc45e7254bcf7a08e4f31e6b6059fdd2a5b0c11f4e` |
+| 6 | Beat 6 | `CH02_B06_ARCHIVE_DEPTHS_DIALOGUE.md` | `2f130e3ff6db79338e81dc59dc1814ea0218214cd0433649fe9e03f5124bdf31` |
+| 7 | Beat 7 | `CH02_B07_ARCHIVE_LEVIATHAN_DIALOGUE.md` | `77cf981c226b071a5b193dc8cea8c8b2d2a2e4a6ad5d4367dcd23ddc2acf4e54` |
+| 8 | Beat 8 | `CH02_B08_SECRET_PASSAGE_DISCOVERY_DIALOGUE.md` | `b5789ebea885b259d353ad2e5d2f5386669bf21907eb42a9c8bb5910a0ce5eb1` |
+| 9 | Beat 9 | `CH02_B09_PRISONER_GALLERIES_FIRST_CONTACT_DIALOGUE.md` | `f88863f191bb8fe73ed57895633180dfda20e8f3facdf6242c70c87e78548c7a` |
+| 10 | Beat 10 | `CH02_B10_PRISONER_SAFE_AREA_EXIT_PROBLEM_DIALOGUE.md` | `c888e41a6b824bacd844ae5c50c4dcd9d9f7bc128a98aa7cc224bd341ce9a737` |
+| 11 | Beat 11 | `CH02_B11_BASTION_COMMAND_ASCENT_DIALOGUE.md` | `f71a56e92063cda52bfb0088e8c930903c06eae2f365d6af63bdcdbcbe1d4de2` |
+| 12 | Beat 12 | `CH02_B12_RHAZEK_MASKED_OFFICER_DIALOGUE.md` | `bbfb9be920ee66170f35299361df35d01b8e9eccbd1bc2adba358a57715c2855` |
+| 13 | Beat 13 | `CH02_B13_COMMANDER_RHAZEK_BASTION_MASTER_DIALOGUE.md` | `46a5b67fff8268c27d35b7aef12b5d15a153bef750a847718cd987f734683ac0` |
+| 14 | Beat 14 | `CH02_B14_RETURN_TO_THE_PRISONERS_RELEASE_DIALOGUE.md` | `827218a8db811148852748ef5cc3470232321a00867ebfc6e9d053f62b09333b` |
+| 15 | Beat 15 | `CH02_B15_RETURN_TO_DUNMERE_ROAD_REOPENED_CLEANUP_DIALOGUE.md` | `b736414249197a172e9b2fc13216c664bc1741353e6730fa4477864e575b398a` |
+| 16 | C05 — Still Burns | `C05_STILL_BURNS_DIALOGUE.md` | `7fe16a34c5bb618bdf31c3b321a1e7ef9c6a29ecbb2201e28d404d579cdb04e5` |
 
 ---
 
 ## Beat 1
 
-**Atomic source:** `BEAT_01_PATH_OUTSIDE_DUNMERE_REHEARSAL_FIRST_WORKING_DIALOGUE.md`  
+**Atomic source:** `CH02_B01_PATH_OUTSIDE_DUNMERE_DIALOGUE.md`  
 **Source SHA-256:** `a393d9575bdefdbb34a6b8af8d19dc9d495f5902eea18d1b72e822667573dea7`
 
 # Chapter 2 — Beat 1 — Path Outside Dunmere
@@ -145,7 +145,7 @@ Next mandatory beat:
 
 ## Beat 2
 
-**Atomic source:** `BEAT_02_DUNMERE_ARRIVAL_MISSING_TRAVELERS_NATURAL_TURN_WORKING_DIALOGUE.md`  
+**Atomic source:** `CH02_B02_DUNMERE_ARRIVAL_MISSING_TRAVELERS_DIALOGUE.md`  
 **Source SHA-256:** `d57ecb5a75186d72f4efe12b1ff1947ade1b5e70599874f40e093d73958b3ee0`
 
 # Chapter 2 — Beat 2 — Dunmere Arrival / Missing Travelers
@@ -283,7 +283,7 @@ Next mandatory beat:
 
 ## Beat 3
 
-**Atomic source:** `BEAT_03_DUNMERE_ELDER_HIDDEN_APPROACH_REHEARSAL_FIRST_WORKING_DIALOGUE.md`  
+**Atomic source:** `CH02_B03_DUNMERE_ELDER_HIDDEN_APPROACH_DIALOGUE.md`  
 **Source SHA-256:** `040b96f7e6d949cac26e1490b690c4337d23805754397fa97df86cd7de8ec097`
 
 # Chapter 2 — Beat 3 — Dunmere Elder / Hidden Approach
@@ -402,7 +402,7 @@ Next mandatory beat:
 
 ## Beat 4
 
-**Atomic source:** `BEAT_04_OLD_WATERWORKS_REHEARSAL_FIRST_WORKING_DIALOGUE.md`  
+**Atomic source:** `CH02_B04_OLD_WATERWORKS_DIALOGUE.md`  
 **Source SHA-256:** `7bb9a70171f34046d37b1ee1e6515f85d1936c190ae697cb50758158da5899bb`
 
 # Chapter 2 — Beat 4 — Old Waterworks
@@ -566,7 +566,7 @@ Next mandatory beat:
 
 ## Beat 5
 
-**Atomic source:** `BEAT_05_SUNKEN_ARCHIVE_ENTRANCE_NATURAL_TURN_WORKING_DIALOGUE.md`  
+**Atomic source:** `CH02_B05_SUNKEN_ARCHIVE_ENTRANCE_DIALOGUE.md`  
 **Source SHA-256:** `473b69f3b12373147059cfdc45e7254bcf7a08e4f31e6b6059fdd2a5b0c11f4e`
 
 # Chapter 2 — Beat 5 — Sunken Archive Entrance
@@ -669,12 +669,12 @@ Next mandatory beat:
 
 ---
 
-## Beat 7
+## Beat 6
 
-**Atomic source:** `BEAT_07_ARCHIVE_DEPTHS_REHEARSAL_FIRST_WORKING_DIALOGUE.md`  
-**Source SHA-256:** `483f6d4907b6f4d87f285ba5a2fd8fb5ca6b19fdf3d5539887af04be483a4f3d`
+**Atomic source:** `CH02_B06_ARCHIVE_DEPTHS_DIALOGUE.md`  
+**Source SHA-256:** `2f130e3ff6db79338e81dc59dc1814ea0218214cd0433649fe9e03f5124bdf31`
 
-# Chapter 2 — Beat 7 — Archive Depths
+# Chapter 2 — Beat 6 — Archive Depths
 
 **Status:** CURRENT TRUE-VOICE / DIALOGUE-ECONOMY ATOMIC AUTHORITY — 2026-09-19
 **Story authority:** `../../../02_STORY/CHAPTERS/CHAPTER_02.md`
@@ -782,7 +782,7 @@ The trio enters.
 
 ### [GAMEPLAY HANDOFF]
 
-Beat 7 ends at the chamber threshold.
+Beat 6 ends at the chamber threshold.
 
 Known:
 - something very large is moving through the flooded Archive;
@@ -797,12 +797,12 @@ Next mandatory beat:
 
 ---
 
-## Beat 8
+## Beat 7
 
-**Atomic source:** `BEAT_08_ARCHIVE_LEVIATHAN_REHEARSAL_FIRST_WORKING_DIALOGUE.md`  
-**Source SHA-256:** `b219b398ef2bb7a1433c9b38af1738b3c109c73f2746f72bf06c62cbad3002b6`
+**Atomic source:** `CH02_B07_ARCHIVE_LEVIATHAN_DIALOGUE.md`  
+**Source SHA-256:** `77cf981c226b071a5b193dc8cea8c8b2d2a2e4a6ad5d4367dcd23ddc2acf4e54`
 
-# Chapter 2 — Beat 8 — Archive Leviathan
+# Chapter 2 — Beat 7 — Archive Leviathan
 
 **Status:** CURRENT TRUE-VOICE / DIALOGUE-ECONOMY ATOMIC AUTHORITY — 2026-09-19
 **Story authority:** `../../../02_STORY/CHAPTERS/CHAPTER_02.md`
@@ -942,12 +942,12 @@ Next mandatory beat:
 
 ---
 
-## Beat 9
+## Beat 8
 
-**Atomic source:** `BEAT_09_SECRET_PASSAGE_DISCOVERY_REHEARSAL_FIRST_WORKING_DIALOGUE.md`  
-**Source SHA-256:** `20c972af8bc5480b44acaa7ac79fdb5cc8a22e9fede12d47e9e138776693eac1`
+**Atomic source:** `CH02_B08_SECRET_PASSAGE_DISCOVERY_DIALOGUE.md`  
+**Source SHA-256:** `b5789ebea885b259d353ad2e5d2f5386669bf21907eb42a9c8bb5910a0ce5eb1`
 
-# Chapter 2 — Beat 9 — Secret Passage Discovery
+# Chapter 2 — Beat 8 — Secret Passage Discovery
 
 **Status:** CURRENT TRUE-VOICE / DIALOGUE-ECONOMY ATOMIC AUTHORITY — 2026-09-19
 **Story authority:** `../../../02_STORY/CHAPTERS/CHAPTER_02.md`
@@ -1108,7 +1108,7 @@ The group moves through.
 
 ### [GAMEPLAY HANDOFF]
 
-Beat 9 ends as the party enters the Bastion-side passage.
+Beat 8 ends as the party enters the Bastion-side passage.
 
 Known:
 - the concealed access belongs to the Ancient structure;
@@ -1126,12 +1126,12 @@ Next mandatory beat:
 
 ---
 
-## Beat 10
+## Beat 9
 
-**Atomic source:** `BEAT_10_PRISONER_GALLERIES_FIRST_CONTACT_NATURAL_TURN_WORKING_DIALOGUE.md`  
-**Source SHA-256:** `0eec6e3dc4c7c49c9081af718597157ca7d1198979ad519acde8f7ae48be1537`
+**Atomic source:** `CH02_B09_PRISONER_GALLERIES_FIRST_CONTACT_DIALOGUE.md`  
+**Source SHA-256:** `f88863f191bb8fe73ed57895633180dfda20e8f3facdf6242c70c87e78548c7a`
 
-# Chapter 2 — Beat 10 — Prisoner Galleries / First Contact
+# Chapter 2 — Beat 9 — Prisoner Galleries / First Contact
 
 **Status:** CURRENT TRUE-VOICE / DIALOGUE-ECONOMY ATOMIC AUTHORITY — 2026-09-19
 **Story authority:** `../../../02_STORY/CHAPTERS/CHAPTER_02.md`
@@ -1330,12 +1330,12 @@ Next mandatory beat:
 
 ---
 
-## Beat 11
+## Beat 10
 
-**Atomic source:** `BEAT_11_PRISONER_SAFE_AREA_EXIT_PROBLEM_NATURAL_TURN_WORKING_DIALOGUE.md`  
-**Source SHA-256:** `708366533760a4ecd9707207858f3cb075eedb936dd6b142c4555a787ecacf26`
+**Atomic source:** `CH02_B10_PRISONER_SAFE_AREA_EXIT_PROBLEM_DIALOGUE.md`  
+**Source SHA-256:** `c888e41a6b824bacd844ae5c50c4dcd9d9f7bc128a98aa7cc224bd341ce9a737`
 
-# Chapter 2 — Beat 11 — Prisoner Safe Area / Exit Problem
+# Chapter 2 — Beat 10 — Prisoner Safe Area / Exit Problem
 
 **Status:** CURRENT TRUE-VOICE / DIALOGUE-ECONOMY ATOMIC AUTHORITY — 2026-09-19
 **Story authority:** `../../../02_STORY/CHAPTERS/CHAPTER_02.md`
@@ -1480,7 +1480,7 @@ Known:
 - the active Black Host command layer still controls the fort above;
 - Maevra remains below to organize the safe area;
 - Cyanis, Ilyra, and Torren are going upward to break that control;
-- the party has repeated its promise to return only because a prisoner deliberately calls back to the promise from Beat 10, not because the script needs another mission summary.
+- the party has repeated its promise to return only because a prisoner deliberately calls back to the promise from Beat 9, not because the script needs another mission summary.
 
 **Objective: Ascend the Old Bastion.**
 
@@ -1489,12 +1489,12 @@ Next mandatory beat:
 
 ---
 
-## Beat 12
+## Beat 11
 
-**Atomic source:** `BEAT_12_BASTION_COMMAND_ASCENT_REHEARSAL_FIRST_WORKING_DIALOGUE.md`  
-**Source SHA-256:** `275d3264758e3c8bb860f114dda14fdc946726d74a6790811d293c550cf1bdb6`
+**Atomic source:** `CH02_B11_BASTION_COMMAND_ASCENT_DIALOGUE.md`  
+**Source SHA-256:** `f71a56e92063cda52bfb0088e8c930903c06eae2f365d6af63bdcdbcbe1d4de2`
 
-# Chapter 2 — Beat 12 — Bastion Command Ascent
+# Chapter 2 — Beat 11 — Bastion Command Ascent
 
 **Status:** CURRENT TRUE-VOICE / DIALOGUE-ECONOMY ATOMIC AUTHORITY — 2026-09-19
 **Story authority:** `../../../02_STORY/CHAPTERS/CHAPTER_02.md`
@@ -1711,7 +1711,7 @@ The trio moves in.
 
 ### [GAMEPLAY HANDOFF]
 
-Beat 12 ends before the command-room scene begins.
+Beat 11 ends before the command-room scene begins.
 
 Known:
 - the Old Bastion is a functioning Black Host military installation;
@@ -1722,7 +1722,7 @@ Known:
 - the Host response is organized but finite;
 - the Host knows intruders are moving upward but does **not** know about the Ancient secret passage or exactly how the trio entered;
 - the trio has deliberately kept pressure moving upward rather than giving the fort time to investigate the lower route;
-- Rhazek and the masked officer remain unseen until Beat 13.
+- Rhazek and the masked officer remain unseen until Beat 12.
 
 **Objective: Confront Commander Rhazek.**
 
@@ -1731,12 +1731,12 @@ Next mandatory beat:
 
 ---
 
-## Beat 13
+## Beat 12
 
-**Atomic source:** `BEAT_13_RHAZEK_MASKED_OFFICER_REHEARSAL_FIRST_WORKING_DIALOGUE.md`  
-**Source SHA-256:** `63beb9a8792b9ab70a2af941804cf1dd68d16f31e651e12e4166414938e72855`
+**Atomic source:** `CH02_B12_RHAZEK_MASKED_OFFICER_DIALOGUE.md`  
+**Source SHA-256:** `bbfb9be920ee66170f35299361df35d01b8e9eccbd1bc2adba358a57715c2855`
 
-# Chapter 2 — Beat 13 — Rhazek / Masked Officer
+# Chapter 2 — Beat 12 — Rhazek / Masked Officer
 
 **Status:** CURRENT TRUE-VOICE / DIALOGUE-ECONOMY ATOMIC AUTHORITY — 2026-09-19
 **Story authority:** `../../../02_STORY/CHAPTERS/CHAPTER_02.md`
@@ -1965,11 +1965,11 @@ Cyanis readies himself.
 
 **Objective: Defeat Commander Rhazek.**
 
-Beat 13 ends here.
+Beat 12 ends here.
 
 The boss encounter begins in:
 
-**Beat 14 — Commander Rhazek / Bastion Master**
+**Beat 13 — Commander Rhazek / Bastion Master**
 
 ### [KNOWLEDGE / CHARACTER LOCK]
 
@@ -1991,19 +1991,19 @@ No later reveal is exposed.
 
 ---
 
-## Beat 14
+## Beat 13
 
-**Atomic source:** `BEAT_14_COMMANDER_RHAZEK_BASTION_MASTER_REHEARSAL_FIRST_WORKING_DIALOGUE.md`  
-**Source SHA-256:** `c2f5f14e7d47c7cb9fb1ca90943862cfb14d7400fd3ece00f523ad0d374bcda2`
+**Atomic source:** `CH02_B13_COMMANDER_RHAZEK_BASTION_MASTER_DIALOGUE.md`  
+**Source SHA-256:** `46a5b67fff8268c27d35b7aef12b5d15a153bef750a847718cd987f734683ac0`
 
-# Chapter 2 — Beat 14 — Commander Rhazek / Bastion Master
+# Chapter 2 — Beat 13 — Commander Rhazek / Bastion Master
 
 **Status:** CURRENT TRUE-VOICE / DIALOGUE-ECONOMY ATOMIC AUTHORITY — 2026-09-19
 **Story authority:** `../../../02_STORY/CHAPTERS/CHAPTER_02.md`
 
 ### [BOSS HANDOFF]
 
-Beat 14 begins immediately from Beat 13.
+Beat 13 begins immediately from Beat 12.
 
 The unnamed masked officer has already left on Rhazek's operational orders.
 
@@ -2218,12 +2218,12 @@ Next mandatory beat:
 
 ---
 
-## Beat 15
+## Beat 14
 
-**Atomic source:** `BEAT_15_RETURN_TO_THE_PRISONERS_RELEASE_REHEARSAL_FIRST_WORKING_DIALOGUE.md`  
-**Source SHA-256:** `43df77cfbe6b02074e6793dee6ca83e22c8281da12c2ed89fb7c47960ffcd7fb`
+**Atomic source:** `CH02_B14_RETURN_TO_THE_PRISONERS_RELEASE_DIALOGUE.md`  
+**Source SHA-256:** `827218a8db811148852748ef5cc3470232321a00867ebfc6e9d053f62b09333b`
 
-# Chapter 2 — Beat 15 — Return to the Prisoners / Release
+# Chapter 2 — Beat 14 — Return to the Prisoners / Release
 
 **Status:** CURRENT TRUE-VOICE / DIALOGUE-ECONOMY ATOMIC AUTHORITY — 2026-09-19
 **Story authority:** `../../../02_STORY/CHAPTERS/CHAPTER_02.md`
@@ -2429,12 +2429,12 @@ Next mandatory beat:
 
 ---
 
-## Beat 16
+## Beat 15
 
-**Atomic source:** `BEAT_16_RETURN_TO_DUNMERE_ROAD_REOPENED_CLEANUP_REHEARSAL_FIRST_WORKING_DIALOGUE.md`  
-**Source SHA-256:** `cad0a1ba48b1a0a532015b11d5f18825a2ddd16396c8902d4aad2ffeea0cc8ee`
+**Atomic source:** `CH02_B15_RETURN_TO_DUNMERE_ROAD_REOPENED_CLEANUP_DIALOGUE.md`  
+**Source SHA-256:** `b736414249197a172e9b2fc13216c664bc1741353e6730fa4477864e575b398a`
 
-# Chapter 2 — Beat 16 — Return to Dunmere / Road Reopened / Cleanup
+# Chapter 2 — Beat 15 — Return to Dunmere / Road Reopened / Cleanup
 
 **Status:** CURRENT TRUE-VOICE / DIALOGUE-ECONOMY ATOMIC AUTHORITY — 2026-09-19
 **Story authority:** `../../../02_STORY/CHAPTERS/CHAPTER_02.md`
@@ -2650,13 +2650,13 @@ Chapter 2 ends with:
 
 ## C05 — Still Burns
 
-**Atomic source:** `C06_STILL_BURNS_REHEARSAL_FIRST_WORKING_DIALOGUE.md`  
-**Source SHA-256:** `cc500ca772701b12701d9724c0457f8e68a2d6c57ab33dc4b36f1df9d65509f7`
+**Atomic source:** `C05_STILL_BURNS_DIALOGUE.md`  
+**Source SHA-256:** `7fe16a34c5bb618bdf31c3b321a1e7ef9c6a29ecbb2201e28d404d579cdb04e5`
 
 # Chapter 2 Character-Life — C05 — Still Burns
 
 **Status:** CURRENT EXACT DIALOGUE AUTHORITY — TIGHTENED TRUE-VOICE / NATURALISM PASS
-**Availability:** Chapter 2 cleanup, after the Beat-16 Dunmere elder resolution and before the explicit Chapter-3 start interaction
+**Availability:** Chapter 2 cleanup, after the Beat-15 Dunmere elder resolution and before the explicit Chapter-3 start interaction
 **Participants:** Torren, Ilyra, Maevra, Cyanis
 
 ## Scene seed
