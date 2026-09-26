@@ -113,17 +113,22 @@ func _validate_graybox_scene() -> void:
 	instance.queue_free()
 
 func _validate_chapter_00_spatial_presentation_alignment() -> void:
-	var s005 = load(PRESENTATION_DIR + "S005.tres")
-	var s006 = load(PRESENTATION_DIR + "S006.tres")
-	_expect(s005 != null, "S005 presentation sidecar must load")
-	_expect(s006 != null, "S006 presentation sidecar must load")
-	if s005 != null:
-		_expect(str(s005.environment_family) == "CH00_TRIAGE_SAFE_CAMP", "S005 must use Field Triage Camp environment authority")
-		_expect(str(s005.battle_background_family) == "CH00_TRIAGE_SAFE_CAMP", "S005 battle background must use the camp-perimeter environment family")
-		_expect(s005.has_tag("CAMP_PERIMETER_DEFENSE"), "S005 must retain the camp-perimeter defense presentation tag")
-	if s006 != null:
-		_expect(str(s006.environment_family) == "CH00_RECOVERY_LINE", "S006 player-controlled survivor sweep must continue using Recovery Line environment family")
-		_expect(s006.has_tag("PLAYER_CONTROLLED_SURVIVOR_SWEEP"), "S006 must retain player-controlled survivor-sweep intent")
+	var b05 = load(PRESENTATION_DIR + "B05.tres")
+	var b06 = load(PRESENTATION_DIR + "B06.tres")
+	var b07 = load(PRESENTATION_DIR + "B07.tres")
+	_expect(b05 != null, "B05 presentation sidecar must load")
+	_expect(b06 != null, "B06 presentation sidecar must load")
+	_expect(b07 != null, "B07 presentation sidecar must load")
+	if b05 != null:
+		_expect(str(b05.environment_family) == "CH00_TRIAGE_SAFE_CAMP", "B05 concealed Vanguard encounter must use the defended triage-camp environment")
+		_expect(b05.has_tag("NONCOMBAT_RESET_AFTER"), "B05 must preserve the real noncombat perimeter reset before B06")
+	if b06 != null:
+		_expect(str(b06.environment_family) == "CH00_TRIAGE_SAFE_CAMP", "B06 final boss must use Field Triage Camp environment authority")
+		_expect(str(b06.battle_background_family) == "CH00_TRIAGE_SAFE_CAMP", "B06 battle background must use the camp-perimeter environment family")
+		_expect(b06.has_tag("RIFTMAW_WAR_SORCERER_COMBINED_BOSS"), "B06 must retain the combined Riftmaw + War-Sorcerer boss presentation")
+	if b07 != null:
+		_expect(str(b07.environment_family) == "CH00_RECOVERY_LINE", "B07 survivor recovery must continue using Recovery Line environment authority")
+		_expect(b07.has_tag("BOUNDED_SURVIVOR_SWEEP"), "B07 must retain the bounded survivor-sweep intent")
 
 func _expect(condition: bool, message: String) -> void:
 	if not condition:
