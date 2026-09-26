@@ -141,9 +141,9 @@ def source_set() -> list[SceneSource]:
         scenes.append(SceneSource(
             "01",
             f"B{n:02d}",
-            unique_glob(ch1, f"BEAT_{n:02d}_*_DRAFT_*.md"),
+            unique_glob(ch1, f"CH01_B{n:02d}_*_DIALOGUE.md"),
             "mandatory",
-            unique_glob(ch1, f"BEAT_{n:02d}_*_SPEC.json"),
+            unique_glob(ch1, f"CH01_B{n:02d}_*_SPEC.json"),
         ))
     scenes.extend([
         SceneSource("01", "C02", unique_glob(ch1, "C02_TORRENS_VERSION_OF_DINNER_DIALOGUE.md"), "character_life", unique_glob(ch1, "C02_TORRENS_VERSION_OF_DINNER_SPEC.json")),
