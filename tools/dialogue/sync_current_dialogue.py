@@ -6,7 +6,7 @@ exact wording authority. Current character/runtime/spec authorities must already
 source-closed before this tool is run.
 
 This tool deliberately writes *derived artifacts only*:
-- CHAPTER_##_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md for Chapters 0-3
+- CHAPTER_##_DIALOGUE_MANUSCRIPT.md for Chapters 0-3
 - docs/03_DIALOGUE/PRODUCTION/CHAPTER_0_3_DIALOGUE_SYNC_MANIFEST.md
 - build/dialogue/DIYSE_Chapters_0-3_Spoiler_Free_Exact_Dialogue_Reader_CURRENT.docx
 
@@ -55,7 +55,7 @@ class ChapterSpec:
 
     @property
     def output(self) -> Path:
-        return self.directory / f"CHAPTER_{self.chapter}_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md"
+        return self.directory / f"CHAPTER_{self.chapter}_DIALOGUE_MANUSCRIPT.md"
 
     @property
     def index(self) -> Path:
