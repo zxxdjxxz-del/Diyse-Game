@@ -74,3 +74,30 @@ may promote a scene or story-memory delta into persistent production continuity.
 - Last Sentinel is confirmed by the Warden and Cyanis's Card is stable deep Ruby, but **Last Sentinel is not yet Recovered**.
 - The party knows the Ancient term **Prime Card** exists but does not know what a Prime Card is or does and has not classified Cyanis's Card as one.
 - Last Sentinel's first verified manifestation / Recovered transition occurs in Beat 2, not Beat 1.
+
+
+## Ilyra / Vaelira Chapter-4 authoring lock
+
+This relationship begins in Beat 5 when Vaelira joins. Do not write established late-friendship shorthand into their first interactions.
+
+Progression for Chapter 4:
+- **Beat 5 — Ivorybridge / Vaelira:** first recognition only. Ilyra may open an alternate possibility; Vaelira may take the mechanism seriously. Keep it professional and small.
+- **Beats 6–8 — early Annex investigation:** the pairing may become genuinely useful. Ilyra tests an assumption; Vaelira identifies what mechanism would follow if that assumption were wrong. Do not force comedy into active danger.
+- **Beats 9–10 — Regulation Crucible / Seventh Reaction:** use the combined cognition only when it helps the scene reason through an actual unknown. Neither character gets automatic correctness.
+- **Beat 11 — safe upper labs / aftermath:** first good opportunity for a light speculative spiral if the natural dialogue supports it. A plausible premise may be extended too far until both women realize they have unsettled themselves.
+- **Beat 12 — Ivorybridge morning / return:** quieter recognition that they enjoy how the other thinks is allowed; no need to announce the friendship.
+
+Cognitive separation:
+- **Ilyra:** opens counterfactual possibility — what changes if the current assumption is wrong?
+- **Vaelira:** tests mechanism — how could that possibility physically or magically occur?
+- **Nimera:** constrains confidence — what do records and evidence actually justify?
+
+This is not a mandatory three-speaker pattern.
+
+Guardrails:
+- do not turn `what if` into Ilyra's catchphrase;
+- do not make Ilyra the route/pathfinding voice; alternate physical routes and terrain/navigation remain primarily Torren/Cyanis/Seyrik territory according to scene expertise;
+- do not make Vaelira validate every possibility;
+- either woman can kill an implausible branch;
+- occasional mutual overextension is comic texture, not incompetence or panic as identity;
+- no spoken dialogue during active combat.
