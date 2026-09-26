@@ -306,8 +306,13 @@ relationship_models:
       - Cyanis_is_not_her_therapist_or_automatic_desire_detector
       - not_scientist_vs_common_sense_caricature
   Ilyra:
-    baseline: calm_real_disagreement_consequence_vs_technical_possibility
+    baseline: calm_real_disagreement_consequence_vs_technical_possibility_with_occasional_mutual_speculative_escalation
     brings_out:
+      - Ilyra_opens_counterfactual_and_Vaelira_tests_mechanism
+      - either_can_extend_the_other_persons_branch
+      - occasional_theory_spiral_can_end_in_shared_alarm
+      - same_pattern_can_generate_real_discovery
+      - Vaelira_can_shut_down_physically_impossible_premise_cleanly
       - lower_pressure_social_ease
       - gossip_and_petty_opinions
       - presentation_and_vanity
@@ -418,6 +423,8 @@ initiative_model:
       - starts_challenges_predictions_practical_arguments_and_better_way_debates
     Ilyra:
       - initiates_gossip_food_presentation_complaints_or_quiet_company_without_technical_excuse
+      - engages_Ilyras_what_if_branches_when_a_real_mechanism_is_interesting
+      - may_accidentally_help_escalate_a_speculative_branch_past_its_useful_point
     Torren:
       - asks_how_he_read_field_sign_or_requests_judgment_outside_her_domain
       - brings_results_that_test_or_extend_his_observation
