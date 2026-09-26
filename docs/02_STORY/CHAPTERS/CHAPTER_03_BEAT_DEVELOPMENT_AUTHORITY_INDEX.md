@@ -1,39 +1,59 @@
 # Chapter 3 — Beat Development Authority Index
 
-**Status:** CURRENT AFTER SEPTEMBER 23, 2026 STRUCTURAL MIGRATION
+**Status:** CURRENT AFTER SEPTEMBER 23, 2026 STRUCTURAL MIGRATION + SEPTEMBER 26 STORY-SUPPORT CLEANUP
 
 ## Current authority chain
 
-1. **Primary:** CHAPTER_03.md
-2. **Current compact working skeleton:** CHAPTER_03_BEAT_DEVELOPMENT_WORKING.md
-3. Dedicated older Beat packets only where they do not conflict with the current master.
+1. **Primary:** `CHAPTER_03.md`
+2. **Current compact working skeleton:** `CHAPTER_03_BEAT_DEVELOPMENT_WORKING.md`
+3. **Current supporting locks/packets listed below**, only where they agree with the current master.
+4. Files under `HISTORICAL/CHAPTER_03/` are provenance only and are never current authority.
 
-## Beat map
+## Current beat map
 
-- Beat 1 — Caelora Gate / Arrival
-- Beat 2 — Royal Audience / Chapter-2 Report
-- Beat 3 — The Impossible Orders
-- Beat 4 — The Seal That Wasn't Used
-- Beat 5 — Old City Access / Archive Descent
-- Beat 6 — Scholar in Redacted Stacks / Nimera Joins
-- Beat 7 — Lower Archives
-- Beat 8 — Buried Collections / Recent Reader
-- Beat 9 — Hall of Seals / Recent Reader Continuation
-- Beat 10 — Deep Archives
-- Beat 11 — Archive Scribe Engine
-- Beat 12 — Inner Collections / Westways Recordbook / Sealwright Chamber
-- Beat 13 — Return to Mirena / Cresthaven Identified
-- Beat 14 — Cresthaven / Ancient Tower Base / First Command Warden
-- Beat 15 — Cresthaven Headquarters / Cleanup / Ivorybridge Decision
+- B01 — Caelora Gate / Arrival
+- B02 — Royal Audience / Chapter-2 Report
+- B03 — The Impossible Orders
+- B04 — The Seal That Wasn't Used
+- B05 — Old City Access / Archive Descent
+- B06 — Scholar in Redacted Stacks / Nimera Joins
+- B07 — Lower Archives
+- B08 — Buried Collections / Recent Reader
+- B09 — Hall of Seals / Recent Reader Continuation
+- B10 — Deep Archives
+- B11 — Archive Scribe Engine
+- B12 — Inner Collections / Westways Recordbook / Sealwright Chamber
+- B13 — Return to Mirena / Cresthaven Identified
+- B14 — Cresthaven / Ancient Tower Base / First Command Warden
+- B15 — Cresthaven Headquarters / Cleanup / Ivorybridge Decision
 
-## Superseded dedicated packets
+## Current supporting story files
 
-The following filenames describe retired structures and must not be treated as current authority on those points:
-- HISTORICAL/CHAPTER_03/CHAPTER_03_BEAT_07_ANCIENT_BARRIER_FIRST_COOPERATION_WORKING.md
-- HISTORICAL/CHAPTER_03/CHAPTER_03_BEAT_08_ARCHIVE_SCRIBE_ENGINE_NIMERA_JOINS_WORKING.md
-- HISTORICAL/CHAPTER_03/CHAPTER_03_BEAT_11_FIRST_COMMAND_WARDEN_WORKING.md
-- HISTORICAL/CHAPTER_03/CHAPTER_03_BEAT_12_ANCIENT_SEAL_WORKING_CHAMBER_NORTHERN_ROUTE_WORKING.md
-- HISTORICAL/CHAPTER_03/CHAPTER_03_BEAT_13_FOUR_ANSWERS_NOT_ONE_WORKING.md
-- HISTORICAL/CHAPTER_03/CHAPTER_03_BEAT_14_JOURNEY_TO_CRESTHAVEN_WORKING.md
+These are supplemental to `CHAPTER_03.md`; they do not supersede it.
 
-Files under `HISTORICAL/CHAPTER_03/` are provenance only and are never current authority. Other older Beat packets still in the live root may contain reusable staging/prose ideas, but `CHAPTER_03.md` wins whenever structure, party state, map provenance, reveal order, or destination logic differs.
+- `CH03_B04_SEAL_NOT_USED_STORY_SUPPORT.md`
+- `CH03_B12_SEAL_COPYING_MAP_SEPARATION_LOCK.md`
+- `CH03_B12_TO_B13_MIRENA_MEETING_LOCK.md`
+- `CH03_B13_RETURN_TO_MIRENA_CRESTHAVEN_IDENTIFIED_STORY_SUPPORT.md`
+- `CH03_B14_FIRST_COMMAND_WARDEN_SCAN_LOCK.md`
+- `CH03_B14_FIRST_COMMAND_WARDEN_FINAL_MESSAGE_LOCK.md`
+- `CH03_B15_CRESTHAVEN_HEADQUARTERS_CLEANUP_STORY_SUPPORT.md`
+
+Character-Life, cleanup, presentation, continuity, and Hunt locks remain separate domain authorities and are not mandatory beat packets.
+
+## Historical packet policy
+
+The `HISTORICAL/CHAPTER_03/` folder contains retired or superseded development packets, including files that once carried a `CURRENT` label but no longer match the September 23 structure.
+
+Historical packets may be consulted only as provenance. They must not supply current:
+- beat numbering;
+- party state;
+- map provenance;
+- reveal order;
+- Face terminology;
+- recruitment timing;
+- First Command Warden placement;
+- destination logic;
+- exact dialogue.
+
+If a historical packet and `CHAPTER_03.md` disagree, `CHAPTER_03.md` wins without exception.

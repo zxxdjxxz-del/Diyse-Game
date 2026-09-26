@@ -6,7 +6,7 @@
 ## Cleanup opening authority
 The mandatory story reaches Cresthaven through:
 - consolidated `CHAPTER_03.md`;
-- `CHAPTER_03_BEAT_15_CRESTHAVEN_HEADQUARTERS_CLEANUP_WINDOW_WORKING.md` as detailed support;
+- `CH03_B15_CRESTHAVEN_HEADQUARTERS_CLEANUP_STORY_SUPPORT.md` as detailed support;
 - `CHAPTER_03_CRESTHAVEN_ARCHIVE_HUNT_UNLOCK_LOCK.md`;
 - `CHAPTER_03_CLEANUP_OVERLAY.md`;
 - `REGIONAL_HUNTS_CH1_CH3_CLEANUP_ACCESS_LOCK.md` plus the global Regional Hunt structure lock.

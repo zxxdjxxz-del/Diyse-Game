@@ -3,7 +3,7 @@
 **Status:** CURRENT STRUCTURE + EXACT DIALOGUE COMPLETE  
 **Canonical Character-Life ID:** **C06**  
 **Cleanup authority:** `CHAPTER_03_CLEANUP_OVERLAY.md`  
-**Chapter end-state authority:** `CHAPTER_03_BEAT_15_CRESTHAVEN_HEADQUARTERS_CLEANUP_WINDOW_WORKING.md`  
+**Chapter end-state authority:** `CH03_B15_CRESTHAVEN_HEADQUARTERS_CLEANUP_STORY_SUPPORT.md`  
 **Exact dialogue authority:** `../../03_DIALOGUE/PRODUCTION/CHAPTER_03/C06_NIMERA_TAKES_OVER_A_TABLE_DIALOGUE.md`
 
 ## Current scene lock

@@ -4,18 +4,23 @@
   "chapter_id": "chapter_03",
   "story_position": "Chapter 3 — Beat 3 — The Impossible Orders",
   "production_ready": false,
-  "participants": ["lysara", "mirena", "othmar", "maevra", "cyanis", "ilyra", "torren"],
+  "participants": [
+    "lysara",
+    "mirena",
+    "othmar",
+    "maevra",
+    "cyanis",
+    "ilyra",
+    "torren"
+  ],
   "scene_purpose": "Turn the working royal report into Chapter 3's central mystery by placing the Card-transport orders before the room, establishing Queen Lysara's absolute lack of prior knowledge or authorization, allowing Calder to plausibly minimize the legitimacy of spending Crown resources on an apparently inactive Card while concealing his own hidden transport role, confirming that the documents carry the genuine magical authority response of Lysara's personal royal seal, deciding that Cyanis keeps the Card rather than risking another forced transfer, preserving the documents as evidence, and handing directly into examination of the actual physical seal.",
   "story_sources": [
     {
       "path": "docs/02_STORY/CHAPTERS/CHAPTER_03.md",
-      "sections": ["Beat 3 — The Impossible Orders"],
+      "sections": [
+        "Beat 3 — The Impossible Orders"
+      ],
       "role": "current_consolidated_chapter_3_beat_3_authority"
-    },
-    {
-      "path": "docs/02_STORY/CHAPTERS/CHAPTER_03_BEAT_03_IMPOSSIBLE_ORDERS_WORKING.md",
-      "whole_file": true,
-      "role": "current_detailed_beat_3_development_authority"
     }
   ],
   "additional_authority_sources": [
@@ -81,8 +86,7 @@
     "might_identification",
     "last_sentinel",
     "nimera_party_role",
-    "cresthaven",
-    "meaning_of_northern_crest_marked_structure"
+    "cresthaven"
   ],
   "forbidden_presentation": [
     "villainous_calder_telegraphing",
