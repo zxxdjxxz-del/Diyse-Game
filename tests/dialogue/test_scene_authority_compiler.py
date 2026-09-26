@@ -225,6 +225,55 @@ def main() -> int:
             f"Chapter 4 Beat 1 must keep persistent story memory deny-by-default for {cid}",
         )
 
+
+    chapter4_specs = [
+        ("B01", "CH04_B01_CRESTHAVEN_MORNING_DISTURBANCE_SPEC.json"),
+        ("B02", "CH04_B02_ELDER_THORNHIDE_SPEC.json"),
+        ("B03", "CH04_B03_FIELD_AFTERMATH_SHORTCUT_DECISION_SPEC.json"),
+        ("B04", "CH04_B04_FOREST_ROUTE_CROWN_ROAD_SPEC.json"),
+        ("B05", "CH04_B05_IVORYBRIDGE_VAELIRA_SPEC.json"),
+        ("B06", "CH04_B06_REACTION_ANNEX_ARRIVAL_INITIAL_INVESTIGATION_SPEC.json"),
+        ("B07", "CH04_B07_ELEMENTAL_LABORATORY_RING_SPEC.json"),
+        ("B08", "CH04_B08_INTERACTION_GALLERY_REACTION_CONDUIT_SPEC.json"),
+        ("B09", "CH04_B09_CENTRAL_REGULATION_REGULATION_CRUCIBLE_SPEC.json"),
+        ("B10", "CH04_B10_THE_SEVENTH_REACTION_SPEC.json"),
+        ("B11", "CH04_B11_SAFE_UPPER_LABS_AFTERMATH_SPEC.json"),
+        ("B12", "CH04_B12_IVORYBRIDGE_MORNING_CRESTHAVEN_RETURN_SPEC.json"),
+    ]
+    compiled_chapter4_ids = []
+    for slot_id, filename in chapter4_specs:
+        compiled = compiler.compile_spec_file(
+            ROOT / "docs/03_DIALOGUE/PRODUCTION/CHAPTER_04" / filename,
+            root=ROOT,
+        )
+        expect(
+            compiled["production_ready"] is False,
+            f"Chapter 4 {slot_id} scene authority must remain pre-dialogue / production_ready=false",
+        )
+        request = compiled["request_seed"]
+        expect(
+            request["scene_id"].startswith(f"CH04_{slot_id}_"),
+            f"Chapter 4 {slot_id} scene authority ID does not match its canonical beat slot",
+        )
+        expect(
+            request["scene_context"].get("no_walking_dialogue") is True,
+            f"Chapter 4 {slot_id} must carry the no-walking-dialogue guard",
+        )
+        expect(
+            request["scene_context"].get("no_mid_battle_dialogue") is True,
+            f"Chapter 4 {slot_id} must carry the no-mid-battle-dialogue guard",
+        )
+        for cid in request["participants"]:
+            expect(
+                request["person_runtime_contexts"][cid]["memory_authorization"] == {"mode": "none"},
+                f"Chapter 4 {slot_id} must keep persistent story memory deny-by-default for {cid}",
+            )
+        compiled_chapter4_ids.append(request["scene_id"])
+    expect(
+        len(compiled_chapter4_ids) == 12 and len(set(compiled_chapter4_ids)) == 12,
+        "Chapter 4 must compile exactly twelve unique B01-B12 scene-authority specs",
+    )
+
     print("Diyse scene authority compiler validation passed.")
     return 0
 

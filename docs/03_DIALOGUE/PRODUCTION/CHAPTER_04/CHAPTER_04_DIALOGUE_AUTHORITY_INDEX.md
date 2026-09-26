@@ -31,6 +31,8 @@ Canonical machine scene IDs use `CH04_B##_`, matching the file key.
 
 Chapter 4 uses the current **12-beat** structure.
 
+All **B01–B12 scene-authority specs are now authored**. They are pre-dialogue authority only (`production_ready: false`) until exact dialogue is authored, Canon Checker passes, and the author explicitly approves the wording.
+
 The retired five-scene S022–S026 structure is not current authority.
 
 ## Person-Brain authoring rule
@@ -68,17 +70,17 @@ may promote a scene or story-memory delta into persistent production continuity.
 | Beat | Scene | Status |
 |---:|---|---|
 | 1 | Cresthaven Morning Disturbance | canonical spec + rehearsal target authored; approved dialogue not yet authored |
-| 2 | Elder Thornhide | pre-dialogue structure only |
-| 3 | Field Aftermath / Shortcut Decision | pre-dialogue structure only |
-| 4 | Forest Route / Crown Road | pre-dialogue structure only |
-| 5 | Ivorybridge / Vaelira | pre-dialogue structure only |
-| 6 | Reaction Annex Arrival / Initial Investigation | pre-dialogue structure only |
-| 7 | Elemental Laboratory Ring | pre-dialogue structure only |
-| 8 | Interaction Gallery / Reaction Conduit | pre-dialogue structure only |
-| 9 | Central Regulation / Regulation Crucible | pre-dialogue structure only |
-| 10 | The Seventh Reaction | pre-dialogue structure only |
-| 11 | Safe Upper Labs / Aftermath | pre-dialogue structure only |
-| 12 | Ivorybridge Morning / Cresthaven Return | pre-dialogue structure only |
+| 2 | Elder Thornhide | canonical spec authored; approved dialogue not yet authored |
+| 3 | Field Aftermath / Shortcut Decision | canonical spec authored; approved dialogue not yet authored |
+| 4 | Forest Route / Crown Road | canonical spec authored; approved dialogue not yet authored |
+| 5 | Ivorybridge / Vaelira | canonical spec authored; approved dialogue not yet authored |
+| 6 | Reaction Annex Arrival / Initial Investigation | canonical spec authored; approved dialogue not yet authored |
+| 7 | Elemental Laboratory Ring | canonical spec authored; approved dialogue not yet authored |
+| 8 | Interaction Gallery / Reaction Conduit | canonical spec authored; approved dialogue not yet authored |
+| 9 | Central Regulation / Regulation Crucible | canonical spec authored; approved dialogue not yet authored |
+| 10 | The Seventh Reaction | canonical spec authored; approved dialogue not yet authored |
+| 11 | Safe Upper Labs / Aftermath | canonical spec authored; approved dialogue not yet authored |
+| 12 | Ivorybridge Morning / Cresthaven Return | canonical spec authored; approved dialogue not yet authored |
 
 ## Chapter-4 opening locks
 
