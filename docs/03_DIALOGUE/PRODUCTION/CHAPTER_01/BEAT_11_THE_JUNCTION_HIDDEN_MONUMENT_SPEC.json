@@ -1,0 +1,60 @@
+{
+  "schema": "diyse_scene_authority_spec_v1",
+  "scene_id": "CH01_BEAT11_THE_JUNCTION_HIDDEN_MONUMENT",
+  "chapter_id": "chapter_01",
+  "story_position": "Chapter 1 — Beat 11 — The Junction / Hidden Monument",
+  "production_ready": true,
+  "participants": [
+    "cyanis",
+    "ilyra",
+    "maevra",
+    "torren"
+  ],
+  "scene_purpose": "Pay off the Hollow Watch landscape depiction by revealing the hidden Wayfinder and the dense western ancient-Diyse route/city network while preserving the major unknowns.",
+  "story_sources": [
+    {
+      "path": "docs/02_STORY/CHAPTERS/CHAPTER_01.md",
+      "sections": [
+        "Beat 11 — The Junction / Hidden Monument"
+      ],
+      "role": "current_chapter_01_story_authority"
+    }
+  ],
+  "scene_context_seed": {
+    "location_name": "Wayfinder Junction",
+    "area_phase": "post_boss_major_discovery",
+    "dialogue_readiness": "GREEN",
+    "static_story_context_only": true,
+    "runtime_note": "Preserve CURRENT(6) wording except delete the retired water/cistern/side-access exchange. Keep the trainable jab. Memory is a current Face; Resource is retired."
+  },
+  "current_floor_state": {
+    "combat_pressure": "none",
+    "wayfinder_state": "hidden_until_vegetation_cleared",
+    "second_marking_system_party_identification": "unknown_nonroad_system_only",
+    "caelora_center_state": "physically_missing_from_wayfinder",
+    "face_markings": [
+      "Might",
+      "Elements",
+      "Grace",
+      "Memory",
+      "Perception",
+      "Ruin"
+    ],
+    "cistern_hook": "removed"
+  },
+  "allowed_information_transfers": [],
+  "exact_line_anchors": [
+    "TORREN: See? Trainable.",
+    "CYANIS: Careful."
+  ],
+  "production_cost_ceiling": "one major Wayfinder reveal plus static inspection scene",
+  "required_story_beats": [
+    "Reveal the hidden cartographic surface under vegetation.",
+    "Establish western ancient Diyse scale, dense surface routes, second unidentified system, and many built places.",
+    "Establish the largest concentration around modern Caelora with its center physically broken away.",
+    "Show all six current Face markings without interpreting their map function.",
+    "Do not include water/cistern notation or a Southern-Briar backtrack hook.",
+    "Copy surviving evidence without reconstructing the missing center.",
+    "Preserve the trainable exchange and decide to camp."
+  ]
+}
