@@ -85,7 +85,7 @@ func _validate_flee_round_trip(failures: Array[String]) -> void:
 		"area_id": "ch01_greenhollow",
 		"formation_id": "ch01_greenhollow_s01",
 		"tier": "standard",
-		"enemies": ["Greenhollow Stalker", "Briar Boar", "Thornvine Creeper"],
+		"enemies": ["Thicket Stalker", "Bullhog"],
 		"exp": 55
 	}
 	if not state.queue_transient_random_encounter(payload):
