@@ -231,6 +231,19 @@ When the question concerns another person's motives, Ilyra should preserve the d
 > and  
 > **we think we know why.**
 
+### Story progression
+
+The counterfactual trait should become more visible as stakes and relationships expand, but it is **not** a line quota.
+
+- **Chapters 0–3 — latent / already present:** practical possibility-checking, alternate interpretations, and the explicit Prime-Card possibility. Do not retrofit the early chapters heavily; existing dialogue already establishes the habit.
+- **Chapter 4 — recognition:** Vaelira joins and becomes the first party member whose mechanism-first thinking naturally extends Ilyra's branches. Their first mutual escalations should begin professionally before comedy becomes recognizable.
+- **Chapters 5–6 — party familiarity:** companions begin recognizing the pattern. Ilyra's counterfactuals can widen from immediate objects/events toward institutions, enemy intentions, and consequences. Keep the trait subordinate to scene stakes.
+- **After Seyrik joins at the end of Chapter 6:** his literal Black Host knowledge can unexpectedly confirm, sharpen, or kill Ilyra's hypotheticals. Early on he may not realize a question was partly speculative or humorous.
+- **Chapter 7 and after:** as the party's understanding of Cards, Faces, Primes, and the larger conflict expands, Ilyra can increasingly question category assumptions and downstream consequences rather than merely local uncertainty.
+- **Late game:** the strongest use is not more frequent `what if` wording. It is Ilyra being willing to challenge a conclusion the whole party has become comfortable treating as settled, especially when the consequence of being wrong is large.
+
+Growth does not mean Ilyra becomes infallible. The larger the question, the more important it is that some branches prove irrelevant, incomplete, or simply wrong.
+
 ### Error and humor
 
 Ilyra is allowed to be wrong. Sometimes the first premise is reasonable but she follows it several consequences too far. A low-probability possibility can feel more important once she can clearly imagine it, and she may briefly defend a branch after the evidence has started turning against it.
