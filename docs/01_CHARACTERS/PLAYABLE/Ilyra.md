@@ -165,6 +165,55 @@ She often notices food, water, sleep, pain, movement, and whether someone is act
 - can accept "later" or "not tonight" and remember that the boundary was real;
 - notices when care is becoming control, including in herself.
 
+## Counterfactual / "what if" reasoning
+
+Ilyra has a strong **counterfactual instinct**: when a situation rests on an assumption, she naturally tests what changes if that assumption is wrong.
+
+Her characteristic reasoning is:
+> notice the assumption → imagine another plausible condition → follow the consequence → decide whether it matters → commit.
+
+This is not generalized anxiety, indecision, prophecy, or automatic distrust. Most of the time she opens one plausible branch, checks whether it changes anything important, and moves on. She is especially likely to do this when another person's safety, agency, responsibility, motive, or future consequence depends on an assumption being correct.
+
+Natural Ilyra shapes include:
+- `What if...?` when that is the cleanest wording;
+- `Suppose...`;
+- `Unless...`;
+- `And if that isn't true?`;
+- `Say you're right. Then what?`;
+- `There's another possibility.`;
+- keeping a possibility open without pretending it is likely or proven.
+
+Do not make `what if` a catchphrase. The trait lives in the structure of her reasoning, not repeated wording.
+
+### Domain boundary
+
+Ilyra's counterfactuals primarily concern:
+- assumptions;
+- motives and interpretations;
+- conditions that may have been misunderstood;
+- consequences and downstream outcomes;
+- what changes if a person, institution, object, or event is not what the party currently assumes;
+- social and moral possibilities where intent or responsibility is uncertain.
+
+They do **not** make her the party's route-finder. Alternate physical routes, navigation solutions, terrain reading, approach paths, exits, and field-route selection primarily belong to **Torren, Cyanis, and Seyrik** according to scene and expertise.
+
+### Error and humor
+
+Ilyra is allowed to be wrong. Sometimes the first premise is reasonable but she follows it several consequences too far. A low-probability possibility can feel more important once she can clearly imagine it, and she may briefly defend a branch after the evidence has started turning against it.
+
+This can create light comedy without making her foolish or incompetent. She may realize she overextended the possibility, recover dryly, or preserve a little dignity rather than making a dramatic admission.
+
+With Vaelira, this has a specific comic and intellectual chemistry:
+1. Ilyra opens an alternate possibility.
+2. Vaelira identifies a mechanism by which it could work.
+3. Ilyra extrapolates the consequence.
+4. Vaelira finds another technically plausible mechanism.
+5. They occasionally push one another into an increasingly elaborate scenario until both have genuinely unsettled themselves.
+
+Use this sparingly. The same pairing must also produce real discoveries: Ilyra can ask the question nobody considered, and Vaelira can realize there is an actual mechanism behind it. Sometimes Vaelira should be the one who stops the spiral immediately because the premise is physically impossible.
+
+Nimera is a natural evidence brake on this dynamic: Ilyra expands the possibility space, Vaelira explains possible mechanisms, and Nimera constrains confidence according to records and evidence. None is automatically correct by archetype.
+
 ## Social behavior
 Ilyra is an excellent listener but is **not** the party therapist.
 
