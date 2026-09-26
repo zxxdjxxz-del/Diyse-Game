@@ -4,11 +4,11 @@
 
 [resource]
 script = ExtResource("1")
-scene_id = "S015"
+scene_id = "B11"
 chapter_id = "chapter_02"
 environment_family = "CH02_OLD_BASTION"
 battle_background_family = "CH02_OLD_BASTION"
-cutscene_tier = "C2"
-vfx_tier = "V2"
-encounter_mode = "mixed"
-presentation_tags = Array[String](["HD2D", "RANDOM_ALLOWED", "FUNCTIONING_BLACK_HOST_BASE", "RHAZEK_CH2_VISUAL_ONLY", "RHAZEK_SAME_BODY_SAME_HP", "NO_PURSUIT_AFTER_WITHDRAWAL"])
+cutscene_tier = "C1"
+vfx_tier = "V1"
+encounter_mode = "random_allowed"
+presentation_tags = Array[String](["HD2D", "RANDOM_ALLOWED", "OLD_BASTION_ASCENT", "FUNCTIONING_BLACK_HOST_BASE"])

@@ -4,7 +4,7 @@
 
 [resource]
 script = ExtResource("1")
-environment_id = "CH02_EXTRACTION_CAUSEWAY"
+environment_id = "CH02_DUNMERE_APPROACH"
 initial_state = "ACTIVE"
-available_states = Array[String](["BASE", "ACTIVE", "OPEN", "CLEARED", "POST_STORY"])
-persistent_flag_prefix = "environment.chapter_02.extraction_causeway"
+available_states = Array[String](["BASE", "ACTIVE", "POST_STORY"])
+persistent_flag_prefix = "environment.chapter_02.dunmere_approach"

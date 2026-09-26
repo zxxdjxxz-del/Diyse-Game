@@ -4,11 +4,11 @@
 
 [resource]
 script = ExtResource("1")
-scene_id = "C07"
+scene_id = "B09"
 chapter_id = "chapter_02"
-environment_family = "CH02_DUNMERE_WATERWORKS"
+environment_family = "CH02_PRISONER_GALLERIES"
 battle_background_family = ""
-cutscene_tier = "C0"
+cutscene_tier = "C1"
 vfx_tier = "V1"
 encounter_mode = "none"
-presentation_tags = Array[String](["HD2D", "NO_RANDOM", "CHARACTER_LIFE", "REST_AREA", "NO_DREAM_VISUALIZATION", "DAWN_LIGHT_LOOP"])
+presentation_tags = Array[String](["HD2D", "NO_RANDOM", "PRISONER_GALLERIES", "FIRST_CONTACT", "PRISONER_AGENCY"])

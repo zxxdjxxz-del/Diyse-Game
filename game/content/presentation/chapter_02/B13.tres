@@ -4,11 +4,11 @@
 
 [resource]
 script = ExtResource("1")
-scene_id = "S013"
+scene_id = "B13"
 chapter_id = "chapter_02"
-environment_family = "CH02_SUNKEN_ARCHIVE"
-battle_background_family = "CH02_SUNKEN_ARCHIVE"
+environment_family = "CH02_OLD_BASTION"
+battle_background_family = "CH02_OLD_BASTION"
 cutscene_tier = "C2"
 vfx_tier = "V2"
-encounter_mode = "mixed"
-presentation_tags = Array[String](["HD2D", "RANDOM_ALLOWED", "MEMORY_SCRIBE_COPY_FUNCTION_ONLY", "LEVIATHAN_SAME_BODY_SAME_HP", "WATER_LAYER_REUSE"])
+encounter_mode = "fixed_authored"
+presentation_tags = Array[String](["HD2D", "NO_RANDOM", "RHAZEK_BOSS", "RHAZEK_SURVIVES_WITHDRAWAL", "NO_PURSUIT_AFTER_WITHDRAWAL"])

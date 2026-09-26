@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="DiyseScenePresentationDefinition" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://game/presentation/scene_presentation_definition.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+scene_id = "B04"
+chapter_id = "chapter_02"
+environment_family = "CH02_OLD_WATERWORKS"
+battle_background_family = "CH02_OLD_WATERWORKS"
+cutscene_tier = "C1"
+vfx_tier = "V1"
+encounter_mode = "random_allowed"
+presentation_tags = Array[String](["HD2D", "RANDOM_ALLOWED", "OLD_WATERWORKS_COVERT", "NO_BLACK_HOST_RANDOMS", "SEALED_HUNT_BRANCH_INERT"])

@@ -4,11 +4,11 @@
 
 [resource]
 script = ExtResource("1")
-scene_id = "S012"
+scene_id = "B12"
 chapter_id = "chapter_02"
-environment_family = "CH02_DUNMERE_WATERWORKS"
+environment_family = "CH02_OLD_BASTION"
 battle_background_family = ""
 cutscene_tier = "C2"
 vfx_tier = "V1"
 encounter_mode = "none"
-presentation_tags = Array[String](["HD2D", "NO_RANDOM", "DUNMERE_INVESTIGATION", "LOWER_FEED_STATE_CHANGE", "SUNKEN_ARCHIVE_REVEAL"])
+presentation_tags = Array[String](["HD2D", "NO_RANDOM", "RHAZEK_MASKED_OFFICER", "MASKED_OFFICER_UNNAMED", "SEYRIK_IDENTITY_FIREWALL"])

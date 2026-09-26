@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="DiyseScenePresentationDefinition" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://game/presentation/scene_presentation_definition.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+scene_id = "B05"
+chapter_id = "chapter_02"
+environment_family = "CH02_SUNKEN_ARCHIVE"
+battle_background_family = "CH02_SUNKEN_ARCHIVE"
+cutscene_tier = "C1"
+vfx_tier = "V1"
+encounter_mode = "random_allowed"
+presentation_tags = Array[String](["HD2D", "RANDOM_ALLOWED", "SUNKEN_ARCHIVE_ENTRANCE"])

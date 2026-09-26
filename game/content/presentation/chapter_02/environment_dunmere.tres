@@ -4,7 +4,7 @@
 
 [resource]
 script = ExtResource("1")
-environment_id = "CH02_PRISONER_TRANSFER_SERVICE"
+environment_id = "CH02_DUNMERE"
 initial_state = "ACTIVE"
-available_states = Array[String](["BASE", "ACTIVE", "OPEN", "CLEARED", "POST_STORY"])
-persistent_flag_prefix = "environment.chapter_02.prisoner_transfer_service"
+available_states = Array[String](["BASE", "ACTIVE", "POST_STORY"])
+persistent_flag_prefix = "environment.chapter_02.dunmere"

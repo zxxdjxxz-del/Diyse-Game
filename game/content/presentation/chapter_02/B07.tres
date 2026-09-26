@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="DiyseScenePresentationDefinition" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://game/presentation/scene_presentation_definition.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+scene_id = "B07"
+chapter_id = "chapter_02"
+environment_family = "CH02_SUNKEN_ARCHIVE"
+battle_background_family = "CH02_SUNKEN_ARCHIVE"
+cutscene_tier = "C2"
+vfx_tier = "V2"
+encounter_mode = "fixed_authored"
+presentation_tags = Array[String](["HD2D", "NO_RANDOM", "ARCHIVE_LEVIATHAN_AUTHORED", "ONE_HP_TWO_BEHAVIOR_STATES", "MAEVRA_NONCOMBAT"])
