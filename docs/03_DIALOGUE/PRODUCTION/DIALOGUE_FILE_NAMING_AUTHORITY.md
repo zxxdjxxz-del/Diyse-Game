@@ -121,6 +121,23 @@ Cross-chapter generated sync metadata uses `CHAPTERS_00_03_DIALOGUE_SYNC_MANIFES
 
 Cross-chapter dated dialogue provenance/audits use the plural range prefix `CHAPTERS_00_03_...`, for example `CHAPTERS_00_03_FULL_SOURCE_CLOSURE_2026-09-13.md`. Dates are appropriate for audit/provenance records, not canonical scene identity. The generated Chapters 0–3 reader uses `DIYSE_Chapters_00-03_Spoiler_Free_Exact_Dialogue_Reader.docx`; freshness is determined by generation/validation, not a `CURRENT` filename suffix.
 
+## Runtime dialogue derivation
+
+Approved Chapters 0–3 runtime Resources exist only under:
+
+```text
+game/content/dialogue/current/chapter_00/
+game/content/dialogue/current/chapter_01/
+game/content/dialogue/current/chapter_02/
+game/content/dialogue/current/chapter_03/
+```
+
+The sibling legacy S/H trees `game/content/dialogue/chapter_00/` through `chapter_03/` are retired. Git history is their provenance; they must not coexist with the current B/C runtime tree.
+
+The generated current manifest records each slot's canonical `scene_id`, source path, source SHA-256, spoken-sequence SHA-256, and spoken-line count. Runtime validation requires the exact canonical B/C slot set for each approved chapter.
+
+Chapter 4 is excluded from this rule until its exact dialogue is approved and compiled into the current runtime tree.
+
 ## Authority and historical files
 
 Historical/superseded story packets belong outside the live authority root, such as:

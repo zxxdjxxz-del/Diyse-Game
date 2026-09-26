@@ -1,6 +1,12 @@
 extends SceneTree
 
 const EXPECTED_TOTAL_SPOKEN := 2021
+const EXPECTED_SLOTS := {
+	"chapter_00": ["B01", "B02", "B03", "B04", "B05", "B06", "B07", "C01"],
+	"chapter_01": ["B01", "B02", "B03", "B04", "B05", "B06", "B07", "B08", "B09", "B10", "B11", "B12", "C02", "C03", "C04"],
+	"chapter_02": ["B01", "B02", "B03", "B04", "B05", "B06", "B07", "B08", "B09", "B10", "B11", "B12", "B13", "B14", "B15", "C05"],
+	"chapter_03": ["B01", "B02", "B03", "B04", "B05", "B06", "B07", "B08", "B09", "B10", "B11", "B12", "B13", "B14", "B15", "C06", "C07"],
+}
 
 var failures: Array[String] = []
 
@@ -41,12 +47,21 @@ func _run_validation() -> void:
 		if not (scenes_value is Array):
 			continue
 
+		var observed_slots: Array[String] = []
+		var seen_slots: Dictionary = {}
 		for entry_value in scenes_value:
 			_expect(entry_value is Dictionary, "%s scene manifest entry must be a Dictionary" % chapter_id)
 			if not (entry_value is Dictionary):
 				continue
 			var entry: Dictionary = entry_value
 			var slot_id := str(entry.get("slot_id", ""))
+			_expect(not slot_id.is_empty(), "%s manifest entry has empty slot_id" % chapter_id)
+			_expect(not seen_slots.has(slot_id), "%s manifest contains duplicate slot %s" % [chapter_id, slot_id])
+			seen_slots[slot_id] = true
+			observed_slots.append(slot_id)
+			_expect(not str(entry.get("source_sha256", "")).is_empty(), "%s/%s source SHA-256 is missing" % [chapter_id, slot_id])
+			_expect(not str(entry.get("spoken_sha256", "")).is_empty(), "%s/%s spoken SHA-256 is missing" % [chapter_id, slot_id])
+			_expect(str(entry.get("resource_path", "")).begins_with("res://game/content/dialogue/current/%s/" % chapter_id), "%s/%s resource path must stay under the current runtime tree" % [chapter_id, slot_id])
 			var scene := DiyseCurrentDialogueCatalog.load_scene(chapter_id, slot_id)
 			_expect(scene != null, "%s/%s current Resource must load" % [chapter_id, slot_id])
 			if scene == null:
@@ -67,6 +82,13 @@ func _run_validation() -> void:
 			total_spoken += spoken
 			scene_count += 1
 
+		var expected_slots: Array = EXPECTED_SLOTS.get(chapter_id, [])
+		_expect(observed_slots.size() == expected_slots.size(), "%s slot count changed: expected %d, got %d" % [chapter_id, expected_slots.size(), observed_slots.size()])
+		for expected_slot in expected_slots:
+			_expect(str(expected_slot) in observed_slots, "%s missing canonical slot %s" % [chapter_id, expected_slot])
+		for observed_slot in observed_slots:
+			_expect(observed_slot in expected_slots, "%s contains noncanonical slot %s" % [chapter_id, observed_slot])
+
 	_expect(scene_count == 56, "Current runtime dialogue scene count changed: expected 56, got %d" % scene_count)
 	_expect(total_spoken == EXPECTED_TOTAL_SPOKEN, "Current runtime dialogue spoken total changed: expected %d, got %d" % [EXPECTED_TOTAL_SPOKEN, total_spoken])
 	_expect(int(data.get("total_spoken", -1)) == EXPECTED_TOTAL_SPOKEN, "Manifest compiled spoken total changed")
@@ -78,7 +100,7 @@ func _expect(condition: bool, message: String) -> void:
 
 func _finish() -> void:
 	if failures.is_empty():
-		print("Current Chapters 0-3 runtime dialogue Resources validated: 56 scenes / 2021 spoken lines.")
+		print("Current Chapters 0-3 runtime dialogue Resources validated: canonical B/C slot sets, 56 scenes / 2021 spoken lines.")
 		quit(0)
 		return
 	for failure in failures:

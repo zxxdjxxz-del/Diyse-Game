@@ -108,33 +108,6 @@ jobs:
       - name: Run Dialogue Engine controlled preview-gate validation
         run: godot --headless --path . --script tests/dialogue/validate_dialogue_scene_preview_controller.gd
 
-      - name: Run Step 7C S001 opening validation
-        run: godot --headless --path . --script tests/dialogue/validate_s001.gd
-
-      - name: Run Step 7C S002 Wreck Field validation
-        run: godot --headless --path . --script tests/dialogue/validate_s002.gd
-
-      - name: Run Step 7C S003 Evacuation Relay decision validation
-        run: godot --headless --path . --script tests/dialogue/validate_s003.gd
-
-      - name: Run Step 7C S004 Field Triage Camp revelation validation
-        run: godot --headless --path . --script tests/dialogue/validate_s004.gd
-
-      - name: Run Step 7C S005 confrontation validation
-        run: godot --headless --path . --script tests/dialogue/validate_s005.gd
-
-      - name: Run Step 7C S006 aftermath validation
-        run: godot --headless --path . --script tests/dialogue/validate_s006.gd
-
-      - name: Run Step 7C C01 Character-Life validation
-        run: godot --headless --path . --script tests/dialogue/validate_c01.gd
-
-      - name: Run Step 7C C02 Character-Life validation
-        run: godot --headless --path . --script tests/dialogue/validate_c02.gd
-
-      - name: Run Step 7C Chapter 0 continuity validation
-        run: godot --headless --path . --script tests/dialogue/validate_chapter_00_continuity.gd
-
       - name: Validate current Chapters 0-3 runtime dialogue Resources
         run: godot --headless --path . --script tests/dialogue/validate_current_dialogue_resources.gd
 
