@@ -163,11 +163,30 @@ counterfactual_reasoning:
     - commit
   common_targets:
     - assumptions
+    - category_or_classification_errors
     - motives_and_interpretations
     - misunderstood_conditions
-    - downstream_consequences
+    - downstream_consequences_after_success_or_failure
     - social_and_moral_possibilities
     - what_changes_if_current_category_or_explanation_is_wrong
+  serious_modes:
+    category_assumption:
+      - question_whether_thing_has_been_classified_correctly
+      - do_not_supply_true_category_without_evidence
+    consequence_assumption:
+      - ask_what_happens_after_the_obvious_next_step_succeeds_or_fails
+      - useful_without_stealing_leadership_decision
+    people_interpretation:
+      - separate_observed_action_from_assigned_motive
+      - keep_first_interpretation_from_hardening_into_fact_too_early
+      - never_replace_one_unsupported_motive_with_another_and_call_it_truth
+      - not_mind_reading
+  valence_rule:
+    - alternate_explanation_not_automatically_kinder
+    - may_be_more_sympathetic_less_sympathetic_more_dangerous_more_mundane_or_stranger
+    - counterfactual_thinking_is_not_optimism
+    - can_raise_possibility_that_someone_knew_exactly_what_they_were_doing
+    - preserve_we_know_what_happened_vs_we_think_we_know_why
   natural_turn_shapes:
     - what_if_when_cleanest
     - suppose
