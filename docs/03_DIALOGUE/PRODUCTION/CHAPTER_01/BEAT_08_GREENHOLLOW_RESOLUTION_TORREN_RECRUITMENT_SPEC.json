@@ -1,0 +1,46 @@
+{
+  "schema": "diyse_scene_authority_spec_v1",
+  "scene_id": "CH01_BEAT08_GREENHOLLOW_RESOLUTION_TORREN_RECRUITMENT",
+  "chapter_id": "chapter_01",
+  "story_position": "Chapter 1 — Beat 8 — Greenhollow Resolution / Torren Recruitment",
+  "production_ready": true,
+  "participants": [
+    "cyanis",
+    "ilyra",
+    "maevra",
+    "torren"
+  ],
+  "scene_purpose": "Hand Hollow Watch to a proper response, resolve Torren's reason for remaining near Greenhollow, and make him a permanent party member.",
+  "story_sources": [
+    {
+      "path": "docs/02_STORY/CHAPTERS/CHAPTER_01.md",
+      "sections": [
+        "Beat 8 — Greenhollow Resolution / Torren Recruitment"
+      ],
+      "role": "current_chapter_01_story_authority"
+    }
+  ],
+  "scene_context_seed": {
+    "location_name": "Greenhollow",
+    "area_phase": "post_hollow_watch_resolution",
+    "dialogue_readiness": "GREEN",
+    "static_story_context_only": true,
+    "runtime_note": "Preserve CURRENT(6) recruitment wording. Do not recap the removed Castellan or old dungeon structure. No Ilyra agency-management dialogue."
+  },
+  "current_floor_state": {
+    "hollow_watch_surface": "occupation_broken_not_restored",
+    "torren_party_status": "becomes_permanent_here",
+    "maevra_combat_status": "noncombat",
+    "next_destination": "Dunmere_via_Southern_Briar"
+  },
+  "allowed_information_transfers": [],
+  "exact_line_anchors": [],
+  "production_cost_ceiling": "one Greenhollow report/recruitment scene",
+  "required_story_beats": [
+    "Give the consequence-first Hollow Watch report.",
+    "Torren accepts that Greenhollow can now take over the problem.",
+    "Torren commits to the southward journey and continuing toward Caelora.",
+    "Unlock Torren as a permanent party member.",
+    "Return player control for preparation."
+  ]
+}
