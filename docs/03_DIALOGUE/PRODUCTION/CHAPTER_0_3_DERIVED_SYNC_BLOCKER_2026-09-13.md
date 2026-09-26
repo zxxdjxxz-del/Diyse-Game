@@ -23,10 +23,10 @@ No source dialogue rewrite is required in order to resolve this blocker.
 ## What was derived/stale before resolution
 
 The following derived convenience artifacts were stale while this blocker was active; they have now been regenerated successfully:
-- `CHAPTER_00/CHAPTER_00_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md`;
-- `CHAPTER_01/CHAPTER_01_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md`;
-- `CHAPTER_02/CHAPTER_02_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md`;
-- `CHAPTER_03/CHAPTER_03_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md`;
+- `CHAPTER_00/CHAPTER_00_DIALOGUE_MANUSCRIPT.md`;
+- `CHAPTER_01/CHAPTER_01_DIALOGUE_MANUSCRIPT.md`;
+- `CHAPTER_02/CHAPTER_02_DIALOGUE_MANUSCRIPT.md`;
+- `CHAPTER_03/CHAPTER_03_DIALOGUE_MANUSCRIPT.md`;
 - `CHAPTER_0_3_DIALOGUE_SYNC_MANIFEST.md` if present from an older run;
 - the prior Chapters 0–3 spoiler-free exact-dialogue reader / novelization.
 

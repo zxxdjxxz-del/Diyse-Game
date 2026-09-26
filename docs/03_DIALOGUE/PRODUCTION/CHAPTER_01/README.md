@@ -5,7 +5,7 @@
 Use this folder for the current Chapter-1 dialogue production set.
 
 Primary cumulative manuscript:
-`CHAPTER_01_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md`
+`CHAPTER_01_DIALOGUE_MANUSCRIPT.md`
 
 Current Chapters 0–3 exact-dialogue reader:
 `DIYSE_Chapters_0-3_Spoiler_Free_Exact_Dialogue_Reader_CURRENT_2026-09-25.docx`

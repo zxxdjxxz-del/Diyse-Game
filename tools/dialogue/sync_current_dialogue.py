@@ -302,7 +302,7 @@ def protected_checks(all_sources: dict[str, list[tuple[SourceSpec, Path, bytes, 
 
 def render_combined(chapter: ChapterSpec, sources: list[tuple[SourceSpec, Path, bytes, str]]) -> str:
     lines: list[str] = [
-        f"# DIYSE — {chapter.title} — Synchronized Rehearsal-First Working Dialogue Manuscript",
+        f"# DIYSE — {chapter.title} — Synchronized Dialogue Manuscript",
         "",
         "**Status:** CURRENT DERIVED READ-THROUGH — SYNCHRONIZED AGAINST CURRENT ATOMIC DIALOGUE SOURCES",
         "",

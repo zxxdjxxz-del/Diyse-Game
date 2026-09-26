@@ -5,7 +5,7 @@
 Use this folder for the current Chapter-0 dialogue production set.
 
 Primary cumulative manuscript:
-`CHAPTER_00_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md`
+`CHAPTER_00_DIALOGUE_MANUSCRIPT.md`
 
 Standalone current scene atomics:
 - `CH00_B01_CONVOY_OPENING_AMBUSH_DIALOGUE.md`

@@ -105,6 +105,18 @@ If a chapter is structurally revised before final lock:
 - preserve retired numbering only in Git/history;
 - never keep a ghost live slot solely for provenance.
 
+## Derived combined manuscripts
+
+Generated chapter read-throughs use the stable filename:
+
+```text
+CHAPTER_##_DIALOGUE_MANUSCRIPT.md
+```
+
+Their generated title is **Synchronized Dialogue Manuscript**. They are derived mirrors only; standalone atomics remain exact wording authority.
+
+Do not encode rehearsal method, draft state, `WORKING`, `CURRENT`, or `FINAL` in a generated manuscript filename. Synchronization state belongs in the manuscript metadata and sync manifest.
+
 ## Authority and historical files
 
 Historical/superseded story packets belong outside the live authority root, such as:

@@ -210,7 +210,7 @@ Production files changed in that range:
 - `BEAT_12_SEALWRIGHT_CHAMBER_COPYING_ATTEMPTS_DRAFT_A.md`
 - `BEAT_13_MIRENAS_CONCERN_CRESTHAVEN_LEAD_DRAFT_A.md`
 - `C07_ILYRA_AND_NIMERA_DIALOGUE.md`
-- `CHAPTER_03_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md`
+- `CHAPTER_03_DIALOGUE_MANUSCRIPT.md`
 
 No Chapter-3 story-structure authority file was altered by this dialogue closing pass.
 
@@ -218,7 +218,7 @@ No Chapter-3 story-structure authority file was altered by this dialogue closing
 
 # 10. Full manuscript state
 
-`CHAPTER_03_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md` has been rebuilt from the current post-audit scene authorities.
+`CHAPTER_03_DIALOGUE_MANUSCRIPT.md` has been rebuilt from the current post-audit scene authorities.
 
 It now contains:
 - Beats 1–15;

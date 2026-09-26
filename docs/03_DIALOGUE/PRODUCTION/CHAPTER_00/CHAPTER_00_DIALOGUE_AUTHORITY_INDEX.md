@@ -2,7 +2,7 @@
 
 **Chapter:** 0 — Broken Convoy  
 **Status:** **FULL SOURCE-LEVEL DIALOGUE CLOSURE — B01–B07 + C01; ATOMIC DIALOGUE + CURRENT PERSON BRAINS ALIGNED**  
-**Combined read-through:** `CHAPTER_00_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md` — derived read-through; standalone atomics remain exact wording authority  
+**Combined read-through:** `CHAPTER_00_DIALOGUE_MANUSCRIPT.md` — derived read-through; standalone atomics remain exact wording authority  
 **Current atomic spoken-line counts:** **309 mandatory + 79 C01 = 388 if C01 is viewed.**  
 **Rhythm:** `../../AGENT_SYSTEM/NATURAL_TURN_LENGTH_AND_FLOOR_HOLDING_LOCK.md`  
 **Mature-adult speech:** `../../AGENT_SYSTEM/MATURE_ADULT_SPEECH_AND_PROFANITY_LOCK.md`  
