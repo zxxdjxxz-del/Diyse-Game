@@ -1,12 +1,13 @@
 # Chapter 1 — Brackenwall and the Wayfinder
 
 **Current whole-project written authority:** v2.20 / Audit135, plus later explicit user corrections and current domain migrations.  
-**Domain rule:** this file owns mandatory Chapter-1 story structure, scene order, reveal order, recruitment milestones, knowledge state, and story outcomes. Exact dialogue belongs to the dialogue engine / `03_DIALOGUE`; combat mechanics belong to battle/encounter authority.
+**Domain rule:** this file owns mandatory Chapter-1 story structure, scene order, reveal order, recruitment milestones, knowledge state, and story outcomes. Exact dialogue belongs to the dialogue authority / `03_DIALOGUE`; combat mechanics and formation tuning belong to battle/encounter authority.
 
-**Status:** STRUCTURE LOCKED / DIALOGUE PRODUCTION COMPLETE THROUGH BEATS 1–15 + C02/C03/C04; exact wording current in `03_DIALOGUE`.
+**Status:** STRUCTURE REVISED / 12-BEAT AUTHORITY — 2026-09-25.  
+**Current exact-dialogue reference:** latest Chapter 0–3 exact-dialogue reader, `DIYSE_Chapters_0-3_Spoiler_Free_Exact_Dialogue_Reader_CURRENT(6).docx` (2026-09-23), subject to structural continuity edits required by this file.
 
 ## Dialogue-engine beat rule
-For reopened Chapter-1 material, story authority should define only what is needed to keep generated dialogue canon-safe:
+For reopened Chapter-1 material, story authority should define only what is needed to keep dialogue canon-safe:
 - purpose;
 - starting state / knowledge;
 - mandatory events and discoveries;
@@ -22,10 +23,9 @@ Exact wording, banter, profanity, pacing, reactions, and relationship-performanc
 - Brackenwall lies on the opposite side of Briar Passage from Greenhollow.
 - Greenhollow is east of Briar Passage.
 - Hollow Watch is north of Briar Passage via its own spur / old watch trail.
-- Hollow Watch is a **small Yahtrean cliff-side fort built directly over an older Diysean ruin**.
-- The Black Host seized Hollow Watch roughly one week before the Greenhollow events and has spent that week excavating beneath it.
+- Hollow Watch is a **small Yahtrean cliff-side fort built directly over older Diysean construction**.
+- The Black Host seized Hollow Watch roughly one week before the Greenhollow events and spent that week excavating beneath it.
 - Southern Briar Passage continues toward Wayfinder Junction and then the Dunmere approach.
-- The physical entrance used to reach the **Cistern Devourer Hunt is in southern Briar Passage**, not at Wayfinder Junction. Wayfinder later provides the information that makes that earlier Briar-side access meaningful and returnable.
 - A direct Greenhollow–Dunmere road exists but is unavailable in Chapter 1 because of Black Host control.
 
 ## Locked travel / combat presentation
@@ -34,6 +34,13 @@ Exact wording, banter, profanity, pacing, reactions, and relationship-performanc
 - Torren becomes combat-capable with Cyanis and Ilyra for Hollow Watch.
 - Hollow Watch active combat party: **Cyanis + Ilyra + Torren**.
 - Torren is temporary through Hollow Watch and becomes a permanent party member only after Hollow Watch is resolved.
+- Hollow Watch surface uses only light Black Host pressure.
+- Below the excavation transition, **Black Host enemies do not appear**.
+- Underground Hollow Watch is a **small excavation into a short Diysean corridor with only a few accessible rooms**, not a full dungeon.
+- Ordinary underground enemies are **Constructs only**.
+- **Shield Construct** is a fixed authored stronger encounter. It is **not random and not a miniboss**.
+- Southern Briar remains the chapter's largest natural exploration/combat area.
+- Thornhide is Chapter 1's main/final boss.
 
 ## Locked cuts
 Do not restore:
@@ -44,9 +51,17 @@ Do not restore:
 - stranded civilians / Lower Woods rescue as Torren's recruitment event;
 - Greenhollow Thornhide fight;
 - early Hollow Watch map rubbing;
-- separate post-Castellan Hollow Watch route plate.
+- Six-Channel Junction as a separate major room/beat;
+- surviving-channel progression;
+- protected inner route / forced protected-door breach;
+- Watch Castellan;
+- Card-triggered Castellan/chamber activation;
+- post-Castellan protected passage;
+- Southern Briar overgrown side-access hook;
+- Cistern Devourer;
+- Regional Hunt #1.
 
-**The post-Castellan mural is Hollow Watch's sole major cartographic payoff.**
+The **Hollow Watch landscape depiction** is Hollow Watch's sole major regional/cartographic story payoff.
 
 Wayfinder Junction is the chapter's actual waystone/cartographic monument.
 
@@ -99,7 +114,7 @@ Wayfinder Junction is the chapter's actual waystone/cartographic monument.
 - find Torren at the route board;
 - practiced Maevra/Torren familiarity is visible without exposing private chronology;
 - direct Greenhollow–Dunmere road is under Black Host control;
-- southern Briar remains possible with Torren's current route knowledge;
+- Southern Briar remains possible with Torren's current route knowledge;
 - Torren reports Hollow Watch seized about a week ago, unusual excavation traffic, and unknown garrison fate;
 - Card context is brief: it must remain near Cyanis and Ilyra is monitoring him;
 - Torren joins temporarily for Hollow Watch.
@@ -109,162 +124,146 @@ Wayfinder Junction is the chapter's actual waystone/cartographic monument.
 ## Beat 4 — Hollow Watch Approach
 
 **Purpose**
-- let Torren's route expertise get the group into position without turning the approach into a navigation puzzle.
+- let Torren's route expertise get the group into position without turning the approach into a navigation puzzle;
+- establish a small Black Host occupation and visible excavation activity.
 
 **Current sequence**
 - no separate Greenhollow departure scene;
 - mostly silent approach;
 - one authored stop at the first clean fort reveal;
-- occupation, excavation activity, and older fitted stone beneath the fort become visible;
+- light occupation, excavation activity, and older fitted stone beneath the fort become visible;
 - garrison fate and excavation target remain unknown;
 - Torren selects the less exposed west-wall approach;
 - no second scouting/planning stop.
 
 ---
 
-## Beat 5 — Occupied Hollow Watch
+## Beat 5 — Hollow Watch Surface / Garrison
 
 **Purpose**
-- resolve the garrison's fate and push the party naturally into the Black Host excavation.
+- resolve the garrison's fate;
+- keep Black Host pressure short and local;
+- push the party naturally into the excavation.
 
 **Current sequence**
-- occupied-fort gameplay carries most information environmentally;
+- surface-fort gameplay carries most information environmentally;
+- only a small Black Host force remains above ground;
 - one major authored discovery: the dead Yahtrean garrison;
 - no watch-room records scene or lower-fort information stop;
 - the Black Host excavation route downward is already obvious from logistics and damage;
-- target remains unknown.
+- the party follows the excavation below;
+- the Black Host's target remains unknown.
 
 ---
 
-## Beat 6 — Black Host Excavation / Lower Access
+## Beat 6 — Hollow Watch Excavation
 
 **Purpose**
-- move from the Yahtrean fort into progressively older and more intact Diysean construction.
+- reveal that the Black Host excavated directly into older Diysean construction and awakened its defenses;
+- preserve a compact early-game scope for the three-character party;
+- deliver the first strong civilian-use clue without resolving the structure;
+- preserve uncertainty over whether the Black Host found what they wanted or were driven out.
 
 **Current sequence**
-- gameplay-first descent;
-- no formal story stop;
-- progression: fort basement -> active excavation -> mixed Yahtrean/older construction -> predominantly Diysean structure -> active ancient defenses -> Six-Channel Junction;
-- one brief natural reaction as fort work gives way to older structure;
-- Diysean Sentries enter the normal random encounter pool without scripted first activation;
-- Card remains inert.
+- descent is short: fort foundation -> Black Host excavation -> preexisting Diysean corridor;
+- abandoned excavation tools, supports, supplies, damage, and other traces show sustained work followed by an abrupt end;
+- once the party passes into the Diysean corridor, **no Black Host enemies appear**;
+- underground Hollow Watch consists of one short main corridor with only a few accessible rooms;
+- ordinary encounters are **Constructs only**;
+- environmental evidence implies the excavation disturbed the site and caused ancient defenses to become active;
+- evidence does **not** establish whether the Black Host recovered its objective, abandoned the search, or was driven out;
+- one surviving relief / image band shows ordinary people using the ancient structure, including adults, children, animals, handcarts, and injured people on litters;
+- the imagery suggests substantial movement but does not prove evacuation, transit, shelter, or any single function;
+- the Card remains inert;
+- one room contains a dormant **Shield Construct**;
+- progressing into that room triggers a fixed authored fight;
+- Shield Construct is stronger than ordinary Constructs but receives no boss/miniboss framing, phase change, special Card response, or route-unlocking function;
+- after the fixed fight, the party continues normally through the remaining short corridor;
+- the corridor ends at the surviving ancient landscape-depiction chamber.
 
 ---
 
-## Beat 7 — Lower Junction / Six Channels
+## Beat 7 — Hollow Watch Landscape Depiction
 
 **Purpose**
-- deliver the first strong human-use clue without resolving the structure.
+- provide Hollow Watch's main ancient-world discovery;
+- expand the local civilian-use clue into evidence of a much larger regional event;
+- establish the Junction as something worth inspecting while the party is already traveling south.
 
 **Current sequence**
-- circular junction with exactly six architectural channels;
-- five are ancient collapses and inaccessible;
-- one remains usable;
-- surviving relief shows ordinary people, including children, animals, handcarts, and injured people on litters;
-- imagery supports substantial civilian use and movement in more than one direction;
-- exact purpose remains unknown;
-- no implication the Black Host tested or chose among the collapsed channels;
-- continue through the sole surviving channel.
-
----
-
-## Beat 8 — Surviving Channel / Forced Inner Route
-
-**Purpose**
-- show that the Black Host bypassed a protected access by breaking weaker surrounding construction and carry momentum directly to the Castellan chamber.
-
-**Current sequence**
-- follow the only surviving channel;
-- brief reaction at one forced breach;
-- protected door/access remains intact while surrounding weaker stone was broken;
-- deeper architecture becomes cleaner and more intact;
-- ancient defenses continue through ordinary random encounters;
-- no threshold scene, Card-status checklist, pre-boss banter, or second authored stop;
-- enter the Castellan chamber directly.
-
----
-
-## Beat 9 — Watch Castellan
-
-**Purpose**
-- deliver Hollow Watch's mandatory mini-boss climax and show an unexplained Card/chamber response without resolving causation.
-
-**Current sequence**
-- Cyanis crosses a fitted boundary;
-- green-gold geometry wakes and the Card answers in the same color;
-- Castellan activates;
-- combat party is Cyanis + Ilyra + Torren; Maevra remains noncombat;
-- Castellan transitions from integrated to mobile state on the same HP bar with no heal/reset;
-- no mandatory midbattle dialogue beyond the brief transition call;
-- post-fight observation remains bounded: Cyanis felt no Brackenwall-like reaction and nobody explains why the chamber activated;
-- defeated Castellan exposes a short protected passage.
-
----
-
-## Beat 10 — Post-Castellan Mural
-
-**Purpose**
-- provide Hollow Watch's sole major cartographic/lore payoff.
-
-**Current sequence**
-- one protected mural chamber;
-- imagery shows fire falling across the region and ordinary people moving underground at multiple locations;
-- Torren recognizes Hollow Watch, confirming real geography;
-- Torren recognizes the southern crossroads called **the Junction**;
-- mural shows a prominent ancient structure there that Torren has never seen in the present day;
-- exact catastrophe, tunnel purpose, and monument function remain unresolved;
-- party decides to inspect the Junction while already traveling south;
+- the final ancient room contains a large preserved **landscape depiction / wall image** rather than an abstract symbolic mural;
+- the image depicts fire falling across the region;
+- ordinary people are shown moving toward and into constructed underground spaces at multiple locations;
+- recognizable terrain allows Torren to identify **Hollow Watch**, confirming that the image represents real geography;
+- farther south, Torren recognizes the crossroads known as **the Junction**;
+- the image shows a prominent ancient structure at the Junction that is not visibly present in the modern day;
+- the party cannot determine whether that structure is destroyed, buried, obscured, or represented imperfectly;
+- the catastrophe remains unidentified;
+- the exact purpose of the underground spaces remains unidentified;
+- nothing here reveals what the Black Host specifically came to find;
+- because the Junction lies close to the existing southward route, the party decides to inspect it while passing;
 - Hollow Watch ends here;
-- direct transition to Greenhollow with no playable backtrack, overlook scene, or second Junction discussion.
+- no additional underground exploration, overlook scene, second ancient discovery, or playable backtrack;
+- transition directly back to Greenhollow.
 
 ---
 
-## Beat 11 — Greenhollow Resolution / Torren Recruitment
+## Beat 8 — Greenhollow Resolution / Torren Recruitment
 
 **Purpose**
-- hand Hollow Watch over to a proper response and resolve Torren's reason for remaining near Greenhollow.
+- hand Hollow Watch over to a proper response;
+- resolve Torren's reason for remaining near Greenhollow;
+- return focus to the original southward journey.
 
 **Current sequence**
 - scene occurs back in Greenhollow;
 - brief consequence-first report: garrison dead, immediate Host occupation broken, fort not restored, surface must be held and the dead recovered;
-- no detailed dungeon recap;
+- locals are warned not to interfere with the excavation/ancient structure until a proper Yahtrean response arrives;
+- no detailed excavation recap;
+- the Black Host's objective and underground outcome remain unresolved;
 - Torren judges that Greenhollow can take over the problem;
 - Maevra asks whether the original southward route request still stands;
-- Torren independently commits to southern Briar and to continuing toward Caelora beyond Dunmere;
+- Torren independently commits to Southern Briar and to continuing toward Caelora beyond Dunmere;
 - **TORREN HARTH — PERMANENT PARTY MEMBER**;
 - player control returns in Greenhollow for preparation.
 
 ---
 
-## Beat 12 — Southern Briar Passage
+## Beat 9 — Southern Briar Passage
 
 **Purpose**
 - make Southern Briar a substantial exploration area whose navigation difficulty proves why Torren matters;
-- establish the Thornhide threat;
-- preserve the late overgrown side access for the cleanup backtrack.
+- broaden the Chapter 1 natural-threat ecology;
+- establish the Thornhide threat without revealing the creature early.
 
 **Current sequence**
 - no separate departure scene;
 - no guided traversal dialogue;
 - map structure itself demonstrates Torren's route competence;
-- Southern Briar is **moderately maze-like**, not heavily labyrinthine: a few meaningful forks, one or two reconnecting loops, misleading-looking branches, natural route ambiguity;
-- exactly two authored stops:
-  1. **Thornhide track first** — very large, recent, animal not yet seen;
-  2. **late overgrown stone-lined side access** in the final third/quarter — known opening, wrong direction for Dunmere, exact destination unknown;
+- Southern Briar is **moderately maze-like**, not heavily labyrinthine: a few meaningful forks, one or two reconnecting loops, misleading-looking branches, and natural route ambiguity;
+- familiar northern-Briar wildlife carries into the area alongside deeper-route species;
+- environmental disturbance gradually escalates from ambiguous wildlife damage to unmistakably large, recent territorial signs;
+- exactly one major authored stop occurs: **Thornhide track/sign** — very large, recent, creature not yet seen;
+- no Southern Briar side-access/Cistern hook remains;
 - final stretch becomes more direct as predator tension replaces navigation tension;
-- no false trail, split/crossing, Old Waystone, or major Ancient discovery;
-- Beat 13 owns the first clear Stalker visual.
+- ordinary encounter frequency may thin as the party enters Thornhide-dominated territory;
+- Thornhide itself is **not clearly seen** during this beat.
 
 ---
 
-## Beat 13 — Thornhide
+## Beat 10 — Thornhide
 
 **Purpose**
-- provide Chapter 1's final combat climax and clear the route to the Junction.
+- provide Chapter 1's final combat climax;
+- pay off the escalating ecological disturbance in Southern Briar;
+- clear the route to the Junction.
 
 **Current sequence**
 - first clear sighting occurs immediately before combat;
-- Stalker is an exceptionally strong native Thornhide, not corrupted, controlled, mechanized, or wounded by a special device;
+- Thornhide is an exceptionally large native beast, visually a massive werebear-like creature covered in porcupine-like quills;
+- its red eyes and other physical traits are natural, not evidence of corruption or control;
+- Thornhide is not corrupted, controlled, mechanized, Black-Host-altered, or wounded by a special device;
+- it blocks/controls the only practical immediate route forward;
 - normal lethal boss fight with Cyanis + Ilyra + Torren;
 - Maevra remains noncombat;
 - no purification, component-removal, protected-HP, or nonlethal resolution;
@@ -273,69 +272,70 @@ Wayfinder Junction is the chapter's actual waystone/cartographic monument.
 
 ---
 
-## Beat 14 — The Junction / Hidden Monument
+## Beat 11 — The Junction / Hidden Monument
 
 **Purpose**
-- pay off the Hollow Watch mural and reveal that the hidden Junction monument preserves a substantial map of **western ancient Diyse**, not merely a local route plate.
+- pay off the Hollow Watch landscape depiction;
+- reveal that the hidden Junction monument preserves a substantial map of **western ancient Diyse**, not merely a local route plate;
+- close Chapter 1's major discovery arc after the final boss.
 
 **Current sequence**
 - Torren knows the **Junction** as an old crossroads and knows the modern routes, but has never seen the hidden monument's map surface;
-- the monument is not immediately recognizable because vines and moss cover a broad low central stone;
+- the monument is not immediately recognizable because vines, moss, and accumulated growth cover a broad low central stone;
 - one simple clearing interaction reveals a stone-and-metal cartographic surface;
 - the monument is a map/route object, not a tunnel entrance;
-- the surviving map depicts a broad western portion of ancient Diyse rather than only the Junction corridor;
+- the surviving Wayfinder depicts a broad western portion of ancient Diyse rather than only the Junction corridor;
 - dense **overland routes** intersect and reconnect across the mapped region;
 - a distinct second system of markings corresponds, in underlying design authority, to **underground infrastructure and routes**, but the Chapter-1 party does **not** identify it as underground; they only recognize that it is a separate, extensive system that does not read like ordinary roads;
 - numerous built-up **city / settlement structures** appear across the western region;
 - the largest visible concentration of urban structures and infrastructure lies around the geography corresponding to **present-day Caelora**;
 - the Wayfinder is physically **broken through that Caelora-area concentration**, so the center of the largest ancient cluster is missing and cannot be reconstructed from this monument;
-- current Face markings appear: **Might / Elements / Grace / Perception / Memory / Ruin**; their map function remains unknown;
+- current Face markings appear: **Might / Elements / Grace / Memory / Perception / Ruin**; their map function remains unknown;
 - the local surviving alignment still matches the party's already-planned Dunmere-bound route;
-- water/cistern notation still matches the earlier late Southern Briar side access and makes it worth revisiting;
-- the party copies as much of the surviving western map as practical — broad route relationships, the unexplained second marking system, city clusters, the damaged Caelora-area break, local Dunmere alignment, cistern notation, and Face markings — without inventing the missing center;
-- late-Chapter-1 Torren/Cyanis **trainable** jab is established here for the Chapter-2 callback;
-- Torren calls for camp and morning departure to Dunmere.
+- no water/cistern notation or Southern-Briar backtrack hook remains;
+- the party copies as much of the surviving western map as practical — broad route relationships, the unexplained second marking system, city clusters, the damaged Caelora-area break, local Dunmere alignment, and Face markings — without inventing the missing center;
+- the late-Chapter-1 Torren/Cyanis **trainable** jab remains available for the Chapter-2 callback;
+- the party camps at the Junction and plans to leave for Dunmere in the morning.
 
 ---
 
-## Beat 15 — Junction Camp / Chapter-1 Cleanup Window
+## Beat 12 — Junction Camp / Chapter-1 Cleanup Window
 
 **Purpose**
-- provide a safe overnight cleanup hub after the final boss and Junction discovery;
-- allow optional Chapter-1 content before the story advances;
+- provide a safe overnight decompression window after Thornhide and the Wayfinder discovery;
+- allow optional Chapter-1 Character-Life content before the story advances;
 - end Chapter 1 with a clean morning departure.
 
 **Current sequence**
 - no additional mandatory evening conversation;
-- available optional Character-Life scenes:
-  - **C02 — Torren's Version of Dinner**;
-  - **C03 — What the Map Says**;
-  - **C04 — Two Professionals Complaining About Cyanis**;
-- optional backtrack through the short late-Southern-Briar stretch to the earlier side access for the **Cistern Devourer Hunt**;
-- optional content may be completed in any practical order or skipped;
+- available optional Character-Life scenes from the current exact-dialogue reader:
+  - **Torren's Version of Dinner**;
+  - **What the Map Says**;
+  - **Not Professionally**;
+- optional scenes may be completed in any practical order or skipped;
+- no Southern Briar backtrack objective;
+- no Regional Hunt or new combat challenge is introduced during this cleanup window;
 - player chooses when to rest;
-- next-morning departure dialogue is very brief and does not recap Hollow Watch, the Junction, recruitment, Cistern, or the ancient alignment;
+- next-morning departure dialogue is very brief and does not recap Hollow Watch, the Junction, recruitment, or the ancient alignment;
 - party continues toward already-planned Dunmere;
 - **CHAPTER 1 END**.
 
 ## Chapter-1 dramatic shape
-**Brackenwall Card custody anomaly → Caelora objective → Maevra seeks Torren → first Briar traversal → Greenhollow / Card briefing → Torren requires Hollow Watch resolved → occupied Hollow Watch / dead garrison → excavation → six-channel human-use clue → forced inner breach → implicit Card-triggered Castellan activation → Castellan → post-boss catastrophe/map mural → Torren permanently joins → southern Briar → Torren notes an overgrown off-route side access → wild-predator signs → Thornhide sighting → Thornhide final boss → Wayfinder Junction payoff → western ancient Diyse revealed as a dense regional route map with many city structures plus a second unexplained marking system → largest cluster converges around present-day Caelora but the Wayfinder is broken through its center → existing Dunmere-bound route is recognized inside the older network → Wayfinder water/cistern notation identifies the earlier Briar-side access as meaningful → Torren calls for camp → optional C03/C04/C05 Character-Life scenes / southern-Briar Cistern Devourer backtrack → next-morning continuation toward Dunmere.**
+**Brackenwall Card custody anomaly → Caelora objective → Maevra seeks Torren → first Briar traversal → Greenhollow / Card briefing → Torren requires Hollow Watch resolved → small Black Host occupation / dead garrison → short excavation into buried Diysean construction → Constructs / fixed Shield Construct → regional landscape depiction → Torren permanently joins → Southern Briar route-reading and expanded wildlife → Thornhide signs → Thornhide final boss → Junction Wayfinder payoff → western ancient Diyse revealed as a dense regional route map with many city structures plus a second unexplained marking system → largest cluster converges around present-day Caelora but the Wayfinder is broken through its center → existing Dunmere-bound route is recognized inside the older network → camp / optional Character-Life scenes → next-morning continuation toward Dunmere.**
 
 ## Knowledge firewall
 Chapter 1 must not reveal:
 - Last Sentinel identification;
 - Prime identification / manifestation beyond current Card knowledge;
-- explicit explanation of the Card's relationship to the Castellan / ancient authorization systems;
 - giant buried Crest;
-- identification of the Wayfinder's second marking system as underground infrastructure / routes, any explanation of what that system was for, how the ancient cities functioned together, or what occupied the missing center around present-day Caelora;
+- identification of the Wayfinder's second marking system as underground infrastructure / routes;
+- explanation of what the second Wayfinder system was for;
+- explanation of how the ancient cities functioned together;
+- identification of what occupied the missing center around present-day Caelora;
+- explanation of the Wayfinder Face markings' hidden network function;
 - Entity.
 
-## Optional handoff
-Regional Hunt #1 — Cistern Devourer becomes returnable when Wayfinder's old-water / cistern notation gives the party enough information to recognize the **overgrown access previously passed in southern Briar Passage**. The Hunt's physical entrance is in Briar Passage and is available during the Wayfinder-camp cleanup window before Chapter 2 begins.
-
-
 ---
-
 
 ## Environmental storytelling lock
 
@@ -346,7 +346,7 @@ The Passage should read as a real old route being reclaimed by wilderness:
 - remnants of intentional road/route construction remain visible beneath roots, erosion, and growth;
 - wildlife paths and territorial disturbance should be distinguishable from maintained human travel;
 - later Thornhide signs should feel like escalation of an ecology already present rather than boss foreshadowing pasted onto the final section;
-- do not restore the retired false trail, old waystone, split, or crossing concepts.
+- do not restore the retired false trail, old waystone, split, crossing, or Southern-Briar side-access Hunt hook.
 
 ### Greenhollow
 Greenhollow should visibly contrast with the Passage:
@@ -355,16 +355,24 @@ Greenhollow should visibly contrast with the Passage:
 
 ### Hollow Watch
 Most of the fort's story is environmental:
-- occupation overlays a dead/abandoned Yahtrean garrison rather than replacing it cleanly;
-- Black Host staging, excavation supplies, moved debris, improvised access, and damaged defensive spaces show an active dig;
-- the descent from fort basement into Ancient structure should move through a clear material sequence:
-  **Yahtrean fort → disturbed/reused foundations → mixed construction → predominantly Diysean structure → active Ancient defenses**;
-- the excavation path downward should be understandable from logistics/damage before anyone explains it;
-- the six-channel area must look used by people without implying the Black Host understood or deliberately selected among the collapsed channels.
+- occupation overlays a dead Yahtrean garrison rather than replacing it cleanly;
+- the Black Host presence above is small and excavation-focused;
+- staging, excavation supplies, moved debris, improvised supports, and damaged defensive spaces show the active dig;
+- the descent should move through a short clear sequence:
+  **Yahtrean fort → Black Host excavation → buried Diysean corridor / few rooms → active Constructs**;
+- no Black Host enemies appear once the party has passed into the underground Diysean corridor;
+- abandoned tools, damage, supplies, and combat traces should make it clear that something interrupted or ended the excavation;
+- evidence must remain ambiguous enough that either outcome is plausible:
+  - the Black Host found/recovered what it wanted and withdrew;
+  - the awakened Constructs drove the Black Host out before it finished;
+- the surviving civilian-use relief should feel like part of the compact corridor/room environment, not evidence of a much larger dungeon;
+- Shield Construct is a fixed stronger encounter, not a miniboss or gatekeeper.
 
-### Post-Castellan / Wayfinder
-The mural and Wayfinder remain physical evidence, not lore terminals:
-- damaged surfaces, incomplete surviving geometry, physical breakage through the Caelora-area center, and visible route density should do most of the work;
+### Hollow Watch Landscape Depiction / Wayfinder
+The landscape depiction and Wayfinder remain physical evidence, not lore terminals:
+- the Hollow Watch image is a large landscape depiction of the region during the catastrophe;
+- it establishes real geography and the hidden Junction structure without explaining the catastrophe;
+- damaged surfaces, incomplete surviving geometry, physical breakage through the Caelora-area center, and visible route density should do most of the Wayfinder work;
 - the unexplained second marking system must look materially distinct from ordinary roads without being identified as underground infrastructure by the party;
 - Face markings may be seen but not interpreted into their hidden network function.
 
@@ -372,9 +380,12 @@ The mural and Wayfinder remain physical evidence, not lore terminals:
 The natural climax should be prepared environmentally:
 - increasingly fresh large-animal disturbance;
 - broken vegetation / territorial markings / displaced smaller wildlife where appropriate;
-- the final clear sighting belongs to Beat 13 as already locked.
+- encounter density may decrease in the final Thornhide-dominated stretch;
+- no pre-boss clear Thornhide sighting;
+- the final clear sighting belongs to Beat 10 immediately before combat.
 
 Do not add environmental clues that solve:
 - what the second Wayfinder system is;
 - what the Face markings mean;
-- what occupied the broken Caelora center.
+- what occupied the broken Caelora center;
+- what exactly the Black Host sought beneath Hollow Watch.
