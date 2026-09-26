@@ -62,8 +62,6 @@ class ChapterSpec:
         return self.directory / f"CHAPTER_{self.chapter}_DIALOGUE_AUTHORITY_INDEX.md"
 
 
-def beats(start: int, end: int) -> tuple[SourceSpec, ...]:
-    return tuple(SourceSpec(f"Beat {n}", f"BEAT_{n:02d}_*.md") for n in range(start, end + 1))
 
 
 CHAPTERS: tuple[ChapterSpec, ...] = (
