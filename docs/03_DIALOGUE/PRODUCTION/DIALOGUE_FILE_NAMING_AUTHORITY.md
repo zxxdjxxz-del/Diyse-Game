@@ -162,6 +162,6 @@ Run:
 python tools/dialogue/validate_authority_naming.py
 ```
 
-The validator rejects legacy/mutable production filenames, non-contiguous live beat IDs, Character-Life numbering gaps/duplicates, malformed canonical B/C files, scene-spec IDs that disagree with their filenames, and retired cross-chapter naming.
+The validator rejects legacy/mutable production filenames, non-contiguous live beat IDs, Character-Life numbering gaps/duplicates, malformed canonical B/C files, scene-spec IDs that disagree with their filenames, retired cross-chapter naming, and retired direct runtime dialogue chapter folders. The live runtime dialogue layout permits only `game/content/dialogue/current/` and `game/content/dialogue/proof/` alongside the root README.
 
 GitHub Actions runs the same check through `Authority Naming Validation`.

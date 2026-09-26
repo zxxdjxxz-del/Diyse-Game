@@ -22,3 +22,15 @@ Do not use proof resources as dialogue wording authority.
 
 Exact spoken wording remains owned by approved atomics in
 `docs/03_DIALOGUE/PRODUCTION/CHAPTER_##/`, subject to the chapter dialogue authority index.
+
+
+## Automated layout guard
+
+`python tools/dialogue/validate_authority_naming.py` enforces the live runtime layout.
+
+Allowed direct entries under `game/content/dialogue/` are only:
+- `README.md`;
+- `current/`;
+- `proof/`.
+
+Direct `chapter_##/` runtime folders are retired and are a validation failure.

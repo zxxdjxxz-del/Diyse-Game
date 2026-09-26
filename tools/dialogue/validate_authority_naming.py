@@ -15,6 +15,7 @@ ROOT = Path(__file__).resolve().parents[2]
 STORY_ROOT = ROOT / "docs/02_STORY/CHAPTERS"
 PROD_ROOT = ROOT / "docs/03_DIALOGUE/PRODUCTION"
 DIALOGUE_ROOT = ROOT / "docs/03_DIALOGUE"
+RUNTIME_DIALOGUE_ROOT = ROOT / "game/content/dialogue"
 
 CHAPTER_DIR_RE = re.compile(r"^CHAPTER_(\d{2})$")
 B_DIALOGUE_RE = re.compile(
@@ -209,11 +210,51 @@ def validate_cross_chapter_names(errors: list[str]) -> None:
             errors.append(f"{path.relative_to(ROOT)}: required canonical cross-chapter file missing")
 
 
+def validate_runtime_dialogue_layout(errors: list[str]) -> None:
+    allowed_root_entries = {"README.md", "current", "proof"}
+    if not RUNTIME_DIALOGUE_ROOT.is_dir():
+        errors.append(f"{RUNTIME_DIALOGUE_ROOT.relative_to(ROOT)}: runtime dialogue root missing")
+        return
+
+    for path in sorted(RUNTIME_DIALOGUE_ROOT.iterdir()):
+        if path.name not in allowed_root_entries:
+            errors.append(
+                f"{path.relative_to(ROOT)}: live runtime dialogue root permits only "
+                "README.md, current/, and proof/"
+            )
+
+    for chapter in range(0, 100):
+        legacy = RUNTIME_DIALOGUE_ROOT / f"chapter_{chapter:02d}"
+        if legacy.exists():
+            errors.append(
+                f"{legacy.relative_to(ROOT)}: direct legacy chapter runtime folders are retired; "
+                "use current/ or proof/"
+            )
+
+    current = RUNTIME_DIALOGUE_ROOT / "current"
+    proof = RUNTIME_DIALOGUE_ROOT / "proof"
+    if not current.is_dir():
+        errors.append(f"{current.relative_to(ROOT)}: generated current runtime mirror missing")
+    if not proof.is_dir():
+        errors.append(f"{proof.relative_to(ROOT)}: proof runtime subtree missing")
+
+    legacy_ch4 = proof / "legacy_chapter_04"
+    if not legacy_ch4.is_dir():
+        errors.append(
+            f"{legacy_ch4.relative_to(ROOT)}: Chapter 4 legacy proof quarantine missing"
+        )
+    elif not (legacy_ch4 / "README.md").is_file():
+        errors.append(
+            f"{(legacy_ch4 / 'README.md').relative_to(ROOT)}: legacy proof quarantine README missing"
+        )
+
+
 def main() -> int:
     errors: list[str] = []
     validate_production(errors)
     validate_story_root(errors)
     validate_cross_chapter_names(errors)
+    validate_runtime_dialogue_layout(errors)
 
     if errors:
         print("Authority naming validation FAILED:")
