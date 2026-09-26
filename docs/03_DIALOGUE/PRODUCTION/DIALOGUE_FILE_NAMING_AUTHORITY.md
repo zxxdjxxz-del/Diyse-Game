@@ -19,12 +19,19 @@ Git history and authority metadata own revision history.
 
 ## Mandatory story beat contract
 
-For numbered chapter beats:
+For numbered chapter beats, approved exact dialogue uses:
 
 ```text
 CH##_B##_SCENE_NAME_DIALOGUE.md
+```
+
+When a scene has a scene-authority spec, the paired spec uses:
+
+```text
 CH##_B##_SCENE_NAME_SPEC.json
 ```
+
+Do not invent retroactive specs solely to satisfy the filename grammar. Source-closed earlier chapters may legitimately have approved dialogue atomics without per-beat specs if those specs were never part of that chapter's production generation.
 
 Example:
 

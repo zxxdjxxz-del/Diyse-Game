@@ -28,7 +28,7 @@ Historical H02 and H04 remain retired unless explicitly reopened.
 
 ## C06 — Nimera Takes Over a Table
 **Status:** STRUCTURE + EXACT DIALOGUE COMPLETE  
-**Structural authority:** `CHAPTER_03_CHARACTER_LIFE_C06_NIMERA_TAKES_OVER_A_TABLE_WORKING.md`  
+**Structural authority:** `CH03_C06_NIMERA_TAKES_OVER_A_TABLE_STORY_SUPPORT.md`  
 **Exact dialogue authority:** `../../03_DIALOGUE/PRODUCTION/CHAPTER_03/C06_NIMERA_TAKES_OVER_A_TABLE_DIALOGUE.md` — **75 spoken lines**
 
 Core locks:
@@ -51,7 +51,7 @@ Core locks:
 
 ## C07 — Ilyra and Nimera
 **Status:** STRUCTURE + EXACT DIALOGUE COMPLETE  
-**Structural authority:** `CHAPTER_03_CHARACTER_LIFE_C07_ILYRA_AND_NIMERA_WORKING.md`  
+**Structural authority:** `CH03_C07_ILYRA_AND_NIMERA_STORY_SUPPORT.md`  
 **Exact dialogue authority:** `../../03_DIALOGUE/PRODUCTION/CHAPTER_03/C07_ILYRA_AND_NIMERA_DIALOGUE.md` — **67 spoken lines**
 
 Current direction:

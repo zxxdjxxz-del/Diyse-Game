@@ -2,6 +2,8 @@
 
 **Status:** CURRENT AFTER SEPTEMBER 23, 2026 STRUCTURAL MIGRATION + SEPTEMBER 26 STORY-SUPPORT CLEANUP
 
+Naming authority: `STORY_FILE_NAMING_AUTHORITY.md`.
+
 ## Current authority chain
 
 1. **Primary:** `CHAPTER_03.md`
