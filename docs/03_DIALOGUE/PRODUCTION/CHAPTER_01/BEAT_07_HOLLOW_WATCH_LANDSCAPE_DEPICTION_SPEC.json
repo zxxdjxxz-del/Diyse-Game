@@ -1,0 +1,47 @@
+{
+  "schema": "diyse_scene_authority_spec_v1",
+  "scene_id": "CH01_BEAT07_HOLLOW_WATCH_LANDSCAPE_DEPICTION",
+  "chapter_id": "chapter_01",
+  "story_position": "Chapter 1 — Beat 7 — Hollow Watch Landscape Depiction",
+  "production_ready": true,
+  "participants": [
+    "cyanis",
+    "ilyra",
+    "maevra",
+    "torren"
+  ],
+  "scene_purpose": "Deliver Hollow Watch's sole major regional/cartographic payoff: catastrophe imagery, repeated civilian movement, recognizable Hollow Watch geography, and the hidden Junction structure.",
+  "story_sources": [
+    {
+      "path": "docs/02_STORY/CHAPTERS/CHAPTER_01.md",
+      "sections": [
+        "Beat 7 — Hollow Watch Landscape Depiction"
+      ],
+      "role": "current_chapter_01_story_authority"
+    }
+  ],
+  "scene_context_seed": {
+    "location_name": "final ancient room beneath Hollow Watch",
+    "area_phase": "post_excavation_discovery",
+    "dialogue_readiness": "GREEN",
+    "static_story_context_only": true,
+    "runtime_note": "Preserve CURRENT(6) spoken wording. The object is canonically a large landscape depiction/wall image. Characters may colloquially refer to it as a mural later. No Castellan, protected passage, or Card activation exists."
+  },
+  "current_floor_state": {
+    "shield_construct_state": "defeated",
+    "card_state": "intact_directly_carried_by_cyanis_and_inert",
+    "torren_party_status": "temporary_combat_ally",
+    "torren_junction_knowledge": "knows_location_and_roads_not_hidden_structure"
+  },
+  "allowed_information_transfers": [],
+  "exact_line_anchors": [],
+  "production_cost_ceiling": "one major landscape-depiction asset plus short field scene",
+  "required_story_beats": [
+    "Show regional falling-fire catastrophe imagery.",
+    "Connect the imagery to the earlier civilian-use clue without solving the structure.",
+    "Torren identifies Hollow Watch as real geography.",
+    "Torren identifies the Junction but not the prominent ancient structure shown there.",
+    "Party decides to inspect the Junction while already traveling south.",
+    "Transition directly to Greenhollow."
+  ]
+}
