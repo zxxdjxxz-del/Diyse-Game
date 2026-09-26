@@ -15,6 +15,7 @@ ROOT = Path(__file__).resolve().parents[2]
 STORY_ROOT = ROOT / "docs/02_STORY/CHAPTERS"
 PROD_ROOT = ROOT / "docs/03_DIALOGUE/PRODUCTION"
 DIALOGUE_ROOT = ROOT / "docs/03_DIALOGUE"
+RUNTIME_DIALOGUE_ROOT = ROOT / "game/content/dialogue"
 
 CHAPTER_DIR_RE = re.compile(r"^CHAPTER_(\d{2})$")
 B_DIALOGUE_RE = re.compile(
@@ -209,11 +210,37 @@ def validate_cross_chapter_names(errors: list[str]) -> None:
             errors.append(f"{path.relative_to(ROOT)}: required canonical cross-chapter file missing")
 
 
+def validate_runtime_dialogue_root(errors: list[str]) -> None:
+    allowed = {"README.md", "current", "proof"}
+    actual = {path.name for path in RUNTIME_DIALOGUE_ROOT.iterdir()}
+    unexpected = sorted(actual - allowed)
+    missing = sorted(allowed - actual)
+
+    for name in unexpected:
+        errors.append(
+            f"{(RUNTIME_DIALOGUE_ROOT / name).relative_to(ROOT)}: "
+            "runtime dialogue root may contain only README.md, current/, and proof/"
+        )
+    for name in missing:
+        errors.append(
+            f"{(RUNTIME_DIALOGUE_ROOT / name).relative_to(ROOT)}: "
+            "required runtime dialogue root entry missing"
+        )
+
+    for legacy_name in [f"chapter_{n:02d}" for n in range(0, 5)]:
+        legacy = RUNTIME_DIALOGUE_ROOT / legacy_name
+        if legacy.exists():
+            errors.append(
+                f"{legacy.relative_to(ROOT)}: retired S/H/legacy-C runtime mirror must not exist"
+            )
+
+
 def main() -> int:
     errors: list[str] = []
     validate_production(errors)
     validate_story_root(errors)
     validate_cross_chapter_names(errors)
+    validate_runtime_dialogue_root(errors)
 
     if errors:
         print("Authority naming validation FAILED:")
