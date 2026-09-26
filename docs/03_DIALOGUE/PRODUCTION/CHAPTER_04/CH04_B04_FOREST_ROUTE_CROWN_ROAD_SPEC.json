@@ -1,0 +1,136 @@
+{
+  "schema": "diyse_scene_authority_spec_v1",
+  "scene_id": "CH04_B04_FOREST_ROUTE_CROWN_ROAD",
+  "chapter_id": "chapter_04",
+  "story_position": "Chapter 4 — Beat 4 — Forest Route / Crown Road",
+  "production_ready": false,
+  "participants": [
+    "cyanis",
+    "ilyra",
+    "torren",
+    "nimera"
+  ],
+  "scene_purpose": "Provide a medium exploration/travel shortcut, reward Torren's field expertise, decompress after the Thornhide event, and establish only that the ancient north-running route geometry is geographically credible before travel compresses to Ivorybridge.",
+  "story_sources": [
+    {
+      "path": "docs/02_STORY/CHAPTERS/CHAPTER_04.md",
+      "sections": [
+        "Wayfinder interpretation firewall",
+        "Beat 4 — Forest Route / Crown Road"
+      ],
+      "role": "chapter_04_current_story_authority"
+    }
+  ],
+  "additional_authority_sources": [
+    {
+      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/REHEARSAL_FIRST_AUTHORING_LOCK.md",
+      "whole_file": true,
+      "role": "rehearsal_first_authoring"
+    },
+    {
+      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/NATURAL_TURN_LENGTH_AND_FLOOR_HOLDING_LOCK.md",
+      "whole_file": true,
+      "role": "natural_turns"
+    },
+    {
+      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/MATURE_ADULT_SPEECH_AND_PROFANITY_LOCK.md",
+      "whole_file": true,
+      "role": "adult_voice"
+    },
+    {
+      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/SPOKEN_DIALOGUE_VS_NARRATION_LOCK.md",
+      "whole_file": true,
+      "role": "spoken_vs_narration"
+    },
+    {
+      "path": "docs/13_UI_AND_IMPLEMENTATION/FIELD_TRAVERSAL_AND_DIALOGUE_PRESENTATION_LOCK.md",
+      "whole_file": true,
+      "role": "no_walking_dialogue_and_field_presentation"
+    }
+  ],
+  "scene_context_seed": {
+    "static_story_context_only": true,
+    "no_walking_dialogue": true,
+    "no_mid_battle_dialogue": true,
+    "location_name": "forest shortcut into maintained Crown road",
+    "area_phase": "exploration_to_travel_skip",
+    "dialogue_readiness": "GREEN_AT_AUTHORED_STOPS_ONLY",
+    "encounter_mode": "random_allowed"
+  },
+  "current_floor_state": {
+    "last_sentinel": "Recovered; no new Prime explanation",
+    "ivorybridge": "already selected practical lead",
+    "forest_route": "medium traversal; less maze-like than Southern Briar; no major new mystery",
+    "crown_road": "maintained modern ground; danger/navigation pressure drops",
+    "map_comparison_limit": "ancient north-running geometry may look geographically credible; no symbol translation, Face identification, or new destination"
+  },
+  "allowed_information_transfers": [
+    "Torren may speak from field/route expertise at authored stops; there is no walking navigation dialogue.",
+    "The copied map may support geographic plausibility only.",
+    "No one may identify the Wayfinder pattern as Face interactions or an Ancient Reaction Annex diagram.",
+    "Travel compresses after Crown road; do not create mandatory travel chatter."
+  ],
+  "person_runtime_contexts": {
+    "cyanis": {
+      "memory_authorization": {
+        "mode": "none"
+      },
+      "scene_local_state": {
+        "attention": [
+          "pace and party readiness",
+          "getting to Ivorybridge without overcomplicating the shortcut"
+        ],
+        "avoidances": [
+          "commanding every exchange"
+        ]
+      }
+    },
+    "ilyra": {
+      "memory_authorization": {
+        "mode": "none"
+      },
+      "scene_local_state": {
+        "attention": [
+          "practical consequences of route choice",
+          "assumptions worth questioning only if they matter"
+        ],
+        "avoidances": [
+          "alternate-route brainstorming as identity"
+        ]
+      }
+    },
+    "torren": {
+      "memory_authorization": {
+        "mode": "none"
+      },
+      "scene_local_state": {
+        "attention": [
+          "terrain cues",
+          "reconnecting paths",
+          "transition to maintained ground"
+        ],
+        "avoidances": [
+          "constant navigation prompting",
+          "inventing Ancient-route certainty"
+        ]
+      }
+    },
+    "nimera": {
+      "memory_authorization": {
+        "mode": "none"
+      },
+      "scene_local_state": {
+        "attention": [
+          "what the copied record literally shows",
+          "keeping map claims bounded"
+        ],
+        "avoidances": [
+          "turning travel into archive exposition"
+        ]
+      }
+    }
+  },
+  "exact_line_anchors": [],
+  "max_beats": 16,
+  "production_cost_ceiling": "economical"
+}

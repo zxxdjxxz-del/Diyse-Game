@@ -1,0 +1,166 @@
+{
+  "schema": "diyse_scene_authority_spec_v1",
+  "scene_id": "CH04_B12_IVORYBRIDGE_MORNING_CRESTHAVEN_RETURN",
+  "chapter_id": "chapter_04",
+  "story_position": "Chapter 4 — Beat 12 — Ivorybridge Morning / Cresthaven Return",
+  "production_ready": false,
+  "participants": [
+    "cyanis",
+    "ilyra",
+    "torren",
+    "nimera",
+    "vaelira"
+  ],
+  "scene_purpose": "Decompress in Ivorybridge, show that Annex practice has materially changed, establish Vaelira's continuing fieldwork, compress the return to Cresthaven, and end mandatory Chapter 4 with cleanup reopened and all unresolved mysteries still bounded.",
+  "story_sources": [
+    {
+      "path": "docs/02_STORY/CHAPTERS/CHAPTER_04.md",
+      "sections": [
+        "Last Sentinel state lock",
+        "Wayfinder interpretation firewall",
+        "Beat 12 — Ivorybridge Morning / Cresthaven Return",
+        "Chapter-4 Cleanup Authority"
+      ],
+      "role": "chapter_04_current_story_authority"
+    }
+  ],
+  "additional_authority_sources": [
+    {
+      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/REHEARSAL_FIRST_AUTHORING_LOCK.md",
+      "whole_file": true,
+      "role": "rehearsal_first_authoring"
+    },
+    {
+      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/NATURAL_TURN_LENGTH_AND_FLOOR_HOLDING_LOCK.md",
+      "whole_file": true,
+      "role": "natural_turns"
+    },
+    {
+      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/MATURE_ADULT_SPEECH_AND_PROFANITY_LOCK.md",
+      "whole_file": true,
+      "role": "adult_voice"
+    },
+    {
+      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/SPOKEN_DIALOGUE_VS_NARRATION_LOCK.md",
+      "whole_file": true,
+      "role": "spoken_vs_narration"
+    },
+    {
+      "path": "docs/13_UI_AND_IMPLEMENTATION/FIELD_TRAVERSAL_AND_DIALOGUE_PRESENTATION_LOCK.md",
+      "whole_file": true,
+      "role": "no_walking_dialogue_and_field_presentation"
+    }
+  ],
+  "scene_context_seed": {
+    "static_story_context_only": true,
+    "no_walking_dialogue": true,
+    "no_mid_battle_dialogue": true,
+    "location_name": "Ivorybridge morning to Cresthaven return",
+    "area_phase": "safe_decompression_to_chapter_end_hub",
+    "dialogue_readiness": "GREEN",
+    "encounter_mode": "none"
+  },
+  "current_floor_state": {
+    "annex_followup": [
+      "anomalies preserved",
+      "assumptions documented",
+      "complete-system validation separated from pairwise validation",
+      "corrections made without erasing old record"
+    ],
+    "vaelira": "already permanent; field investigation and Annex work continue in parallel",
+    "return_travel": "compressed; do not replay Beat-4 forest route",
+    "cresthaven_end_state": {
+      "permanent_roster_size": 5,
+      "active_party_cap": 4,
+      "last_sentinel": "Recovered and manifested once; activation logic and broader Prime meaning unknown",
+      "wayfinder": "unresolved",
+      "vaelira_workspace": "practical workspace at Cresthaven",
+      "cleanup": "free-roam/cleanup resumes"
+    },
+    "chapter5_boundary": "not automatically entered"
+  },
+  "allowed_information_transfers": [
+    "Visible institutional change should replace a repeated full debrief.",
+    "Vaelira and Ilyra may show quieter recognition that they enjoy how the other thinks; no friendship announcement is required.",
+    "Nimera may value preserved anomalies/records without claiming they explain the Ancient system.",
+    "No one may resolve Prime meaning, Wayfinder purpose, Ancient six-Face network truth, or future destination logic.",
+    "Return travel is compressed with no walking dialogue."
+  ],
+  "person_runtime_contexts": {
+    "cyanis": {
+      "memory_authorization": {
+        "mode": "none"
+      },
+      "scene_local_state": {
+        "attention": [
+          "returning the group to usable headquarters rhythm",
+          "cleanup freedom"
+        ],
+        "avoidances": [
+          "forcing Chapter 5 transition"
+        ]
+      }
+    },
+    "ilyra": {
+      "memory_authorization": {
+        "mode": "none"
+      },
+      "scene_local_state": {
+        "attention": [
+          "how the group's assumptions changed",
+          "new social ease with Vaelira"
+        ],
+        "avoidances": [
+          "announcing friendship",
+          "repeating speculative spiral"
+        ]
+      }
+    },
+    "torren": {
+      "memory_authorization": {
+        "mode": "none"
+      },
+      "scene_local_state": {
+        "attention": [
+          "practical return/home-base state"
+        ],
+        "avoidances": [
+          "replaying route guidance"
+        ]
+      }
+    },
+    "nimera": {
+      "memory_authorization": {
+        "mode": "none"
+      },
+      "scene_local_state": {
+        "attention": [
+          "record preservation and unresolved questions",
+          "keeping historical claims bounded"
+        ],
+        "avoidances": [
+          "chapter-summary machine"
+        ]
+      }
+    },
+    "vaelira": {
+      "memory_authorization": {
+        "mode": "none"
+      },
+      "scene_local_state": {
+        "attention": [
+          "evidence that procedure changed",
+          "what field questions remain worth testing",
+          "settling into party/workspace without overexplaining it"
+        ],
+        "avoidances": [
+          "redoing the full scientific debrief",
+          "treating personal choice as only professional obligation"
+        ]
+      }
+    }
+  },
+  "exact_line_anchors": [],
+  "max_beats": 20,
+  "production_cost_ceiling": "economical"
+}

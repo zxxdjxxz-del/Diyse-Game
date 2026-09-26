@@ -1,0 +1,143 @@
+{
+  "schema": "diyse_scene_authority_spec_v1",
+  "scene_id": "CH04_B10_THE_SEVENTH_REACTION",
+  "chapter_id": "chapter_04",
+  "story_position": "Chapter 4 — Beat 10 — The Seventh Reaction",
+  "production_ready": false,
+  "participants": [
+    "cyanis",
+    "ilyra",
+    "torren",
+    "nimera",
+    "vaelira"
+  ],
+  "scene_purpose": "Resolve Regulation Crucible Form II and make the chapter's scientific conclusion visible through combat: correct local branch/pair models are insufficient to predict emergent complete-system behavior, without inventing a new element or solving the Wayfinder.",
+  "story_sources": [
+    {
+      "path": "docs/02_STORY/CHAPTERS/CHAPTER_04.md",
+      "sections": [
+        "Four-element lock",
+        "Seventh Reaction lock",
+        "Wayfinder interpretation firewall",
+        "Beat 10 — The Seventh Reaction"
+      ],
+      "role": "chapter_04_current_story_authority"
+    }
+  ],
+  "additional_authority_sources": [
+    {
+      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/REHEARSAL_FIRST_AUTHORING_LOCK.md",
+      "whole_file": true,
+      "role": "rehearsal_first_authoring"
+    },
+    {
+      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/NATURAL_TURN_LENGTH_AND_FLOOR_HOLDING_LOCK.md",
+      "whole_file": true,
+      "role": "natural_turns"
+    },
+    {
+      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/MATURE_ADULT_SPEECH_AND_PROFANITY_LOCK.md",
+      "whole_file": true,
+      "role": "adult_voice"
+    },
+    {
+      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/SPOKEN_DIALOGUE_VS_NARRATION_LOCK.md",
+      "whole_file": true,
+      "role": "spoken_vs_narration"
+    },
+    {
+      "path": "docs/13_UI_AND_IMPLEMENTATION/FIELD_TRAVERSAL_AND_DIALOGUE_PRESENTATION_LOCK.md",
+      "whole_file": true,
+      "role": "no_walking_dialogue_and_field_presentation"
+    }
+  ],
+  "scene_context_seed": {
+    "static_story_context_only": true,
+    "no_walking_dialogue": true,
+    "no_mid_battle_dialogue": true,
+    "location_name": "Regulation Crucible / Central Regulation",
+    "area_phase": "form_ii_final_boss_to_shutdown",
+    "dialogue_readiness": "AMBER_BEFORE_AND_AFTER_COMBAT_ONLY",
+    "encounter_mode": "fixed_authored"
+  },
+  "current_floor_state": {
+    "boss": "The Seventh Reaction; unified all-four Form II; fresh HP/MP; inherits surviving Form-I traits; no third form",
+    "prime_refresh": "genuine fresh-HP form follows current Prime-refresh authority",
+    "scientific_conclusion": "complete four-element system can exhibit emergent behavior not fully described by six pairwise models",
+    "negatives": [
+      "no hidden fifth/seventh element",
+      "no seventh damage type",
+      "branch models not broken",
+      "pair models not wrong"
+    ],
+    "wayfinder": "peak-output geometry strongly resembles copied Wayfinder pattern; true Ancient meaning remains unresolved",
+    "final_break": "cycle stops; Annex staff regain control; party returns to safe upper level; no forced dungeon backtrack",
+    "dialogue_boundary": "combat/presentation carries explanation; no spoken dialogue during active combat"
+  },
+  "allowed_information_transfers": [
+    "Post-combat dialogue may state the scientific conclusion only after the encounter demonstrates it.",
+    "Vaelira may revise the model from observed evidence; she cannot identify the Wayfinder's six-Face truth.",
+    "Nimera may distinguish what the evidence proves from what remains unknown.",
+    "No participant may call the Seventh Reaction an element, damage type, permanent new combat system, or Ancient-network solution.",
+    "Do not add a third form."
+  ],
+  "person_runtime_contexts": {
+    "cyanis": {
+      "memory_authorization": {
+        "mode": "none"
+      },
+      "scene_local_state": {
+        "attention": [
+          "surviving the encounter and protecting others",
+          "what actionable conclusion remains after shutdown"
+        ],
+        "avoidances": [
+          "explaining scientific mechanism"
+        ]
+      }
+    },
+    "ilyra": {
+      "memory_authorization": {
+        "mode": "none"
+      }
+    },
+    "torren": {
+      "memory_authorization": {
+        "mode": "none"
+      }
+    },
+    "nimera": {
+      "memory_authorization": {
+        "mode": "none"
+      },
+      "scene_local_state": {
+        "attention": [
+          "exact evidentiary boundary of the conclusion",
+          "what remains unresolved"
+        ],
+        "avoidances": [
+          "historical certainty from visual resemblance"
+        ]
+      }
+    },
+    "vaelira": {
+      "memory_authorization": {
+        "mode": "none"
+      },
+      "scene_local_state": {
+        "attention": [
+          "what the unified behavior proves after combat",
+          "which prior assumptions failed"
+        ],
+        "avoidances": [
+          "mid-battle explanation",
+          "new-element language",
+          "claiming the Wayfinder solved"
+        ]
+      }
+    }
+  },
+  "exact_line_anchors": [],
+  "max_beats": 20,
+  "production_cost_ceiling": "bespoke"
+}

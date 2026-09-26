@@ -1,0 +1,153 @@
+{
+  "schema": "diyse_scene_authority_spec_v1",
+  "scene_id": "CH04_B08_INTERACTION_GALLERY_REACTION_CONDUIT",
+  "chapter_id": "chapter_04",
+  "story_position": "Chapter 4 — Beat 8 — Interaction Gallery / Reaction Conduit",
+  "production_ready": false,
+  "participants": [
+    "cyanis",
+    "ilyra",
+    "torren",
+    "nimera",
+    "vaelira"
+  ],
+  "scene_purpose": "Validate all six legal elemental pair relationships, then use the nonlethal Reaction Conduit crisis to demonstrate that correct local compensations can still fail to settle the complete system.",
+  "story_sources": [
+    {
+      "path": "docs/02_STORY/CHAPTERS/CHAPTER_04.md",
+      "sections": [
+        "Four-element lock",
+        "Seventh Reaction lock",
+        "Beat 8 — Interaction Gallery / Reaction Conduit"
+      ],
+      "role": "chapter_04_current_story_authority"
+    }
+  ],
+  "additional_authority_sources": [
+    {
+      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/REHEARSAL_FIRST_AUTHORING_LOCK.md",
+      "whole_file": true,
+      "role": "rehearsal_first_authoring"
+    },
+    {
+      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/NATURAL_TURN_LENGTH_AND_FLOOR_HOLDING_LOCK.md",
+      "whole_file": true,
+      "role": "natural_turns"
+    },
+    {
+      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/MATURE_ADULT_SPEECH_AND_PROFANITY_LOCK.md",
+      "whole_file": true,
+      "role": "adult_voice"
+    },
+    {
+      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/SPOKEN_DIALOGUE_VS_NARRATION_LOCK.md",
+      "whole_file": true,
+      "role": "spoken_vs_narration"
+    },
+    {
+      "path": "docs/13_UI_AND_IMPLEMENTATION/FIELD_TRAVERSAL_AND_DIALOGUE_PRESENTATION_LOCK.md",
+      "whole_file": true,
+      "role": "no_walking_dialogue_and_field_presentation"
+    }
+  ],
+  "scene_context_seed": {
+    "static_story_context_only": true,
+    "no_walking_dialogue": true,
+    "no_mid_battle_dialogue": true,
+    "location_name": "Interaction Gallery / Reaction Conduit",
+    "area_phase": "six_pair_tests_to_nonlethal_crisis",
+    "dialogue_readiness": "GREEN_BEFORE_AND_AFTER_AUTHORED_COMBAT_ONLY",
+    "encounter_mode": "mixed"
+  },
+  "current_floor_state": {
+    "pair_tests": "all six legal elemental pairs validate locally",
+    "crisis": "residual persists/grows during normal cycle within known limits; local compensations remain sensible but global system fails to settle",
+    "reaction_conduit": "living researcher/technician trapped or harmed by escalation; mandatory nonlethal encounter; person survives",
+    "post_crisis_inference": "isolated branch failure and isolated pair-model failure are ruled out; discrepancy points to complete-system level",
+    "final_conclusion_status": "not yet proven; Central Regulation provides direct whole-system observation"
+  },
+  "allowed_information_transfers": [
+    "Ilyra may challenge the hidden assumption that successful local/pair validation guarantees the complete system will settle.",
+    "Vaelira owns translating that counterfactual into a testable whole-system hypothesis if readings support it.",
+    "Nimera may constrain confidence to what evidence justifies.",
+    "No comedy while the researcher is in immediate danger.",
+    "No spoken dialogue during the Reaction Conduit combat state.",
+    "Researcher survival and nonlethal resolution are mandatory; no new element is introduced."
+  ],
+  "person_runtime_contexts": {
+    "cyanis": {
+      "memory_authorization": {
+        "mode": "none"
+      },
+      "scene_local_state": {
+        "attention": [
+          "getting the researcher out alive",
+          "actionable containment priorities"
+        ],
+        "avoidances": [
+          "scientific-summary ownership"
+        ]
+      }
+    },
+    "ilyra": {
+      "memory_authorization": {
+        "mode": "none"
+      },
+      "scene_local_state": {
+        "attention": [
+          "the assumption connecting successful local tests to expected global behavior"
+        ],
+        "avoidances": [
+          "naming the scientific answer",
+          "route/navigation reasoning",
+          "comedy during danger"
+        ]
+      }
+    },
+    "torren": {
+      "memory_authorization": {
+        "mode": "none"
+      },
+      "scene_local_state": {
+        "attention": [
+          "physical danger and safe intervention windows"
+        ],
+        "avoidances": [
+          "laboratory-mechanism authority"
+        ]
+      }
+    },
+    "nimera": {
+      "memory_authorization": {
+        "mode": "none"
+      },
+      "scene_local_state": {
+        "attention": [
+          "which failures are actually ruled out",
+          "what remains evidentially open"
+        ],
+        "avoidances": [
+          "turning a strong hypothesis into historical fact"
+        ]
+      }
+    },
+    "vaelira": {
+      "memory_authorization": {
+        "mode": "none"
+      },
+      "scene_local_state": {
+        "attention": [
+          "whether all local relationships can remain correct while global behavior differs",
+          "mechanism consistent with readings"
+        ],
+        "avoidances": [
+          "automatic agreement with Ilyra",
+          "calling hypothesis final proof"
+        ]
+      }
+    }
+  },
+  "exact_line_anchors": [],
+  "max_beats": 24,
+  "production_cost_ceiling": "bespoke"
+}

@@ -1,0 +1,173 @@
+{
+  "schema": "diyse_scene_authority_spec_v1",
+  "scene_id": "CH04_B05_IVORYBRIDGE_VAELIRA",
+  "chapter_id": "chapter_04",
+  "story_position": "Chapter 4 — Beat 5 — Ivorybridge / Vaelira",
+  "production_ready": false,
+  "participants": [
+    "cyanis",
+    "ilyra",
+    "torren",
+    "nimera",
+    "vaelira"
+  ],
+  "scene_purpose": "Reset in a functioning settlement, introduce Vaelira through competent technical work, establish only a pattern-level resemblance between the copied Wayfinder evidence and elemental-reaction behavior, and recruit Vaelira permanently for the short Reaction Annex investigation.",
+  "story_sources": [
+    {
+      "path": "docs/02_STORY/CHAPTERS/CHAPTER_04.md",
+      "sections": [
+        "Wayfinder interpretation firewall",
+        "Vaelira recruitment lock",
+        "Beat 5 — Ivorybridge / Vaelira"
+      ],
+      "role": "chapter_04_current_story_authority"
+    }
+  ],
+  "additional_authority_sources": [
+    {
+      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/REHEARSAL_FIRST_AUTHORING_LOCK.md",
+      "whole_file": true,
+      "role": "rehearsal_first_authoring"
+    },
+    {
+      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/NATURAL_TURN_LENGTH_AND_FLOOR_HOLDING_LOCK.md",
+      "whole_file": true,
+      "role": "natural_turns"
+    },
+    {
+      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/MATURE_ADULT_SPEECH_AND_PROFANITY_LOCK.md",
+      "whole_file": true,
+      "role": "adult_voice"
+    },
+    {
+      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/SPOKEN_DIALOGUE_VS_NARRATION_LOCK.md",
+      "whole_file": true,
+      "role": "spoken_vs_narration"
+    },
+    {
+      "path": "docs/13_UI_AND_IMPLEMENTATION/FIELD_TRAVERSAL_AND_DIALOGUE_PRESENTATION_LOCK.md",
+      "whole_file": true,
+      "role": "no_walking_dialogue_and_field_presentation"
+    }
+  ],
+  "scene_context_seed": {
+    "static_story_context_only": true,
+    "no_walking_dialogue": true,
+    "no_mid_battle_dialogue": true,
+    "location_name": "Ivorybridge",
+    "area_phase": "safe_settlement_to_vaelira_recruitment",
+    "dialogue_readiness": "GREEN",
+    "encounter_mode": "none"
+  },
+  "current_floor_state": {
+    "party_arrival": [
+      "cyanis",
+      "ilyra",
+      "torren",
+      "nimera"
+    ],
+    "vaelira_status_at_start": "local professional, not yet party member",
+    "vaelira_status_at_end": "permanent party member",
+    "permanent_roster_size_end": 5,
+    "active_party_cap": 4,
+    "ivorybridge_reason": "geographic north-running lead, not search for elemental expert",
+    "technical_intro": "legitimate municipal Fire/Ice thermal-balance regulator problem; symptom location need not be causal location",
+    "wayfinder_resemblance": "large-scale interaction geometry resembles modern elemental-reaction behavior at pattern level",
+    "forbidden_interpretation": "Ancient symbols unreadable; no Face-interaction identification; no Annex-diagram classification"
+  },
+  "allowed_information_transfers": [
+    "Vaelira owns the technical diagnosis/calibration of the Ivorybridge regulator.",
+    "Ilyra may contribute one bounded assumption-check about symptom versus cause; Vaelira decides whether it is mechanically plausible.",
+    "Nimera owns what the copied record/document actually establishes; Vaelira owns mechanism/hypothesis testing.",
+    "The party may show Vaelira the copied evidence for geographic comparison; nobody may reveal hidden six-Face network truth.",
+    "Beat 5 is first-contact chemistry, not established late-friendship shorthand."
+  ],
+  "person_runtime_contexts": {
+    "cyanis": {
+      "memory_authorization": {
+        "mode": "none"
+      },
+      "scene_local_state": {
+        "attention": [
+          "whether Vaelira can help test the lead",
+          "party logistics after recruitment"
+        ],
+        "avoidances": [
+          "recruiting through praise exposition",
+          "making himself the technical intermediary"
+        ]
+      }
+    },
+    "ilyra": {
+      "memory_authorization": {
+        "mode": "none"
+      },
+      "scene_local_state": {
+        "attention": [
+          "whether the visible failure point could be responding correctly to an upstream problem",
+          "how Vaelira reasons"
+        ],
+        "avoidances": [
+          "technical diagnosis",
+          "instant friendship shorthand",
+          "turning what-if into catchphrase"
+        ]
+      }
+    },
+    "torren": {
+      "memory_authorization": {
+        "mode": "none"
+      },
+      "scene_local_state": {
+        "attention": [
+          "geographic fit of north-running route",
+          "practical value of testing the lead"
+        ],
+        "avoidances": [
+          "scientific diagnosis outside expertise"
+        ]
+      }
+    },
+    "nimera": {
+      "memory_authorization": {
+        "mode": "none"
+      },
+      "scene_local_state": {
+        "attention": [
+          "what the map source actually supports",
+          "keeping resemblance distinct from interpretation"
+        ],
+        "avoidances": [
+          "competing with Vaelira as generic smart person",
+          "letting mechanism become historical fact"
+        ]
+      }
+    },
+    "vaelira": {
+      "memory_authorization": {
+        "mode": "none"
+      },
+      "epistemic_state": {
+        "wayfinder_copy": {
+          "status": "new_evidence",
+          "value": "A geographic/infrastructure pattern resembles modern elemental-reaction geometry, but Ancient notation is unreadable and the scale is anomalous."
+        }
+      },
+      "scene_local_state": {
+        "attention": [
+          "diagnose the actual regulator cause",
+          "test whether the map resemblance is real",
+          "decide whether the Annex offers a useful comparison"
+        ],
+        "avoidances": [
+          "arrogance performance",
+          "instant Face/network conclusions",
+          "automatic agreement with Ilyra"
+        ]
+      }
+    }
+  },
+  "exact_line_anchors": [],
+  "max_beats": 24,
+  "production_cost_ceiling": "moderate"
+}

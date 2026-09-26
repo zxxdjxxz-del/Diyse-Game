@@ -1,0 +1,165 @@
+{
+  "schema": "diyse_scene_authority_spec_v1",
+  "scene_id": "CH04_B11_SAFE_UPPER_LABS_AFTERMATH",
+  "chapter_id": "chapter_04",
+  "story_position": "Chapter 4 — Beat 11 — Safe Upper Labs / Aftermath",
+  "production_ready": false,
+  "participants": [
+    "cyanis",
+    "ilyra",
+    "torren",
+    "nimera",
+    "vaelira"
+  ],
+  "scene_purpose": "Consolidate the evidence chain after immediate danger ends, let Vaelira revise the model and institutional procedure responsibly, preserve the unresolved Wayfinder boundary, and permit the first light Ilyra/Vaelira speculative spiral only if it emerges naturally.",
+  "story_sources": [
+    {
+      "path": "docs/02_STORY/CHAPTERS/CHAPTER_04.md",
+      "sections": [
+        "Seventh Reaction lock",
+        "Wayfinder interpretation firewall",
+        "Beat 11 — Safe Upper Labs / Aftermath"
+      ],
+      "role": "chapter_04_current_story_authority"
+    }
+  ],
+  "additional_authority_sources": [
+    {
+      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/REHEARSAL_FIRST_AUTHORING_LOCK.md",
+      "whole_file": true,
+      "role": "rehearsal_first_authoring"
+    },
+    {
+      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/NATURAL_TURN_LENGTH_AND_FLOOR_HOLDING_LOCK.md",
+      "whole_file": true,
+      "role": "natural_turns"
+    },
+    {
+      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/MATURE_ADULT_SPEECH_AND_PROFANITY_LOCK.md",
+      "whole_file": true,
+      "role": "adult_voice"
+    },
+    {
+      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/SPOKEN_DIALOGUE_VS_NARRATION_LOCK.md",
+      "whole_file": true,
+      "role": "spoken_vs_narration"
+    },
+    {
+      "path": "docs/13_UI_AND_IMPLEMENTATION/FIELD_TRAVERSAL_AND_DIALOGUE_PRESENTATION_LOCK.md",
+      "whole_file": true,
+      "role": "no_walking_dialogue_and_field_presentation"
+    }
+  ],
+  "scene_context_seed": {
+    "static_story_context_only": true,
+    "no_walking_dialogue": true,
+    "no_mid_battle_dialogue": true,
+    "location_name": "Reaction Annex safe upper labs",
+    "area_phase": "postcrisis_evidence_and_model_revision",
+    "dialogue_readiness": "GREEN",
+    "encounter_mode": "none"
+  },
+  "current_floor_state": {
+    "immediate_state": "runaway stopped; injured checked; equipment secured; logs/evidence preserved; Reaction Conduit researcher alive",
+    "evidence_chain": [
+      "individual branches correct",
+      "all six pair relationships correct",
+      "local compensation failed to settle globally",
+      "Central Regulation showed all-four mechanism",
+      "Seventh Reaction demonstrated emergent complete-system behavior"
+    ],
+    "model_revision": "successful local/pairwise validation is not sufficient validation of the complete system",
+    "responsibility": "revise validation/anomaly procedures without scapegoating staff or inventing negligence",
+    "wayfinder": "strongest resemblance yet; Ancient symbols, scale, purpose, and Face meaning unresolved",
+    "optional_social_texture": "first light Ilyra/Vaelira runaway theory may occur only after safety/evidence are secure; remains explicitly hypothetical"
+  },
+  "allowed_information_transfers": [
+    "Vaelira may own the technical model revision and bounded accountability.",
+    "Ilyra may extend a plausible consequence; Vaelira may extend a mechanism; either may stop an implausible branch.",
+    "Nimera may ground the spiral by asking what evidence supports the first premise, but this is not a mandatory three-speaker pattern.",
+    "No speculative spiral may establish another Annex, location, Ancient network, Face interactions, Prime behavior, or new quest.",
+    "Do not repeat a fresh Wayfinder reveal scene."
+  ],
+  "person_runtime_contexts": {
+    "cyanis": {
+      "memory_authorization": {
+        "mode": "none"
+      },
+      "scene_local_state": {
+        "attention": [
+          "people are safe",
+          "what the team actually needs to do next"
+        ],
+        "avoidances": [
+          "therapist/summary voice"
+        ]
+      }
+    },
+    "ilyra": {
+      "memory_authorization": {
+        "mode": "none"
+      },
+      "scene_local_state": {
+        "attention": [
+          "counterfactual consequences of complete-system behavior",
+          "whether a hypothetical actually changes current action"
+        ],
+        "avoidances": [
+          "what-if catchphrase",
+          "instant panic",
+          "technical diagnosis"
+        ]
+      }
+    },
+    "torren": {
+      "memory_authorization": {
+        "mode": "none"
+      },
+      "scene_local_state": {
+        "attention": [
+          "practical recovery state",
+          "whether theory changes immediate action"
+        ],
+        "avoidances": [
+          "anti-science caricature"
+        ]
+      }
+    },
+    "nimera": {
+      "memory_authorization": {
+        "mode": "none"
+      },
+      "scene_local_state": {
+        "attention": [
+          "evidence chain",
+          "confidence calibration",
+          "records/log preservation"
+        ],
+        "avoidances": [
+          "making the joke into canon",
+          "generic historian monologue"
+        ]
+      }
+    },
+    "vaelira": {
+      "memory_authorization": {
+        "mode": "none"
+      },
+      "scene_local_state": {
+        "attention": [
+          "specific failed assumption",
+          "procedure change that fixes the failure",
+          "what remains unknown"
+        ],
+        "avoidances": [
+          "punitive self-blame",
+          "global institutional paranoia",
+          "claiming resemblance is identity"
+        ]
+      }
+    }
+  },
+  "exact_line_anchors": [],
+  "max_beats": 26,
+  "production_cost_ceiling": "moderate"
+}

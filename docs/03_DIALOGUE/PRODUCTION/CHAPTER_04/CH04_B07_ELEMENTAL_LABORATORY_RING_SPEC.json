@@ -1,0 +1,136 @@
+{
+  "schema": "diyse_scene_authority_spec_v1",
+  "scene_id": "CH04_B07_ELEMENTAL_LABORATORY_RING",
+  "chapter_id": "chapter_04",
+  "story_position": "Chapter 4 — Beat 7 — Elemental Laboratory Ring",
+  "production_ready": false,
+  "participants": [
+    "cyanis",
+    "ilyra",
+    "torren",
+    "nimera",
+    "vaelira"
+  ],
+  "scene_purpose": "Run the four branch baselines, establish that each individual elemental model behaves correctly, and expose only a small residual/relationship trace after all four have validated.",
+  "story_sources": [
+    {
+      "path": "docs/02_STORY/CHAPTERS/CHAPTER_04.md",
+      "sections": [
+        "Four-element lock",
+        "Seventh Reaction lock",
+        "Beat 7 — Elemental Laboratory Ring"
+      ],
+      "role": "chapter_04_current_story_authority"
+    }
+  ],
+  "additional_authority_sources": [
+    {
+      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/REHEARSAL_FIRST_AUTHORING_LOCK.md",
+      "whole_file": true,
+      "role": "rehearsal_first_authoring"
+    },
+    {
+      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/NATURAL_TURN_LENGTH_AND_FLOOR_HOLDING_LOCK.md",
+      "whole_file": true,
+      "role": "natural_turns"
+    },
+    {
+      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/MATURE_ADULT_SPEECH_AND_PROFANITY_LOCK.md",
+      "whole_file": true,
+      "role": "adult_voice"
+    },
+    {
+      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/SPOKEN_DIALOGUE_VS_NARRATION_LOCK.md",
+      "whole_file": true,
+      "role": "spoken_vs_narration"
+    },
+    {
+      "path": "docs/13_UI_AND_IMPLEMENTATION/FIELD_TRAVERSAL_AND_DIALOGUE_PRESENTATION_LOCK.md",
+      "whole_file": true,
+      "role": "no_walking_dialogue_and_field_presentation"
+    }
+  ],
+  "scene_context_seed": {
+    "static_story_context_only": true,
+    "no_walking_dialogue": true,
+    "no_mid_battle_dialogue": true,
+    "location_name": "Elemental Laboratory Ring",
+    "area_phase": "four_branch_diagnostics",
+    "dialogue_readiness": "GREEN_AT_AUTHORED_STOPS_ONLY",
+    "encounter_mode": "random_allowed"
+  },
+  "current_floor_state": {
+    "elements": [
+      "Fire",
+      "Ice",
+      "Lightning",
+      "Earth"
+    ],
+    "branch_result": "all four individual branches validate as expected",
+    "residual_timing": "small combined overlay trace appears only after all four baselines are known",
+    "residual_meaning": "unexplained relationship/whole-system clue; not proof of Seventh Reaction or hidden element",
+    "wayfinder": "broad structural resemblance only; no long map discussion"
+  },
+  "allowed_information_transfers": [
+    "Vaelira may state that branch-level evidence supports her branch models.",
+    "The residual may motivate pair testing but cannot be named as the final mechanism.",
+    "No dialogue during active combat/hazards; use authored stops.",
+    "No Wind, Water, fifth element, seventh element, or new damage type."
+  ],
+  "person_runtime_contexts": {
+    "cyanis": {
+      "memory_authorization": {
+        "mode": "none"
+      }
+    },
+    "ilyra": {
+      "memory_authorization": {
+        "mode": "none"
+      },
+      "scene_local_state": {
+        "attention": [
+          "what a correct result does and does not rule out"
+        ],
+        "avoidances": [
+          "technical vocabulary she does not own"
+        ]
+      }
+    },
+    "torren": {
+      "memory_authorization": {
+        "mode": "none"
+      }
+    },
+    "nimera": {
+      "memory_authorization": {
+        "mode": "none"
+      },
+      "scene_local_state": {
+        "attention": [
+          "distinguishing validated observations from interpretation"
+        ],
+        "avoidances": [
+          "record exposition unrelated to the tests"
+        ]
+      }
+    },
+    "vaelira": {
+      "memory_authorization": {
+        "mode": "none"
+      },
+      "scene_local_state": {
+        "attention": [
+          "whether each branch reproduces expected behavior",
+          "what remains after correct branch behavior is accounted for"
+        ],
+        "avoidances": [
+          "discarding the residual because the branches passed",
+          "jumping directly to whole-system conclusion"
+        ]
+      }
+    }
+  },
+  "exact_line_anchors": [],
+  "max_beats": 18,
+  "production_cost_ceiling": "moderate"
+}

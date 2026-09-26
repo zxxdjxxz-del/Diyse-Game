@@ -1,0 +1,139 @@
+{
+  "schema": "diyse_scene_authority_spec_v1",
+  "scene_id": "CH04_B03_FIELD_AFTERMATH_SHORTCUT_DECISION",
+  "chapter_id": "chapter_04",
+  "story_position": "Chapter 4 — Beat 3 — Field Aftermath / Shortcut Decision",
+  "production_ready": false,
+  "participants": [
+    "cyanis",
+    "ilyra",
+    "torren",
+    "nimera"
+  ],
+  "scene_purpose": "Let the Elder Thornhide/Last Sentinel event land briefly, close the ecological crisis responsibly, and convert the party's field position into the practical forest shortcut toward the already-selected Ivorybridge lead.",
+  "story_sources": [
+    {
+      "path": "docs/02_STORY/CHAPTERS/CHAPTER_04.md",
+      "sections": [
+        "Last Sentinel state lock",
+        "Beat 3 — Field Aftermath / Shortcut Decision"
+      ],
+      "role": "chapter_04_current_story_authority"
+    }
+  ],
+  "additional_authority_sources": [
+    {
+      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/REHEARSAL_FIRST_AUTHORING_LOCK.md",
+      "whole_file": true,
+      "role": "rehearsal_first_authoring"
+    },
+    {
+      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/NATURAL_TURN_LENGTH_AND_FLOOR_HOLDING_LOCK.md",
+      "whole_file": true,
+      "role": "natural_turns"
+    },
+    {
+      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/MATURE_ADULT_SPEECH_AND_PROFANITY_LOCK.md",
+      "whole_file": true,
+      "role": "adult_voice"
+    },
+    {
+      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/SPOKEN_DIALOGUE_VS_NARRATION_LOCK.md",
+      "whole_file": true,
+      "role": "spoken_vs_narration"
+    },
+    {
+      "path": "docs/13_UI_AND_IMPLEMENTATION/FIELD_TRAVERSAL_AND_DIALOGUE_PRESENTATION_LOCK.md",
+      "whole_file": true,
+      "role": "no_walking_dialogue_and_field_presentation"
+    }
+  ],
+  "scene_context_seed": {
+    "static_story_context_only": true,
+    "no_walking_dialogue": true,
+    "no_mid_battle_dialogue": true,
+    "location_name": "field beyond Cresthaven / Crown-road corridor edge",
+    "area_phase": "post_boss_aftermath_to_route_decision",
+    "dialogue_readiness": "GREEN",
+    "encounter_mode": "none"
+  },
+  "current_floor_state": {
+    "thornhide": "retreating, alive, no longer immediate threat",
+    "party_injury_state": "nobody badly hurt",
+    "last_sentinel": "Recovered and manifested once; activation logic and Prime meaning unknown",
+    "cresthaven_responsibility": "restoration planning must account for the animal's range",
+    "ivorybridge": "already selected in Chapter 3",
+    "route_fact": "continuing forward through forest reaches maintained Crown road faster than backtracking"
+  },
+  "allowed_information_transfers": [
+    "The party may acknowledge Last Sentinel's manifestation and uncertainty, but cannot derive activation rules.",
+    "Torren may own the practical route judgment from current field position and terrain evidence.",
+    "Ilyra may test assumptions/consequences but does not own navigation.",
+    "Nobody may frame Ivorybridge as a newly discovered destination in this beat."
+  ],
+  "person_runtime_contexts": {
+    "cyanis": {
+      "memory_authorization": {
+        "mode": "none"
+      },
+      "scene_local_state": {
+        "attention": [
+          "what must change at Cresthaven",
+          "what his Card just did"
+        ],
+        "avoidances": [
+          "forcing a Prime explanation",
+          "reopening the fight"
+        ]
+      }
+    },
+    "ilyra": {
+      "memory_authorization": {
+        "mode": "none"
+      },
+      "scene_local_state": {
+        "attention": [
+          "what the manifestation actually proves",
+          "consequences of restoration for the animal"
+        ],
+        "avoidances": [
+          "route-finding ownership",
+          "automatic emotional-summary role"
+        ]
+      }
+    },
+    "torren": {
+      "memory_authorization": {
+        "mode": "none"
+      },
+      "scene_local_state": {
+        "attention": [
+          "animal range responsibility",
+          "current position relative to Crown road",
+          "time saved by continuing forward"
+        ],
+        "avoidances": [
+          "turning the shortcut into a secret Ancient route"
+        ]
+      }
+    },
+    "nimera": {
+      "memory_authorization": {
+        "mode": "none"
+      },
+      "scene_local_state": {
+        "attention": [
+          "observation versus interpretation",
+          "what evidence remains missing for Prime classification"
+        ],
+        "avoidances": [
+          "historical lecture",
+          "overstating the event"
+        ]
+      }
+    }
+  },
+  "exact_line_anchors": [],
+  "max_beats": 16,
+  "production_cost_ceiling": "economical"
+}

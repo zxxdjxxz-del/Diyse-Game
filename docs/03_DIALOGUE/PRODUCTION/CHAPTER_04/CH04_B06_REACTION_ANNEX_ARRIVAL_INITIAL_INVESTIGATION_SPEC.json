@@ -1,0 +1,170 @@
+{
+  "schema": "diyse_scene_authority_spec_v1",
+  "scene_id": "CH04_B06_REACTION_ANNEX_ARRIVAL_INITIAL_INVESTIGATION",
+  "chapter_id": "chapter_04",
+  "story_position": "Chapter 4 — Beat 6 — Reaction Annex Arrival / Initial Investigation",
+  "production_ready": false,
+  "participants": [
+    "cyanis",
+    "ilyra",
+    "torren",
+    "nimera",
+    "vaelira"
+  ],
+  "scene_purpose": "Establish the Reaction Annex as a functioning legitimate facility, confirm that the Wayfinder resemblance survives controlled comparison without becoming exact, and define the diagnostic order: four individual branches, six pairs, then the complete system.",
+  "story_sources": [
+    {
+      "path": "docs/02_STORY/CHAPTERS/CHAPTER_04.md",
+      "sections": [
+        "Four-element lock",
+        "Wayfinder interpretation firewall",
+        "Beat 6 — Reaction Annex Arrival / Initial Investigation"
+      ],
+      "role": "chapter_04_current_story_authority"
+    }
+  ],
+  "additional_authority_sources": [
+    {
+      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/REHEARSAL_FIRST_AUTHORING_LOCK.md",
+      "whole_file": true,
+      "role": "rehearsal_first_authoring"
+    },
+    {
+      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/NATURAL_TURN_LENGTH_AND_FLOOR_HOLDING_LOCK.md",
+      "whole_file": true,
+      "role": "natural_turns"
+    },
+    {
+      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/MATURE_ADULT_SPEECH_AND_PROFANITY_LOCK.md",
+      "whole_file": true,
+      "role": "adult_voice"
+    },
+    {
+      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/SPOKEN_DIALOGUE_VS_NARRATION_LOCK.md",
+      "whole_file": true,
+      "role": "spoken_vs_narration"
+    },
+    {
+      "path": "docs/13_UI_AND_IMPLEMENTATION/FIELD_TRAVERSAL_AND_DIALOGUE_PRESENTATION_LOCK.md",
+      "whole_file": true,
+      "role": "no_walking_dialogue_and_field_presentation"
+    }
+  ],
+  "scene_context_seed": {
+    "static_story_context_only": true,
+    "no_walking_dialogue": true,
+    "no_mid_battle_dialogue": true,
+    "location_name": "Reaction Annex front / research floor",
+    "area_phase": "healthy_facility_arrival_and_diagnostic_plan",
+    "dialogue_readiness": "GREEN",
+    "encounter_mode": "none"
+  },
+  "current_floor_state": {
+    "roster": [
+      "cyanis",
+      "ilyra",
+      "torren",
+      "nimera",
+      "vaelira"
+    ],
+    "active_party_cap": 4,
+    "facility_state": "functioning normal facility; staff/equipment/procedures legitimate",
+    "wayfinder_comparison": "resemblance persists but is not exact; Ancient symbols untranslated",
+    "historical_anomalies": "previously reasonable calibration-noise/sensor-variance/local-drift/return-imbalance interpretations; no negligence assumption",
+    "diagnostic_order": [
+      "four individual elements",
+      "six unique pair relationships",
+      "complete system after baselines"
+    ],
+    "elements": [
+      "Fire",
+      "Ice",
+      "Lightning",
+      "Earth"
+    ]
+  },
+  "allowed_information_transfers": [
+    "Vaelira may explain the falsifiable test plan and what each stage would establish.",
+    "Nimera may constrain claims about historical records/anomalies but does not own the mechanism model.",
+    "Staff must not be framed as negligent merely because current evidence was previously unavailable.",
+    "No one may introduce Wind, Water, a fifth element, or Face-interaction meaning."
+  ],
+  "person_runtime_contexts": {
+    "cyanis": {
+      "memory_authorization": {
+        "mode": "none"
+      },
+      "scene_local_state": {
+        "attention": [
+          "what the team needs to test next",
+          "keeping the investigation actionable"
+        ],
+        "avoidances": [
+          "summary-machine role"
+        ]
+      }
+    },
+    "ilyra": {
+      "memory_authorization": {
+        "mode": "none"
+      },
+      "scene_local_state": {
+        "attention": [
+          "which assumptions the diagnostic sequence is testing"
+        ],
+        "avoidances": [
+          "solving technical mechanism",
+          "forced speculative spiral"
+        ]
+      }
+    },
+    "torren": {
+      "memory_authorization": {
+        "mode": "none"
+      },
+      "scene_local_state": {
+        "attention": [
+          "practical facility state and observed behavior"
+        ],
+        "avoidances": [
+          "pretending laboratory expertise"
+        ]
+      }
+    },
+    "nimera": {
+      "memory_authorization": {
+        "mode": "none"
+      },
+      "scene_local_state": {
+        "attention": [
+          "how anomalies were recorded/categorized",
+          "what the surviving evidence actually says"
+        ],
+        "avoidances": [
+          "mechanism ownership",
+          "retroactive negligence claims"
+        ]
+      }
+    },
+    "vaelira": {
+      "memory_authorization": {
+        "mode": "none"
+      },
+      "scene_local_state": {
+        "attention": [
+          "controlled comparison",
+          "boundary conditions",
+          "what observation would falsify her working model"
+        ],
+        "avoidances": [
+          "claiming the Wayfinder is solved",
+          "blaming staff",
+          "treating resemblance as identity"
+        ]
+      }
+    }
+  },
+  "exact_line_anchors": [],
+  "max_beats": 20,
+  "production_cost_ceiling": "moderate"
+}

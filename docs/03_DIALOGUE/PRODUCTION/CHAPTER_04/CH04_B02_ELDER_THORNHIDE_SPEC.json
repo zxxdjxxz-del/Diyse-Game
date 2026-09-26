@@ -1,0 +1,158 @@
+{
+  "schema": "diyse_scene_authority_spec_v1",
+  "scene_id": "CH04_B02_ELDER_THORNHIDE",
+  "chapter_id": "chapter_04",
+  "story_position": "Chapter 4 — Beat 2 — Elder Thornhide",
+  "production_ready": false,
+  "participants": [
+    "cyanis",
+    "ilyra",
+    "torren",
+    "nimera"
+  ],
+  "scene_purpose": "Track the Elder Thornhide from Cresthaven's disturbed grounds, resolve the territorial conflict nonlethally, and deliver Last Sentinel's first verified modern manifestation as its Recovered transition without giving the party a complete Prime-system explanation.",
+  "story_sources": [
+    {
+      "path": "docs/02_STORY/CHAPTERS/CHAPTER_04.md",
+      "sections": [
+        "Last Sentinel state lock",
+        "Beat 2 — Elder Thornhide"
+      ],
+      "role": "chapter_04_current_story_authority"
+    }
+  ],
+  "additional_authority_sources": [
+    {
+      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/REHEARSAL_FIRST_AUTHORING_LOCK.md",
+      "whole_file": true,
+      "role": "rehearsal_first_authoring"
+    },
+    {
+      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/NATURAL_TURN_LENGTH_AND_FLOOR_HOLDING_LOCK.md",
+      "whole_file": true,
+      "role": "natural_turns"
+    },
+    {
+      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/MATURE_ADULT_SPEECH_AND_PROFANITY_LOCK.md",
+      "whole_file": true,
+      "role": "adult_voice"
+    },
+    {
+      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/SPOKEN_DIALOGUE_VS_NARRATION_LOCK.md",
+      "whole_file": true,
+      "role": "spoken_vs_narration"
+    },
+    {
+      "path": "docs/13_UI_AND_IMPLEMENTATION/FIELD_TRAVERSAL_AND_DIALOGUE_PRESENTATION_LOCK.md",
+      "whole_file": true,
+      "role": "no_walking_dialogue_and_field_presentation"
+    }
+  ],
+  "scene_context_seed": {
+    "static_story_context_only": true,
+    "no_walking_dialogue": true,
+    "no_mid_battle_dialogue": true,
+    "location_name": "Elder Thornhide territory / forest edge",
+    "area_phase": "tracking_to_authored_boss",
+    "dialogue_readiness": "GREEN_BEFORE_AND_AFTER_COMBAT_ONLY",
+    "encounter_mode": "fixed_authored"
+  },
+  "current_floor_state": {
+    "permanent_roster": [
+      "cyanis",
+      "ilyra",
+      "torren",
+      "nimera"
+    ],
+    "active_party_cap": 4,
+    "vaelira_present": false,
+    "last_sentinel_state_at_start": "not yet Recovered; no verified modern manifestation",
+    "thornhide_state_at_start": "alive, territorial, defensive, dangerous; restoration/reoccupation materially contributed to conflict",
+    "mandatory_resolution": "drive off / retreat; Elder Thornhide survives",
+    "last_sentinel_state_at_end": "Recovered; first verified modern manifestation has occurred; not Awakened",
+    "prime_classification_character_knowledge": "still an active but unproven hypothesis; event does not automatically prove the historical classification"
+  },
+  "allowed_information_transfers": [
+    "Torren may transfer only field evidence earned through Beat 1 inspection/tracking and his animal-reading expertise.",
+    "Cyanis may describe his own Card/manifestation experience after the event but cannot infer hidden Prime-system rules.",
+    "The group may connect the manifestation to LAST SENTINEL CONFIRMED and the existing Prime-Card hypothesis without promoting hypothesis to confirmed classification.",
+    "No spoken dialogue may occur during active combat or the manifestation's combat execution."
+  ],
+  "person_runtime_contexts": {
+    "cyanis": {
+      "memory_authorization": {
+        "mode": "none"
+      },
+      "epistemic_state": {
+        "last_sentinel": {
+          "status": "unknown_mechanism",
+          "value": "LAST SENTINEL CONFIRMED and deep-Ruby stabilization are known; no prior manifestation."
+        }
+      },
+      "scene_local_state": {
+        "attention": [
+          "protect people without assuming the animal is malicious",
+          "his Card's qualitatively new response after combat"
+        ],
+        "avoidances": [
+          "explaining the Prime system",
+          "treating himself as certain because the Card is his"
+        ]
+      }
+    },
+    "ilyra": {
+      "memory_authorization": {
+        "mode": "none"
+      },
+      "scene_local_state": {
+        "attention": [
+          "whether the conflict can be ended without unnecessary killing",
+          "what the manifestation changes in their assumptions"
+        ],
+        "avoidances": [
+          "acting as automatic medic/narrator",
+          "turning a possibility into a diagnosis"
+        ]
+      }
+    },
+    "torren": {
+      "memory_authorization": {
+        "mode": "none"
+      },
+      "epistemic_state": {
+        "elder_thornhide": {
+          "status": "inference_to_observation",
+          "value": "Tracking evidence supports an old territorial animal; identity is earned through the trail and confrontation."
+        }
+      },
+      "scene_local_state": {
+        "attention": [
+          "tracks and territorial behavior",
+          "signs that reoccupation changed the animal's range"
+        ],
+        "avoidances": [
+          "moralizing the animal",
+          "claiming certainty before evidence"
+        ]
+      }
+    },
+    "nimera": {
+      "memory_authorization": {
+        "mode": "none"
+      },
+      "scene_local_state": {
+        "attention": [
+          "what was directly observed",
+          "whether the manifestation changes the evidentiary status of the Prime hypothesis"
+        ],
+        "avoidances": [
+          "calling Cyanis's Card a confirmed Prime",
+          "generic archive exposition during an ecological crisis"
+        ]
+      }
+    }
+  },
+  "exact_line_anchors": [],
+  "max_beats": 20,
+  "production_cost_ceiling": "bespoke"
+}
