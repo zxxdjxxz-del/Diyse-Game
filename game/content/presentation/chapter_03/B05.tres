@@ -4,11 +4,11 @@
 
 [resource]
 script = ExtResource("1")
-scene_id = "H04"
+scene_id = "B05"
 chapter_id = "chapter_03"
-environment_family = "CH03_CRESTHAVEN_STATE_1"
+environment_family = "CH03_OLD_CITY_ARCHIVES"
 battle_background_family = ""
-cutscene_tier = "C0"
+cutscene_tier = "C1"
 vfx_tier = "V1"
 encounter_mode = "none"
-presentation_tags = Array[String](["HD2D", "NO_RANDOM", "CHARACTER_LIFE", "LAST_SENTINEL_CASE_INERT", "NO_RUBY_CHANGE", "NO_PRIME_MANIFESTATION"])
+presentation_tags = Array[String](["HD2D", "NO_RANDOM", "OLD_CITY_ARCHIVE_DESCENT", "MAEVRA_STAYS_CAELORA", "DUNGEON_ENTRY"])

@@ -4,11 +4,11 @@
 
 [resource]
 script = ExtResource("1")
-scene_id = "H02"
+scene_id = "B12"
 chapter_id = "chapter_03"
-environment_family = "CH03_CRESTHAVEN_STATE_1"
+environment_family = "CH03_OLD_CITY_ARCHIVES"
 battle_background_family = ""
-cutscene_tier = "C0"
+cutscene_tier = "C2"
 vfx_tier = "V1"
 encounter_mode = "none"
-presentation_tags = Array[String](["HD2D", "NO_RANDOM", "CHARACTER_LIFE", "RECORDS_ROOM", "NO_ROMANTIC_CAMERA_STING"])
+presentation_tags = Array[String](["HD2D", "NO_RANDOM", "INNER_COLLECTIONS", "WESTWAYS_RECORDBOOK", "WAYFINDER_HAND_COPY", "CAELORA_CLUSTER_COMPLETE_IN_COPY", "SEALWRIGHT_DEAD_END"])

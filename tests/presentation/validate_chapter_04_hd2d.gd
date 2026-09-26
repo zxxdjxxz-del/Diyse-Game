@@ -15,7 +15,7 @@ const EXPECTED := {
 	"S026": {"environment": "CH04_IVORYBRIDGE", "background": "", "cutscene": "C1", "vfx": "V1", "encounter": "none"},
 	"C08": {"environment": "CH04_SOUTHHOLD_ROADSIDE", "background": "", "cutscene": "C0", "vfx": "V1", "encounter": "none"},
 	"C09": {"environment": "CH04_IVORYBRIDGE", "background": "", "cutscene": "C0", "vfx": "V1", "encounter": "none"},
-	"H05": {"environment": "CH03_CRESTHAVEN_STATE_1", "background": "", "cutscene": "C0", "vfx": "V1", "encounter": "none"},
+	"H05": {"environment": "CH03_CRESTHAVEN", "background": "", "cutscene": "C0", "vfx": "V1", "encounter": "none"},
 	"HUNT_04_CROWN_PROTOTYPE": {"environment": "CH04_SIXFOLD_ANNEX", "background": "CH04_ANNEX_PROTOTYPE_BRANCH", "cutscene": "C1", "vfx": "V2", "encounter": "fixed_authored"},
 }
 
@@ -87,8 +87,8 @@ func _validate_environment_states() -> void:
 		for required_state in expected["required"]:
 			_expect(definition.allows_state(str(required_state)), "%s must expose state %s" % [filename, required_state])
 
-	var inherited_cresthaven = load("res://game/content/presentation/chapter_03/environment_cresthaven_state_1.tres")
-	_expect(inherited_cresthaven != null, "Chapter 4 H05 must reuse the Chapter 3 Cresthaven State 1 environment resource")
+	var inherited_cresthaven = load("res://game/content/presentation/chapter_03/environment_cresthaven.tres")
+	_expect(inherited_cresthaven != null, "Chapter 4 H05 must reuse the current Chapter 3 Cresthaven environment resource")
 
 func _validate_prime_and_crucible_rules() -> void:
 	var s022 = load(PRESENTATION_DIR + "S022.tres")

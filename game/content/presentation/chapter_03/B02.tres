@@ -4,11 +4,11 @@
 
 [resource]
 script = ExtResource("1")
-scene_id = "S021"
+scene_id = "B02"
 chapter_id = "chapter_03"
-environment_family = "CH03_CRESTHAVEN_STATE_1"
+environment_family = "CH03_ROYAL_PALACE"
 battle_background_family = ""
-cutscene_tier = "C2"
+cutscene_tier = "C1"
 vfx_tier = "V1"
 encounter_mode = "none"
-presentation_tags = Array[String](["HD2D", "NO_RANDOM", "CRESTHAVEN_ESTABLISHMENT", "LAST_SENTINEL_IDENTIFIED_UNLOCKED", "NO_PRIME_MANIFESTATION", "RUBY_STABLE_STILL"])
+presentation_tags = Array[String](["HD2D", "NO_RANDOM", "ROYAL_AUDIENCE", "CHAPTER_2_REPORT", "NO_RETIRED_CH2_MURAL"])

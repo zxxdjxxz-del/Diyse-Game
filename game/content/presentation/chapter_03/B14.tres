@@ -4,11 +4,11 @@
 
 [resource]
 script = ExtResource("1")
-scene_id = "S020"
+scene_id = "B14"
 chapter_id = "chapter_03"
-environment_family = "CH03_DEEP_COMMAND_STATION"
+environment_family = "CH03_CRESTHAVEN"
 battle_background_family = "CH03_FIRST_COMMAND_WARDEN"
 cutscene_tier = "C2"
 vfx_tier = "V3"
 encounter_mode = "mixed"
-presentation_tags = Array[String](["HD2D", "RANDOM_ALLOWED", "LAYERED_WARDEN_CHAMBER", "WARDEN_ONE_HP_TWO_STATES", "COPY_FUNCTION_NOT_CHOREOGRAPHY", "POST_WARDEN_RUBY_ONLY", "NO_PRIME_MANIFESTATION"])
+presentation_tags = Array[String](["HD2D", "RANDOM_ALLOWED", "CRESTHAVEN_TOWER_BASE", "FIRST_COMMAND_WARDEN", "ONE_HP_TWO_STATES", "FULL_PARTY_ASSESSMENT", "PREVIOUS_ERROR_THEN_LAST_SENTINEL_CONFIRMED", "LAST_SENTINEL_CONFIRMED_FINAL_MESSAGE", "RUBY_AFTER_WARDEN_INERT", "NO_PRIME_MANIFESTATION"])

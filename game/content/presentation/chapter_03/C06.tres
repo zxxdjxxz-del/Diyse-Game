@@ -4,11 +4,11 @@
 
 [resource]
 script = ExtResource("1")
-scene_id = "H03"
+scene_id = "C06"
 chapter_id = "chapter_03"
-environment_family = "CH03_CRESTHAVEN_STATE_1"
+environment_family = "CH03_CRESTHAVEN"
 battle_background_family = ""
 cutscene_tier = "C0"
 vfx_tier = "V1"
 encounter_mode = "none"
-presentation_tags = Array[String](["HD2D", "NO_RANDOM", "CHARACTER_LIFE", "MEDICAL_SPACE", "CONSENT_BEFORE_TREATMENT"])
+presentation_tags = Array[String](["HD2D", "NO_RANDOM", "CHARACTER_LIFE", "CRESTHAVEN_RECORDS_MAP_ROOM", "NIMERA_TABLE"])

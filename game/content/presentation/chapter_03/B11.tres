@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="DiyseScenePresentationDefinition" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://game/presentation/scene_presentation_definition.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+scene_id = "B11"
+chapter_id = "chapter_03"
+environment_family = "CH03_OLD_CITY_ARCHIVES"
+battle_background_family = "CH03_ARCHIVE_SCRIBE_ENGINE"
+cutscene_tier = "C2"
+vfx_tier = "V2"
+encounter_mode = "fixed_authored"
+presentation_tags = Array[String](["HD2D", "NO_RANDOM", "ARCHIVE_SCRIBE_ENGINE_BOSS", "ONE_BODY_ONE_HP", "NO_FIRST_COMMAND_WARDEN", "NO_WARDEN_MESSAGES", "NO_RUBY_STABILIZATION"])

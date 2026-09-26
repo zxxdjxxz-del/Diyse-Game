@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="DiyseScenePresentationDefinition" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://game/presentation/scene_presentation_definition.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+scene_id = "B08"
+chapter_id = "chapter_03"
+environment_family = "CH03_OLD_CITY_ARCHIVES"
+battle_background_family = "CH03_OLD_CITY_ARCHIVES"
+cutscene_tier = "C1"
+vfx_tier = "V1"
+encounter_mode = "random_allowed"
+presentation_tags = Array[String](["HD2D", "RANDOM_ALLOWED", "BURIED_COLLECTIONS", "RECENT_READER", "PRIME_TERM_UNDEFINED", "NO_CARD_PRIME_CLASSIFICATION"])

@@ -4,11 +4,11 @@
 
 [resource]
 script = ExtResource("1")
-scene_id = "S017"
+scene_id = "B09"
 chapter_id = "chapter_03"
-environment_family = "CH03_CAELORA_CIVIC_JUDICIAL"
-battle_background_family = ""
+environment_family = "CH03_OLD_CITY_ARCHIVES"
+battle_background_family = "CH03_OLD_CITY_ARCHIVES"
 cutscene_tier = "C1"
 vfx_tier = "V1"
-encounter_mode = "none"
-presentation_tags = Array[String](["HD2D", "NO_RANDOM", "CIVIC_PROCEDURAL_TENSION", "NO_VILLAIN_GRADING", "DOCUMENT_INSERTS"])
+encounter_mode = "random_allowed"
+presentation_tags = Array[String](["HD2D", "RANDOM_ALLOWED", "HALL_OF_SEALS", "SEAL_MYSTERY_UNRESOLVED", "CALDER_UNREVEALED"])

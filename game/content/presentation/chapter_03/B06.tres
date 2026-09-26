@@ -4,11 +4,11 @@
 
 [resource]
 script = ExtResource("1")
-scene_id = "H05"
-chapter_id = "chapter_04"
-environment_family = "CH03_CRESTHAVEN"
+scene_id = "B06"
+chapter_id = "chapter_03"
+environment_family = "CH03_OLD_CITY_ARCHIVES"
 battle_background_family = ""
-cutscene_tier = "C0"
+cutscene_tier = "C1"
 vfx_tier = "V1"
 encounter_mode = "none"
-presentation_tags = Array[String](["HD2D", "NO_RANDOM", "CHARACTER_LIFE", "CRESTHAVEN_STATE1_REUSE", "PORTRAIT_PROP_LED", "NO_ACCEPTANCE_CEREMONY"])
+presentation_tags = Array[String](["HD2D", "NO_RANDOM", "NIMERA_PERMANENT_JOIN", "NO_ANCIENT_BARRIER", "FOUR_PERSON_PARTY_BEGINS"])

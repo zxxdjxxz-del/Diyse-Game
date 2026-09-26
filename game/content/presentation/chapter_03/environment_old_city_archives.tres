@@ -4,7 +4,7 @@
 
 [resource]
 script = ExtResource("1")
-environment_id = "CH03_CAELORA_CIVIC_JUDICIAL"
+environment_id = "CH03_OLD_CITY_ARCHIVES"
 initial_state = "ACTIVE"
-available_states = Array[String](["BASE", "ACTIVE", "POST_STORY"])
-persistent_flag_prefix = "environment.chapter_03.caelora_civic_judicial"
+available_states = Array[String](["BASE", "ACTIVE", "OPEN", "POST_BOSS", "CLEARED", "POST_STORY"])
+persistent_flag_prefix = "environment.chapter_03.old_city_archives"
