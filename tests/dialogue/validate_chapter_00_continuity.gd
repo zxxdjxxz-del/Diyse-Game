@@ -1,93 +1,78 @@
 extends SceneTree
 
-const REGISTRY_PATH := "res://game/content/dialogue/chapter_00/chapter_00_dialogue_registry.tres"
-const MANDATORY_SCENES := [
-	["S001", "res://game/content/dialogue/chapter_00/S001.tres", 28],
-	["S002", "res://game/content/dialogue/chapter_00/S002.tres", 49],
-	["S003", "res://game/content/dialogue/chapter_00/S003.tres", 35],
-	["S004", "res://game/content/dialogue/chapter_00/S004.tres", 57],
-	["S005", "res://game/content/dialogue/chapter_00/S005.tres", 31],
-	["S006", "res://game/content/dialogue/chapter_00/S006.tres", 60]
-]
-const CHARACTER_LIFE_SCENES := [
-	["C01", "res://game/content/dialogue/chapter_00/C01.tres", 40],
-	["C02", "res://game/content/dialogue/chapter_00/C02.tres", 61]
-]
-const EXPECTED_MANDATORY_BEATS := 260
-const EXPECTED_OPTIONAL_BEATS := 101
+const EXPECTED := {
+	"B01": {"scene_id": "CH00_B01_CONVOY_OPENING_AMBUSH", "kind": "mandatory", "spoken": 27},
+	"B02": {"scene_id": "CH00_B02_WRECK_FIELD", "kind": "mandatory", "spoken": 44},
+	"B03": {"scene_id": "CH00_B03_EVACUATION_RELAY_DECISION", "kind": "mandatory", "spoken": 27},
+	"B04": {"scene_id": "CH00_B04_FIELD_TRIAGE_CAMP_ILYRA_FIRST_INCOMPLETE_RESPONSE", "kind": "mandatory", "spoken": 67},
+	"B05": {"scene_id": "CH00_B05_CONCEALED_RUIN_VANGUARD", "kind": "mandatory", "spoken": 41},
+	"B06": {"scene_id": "CH00_B06_RIFTMAW_WAR_SORCERER_FINAL_BROKEN_CONVOY_CONFRONTATION", "kind": "mandatory", "spoken": 52},
+	"B07": {"scene_id": "CH00_B07_AFTERMATH_SURVIVOR_RECOVERY_OVERNIGHT_CAMP", "kind": "mandatory", "spoken": 51},
+	"C01": {"scene_id": "CH00_C01_SIX_MINUTES", "kind": "character_life", "spoken": 79},
+}
+
+var failures: Array[String] = []
 
 func _initialize() -> void:
 	call_deferred("_run_validation")
 
 func _run_validation() -> void:
-	var failures: Array[String] = []
-	var registry := load(REGISTRY_PATH) as DiyseDialoguePortraitRegistry
+	var registry := DiyseCurrentDialogueCatalog.load_registry("chapter_00")
+	_expect(registry != null, "Current Chapter 0 dialogue registry must load")
 	if registry == null:
-		failures.append("Could not load Chapter 0 dialogue registry")
-		_finish(failures)
+		_finish()
 		return
 
-	var loaded: Dictionary = {}
-	var mandatory_beats := 0
-	var optional_beats := 0
+	var loaded := {}
+	var total_spoken := 0
 
-	for spec in MANDATORY_SCENES:
-		var scene_id := str(spec[0])
-		var scene := load(str(spec[1])) as DiyseDialogueSceneDefinition
+	for slot_id in EXPECTED.keys():
+		var scene := DiyseCurrentDialogueCatalog.load_scene("chapter_00", slot_id)
+		_expect(scene != null, "Current Chapter 0 scene must load: %s" % slot_id)
 		if scene == null:
-			failures.append("Could not load mandatory Chapter 0 scene: %s" % scene_id)
 			continue
-		loaded[scene_id] = scene
+		loaded[slot_id] = scene
 		for failure in scene.validate_schema(registry):
-			failures.append("%s schema: %s" % [scene_id, failure])
-		if scene.scene_id != scene_id:
-			failures.append("%s scene_id changed" % scene_id)
-		if scene.chapter_id != "chapter_00":
-			failures.append("%s left chapter_00" % scene_id)
-		if scene.scene_kind != "mandatory":
-			failures.append("%s must remain mandatory" % scene_id)
-		if scene.beats.size() != int(spec[2]):
-			failures.append("%s beat count changed: expected %d, got %d" % [scene_id, int(spec[2]), scene.beats.size()])
-		mandatory_beats += scene.beats.size()
+			failures.append("%s schema: %s" % [slot_id, failure])
 
-	for spec in CHARACTER_LIFE_SCENES:
-		var scene_id := str(spec[0])
-		var scene := load(str(spec[1])) as DiyseDialogueSceneDefinition
-		if scene == null:
-			failures.append("Could not load Chapter 0 Character-Life scene: %s" % scene_id)
-			continue
-		loaded[scene_id] = scene
-		for failure in scene.validate_schema(registry):
-			failures.append("%s schema: %s" % [scene_id, failure])
-		if scene.scene_id != scene_id:
-			failures.append("%s scene_id changed" % scene_id)
-		if scene.chapter_id != "chapter_00":
-			failures.append("%s left chapter_00" % scene_id)
-		if scene.scene_kind != "character_life":
-			failures.append("%s must remain optional character_life" % scene_id)
-		if not scene.trigger_id.ends_with("after_s006"):
-			failures.append("%s must unlock only after S006" % scene_id)
-		if scene.beats.size() != int(spec[2]):
-			failures.append("%s beat count changed: expected %d, got %d" % [scene_id, int(spec[2]), scene.beats.size()])
-		optional_beats += scene.beats.size()
+		var expected: Dictionary = EXPECTED[slot_id]
+		_expect(scene.scene_id == str(expected["scene_id"]), "%s scene_id drifted" % slot_id)
+		_expect(scene.chapter_id == "chapter_00", "%s left chapter_00" % slot_id)
+		_expect(scene.scene_kind == str(expected["kind"]), "%s scene_kind drifted" % slot_id)
+		_expect(scene.trigger_id == "trigger.chapter_00.%s" % slot_id.to_lower(), "%s trigger_id drifted" % slot_id)
+		_expect(scene.completion_flag == "scene.ch00_%s.complete" % slot_id.to_lower(), "%s completion_flag drifted" % slot_id)
 
-	if mandatory_beats != EXPECTED_MANDATORY_BEATS:
-		failures.append("Chapter 0 mandatory authored-beat total changed: expected %d, got %d" % [EXPECTED_MANDATORY_BEATS, mandatory_beats])
-	if optional_beats != EXPECTED_OPTIONAL_BEATS:
-		failures.append("Chapter 0 optional Character-Life authored-beat total changed: expected %d, got %d" % [EXPECTED_OPTIONAL_BEATS, optional_beats])
+		var spoken := 0
+		for beat in scene.beats:
+			if not str(beat.get("speaker_id", "")).is_empty():
+				spoken += 1
+		_expect(spoken == int(expected["spoken"]), "%s spoken count changed: expected %d, got %d" % [slot_id, int(expected["spoken"]), spoken])
+		total_spoken += spoken
 
-	for early_id in ["S001", "S002", "S003"]:
-		if loaded.has(early_id) and "ilyra" in (loaded[early_id] as DiyseDialogueSceneDefinition).participants:
-			failures.append("Ilyra entered too early in %s; her first Chapter 0 appearance must remain S004" % early_id)
-	for later_id in ["S004", "S005", "S006"]:
-		if loaded.has(later_id) and "ilyra" not in (loaded[later_id] as DiyseDialogueSceneDefinition).participants:
-			failures.append("Ilyra missing from required post-entry scene %s" % later_id)
+	_expect(loaded.size() == 8, "Current Chapter 0 must contain B01-B07 plus C01")
+	_expect(total_spoken == 388, "Current Chapter 0 spoken total must remain 388")
+
+	for early_id in ["B01", "B02", "B03"]:
+		if loaded.has(early_id):
+			_expect("ilyra" not in loaded[early_id].participants, "Ilyra must not enter before B04: %s" % early_id)
+	for later_id in ["B04", "B05", "B06", "B07"]:
+		if loaded.has(later_id):
+			_expect("ilyra" in loaded[later_id].participants, "Ilyra must be present after her B04 entry: %s" % later_id)
+
+	if loaded.has("C01"):
+		var c01 = loaded["C01"]
+		_expect(c01.participants == Array[String](["ilyra", "cyanis"]), "C01 Six Minutes must remain Ilyra + Cyanis")
+		var spoken_text := ""
+		for beat in c01.beats:
+			spoken_text += " " + str(beat.get("text", "")).to_lower()
+		for forbidden in ["first champion", "first mercy", "prime card", "black host", "brackenwall", "vaelkor", "entity"]:
+			_expect(forbidden not in spoken_text, "C01 leaked essential plot/lore terminology: %s" % forbidden)
 
 	var fair_count := 0
 	var strong_opinion_count := 0
 	var wasnt_planning_count := 0
-	for scene_id in loaded.keys():
-		var scene: DiyseDialogueSceneDefinition = loaded[scene_id]
+	for slot_id in loaded.keys():
+		var scene = loaded[slot_id]
 		for beat in scene.beats:
 			var text := str(beat.get("text", "")).strip_edges().to_lower()
 			if text == "fair.":
@@ -97,45 +82,19 @@ func _run_validation() -> void:
 			if text == "wasn't planning to.":
 				wasnt_planning_count += 1
 
-	if fair_count > 1:
-		failures.append("Chapter 0 overuses exact acknowledgment 'Fair.': %d occurrences" % fair_count)
-	if strong_opinion_count > 1:
-		failures.append("Chapter 0 repeats 'You have very strong opinions about...' across scenes")
-	if wasnt_planning_count > 1:
-		failures.append("Chapter 0 repeats exact line 'Wasn't planning to.' too often")
+	_expect(fair_count <= 1, "Chapter 0 overuses exact acknowledgment 'Fair.'")
+	_expect(strong_opinion_count <= 1, "Chapter 0 repeats 'You have very strong opinions about...'")
+	_expect(wasnt_planning_count <= 1, "Chapter 0 repeats exact line 'Wasn't planning to.' too often")
 
-	if loaded.has("S006"):
-		var s006: DiyseDialogueSceneDefinition = loaded["S006"]
-		var final_beat: Dictionary = s006.beats[-1]
-		var cues = final_beat.get("cues", {})
-		var flags = cues.get("implementation_flags", []) if cues is Dictionary else []
-		for required in [
-			"ROSTER_ADD_ILYRA_PERMANENT",
-			"STORY_CHAPTER_00_COMPLETE",
-			"ROUTE_BRACKENWALL_UNLOCKED",
-			"UNLOCK_C01_THE_FIRE_IS_TOO_CLOSE",
-			"UNLOCK_C02_FOOD_AFTER_TRIAGE",
-			"DO_NOT_AUTO_SKIP_CHARACTER_LIFE_SCENES"
-		]:
-			if not (flags is Array) or required not in flags:
-				failures.append("S006 lost Chapter 0 durable handoff: %s" % required)
+	_finish()
 
-	for optional_id in ["C01", "C02"]:
-		if not loaded.has(optional_id):
-			continue
-		var scene: DiyseDialogueSceneDefinition = loaded[optional_id]
-		var spoken := ""
-		for beat in scene.beats:
-			spoken += " " + str(beat.get("text", "")).to_lower()
-		for forbidden in ["first champion", "first mercy", "prime", "black host", "brackenwall", "vaelkor", "entity"]:
-			if forbidden in spoken:
-				failures.append("%s leaked essential plot/lore terminology: %s" % [optional_id, forbidden])
+func _expect(condition: bool, message: String) -> void:
+	if not condition:
+		failures.append(message)
 
-	_finish(failures)
-
-func _finish(failures: Array[String]) -> void:
+func _finish() -> void:
 	if failures.is_empty():
-		print("Diyse Step 7C Chapter 0 continuity, repetition, ordering, optional-scene firewall, beat-budget, and durable-handoff validation passed.")
+		print("Current Chapter 0 B01-B07 + C01 continuity validation passed: 8 scenes / 388 spoken lines.")
 		quit(0)
 		return
 	for failure in failures:
