@@ -1,0 +1,53 @@
+{
+  "schema": "diyse_scene_authority_spec_v1",
+  "scene_id": "CH01_BEAT12_JUNCTION_CAMP_CLEANUP",
+  "chapter_id": "chapter_01",
+  "story_position": "Chapter 1 — Beat 12 — Junction Camp / Chapter 1 Cleanup Window",
+  "production_ready": true,
+  "participants": [
+    "cyanis",
+    "ilyra",
+    "maevra",
+    "torren"
+  ],
+  "scene_purpose": "Provide the safe Chapter-1 cleanup camp, expose the three current Character-Life scenes, and close the chapter with a brief morning departure.",
+  "story_sources": [
+    {
+      "path": "docs/02_STORY/CHAPTERS/CHAPTER_01.md",
+      "sections": [
+        "Beat 12 — Junction Camp / Chapter-1 Cleanup Window"
+      ],
+      "role": "current_chapter_01_story_authority"
+    }
+  ],
+  "scene_context_seed": {
+    "location_name": "Junction camp",
+    "area_phase": "chapter_01_cleanup_and_departure",
+    "dialogue_readiness": "GREEN",
+    "static_story_context_only": true,
+    "runtime_note": "No mandatory evening recap. Current optional scenes are C02 Torren's Version of Dinner, C03 What the Map Says, C04 Not Professionally. No Cistern backtrack or Regional Hunt."
+  },
+  "current_floor_state": {
+    "combat_pressure": "none",
+    "thornhide_state": "defeated",
+    "wayfinder_copy_state": "secured",
+    "optional_character_life": [
+      "C02",
+      "C03",
+      "C04"
+    ],
+    "regional_hunt": "none",
+    "next_destination": "Dunmere"
+  },
+  "allowed_information_transfers": [],
+  "exact_line_anchors": [],
+  "production_cost_ceiling": "safe camp plus brief next-morning departure",
+  "required_story_beats": [
+    "No mandatory evening conversation.",
+    "Make all three current Character-Life scenes optional.",
+    "Do not include any Cistern/Hunt backtrack.",
+    "Allow player-selected rest timing.",
+    "Use the brief CURRENT(6) morning departure dialogue.",
+    "End Chapter 1 on departure toward Dunmere."
+  ]
+}
