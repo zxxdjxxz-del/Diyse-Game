@@ -1,4 +1,4 @@
-# DIYSE — Chapter 2 — Synchronized Rehearsal-First Working Dialogue Manuscript
+# DIYSE — Chapter 2 — Synchronized Dialogue Manuscript
 
 **Status:** CURRENT DERIVED READ-THROUGH — SYNCHRONIZED AGAINST CURRENT ATOMIC DIALOGUE SOURCES
 
