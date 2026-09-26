@@ -299,7 +299,7 @@ September 19, 2026 synchronization closure: the Chapter 1 atomic lock has passed
 - `PRODUCTION/CHAPTER_01/CHAPTER_01_DIALOGUE_MANUSCRIPT.md`
 - `PRODUCTION/CHAPTER_02/CHAPTER_02_DIALOGUE_MANUSCRIPT.md`
 - `PRODUCTION/CHAPTER_03/CHAPTER_03_DIALOGUE_MANUSCRIPT.md`
-- `PRODUCTION/CHAPTER_0_3_DIALOGUE_SYNC_MANIFEST.md`
+- `PRODUCTION/CHAPTERS_00_03_DIALOGUE_SYNC_MANIFEST.md`
 - `game/content/dialogue/current/manifest.json` and its 56 generated current runtime scene Resources
 - the generated Chapters 0–3 spoiler-free story/gameplay read-through.
 

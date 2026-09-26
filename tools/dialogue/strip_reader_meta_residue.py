@@ -13,7 +13,7 @@ from pathlib import Path
 from docx import Document
 
 ROOT = Path(__file__).resolve().parents[2]
-READER = ROOT / "build/dialogue/DIYSE_Chapters_0-3_Spoiler_Free_Exact_Dialogue_Reader_CURRENT.docx"
+READER = ROOT / "build/dialogue/DIYSE_Chapters_00-03_Spoiler_Free_Exact_Dialogue_Reader.docx"
 DIALOGUE_PREFIX_RE = re.compile(r"^.+:\s*$")
 
 META_HEADING_PATTERNS = (

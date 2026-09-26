@@ -109,7 +109,7 @@ jobs:
             docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/CHAPTER_01_DIALOGUE_MANUSCRIPT.md \
             docs/03_DIALOGUE/PRODUCTION/CHAPTER_02/CHAPTER_02_DIALOGUE_MANUSCRIPT.md \
             docs/03_DIALOGUE/PRODUCTION/CHAPTER_03/CHAPTER_03_DIALOGUE_MANUSCRIPT.md \
-            docs/03_DIALOGUE/PRODUCTION/CHAPTER_0_3_DIALOGUE_SYNC_MANIFEST.md \
+            docs/03_DIALOGUE/PRODUCTION/CHAPTERS_00_03_DIALOGUE_SYNC_MANIFEST.md \
             docs/03_DIALOGUE/PRODUCTION/CHAPTER_00/CHAPTER_00_DIALOGUE_AUTHORITY_INDEX.md \
             docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/CHAPTER_01_DIALOGUE_AUTHORITY_INDEX.md \
             docs/03_DIALOGUE/PRODUCTION/CHAPTER_02/CHAPTER_02_DIALOGUE_AUTHORITY_INDEX.md \
@@ -128,7 +128,7 @@ jobs:
       - name: Upload exact-dialogue reader
         uses: actions/upload-artifact@v4
         with:
-          name: DIYSE-Chapters-0-3-Exact-Dialogue-Reader
-          path: build/dialogue/DIYSE_Chapters_0-3_Spoiler_Free_Exact_Dialogue_Reader_CURRENT.docx
+          name: DIYSE-Chapters-00-03-Exact-Dialogue-Reader
+          path: build/dialogue/DIYSE_Chapters_00-03_Spoiler_Free_Exact_Dialogue_Reader.docx
           if-no-files-found: error
           retention-days: 30
