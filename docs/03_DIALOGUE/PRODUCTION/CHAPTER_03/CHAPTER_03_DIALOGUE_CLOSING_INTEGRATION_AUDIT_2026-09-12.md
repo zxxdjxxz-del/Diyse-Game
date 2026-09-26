@@ -186,8 +186,8 @@ Current Chapter-3 dialogue respects the presentation locks:
 **PASS.**
 
 Active Chapter-3 Character-Life dialogue is:
-- `H01_NIMERA_TAKES_OVER_A_TABLE_DRAFT_A.md`
-- `H03_ILYRA_AND_NIMERA_DRAFT_A.md`
+- `C06_NIMERA_TAKES_OVER_A_TABLE_DIALOGUE.md`
+- `C07_ILYRA_AND_NIMERA_DIALOGUE.md`
 
 H02 / H04 remain retired and must not re-enter the current Chapter-3 cleanup set unless explicitly restored later.
 
@@ -209,7 +209,7 @@ Production files changed in that range:
 - `BEAT_11_FIRST_COMMAND_WARDEN_DRAFT_A.md`
 - `BEAT_12_SEALWRIGHT_CHAMBER_COPYING_ATTEMPTS_DRAFT_A.md`
 - `BEAT_13_MIRENAS_CONCERN_CRESTHAVEN_LEAD_DRAFT_A.md`
-- `H03_ILYRA_AND_NIMERA_DRAFT_A.md`
+- `C07_ILYRA_AND_NIMERA_DIALOGUE.md`
 - `CHAPTER_03_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md`
 
 No Chapter-3 story-structure authority file was altered by this dialogue closing pass.
