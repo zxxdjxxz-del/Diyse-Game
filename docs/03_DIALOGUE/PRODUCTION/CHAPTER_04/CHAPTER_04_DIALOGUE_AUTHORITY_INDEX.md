@@ -87,6 +87,29 @@ Progression for Chapter 4:
 - **Beat 11 — safe upper labs / aftermath:** first good opportunity for a light speculative spiral if the natural dialogue supports it. A plausible premise may be extended too far until both women realize they have unsettled themselves.
 - **Beat 12 — Ivorybridge morning / return:** quieter recognition that they enjoy how the other thinks is allowed; no need to announce the friendship.
 
+### Beat-5 working infrastructure hook — bridge thermal regulator
+
+**Working production choice, not a broader world-system retcon:** Vaelira's Ivorybridge introduction may use a small municipal **Fire/Ice thermal-balance regulator** serving part of the maintained bridge span.
+
+Visible problem:
+- one span/joint repeatedly shows alternating frost/heat stress, vibration, or expansion noise;
+- workers have sensibly reduced use around the affected section rather than behaving incompetently;
+- the visible location is where the symptom appears, not necessarily where the fault begins.
+
+Vaelira's work should demonstrate:
+- measuring both branches rather than guessing;
+- recognizing that each branch can appear individually acceptable while their timing/balance is wrong;
+- tracing the imbalance upstream;
+- correcting/calibrating the actual cause;
+- visible stabilization: the cycling stops, the stressed joint settles, and normal use can resume.
+
+Ilyra's contribution, if the natural rehearsal gives her one, should be **one bounded assumption-check**, not technical diagnosis. Suitable thought shape:
+> what if the part visibly reacting is the part responding correctly to a problem somewhere else?
+
+Vaelira owns whether that idea is mechanically possible and the actual diagnosis. The scene must still read first and foremost as **Vaelira competently doing her job**.
+
+This local Fire/Ice system may lightly establish that elemental infrastructure is ordinary in Ivorybridge, but it must not pre-solve the Annex's later whole-system problem or imply that pairwise regulation itself is inherently unsafe.
+
 ### Three-use Chapter-4 demonstration map
 
 Keep the new chemistry **selective**. Chapter 4 should aim for roughly three meaningful demonstrations rather than repeating the behavior every time both women are present.
