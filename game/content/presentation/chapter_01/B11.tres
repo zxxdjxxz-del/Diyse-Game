@@ -4,11 +4,11 @@
 
 [resource]
 script = ExtResource("1")
-scene_id = "S011"
+scene_id = "B11"
 chapter_id = "chapter_01"
-environment_family = "CH01_ANCIENT_ROUTE_WAYFINDER"
+environment_family = "CH01_JUNCTION"
 battle_background_family = ""
 cutscene_tier = "C2"
 vfx_tier = "V1"
 encounter_mode = "none"
-presentation_tags = Array[String](["HD2D", "NO_RANDOM", "WAYFINDER_HERO_EXTERIOR", "ANCIENT_CARTOGRAPHIC_MASTER", "NO_HIDDEN_NETWORK_REVEAL"])
+presentation_tags = Array[String](["HD2D", "NO_RANDOM", "JUNCTION_WAYFINDER", "WESTERN_ANCIENT_DIYSE_MAP", "CAELORA_AREA_BREAK", "SIX_FACE_MARKINGS", "NO_HIDDEN_NETWORK_REVEAL", "NO_TUNNEL_ENTRANCE"])

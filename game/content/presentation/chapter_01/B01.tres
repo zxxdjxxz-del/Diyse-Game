@@ -4,11 +4,11 @@
 
 [resource]
 script = ExtResource("1")
-scene_id = "C04"
+scene_id = "B01"
 chapter_id = "chapter_01"
-environment_family = "CH01_JUNCTION"
+environment_family = "CH01_BRACKENWALL"
 battle_background_family = ""
-cutscene_tier = "C0"
+cutscene_tier = "C1"
 vfx_tier = "V1"
 encounter_mode = "none"
-presentation_tags = Array[String](["HD2D", "NO_RANDOM", "CHARACTER_LIFE", "JUNCTION_CAMP", "MAEVRA_SPLINT_CONVERSATION"])
+presentation_tags = Array[String](["HD2D", "NO_RANDOM", "BRACKENWALL_HUB", "CARD_CUSTODY_REACTION", "MAEVRA_BROKEN_ARM_NONCOMBAT"])

@@ -4,7 +4,7 @@
 
 [resource]
 script = ExtResource("1")
-environment_id = "CH01_ANCIENT_ROUTE_WAYFINDER"
-initial_state = "BASE"
+environment_id = "CH01_BRACKENWALL"
+initial_state = "ACTIVE"
 available_states = Array[String](["BASE", "ACTIVE", "POST_STORY"])
-persistent_flag_prefix = "environment.chapter_01.ancient_route_wayfinder"
+persistent_flag_prefix = "environment.chapter_01.brackenwall"

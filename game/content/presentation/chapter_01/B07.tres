@@ -4,11 +4,11 @@
 
 [resource]
 script = ExtResource("1")
-scene_id = "C05"
+scene_id = "B07"
 chapter_id = "chapter_01"
-environment_family = "CH01_EDGELANDS_SETTLEMENT"
+environment_family = "CH01_HOLLOW_WATCH"
 battle_background_family = ""
-cutscene_tier = "C0"
+cutscene_tier = "C2"
 vfx_tier = "V1"
 encounter_mode = "none"
-presentation_tags = Array[String](["HD2D", "NO_RANDOM", "CHARACTER_LIFE", "BRACKENWALL_SUPPLY_MEDICAL", "PORTRAIT_PROP_LED"])
+presentation_tags = Array[String](["HD2D", "NO_RANDOM", "LANDSCAPE_DEPICTION", "REGIONAL_CATASTROPHE_IMAGE", "JUNCTION_IDENTIFIED", "NO_HIDDEN_NETWORK_REVEAL"])

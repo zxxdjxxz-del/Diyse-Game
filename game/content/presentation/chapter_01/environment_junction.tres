@@ -4,7 +4,7 @@
 
 [resource]
 script = ExtResource("1")
-environment_id = "CH01_EDGELANDS_SETTLEMENT"
+environment_id = "CH01_JUNCTION"
 initial_state = "ACTIVE"
-available_states = Array[String](["BASE", "ACTIVE", "POST_STORY"])
-persistent_flag_prefix = "environment.chapter_01.edgelands_settlement"
+available_states = Array[String](["BASE", "ACTIVE", "OPEN", "POST_STORY"])
+persistent_flag_prefix = "environment.chapter_01.junction"
