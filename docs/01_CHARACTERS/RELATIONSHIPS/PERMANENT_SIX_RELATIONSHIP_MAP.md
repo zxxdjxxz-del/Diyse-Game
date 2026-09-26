@@ -85,6 +85,22 @@ This is a useful ensemble tendency, not a mandatory speaking order. None of the 
 
 **Route boundary:** Ilyra's counterfactual role does not make her an alternate-route/pathfinding specialist. Terrain, navigation, physical approaches, exits, and route selection remain primarily Torren/Cyanis/Seyrik territory according to scene expertise.
 
+### Party recognition of the Ilyra / Vaelira spiral
+
+The party should learn this pattern gradually rather than treating it like an established sitcom routine in Chapter 4.
+
+- **Cyanis:** generally lets the thought run while it is useful. Once it stops changing the decision, he may cut in with a practical question such as whether the theory changes what they actually need to do. With familiarity he can recognize the warning signs earlier, but he is not their babysitter and should sometimes be curious enough to let them continue.
+- **Torren:** the strongest practical brake. He tends to ask whether the possibility changes the immediate field problem. If not, he is comfortable shelving it. He does not surrender route, terrain, or navigation judgment to Ilyra's counterfactual role.
+- **Nimera:** the strongest evidence brake, but not a permanent straight woman. She asks what supports the first premise, distinguishes possible from established, and may either kill the branch quickly or join it when the evidence is genuinely interesting. Her job is not to say `no` to imagination; it is to police confidence.
+- **Seyrik:** after recruitment, initially answers Ilyra's hypotheticals literally and concretely, especially when Black Host knowledge is relevant. This can make an abstract possibility suddenly much more alarming. As trust grows, he can learn the pattern and occasionally feed it with perfectly straight-faced precision, but he should not become a prankster caricature.
+
+Progression:
+- **Chapter 4:** the pattern is new; nobody has a stock reaction yet.
+- **following chapters:** companions begin recognizing that Ilyra opening a branch plus Vaelira going quiet often means the theory is about to grow.
+- **established party:** a companion may interrupt early, ask for the evidence, or deliberately let them continue because the result is funny or useful. Recognition should vary by person and stakes.
+
+Do not create a repeated catchphrase like `don't let them start`. The humor should come from character-specific responses and changing circumstances.
+
 ### Ilyra / Seyrik friendship progression lock
 
 Ilyra should become **one of Seyrik's main social connections after his end-of-Chapter-6 recruitment**.
