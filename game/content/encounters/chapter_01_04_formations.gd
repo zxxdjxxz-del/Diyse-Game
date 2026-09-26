@@ -95,9 +95,7 @@ const AREAS := {
 			],
 		},
 	},
-	"ch02_red_transfer_bastion": {
-		# Legacy runtime area key retained until the presentation/environment asset is renamed.
-		# Current story/encounter identity is Old Bastion.
+	"ch02_old_bastion": {
 		"chapter": 2,
 		"max_enemies": 6,
 		"formations": {

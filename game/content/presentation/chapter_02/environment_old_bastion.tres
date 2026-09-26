@@ -4,7 +4,7 @@
 
 [resource]
 script = ExtResource("1")
-environment_id = "CH02_RED_TRANSFER_BASTION"
+environment_id = "CH02_OLD_BASTION"
 initial_state = "ACTIVE"
 available_states = Array[String](["BASE", "ACTIVE", "INACTIVE", "POST_BOSS", "CLEARED"])
-persistent_flag_prefix = "environment.chapter_02.red_transfer_bastion"
+persistent_flag_prefix = "environment.chapter_02.old_bastion"

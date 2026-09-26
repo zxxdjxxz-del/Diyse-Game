@@ -10,7 +10,7 @@ const EXPECTED := {
 	"S012": {"environment": "CH02_DUNMERE_WATERWORKS", "background": "", "cutscene": "C2", "vfx": "V1", "encounter": "none"},
 	"S013": {"environment": "CH02_SUNKEN_ARCHIVE", "background": "CH02_SUNKEN_ARCHIVE", "cutscene": "C2", "vfx": "V2", "encounter": "mixed"},
 	"S014": {"environment": "CH02_PRISONER_TRANSFER_SERVICE", "background": "CH02_PRISONER_TRANSFER_SERVICE", "cutscene": "C2", "vfx": "V1", "encounter": "mixed"},
-	"S015": {"environment": "CH02_RED_TRANSFER_BASTION", "background": "CH02_RED_TRANSFER_BASTION", "cutscene": "C2", "vfx": "V2", "encounter": "mixed"},
+	"S015": {"environment": "CH02_OLD_BASTION", "background": "CH02_OLD_BASTION", "cutscene": "C2", "vfx": "V2", "encounter": "mixed"},
 	"S016": {"environment": "CH02_EXTRACTION_CAUSEWAY", "background": "CH02_EXTRACTION_CAUSEWAY", "cutscene": "C1", "vfx": "V1", "encounter": "fixed_authored"},
 	"C06": {"environment": "CH02_DUNMERE_WATERWORKS", "background": "", "cutscene": "C0", "vfx": "V1", "encounter": "none"},
 	"C07": {"environment": "CH02_DUNMERE_WATERWORKS", "background": "", "cutscene": "C0", "vfx": "V1", "encounter": "none"},
@@ -50,7 +50,7 @@ func _validate_environment_states() -> void:
 		"environment_dunmere_waterworks.tres": {"id": "CH02_DUNMERE_WATERWORKS", "required": ["BASE", "ACTIVE", "CLOSED", "CLEARED", "POST_STORY"]},
 		"environment_sunken_archive.tres": {"id": "CH02_SUNKEN_ARCHIVE", "required": ["BASE", "ACTIVE", "OPEN", "POST_BOSS", "CLEARED"]},
 		"environment_prisoner_transfer_service.tres": {"id": "CH02_PRISONER_TRANSFER_SERVICE", "required": ["BASE", "ACTIVE", "OPEN", "CLEARED", "POST_STORY"]},
-		"environment_red_transfer_bastion.tres": {"id": "CH02_RED_TRANSFER_BASTION", "required": ["BASE", "ACTIVE", "INACTIVE", "POST_BOSS", "CLEARED"]},
+		"environment_old_bastion.tres": {"id": "CH02_OLD_BASTION", "required": ["BASE", "ACTIVE", "INACTIVE", "POST_BOSS", "CLEARED"]},
 		"environment_extraction_causeway.tres": {"id": "CH02_EXTRACTION_CAUSEWAY", "required": ["BASE", "ACTIVE", "OPEN", "CLEARED", "POST_STORY"]},
 	}
 	for filename in expected_states.keys():

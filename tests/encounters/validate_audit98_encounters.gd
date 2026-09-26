@@ -12,7 +12,7 @@ const ALLOWED_BY_AREA := {
 	"ch01_briar_south": ["Thicket Stalker", "Vine Creeper", "Bullhog", "Needlewing", "Burrowclaw", "Barkling"],
 	"ch02_dunmere_waterworks": ["Bogshell", "Cistern Leech", "Needlewing"],
 	"ch02_sunken_archive": ["Archive Current", "Memory Scribe", "Bogshell", "Cistern Leech", "Needlewing"],
-	"ch02_red_transfer_bastion": ["Black Host Raider", "Black Host Crossbowman", "Ruin Shieldbearer", "Black Host War-Sorcerer", "Rift Hound"],
+	"ch02_old_bastion": ["Black Host Raider", "Black Host Crossbowman", "Ruin Shieldbearer", "Black Host War-Sorcerer", "Rift Hound"],
 	"ch03_way_fort": ["Way-Fort Marauder", "Rift Boltman", "Black Host Ward-Sorcerer"],
 	"ch03_suppressed_archives": ["Archive Scribe Engine", "Judgment Frame", "Erasure Wisp"],
 	"ch03_command_station": ["Command-Station Sentry", "Authority Lens", "Command Ring Drone"],
@@ -170,7 +170,7 @@ func _validate_chapter_01_04_catalog(failures: Array[String]) -> void:
 		failures.append("Old Waterworks must allow up to 5 active enemies")
 	if Catalog.max_enemies_for_area("ch02_sunken_archive") != 5:
 		failures.append("Sunken Archive must allow up to 5 active enemies")
-	if Catalog.max_enemies_for_area("ch02_red_transfer_bastion") != 6:
+	if Catalog.max_enemies_for_area("ch02_old_bastion") != 6:
 		failures.append("Old Bastion must allow up to 6 active enemies")
 
 	var seen_ids := {}
