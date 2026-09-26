@@ -1,21 +1,21 @@
-# Chapter 2 — Beat Development Working File
+# Chapter 2 — Beat Structure
 
 **Chapter:** 2 — The Drowned Oath  
-**Status:** ACTIVE CUMULATIVE BEAT-DEVELOPMENT WORKING FILE — MAINLINE WORKING PASS COMPLETE  
+**Status:** CURRENT CUMULATIVE 15-BEAT STRUCTURE  
 **Primary locked chapter authority:** `CHAPTER_02.md`  
 **Dialogue-production authority:** `../../03_DIALOGUE/AGENT_SYSTEM/CHAPTER_0_1_PIPELINE_CONTINUITY_LOCK.md`
 
 ## Purpose
-This is the single cumulative structural/development workspace for Chapter 2. Keep this file updated as Chapter 2 is refined so the chapter can be recovered without relying on chat history.
+This file is the compact current Chapter-2 beat structure supporting `CHAPTER_02.md`. It tracks the live B01–B15 sequence and key structural handoffs without replacing the chapter master.
 
 ## Current production closure
-> **Chapter 2 has 15 active mandatory mainline beats, numbered continuously B01–B14.**
+> **Chapter 2 has 15 active mandatory mainline beats, numbered continuously B01–B15.**
 
 Storage note:
-- exact wording authority is the 15 active standalone Beat files in `../../03_DIALOGUE/PRODUCTION/CHAPTER_02/`, numbered B01–B14;
-- `C06_STILL_BURNS_REHEARSAL_FIRST_WORKING_DIALOGUE.md` is the current 83-line Chapter-2 cleanup Character-Life scene (canonical C05);
+- exact wording authority is the 15 active standalone dialogue atomics in `../../03_DIALOGUE/PRODUCTION/CHAPTER_02/`, numbered continuously `CH02_B01`–`CH02_B15`;
+- `../../03_DIALOGUE/PRODUCTION/CHAPTER_02/C05_STILL_BURNS_DIALOGUE.md` is the current 65-line Chapter-2 cleanup Character-Life scene;
 - `../../03_DIALOGUE/PRODUCTION/CHAPTER_02/CHAPTER_02_DIALOGUE_AUTHORITY_INDEX.md` is the current dialogue-location/authority map;
-- the combined manuscript is stale and must be regenerated from the atomics before use as a current read-through.
+- the combined manuscript is a synchronized derived read-through; it never overrides the atomics.
 
 ## Current naming lock
 > **The Chapter-2 Black Host fort is called the Old Bastion.**
@@ -26,25 +26,27 @@ Storage note:
 > **scene/world state → independent Person Agent Brain rehearsals → Dialogue Editor → invisible Canon/Knowledge Checker → economical HD-2D staging/implementation**
 
 ## Current structure
-Chapter 2 has **15 active mandatory beats**, with the old B06 map-mural slot retired to preserve stable downstream IDs. The former dedicated prisoner-escort beat and separate road-secured beat are also retired. After Beat 14 frees and organizes the prisoners, the story may transition directly back to Dunmere. Beat 15 confirms that the current prisoners are safe and the Greenhollow–Dunmere road is reopened.
+Chapter 2 has **15 active mandatory beats, numbered continuously B01–B15**. The retired Western Map Mural does not reserve a live beat number. The former dedicated prisoner-escort beat and separate road-secured beat are also retired. Beat 14 frees and organizes the prisoners; Beat 15 confirms their safe return and the reopened Greenhollow–Dunmere road.
 
-## Locked Active Skeleton / Stable IDs
+## Locked Active Skeleton
+
 1. Path Outside Dunmere
 2. Dunmere Arrival / Missing Travelers
 3. Dunmere Elder / Hidden Approach
 4. Old Waterworks
 5. Sunken Archive Entrance
-6. **RETIRED — no Western Map Mural scene**
-7. Archive Depths
-8. Archive Leviathan
-9. Secret Passage Discovery
-10. Prisoner Galleries / First Contact
-11. Prisoner Safe Area / Exit Problem
-12. Bastion Command Ascent
-13. Rhazek / Masked Officer
-14. Commander Rhazek / Bastion Master
-15. Return to the Prisoners / Release
-16. Return to Dunmere / Road Reopened / Cleanup
+6. Archive Depths
+7. Archive Leviathan
+8. Secret Passage Discovery
+9. Prisoner Galleries / First Contact
+10. Prisoner Safe Area / Exit Problem
+11. Bastion Command Ascent
+12. Rhazek / Masked Officer
+13. Commander Rhazek / Bastion Master
+14. Return to the Prisoners / Release
+15. Return to Dunmere / Road Reopened / Cleanup
+
+The retired Western Map Mural remains historical only and does not reserve a canonical beat slot.
 
 Retired: poisoned-water opening, separate transfer-records beat, required `thirty-one transfers` clue, Extraction Causeway defense, Hold the Junction, surprise combat after prisoners are freed, dedicated prisoner-escort gameplay, and a separate road-secured beat.
 
@@ -58,7 +60,7 @@ Chapter 2 begins after the player confirms **Start Chapter 2** from the Chapter-
 Locks:
 - short real approach traversal;
 - Dunmere visible/near and functioning;
-- Torren genuinely guides, allowing limited walking dialogue;
+- Torren genuinely guides, but route dialogue occurs only at authored stops; no walking dialogue;
 - no mandatory recap;
 - no missing-traveler/Black Host explanation before entry.
 
@@ -112,7 +114,7 @@ Hard rule:
 No routine Black Host patrols. Encounters are plausible creatures, environmental hazards, and other non-Host threats. Nothing in the area should imply the Host knows this is the party's infiltration route.
 
 ### Early route state
-The first stretch should still read clearly as **old Dunmere/Yahtrean municipal infrastructure**: service passages, channels, old maintenance spaces, gates, drains, and water-control construction. Torren is actively route-finding here, so limited practical guidance dialogue is legal where needed.
+The first stretch should still read clearly as **old Dunmere/Yahtrean municipal infrastructure**: service passages, channels, old maintenance spaces, gates, drains, and water-control construction. Torren is actively route-finding here, but any practical guidance dialogue occurs only at authored stops; no walking dialogue.
 
 ### Sealed future-Hunt door
 A **short way into the waterworks**, the main route passes a substantial side-branch door.
@@ -135,7 +137,7 @@ The authored stop should be short. Its function is **memory**, not mystery infla
 ### Water / traversal
 Water becomes a normal physical traversal pressure as the group proceeds. At least one required stretch gets **Cyanis, Ilyra, Torren, and Maevra all thoroughly wet**. This is ordinary cause-and-effect of moving through the old waterworks.
 
-Do **not** call out Torren's weed, pouch, smoking supplies, or any other setup for C06 `Still Burns`. The later Character-Life scene can reveal after the fact that some of his belongings were soaked; Beat 4 does not pre-signpost the joke.
+Do **not** call out Torren's weed, pouch, smoking supplies, or any other setup for C05 `Still Burns`. The later Character-Life scene can reveal after the fact that some of his belongings were soaked; Beat 4 does not pre-signpost the joke.
 
 ### Architectural progression
 The area should visibly progress:
@@ -272,7 +274,7 @@ Use a combination of:
 The player should get a **meaningful exploration stretch**, not a hallway directly from the entrance threshold to the boss.
 
 ### No cartographic replacement
-Beat 6 must not quietly replace the retired B06 reveal.
+Archive Depths must not restore the retired Western Map Mural reveal.
 
 Do not add:
 - a map or complete route-network reveal;
@@ -321,7 +323,7 @@ Beat 6 is exploration-first. Two short authored stops are sufficient:
 1. first credible disturbance that is not caused by the party;
 2. final route check confirming the only useful way forward leads toward the disturbance and establishing Maevra's safe position before Beat 7.
 
-No walking banter is needed unless Torren is actively guiding at a specific traversal point.
+No walking dialogue. If Torren needs to give route guidance, use a short authored stop at the relevant traversal point.
 
 ### End state
 Beat 6 should end at the threshold of a larger flooded chamber/deeper route space. The party knows **something large is ahead**, but the actual visual reveal/identification and confrontation belong to Beat 7.
@@ -638,7 +640,7 @@ Decision:
 
 Maevra remains noncombat and helps organize the prisoners.
 
-Current dialogue source: `../../03_DIALOGUE/PRODUCTION/CHAPTER_02/CHAPTER_02_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md`.
+Current dialogue source: `../../03_DIALOGUE/PRODUCTION/CHAPTER_02/CH02_B10_PRISONER_SAFE_AREA_EXIT_PROBLEM_DIALOGUE.md`.
 
 Handoff → **Beat 11**.
 
@@ -653,7 +655,7 @@ Show a coherent subset of guard rotations, maintained equipment/supplies, logist
 
 Resistance becomes organized as surprise erodes. No infinite reinforcements. The party already knows Rhazek is here. The unnamed masked officer is reserved for Beat 12.
 
-Current dialogue source: `../../03_DIALOGUE/PRODUCTION/CHAPTER_02/BEAT_12_BASTION_COMMAND_ASCENT_REHEARSAL_FIRST_WORKING_DIALOGUE.md`.
+Current dialogue source: `../../03_DIALOGUE/PRODUCTION/CHAPTER_02/CH02_B11_BASTION_COMMAND_ASCENT_DIALOGUE.md`.
 
 Handoff → **Beat 12**.
 
@@ -670,7 +672,7 @@ The masked officer leaves on credible operational business/order before combat a
 
 Rhazek knowingly authorized and commands the Old Bastion's kidnapping/forced-transfer policy. He does not deny it, blame rogue soldiers, or pretend coercion is consent. He does not reveal the onward destination.
 
-Current dialogue source: `../../03_DIALOGUE/PRODUCTION/CHAPTER_02/BEAT_13_RHAZEK_MASKED_OFFICER_REHEARSAL_FIRST_WORKING_DIALOGUE.md`.
+Current dialogue source: `../../03_DIALOGUE/PRODUCTION/CHAPTER_02/CH02_B12_RHAZEK_MASKED_OFFICER_DIALOGUE.md`.
 
 Handoff → **Beat 13**.
 
@@ -695,7 +697,7 @@ Rhazek survives a credible military withdrawal. No teleport, magical vanish, sec
 
 Victory gives the party practical access/control needed to make the maintained road-side exit usable. No post-boss switch dungeon.
 
-Current dialogue source: `../../03_DIALOGUE/PRODUCTION/CHAPTER_02/BEAT_14_COMMANDER_RHAZEK_BASTION_MASTER_REHEARSAL_FIRST_WORKING_DIALOGUE.md`.
+Current dialogue source: `../../03_DIALOGUE/PRODUCTION/CHAPTER_02/CH02_B13_COMMANDER_RHAZEK_BASTION_MASTER_DIALOGUE.md`.
 
 Handoff → **Beat 14**.
 
@@ -727,7 +729,7 @@ Preparation:
 
 Once the group is freed, organized, and beginning to leave through the secured exit, story transitions directly to Dunmere. No Hold-the-Junction, Extraction Causeway defense, surprise boss, Rhazek rematch, or antagonist sting.
 
-Current dialogue source: `../../03_DIALOGUE/PRODUCTION/CHAPTER_02/BEAT_15_RETURN_TO_THE_PRISONERS_RELEASE_REHEARSAL_FIRST_WORKING_DIALOGUE.md`.
+Current dialogue source: `../../03_DIALOGUE/PRODUCTION/CHAPTER_02/CH02_B14_RETURN_TO_THE_PRISONERS_RELEASE_DIALOGUE.md`.
 
 Handoff → **Beat 15**.
 
@@ -758,35 +760,21 @@ The larger journey still points east toward Caelora.
 
 > **Chapter 3 begins only when the player deliberately chooses the explicit advance-story interaction/confirmation.**
 
-Current dialogue source: `../../03_DIALOGUE/PRODUCTION/CHAPTER_02/BEAT_16_RETURN_TO_DUNMERE_ROAD_REOPENED_CLEANUP_REHEARSAL_FIRST_WORKING_DIALOGUE.md`.
+Current dialogue source: `../../03_DIALOGUE/PRODUCTION/CHAPTER_02/CH02_B15_RETURN_TO_DUNMERE_ROAD_REOPENED_CLEANUP_DIALOGUE.md`.
 
 ---
 
 # Chapter-2 Character-Life status
 Current cleanup Character-Life authority:
-- **C06 — Still Burns** — Cyanis, Ilyra, Torren, Maevra; late-night Dunmere inn; current rehearsal-first working dialogue in `../../03_DIALOGUE/PRODUCTION/CHAPTER_02/C06_STILL_BURNS_REHEARSAL_FIRST_WORKING_DIALOGUE.md`.
-- Former separate C07 is retired; its slot/function is folded into C06.
+- **C05 — Still Burns** — Cyanis, Ilyra, Torren, Maevra; late-night Dunmere inn; exact dialogue authority: `../../03_DIALOGUE/PRODUCTION/CHAPTER_02/C05_STILL_BURNS_DIALOGUE.md`.
+- The former separate C07 concept is retired; useful material was folded into C05.
 
 # Current dialogue-production status
-- Beat 1 — current rehearsal-first Draft A.
-- Beat 2 — current rehearsal-first Draft A.
-- Beat 3 — current rehearsal-first Draft A.
-- Beat 4 — current rehearsal-first Draft A.
-- Beat 5 — current rehearsal-first Draft A.
-- Beat 6 — **RETIRED; no Western Map Mural scene**.
-- Beat 6 — current rehearsal-first Draft A.
-- Beat 7 — current rehearsal-first Draft A.
-- Beat 8 — current rehearsal-first Draft A.
-- Beat 9 — current rehearsal-first Draft A; **Prisoner Galleries secured, holding/transit function and Rhazek command established through prisoner experience**.
-- Beat 10 — current rehearsal-first Draft A; lower safe area / proper-exit plan established.
-- Beat 11 — current rehearsal-first working dialogue complete; functioning Bastion ascent and finite alert response established.
-- Beat 12 — current rehearsal-first working dialogue complete; Rhazek policy ownership and unnamed masked-officer departure established.
-- Beat 13 — current rehearsal-first working dialogue complete; Rhazek defeated locally, credible withdrawal, road gate usable.
-- Beat 14 — current rehearsal-first working dialogue complete; party returns to prisoners and begins evacuation with no escort dungeon.
-- Beat 15 — current rehearsal-first working dialogue complete; Dunmere resolution, road reopened, cleanup window established.
-- C06 — `Still Burns` — current working dialogue.
+- Mandatory exact dialogue authority is current for continuous **B01–B15**.
+- Character-Life exact dialogue authority is current for **C05**.
+- Mutable production-pass labels are not part of canonical source identity.
 
-> **Chapter-2 mainline rehearsal-first working pass is complete for 15 active mandatory beats; stable IDs continue through Beat 15 with B06 retired.**
+> **Chapter 2's live mainline sequence is B01–B15 with no ghost/retired slot.**
 
 No Chapter-3 dialogue should begin automatically from this state; Chapter 3 remains behind the explicit advance-story confirmation and its own chapter authority.
 

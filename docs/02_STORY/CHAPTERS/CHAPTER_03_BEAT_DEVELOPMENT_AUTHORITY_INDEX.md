@@ -5,7 +5,7 @@
 ## Current authority chain
 
 1. **Primary:** `CHAPTER_03.md`
-2. **Current compact working skeleton:** `CHAPTER_03_BEAT_DEVELOPMENT_WORKING.md`
+2. **Current compact beat structure:** `CHAPTER_03_BEAT_STRUCTURE.md`
 3. **Current supporting locks/packets listed below**, only where they agree with the current master.
 4. Files under `HISTORICAL/CHAPTER_03/` are provenance only and are never current authority.
 

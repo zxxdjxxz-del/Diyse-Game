@@ -1,10 +1,10 @@
-# Chapter 3 — Beat Development Working File
+# Chapter 3 — Beat Structure
 
 **Chapter:** 3 — The Old City and Last Sentinel  
-**Status:** CURRENT REVISED WORKING SKELETON — September 23, 2026  
+**Status:** CURRENT 15-BEAT SUPPORTING STRUCTURE — September 23, 2026  
 **Primary locked chapter authority:** CHAPTER_03.md
 
-This file mirrors the current 15-beat structure. Older detailed Beat packets remain provenance/support only where compatible with CHAPTER_03.md.
+This file mirrors the current 15-beat structure in compact form. `CHAPTER_03.md` remains primary authority; historical packets are provenance only.
 
 ## Current 15-beat structure
 

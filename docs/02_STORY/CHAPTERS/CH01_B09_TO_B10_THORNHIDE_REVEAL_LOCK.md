@@ -8,9 +8,9 @@
 
 > **The player does not clearly see the Thornhide until the party is about to fight it.**
 
-Beat 12 may establish that a large Thornhide is active in Southern Briar through restrained indirect information, such as the already-approved single track and Torren's identification of it.
+Beat 9 may establish that a large Thornhide is active in Southern Briar through restrained indirect information, such as the already-approved single track and Torren's identification of it.
 
-Beat 12 must **not** include:
+Beat 9 must **not** include:
 - a clear on-field Stalker sighting;
 - the Thornhide stepping onto the route and then leaving;
 - a stalking/circling sequence;
@@ -19,9 +19,9 @@ Beat 12 must **not** include:
 
 ## Beat transition
 
-Beat 12 carries the party through Southern Briar toward the final stretch before the Junction and ends without revealing the animal itself.
+Beat 9 carries the party through Southern Briar toward the final stretch before the Junction and ends without revealing the animal itself.
 
-Beat 13 begins at the actual boss approach. The Thornhide is first clearly shown there, immediately before the authored boss encounter.
+Beat 10 begins at the actual boss approach. The Thornhide is first clearly shown there, immediately before the authored boss encounter.
 
 The reveal should be concise:
 1. Stalker appears / blocks the usable route;
