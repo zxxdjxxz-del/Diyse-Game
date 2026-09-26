@@ -1,0 +1,229 @@
+{
+  "schema": "diyse_scene_authority_spec_v1",
+  "scene_id": "CH04_B12_IVORYBRIDGE_MORNING_CRESTHAVEN_RETURN",
+  "chapter_id": "chapter_04",
+  "story_position": "Chapter 4 — Beat 12 — Ivorybridge Morning / Cresthaven Return",
+  "production_ready": false,
+  "participants": [
+    "cyanis",
+    "ilyra",
+    "torren",
+    "nimera",
+    "vaelira"
+  ],
+  "scene_purpose": "Decompress in Ivorybridge, show visible procedural learning without repeating the full debrief, establish Vaelira's continuing Annex/fieldwork relationship, compress the return to Cresthaven, and close mandatory Chapter 4 into free-roam with the Wayfinder and Prime questions still unresolved.",
+  "story_sources": [
+    {
+      "path": "docs/02_STORY/CHAPTERS/CHAPTER_04.md",
+      "sections": [
+        "Last Sentinel state lock",
+        "Wayfinder interpretation firewall",
+        "Vaelira recruitment lock",
+        "Person-Brain authoring lock",
+        "Environmental storytelling lock",
+        "Beat 12 — Ivorybridge Morning / Cresthaven Return",
+        "End-of-Chapter Knowledge State / Reveal Firewall"
+      ],
+      "role": "chapter_04_current_story_authority"
+    }
+  ],
+  "additional_authority_sources": [
+    {
+      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/REHEARSAL_FIRST_AUTHORING_LOCK.md",
+      "whole_file": true,
+      "role": "rehearsal_first_authoring"
+    },
+    {
+      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/NATURAL_TURN_LENGTH_AND_FLOOR_HOLDING_LOCK.md",
+      "whole_file": true,
+      "role": "natural_turns"
+    },
+    {
+      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/MATURE_ADULT_SPEECH_AND_PROFANITY_LOCK.md",
+      "whole_file": true,
+      "role": "adult_voice"
+    },
+    {
+      "path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_04/CHAPTER_04_DIALOGUE_AUTHORITY_INDEX.md",
+      "sections": [
+        "Ilyra / Vaelira Chapter-4 authoring lock"
+      ],
+      "role": "chapter_04_relationship_end_state"
+    }
+  ],
+  "scene_context_seed": {
+    "location_name": "Ivorybridge morning → compressed return → Cresthaven",
+    "area_phase": "safe_decompression_and_chapter_close",
+    "dialogue_readiness": "GREEN",
+    "static_story_context_only": true
+  },
+  "current_floor_state": {
+    "roster": [
+      "cyanis",
+      "ilyra",
+      "torren",
+      "nimera",
+      "vaelira"
+    ],
+    "active_party_cap": 4,
+    "annex_follow_up": [
+      "anomalies preserved",
+      "assumptions documented",
+      "complete-system validation separated from pairwise validation",
+      "corrections made without erasing old record"
+    ],
+    "vaelira": "permanent party member; Annex work and field investigation continue in parallel; practical Cresthaven workspace on return",
+    "last_sentinel": "Recovered; manifested once; not Awakened; activation logic and broader Prime meaning unknown",
+    "wayfinder": "unresolved; future investigation combines Wayfinder evidence, Chapter-3 copy, Cresthaven findings, future sites/records, and Annex replication/monitoring",
+    "return_travel": "compressed; do not replay Beat-4 forest route",
+    "mandatory_chapter_state": "ends at Cresthaven; free-roam/cleanup resumes",
+    "forbidden": [
+      "full Annex debrief repetition",
+      "Wayfinder solution",
+      "Prime explanation",
+      "instant later-stage Ilyra/Vaelira friendship shorthand"
+    ]
+  },
+  "allowed_information_transfers": [
+    "Visible institutional changes may demonstrate learning without reciting the entire evidence chain.",
+    "Vaelira may state her continuing work/interest without needing a second recruitment scene.",
+    "Last Sentinel and Wayfinder uncertainty remain explicit end-of-chapter knowledge.",
+    "Return travel is compressed; no walking dialogue."
+  ],
+  "person_runtime_contexts": {
+    "cyanis": {
+      "memory_authorization": {
+        "mode": "none"
+      },
+      "relationship_runtime_state": {
+        "chronology_stage": "chapter_04_five_member_roster_end_state"
+      },
+      "epistemic_state": {},
+      "scene_local_state": {
+        "immediate_wants": [
+          "close the chapter practically",
+          "make room for Vaelira as an ordinary member rather than ceremonial recruit"
+        ],
+        "avoidances": [
+          "recap speech",
+          "solving unresolved mysteries"
+        ],
+        "attention": [
+          "workspace/logistics",
+          "who needs what next"
+        ]
+      }
+    },
+    "ilyra": {
+      "memory_authorization": {
+        "mode": "none"
+      },
+      "relationship_runtime_state": {
+        "chronology_stage": "chapter_04_early_vaelira_friendship"
+      },
+      "epistemic_state": {},
+      "scene_local_state": {
+        "immediate_wants": [
+          "allow quieter recognition that she enjoys how Vaelira thinks",
+          "return to ordinary social range"
+        ],
+        "avoidances": [
+          "announcing the friendship",
+          "forcing another speculative spiral"
+        ],
+        "attention": [
+          "new group rhythm",
+          "practical aftermath"
+        ]
+      }
+    },
+    "torren": {
+      "memory_authorization": {
+        "mode": "none"
+      },
+      "relationship_runtime_state": {
+        "chronology_stage": "chapter_04_five_member_roster_end_state"
+      },
+      "epistemic_state": {},
+      "scene_local_state": {
+        "immediate_wants": [
+          "return to ordinary field/group rhythm",
+          "respect Vaelira's continuing work"
+        ],
+        "avoidances": [
+          "replaying route guidance",
+          "treating technical work as alien"
+        ],
+        "attention": [
+          "practical return",
+          "Cresthaven readiness"
+        ]
+      }
+    },
+    "nimera": {
+      "memory_authorization": {
+        "mode": "none"
+      },
+      "relationship_runtime_state": {
+        "chronology_stage": "chapter_04_five_member_roster_end_state"
+      },
+      "epistemic_state": {
+        "wayfinder": {
+          "status": "known_unknown",
+          "value": "The record is more interesting after Annex evidence but remains historically/functionally unresolved."
+        }
+      },
+      "scene_local_state": {
+        "immediate_wants": [
+          "preserve what was learned without inflating it",
+          "carry unresolved questions cleanly"
+        ],
+        "avoidances": [
+          "turning cleanup into archive lecture",
+          "claiming conclusion about Ancient Faces/network"
+        ],
+        "attention": [
+          "evidence record",
+          "future research boundary"
+        ]
+      }
+    },
+    "vaelira": {
+      "memory_authorization": {
+        "mode": "none"
+      },
+      "relationship_runtime_state": {
+        "chronology_stage": "chapter_04_party_member_end_state"
+      },
+      "epistemic_state": {
+        "annex": {
+          "status": "known_fact",
+          "value": "Procedures are being revised to preserve anomalies and separately validate complete systems."
+        },
+        "wayfinder": {
+          "status": "hypothesis",
+          "value": "Annex behavior strengthens the reaction-like resemblance but does not explain Ancient symbols, scale, or purpose."
+        }
+      },
+      "scene_local_state": {
+        "immediate_wants": [
+          "continue both Annex monitoring and field investigation",
+          "settle into the party without formal self-justification"
+        ],
+        "avoidances": [
+          "second recruitment speech",
+          "pretending the Wayfinder is solved",
+          "overowning Annex recovery"
+        ],
+        "attention": [
+          "next useful test",
+          "Cresthaven workspace",
+          "people she now chooses to work with"
+        ]
+      }
+    }
+  },
+  "exact_line_anchors": [],
+  "max_beats": 18,
+  "production_cost_ceiling": "economical"
+}

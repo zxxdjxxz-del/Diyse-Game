@@ -1,0 +1,177 @@
+{
+  "schema": "diyse_scene_authority_spec_v1",
+  "scene_id": "CH04_B04_FOREST_ROUTE_CROWN_ROAD",
+  "chapter_id": "chapter_04",
+  "story_position": "Chapter 4 — Beat 4 — Forest Route / Crown Road",
+  "production_ready": false,
+  "participants": [
+    "cyanis",
+    "ilyra",
+    "torren",
+    "nimera"
+  ],
+  "scene_purpose": "Traverse the practical forest shortcut, reward Torren's route expertise through authored stops rather than walking dialogue, reach maintained Crown ground, and confirm only that the Chapter-3 north-running map geometry remains geographically credible.",
+  "story_sources": [
+    {
+      "path": "docs/02_STORY/CHAPTERS/CHAPTER_04.md",
+      "sections": [
+        "Wayfinder interpretation firewall",
+        "Person-Brain authoring lock",
+        "Environmental storytelling lock",
+        "Beat 4 — Forest Route / Crown Road"
+      ],
+      "role": "chapter_04_current_story_authority"
+    }
+  ],
+  "additional_authority_sources": [
+    {
+      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/REHEARSAL_FIRST_AUTHORING_LOCK.md",
+      "whole_file": true,
+      "role": "rehearsal_first_authoring"
+    },
+    {
+      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/NATURAL_TURN_LENGTH_AND_FLOOR_HOLDING_LOCK.md",
+      "whole_file": true,
+      "role": "natural_turns"
+    },
+    {
+      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/MATURE_ADULT_SPEECH_AND_PROFANITY_LOCK.md",
+      "whole_file": true,
+      "role": "adult_voice"
+    }
+  ],
+  "scene_context_seed": {
+    "location_name": "forest shortcut to maintained Crown road",
+    "area_phase": "medium_traversal_then_travel_skip",
+    "dialogue_readiness": "AMBER",
+    "static_story_context_only": true,
+    "no_walking_dialogue": true,
+    "no_spoken_dialogue_during_active_combat": true
+  },
+  "current_floor_state": {
+    "last_sentinel": "Recovered; manifested once; unexplained",
+    "ivorybridge": "current destination already selected",
+    "forest_route": "practical natural shortcut; not secret/Ancient; less maze-like than Southern Briar",
+    "crown_road": "maintained modern road; reaching it reduces navigation/danger pressure",
+    "wayfinder_copy": "may support geographic credibility of a north-running Ancient route only",
+    "forbidden_wayfinder_inference": [
+      "Ancient symbol translation",
+      "Face interactions",
+      "hidden six-Face network",
+      "new destination"
+    ]
+  },
+  "allowed_information_transfers": [
+    "Torren may explain bounded route evidence only at authored stops.",
+    "The Chapter-3 copied map may be compared geographically but not decoded.",
+    "No walking dialogue or active-combat dialogue."
+  ],
+  "person_runtime_contexts": {
+    "cyanis": {
+      "memory_authorization": {
+        "mode": "none"
+      },
+      "relationship_runtime_state": {
+        "chronology_stage": "chapter_04_established_four_person_party"
+      },
+      "epistemic_state": {},
+      "scene_local_state": {
+        "immediate_wants": [
+          "support the route decision without centralizing it",
+          "keep movement efficient"
+        ],
+        "avoidances": [
+          "narrating every fork",
+          "turning map comparison into a reveal"
+        ],
+        "attention": [
+          "practical progress",
+          "party exposure"
+        ]
+      }
+    },
+    "ilyra": {
+      "memory_authorization": {
+        "mode": "none"
+      },
+      "relationship_runtime_state": {
+        "chronology_stage": "chapter_04_established_four_person_party"
+      },
+      "epistemic_state": {},
+      "scene_local_state": {
+        "immediate_wants": [
+          "contribute only if an assumption/consequence matters"
+        ],
+        "avoidances": [
+          "route-finding",
+          "alternate-path brainstorming as identity",
+          "map decoding"
+        ],
+        "attention": [
+          "consequences of route choices",
+          "others' evidence"
+        ]
+      }
+    },
+    "torren": {
+      "memory_authorization": {
+        "mode": "none"
+      },
+      "relationship_runtime_state": {
+        "chronology_stage": "chapter_04_established_four_person_party"
+      },
+      "epistemic_state": {
+        "route": {
+          "status": "expert_inference",
+          "value": "He can read terrain and route continuity well enough to guide the shortcut with bounded uncertainty."
+        }
+      },
+      "scene_local_state": {
+        "immediate_wants": [
+          "get the group to maintained Crown ground",
+          "use field judgment without overexplaining"
+        ],
+        "avoidances": [
+          "continuous walking prompts",
+          "claiming map expertise beyond geography"
+        ],
+        "attention": [
+          "forks",
+          "reconnecting paths",
+          "terrain",
+          "maintained-road signs"
+        ]
+      }
+    },
+    "nimera": {
+      "memory_authorization": {
+        "mode": "none"
+      },
+      "relationship_runtime_state": {
+        "chronology_stage": "chapter_04_newer_party_member_after_chapter_03"
+      },
+      "epistemic_state": {
+        "map_copy": {
+          "status": "known_fact",
+          "value": "The copied record shows route geometry but not decoded destinations or Face interactions."
+        }
+      },
+      "scene_local_state": {
+        "immediate_wants": [
+          "keep geographic comparison inside the record's actual support"
+        ],
+        "avoidances": [
+          "turning visual similarity into decoded history",
+          "stealing Torren's navigation role"
+        ],
+        "attention": [
+          "what the copied record actually shows",
+          "claims that exceed it"
+        ]
+      }
+    }
+  },
+  "exact_line_anchors": [],
+  "max_beats": 14,
+  "production_cost_ceiling": "economical"
+}

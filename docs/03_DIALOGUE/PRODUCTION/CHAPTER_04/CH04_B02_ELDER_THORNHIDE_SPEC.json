@@ -1,0 +1,230 @@
+{
+  "schema": "diyse_scene_authority_spec_v1",
+  "scene_id": "CH04_B02_ELDER_THORNHIDE",
+  "chapter_id": "chapter_04",
+  "story_position": "Chapter 4 — Beat 2 — Elder Thornhide",
+  "production_ready": false,
+  "participants": [
+    "cyanis",
+    "ilyra",
+    "torren",
+    "nimera"
+  ],
+  "scene_purpose": "Track the territorial Elder Thornhide from Cresthaven, resolve the conflict nonlethally, and establish Last Sentinel's first verified modern manifestation as its Recovered transition without explaining Prime-system mechanics or Awakening.",
+  "story_sources": [
+    {
+      "path": "docs/02_STORY/CHAPTERS/CHAPTER_04.md",
+      "sections": [
+        "Last Sentinel state lock",
+        "Person-Brain authoring lock",
+        "Environmental storytelling lock",
+        "Beat 2 — Elder Thornhide"
+      ],
+      "role": "chapter_04_current_story_authority"
+    }
+  ],
+  "additional_authority_sources": [
+    {
+      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/REHEARSAL_FIRST_AUTHORING_LOCK.md",
+      "whole_file": true,
+      "role": "rehearsal_first_authoring"
+    },
+    {
+      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/NATURAL_TURN_LENGTH_AND_FLOOR_HOLDING_LOCK.md",
+      "whole_file": true,
+      "role": "natural_turns"
+    },
+    {
+      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/MATURE_ADULT_SPEECH_AND_PROFANITY_LOCK.md",
+      "whole_file": true,
+      "role": "adult_voice"
+    }
+  ],
+  "scene_context_seed": {
+    "location_name": "forest edge / Elder Thornhide territorial space",
+    "area_phase": "tracking_to_authored_nonlethal_confrontation",
+    "dialogue_readiness": "AMBER",
+    "static_story_context_only": true,
+    "no_spoken_dialogue_during_active_combat": true,
+    "runtime_note": "Exact battle state, HP/MP, encounter timing, weather, and live traversal state come from runtime. Dialogue may occur only at authored noncombat stops and aftermath."
+  },
+  "current_floor_state": {
+    "traveling_roster": [
+      "cyanis",
+      "ilyra",
+      "torren",
+      "nimera"
+    ],
+    "active_party_cap": 4,
+    "elder_thornhide": "alive; territorial; dangerous; current conflict materially linked to Cresthaven reoccupation; mandatory outcome is drive-off/retreat, not kill",
+    "last_sentinel_at_scene_start": "confirmed by the First Command Warden; Cyanis's Card stable deep Ruby; no verified modern manifestation; not yet Recovered",
+    "last_sentinel_scene_transition": "during the Elder Thornhide encounter, Last Sentinel manifests for the first verified modern time and becomes Recovered; this is the Recovered acquisition/transition event",
+    "last_sentinel_post_state": "Recovered; manifested once; not Awakened",
+    "prime_knowledge": "Prime Card remains an Ancient term/hypothesis. The party does not know the Prime system, activation rule, or why Last Sentinel manifested.",
+    "creature_intent": "territorial/defensive behavior supported by evidence; do not turn it into deliberate human malice"
+  },
+  "allowed_information_transfers": [
+    "Torren may transfer field observations and bounded animal/track inferences he personally earns during tracking.",
+    "The party may carry forward the shared Chapter-3 Warden/Ruby facts and the unproven Prime Card hypothesis.",
+    "Author-only Prime combat rules may govern the event but must not become character exposition.",
+    "No character may speak during active combat."
+  ],
+  "person_runtime_contexts": {
+    "cyanis": {
+      "memory_authorization": {
+        "mode": "none"
+      },
+      "relationship_runtime_state": {
+        "chronology_stage": "chapter_04_established_four_person_party"
+      },
+      "epistemic_state": {
+        "last_sentinel": {
+          "status": "known_fact",
+          "value": "LAST SENTINEL CONFIRMED and deep-Ruby Card stabilization are known; manifestation has not occurred at scene start."
+        },
+        "prime_card": {
+          "status": "hypothesis",
+          "value": "His Card may be what Ancient sources called a Prime Card, but that is not proven."
+        },
+        "thornhide": {
+          "status": "inference",
+          "value": "A dangerous territorial animal is the working explanation, not an enemy to be executed by default."
+        }
+      },
+      "scene_local_state": {
+        "immediate_wants": [
+          "protect people and the animal conflict boundary",
+          "resolve the immediate threat without inventing certainty about his Card"
+        ],
+        "avoidances": [
+          "treating the Card as understood",
+          "taking over Torren's animal-reading expertise",
+          "assuming lethal force is the only solution"
+        ],
+        "attention": [
+          "who is exposed",
+          "Torren's field read",
+          "what action is actually necessary"
+        ]
+      }
+    },
+    "ilyra": {
+      "memory_authorization": {
+        "mode": "none"
+      },
+      "relationship_runtime_state": {
+        "chronology_stage": "chapter_04_established_four_person_party"
+      },
+      "epistemic_state": {
+        "human_risk": {
+          "status": "known_fact",
+          "value": "No confirmed casualty or missing resident preceded the pursuit."
+        },
+        "thornhide_motive": {
+          "status": "inference",
+          "value": "Territorial behavior is supported; intent beyond that is not known."
+        },
+        "last_sentinel": {
+          "status": "known_fact",
+          "value": "No verified modern manifestation has occurred at scene start."
+        }
+      },
+      "scene_local_state": {
+        "immediate_wants": [
+          "keep the response proportionate to actual harm",
+          "notice consequences of the range conflict"
+        ],
+        "avoidances": [
+          "becoming the animal expert",
+          "turning nonlethal outcome into a moral speech",
+          "explaining Prime mechanics"
+        ],
+        "attention": [
+          "injury risk",
+          "whether the conflict can end without killing",
+          "what changes after the manifestation"
+        ]
+      }
+    },
+    "torren": {
+      "memory_authorization": {
+        "mode": "none"
+      },
+      "relationship_runtime_state": {
+        "chronology_stage": "chapter_04_established_four_person_party"
+      },
+      "epistemic_state": {
+        "elder_thornhide": {
+          "status": "inference",
+          "value": "Tracking evidence supports an Elder Thornhide identification and established territorial range."
+        },
+        "range_conflict": {
+          "status": "inference",
+          "value": "Cresthaven restoration/reoccupation interfered with the animal's habitual route."
+        },
+        "last_sentinel": {
+          "status": "known_fact",
+          "value": "The Card has not manifested in a verified modern event before this encounter."
+        }
+      },
+      "scene_local_state": {
+        "immediate_wants": [
+          "read the trail accurately",
+          "keep the group from mistaking territorial defense for malice",
+          "find the safest workable confrontation space"
+        ],
+        "avoidances": [
+          "claiming more certainty than the ground supports",
+          "turning route/tracking guidance into continuous walking dialogue",
+          "explaining the Card"
+        ],
+        "attention": [
+          "tracks",
+          "territorial markers",
+          "retreat options",
+          "terrain"
+        ]
+      }
+    },
+    "nimera": {
+      "memory_authorization": {
+        "mode": "none"
+      },
+      "relationship_runtime_state": {
+        "chronology_stage": "chapter_04_newer_party_member_after_chapter_03"
+      },
+      "epistemic_state": {
+        "prime_card_term": {
+          "status": "known_fact",
+          "value": "Ancient records use Prime Card distinctly; later historians did not understand it."
+        },
+        "cyanis_card": {
+          "status": "hypothesis",
+          "value": "Prime Card is plausible after the Warden/Ruby sequence but remains unclassified."
+        },
+        "thornhide": {
+          "status": "report",
+          "value": "Torren's field identification is specialist evidence she can respect without pretending it is her domain."
+        }
+      },
+      "scene_local_state": {
+        "immediate_wants": [
+          "keep observation/inference/classification separate",
+          "remember the exact before/after facts of the manifestation"
+        ],
+        "avoidances": [
+          "turning an unprecedented event into an instant historical explanation",
+          "taking over animal expertise",
+          "classifying the Card as Prime"
+        ],
+        "attention": [
+          "what is directly observed before and after manifestation",
+          "which claims exceed evidence"
+        ]
+      }
+    }
+  },
+  "exact_line_anchors": [],
+  "max_beats": 20,
+  "production_cost_ceiling": "moderate"
+}

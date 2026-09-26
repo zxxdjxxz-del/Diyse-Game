@@ -1,0 +1,228 @@
+{
+  "schema": "diyse_scene_authority_spec_v1",
+  "scene_id": "CH04_B08_INTERACTION_GALLERY_REACTION_CONDUIT",
+  "chapter_id": "chapter_04",
+  "story_position": "Chapter 4 — Beat 8 — Interaction Gallery / Reaction Conduit",
+  "production_ready": false,
+  "participants": [
+    "cyanis",
+    "ilyra",
+    "torren",
+    "nimera",
+    "vaelira"
+  ],
+  "scene_purpose": "Validate all six pair models, then expose a dangerous whole-system discrepancy; let Ilyra challenge the hidden local→global assumption while Vaelira owns the mechanistic test, resolve the Reaction Conduit nonlethally, and point the investigation toward Central Regulation without reaching the final scientific conclusion.",
+  "story_sources": [
+    {
+      "path": "docs/02_STORY/CHAPTERS/CHAPTER_04.md",
+      "sections": [
+        "Four-element lock",
+        "Seventh Reaction lock",
+        "Person-Brain authoring lock",
+        "Environmental storytelling lock",
+        "Beat 8 — Interaction Gallery / Reaction Conduit"
+      ],
+      "role": "chapter_04_current_story_authority"
+    }
+  ],
+  "additional_authority_sources": [
+    {
+      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/REHEARSAL_FIRST_AUTHORING_LOCK.md",
+      "whole_file": true,
+      "role": "rehearsal_first_authoring"
+    },
+    {
+      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/NATURAL_TURN_LENGTH_AND_FLOOR_HOLDING_LOCK.md",
+      "whole_file": true,
+      "role": "natural_turns"
+    },
+    {
+      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/MATURE_ADULT_SPEECH_AND_PROFANITY_LOCK.md",
+      "whole_file": true,
+      "role": "adult_voice"
+    },
+    {
+      "path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_04/CHAPTER_04_DIALOGUE_AUTHORITY_INDEX.md",
+      "sections": [
+        "Ilyra / Vaelira Chapter-4 authoring lock",
+        "Three-use Chapter-4 demonstration map",
+        "Beat-8 serious reasoning handoff"
+      ],
+      "role": "chapter_04_ilyra_vaelira_beat_8"
+    }
+  ],
+  "scene_context_seed": {
+    "location_name": "Reaction Annex — Interaction Gallery",
+    "area_phase": "six_pair_validation_then_living_researcher_crisis",
+    "dialogue_readiness": "AMBER",
+    "static_story_context_only": true,
+    "no_spoken_dialogue_during_active_combat": true
+  },
+  "current_floor_state": {
+    "pair_result": "all six legal elemental pairs validate locally",
+    "crisis": "residual persists/grows during normal cycle; correct local compensation shifts load but complete system fails to settle",
+    "reaction_conduit": "living researcher/technician trapped in the regulation state; mandatory named nonlethal encounter; person survives",
+    "post_crisis": "all six pair models still locally correct; isolated branch/pair failure ruled out; discrepancy points toward complete system",
+    "reasoning_boundary": "Ilyra may question whether local/pair success guarantees whole-system settling; Vaelira determines whether readings allow local correctness plus global failure",
+    "conclusion_ceiling": "whole-system discrepancy is a hypothesis direction only; Beat 9 observation and Beat 10 boss prove the chapter conclusion",
+    "forbidden": [
+      "comedy during immediate danger",
+      "Ilyra technical diagnosis",
+      "Vaelira automatic agreement",
+      "hidden fifth element",
+      "Wayfinder/Face solution"
+    ]
+  },
+  "allowed_information_transfers": [
+    "Ilyra may introduce the counterfactual assumption check in plain language; she does not name the scientific mechanism.",
+    "Vaelira owns model/mechanism testing against readings.",
+    "Nimera may constrain confidence to what the evidence justifies.",
+    "The Reaction Conduit researcher survives; no dialogue occurs during active combat."
+  ],
+  "person_runtime_contexts": {
+    "cyanis": {
+      "memory_authorization": {
+        "mode": "none"
+      },
+      "relationship_runtime_state": {
+        "chronology_stage": "chapter_04_five_member_roster"
+      },
+      "epistemic_state": {},
+      "scene_local_state": {
+        "immediate_wants": [
+          "protect the trapped person",
+          "keep decisions action-relevant"
+        ],
+        "avoidances": [
+          "forcing analysis while danger is immediate",
+          "explaining elemental mechanism"
+        ],
+        "attention": [
+          "who is exposed",
+          "what must happen now"
+        ]
+      }
+    },
+    "ilyra": {
+      "memory_authorization": {
+        "mode": "none"
+      },
+      "relationship_runtime_state": {
+        "chronology_stage": "chapter_04_early_vaelira_connection"
+      },
+      "epistemic_state": {
+        "local_global_assumption": {
+          "status": "counterfactual",
+          "value": "What if successful local/pair behavior does not guarantee the complete system settles?"
+        }
+      },
+      "scene_local_state": {
+        "immediate_wants": [
+          "open the hidden-assumption branch when it becomes useful",
+          "keep focus on the living person"
+        ],
+        "avoidances": [
+          "technical terminology she does not own",
+          "comedy during danger",
+          "claiming the answer"
+        ],
+        "attention": [
+          "assumptions",
+          "human consequences",
+          "whether the branch changes action"
+        ]
+      }
+    },
+    "torren": {
+      "memory_authorization": {
+        "mode": "none"
+      },
+      "relationship_runtime_state": {
+        "chronology_stage": "chapter_04_early_vaelira_connection"
+      },
+      "epistemic_state": {},
+      "scene_local_state": {
+        "immediate_wants": [
+          "help with physical containment/observation",
+          "defer mechanism to Vaelira"
+        ],
+        "avoidances": [
+          "route expertise where irrelevant",
+          "generic grounding cliché"
+        ],
+        "attention": [
+          "physical change",
+          "safe access",
+          "what readings correspond to visible behavior"
+        ]
+      }
+    },
+    "nimera": {
+      "memory_authorization": {
+        "mode": "none"
+      },
+      "relationship_runtime_state": {
+        "chronology_stage": "chapter_04_early_vaelira_connection"
+      },
+      "epistemic_state": {
+        "pairs": {
+          "status": "known_fact",
+          "value": "All six tested pair relationships validated under their local conditions."
+        }
+      },
+      "scene_local_state": {
+        "immediate_wants": [
+          "prevent local success from being rewritten as global proof",
+          "record the contradiction accurately"
+        ],
+        "avoidances": [
+          "becoming mechanism theorist",
+          "overstating negative evidence"
+        ],
+        "attention": [
+          "what is proven",
+          "what remains hypothesis"
+        ]
+      }
+    },
+    "vaelira": {
+      "memory_authorization": {
+        "mode": "none"
+      },
+      "relationship_runtime_state": {
+        "chronology_stage": "chapter_04_party_integration_deepening"
+      },
+      "epistemic_state": {
+        "pairs": {
+          "status": "supported",
+          "value": "All six pair models validate locally."
+        },
+        "whole_system": {
+          "status": "hypothesis",
+          "value": "The readings may permit correct local relationships while the complete system fails to settle; Central Regulation must test this."
+        }
+      },
+      "scene_local_state": {
+        "immediate_wants": [
+          "stabilize the researcher",
+          "test Ilyra's assumption against actual readings",
+          "redirect investigation to the complete system"
+        ],
+        "avoidances": [
+          "defending prior model reflexively",
+          "concluding Seventh Reaction early",
+          "using Ilyra as automatic correctness source"
+        ],
+        "attention": [
+          "load transfer",
+          "residual",
+          "global settling behavior",
+          "disconfirming observations"
+        ]
+      }
+    }
+  },
+  "exact_line_anchors": [],
+  "max_beats": 24,
+  "production_cost_ceiling": "bespoke"
+}

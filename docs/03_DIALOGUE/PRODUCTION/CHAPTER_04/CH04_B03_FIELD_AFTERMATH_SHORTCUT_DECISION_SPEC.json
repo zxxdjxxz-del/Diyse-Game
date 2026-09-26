@@ -1,0 +1,184 @@
+{
+  "schema": "diyse_scene_authority_spec_v1",
+  "scene_id": "CH04_B03_FIELD_AFTERMATH_SHORTCUT_DECISION",
+  "chapter_id": "chapter_04",
+  "story_position": "Chapter 4 — Beat 3 — Field Aftermath / Shortcut Decision",
+  "production_ready": false,
+  "participants": [
+    "cyanis",
+    "ilyra",
+    "torren",
+    "nimera"
+  ],
+  "scene_purpose": "Let the Thornhide/Last Sentinel event land briefly, close the ecological crisis responsibly, and make the practical forest-shortcut decision toward the already-selected Ivorybridge lead without turning the scene into a Prime-system explanation.",
+  "story_sources": [
+    {
+      "path": "docs/02_STORY/CHAPTERS/CHAPTER_04.md",
+      "sections": [
+        "Last Sentinel state lock",
+        "Person-Brain authoring lock",
+        "Environmental storytelling lock",
+        "Beat 3 — Field Aftermath / Shortcut Decision"
+      ],
+      "role": "chapter_04_current_story_authority"
+    }
+  ],
+  "additional_authority_sources": [
+    {
+      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/REHEARSAL_FIRST_AUTHORING_LOCK.md",
+      "whole_file": true,
+      "role": "rehearsal_first_authoring"
+    },
+    {
+      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/NATURAL_TURN_LENGTH_AND_FLOOR_HOLDING_LOCK.md",
+      "whole_file": true,
+      "role": "natural_turns"
+    },
+    {
+      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/MATURE_ADULT_SPEECH_AND_PROFANITY_LOCK.md",
+      "whole_file": true,
+      "role": "adult_voice"
+    }
+  ],
+  "scene_context_seed": {
+    "location_name": "post-confrontation field near Crown-road corridor",
+    "area_phase": "safe_post_battle_decision",
+    "dialogue_readiness": "GREEN",
+    "static_story_context_only": true
+  },
+  "current_floor_state": {
+    "elder_thornhide": "alive and retreating; no longer an immediate threat",
+    "party_condition": "nobody is badly hurt under mandatory story authority; live resource state still comes from runtime",
+    "last_sentinel": "Recovered; manifested once in Beat 2; not Awakened",
+    "manifestation_knowledge": "the party knows what happened visibly; why activation occurred and broader Prime meaning remain unknown",
+    "cresthaven_obligation": "restoration must account for the animal's established range",
+    "ivorybridge": "already selected in Chapter 3; not chosen again here",
+    "route_state": "continuing through forest toward Crown road saves substantial time versus backtracking to Cresthaven"
+  },
+  "allowed_information_transfers": [
+    "All four may discuss the visible facts of Last Sentinel's Beat-2 manifestation, but not author-only activation mechanics.",
+    "Torren owns the field/route comparison that establishes the shortcut as practical.",
+    "Ivorybridge is shared prior knowledge from Chapter 3, not a new discovery."
+  ],
+  "person_runtime_contexts": {
+    "cyanis": {
+      "memory_authorization": {
+        "mode": "none"
+      },
+      "relationship_runtime_state": {
+        "chronology_stage": "chapter_04_established_four_person_party"
+      },
+      "epistemic_state": {
+        "last_sentinel": {
+          "status": "observation",
+          "value": "He experienced the first manifestation and knows the Card is now behaving differently, but not why."
+        }
+      },
+      "scene_local_state": {
+        "immediate_wants": [
+          "close the immediate safety problem",
+          "make a practical route decision",
+          "avoid pretending the Card is understood"
+        ],
+        "avoidances": [
+          "Prime exposition",
+          "reselecting Ivorybridge",
+          "defaulting to backtracking just for procedure"
+        ],
+        "attention": [
+          "Cresthaven responsibility",
+          "what the shortcut changes"
+        ]
+      }
+    },
+    "ilyra": {
+      "memory_authorization": {
+        "mode": "none"
+      },
+      "relationship_runtime_state": {
+        "chronology_stage": "chapter_04_established_four_person_party"
+      },
+      "epistemic_state": {
+        "manifestation": {
+          "status": "observation",
+          "value": "She witnessed the event but cannot infer its rule."
+        }
+      },
+      "scene_local_state": {
+        "immediate_wants": [
+          "check that the outcome created no new immediate human danger",
+          "consider consequences of continuing versus backtracking"
+        ],
+        "avoidances": [
+          "turning route selection into her specialty",
+          "forcing a philosophical debrief"
+        ],
+        "attention": [
+          "risk",
+          "consequences",
+          "what remains unknown"
+        ]
+      }
+    },
+    "torren": {
+      "memory_authorization": {
+        "mode": "none"
+      },
+      "relationship_runtime_state": {
+        "chronology_stage": "chapter_04_established_four_person_party"
+      },
+      "epistemic_state": {
+        "route": {
+          "status": "inference",
+          "value": "Current field position can reach maintained Crown road faster through a forest shortcut."
+        }
+      },
+      "scene_local_state": {
+        "immediate_wants": [
+          "make the route tradeoff legible",
+          "keep the shortcut practical rather than mysterious"
+        ],
+        "avoidances": [
+          "calling it an Ancient or secret road",
+          "continuous navigation dialogue"
+        ],
+        "attention": [
+          "terrain",
+          "distance",
+          "Crown-road corridor"
+        ]
+      }
+    },
+    "nimera": {
+      "memory_authorization": {
+        "mode": "none"
+      },
+      "relationship_runtime_state": {
+        "chronology_stage": "chapter_04_newer_party_member_after_chapter_03"
+      },
+      "epistemic_state": {
+        "manifestation": {
+          "status": "known_fact",
+          "value": "First verified modern Last Sentinel manifestation occurred; causal explanation is absent."
+        }
+      },
+      "scene_local_state": {
+        "immediate_wants": [
+          "preserve the distinction between event and explanation",
+          "carry the exact evidence forward"
+        ],
+        "avoidances": [
+          "using the Prime term as a solved classification",
+          "turning the field scene into archive lecture"
+        ],
+        "attention": [
+          "before/after evidence",
+          "unsupported causal claims"
+        ]
+      }
+    }
+  },
+  "exact_line_anchors": [],
+  "max_beats": 16,
+  "production_cost_ceiling": "economical"
+}

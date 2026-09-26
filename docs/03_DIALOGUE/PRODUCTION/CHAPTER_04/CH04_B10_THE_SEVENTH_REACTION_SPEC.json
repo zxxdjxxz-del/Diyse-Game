@@ -1,0 +1,202 @@
+{
+  "schema": "diyse_scene_authority_spec_v1",
+  "scene_id": "CH04_B10_THE_SEVENTH_REACTION",
+  "chapter_id": "chapter_04",
+  "story_position": "Chapter 4 — Beat 10 — The Seventh Reaction",
+  "production_ready": false,
+  "participants": [
+    "cyanis",
+    "ilyra",
+    "torren",
+    "nimera",
+    "vaelira"
+  ],
+  "scene_purpose": "Resolve the unified Form-II crisis and establish the Chapter-4 scientific conclusion that a complete four-element system can exhibit emergent behavior not fully described by the six locally correct pair models, without inventing a fifth element, seventh damage type, Ancient-symbol translation, or Prime explanation.",
+  "story_sources": [
+    {
+      "path": "docs/02_STORY/CHAPTERS/CHAPTER_04.md",
+      "sections": [
+        "Four-element lock",
+        "Seventh Reaction lock",
+        "Wayfinder interpretation firewall",
+        "Person-Brain authoring lock",
+        "Environmental storytelling lock",
+        "Beat 10 — The Seventh Reaction"
+      ],
+      "role": "chapter_04_current_story_authority"
+    }
+  ],
+  "additional_authority_sources": [
+    {
+      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/REHEARSAL_FIRST_AUTHORING_LOCK.md",
+      "whole_file": true,
+      "role": "rehearsal_first_authoring"
+    },
+    {
+      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/NATURAL_TURN_LENGTH_AND_FLOOR_HOLDING_LOCK.md",
+      "whole_file": true,
+      "role": "natural_turns"
+    },
+    {
+      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/MATURE_ADULT_SPEECH_AND_PROFANITY_LOCK.md",
+      "whole_file": true,
+      "role": "adult_voice"
+    }
+  ],
+  "scene_context_seed": {
+    "location_name": "Reaction Annex — Regulation Crucible / Seventh Reaction",
+    "area_phase": "final_boss_form_ii_then_safe_break",
+    "dialogue_readiness": "AMBER",
+    "static_story_context_only": true,
+    "no_spoken_dialogue_during_active_combat": true
+  },
+  "current_floor_state": {
+    "form_ii": "unified all-four system; inherits surviving Form-I traits; no third form",
+    "scientific_conclusion": "A complete four-element system can exhibit emergent behavior not fully described by the six pairwise models.",
+    "preserved_truths": [
+      "all six pair relationships remain locally recognizable",
+      "branch models were not broken",
+      "pair models were not wrong"
+    ],
+    "forbidden_interpretations": [
+      "hidden fifth element",
+      "seventh damage type",
+      "Ancient symbols decoded",
+      "Face interactions identified",
+      "Prime activation explained"
+    ],
+    "wayfinder_payoff": "peak complete-system pattern strongly resembles Wayfinder geometry visually/mechanically",
+    "end_state": "cycle stops; Annex staff take control; party moves/returns to safe upper level; no forced dungeon backtrack"
+  },
+  "allowed_information_transfers": [
+    "The scientific conclusion may be stated only after the demonstrated Form-II evidence is secure.",
+    "Vaelira owns the mechanistic revision; Nimera may constrain historical/record claims.",
+    "No one speaks during active combat."
+  ],
+  "person_runtime_contexts": {
+    "cyanis": {
+      "memory_authorization": {
+        "mode": "none"
+      },
+      "relationship_runtime_state": {
+        "chronology_stage": "chapter_04_five_member_roster"
+      },
+      "epistemic_state": {},
+      "scene_local_state": {
+        "immediate_wants": [
+          "finish the crisis safely",
+          "let the evidence speak before summary"
+        ],
+        "avoidances": [
+          "grand victory speech",
+          "scientific ownership"
+        ],
+        "attention": [
+          "survivors",
+          "what is actually stopped"
+        ]
+      }
+    },
+    "ilyra": {
+      "memory_authorization": {
+        "mode": "none"
+      },
+      "relationship_runtime_state": {
+        "chronology_stage": "chapter_04_early_vaelira_connection"
+      },
+      "epistemic_state": {},
+      "scene_local_state": {
+        "immediate_wants": [
+          "recognize consequences of the validated conclusion without extending it beyond evidence"
+        ],
+        "avoidances": [
+          "new speculative branch during crisis",
+          "technical claim ownership"
+        ],
+        "attention": [
+          "what follows and what does not"
+        ]
+      }
+    },
+    "torren": {
+      "memory_authorization": {
+        "mode": "none"
+      },
+      "relationship_runtime_state": {
+        "chronology_stage": "chapter_04_early_vaelira_connection"
+      },
+      "epistemic_state": {},
+      "scene_local_state": {
+        "immediate_wants": [
+          "keep physical outcome grounded"
+        ],
+        "avoidances": [
+          "turning aftermath into route commentary"
+        ],
+        "attention": [
+          "whether danger is truly ended"
+        ]
+      }
+    },
+    "nimera": {
+      "memory_authorization": {
+        "mode": "none"
+      },
+      "relationship_runtime_state": {
+        "chronology_stage": "chapter_04_early_vaelira_connection"
+      },
+      "epistemic_state": {
+        "conclusion": {
+          "status": "supported",
+          "value": "The demonstrated all-four behavior exceeds what the six locally correct pair models predict; this does not establish Ancient purpose or Faces."
+        }
+      },
+      "scene_local_state": {
+        "immediate_wants": [
+          "state evidence boundaries",
+          "prevent the dramatic visual resemblance from becoming history"
+        ],
+        "avoidances": [
+          "stealing Vaelira's mechanism explanation"
+        ],
+        "attention": [
+          "recorded sequence",
+          "claim category"
+        ]
+      }
+    },
+    "vaelira": {
+      "memory_authorization": {
+        "mode": "none"
+      },
+      "relationship_runtime_state": {
+        "chronology_stage": "chapter_04_party_integration_deepening"
+      },
+      "epistemic_state": {
+        "conclusion": {
+          "status": "supported",
+          "value": "Complete-system emergent behavior is demonstrated; local/pair models remain valid within their domains."
+        }
+      },
+      "scene_local_state": {
+        "immediate_wants": [
+          "revise the model cleanly",
+          "name what the evidence actually changed"
+        ],
+        "avoidances": [
+          "self-protective denial",
+          "fifth-element language",
+          "claiming the Wayfinder is solved"
+        ],
+        "attention": [
+          "complete-system behavior",
+          "model boundary",
+          "new validation requirement"
+        ]
+      }
+    }
+  },
+  "exact_line_anchors": [],
+  "max_beats": 18,
+  "production_cost_ceiling": "bespoke"
+}

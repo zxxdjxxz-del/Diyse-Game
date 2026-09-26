@@ -1,0 +1,205 @@
+{
+  "schema": "diyse_scene_authority_spec_v1",
+  "scene_id": "CH04_B07_ELEMENTAL_LABORATORY_RING",
+  "chapter_id": "chapter_04",
+  "story_position": "Chapter 4 — Beat 7 — Elemental Laboratory Ring",
+  "production_ready": false,
+  "participants": [
+    "cyanis",
+    "ilyra",
+    "torren",
+    "nimera",
+    "vaelira"
+  ],
+  "scene_purpose": "Validate the Fire, Ice, Lightning, and Earth branch models individually, then reveal a small combined residual that no individual branch explains without prematurely concluding what the complete system does.",
+  "story_sources": [
+    {
+      "path": "docs/02_STORY/CHAPTERS/CHAPTER_04.md",
+      "sections": [
+        "Four-element lock",
+        "Seventh Reaction lock",
+        "Wayfinder interpretation firewall",
+        "Person-Brain authoring lock",
+        "Environmental storytelling lock",
+        "Beat 7 — Elemental Laboratory Ring"
+      ],
+      "role": "chapter_04_current_story_authority"
+    }
+  ],
+  "additional_authority_sources": [
+    {
+      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/REHEARSAL_FIRST_AUTHORING_LOCK.md",
+      "whole_file": true,
+      "role": "rehearsal_first_authoring"
+    },
+    {
+      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/NATURAL_TURN_LENGTH_AND_FLOOR_HOLDING_LOCK.md",
+      "whole_file": true,
+      "role": "natural_turns"
+    },
+    {
+      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/MATURE_ADULT_SPEECH_AND_PROFANITY_LOCK.md",
+      "whole_file": true,
+      "role": "adult_voice"
+    }
+  ],
+  "scene_context_seed": {
+    "location_name": "Reaction Annex — Elemental Laboratory Ring",
+    "area_phase": "four_branch_baseline_diagnostics",
+    "dialogue_readiness": "AMBER",
+    "static_story_context_only": true,
+    "no_spoken_dialogue_during_active_combat": true
+  },
+  "current_floor_state": {
+    "branches": [
+      "Fire / Burn",
+      "Ice / Freeze",
+      "Lightning / Stun",
+      "Earth / defensive pressure"
+    ],
+    "branch_result": "each individual branch behaves as expected; Vaelira's branch-level model is supported",
+    "after_all_four": "combined overlay exposes a small residual / relationship trace no individual branch explains",
+    "wayfinder_relation": "trace belongs to same broad structural family as the earlier resemblance",
+    "forbidden_conclusions": [
+      "branch models are broken",
+      "hidden fifth element",
+      "Seventh Reaction conclusion",
+      "Wayfinder decoded"
+    ]
+  },
+  "allowed_information_transfers": [
+    "Vaelira owns technical interpretation of branch measurements.",
+    "Other characters may report direct observations without acquiring specialist elemental vocabulary.",
+    "Nimera may distinguish observed result from explanatory claim.",
+    "No long Wayfinder/map discussion and no active-combat dialogue."
+  ],
+  "person_runtime_contexts": {
+    "cyanis": {
+      "memory_authorization": {
+        "mode": "none"
+      },
+      "relationship_runtime_state": {
+        "chronology_stage": "chapter_04_five_member_roster"
+      },
+      "epistemic_state": {},
+      "scene_local_state": {
+        "immediate_wants": [
+          "keep testing moving and bounded",
+          "notice practical safety consequences"
+        ],
+        "avoidances": [
+          "becoming lab narrator"
+        ],
+        "attention": [
+          "what changes action",
+          "facility risk"
+        ]
+      }
+    },
+    "ilyra": {
+      "memory_authorization": {
+        "mode": "none"
+      },
+      "relationship_runtime_state": {
+        "chronology_stage": "chapter_04_early_vaelira_connection"
+      },
+      "epistemic_state": {},
+      "scene_local_state": {
+        "immediate_wants": [
+          "track assumptions/consequences if something fails to match"
+        ],
+        "avoidances": [
+          "technical explanation",
+          "forced theory spiral"
+        ],
+        "attention": [
+          "what result does not follow from local success"
+        ]
+      }
+    },
+    "torren": {
+      "memory_authorization": {
+        "mode": "none"
+      },
+      "relationship_runtime_state": {
+        "chronology_stage": "chapter_04_early_vaelira_connection"
+      },
+      "epistemic_state": {},
+      "scene_local_state": {
+        "immediate_wants": [
+          "offer concrete physical observations when useful"
+        ],
+        "avoidances": [
+          "competing with calibration expertise"
+        ],
+        "attention": [
+          "repeatable physical cues",
+          "hazards"
+        ]
+      }
+    },
+    "nimera": {
+      "memory_authorization": {
+        "mode": "none"
+      },
+      "relationship_runtime_state": {
+        "chronology_stage": "chapter_04_early_vaelira_connection"
+      },
+      "epistemic_state": {
+        "branch_results": {
+          "status": "observation",
+          "value": "Four branch tests can be recorded as successful without implying the whole system is understood."
+        }
+      },
+      "scene_local_state": {
+        "immediate_wants": [
+          "protect the evidence boundary",
+          "notice when language outruns results"
+        ],
+        "avoidances": [
+          "mechanism theorizing as default"
+        ],
+        "attention": [
+          "test record",
+          "claim strength"
+        ]
+      }
+    },
+    "vaelira": {
+      "memory_authorization": {
+        "mode": "none"
+      },
+      "relationship_runtime_state": {
+        "chronology_stage": "chapter_04_early_party_integration"
+      },
+      "epistemic_state": {
+        "branch_model": {
+          "status": "supported",
+          "value": "All four individual branch models behave as expected under the tested conditions."
+        },
+        "residual": {
+          "status": "observation",
+          "value": "A small combined residual remains after branch validation; cause unknown."
+        }
+      },
+      "scene_local_state": {
+        "immediate_wants": [
+          "validate each branch cleanly",
+          "treat the residual as a new variable to test"
+        ],
+        "avoidances": [
+          "defending elegance over evidence",
+          "jumping to complete-system explanation"
+        ],
+        "attention": [
+          "conditions",
+          "residual",
+          "reproducibility"
+        ]
+      }
+    }
+  },
+  "exact_line_anchors": [],
+  "max_beats": 18,
+  "production_cost_ceiling": "moderate"
+}

@@ -1,0 +1,239 @@
+{
+  "schema": "diyse_scene_authority_spec_v1",
+  "scene_id": "CH04_B05_IVORYBRIDGE_VAELIRA",
+  "chapter_id": "chapter_04",
+  "story_position": "Chapter 4 — Beat 5 — Ivorybridge / Vaelira",
+  "production_ready": false,
+  "participants": [
+    "cyanis",
+    "ilyra",
+    "torren",
+    "nimera",
+    "vaelira"
+  ],
+  "scene_purpose": "Introduce Vaelira through competent municipal technical work, allow one bounded Ilyra counterfactual to complement rather than replace Vaelira's diagnosis, establish only a reaction-like pattern resemblance in the Wayfinder evidence, and recruit Vaelira permanently.",
+  "story_sources": [
+    {
+      "path": "docs/02_STORY/CHAPTERS/CHAPTER_04.md",
+      "sections": [
+        "Wayfinder interpretation firewall",
+        "Vaelira recruitment lock",
+        "Person-Brain authoring lock",
+        "Environmental storytelling lock",
+        "Beat 5 — Ivorybridge / Vaelira"
+      ],
+      "role": "chapter_04_current_story_authority"
+    }
+  ],
+  "additional_authority_sources": [
+    {
+      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/REHEARSAL_FIRST_AUTHORING_LOCK.md",
+      "whole_file": true,
+      "role": "rehearsal_first_authoring"
+    },
+    {
+      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/NATURAL_TURN_LENGTH_AND_FLOOR_HOLDING_LOCK.md",
+      "whole_file": true,
+      "role": "natural_turns"
+    },
+    {
+      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/MATURE_ADULT_SPEECH_AND_PROFANITY_LOCK.md",
+      "whole_file": true,
+      "role": "adult_voice"
+    },
+    {
+      "path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_04/CHAPTER_04_DIALOGUE_AUTHORITY_INDEX.md",
+      "sections": [
+        "Ilyra / Vaelira Chapter-4 authoring lock",
+        "Beat-5 working infrastructure hook — bridge thermal regulator",
+        "Three-use Chapter-4 demonstration map"
+      ],
+      "role": "chapter_04_ilyra_vaelira_beat_5"
+    }
+  ],
+  "scene_context_seed": {
+    "location_name": "Ivorybridge",
+    "area_phase": "safe_settlement_vaelira_introduction_and_recruitment",
+    "dialogue_readiness": "GREEN",
+    "static_story_context_only": true
+  },
+  "current_floor_state": {
+    "arriving_roster": [
+      "cyanis",
+      "ilyra",
+      "torren",
+      "nimera"
+    ],
+    "post_scene_permanent_roster": [
+      "cyanis",
+      "ilyra",
+      "torren",
+      "nimera",
+      "vaelira"
+    ],
+    "active_party_cap": 4,
+    "vaelira_join_state": "permanent party member by scene end; Arcane Staffs",
+    "municipal_problem": "small Fire/Ice thermal-balance regulator serving a maintained bridge span; visible stressed joint is symptom location, not necessarily root cause",
+    "vaelira_work_lock": "measure both branches, trace timing/balance upstream, correct/calibrate actual cause, visible stabilization",
+    "ilyra_contribution_ceiling": "one bounded assumption-check may question whether the visibly reacting part is responding correctly to a problem elsewhere; no technical diagnosis",
+    "wayfinder_observation": "Vaelira recognizes large-scale interaction geometry resembling modern elemental-reaction behavior",
+    "forbidden_conclusions": [
+      "Ancient symbols translated",
+      "Face interactions identified",
+      "Ancient Reaction Annex diagram",
+      "hidden six-Face network",
+      "Wayfinder solved"
+    ]
+  },
+  "allowed_information_transfers": [
+    "The arriving four may show Vaelira the copied Wayfinder evidence for comparison.",
+    "Vaelira may apply current elemental-regulation expertise to observed mechanism, not invented historical knowledge.",
+    "Ilyra may open a bounded alternate interpretation; Vaelira owns whether it is mechanically possible.",
+    "No one may treat first-contact reasoning chemistry as established friendship shorthand."
+  ],
+  "person_runtime_contexts": {
+    "cyanis": {
+      "memory_authorization": {
+        "mode": "none"
+      },
+      "relationship_runtime_state": {
+        "chronology_stage": "chapter_04_before_vaelira_recruitment"
+      },
+      "epistemic_state": {},
+      "scene_local_state": {
+        "immediate_wants": [
+          "understand whether Vaelira's expertise makes the evidence testable",
+          "give her room to own her work"
+        ],
+        "avoidances": [
+          "praise-exposition introduction",
+          "making Vaelira justify competence socially"
+        ],
+        "attention": [
+          "practical boundary questions",
+          "whether evidence changes next action"
+        ]
+      }
+    },
+    "ilyra": {
+      "memory_authorization": {
+        "mode": "none"
+      },
+      "relationship_runtime_state": {
+        "chronology_stage": "chapter_04_first_meeting_vaelira"
+      },
+      "epistemic_state": {
+        "regulator": {
+          "status": "observation",
+          "value": "The visible span may be symptom rather than root cause; she does not know the mechanism."
+        }
+      },
+      "scene_local_state": {
+        "immediate_wants": [
+          "test one hidden assumption if useful",
+          "see whether Vaelira takes the branch seriously"
+        ],
+        "avoidances": [
+          "technical diagnosis",
+          "instant friendship shorthand",
+          "route speculation"
+        ],
+        "attention": [
+          "assumptions",
+          "consequences",
+          "Vaelira's response"
+        ]
+      }
+    },
+    "torren": {
+      "memory_authorization": {
+        "mode": "none"
+      },
+      "relationship_runtime_state": {
+        "chronology_stage": "chapter_04_first_meeting_vaelira"
+      },
+      "epistemic_state": {},
+      "scene_local_state": {
+        "immediate_wants": [
+          "judge competence from work rather than reputation",
+          "contribute field/common-use observations only if relevant"
+        ],
+        "avoidances": [
+          "pretending formal calibration expertise",
+          "anti-science caricature"
+        ],
+        "attention": [
+          "observable infrastructure behavior",
+          "whether field evidence matters"
+        ]
+      }
+    },
+    "nimera": {
+      "memory_authorization": {
+        "mode": "none"
+      },
+      "relationship_runtime_state": {
+        "chronology_stage": "chapter_04_first_meeting_vaelira"
+      },
+      "epistemic_state": {
+        "wayfinder": {
+          "status": "known_fact",
+          "value": "The record's provenance/visible geometry is known; its Ancient symbols and intended function remain unresolved."
+        }
+      },
+      "scene_local_state": {
+        "immediate_wants": [
+          "give Vaelira the record/evidence boundaries cleanly",
+          "prevent hypothesis from becoming history"
+        ],
+        "avoidances": [
+          "competing for generic smart-character ownership",
+          "mechanism diagnosis"
+        ],
+        "attention": [
+          "provenance",
+          "exact record limits",
+          "what Vaelira can actually infer"
+        ]
+      }
+    },
+    "vaelira": {
+      "memory_authorization": {
+        "mode": "none"
+      },
+      "relationship_runtime_state": {
+        "chronology_stage": "chapter_04_first_meeting_party"
+      },
+      "epistemic_state": {
+        "regulator": {
+          "status": "expert_observation",
+          "value": "A Fire/Ice municipal regulator is cycling out of balance; she can measure and trace the mechanism."
+        },
+        "wayfinder": {
+          "status": "hypothesis",
+          "value": "The copied geometry resembles elemental-reaction interaction structure at a surprisingly large scale; symbols and original purpose are unknown."
+        }
+      },
+      "scene_local_state": {
+        "immediate_wants": [
+          "solve the regulator correctly",
+          "test the strange pattern rather than declare an answer",
+          "decide whether field investigation is worth joining"
+        ],
+        "avoidances": [
+          "arrogance performance",
+          "accepting Ilyra's possibility without testing it",
+          "historical/Face claims outside evidence"
+        ],
+        "attention": [
+          "mechanism",
+          "changed variables",
+          "what observation would distinguish causes"
+        ]
+      }
+    }
+  },
+  "exact_line_anchors": [],
+  "max_beats": 24,
+  "production_cost_ceiling": "moderate"
+}

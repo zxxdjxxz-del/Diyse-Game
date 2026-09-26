@@ -1,0 +1,228 @@
+{
+  "schema": "diyse_scene_authority_spec_v1",
+  "scene_id": "CH04_B06_REACTION_ANNEX_ARRIVAL_INITIAL_INVESTIGATION",
+  "chapter_id": "chapter_04",
+  "story_position": "Chapter 4 — Beat 6 — Reaction Annex Arrival / Initial Investigation",
+  "production_ready": false,
+  "participants": [
+    "cyanis",
+    "ilyra",
+    "torren",
+    "nimera",
+    "vaelira"
+  ],
+  "scene_purpose": "Establish the Annex as a functioning responsible facility, compare the Wayfinder resemblance under controlled conditions, preserve historical anomalies without retroactive negligence, and define the falsifiable branch→pair→whole diagnostic sequence.",
+  "story_sources": [
+    {
+      "path": "docs/02_STORY/CHAPTERS/CHAPTER_04.md",
+      "sections": [
+        "Four-element lock",
+        "Seventh Reaction lock",
+        "Wayfinder interpretation firewall",
+        "Person-Brain authoring lock",
+        "Environmental storytelling lock",
+        "Beat 6 — Reaction Annex Arrival / Initial Investigation"
+      ],
+      "role": "chapter_04_current_story_authority"
+    }
+  ],
+  "additional_authority_sources": [
+    {
+      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/REHEARSAL_FIRST_AUTHORING_LOCK.md",
+      "whole_file": true,
+      "role": "rehearsal_first_authoring"
+    },
+    {
+      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/NATURAL_TURN_LENGTH_AND_FLOOR_HOLDING_LOCK.md",
+      "whole_file": true,
+      "role": "natural_turns"
+    },
+    {
+      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/MATURE_ADULT_SPEECH_AND_PROFANITY_LOCK.md",
+      "whole_file": true,
+      "role": "adult_voice"
+    },
+    {
+      "path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_04/CHAPTER_04_DIALOGUE_AUTHORITY_INDEX.md",
+      "sections": [
+        "Ilyra / Vaelira Chapter-4 authoring lock",
+        "Three-use Chapter-4 demonstration map"
+      ],
+      "role": "chapter_04_ilyra_vaelira_general"
+    }
+  ],
+  "scene_context_seed": {
+    "location_name": "Reaction Annex",
+    "area_phase": "healthy_arrival_and_controlled_investigation",
+    "dialogue_readiness": "GREEN",
+    "static_story_context_only": true
+  },
+  "current_floor_state": {
+    "roster": [
+      "cyanis",
+      "ilyra",
+      "torren",
+      "nimera",
+      "vaelira"
+    ],
+    "active_party_cap": 4,
+    "annex_state": "functioning normal facility; Vaelira recognized; access/procedures legitimate",
+    "wayfinder_resemblance": "survives closer comparison but is not exact",
+    "historical_anomalies": "small prior anomalies were reasonably categorized as calibration noise, sensor variance, local drift, or harmless return imbalance",
+    "diagnostic_sequence": [
+      "four individual element branches",
+      "all six pair relationships",
+      "complete system only after baselines"
+    ],
+    "forbidden_frames": [
+      "staff negligence without evidence",
+      "Wayfinder decoded",
+      "Face interactions identified",
+      "complete-system conclusion before testing"
+    ]
+  },
+  "allowed_information_transfers": [
+    "Vaelira may use Annex procedures and technical knowledge she legitimately owns.",
+    "Nimera may constrain what historical/log evidence proves but does not own mechanism diagnosis.",
+    "Ilyra may question assumptions selectively; no forced counterfactual beat is required here.",
+    "No one may use hindsight to accuse staff of ignoring evidence they did not possess."
+  ],
+  "person_runtime_contexts": {
+    "cyanis": {
+      "memory_authorization": {
+        "mode": "none"
+      },
+      "relationship_runtime_state": {
+        "chronology_stage": "chapter_04_five_member_roster_early_vaelira"
+      },
+      "epistemic_state": {},
+      "scene_local_state": {
+        "immediate_wants": [
+          "understand the test plan enough to make practical decisions",
+          "let specialists lead"
+        ],
+        "avoidances": [
+          "automatic summary voice",
+          "demanding false certainty"
+        ],
+        "attention": [
+          "safety boundaries",
+          "what result would change action"
+        ]
+      }
+    },
+    "ilyra": {
+      "memory_authorization": {
+        "mode": "none"
+      },
+      "relationship_runtime_state": {
+        "chronology_stage": "chapter_04_early_vaelira_connection"
+      },
+      "epistemic_state": {},
+      "scene_local_state": {
+        "immediate_wants": [
+          "follow assumptions/consequences where useful",
+          "learn how Vaelira tests possibilities"
+        ],
+        "avoidances": [
+          "diagnosing the system",
+          "forcing their cognition bit"
+        ],
+        "attention": [
+          "unstated assumptions",
+          "human/process consequences"
+        ]
+      }
+    },
+    "torren": {
+      "memory_authorization": {
+        "mode": "none"
+      },
+      "relationship_runtime_state": {
+        "chronology_stage": "chapter_04_early_vaelira_connection"
+      },
+      "epistemic_state": {},
+      "scene_local_state": {
+        "immediate_wants": [
+          "supply field observation if it bears on comparison",
+          "respect controlled testing"
+        ],
+        "avoidances": [
+          "routecraft in a lab",
+          "anti-science skepticism"
+        ],
+        "attention": [
+          "physical signs",
+          "procedure versus observed behavior"
+        ]
+      }
+    },
+    "nimera": {
+      "memory_authorization": {
+        "mode": "none"
+      },
+      "relationship_runtime_state": {
+        "chronology_stage": "chapter_04_early_vaelira_connection"
+      },
+      "epistemic_state": {
+        "records": {
+          "status": "known_fact",
+          "value": "Prior logs can be quoted as records but do not prove the mechanism now under test."
+        }
+      },
+      "scene_local_state": {
+        "immediate_wants": [
+          "keep records/evidence categories exact",
+          "make old anomaly treatment legible without scapegoating"
+        ],
+        "avoidances": [
+          "mechanism ownership",
+          "treating absence of record as proof of impossibility"
+        ],
+        "attention": [
+          "logs",
+          "contradictions",
+          "confidence level"
+        ]
+      }
+    },
+    "vaelira": {
+      "memory_authorization": {
+        "mode": "none"
+      },
+      "relationship_runtime_state": {
+        "chronology_stage": "chapter_04_early_party_integration"
+      },
+      "epistemic_state": {
+        "annex": {
+          "status": "expert_domain",
+          "value": "She understands modern elemental regulation, facility procedures, and how to design the diagnostic sequence."
+        },
+        "wayfinder": {
+          "status": "hypothesis",
+          "value": "Resemblance is worth testing; it remains an unexplained pattern-level similarity."
+        }
+      },
+      "scene_local_state": {
+        "immediate_wants": [
+          "build a falsifiable diagnostic sequence",
+          "separate branch/pair/whole questions",
+          "keep unknowns explicit"
+        ],
+        "avoidances": [
+          "protecting her model from disconfirming evidence",
+          "historical claims",
+          "overowning all decisions"
+        ],
+        "attention": [
+          "measurements",
+          "variables",
+          "what result would disprove the model"
+        ]
+      }
+    }
+  },
+  "exact_line_anchors": [],
+  "max_beats": 20,
+  "production_cost_ceiling": "moderate"
+}

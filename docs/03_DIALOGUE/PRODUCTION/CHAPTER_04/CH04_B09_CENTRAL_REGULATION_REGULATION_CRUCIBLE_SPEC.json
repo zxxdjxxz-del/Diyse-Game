@@ -1,0 +1,200 @@
+{
+  "schema": "diyse_scene_authority_spec_v1",
+  "scene_id": "CH04_B09_CENTRAL_REGULATION_REGULATION_CRUCIBLE",
+  "chapter_id": "chapter_04",
+  "story_position": "Chapter 4 — Beat 9 — Central Regulation / Regulation Crucible",
+  "production_ready": false,
+  "participants": [
+    "cyanis",
+    "ilyra",
+    "torren",
+    "nimera",
+    "vaelira"
+  ],
+  "scene_purpose": "Directly observe the complete four-element mechanism, establish the strongest Wayfinder resemblance without decoding it, preserve Cinder Judgment as a deterministic critical-path reward, and enter Regulation Crucible Form I without prematurely stating Beat 10's final scientific conclusion.",
+  "story_sources": [
+    {
+      "path": "docs/02_STORY/CHAPTERS/CHAPTER_04.md",
+      "sections": [
+        "Four-element lock",
+        "Seventh Reaction lock",
+        "Wayfinder interpretation firewall",
+        "Person-Brain authoring lock",
+        "Environmental storytelling lock",
+        "Beat 9 — Central Regulation / Regulation Crucible"
+      ],
+      "role": "chapter_04_current_story_authority"
+    }
+  ],
+  "additional_authority_sources": [
+    {
+      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/REHEARSAL_FIRST_AUTHORING_LOCK.md",
+      "whole_file": true,
+      "role": "rehearsal_first_authoring"
+    },
+    {
+      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/NATURAL_TURN_LENGTH_AND_FLOOR_HOLDING_LOCK.md",
+      "whole_file": true,
+      "role": "natural_turns"
+    },
+    {
+      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/MATURE_ADULT_SPEECH_AND_PROFANITY_LOCK.md",
+      "whole_file": true,
+      "role": "adult_voice"
+    }
+  ],
+  "scene_context_seed": {
+    "location_name": "Reaction Annex — Central Regulation",
+    "area_phase": "late_dungeon_to_regulation_crucible_form_i",
+    "dialogue_readiness": "AMBER",
+    "static_story_context_only": true,
+    "no_spoken_dialogue_during_active_combat": true
+  },
+  "current_floor_state": {
+    "observed_mechanism": "all four elements feed shared architecture; local pair behavior remains correct while complete-system residual persists",
+    "wayfinder_resemblance": "strongest analytical resemblance yet; still no symbol/Face/original-purpose explanation",
+    "cinder_judgment": "mandatory deterministic protected cache/reward on critical path; not side/random/drop",
+    "containment": "automatic containment routes more load through core and becomes self-sustaining",
+    "crucible_form_i": "four chambers plus core; exactly two chambers active at once; core always targetable; destroyed chambers remain destroyed",
+    "chamber_rotation": [
+      "Fire / Ice",
+      "Lightning / Earth",
+      "Fire / Lightning",
+      "Ice / Earth"
+    ],
+    "transition": "defeating core transitions to Form II; does not end the fight",
+    "conclusion_ceiling": "direct whole-system evidence is strong but the final Seventh Reaction conclusion is delivered in Beat 10"
+  },
+  "allowed_information_transfers": [
+    "Vaelira may describe observed complete-system mechanism and test implications but not Ancient purpose.",
+    "Nimera may police the distinction between resemblance and identification.",
+    "No spoken dialogue during Regulation Crucible active combat."
+  ],
+  "person_runtime_contexts": {
+    "cyanis": {
+      "memory_authorization": {
+        "mode": "none"
+      },
+      "relationship_runtime_state": {
+        "chronology_stage": "chapter_04_five_member_roster"
+      },
+      "epistemic_state": {},
+      "scene_local_state": {
+        "immediate_wants": [
+          "keep containment decisions practical",
+          "protect party/staff exposure"
+        ],
+        "avoidances": [
+          "becoming scientific narrator"
+        ],
+        "attention": [
+          "what must be broken",
+          "what survives each rotation"
+        ]
+      }
+    },
+    "ilyra": {
+      "memory_authorization": {
+        "mode": "none"
+      },
+      "relationship_runtime_state": {
+        "chronology_stage": "chapter_04_early_vaelira_connection"
+      },
+      "epistemic_state": {},
+      "scene_local_state": {
+        "immediate_wants": [
+          "follow consequences of whole-system behavior when useful"
+        ],
+        "avoidances": [
+          "claiming technical mechanism",
+          "forcing another counterfactual demo"
+        ],
+        "attention": [
+          "what assumptions remain",
+          "what action follows"
+        ]
+      }
+    },
+    "torren": {
+      "memory_authorization": {
+        "mode": "none"
+      },
+      "relationship_runtime_state": {
+        "chronology_stage": "chapter_04_early_vaelira_connection"
+      },
+      "epistemic_state": {},
+      "scene_local_state": {
+        "immediate_wants": [
+          "read physical behavior and safe movement",
+          "support without stealing technical lead"
+        ],
+        "avoidances": [
+          "routefinding as default inside machinery"
+        ],
+        "attention": [
+          "visible cycle",
+          "safe access"
+        ]
+      }
+    },
+    "nimera": {
+      "memory_authorization": {
+        "mode": "none"
+      },
+      "relationship_runtime_state": {
+        "chronology_stage": "chapter_04_early_vaelira_connection"
+      },
+      "epistemic_state": {
+        "wayfinder": {
+          "status": "evidence_boundary",
+          "value": "The resemblance is stronger, but resemblance is not identification of Ancient symbols, Faces, or purpose."
+        }
+      },
+      "scene_local_state": {
+        "immediate_wants": [
+          "keep the record exact",
+          "block overclaiming"
+        ],
+        "avoidances": [
+          "mechanism ownership"
+        ],
+        "attention": [
+          "what can be said now",
+          "what remains unsupported"
+        ]
+      }
+    },
+    "vaelira": {
+      "memory_authorization": {
+        "mode": "none"
+      },
+      "relationship_runtime_state": {
+        "chronology_stage": "chapter_04_party_integration_deepening"
+      },
+      "epistemic_state": {
+        "whole_system": {
+          "status": "observation",
+          "value": "Central Regulation directly shows correct local relationships embedded in a complete system that fails to settle."
+        }
+      },
+      "scene_local_state": {
+        "immediate_wants": [
+          "understand containment cycle enough to act",
+          "keep final conclusion tied to what combat will demonstrate"
+        ],
+        "avoidances": [
+          "premature total theory",
+          "Ancient historical claims"
+        ],
+        "attention": [
+          "system coupling",
+          "surviving variables",
+          "containment feedback"
+        ]
+      }
+    }
+  },
+  "exact_line_anchors": [],
+  "max_beats": 20,
+  "production_cost_ceiling": "bespoke"
+}

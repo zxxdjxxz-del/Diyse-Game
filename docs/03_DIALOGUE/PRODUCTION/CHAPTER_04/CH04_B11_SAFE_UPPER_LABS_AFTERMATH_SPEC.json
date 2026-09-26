@@ -1,0 +1,234 @@
+{
+  "schema": "diyse_scene_authority_spec_v1",
+  "scene_id": "CH04_B11_SAFE_UPPER_LABS_AFTERMATH",
+  "chapter_id": "chapter_04",
+  "story_position": "Chapter 4 — Beat 11 — Safe Upper Labs / Aftermath",
+  "production_ready": false,
+  "participants": [
+    "cyanis",
+    "ilyra",
+    "torren",
+    "nimera",
+    "vaelira"
+  ],
+  "scene_purpose": "Secure the evidence chain, let Vaelira revise her model and Annex procedure without scapegoating, keep the Wayfinder unresolved, and permit the first light Ilyra–Vaelira speculative spiral only after safety is restored and only as an explicitly hypothetical branch.",
+  "story_sources": [
+    {
+      "path": "docs/02_STORY/CHAPTERS/CHAPTER_04.md",
+      "sections": [
+        "Seventh Reaction lock",
+        "Wayfinder interpretation firewall",
+        "Person-Brain authoring lock",
+        "Environmental storytelling lock",
+        "Beat 11 — Safe Upper Labs / Aftermath"
+      ],
+      "role": "chapter_04_current_story_authority"
+    }
+  ],
+  "additional_authority_sources": [
+    {
+      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/REHEARSAL_FIRST_AUTHORING_LOCK.md",
+      "whole_file": true,
+      "role": "rehearsal_first_authoring"
+    },
+    {
+      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/NATURAL_TURN_LENGTH_AND_FLOOR_HOLDING_LOCK.md",
+      "whole_file": true,
+      "role": "natural_turns"
+    },
+    {
+      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/MATURE_ADULT_SPEECH_AND_PROFANITY_LOCK.md",
+      "whole_file": true,
+      "role": "adult_voice"
+    },
+    {
+      "path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_04/CHAPTER_04_DIALOGUE_AUTHORITY_INDEX.md",
+      "sections": [
+        "Ilyra / Vaelira Chapter-4 authoring lock",
+        "Three-use Chapter-4 demonstration map",
+        "Beat-11 first speculative spiral boundary"
+      ],
+      "role": "chapter_04_ilyra_vaelira_beat_11"
+    }
+  ],
+  "scene_context_seed": {
+    "location_name": "Reaction Annex — safe upper labs",
+    "area_phase": "post_crisis_evidence_and_model_revision",
+    "dialogue_readiness": "GREEN",
+    "static_story_context_only": true
+  },
+  "current_floor_state": {
+    "safety": "people checked; equipment secured; logs preserved; Reaction Conduit researcher alive; runaway behavior stopped",
+    "evidence_chain": [
+      "individual branches behaved correctly",
+      "all six pair relationships behaved correctly",
+      "Conduit crisis showed correct local compensation failing to settle globally",
+      "Central Regulation directly showed the all-four mechanism",
+      "Seventh Reaction demonstrated emergent complete-system behavior"
+    ],
+    "vaelira_revision": "successful local/pairwise validation was treated as sufficient validation of the complete system; future process must separate those scopes",
+    "responsibility": "no unsupported negligence; no scapegoating; preserve old record and revise procedure",
+    "wayfinder": "strong resemblance remains; Ancient symbols, scale, purpose, Face meaning unresolved",
+    "speculative_spiral": "allowed only after evidence/safety secure; premise remains conditional; must end in grounding/recovery",
+    "forbidden_spiral_outputs": [
+      "another Annex is established to exist",
+      "hidden facility location",
+      "Ancient six-Face network",
+      "Face interactions",
+      "Prime activation behavior",
+      "new mandatory quest"
+    ]
+  },
+  "allowed_information_transfers": [
+    "Vaelira may own technical responsibility without claiming total causal blame.",
+    "Ilyra may extend a plausible consequence; Vaelira may supply another conditional mechanism.",
+    "Nimera may ask what evidence supports the first premise or bound confidence.",
+    "Cyanis or Torren may ground the branch with what it changes now; neither is their babysitter.",
+    "Hypothetical discussion cannot create new canon."
+  ],
+  "person_runtime_contexts": {
+    "cyanis": {
+      "memory_authorization": {
+        "mode": "none"
+      },
+      "relationship_runtime_state": {
+        "chronology_stage": "chapter_04_five_member_roster_growing_familiarity"
+      },
+      "epistemic_state": {},
+      "scene_local_state": {
+        "immediate_wants": [
+          "ensure recovery is actually handed over",
+          "let the others process without centralizing"
+        ],
+        "avoidances": [
+          "automatic emotional conclusion",
+          "overmanaging the Ilyra/Vaelira bit"
+        ],
+        "attention": [
+          "what changes current action",
+          "who still needs help"
+        ]
+      }
+    },
+    "ilyra": {
+      "memory_authorization": {
+        "mode": "none"
+      },
+      "relationship_runtime_state": {
+        "chronology_stage": "chapter_04_early_vaelira_friendship"
+      },
+      "epistemic_state": {
+        "spiral_premise": {
+          "status": "hypothesis",
+          "value": "If sufficiently similar complete-system conditions existed elsewhere, pairwise validation might also be insufficient there."
+        }
+      },
+      "scene_local_state": {
+        "immediate_wants": [
+          "follow one plausible consequence far enough to be funny/useful",
+          "notice when the implication becomes unsettling"
+        ],
+        "avoidances": [
+          "turning what-if into catchphrase",
+          "claiming such a system exists",
+          "route speculation"
+        ],
+        "attention": [
+          "assumptions",
+          "consequences",
+          "social read of when to stop"
+        ]
+      }
+    },
+    "torren": {
+      "memory_authorization": {
+        "mode": "none"
+      },
+      "relationship_runtime_state": {
+        "chronology_stage": "chapter_04_early_vaelira_connection"
+      },
+      "epistemic_state": {},
+      "scene_local_state": {
+        "immediate_wants": [
+          "stay useful to actual recovery",
+          "ground speculation only if it stops affecting action/evidence"
+        ],
+        "avoidances": [
+          "anti-science dismissal",
+          "parenting the two women"
+        ],
+        "attention": [
+          "physical recovery",
+          "whether theory changes next move"
+        ]
+      }
+    },
+    "nimera": {
+      "memory_authorization": {
+        "mode": "none"
+      },
+      "relationship_runtime_state": {
+        "chronology_stage": "chapter_04_early_vaelira_connection"
+      },
+      "epistemic_state": {
+        "evidence_chain": {
+          "status": "known_fact",
+          "value": "The full observed/tested sequence can be recorded; extrapolations beyond it remain hypotheses."
+        }
+      },
+      "scene_local_state": {
+        "immediate_wants": [
+          "preserve the exact evidence chain",
+          "keep hypothetical extensions labeled"
+        ],
+        "avoidances": [
+          "generic killjoy role",
+          "joining mechanism speculation as same smart voice"
+        ],
+        "attention": [
+          "record",
+          "confidence",
+          "unsupported premise"
+        ]
+      }
+    },
+    "vaelira": {
+      "memory_authorization": {
+        "mode": "none"
+      },
+      "relationship_runtime_state": {
+        "chronology_stage": "chapter_04_party_integration_deepening"
+      },
+      "epistemic_state": {
+        "model_revision": {
+          "status": "supported",
+          "value": "Whole-system validation must be distinct from branch/pair validation; prior local models remain valid in scope."
+        },
+        "spiral_branch": {
+          "status": "hypothesis",
+          "value": "Comparable behavior elsewhere is physically possible only under sufficiently similar complete-system conditions; existence and thresholds are unknown."
+        }
+      },
+      "scene_local_state": {
+        "immediate_wants": [
+          "own the model correction",
+          "improve procedure",
+          "engage Ilyra's branch only where mechanism is plausible"
+        ],
+        "avoidances": [
+          "self-flagellation",
+          "scapegoating staff",
+          "turning hypothetical possibility into discovery"
+        ],
+        "attention": [
+          "model boundary",
+          "conditions",
+          "what would test the hypothesis"
+        ]
+      }
+    }
+  },
+  "exact_line_anchors": [],
+  "max_beats": 24,
+  "production_cost_ceiling": "moderate"
+}
