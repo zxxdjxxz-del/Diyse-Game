@@ -1,4 +1,4 @@
-# Chapter 2 — Beat 9 — Secret Passage Discovery
+# Chapter 2 — Beat 8 — Secret Passage Discovery
 
 **Status:** CURRENT TRUE-VOICE / DIALOGUE-ECONOMY ATOMIC AUTHORITY — 2026-09-19
 **Story authority:** `../../../02_STORY/CHAPTERS/CHAPTER_02.md`
@@ -159,7 +159,7 @@ The group moves through.
 
 ### [GAMEPLAY HANDOFF]
 
-Beat 9 ends as the party enters the Bastion-side passage.
+Beat 8 ends as the party enters the Bastion-side passage.
 
 Known:
 - the concealed access belongs to the Ancient structure;

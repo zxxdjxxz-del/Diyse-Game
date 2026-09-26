@@ -1,4 +1,4 @@
-# Chapter 2 — Beat 8 — Archive Leviathan
+# Chapter 2 — Beat 7 — Archive Leviathan
 
 **Status:** CURRENT TRUE-VOICE / DIALOGUE-ECONOMY ATOMIC AUTHORITY — 2026-09-19
 **Story authority:** `../../../02_STORY/CHAPTERS/CHAPTER_02.md`

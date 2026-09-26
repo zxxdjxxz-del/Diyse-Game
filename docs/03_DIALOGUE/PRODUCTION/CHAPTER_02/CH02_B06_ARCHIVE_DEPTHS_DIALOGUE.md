@@ -1,4 +1,4 @@
-# Chapter 2 — Beat 7 — Archive Depths
+# Chapter 2 — Beat 6 — Archive Depths
 
 **Status:** CURRENT TRUE-VOICE / DIALOGUE-ECONOMY ATOMIC AUTHORITY — 2026-09-19
 **Story authority:** `../../../02_STORY/CHAPTERS/CHAPTER_02.md`
@@ -106,7 +106,7 @@ The trio enters.
 
 ### [GAMEPLAY HANDOFF]
 
-Beat 7 ends at the chamber threshold.
+Beat 6 ends at the chamber threshold.
 
 Known:
 - something very large is moving through the flooded Archive;
