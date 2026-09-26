@@ -78,9 +78,9 @@ CHAPTERS: tuple[ChapterSpec, ...] = (
         "Chapter 1",
         beats(1, 12)
         + (
-            SourceSpec("C02 — Torren's Version of Dinner", "C03_TORRENS_VERSION_OF_DINNER_*.md"),
-            SourceSpec("C03 — What the Map Says", "C04_WHAT_THE_MAP_SAYS_*.md"),
-            SourceSpec("C04 — Not Professionally", "C05_NOT_PROFESSIONALLY_*.md"),
+            SourceSpec("C02 — Torren's Version of Dinner", "C02_TORRENS_VERSION_OF_DINNER_DIALOGUE.md"),
+            SourceSpec("C03 — What the Map Says", "C03_WHAT_THE_MAP_SAYS_DIALOGUE.md"),
+            SourceSpec("C04 — Not Professionally", "C04_NOT_PROFESSIONALLY_DIALOGUE.md"),
         ),
     ),
     ChapterSpec(
@@ -94,8 +94,8 @@ CHAPTERS: tuple[ChapterSpec, ...] = (
         "Chapter 3",
         beats(1, 15)
         + (
-            SourceSpec("C06 — Nimera Takes Over a Table", "H01_NIMERA_TAKES_OVER_A_TABLE_*.md"),
-            SourceSpec("C07 — Ilyra and Nimera", "H03_ILYRA_AND_NIMERA_*.md"),
+            SourceSpec("C06 — Nimera Takes Over a Table", "C06_NIMERA_TAKES_OVER_A_TABLE_DIALOGUE.md"),
+            SourceSpec("C07 — Ilyra and Nimera", "C07_ILYRA_AND_NIMERA_DIALOGUE.md"),
         ),
     ),
 )

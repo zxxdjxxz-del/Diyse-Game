@@ -15,9 +15,9 @@ Current mainline material:
 - matching Beat 01 through Beat 12 scene specs.
 
 Current Character-Life material:
-- **C02 — Torren's Version of Dinner** — legacy filename `C03_TORRENS_VERSION_OF_DINNER_REHEARSAL_FIRST_DRAFT_C.md`
-- **C03 — What the Map Says** — legacy filename `C04_WHAT_THE_MAP_SAYS_REHEARSAL_FIRST_DRAFT_A.md`
-- **C04 — Not Professionally** — legacy filename `C05_NOT_PROFESSIONALLY_REHEARSAL_FIRST_DRAFT_D.md`
+- **C02 — Torren's Version of Dinner** — `C02_TORRENS_VERSION_OF_DINNER_DIALOGUE.md`
+- **C03 — What the Map Says** — `C03_WHAT_THE_MAP_SAYS_DIALOGUE.md`
+- **C04 — Not Professionally** — `C04_NOT_PROFESSIONALLY_DIALOGUE.md`
 - corresponding current specs.
 
 The old 15-beat Hollow Watch/Castellan/Cistern atomics were removed from live authority on 2026-09-25.

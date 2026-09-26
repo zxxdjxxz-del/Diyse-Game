@@ -19,17 +19,17 @@ After the Beat-15 handoff:
 
 ## Active Character-Life set
 The active Chapter-3 cleanup Character-Life set is:
-1. **H01 — Nimera Takes Over a Table**
-2. **H03 — Ilyra and Nimera**
+1. **C06 — Nimera Takes Over a Table**
+2. **C07 — Ilyra and Nimera**
 
 Historical H02 and H04 remain retired unless explicitly reopened.
 
 ---
 
-## H01 — Nimera Takes Over a Table
+## C06 — Nimera Takes Over a Table
 **Status:** STRUCTURE + EXACT DIALOGUE COMPLETE  
 **Structural authority:** `CHAPTER_03_CHARACTER_LIFE_H01_NIMERA_TAKES_OVER_A_TABLE_WORKING.md`  
-**Exact dialogue authority:** `../../03_DIALOGUE/PRODUCTION/CHAPTER_03/H01_NIMERA_TAKES_OVER_A_TABLE_DRAFT_A.md` — canonical C06 — **96 spoken lines**
+**Exact dialogue authority:** `../../03_DIALOGUE/PRODUCTION/CHAPTER_03/H01_NIMERA_TAKES_OVER_A_TABLE_DRAFT_A.md` — **96 spoken lines**
 
 Core locks:
 - Cresthaven records / map / investigation room;
@@ -42,20 +42,20 @@ Core locks:
 - the actual low-stakes conflict becomes whether Nimera has effectively taken over the communal table;
 - she can rationally justify every individual pile / tool / patch of space;
 - by the end, the table is effectively her working territory without formal assignment;
-- Ilyra may be light / optional because H03 owns the dedicated Ilyra-Nimera scene;
+- Ilyra may be light / optional because C07 owns the dedicated Ilyra-Nimera scene;
 - Mirena / Maevra are not required;
 - no mandatory story revelation occurs;
 - the current full true-voice Character-Life atomic is approved and owns exact wording; the two preserved opening insults remain exact inside it.
 
 ---
 
-## H03 — Ilyra and Nimera
+## C07 — Ilyra and Nimera
 **Status:** STRUCTURE + EXACT DIALOGUE COMPLETE  
 **Structural authority:** `CHAPTER_03_CHARACTER_LIFE_H03_ILYRA_AND_NIMERA_WORKING.md`  
-**Exact dialogue authority:** `../../03_DIALOGUE/PRODUCTION/CHAPTER_03/H03_ILYRA_AND_NIMERA_DRAFT_A.md` — canonical C07 — **80 spoken lines**
+**Exact dialogue authority:** `../../03_DIALOGUE/PRODUCTION/CHAPTER_03/H03_ILYRA_AND_NIMERA_DRAFT_A.md` — **80 spoken lines**
 
 Current direction:
-- H03 is simply a **fun Character-Life scene between Ilyra and Nimera being themselves together at Cresthaven**;
+- C07 is simply a **fun Character-Life scene between Ilyra and Nimera being themselves together at Cresthaven**;
 - the previous mandatory treatment-room / minor-injury / consent-centered structure is retired;
 - there is no required injury, medical setup, trust lesson, trauma disclosure, lore discussion, or predetermined emotional arc;
 - the rehearsal-selected premise is now locked: Ilyra finds Nimera objecting to a Cresthaven supply crate labeled `MISC.`, leading to a low-stakes classification argument;
@@ -65,7 +65,7 @@ Current direction:
 - Cyanis / Torren may appear briefly only if the generated scene benefits from it;
 - Mirena / Maevra are normally back in Caelora and are not required;
 - no mandatory story revelation occurs;
-- the current H03/C07 atomic now owns exact wording; historical H03 wording remains retired.
+- the current C07 atomic now owns exact wording; historical C07 wording remains retired.
 
 Dialogue-generation brief:
 > Put Ilyra and Nimera together during ordinary downtime at Cresthaven. Let them behave like themselves. Find a low-stakes premise that gives them something genuinely fun to react to. Do not force injury, treatment, trauma, consent instruction, lore, or an emotional breakthrough. Once the interaction finds its point and lands, get out.
@@ -113,15 +113,15 @@ Exact rewards remain deferred under item / equipment / reward-placement authorit
 `CHAPTER_03_CONTINUITY_AUDIT_2026-09-11.md` completed the Chapter-3 party-state, reveal, Card-state, map, cleanup, Character-Life, and Hunt-access audit.
 
 Corrections from that audit are now applied:
-- `CHAPTER_03_CLEANUP_OVERLAY.md` no longer carries the retired medical H03 structure;
+- `CHAPTER_03_CLEANUP_OVERLAY.md` no longer carries the retired medical C07 structure;
 - `CHAPTER_03_OLD_CITY_MAEVRA_MIRENA_CONTINUITY_LOCK.md` no longer carries the retired Beat-12 northern-route display or `Four Answers, Not One` Beat-13 naming;
 - `CHAPTER_03.md` has been replaced with the consolidated current 15-beat master authority.
 
 ## Current cleanup production status
 - Beat-15 Cresthaven handoff — **COMPLETE STRUCTURALLY**
 - Archive-passage Hunt unlock — **LOCKED**
-- H01 / canonical C06 — **STRUCTURE + EXACT DIALOGUE COMPLETE — 96 lines**
-- H03 / canonical C07 — **STRUCTURE + EXACT DIALOGUE COMPLETE — 80 lines**
+- C06 / canonical C06 — **STRUCTURE + EXACT DIALOGUE COMPLETE — 96 lines**
+- C07 / canonical C07 — **STRUCTURE + EXACT DIALOGUE COMPLETE — 80 lines**
 - Regional Hunt #3 story/access layer — **COMPLETE**
 - Chapter-3 cleanup / continuity audit — **COMPLETE**
 - final `CHAPTER_03.md` consolidation — **COMPLETE**

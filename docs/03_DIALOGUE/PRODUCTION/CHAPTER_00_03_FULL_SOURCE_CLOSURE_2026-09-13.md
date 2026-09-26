@@ -237,7 +237,7 @@ Final production-layer corrections:
 Audited/retained as compatible:
 - Beat 10 spec;
 - Beat 15 spec;
-- C07/H03 spec.
+- C07 spec.
 
 Closed checks:
 - Person-Brain performance;

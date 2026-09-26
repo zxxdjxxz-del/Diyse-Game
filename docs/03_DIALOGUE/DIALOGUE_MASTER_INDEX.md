@@ -149,7 +149,7 @@ Qualitative only; no swear-count target.
 - **C06 — Nimera Takes Over a Table** — Chapter 3
 - **C07 — Ilyra and Nimera** — Chapter 3
 
-Legacy source filenames do not override canonical numbering.
+Canonical Character-Life source filenames now match canonical C01–C07 numbering.
 
 ---
 
@@ -280,7 +280,7 @@ High-risk Chapter-1 spec fixes:
 
 High-risk Chapter-3 spec/note fixes:
 - Beats 7, 8, 9, 11, 12, 14;
-- C06/H01;
+- C06;
 - Beat 9 `Resource` → **Memory**;
 - Beat 11/12 stale `Sixfold Knight` references removed;
 - stale `Torren remains terse` production target removed;

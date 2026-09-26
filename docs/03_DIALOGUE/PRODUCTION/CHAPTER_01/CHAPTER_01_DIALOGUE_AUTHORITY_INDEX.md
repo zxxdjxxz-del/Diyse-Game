@@ -12,7 +12,7 @@
 2. Current Chapter-1 story authority and later explicit user corrections own structure and canon.
 3. Current character files and `external-services/canary/brains/*.yaml` own Person-Brain behavior.
 4. Current scene specs are production/rehearsal guardrails and must agree with current story and character authority.
-5. Canonical Character-Life IDs are C02/C03/C04 even though legacy filenames still use C03/C04/C05 source keys.
+5. Canonical Character-Life IDs and filenames are C02/C03/C04; no active legacy source-key translation remains.
 6. The combined manuscript is a derived mirror and never outranks standalone atomics.
 7. Git history is provenance, not live authority.
 
@@ -69,9 +69,9 @@ The reduction from the prior 309-line 15-beat structure comes from structural re
 
 Available independently during the Chapter-1 cleanup window:
 
-- **C02 — Torren's Version of Dinner** — legacy source `C03_TORRENS_VERSION_OF_DINNER_REHEARSAL_FIRST_DRAFT_C.md` — 53 spoken lines
-- **C03 — What the Map Says** — legacy source `C04_WHAT_THE_MAP_SAYS_REHEARSAL_FIRST_DRAFT_A.md` — 48 spoken lines
-- **C04 — Not Professionally** — legacy source `C05_NOT_PROFESSIONALLY_REHEARSAL_FIRST_DRAFT_D.md` — 58 spoken lines
+- **C02 — Torren's Version of Dinner** — `C02_TORRENS_VERSION_OF_DINNER_DIALOGUE.md` — 53 spoken lines
+- **C03 — What the Map Says** — `C03_WHAT_THE_MAP_SAYS_DIALOGUE.md` — 48 spoken lines
+- **C04 — Not Professionally** — `C04_NOT_PROFESSIONALLY_DIALOGUE.md` — 58 spoken lines
 
 Protected C03 anchors remain exact:
 

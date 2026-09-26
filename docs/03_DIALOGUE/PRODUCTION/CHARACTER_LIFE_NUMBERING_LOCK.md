@@ -2,39 +2,39 @@
 
 **Status:** CURRENT CANONICAL NUMBERING AUTHORITY  
 **Scope:** active Character-Life scenes across the current dialogue production set  
-**Effective:** 2026-09-12
+**Effective:** 2026-09-12; canonical source-key migration completed 2026-09-26
 
 ## Rule
 
 Active Character-Life scenes use one continuous chronological sequence beginning at **C01**. Retired, cut, superseded, or experimental scene IDs do **not** reserve numbers in the live sequence.
 
-Historical filenames and embedded source keys may retain an older development label when changing that key would invalidate a synchronized manuscript or provenance record. In that case the **canonical Character-Life ID in this file wins**. A legacy source key is not a current scene number.
+Canonical Character-Life IDs now match their active atomic filenames and scene IDs directly. Historical development labels remain Git provenance only and are not used by current story, dialogue, sync, or runtime selection.
 
 ## Current canonical sequence
 
-| Canonical ID | Chapter | Scene | Current legacy source key, where different |
+| Canonical ID | Chapter | Scene | Current atomic |
 |---|---:|---|---|
-| **C01** | 0 | **Six Minutes** | C01 |
-| **C02** | 1 | **Torren's Version of Dinner** | C03 |
-| **C03** | 1 | **What the Map Says** | C04 |
-| **C04** | 1 | **Not Professionally** | C05 |
-| **C05** | 2 | **Still Burns** | C06 |
-| **C06** | 3 | **Nimera Takes Over a Table** | H01 |
-| **C07** | 3 | **Ilyra and Nimera** | H03 |
+| **C01** | 0 | **Six Minutes** | `CHAPTER_00/C01_SIX_MINUTES_DIALOGUE.md` |
+| **C02** | 1 | **Torren's Version of Dinner** | `CHAPTER_01/C02_TORRENS_VERSION_OF_DINNER_DIALOGUE.md` |
+| **C03** | 1 | **What the Map Says** | `CHAPTER_01/C03_WHAT_THE_MAP_SAYS_DIALOGUE.md` |
+| **C04** | 1 | **Not Professionally** | `CHAPTER_01/C04_NOT_PROFESSIONALLY_DIALOGUE.md` |
+| **C05** | 2 | **Still Burns** | `CHAPTER_02/C05_STILL_BURNS_DIALOGUE.md` |
+| **C06** | 3 | **Nimera Takes Over a Table** | `CHAPTER_03/C06_NIMERA_TAKES_OVER_A_TABLE_DIALOGUE.md` |
+| **C07** | 3 | **Ilyra and Nimera** | `CHAPTER_03/C07_ILYRA_AND_NIMERA_DIALOGUE.md` |
 
 ## Retired-number rule
 
-Older development references such as the retired Chapter-2 `C07` concept and Chapter-3 `H02/H04` concepts are historical only. They do not block reuse of a number in the canonical live Character-Life sequence.
+Older development references such as Chapter-1 source keys C03/C04/C05, Chapter-2 source key C06, Chapter-3 H01/H03, the retired Chapter-2 C07 concept, and Chapter-3 H02/H04 concepts are historical only. They do not block reuse of a number or override the canonical live sequence.
 
-The former separate Chapter-2 `C07` concept remains retired; useful material already folded into **C05 — Still Burns** stays there. The canonical live **C07** is now **Ilyra and Nimera** in Chapter 3.
+The former separate Chapter-2 C07 concept remains retired; useful material already folded into **C05 — Still Burns** stays there. The canonical live **C07** is **Ilyra and Nimera** in Chapter 3.
 
-## Source-key transition rule
+## Source-key rule
 
-The Chapter-1 and Chapter-2 synchronized manuscripts embed exact source filenames and Git blob SHAs. Until those manuscripts are next regenerated from renamed atomic files, their embedded `C03/C04/C05/C06` labels are **legacy source keys**, not canonical Character-Life numbers.
+> **Current source key = canonical Character-Life ID.**
 
-Likewise, Chapter-3 `H01/H03` filenames remain legacy source keys until the atomic files are renamed. Current chapter-level documentation must refer to them canonically as **C06/C07**.
+Active files, scene IDs, chapter authority indexes, synchronization tooling, and runtime compilation must use C01–C07 directly. Do not create new alias/source-key numbering.
 
-When a Character-Life atomic source is next materially edited, its filename, internal scene ID, and any synchronized-manuscript source marker should be migrated to the canonical ID in the same change so no new legacy key is created.
+Historical filenames remain recoverable through Git history only.
 
 ## Conflict rule
 
@@ -42,6 +42,6 @@ If an active document disagrees about a Character-Life number:
 1. this numbering lock and later explicit user corrections;
 2. chapter dialogue authority index;
 3. chapter cleanup/availability authority;
-4. legacy source filename/header only as implementation provenance.
+4. Git history only as provenance.
 
-> **Current live Character-Life sequence through Chapter 3: C01–C07, with no gaps.**
+> **Current live Character-Life sequence through Chapter 3: C01–C07, with no gaps and no active legacy source-key aliases.**

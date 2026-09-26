@@ -146,9 +146,9 @@ def source_set() -> list[SceneSource]:
             unique_glob(ch1, f"BEAT_{n:02d}_*_SPEC.json"),
         ))
     scenes.extend([
-        SceneSource("01", "C02", unique_glob(ch1, "C03_TORRENS_VERSION_OF_DINNER_*DRAFT*.md"), "character_life", unique_glob(ch1, "C03_TORRENS_VERSION_OF_DINNER_*SPEC.json")),
-        SceneSource("01", "C03", unique_glob(ch1, "C04_WHAT_THE_MAP_SAYS_*DRAFT*.md"), "character_life", unique_glob(ch1, "C04_WHAT_THE_MAP_SAYS_*SPEC.json")),
-        SceneSource("01", "C04", unique_glob(ch1, "C05_NOT_PROFESSIONALLY_*DRAFT*.md"), "character_life", unique_glob(ch1, "C05_NOT_PROFESSIONALLY_*SPEC.json")),
+        SceneSource("01", "C02", unique_glob(ch1, "C02_TORRENS_VERSION_OF_DINNER_DIALOGUE.md"), "character_life", unique_glob(ch1, "C02_TORRENS_VERSION_OF_DINNER_SPEC.json")),
+        SceneSource("01", "C03", unique_glob(ch1, "C03_WHAT_THE_MAP_SAYS_DIALOGUE.md"), "character_life", unique_glob(ch1, "C03_WHAT_THE_MAP_SAYS_SPEC.json")),
+        SceneSource("01", "C04", unique_glob(ch1, "C04_NOT_PROFESSIONALLY_DIALOGUE.md"), "character_life", unique_glob(ch1, "C04_NOT_PROFESSIONALLY_SPEC.json")),
     ])
 
     ch2 = chapter_dir("02")
@@ -166,8 +166,8 @@ def source_set() -> list[SceneSource]:
             unique_glob(ch3, f"BEAT_{n:02d}_*_SPEC.json"),
         ))
     scenes.extend([
-        SceneSource("03", "C06", unique_glob(ch3, "H01_NIMERA_TAKES_OVER_A_TABLE_DRAFT_*.md"), "character_life", unique_glob(ch3, "H01_NIMERA_TAKES_OVER_A_TABLE_SPEC.json")),
-        SceneSource("03", "C07", unique_glob(ch3, "H03_ILYRA_AND_NIMERA_DRAFT_*.md"), "character_life", unique_glob(ch3, "H03_ILYRA_AND_NIMERA_SPEC.json")),
+        SceneSource("03", "C06", unique_glob(ch3, "C06_NIMERA_TAKES_OVER_A_TABLE_DIALOGUE.md"), "character_life", unique_glob(ch3, "C06_NIMERA_TAKES_OVER_A_TABLE_SPEC.json")),
+        SceneSource("03", "C07", unique_glob(ch3, "C07_ILYRA_AND_NIMERA_DIALOGUE.md"), "character_life", unique_glob(ch3, "C07_ILYRA_AND_NIMERA_SPEC.json")),
     ])
 
     expected_counts = {"00": 8, "01": 15, "02": 16, "03": 17}

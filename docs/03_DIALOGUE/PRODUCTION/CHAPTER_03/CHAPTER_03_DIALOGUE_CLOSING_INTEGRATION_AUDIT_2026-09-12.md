@@ -1,7 +1,7 @@
 # Chapter 3 — Dialogue Closing Integration Audit — 2026-09-12
 
 **Status:** CLOSED — CHAPTER-WIDE DIALOGUE INTEGRATION PASS COMPLETE  
-**Scope:** Chapter 3 mainline Beats 1–15 + active cleanup Character-Life H01 + H03  
+**Scope:** Chapter 3 mainline Beats 1–15 + active cleanup Character-Life C06 + C07  
 **Primary story authority:** `../../../02_STORY/CHAPTERS/CHAPTER_03.md`  
 **Dialogue method:** rehearsal-first Agent Brains → Dialogue Editor → invisible Canon/Knowledge Checker → economical HD-2D implementation  
 **Guardrail authority:** `../../AGENT_SYSTEM/STORY_BEAT_AS_GUARDRAIL_LOCK.md`
@@ -75,10 +75,10 @@ Beat 6 and Beat 7 received only minor integration trims; their discovered conver
 ## Beats 9–15
 These were authored from the start under the corrected guardrail-first method. No scene required structural rerunning.
 
-## H01 / H03
+## C06 / C07
 Both current Character-Life scenes pass the low-stakes Agent-Brain test:
-- H01 preserves only its two exact user-locked opening lines as fixed wording;
-- H03 contains no forced treatment, trauma, mentorship, consent lesson, plot task, or emotional breakthrough.
+- C06 preserves only its two exact user-locked opening lines as fixed wording;
+- C07 contains no forced treatment, trauma, mentorship, consent lesson, plot task, or emotional breakthrough.
 
 ---
 
@@ -154,13 +154,13 @@ Selective participation remains active: characters do not receive lines solely b
 
 # 6. Cross-chapter comedy / repeated cadence audit
 
-**PASS after H03 correction.**
+**PASS after C07 correction.**
 
-H03 originally ended with an `I hate you` / `No, you don't` exchange shape too close to Chapter 2's existing cleanup cadence.
+C07 originally ended with an `I hate you` / `No, you don't` exchange shape too close to Chapter 2's existing cleanup cadence.
 
-That repetition was removed so H03 now closes on its own classification-based comic logic rather than sounding like a reusable house joke.
+That repetition was removed so C07 now closes on its own classification-based comic logic rather than sounding like a reusable house joke.
 
-H01's exact Cyanis/Torren insult anchors remain untouched.
+C06's exact Cyanis/Torren insult anchors remain untouched.
 
 ---
 
@@ -191,7 +191,7 @@ Active Chapter-3 Character-Life dialogue is:
 
 H02 / H04 remain retired and must not re-enter the current Chapter-3 cleanup set unless explicitly restored later.
 
-Neither H01 nor H03 advances mandatory plot knowledge.
+Neither C06 nor C07 advances mandatory plot knowledge.
 
 ---
 
@@ -222,8 +222,8 @@ No Chapter-3 story-structure authority file was altered by this dialogue closing
 
 It now contains:
 - Beats 1–15;
-- H01;
-- H03.
+- C06;
+- C07.
 
 The manuscript is the complete current readable Chapter-3 dialogue assembly.
 
@@ -233,6 +233,6 @@ The standalone Beat / Character-Life files remain the detailed scene-level autho
 
 # Closing state
 
-> **Chapter 3 current working dialogue production is complete through all mainline Beats 1–15 and both active cleanup Character-Life scenes H01/H03, with the chapter-wide integration audit complete and the full cumulative manuscript rebuilt.**
+> **Chapter 3 current working dialogue production is complete through all mainline Beats 1–15 and both active cleanup Character-Life scenes C06/C07, with the chapter-wide integration audit complete and the full cumulative manuscript rebuilt.**
 
 Next work on Chapter 3 is revision/playtest/implementation territory rather than missing initial dialogue production.
