@@ -4,8 +4,9 @@
   "authority": "newest explicit user-approved exact Chapter 1 enemy visual masters",
   "sync_rule": "Only explicitly approved exact images may be registered. A repository binary is authoritative only when its SHA-256 matches its registered source exactly. Never alter a master during sync.",
   "repository_root": "asset_sources/enemies/chapter_01/current",
-  "new_master_count_target": 12,
-  "locked_count": 1,
+  "new_master_count_target": 9,
+  "locked_count": 9,
+  "binary_sync_count": 0,
   "masters": {
     "thicket_stalker": {
       "display_name": "Thicket Stalker",
@@ -17,8 +18,126 @@
       "size_bytes": 1267907,
       "sha256": "69ab97e9bcb26cffd2c58f6c14eb8027d60d7b7cf60175109f07365c647b6cd4",
       "exact_binary_sync": "pending",
-      "image_generation_id": "bbbba546-7ff0-4c67-affe-366974b66d53",
-      "visual_lock": "Single clean white-background enemy master. Sleek black panther-like natural predator; slightly leaner rather than heavily muscular; uniform near-black coat with no scars and no white markings; bold bright yellow eyes; hard dark dorsal spines running from the neck down the back, with the largest mid-back spines reduced so the panther silhouette remains dominant; long feline tail; large claws; low aggressive stalking/lunging pose; crisp DIYSE anime/HD-2D source-art look."
+      "visual_lock": "Sleek near-black panther-like natural predator; lean build; no scars or white markings; bold bright yellow eyes; restrained hard dorsal spines from neck down back; long feline tail; large claws; low aggressive stalking/lunging pose.",
+      "image_generation_id": "bbbba546-7ff0-4c67-affe-366974b66d53"
+    },
+    "vine_creeper": {
+      "display_name": "Vine Creeper",
+      "approved_local_date": "2026-09-25",
+      "expected_repository_path": "asset_sources/enemies/chapter_01/current/vine_creeper.png",
+      "media_format": "PNG",
+      "width": 1312,
+      "height": 1199,
+      "size_bytes": 1859343,
+      "sha256": "3a3485ecf4de099956978580b0d7de3f721429eb40cd389ba0f4fae01fdb3f2a",
+      "exact_binary_sync": "pending",
+      "visual_lock": "Low creeping plant mass made entirely from thorned olive-green/brown vines with no legs; scattered leaves; multiple small-to-medium carnivorous flower heads at different positions with maroon interiors and pale fang-like teeth/spikes.",
+      "image_generation_id": "90f76ef0-484c-4c09-bc22-5420e3b8c477"
+    },
+    "bullhog": {
+      "display_name": "Bullhog",
+      "approved_local_date": "2026-09-25",
+      "expected_repository_path": "asset_sources/enemies/chapter_01/current/bullhog.jpg",
+      "media_format": "JPEG",
+      "width": 1536,
+      "height": 1152,
+      "size_bytes": 253713,
+      "sha256": "8a218d0dc7773e94d9eb116241f9d5e3f71d3c5dbe12d0c1c9dde492f722d9a2",
+      "exact_binary_sync": "pending",
+      "visual_lock": "Very large bull-height natural beast with a warthog/pig face and barrel body, powerful bull-built forequarters, huge curved bull horns, upward-curving warthog tusks, brown coat, and short pig-like tail.",
+      "source_upload": "1000030152.png (JPEG/JFIF payload preserved byte-for-byte)"
+    },
+    "needlewing": {
+      "display_name": "Needlewing",
+      "approved_local_date": "2026-09-25",
+      "expected_repository_path": "asset_sources/enemies/chapter_01/current/needlewing.png",
+      "media_format": "PNG",
+      "width": 1448,
+      "height": 1086,
+      "size_bytes": 1609342,
+      "sha256": "9801dd1fb10835bfb3b969aa3e521db80ae0e1d50ddf7862259220ed6e504d85",
+      "exact_binary_sync": "pending",
+      "visual_lock": "Small flying dragonfly/scorpion hybrid with four translucent wings, segmented arched scorpion tail, long sharp stinger, red-and-yellow body, and bright green eyes.",
+      "image_generation_id": "91a2a350-0ac4-4979-bc61-ad9032b93232"
+    },
+    "burrowclaw": {
+      "display_name": "Burrowclaw",
+      "approved_local_date": "2026-09-25",
+      "expected_repository_path": "asset_sources/enemies/chapter_01/current/burrowclaw.png",
+      "media_format": "PNG",
+      "width": 1536,
+      "height": 1024,
+      "size_bytes": 1845568,
+      "sha256": "a23b876c0fd38cc3f5d8534aa4b318188eb3191f3da0974bf4e16d0164589a9b",
+      "exact_binary_sync": "pending",
+      "visual_lock": "Low compact subterranean digging beast with cool taupe/grey-brown hide, dusty tan underside, wedge-shaped head, tiny recessed eyes, rugged plated/spined back, massive digging forearms, and huge pale claws.",
+      "image_generation_id": "dd722ef0-3cf9-4aa5-918e-57e34d45a68e"
+    },
+    "barkling": {
+      "display_name": "Barkling",
+      "approved_local_date": "2026-09-25",
+      "expected_repository_path": "asset_sources/enemies/chapter_01/current/barkling.png",
+      "media_format": "PNG",
+      "width": 1448,
+      "height": 1086,
+      "size_bytes": 1704097,
+      "sha256": "1520aee61d47f5681b1b90ac99e03ff019464aa97f23b9c388be5ed0c1545adc",
+      "exact_binary_sync": "pending",
+      "visual_lock": "Heavy regular forest enemy: broad squat wooden brute with simplified bark plating, huge forearms and clawed wooden hands, heavy root-like feet, blunt non-regal face, glowing yellow-green eyes, and restrained moss/leaves.",
+      "image_generation_id": "4b8baf49-9805-4563-af21-fb562673395c"
+    },
+    "construct": {
+      "display_name": "Construct",
+      "approved_local_date": "2026-09-25",
+      "expected_repository_path": "asset_sources/enemies/chapter_01/current/construct.png",
+      "media_format": "PNG",
+      "width": 1122,
+      "height": 1402,
+      "size_bytes": 1635650,
+      "sha256": "2f42eff9f97a93b191b21171f8889080003ba587aa0e88c6a9f227875f5a03c4",
+      "exact_binary_sync": "pending",
+      "visual_lock": "Basic Diysean construct around four feet tall: compact squat headless silhouette, sealed rounded top, shorter legs, long articulated arms hanging close to ground, ivory stone plates over bronze mechanics, and one round glowing chest light.",
+      "image_generation_id": "b55b8d72-4ade-4afc-90c5-fc18be078c03"
+    },
+    "shield_construct": {
+      "display_name": "Shield Construct",
+      "approved_local_date": "2026-09-25",
+      "expected_repository_path": "asset_sources/enemies/chapter_01/current/shield_construct.png",
+      "media_format": "PNG",
+      "width": 1122,
+      "height": 1402,
+      "size_bytes": 1729309,
+      "sha256": "cd54ed1c4451c67322407aaee7bafa02b22b576b962122f0fddc73de8a0f4177",
+      "exact_binary_sync": "pending",
+      "visual_lock": "Defensive Construct variant sharing the sealed rounded headless top, ivory stone/bronze body and round chest light, slightly sturdier proportions, and a large rectangular ivory-and-bronze tower shield.",
+      "image_generation_id": "1ef1304f-652f-4b4e-b671-90f71eae3dbe"
+    },
+    "thornhide": {
+      "display_name": "Thornhide",
+      "approved_local_date": "2026-09-25",
+      "expected_repository_path": "asset_sources/enemies/chapter_01/current/thornhide.png",
+      "media_format": "PNG",
+      "width": 1448,
+      "height": 1086,
+      "size_bytes": 1905472,
+      "sha256": "6bcf1116fb90d36ae85a52fdf2eece23f15da7a353f9df2df60250a98a102fb1",
+      "exact_binary_sync": "pending",
+      "visual_lock": "Very large werebear-like alpha beast with massive dark-brown furred body, broad blunt bear muzzle, dense porcupine-like ivory quills with reddish-brown accents across back/shoulders/forearms/flanks/haunches, glowing red eyes, huge black claws, and roaring attack posture.",
+      "image_generation_id": "879a10c8-eed8-4f36-b53e-611abcd1768a"
     }
+  },
+  "retired_from_chapter_01": [
+    "Watch Sentry",
+    "Watch Ballista",
+    "Cistern Devourer",
+    "Regional Hunt #1"
+  ],
+  "renames": {
+    "Briar Boar": "Bullhog",
+    "Rootmaw": "Burrowclaw",
+    "Rubbleback": "Barkling",
+    "Watch Captain Frame": "Construct",
+    "Watch Castellan": "Shield Construct",
+    "Thornhide Stalker": "Thornhide"
   }
 }
