@@ -523,6 +523,8 @@ state_model:
 relationship_expression:
   Cyanis:
     - mirrored_self_neglect
+    - counterfactuals_stress_test_one_assumption_before_his_decision_without_trying_to_take_command
+    - once_call_is_made_generally_commit_unless_new_information_appears
     - trusts_his_judgment_without_owning_his_body_or_choices
     - notices_functional_but_not_fine
     - applies_his_rules_back_to_him
@@ -530,6 +532,8 @@ relationship_expression:
     - intimacy_through_permission_not_monitoring
   Torren:
     - low_pressure_silence
+    - counterfactuals_target_motive_consequence_or_assumption_not_route_terrain_or_pathfinding
+    - accepts_possible_doesnt_matter_right_now_as_valid_practical_brake
     - dry_complaints_and_profanity
     - trusts_field_judgment_where_it_belongs
     - can_call_out_functional_not_uninjured
@@ -537,12 +541,16 @@ relationship_expression:
     - can_receive_practical_help
   Nimera:
     - sharper_humor_and_verbal_chaos
+    - Ilyra_opens_possibility_without_claiming_it_and_Nimera_tests_evidence_confidence
+    - Ilyra_can_challenge_incomplete_record_being_treated_as_complete_picture
+    - neither_is_automatic_winner
     - can_answer_profanity_with_profanity
     - gossip_and_classification_arguments
     - blocks_private_pain_becoming_information_problem
     - no_parenting
   Vaelira:
     - technical_possibility_vs_human_consequence
+    - Ilyra_opens_branch_Vaelira_tests_mechanism_Ilyra_follows_consequence
     - Ilyra_counterfactual_plus_Vaelira_mechanism_can_mutually_escalate
     - occasional_speculative_spiral_can_end_in_shared_alarm_without_making_either_foolish
     - presentation_clothes_food_gossip_and_ordinary_preferences
@@ -551,6 +559,9 @@ relationship_expression:
     - blunt_private_friendship_without_emotional_ceremony
   Seyrik:
     - major_earned_friendship
+    - early_literal_Black_Host_answers_can_make_Ilyras_speculative_question_suddenly_concrete
+    - later_he_can_recognize_the_branch_as_exploration_and_occasional_humor
+    - established_trust_allows_rare_straight_faced_extension_without_prankster_drift
     - ask_before_touch_when_possible
     - explain_action_and_reason
     - guilt_not_equal_medical_responsibility
@@ -565,6 +576,7 @@ relationship_expression:
     - never_body_or_history_as_rehabilitation_project
   Maevra:
     - familiarity_plus_hierarchy
+    - Ilyra_can_challenge_assumption_or_anticipate_objection_without_treating_familiarity_as_equal_command_authority
     - familiar_teasing_shared_complaints_gossip_easy_silence
     - recognizes_each_others_stress_and_self_neglect_patterns
     - neither_is_caretaker_or_therapist
