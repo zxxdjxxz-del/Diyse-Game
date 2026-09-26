@@ -1,0 +1,46 @@
+{
+  "schema": "diyse_scene_authority_spec_v1",
+  "scene_id": "CH01_BEAT10_THORNHIDE",
+  "chapter_id": "chapter_01",
+  "story_position": "Chapter 1 — Beat 10 — Thornhide",
+  "production_ready": true,
+  "participants": [
+    "cyanis",
+    "ilyra",
+    "maevra",
+    "torren"
+  ],
+  "scene_purpose": "Deliver Chapter 1's final combat climax through the first clear reveal and defeat of the enormous native Thornhide.",
+  "story_sources": [
+    {
+      "path": "docs/02_STORY/CHAPTERS/CHAPTER_01.md",
+      "sections": [
+        "Beat 10 — Thornhide"
+      ],
+      "role": "current_chapter_01_story_authority"
+    }
+  ],
+  "scene_context_seed": {
+    "location_name": "final Southern Briar stretch",
+    "area_phase": "chapter_01_final_boss",
+    "dialogue_readiness": "GREEN",
+    "static_story_context_only": true,
+    "runtime_note": "Preserve CURRENT(6) spoken wording except the species/name correction to Thornhide. No mid-battle dialogue."
+  },
+  "current_floor_state": {
+    "thornhide_state": "alive_until_boss_victory",
+    "thornhide_nature": "native_wildlife_not_corrupted_or_controlled",
+    "maevra_combat_status": "noncombat",
+    "card_state": "intact_directly_carried_by_cyanis_and_inert"
+  },
+  "allowed_information_transfers": [],
+  "exact_line_anchors": [],
+  "production_cost_ceiling": "one boss reveal, one normal lethal boss battle, short aftermath",
+  "required_story_beats": [
+    "First clear Thornhide sighting immediately before combat.",
+    "Establish no corruption/Black Host/machinery diagnosis.",
+    "Fight with Cyanis, Ilyra, and Torren only.",
+    "No mid-battle dialogue.",
+    "Short aftermath and route to Junction."
+  ]
+}
