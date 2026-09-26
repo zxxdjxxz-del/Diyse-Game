@@ -6,7 +6,7 @@
 
 ## Current global state
 
-**Chapters 0–3 are source-closed and synchronized. Chapter 1's September 19, 2026 Beat 1–15 true-voice lock is now promoted through every current derived dialogue layer.**
+**Chapters 0–3 are source-closed and synchronized. Chapter 1's September 25, 2026 current 12-beat source set is the active Chapter-1 dialogue structure.**
 
 That means the live dialogue-generating layers are aligned:
 - current story authority / later explicit user corrections;
@@ -158,8 +158,8 @@ Legacy source filenames do not override canonical numbering.
 | Chapter | Source-level status | Chapter authority | Derived manuscript |
 |---|---|---|---|
 | Ch0 | **FULL SOURCE CLOSURE** — P01–P07 + C01; Person-Brain + Cyanis audit + Ilyra balance + adult speech + natural-turn + spoken-vs-narration; current brains aligned | `PRODUCTION/CHAPTER_00/CHAPTER_00_DIALOGUE_AUTHORITY_INDEX.md` | **CURRENT — SYNCHRONIZED** |
-| Ch1 | **LOCKED CURRENT SOURCE** — Beats 1–15 true-voice + Chapters 0–3 continuity audited; C02/C03/C04 retained current | `PRODUCTION/CHAPTER_01/CHAPTER_01_DIALOGUE_AUTHORITY_INDEX.md` | **CURRENT — SYNCHRONIZED** |
-| Ch2 | **FULL SOURCE CLOSURE** — Beats 1–16 + C05; final ensemble + Ilyra + Torren progression + Maevra rank/friendship + adult speech + natural-turn + spoken-vs-narration; current brains aligned | `PRODUCTION/CHAPTER_02/CHAPTER_02_DIALOGUE_AUTHORITY_INDEX.md` | **CURRENT — SYNCHRONIZED** |
+| Ch1 | **LOCKED CURRENT SOURCE** — Beats 1–12 true-voice + Chapters 0–3 continuity audited; C02/C03/C04 retained current | `PRODUCTION/CHAPTER_01/CHAPTER_01_DIALOGUE_AUTHORITY_INDEX.md` | **CURRENT — SYNCHRONIZED** |
+| Ch2 | **FULL SOURCE CLOSURE** — Beats 1–15 + C05; final ensemble + Ilyra + Torren progression + Maevra rank/friendship + adult speech + natural-turn + spoken-vs-narration; current brains aligned | `PRODUCTION/CHAPTER_02/CHAPTER_02_DIALOGUE_AUTHORITY_INDEX.md` | **CURRENT — SYNCHRONIZED** |
 | Ch3 | **FULL SOURCE CLOSURE** — Beats 1–15 + C06/C07; Person-Brain + Ilyra + Torren progression + Torren/Nimera first-contact + Nimera adult speech + current Face/subclass terminology; current brains/specs aligned | `PRODUCTION/CHAPTER_03/CHAPTER_03_DIALOGUE_AUTHORITY_INDEX.md` | **CURRENT — SYNCHRONIZED** |
 
 The standalone atomics remain exact wording authority. The current derived manuscripts are verified synchronized mirrors.
@@ -187,7 +187,7 @@ Chapter-0 medicine is story-earned triage/Card-response work and must not become
 # Chapter 1 key state
 
 Current live set:
-- Beats 1–15;
+- Beats 1–12;
 - C02 Dinner;
 - C03 Map;
 - C04 Not Professionally.
@@ -218,7 +218,7 @@ C04 reveal ceiling:
 # Chapter 2 key state
 
 Current live set:
-- Beats 1–16;
+- Beats 1–15;
 - C05 `Still Burns`.
 
 Current ensemble interpretation:
@@ -228,7 +228,7 @@ Current ensemble interpretation:
 - Maevra's command is real without consuming her personality;
 - `Still Burns` is low-stakes proof that Torren/Maevra/the group can behave as mature adults outside plot functions.
 
-Story-earned Ilyra medicine remains in Beats 2, 10, 11 and 15.
+Story-earned Ilyra medicine remains in Beats 2, 9, 10 and 14.
 
 Core outcomes remain:
 - current prisoners rescued;
@@ -253,13 +253,13 @@ Protected C06 opening:
 > **CYANIS:** I bet you use that cape to sneak up on the goats you fuck.  
 > **TORREN:** You look like a walking dick in armor.
 
-Protected Beat-11 Warden messages:
+Protected Beat-14 Warden messages:
 > **PREVIOUS ERROR**  
 > **LAST SENTINEL CONFIRMED**
 
 Cyanis's Card becomes stable deep Ruby only after the Warden is fully inert. Causation remains unresolved. No Prime event occurs and the Card is not used as a key.
 
-Nimera joins permanently in Beat 8. Torren/Nimera remain first-contact/new-acquaintance throughout Chapter 3.
+Nimera joins permanently in Beat 6. Torren/Nimera remain first-contact/new-acquaintance throughout Chapter 3.
 
 ---
 
@@ -299,14 +299,14 @@ September 19, 2026 synchronization closure: the Chapter 1 atomic lock has passed
 - `PRODUCTION/CHAPTER_02/CHAPTER_02_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md`
 - `PRODUCTION/CHAPTER_03/CHAPTER_03_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md`
 - `PRODUCTION/CHAPTER_0_3_DIALOGUE_SYNC_MANIFEST.md`
-- `game/content/dialogue/current/manifest.json` and its 60 generated current runtime scene Resources
+- `game/content/dialogue/current/manifest.json` and its 56 generated current runtime scene Resources
 - the generated Chapters 0–3 spoiler-free story/gameplay read-through.
 
 Current synchronization invariants:
 1. current production atomics are the only exact spoken-wording input authority;
 2. the combined manuscripts are regenerated from those atomics;
 3. the current runtime mirror is regenerated from those atomics;
-4. the runtime mirror must contain exactly **2,901 spoken lines across 60 scenes**;
+4. the runtime mirror must contain exactly **2,001 spoken lines across 56 scenes**;
 5. protected exact-line anchors and retired-canon guards must pass;
 6. the reader may restore player-facing world/gameplay context from its owning authorities but may not alter spoken dialogue;
 7. `python tools/dialogue/sync_current_dialogue.py --check` and `python tools/dialogue/compile_current_runtime_dialogue.py --check` must pass after future source edits;
