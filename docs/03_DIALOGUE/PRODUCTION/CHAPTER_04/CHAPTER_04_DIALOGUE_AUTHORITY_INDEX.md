@@ -87,6 +87,34 @@ Progression for Chapter 4:
 - **Beat 11 — safe upper labs / aftermath:** first good opportunity for a light speculative spiral if the natural dialogue supports it. A plausible premise may be extended too far until both women realize they have unsettled themselves.
 - **Beat 12 — Ivorybridge morning / return:** quieter recognition that they enjoy how the other thinks is allowed; no need to announce the friendship.
 
+### Three-use Chapter-4 demonstration map
+
+Keep the new chemistry **selective**. Chapter 4 should aim for roughly three meaningful demonstrations rather than repeating the behavior every time both women are present.
+
+1. **Beat 5 — first recognition, not a spiral**
+   - use the legitimate Ivorybridge technical/infrastructure problem already required by story authority;
+   - Ilyra may question whether an observed condition is the cause rather than the symptom, or otherwise open one bounded alternate interpretation;
+   - Vaelira should test the mechanism rather than automatically agree;
+   - the important relationship beat is mutual recognition that the other person's reasoning is useful;
+   - no major lore inference, no Wayfinder solution, no instant friendship shorthand.
+
+2. **Beat 8 — serious combined reasoning**
+   - this is the preferred serious demonstration because all six pair models have validated locally while the complete system still fails to settle;
+   - Ilyra may challenge the assumption that successful local/pair validation guarantees the complete system will behave the same way;
+   - Vaelira owns the scientific/mechanistic follow-through and determines whether that alternate framing is physically consistent with the readings;
+   - this may help redirect attention toward the whole-system discrepancy, but it must not let Ilyra solve the Annex model herself;
+   - no comedy while the Reaction Conduit researcher is in immediate danger.
+
+3. **Beat 11 — first light runaway theory**
+   - only after people are safe and the actual evidence chain has been established;
+   - begin from a premise that is genuinely plausible given what Chapter 4 proved, such as whether comparable complete-system behavior could theoretically occur under sufficiently similar conditions elsewhere;
+   - Ilyra follows a consequence; Vaelira supplies another conditional mechanism; each gives the other one more reason the scenario might be possible;
+   - let the tone drift from calm analysis into mutual unease rather than instant panic;
+   - the branch must remain explicitly hypothetical and may be cut down by lack of evidence, missing conditions, or another character's grounding question;
+   - do **not** create new canon about other Annexes, hidden facilities, the Ancient network, Face interactions, or future Prime behavior through the joke.
+
+Do not require a matching counterfactual beat in Beats 6, 7, 9, 10, or 12. Those scenes are allowed to use completely different parts of Ilyra and Vaelira's personalities.
+
 Cognitive separation:
 - **Ilyra:** opens counterfactual possibility — what changes if the current assumption is wrong?
 - **Vaelira:** tests mechanism — how could that possibility physically or magically occur?
