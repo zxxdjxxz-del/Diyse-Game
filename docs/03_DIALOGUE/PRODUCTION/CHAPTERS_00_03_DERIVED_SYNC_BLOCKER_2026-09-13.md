@@ -3,7 +3,7 @@
 **Date:** 2026-09-13  
 **Scope:** derived combined manuscripts, synchronization manifest, and spoiler-free exact-dialogue reader only  
 **Source dialogue status:** **FULL SOURCE-LEVEL DIALOGUE CLOSURE REMAINS COMPLETE**  
-**Resolution:** **RESOLVED 2026-09-19** — the repository Dialogue Sync completed the full generation/validation chain after the Chapter-1 lock. Combined manuscripts, sync manifest, current runtime mirror, and exact-dialogue reader are current. Runtime verification: **2,901 spoken lines across 60 scenes**.
+**Resolution:** **RESOLVED 2026-09-19** — the repository Dialogue Sync completed the full generation/validation chain after the Chapter-1 lock. Combined manuscripts, sync manifest, current runtime mirror, and exact-dialogue reader are current. Runtime verification: **2,021 spoken lines across 56 scenes**.
 
 ## What is closed
 
@@ -16,7 +16,7 @@ The standalone atomic dialogue authorities for Chapters 0–3 are closed under t
 - current relationship progression and reveal timing;
 - current canon terminology.
 
-`CHAPTER_00_03_FULL_SOURCE_CLOSURE_2026-09-13.md` remains the owning cross-chapter closure record.
+`CHAPTERS_00_03_FULL_SOURCE_CLOSURE_2026-09-13.md` remains the owning cross-chapter closure record.
 
 No source dialogue rewrite is required in order to resolve this blocker.
 

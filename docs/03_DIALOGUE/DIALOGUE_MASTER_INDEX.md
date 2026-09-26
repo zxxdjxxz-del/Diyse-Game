@@ -2,7 +2,7 @@
 
 **Current whole-project written authority:** **v2.20 / Audit135**, plus later explicit user corrections/current domain migrations.  
 **Dialogue production root:** `docs/03_DIALOGUE/PRODUCTION/`  
-**Chapters 0–3 source-closure record:** `PRODUCTION/CHAPTER_00_03_FULL_SOURCE_CLOSURE_2026-09-13.md`
+**Chapters 0–3 source-closure record:** `PRODUCTION/CHAPTERS_00_03_FULL_SOURCE_CLOSURE_2026-09-13.md`
 
 ## Current global state
 
@@ -288,7 +288,7 @@ High-risk Chapter-3 spec/note fixes:
 - Chapter-3 paternal Torren/Nimera behavior explicitly blocked.
 
 Full record:
-- `PRODUCTION/CHAPTER_00_03_FULL_SOURCE_CLOSURE_2026-09-13.md`
+- `PRODUCTION/CHAPTERS_00_03_FULL_SOURCE_CLOSURE_2026-09-13.md`
 
 ---
 

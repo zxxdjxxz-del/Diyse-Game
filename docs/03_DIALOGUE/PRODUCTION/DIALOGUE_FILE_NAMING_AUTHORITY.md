@@ -117,7 +117,9 @@ Their generated title is **Synchronized Dialogue Manuscript**. They are derived 
 
 Do not encode rehearsal method, draft state, `WORKING`, `CURRENT`, or `FINAL` in a generated manuscript filename. Synchronization state belongs in the manuscript metadata and sync manifest.
 
-Cross-chapter generated sync metadata uses `CHAPTERS_00_03_DIALOGUE_SYNC_MANIFEST.md`. The generated Chapters 0–3 reader uses `DIYSE_Chapters_00-03_Spoiler_Free_Exact_Dialogue_Reader.docx`; freshness is determined by generation/validation, not a `CURRENT` filename suffix.
+Cross-chapter generated sync metadata uses `CHAPTERS_00_03_DIALOGUE_SYNC_MANIFEST.md`.
+
+Cross-chapter dated dialogue provenance/audits use the plural range prefix `CHAPTERS_00_03_...`, for example `CHAPTERS_00_03_FULL_SOURCE_CLOSURE_2026-09-13.md`. Dates are appropriate for audit/provenance records, not canonical scene identity. The generated Chapters 0–3 reader uses `DIYSE_Chapters_00-03_Spoiler_Free_Exact_Dialogue_Reader.docx`; freshness is determined by generation/validation, not a `CURRENT` filename suffix.
 
 ## Authority and historical files
 

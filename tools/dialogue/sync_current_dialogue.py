@@ -33,7 +33,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[2]
 PROD = ROOT / "docs/03_DIALOGUE/PRODUCTION"
 SYNC_MANIFEST = PROD / "CHAPTERS_00_03_DIALOGUE_SYNC_MANIFEST.md"
-SOURCE_CLOSURE = PROD / "CHAPTER_00_03_FULL_SOURCE_CLOSURE_2026-09-13.md"
+SOURCE_CLOSURE = PROD / "CHAPTERS_00_03_FULL_SOURCE_CLOSURE_2026-09-13.md"
 READER_OUT = ROOT / "build/dialogue/DIYSE_Chapters_00-03_Spoiler_Free_Exact_Dialogue_Reader.docx"
 
 
@@ -350,7 +350,7 @@ def render_sync_manifest(
         "",
         "The atomics remain exact wording authority. Combined manuscripts and the reader are generated derivatives.",
         "",
-        "**Source closure:** `CHAPTER_00_03_FULL_SOURCE_CLOSURE_2026-09-13.md`",
+        "**Source closure:** `CHAPTERS_00_03_FULL_SOURCE_CLOSURE_2026-09-13.md`",
         "",
         "## Combined manuscripts",
         "",
