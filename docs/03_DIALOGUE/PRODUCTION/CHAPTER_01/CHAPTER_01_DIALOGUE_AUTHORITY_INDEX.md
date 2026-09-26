@@ -1,23 +1,32 @@
 # Chapter 1 — Dialogue Authority Index
 
 **Chapter:** 1  
-**Status:** **FULL SOURCE-LEVEL DIALOGUE CLOSURE — 2026-09-23 NATURALISM / CHARACTER-LIFE TIGHTENING PASS COMPLETE**
-**Combined read-through:** `CHAPTER_01_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md` — **CURRENT synchronized derived mirror; standalone atomics remain exact wording authority**
-**Current atomic spoken-line counts:** **309 mandatory + 159 Character-Life = 468 if all three optional scenes are viewed** (C02 53 / C03 48 / C04 58).  
-**Character-Life numbering:** `../CHARACTER_LIFE_NUMBERING_LOCK.md`  
-**Character-Life content:** `CHARACTER_LIFE_REBUILD_LOCK.md`  
-**Rhythm:** `../../AGENT_SYSTEM/NATURAL_TURN_LENGTH_AND_FLOOR_HOLDING_LOCK.md`  
-**Mature-adult speech:** `../../AGENT_SYSTEM/MATURE_ADULT_SPEECH_AND_PROFANITY_LOCK.md`  
-**Spoken-vs-narration:** `../../AGENT_SYSTEM/SPOKEN_DIALOGUE_VS_NARRATION_LOCK.md`
+**Status:** **CURRENT 12-BEAT ATOMIC DIALOGUE AUTHORITY — 2026-09-25 CONTINUITY SURGERY COMPLETE**  
+**Combined read-through:** `CHAPTER_01_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md` — current synchronized derived mirror.  
+**Current spoken-line counts:** **272 mandatory + 159 Character-Life = 431 if all three optional scenes are viewed.**
 
 ## Authority rule
 
 1. Current standalone scene files are exact wording authority.
-2. Current character files and `external-services/canary/brains/*.yaml` are current Person-Brain authority.
-3. Current scene specs are production/rehearsal guardrails and must agree with current character authority.
-4. Canonical Character-Life IDs are C02/C03/C04 even though legacy filenames still use C03/C04/C05 source keys.
-5. The combined manuscript is a current synchronized derived mirror generated from the atomics; standalone atomics remain exact wording authority and always outrank the combined file.
-6. Git history is provenance, not live authority.
+2. Current Chapter-1 story authority and later explicit user corrections own structure and canon.
+3. Current character files and `external-services/canary/brains/*.yaml` own Person-Brain behavior.
+4. Current scene specs are production/rehearsal guardrails and must agree with current story and character authority.
+5. Canonical Character-Life IDs are C02/C03/C04 even though legacy filenames still use C03/C04/C05 source keys.
+6. The combined manuscript is a derived mirror and never outranks standalone atomics.
+7. Git history is provenance, not live authority.
+
+## Source-preservation note
+
+The 2026-09-25 restructuring used `DIYSE_Chapters_0-3_Spoiler_Free_Exact_Dialogue_Reader_CURRENT(6).docx` as the newest pre-restructure exact-dialogue source.
+
+The pass deliberately preserved its spoken wording wherever the new 12-beat structure still supports it.
+
+Dialogue-level changes were restricted to:
+- **Briarhide → Thornhide** terminology;
+- deletion of lines that depended on retired Six-Channel / forced-inner / Castellan / Cistern structures;
+- direct reconnection of surviving lines after those deletions.
+
+No new Shield Construct banter was added.
 
 ## Mainline atomic authority
 
@@ -26,95 +35,91 @@
 3. `BEAT_03_GREENHOLLOW_TORREN_DRAFT_A.md`
 4. `BEAT_04_HOLLOW_WATCH_APPROACH_DRAFT_A.md`
 5. `BEAT_05_OCCUPIED_HOLLOW_WATCH_FORT_DRAFT_A.md`
-6. `BEAT_06_BLACK_HOST_EXCAVATION_LOWER_ACCESS_DRAFT_A.md`
-7. `BEAT_07_LOWER_JUNCTION_SIX_CHANNELS_DRAFT_A.md`
-8. `BEAT_08_FORCED_INNER_SECTION_DRAFT_A.md`
-9. `BEAT_09_HOLLOW_WATCH_CASTELLAN_DRAFT_A.md`
-10. `BEAT_10_POST_CASTELLAN_MURAL_DRAFT_A.md`
-11. `BEAT_11_HOLLOW_WATCH_RESOLUTION_TORREN_RECRUITMENT_DRAFT_A.md`
-12. `BEAT_12_SOUTHERN_BRIAR_PASSAGE_DRAFT_A.md`
-13. `BEAT_13_BRIARHIDE_STALKER_DRAFT_A.md`
-14. `BEAT_14_THE_JUNCTION_HIDDEN_MONUMENT_DRAFT_A.md`
-15. `BEAT_15_JUNCTION_CAMP_CLEANUP_DRAFT_A.md`
+6. `BEAT_06_HOLLOW_WATCH_EXCAVATION_DRAFT_A.md`
+7. `BEAT_07_HOLLOW_WATCH_LANDSCAPE_DEPICTION_DRAFT_A.md`
+8. `BEAT_08_GREENHOLLOW_RESOLUTION_TORREN_RECRUITMENT_DRAFT_A.md`
+9. `BEAT_09_SOUTHERN_BRIAR_PASSAGE_DRAFT_A.md`
+10. `BEAT_10_THORNHIDE_DRAFT_A.md`
+11. `BEAT_11_THE_JUNCTION_HIDDEN_MONUMENT_DRAFT_A.md`
+12. `BEAT_12_JUNCTION_CAMP_CLEANUP_DRAFT_A.md`
+
+All twelve have matching current scene specs.
+
+## Mandatory spoken-line counts
+
+- Beat 1 — 67
+- Beat 2 — 14
+- Beat 3 — 41
+- Beat 4 — 11
+- Beat 5 — 10
+- Beat 6 — 6
+- Beat 7 — 18
+- Beat 8 — 22
+- Beat 9 — 14
+- Beat 10 — 20
+- Beat 11 — 43
+- Beat 12 — 6
+
+**Mandatory total: 272**
+
+The reduction from the prior 309-line 15-beat structure comes from structural removal rather than a broad voice rewrite.
 
 ## Character-Life atomic authority
 
 Available independently during the Chapter-1 cleanup window:
 
-- **C02 — Torren's Version of Dinner** — legacy source `C03_TORRENS_VERSION_OF_DINNER_REHEARSAL_FIRST_DRAFT_C.md`
-- **C03 — What the Map Says** — legacy source `C04_WHAT_THE_MAP_SAYS_REHEARSAL_FIRST_DRAFT_A.md`
-- **C04 — Not Professionally** — legacy source `C05_NOT_PROFESSIONALLY_REHEARSAL_FIRST_DRAFT_D.md`
+- **C02 — Torren's Version of Dinner** — legacy source `C03_TORRENS_VERSION_OF_DINNER_REHEARSAL_FIRST_DRAFT_C.md` — 53 spoken lines
+- **C03 — What the Map Says** — legacy source `C04_WHAT_THE_MAP_SAYS_REHEARSAL_FIRST_DRAFT_A.md` — 48 spoken lines
+- **C04 — Not Professionally** — legacy source `C05_NOT_PROFESSIONALLY_REHEARSAL_FIRST_DRAFT_D.md` — 58 spoken lines
 
-Protected C03 anchor remains exact:
+Protected C03 anchors remain exact:
+
 > **CYANIS:** Old slut?  
 > **TORREN:** Bitch.
 
 Later callback remains:
+
 > **TORREN:** Bitch.  
 > **CYANIS:** Old slut.
+
+## Structural continuity lock
+
+Current Chapter-1 dialogue follows the 12-beat story authority:
+
+- Beat 6 collapses the old lower excavation / Six-Channel / forced-inner progression into one short excavation.
+- The civilian-use relief exchange survives and is relocated into a small ancient room.
+- Shield Construct is a fixed stronger encounter with **no new dialogue and no miniboss framing**.
+- The Watch Castellan sequence is retired in full.
+- Beat 7 preserves the strong regional landscape-depiction conversation without post-Castellan staging.
+- Beat 8 preserves the Greenhollow resolution / Torren recruitment dialogue.
+- Beat 9 preserves the track exchange with **Thornhide** terminology and removes the side-access conversation.
+- Beat 10 preserves the Thornhide pre-fight/aftermath exchange and has no mid-battle dialogue.
+- Beat 11 preserves the Wayfinder discovery and `trainable` exchange while deleting all water/cistern/backtrack dialogue.
+- Beat 12 preserves the brief morning departure and the three Character-Life options; there is no Regional Hunt/backtrack.
+
+## Current Face terminology
+
+The six current Faces are:
+
+**Might / Elements / Grace / Memory / Perception / Ruin**
+
+**Resource is retired and must not be restored.**
 
 ## Current runtime-brain alignment
 
 Chapter 1 uses current Person Brains:
-- **Cyanis** — **Crest Knight only**; Crest Magus is locked until **Sixfold Volition at the end of Chapter 7**; `Leadership is not a dialogue assignment.`
-- **Ilyra** — **Blue Warden only**; Vowblade is locked until **Sixfold Volition at the end of Chapter 7**; `Grace is not a dialogue assignment.`
-- **Torren** — **War Archer only**; Routeweaver is locked until **Sixfold Volition at the end of Chapter 7**; `Sparse is an early-state tendency, not a permanent voice quota. Expertise is not a dialogue assignment.`
-- **Maevra** — already knows Cyanis and Ilyra well, remains their senior commander in operations, and may increasingly appear as an actual off-duty friend; `Command is not a dialogue assignment.`
+- **Cyanis** — Crest Knight only at this stage.
+- **Ilyra** — Blue Warden only at this stage.
+- **Torren** — War Archer only at this stage.
+- **Maevra** — noncombat traveling commander; already knows Cyanis and Ilyra well.
 
-The runtime brains now match the character authorities rather than relying on dialogue-level corrections to compensate for stale upstream behavior.
+Core performance rules remain:
+- leadership is not a dialogue assignment;
+- Grace is not a dialogue assignment;
+- expertise is not Torren's only permission to talk;
+- command is not Maevra's only permission to talk.
 
-## Cyanis — CLOSED
-
-Cyanis may lead, decide, joke, be wrong, revise, argue, and volunteer opinions without becoming the automatic prompt that lets every specialist explain the plot.
-
-Chapter-1 result:
-- leadership remains real;
-- he is not an exposition-question feed;
-- his Card self-reporting belongs to him;
-- he participates in ordinary jokes and arguments;
-- he can accept correction without losing authority or personality.
-
-## Ilyra — CLOSED
-
-Current rule:
-> **Grace is not a dialogue assignment.**
-
-Chapter-1 result:
-- medical judgment remains hers when medicine actually owns the scene;
-- she is not the default post-battle checker, safety veto, consent/agency manager, emotional interpreter, relationship reader, or party parent;
-- Beat 11 no longer gives her the automatic `you can change your mind / this is not an oath` role around Torren's recruitment;
-- Beat 12 no longer gives her the automatic `No` / safety veto at the old side access;
-- Character-Life scenes allow curiosity, gossip, profanity, teasing, ordinary opinion, and private friendship without converting everything into care work.
-
-## Torren — CLOSED
-
-Current rule:
-> **Sparse is an early-state tendency, not a permanent voice quota. Expertise is not a dialogue assignment.**
-
-Chapter-1 progression:
-- he begins guarded and conclusion-first;
-- terrain/routes/maps naturally pull longer expertise turns early;
-- social opening is already visible by the later chapter;
-- he joins jokes, prolongs arguments, laughs, swears, teases Cyanis and Ilyra, and talks about ordinary life without needing a map prompt;
-- C02 Dinner is the clearest non-route proof of that opening;
-- C03 What the Map Says is expertise-heavy by premise but also advances early friendship/insult rhythm.
-
-This progression carries directly into Chapter 2 and must not reset at the chapter boundary.
-
-## Maevra — CLOSED
-
-Current rule:
-> **They know one another well. Maevra is still their commander. Command is not a dialogue assignment.**
-
-Chapter-1 result:
-- Maevra already knows Cyanis and Ilyra well before Chapter 1;
-- operational orders remain real orders;
-- familiarity does not erase hierarchy;
-- rank does not force stiffness or emotional distance;
-- off duty she can joke, gossip, swear, complain, get competitive, argue recreationally, tell stories, and remain in the social scene after the task is done;
-- she is not a command-summary machine or the responsible adult watching everyone else have fun.
-
-## Maevra / Torren reveal ceiling — CLOSED
+## Maevra / Torren reveal ceiling
 
 The player may read:
 - obvious long familiarity;
@@ -134,111 +139,35 @@ Chapter 1 must not reveal:
 
 C04 `Not Professionally` may reveal only that Torren is more than an ordinary colleague to Maevra and matters to her personally.
 
-## Mature-adult speech — CLOSED
+## Mature-adult speech audit after structural trim
 
-The 2026-09-23 pass brought Chapter 1 into the current differentiated adult-register standard without changing mandatory scene count.
+The retained + current optional dialogue remains inside the existing differentiated target ranges:
 
-Current Chapter-1 audit:
-- **Cyanis — 10 / 97 = 10.3%** — target **7–14%**;
-- **Ilyra — 7 / 82 = 8.5%** — target **5–12%**;
-- **Torren — 12 / 150 = 8.0%** — target **7–16%**;
-- **Maevra — 6 / 123 = 4.9%** — target **2–6%**.
+- **Cyanis — 12 / 87 = 13.8%**
+- **Ilyra — 7 / 74 = 9.5%**
+- **Torren — 13 / 136 = 9.6%**
+- **Maevra — 6 / 118 = 5.1%**
 
-Vocabulary remains differentiated:
-- Cyanis favors `damn / shit / bullshit`;
-- Ilyra favors `damn / ass / shit / hell`;
-- Torren uses a rougher `fuck / shit / damn / hell` mix;
-- Maevra remains lower-frequency and register-sensitive.
-
-No profanity is inserted by quota. Hollow Watch grief, command language, and other moments that benefit from restraint remain restrained.
-
-## Natural uncertainty / canon-checker speech — CLOSED
-
-Current Beat 1–15 + C02/C03/C04 audit finds **zero targeted canon-checker constructions** under the current rule.
-
-Removed/reworked examples include:
-- Ilyra's formal `we don't know why` Card-summary phrasing in Beat 1;
-- Torren's `I haven't seen enough to call that fact` construction in Beat 3;
-- Maevra's `then that's all we know` in Beat 9;
-- the Beat-14 `important distinction / pretending we know` exchange.
-
-Plain human uncertainty such as `Don't know`, `No idea`, or a character admitting a guess remains where natural.
-
-## Character-Life tightening — CLOSED
-
-The optional layer was tightened from **187 → 159 spoken lines** while preserving each scene's complete social purpose:
-- **C02 — Torren's Version of Dinner:** **67 → 53**;
-- **C03 — What the Map Says:** **56 → 48**;
-- **C04 — Not Professionally:** **64 → 58**.
-
-The protected C03 anchors remain exact.
-
-## September 19, 2026 Chapter-1 dialogue lock
-
-The user explicitly approved the completed Beats 1–15 cleanup as the new Chapter-1 dialogue authority after:
-- current runtime Person-Brain audit;
-- true-character-voice audit;
-- Chapters 0–3 atomic voice comparison;
-- spoken-dialogue vs narration audit;
-- natural-turn/floor-holding audit;
-- relationship-stage and cross-chapter callback audit.
-
-The mandatory Beat 1–15 atomics supersede their prior wording in full. The Chapter-1 Character-Life atomics C02/C03/C04 now also use the approved rebalanced true-voice trims and supersede their prior longer wording.
-
-Key locked structural corrections include:
-- Beat 2: one halfway stop; no guided traversal dialogue;
-- Beat 5: no watch-room/lower-fort information stop;
-- Beat 6: gameplay-first descent; no scripted first Sentry beat;
-- Beat 7: six channels total, five ancient collapses, one usable channel;
-- Beat 8: one brief breach reaction; no threshold scene/pre-boss banter;
-- Beat 10: direct transition from mural to Greenhollow;
-- Beat 11: Greenhollow resolution/recruitment;
-- Beat 12: no guided traversal dialogue; Briarhide track before late side access;
-- Beat 14: Junction naming/hidden monument knowledge lock and mandatory `trainable` setup for Chapter 2;
-- Beat 15: no mandatory evening conversation; brief morning departure.
-
-## Material atomic corrections already current
-
-- Beat 1 — Maevra/Ilyra preexisting familiarity + rank corrected.
-- Beat 11 — exact Maevra/Torren duration leak removed; Maevra/Ilyra familiarity corrected; Ilyra agency-assignment line removed.
-- Beat 12 — Ilyra automatic safety veto removed; Torren social-opening progression strengthened.
-- C02 Dinner — premature Nimera reference removed; Torren/Maevra social behavior strengthened.
-
-## Spec alignment — CLOSED
-
-Material spec corrections from the final source-closure sweep:
-- Beat 1 — seeded Maevra's preexisting familiarity with Cyanis/Ilyra, real hierarchy, current Ilyra guardrail, and current runtime brains;
-- Beat 3 — locked Maevra/Torren long familiarity while blocking chronology/romance disclosure and route-function drift;
-- Beat 11 — blocked Ilyra agency-management recruitment dialogue, preserved Maevra/Ilyra familiarity, and reinforced Maevra/Torren reveal ceiling;
-- Beat 12 — carried Torren's social opening into guided travel and blocked automatic Ilyra safety-veto assignment;
-- C02 Dinner — blocked premature Nimera knowledge, encoded non-route Torren social behavior and off-duty Maevra friendship;
-- C03 What the Map Says — preserved exact insult anchors while clarifying that expertise is not Torren's only permission to talk;
-- C04 Not Professionally — preserved the exact relationship reveal ceiling and Ilyra/Maevra's preexisting friendship while blocking therapist/relationship-reader drift.
-
-Other Chapter-1 specs remain subordinate to the current character/runtime authorities and current atomic wording; no conflict requiring material rewrite was found in the completed ensemble audit.
+No profanity was added to compensate for removed lines.
 
 ## Spoken-dialogue / narration rule
 
 > **The environment shows. Evidence owners interpret. Authority figures decide. Characters react. Nobody recites the scene back to the player.**
 
-Natural adult speech does not justify repeating visible evidence or known plot information.
+Chapter 1 also retains the project-wide rule:
+- no walking dialogue;
+- no mid-battle dialogue.
 
 ## Current production state
 
-- atomic dialogue — **CURRENT**;
-- Person-Brain performance — **COMPLETE**;
-- final ensemble character balance — **COMPLETE**;
-- Ilyra role balance — **COMPLETE**;
-- Torren social progression — **COMPLETE**;
-- Maevra familiarity/rank/friendship progression — **COMPLETE**;
-- Maevra/Torren reveal timing — **COMPLETE**;
-- mature-adult speech/profanity — **COMPLETE**;
-- current runtime brains — **ALIGNED**;
-- high-risk/applicable scene specs — **ALIGNED**;
-- natural-turn audit — **COMPLETE**;
-- spoken-dialogue/narration audit — **COMPLETE**;
-- combined manuscript — **DERIVED; regenerate/verify after atomic changes**;
-- Chapters 0–3 reader/runtime derivatives — **DERIVED; regenerate/verify after atomic changes**.
+- 12-beat story authority — **CURRENT**;
+- 12-beat atomic dialogue — **CURRENT**;
+- matching scene specs — **CURRENT**;
+- Character-Life atomics — **CURRENT**;
+- combined manuscript — **CURRENT SYNCHRONIZED DERIVED MIRROR**;
+- current Person-Brain compatibility — **PRESERVED THROUGH STRUCTURAL PASS**;
+- exact-dialogue reader — **must be regenerated from these atomics before it again becomes the newest reader authority**;
+- legacy implementation dialogue resources — **DERIVED / require later synchronization**.
 
 ## Conflict order
 
@@ -251,18 +180,7 @@ If Chapter-1 sources disagree:
 6. current standalone atomic dialogue for exact wording;
 7. workflow locks;
 8. this index for status/location;
-9. current combined manuscript as a verified derived read-through only; it never overrides standalone atomics;
+9. current combined manuscript as a verified derived read-through only;
 10. historical material only as provenance.
 
-> **Chapter 1 is locked current at the atomic source level: 309 mandatory lines plus 159 optional Character-Life lines = 468 total. Derived manuscript/runtime mirrors must match these atomics before they are treated as current.**
-
-
-## Current Person-Brain compatibility audit
-
-**September 25, 2026: PASS — no dialogue regeneration required.**
-
-The current exact atomics were rechecked against the live runtime Person Brains and current relationship chronology after the Person-Brain architecture expansion.
-
-See the chapter-local `*_PERSON_BRAIN_COMPATIBILITY_AUDIT.md`.
-
-This pass does not freeze future revision if canon, scene authority, or a live Person Brain materially changes. It establishes that the current approved wording remains a plausible output of the current agents and should not be regenerated merely for architectural parity.
+> **Chapter 1 is current at the atomic source level: 272 mandatory spoken lines plus 159 optional Character-Life lines = 431 total.**
