@@ -1,4 +1,4 @@
-# Chapter 0 — P01
+# Chapter 0 — B01
 # Convoy / Opening Ambush
 ## REHEARSAL-FIRST PRODUCTION DRAFT — PERSON-BRAIN PERFORMANCE PASS
 
@@ -118,7 +118,7 @@ Battle ends and player control returns again. The road damage, smoke, and worsen
 
 **Combat 3:** 2 Convoy Rift Hounds.
 
-Combat 3 is the final P01 fight. After victory, the player reaches the Wreck Field and encounters rescue/investigation gameplay before any further battle.
+Combat 3 is the final B01 fight. After victory, the player reaches the Wreck Field and encounters rescue/investigation gameplay before any further battle.
 
 No Beast Handler appears in Chapter 0.  
 No concealed Ruin Vanguard appears here.  
@@ -135,7 +135,7 @@ Cyanis remains separated on the east side with survivors still exposed.
 
 The Card remains cased and inert.
 
-Player control moves into **P02 — Wreck Field**.
+Player control moves into **B02 — Wreck Field**.
 
 ---
 

@@ -1,4 +1,4 @@
-# Chapter 0 — P02
+# Chapter 0 — B02
 # Wreck Field
 ## REHEARSAL-FIRST PRODUCTION DRAFT — PERSON-BRAIN PERFORMANCE PASS
 
@@ -132,7 +132,7 @@ The Hound appears.
 
 **AUTHORED COMBAT — CYANIS SOLO VS. CONVOY RIFT HOUND.**
 
-This is not an ordinary random encounter; it is the explicit P02 story encounter.
+This is not an ordinary random encounter; it is the explicit B02 story encounter.
 
 No added transformation or hidden meaning.
 
@@ -198,7 +198,7 @@ Story state remains deliberately unresolved: the north withdrawal may be genuine
 
 The Card remains cased and inert.
 
-Next: **P03 — Evacuation Relay Decision.**
+Next: **B03 — Evacuation Relay Decision.**
 
 ---
 

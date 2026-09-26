@@ -1,4 +1,4 @@
-# Chapter 0 — P06
+# Chapter 0 — B06
 # Riftmaw + War-Sorcerer / Final Broken Convoy Confrontation
 ## REHEARSAL-FIRST PRODUCTION DRAFT — PERSON-BRAIN PERFORMANCE PASS
 
@@ -6,7 +6,7 @@
 
 ### [FINAL PUSH — STORY TRIGGER]
 
-The noncombat reset from P05 has had time to breathe.
+The noncombat reset from B05 has had time to breathe.
 
 The recovered Card is still inside its damaged recovery casing and remains inert when the final push begins.
 
@@ -254,9 +254,9 @@ Scene ends.
 
 ---
 
-## P06 end state
+## B06 end state
 
-Riftmaw and the Convoy War-Sorcerer are defeated in the combined final encounter. The second incomplete Card flare has occurred and fully ended. The recovery casing breaks during the fight; the Card survives intact and Cyanis picks it up afterward. From here through P07, camp cleanup, departure, and Chapter 1, the group carries the Card itself. Nobody has identified the phenomenon as Prime, Might, Last Sentinel, bearer confirmation, an ancient weapon, or anything Entity-related.
+Riftmaw and the Convoy War-Sorcerer are defeated in the combined final encounter. The second incomplete Card flare has occurred and fully ended. The recovery casing breaks during the fight; the Card survives intact and Cyanis picks it up afterward. From here through B07, camp cleanup, departure, and Chapter 1, the group carries the Card itself. Nobody has identified the phenomenon as Prime, Might, Last Sentinel, bearer confirmation, an ancient weapon, or anything Entity-related.
 
 ## Person-Brain performance note
 

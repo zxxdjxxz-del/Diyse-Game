@@ -1,10 +1,10 @@
-# Chapter 0 — P05
+# Chapter 0 — B05
 # Concealed Ruin Vanguard
 ## REHEARSAL-FIRST PRODUCTION DRAFT — PERSON-BRAIN PERFORMANCE + ILYRA ROLE-BALANCE PASS
 
 ---
 
-### [PERIMETER — AFTER P04]
+### [PERIMETER — AFTER B04]
 
 The first green-and-gold flare is completely over.
 
@@ -116,7 +116,7 @@ Nobody infers who he is, why he withdrew, or whether the north cut was bait.
 
 ### [NONCOMBAT RESET — TRIAGE LINE]
 
-The scene returns to the defended treatment area before P06.
+The scene returns to the defended treatment area before B06.
 
 There is a real noncombat interval here.
 
@@ -188,15 +188,15 @@ Player control can return briefly inside the defended area before the final atta
 
 ---
 
-## P05 end state
+## B05 end state
 
-The concealed Ruin Vanguard has withdrawn alive. Cyanis and Ilyra do not know his identity and do not chase. The encounter proves nothing about the northern withdrawal. The first flare remains fully over and the Card remains inert. The player receives a genuine breathing/reset interval before P06.
+The concealed Ruin Vanguard has withdrawn alive. Cyanis and Ilyra do not know his identity and do not chase. The encounter proves nothing about the northern withdrawal. The first flare remains fully over and the Card remains inert. The player receives a genuine breathing/reset interval before B06.
 
 ## Person-Brain / Ilyra role-balance note
 
 - the threat approach stays appropriately terse, but Cyanis gives the actual uncertainty behind `just one` rather than using the line as empty ominous setup.
 - Ilyra's refusal to chase is tactical judgment, not healer-coded caution.
-- the reset scene is deliberately not built around Ilyra handing Cyanis water and administering another check. Cyanis takes water himself, Ilyra discusses uncertainty and the Vanguard because she is curious and skeptical, and Cyanis volunteers the symptom update from continuity already established in P04.
+- the reset scene is deliberately not built around Ilyra handing Cyanis water and administering another check. Cyanis takes water himself, Ilyra discusses uncertainty and the Vanguard because she is curious and skeptical, and Cyanis volunteers the symptom update from continuity already established in B04.
 - Ilyra explicitly values not inventing answers when evidence is incomplete, giving her a nonmedical reasoning trait that can recur without making her an expert outside her domains.
 - their humor can start becoming more comfortable without implying instant intimacy.
 - no identity, motive, northern-cut answer, or Card information is added.

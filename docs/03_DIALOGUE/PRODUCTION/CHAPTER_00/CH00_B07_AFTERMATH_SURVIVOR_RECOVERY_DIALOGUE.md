@@ -1,4 +1,4 @@
-# Chapter 0 — P07
+# Chapter 0 — B07
 # Aftermath / Survivor Recovery / Overnight Camp
 ## REHEARSAL-FIRST PRODUCTION DRAFT — PERSON-BRAIN PERFORMANCE PASS
 
@@ -10,7 +10,7 @@ The final boss encounter is over.
 
 The Broken Convoy does not celebrate. The immediate organized Black Host push has failed, but the field still contains wounded people, missing people, damaged wagons, and unfinished work.
 
-The recovery casing was destroyed during P06. Cyanis now carries the intact Card itself. It is dark and inert.
+The recovery casing was destroyed during B06. Cyanis now carries the intact Card itself. It is dark and inert.
 
 The active triage area may contain the people actually present as simple field models. Portraits and the dialogue box carry the conversation.
 
@@ -232,7 +232,7 @@ The player may remain in cleanup or use the later explicit **Continue to Bracken
 
 ---
 
-## P07 end state
+## B07 end state
 
 - the immediate Black Host convoy-interception operation is over;
 - recovery work, not celebration, closes the crisis;

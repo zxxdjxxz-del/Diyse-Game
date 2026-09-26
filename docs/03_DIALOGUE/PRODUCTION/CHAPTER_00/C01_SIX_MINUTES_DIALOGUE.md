@@ -4,7 +4,7 @@
 
 ### [OVERNIGHT CAMP — OPTIONAL CHARACTER-LIFE TRIGGER]
 
-Late evening after P07.
+Late evening after B07.
 
 Most of the surviving convoy has already moved toward Brackenwall. Cyanis and Ilyra remain at the quieter field camp with the intact, inert Card and minimal practical support.
 
