@@ -1,38 +1,13 @@
-# DIYSE — Chapter 1 — Synchronized Rehearsal-First Working Dialogue Manuscript
+# Chapter 1 — Rehearsal-First Working Dialogue Manuscript
 
-**Status:** CURRENT DERIVED READ-THROUGH — SYNCHRONIZED AGAINST CURRENT ATOMIC DIALOGUE SOURCES
+**Status:** CURRENT SYNCHRONIZED DERIVED MIRROR — 2026-09-25  
+**Mainline structure:** 12 beats  
+**Exact wording authority:** standalone atomic dialogue files in this folder  
+**Protected source for preserved lines during the 12-beat continuity pass:** `DIYSE_Chapters_0-3_Spoiler_Free_Exact_Dialogue_Reader_CURRENT(6).docx`
 
-**Authority rule:** standalone atomic scene files remain exact wording authority. This file is generated, not hand-authored. After any atomic edit, rerun `python tools/dialogue/sync_current_dialogue.py` before describing this manuscript as current.
-
-## Source manifest
-
-| Order | Canonical slot | Atomic source | SHA-256 |
-|---:|---|---|---|
-| 1 | Beat 1 | `BEAT_01_BRACKENWALL_PROTOCOL_DRAFT_A.md` | `9adf084cb2027fdff79a39e50442a1ed5328239f66085f6ef84becfb167e827c` |
-| 2 | Beat 2 | `BEAT_02_BRIAR_PASSAGE_FIRST_TRAVERSAL_DRAFT_A.md` | `1c0f56ff7beb9c207084b1ceb0b500d6c0f807f2e299ea9f4533f5473ea7fffe` |
-| 3 | Beat 3 | `BEAT_03_GREENHOLLOW_TORREN_DRAFT_A.md` | `82d236d8f130c93833a76d0d708addb9c8d9daecd5f85b34bae45af78366913a` |
-| 4 | Beat 4 | `BEAT_04_HOLLOW_WATCH_APPROACH_DRAFT_A.md` | `4e394644f33730a631c211e75d7473afe330e60a1a227e2e2a7ce5062d2f8145` |
-| 5 | Beat 5 | `BEAT_05_OCCUPIED_HOLLOW_WATCH_FORT_DRAFT_A.md` | `5ecfaf0148531e91a17ae11dcf398aeea21caf746e2d3b1e2348c71a61ccfa87` |
-| 6 | Beat 6 | `BEAT_06_BLACK_HOST_EXCAVATION_LOWER_ACCESS_DRAFT_A.md` | `6152a8d706caaa2ea9c2f9093aa515e721fa4490d3949b6fc5e6d2e357dd033a` |
-| 7 | Beat 7 | `BEAT_07_LOWER_JUNCTION_SIX_CHANNELS_DRAFT_A.md` | `6fa43af677bd674f8bf6e36822c47f7630441b357250a9a58a50650d01e83c3e` |
-| 8 | Beat 8 | `BEAT_08_FORCED_INNER_SECTION_DRAFT_A.md` | `f645dff0a1aef8bd840502541e08eb2aa39744dec47d6275a77248424392668c` |
-| 9 | Beat 9 | `BEAT_09_HOLLOW_WATCH_CASTELLAN_DRAFT_A.md` | `18af6bd6300504bc968d43aa1e22a41f1bbc4c4a13f2477d1e59282ae72fe336` |
-| 10 | Beat 10 | `BEAT_10_POST_CASTELLAN_MURAL_DRAFT_A.md` | `17ebace1545d216a1f36b46c5b2083fdd1a0cc7df59513e0d8617e1ff55e36c8` |
-| 11 | Beat 11 | `BEAT_11_HOLLOW_WATCH_RESOLUTION_TORREN_RECRUITMENT_DRAFT_A.md` | `c705f7ac1502de3669f37a55bc38d9eb1eb60884b6f491909b73fa6c77861e02` |
-| 12 | Beat 12 | `BEAT_12_SOUTHERN_BRIAR_PASSAGE_DRAFT_A.md` | `ac006fab6f7a0b21edaeef99b9f280ddf06f7e5023deee5e4a42bffa91643a61` |
-| 13 | Beat 13 | `BEAT_13_BRIARHIDE_STALKER_DRAFT_A.md` | `c2c3d202a6887791e6beccb8a323c68b0321d271c300f6aa42c567e8874331da` |
-| 14 | Beat 14 | `BEAT_14_THE_JUNCTION_HIDDEN_MONUMENT_DRAFT_A.md` | `6f4be76e0aaf51217d69dbb2b8914ebedb18bab9a09d54e087d8a41d50ec46a8` |
-| 15 | Beat 15 | `BEAT_15_JUNCTION_CAMP_CLEANUP_DRAFT_A.md` | `206613b8a977fe5e9b6b9c6aed9fd610c13470c70de6d63c83aba8ee78db6210` |
-| 16 | C02 — Torren's Version of Dinner | `C03_TORRENS_VERSION_OF_DINNER_REHEARSAL_FIRST_DRAFT_C.md` | `ebcbba9cc2119a7cbc7cddd31e8b10b08152e4b2f35c36cd558de636ebc1e2fd` |
-| 17 | C03 — What the Map Says | `C04_WHAT_THE_MAP_SAYS_REHEARSAL_FIRST_DRAFT_A.md` | `95b3543190d0e5ba166ad0b0d726ee2d922228f4370eb82f7d8ef6af2f369b6d` |
-| 18 | C04 — Not Professionally | `C05_NOT_PROFESSIONALLY_REHEARSAL_FIRST_DRAFT_D.md` | `29724fe0f2b066490993faf9af03e7cc629731b085a7cc414570fe7dc429fdbd` |
+This manuscript is regenerated from the current Chapter-1 atomics. If it ever disagrees with a standalone atomic, the standalone atomic wins.
 
 ---
-
-## Beat 1
-
-**Atomic source:** `BEAT_01_BRACKENWALL_PROTOCOL_DRAFT_A.md`  
-**Source SHA-256:** `9adf084cb2027fdff79a39e50442a1ed5328239f66085f6ef84becfb167e827c`
 
 # Chapter 1 — Beat 1
 # Brackenwall / Protocol
@@ -228,11 +203,6 @@ Player control returns in Brackenwall.
 
 ---
 
-## Beat 2
-
-**Atomic source:** `BEAT_02_BRIAR_PASSAGE_FIRST_TRAVERSAL_DRAFT_A.md`  
-**Source SHA-256:** `1c0f56ff7beb9c207084b1ceb0b500d6c0f807f2e299ea9f4533f5473ea7fffe`
-
 # Chapter 1 — Beat 2
 # Briar Passage / First Traversal
 ## CURRENT LOCKED DIALOGUE — TRUE-VOICE / DIALOGUE-ECONOMY PASS
@@ -315,11 +285,6 @@ Next mandatory scene:
 **Greenhollow / Torren**
 
 ---
-
-## Beat 3
-
-**Atomic source:** `BEAT_03_GREENHOLLOW_TORREN_DRAFT_A.md`  
-**Source SHA-256:** `82d236d8f130c93833a76d0d708addb9c8d9daecd5f85b34bae45af78366913a`
 
 # Chapter 1 — Beat 3
 # Greenhollow / Torren
@@ -455,11 +420,6 @@ Maevra remains noncombat.
 
 ---
 
-## Beat 4
-
-**Atomic source:** `BEAT_04_HOLLOW_WATCH_APPROACH_DRAFT_A.md`  
-**Source SHA-256:** `4e394644f33730a631c211e75d7473afe330e60a1a227e2e2a7ce5062d2f8145`
-
 # Chapter 1 — Beat 4
 # Hollow Watch Approach
 ## CURRENT LOCKED DIALOGUE — TRUE-VOICE / DIALOGUE-ECONOMY PASS
@@ -547,11 +507,6 @@ Next mandatory scene:
 **Occupied Hollow Watch**
 
 ---
-
-## Beat 5
-
-**Atomic source:** `BEAT_05_OCCUPIED_HOLLOW_WATCH_FORT_DRAFT_A.md`  
-**Source SHA-256:** `5ecfaf0148531e91a17ae11dcf398aeea21caf746e2d3b1e2348c71a61ccfa87`
 
 # Chapter 1 — Beat 5
 # Occupied Hollow Watch
@@ -659,16 +614,12 @@ Next mandatory section:
 
 ---
 
-## Beat 6
-
-**Atomic source:** `BEAT_06_BLACK_HOST_EXCAVATION_LOWER_ACCESS_DRAFT_A.md`  
-**Source SHA-256:** `6152a8d706caaa2ea9c2f9093aa515e721fa4490d3949b6fc5e6d2e357dd033a`
-
 # Chapter 1 — Beat 6
-# Black Host Excavation / Lower Access
-## CURRENT LOCKED DIALOGUE — TRUE-VOICE / DIALOGUE-ECONOMY PASS
+# Hollow Watch Excavation
+## CURRENT LOCKED DIALOGUE — 12-BEAT CONTINUITY PASS
 
-**Status:** CURRENT ATOMIC DIALOGUE AUTHORITY — 2026-09-19
+**Status:** CURRENT ATOMIC DIALOGUE AUTHORITY — 2026-09-25  
+**Protected wording source:** `DIYSE_Chapters_0-3_Spoiler_Free_Exact_Dialogue_Reader_CURRENT(6).docx`
 
 ## [GAMEPLAY — DESCENT BELOW HOLLOW WATCH]
 
@@ -676,20 +627,18 @@ Player control is active.
 
 The party follows the Black Host excavation beneath the fort.
 
-There is no formal story stop here.
+The underground sequence is deliberately compact:
 
-The environment carries the progression:
+**fort foundation → Black Host excavation → buried Diysean corridor / few rooms → active Constructs**
 
-**fort basement → active excavation → mixed Yahtrean and older construction → predominantly Diysean structure → active ancient defenses → Six-Channel Junction**
+Black Host personnel do not appear once the party enters the Diysean corridor.
 
-Ordinary Black Host personnel remain random encounters.
-
-Deeper in the ruin, Diysean Sentries enter the normal random encounter pool. There is no scripted first activation.
+Ordinary underground encounters are Constructs only.
 
 Combat party:
 **Cyanis + Ilyra + Torren**
 
-Maevra remains with the group but does not participate in combat.
+Maevra remains with the traveling group but does not participate in combat.
 
 ## [BRIEF REACTION — EXCAVATION TRANSITION]
 
@@ -703,65 +652,11 @@ The group keeps moving.
 
 There is no stop for further analysis.
 
-## [GAMEPLAY — DEEPER RUIN]
+## [ENVIRONMENTAL DISCOVERY — CIVILIAN-USE RELIEF]
 
-The excavation becomes less like ordinary digging and more like forced access through existing architecture.
+In one of the few accessible ancient rooms, a surviving relief band shows ordinary people moving through the structure: adults, children, handcarts, animals, and injured people carried on litters.
 
-Farther in, the Diysean construction becomes increasingly intact.
-
-Diysean Sentries may appear through ordinary random encounters.
-
-No scripted dialogue is tied to the player's first Sentry encounter.
-
-The Card gives no new required response here.
-
-## [APPROACH TO THE LOWER JUNCTION]
-
-The route opens into a much larger constructed space ahead.
-
-The Black Host forcing work has largely fallen away by this point.
-
-No one stops to explain it.
-
-The party enters the chamber.
-
-## [GAMEPLAY HANDOFF]
-
-The **Six-Channel Junction** comes into view.
-
-Known:
-- the Black Host carried out sustained excavation beneath Hollow Watch;
-- the fort was built over substantially older Diysean construction;
-- the deeper structure is increasingly intact;
-- ancient defenses remain active;
-- the party still does not know the structure's original purpose;
-- the party still does not know the Black Host's ultimate target.
-
-Next mandatory scene:
-**Lower Junction / Six Channels**
-
----
-
-## Beat 7
-
-**Atomic source:** `BEAT_07_LOWER_JUNCTION_SIX_CHANNELS_DRAFT_A.md`  
-**Source SHA-256:** `6fa43af677bd674f8bf6e36822c47f7630441b357250a9a58a50650d01e83c3e`
-
-# Chapter 1 — Beat 7
-# Lower Junction / Six Channels
-## CURRENT LOCKED DIALOGUE — TRUE-VOICE / DIALOGUE-ECONOMY PASS
-
-**Status:** CURRENT ATOMIC DIALOGUE AUTHORITY — 2026-09-19
-
-## [STORY TRIGGER — SIX-CHANNEL JUNCTION]
-
-The party enters a circular Diysean junction.
-
-Six architectural channels meet here.
-
-Five are collapsed and inaccessible from ancient structural failure. Only one channel remains open.
-
-A surviving relief band shows ordinary people moving through the passage system: adults, children, handcarts, animals, and injured people carried on litters. The imagery suggests movement through the passages in more than one direction.
+The imagery suggests movement in more than one direction.
 
 The room is allowed to land visually before anyone speaks.
 
@@ -785,274 +680,69 @@ No one tries to solve the structure's original purpose.
 
 The Card remains inert.
 
-## [GAMEPLAY — SOLE SURVIVING CHANNEL]
+## [FIXED ENCOUNTER — SHIELD CONSTRUCT]
 
-Player control resumes.
+Farther along the short corridor, the party enters a room containing a dormant Shield Construct.
 
-There is no route choice.
+It is already standing in the room.
 
-Five channels remain collapsed and inaccessible. The party continues through the only surviving channel.
+As the party progresses into the space, it activates.
 
-No one suggests the Black Host tried the collapsed routes.
+There is no pre-fight dialogue.
 
-No additional junction conversation occurs.
-
-## [GAMEPLAY HANDOFF]
-
-**Objective: Follow the surviving channel deeper into the structure.**
-
-Known:
-- the junction was built with six channels;
-- five are ancient collapses and inaccessible;
-- one channel remains usable;
-- the surviving relief shows substantial use by ordinary people, including children, animals, handcarts, and injured people on litters;
-- movement may have occurred in more than one direction;
-- the exact function of the structure remains unknown;
-- the party does not know whether it served evacuation, transit, shelter, or some combination;
-- the Card remains inert.
-
-Next mandatory section:
-**Surviving Channel / Forced Inner Route**
-
----
-
-## Beat 8
-
-**Atomic source:** `BEAT_08_FORCED_INNER_SECTION_DRAFT_A.md`  
-**Source SHA-256:** `f645dff0a1aef8bd840502541e08eb2aa39744dec47d6275a77248424392668c`
-
-# Chapter 1 — Beat 8
-# Surviving Channel / Forced Inner Route
-## CURRENT LOCKED DIALOGUE — TRUE-VOICE / DIALOGUE-ECONOMY PASS
-
-**Status:** CURRENT ATOMIC DIALOGUE AUTHORITY — 2026-09-19
-
-## [GAMEPLAY — SOLE SURVIVING CHANNEL]
-
-Player control is active.
-
-The party follows the only surviving channel out of the Six-Channel Junction.
-
-There is no route choice and no walking exposition.
-
-The Diysean construction becomes increasingly intact as the party moves deeper.
-
-Ordinary Black Host personnel and Diysean defenses remain random encounters.
+**FIXED BATTLE — SHIELD CONSTRUCT**
 
 Combat party:
 **Cyanis + Ilyra + Torren**
 
-Maevra remains with the group but does not participate in combat.
+Maevra does not participate.
 
-## [BRIEF REACTION — FORCED BREACH]
+The Shield Construct is:
+- stronger than an ordinary Construct;
+- not random;
+- not a miniboss;
+- not a route gate;
+- not connected to a Card reaction;
+- not given a phase transition or boss-style aftermath.
 
-The surviving channel reaches an intact protected access that the Black Host was unable to open normally.
+There is no mid-battle dialogue.
 
-Instead, the Host broke through weaker surrounding construction beside it.
+After victory, the party continues normally.
 
-The party does not stop for a full investigation.
+## [GAMEPLAY — FINAL CORRIDOR]
 
-**CYANIS:** Couldn't open it.
+Environmental evidence remains deliberately inconclusive about why the Black Host excavation ended.
 
-**TORREN:** No. Door's still intact. They broke through the weaker stone around it.
+The party cannot establish whether:
+- the Black Host found what it wanted and withdrew;
+- the awakened Constructs drove it out;
+- or some combination of events occurred.
 
-**ILYRA:** Subtle.
-
-**MAEVRA:** Worked.
-
-The party continues immediately.
-
-## [GAMEPLAY — PROTECTED INNER SECTION]
-
-Beyond the breach, the architecture becomes cleaner and substantially more intact.
-
-Signs of successful Black Host forcing become less frequent.
-
-Diysean defenses remain active through ordinary random encounters.
-
-There is no Card reaction here.
-
-No one identifies what this inner section protects.
-
-No one explains why the defenses are active.
-
-There is no additional authored dialogue stop.
-
-## [CASTELLAN CHAMBER APPROACH]
-
-The inner route opens directly into a large intact chamber.
-
-There is no threshold conversation, no Card-status check, and no pre-boss banter.
-
-The party enters.
+The short corridor reaches the final ancient room.
 
 ## [GAMEPLAY HANDOFF]
-
-**Beat 9 — Hollow Watch Castellan** begins as the chamber responds to Cyanis crossing into the protected space.
-
-Known:
-- the Black Host could not open the protected access normally;
-- they forced entry through weaker surrounding construction;
-- the deeper layer is considerably more intact;
-- ancient defenses remain active;
-- the party still does not know what this section protects;
-- the Card has not reacted during Beat 8.
-
----
-
-## Beat 9
-
-**Atomic source:** `BEAT_09_HOLLOW_WATCH_CASTELLAN_DRAFT_A.md`  
-**Source SHA-256:** `18af6bd6300504bc968d43aa1e22a41f1bbc4c4a13f2477d1e59282ae72fe336`
-
-# Chapter 1 — Beat 9
-# Watch Castellan
-## CURRENT LOCKED DIALOGUE — TRUE-VOICE / DIALOGUE-ECONOMY PASS
-
-**Status:** CURRENT ATOMIC DIALOGUE AUTHORITY — 2026-09-19
-
-## [STORY TRIGGER — CHAMBER ACTIVATION]
-
-The party enters the intact chamber.
-
-Cyanis crosses a fitted line in the floor.
-
-Green-gold geometry wakes beneath him and races outward through the chamber.
-
-The Card answers with the same green-gold light.
-
-The ancient assembly integrated into the far architecture begins to move.
-
-**ILYRA:** Cyanis.
-
-**CYANIS:** I know.
-
-Torren looks toward the route behind them.
-
-**TORREN:** Back out?
-
-The movement in the chamber accelerates.
-
-Maevra answers before anyone wastes time testing it.
-
-**MAEVRA:** Too late. Deal with what's waking up.
-
-The integrated construct pulls itself into an active state.
-
-**CYANIS:** Right.
-
-**TORREN:** Move.
-
-**BOSS BATTLE — HOLLOW WATCH CASTELLAN**
-
-Maevra does not participate in combat.
-
-## [BOSS — INTEGRATED STATE]
-
-The Castellan begins the fight partially integrated into the chamber.
-
-Combat party:
-**Cyanis + Ilyra + Torren**
-
-The Card does not speak, identify Cyanis, reveal a Face, manifest a Prime, or explain the activation.
-
-## [BOSS TRANSITION — MOBILE STATE]
-
-At the encounter-authorized transition point, the Castellan tears free from the architecture and becomes fully mobile.
-
-It remains the same boss:
-- same HP bar;
-- no healing;
-- no reset.
-
-**No dialogue occurs during the transition or while active combat continues.** The visual/mechanical change carries the beat.
-
-## [BOSS — MOBILE STATE]
-
-The party defeats the Castellan.
-
-## [STORY TRIGGER — AFTERMATH]
-
-The construct goes inert.
-
-For a few seconds, nobody speaks.
-
-Ilyra looks at Cyanis.
-
-**ILYRA:** You?
-
-Cyanis takes a moment before answering.
-
-**CYANIS:** Fine. Nothing like that shit at Brackenwall.
-
-Maevra looks at the now-dark floor geometry.
-
-**MAEVRA:** Before it woke?
-
-**CYANIS:** Nothing I felt.
-
-Ilyra adds only what she actually observed.
-
-**ILYRA:** I didn't see the same physical reaction either.
-
-Maevra nods.
-
-**MAEVRA:** Then leave it there.
-
-Torren looks past the fallen Castellan.
-
-**TORREN:** There's a way through.
-
-The boss had been physically blocking a short protected passage beyond the chamber.
-
-Cyanis looks toward it.
-
-**CYANIS:** Let's see what's past it.
-
-No one explains why the Castellan activated.
-
-## [GAMEPLAY HANDOFF]
-
-Player control returns.
-
-The protected passage beyond the Castellan is now accessible.
-
-The route is short and leads directly to the next discovery area.
-
-Known:
-- the chamber responded when Cyanis crossed the fitted boundary while carrying the Card;
-- the audience can see the timing relationship between the Card and the activation;
-- the party cannot explain the mechanism;
-- the Castellan changed from integrated to mobile form on the same HP bar;
-- Maevra did not participate in combat;
-- the Black Host did not get through the Castellan;
-- the protected passage beyond it is now accessible.
 
 Next mandatory scene:
-**Post-Castellan Mural**
+**Beat 7 — Hollow Watch Landscape Depiction**
 
 ---
 
-## Beat 10
+# Chapter 1 — Beat 7
+# Hollow Watch Landscape Depiction
+## CURRENT LOCKED DIALOGUE — 12-BEAT CONTINUITY PASS
 
-**Atomic source:** `BEAT_10_POST_CASTELLAN_MURAL_DRAFT_A.md`  
-**Source SHA-256:** `17ebace1545d216a1f36b46c5b2083fdd1a0cc7df59513e0d8617e1ff55e36c8`
+**Status:** CURRENT ATOMIC DIALOGUE AUTHORITY — 2026-09-25  
+**Protected wording source:** `DIYSE_Chapters_0-3_Spoiler_Free_Exact_Dialogue_Reader_CURRENT(6).docx`
 
-# Chapter 1 — Beat 10
-# Post-Castellan Mural
-## CURRENT LOCKED DIALOGUE — TRUE-VOICE / DIALOGUE-ECONOMY PASS
+## [STORY TRIGGER — LANDSCAPE DEPICTION]
 
-**Status:** CURRENT ATOMIC DIALOGUE AUTHORITY — 2026-09-19
+The short ancient corridor opens into its final room.
 
-## [STORY TRIGGER — PROTECTED MURAL]
-
-The short protected passage beyond the Castellan opens into a mural chamber.
-
-The mural is allowed to land before anyone speaks.
+A large surviving landscape depiction is allowed to land before anyone speaks.
 
 It depicts:
 - fire falling from the sky across the region;
-- ordinary people moving toward and down into multiple deep entrances;
+- ordinary people moving toward and down into multiple constructed entrances;
 - recognizable regional geography;
 - Hollow Watch;
 - farther south, the crossroads Torren knows as the Junction;
@@ -1078,7 +768,7 @@ Cyanis looks at him.
 
 **TORREN:** Yeah. Ridge, slope, the break west of it. It's simplified, but that's this ground.
 
-That changes the mural.
+That changes the image.
 
 **MAEVRA:** Then the rest may be real too.
 
@@ -1103,6 +793,7 @@ His attention is fixed on the prominent structure depicted at the crossroads.
 **TORREN:** No. Could be gone, could be buried, could be the picture's wrong about the size. But if something like that were standing there now, I wouldn't have missed it.
 
 A brief silence.
+
 **MAEVRA:** We're already going south.
 
 **TORREN:** Junction's close enough to the route.
@@ -1113,44 +804,27 @@ A brief silence.
 
 **CYANIS:** I'll take that.
 
-The scene ends on the mural.
-
 ## [TRANSITION — GREENHOLLOW]
 
 Hollow Watch is finished.
 
-There is no playable backtrack through the ruin, no overlook resolution scene, and no second discussion of the Junction.
+There is no playable backtrack through the underground site, no overlook resolution scene, and no second discussion of the Junction.
 
 The game transitions directly back to Greenhollow.
 
 ## [GAMEPLAY HANDOFF]
 
-Known:
-- the mural depicts a regional catastrophe involving fire falling from the sky;
-- ordinary people were moving underground at multiple locations;
-- Torren recognizes Hollow Watch in the mural, confirming that the imagery uses real geography;
-- Torren also recognizes the southern crossroads known as the Junction;
-- the mural shows a prominent ancient structure at the Junction that Torren has never seen in the present day;
-- the party does not know what that structure was for;
-- the party does not know the exact purpose of the underground passages;
-- the party does not know what caused the catastrophe;
-- they intend to inspect the Junction while traveling south.
-
 Next mandatory scene:
-**Greenhollow Resolution / Torren Recruitment**
+**Beat 8 — Greenhollow Resolution / Torren Recruitment**
 
 ---
 
-## Beat 11
-
-**Atomic source:** `BEAT_11_HOLLOW_WATCH_RESOLUTION_TORREN_RECRUITMENT_DRAFT_A.md`  
-**Source SHA-256:** `c705f7ac1502de3669f37a55bc38d9eb1eb60884b6f491909b73fa6c77861e02`
-
-# Chapter 1 — Beat 11
+# Chapter 1 — Beat 8
 # Greenhollow Resolution / Torren Recruitment
-## CURRENT LOCKED DIALOGUE — TRUE-VOICE / DIALOGUE-ECONOMY PASS
+## CURRENT LOCKED DIALOGUE — 12-BEAT CONTINUITY PASS
 
-**Status:** CURRENT ATOMIC DIALOGUE AUTHORITY — 2026-09-19
+**Status:** CURRENT ATOMIC DIALOGUE AUTHORITY — 2026-09-25  
+**Protected wording source:** `DIYSE_Chapters_0-3_Spoiler_Free_Exact_Dialogue_Reader_CURRENT(6).docx`
 
 ## [GREENHOLLOW — RETURN]
 
@@ -1166,7 +840,7 @@ Maevra gives only the information needed to act.
 
 The local response takes over.
 
-There is no detailed retelling of the dungeon, Castellan fight, or mural.
+There is no detailed retelling of the excavation, Construct encounters, or landscape depiction.
 
 ## [TORREN]
 
@@ -1208,7 +882,7 @@ Maevra turns back to the journey.
 
 **TORREN:** Through southern Briar. Junction's close enough to check on the way.
 
-Nobody reopens the mural discussion.
+Nobody reopens the landscape-depiction discussion.
 
 Cyanis looks toward the south end of town.
 
@@ -1247,33 +921,21 @@ Permanent combat party:
 
 Maevra remains a non-combat traveling companion.
 
-## [GAMEPLAY HANDOFF — GREENHOLLOW]
+## [GAMEPLAY HANDOFF]
 
 Player control returns in Greenhollow.
 
-The player may prepare before leaving town.
-
-Current direction:
-- southern Briar Passage;
-- Dunmere remains the next practical destination;
-- the party will inspect the Junction while passing;
-- Torren is now a permanent party member.
-
 Next mandatory beat:
-**Southern Briar Passage**
+**Beat 9 — Southern Briar Passage**
 
 ---
 
-## Beat 12
-
-**Atomic source:** `BEAT_12_SOUTHERN_BRIAR_PASSAGE_DRAFT_A.md`  
-**Source SHA-256:** `ac006fab6f7a0b21edaeef99b9f280ddf06f7e5023deee5e4a42bffa91643a61`
-
-# Chapter 1 — Beat 12
+# Chapter 1 — Beat 9
 # Southern Briar Passage
-## CURRENT LOCKED DIALOGUE — TRUE-VOICE / DIALOGUE-ECONOMY PASS
+## CURRENT LOCKED DIALOGUE — 12-BEAT CONTINUITY PASS
 
-**Status:** CURRENT ATOMIC DIALOGUE AUTHORITY — 2026-09-19
+**Status:** CURRENT ATOMIC DIALOGUE AUTHORITY — 2026-09-25  
+**Protected wording source:** `DIYSE_Chapters_0-3_Spoiler_Free_Exact_Dialogue_Reader_CURRENT(6).docx`
 
 ## [GAMEPLAY — SOUTHERN BRIAR]
 
@@ -1298,19 +960,19 @@ Torren's expertise is demonstrated by the route the player is successfully takin
 
 Most traversal is silent.
 
-## [STORY TRIGGER — BRIARHIDE TRACK]
+## [STORY TRIGGER — THORNHIDE TRACK]
 
 Farther south, the party reaches a clear track pressed deeply into the route.
 
-Movement pauses.
+The group stops.
 
-The Briarhide itself is not visible.
+The Thornhide itself is not visible.
 
 **CYANIS:** That's a big son of a bitch.
 
 Torren's tone changes immediately.
 
-**TORREN:** Briarhide.
+**TORREN:** Thornhide.
 
 He studies what the track actually gives him.
 
@@ -1348,7 +1010,7 @@ A beat.
 
 The stop ends.
 
-The Briarhide Stalker is still not shown.
+The Thornhide is still not shown.
 
 ## [GAMEPLAY — DEEPER SOUTHERN BRIAR]
 
@@ -1360,81 +1022,33 @@ There is no spoken route guidance and no route-choice scene.
 
 The area design itself demonstrates that Torren is successfully getting the party through terrain that would otherwise be difficult to read.
 
-## [STORY TRIGGER — LATE OVERGROWN SIDE ACCESS]
+There is **no late side-access scene**.
 
-Late in Southern Briar, after the Briarhide track stop, the group reaches a heavily overgrown stone-lined cut branching away from the usable route.
-
-This is in the final third or quarter of the area.
-
-Movement pauses briefly.
-
-**MAEVRA:** That natural?
-
-Torren looks at the old stone line.
-
-**TORREN:** No.
-
-A beat.
-
-**TORREN:** Old access. I've seen the opening before. Never had a reason to use it.
-
-**CYANIS:** Goes where?
-
-**TORREN:** Don't know.
-
-**ILYRA:** Helpful.
-
-**TORREN:** It's overgrown, runs the wrong direction for Dunmere, and nothing I've ever needed was through it.
-
-Cyanis looks back toward the main route.
-
-**CYANIS:** We leave it.
-
-**TORREN:** Yeah. If the Junction gives us a reason to care, it's a short backtrack.
-
-No one identifies a cistern, Hunt, ancient-network function, or hidden objective.
+As the party moves deeper into Thornhide territory, large-animal disturbance becomes fresher while ordinary encounter frequency begins to thin.
 
 ## [GAMEPLAY — FINAL SOUTHERN STRETCH]
 
-Player control resumes.
-
 The final stretch becomes more direct.
 
-Navigation tension eases; the Briarhide tension replaces it.
+Navigation tension eases; Thornhide tension replaces it.
 
 There is **no additional dialogue**.
 
-The Briarhide Stalker itself is **not shown in Beat 12**.
+The Thornhide itself is **not clearly shown in Beat 9**.
 
 ## [GAMEPLAY HANDOFF]
 
-Beat 12 ends during normal traversal immediately before the Stalker's first clear visual reveal.
-
-Known:
-- Torren has demonstrated why his current route knowledge matters through successful navigation rather than spoken guidance;
-- Southern Briar is moderately maze-like without becoming a puzzle dungeon;
-- a very large Briarhide has recently moved along the party's route;
-- the party has not yet seen the animal itself;
-- the late overgrown stone-lined side access has been seen and left unexplored;
-- that side access is close enough to the final stretch that a later cleanup backtrack will be short;
-- the Junction is immediately ahead;
-- the Card remains inert.
-
 Next mandatory beat:
-**Briarhide Stalker**
+**Beat 10 — Thornhide**
 
 ---
 
-## Beat 13
-
-**Atomic source:** `BEAT_13_BRIARHIDE_STALKER_DRAFT_A.md`  
-**Source SHA-256:** `c2c3d202a6887791e6beccb8a323c68b0321d271c300f6aa42c567e8874331da`
-
-# Chapter 1 — Beat 13
+# Chapter 1 — Beat 10
 # Thornhide
-## CURRENT LOCKED DIALOGUE — TRUE-VOICE / DIALOGUE-ECONOMY PASS
+## CURRENT LOCKED DIALOGUE — 12-BEAT CONTINUITY PASS
 
-**Status:** CURRENT ATOMIC DIALOGUE AUTHORITY — 2026-09-19
+**Status:** CURRENT ATOMIC DIALOGUE AUTHORITY — 2026-09-25  
+**Protected wording source:** `DIYSE_Chapters_0-3_Spoiler_Free_Exact_Dialogue_Reader_CURRENT(6).docx`
 
 ## [GAMEPLAY — FINAL SOUTHERN BRIAR STRETCH]
 
@@ -1461,7 +1075,9 @@ The Thornhide is there.
 
 This is the first clear visual reveal of the animal.
 
-It is simply an exceptionally large native Thornhide. There is no Black Host equipment, corruption, machinery, special wound, or other condition to diagnose.
+It is an exceptionally large native Thornhide: a massive werebear-like beast covered in porcupine-like quills, with red eyes.
+
+There is no Black Host equipment, corruption, machinery, special wound, or other condition to diagnose.
 
 A beat.
 
@@ -1475,7 +1091,7 @@ Torren watches it.
 
 **TORREN:** Bigger than I thought.
 
-The Stalker holds the route.
+The Thornhide holds the route.
 
 **ILYRA:** It's not moving on.
 
@@ -1503,7 +1119,7 @@ Maevra stays back.
 
 **MAEVRA:** Do it.
 
-**BOSS BATTLE — BRIARHIDE STALKER**
+**BOSS BATTLE — THORNHIDE**
 
 ## [BOSS COMBAT]
 
@@ -1563,29 +1179,17 @@ The scene ends.
 
 ## [GAMEPLAY HANDOFF]
 
-Player control returns.
-
-The Thornhide threat is gone and the route forward is open.
-
-Chapter 1's final combat climax is complete.
-
-The Junction monument has still not been revealed.
-
 Next mandatory beat:
-**The Junction / Hidden Monument**
+**Beat 11 — The Junction / Hidden Monument**
 
 ---
 
-## Beat 14
-
-**Atomic source:** `BEAT_14_THE_JUNCTION_HIDDEN_MONUMENT_DRAFT_A.md`  
-**Source SHA-256:** `6f4be76e0aaf51217d69dbb2b8914ebedb18bab9a09d54e087d8a41d50ec46a8`
-
-# Chapter 1 — Beat 14
+# Chapter 1 — Beat 11
 # The Junction / Hidden Monument
-## CURRENT LOCKED DIALOGUE — TRUE-VOICE / DIALOGUE-ECONOMY PASS
+## CURRENT LOCKED DIALOGUE — 12-BEAT CONTINUITY PASS
 
-**Status:** CURRENT ATOMIC DIALOGUE AUTHORITY — 2026-09-22
+**Status:** CURRENT ATOMIC DIALOGUE AUTHORITY — 2026-09-25  
+**Protected wording source:** `DIYSE_Chapters_0-3_Spoiler_Free_Exact_Dialogue_Reader_CURRENT(6).docx`
 
 ## [GAMEPLAY — ARRIVAL AT THE JUNCTION]
 
@@ -1599,7 +1203,7 @@ Chapter 1's combat climax is over.
 
 The Junction itself is familiar ground to Torren: several old routes once converged here, and the modern southern road still passes through the same terrain.
 
-The monument shown in the Hollow Watch mural is not immediately recognizable.
+The ancient structure shown in the Hollow Watch landscape depiction is not immediately recognizable.
 
 ## [STORY TRIGGER — THE HIDDEN MONUMENT]
 
@@ -1653,17 +1257,23 @@ Torren studies it.
 
 **TORREN:** Route map, I think. Or close enough I'm willing to call it one. I know the ground; I don't know this system.
 
-## [THE MAP]
+## [THE WAYFINDER]
 
 The exposed surface is much larger in scope than a local route plate.
 
 Once the surviving relationships resolve, it reads as a broad map of **western ancient Diyse**.
 
-Dense overland route lines intersect and reconnect across the entire surviving region. A second, visually distinct system of markings threads through the map in a different grammar. **Production authority:** those markings correspond to underground infrastructure and routes, but Chapter 1 must not visually or verbally identify them that way yet. Repeated built-form clusters mark numerous ancient cities or settlements.
+Dense overland route lines intersect and reconnect across the entire surviving region.
+
+A second, visually distinct system of markings threads through the map in a different grammar.
+
+**Production authority:** those markings correspond to underground infrastructure and routes, but Chapter 1 must not visually or verbally identify them that way yet. The party only recognizes a separate large-scale system distinct from ordinary surface roads.
+
+Repeated built-form clusters mark numerous ancient cities or settlements.
 
 Six familiar Face markings appear as part of the old technical grammar:
 
-**Might. Elements. Grace. Perception. Memory. Ruin.**
+**Might. Elements. Grace. Memory. Perception. Ruin.**
 
 Their function here is not understood.
 
@@ -1717,28 +1327,6 @@ He studies the missing section.
 
 No one attempts to draw through the break or identify the missing ancient city.
 
-Torren's attention moves back to a local notation off the main alignment.
-
-**TORREN:** There's another mark back toward Southern Briar, near that overgrown side cut. Water—cistern, storage, something like that.
-
-**ILYRA:** So the useless branch has become interesting.
-
-Torren looks at her.
-
-**TORREN:** I said it was useless for Dunmere.
-
-**ILYRA:** Of course that's your defense.
-
-**TORREN:** Damn right.
-
-A small beat.
-
-**CYANIS:** Worth going back?
-
-**TORREN:** Worth checking while we're still close. Doesn't mean the damn mark survived.
-
-Nobody gives the side access a new name or predicts what lies beyond it.
-
 **MAEVRA:** Copy what's here.
 
 **CYANIS:** Works for me.
@@ -1766,7 +1354,6 @@ The copy preserves:
 - the numerous surviving city / settlement clusters;
 - the largest concentration around the geography of present-day Caelora and the exact shape/location of the physical break through its center;
 - the southeast alignment corresponding to the party's existing route toward Dunmere;
-- the water/cistern notation near the earlier Southern Briar side access;
 - the six Face markings.
 
 The party does **not** reconstruct or invent the missing Caelora-area center.
@@ -1813,52 +1400,27 @@ Torren looks back at him.
 
 **TORREN:** That's the goal.
 
-The scene ends.
+## [GAMEPLAY HANDOFF]
 
-## [GAMEPLAY HANDOFF — JUNCTION CAMP]
-
-Player control returns.
-
-The Junction is a safe post-boss discovery area.
-
-Known:
-- Torren correctly knew the Junction as an old crossroads but had never seen the hidden monument;
-- vines and moss concealed the monument's cartographic surface in plain sight;
-- the exposed surface is a route/map object, not a tunnel entrance;
-- the Wayfinder depicts a substantial western portion of ancient Diyse, not merely the Junction corridor;
-- dense surface routes cross the region alongside a distinct second marking system whose meaning remains unidentified;
-- the largest visible urban / infrastructure concentration lies around the geography of present-day Caelora;
-- the map is physically broken through the center of that Caelora-area concentration, leaving the largest ancient cluster incomplete;
-- the party can recognize the map's scale, the obvious overland routes, and the existence of a second extensive system of markings, but cannot identify what that second system represents or what occupied the missing center;
-- the party's existing route toward Dunmere follows an older Diysean alignment;
-- a water/cistern notation corresponds geographically with the earlier overgrown Southern Briar side access;
-- the six Face markings appear in the monument's technical grammar, but their function remains unknown;
-- the party has copied as much surviving western-map information as practical without reconstructing the broken center;
-- Dunmere remains the next practical destination;
-- the group will camp at the Junction and leave for Dunmere in the morning;
-- the Junction and Southern Briar remain accessible during the overnight cleanup window.
+**Rest when ready and continue toward Dunmere in the morning.**
 
 Next mandatory beat:
-**Junction Camp / Chapter 1 Cleanup**
+**Beat 12 — Junction Camp / Chapter 1 Cleanup**
 
 ---
 
-## Beat 15
-
-**Atomic source:** `BEAT_15_JUNCTION_CAMP_CLEANUP_DRAFT_A.md`  
-**Source SHA-256:** `206613b8a977fe5e9b6b9c6aed9fd610c13470c70de6d63c83aba8ee78db6210`
-
-# Chapter 1 — Beat 15
+# Chapter 1 — Beat 12
 # Junction Camp / Chapter 1 Cleanup Window
-## CURRENT LOCKED DIALOGUE — TRUE-VOICE / DIALOGUE-ECONOMY PASS
+## CURRENT LOCKED DIALOGUE — 12-BEAT CONTINUITY PASS
 
-**Status:** CURRENT ATOMIC DIALOGUE AUTHORITY — 2026-09-19
+**Status:** CURRENT ATOMIC DIALOGUE AUTHORITY — 2026-09-25  
+**Protected wording source:** `DIYSE_Chapters_0-3_Spoiler_Free_Exact_Dialogue_Reader_CURRENT(6).docx`
 
 ## [GAMEPLAY — JUNCTION CAMP, EVENING]
 
 Player control is active.
 
-The group camps near the Junction after the Briarhide Stalker fight and the hidden-monument discovery.
+The group camps near the Junction after the Thornhide fight and Wayfinder discovery.
 
 This is a safe camp area.
 
@@ -1884,9 +1446,9 @@ The player may remain in the cleanup window as long as desired before resting.
 
 The current Chapter 1 Character-Life scenes are available from this camp:
 
-- **Torren's Version of Dinner**
-- **What the Map Says**
-- **Two Professionals Complaining About Cyanis**
+- **C02 — Torren's Version of Dinner**
+- **C03 — What the Map Says**
+- **C04 — Not Professionally**
 
 These scenes are optional.
 
@@ -1894,27 +1456,9 @@ Any, all, or none may be completed before the player chooses to rest.
 
 They do not advance the chapter by themselves.
 
-Their own dialogue remains governed by their current rehearsal-first production authority and current character-agent brains.
+Their own standalone atomic files remain exact wording authority.
 
-Beat 15 does not add extra dialogue around them.
-
-## [OPTIONAL — SOUTHERN BRIAR BACKTRACK]
-
-The Junction map has made the earlier overgrown Southern Briar side access worth revisiting.
-
-The player may leave camp and return through the short late-Briar stretch.
-
-Once ordinary wilderness traversal resumes, Cyanis is again the sole visible party field character.
-
-There is no new conversation explaining the route or repeating the Junction clue.
-
-The earlier side access is now available for the optional **Cistern Devourer Hunt**.
-
-The clue was found at the Junction.
-
-The Hunt entrance remains in Southern Briar.
-
-The player may complete the Hunt and return to camp without advancing the chapter.
+There is no optional Southern Briar backtrack or Chapter-1 Regional Hunt.
 
 ## [MANDATORY INTERACTION — REST]
 
@@ -1980,10 +1524,14 @@ Card:
 
 ---
 
-## C02 — Torren's Version of Dinner
+# Optional Character-Life Scenes
 
-**Atomic source:** `C03_TORRENS_VERSION_OF_DINNER_REHEARSAL_FIRST_DRAFT_C.md`  
-**Source SHA-256:** `ebcbba9cc2119a7cbc7cddd31e8b10b08152e4b2f35c36cd558de636ebc1e2fd`
+Canonical cleanup-window IDs:
+- **C02 — Torren's Version of Dinner**
+- **C03 — What the Map Says**
+- **C04 — Not Professionally**
+
+Legacy filenames remain in use for these three standalone sources.
 
 # Chapter 1 — Character-Life C02
 # Torren's Version of Dinner
@@ -2149,11 +1697,6 @@ Scene ends.
 
 ---
 
-## C03 — What the Map Says
-
-**Atomic source:** `C04_WHAT_THE_MAP_SAYS_REHEARSAL_FIRST_DRAFT_A.md`  
-**Source SHA-256:** `95b3543190d0e5ba166ad0b0d726ee2d922228f4370eb82f7d8ef6af2f369b6d`
-
 # Chapter 1 — Character-Life C03
 # What the Map Says
 ## CURRENT LOCKED CHARACTER-LIFE DIALOGUE — TIGHTENED TRUE-VOICE PASS
@@ -2307,11 +1850,6 @@ Torren's head comes up as Cyanis leaves.
 Scene ends.
 
 ---
-
-## C04 — Not Professionally
-
-**Atomic source:** `C05_NOT_PROFESSIONALLY_REHEARSAL_FIRST_DRAFT_D.md`  
-**Source SHA-256:** `29724fe0f2b066490993faf9af03e7cc629731b085a7cc414570fe7dc429fdbd`
 
 # Chapter 1 — Character-Life C04
 # Not Professionally
@@ -2480,9 +2018,3 @@ Ilyra does not decide aloud which part she means.
 **MAEVRA:** Ruined it.
 
 Scene ends.
-
----
-
-## Synchronization footer
-
-This derived manuscript was assembled exclusively from the atomics listed above. No dialogue wording was rewritten during assembly.
