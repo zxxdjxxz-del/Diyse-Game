@@ -4,11 +4,11 @@
 
 [resource]
 script = ExtResource("1")
-scene_id = "S005"
+scene_id = "B04"
 chapter_id = "chapter_00"
 environment_family = "CH00_TRIAGE_SAFE_CAMP"
-battle_background_family = "CH00_TRIAGE_SAFE_CAMP"
+battle_background_family = ""
 cutscene_tier = "C2"
 vfx_tier = "V2"
-encounter_mode = "fixed_authored"
-presentation_tags = Array[String](["HD2D", "NO_RANDOM", "CAMP_PERIMETER_DEFENSE", "NO_CHAIN_PHYSICS"])
+encounter_mode = "none"
+presentation_tags = Array[String](["HD2D", "NO_RANDOM", "FIELD_TRIAGE_CAMP", "ILYRA_INTRODUCTION", "FIRST_INCOMPLETE_CARD_RESPONSE", "NO_PRIME_MANIFESTATION"])

@@ -4,11 +4,11 @@
 
 [resource]
 script = ExtResource("1")
-scene_id = "S002"
+scene_id = "B02"
 chapter_id = "chapter_00"
 environment_family = "CH00_WRECK_FIELD"
 battle_background_family = "CH00_WRECK_FIELD"
 cutscene_tier = "C1"
 vfx_tier = "V1"
 encounter_mode = "fixed_authored"
-presentation_tags = Array[String](["HD2D", "TUTORIAL_FIXED", "NO_RANDOM", "MULTI_COMPOSITION_WRECK_FIELD"])
+presentation_tags = Array[String](["HD2D", "NO_RANDOM", "WRECK_FIELD", "CYANIS_SOLO", "SURVIVOR_MOVEMENT_BETWEEN_FIGHTS"])

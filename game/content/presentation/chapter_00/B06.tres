@@ -4,11 +4,11 @@
 
 [resource]
 script = ExtResource("1")
-scene_id = "S004"
+scene_id = "B06"
 chapter_id = "chapter_00"
 environment_family = "CH00_TRIAGE_SAFE_CAMP"
-battle_background_family = ""
+battle_background_family = "CH00_TRIAGE_SAFE_CAMP"
 cutscene_tier = "C2"
 vfx_tier = "V2"
-encounter_mode = "none"
-presentation_tags = Array[String](["HD2D", "NO_RANDOM", "INCOMPLETE_GREEN_GOLD_RESPONSE", "NO_PRIME_MANIFESTATION"])
+encounter_mode = "fixed_authored"
+presentation_tags = Array[String](["HD2D", "NO_RANDOM", "RIFTMAW_WAR_SORCERER_COMBINED_BOSS", "SECOND_INCOMPLETE_CARD_RESPONSE", "CASING_BREAKS_CARD_INTACT", "NO_PRIME_MANIFESTATION"])

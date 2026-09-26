@@ -1,25 +1,27 @@
 extends SceneTree
 
 const PRESENTATION_DIR := "res://game/content/presentation/chapter_00/"
-const DIALOGUE_DIR := "res://game/content/dialogue/chapter_00/"
+const DIALOGUE_DIR := "res://game/content/dialogue/current/chapter_00/"
 const ScenePresentationDefinition = preload("res://game/presentation/scene_presentation_definition.gd")
 
 var failures: Array[String] = []
 
 const EXPECTED := {
-	"S001": {"environment": "CH00_CONVOY_ROAD", "background": "CH00_CONVOY_ROAD", "cutscene": "C1", "vfx": "V1", "encounter": "fixed_authored"},
-	"S002": {"environment": "CH00_WRECK_FIELD", "background": "CH00_WRECK_FIELD", "cutscene": "C1", "vfx": "V1", "encounter": "fixed_authored"},
-	"S003": {"environment": "CH00_RECOVERY_LINE", "background": "CH00_RECOVERY_LINE", "cutscene": "C1", "vfx": "V1", "encounter": "none"},
-	"S004": {"environment": "CH00_TRIAGE_SAFE_CAMP", "background": "", "cutscene": "C2", "vfx": "V2", "encounter": "none"},
-	"S005": {"environment": "CH00_TRIAGE_SAFE_CAMP", "background": "CH00_TRIAGE_SAFE_CAMP", "cutscene": "C2", "vfx": "V2", "encounter": "fixed_authored"},
-	"S006": {"environment": "CH00_RECOVERY_LINE", "background": "", "cutscene": "C1", "vfx": "V1", "encounter": "none"},
+	"B01": {"environment": "CH00_CONVOY_ROAD", "background": "CH00_CONVOY_ROAD", "cutscene": "C1", "vfx": "V1", "encounter": "fixed_authored"},
+	"B02": {"environment": "CH00_WRECK_FIELD", "background": "CH00_WRECK_FIELD", "cutscene": "C1", "vfx": "V1", "encounter": "fixed_authored"},
+	"B03": {"environment": "CH00_RECOVERY_LINE", "background": "CH00_RECOVERY_LINE", "cutscene": "C1", "vfx": "V1", "encounter": "none"},
+	"B04": {"environment": "CH00_TRIAGE_SAFE_CAMP", "background": "", "cutscene": "C2", "vfx": "V2", "encounter": "none"},
+	"B05": {"environment": "CH00_TRIAGE_SAFE_CAMP", "background": "CH00_TRIAGE_SAFE_CAMP", "cutscene": "C2", "vfx": "V1", "encounter": "fixed_authored"},
+	"B06": {"environment": "CH00_TRIAGE_SAFE_CAMP", "background": "CH00_TRIAGE_SAFE_CAMP", "cutscene": "C2", "vfx": "V2", "encounter": "fixed_authored"},
+	"B07": {"environment": "CH00_RECOVERY_LINE", "background": "", "cutscene": "C1", "vfx": "V1", "encounter": "none"},
 	"C01": {"environment": "CH00_TRIAGE_SAFE_CAMP", "background": "", "cutscene": "C0", "vfx": "V1", "encounter": "none"},
-	"C02": {"environment": "CH00_TRIAGE_SAFE_CAMP", "background": "", "cutscene": "C0", "vfx": "V1", "encounter": "none"},
 }
 
 func _initialize() -> void:
 	_validate_scene_sidecars()
 	_validate_environment_states()
+	_validate_current_story_boundaries()
+	_validate_legacy_layer_removed()
 	_validate_no_enemy_or_elite_placement_fields()
 	_finish()
 
@@ -27,15 +29,17 @@ func _validate_scene_sidecars() -> void:
 	for scene_id in EXPECTED.keys():
 		var presentation = load(PRESENTATION_DIR + scene_id + ".tres")
 		var dialogue = load(DIALOGUE_DIR + scene_id + ".tres")
-		_expect(presentation != null, "%s HD-2D presentation sidecar must load" % scene_id)
-		_expect(dialogue != null, "%s closed dialogue Resource must still load" % scene_id)
-		if presentation == null:
+		_expect(presentation != null, "%s current HD-2D presentation sidecar must load" % scene_id)
+		_expect(dialogue != null, "%s current dialogue Resource must load" % scene_id)
+		if presentation == null or dialogue == null:
 			continue
 		var schema_failures: Array[String] = presentation.validate_schema()
 		_expect(schema_failures.is_empty(), "%s presentation sidecar must pass schema validation: %s" % [scene_id, str(schema_failures)])
-		_expect(str(presentation.scene_id) == scene_id, "%s presentation sidecar must target the matching closed scene" % scene_id)
-		_expect(str(presentation.chapter_id) == "chapter_00", "%s sidecar must remain in Chapter 0" % scene_id)
 		var expected: Dictionary = EXPECTED[scene_id]
+		_expect(str(presentation.scene_id) == scene_id, "%s presentation slot ID mismatch" % scene_id)
+		_expect(str(presentation.chapter_id) == "chapter_00", "%s sidecar must remain in Chapter 0" % scene_id)
+		_expect(str(dialogue.chapter_id) == "chapter_00", "%s current dialogue chapter mismatch" % scene_id)
+		_expect(str(dialogue.scene_id).begins_with("CH00_%s_" % scene_id), "%s presentation must pair with the current canonical dialogue scene" % scene_id)
 		_expect(str(presentation.environment_family) == str(expected["environment"]), "%s environment family mismatch" % scene_id)
 		_expect(str(presentation.battle_background_family) == str(expected["background"]), "%s battle-background family mismatch" % scene_id)
 		_expect(str(presentation.cutscene_tier) == str(expected["cutscene"]), "%s cutscene tier mismatch" % scene_id)
@@ -64,12 +68,32 @@ func _validate_environment_states() -> void:
 		for required_state in expected["required"]:
 			_expect(definition.allows_state(str(required_state)), "%s must expose authored state %s" % [filename, required_state])
 
+func _validate_current_story_boundaries() -> void:
+	var b03 = load(PRESENTATION_DIR + "B03.tres")
+	var b04 = load(PRESENTATION_DIR + "B04.tres")
+	var b05 = load(PRESENTATION_DIR + "B05.tres")
+	var b06 = load(PRESENTATION_DIR + "B06.tres")
+	var b07 = load(PRESENTATION_DIR + "B07.tres")
+	_expect(str(b03.encounter_mode) == "none" and b03.has_tag("NO_COMBAT"), "B03 Evacuation Relay must remain combat-free")
+	_expect(b04.has_tag("FIRST_INCOMPLETE_CARD_RESPONSE") and b04.has_tag("NO_PRIME_MANIFESTATION"), "B04 must preserve the first incomplete Card response without Prime manifestation")
+	_expect(str(b05.encounter_mode) == "fixed_authored" and b05.has_tag("CONCEALED_RUIN_VANGUARD"), "B05 must own the separate concealed Ruin Vanguard encounter")
+	_expect(b05.has_tag("CARD_INERT") and b05.has_tag("VANGUARD_WITHDRAWS_ALIVE"), "B05 must keep the Card inert and the unidentified Vanguard alive")
+	_expect(b05.has_tag("NONCOMBAT_RESET_AFTER"), "B05 must preserve a real noncombat reset before B06")
+	_expect(str(b06.encounter_mode) == "fixed_authored" and b06.has_tag("RIFTMAW_WAR_SORCERER_COMBINED_BOSS"), "B06 must keep Riftmaw + War-Sorcerer as one combined final boss")
+	_expect(b06.has_tag("CASING_BREAKS_CARD_INTACT") and b06.has_tag("NO_PRIME_MANIFESTATION"), "B06 must preserve the casing break and non-Prime second response")
+	_expect(str(b07.encounter_mode) == "none" and b07.has_tag("BOUNDED_SURVIVOR_SWEEP"), "B07 must close through survivor recovery rather than another combat")
+	_expect(b07.has_tag("EXPLICIT_DEPARTURE_TO_CH1"), "Chapter 0 must remain active until explicit departure")
+
+func _validate_legacy_layer_removed() -> void:
+	for legacy_scene in ["S001", "S002", "S003", "S004", "S005", "S006", "C02"]:
+		_expect(not ResourceLoader.exists(PRESENTATION_DIR + legacy_scene + ".tres"), "Legacy Chapter-0 presentation sidecar must be removed: %s" % legacy_scene)
+
 func _validate_no_enemy_or_elite_placement_fields() -> void:
 	var definition = ScenePresentationDefinition.new()
 	var property_names: Array[String] = []
 	for property in definition.get_property_list():
 		property_names.append(str(property.get("name", "")))
-	for forbidden in ["enemy_id", "enemy_ids", "elite_id", "elite_ids", "encounter_table", "enemy_roster", "enemy_placement"]:
+	for forbidden in ["enemy_id", "enemy_ids", "elite_id", "elite_ids", "encounter_table", "enemy_roster", "enemy_placement", "elite_placement"]:
 		_expect(forbidden not in property_names, "Scene presentation sidecars must not lock enemy/Elite placement field: %s" % forbidden)
 
 func _expect(condition: bool, message: String) -> void:
@@ -78,7 +102,7 @@ func _expect(condition: bool, message: String) -> void:
 
 func _finish() -> void:
 	if failures.is_empty():
-		print("Diyse Audit88 Chapter 0 HD-2D presentation resource validation passed.")
+		print("Diyse Chapter 0 current B01-B07 HD-2D presentation validation passed.")
 		quit(0)
 		return
 	for failure in failures:

@@ -4,11 +4,11 @@
 
 [resource]
 script = ExtResource("1")
-scene_id = "C01"
+scene_id = "B05"
 chapter_id = "chapter_00"
 environment_family = "CH00_TRIAGE_SAFE_CAMP"
-battle_background_family = ""
-cutscene_tier = "C0"
+battle_background_family = "CH00_TRIAGE_SAFE_CAMP"
+cutscene_tier = "C2"
 vfx_tier = "V1"
-encounter_mode = "none"
-presentation_tags = Array[String](["HD2D", "NO_RANDOM", "CHARACTER_LIFE", "SIX_MINUTES", "OVERNIGHT_CAMP"])
+encounter_mode = "fixed_authored"
+presentation_tags = Array[String](["HD2D", "NO_RANDOM", "CONCEALED_RUIN_VANGUARD", "SEYRIK_WRITER_FACING_ONLY", "CARD_INERT", "VANGUARD_WITHDRAWS_ALIVE", "NONCOMBAT_RESET_AFTER"])

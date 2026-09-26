@@ -4,11 +4,11 @@
 
 [resource]
 script = ExtResource("1")
-scene_id = "S001"
+scene_id = "B01"
 chapter_id = "chapter_00"
 environment_family = "CH00_CONVOY_ROAD"
 battle_background_family = "CH00_CONVOY_ROAD"
 cutscene_tier = "C1"
 vfx_tier = "V1"
 encounter_mode = "fixed_authored"
-presentation_tags = Array[String](["HD2D", "TUTORIAL_FIXED", "NO_RANDOM", "AMBUSH_STATE_SWAP"])
+presentation_tags = Array[String](["HD2D", "NO_RANDOM", "OPENING_AMBUSH", "FIVE_SOLO_FIGHT_SEQUENCE_START", "CYANIS_SOLO"])

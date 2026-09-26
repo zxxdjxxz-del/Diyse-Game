@@ -4,11 +4,11 @@
 
 [resource]
 script = ExtResource("1")
-scene_id = "S003"
+scene_id = "B03"
 chapter_id = "chapter_00"
 environment_family = "CH00_RECOVERY_LINE"
 battle_background_family = "CH00_RECOVERY_LINE"
 cutscene_tier = "C1"
 vfx_tier = "V1"
 encounter_mode = "none"
-presentation_tags = Array[String](["HD2D", "TUTORIAL_FIXED", "NO_RANDOM", "STABILIZATION_INTERVAL", "NO_COMBAT"])
+presentation_tags = Array[String](["HD2D", "NO_RANDOM", "EVACUATION_RELAY_DECISION", "NO_COMBAT", "BOUNDED_WITHDRAWAL_DECISION"])
