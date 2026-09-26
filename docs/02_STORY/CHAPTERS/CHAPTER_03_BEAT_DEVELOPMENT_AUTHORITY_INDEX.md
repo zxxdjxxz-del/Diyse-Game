@@ -29,11 +29,11 @@
 ## Superseded dedicated packets
 
 The following filenames describe retired structures and must not be treated as current authority on those points:
-- CHAPTER_03_BEAT_07_ANCIENT_BARRIER_FIRST_COOPERATION_WORKING.md
-- CHAPTER_03_BEAT_08_ARCHIVE_SCRIBE_ENGINE_NIMERA_JOINS_WORKING.md
-- CHAPTER_03_BEAT_11_FIRST_COMMAND_WARDEN_WORKING.md
-- CHAPTER_03_BEAT_12_ANCIENT_SEAL_WORKING_CHAMBER_NORTHERN_ROUTE_WORKING.md
-- CHAPTER_03_BEAT_13_FOUR_ANSWERS_NOT_ONE_WORKING.md
-- CHAPTER_03_BEAT_14_JOURNEY_TO_CRESTHAVEN_WORKING.md
+- HISTORICAL/CHAPTER_03/CHAPTER_03_BEAT_07_ANCIENT_BARRIER_FIRST_COOPERATION_WORKING.md
+- HISTORICAL/CHAPTER_03/CHAPTER_03_BEAT_08_ARCHIVE_SCRIBE_ENGINE_NIMERA_JOINS_WORKING.md
+- HISTORICAL/CHAPTER_03/CHAPTER_03_BEAT_11_FIRST_COMMAND_WARDEN_WORKING.md
+- HISTORICAL/CHAPTER_03/CHAPTER_03_BEAT_12_ANCIENT_SEAL_WORKING_CHAMBER_NORTHERN_ROUTE_WORKING.md
+- HISTORICAL/CHAPTER_03/CHAPTER_03_BEAT_13_FOUR_ANSWERS_NOT_ONE_WORKING.md
+- HISTORICAL/CHAPTER_03/CHAPTER_03_BEAT_14_JOURNEY_TO_CRESTHAVEN_WORKING.md
 
-Other older Beat packets may contain reusable staging/prose ideas, but CHAPTER_03.md wins whenever structure, party state, map provenance, reveal order, or destination logic differs.
+Files under `HISTORICAL/CHAPTER_03/` are provenance only and are never current authority. Other older Beat packets still in the live root may contain reusable staging/prose ideas, but `CHAPTER_03.md` wins whenever structure, party state, map provenance, reveal order, or destination logic differs.
