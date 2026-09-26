@@ -20,9 +20,9 @@
 | 10 | Beat 10 | `BEAT_10_THORNHIDE_DRAFT_A.md` | `e008158d9b9970b31c89f5398b97a27cf252f49275a95ed820dcb02f432c3530` |
 | 11 | Beat 11 | `BEAT_11_THE_JUNCTION_HIDDEN_MONUMENT_DRAFT_A.md` | `b501752ad55350418a2fda6e1be39a0bda0840ae9f261e0594ad52c0a676bf28` |
 | 12 | Beat 12 | `BEAT_12_JUNCTION_CAMP_CLEANUP_DRAFT_A.md` | `8f4578d9f3d6bb1ac14fced205a12d7bf08643c8d732bec120692319e0e24a25` |
-| 13 | C02 — Torren's Version of Dinner | `C03_TORRENS_VERSION_OF_DINNER_REHEARSAL_FIRST_DRAFT_C.md` | `ebcbba9cc2119a7cbc7cddd31e8b10b08152e4b2f35c36cd558de636ebc1e2fd` |
-| 14 | C03 — What the Map Says | `C04_WHAT_THE_MAP_SAYS_REHEARSAL_FIRST_DRAFT_A.md` | `95b3543190d0e5ba166ad0b0d726ee2d922228f4370eb82f7d8ef6af2f369b6d` |
-| 15 | C04 — Not Professionally | `C05_NOT_PROFESSIONALLY_REHEARSAL_FIRST_DRAFT_D.md` | `29724fe0f2b066490993faf9af03e7cc629731b085a7cc414570fe7dc429fdbd` |
+| 13 | C02 — Torren's Version of Dinner | `C02_TORRENS_VERSION_OF_DINNER_DIALOGUE.md` | `ebcbba9cc2119a7cbc7cddd31e8b10b08152e4b2f35c36cd558de636ebc1e2fd` |
+| 14 | C03 — What the Map Says | `C03_WHAT_THE_MAP_SAYS_DIALOGUE.md` | `95b3543190d0e5ba166ad0b0d726ee2d922228f4370eb82f7d8ef6af2f369b6d` |
+| 15 | C04 — Not Professionally | `C04_NOT_PROFESSIONALLY_DIALOGUE.md` | `29724fe0f2b066490993faf9af03e7cc629731b085a7cc414570fe7dc429fdbd` |
 
 ---
 
@@ -1603,7 +1603,7 @@ Card:
 
 ## C02 — Torren's Version of Dinner
 
-**Atomic source:** `C03_TORRENS_VERSION_OF_DINNER_REHEARSAL_FIRST_DRAFT_C.md`  
+**Atomic source:** `C02_TORRENS_VERSION_OF_DINNER_DIALOGUE.md`  
 **Source SHA-256:** `ebcbba9cc2119a7cbc7cddd31e8b10b08152e4b2f35c36cd558de636ebc1e2fd`
 
 # Chapter 1 — Character-Life C02
@@ -1772,7 +1772,7 @@ Scene ends.
 
 ## C03 — What the Map Says
 
-**Atomic source:** `C04_WHAT_THE_MAP_SAYS_REHEARSAL_FIRST_DRAFT_A.md`  
+**Atomic source:** `C03_WHAT_THE_MAP_SAYS_DIALOGUE.md`  
 **Source SHA-256:** `95b3543190d0e5ba166ad0b0d726ee2d922228f4370eb82f7d8ef6af2f369b6d`
 
 # Chapter 1 — Character-Life C03
@@ -1931,7 +1931,7 @@ Scene ends.
 
 ## C04 — Not Professionally
 
-**Atomic source:** `C05_NOT_PROFESSIONALLY_REHEARSAL_FIRST_DRAFT_D.md`  
+**Atomic source:** `C04_NOT_PROFESSIONALLY_DIALOGUE.md`  
 **Source SHA-256:** `29724fe0f2b066490993faf9af03e7cc629731b085a7cc414570fe7dc429fdbd`
 
 # Chapter 1 — Character-Life C04
