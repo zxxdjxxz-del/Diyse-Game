@@ -1,4 +1,4 @@
-# Chapter 2 — Beat 10 — Prisoner Galleries / First Contact
+# Chapter 2 — Beat 9 — Prisoner Galleries / First Contact
 
 **Status:** CURRENT TRUE-VOICE / DIALOGUE-ECONOMY ATOMIC AUTHORITY — 2026-09-19
 **Story authority:** `../../../02_STORY/CHAPTERS/CHAPTER_02.md`

@@ -1,4 +1,4 @@
-# Chapter 2 — Beat 13 — Rhazek / Masked Officer
+# Chapter 2 — Beat 12 — Rhazek / Masked Officer
 
 **Status:** CURRENT TRUE-VOICE / DIALOGUE-ECONOMY ATOMIC AUTHORITY — 2026-09-19
 **Story authority:** `../../../02_STORY/CHAPTERS/CHAPTER_02.md`
@@ -227,11 +227,11 @@ Cyanis readies himself.
 
 **Objective: Defeat Commander Rhazek.**
 
-Beat 13 ends here.
+Beat 12 ends here.
 
 The boss encounter begins in:
 
-**Beat 14 — Commander Rhazek / Bastion Master**
+**Beat 13 — Commander Rhazek / Bastion Master**
 
 ### [KNOWLEDGE / CHARACTER LOCK]
 

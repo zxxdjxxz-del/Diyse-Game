@@ -1,4 +1,4 @@
-# Chapter 2 — Beat 11 — Prisoner Safe Area / Exit Problem
+# Chapter 2 — Beat 10 — Prisoner Safe Area / Exit Problem
 
 **Status:** CURRENT TRUE-VOICE / DIALOGUE-ECONOMY ATOMIC AUTHORITY — 2026-09-19
 **Story authority:** `../../../02_STORY/CHAPTERS/CHAPTER_02.md`
@@ -143,7 +143,7 @@ Known:
 - the active Black Host command layer still controls the fort above;
 - Maevra remains below to organize the safe area;
 - Cyanis, Ilyra, and Torren are going upward to break that control;
-- the party has repeated its promise to return only because a prisoner deliberately calls back to the promise from Beat 10, not because the script needs another mission summary.
+- the party has repeated its promise to return only because a prisoner deliberately calls back to the promise from Beat 9, not because the script needs another mission summary.
 
 **Objective: Ascend the Old Bastion.**
 

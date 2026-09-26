@@ -1,4 +1,4 @@
-# Chapter 2 — Beat 12 — Bastion Command Ascent
+# Chapter 2 — Beat 11 — Bastion Command Ascent
 
 **Status:** CURRENT TRUE-VOICE / DIALOGUE-ECONOMY ATOMIC AUTHORITY — 2026-09-19
 **Story authority:** `../../../02_STORY/CHAPTERS/CHAPTER_02.md`
@@ -215,7 +215,7 @@ The trio moves in.
 
 ### [GAMEPLAY HANDOFF]
 
-Beat 12 ends before the command-room scene begins.
+Beat 11 ends before the command-room scene begins.
 
 Known:
 - the Old Bastion is a functioning Black Host military installation;
@@ -226,7 +226,7 @@ Known:
 - the Host response is organized but finite;
 - the Host knows intruders are moving upward but does **not** know about the Ancient secret passage or exactly how the trio entered;
 - the trio has deliberately kept pressure moving upward rather than giving the fort time to investigate the lower route;
-- Rhazek and the masked officer remain unseen until Beat 13.
+- Rhazek and the masked officer remain unseen until Beat 12.
 
 **Objective: Confront Commander Rhazek.**
 
