@@ -27,7 +27,7 @@ from typing import Any
 ROOT = Path(__file__).resolve().parents[2]
 PROD = ROOT / "docs/03_DIALOGUE/PRODUCTION"
 OUT_ROOT = ROOT / "game/content/dialogue/current"
-EXPECTED_TOTAL_SPOKEN = 2055
+EXPECTED_TOTAL_SPOKEN = 2001
 
 DIALOGUE_RE = re.compile(r"^\*\*([^*\n]+):\*\*\s*(.*)$")
 HEADING_RE = re.compile(r"^(#{1,6})\s+(.+?)\s*$")
@@ -42,14 +42,14 @@ DURABLE_FLAGS: dict[tuple[str, str], list[str]] = {
         "ROUTE_BRACKENWALL_UNLOCKED",
         "UNLOCK_C01_SIX_MINUTES",
     ],
-    ("01", "B11"): ["ROSTER_ADD_TORREN_PERMANENT"],
-    ("01", "B15"): [
+    ("01", "B08"): ["ROSTER_ADD_TORREN_PERMANENT"],
+    ("01", "B12"): [
         "STORY_CHAPTER_01_COMPLETE",
         "UNLOCK_C02_TORRENS_VERSION_OF_DINNER",
         "UNLOCK_C03_WHAT_THE_MAP_SAYS",
         "UNLOCK_C04_NOT_PROFESSIONALLY",
     ],
-    ("02", "B16"): [
+    ("02", "B15"): [
         "STORY_CHAPTER_02_COMPLETE",
         "UNLOCK_C05_STILL_BURNS",
     ],
@@ -137,7 +137,7 @@ def source_set() -> list[SceneSource]:
     scenes.append(SceneSource("00", "C01", unique_glob(ch0, "C01_SIX_MINUTES_*.md"), "character_life"))
 
     ch1 = chapter_dir("01")
-    for n in range(1, 16):
+    for n in range(1, 13):
         scenes.append(SceneSource(
             "01",
             f"B{n:02d}",
@@ -152,9 +152,9 @@ def source_set() -> list[SceneSource]:
     ])
 
     ch2 = chapter_dir("02")
-    for n in list(range(1, 6)) + list(range(7, 17)):
-        scenes.append(SceneSource("02", f"B{n:02d}", unique_glob(ch2, f"BEAT_{n:02d}_*.md"), "mandatory"))
-    scenes.append(SceneSource("02", "C05", unique_glob(ch2, "C06_STILL_BURNS_*.md"), "character_life"))
+    for n in range(1, 16):
+        scenes.append(SceneSource("02", f"B{n:02d}", unique_glob(ch2, f"CH02_B{n:02d}_*_DIALOGUE.md"), "mandatory"))
+    scenes.append(SceneSource("02", "C05", unique_glob(ch2, "C05_STILL_BURNS_DIALOGUE.md"), "character_life"))
 
     ch3 = chapter_dir("03")
     for n in range(1, 16):
@@ -170,7 +170,7 @@ def source_set() -> list[SceneSource]:
         SceneSource("03", "C07", unique_glob(ch3, "H03_ILYRA_AND_NIMERA_DRAFT_*.md"), "character_life", unique_glob(ch3, "H03_ILYRA_AND_NIMERA_SPEC.json")),
     ])
 
-    expected_counts = {"00": 8, "01": 18, "02": 16, "03": 17}
+    expected_counts = {"00": 8, "01": 15, "02": 16, "03": 17}
     for chapter, expected in expected_counts.items():
         got = sum(1 for scene in scenes if scene.chapter == chapter)
         if got != expected:

@@ -76,7 +76,7 @@ CHAPTERS: tuple[ChapterSpec, ...] = (
     ChapterSpec(
         "01",
         "Chapter 1",
-        beats(1, 15)
+        beats(1, 12)
         + (
             SourceSpec("C02 — Torren's Version of Dinner", "C03_TORRENS_VERSION_OF_DINNER_*.md"),
             SourceSpec("C03 — What the Map Says", "C04_WHAT_THE_MAP_SAYS_*.md"),
@@ -86,9 +86,8 @@ CHAPTERS: tuple[ChapterSpec, ...] = (
     ChapterSpec(
         "02",
         "Chapter 2",
-        beats(1, 5)
-        + beats(7, 16)
-        + (SourceSpec("C05 — Still Burns", "C06_STILL_BURNS_*.md"),),
+        tuple(SourceSpec(f"Beat {n}", f"CH02_B{n:02d}_*_DIALOGUE.md") for n in range(1, 16))
+        + (SourceSpec("C05 — Still Burns", "C05_STILL_BURNS_DIALOGUE.md"),),
     ),
     ChapterSpec(
         "03",
@@ -259,6 +258,7 @@ def verify_source_closure() -> None:
         closure_markers = (
             "FULL SOURCE-LEVEL DIALOGUE CLOSURE",
             "LOCKED CURRENT CHAPTER-1 DIALOGUE",
+            "CURRENT 12-BEAT ATOMIC DIALOGUE AUTHORITY",
         )
         if not any(marker in index_text for marker in closure_markers):
             raise RuntimeError(
