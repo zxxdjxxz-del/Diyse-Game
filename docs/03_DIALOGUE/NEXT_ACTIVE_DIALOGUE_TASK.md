@@ -1,54 +1,94 @@
 # Diyse — Next Active Dialogue Task
 
-**Status:** ACTIVE RESUME MARKER  
-**Current next task:** **Chapter 4 — The Seventh Reaction — Dialogue Engine production**  
-**Primary story authority:** `../02_STORY/CHAPTERS/CHAPTER_04.md`  
-**Dialogue system authority:** `AGENT_SYSTEM/CHAPTER_0_1_PIPELINE_CONTINUITY_LOCK.md` + `AGENT_SYSTEM/STORY_BEAT_AS_GUARDRAIL_LOCK.md` + `AGENT_SYSTEM/NATURAL_TURN_LENGTH_AND_FLOOR_HOLDING_LOCK.md`
+**Status:** CURRENT ACTIVE RESUME MARKER  
+**Updated:** 2026-09-26  
+**Current frontier:** **Chapter 4 — The Seventh Reaction — rehearsal-first dialogue production**
 
-## Current completed boundary
-Chapters **0–3** are complete current working dialogue production and have completed the retroactive natural-turn / floor-holding rhythm audit.
+## Completed boundary
 
-Do **not** reopen Chapters 0–3 as the active task unless the user explicitly requests a revision.
+Chapters **0–3** have current approved standalone dialogue atomics and synchronized derived/runtime mirrors.
 
-## Exact next production frontier
-Create the current Chapter-4 dialogue production authority under:
+Do not reopen Chapters 0–3 as the active dialogue task unless the user explicitly requests a revision.
 
-`docs/03_DIALOGUE/PRODUCTION/CHAPTER_04/`
+## Chapter 4 authority state
 
-Then begin sequential rehearsal-first dialogue production with:
+Current story authority:
+> `../02_STORY/CHAPTERS/CHAPTER_04.md`
 
-> **S022 — Brilliant Answer**
+Current dialogue authority index:
+> `PRODUCTION/CHAPTER_04/CHAPTER_04_DIALOGUE_AUTHORITY_INDEX.md`
 
-Chapter 4 story sequence is currently:
-1. S022 — Brilliant Answer
-2. S023 — Cost Outside Equation
-3. S024 — Seventh Reaction
-4. S025 — Responsibility Without Humiliation
-5. S026 — A Place Where Being Wrong Is Survivable
+Current scene-authority coverage:
+> **B01–B12 complete and compiler-validated**
 
-## S022 opening state / hard guardrails
-- Chapter 4 begins only after the player deliberately chooses **Begin Chapter 4** from the Cresthaven cleanup hub.
-- Cresthaven is already established as the party headquarters; Chapter 4 does not recreate that handoff.
-- Opening traveling permanent roster: **Cyanis, Ilyra, Torren, Nimera**.
-- **Maevra is not traveling with the party**; she returned to Caelora with Mirena after the Chapter-3 headquarters handoff.
-- Chapter 3 identified Last Sentinel as a real Ancient designation and a Might Prime, but it is still unrecovered/unusable at Chapter-4 start.
-- S022 contains the Elder Briarhide confrontation and resolves it **nonlethally**.
-- During that fight, **Last Sentinel manifests for the first verified modern Prime action**.
-- That manifestation changes Last Sentinel to **Recovered / gameplay-usable**.
-- Elder Briarhide survives/retreats.
-- **Vaelira Serren joins permanently** during S022.
-- Active battle party remains four even though the permanent roster becomes five.
+All Chapter-4 specs remain:
+> `production_ready: false`
+
+There is **no approved exact Chapter-4 dialogue yet**.
+
+B01 also has the current pre-approval rehearsal target:
+> `PRODUCTION/CHAPTER_04/CH04_B01_CRESTHAVEN_MORNING_DISTURBANCE_REHEARSAL_TARGET.md`
+
+The retired S022–S026 structure is historical only and must never be used as the resume frontier.
+
+## Current 12-beat sequence
+
+1. **B01 — Cresthaven Morning Disturbance**
+2. **B02 — Elder Thornhide**
+3. **B03 — Field Aftermath / Shortcut Decision**
+4. **B04 — Forest Route / Crown Road**
+5. **B05 — Ivorybridge / Vaelira**
+6. **B06 — Reaction Annex Arrival / Initial Investigation**
+7. **B07 — Elemental Laboratory Ring**
+8. **B08 — Interaction Gallery / Reaction Conduit**
+9. **B09 — Central Regulation / Regulation Crucible**
+10. **B10 — The Seventh Reaction**
+11. **B11 — Safe Upper Labs / Aftermath**
+12. **B12 — Ivorybridge Morning / Cresthaven Return**
+
+## Critical Chapter-4 locks
+
+- Opening permanent roster: **Cyanis, Ilyra, Torren, Nimera**.
+- Active combat party cap remains **4**.
+- Last Sentinel is **not yet Recovered** at Chapter-4 opening.
+- During the **B02 Elder Thornhide fight**, Last Sentinel manifests for the first verified modern time and transitions to **Recovered**.
+- Elder Thornhide survives and retreats.
+- Last Sentinel does **not** Awaken in Chapter 4.
+- The historical term **Prime Card** remains incompletely understood; the manifestation does not automatically promote the party's hypothesis into confirmed classification.
+- **Vaelira joins permanently in B05**, bringing the permanent roster to 5 while active combat remains 4.
+- Elements are exactly **Fire / Ice / Lightning / Earth**.
+- The Seventh Reaction is emergent behavior of the complete four-element system, **not a new element or damage type**.
+- Vaelira may recognize a Wayfinder-pattern resemblance, but Chapter 4 does **not** reveal the Ancient six-Face network truth.
+- No spoken dialogue during player-controlled traversal.
+- No spoken dialogue during active combat.
 
 ## Authoring method
-Use the locked rehearsal-first process from the first line:
 
-**scene/world state → independent Person Agent Brain rehearsals → Dialogue Editor → invisible Canon/Knowledge Checker → economical HD-2D staging/implementation**
+Use the current rehearsal-first chain:
 
-Apply the natural-turn rule immediately:
+> **scene/world state → independent Person-Agent rehearsal → Dialogue Editor → invisible Canon/Knowledge Checker → economical HD-2D staging → explicit author approval**
 
-> **Concision is not a one-sentence limit. A character yields the floor because the interaction changes, not because the script reached a period.**
+Owning authoring rules:
+- `AGENT_SYSTEM/REHEARSAL_FIRST_AUTHORING_LOCK.md`
+- `AGENT_SYSTEM/NATURAL_TURN_LENGTH_AND_FLOOR_HOLDING_LOCK.md`
+- `AGENT_SYSTEM/MATURE_ADULT_SPEECH_AND_PROFANITY_LOCK.md`
+- `AGENT_SYSTEM/SPOKEN_DIALOGUE_VS_NARRATION_LOCK.md`
+- `AGENT_SYSTEM/README.md`
+- `AGENT_SYSTEM/RUNTIME_ORCHESTRATION.md`
 
-Do not prebuild a conversational checkpoint chain. Story authority controls facts, outcomes, knowledge and reveal firewalls; Agent Brains control the actual path of the scene.
+Story packets and scene specs define situation, knowledge, outcomes, and firewalls. They do **not** pre-compose speaker order, jokes, questions, or summary ownership.
 
-## Resume instruction
-When the user says **“Let’s continue”**, resume here: inspect the current S022 story/character/Prime authority, create the Chapter-4 dialogue authority structure, then rehearse and draft **S022 — Brilliant Answer**.
+## Exact next action
+
+Resume with **B01 — Cresthaven Morning Disturbance**:
+
+1. compile/use `CH04_B01_CRESTHAVEN_MORNING_DISTURBANCE_SPEC.json`;
+2. rehearse the present people from their current brains;
+3. edit the rehearsal for human rhythm and scene economy;
+4. Canon/Knowledge Checker;
+5. present the draft for explicit author approval;
+6. only after approval create/promote `CH04_B01_CRESTHAVEN_MORNING_DISTURBANCE_DIALOGUE.md`.
+
+Then proceed sequentially through B02–B12 under the same gate.
+
+> **When the user says “Let’s continue,” continue from B01 rehearsal-first production unless they explicitly redirect the task.**

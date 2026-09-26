@@ -7,15 +7,15 @@
 
 This file is a **migration/provenance checksum manifest** for dialogue that was extracted or copied during the earlier repository migration. It is not itself current spoken-dialogue authority.
 
-For **Chapters 0 and 1**, the old migrated/line-complete transcripts have been superseded by the rehearsal-first Dialogue Engine production set and removed from the live repository tree. Their rows below remain only to document the historical checkpoint and hashes.
+For **Chapters 0–3**, the old migrated S/H/C scene generations have been superseded by the current B/C production atomics and current runtime mirror. Their rows below remain only to document historical migration checkpoints and hashes.
 
-Current Chapter-0 exact wording authority is its standalone production atomics as indexed by `docs/03_DIALOGUE/PRODUCTION/CHAPTER_00/CHAPTER_00_DIALOGUE_AUTHORITY_INDEX.md`; its combined manuscript is a synchronized derived read-through.
+Current Chapters 0–3 exact wording authority is the standalone production atomic set indexed by each chapter's current dialogue authority index. Stable combined manuscripts and `game/content/dialogue/current/` are synchronized derivatives.
 
-Current Chapter-1 exact wording authority is its standalone production atomics as indexed by `docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/CHAPTER_01_DIALOGUE_AUTHORITY_INDEX.md`; `CHAPTER_01_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md` is the current synchronized derived read-through.
+Chapter 4 has been structurally replaced by the current **B01–B12** story/spec/presentation architecture. The historical S022–S026/C08/C09/H05/Hunt rows below are provenance only and are **not** approved Chapter-4 spoken dialogue.
 
-The legacy sibling Godot `.tres` resources under `game/content/dialogue/chapter_00` and `chapter_01` remain historical implementation/proof artifacts. The current generated game-facing mirror lives under `game/content/dialogue/current/` and is synchronized from the production atomics. Legacy resources do **not** restore historical text as current authority.
+The former sibling S-scene runtime folders for Chapters 0–3 have been retired from the live runtime layout. Historical rows and hashes in this file never restore old wording or structure as current authority.
 
-For later chapters that have not yet received a complete rehearsal-first replacement, the migration rows remain useful provenance for the still-live historical source material, subject to current story/canon corrections and authoring-status gates.
+Any table note below saying `current source copied` describes the migration-time checkpoint only; it does not describe present authority.
 
 Story function lives in `02_STORY`; combat mechanics live in `05_BATTLE_SYSTEM` / `09_ENEMIES_AND_ENCOUNTERS`; Card mechanics live in `07_CARDS`; progression lives in `10_PROGRESSION_AND_EXP`.
 

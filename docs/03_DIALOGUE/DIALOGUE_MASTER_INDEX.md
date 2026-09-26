@@ -1,12 +1,13 @@
 # Diyse — Dialogue Master Index
 
-**Current whole-project written authority:** **v2.20 / Audit135**, plus later explicit user corrections/current domain migrations.  
+**Status:** CURRENT DIALOGUE MASTER INDEX  
+**Updated:** 2026-09-26  
 **Dialogue production root:** `docs/03_DIALOGUE/PRODUCTION/`  
 **Chapters 0–3 source-closure record:** `PRODUCTION/CHAPTERS_00_03_FULL_SOURCE_CLOSURE_2026-09-13.md`
 
 ## Current global state
 
-**Chapters 0–3 are source-closed and synchronized. Chapter 1's September 25, 2026 current 12-beat source set is the active Chapter-1 dialogue structure.**
+**Chapters 0–3 are source-closed and synchronized. Chapter 4 now has complete B01–B12 pre-dialogue scene-authority coverage, with exact wording still intentionally unauthored.**
 
 That means the live dialogue-generating layers are aligned:
 - current story authority / later explicit user corrections;
@@ -313,7 +314,7 @@ Current synchronization invariants:
 7. `python tools/dialogue/sync_current_dialogue.py --check` and `python tools/dialogue/compile_current_runtime_dialogue.py --check` must pass after future source edits;
 8. `Current Dialogue Runtime Validation` is the dedicated Godot gate for the current runtime mirror.
 
-The older `game/content/dialogue/chapter_00` through `chapter_03` S-scene Resources remain legacy implementation/proof assets. They are not current spoken-wording authority and must not supersede the generated current mirror.
+The former sibling `game/content/dialogue/chapter_00` through `chapter_03` S-scene runtime folders have been retired from the live runtime layout. Git history/provenance may retain old identities, but they are not current spoken-wording authority.
 
 ---
 
@@ -321,7 +322,7 @@ The older `game/content/dialogue/chapter_00` through `chapter_03` S-scene Resour
 
 | Chapter | Dialogue status |
 |---|---|
-| Ch4 | pending current Dialogue Engine production under current restructured story authority; all current Person-Brain, relationship-progression, mature-adult speech, natural-turn, and spoken-vs-narration rules apply from the first rehearsal |
+| Ch4 | **B01–B12 scene-authority specs complete / compiler-validated; B01 rehearsal target present; exact dialogue pending** |
 | Ch5 | beat rewrite required before dialogue generation |
 | Ch6 | macro/beat authority; dialogue pending |
 | Ch7 | macro authority; dialogue pending |
@@ -350,4 +351,4 @@ When a scene changes:
 4. mark combined/reader artifacts stale until deliberately regenerated;
 5. use Git history for superseded copies.
 
-> **Current project statement: Chapters 0–3 are source-closed and synchronized into current combined manuscripts and a Godot runtime mirror. The production atomics remain exact wording authority.**
+> **Current project statement: Chapters 0–3 are source-closed and synchronized into current manuscripts/runtime Resources; their atomics remain exact wording authority. Chapter 4 has complete B01–B12 pre-dialogue authority but no approved exact wording yet.**
