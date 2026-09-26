@@ -1,299 +1,248 @@
 # Diyse — Chapter 1 Formation Composition
 
-**Structural status:** **CLOSED — composition / sub-area eligibility / area caps / behavior intent**  
+**Structural status:** **CURRENT — composition / sub-area eligibility / area caps / behavior intent**  
 **Numeric status:** **DEFERRED — final weights/frequency/difficulty wait for mandatory-level progression rebalance**
 
-**Current placement authority:** explicit Chapter-1 encounter corrections, 2026-09-22.  
-**Rule:** Hunts are the only standalone optional enemy/Elite encounters. Quest-owned combat remains governed by its owning quest. Briar Passage is wildlife/natural-threat territory; Chapter-1 Black Host and construct encounters are confined to Hollow Watch.
+**Current placement authority:** explicit Chapter-1 encounter corrections through 2026-09-25.  
+**Rule:** Chapter 1 uses the actual 2- or 3-character party state at each point. Maevra is noncombat.
 
-**Party-size firewall:** Chapter 1 never uses four active combatants. The opening / first-Briar state is **Cyanis + Ilyra** (2 active); Hollow Watch onward is **Cyanis + Ilyra + Torren** (3 active). Maevra is noncombat. Formation difficulty and weights must be validated against those actual 2-/3-character states.
+## Party-size firewall
+- First / northern Briar: **Cyanis + Ilyra**
+- Hollow Watch onward: **Cyanis + Ilyra + Torren**
+- Maevra never contributes battle actions or targeting dilution.
+- Do not normalize Chapter 1 upward to a four-character party.
+
+## Chapter-1 area caps
+- First / northern Briar: **2**
+- Hollow Watch surface: **3**
+- Hollow Watch excavation: **2 ordinary Constructs**
+- Southern Briar: **4**
+- Shield Construct: fixed authored single encounter, outside the random pool
+- Thornhide: mandatory boss, outside the random pool
+
+---
 
 ## Briar Passage — first / northern traversal
 
-The first Briar traversal is structurally authored for **Cyanis + Ilyra only**. It currently uses two-enemy formations because only two combatants are available. This is a **party-size / pacing structure lock**, not a final level-based difficulty certification.
+Roster:
+- Thicket Stalker
+- Vine Creeper
+- Bullhog
 
-| Tier | Formation | Composition | Within-tier weight |
-|---|---|---|---:|
-| Light | **Trail Pair** | 1 Thicket Stalker + 1 Vine Creeper | 50% |
-| Light | **Predator Pair** | 2 Thicket Stalkers | 50% |
-| Standard | **Briar Pair** | 1 Briar Boar + 1 Vine Creeper | 50% |
-| Standard | **Boar Trail** | 1 Thicket Stalker + 1 Briar Boar | 50% |
-| Heavy | **Thorn Pair** | 2 Vine Creepers | 50% |
-| Heavy | **Boar Pair** | 2 Briar Boars | 50% |
+Northern Briar is deliberately simple. All ordinary formations contain exactly two enemies.
 
-The three locked northern species remain unchanged. Variety comes from pairing and role mix, not adding bodies to the field.
+| Formation | Composition |
+|---|---|
+| **Trail Pair** | 1 Thicket Stalker + 1 Vine Creeper |
+| **Briar Pair** | 1 Bullhog + 1 Vine Creeper |
+| **Bull Trail** | 1 Thicket Stalker + 1 Bullhog |
 
-## Hollow Watch — occupied fort / Black Host
+### Placement
+All three formations may appear throughout encounter-enabled Northern Briar.
 
-| Formation | Composition | Weight |
-|---|---|---:|
-| **Occupation Patrol** | 2 Black Host Raiders + 1 Black Host Crossbowman | 30% |
-| **Shield Line** | 1 Black Host Raider + 1 Black Host Crossbowman + 1 Ruin Shieldbearer | 45% |
-| **Crossbow Screen** | 2 Black Host Crossbowmen + 1 Ruin Shieldbearer | 25% |
+Safe:
+- Brackenwall seam;
+- Beat-2 halfway authored stop and immediate buffer;
+- Greenhollow seam.
 
-Chapter 1 does not use Brackenwall Reaver in this pool.
+No duplicate-species Northern Briar formations are required.
 
-## Hollow Watch — lower excavation / ancient defenses
+---
 
-| Formation | Composition | Weight |
-|---|---|---:|
-| **Sentry Pair** | 2 Watch Sentries | 30% |
-| **Watch Line** | 2 Watch Sentries + 1 Watch Ballista | 45% |
-| **Crossfire Post** | 1 Watch Sentry + 2 Watch Ballistae | 25% |
+## Hollow Watch — surface / Black Host
 
-### Strong normal-pool entry — Watch Captain Frame
-Watch Captain Frame is no longer an optional side-room Elite. It belongs to the lower Hollow Watch encounter pool as a strong construct encounter.
+Roster:
+- Black Host Raider
+- Black Host Crossbowman
+- Black Host Shieldbearer
 
-Current structural placement:
-- Heavy-tier formation: **Watch Captain Frame + Watch Sentry + Watch Ballista**.
+The Black Host presence at Hollow Watch is intentionally small and excavation-focused.
 
-Its **final selection weight is OPEN** until the mandatory level/progression rebalance is complete. Do not use the current chapter-tier percentages as final difficulty certification.
+| Formation | Composition |
+|---|---|
+| **Scout Pair** | 1 Black Host Raider + 1 Black Host Crossbowman |
+| **Occupation Patrol** | 2 Black Host Raiders + 1 Black Host Crossbowman |
+| **Shield Line** | 1 Black Host Raider + 1 Black Host Crossbowman + 1 Black Host Shieldbearer |
+
+### Placement
+**Approach**
+- Scout Pair
+- Occupation Patrol
+
+**Surface fort**
+- all three formations
+
+Safe:
+- fort-reveal authored stop and immediate staging pocket;
+- dead-garrison discovery and immediate interaction pocket.
+
+No Black Host random encounters occur below the transition into the Diysean corridor.
+
+---
+
+## Hollow Watch — excavation / ancient defenses
+
+Ordinary roster:
+- Construct
+
+The underground section is a short excavation into one corridor with only a few rooms. It is not a full dungeon and does not require a large formation catalogue.
+
+| Formation | Composition |
+|---|---|
+| **Lone Construct** | 1 Construct |
+| **Construct Pair** | 2 Constructs |
+
+### Fixed authored encounter
+**Shield Construct**
+- 1 Shield Construct
+- guaranteed authored encounter;
+- not random;
+- not a miniboss;
+- no boss-style phase structure;
+- does not unlock or gate the route;
+- serves as the underground section's strongest deliberate combat spike.
+
+### Placement
+Random Construct encounters may occur only in the short underground corridor / accessible side rooms.
+
+Safe:
+- important environmental-reading pockets;
+- immediate Shield Construct trigger/aftermath area;
+- Hollow Watch landscape-depiction chamber.
+
+Removed:
+- mixed Black Host/Construct underground selection;
+- Watch Sentry / Watch Ballista / Watch Captain Frame formation grammar;
+- Six-Channel encounter region;
+- surviving-channel encounter region;
+- protected-inner encounter region;
+- Castellan miniboss.
+
+---
 
 ## Southern Briar Passage
 
-Southern Briar uses the northern three plus the three locked Southern-only identities:
-- Needlewing
-- Rootmaw
-- Rubbleback
-
-This phase is structurally authored for **Cyanis + Ilyra + Torren** and may use **3–5 active enemies**. Southern Briar is the Chapter-1 exception that may reach five enemies in one formation.
-
-| Tier | Formation | Composition | Within-tier weight |
-|---|---|---|---:|
-| Light | **Predator Trail** | 1 Needlewing + 1 Thicket Stalker + 1 Briar Boar | 50% |
-| Light | **Rooted Skirmish** | 1 Rootmaw + 1 Vine Creeper + 1 Needlewing | 50% |
-| Standard | **Rootbound Growth** | 1 Rootmaw + 2 Vine Creepers + 1 Needlewing | 50% |
-| Standard | **Bramble Wall** | 1 Rubbleback + 1 Briar Boar + 1 Vine Creeper | 50% |
-| Heavy | **Heavy Woods** | 1 Rubbleback + 1 Briar Boar + 1 Rootmaw + 1 Vine Creeper | 50% |
-| Heavy | **Canopy Rush** | 2 Needlewings + 1 Thicket Stalker + 1 Rootmaw + 1 Briar Boar | 50% |
-
-The listed Southern-Briar compositions are the current **structural formation set** for the three-character party.
-
-Final:
-- Light / Standard / Heavy selection percentages;
-- within-tier weights;
-- round-count targets;
-- damage/attrition targets;
-
-remain **OPEN** until the mandatory level/progression rebalance is complete.
-
-## Chapter-1 area enemy-count caps
-- First / northern Briar: **2**
-- Hollow Watch: **4**
-- Southern Briar: **5**
-
-These are structural area caps, not final difficulty certification. Southern Briar is the only Chapter-1 ordinary-random pool currently allowed to reach five active enemies.
-
-## Exact sub-area eligibility
-
-These rules lock **where a formation may appear**. They do not lock final encounter-rate percentages or level-based difficulty.
-
-### First / northern Briar
-Encounter suppression:
-- Brackenwall seam — SAFE;
-- Beat-2 halfway stop and its immediate buffer — SAFE;
-- Greenhollow seam — SAFE.
-
-**West Upper Briar — before the halfway stop**
-Eligible:
-- Trail Pair;
-- Predator Pair;
-- Briar Pair;
-- Boar Trail.
-
-Not yet eligible:
-- Thorn Pair;
-- Boar Pair.
-
-**East Upper Briar — after the halfway stop**
-Eligible:
-- all six northern-Briar formations.
-
-This makes the second half slightly broader without adding new species.
-
-### Hollow Watch
-**CH01_HW_A — Approach**
-Eligible:
-- Occupation Patrol;
-- Shield Line;
-- Crossbow Screen.
-
-No constructs on the approach.
-
-The single fort-reveal story stop and immediate staging pocket are SAFE.
-
-**CH01_HW_B — Surface fort**
-Eligible:
-- Occupation Patrol;
-- Shield Line;
-- Crossbow Screen.
-
-No ancient constructs on the surface.
-
-The dead-garrison authored discovery and its immediate interaction pocket are SAFE.
-
-**CH01_HW_C — Excavation**
-Early / fort-basement sector:
-- Occupation Patrol;
-- Shield Line;
-- Crossbow Screen.
-
-Transition / mixed-construction sector:
-- Black Host pool **or** ordinary construct pool may be selected;
-- do not mix Black Host and construct identities inside one formation.
-
-Deep / predominantly Diysean sector:
-- Sentry Pair;
-- Watch Line;
-- Crossfire Post;
-- Watch Captain formation.
-
-Watch Captain Frame cannot appear before the deep excavation transition.
-
-**CH01_HW_D — Six Channels + surviving channel**
-Six-Channel relief / authored-reading pocket:
-- SAFE.
-
-Surviving channel after the relief:
-- Sentry Pair;
-- Watch Line;
-- Crossfire Post;
-- Watch Captain formation.
-
-No Black Host random formations after the Six-Channel relief.
-
-**CH01_HW_E — Protected Inner / Castellan approach**
-Active route before the pre-boss buffer:
-- Sentry Pair;
-- Watch Line;
-- Crossfire Post;
-- Watch Captain formation.
-
-Immediate pre-Castellan buffer:
-- SAFE.
-
-Castellan chamber:
-- authored mini-boss only.
-
-**CH01_HW_F — Mural**
-- SAFE;
-- no random encounters.
-
-### Southern Briar
-Encounter suppression:
-- Greenhollow departure seam — SAFE;
-- Thornhide-track authored stop — SAFE;
-- late overgrown-side-access authored stop — SAFE;
-- Thornhide first-sighting / boss approach buffer — SAFE;
-- post-boss quiet route and Wayfinder — SAFE.
-
-**Readable opening**
-Eligible:
-- Predator Trail;
-- Rooted Skirmish;
-- Bramble Wall.
-
-No five-enemy formation in the opening.
-
-**Hard-navigation / reconnecting-loop middle**
-Eligible:
-- all six Southern-Briar formations.
-
-This is the first region where the five-enemy Canopy Rush may appear.
-
-**Late side-access approach**
-Before the authored side-access SAFE pocket:
-- Predator Trail;
-- Rooted Skirmish;
-- Rootbound Growth;
-- Bramble Wall.
-
-The side-access interaction itself is SAFE.
-
-**More-direct final leg**
-Eligible:
-- Predator Trail;
-- Bramble Wall;
-- Heavy Woods;
-- Canopy Rush.
-
-This shifts the last active stretch from route-reading pressure toward predator / heavy-wildlife pressure.
-
-**Cleanup return to the Cistern access**
-After Thornhide is defeated, the short late-Southern-Briar backtrack uses the same **final-leg pool** until the side-access SAFE pocket is reached.
-
-### Wayfinder
-- SAFE;
-- no random encounters.
-
-## Formation behavior / teaching intent
-
-These are structural encounter identities, not final difficulty claims.
-
-### First / northern Briar
-- **Trail Pair** — balanced fast + slower mixed-pressure introduction.
-- **Predator Pair** — two fast bodies; tests target removal without status complexity.
-- **Briar Pair** — durable boar + slower plant body.
-- **Boar Trail** — fast Stalker + heavier Boar.
-- **Thorn Pair** — slower mixed physical/Earth pressure with self-Harden potential.
-- **Boar Pair** — straightforward two-body durability/physical-pressure check.
-
-No northern-Briar formation uses hidden focus-fire. Single-target enemy actions use equal legal party targeting unless an individual action explicitly says otherwise.
-
-### Hollow Watch — Black Host
-- **Occupation Patrol** — baseline occupied-fort numbers pressure.
-- **Shield Line** — Shieldbearer extends the life of a mixed melee/ranged line without taunting or protecting allies through an unlisted mechanic.
-- **Crossbow Screen** — two ranged bodies create persistence pressure while Shieldbearer anchors the formation.
-
-### Hollow Watch — constructs
-- **Sentry Pair** — no Ballista is present, so Targeting Signal is ineligible; both Sentries use their direct-action behavior.
-- **Watch Line** — teaches the core Sentry → Ballista setup and interrupt relationship.
-- **Crossfire Post** — one Sentry may signal only one of the two Ballistae; the other continues its ordinary Snap Bolt / Reload cycle.
-- **Watch Captain formation** — Watch Captain is the strong body while Sentry/Ballista retains the same readable setup grammar. Watch Captain does not amplify or duplicate Targeting Signal.
-
-### Southern Briar
-- **Predator Trail** — fast Needlewing/Stalker pressure around a sturdier Boar.
-- **Rooted Skirmish** — Rootmaw anchors while Needlewing creates speed contrast.
-- **Rootbound Growth** — slower durability-heavy control of battle tempo without adding a new harmful status.
-- **Bramble Wall** — armored Rubbleback plus physical wildlife creates a sturdier three-body line.
-- **Heavy Woods** — four durable/slow-to-medium bodies; endurance-oriented rather than speed-oriented.
-- **Canopy Rush** — five-enemy Southern-Briar ceiling; two Needlewings create the fastest opening pressure, but all single-target actions still use fair legal targeting rather than scripted dogpiling.
-
-## Roster boundary
-
-**Northern / first Briar**
+Roster:
 - Thicket Stalker
 - Vine Creeper
-- Briar Boar
-
-**Southern Briar adds**
+- Bullhog
 - Needlewing
+- Burrowclaw
+- Barkling
+
+Southern Briar is Chapter 1's largest natural exploration area and retains **six** ordinary formations. Exact stats/actions remain open for later enemy-balance work; formation design currently needs only broad combat-role compatibility.
+
+### Three-enemy formations
+
+| Formation | Composition | Structural identity |
+|---|---|---|
+| **Predator Trail** | 1 Needlewing + 1 Thicket Stalker + 1 Bullhog | fast pressure around one sturdy body |
+| **Briar Flight** | 1 Needlewing + 1 Vine Creeper + 1 Bullhog | mixed-pressure familiar/new-species blend |
+| **Burrow Ambush** | 1 Burrowclaw + 1 Thicket Stalker + 1 Vine Creeper | introduces the deeper-route burrowing threat |
+| **Barkline** | 1 Barkling + 1 Bullhog + 1 Needlewing | sturdier frontline plus fast aerial pressure |
+
+### Four-enemy formations
+
+| Formation | Composition | Structural identity |
+|---|---|---|
+| **Deep Briar Mix** | 1 Barkling + 1 Burrowclaw + 1 Vine Creeper + 1 Needlewing | broadest deep-route ecosystem mix |
+| **Canopy Rush** | 2 Needlewings + 1 Thicket Stalker + 1 Bullhog | fastest ordinary Chapter-1 formation |
+
+There are **no five-enemy Chapter-1 formations**.
+
+### Sub-area eligibility
+
+**Opening Southern Briar**
+- Predator Trail
+- Briar Flight
+
+Needlewing is the only new Southern-Briar species introduced immediately.
+
+**Early-middle**
+- Predator Trail
+- Briar Flight
+- Burrow Ambush
+
+Burrowclaw enters the ecosystem here.
+
+**Main middle**
+- Predator Trail
+- Briar Flight
+- Burrow Ambush
+- Barkline
+
+Barkling enters here.
+
+**Deep / hardest-navigation section**
+- all six formations
+
+This is the first place four-enemy formations may appear.
+
+**Post-Thornhide-sign final leg**
+- Predator Trail
+- Burrow Ambush
+- Barkline
+- reduced encounter frequency
+
+Four-enemy formations drop out as the party enters Thornhide-dominated territory.
+
+**Immediate Thornhide approach**
+- SAFE
+
+**Post-Thornhide / Junction**
+- SAFE
+
+---
+
+## Formation behavior intent
+
+These are broad structural identities, not final action locks.
+
+### Northern Briar
+- simple two-body combinations;
+- teach the three natural enemy identities without excessive formation variety.
+
+### Hollow Watch surface
+- Scout Pair: baseline two-body occupation pressure.
+- Occupation Patrol: simple three-body numbers pressure.
+- Shield Line: introduces the defensive Black Host body without creating a specialized ranged screen.
+
+### Hollow Watch excavation
+- Lone Construct: lets the player read the basic Construct behavior clearly.
+- Construct Pair: the ordinary harder version.
+- Shield Construct: fixed stronger encounter only.
+
+### Southern Briar
+- Thicket Stalker: fast single-target pressure.
+- Vine Creeper: slower mixed-pressure / durability-tax role.
+- Bullhog: sturdy straightforward physical pressure.
+- Needlewing: fastest, comparatively fragile aerial harasser.
+- Burrowclaw: broad placeholder role is mobile / ambush-oriented physical threat.
+- Barkling: broad placeholder role is sturdier frontline / bruiser threat.
+
+Exact Burrowclaw and Barkling stats/actions are intentionally deferred.
+
+## Removed from active Chapter-1 formation authority
+- Briar Boar name
 - Rootmaw
 - Rubbleback
-
-**Hollow Watch — Black Host**
-- Black Host Raider
-- Black Host Crossbowman
-- Ruin Shieldbearer
-
-**Hollow Watch — constructs**
 - Watch Sentry
 - Watch Ballista
 - Watch Captain Frame
+- Watch Castellan
+- Cistern Devourer
+- Regional Hunt #1
+- five-enemy Southern Briar formations
+- late Southern-Briar cleanup-return pool
 
-**Removed from active Chapter-1 formations**
-- Brackenwall Reaver
+## Numerical boundary
+Still open:
+- final selection weights;
+- final encounter-rate percentages;
+- EXP/CEXP;
+- round-count targets;
+- damage/attrition targets;
+- mandatory/completionist level anchors;
+- raw-stat/action retunes.
 
-Mandatory named encounters:
-- Watch Castellan — mandatory mini-boss
-- Thornhide — Chapter-1 main/final boss
-
-Optional combat:
-- Regional Hunt #1 — Cistern Devourer only
-
-**Identity/name lock:** all Chapter-1 enemy names listed in this file are locked current canon. Open formation weights or numeric tuning do not make the enemy identities provisional.
-
-## Ownership boundary
-These rows own encounter composition/placement. Current enemy bodies/actions belong to their individual files. Whole-formation EXP/CEXP belongs to `10_PROGRESSION_AND_EXP`.
-
-Do not close final Southern-Briar or Watch-Captain selection weights from the current level spine. Their **compositions are structurally current; numeric weighting/difficulty certification is deferred** to the later progression rebalance.
+Those should be resolved in the later progression / enemy-balance validation pass rather than inferred from this structural document.
