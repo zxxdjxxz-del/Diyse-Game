@@ -27,7 +27,7 @@ from typing import Any
 ROOT = Path(__file__).resolve().parents[2]
 SPEC_SCHEMA = "diyse_scene_authority_spec_v1"
 AUTHORITY_PACKET_SCHEMA = "diyse_scene_authority_packet_v1"
-COMPILER_VERSION = "1.2.0"
+COMPILER_VERSION = "1.2.1"
 
 CANON_STATUS_PATH = "docs/00_MASTER_CONTROL/CURRENT_CANON_STATUS.md"
 
@@ -111,6 +111,7 @@ FORBIDDEN_AUTHORITY_PREFIXES = (
     "docs/90_WORKING/",
     "docs/99_ARCHIVE/",
     "docs/03_DIALOGUE/LINE_COMPLETE/",
+    "docs/02_STORY/CHAPTERS/HISTORICAL/",
     "docs/chapters/",
 )
 

@@ -13,7 +13,9 @@
 
 ## Canonical filename contract
 
-Chapter 4 establishes the production naming rule used going forward:
+Global naming authority: `../DIALOGUE_FILE_NAMING_AUTHORITY.md`.
+
+Chapter 4 follows that production naming rule:
 
 - scene authority spec: `CH04_B##_SCENE_NAME_SPEC.json`;
 - approved exact dialogue: `CH04_B##_SCENE_NAME_DIALOGUE.md`;

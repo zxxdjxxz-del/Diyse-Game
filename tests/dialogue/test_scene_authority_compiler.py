@@ -108,6 +108,20 @@ def main() -> int:
     )
     expect_compile_error(historical, "historical line-complete authority must be rejected")
 
+
+    historical_story = json.loads(json.dumps(source_spec))
+    historical_story["story_sources"] = [
+        {
+            "path": "docs/02_STORY/CHAPTERS/HISTORICAL/CHAPTER_03/CHAPTER_03_BEAT_03_IMPOSSIBLE_ORDERS_WORKING.md",
+            "whole_file": True,
+            "role": "historical_story_packet",
+        }
+    ]
+    expect_compile_error(
+        historical_story,
+        "historical Chapter-3 story packets must be rejected as live scene authority",
+    )
+
     missing_heading = json.loads(json.dumps(source_spec))
     missing_heading["story_sources"][0]["sections"] = ["THIS HEADING DOES NOT EXIST"]
     expect_compile_error(missing_heading, "missing section must fail instead of widening retrieval")
@@ -120,7 +134,7 @@ def main() -> int:
             "text": "I bet you use that cape to sneak up on the goats you fuck.",
             "required": True,
             "source": {
-                "path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_03/H01_NIMERA_TAKES_OVER_A_TABLE_DRAFT_A.md",
+                "path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_03/C06_NIMERA_TAKES_OVER_A_TABLE_DIALOGUE.md",
                 "whole_file": True,
                 "role": "current_exact_anchor"
             }
@@ -142,7 +156,7 @@ def main() -> int:
         "ilyra": {
             "memory_authorization": {
                 "mode": "scene_ids",
-                "authorized_scene_ids": ["CH00_S05", "CH01_S01"],
+                "authorized_scene_ids": ["CH00_B05", "CH01_B01"],
             },
             "relationship_runtime_state": {
                 "chronology_stage": "chapter_01_established_party",
@@ -184,11 +198,11 @@ def main() -> int:
         "malformed memory authorization must fail",
     )
 
-    chapter4_spec_path = ROOT / "docs/03_DIALOGUE/PRODUCTION/CHAPTER_04/BEAT_01_CRESTHAVEN_MORNING_DISTURBANCE_SPEC.json"
+    chapter4_spec_path = ROOT / "docs/03_DIALOGUE/PRODUCTION/CHAPTER_04/CH04_B01_CRESTHAVEN_MORNING_DISTURBANCE_SPEC.json"
     chapter4 = compiler.compile_spec_file(chapter4_spec_path, root=ROOT)
     chapter4_request = chapter4["request_seed"]
     expect(
-        chapter4_request["scene_id"] == "CH04_BEAT01_CRESTHAVEN_MORNING_DISTURBANCE",
+        chapter4_request["scene_id"] == "CH04_B01_CRESTHAVEN_MORNING_DISTURBANCE",
         "Chapter 4 Beat 1 scene authority did not compile with the expected ID",
     )
     expect(

@@ -36,6 +36,7 @@ Owning locks:
 - `AGENT_SYSTEM/SPOKEN_DIALOGUE_VS_NARRATION_LOCK.md` (includes knowledge-firewall invisibility)
 - `AGENT_SYSTEM/README.md` (includes scene-construction and no-walking/no-mid-battle dialogue authority)
 - `PRODUCTION/CHARACTER_LIFE_NUMBERING_LOCK.md`
+- `PRODUCTION/DIALOGUE_FILE_NAMING_AUTHORITY.md`
 
 Hard rhythm rule:
 > **Concision is not a one-sentence limit. A character yields the floor because the interaction changes, not because the script reached a period.**
@@ -339,6 +340,8 @@ Do not repeat the old sequencing mistake: current character-specific guardrails,
 
 Current production dialogue belongs under:
 > `docs/03_DIALOGUE/PRODUCTION/CHAPTER_##/`
+
+Canonical filename grammar is owned by `PRODUCTION/DIALOGUE_FILE_NAMING_AUTHORITY.md`.
 
 When a scene changes:
 1. update its current standalone atomic file first;
