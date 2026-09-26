@@ -4,7 +4,7 @@
 **Status:** FULL SOURCE-LEVEL DIALOGUE CLOSURE — REVISED 15-BEAT STRUCTURE CURRENT  
 **Migration date:** September 23, 2026  
 **Primary story authority:** ../../../02_STORY/CHAPTERS/CHAPTER_03.md  
-**Current spoken-line count after tightening:** **544 mandatory + 142 Character-Life = 686 total**  
+**Current spoken-line count after tightening:** **564 mandatory + 142 Character-Life = 706 total**  
 **Post-tightening differentiated mature-register audit:** **PASS**
 - Nimera — **49 / 229 = 21.4%** — target **20–35%**
 - Cyanis — **14 / 111 = 12.6%** — target **7–14%**
@@ -220,8 +220,8 @@ Source dialogue is structurally current and the Chapter-3 **tightening + mature-
 Completed results:
 - repeated reasoning was cut rather than personality;
 - natural floor-holding was preserved;
-- mandatory dialogue reduced from **631 to 544 spoken lines**;
-- total Chapter-3 dialogue reduced from **807 to 686 spoken lines**;
+- mandatory dialogue reduced from **631 to 564 spoken lines**;
+- total Chapter-3 dialogue reduced from **807 to 706 spoken lines**;
 - the differentiation pass lowered non-Nimera profanity density and removed the overuse of shared `fuck/fucking` intensifiers while preserving naturally mature speech;
 - the two protected First Command Warden messages are compiled as Warden-spoken runtime dialogue in B14.
 
