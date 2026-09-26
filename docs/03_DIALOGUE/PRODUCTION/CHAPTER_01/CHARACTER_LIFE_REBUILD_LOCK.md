@@ -4,13 +4,13 @@
 **Domain:** Chapter 1 optional Character-Life dialogue  
 **Canonical IDs:** C02, C03, C04  
 **Global numbering authority:** `../CHARACTER_LIFE_NUMBERING_LOCK.md`
-**Current spoken-line counts:** C02 **67** / C03 **56** / C04 **64**.
+**Current spoken-line counts:** C02 **53** / C03 **48** / C04 **58**.
 
 ## Authority result
 
 The older Chapter-1 line-complete Character-Life files were explicitly reopened and replaced by the rehearsal-first production drafts now in this folder.
 
-The current live numbering is chronological across the game. Chapter 0 owns C01, so Chapter 1 owns **C02–C04**. The existing atomic filenames retain their earlier development prefixes (`C03/C04/C05`) only as legacy source keys until those files and the synchronized Chapter-1 manuscript are next regenerated together. Those legacy prefixes do not control the live scene numbers.
+The current live numbering is chronological across the game. Chapter 0 owns C01, so Chapter 1 owns **C02–C04**. The atomic filenames and scene IDs now use those canonical IDs directly; no active Chapter-1 Character-Life source-key translation remains.
 
 ## Shared scene rules
 
@@ -55,7 +55,7 @@ Optional C04 may reveal only a little more: Torren is more than an ordinary coll
 
 ### C02 — Torren's Version of Dinner
 Legacy atomic source:
-`docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/C03_TORRENS_VERSION_OF_DINNER_REHEARSAL_FIRST_DRAFT_C.md`
+`docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/C02_TORRENS_VERSION_OF_DINNER_DIALOGUE.md`
 
 Hard premise:
 - Cyanis, Ilyra, Torren, and Maevra are all present;
@@ -70,7 +70,7 @@ Hard premise:
 
 ### C03 — What the Map Says
 Legacy atomic source:
-`docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/C04_WHAT_THE_MAP_SAYS_REHEARSAL_FIRST_DRAFT_A.md`
+`docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/C03_WHAT_THE_MAP_SAYS_DIALOGUE.md`
 
 Hard premise:
 - primarily Cyanis + Torren;
@@ -83,7 +83,7 @@ Hard premise:
 
 ### C04 — Not Professionally
 Legacy atomic source:
-`docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/C05_NOT_PROFESSIONALLY_REHEARSAL_FIRST_DRAFT_D.md`
+`docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/C04_NOT_PROFESSIONALLY_DIALOGUE.md`
 
 Hard premise:
 - Ilyra + Maevra only;

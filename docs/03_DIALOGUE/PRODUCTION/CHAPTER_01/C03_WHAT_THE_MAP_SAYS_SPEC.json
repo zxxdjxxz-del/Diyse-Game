@@ -1,8 +1,8 @@
 {
   "schema": "diyse_scene_authority_spec_v1",
-  "scene_id": "CH01_C04_WHAT_THE_MAP_SAYS_REHEARSAL_FIRST",
+  "scene_id": "CH01_C03_WHAT_THE_MAP_SAYS",
   "chapter_id": "chapter_01",
-  "story_position": "Chapter 1 cleanup window — canonical Character-Life C03 (legacy source key C04)",
+  "story_position": "Chapter 1 cleanup window — Character-Life C03",
   "production_ready": true,
   "participants": [
     "cyanis",

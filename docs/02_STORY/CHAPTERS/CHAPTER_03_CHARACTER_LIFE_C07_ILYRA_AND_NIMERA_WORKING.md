@@ -1,10 +1,10 @@
-# Chapter 3 — Character-Life H03 — Ilyra and Nimera
+# Chapter 3 — Character-Life C07 — Ilyra and Nimera
 
 **Status:** CURRENT STRUCTURE + EXACT DIALOGUE COMPLETE  
 **Canonical Character-Life ID:** **C07**  
 **Cleanup authority:** `CHAPTER_03_CLEANUP_OVERLAY.md`  
 **Cleanup-content index:** `CHAPTER_03_CLEANUP_CONTENT_AUTHORITY_INDEX.md`  
-**Exact dialogue authority:** `../../03_DIALOGUE/PRODUCTION/CHAPTER_03/H03_ILYRA_AND_NIMERA_DRAFT_A.md`
+**Exact dialogue authority:** `../../03_DIALOGUE/PRODUCTION/CHAPTER_03/C07_ILYRA_AND_NIMERA_DIALOGUE.md`
 
 ## Current scene lock
 Available during the Chapter-3 Cresthaven cleanup window.
@@ -43,4 +43,4 @@ No mandatory story clue, Card event, Ancient revelation, seal information, Hunt 
 ## End state
 The supply room feels more lived-in, and the player understands Ilyra/Nimera chemistry a little better without a sentimental conclusion.
 
-**Current exact dialogue length:** **80 spoken lines.**
+**Current exact dialogue length:** **67 spoken lines.**

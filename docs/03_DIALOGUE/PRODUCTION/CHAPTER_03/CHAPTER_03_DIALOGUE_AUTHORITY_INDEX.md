@@ -42,8 +42,8 @@ The profanity-differentiation pass remains active: Nimera retains the broadest v
 15. BEAT_15_CRESTHAVEN_HEADQUARTERS_IVORYBRIDGE_DECISION_DRAFT_A.md
 
 Character-Life:
-- C06 — Nimera Takes Over a Table — H01_NIMERA_TAKES_OVER_A_TABLE_DRAFT_A.md
-- C07 — Ilyra and Nimera — H03_ILYRA_AND_NIMERA_DRAFT_A.md
+- C06 — Nimera Takes Over a Table — C06_NIMERA_TAKES_OVER_A_TABLE_DIALOGUE.md
+- C07 — Ilyra and Nimera — C07_ILYRA_AND_NIMERA_DIALOGUE.md
 
 There is exactly one current mandatory draft and one current spec for each B01–B15 slot.
 

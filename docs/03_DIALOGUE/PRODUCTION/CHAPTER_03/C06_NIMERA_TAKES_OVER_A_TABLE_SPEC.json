@@ -1,8 +1,8 @@
 {
   "schema": "diyse_scene_authority_spec_v1",
-  "scene_id": "CH03_H01_NIMERA_TAKES_OVER_A_TABLE",
+  "scene_id": "CH03_C06_NIMERA_TAKES_OVER_A_TABLE",
   "chapter_id": "chapter_03",
-  "story_position": "Chapter 3 cleanup — Character-Life H01 — Nimera Takes Over a Table",
+  "story_position": "Chapter 3 cleanup — Character-Life C06 — Nimera Takes Over a Table",
   "production_ready": true,
   "method": "guardrail_first_agent_brain_rehearsal",
   "participants": [
@@ -16,16 +16,16 @@
   "scene_purpose": "Show Nimera behaving as though Cresthaven is somewhere she expects to keep working by naturally occupying most of the records/map table; demonstrate Cyanis and Torren's vicious-but-safe banter in front of her; let Nimera immediately enjoy and join that social dynamic; end with the table still effectively hers without sentimentalizing belonging or escalating plot lore.",
   "story_sources": [
     {
-      "path": "docs/02_STORY/CHAPTERS/CHAPTER_03_CHARACTER_LIFE_H01_NIMERA_TAKES_OVER_A_TABLE_WORKING.md",
+      "path": "docs/02_STORY/CHAPTERS/CHAPTER_03_CHARACTER_LIFE_C06_NIMERA_TAKES_OVER_A_TABLE_WORKING.md",
       "whole_file": true,
-      "role": "current_h01_structure_and_exact_line_anchors_subject_to_guardrail_method"
+      "role": "current_c06_structure_and_exact_line_anchors_subject_to_guardrail_method"
     },
     {
       "path": "docs/02_STORY/CHAPTERS/CHAPTER_03.md",
       "sections": [
         "Chapter-3 Cleanup Authority",
         "Character-Life set",
-        "H01 — Nimera Takes Over a Table"
+        "C06 — Nimera Takes Over a Table"
       ],
       "role": "cleanup_state_authority"
     },
