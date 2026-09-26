@@ -6,12 +6,12 @@
 
 ## Authority boundary
 
-This file is the target atomic for the eventual approved Beat-1 production dialogue.
+This file is the pre-approval rehearsal target for Beat 1. The eventual approved atomic will be `CH04_B01_CRESTHAVEN_MORNING_DISTURBANCE_DIALOGUE.md`.
 
 Until approved spoken wording is written here:
 - it is **not** exact dialogue authority;
 - no blank/placeholder text may be synchronized as game dialogue;
-- `BEAT_01_CRESTHAVEN_MORNING_DISTURBANCE_SPEC.json` supplies the bounded rehearsal context;
+- `CH04_B01_CRESTHAVEN_MORNING_DISTURBANCE_SPEC.json` supplies the bounded rehearsal context;
 - `docs/02_STORY/CHAPTERS/CHAPTER_04.md` supplies mandatory story outcomes;
 - current live Person Brains determine performance.
 
@@ -59,7 +59,7 @@ No second briefing scene.
 
 ## Approval gate
 
-This atomic becomes exact spoken-wording authority only after:
+An approved `CH04_B01_CRESTHAVEN_MORNING_DISTURBANCE_DIALOGUE.md` atomic may be created only after:
 1. current scene-authority compilation;
 2. independent Person-Brain rehearsal;
 3. Dialogue Editor pass;

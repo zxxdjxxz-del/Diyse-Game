@@ -11,6 +11,20 @@
 4. Current live Person Brains own person reasoning/voice.
 5. Runtime/game/reader resources are derivatives after approved source dialogue exists.
 
+## Canonical filename contract
+
+Chapter 4 establishes the production naming rule used going forward:
+
+- scene authority spec: `CH04_B##_SCENE_NAME_SPEC.json`;
+- approved exact dialogue: `CH04_B##_SCENE_NAME_DIALOGUE.md`;
+- pre-approval rehearsal target, when one is useful: `CH04_B##_SCENE_NAME_REHEARSAL_TARGET.md`.
+
+`_DIALOGUE.md` is reserved for author-approved exact spoken wording. A rehearsal target must never be synchronized as dialogue authority.
+
+Revision/status labels such as `DRAFT_A`, `DRAFT_B`, `WORKING`, `CURRENT`, and `FINAL` do not belong in canonical production filenames. Status belongs in file metadata, the chapter authority index, and Git history.
+
+Canonical machine scene IDs use `CH04_B##_`, matching the file key.
+
 ## Current chapter state
 
 Chapter 4 uses the current **12-beat** structure.
@@ -51,7 +65,7 @@ may promote a scene or story-memory delta into persistent production continuity.
 
 | Beat | Scene | Status |
 |---:|---|---|
-| 1 | Cresthaven Morning Disturbance | authority spec authored; dialogue not yet authored |
+| 1 | Cresthaven Morning Disturbance | canonical spec + rehearsal target authored; approved dialogue not yet authored |
 | 2 | Elder Thornhide | pre-dialogue structure only |
 | 3 | Field Aftermath / Shortcut Decision | pre-dialogue structure only |
 | 4 | Forest Route / Crown Road | pre-dialogue structure only |
