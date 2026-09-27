@@ -16,7 +16,7 @@
 
 ### Sunken Archive / ancient complex
 Archive-specific identities:
-- Archive Current
+- Arcdrift
 - Memory Scribe
 
 Flooded-area wildlife carryover:
@@ -55,7 +55,7 @@ Current Chapter-2 story authority controls actual encounter placement.
 - Old Waterworks are a genuinely covert route with **no routine Black Host patrols**.
 - Waterworks danger should come from compatible creatures, hazards, and non-Host threats unless a later authored placement says otherwise.
 - The Sunken Archive is not an active Black Host facility.
-- Archive ordinary encounters may use Archive Current, Memory Scribe, Bogshell, Cistern Leech, and Needlewing where the current area design places them.
+- Archive ordinary encounters may use Arcdrift, Memory Scribe, Bogshell, Cistern Leech, and Needlewing where the current area design places them.
 - Old Bastion is an active functioning Black Host position; Ruin Shieldbearers, Black Host Crossbowmen, Black Host War-Sorcerers, approved Raiders, and Rift Hounds are compatible there.
 - Maevra is physically present in Chapter 2 but **fully non-playable/noncombat**. She is not a fourth battle-party body.
 - After Rhazek's defeat, the Black Host withdraws and the maintained road-side exit becomes usable.
@@ -141,7 +141,7 @@ Owning validation:
 Chapter 2 intentionally avoids becoming construct-heavy before Chapter 3.
 
 Current Sunken Archive construct roster:
-- **Archive Current**
+- **Arcdrift**
 - **Memory Scribe**
 
 Removed from active Chapter-2 placement:
@@ -150,5 +150,10 @@ Removed from active Chapter-2 placement:
 
 Design intent:
 - flooded wildlife remains common in compatible sectors;
-- Archive Current / Memory Scribe provide a limited taste of ancient machinery;
+- Arcdrift / Memory Scribe provide a limited taste of ancient machinery;
 - Chapter 3 retains the stronger construct-density escalation.
+
+
+## Scriptshade Chapter-2 placement firewall — 2026-09-27
+- **Scriptshade is removed from Chapter 2 and belongs to the Chapter-3 Old City Archives.**
+- Do not add Scriptshade to Old Waterworks, Sunken Archive, Old Bastion, or Chapter-2 optional formations.
