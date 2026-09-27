@@ -84,16 +84,16 @@ Waterworks wildlife may continue naturally into compatible Archive sectors:
 - Needlewing
 
 Archive-specific identities begin entering:
-- Archive Current
+- Arcdrift
 - Memory Scribe
 
 | Tier | Formation | Composition |
 |---|---|---|
-| Light | **Flooded Record Hall** | 1 Bogshell + 1 Cistern Leech + 1 Archive Current |
-| Light | **Broken Archive Airspace** | 1 Needlewing + 1 Archive Current + 1 Memory Scribe |
-| Standard | **Archive Watch** | 2 Archive Currents + 1 Memory Scribe + 1 Cistern Leech |
-| Standard | **Wet Record Hall** | 1 Bogshell + 1 Archive Current + 1 Memory Scribe + 1 Needlewing |
-| Heavy | **Current Gallery** | 2 Archive Currents + 1 Memory Scribe + 1 Bogshell + 1 Cistern Leech |
+| Light | **Flooded Record Hall** | 1 Bogshell + 1 Cistern Leech + 1 Arcdrift |
+| Light | **Broken Archive Airspace** | 1 Needlewing + 1 Arcdrift + 1 Memory Scribe |
+| Standard | **Archive Watch** | 2 Arcdrifts + 1 Memory Scribe + 1 Cistern Leech |
+| Standard | **Wet Record Hall** | 1 Bogshell + 1 Arcdrift + 1 Memory Scribe + 1 Needlewing |
+| Heavy | **Current Gallery** | 2 Arcdrifts + 1 Memory Scribe + 1 Bogshell + 1 Cistern Leech |
 
 ## Deeper Archive
 As the player moves deeper:
@@ -105,7 +105,7 @@ Eligible repeatable formations:
 - Archive Watch
 - Wet Record Hall
 - Current Gallery
-- deeper variants built only from Archive Current and Memory Scribe.
+- deeper variants built only from Arcdrift and Memory Scribe.
 
 Structural band:
 > **3–5 active enemies**
@@ -113,7 +113,7 @@ Structural band:
 Memory Scribe cap:
 > **maximum 1 Memory Scribe per ordinary formation**
 
-Larger Archive formations should grow through carried wildlife and Archive Currents rather than stacking Scribes or introducing additional construct identities.
+Larger Archive formations should grow through carried wildlife and Arcdrifts rather than stacking Scribes or introducing additional construct identities.
 
 Immediate Archive-Leviathan approach buffer:
 > **SAFE**
@@ -320,7 +320,7 @@ Do not restore:
 - variety comes from ecological combinations rather than a new gimmick enemy.
 
 ## Sunken Archive
-- Archive Current provides fast magical/Lightning pressure.
+- Arcdrift provides fast magical/Lightning pressure.
 - Memory Scribe provides the chapter's recording/copy mechanic.
 - carried wildlife keeps flooded transition sectors ecological rather than sterile.
 - deeper progression shifts increasingly toward constructs.
@@ -354,7 +354,7 @@ remain OPEN until Chapter-2 mandatory-vs-completionist validation is rerun again
 
 ## Construct-density boundary — 2026-09-23
 The Sunken Archive uses exactly two active ordinary construct identities:
-- Archive Current
+- Arcdrift
 - Memory Scribe
 
 Do not add Watch Sentry or Archive Duplicant back into Chapter 2 without explicit revision. Chapter 3 owns the stronger construct-heavy escalation.
@@ -366,7 +366,7 @@ Do not add Watch Sentry or Archive Duplicant back into Chapter 2 without explici
 
 ## Sunken Archive formation correction — 2026-09-23
 - Memory Scribe remains capped at **1 per formation**;
-- larger formations use wildlife / Archive Current bodies rather than additional construct identities;
+- larger formations use wildlife / Arcdrift bodies rather than additional construct identities;
 - no four-construct ordinary formation is used in Chapter 2.
 
 
@@ -402,3 +402,7 @@ Chapter-2 ordinary encounter escalation now follows the current story geography:
 - Old Bastion final ascent: 4–6.
 
 Safe pockets protect authored reveals, the sealed Hunt door, the Leviathan approach, and the Rhazek command-room approach.
+
+
+## Scriptshade firewall — 2026-09-27
+Scriptshade does not appear in Chapter 2. Its active placement is the Chapter-3 Old City Archives.
