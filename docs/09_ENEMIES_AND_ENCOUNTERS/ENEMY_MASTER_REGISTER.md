@@ -50,7 +50,7 @@ This is a **chapter-role register**, so a recurring identity may appear in multi
 | 3 | Ordinary/carryover | Scriptshade — Old City only; moved from Chapter 2 |
 | 3 | Ordinary/carryover | Arcdrift — Old City only |
 | 3 | Ordinary | Ruin Spider — Old City + Cresthaven |
-| 3 | Ordinary | Flame Construct — Cresthaven only |
+| 3 | Ordinary | Flame Construct — Chapter-3 Cresthaven introduction; reusable in later chapters |
 | 3 | Ordinary | Blade Drone — Cresthaven only |
 | 3 | Mandatory named/boss | Archive Scribe Engine |
 | 3 | Mandatory named/boss | First Command Warden — one bar / same-bar command-state shift |
