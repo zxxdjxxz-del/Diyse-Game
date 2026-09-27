@@ -43,16 +43,15 @@ This is a **chapter-role register**, so a recurring identity may appear in multi
 | 2 | Mandatory named/boss | Archive Leviathan |
 | 2 | Mandatory named/boss | Commander Rhazek — Bastion Master |
 | 2 | Regional Hunt | Regional Hunt #2 — Scaldback |
-| 3 | Ordinary/carryover | Archive Current — late Old City carryover |
-| 3 | Ordinary/carryover | Watch Sentry — Cresthaven carryover |
-| 3 | Ordinary/carryover | Watch Ballista — Cresthaven carryover |
-| 3 | Ordinary/carryover | Judgment Frame |
-| 3 | Ordinary/carryover | Erasure Wisp |
-| 3 | Ordinary/carryover | Command Guard Frame |
-| 3 | Ordinary/carryover | Authority Lens |
-| 3 | Ordinary/carryover | Command Ring Drone |
-| 3 | Strong normal-pool Elite | Grand Inquisitor Frame |
-| 3 | Strong normal-pool Elite | Watch Captain Frame — Cresthaven carryover |
+| 3 | Ordinary/carryover | Construct — Old City + Cresthaven |
+| 3 | Ordinary/carryover | Shield Construct — Old City + Cresthaven |
+| 3 | Ordinary | Maul Construct — Old City + Cresthaven |
+| 3 | Ordinary | Flash Drone — Old City only |
+| 3 | Ordinary/carryover | Scriptshade — Old City only; moved from Chapter 2 |
+| 3 | Ordinary/carryover | Arcdrift — Old City only |
+| 3 | Ordinary | Ruin Spider — Old City + Cresthaven |
+| 3 | Ordinary | Flame Construct — Cresthaven only |
+| 3 | Ordinary | Blade Drone — Cresthaven only |
 | 3 | Mandatory named/boss | Archive Scribe Engine |
 | 3 | Mandatory named/boss | First Command Warden — one bar / same-bar command-state shift |
 | 3 | Regional Hunt | Regional Hunt #3 — Archive Judgment Engine |
@@ -277,19 +276,22 @@ Status rollout:
 Chapter-3 enemy and encounter structure:
 > **CLOSED — NUMERIC VALIDATION DEFERRED**
 
-Current active ordinary identities — **8 unique**:
-- Judgment Frame;
-- Erasure Wisp;
-- Authority Lens;
-- Archive Current;
-- Command Guard Frame;
-- Command Ring Drone;
-- Watch Sentry;
-- Watch Ballista.
+Current active ordinary identities — **9 unique**:
+- Construct;
+- Shield Construct;
+- Maul Construct;
+- Flash Drone;
+- Scriptshade;
+- Arcdrift;
+- Ruin Spider;
+- Flame Construct;
+- Blade Drone.
 
-Strong normal-pool identities:
-- Grand Inquisitor Frame;
-- Watch Captain Frame.
+Area lock:
+- Old City — Construct / Shield Construct / Maul Construct / Flash Drone / Scriptshade / Arcdrift / Ruin Spider;
+- Cresthaven — Construct / Shield Construct / Maul Construct / Flame Construct / Blade Drone / Ruin Spider.
+
+The former Chapter-3 Grand Inquisitor Frame / Watch Captain Frame strong-normal placements are retired by the September 27 roster lock.
 
 Mandatory bosses:
 - Archive Scribe Engine;
@@ -299,9 +301,9 @@ Regional Hunt:
 - Archive Judgment Engine.
 
 Current Stun assignment:
-- Command Guard Frame;
 - First Command Warden;
-- Archive Judgment Engine.
+- Archive Judgment Engine;
+- ordinary-enemy introduction — **OPEN after September 27 roster revision**.
 
 Historical lawful/nonlethal Caelora identities remain in their owner files but have **no current Chapter-3 placement** and are not counted in the active chapter roster.
 
