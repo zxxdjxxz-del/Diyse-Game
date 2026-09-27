@@ -8,7 +8,7 @@
 ## Route firewalls
 - no hostile Caelora gate / perimeter random pool;
 - no Caelora → Cresthaven road encounters;
-- Archive Scribe Engine is a mandatory Beat-11 boss and never random-spawns;
+- Memory Construct is a mandatory Beat-11 boss and never random-spawns;
 - First Command Warden is the authored Beat-14 boss;
 - retired September-23 Chapter-3 enemy identities must not appear in current random formations.
 
@@ -92,12 +92,12 @@ Rules:
 - no retired Grand Inquisitor Frame formations remain;
 - body range: **4–6**.
 
-## Beat 11 — Archive Scribe Engine approach
+## Beat 11 — Memory Construct approach
 
 Immediate pre-boss staging pocket:
 > **SAFE — no random encounter**
 
-Archive Scribe Engine:
+Memory Construct:
 > **mandatory authored boss only — never random**
 
 ## Old City body-count progression
