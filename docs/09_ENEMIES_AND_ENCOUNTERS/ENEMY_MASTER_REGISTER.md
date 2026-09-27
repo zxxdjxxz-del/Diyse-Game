@@ -52,7 +52,7 @@ This is a **chapter-role register**, so a recurring identity may appear in multi
 | 3 | Ordinary | Ruin Spider — Old City + Cresthaven |
 | 3 | Ordinary | Flame Construct — Chapter-3 Cresthaven introduction; reusable in later chapters |
 | 3 | Ordinary | Blade Drone — Cresthaven only |
-| 3 | Mandatory named/boss | Archive Scribe Engine |
+| 3 | Mandatory named/boss | Memory Construct |
 | 3 | Mandatory named/boss | First Command Warden — one bar / same-bar command-state shift |
 | 3 | Regional Hunt | Regional Hunt #3 — Archive Judgment Engine |
 | 4 | Ordinary/carryover | Reaction Node |
@@ -153,7 +153,7 @@ This is a **chapter-role register**, so a recurring identity may appear in multi
 | 9 | Regional Hunt | Regional Hunt #9 — Mercyfallen Behemoth |
 | 10 | Ordinary/carryover | Vine Creeper |
 | 10 | Ordinary/carryover | Briar Boar |
-| 10 | Ordinary/carryover | Archive Scribe Engine |
+| 10 | Ordinary/carryover | Memory Construct |
 | 10 | Ordinary/carryover | Judgment Frame |
 | 10 | Ordinary/carryover | Erasure Wisp |
 | 10 | Ordinary/carryover | Command Guard Frame |
@@ -294,7 +294,7 @@ Area lock:
 The former Chapter-3 Grand Inquisitor Frame / Watch Captain Frame strong-normal placements are retired by the September 27 roster lock.
 
 Mandatory bosses:
-- Archive Scribe Engine;
+- Memory Construct;
 - First Command Warden.
 
 Regional Hunt:
@@ -505,7 +505,7 @@ Chapter-10 reused ordinary action pass: **PASS**
 Complete:
 - Vine Creeper — Ch10
 - Briar Boar — Ch10
-- Archive Scribe Engine — Ch10
+- Memory Construct — Ch10
 - Judgment Frame — Ch10
 - Erasure Wisp — Ch10
 - Command Guard Frame — Ch10
@@ -667,7 +667,7 @@ Removed from the active Chapter-3 register:
 - Rift Boltman
 - Black Host Ward-Sorcerer
 
-Archive Scribe Engine is now registered as a mandatory named/boss rather than an ordinary enemy.
+Memory Construct is now registered as a mandatory named/boss rather than an ordinary enemy.
 
 
 ## Chapter-3 active-register correction — 2026-09-23
