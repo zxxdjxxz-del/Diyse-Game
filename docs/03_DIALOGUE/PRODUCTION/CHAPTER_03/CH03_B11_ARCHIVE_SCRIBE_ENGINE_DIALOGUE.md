@@ -1,12 +1,12 @@
 # Chapter 3 — Beat 11
-# Archive Scribe Engine
+# Memory Construct
 ## CURRENT LOCKED DIALOGUE — REVISED TRUE-VOICE / AGENT-BRAIN PASS
 
 **Status:** CURRENT ATOMIC DIALOGUE AUTHORITY — 2026-09-23
 
 ### [STORY TRIGGER — INNER TRANSFER CHAMBER]
 
-The large Archive Scribe Engine wakes as the party enters the intact transfer chamber.
+The large Memory Construct wakes as the party enters the intact transfer chamber.
 
 Articulated copying arms unfold. Heavy shutters turn. Engraved channels brighten through the floor.
 
@@ -108,7 +108,7 @@ Transition into:
 
 ## Beat-11 end state
 
-- Archive Scribe Engine is defeated as the major Caelora Archives boss;
+- Memory Construct is defeated as the major Caelora Archives boss;
 - the Engine is procedural machinery, not a lore-speaking villain;
 - no Warden/Last Sentinel/Ruby event occurs;
 - defeating the Engine opens access to the protected Inner Collections;
