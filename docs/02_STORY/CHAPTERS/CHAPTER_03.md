@@ -415,11 +415,11 @@ Mandatory:
 - no Prime/Might/Last Sentinel classification;
 - build toward the oldest accessible repository.
 
-Handoff → **Beat 11 — Archive Scribe Engine**.
+Handoff → **Beat 11 — Memory Construct**.
 
 ---
 
-## Beat 11 — Archive Scribe Engine
+## Beat 11 — Memory Construct
 
 **Purpose:** serve as the major boss/gatekeeper of the Caelora Archives dungeon.
 
