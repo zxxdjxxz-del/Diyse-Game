@@ -59,7 +59,7 @@ Current active identities:
 - **Construct**
 - **Shield Construct**
 - **Maul Construct**
-- **Flame Construct** — Cresthaven-only construct that shoots fire from one arm
+- **Flame Construct** — introduced in Chapter 3 at Cresthaven; shoots fire from one arm; reusable in later chapters
 - **Blade Drone** — Cresthaven-only fast aerial construct
 - **Ruin Spider**
 
@@ -76,8 +76,8 @@ Old City only:
 - Scriptshade
 - Arcdrift
 
-Cresthaven only:
-- Flame Construct
+Chapter-3 Cresthaven placement:
+- Flame Construct — introduced here, but not globally exclusive; may recur in later chapters
 - Blade Drone
 
 # Retired Chapter-3 ordinary / strong-normal-pool identities
