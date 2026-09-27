@@ -28,7 +28,7 @@ Chapter 3's main dungeon.
 - Beat 8 — Buried Collections / recent-reader trail
 - Beat 9 — Hall of Seals
 - Beat 10 — Deep Archives
-- **Beat 11 — Archive Scribe Engine mandatory boss**
+- **Beat 11 — Memory Construct mandatory boss**
 - Beat 12 — Inner Collections / Westways recordbook / Sealwright Chamber
 
 ### Beat 13 — Return to Mirena
@@ -103,7 +103,7 @@ This retirement is **Chapter-3 placement only**. It does not automatically delet
 
 # Mandatory named / bosses
 
-## Archive Scribe Engine
+## Memory Construct
 - mandatory Beat-11 Old City Archives boss;
 - one continuous HP bar / one targetable boss body;
 - no transformation, add wave, or separate targetable copying arms;
@@ -163,7 +163,7 @@ Still open:
 - final formation selection weights;
 - encounter frequencies;
 - mandatory/completionist level anchors;
-- Archive Scribe Engine and First Command Warden current-party validation;
+- Memory Construct and First Command Warden current-party validation;
 - Regional Hunt #3 cleanup-state validation.
 
 Do not silently restore the September 23 roster to fill these gaps.
