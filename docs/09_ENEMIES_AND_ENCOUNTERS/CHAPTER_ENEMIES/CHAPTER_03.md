@@ -1,20 +1,17 @@
 # Diyse — Chapter 03 Enemies — Caelora / Old City Archives / Cresthaven Tower Base
 
-**Migration baseline:** `Diyse_CURRENT_WORKING_TRACKER_CONSOLIDATED_2026-08-27_v85.md`  
-**Primary enemy-production authority:** compatible Audit90 / Audit93 plus accepted later tracker roster/action cleanups.  
-**Primary raw-stat authority:** Audit129 + Audit130 / Audit131 / Audit132 / Audit133 / Audit134 / Audit135.  
-**Current whole-project written authority:** v2.20 / Audit135, plus later explicit story / encounter corrections.  
-**Current Chapter-3 story authority:** `../../02_STORY/CHAPTERS/CHAPTER_03.md` as revised September 23, 2026.  
-**Migration rule:** the revised 15-beat Chapter-3 story structure supersedes the retired Ancient Barrier / Beat-8 onboarding / Caelora-Warden / old command-route placement assumptions.
-**Structural enemy/encounter status:** **CLOSED — numeric validation deferred.**
+**Current whole-project written authority:** v2.20 / Audit135, plus later explicit user corrections.  
+**Current Chapter-3 story authority:** `../../02_STORY/CHAPTERS/CHAPTER_03.md`.  
+**Ordinary-enemy roster authority:** **LOCKED — September 27, 2026.**  
+**Numeric status:** **DEFERRED — raw-stat tuning, final selection weights, encounter frequencies, and difficulty certification remain downstream.**
 
 ## Combat-party chronology
 
-- Beats 1–4: Cyanis + Ilyra + Torren are the permanent combat-capable party; Maevra is non-playable.
+- Beats 1–4: Cyanis + Ilyra + Torren are the permanent combat-capable party.
 - Beat 5 Old City entry: Cyanis + Ilyra + Torren.
 - **Beat 6: Nimera joins permanently.**
-- Beats 6–15: Cyanis + Ilyra + Torren + Nimera are the permanent combat-capable party.
-- Maevra never contributes battle action economy.
+- Beats 6–15: Cyanis + Ilyra + Torren + Nimera.
+- Maevra remains non-playable/noncombat.
 - Mirena is not a combat party member.
 
 ## Mandatory-route structure
@@ -22,332 +19,151 @@
 ### Beats 1–4 — Caelora / Crown investigation
 No mandatory combat.
 
-Do not place:
-- hostile Caelora gate encounters;
-- lawful-authority fights;
-- Way-Fort enemies;
-- random road combat.
-
 ### Beats 5–12 — Old City Archives
-This is Chapter 3's main dungeon.
+Chapter 3's main dungeon.
 
-Current structural order:
-- Beat 5 — Archive access/descent;
-- Beat 6 — Nimera joins;
-- Beat 7 — Lower Archives;
-- Beat 8 — Buried Collections / recent-reader trail;
-- Beat 9 — Hall of Seals;
-- Beat 10 — Deep Archives;
-- **Beat 11 — Archive Scribe Engine mandatory boss;**
-- Beat 12 — Inner Collections / Westways recordbook / Sealwright Chamber.
+- Beat 5 — Archive access/descent
+- Beat 6 — Nimera joins
+- Beat 7 — Lower Archives
+- Beat 8 — Buried Collections / recent-reader trail
+- Beat 9 — Hall of Seals
+- Beat 10 — Deep Archives
+- **Beat 11 — Archive Scribe Engine mandatory boss**
+- Beat 12 — Inner Collections / Westways recordbook / Sealwright Chamber
 
-There is **no Ancient Barrier** and no Beat-8 Scribe-Engine onboarding fight.
-
-### Beat 13 — return to Mirena
+### Beat 13 — Return to Mirena
 No mandatory combat.
 
 ### Beat 14 — Cresthaven / Ancient tower base
-Normal Cresthaven first, followed by the short Ancient tower-base dungeon and **First Command Warden**.
-
-Current short-dungeon story progression:
-1. Tower Foundation
-2. Command Interior
-3. Warden Chamber
-
-The First Command Warden is the mandatory Beat-14 boss.
+Short Ancient tower-base dungeon ending with the **First Command Warden**.
 
 ### Beat 15 — Cresthaven headquarters / cleanup
-No mandatory mainline combat.
+No mandatory mainline combat. Regional Hunt #3 may unlock during cleanup under its own authority.
 
-Regional Hunt #3 may unlock during cleanup under its own authority.
+# Locked ordinary / repeatable roster — 2026-09-27
 
-## Ordinary / repeatable identities
+## Old City Archives
 
-### Old City Archives — currently retained ordinary identities
+Current active identities:
+- **Construct**
+- **Shield Construct**
+- **Maul Construct** — normal construct with a large maul; replaces the retired Chapter-3 Judgment Frame role/name
+- **Flash Drone** — Old City flying/ranged construct; replaces the retired Chapter-3 Authority Lens placement
+- **Scriptshade** — moved into Chapter 3 from the Chapter-2 concept; Chapter 2 must not use it
+- **Arcdrift** — established elemental enemy; current name supersedes Chapter-3 Archive Current references
+- **Ruin Spider** — natural enemy occupying the Old City ruins
+
+## Cresthaven Ancient tower base
+
+Current active identities:
+- **Construct**
+- **Shield Construct**
+- **Maul Construct**
+- **Flame Construct** — Cresthaven-only construct that shoots fire from one arm
+- **Blade Drone** — Cresthaven-only fast aerial construct
+- **Ruin Spider**
+
+## Shared / exclusive placement lock
+
+Shared by Old City and Cresthaven:
+- Construct
+- Shield Construct
+- Maul Construct
+- Ruin Spider
+
+Old City only:
+- Flash Drone
+- Scriptshade
+- Arcdrift
+
+Cresthaven only:
+- Flame Construct
+- Blade Drone
+
+# Retired Chapter-3 ordinary / strong-normal-pool identities
+
+The following older Chapter-3 placements are superseded by the September 27 roster lock and must not appear in current Chapter-3 random formations unless explicitly reintroduced later:
 - Judgment Frame
 - Erasure Wisp
-- Authority Lens — inspection / classification support construct; also appears at Cresthaven
-- Archive Current — Chapter-2 carryover; late-Archive Lightning construct
+- Authority Lens
+- Archive Current
+- Command Guard Frame
+- Command Ring Drone
+- Watch Sentry
+- Watch Ballista
+- Grand Inquisitor Frame
+- Watch Captain Frame
 
-### Old City Archives — strong normal-pool Elite
-- Grand Inquisitor Frame — late Deep Archives enforcement frame; max 1 per formation; no Chapter-3 Stun rider
-
-Exact sub-area formation eligibility is now locked in `../ENCOUNTER_FORMATIONS/CHAPTER_03_FORMATIONS.md`. Final numeric selection weights and encounter frequencies remain deferred.
-
-### Cresthaven tower-base ordinary identities — current
-- Command Guard Frame — surviving command-site security construct; current preferred Chapter-3 Stun introduction
-- Authority Lens — shared inspection / authority-reading support construct; also appears in the Old City Archives; no Chapter-3 Stun rider
-- Command Ring Drone — mobile command-relay support construct; Attack / Magic support
-- Watch Sentry — Chapter-1 Ancient-defense carryover; linked setup piece
-- Watch Ballista — Chapter-1 fixed-defense carryover; linked heavy-shot fixture
-
-### Cresthaven tower-base strong normal-pool identity
-- Watch Captain Frame — Chapter-1 carryover; rare heavy Ancient-defense body; max 1 per formation
-
-### Retired Chapter-3 identities
-The following are removed from Chapter 3 entirely:
+Previously retired Chapter-3 identities remain retired:
 - Way-Fort Marauder
 - Rift Boltman
 - Black Host Ward-Sorcerer
 
-Do not place them in:
-- Caelora;
-- the Old City Archives;
-- Cresthaven;
-- the skipped Caelora → Cresthaven travel;
-- Chapter-3 optional content.
+This retirement is **Chapter-3 placement only**. It does not automatically delete those identities from other chapters or historical/reference files.
 
-Their historical files may remain for archive/reference purposes, but they are not active Chapter-3 enemy content.
+# Mandatory named / bosses
 
-The Cresthaven short-dungeon ordinary roster must be intentionally designed rather than inherited wholesale from the retired Caelora command-route structure.
-
-Current approved tower-base identities:
-- Command Guard Frame
-- Authority Lens
-- Command Ring Drone
-- Watch Sentry
-- Watch Ballista
-- Watch Captain Frame
-
-## Retired random-pool use
-
-### Archive Scribe Engine
-**Retired as an ordinary/repeatable enemy.**
-
-Current role:
-> **mandatory Beat-11 story boss / gatekeeper of the Inner Collections**
-
-Do not include Archive Scribe Engine in random formations.
-
-## Authored / protected lawful identities — no current mandatory placement
-- Ivory Watch Guard
-- Royal Polearm Officer
-- Ivory Crossbow Sentinel
-- Order Clerk
-- False-Warrant Adept
-- Ivory Adjudicator
-
-The old lawful-authority confrontation chain is not part of the current mandatory Chapter-3 route.
-
-## Mandatory named / boss
-
-### Archive Scribe Engine
+## Archive Scribe Engine
 - mandatory Beat-11 Old City Archives boss;
-- **one continuous HP bar / one targetable boss body**;
+- one continuous HP bar / one targetable boss body;
 - no transformation, add wave, or separate targetable copying arms;
-- procedural Ancient archive / transfer / security machinery;
-- retained Chapter-3 action grammar: Scribe Beam / Index Burst / Record Stabilization;
-- no harmful-status rider;
-- no First Command Warden messaging;
-- no PREVIOUS ERROR;
-- no LAST SENTINEL CONFIRMED;
-- no Ruby stabilization;
-- former Lv10 / HP315 ordinary body is retired for boss use;
+- never random-spawns;
 - boss raw body / fight-length budget require current four-person validation.
 
-### First Command Warden
+## First Command Warden
 - mandatory Beat-14 Cresthaven tower-base boss;
-- **one continuous HP bar**;
+- one continuous HP bar;
 - same-bar Imposed Authority → Challenged Authority shift at 45%;
 - State A uses Command Seal plus interruptible Command Ring / Major Ruling;
-- former Recorded Analogue / copied-action system is retired;
-- State B drops new Seals / Ring offense and shifts to heavier direct attacks;
-- Stun remains the only Chapter-3 harmful-status rider in its boss kit;
-- assesses the four-person party before attacking;
-- protected exact shutdown message order:
+- State B shifts toward heavier direct attacks;
+- protected shutdown message order:
   1. **PREVIOUS ERROR**
   2. **LAST SENTINEL CONFIRMED**
-- LAST SENTINEL CONFIRMED is its final message;
-- Warden becomes fully inert;
-- only afterward Cyanis's Card stabilizes deep Ruby;
-- Prime / Might / bearer status / causation remain unresolved.
+- Warden becomes fully inert before Cyanis's Card stabilizes deep Ruby.
 
-## Regional Hunt
-### Regional Hunt #3 — Archive Judgment Engine
+# Regional Hunt
+
+## Regional Hunt #3 — Archive Judgment Engine
 - optional Chapter-3 cleanup content;
-- unlocked through the newly accessible Old City Archive side passage;
+- unlocked through the accessible Old City Archive side passage;
 - party: Cyanis + Ilyra + Torren + Nimera;
 - one continuous HP bar / one targetable boss body;
-- no phases, adds, support objects, or command-Warden mechanics;
-- Hunt-scale escalation of the Judgment Frame enforcement lineage;
-- retained kit: Judgment Lance / Archive Verdict / Lock Verdict / Enforcement Crash / Record Guard;
-- Stun is legal through Lock Verdict because the Hunt occurs after Chapter-3 Stun has already been introduced;
-- inherited Lv15 / HP4,928 line is provisional and requires current cleanup-state validation;
-- must not solve the main Chapter-3 mysteries.
+- no phases, adds, support objects, or Command-Warden mechanics;
+- current final tuning remains deferred.
 
-## Story-placement firewalls
+# Status rollout
 
-- no hostile mandatory Caelora approach;
-- no Ancient Barrier;
-- Nimera joins in Beat 6, not Beat 8;
-- no mandatory road dungeon between Caelora and Cresthaven;
-- no First Command Warden in Caelora;
-- no random Archive Scribe Engine;
-- no automatic inheritance of the retired Deep Command Route enemy placements;
-- no second route-map encounter/reveal after the Warden;
-- Maevra remains noncombat.
+> **Stun is introduced in Chapter 3.**
 
-## Status rollout
-> **Stun introduced in Chapter 3**
+The previous ordinary-enemy Stun-source assignment to Command Guard Frame is retired with that enemy's Chapter-3 placement.  
+**The replacement ordinary-enemy Stun introduction is currently open and must be decided before final encounter certification.**
 
-## Direct-damage Power / raw-status note
+# Formation authority
 
-Existing raw bodies and action Powers remain retained where their identities remain valid, but placement does not follow automatically from retained stats.
-
-The prior direct-damage Power audit remains closed for already-audited identities.
-
-Structural changes requiring fresh encounter validation include:
-- Nimera joining in Beat 6;
-- full four-person party for Beats 7–15;
-- Archive Scribe Engine promoted to mandatory Beat-11 boss;
-- First Command Warden moved to Cresthaven;
-- current Old City and Cresthaven formation body-count progression;
-- Chapter-1 / Chapter-2 carryover constructs retuned for the Chapter-3 four-person state.
-
-## Mandatory-vs-completionist validation status
-
-> **REOPENED / REVALIDATION REQUIRED**
-
-Validation must use:
-- early Old City: Cyanis + Ilyra + Torren before Beat 6;
-- Beat 6 onward: Cyanis + Ilyra + Torren + Nimera;
-- Maevra noncombat;
-- current dungeon order and current mandatory bosses.
-
-Do not reuse the old validation that assumed:
-- Maevra as combat guest;
-- hostile Caelora perimeter;
-- Ancient Barrier;
-- Beat-8 Nimera onboarding;
-- First Command Warden in the Caelora command route.
-
-Owning validation:
-`../../16_BALANCE_AND_TESTING/BALANCE/CHAPTER_03_MANDATORY_COMPLETIONIST_VALIDATION.md`
-
-## Current open encounter-design work
-
-Structural design is closed.
-
-Still intentionally open:
-- final Chapter-3 formation selection weights / encounter frequencies;
-- Chapter-3 carryover raw-stat tuning;
-- exact Archive Scribe Engine raw boss body / fight-length budget;
-- First Command Warden raw body / Ring durability / fight-length revalidation at Beat 14;
-- Archive Judgment Engine final cleanup-state tuning;
-- mandatory/completionist level anchors and certification.
-
-Do not fill these gaps by silently restoring the retired encounter structure.
-
-
-## Cresthaven construct placement correction — 2026-09-23
-- **Command Guard Frame is approved for the Cresthaven Ancient tower base.**
-- It is removed from Old City Archives placement.
-- Tower Foundation may use it sparingly; Command Interior is its primary home.
-- Station Pulse is the current preferred ordinary-enemy introduction to **Stun** in Chapter 3.
-
-
-## Authority Lens placement correction — 2026-09-23
-- **Authority Lens is approved for both the Old City Archives and the Cresthaven Ancient tower base.**
-- In the Archives it functions as inspection / classification support.
-- In Cresthaven, Command Interior is its strongest thematic home.
-- Chapter-3 Classification Flash is Lightning AoE **without Stun**.
-- Command Guard Frame remains the preferred ordinary-enemy Stun introduction.
-
-
-## Cresthaven Command Ring Drone correction — 2026-09-23
-- **Command Ring Drone is approved for the Cresthaven Ancient tower base only.**
-- It does not belong to the Old City Archives.
-- Its Chapter-3 role is offensive support through Command Relay rather than accuracy support or Stun.
-- No Chapter-3 AoE action is added.
-
-
-## Grand Inquisitor Frame placement correction — 2026-09-23
-- **Grand Inquisitor Frame is retained as the Chapter-3 strong normal-pool Elite.**
-- Its current home is the late **Old City Archives / Deep Archives**, not Cresthaven.
-- Maximum one per formation.
-- Chapter-3 Lock Sequence is Lightning damage **without Stun**.
-- The inherited numeric body requires fresh four-person validation.
-
-
-## Chapter-3 hostile-perimeter retirement — 2026-09-23
-- **Way-Fort Marauder — RETIRED FROM CHAPTER 3**
-- **Rift Boltman — RETIRED FROM CHAPTER 3**
-- **Black Host Ward-Sorcerer — RETIRED FROM CHAPTER 3**
-
-These three identities are not part of any current Chapter-3 mandatory, optional, random, authored, or cleanup encounter.
-
-
-## Archive Current Chapter-3 carryover — 2026-09-23
-- **Archive Current carries forward from Chapter 2 into the late Old City Archives.**
-- It is a Lightning-aligned construct and supplies the desired elemental presence without creating a new Chapter-3 identity.
-- Primary placement: **Beat 10 — Deep Archives**.
-- Possible limited placement: late Beat-9 boundary if map geography supports it.
-- No elemental cycling or Chapter-4 reaction mechanics are added.
-
-
-## Hollow Watch construct carryover — 2026-09-23
-The established Chapter-1 Hollow Watch construct family carries into the **Cresthaven Ancient tower base**:
-- Watch Sentry;
-- Watch Ballista;
-- Watch Captain Frame.
-
-Their recognizable combat grammar is preserved, including the Sentry → Ballista targeting setup.
-
-**Hollow Watch Castellan does not carry over.** It remains the specific Chapter-1 Hollow Watch mini-boss.
-
-All Chapter-3 carryover bodies require fresh four-person-party tuning.
-
-
-## Old City formation structure lock — 2026-09-23
-Current formation authority:
+Exact current formation compositions and sub-area eligibility are owned by:
 `../ENCOUNTER_FORMATIONS/CHAPTER_03_FORMATIONS.md`
 
-Structural progression:
-- Beat 7 Lower Archives — **3–4 enemies**;
-- Beat 8 Buried Collections — **4–5 enemies**;
-- Beat 9 Hall of Seals — **4–5 enemies**;
-- Beat 10 Deep Archives — **4–6 enemies**.
+Body-count structure remains:
+- Beat 7 Lower Archives — **3–4 enemies**
+- Beat 8 Buried Collections — **4–5 enemies**
+- Beat 9 Hall of Seals — **4–5 enemies**
+- Beat 10 Deep Archives — **4–6 enemies**
+- Cresthaven Tower Foundation — **4–5 enemies**
+- Cresthaven Command Interior — **4–6 enemies**
+- Cresthaven Warden approach — **5–6 enemies**
+- simultaneous ordinary-enemy ceiling — **6**
 
-Archive Current enters only at the late Beat-9 boundary or Beat 10.
-Grand Inquisitor Frame is a rare late pressure spike, max 1 per formation.
-Archive Scribe Engine never random-spawns.
-The immediate Beat-11 boss approach is safe.
+# Validation boundary
 
+The September 27 roster revision reopens Chapter-3 encounter certification.
 
-## First Command Warden combat correction — 2026-09-23
-- one continuous HP bar;
-- Imposed Authority → Challenged Authority at 45% on the same bar;
-- Command Seal retained;
-- interruptible Command Ring / Major Ruling retained;
-- Recorded Analogue / copied-action mechanic retired;
-- Challenged Verdict no longer carries Staggered;
-- Major Ruling and Command Collapse may reinforce Chapter-3 Stun;
-- inherited raw body and round targets require fresh Beat-14 validation.
+Still open:
+- raw bodies / action-Power authoring for newly introduced or renamed identities;
+- ordinary-enemy Stun introduction;
+- final formation selection weights;
+- encounter frequencies;
+- mandatory/completionist level anchors;
+- Archive Scribe Engine and First Command Warden current-party validation;
+- Regional Hunt #3 cleanup-state validation.
 
-
-## Archive Judgment Engine structural correction — 2026-09-23
-- one continuous HP bar;
-- no phase change or support objects;
-- no Command Seal / Command Ring / copied-action behavior;
-- remains the Hunt-scale escalation of Judgment Frame rather than a second Warden;
-- Lock Verdict retains Stun;
-- inherited Lv15 / HP4,928 tuning is provisional pending current cleanup validation.
-
-
-## Chapter-3 enemy / encounter structural closure — 2026-09-23
-The Chapter-3 enemy and encounter-design pass is **STRUCTURALLY CLOSED**.
-
-Closed:
-- active roster;
-- retired roster;
-- Old City / Cresthaven assignments;
-- strong normal-pool identities;
-- mandatory boss roles and architectures;
-- Regional Hunt #3 architecture;
-- ordinary formation compositions;
-- sub-area eligibility;
-- body-count caps;
-- safe pre-boss buffers;
-- Chapter-3 Stun-source assignment.
-
-Numeric validation remains open and downstream.
+Do not silently restore the September 23 roster to fill these gaps.
