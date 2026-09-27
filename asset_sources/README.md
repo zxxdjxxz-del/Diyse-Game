@@ -10,7 +10,10 @@ Approved Diyse-original character and enemy reference masters use exact-source l
 
 Current lanes:
 - [`characters/current/`](characters/current/) — exact current character visual masters;
-- [`enemies/chapter_00/current/`](enemies/chapter_00/current/) — exact Chapter 0 enemy visual masters and locked reference packet.
+- [`enemies/chapter_00/current/`](enemies/chapter_00/current/) — exact Chapter 0 enemy visual masters and locked reference packet;
+- [`enemies/chapter_01/current/`](enemies/chapter_01/current/) — exact Chapter 1 enemy visual masters;
+- [`enemies/chapter_02/current/`](enemies/chapter_02/current/) — exact Chapter 2 enemy visual masters;
+- [`enemies/chapter_03/current/`](enemies/chapter_03/current/) — exact locked Chapter 3 enemy visual masters currently available.
 
 For an exact-source lane, the registered SHA-256 controls binary identity. Do not re-encode or optimize an approved master during repository promotion.
 

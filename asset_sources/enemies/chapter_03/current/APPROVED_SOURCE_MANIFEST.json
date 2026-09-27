@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "chapter": 3,
+  "repository_root": "asset_sources/enemies/chapter_03/current",
+  "locked_count": 1,
+  "binary_sync_count": 1,
+  "masters": {
+    "scriptshade": {
+      "display_name": "Scriptshade",
+      "file": "scriptshade.png",
+      "format": "PNG",
+      "width": 1122,
+      "height": 1402,
+      "size_bytes": 1726923,
+      "sha256": "b45dbe0c2d20ea8104b523f90335218de1ed5f318607b8426017049a3399f4f1",
+      "exact_binary_sync": "complete",
+      "image_generation_id": "a8d32a4b-c04b-44c0-a8f9-8636b5cb01aa"
+    }
+  }
+}

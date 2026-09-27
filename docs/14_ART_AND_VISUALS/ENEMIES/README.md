@@ -8,6 +8,8 @@ Shared rendering:
 Current chapter enemy authorities:
 - `CHAPTER_00_ENEMY_VISUAL_AUTHORITY.md` — Chapter 0 exact enemy visual set, complete 7/7.
 - `CHAPTER_01_ENEMY_VISUAL_AUTHORITY.md` — Chapter 1 exact visual set, complete 9/9 and exact-binary synced, plus 3 inherited Chapter-0 Black Host masters.
+- `CHAPTER_02_ENEMY_VISUAL_AUTHORITY.md` — Chapter 2 exact new visual set, complete 6/6 and exact-binary synced.
+- `CHAPTER_03_ENEMY_VISUAL_AUTHORITY.md` — Chapter 3 visual authority; currently includes the exact locked Scriptshade master.
 
 Enemy mechanics, stats, actions, encounter placement, and AI remain owned by:
 > `../../09_ENEMIES_AND_ENCOUNTERS/`

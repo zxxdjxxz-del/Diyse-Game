@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "chapter": 2,
+  "repository_root": "asset_sources/enemies/chapter_02/current",
+  "locked_count": 6,
+  "binary_sync_count": 6,
+  "masters": {
+    "bogshell": {
+      "display_name": "Bogshell",
+      "file": "bogshell.png",
+      "format": "PNG",
+      "width": 1536,
+      "height": 1024,
+      "size_bytes": 1944365,
+      "sha256": "bcfc15fefded27282d549527d6ae6e6e89bb193b1e885609a7d9df616de26c8d",
+      "exact_binary_sync": "complete",
+      "image_generation_id": "4ac35e4f-48ed-4b65-b4ea-9600cc7cb954"
+    },
+    "cistern_leech": {
+      "display_name": "Cistern Leech",
+      "file": "cistern_leech.png",
+      "format": "PNG",
+      "width": 1536,
+      "height": 1024,
+      "size_bytes": 1832708,
+      "sha256": "18867263bd95ba950a1e4a97adf49ac6e53ec81671bec61281b10a4f244b2ca6",
+      "exact_binary_sync": "complete",
+      "image_generation_id": "29c61bd1-c614-458c-ab68-1f2cc6d35369"
+    },
+    "scaldback": {
+      "display_name": "Scaldback",
+      "file": "scaldback.png",
+      "format": "PNG",
+      "width": 1448,
+      "height": 1086,
+      "size_bytes": 1548955,
+      "sha256": "80d8fad95871531d3b5cdec517c72c0c3fafbfe41e6fb8a913d5a8bbfa15b36a",
+      "exact_binary_sync": "complete",
+      "image_generation_id": "c984f3fa-2e8d-483b-ad89-193b97c6e2aa"
+    },
+    "arcdrift": {
+      "display_name": "Arcdrift",
+      "file": "arcdrift.png",
+      "format": "PNG",
+      "width": 1448,
+      "height": 1086,
+      "size_bytes": 1554641,
+      "sha256": "896dd4e2f2d2e97d9c45571c8ae4523a5837accfa50e2b60bfa0a21eab98a8c8",
+      "exact_binary_sync": "complete",
+      "image_generation_id": "8ad7acc4-dccc-48fb-ba44-387c2af18688"
+    },
+    "archive_leviathan": {
+      "display_name": "Archive Leviathan",
+      "file": "archive_leviathan.png",
+      "format": "PNG",
+      "width": 1774,
+      "height": 887,
+      "size_bytes": 1750007,
+      "sha256": "ef6dba997bc7c5f37c9cafa222785e3ac30a51b69e1339e286728853bc7edccc",
+      "exact_binary_sync": "complete",
+      "image_generation_id": "791ff84b-b9fa-415b-82dd-18e043205244"
+    },
+    "commander_rhazek": {
+      "display_name": "Commander Rhazek",
+      "file": "commander_rhazek.png",
+      "format": "PNG",
+      "width": 1122,
+      "height": 1402,
+      "size_bytes": 1554923,
+      "sha256": "f7f8fca42263ec15bd4e851613bfe0cada52a4f1824bb1e76b5a3908f4967882",
+      "exact_binary_sync": "complete",
+      "image_generation_id": "71334361-d976-48b8-b5cd-59a7c39bcbbe"
+    }
+  }
+}
