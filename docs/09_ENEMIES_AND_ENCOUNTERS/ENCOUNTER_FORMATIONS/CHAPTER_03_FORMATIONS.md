@@ -122,7 +122,7 @@ Current active identities:
 
 Placement character:
 - Construct / Shield Construct / Maul Construct carry the Ancient construct family forward from the Old City;
-- Flame Construct makes the command-site defenses more overtly offensive;
+- Flame Construct is introduced here as an offensive construct variant and may recur in later chapters;
 - Blade Drone supplies fast aerial pressure;
 - Ruin Spider keeps a natural threat in the ruined lower structure.
 
