@@ -1,11 +1,11 @@
-# Archive Scribe Engine
+# Memory Construct
 
 **Chapter-3 authority:** mandatory Beat-11 Old City Archives boss  
 **Chapter-10 reuse:** ordinary construct reuse under Chapter-10 tuning  
 **Status:** **CHAPTER-3 BOSS IDENTITY / ARCHITECTURE / ACTION GRAMMAR LOCKED — BOSS RAW BODY REVALIDATION REQUIRED**
 
 ## Chapter-3 role
-Archive Scribe Engine is no longer an ordinary or repeatable Chapter-3 enemy.
+Memory Construct is no longer an ordinary or repeatable Chapter-3 enemy.
 
 Current role:
 > **mandatory Beat-11 story boss / gatekeeper of the protected Inner Collections**
@@ -72,7 +72,7 @@ If Index Burst is repetition-locked and Record Stabilization is ineligible, use 
 Single-target selection is equal among conscious active party members unless later boss-AI validation explicitly establishes another legal rule.
 
 ## Story / presentation firewall
-Archive Scribe Engine is:
+Memory Construct is:
 > procedural Ancient archive / transfer / security machinery
 
 It is **not**:
