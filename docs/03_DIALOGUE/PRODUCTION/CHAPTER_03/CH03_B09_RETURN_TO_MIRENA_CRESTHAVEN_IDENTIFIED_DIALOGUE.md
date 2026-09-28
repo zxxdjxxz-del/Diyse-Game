@@ -1,12 +1,12 @@
-# Chapter 3 — Beat 13
+# Chapter 3 — Beat 9
 # Return to Mirena / Cresthaven Identified
-## CURRENT LOCKED DIALOGUE — REVISED TRUE-VOICE / AGENT-BRAIN PASS
+## CURRENT LOCKED DIALOGUE — 11-BEAT CONSOLIDATION
 
-**Status:** CURRENT ATOMIC DIALOGUE AUTHORITY — 2026-09-23
+**Status:** CURRENT ATOMIC DIALOGUE AUTHORITY — 2026-09-27
 
 ### [DIRECT CUT — PRIVATE ROOM, CAELORA]
 
-The Old City field section ends.
+The archive field section ends.
 
 The party is now back upstairs in a private palace workroom with:
 - Mirena
@@ -44,7 +44,7 @@ Mirena gestures to the table.
 
 Cyanis looks to Nimera.
 
-**NIMERA:** Recent Card-and-seal research, then a Sealwright chamber full of Crest copies. Later attempts had serious magic shoved through them. I never saw one answer like the Queen's real seal.
+**NIMERA:** Recent Card-and-seal research, then a workspace full of Crest copies. Later attempts had serious magic shoved through them. I never saw one answer like the Queen's real seal.
 
 **MIRENA:** Good. Annoying, but good.
 
@@ -72,7 +72,7 @@ Mirena studies the dense central cluster.
 
 **MIRENA:** Caelora.
 
-**NIMERA:** Known capital, intact center. That's the new part.
+**NIMERA:** Known location. Intact copied region. That's the useful part.
 
 **TORREN:** And it's a hell of a lot bigger than we could reconstruct.
 
@@ -162,15 +162,13 @@ Cut forward to the next morning at Cresthaven.
 
 Transition into:
 
-**Beat 14 — Cresthaven / Ancient Tower Base / First Command Warden.**
+**Beat 10 — Cresthaven / Tower Base / Authority Construct.**
 
-## Beat-13 end state
+## Beat-9 end state
 
-- Mirena and Maevra receive the field findings;
+- Mirena and Maevra receive the archive findings;
 - the seal investigation remains unresolved in Caelora;
-- the approximately 500-year-old Yahtrean Westways recordbook copy becomes the geographic lead;
-- nobody treats the existence of the Ancient capital at Caelora as a new discovery;
-- Mirena identifies the huge tower's modern location as Cresthaven;
-- no one knows the tower's original name, full function, or the destination of the routes continuing north;
-- no Warden, Last Sentinel, Prime/Might, or Ruby event has occurred yet;
-- everyone rests offscreen and meets at Cresthaven the next morning.
+- Mirena compares the Wayfinder-derived copy to modern geography and identifies the huge tower's location as present-day Cresthaven;
+- the tower's ancient name, purpose, and ultimate northbound destination remain unknown;
+- rest occurs only as an offscreen transition: no rest beat and no character scene;
+- next morning the story resumes at Cresthaven.

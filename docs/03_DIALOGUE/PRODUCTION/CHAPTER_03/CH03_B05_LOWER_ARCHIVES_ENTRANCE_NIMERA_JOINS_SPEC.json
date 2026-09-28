@@ -1,0 +1,45 @@
+{
+  "schema": "diyse_scene_authority_spec_v1",
+  "scene_id": "CH03_B05_LOWER_ARCHIVES_ENTRANCE_NIMERA_JOINS",
+  "chapter_id": "chapter_03",
+  "story_position": "Chapter 3 — Beat 5 — Lower Archives Entrance / Nimera Joins",
+  "production_ready": true,
+  "participants": [
+    "cyanis",
+    "ilyra",
+    "torren",
+    "nimera",
+    "mirena",
+    "old_city_archive_keeper"
+  ],
+  "authoring_mode": "rehearsal_first_agent_driven",
+  "scene_context_seed": {
+    "dialogue_readiness": "GREEN",
+    "runtime_note": "Upper Archives remain active; Mirena escorts only to the Lower Archives entrance."
+  },
+  "hard_outcomes": [
+    "Mirena escorts the trio to the Lower Archives entrance, then returns to Maevra.",
+    "Lower Archives begin recognizably Yahtrean.",
+    "Nimera is deliberately found working; no Ancient Barrier exists.",
+    "Nimera learns the bounded Card/seal problem without solving it.",
+    "Nimera joins permanently in Beat 5."
+  ],
+  "knowledge_and_reveal_boundaries": [
+    "No confirmed Prime classification.",
+    "No Might identification.",
+    "No confirmed bearer status.",
+    "No Calder hidden-role reveal.",
+    "No unsupported explanation of the royal-seal anomaly.",
+    "No Cresthaven identification.",
+    "No Last Sentinel wording.",
+    "No deep-Ruby stabilization."
+  ],
+  "character_brains": [
+    "external-services/canary/brains/cyanis.yaml",
+    "external-services/canary/brains/ilyra.yaml",
+    "external-services/canary/brains/torren.yaml",
+    "external-services/canary/brains/nimera.yaml",
+    "external-services/canary/brains/mirena.yaml"
+  ],
+  "production_cost_ceiling": "economical"
+}

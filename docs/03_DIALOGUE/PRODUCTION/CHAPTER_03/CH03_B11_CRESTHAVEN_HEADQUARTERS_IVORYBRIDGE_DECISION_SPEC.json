@@ -1,0 +1,48 @@
+{
+  "schema": "diyse_scene_authority_spec_v1",
+  "scene_id": "CH03_B11_CRESTHAVEN_HEADQUARTERS_IVORYBRIDGE_DECISION",
+  "chapter_id": "chapter_03",
+  "story_position": "Chapter 3 — Beat 11 — Cresthaven Headquarters / Ivorybridge Decision",
+  "production_ready": true,
+  "participants": [
+    "cyanis",
+    "ilyra",
+    "torren",
+    "nimera",
+    "mirena",
+    "maevra"
+  ],
+  "authoring_mode": "rehearsal_first_agent_driven",
+  "scene_context_seed": {
+    "dialogue_readiness": "GREEN",
+    "runtime_note": "Mandatory Chapter 3 conclusion; C06/C07 unlock after this beat."
+  },
+  "hard_outcomes": [
+    "Authority Construct/Ruby sequence is reported without resolution.",
+    "Prime Card is an explicit working hypothesis but unconfirmed.",
+    "Cresthaven becomes headquarters.",
+    "Mirena/Maevra return to Caelora.",
+    "Map proves only routes continue north.",
+    "Ivorybridge is chosen as a modern test point, not named by Ancient evidence.",
+    "Cleanup opens before Chapter 4."
+  ],
+  "knowledge_and_reveal_boundaries": [
+    "No confirmed Prime classification.",
+    "No Might identification.",
+    "No confirmed bearer status.",
+    "No Calder hidden-role reveal.",
+    "No unsupported explanation of the royal-seal anomaly.",
+    "No confirmed Prime identity.",
+    "No Last Sentinel meaning.",
+    "No Ancient evidence naming Ivorybridge."
+  ],
+  "character_brains": [
+    "external-services/canary/brains/cyanis.yaml",
+    "external-services/canary/brains/ilyra.yaml",
+    "external-services/canary/brains/torren.yaml",
+    "external-services/canary/brains/nimera.yaml",
+    "external-services/canary/brains/mirena.yaml",
+    "external-services/canary/brains/maevra.yaml"
+  ],
+  "production_cost_ceiling": "economical"
+}

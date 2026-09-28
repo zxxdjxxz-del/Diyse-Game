@@ -1,8 +1,121 @@
-# Chapter 3 — Beat 6
-# Scholar in Redacted Stacks / Nimera Joins
-## CURRENT LOCKED DIALOGUE — REVISED TRUE-VOICE / AGENT-BRAIN PASS
+# Chapter 3 — Beat 5
+# Lower Archives Entrance / Nimera Joins
+## CURRENT LOCKED DIALOGUE — 11-BEAT CONSOLIDATION
 
-**Status:** CURRENT ATOMIC DIALOGUE AUTHORITY — 2026-09-23
+**Status:** CURRENT ATOMIC DIALOGUE AUTHORITY — 2026-09-27
+
+### [GAMEPLAY — LOWER ARCHIVES ENTRANCE]
+
+Mirena brings Cyanis, Ilyra, and Torren through the active Upper Archives to the secured entrance of the Lower Archives.
+
+Current field party:
+**Cyanis + Ilyra + Torren.**
+
+Maevra remains on the Crown-side investigation. Mirena leaves the field group once Lower Archives access is confirmed and rejoins Maevra.
+
+The Upper Archives remain an active, used library/archive area above. The Lower Archives entrance is still recognizably Yahtrean and maintained; older construction becomes more visible only as the party descends.
+
+### [STORY TRIGGER — RESTRICTED ACCESS DESK]
+
+An archive keeper verifies Mirena's authorization.
+
+**ARCHIVE KEEPER:** Dovaren. Amarin. Harth. You're looking for Nimera Pellan.
+
+**CYANIS:** That's us.
+
+**ARCHIVE KEEPER:** She's below the maintained stacks. Follow the marked route.
+
+Torren looks toward the descent.
+
+**TORREN:** How far does `maintained` mean actually maintained?
+
+The keeper understands the question.
+
+**ARCHIVE KEEPER:** Routes we use. Doors we understand. Repairs we know won't interfere with older work. Past that, the word gets optimistic.
+
+Torren nods.
+
+**TORREN:** Good answer.
+
+**ARCHIVE KEEPER:** If the marked route and the room disagree, the room wins.
+
+**ILYRA:** I like them.
+
+**CYANIS:** That was fast.
+
+**ILYRA:** Good rules.
+
+The keeper returns to work.
+
+### [GAMEPLAY — MAINTAINED ARCHIVE]
+
+Player control resumes.
+
+The player moves through functioning Crown archive rooms into progressively older construction.
+
+Show rather than explain:
+- modern shelving and partitions fitted into older chambers;
+- Crown repairs ending against older fitted stone and metal;
+- ordinary locks giving way to old seals and warded closures;
+- mapped working routes beside deeper sealed or uncertain branches.
+
+Most traversal is silent.
+
+### [SHORT STORY STOP — MAINTAINED EDGE]
+
+At the point where current repairs stop:
+
+**TORREN:** Newer work stops here.
+
+Cyanis looks at the seam.
+
+**CYANIS:** Sure?
+
+**TORREN:** New mortar stops. Braces stop. Floor repair stops. Old fitted stone keeps going.
+
+He looks down the marked route.
+
+**TORREN:** Doesn't mean the rest is ancient. Means the newer work stops.
+
+**CYANIS:** And this route is still approved.
+
+**TORREN:** Means somebody checked it. Doesn't mean the building promised anything.
+
+Ilyra looks at him.
+
+**ILYRA:** You stole that from the keeper.
+
+**TORREN:** Good rule.
+
+**ILYRA:** Still theft.
+
+They keep moving.
+
+### [GAMEPLAY — LOWER ARCHIVE APPROACH]
+
+The trio continues through older Yahtrean archive construction. Strange fitted stone, metalwork, seals, shutters, and older foundations begin to appear, but the space is not yet dominated by Ancient Diysean architecture.
+
+Do not explain every mechanism or treat every older feature as Diysean.
+
+Near a sealed side passage:
+
+**CYANIS:** Nobody curious?
+
+**ILYRA:** Extremely.
+
+Cyanis waits.
+
+**ILYRA:** Still not opening it.
+
+**CYANIS:** I didn't say we should.
+
+**TORREN:** Marked route's left.
+
+**CYANIS:** And there goes the wonder.
+
+**TORREN:** Wonder can turn left.
+
+Ilyra laughs.
 
 ### [STORY TRIGGER — REDACTED STACKS WORK SECTION]
 
@@ -146,7 +259,7 @@ Nimera turns back to the spread on her table and flips through two tagged volume
 
 **CYANIS:** Where is it?
 
-**NIMERA:** Lower collections. Older Yahtrean copies, older Card records, whatever survived from the Diysean archive layers underneath them.
+**NIMERA:** Lower collections. Older Yahtrean copies, older Card records, and the deepest historical holdings stored farther down.
 
 **ILYRA:** Accessible?
 
@@ -210,14 +323,16 @@ New objective:
 
 Transition into:
 
-**Beat 7 — Lower Archives.**
+**Beat 6 — Lower Archives Investigation.**
 
-## Beat-6 end state
+## Beat-5 end state
 
-- Nimera is introduced as active, capable, socially alive, evidence-driven, and naturally profane;
+- Mirena personally brings the field party to the Lower Archives entrance, then returns to the Crown-side investigation with Maevra;
+- the Upper Archives remain active, used archive/library space above;
+- the Lower Archives begin recognizably Yahtrean, with older foundations only gradually becoming more prominent;
+- Nimera is introduced as active, capable, evidence-driven, and socially alive;
 - no Ancient Barrier exists;
-- she learns only the bounded Card and royal-seal facts the party currently knows;
-- she does not classify the Card or solve the seal anomaly;
-- Torren/Nimera begin with first-contact professional friction and reciprocal interest, not familial shorthand;
-- Nimera voluntarily joins because the evidence worth examining lies deeper and she wants direct access to it;
-- Nimera becomes a permanent party member in Beat 6.
+- Nimera does not classify Cyanis's Card or solve the royal-seal anomaly;
+- Nimera voluntarily joins because the useful evidence lies deeper;
+- Nimera Pellan becomes a permanent party member in Beat 5;
+- the active permanent field party is Cyanis, Ilyra, Torren, and Nimera.

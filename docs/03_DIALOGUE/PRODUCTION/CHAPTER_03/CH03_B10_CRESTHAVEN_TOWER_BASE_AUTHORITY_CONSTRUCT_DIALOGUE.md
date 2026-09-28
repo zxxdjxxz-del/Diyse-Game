@@ -1,8 +1,8 @@
-# Chapter 3 — Beat 14
-# Cresthaven / Ancient Tower Base / Authority Construct
-## CURRENT LOCKED DIALOGUE — REVISED TRUE-VOICE / AGENT-BRAIN PASS
+# Chapter 3 — Beat 10
+# Cresthaven / Tower Base / Authority Construct
+## CURRENT LOCKED DIALOGUE — 11-BEAT CONSOLIDATION
 
-**Status:** CURRENT ATOMIC DIALOGUE AUTHORITY — 2026-09-23
+**Status:** CURRENT ATOMIC DIALOGUE AUTHORITY — 2026-09-27
 
 ### [NEXT MORNING — NORMAL CRESTHAVEN]
 
@@ -124,7 +124,7 @@ No new route map appears.
 
 No Ivorybridge marker appears.
 
-### [WARDEN CHAMBER]
+### [AUTHORITY CONSTRUCT CHAMBER]
 
 The party enters the deepest surviving room.
 
@@ -160,7 +160,7 @@ The assessment changes as it crosses the group.
 
 The last ring fills.
 
-The Warden's posture hardens.
+The Authority Construct's posture hardens.
 
 Its weapon rises.
 
@@ -168,9 +168,9 @@ Its weapon rises.
 
 **NIMERA:** Apparently we're unacceptable. Rude.
 
-The Warden attacks.
+The Authority Construct attacks.
 
-### [BOSS BATTLE — FIRST COMMAND WARDEN]
+### [BOSS BATTLE — AUTHORITY CONSTRUCT]
 
 Active party:
 - Cyanis
@@ -180,13 +180,13 @@ Active party:
 
 Current story intent: one HP bar unless battle authority revises it.
 
-The Card does not pacify, command, weaken, or unlock the Warden.
+The Card does not pacify, command, weaken, or unlock the Authority Construct.
 
 No Prime event occurs.
 
 ### [VICTORY / SHUTDOWN]
 
-The defeated Warden drops into a failing kneel.
+The defeated Authority Construct drops into a failing kneel.
 
 Most of its light dies.
 
@@ -194,9 +194,9 @@ Nimera raises a hand.
 
 **NIMERA:** Wait.
 
-Ancient characters ignite across the Warden.
+Ancient characters ignite across the Authority Construct.
 
-**FIRST COMMAND WARDEN:** PREVIOUS ERROR
+**AUTHORITY CONSTRUCT:** PREVIOUS ERROR
 
 Nobody interprets it.
 
@@ -204,11 +204,11 @@ The message fades.
 
 A second forms.
 
-**FIRST COMMAND WARDEN:** LAST SENTINEL CONFIRMED
+**AUTHORITY CONSTRUCT:** LAST SENTINEL CONFIRMED
 
 The final character completes.
 
-Every remaining light in the Warden goes out.
+Every remaining light in the Authority Construct goes out.
 
 The construct becomes fully inert.
 
@@ -226,7 +226,7 @@ She looks at the dead construct.
 
 **NIMERA:** Not a damned clue.
 
-### [ONLY AFTER THE WARDEN IS INERT — THE CARD]
+### [ONLY AFTER THE AUTHORITY CONSTRUCT IS INERT — THE CARD]
 
 Cyanis's Card responds.
 
@@ -268,19 +268,17 @@ The party returns to normal Cresthaven above.
 
 Transition into:
 
-**Beat 15 — Cresthaven Headquarters / Cleanup / Ivorybridge Decision.**
+**Beat 11 — Cresthaven Headquarters / Ivorybridge Decision.**
 
-## Beat-14 end state
+## Beat-10 end state
 
-- Cresthaven is confirmed to sit over/within the surviving base of the giant Ancient tower shown on the Westways recordbook map;
+- Cresthaven is confirmed to sit over/within the surviving base of the huge Ancient tower shown on the Westways copy;
 - Mirena and Maevra remain aboveground and do not participate in combat;
-- the short dungeon is Tower Foundation → Command Interior → Warden Chamber;
+- the short dungeon is Tower Foundation → Command Interior → Authority Chamber;
 - the Authority Construct assesses the four-person party, rejects the result, and attacks;
-- after defeat it says exactly:
-  - PREVIOUS ERROR
-  - LAST SENTINEL CONFIRMED
+- after defeat it says exactly PREVIOUS ERROR → LAST SENTINEL CONFIRMED;
 - LAST SENTINEL CONFIRMED is its final message;
-- the Warden becomes fully inert;
-- only afterward Cyanis's Card stabilizes deep Ruby;
-- Prime, Might, bearer status, Last Sentinel meaning, and causation remain unresolved;
-- no new northern map or Ivorybridge clue is found.
+- the Authority Construct becomes fully inert before Cyanis's Card stabilizes deep Ruby;
+- no Prime manifestation occurs;
+- Prime, Might, bearer status, Last Sentinel meaning, PREVIOUS ERROR meaning, and Ruby causation remain unresolved;
+- no new northern map or Ivorybridge clue is found here.

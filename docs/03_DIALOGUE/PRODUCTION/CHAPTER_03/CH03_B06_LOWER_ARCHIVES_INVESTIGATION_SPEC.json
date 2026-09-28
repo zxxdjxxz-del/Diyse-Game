@@ -1,0 +1,45 @@
+{
+  "schema": "diyse_scene_authority_spec_v1",
+  "scene_id": "CH03_B06_LOWER_ARCHIVES_INVESTIGATION",
+  "chapter_id": "chapter_03",
+  "story_position": "Chapter 3 — Beat 6 — Lower Archives Investigation",
+  "production_ready": true,
+  "participants": [
+    "cyanis",
+    "ilyra",
+    "torren",
+    "nimera"
+  ],
+  "authoring_mode": "rehearsal_first_agent_driven",
+  "scene_context_seed": {
+    "dialogue_readiness": "GREEN",
+    "runtime_note": "Preserve gradual architectural transition and no walking dialogue."
+  },
+  "hard_outcomes": [
+    "Lower Archives, Buried Collections, and Hall of Seals are subzones of one continuous beat.",
+    "All documentary evidence here is old Yahtrean material, including copied/quoted/transcribed older sources.",
+    "Ancient Diysean influence is primarily physical architecture/mechanisms/infrastructure/Constructs.",
+    "Recent-reader identity/number/motive remain unresolved.",
+    "Prime Card remains an unexplained old term.",
+    "The Hall of Seals distinguishes visible impression from magical authority.",
+    "The trail points into the Deep Archives."
+  ],
+  "knowledge_and_reveal_boundaries": [
+    "No confirmed Prime classification.",
+    "No Might identification.",
+    "No confirmed bearer status.",
+    "No Calder hidden-role reveal.",
+    "No unsupported explanation of the royal-seal anomaly.",
+    "No direct accessible Diysean documentary archive.",
+    "No Cresthaven identification.",
+    "No Last Sentinel wording.",
+    "No deep-Ruby stabilization."
+  ],
+  "character_brains": [
+    "external-services/canary/brains/cyanis.yaml",
+    "external-services/canary/brains/ilyra.yaml",
+    "external-services/canary/brains/torren.yaml",
+    "external-services/canary/brains/nimera.yaml"
+  ],
+  "production_cost_ceiling": "economical"
+}

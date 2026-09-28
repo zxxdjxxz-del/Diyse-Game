@@ -1,0 +1,44 @@
+{
+  "schema": "diyse_scene_authority_spec_v1",
+  "scene_id": "CH03_B08_INNER_COLLECTIONS_FINDINGS",
+  "chapter_id": "chapter_03",
+  "story_position": "Chapter 3 — Beat 8 — Inner Collections / Findings",
+  "production_ready": true,
+  "participants": [
+    "cyanis",
+    "ilyra",
+    "torren",
+    "nimera"
+  ],
+  "authoring_mode": "rehearsal_first_agent_driven",
+  "scene_context_seed": {
+    "dialogue_readiness": "GREEN",
+    "runtime_note": "Quieter evidence-payoff beat after Memory Construct."
+  },
+  "hard_outcomes": [
+    "The ~500-year-old Yahtrean Westways recordbook contains a Wayfinder-derived copy.",
+    "The copy restores the Caelora-area center and shows a huge northern tower with routes continuing beyond the page.",
+    "The map does not name Cresthaven or Ivorybridge.",
+    "A later seal-reproduction workspace contains powerful magical attempts.",
+    "Its original Ancient purpose is unknown.",
+    "No successful duplicate Royal Magic Seal is proven.",
+    "The geographic lead becomes actionable while the seal lead remains unresolved."
+  ],
+  "knowledge_and_reveal_boundaries": [
+    "No confirmed Prime classification.",
+    "No Might identification.",
+    "No confirmed bearer status.",
+    "No Calder hidden-role reveal.",
+    "No unsupported explanation of the royal-seal anomaly.",
+    "Do not identify the tower as Cresthaven until Beat 9.",
+    "Do not establish successful seal duplication.",
+    "Do not equate recent reader and seal practitioner without evidence."
+  ],
+  "character_brains": [
+    "external-services/canary/brains/cyanis.yaml",
+    "external-services/canary/brains/ilyra.yaml",
+    "external-services/canary/brains/torren.yaml",
+    "external-services/canary/brains/nimera.yaml"
+  ],
+  "production_cost_ceiling": "economical"
+}

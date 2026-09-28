@@ -1,8 +1,8 @@
-# Chapter 3 — Beat 15
-# Cresthaven Headquarters / Cleanup / Ivorybridge Decision
-## CURRENT LOCKED DIALOGUE — REVISED TRUE-VOICE / AGENT-BRAIN PASS
+# Chapter 3 — Beat 11
+# Cresthaven Headquarters / Ivorybridge Decision
+## CURRENT LOCKED DIALOGUE — 11-BEAT CONSOLIDATION
 
-**Status:** CURRENT ATOMIC DIALOGUE AUTHORITY — 2026-09-23
+**Status:** CURRENT ATOMIC DIALOGUE AUTHORITY — 2026-09-27
 
 ### [RETURN TO NORMAL CRESTHAVEN]
 
@@ -14,7 +14,7 @@ Mirena sees Cyanis's Card before anyone starts.
 
 **MIRENA:** That was not Ruby when you went down.
 
-**CYANIS:** No. Warden assessed all four of us, decided something was wrong, and attacked. After we dropped it: PREVIOUS ERROR. Then LAST SENTINEL CONFIRMED.
+**CYANIS:** No. Authority Construct assessed all four of us, decided something was wrong, and attacked. After we dropped it: PREVIOUS ERROR. Then LAST SENTINEL CONFIRMED.
 
 **NIMERA:** Exact order. It went dead, then the Card turned Ruby. The timing stinks.
 
@@ -32,7 +32,7 @@ Mirena studies the Ruby Card but does not reach for it.
 
 **CYANIS:** Same thought.
 
-**TORREN:** Warden names Last Sentinel. Card changes right after. Hell of a coincidence.
+**TORREN:** Authority Construct names Last Sentinel. Card changes right after. Hell of a coincidence.
 
 **NIMERA:** Yes. Which makes Prime a better hypothesis than it was in the Archives.
 
@@ -146,12 +146,13 @@ Current next investigative direction:
 
 **Ivorybridge — a modern place chosen to test the northbound route hypothesis, not a confirmed Ancient destination.**
 
-## Beat-15 end state
+## Beat-11 end state
 
-- First Command Warden and Ruby Card events are reported without being solved;
-- Prime Card becomes an explicit working hypothesis for Cyanis's Card, but remains unconfirmed; Might/bearer status remains unresolved;
+- Authority Construct and Ruby Card events are reported without being solved;
+- Prime Card is an explicit working hypothesis for Cyanis's Card, still unconfirmed;
 - Cresthaven becomes operational headquarters;
 - Mirena and Maevra return to Caelora after the handoff;
 - the permanent four remain at Cresthaven;
-- the party chooses Ivorybridge as the next practical northern investigation point because the routes continue north beyond Cresthaven and off the copied map;
-- no Ancient evidence explicitly names Ivorybridge.
+- the copied map establishes only that major Ancient routes continue north beyond Cresthaven;
+- Ivorybridge is chosen as the sensible modern place to begin testing that northbound route, not as a destination named by Ancient evidence;
+- Chapter 3 enters its cleanup/free-roam window before Chapter 4.

@@ -1,0 +1,42 @@
+{
+  "schema": "diyse_scene_authority_spec_v1",
+  "scene_id": "CH03_B07_DEEP_ARCHIVES_MEMORY_CONSTRUCT",
+  "chapter_id": "chapter_03",
+  "story_position": "Chapter 3 — Beat 7 — Deep Archives / Memory Construct",
+  "production_ready": true,
+  "participants": [
+    "cyanis",
+    "ilyra",
+    "torren",
+    "nimera"
+  ],
+  "authoring_mode": "rehearsal_first_agent_driven",
+  "scene_context_seed": {
+    "dialogue_readiness": "GREEN",
+    "runtime_note": "Deep Archives and Memory Construct are one beat; no mid-battle dialogue."
+  },
+  "hard_outcomes": [
+    "Ancient physical structure becomes dominant while held records remain Yahtrean.",
+    "The six current Faces receive equal structural treatment.",
+    "Memory Construct is the mandatory archive boss and never speaks.",
+    "Defeating it opens the Inner Collections."
+  ],
+  "knowledge_and_reveal_boundaries": [
+    "No confirmed Prime classification.",
+    "No Might identification.",
+    "No confirmed bearer status.",
+    "No Calder hidden-role reveal.",
+    "No unsupported explanation of the royal-seal anomaly.",
+    "No Last Sentinel wording.",
+    "No Ruby stabilization.",
+    "No Prime manifestation.",
+    "No Cresthaven identification."
+  ],
+  "character_brains": [
+    "external-services/canary/brains/cyanis.yaml",
+    "external-services/canary/brains/ilyra.yaml",
+    "external-services/canary/brains/torren.yaml",
+    "external-services/canary/brains/nimera.yaml"
+  ],
+  "production_cost_ceiling": "economical"
+}

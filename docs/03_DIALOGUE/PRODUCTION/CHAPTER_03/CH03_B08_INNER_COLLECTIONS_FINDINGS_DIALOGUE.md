@@ -1,12 +1,12 @@
-# Chapter 3 — Beat 12
-# Inner Collections / Westways Recordbook / Sealwright Chamber
-## CURRENT LOCKED DIALOGUE — REVISED TRUE-VOICE / AGENT-BRAIN PASS
+# Chapter 3 — Beat 8
+# Inner Collections / Findings
+## CURRENT LOCKED DIALOGUE — 11-BEAT CONSOLIDATION
 
-**Status:** CURRENT ATOMIC DIALOGUE AUTHORITY — 2026-09-23
+**Status:** CURRENT ATOMIC DIALOGUE AUTHORITY — 2026-09-27
 
 ### [GAMEPLAY — INNER COLLECTIONS]
 
-The party enters the oldest accessible protected collections after defeating the Scribe Engine.
+The party enters the oldest accessible protected collections after defeating the Memory Construct.
 
 The rooms are quieter and better sealed, but not magically pristine. Some materials survived because these chambers were simply used less by later Yahtrean administrations.
 
@@ -108,9 +108,9 @@ No Ivorybridge label appears.
 
 The recent-reader trail is not what led them to this book.
 
-### [SEALWRIGHT CHAMBER]
+### [LATER SEAL-REPRODUCTION WORKSPACE]
 
-A later inner room is an Ancient physical magical Sealwright workshop.
+A later inner room occupies Ancient construction, but its original Diysean purpose is unknown. Later users adapted the space for seal-related magical work.
 
 Stone worktables, fitted dies, matrices, engraving frames, seal rests, inlay channels, blanks, impressions, test media, and magical scorching remain among more recent practice work.
 
@@ -118,7 +118,7 @@ Nimera examines the progression.
 
 Nimera moves along the tables.
 
-**NIMERA:** Ancient seals. Older Yahtrean forms. Then royal-document copies.
+**NIMERA:** Older seal work. Yahtrean forms. Then royal-document copies.
 
 Then the latest attempts.
 
@@ -138,7 +138,7 @@ Nimera studies the attempts.
 
 **NIMERA:** Maybe. I want them connected because that makes the story neat, which is exactly why I don't trust it.
 
-**CYANIS:** So we found the workshop, and the orders still don't make any damn sense.
+**CYANIS:** So we found where somebody was trying, and the orders still don't make any damn sense.
 
 **NIMERA:** Exactly. Somebody practiced their ass off. Whether they ever got one to work? That's the irritating part.
 
@@ -160,26 +160,20 @@ Nimera closes the final case.
 
 ### [TRANSITION]
 
-The Old City field section ends.
+The archive field section ends.
 
 No playable return traversal is required.
 
 Cut directly upstairs in Caelora to:
 
-**Beat 13 — Return to Mirena / Cresthaven Identified.**
+**Beat 9 — Return to Mirena / Cresthaven Identified.**
 
-## Beat-12 end state
+## Beat-8 end state
 
-- the party finds an approximately 500-year-old Yahtrean Westways recordbook;
-- it contains a less precise but intact regional hand-copy derived from Ancient Diysean Wayfinder information;
-- coverage is Westways + central Yahtrea only;
-- the copy shows the complete Ancient Caelora cluster;
-- the copy shows a huge tower north of the city;
-- several major routes converge there and continue north until the copied map ends;
-- the map does not show where those routes lead;
-- the existence of an Ancient capital at Caelora is not treated as new;
-- the Sealwright Chamber separately shows repeated seal-copying practice and powerful magic;
-- no successful reproduction of Lysara's true royal magical authority is proven;
-- recent reader and seal practitioner remain unidentified;
-- seal evidence dead-ends in Caelora for now;
-- no Cresthaven identification or Ivorybridge reveal occurs before Beat 13.
+- the party finds the approximately 500-year-old Yahtrean Westways recordbook and its Wayfinder-derived regional copy;
+- the copy restores the Caelora-area center missing from the damaged physical Wayfinder and shows major routes continuing north through a huge tower site;
+- the map does not name Cresthaven, Ivorybridge, or the northern destination;
+- the later seal-reproduction workspace proves repeated study/practice with powerful unknown magic but does not prove a successful duplicate Royal Magic Seal;
+- the workspace's original Ancient purpose is unknown;
+- recent reader and seal practitioner remain unidentified and are not automatically treated as the same person;
+- the seal thread remains unresolved while the geographic lead becomes actionable.

@@ -1,0 +1,51 @@
+{
+  "schema": "diyse_scene_authority_spec_v1",
+  "scene_id": "CH03_B10_CRESTHAVEN_TOWER_BASE_AUTHORITY_CONSTRUCT",
+  "chapter_id": "chapter_03",
+  "story_position": "Chapter 3 — Beat 10 — Cresthaven / Tower Base / Authority Construct",
+  "production_ready": true,
+  "participants": [
+    "cyanis",
+    "ilyra",
+    "torren",
+    "nimera",
+    "mirena",
+    "maevra",
+    "authority_construct"
+  ],
+  "authoring_mode": "rehearsal_first_agent_driven",
+  "scene_context_seed": {
+    "dialogue_readiness": "GREEN",
+    "runtime_note": "One continuous HP bar unless battle authority revises it; no mid-battle dialogue."
+  },
+  "hard_outcomes": [
+    "Normal Cresthaven is inspected first.",
+    "The fort sits over a much larger Ancient tower foundation.",
+    "Mirena/Maevra remain aboveground/noncombat.",
+    "The four complete Tower Foundation → Command Interior → Authority Chamber.",
+    "Authority Construct assesses the four and attacks.",
+    "After defeat: PREVIOUS ERROR then LAST SENTINEL CONFIRMED.",
+    "Authority Construct is fully inert before Cyanis's Card stabilizes Ruby.",
+    "No new northern map or Ivorybridge clue."
+  ],
+  "knowledge_and_reveal_boundaries": [
+    "No confirmed Prime classification.",
+    "No Might identification.",
+    "No confirmed bearer status.",
+    "No Calder hidden-role reveal.",
+    "No unsupported explanation of the royal-seal anomaly.",
+    "No Prime manifestation.",
+    "No Last Sentinel meaning.",
+    "No PREVIOUS ERROR meaning.",
+    "No Ruby causation."
+  ],
+  "character_brains": [
+    "external-services/canary/brains/cyanis.yaml",
+    "external-services/canary/brains/ilyra.yaml",
+    "external-services/canary/brains/torren.yaml",
+    "external-services/canary/brains/nimera.yaml",
+    "external-services/canary/brains/mirena.yaml",
+    "external-services/canary/brains/maevra.yaml"
+  ],
+  "production_cost_ceiling": "economical"
+}

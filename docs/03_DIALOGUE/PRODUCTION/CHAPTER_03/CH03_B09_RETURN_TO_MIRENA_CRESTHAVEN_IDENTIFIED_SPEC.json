@@ -1,0 +1,46 @@
+{
+  "schema": "diyse_scene_authority_spec_v1",
+  "scene_id": "CH03_B09_RETURN_TO_MIRENA_CRESTHAVEN_IDENTIFIED",
+  "chapter_id": "chapter_03",
+  "story_position": "Chapter 3 — Beat 9 — Return to Mirena / Cresthaven Identified",
+  "production_ready": true,
+  "participants": [
+    "cyanis",
+    "ilyra",
+    "torren",
+    "nimera",
+    "mirena",
+    "maevra"
+  ],
+  "authoring_mode": "rehearsal_first_agent_driven",
+  "scene_context_seed": {
+    "dialogue_readiness": "GREEN",
+    "runtime_note": "End with offscreen rest transition directly to Cresthaven."
+  },
+  "hard_outcomes": [
+    "Mirena and Maevra receive the findings.",
+    "Mirena identifies the giant tower's location as Cresthaven.",
+    "The seal investigation remains unresolved.",
+    "Mirena orders rest and arranges a small Crown support team.",
+    "Rest is offscreen only; no rest beat or character scene.",
+    "Next mandatory scene begins at Cresthaven."
+  ],
+  "knowledge_and_reveal_boundaries": [
+    "No confirmed Prime classification.",
+    "No Might identification.",
+    "No confirmed bearer status.",
+    "No Calder hidden-role reveal.",
+    "No unsupported explanation of the royal-seal anomaly.",
+    "No Authority Construct/Last Sentinel/Ruby event before Cresthaven.",
+    "Tower name/function and northbound destination remain unknown."
+  ],
+  "character_brains": [
+    "external-services/canary/brains/cyanis.yaml",
+    "external-services/canary/brains/ilyra.yaml",
+    "external-services/canary/brains/torren.yaml",
+    "external-services/canary/brains/nimera.yaml",
+    "external-services/canary/brains/mirena.yaml",
+    "external-services/canary/brains/maevra.yaml"
+  ],
+  "production_cost_ceiling": "economical"
+}
