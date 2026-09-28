@@ -14,7 +14,6 @@ Recommended level is a preparedness target, not an access gate.
 |---:|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---|
 | 1 | **Cistern Devourer** | 7 | 2,706 | 43 | 26 | 30 | 27 | 24 | 5 | 5 | one bar |
 | 2 | **Scaldback** | 11 | 3,760 | 54 | 36 | 38 | 35 | 28 | 0 | 10 | one bar |
-| 3 | **Archive Judgment Engine** | 15 | 4,928 | 58 | 67 | 46 | 48 | 28 | 0 | 10 | one bar |
 | 4 | **Crown Prototype** | 20 | 6,503 | 81 | 68 | 57 | 54 | 33 | 5 | 10 | one bar |
 | 5 | **Whitehorn Ravager** | 26 | 8,678 | 104 | 74 | 70 | 64 | 41 | 10 | 5 | one bar |
 | 6 | **Winterglass Titan** | 32 | 10,879 | 101 | 125 | 90 | 94 | 34 | 0 | 10 | one bar / Frozen Shell → Thawed Core same-bar |
@@ -63,3 +62,6 @@ Regional Hunt #11 — Throne of Emperor Vaelkor is **FORMALLY VALIDATED v88** at
 
 ## Regional Hunt #2 identity correction — 2026-09-23
 Regional Hunt #2 is **Scaldback**, replacing retired **Transfer Executioner**. Its retained historical raw line is provisional for the new monster and requires fresh validation before final certification.
+
+
+> **Regional Hunt #3 retired 2026-09-27:** Archive Judgment Engine was removed from Chapter 3. Later hunt numbers remain unchanged pending a separate numbering decision.
