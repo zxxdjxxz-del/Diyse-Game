@@ -26,7 +26,7 @@ Naming authority: `STORY_FILE_NAMING_AUTHORITY.md`.
 - B11 — Archive Scribe Engine
 - B12 — Inner Collections / Westways Recordbook / Sealwright Chamber
 - B13 — Return to Mirena / Cresthaven Identified
-- B14 — Cresthaven / Ancient Tower Base / First Command Warden
+- B14 — Cresthaven / Ancient Tower Base / Authority Construct
 - B15 — Cresthaven Headquarters / Cleanup / Ivorybridge Decision
 
 ## Current supporting story files
@@ -37,8 +37,8 @@ These are supplemental to `CHAPTER_03.md`; they do not supersede it.
 - `CH03_B12_SEAL_COPYING_MAP_SEPARATION_LOCK.md`
 - `CH03_B12_TO_B13_MIRENA_MEETING_LOCK.md`
 - `CH03_B13_RETURN_TO_MIRENA_CRESTHAVEN_IDENTIFIED_STORY_SUPPORT.md`
-- `CH03_B14_FIRST_COMMAND_WARDEN_SCAN_LOCK.md`
-- `CH03_B14_FIRST_COMMAND_WARDEN_FINAL_MESSAGE_LOCK.md`
+- `CH03_B14_AUTHORITY_CONSTRUCT_SCAN_LOCK.md`
+- `CH03_B14_AUTHORITY_CONSTRUCT_FINAL_MESSAGE_LOCK.md`
 - `CH03_B15_CRESTHAVEN_HEADQUARTERS_CLEANUP_STORY_SUPPORT.md`
 
 Character-Life, cleanup, presentation, continuity, and Hunt locks remain separate domain authorities and are not mandatory beat packets.
@@ -54,7 +54,7 @@ Historical packets may be consulted only as provenance. They must not supply cur
 - reveal order;
 - Face terminology;
 - recruitment timing;
-- First Command Warden placement;
+- Authority Construct placement;
 - destination logic;
 - exact dialogue.
 
