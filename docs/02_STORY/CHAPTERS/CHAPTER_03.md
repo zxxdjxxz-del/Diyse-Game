@@ -648,13 +648,6 @@ After the practical handoff:
 - traveling/cleanup party becomes:
   > **Cyanis + Ilyra + Torren + Nimera**
 
-### Regional Hunt #3 unlock
-
-Preserve the existing cleanup access concept:
-- continuing Crown work in the Old City Archives may uncover/open a previously inaccessible optional passage;
-- Mirena can notify the party before leaving or by the established cleanup-access mechanism;
-- this unlocks Regional Hunt #3 — Archive Judgment Engine under its own encounter authority;
-- no new mandatory Hunt mini-story is required.
 
 ### Ivorybridge decision
 
@@ -695,13 +688,6 @@ Retired cleanup Character-Life:
 - H02;
 - H04.
 
-## Regional Hunt #3 — Archive Judgment Engine
-
-- optional Chapter-3 cleanup Hunt;
-- entrance: newly accessible Old City Archive side passage beneath Caelora;
-- playable party: Cyanis + Ilyra + Torren + Nimera;
-- structure: additional optional Archive area → Archive Judgment Engine → rewards;
-- completing/skipping it does not block Chapter 4.
 
 ## Chapter-4 boundary
 
