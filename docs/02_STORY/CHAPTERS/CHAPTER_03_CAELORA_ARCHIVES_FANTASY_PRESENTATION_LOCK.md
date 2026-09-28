@@ -1,4 +1,4 @@
-# Chapter 3 — Old City Fantasy Presentation Lock
+# Chapter 3 — Caelora Archives Fantasy Presentation Lock
 
 **Status:** ACTIVE PRESENTATION CORRECTION  
 **Scope:** Chapter 3 Caelora Archive material, especially Beats 5–8  
@@ -16,7 +16,7 @@ It may be extraordinarily sophisticated, precise, responsive, and mechanically c
 - old crafted mechanisms that **stir, answer, lock, turn, slide, bind, release, or awaken**;
 - visible craftsmanship and ritual logic rather than invisible digital logic.
 
-The Old City should feel closer to an impossible ancient magical archive, temple-workshop, royal vault, observatory, or enchanted civic complex than to a buried computer facility.
+The deepest Archive complex should feel closer to an impossible ancient magical archive, temple-workshop, royal vault, observatory, or enchanted civic complex than to a buried computer facility.
 
 ## Language to avoid
 Do not describe Archive/Ancient functions with repeated computer/network/software language such as:
@@ -78,7 +78,7 @@ Good presentation:
 - an old ring turns when matching sigils are aligned;
 - a ward loosens when a pattern is completed;
 - a door remains stubbornly sealed when the wrong marks are brought together;
-- a Warden awakens because an old command hall has been disturbed.
+- a guardian construct awakens because an old chamber has been disturbed.
 
 Avoid:
 - "permission granted";

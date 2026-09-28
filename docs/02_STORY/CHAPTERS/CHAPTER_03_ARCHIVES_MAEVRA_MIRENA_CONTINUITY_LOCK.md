@@ -1,4 +1,4 @@
-# Chapter 3 — Old City Maevra / Mirena Continuity Lock
+# Chapter 3 — Archives Maevra / Mirena Continuity Lock
 
 **Status:** ACTIVE — revised September 27, 2026  
 **Scope:** Chapter 3 Beats 5–11 where relevant.
@@ -6,7 +6,7 @@
 ## Core split
 
 ### Caelora investigation track
-**Maevra stays in Caelora with Crown Princess Mirena** throughout the mandatory Old City Archives dungeon.
+**Maevra stays in Caelora with Crown Princess Mirena** throughout the mandatory Caelora Archives dungeon.
 
 She works the Crown-side seal / record investigation and remains fully non-playable.
 
@@ -17,7 +17,7 @@ She works the Crown-side seal / record investigation and remains fully non-playa
 
 Maevra does not accompany the dungeon as a noncombat observer.
 
-## Retired Old City continuity
+## Retired Archive continuity
 
 Do not write Maevra reacting in person to:
 - Nimera's recruitment;
@@ -44,7 +44,7 @@ She and Mirena may report Crown-side findings, but they do not solve:
 - the seal-copying practitioner;
 - Calder's hidden role.
 
-The field party reports the Old City discoveries.
+The field party reports the Archive findings.
 
 The old Chapter-2 mural/Crest-marked Cresthaven clue is retired.
 
@@ -70,7 +70,6 @@ The story cuts forward to the next morning at Cresthaven.
 ## Beat 11 — headquarters / cleanup
 
 - Mirena and Maevra participate in the headquarters handoff.
-- Mirena may give the Regional Hunt #3 Archive passage update.
 - the party chooses Ivorybridge as the next sensible northern investigation point; Ancient evidence does not identify Ivorybridge as a confirmed destination.
 - after the handoff, Mirena and Maevra normally return to Caelora.
 - normal Cresthaven resident/traveling party is Cyanis + Ilyra + Torren + Nimera.

@@ -65,7 +65,7 @@ After Beat 4, the investigation splits.
 - During Beat 5, Nimera joins the investigation and becomes a **permanent party member**.
 - From Nimera's Beat-5 join onward through Beat 11, combat-capable permanent party: **Cyanis + Ilyra + Torren + Nimera**.
 
-Maevra must not be written as physically witnessing Old City discoveries made while she remains with Mirena.
+Maevra must not be written as physically witnessing Archive discoveries made while she remains with Mirena.
 
 ## Ancient-fantasy presentation lock
 
@@ -78,7 +78,7 @@ Favor:
 - moving shutters, rings, tracks, plates, archive frames;
 - books and manuscripts;
 - guardian constructs;
-- sealwright tools;
+- seal-working tools;
 - visible magical workmanship.
 
 Avoid backend/network/terminal/permissions-interface/computer-system presentation.
@@ -91,14 +91,14 @@ The Authority Construct may explicitly assess the party, but that assessment is 
 Chapter-1 damaged Wayfinder → old Yahtrean Westways recordbook → intact but rougher regional Wayfinder copy → giant northern tower → Mirena identifies its modern location as Cresthaven → Cresthaven confirms the tower site → known routes continue north beyond the copied map → party chooses Ivorybridge as the next place to investigate.
 
 ### Seal thread
-Impossible orders → real royal seal not knowingly used → recent-reader / Hall-of-Seals research → Sealwright copying evidence → **dead end in Caelora for now**.
+Impossible orders → real royal seal not knowingly used → recent-reader / Hall-of-Seals research → later seal-reproduction evidence → **dead end in Caelora for now**.
 
 The seal thread does not point the party to Cresthaven.
 
 ### Card / Last Sentinel thread
 Unstable Card through the Archives → Authority Construct at Cresthaven → **PREVIOUS ERROR** → **LAST SENTINEL CONFIRMED** → Authority Construct fully inert → Card stabilizes deep Ruby.
 
-The Warden message plus the Card's immediate deep-Ruby stabilization makes **Prime Card an explicit working hypothesis for Cyanis's Card by Chapter 3's end**, but it remains unconfirmed because nobody knows what a Prime Card actually is or does. Might, bearer status, and the full meaning of Last Sentinel remain unresolved. **Last Sentinel is not yet Recovered in Chapter 3; its Recovered transition occurs during its first verified modern manifestation in the Chapter-4 Elder Thornhide battle.**
+The Authority Construct message plus the Card's immediate deep-Ruby stabilization makes **Prime Card an explicit working hypothesis for Cyanis's Card by Chapter 3's end**, but it remains unconfirmed because nobody knows what a Prime Card actually is or does. Might, bearer status, and the full meaning of Last Sentinel remain unresolved. **Last Sentinel is not yet Recovered in Chapter 3; its Recovered transition occurs during its first verified modern manifestation in the Chapter-4 Elder Thornhide battle.**
 
 ---
 
@@ -149,7 +149,7 @@ The recordbook should feel like something preserved because it remained in an ol
 - the copy's rougher hand-rendered quality should visibly contrast with the true Wayfinder.
 
 ### Cresthaven
-The fort should tell its reuse history before the Warden does anything:
+The fort should tell its reuse history before the Authority Construct does anything:
 - ordinary later Crown fort construction above;
 - oversized ancient foundations extending beyond the fort footprint;
 - later mortar/repairs fitted awkwardly onto older stone;
@@ -222,7 +222,7 @@ Mandatory report outcomes:
 - the party reached the Old Bastion through older infrastructure beneath the region, including the Sunken Archive;
 - no Western Map Mural or Crest-marked northern structure is presented because that Chapter-2 material no longer exists;
 - the party's major current Ancient cartographic evidence remains the **Chapter-1 Wayfinder copy**;
-- the surviving Old City beneath Caelora is a reasonable research source, but the party is not sent there until the seal problem is established;
+- the deeper Caelora Archives and older structures beneath them are a reasonable research source, but the party is not sent there until the seal problem is established;
 - Maevra's report reconnects to the recovered Card's apparently Crown-directed transport toward Caelora;
 - Lysara requests the actual Card-transport authorization documents.
 
@@ -259,7 +259,7 @@ Handoff → **Beat 4 — The Seal That Wasn't Used**.
 
 ## Beat 4 — The Seal That Wasn't Used
 
-**Purpose:** test the obvious explanations and set up the Old City investigation.
+**Purpose:** test the obvious explanations and set up the Archive investigation.
 
 Mandatory:
 - Lysara's personal royal seal is present and still functions normally for her;
@@ -272,15 +272,15 @@ Mandatory:
   2. an unknown nonstandard way to make the seal's magic answer;
 - neither is proven;
 - no reckless Card/seal experiment is performed;
-- Mirena identifies **Nimera Pellan**, a Card scholar working in the Old City Archives, as a useful expert;
+- Mirena identifies **Nimera Pellan**, a Card scholar working in the Lower Archives, as a useful expert;
 - Mirena arranges lawful archive access;
 - the Queen's seal remains secured.
 
 Investigation split:
 - **Mirena + Maevra remain in Caelora**;
-- **Cyanis + Ilyra + Torren** enter the Old City Archives.
+- **Mirena escorts Cyanis + Ilyra + Torren through the active Upper Archives to the secured Lower Archives entrance**.
 
-Handoff → **Beat 5 — Old City Access / Archive Descent**.
+Handoff → **Beat 5 — Lower Archives Entrance / Nimera Joins**.
 
 ---
 
