@@ -38,7 +38,7 @@ The profanity-differentiation pass remains active: Nimera retains the broadest v
 11. `CH03_B11_ARCHIVE_SCRIBE_ENGINE_DIALOGUE.md`
 12. `CH03_B12_INNER_COLLECTIONS_WESTWAYS_RECORDBOOK_SEALWRIGHT_DIALOGUE.md`
 13. `CH03_B13_RETURN_TO_MIRENA_CRESTHAVEN_IDENTIFIED_DIALOGUE.md`
-14. `CH03_B14_CRESTHAVEN_TOWER_BASE_FIRST_COMMAND_WARDEN_DIALOGUE.md`
+14. `CH03_B14_CRESTHAVEN_TOWER_BASE_AUTHORITY_CONSTRUCT_DIALOGUE.md`
 15. `CH03_B15_CRESTHAVEN_HEADQUARTERS_IVORYBRIDGE_DECISION_DIALOGUE.md`
 
 
@@ -63,7 +63,7 @@ There is exactly one current mandatory draft and one current spec for each B01â€
 - B12 = Inner Collections / ~500-year-old Yahtrean Westways recordbook / Wayfinder-derived regional copy / Sealwright Chamber;
 - B13 = Mirena identifies the giant northern tower's modern location as Cresthaven;
 - no standalone overnight-rest beat;
-- B14 = normal Cresthaven + short Ancient tower-base dungeon + First Command Warden;
+- B14 = normal Cresthaven + short Ancient tower-base dungeon + Authority Construct;
 - Warden message order is exactly **PREVIOUS ERROR â†’ LAST SENTINEL CONFIRMED**;
 - Warden fully inert before Cyanis's Card stabilizes deep Ruby;
 - B15 = Warden aftermath + headquarters + cleanup + Ivorybridge hypothesis;
@@ -186,7 +186,7 @@ C06 opening:
 > **CYANIS:** I bet you use that cape to sneak up on the goats you fuck.  
 > **TORREN:** You look like a walking dick in armor.
 
-B14 First Command Warden:
+B14 Authority Construct:
 > **PREVIOUS ERROR**  
 > **LAST SENTINEL CONFIRMED**
 
@@ -223,7 +223,7 @@ Completed results:
 - mandatory dialogue reduced from **631 to 564 spoken lines**;
 - total Chapter-3 dialogue reduced from **807 to 706 spoken lines**;
 - the differentiation pass lowered non-Nimera profanity density and removed the overuse of shared `fuck/fucking` intensifiers while preserving naturally mature speech;
-- the two protected First Command Warden messages are compiled as Warden-spoken runtime dialogue in B14.
+- the two protected Authority Construct messages are compiled as Warden-spoken runtime dialogue in B14.
 
 The current Chapter-3 runtime resources, combined manuscript, reader outputs, and global manifest are **synchronized and verified** against this source set.
 
