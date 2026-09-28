@@ -1,13 +1,13 @@
 # Chapter 3 — Current Person-Brain Compatibility Audit
 
-**Audit date:** September 25, 2026  
-**Status:** PASS — NO DIALOGUE REGENERATION REQUIRED
+**Audit date:** September 28, 2026  
+**Status:** PASS — 11-BEAT CONSOLIDATION REVIEWED; NO ADDITIONAL DIALOGUE REGENERATION REQUIRED
 
 ## Method
 Compared the synchronized Chapter-3 manuscript against the current live Cyanis, Ilyra, Torren, Nimera, Maevra, and Mirena brains / current character authority, with special attention to Nimera's most recent reasoning, profanity, initiative, chronology, and relationship model.
 
 ## Result
-Mandatory Beats 1–15 plus C06 and C07 pass current Person-Brain compatibility.
+Mandatory Beats 1–11 plus C06 and C07 pass current Person-Brain compatibility.
 
 ## Nimera findings
 The current Chapter-3 dialogue is strongly aligned to the live brain:
@@ -56,7 +56,7 @@ Reads as socially fluent, witty, politically practical, and not merely a Crown-l
 - The chapter does not pre-spend Nimera's future relationship stages.
 
 ## Last Sentinel continuity
-Chapter 3 correctly does **not** recover or manifest Last Sentinel. It ends with Warden confirmation and Ruby stabilization. The Recovered transition belongs to the Chapter-4 Elder Thornhide manifestation under current Prime/story authority.
+Chapter 3 correctly does **not** recover or manifest Last Sentinel. It ends with Authority Construct confirmation and Ruby stabilization. The Recovered transition belongs to the Chapter-4 Elder Thornhide manifestation under current Prime/story authority.
 
 ## Watch notes
 - Nimera legitimately has substantial floor time because Chapter 3 is an archive/provenance-heavy chapter and her expertise is directly relevant. Do not cut her merely to equalize line counts.

@@ -21,7 +21,7 @@ with:
 or a grammatically natural shortened reference after the full location has already been established in the scene.
 
 ## Chapter-3 research application
-During the buried-library investigation, the party is specifically looking for material concerning:
+During the Lower Archives investigation, the party is specifically looking for material concerning:
 1. inactive / dormant Cards;
 2. the green-and-gold light Cyanis's Card emitted;
 3. Queen Lysara's magical personal seal and older seal traditions;
@@ -29,7 +29,7 @@ During the buried-library investigation, the party is specifically looking for m
 
 The recent unknown reader's research trail also includes books, manuscripts, maps, or reports concerning **the Diysean ruins in the Westways**.
 
-The strongest Beat-9 escalation may therefore be described as:
+The strongest Beat-6 recent-reader escalation may therefore be described as:
 > books and manuscripts are still open on a reading table, including material specifically concerning the Diysean ruins in the Westways from which the Card was transported.
 
 ## Reveal boundary
