@@ -2,7 +2,7 @@
 
 **Current whole-project written authority:** **v2.20 / Audit135**, plus later explicit user corrections/current domain migrations.  
 **Domain rule:** this file owns the current mandatory Chapter-3 story structure, scene order, reveal order, permanent-party changes, cleanup state, and chapter-end knowledge state. Exact dialogue belongs to the current Agent-Brain rehearsal-first Dialogue Engine. Combat mechanics/numbers belong to live battle and encounter authority.  
-**Status:** **CURRENT REVISED 15-BEAT STRUCTURAL AUTHORITY — SEPTEMBER 23, 2026 MIGRATION.**  
+**Status:** **CURRENT REVISED 11-BEAT STRUCTURAL AUTHORITY — SEPTEMBER 27, 2026 CONSOLIDATION.**  
 **Migration note:** this revision supersedes the former Chapter-2 mural dependency, Ancient Barrier sequence, Beat-8 Nimera recruitment, Caelora Authority Construct placement, Crest-marked Cresthaven lead, and standalone overnight-rest beat.
 
 ## Authority rule
@@ -51,7 +51,7 @@ The central royal mystery remains:
 
 > **Queen Lysara knew nothing about the recovered Card or its transport toward Caelora, yet the Card-related transport orders carry the genuine magical response of her own personal royal seal.**
 
-## Old City party-state lock
+## Archive party-state lock
 
 After Beat 4, the investigation splits.
 
@@ -59,11 +59,11 @@ After Beat 4, the investigation splits.
 
 **Maevra stays in Caelora with Crown Princess Mirena** to work the royal-seal / Crown-record investigation.
 
-### Old City field track
+### Archive field track
 
-- Beat 5 field group: **Cyanis + Ilyra + Torren**.
-- Beat 6: Nimera joins the investigation and becomes a **permanent party member**.
-- Beats 6–15 combat-capable permanent party: **Cyanis + Ilyra + Torren + Nimera**.
+- Beat 5 begins with **Cyanis + Ilyra + Torren**; Mirena escorts them only to the Lower Archives entrance.
+- During Beat 5, Nimera joins the investigation and becomes a **permanent party member**.
+- From Nimera's Beat-5 join onward through Beat 11, combat-capable permanent party: **Cyanis + Ilyra + Torren + Nimera**.
 
 Maevra must not be written as physically witnessing Old City discoveries made while she remains with Mirena.
 
@@ -113,7 +113,7 @@ The capital should visibly communicate **modern life built over older civilizati
 - older masonry, reused foundations, buried/embedded construction, or mismatched structural layers may appear naturally;
 - this is background continuity, not a reveal that an Ancient capital existed here.
 
-### Old City Archives — upper to lower progression
+### Caelora Archives — upper to lower progression
 The dungeon should visibly shift through layers of control:
 - active Crown-maintained archive spaces;
 - mapped/repaired older sections;
@@ -133,7 +133,7 @@ The recent investigation should be reconstructed from **physical research behavi
 
 Prime Card references remain textual/inscriptional evidence whose meaning is unknown; no environmental depiction should show what a Prime Card physically looks like.
 
-### Hall of Seals / Sealwright evidence
+### Hall of Seals / seal-reproduction evidence
 Physical evidence should distinguish:
 - surviving historical seals;
 - maintenance/renewal tools or traditions;
@@ -178,7 +178,7 @@ Environmental evidence must not solve:
 
 ---
 
-# Current 15-Beat Structure
+# Current 11-Beat Structure
 
 ## Beat 1 — Caelora Gate / Arrival
 
@@ -284,392 +284,149 @@ Handoff → **Beat 5 — Old City Access / Archive Descent**.
 
 ---
 
-## Beat 5 — Old City Access / Archive Descent
+## Beat 5 — Lower Archives Entrance / Nimera Joins
 
-**Purpose:** begin Chapter 3's main dungeon and establish the Old City Archives as layered modern-over-Ancient space.
+**Purpose:** enter the archive investigation cleanly, establish the active Upper/Lower Archive relationship, introduce Nimera, and form the permanent four.
 
 Mandatory:
-- lawful Crown access;
-- Maevra does not accompany the field party;
-- upper archive spaces are active modern Crown work areas;
-- those spaces visibly occupy something much older and larger;
-- maintained/mapped archive routes coexist with deeper degraded, restricted, unstable, or poorly catalogued sections;
-- the Crown uses the Old City without mastering it;
-- Cyanis, Ilyra, and Torren are actively looking for Nimera by name;
-- archive personnel direct them toward the deeper work area where she is researching;
-- this is a real dungeon transition, not merely a research cutscene.
+- Mirena personally brings Cyanis, Ilyra, and Torren through the active Upper Archives to the secured Lower Archives entrance;
+- Upper Archives remain active, used library/archive space and are context rather than a full dungeon beat;
+- Mirena confirms lawful access, then returns to the Crown-side investigation with Maevra;
+- Lower Archives begin recognizably Yahtrean and maintained;
+- older construction becomes visible gradually rather than immediately taking over;
+- Nimera is deliberately found working in the deeper Lower Archive stacks;
+- no Ancient Barrier exists and Nimera is not trapped;
+- Nimera receives the bounded Card/seal facts, refuses unsupported classification, and chooses to accompany the investigation;
+- **Nimera Pellan becomes a permanent party member here**.
 
-Handoff → **Beat 6 — Scholar in Redacted Stacks / Nimera Joins**.
+Handoff → **Beat 6 — Lower Archives Investigation**.
 
 ---
 
-## Beat 6 — Scholar in Redacted Stacks / Nimera Joins
+## Beat 6 — Lower Archives Investigation
 
-**Purpose:** introduce Nimera early and make her part of the party for most of the Archives dungeon.
+**Purpose:** carry the recent-reader/seal investigation through Lower Archives, Buried Collections, and Hall of Seals as one continuous story beat.
 
-Mandatory:
-- Nimera is already working in a deeper archive section;
-- she is **not trapped**;
-- there is **no Ancient Barrier**;
-- she is competent, active, curious, blunt, precise, socially functional, and already doing useful work;
-- Cyanis, Ilyra, and Torren explain the bounded problem: the abnormal Card and the impossible royal-seal response;
-- Nimera does not instantly classify the Card or solve the seal mystery;
-- she concludes that useful evidence is likely deeper in the Archives and that examining the problem directly is better than waiting for a report;
-- she chooses to accompany them;
-- **NIMERA PELLAN — PERMANENT PARTY MEMBER** here, not at the Scribe Engine;
-- first full permanent four-person field party:
-  - Cyanis;
-  - Ilyra;
-  - Torren;
-  - Nimera.
-
-Handoff → **Beat 7 — Lower Archives**.
-
----
-
-## Beat 7 — Lower Archives
-
-**Purpose:** give the new four-person party substantial dungeon time together before the investigation accelerates.
-
-Mandatory:
-- replaces the retired Ancient Barrier beat completely;
-- ordinary exploration, encounters, damaged stacks, old mechanisms, side rooms, and optional finds;
-- Nimera demonstrates real archival/Card expertise through play and observation rather than exposition;
-- Torren's route-reading, Cyanis's firsthand Card/Crest experience, and Ilyra's curiosity/skepticism remain useful without assigning any one character omniscience;
-- Ancient mechanisms may be encountered, but no single barrier acts as the recruitment gate;
-- no Cresthaven identification;
-- no northern-tower reveal;
-- no Last Sentinel reveal;
-- no Card stabilization.
-
-Handoff → **Beat 8 — Buried Collections / Recent Reader**.
-
----
-
-## Beat 8 — Buried Collections / Recent Reader
-
-**Purpose:** discover that someone relatively recent has been pursuing the same broad Card/authority questions.
-
-Mandatory:
-- the trail is archival rather than melodramatic;
-- disturbed references, pulled volumes, linked citations, or other physical evidence show deliberate recent research;
-- subjects may include:
-  - dormant/unusual Cards;
-  - Cyanis's green-and-gold Card behavior;
-  - older authority/seal practices;
-  - Six-Face material;
-  - the Diysean ruins in the Westways;
-- Nimera establishes one bounded piece of older Card scholarship:
-  - the words **Prime Card / Prime Cards** recur in surviving **Diysean writings and inscriptions**, and in later copies/commentaries preserving those Ancient references;
-  - later historians who encountered the term **did not understand what it meant either**;
-  - their scholarship preserves the repeated term and notes its uncertainty rather than supplying a lost known definition;
-  - contextual evidence shows Ancient sources treat **Prime Cards** as distinct from ordinary **Standard Cards**;
-  - no surviving known record gives a verified physical description of a Prime Card;
-  - no known person in the surviving record is established to have actually seen one;
-  - no surviving known account establishes what a Prime Card does;
-  - the Ancient term is therefore real, but its referent and function remain unknown;
-  - this does **not** classify Cyanis's Card as Prime;
-- the recent reader's identity remains unknown;
-- this research trail does **not** lead the party to the Westways recordbook map;
-- the map will be found later because the party reaches older collections, not because the recent reader conveniently points to it.
-
-Handoff → **Beat 9 — Hall of Seals / Recent Reader Continuation**.
-
----
-
-## Beat 9 — Hall of Seals / Recent Reader Continuation
-
-**Purpose:** deepen the seal mystery without solving it.
-
-Mandatory:
-- the party follows the recent research into a physical historical seal collection / record area;
-- historical Yahtrean working royal seals were magically significant physical objects;
-- older maintenance/renewal traditions existed but are incompletely preserved;
-- related authority-seal practices predate Yahtrea;
-- no successful duplication method is found;
-- no one identifies the recent reader;
-- Calder remains unrevealed;
-- the trail does not identify Cresthaven, the northern tower, or Ivorybridge;
-- the seal mystery gets stranger, not solved.
-
-Handoff → **Beat 10 — Deep Archives**.
-
----
-
-## Beat 10 — Deep Archives
-
-**Purpose:** create the longest late-dungeon exploration stretch and move beyond ordinary Crown archival control.
-
-Mandatory:
-- substantially older, less catalogued, more dangerous spaces;
-- Ancient structure becomes increasingly dominant over later Yahtrean adaptation;
-- storage galleries, damaged vertical connections, old archive mechanisms, constructs, collapsed routes, and optional repositories may appear;
-- some older Yahtrean material survives here simply because it fell out of administrative relevance, not because every important record was deliberately hidden;
-- Six-Face markings may appear using current names:
-  - Might;
-  - Elements;
-  - Grace;
-  - Memory;
-  - Perception;
-  - Ruin;
-- no Prime/Might/Last Sentinel classification;
-- build toward the oldest accessible repository.
-
-Handoff → **Beat 11 — Memory Construct**.
-
----
-
-## Beat 11 — Memory Construct
-
-**Purpose:** serve as the major boss/gatekeeper of the Caelora Archives dungeon.
-
-Mandatory:
-- the Scribe Engine is now encountered **deep in the Archives**, well after Nimera has joined;
-- it performs an old archival/security function and becomes physically dangerous when the party cannot satisfy its expected state;
-- it is procedural Ancient machinery, not a speaking villain;
-- it is the main story boss of the Archive dungeon;
-- defeating it opens/accesses the protected Inner Collections;
-- no Authority Construct appears in Caelora;
-- no PREVIOUS ERROR;
-- no LAST SENTINEL CONFIRMED;
-- Cyanis's Card does not stabilize Ruby here.
-
-Handoff → **Beat 12 — Inner Collections / Westways Recordbook / Sealwright Chamber**.
-
----
-
-## Beat 12 — Inner Collections / Westways Recordbook / Sealwright Chamber
-
-**Purpose:** deliver the Archives' major geographic breakthrough while letting the seal investigation reach its current dead end.
-
-### The Westways recordbook
-
-The party finds an approximately **500-year-old Yahtrean recordbook about the Westways**.
-
-The book itself is not Ancient Diysean. It is a later Yahtrean regional record containing an older hand-copied reproduction derived from an Ancient Diysean Wayfinder map.
-
-Provenance lock:
-- actual Wayfinder: Ancient Diysean, **thousands of years old**;
-- recordbook: Yahtrean, approximately **500 years old**;
-- copied map: later hand-copy of Wayfinder information;
-- the copy is less exact and less finely rendered than the real Wayfinder;
-- unlike the physically broken Wayfinder, this copied regional section survives intact.
-
-Coverage lock:
-- **Westways + central Yahtrea only**;
-- it is complete only within the portion the Yahtrean recordkeeper chose to copy;
-- it is not a complete map of Diyse or the wider world.
-
-The map clearly shows:
-- the complete Ancient Caelora urban/infrastructure cluster;
-- the true scale/density of that already-known ancient capital area;
-- major routes radiating outward in all directions to the copied map's edges;
-- a **very large tower north of the Caelora cluster**;
-- several of the largest routes converging on that tower;
-- those routes continuing north beyond the tower;
-- the copied map ending before showing where those northern routes lead.
-
-Interpretation firewall:
-- the existence of an Ancient capital at Caelora is **not** a revelation;
-- the new payoff is its scale, complete cluster shape, and relationship to the wider routes;
-- the tower is not labeled Cresthaven;
-- the map does not identify Ivorybridge;
-- the routes continuing north do not reveal their destination;
-- finer Wayfinder markings, including the still-unresolved second system, may be simplified/omitted by the old Yahtrean copyist rather than explained here.
-
-### Sealwright Chamber
-
-The party also reaches the Ancient physical magical Sealwright workshop.
+Mandatory physical progression:
+1. **Lower Archives** — recognizably Yahtrean, mapped/maintained authority thinning;
+2. **Buried Collections** — very old Yahtrean records with older foundations increasingly exposed;
+3. **Hall of Seals** — relationship to much older construction becomes undeniable.
 
 Mandatory evidence:
-- Ancient Diysean seals;
-- older Yahtrean seals;
-- seals from royal documents;
-- repeated attempts at reproducing the Crest of Yahtrea;
-- physical matrices/blanks/impressions/test media/discarded attempts;
-- later attempts show evidence of very powerful magic.
+- route/catalogue deterioration and old Yahtrean copying history;
+- dormant-Card precedent without classifying Cyanis's Card;
+- old Yahtrean records preserve **Prime Card** through copied inscriptions, quoted fragments, and later transcriptions;
+- nobody knows what a Prime Card looks like or does;
+- working magical seals and their visible impressions are historically distinct;
+- recent physical research behavior links Card response, seal history, Westways material, Face classifications, and deeper seal references;
+- recent-reader identity, number, motive, and conclusions remain unresolved;
+- the trail culminates in Hall of Seals and points deeper.
 
-Interpretation boundary:
-- copying the visible Crest is not the same as reproducing genuine royal magical authority;
-- nothing proves a copy successfully reproduced Lysara's true authority;
-- practitioner remains unidentified;
-- practitioner and recent reader may be connected, but this is not proven;
-- nothing proves the practitioner authored the suspect transport orders;
-- Calder remains unrevealed.
+Documentary rule:
+> **The accessible records are old Yahtrean records. Ancient Diysean influence here is primarily physical architecture, mechanisms, infrastructure, symbols, and Constructs.**
 
-**The seal evidence ends in Caelora for now. It does not point to Cresthaven.**
-
-Exit:
-- the Old City field section ends after the Inner Collections / Sealwright discoveries;
-- cut back upstairs to the private meeting with Mirena and Maevra.
-
-Handoff → **Beat 13 — Return to Mirena / Cresthaven Identified**.
+Handoff → **Beat 7 — Deep Archives / Memory Construct**.
 
 ---
 
-## Beat 13 — Return to Mirena / Cresthaven Identified
+## Beat 7 — Deep Archives / Memory Construct
 
-**Purpose:** separate the unresolved seal mystery from the actionable geographic lead.
+**Purpose:** complete the archive descent, make the Ancient physical complex dominant, and deliver the dungeon's combat climax.
 
-Scene composition:
-- Mirena receives Cyanis, Ilyra, Torren, and Nimera privately;
-- Maevra is present and may report Crown-side work;
-- Maevra does not claim to have witnessed the Old City discoveries.
+Mandatory:
+- Ancient Diysean physical architecture/mechanisms now dominate;
+- Yahtrean shelves, platforms, labels, repairs, and stored records are visibly fitted into the older complex;
+- the documentary holdings remain Yahtrean unless explicitly established otherwise;
+- the Six Marks appear with equal structural treatment: Might / Elements / Grace / Memory / Perception / Ruin;
+- Old Copying Floor machinery provides the final escalation;
+- the **Memory Construct** activates in the intact transfer chamber;
+- Memory Construct is procedural archive/security/copying machinery, not a speaking villain;
+- no mid-battle dialogue;
+- no Last Sentinel, Ruby stabilization, or Prime event;
+- defeat opens access to the protected Inner Collections.
 
-The party reports:
-- recent-reader evidence;
-- Hall-of-Seals findings;
-- Sealwright copying attempts;
-- the old Westways recordbook and its Wayfinder copy.
-
-Seal outcome:
-- the impossible royal-seal mystery remains unresolved;
-- Mirena asks the party to continue helping her investigate directly;
-- this is partnership, not conscription, containment, or surveillance.
-
-Geographic outcome:
-- Mirena studies the copied regional map;
-- she already knows an ancient capital existed where Caelora stands;
-- she does **not** treat that fact as a discovery;
-- the exceptional new feature is the huge northern tower and the major routes converging on it;
-- comparing the tower's approximate position with modern Crown geography, Mirena identifies its location as **Cresthaven**, the old abandoned fort;
-- she does not claim that the map depicts the fort itself;
-- she does not know the tower's original name or full purpose;
-- nobody identifies where the northbound routes ultimately go.
-
-Transition:
-- everyone has been underground/working long enough that rest is assumed;
-- there is **no standalone overnight-rest scene**;
-- Mirena says she and Maevra will meet the party at Cresthaven after everyone has rested;
-- cut forward to the next morning at Cresthaven.
-
-Handoff → **Beat 14 — Cresthaven / Ancient Tower Base / Authority Construct**.
+Handoff → **Beat 8 — Inner Collections / Findings**.
 
 ---
 
-## Beat 14 — Cresthaven / Ancient Tower Base / Authority Construct
+## Beat 8 — Inner Collections / Findings
 
-**Purpose:** preserve normal Cresthaven, add a short Ancient dungeon beneath/within it, and relocate the Authority Construct to the place where its command identity matters.
+**Purpose:** provide the quieter evidence payoff after the Memory Construct.
 
-### Normal Cresthaven
+Mandatory:
+- the party finds an approximately 500-year-old Yahtrean Westways road/settlement recordbook;
+- it contains a rougher Wayfinder-derived copy covering Westways + central Yahtrea;
+- the copied center restores the Caelora-area region missing from the broken physical Wayfinder;
+- a huge northern tower is shown with major routes converging there and continuing north beyond the copied page;
+- the copy does not name Cresthaven or Ivorybridge;
+- a separate later workspace shows repeated seal/Crest reproduction practice and powerful unknown magic;
+- the original Ancient purpose of that room is **unknown**;
+- no successful duplicate Royal Magic Seal is proven;
+- recent-reader and seal-practitioner identities remain unresolved and are not automatically collapsed into one person;
+- the seal lead dead-ends for now while the geographic lead becomes actionable.
 
-Opening:
-- next morning;
-- Cyanis, Ilyra, Torren, and Nimera arrive at normal abandoned Cresthaven;
-- Mirena and Maevra meet them there;
-- Crown support/work personnel may be present for practical reopening work;
-- Cresthaven remains an abandoned forest Crown fort / former outpost built over and into much older Diysean structure.
-
-The party compares the site with the Westways recordbook map.
-
-Discovery:
-- the visible fort is far too small to account for the enormous tower shown on the old map;
-- investigation reveals oversized older foundations and construction incorporated beneath/within the fort;
-- the modern fort reused the surviving base of a much older structure;
-- this opens access to a **short Ancient dungeon**, not a second Archive-sized complex.
-
-### Short tower-base dungeon
-
-Compact progression:
-1. **Tower Foundation**
-   - massive Diysean base construction;
-   - later Yahtrean reuse/repairs;
-   - root intrusion, damage, and limited construct resistance;
-   - one or two small optional spaces are acceptable.
-2. **Command Interior**
-   - more intact command-oriented architecture;
-   - authority markings/mechanisms;
-   - confirms the site's importance without giving another northern map.
-3. **Warden Chamber**
-   - endpoint of the surviving lower structure;
-   - Authority Construct encounter.
-
-No second route map, Ivorybridge marker, hidden northern chart, or convenient destination reveal appears in this dungeon.
-
-### Authority Construct sequence
-
-Preserve exact order:
-1. the Authority Construct activates;
-2. it visibly assesses the **entire party** through Ancient magical craft;
-3. the result is unacceptable/insufficient;
-4. it attacks;
-5. the party defeats it; current story intent remains one HP bar unless battle authority revises it;
-6. during shutdown it communicates **PREVIOUS ERROR**;
-7. its **final communication** is **LAST SENTINEL CONFIRMED**;
-8. the Warden becomes fully inert;
-9. **only after the Warden is fully inert**, Cyanis's Card settles from unstable green-and-gold behavior into stable **deep Ruby**;
-10. the Card is not inserted, used as a literal key, or activated as a Prime.
-
-Still unresolved:
-- what the Warden assessed;
-- what PREVIOUS ERROR means;
-- what LAST SENTINEL CONFIRMED means;
-- whether the phrase refers to Cyanis, the Card, or another state/relationship;
-- bearer status;
-- whether Cyanis's Card is a Prime Card;
-- what a Prime Card physically is or does beyond the unresolved archival term;
-- Might classification;
-- Last Sentinel recovery/manifestation/use.
-
-The Ruby stabilization grants no new gameplay ability here.
-
-Handoff → **Beat 15 — Cresthaven Headquarters / Cleanup / Ivorybridge Decision**.
+Handoff → **Beat 9 — Return to Mirena / Cresthaven Identified**.
 
 ---
 
-## Beat 15 — Cresthaven Headquarters / Cleanup / Ivorybridge Decision
+## Beat 9 — Return to Mirena / Cresthaven Identified
 
-**Purpose:** let the Warden aftermath land, establish Cresthaven as headquarters, open cleanup, and let the party choose its next northern lead.
+**Purpose:** convert the archive findings into the next physical investigation target without solving the seal mystery.
 
-### Warden aftermath
+Mandatory:
+- party reports both unresolved seal findings and the Wayfinder-derived copy to Mirena and Maevra;
+- Crown-side records still provide no clean theft window;
+- Mirena compares the copied tower position/routes against modern geography;
+- **Mirena identifies the tower's modern location as Cresthaven**;
+- the tower's Ancient name, purpose, and ultimate northbound destination remain unknown;
+- Mirena orders everyone to sleep before inspecting Cresthaven;
+- a small Crown work/support team will meet them there in the morning;
+- **rest is only an offscreen transition**;
+- **no standalone rest beat and no inserted character scene**.
 
-- party returns to normal Cresthaven above;
-- Mirena and Maevra can now participate because they are physically present at Cresthaven;
-- Nimera may inspect the stable Ruby Card but does not solve it;
-- LAST SENTINEL CONFIRMED remains a mystery;
-- Prime/Might classification is not established in Chapter 3.
-
-### Headquarters handoff
-
-Mirena tells the party they may use Cresthaven as their operational headquarters while helping with the investigation.
-
-Minimum hub functions:
-- sleeping/rest space;
-- supplies;
-- records/map/investigation workspace;
-- basic medical/treatment space;
-- departure/travel access.
-
-Parts of the fort may remain damaged, sealed, dusty, unsafe, or under restoration.
-
-After the practical handoff:
-- Mirena and Maevra normally return to Caelora;
-- they are not default Cresthaven residents;
-- traveling/cleanup party becomes:
-  > **Cyanis + Ilyra + Torren + Nimera**
-
-
-### Ivorybridge decision
-
-The party returns to the old Westways recordbook map after confirming the Cresthaven tower site was real.
-
-They now know:
-- the enormous tower on the copy corresponded to Cresthaven;
-- the route network represented on the copy was not imaginary;
-- several of the largest routes continue **north past Cresthaven**;
-- the copied map ends before showing where those routes lead.
-
-No Ancient source identifies Ivorybridge.
-
-The party makes the next move as a **reasoned hypothesis**:
-- north is the next geographic lead;
-- **Ivorybridge** is the sensible modern place to begin looking for continuation/evidence farther north;
-- nobody claims the Ancient routes definitely reached Ivorybridge;
-- Mirena may confirm that Ivorybridge is a sensible modern northern investigation point, but she does not assign it as a known Ancient destination.
-
-The party chooses to investigate Ivorybridge next.
+Transition → fade / next morning / travel skip → **Beat 10 — Cresthaven / Tower Base / Authority Construct**.
 
 ---
+
+## Beat 10 — Cresthaven / Tower Base / Authority Construct
+
+**Purpose:** verify the tower location physically and deliver the Chapter-3 Last Sentinel/Ruby sequence.
+
+Mandatory:
+- begin at normal abandoned Cresthaven with Mirena, Maevra, and the small Crown work team already present;
+- the visible fort is ordinary later Crown construction over a much larger Ancient foundation;
+- permanent four descend while Mirena and Maevra remain aboveground/noncombat;
+- short dungeon sequence: **Tower Foundation → Command Interior → Authority Chamber**;
+- no new map, routing room, hidden northern chart, or Ivorybridge label;
+- the **Authority Construct** assesses all four party members and attacks;
+- boss has one continuous HP bar unless live battle authority explicitly revises it;
+- no Prime manifestation;
+- after defeat the Authority Construct outputs exactly:
+  1. **PREVIOUS ERROR**
+  2. **LAST SENTINEL CONFIRMED**
+- LAST SENTINEL CONFIRMED is its final message;
+- Authority Construct becomes fully inert;
+- only afterward Cyanis's Card stabilizes deep Ruby;
+- Last Sentinel meaning, PREVIOUS ERROR meaning, Prime status, Might, bearer status, and Ruby causation remain unresolved.
+
+Handoff → **Beat 11 — Cresthaven Headquarters / Ivorybridge Decision**.
+
+---
+
+## Beat 11 — Cresthaven Headquarters / Ivorybridge Decision
+
+**Purpose:** establish the new working base, state the unresolved hypotheses, and choose the next modern investigation point.
+
+Mandatory:
+- Authority Construct/Ruby sequence is reported without solving it;
+- Prime Card may become an explicit working hypothesis for Cyanis's Card but remains unconfirmed;
+- Cresthaven becomes the party's operational headquarters;
+- practical map/records, sleeping, supply, and treatment spaces become usable;
+- Mirena and Maevra return to Caelora after the handoff;
+- the Wayfinder-derived copy proves only that major Ancient routes continue north beyond Cresthaven;
+- Torren selects **Ivorybridge** as the sensible modern place to start testing the northbound route;
+- Ivorybridge is **not** named by the Ancient/copied map;
+- mandatory Chapter 3 ends here and cleanup/free-roam opens before Chapter 4.
 
 # Chapter-3 Cleanup Authority
 
@@ -680,7 +437,7 @@ Active:
 - **C07 — Ilyra and Nimera**
 
 These remain valid for Cresthaven cleanup, but their exact placement must respect that:
-- Nimera joined permanently in Beat 6;
+- Nimera joined permanently in Beat 5;
 - Chapter 3 has no standalone overnight-rest beat;
 - Torren/Nimera are still in first-contact/early-trust territory during Chapter 3.
 
@@ -713,8 +470,8 @@ At Chapter-3 end, the party may know:
 - no simple recorded theft explains the anomaly;
 - historical magically significant seal traditions existed;
 - an unknown recent reader researched overlapping Card/authority subjects;
-- surviving Diysean writings and inscriptions repeatedly use **Prime Card** in contexts distinct from ordinary Standard Cards; later historians who found those references also did not understand the term, and no verified sighting, identified specimen, physical description, or functional account explains what a Prime Card actually is or does;
-- someone practiced increasingly sophisticated seal reproduction in an Ancient Sealwright chamber;
+- old Yahtrean records repeatedly preserve **Prime Card** through copied inscriptions, quoted fragments, and later transcriptions that distinguish it from ordinary Cards; later historians also did not understand the term, and no verified sighting, identified specimen, physical description, or functional account explains what a Prime Card actually is or does;
+- someone practiced increasingly sophisticated seal reproduction in a later workspace fitted into Ancient construction whose original purpose is unknown;
 - later practice attempts involved very powerful magic;
 - the actual Wayfinder is an Ancient Diysean artifact thousands of years old;
 - a roughly 500-year-old Yahtrean Westways recordbook preserves a less precise but intact regional hand-copy of Wayfinder information;
@@ -741,7 +498,7 @@ The following remain unresolved:
 - original name and full function of the Cresthaven tower;
 - where the northbound Ancient routes ultimately lead;
 - whether those routes actually pass through modern Ivorybridge;
-- what the Warden assessed;
+- what the Authority Construct assessed;
 - what PREVIOUS ERROR refers to;
 - full meaning of LAST SENTINEL CONFIRMED;
 - bearer status;

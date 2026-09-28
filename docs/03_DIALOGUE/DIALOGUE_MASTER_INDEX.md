@@ -161,7 +161,7 @@ Canonical Character-Life source filenames now match canonical C01–C07 numberin
 | Ch0 | **FULL SOURCE CLOSURE** — B01–B07 + C01; Person-Brain + Cyanis audit + Ilyra balance + adult speech + natural-turn + spoken-vs-narration; current brains aligned | `PRODUCTION/CHAPTER_00/CHAPTER_00_DIALOGUE_AUTHORITY_INDEX.md` | **CURRENT — SYNCHRONIZED** |
 | Ch1 | **LOCKED CURRENT SOURCE** — Beats 1–12 true-voice + Chapters 0–3 continuity audited; C02/C03/C04 retained current | `PRODUCTION/CHAPTER_01/CHAPTER_01_DIALOGUE_AUTHORITY_INDEX.md` | **CURRENT — SYNCHRONIZED** |
 | Ch2 | **FULL SOURCE CLOSURE** — Beats 1–15 + C05; final ensemble + Ilyra + Torren progression + Maevra rank/friendship + adult speech + natural-turn + spoken-vs-narration; current brains aligned | `PRODUCTION/CHAPTER_02/CHAPTER_02_DIALOGUE_AUTHORITY_INDEX.md` | **CURRENT — SYNCHRONIZED** |
-| Ch3 | **FULL SOURCE CLOSURE** — Beats 1–15 + C06/C07; Person-Brain + Ilyra + Torren progression + Torren/Nimera first-contact + Nimera adult speech + current Face/subclass terminology; current brains/specs aligned | `PRODUCTION/CHAPTER_03/CHAPTER_03_DIALOGUE_AUTHORITY_INDEX.md` | **CURRENT — SYNCHRONIZED** |
+| Ch3 | **FULL SOURCE CLOSURE** — Beats 1–11 + C06/C07; Person-Brain + Ilyra + Torren progression + Torren/Nimera first-contact + Nimera adult speech + current Face/subclass terminology; current brains/specs aligned | `PRODUCTION/CHAPTER_03/CHAPTER_03_DIALOGUE_AUTHORITY_INDEX.md` | **CURRENT — SYNCHRONIZED** |
 
 The standalone atomics remain exact wording authority. The current derived manuscripts are verified synchronized mirrors.
 
@@ -243,7 +243,7 @@ Core outcomes remain:
 # Chapter 3 key state
 
 Current live set:
-- Beats 1–15;
+- Beats 1–11;
 - C06 `Nimera Takes Over a Table`;
 - C07 `Ilyra and Nimera`.
 
@@ -254,13 +254,13 @@ Protected C06 opening:
 > **CYANIS:** I bet you use that cape to sneak up on the goats you fuck.  
 > **TORREN:** You look like a walking dick in armor.
 
-Protected Beat-14 Warden messages:
+Protected Beat-10 Authority Construct messages:
 > **PREVIOUS ERROR**  
 > **LAST SENTINEL CONFIRMED**
 
-Cyanis's Card becomes stable deep Ruby only after the Warden is fully inert. Causation remains unresolved. No Prime event occurs and the Card is not used as a key.
+Cyanis's Card becomes stable deep Ruby only after the Authority Construct is fully inert. Causation remains unresolved. No Prime event occurs and the Card is not used as a key.
 
-Nimera joins permanently in Beat 6. Torren/Nimera remain first-contact/new-acquaintance throughout Chapter 3.
+Nimera joins permanently in Beat 5. Torren/Nimera remain first-contact/new-acquaintance throughout Chapter 3.
 
 ---
 

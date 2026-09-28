@@ -33,8 +33,8 @@ DIALOGUE_RE = re.compile(r"^\*\*([^*\n]+):\*\*\s*(.*)$")
 HEADING_RE = re.compile(r"^(#{1,6})\s+(.+?)\s*$")
 NON_ALNUM_RE = re.compile(r"[^a-z0-9]+")
 
-# Chapter 3 current structure recruits Nimera permanently in B06.
-# Protected First Command Warden messages compile as B14 spoken dialogue.
+# Chapter 3 current structure recruits Nimera permanently in B05.
+# Protected Authority Construct messages compile as B10 spoken dialogue.
 DURABLE_FLAGS: dict[tuple[str, str], list[str]] = {
     ("00", "B07"): [
         "ROSTER_ADD_ILYRA_PERMANENT",
@@ -53,8 +53,8 @@ DURABLE_FLAGS: dict[tuple[str, str], list[str]] = {
         "STORY_CHAPTER_02_COMPLETE",
         "UNLOCK_C05_STILL_BURNS",
     ],
-    ("03", "B06"): ["ROSTER_ADD_NIMERA_PERMANENT"],
-    ("03", "B15"): [
+    ("03", "B05"): ["ROSTER_ADD_NIMERA_PERMANENT"],
+    ("03", "B11"): [
         "STORY_CHAPTER_03_COMPLETE",
         "UNLOCK_C06_NIMERA_TAKES_OVER_A_TABLE",
         "UNLOCK_C07_ILYRA_AND_NIMERA",
@@ -157,7 +157,7 @@ def source_set() -> list[SceneSource]:
     scenes.append(SceneSource("02", "C05", unique_glob(ch2, "C05_STILL_BURNS_DIALOGUE.md"), "character_life"))
 
     ch3 = chapter_dir("03")
-    for n in range(1, 16):
+    for n in range(1, 12):
         scenes.append(SceneSource(
             "03",
             f"B{n:02d}",
@@ -170,7 +170,7 @@ def source_set() -> list[SceneSource]:
         SceneSource("03", "C07", unique_glob(ch3, "C07_ILYRA_AND_NIMERA_DIALOGUE.md"), "character_life", unique_glob(ch3, "C07_ILYRA_AND_NIMERA_SPEC.json")),
     ])
 
-    expected_counts = {"00": 8, "01": 15, "02": 16, "03": 17}
+    expected_counts = {"00": 8, "01": 15, "02": 16, "03": 13}
     for chapter, expected in expected_counts.items():
         got = sum(1 for scene in scenes if scene.chapter == chapter)
         if got != expected:

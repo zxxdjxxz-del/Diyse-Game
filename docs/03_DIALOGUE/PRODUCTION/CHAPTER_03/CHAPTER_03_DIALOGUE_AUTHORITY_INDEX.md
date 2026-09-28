@@ -1,7 +1,7 @@
 # Chapter 3 — Dialogue Authority Index
 
 **Chapter:** 3  
-**Status:** FULL SOURCE-LEVEL DIALOGUE CLOSURE — REVISED 15-BEAT STRUCTURE CURRENT  
+**Status:** FULL SOURCE-LEVEL DIALOGUE CLOSURE — REVISED 11-BEAT STRUCTURE CURRENT  
 **Migration date:** September 23, 2026  
 **Primary story authority:** ../../../02_STORY/CHAPTERS/CHAPTER_03.md  
 **Current spoken-line count after tightening:** **564 mandatory + 142 Character-Life = 706 total**  
@@ -29,44 +29,40 @@ The profanity-differentiation pass remains active: Nimera retains the broadest v
 2. `CH03_B02_ROYAL_AUDIENCE_CH2_REPORT_DIALOGUE.md`
 3. `CH03_B03_IMPOSSIBLE_ORDERS_DIALOGUE.md`
 4. `CH03_B04_SEAL_NOT_USED_DIALOGUE.md`
-5. `CH03_B05_OLD_CITY_ACCESS_ARCHIVE_DESCENT_DIALOGUE.md`
-6. `CH03_B06_SCHOLAR_IN_REDACTED_STACKS_NIMERA_JOINS_DIALOGUE.md`
-7. `CH03_B07_LOWER_ARCHIVES_DIALOGUE.md`
-8. `CH03_B08_BURIED_COLLECTIONS_RECENT_READER_DIALOGUE.md`
-9. `CH03_B09_HALL_OF_SEALS_RECENT_READER_DIALOGUE.md`
-10. `CH03_B10_DEEP_ARCHIVES_DIALOGUE.md`
-11. `CH03_B11_ARCHIVE_SCRIBE_ENGINE_DIALOGUE.md`
-12. `CH03_B12_INNER_COLLECTIONS_WESTWAYS_RECORDBOOK_SEALWRIGHT_DIALOGUE.md`
-13. `CH03_B13_RETURN_TO_MIRENA_CRESTHAVEN_IDENTIFIED_DIALOGUE.md`
-14. `CH03_B14_CRESTHAVEN_TOWER_BASE_AUTHORITY_CONSTRUCT_DIALOGUE.md`
-15. `CH03_B15_CRESTHAVEN_HEADQUARTERS_IVORYBRIDGE_DECISION_DIALOGUE.md`
-
+5. `CH03_B05_LOWER_ARCHIVES_ENTRANCE_NIMERA_JOINS_DIALOGUE.md`
+6. `CH03_B06_LOWER_ARCHIVES_INVESTIGATION_DIALOGUE.md`
+7. `CH03_B07_DEEP_ARCHIVES_MEMORY_CONSTRUCT_DIALOGUE.md`
+8. `CH03_B08_INNER_COLLECTIONS_FINDINGS_DIALOGUE.md`
+9. `CH03_B09_RETURN_TO_MIRENA_CRESTHAVEN_IDENTIFIED_DIALOGUE.md`
+10. `CH03_B10_CRESTHAVEN_TOWER_BASE_AUTHORITY_CONSTRUCT_DIALOGUE.md`
+11. `CH03_B11_CRESTHAVEN_HEADQUARTERS_IVORYBRIDGE_DECISION_DIALOGUE.md`
 
 Character-Life:
 - C06 — Nimera Takes Over a Table — C06_NIMERA_TAKES_OVER_A_TABLE_DIALOGUE.md
 - C07 — Ilyra and Nimera — C07_ILYRA_AND_NIMERA_DIALOGUE.md
 
-There is exactly one current mandatory draft and one current spec for each B01–B15 slot.
+There is exactly one current mandatory draft and one current spec for each B01–B11 slot.
 
 ## Current structural dialogue locks
 
+- Beats 1–4 remain separate and unchanged in structure.
 - no Chapter-2 Western Map Mural;
 - Chapter-1 Wayfinder remains the major pre-Chapter-3 cartographic evidence;
 - Ancient-capital existence at Caelora is already known;
 - no Ancient Barrier;
-- Nimera joins permanently in **B06**;
-- B07 = Lower Archives;
-- B08 = Buried Collections / Recent Reader;
-- B09 = Hall of Seals;
-- B10 = Deep Archives;
-- B11 = Archive Scribe Engine;
-- B12 = Inner Collections / ~500-year-old Yahtrean Westways recordbook / Wayfinder-derived regional copy / Sealwright Chamber;
-- B13 = Mirena identifies the giant northern tower's modern location as Cresthaven;
-- no standalone overnight-rest beat;
-- B14 = normal Cresthaven + short Ancient tower-base dungeon + Authority Construct;
-- Warden message order is exactly **PREVIOUS ERROR → LAST SENTINEL CONFIRMED**;
-- Warden fully inert before Cyanis's Card stabilizes deep Ruby;
-- B15 = Warden aftermath + headquarters + cleanup + Ivorybridge hypothesis;
+- Upper Archives remain active, used library/archive space;
+- Mirena escorts the trio to the Lower Archives entrance, then returns to the Crown-side investigation;
+- Nimera joins permanently in **B05**;
+- **B06** = Lower Archives Investigation, containing Lower Archives → Buried Collections → Hall of Seals as physical subzones;
+- all accessible archive documentary evidence in B05–B08 is old Yahtrean material; Ancient Diysean influence is primarily physical architecture/mechanisms/infrastructure/Constructs;
+- **B07** = Deep Archives + Memory Construct;
+- **B08** = Inner Collections / ~500-year-old Yahtrean Westways recordbook / Wayfinder-derived regional copy / later seal-reproduction workspace of unknown original Ancient purpose;
+- **B09** = Mirena identifies the giant northern tower's modern location as Cresthaven;
+- no standalone overnight-rest beat and no inserted rest character scene;
+- **B10** = normal Cresthaven + short Ancient tower-base dungeon + Authority Construct;
+- Authority Construct message order is exactly **PREVIOUS ERROR → LAST SENTINEL CONFIRMED**;
+- Authority Construct is fully inert before Cyanis's Card stabilizes deep Ruby;
+- **B11** = Authority Construct aftermath + headquarters + cleanup + Ivorybridge hypothesis;
 - Ancient evidence does not name Ivorybridge.
 
 ## Live Agent-Brain authority
@@ -178,7 +174,7 @@ Prefer:
 - silence / simply not making the unsupported claim;
 - a plain `don't know` when that is genuinely how the person would answer.
 
-Current B01–B15 + C06/C07 audit finds **zero remaining targeted canon-checker constructions** under this rule. Plain human uncertainty such as `Don't know yet` is intentionally retained where natural.
+Current B01–B11 + C06/C07 audit finds **zero remaining targeted canon-checker constructions** under this rule. Plain human uncertainty such as `Don't know yet` is intentionally retained where natural.
 
 ## Protected anchors
 
@@ -186,13 +182,13 @@ C06 opening:
 > **CYANIS:** I bet you use that cape to sneak up on the goats you fuck.  
 > **TORREN:** You look like a walking dick in armor.
 
-B14 Authority Construct:
+B10 Authority Construct:
 > **PREVIOUS ERROR**  
 > **LAST SENTINEL CONFIRMED**
 
-LAST SENTINEL CONFIRMED is the Warden's final message.
+LAST SENTINEL CONFIRMED is the Authority Construct's final message.
 
-Only after the Warden is fully inert does Cyanis's Card stabilize deep Ruby.
+Only after the Authority Construct is fully inert does Cyanis's Card stabilize deep Ruby.
 
 No Prime event occurs. The Card is not used as a key.
 
@@ -223,11 +219,11 @@ Completed results:
 - mandatory dialogue reduced from **631 to 564 spoken lines**;
 - total Chapter-3 dialogue reduced from **807 to 706 spoken lines**;
 - the differentiation pass lowered non-Nimera profanity density and removed the overuse of shared `fuck/fucking` intensifiers while preserving naturally mature speech;
-- the two protected Authority Construct messages are compiled as Warden-spoken runtime dialogue in B14.
+- the two protected Authority Construct messages compile as Authority Construct spoken runtime dialogue in B10.
 
-The current Chapter-3 runtime resources, combined manuscript, reader outputs, and global manifest are **synchronized and verified** against this source set.
+Runtime resources, combined manuscripts, reader outputs, and the global manifest are generated derivatives; after any source edit, the Dialogue Sync workflow must regenerate and verify them.
 
-Compiler durable roster state remains correctly attached to **B06**: **ROSTER_ADD_NIMERA_PERMANENT**.
+Compiler durable roster state is attached to **B05**: **ROSTER_ADD_NIMERA_PERMANENT**.
 
 
 ## Current Person-Brain compatibility audit

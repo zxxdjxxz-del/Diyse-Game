@@ -49,7 +49,7 @@
     "location_name": "Cresthaven records/maps/investigation room",
     "area_phase": "chapter_3_cleanup",
     "dialogue_readiness": "GREEN",
-    "runtime_note": "Optional cleanup Character-Life scene after Beat 15. Mirena and Maevra have returned to Caelora. Nimera is already working when Cyanis and Torren enter. Keep it low-stakes, lived-in, funny, and economical; exit once the table joke and new social dynamic have landed. Torren is socially comfortable with Cyanis, but Nimera is new to him in Chapter 3. Their exchange must stay first-contact friction/curiosity rather than later familial shorthand."
+    "runtime_note": "Optional cleanup Character-Life scene after Beat 11. Mirena and Maevra have returned to Caelora. Nimera is already working when Cyanis and Torren enter. Keep it low-stakes, lived-in, funny, and economical; exit once the table joke and new social dynamic have landed. Torren is socially comfortable with Cyanis, but Nimera is new to him in Chapter 3. Their exchange must stay first-contact friction/curiosity rather than later familial shorthand."
   },
   "hard_outcomes": [
     "Nimera is already working and has occupied most of the communal table through organized useful work rather than mess.",

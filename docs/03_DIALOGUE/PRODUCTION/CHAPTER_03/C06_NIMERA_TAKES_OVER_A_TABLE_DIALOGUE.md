@@ -6,7 +6,7 @@
 
 ### [OPTIONAL CHARACTER-LIFE TRIGGER — CRESTHAVEN RECORDS / MAP ROOM]
 
-Available during the Chapter-3 cleanup window after Beat 15.
+Available during the Chapter-3 cleanup window after Beat 11.
 
 The records room is usable but newly reopened.
 
