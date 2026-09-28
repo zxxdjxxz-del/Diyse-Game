@@ -8,9 +8,9 @@
 ## Combat-party chronology
 
 - Beats 1–4: Cyanis + Ilyra + Torren are the permanent combat-capable party.
-- Beat 5 Old City entry: Cyanis + Ilyra + Torren.
-- **Beat 6: Nimera joins permanently.**
-- Beats 6–15: Cyanis + Ilyra + Torren + Nimera.
+- Beat 5 begins with Cyanis + Ilyra + Torren.
+- **During Beat 5: Nimera joins permanently.**
+- From Nimera's Beat-5 join through Beat 11: Cyanis + Ilyra + Torren + Nimera.
 - Maevra remains non-playable/noncombat.
 - Mirena is not a combat party member.
 
@@ -19,25 +19,25 @@
 ### Beats 1–4 — Caelora / Crown investigation
 No mandatory combat.
 
-### Beats 5–12 — Old City Archives
-Chapter 3's main dungeon.
+### Beat 5 — Lower Archives Entrance / Nimera Joins
+Nimera joins before the sustained archive encounter sequence.
 
-- Beat 5 — Archive access/descent
-- Beat 6 — Nimera joins
-- Beat 7 — Lower Archives
-- Beat 8 — Buried Collections / recent-reader trail
-- Beat 9 — Hall of Seals
-- Beat 10 — Deep Archives
-- **Beat 11 — Memory Construct mandatory boss**
-- Beat 12 — Inner Collections / Westways recordbook / Sealwright Chamber
+### Beat 6 — Lower Archives Investigation
+Main Archive dungeon investigation across Lower Archives, Buried Collections, and Hall of Seals.
 
-### Beat 13 — Return to Mirena
+### Beat 7 — Deep Archives / Memory Construct
+Deep Archives encounter escalation ending with the **Memory Construct** mandatory boss.
+
+### Beat 8 — Inner Collections / Findings
+Quieter evidence-payoff section; no mandatory story boss.
+
+### Beat 9 — Return to Mirena / Cresthaven Identified
 No mandatory combat.
 
-### Beat 14 — Cresthaven / Ancient tower base
+### Beat 10 — Cresthaven / Tower Base / Authority Construct
 Short Ancient tower-base dungeon ending with the **Authority Construct**.
 
-### Beat 15 — Cresthaven headquarters / cleanup
+### Beat 11 — Cresthaven Headquarters / Ivorybridge Decision
 No mandatory mainline combat.
 
 # Locked ordinary / repeatable roster — 2026-09-27
@@ -104,14 +104,14 @@ This retirement is **Chapter-3 placement only**. It does not automatically delet
 # Mandatory named / bosses
 
 ## Memory Construct
-- mandatory Beat-11 Old City Archives boss;
+- mandatory Beat-7 Deep Archives boss;
 - one continuous HP bar / one targetable boss body;
 - no transformation, add wave, or separate targetable copying arms;
 - never random-spawns;
 - boss raw body / fight-length budget require current four-person validation.
 
 ## Authority Construct
-- mandatory Beat-14 Cresthaven tower-base boss;
+- mandatory Beat-10 Cresthaven tower-base boss;
 - one continuous HP bar;
 - same-bar Imposed Authority → Challenged Authority shift at 45%;
 - State A uses Command Seal plus interruptible Command Ring / Major Ruling;
@@ -119,7 +119,7 @@ This retirement is **Chapter-3 placement only**. It does not automatically delet
 - protected shutdown message order:
   1. **PREVIOUS ERROR**
   2. **LAST SENTINEL CONFIRMED**
-- Warden becomes fully inert before Cyanis's Card stabilizes deep Ruby.
+- Authority Construct becomes fully inert before Cyanis's Card stabilizes deep Ruby.
 
 
 # Status rollout
@@ -134,17 +134,17 @@ The previous ordinary-enemy Stun-source assignment to Command Guard Frame is ret
 Exact current formation compositions and sub-area eligibility are owned by:
 `../ENCOUNTER_FORMATIONS/CHAPTER_03_FORMATIONS.md`
 
-Old City rollout structure:
-- Beat 7 Lower Archives — Construct / Shield Construct / Flash Drone / Arcdrift; **3–4 enemies confirmed**
-- Beat 8 Buried Collections — **Ruin Spider enters**
-- Beat 9 Hall of Seals — **Scriptshade enters**
-- Beat 10 Deep Archives — **Maul Construct enters; Shield Construct leaves the Beat-10 random pool**
-- exact Beat 8–10 body-count bands are under the current formation rebuild and must not inherit the superseded 4–5 / 4–5 / 4–6 escalation automatically
+Archive rollout structure:
+- Beat 6 / Lower Archives — Construct / Shield Construct / Flash Drone / Arcdrift; **3–4 enemies confirmed**
+- Beat 6 / Buried Collections — **Ruin Spider enters**
+- Beat 6 / Hall of Seals — **Scriptshade enters**
+- Beat 7 / Deep Archives — **Maul Construct enters; Shield Construct leaves the Deep Archives random pool**
+- Hall of Seals / Deep Archives body-count bands remain under formation review and must not inherit the superseded 4–5 / 4–6 escalation automatically
 
 Cresthaven body-count structure remains provisional pending its own formation pass:
 - Tower Foundation — **4–5 enemies**
 - Command Interior — **4–6 enemies**
-- Warden approach — **5–6 enemies**
+- Authority approach — **5–6 enemies**
 - simultaneous ordinary-enemy ceiling there remains **6** until reviewed
 
 # Validation boundary

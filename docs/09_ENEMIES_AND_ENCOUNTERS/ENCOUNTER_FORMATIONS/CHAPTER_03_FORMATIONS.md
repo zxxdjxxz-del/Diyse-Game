@@ -8,13 +8,13 @@
 ## Route firewalls
 - no hostile Caelora gate / perimeter random pool;
 - no Caelora → Cresthaven road encounters;
-- Memory Construct is a mandatory Beat-11 boss and never random-spawns;
-- Authority Construct is the authored Beat-14 boss;
+- Memory Construct is the mandatory Beat-7 boss and never random-spawns;
+- Authority Construct is the authored Beat-10 boss;
 - retired September-23 Chapter-3 enemy identities must not appear in current random formations.
 
-# Old City Archives
+# Caelora Archives
 
-The Old City Archives are the main Chapter-3 dungeon. Nimera joins permanently in Beat 6, so ordinary encounters from Beat 7 onward are built for:
+The Caelora Archives are the main Chapter-3 dungeon. Nimera joins permanently in Beat 5, so sustained ordinary encounters from Beat 6 onward are built for:
 > **Cyanis + Ilyra + Torren + Nimera**
 
 Current active identities:
@@ -33,20 +33,20 @@ Placement character:
 - Arcdrift supplies the established elemental threat;
 - Ruin Spider supplies the natural/organic ruin ecology.
 
-## Old City enemy-introduction sequence — LOCKED 2026-09-27
+## Archive enemy-introduction sequence — LOCKED 2026-09-27
 
-The Old City roster is deliberately stretched across the full Archive dungeon instead of front-loading nearly every identity.
+The Archive roster is deliberately stretched across physical subzones instead of front-loading nearly every identity.
 
-- **Beat 7 — Lower Archives:** Construct, Shield Construct, Flash Drone, Arcdrift.
-- **Beat 8 — Buried Collections:** Ruin Spider enters.
-- **Beat 9 — Hall of Seals:** Scriptshade enters.
-- **Beat 10 — Deep Archives:** Maul Construct enters.
-- Once Maul Construct enters in Beat 10, **Shield Construct drops out of Beat-10 random formations**. Do not stack Shield Construct and Maul Construct together in the Deep Archives.
-- Beat 10 may mix the full currently introduced Old City roster **except Shield Construct**.
+- **Beat 6 / Lower Archives:** Construct, Shield Construct, Flash Drone, Arcdrift.
+- **Beat 6 / Buried Collections:** Ruin Spider enters.
+- **Beat 6 / Hall of Seals:** Scriptshade enters.
+- **Beat 7 / Deep Archives:** Maul Construct enters.
+- Once Maul Construct enters in the Deep Archives, **Shield Construct drops out of Deep Archives random formations**. Do not stack Shield Construct and Maul Construct together there.
+- Deep Archives may mix the full currently introduced Archive roster **except Shield Construct**.
 
-## Beat 7 — Lower Archives
+## Beat 6 — Lower Archives subzone
 
-Beat 7 establishes the basic Ancient security language plus aerial/ranged and elemental variation. Ruin Spider, Scriptshade, and Maul Construct are deliberately withheld.
+The Lower Archives subzone establishes the basic Ancient security language plus aerial/ranged and elemental variation. Ruin Spider, Scriptshade, and Maul Construct are deliberately withheld.
 
 | Formation | Composition | Bodies |
 |---|---|---:|
@@ -60,10 +60,10 @@ Rules:
 - Ruin Spider does not appear yet;
 - Scriptshade does not appear yet;
 - Maul Construct does not appear yet;
-- 3 bodies are normal; 4 bodies are the heavier Beat-7 formation;
-- Beat 7 body range: **3–4**.
+- 3 bodies are normal; 4 bodies are the heavier Lower Archives formation;
+- Lower Archives body range: **3–4**.
 
-## Beat 8 — Buried Collections
+## Beat 6 — Buried Collections subzone
 
 **New identity:** Ruin Spider.
 
@@ -83,13 +83,13 @@ Eligible pool:
 | **Buried Array** | 1 Shield Construct + 1 Flash Drone + 1 Arcdrift + 1 Ruin Spider | 4 |
 
 Rules:
-- Ruin Spider is the only new identity introduced in Beat 8;
+- Ruin Spider is the only new identity introduced in the Buried Collections;
 - no Scriptshade yet;
 - no Maul Construct yet;
-- 3 bodies remain normal, with 4-body combinations as the heavier Beat-8 pressure;
-- Beat 8 body range: **3–4**.
+- 3 bodies remain normal, with 4-body combinations as the heavier Buried Collections pressure;
+- Buried Collections body range: **3–4**.
 
-## Beat 9 — Hall of Seals
+## Beat 6 — Hall of Seals subzone
 
 **New identity:** Scriptshade.
 
@@ -104,9 +104,9 @@ Eligible pool:
 Firewall:
 - no Maul Construct yet.
 
-Exact Beat-9 formations are being rebuilt in the current structural pass. Scriptshade should read as a new strange archive-magic presence rather than generic crowd filler.
+Exact Hall of Seals formations are being rebuilt in the current structural pass. Scriptshade should read as a new strange archive-magic presence rather than generic crowd filler.
 
-## Beat 10 — Deep Archives
+## Beat 7 — Deep Archives
 
 **New identity:** Maul Construct.
 
@@ -118,11 +118,11 @@ Eligible pool:
 - Ruin Spider
 - Scriptshade
 
-**Shield Construct is no longer eligible for Beat-10 random formations once Maul Construct enters.**
+**Shield Construct is no longer eligible for Deep Archives random formations once Maul Construct enters.**
 
-Exact Beat-10 formations are being rebuilt in the current structural pass. Maul Construct is the deeper Archive's heavier/more aggressive security escalation and should not be paired with Shield Construct here.
+Exact Deep Archives formations are being rebuilt in the current structural pass. Maul Construct is the deeper Archive's heavier/more aggressive security escalation and should not be paired with Shield Construct here.
 
-## Beat 11 — Memory Construct approach
+## Beat 7 — Memory Construct approach
 
 Immediate pre-boss staging pocket:
 > **SAFE — no random encounter**
@@ -130,10 +130,10 @@ Immediate pre-boss staging pocket:
 Memory Construct:
 > **mandatory authored boss only — never random**
 
-## Old City body-count progression
-- Beat 7: **3–4 — confirmed**
-- Beat 8: **3–4 — confirmed**
-- Beats 9–10: **under current formation rebuild**
+## Archive body-count progression
+- Lower Archives: **3–4 — confirmed**
+- Buried Collections: **3–4 — confirmed**
+- Hall of Seals + Deep Archives: **under current formation rebuild**
 - Do not restore the previous automatic 4–5 / 4–5 / 4–6 escalation without explicit review.
 
 # Cresthaven Ancient tower base
@@ -182,7 +182,7 @@ Rules:
 - full Cresthaven roster may mix here;
 - body range: **4–6**.
 
-## Warden approach
+## Authority approach
 
 Eligible late formations:
 - Blade Screen
@@ -196,16 +196,16 @@ Late-only formation:
 |---|---|---:|
 | **Last Tower Line** | 1 Flame Construct + 1 Blade Drone + 1 Shield Construct + 1 Maul Construct + 2 Constructs | 6 |
 
-Immediate pre-Warden buffer:
+Immediate pre-Authority buffer:
 > **SAFE — no random encounter**
 
-Warden Chamber:
+Authority Chamber:
 > authored **Authority Construct** encounter only
 
 ## Cresthaven body-count progression
 - Tower Foundation: **4–5**
 - Command Interior: **4–6**
-- Warden approach: **5–6**
+- Authority approach: **5–6**
 - simultaneous ordinary-enemy ceiling: **6**
 
 # Retired formation firewall
