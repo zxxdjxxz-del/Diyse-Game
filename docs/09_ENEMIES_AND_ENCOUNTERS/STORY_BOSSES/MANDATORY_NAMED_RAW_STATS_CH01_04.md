@@ -12,7 +12,7 @@
 | 1 | **Watch Castellan** | 6 | 450 | 42 | 27 | 27 | 24 | 25 | 0 | 5 | one bar; Fortress → Walking same-bar |
 | 2 | **Archive Leviathan** | 9 | 1,900 | 50 | 52 | 31 | 33 | 25 | 0 | 5 | one bar; Recorded Pattern → Emergent same-bar |
 | 2 | **Commander Rhazek — Bastion Master** | 10 | 2,050 | 58 | 44 | 36 | 32 | 27 | 5 | 5 | one bar; Bastion Master → Ruin Escalation same-bar; survives/withdraws |
-| 3 | **First Command Warden** | 14 | 2,850 | 72 | 72 | 43 | 43 | 30 | 0 | 10 | one bar; Imposed Authority → Challenged Authority same-bar |
+| 3 | **Authority Construct** | 14 | 2,850 | 72 | 72 | 43 | 43 | 30 | 0 | 10 | one bar; Imposed Authority → Challenged Authority same-bar |
 | 4 | **Elder Thornhide** | 14 | 2,100 | 72 | 28 | 60 | 55 | 36 | 10 | 5 | mandatory nonlethal; fixed 4-round Last Sentinel sequence |
 | 4 | **Reaction Conduit** | 17 | 2,400 | 58 | 80 | 50 | 55 | 33 | 5 | 5 | mandatory nonlethal stabilization; four-expression cycle |
 | 4 | **Regulation Crucible — Form I** | 18 | 2,400 | 64 | 90 | 54 | 57 | 30 | 0 | 10 | Form I; four targetable elemental chambers |
@@ -141,7 +141,7 @@ Expected pacing:
 The 45% HP Ruin/armor shift is same-bar and does not refresh Prime availability.
 
 
-## First Command Warden working recertification
+## Authority Construct working recertification
 
 Actual S020 route:
 - mandatory pre-battle EXP **11,280** = Lv11, 820 short of Lv12
