@@ -116,7 +116,7 @@ No routine Black Host patrols. Encounters are plausible creatures, environmental
 ### Early route state
 The first stretch should still read clearly as **old Dunmere/Yahtrean municipal infrastructure**: service passages, channels, old maintenance spaces, gates, drains, and water-control construction. Torren is actively route-finding here, but any practical guidance dialogue occurs only at authored stops; no walking dialogue.
 
-### Sealed future-Hunt door
+### Sealed reserved side door
 A **short way into the waterworks**, the main route passes a substantial side-branch door.
 
 Current Chapter-2 lock:
@@ -130,7 +130,7 @@ Implementation/story rules:
 - forcing it is not a secret Chapter-2 solution;
 - there is no quest marker, lore dump, warning voice, or `come back later` tutorial;
 - the party does not know what lies behind it;
-- writer/production-facing: the sealed branch is a **future return route leading to a Hunt**, with exact Hunt implementation/reward authority remaining in the Hunt layer.
+- writer/production-facing: the sealed branch is **reserved future-use space**. No Hunt, reward, boss, or unlock is currently assigned to it.
 
 The authored stop should be short. Its function is **memory**, not mystery inflation.
 
@@ -164,7 +164,7 @@ No large exposition scene is required in the middle of the dungeon.
 ### Beat-4 knowledge checkpoint
 By the end:
 - the waterworks route has remained covert;
-- the party has seen but **cannot open** the future-Hunt branch door;
+- the party has seen but **cannot open** the reserved side-branch door;
 - nobody knows what is behind that door;
 - the entire traveling group has been exposed to substantial water during traversal;
 - the party recognizes that the deepest construction is much older than Dunmere's waterworks;
