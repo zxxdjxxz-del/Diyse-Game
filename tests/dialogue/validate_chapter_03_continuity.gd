@@ -61,7 +61,6 @@ func _validate_b10() -> void:
 		return
 	var previous_error := -1
 	var last_sentinel := -1
-	var first_ruby := -1
 	var authority_lines: Array[String] = []
 	for i in range(scene.beats.size()):
 		var beat: Dictionary = scene.beats[i]
@@ -71,15 +70,24 @@ func _validate_b10() -> void:
 			previous_error = i
 		if text == "last sentinel confirmed":
 			last_sentinel = i
-		if "ruby" in text and first_ruby < 0:
-			first_ruby = i
 		if speaker == "authority_construct":
 			authority_lines.append(text)
 
 	_expect(previous_error >= 0, "B10 must contain PREVIOUS ERROR")
 	_expect(last_sentinel > previous_error, "B10 must place LAST SENTINEL CONFIRMED after PREVIOUS ERROR")
 	_expect(not authority_lines.is_empty() and authority_lines[-1] == "last sentinel confirmed", "LAST SENTINEL CONFIRMED must be the Authority Construct's final spoken message")
-	_expect(first_ruby > last_sentinel, "B10 Ruby response must occur only after the Authority Construct's final message")
+
+	# Ruby stabilization is a stage direction, not spoken dialogue. Validate the
+	# controlling Markdown's authored event order instead of searching spoken beats.
+	var source_path := "res://docs/03_DIALOGUE/PRODUCTION/CHAPTER_03/CH03_B10_CRESTHAVEN_TOWER_BASE_AUTHORITY_CONSTRUCT_DIALOGUE.md"
+	var source := _normalize(FileAccess.get_file_as_string(source_path))
+	_expect(not source.is_empty(), "B10 controlling Markdown must be readable for stage-direction ordering")
+	var source_last_sentinel := source.find("**authority construct:** last sentinel confirmed")
+	var source_inert := source.find("the construct becomes fully inert.", source_last_sentinel)
+	var source_ruby := source.find("the pattern settles into stable deep ruby.", source_inert)
+	_expect(source_last_sentinel >= 0, "B10 source must contain the Authority Construct's LAST SENTINEL CONFIRMED line")
+	_expect(source_inert > source_last_sentinel, "B10 source must make the Authority Construct fully inert after its final message")
+	_expect(source_ruby > source_inert, "B10 source must stabilize the Card deep Ruby only after the Authority Construct is fully inert")
 	_expect("prime manifestation" not in _spoken("B10"), "B10 must not claim a Prime manifestation")
 
 func _validate_b11() -> void:
