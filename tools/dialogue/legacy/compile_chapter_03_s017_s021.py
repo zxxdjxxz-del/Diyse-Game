@@ -1,3 +1,8 @@
+# LEGACY / HISTORICAL TOOL ONLY
+# Compiles the retired Chapter 3 S017-S021/H01-H04 transcript model.
+# Current Chapter 3 uses docs/03_DIALOGUE/PRODUCTION/CHAPTER_03 B01-B11 + C06/C07
+# and tools/dialogue/compile_current_runtime_dialogue.py.
+
 #!/usr/bin/env python3
 """Compile locked Chapter 3 Markdown dialogue sources into Godot dialogue Resources.
 

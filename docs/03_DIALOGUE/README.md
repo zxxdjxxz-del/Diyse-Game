@@ -45,13 +45,13 @@ Route conversations use authored stop triggers with movement/input paused. Battl
 ## Current chapter production status
 
 - **Chapter 0 — COMPLETE CURRENT WORKING PRODUCTION**  
-  `PRODUCTION/CHAPTER_00/CHAPTER_00_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md`
+  `PRODUCTION/CHAPTER_00/CHAPTER_00_DIALOGUE_MANUSCRIPT.md`
 - **Chapter 1 — LOCKED CURRENT WORKING PRODUCTION — SYNCHRONIZED 2026-09-19**  
-  `PRODUCTION/CHAPTER_01/CHAPTER_01_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md`
+  `PRODUCTION/CHAPTER_01/CHAPTER_01_DIALOGUE_MANUSCRIPT.md`
 - **Chapter 2 — COMPLETE CURRENT WORKING PRODUCTION**  
-  `PRODUCTION/CHAPTER_02/CHAPTER_02_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md`
+  `PRODUCTION/CHAPTER_02/CHAPTER_02_DIALOGUE_MANUSCRIPT.md`
 - **Chapter 3 — COMPLETE CURRENT WORKING PRODUCTION**  
-  `PRODUCTION/CHAPTER_03/CHAPTER_03_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md`
+  `PRODUCTION/CHAPTER_03/CHAPTER_03_DIALOGUE_MANUSCRIPT.md`
 - Chapters 4–13 remain pending/rebuilding according to current story and authoring-status authority.
 
 `COMPLETE CURRENT WORKING PRODUCTION` means a chapter is assembled end-to-end and is the version to use for implementation and future revision. Chapter 1 is additionally **LOCKED CURRENT**: its present atomic wording is the active authority until an explicit later revision reopens it. Playtesting can still motivate a deliberate future revision.
@@ -65,8 +65,8 @@ The current game-facing mirror is generated at:
 `game/content/dialogue/current/`
 
 Current synchronization contract:
-- **60 canonical current runtime scenes**;
-- **2,901 spoken lines**;
+- **52 canonical current runtime scenes**;
+- **2,015 spoken lines**;
 - generated directly from current production atomics;
 - source and spoken-sequence hashes recorded in `game/content/dialogue/current/manifest.json`;
 - validated in Godot by `tests/dialogue/validate_current_dialogue_resources.gd`;
@@ -87,7 +87,7 @@ The old Chapter-0 locked-manuscript casing overlay, the temporary Chapter-0 quic
 
 Git history remains the provenance/archive for those superseded versions. They must not be restored as competing dialogue authority.
 
-Historical `LINE_COMPLETE` material for later chapters may remain temporarily until those chapters receive current rehearsal-first replacements. Its presence does not make it current spoken-dialogue authority.
+Chapter 3's retired S017–S021 / H01–H04 `LINE_COMPLETE` set has been moved to `HISTORICAL/CHAPTER_03/`. Historical `LINE_COMPLETE` material for other later chapters may remain temporarily until those chapters receive current rehearsal-first replacements. Its presence does not make it current spoken-dialogue authority.
 
 ## Explicit exact-line anchors
 
@@ -95,7 +95,7 @@ The only older wording that must survive regeneration verbatim is wording the us
 
 Current examples:
 - Ch1 C03: `CYANIS: Old slut?` / `TORREN: Bitch.` remains the exact joke anchor; the later `TORREN: Bitch.` / `CYANIS: Old slut.` callback also remains protected.
-- Ch3 H01:
+- Ch3 C06 (historical H01 anchor):
   - Cyanis: `I bet you use that cape to sneak up on the goats you fuck.`
   - Torren: `You look like a walking dick in armor.`
 
