@@ -74,11 +74,20 @@ Eligible pool:
 - Arcdrift
 - Ruin Spider
 
-Firewalls:
-- no Scriptshade yet;
-- no Maul Construct yet.
+| Formation | Composition | Bodies |
+|---|---|---:|
+| **Webbed Stacks** | 1 Construct + 2 Ruin Spiders | 3 |
+| **Buried Patrol** | 1 Shield Construct + 1 Construct + 1 Ruin Spider | 3 |
+| **Current Nest** | 1 Arcdrift + 1 Construct + 1 Ruin Spider | 3 |
+| **Broken Gallery** | 1 Flash Drone + 1 Construct + 2 Ruin Spiders | 4 |
+| **Buried Array** | 1 Shield Construct + 1 Flash Drone + 1 Arcdrift + 1 Ruin Spider | 4 |
 
-Exact Beat-8 formations are being rebuilt in the current structural pass. The prior 4–5-body table is superseded and must not be restored automatically.
+Rules:
+- Ruin Spider is the only new identity introduced in Beat 8;
+- no Scriptshade yet;
+- no Maul Construct yet;
+- 3 bodies remain normal, with 4-body combinations as the heavier Beat-8 pressure;
+- Beat 8 body range: **3–4**.
 
 ## Beat 9 — Hall of Seals
 
@@ -123,7 +132,8 @@ Memory Construct:
 
 ## Old City body-count progression
 - Beat 7: **3–4 — confirmed**
-- Beats 8–10: **under current formation rebuild**
+- Beat 8: **3–4 — confirmed**
+- Beats 9–10: **under current formation rebuild**
 - Do not restore the previous automatic 4–5 / 4–5 / 4–6 escalation without explicit review.
 
 # Cresthaven Ancient tower base
