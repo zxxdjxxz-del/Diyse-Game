@@ -44,7 +44,7 @@ This correction does not itself change Power coefficients for:
 - Authority Lens;
 - Command Ring Drone;
 - Grand Inquisitor Frame;
-- First Command Warden;
+- Authority Construct;
 - Archive Judgment Engine.
 
 Any later HP/stat/tuning change must come from fresh encounter validation.
@@ -98,7 +98,7 @@ Current ordinary pool uses:
 - Authority Lens;
 - Command Ring Drone.
 
-First Command Warden remains the mandatory boss at the end of the short Cresthaven tower-base dungeon.
+Authority Construct remains the mandatory boss at the end of the short Cresthaven tower-base dungeon.
 
 ### Regional Hunt #3 current structural target
 Archive Judgment Engine is available during cleanup after Cresthaven becomes headquarters.
@@ -112,7 +112,7 @@ Current structure:
 - Lock Verdict may inflict Stun;
 - inherited Lv15 / HP4,928 line and Lv15 recommendation are provisional pending current cleanup-state testing.
 
-### First Command Warden current structural target
+### Authority Construct current structural target
 - one continuous HP bar;
 - same-bar 45% Imposed Authority → Challenged Authority shift;
 - Command Seal retained;
@@ -166,7 +166,7 @@ Run fresh mandatory-vs-completionist tests for the encounters that actually belo
 - Beat-7 through Beat-10 Old City Archives formations;
 - any currently approved optional Grand Inquisitor Frame placement;
 - Cresthaven tower-base ordinary formations;
-- First Command Warden;
+- Authority Construct;
 - Regional Hunt #3 at its actual access state.
 
 For every encounter use both required baselines:
