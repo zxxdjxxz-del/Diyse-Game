@@ -1,159 +1,155 @@
 # Diyse — Chapter 02 Enemies — The Drowned Oath
-**Migration baseline:** `Diyse_CURRENT_WORKING_TRACKER_CONSOLIDATED_2026-08-27_v85.md`  
-**Primary enemy-production authority:** compatible **Audit90 / Audit93** plus accepted later tracker roster/action cleanups.  
-**Primary raw-stat authority:** **Audit129 + Audit130 / Audit131 / Audit132 / Audit133 / Audit134 / Audit135**.  
-**Current whole-project written authority:** **v2.20 / Audit135**, plus later explicit story / encounter corrections.  
-**Migration rule:** later current names, chapter reindexing, four-element rules, removed-system firewalls, fresh-body Prime-refresh rules, and current story placement supersede stale earlier enemy text.
 
+**Status:** **CURRENT — roster / placement authority**
+**Latest roster sync:** 2026-09-27
+**Party-size authority:** Cyanis + Ilyra + Torren — **3 active combatants**. Maevra is present but noncombat.
 
-## Ordinary / repeatable
-### Old Waterworks / wet lower works
+Later explicit Chapter-2 roster, visual-master, and formation decisions supersede older Memory-Scribe / Regional-Hunt / 3–6-body formation material.
+
+---
+
+# Ordinary / repeatable
+
+## Old Waterworks
+Core pool:
 - Bogshell
 - Cistern Leech
-- Needlewing — approved Chapter-1 carryover; natural aerial threat in flooded / broken vertical chambers
+- Needlewing — Chapter-1 carryover
+- Scaldback — normal-pool geothermal salamander; enters only in later hot-runoff / steam / mineral sectors
 
-**Removed from current Chapter-2 placement:** Redwater Initiate. Its prior poisoned-waterworks context is retired and it is not part of the active Old Waterworks roster.
+Placement rules:
+- no routine Black Host patrols;
+- Bogshell / Cistern Leech establish the flooded ecology;
+- Needlewing is limited to chambers with enough overhead space for its aerial presentation;
+- Scaldback is **not** a Regional Hunt and does not appear in the earliest municipal works.
 
-### Sunken Archive / ancient complex
-Archive-specific identities:
+Retired from current Chapter-2 placement:
+- Redwater Initiate.
+
+## Sunken Archive
+Archive-specific identity:
 - Arcdrift
-- Memory Scribe
 
-Flooded-area wildlife carryover:
+Compatible flooded carryovers:
 - Bogshell
 - Cistern Leech
 - Needlewing
 
-These three Old Waterworks creatures may continue into compatible flooded / broken Archive sectors rather than stopping artificially at the area boundary.
+Current Archive rule:
+> Arcdrift is the only Archive-specific ordinary identity in Chapter 2.
 
-### Old Bastion
-- Ruin Shieldbearer — approved Chapters 0–1 carryover; Chapter-2-scaled body
-- Black Host Crossbowman — approved Chapters 0–1 carryover; Chapter-2-scaled body
-- Black Host War-Sorcerer — approved Black Host caster identity; Chapter-2-scaled variant
-- Black Host Raider — approved carryover
-- Rift Hound — approved carryover
+The Archive deliberately remains light on Ancient-machine enemies so Chapter 3 owns the stronger construct escalation.
 
-## Support objects / support identities
-- None
+Retired from current Chapter-2 placement:
+- Memory Scribe
+- Watch Sentry
+- Archive Duplicant
+- Vault Sentinel
+- Drowned Archive Maw
 
-## Authored / protected / nonlethal
-- None on the current mandatory route from the retired `Hold the Junction` concept.
+## Old Bastion
+Current pool:
+- Black Host Raider
+- Black Host Crossbowman
+- Black Host Shieldbearer
+- Battle Sorcerer
+- War Hound
 
-**Retired:** `Hold the Junction` is not a current Chapter-2 encounter. Do not recreate its fixed formation, second-wave logic, extraction causeway, or post-extraction combat.
+These are established Black Host identities reused from earlier chapters with Chapter-2-appropriate tuning where required.
 
-## Mandatory named / boss
+Current naming supersedes older Chapter-2 labels:
+- Ruin Shieldbearer → **Black Host Shieldbearer**
+- Black Host War-Sorcerer / Transfer Adept lane → **Battle Sorcerer**
+- Rift Hound / handler-era Chapter-2 lane → **War Hound**
+
+Retired duplicate/specialized Chapter-2 identities:
+- Bastion Shield Guard
+- Bastion Crossbow Guard
+- Transfer Adept
+- Beast Handler
+
+---
+
+# Mandatory named / bosses
 - Archive Leviathan
 - Commander Rhazek — Bastion Master
 
-## Regional Hunt
+There is currently **no Chapter-2 Regional Hunt**.
+
+Scaldback is an ordinary Chapter-2 enemy.
+
+---
+
+# Current story-placement firewall
+- Chapter begins immediately outside Dunmere; no replayed full road journey.
+- Old Waterworks are a covert route with no routine Black Host patrol layer.
+- Sunken Archive is not an active Black Host facility.
+- Old Bastion is an active functioning Black Host military position.
+- Maevra is physically present but fully non-playable / noncombat.
+- There is no Hold the Junction, extraction-causeway battle, surprise post-extraction fight, or escort battle.
+- Immediate major story/boss approach pockets remain protected from random combat where the formation authority says SAFE.
+
+---
+
+# Encounter-size authority
+Chapter 2 must be tuned for:
+> **3 active party members**
+
+Current ordinary formation bands:
+- Old Waterworks: **2–3 normally**
+- Sunken Archive: **2–3 normally; one late 4-body ceiling**
+- Old Bastion: **2–3 normally; one late 4-body ceiling**
+
+Five- and six-enemy ordinary formations are retired from Chapter 2.
+
+Difficulty should escalate primarily through:
+- role synergy;
+- stronger enemy identities;
+- enemy action quality;
+- area progression;
+
+rather than simply increasing body count.
+
+Owning composition authority:
+`../ENCOUNTER_FORMATIONS/CHAPTER_02_FORMATIONS.md`
+
+---
+
+# Status / numerical boundary
+Chapter 2 introduces:
+> **Burn**
+
+Bleed remains active.
+Do not introduce Stun or Freeze here.
+
+Existing enemy raw bodies and Power values remain usable only where their current identity is still active, but final Chapter-2 difficulty certification is reopened because the encounter structure and party-size assumptions changed.
+
+Final:
+- raw-body retuning for renamed/reused carryovers;
+- formation selection weights;
+- encounter rate;
+- mandatory-vs-completionist difficulty;
+- Rhazek support decision;
+
+remain open for the later validation pass.
+
+---
+
+# Retired Chapter-2 roster material
+Do not restore without explicit revision:
+- Redwater Initiate
+- Memory Scribe
+- Vault Sentinel
+- Watch Sentry
+- Archive Duplicant
+- Drowned Archive Maw
+- Bastion Shield Guard
+- Bastion Crossbow Guard
+- Transfer Adept
+- Beast Handler
+- Hold the Junction
 - Regional Hunt #2 — Scaldback
+- Scriptshade — belongs to Chapter 3
 
-## Current story-placement firewall
-Current Chapter-2 story authority controls actual encounter placement.
-
-- Chapter begins immediately outside Dunmere; there is no replayed full road journey.
-- Old Waterworks are a genuinely covert route with **no routine Black Host patrols**.
-- Waterworks danger should come from compatible creatures, hazards, and non-Host threats unless a later authored placement says otherwise.
-- The Sunken Archive is not an active Black Host facility.
-- Archive ordinary encounters may use Arcdrift, Memory Scribe, Bogshell, Cistern Leech, and Needlewing where the current area design places them.
-- Old Bastion is an active functioning Black Host position; Ruin Shieldbearers, Black Host Crossbowmen, Black Host War-Sorcerers, approved Raiders, and Rift Hounds are compatible there.
-- Maevra is physically present in Chapter 2 but **fully non-playable/noncombat**. She is not a fourth battle-party body.
-- After Rhazek's defeat, the Black Host withdraws and the maintained road-side exit becomes usable.
-- There is **no Hold the Junction**, extraction-causeway battle, surprise post-extraction fight, or dedicated escort battle.
-
-## Current notes
-Chapter-2 direct-damage Power/raw batch remains:
-> **POWER COMPLETE**
-
-Summary:
-`../ORDINARY_ENEMIES/CHAPTER_02_POWER_AND_RAW_REGISTER.md`
-
-Current special mechanics retained where their identities are legally placed:
-- Memory Scribe records only completed eligible direct-damage actions; 65% bounded echo.
-- Chapter 2 introduces Burn, not Stun or Freeze.
-
-## Numerical boundary
-Chapter-2 ordinary raw bodies remain active values in their individual files unless later balance validation changes them.
-
-Archive Duplicant retains its current raw line pending fresh encounter validation.
-
-Mandatory boss raw authority remains separate.
-
-Regional Hunt #2 remains outside this ordinary/Elite batch.
-
-## Mandatory-vs-completionist validation status
-
-> **REOPENED / REVALIDATION REQUIRED**
-
-The old v78/v97 validation counted **Cyanis + Ilyra + Torren + Maevra guest** as a four-person battle party and included the now-retired **Hold the Junction** encounter.
-
-Those assumptions are no longer current.
-
-The direct-damage Power audit remains closed, but Chapter-2 encounter validation must be rerun against:
-1. the current mandatory/critical-path combat party;
-2. the current completionist/high-side combat party;
-3. actual early/mid/late route levels;
-4. the current route with Maevra noncombat and Hold the Junction removed.
-
-Owning validation:
-`../../16_BALANCE_AND_TESTING/BALANCE/CHAPTER_02_MANDATORY_COMPLETIONIST_VALIDATION.md`
-
-
-## Chapter-2 roster correction — 2026-09-23
-- Vault Sentinel is removed from active Chapter-2 placement.
-- Watch Sentry carries over from Chapter 1 into the Sunken Archive as the familiar baseline Diysean security construct.
-- This carryover is intended to create ancient-civilization continuity rather than introduce a second near-duplicate heavy guardian identity.
-
-
-## Sunken Archive ecology correction — 2026-09-23
-- Bogshell, Cistern Leech, and Needlewing may carry directly from the Old Waterworks into compatible flooded Sunken Archive sectors.
-- Drowned Archive Maw is removed from active Chapter-2 placement; the carried wet-area wildlife already supplies the Archive's organic ecology.
-- Archive Leviathan remains the major organic/aquatic combat climax and should not be diluted by a separate generic heavy 'Maw' identity.
-
-
-## Old Bastion shield-unit correction — 2026-09-23
-- **Bastion Shield Guard is retired as a duplicate identity.**
-- The Old Bastion uses the established **Ruin Shieldbearer** instead.
-- Chapter 2 may use a chapter-appropriate scaled Ruin Shieldbearer body, but it remains the same troop identity and retains the Shieldbearer combat grammar rather than creating a separate Bastion-only shield unit.
-
-
-## Old Bastion ranged-unit correction — 2026-09-23
-- **Bastion Crossbow Guard is retired as a duplicate identity.**
-- The Old Bastion uses the established **Black Host Crossbowman** instead.
-- Chapter 2 may use a chapter-appropriate scaled Crossbowman body, but it remains the same troop identity and retains the established Crossbowman combat grammar.
-
-
-## Old Bastion caster correction — 2026-09-23
-- **Transfer Adept is retired as a stale Red-Transfer-Bastion identity.**
-- The Old Bastion uses the established **Black Host War-Sorcerer** identity instead.
-- Chapter 2 receives a lower-level War-Sorcerer variant appropriate to this point in progression.
-- Burn introduction on the mandatory route may come from the War-Sorcerer's Fire magic rather than retired Transfer terminology.
-
-
-## Old Bastion beast-unit correction — 2026-09-23
-- **Rift Hound remains active in Chapter 2.**
-- **Beast Handler is removed from the Chapter-2 Old Bastion roster.**
-- Chapter 2 does not establish a dedicated handler corps, kennel section, or beast-training identity for the Bastion.
-- Beast Handler remains available for later explicitly authored specialized encounters.
-
-
-## Sunken Archive construct-density correction — 2026-09-23
-Chapter 2 intentionally avoids becoming construct-heavy before Chapter 3.
-
-Current Sunken Archive construct roster:
-- **Arcdrift**
-- **Memory Scribe**
-
-Removed from active Chapter-2 placement:
-- **Watch Sentry** — remains a Chapter-1 Hollow Watch identity; do not carry it into the Sunken Archive.
-- **Archive Duplicant** — removed from Chapter 2; retained only as reusable design material for later explicit placement.
-
-Design intent:
-- flooded wildlife remains common in compatible sectors;
-- Arcdrift / Memory Scribe provide a limited taste of ancient machinery;
-- Chapter 3 retains the stronger construct-density escalation.
-
-
-## Scriptshade Chapter-2 placement firewall — 2026-09-27
-- **Scriptshade is removed from Chapter 2 and belongs to the Chapter-3 Old City Archives.**
-- Do not add Scriptshade to Old Waterworks, Sunken Archive, Old Bastion, or Chapter-2 optional formations.
+Archive Current is the retired name for:
+> **Arcdrift**
