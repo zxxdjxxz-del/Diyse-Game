@@ -35,7 +35,7 @@ Chapter 3's main dungeon.
 No mandatory combat.
 
 ### Beat 14 — Cresthaven / Ancient tower base
-Short Ancient tower-base dungeon ending with the **First Command Warden**.
+Short Ancient tower-base dungeon ending with the **Authority Construct**.
 
 ### Beat 15 — Cresthaven headquarters / cleanup
 No mandatory mainline combat. Regional Hunt #3 may unlock during cleanup under its own authority.
@@ -110,7 +110,7 @@ This retirement is **Chapter-3 placement only**. It does not automatically delet
 - never random-spawns;
 - boss raw body / fight-length budget require current four-person validation.
 
-## First Command Warden
+## Authority Construct
 - mandatory Beat-14 Cresthaven tower-base boss;
 - one continuous HP bar;
 - same-bar Imposed Authority → Challenged Authority shift at 45%;
@@ -163,7 +163,7 @@ Still open:
 - final formation selection weights;
 - encounter frequencies;
 - mandatory/completionist level anchors;
-- Memory Construct and First Command Warden current-party validation;
+- Memory Construct and Authority Construct current-party validation;
 - Regional Hunt #3 cleanup-state validation.
 
 Do not silently restore the September 23 roster to fill these gaps.
