@@ -1,9 +1,8 @@
 # Diyse — Chapter 2 Formation Composition
 
-**Structural status:** **CURRENT — compositions / area eligibility / encounter intent**  
-**Numeric status:** **DEFERRED — final weights, encounter frequency, and difficulty wait for current three-person mandatory/completionist validation**
-
-**Current placement authority:** Chapter-2 story and enemy-roster corrections through 2026-09-23.
+**Structural status:** **CURRENT — rebuilt for the three-person party**
+**Numeric status:** **DEFERRED — final weights / encounter rate / difficulty validation remain open**
+**Latest formation revision:** 2026-09-27
 
 ## Party-size firewall
 Chapter 2 mandatory combat uses:
@@ -11,256 +10,220 @@ Chapter 2 mandatory combat uses:
 
 Maevra is physically present but fully noncombat.
 
-Do not validate these formations against a four-person party.
+Do not validate Chapter-2 ordinary encounters against a four-person party.
+
+## Global body-count rule
+Current ordinary encounter grammar:
+- **2–3 enemies is normal**
+- **4 enemies is a late-area ceiling**
+- no ordinary 5- or 6-enemy formations
+
+Difficulty escalation should come from role combinations and stronger identities rather than raw action-economy overload.
 
 ---
 
 # Old Waterworks
 
-Current enemy pool:
+Current pool:
 - Bogshell
 - Cistern Leech
 - Needlewing
+- Scaldback — later hot-runoff / steam sectors only
 
 No Black Host enemies appear in the mandatory Waterworks route.
 
 | Tier | Formation | Composition |
 |---|---|---|
-| Light | **Wetworks Cluster** | 1 Bogshell + 2 Cistern Leeches |
-| Light | **Upper Cavity** | 1 Needlewing + 2 Cistern Leeches |
-| Standard | **Broken Chamber** | 1 Bogshell + 1 Cistern Leech + 2 Needlewings |
-| Standard | **Cistern Swarm** | 1 Bogshell + 3 Cistern Leeches |
-| Heavy | **Flooded Roost** | 1 Bogshell + 2 Needlewings + 2 Cistern Leeches |
+| Light | **Drain Pocket** | 1 Bogshell + 1 Cistern Leech |
+| Light | **Open Shaft** | 1 Bogshell + 1 Needlewing |
+| Standard | **Leech Cluster** | 1 Bogshell + 2 Cistern Leeches |
+| Standard | **Broken Chamber** | 1 Bogshell + 1 Cistern Leech + 1 Needlewing |
+| Standard | **Hot Runoff** | 1 Scaldback + 1 Cistern Leech |
+| Standard | **Steam Channel** | 1 Scaldback + 1 Cistern Leech + 1 Needlewing |
+| Heavy | **Mineral Pool** | 1 Scaldback + 1 Bogshell + 1 Cistern Leech |
 
 Structural band:
-> **3–5 active enemies**
+> **2–3 active enemies**
 
-Chapter 2 may outnumber the three-person party from the beginning. Balance should come from enemy role mix, durability, action quality, and encounter frequency rather than matching enemy count to party count.
-
-Needlewing is eligible only where the chamber has enough open overhead space to support its aerial presentation.
-
-The sealed Regional-Hunt side door and its immediate interaction pocket are SAFE during the mandatory Chapter-2 route.
-
-## Old Waterworks exact eligibility
+### Waterworks role rules
+- maximum **1 Bogshell** per ordinary formation;
+- Needlewing only appears where overhead room supports an aerial enemy;
+- Scaldback does not appear in the earliest municipal works;
+- no formation uses more than 3 bodies.
 
 ### Early municipal works
 Eligible:
-- Wetworks Cluster;
-- Upper Cavity;
-- Broken Chamber.
+- Drain Pocket
+- Open Shaft
+- Leech Cluster
+- Broken Chamber
 
-Not yet eligible:
-- Cistern Swarm;
-- Flooded Roost.
+Not eligible:
+- Hot Runoff
+- Steam Channel
+- Mineral Pool
 
-The sealed Hunt-door interaction pocket is SAFE.
+The substantial sealed side-branch door interaction pocket is SAFE.
 
 ### Flooded middle works
 Eligible:
-- Wetworks Cluster;
-- Upper Cavity;
-- Broken Chamber;
-- Cistern Swarm;
-- Flooded Roost.
+- Drain Pocket
+- Open Shaft
+- Leech Cluster
+- Broken Chamber
+- Hot Runoff
 
-This is the first Waterworks sector where the full five-enemy ceiling may appear.
+Scaldback begins appearing only once hotter runoff / mineral / steam conditions are environmentally established.
 
-### Reused foundations / ancient-threshold approach
+### Later reused foundations / hot utility sectors
 Eligible:
-- Broken Chamber;
-- Cistern Swarm;
-- Flooded Roost.
+- Broken Chamber
+- Hot Runoff
+- Steam Channel
+- Mineral Pool
 
-The final immediate transition pocket into the clearly Ancient structure is SAFE so the architectural reveal is not interrupted by a random battle.
+The final immediate transition pocket into the clearly Ancient structure is SAFE.
 
 ---
 
 # Sunken Archive
 
-## Flooded / transition sectors
-Waterworks wildlife may continue naturally into compatible Archive sectors:
+Current pool:
+- Arcdrift
 - Bogshell
 - Cistern Leech
 - Needlewing
 
-Archive-specific identities begin entering:
-- Arcdrift
-- Memory Scribe
+Memory Scribe is retired from Chapter 2.
+
+Arcdrift is the only Archive-specific ordinary identity; carried wildlife prevents the area from becoming construct-heavy before Chapter 3.
 
 | Tier | Formation | Composition |
 |---|---|---|
-| Light | **Flooded Record Hall** | 1 Bogshell + 1 Cistern Leech + 1 Arcdrift |
-| Light | **Broken Archive Airspace** | 1 Needlewing + 1 Arcdrift + 1 Memory Scribe |
-| Standard | **Archive Watch** | 2 Arcdrifts + 1 Memory Scribe + 1 Cistern Leech |
-| Standard | **Wet Record Hall** | 1 Bogshell + 1 Arcdrift + 1 Memory Scribe + 1 Needlewing |
-| Heavy | **Current Gallery** | 2 Arcdrifts + 1 Memory Scribe + 1 Bogshell + 1 Cistern Leech |
-
-## Deeper Archive
-As the player moves deeper:
-- wildlife frequency should fall;
-- ancient machinery becomes somewhat more common, but Chapter 2 should still not read as a construct-heavy dungeon;
-- no Black Host enemies appear.
-
-Eligible repeatable formations:
-- Archive Watch
-- Wet Record Hall
-- Current Gallery
-- deeper variants built only from Arcdrift and Memory Scribe.
+| Light | **Flooded Records** | 1 Bogshell + 1 Arcdrift |
+| Light | **Broken Airspace** | 1 Needlewing + 1 Arcdrift |
+| Standard | **Wet Archive** | 1 Bogshell + 1 Cistern Leech + 1 Arcdrift |
+| Standard | **Current Nest** | 1 Cistern Leech + 1 Needlewing + 1 Arcdrift |
+| Heavy | **Deep Current** | 1 Bogshell + 2 Arcdrifts |
+| Peak | **Flooded Depths** | 1 Bogshell + 1 Cistern Leech + 1 Needlewing + 1 Arcdrift |
 
 Structural band:
-> **3–5 active enemies**
+> **2–3 normally / 4 maximum**
 
-Memory Scribe cap:
-> **maximum 1 Memory Scribe per ordinary formation**
-
-Larger Archive formations should grow through carried wildlife and Arcdrifts rather than stacking Scribes or introducing additional construct identities.
-
-Immediate Archive-Leviathan approach buffer:
-> **SAFE**
-
-## Sunken Archive exact eligibility
+### Archive role rules
+- maximum **2 Arcdrifts** per formation;
+- the two-Arcdrift formation is **3 bodies total**;
+- the only four-body formation uses **1 Arcdrift**;
+- no Memory Scribe;
+- no extra construct identities.
 
 ### Entrance / first preservation halls
 Eligible:
-- Flooded Record Hall;
-- Broken Archive Airspace;
-- Wet Record Hall.
-
-Not yet eligible:
-- Archive Watch;
-- Current Gallery.
+- Flooded Records
+- Broken Airspace
+- Wet Archive
 
 The first major threshold/reveal pocket is SAFE.
 
 ### Mid Archive
 Eligible:
-- Flooded Record Hall;
-- Broken Archive Airspace;
-- Archive Watch;
-- Wet Record Hall.
+- Flooded Records
+- Broken Airspace
+- Wet Archive
+- Current Nest
+- Deep Current
 
-This is where the Archive-specific machinery becomes more visible without displacing wildlife entirely.
+Arcdrift becomes increasingly visible without displacing the flooded ecology.
 
 ### Archive Depths
 Eligible:
-- Broken Archive Airspace;
-- Archive Watch;
-- Wet Record Hall;
-- Current Gallery.
+- Wet Archive
+- Current Nest
+- Deep Current
+- Flooded Depths
 
-Current Gallery is restricted to the deeper Archive and is the area's five-enemy ceiling.
+**Flooded Depths** is the Archive's single four-body ceiling and is restricted to the late dungeon.
 
-The immediate Leviathan approach / Maevra staging position is SAFE.
+Immediate Archive-Leviathan approach / Maevra staging position:
+> **SAFE**
 
 ---
 
 # Old Bastion
 
-Current ordinary enemy pool:
+Current pool:
 - Black Host Raider
 - Black Host Crossbowman
-- Ruin Shieldbearer
-- Black Host War-Sorcerer
-- Rift Hound
+- Black Host Shieldbearer
+- Battle Sorcerer
+- War Hound
 
-The Old Bastion is an active military installation. Formations should look like plausible defensive groups rather than arbitrary monster mixes.
+The Bastion is an active military installation. Formations should read as plausible patrols / defensive teams, not arbitrary crowds.
 
 | Tier | Formation | Composition |
 |---|---|---|
-| Light | **Bastion Patrol** | 1 Black Host Raider + 1 Black Host Crossbowman + 1 Ruin Shieldbearer |
-| Light | **Hound Patrol** | 1 Black Host Raider + 2 Rift Hounds + 1 Black Host Crossbowman |
-| Standard | **Shielded Fireline** | 1 Ruin Shieldbearer + 2 Black Host Crossbowmen + 1 Black Host Raider |
-| Standard | **War-Sorcery Line** | 1 Ruin Shieldbearer + 1 Black Host War-Sorcerer + 1 Black Host Crossbowman + 1 Black Host Raider |
-| Heavy | **Infantry Block** | 1 Ruin Shieldbearer + 3 Black Host Raiders + 1 Black Host Crossbowman |
-| Heavy | **Command Defense** | 1 Ruin Shieldbearer + 2 Black Host Raiders + 1 Black Host Crossbowman + 1 Black Host War-Sorcerer |
-| Heavy | **Rift Pursuit** | 1 Ruin Shieldbearer + 1 Black Host Raider + 1 Black Host Crossbowman + 2 Rift Hounds |
-| Peak | **Full Bastion Response** | 1 Ruin Shieldbearer + 3 Black Host Raiders + 2 Black Host Crossbowmen |
+| Light | **Bastion Patrol** | 1 Black Host Raider + 1 Black Host Crossbowman |
+| Light | **Shield Patrol** | 1 Black Host Shieldbearer + 1 Black Host Raider |
+| Standard | **Hound Patrol** | 1 Black Host Raider + 1 Black Host Crossbowman + 1 War Hound |
+| Standard | **Shielded Line** | 1 Black Host Shieldbearer + 1 Black Host Raider + 1 Black Host Crossbowman |
+| Standard | **Sorcery Detail** | 1 Black Host Raider + 1 Black Host Crossbowman + 1 Battle Sorcerer |
+| Heavy | **Ruin Line** | 1 Black Host Shieldbearer + 1 Black Host Raider + 1 Battle Sorcerer |
+| Heavy | **Hound Line** | 1 Black Host Shieldbearer + 1 Black Host Raider + 1 War Hound |
+| Peak | **Full Bastion Response** | 1 Black Host Shieldbearer + 1 Black Host Raider + 1 Black Host Crossbowman + 1 Battle Sorcerer |
 
 Structural band:
-> **3–6 active enemies**
+> **2–3 normally / 4 maximum**
 
-The six-enemy ceiling is reserved for the later Old Bastion escalation, where organized military response is at its strongest.
-
-The Bastion response becomes more organized as the alarm state progresses, but it does not become an infinite reinforcement system.
-
-### Bastion progression
-**Early command ascent**
-Eligible:
-- Bastion Patrol
-- Hound Patrol
-- Shielded Fireline
-- War-Sorcery Line
-
-**Middle / alerted interior**
-Eligible:
-- Bastion Patrol
-- Shielded Fireline
-- War-Sorcery Line
-- Infantry Block
-- Rift Pursuit
-
-**Late command approach**
-Eligible:
-- Shielded Fireline
-- Infantry Block
-- Command Defense
-- Rift Pursuit
-- Full Bastion Response
-
-**Full Bastion Response** is the chapter's six-enemy ordinary ceiling and is restricted to the late alerted Bastion.
-
-The six-body peak formation is intentionally infantry-heavy rather than a stack of special units:
-> 1 Ruin Shieldbearer + 3 Black Host Raiders + 2 Black Host Crossbowmen
-
-This makes the strongest crowd encounter read as an organized military line, while War-Sorcerers and Rift Hounds remain meaningful specialist additions in other formations.
-
-Noncombat medical/support personnel and incapacitated wounded are not random-combat enemies.
-
-Immediate command-room / Rhazek approach buffer:
-> **SAFE**
-
-## Old Bastion exact eligibility
+### Bastion role limits
+- maximum **1 Black Host Shieldbearer** per ordinary formation;
+- maximum **1 Battle Sorcerer** per ordinary formation;
+- no ordinary formation exceeds 4 bodies;
+- no infinite reinforcement rule;
+- no hidden focus-fire rule.
 
 ### Pre-alarm infiltration
 > **No random combat pool.**
 
-The trio initially moves through the functioning fort without being detected. The first meaningful combat/contact belongs to the occupied checkpoint that triggers the alarm.
+The trio initially moves through the functioning fort without detection. The occupied checkpoint / authored contact triggers the alarm.
 
 ### Alarm opening / lower ascent
 Eligible:
-- Bastion Patrol;
-- Hound Patrol;
-- Shielded Fireline;
-- War-Sorcery Line.
+- Bastion Patrol
+- Shield Patrol
+- Hound Patrol
+- Shielded Line
 
 Typical body count:
-> **3–4**
+> **2–3**
 
 ### Alerted interior
 Eligible:
-- Bastion Patrol;
-- Shielded Fireline;
-- War-Sorcery Line;
-- Infantry Block;
-- Rift Pursuit.
+- Bastion Patrol
+- Hound Patrol
+- Shielded Line
+- Sorcery Detail
+- Hound Line
 
 Typical body count:
-> **4–5**
+> **3**
 
 ### Final command ascent
 Eligible:
-- Shielded Fireline;
-- Infantry Block;
-- Command Defense;
-- Rift Pursuit;
-- Full Bastion Response.
+- Shielded Line
+- Sorcery Detail
+- Ruin Line
+- Hound Line
+- Full Bastion Response
 
 Typical body count:
-> **4–6**
+> **3**, with occasional **4**
 
-**Full Bastion Response** is restricted to this final alerted stretch and represents one prepared six-person defensive line, not an endless reinforcement wave.
+**Full Bastion Response** is the chapter's ordinary four-body ceiling and is restricted to the final alerted stretch.
 
-The immediate command-room / Rhazek approach buffer is SAFE.
+Noncombat medical/support personnel and incapacitated wounded are not random-combat enemies.
+
+Immediate command-room / Rhazek approach:
+> **SAFE**
 
 ---
 
@@ -268,43 +231,27 @@ The immediate command-room / Rhazek approach buffer is SAFE.
 
 Rhazek's boss fight does not use abstract Bastion Shield Detachment or Bastion Ranged Position support objects.
 
-If finite support is included, it must use actual Old Bastion troop identities from this file.
+Whether Rhazek begins with any finite real troop support remains:
+> **OPEN pending three-person boss validation**
 
-Exact:
-- support count;
-- starting composition;
-- whether any support is present at all;
-
-remain **OPEN pending three-person boss validation**.
-
-Defeated support never respawns.
+If support is later used:
+- it must use current Old Bastion troop identities;
+- defeated support never respawns.
 
 ---
 
-# Regional Hunt #2
-
-Regional Hunt #2:
-> **Scaldback**
-
-Access:
-> Chapter-2 cleanup → return to the sealed Old Waterworks side-branch door → additional Hunt area → Scaldback
-
-Scaldback and its Hunt-branch encounter design are separate from the mandatory Old Waterworks random pool.
-
----
-
-# Retired formation identities
+# Retired formation structure
 
 Do not restore:
-- Redwater Initiate;
-- Vault Sentinel;
-- Watch Sentry in Chapter 2;
-- Archive Duplicant in Chapter 2;
-- Drowned Archive Maw;
-- Bastion Shield Guard;
-- Bastion Crossbow Guard;
-- Transfer Adept;
-- Beast Handler in Chapter 2;
+- 5-enemy Waterworks formations;
+- 5-enemy Archive formations;
+- 5–6 enemy Bastion formations;
+- Infantry Block;
+- old Command Defense;
+- old Rift Pursuit;
+- old six-body Full Bastion Response;
+- Memory-Scribe formations;
+- Regional-Hunt Scaldback encounter structure;
 - Hold the Junction;
 - extraction-causeway formations;
 - post-extraction surprise combat.
@@ -314,95 +261,37 @@ Do not restore:
 # Formation behavior intent
 
 ## Old Waterworks
-- Bogshell provides slow durability.
-- Cistern Leech provides faster Bleed pressure.
-- Needlewing provides aerial speed/evasion contrast.
-- variety comes from ecological combinations rather than a new gimmick enemy.
+- Bogshell supplies durability.
+- Cistern Leech supplies fast Bleed pressure.
+- Needlewing supplies aerial speed/evasion contrast.
+- Scaldback adds the late-Waterworks geothermal/Burn-facing identity without increasing body count.
 
 ## Sunken Archive
-- Arcdrift provides fast magical/Lightning pressure.
-- Memory Scribe provides the chapter's recording/copy mechanic.
-- carried wildlife keeps flooded transition sectors ecological rather than sterile.
-- deeper progression shifts increasingly toward constructs.
+- Arcdrift supplies fast Lightning / magical pressure.
+- carried wildlife preserves the flooded ecology.
+- threat increases through Arcdrift presence and role mixing, not a large construct roster.
 
 ## Old Bastion
-- Raider is the baseline infantry body.
-- Crossbowman supplies ranged pressure.
-- Shieldbearer anchors formations.
-- War-Sorcerer introduces the Black Host's stronger magical/Ruin vocabulary and carries the mandatory-route Burn teaching role.
-- Rift Hound supplies speed and aggressive Ruin pressure.
-- no hidden focus-fire or infinite reinforcement rule is inferred.
+- Raider = baseline melee body.
+- Crossbowman = ranged pressure.
+- Shieldbearer = durable anchor.
+- Battle Sorcerer = specialist magical pressure.
+- War Hound = fast aggressive pressure.
+- late difficulty comes from coordinated roles rather than numerical swarming.
 
 ---
 
 ## Ownership boundary
-This file owns Chapter-2 ordinary formation composition and broad placement structure.
+This file owns Chapter-2 ordinary formation composition and broad placement.
 
-Enemy bodies/actions belong to their individual files.  
-Boss mechanics belong to their boss files.  
+Enemy bodies/actions belong to their individual enemy files.
+Boss mechanics belong to boss files.
 EXP/CEXP belongs to progression authority.
 
-Final:
-- selection weights;
-- encounter rates;
-- exact sub-area frequency;
-- formation difficulty;
-- Rhazek support count;
-
-remain OPEN until Chapter-2 mandatory-vs-completionist validation is rerun against the actual three-person party.
-
-
-## Construct-density boundary — 2026-09-23
-The Sunken Archive uses exactly two active ordinary construct identities:
-- Arcdrift
-- Memory Scribe
-
-Do not add Watch Sentry or Archive Duplicant back into Chapter 2 without explicit revision. Chapter 3 owns the stronger construct-heavy escalation.
-
-
-## Old Waterworks formation correction — 2026-09-23
-- superseded by the later Chapter-2 body-count correction below.
-
-
-## Sunken Archive formation correction — 2026-09-23
-- Memory Scribe remains capped at **1 per formation**;
-- larger formations use wildlife / Arcdrift bodies rather than additional construct identities;
-- no four-construct ordinary formation is used in Chapter 2.
-
-
-## Chapter-2 body-count escalation lock — 2026-09-23
-Current structural enemy-count progression:
-- **Old Waterworks:** 3–5 enemies;
-- **Sunken Archive:** 3–5 enemies;
-- **Old Bastion:** 3–6 enemies;
-- **6-enemy ordinary formations are reserved for the late-chapter Bastion escalation.**
-
-This is a structural composition lock, not a current difficulty certification. The later encounter-validation pass must tune individual bodies, action frequency, formation weights, and encounter rate so that larger enemy counts remain appropriate for the three-person Chapter-2 party.
-
-
-## Old Bastion infantry-density correction — 2026-09-23
-- Added **Infantry Block**: 1 Ruin Shieldbearer + 3 Black Host Raiders + 1 Black Host Crossbowman.
-- Revised **Full Bastion Response** to an infantry-heavy six-body line: 1 Ruin Shieldbearer + 3 Black Host Raiders + 2 Black Host Crossbowmen.
-- War-Sorcerer and Rift Hound are not required in the six-enemy ceiling formation.
-- Bastion formation eligibility now escalates from early ascent → alerted interior → late command approach.
-
-
-## Exact placement lock — 2026-09-23
-Chapter-2 ordinary encounter escalation now follows the current story geography:
-
-- Waterworks early municipal works: 3–4 bodies;
-- Waterworks flooded middle: up to 5;
-- Waterworks reused-foundation / Ancient-threshold approach: heavier 4–5 body pool;
-- Sunken Archive entrance: 3–4;
-- Sunken Archive mid: 3–4;
-- Sunken Archive depths: up to 5;
-- Old Bastion pre-alarm: no random combat;
-- Old Bastion alarm opening: 3–4;
-- Old Bastion alerted interior: 4–5;
-- Old Bastion final ascent: 4–6.
-
-Safe pockets protect authored reveals, the sealed Hunt door, the Leviathan approach, and the Rhazek command-room approach.
-
-
-## Scriptshade firewall — 2026-09-27
-Scriptshade does not appear in Chapter 2. Its active placement is the Chapter-3 Old City Archives.
+Still open:
+- exact random-selection weights;
+- encounter rate;
+- exact per-sector frequency;
+- current three-person mandatory-vs-completionist difficulty certification;
+- final carryover raw-body retuning;
+- Rhazek support decision.
