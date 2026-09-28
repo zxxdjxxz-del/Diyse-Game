@@ -3,12 +3,10 @@
 
 Optional CEXP is now exact so mandatory-vs-completionist battle snapshots can reproduce Class Levels instead of relying on a planning envelope. Every recruited permanent character receives the activity's CEXP package under the normal reserve-progression rule; CEXP still goes only to that character's selected class.
 
-## Regional Hunts — 300 CEXP total
+## Active Regional Hunts — 260 CEXP total
 | # | Hunt | CEXP |
 |---:|---|---:|
 | 1 | Cistern Devourer | 15 |
-| 2 | Transfer Executioner | 20 |
-| 3 | Archive Judgment Engine | 20 |
 | 4 | Crown Prototype | 25 |
 | 5 | Whitehorn Ravager | 25 |
 | 6 | Winterglass Titan | 30 |
@@ -17,7 +15,7 @@ Optional CEXP is now exact so mandatory-vs-completionist battle snapshots can re
 | 9 | Mercyfallen Behemoth | 35 |
 | 10 | Authority Remnant | 35 |
 | 11 | Throne of Emperor Vaelkor | 35 |
-| **Total** |  | **300** |
+| **Total** |  | **260** |
 
 ## Major Hunts #1–5 — 250 CEXP total before the late dual-gate superboss
 | # | Hunt | CEXP |
@@ -50,15 +48,19 @@ Total:
 
 ## Completionist envelope
 Before Major Hunt #6:
-> **1,000 optional CEXP maximum**
+> **960 optional CEXP maximum**
 
 Including Major Hunt #6:
-> **1,075 optional CEXP maximum**
+> **1,035 optional CEXP maximum**
 
 Planning bands:
 - light optional route: roughly **+150–300 CEXP**;
 - engaged optional route: roughly **+350–650 CEXP**;
-- broad completionist before MH6: up to **+1,000 CEXP**;
-- exhaustive all-content including MH6: **+1,075 CEXP**.
+- broad completionist before MH6: up to **+960 CEXP**;
+- exhaustive all-content including MH6: **+1,035 CEXP**.
 
 This replaces the old approximate **~1,800 CEXP** family envelope. The reduction is intentional: optional progression should provide a meaningful Class-Level advantage without pulling full-roster class completion far outside the Lv55–60 late-game target.
+
+
+## Regional Hunt retirement sync — 2026-09-27
+Retired slots #2 and #3 no longer contribute their former 20 CEXP awards. Current Regional-Hunt optional CEXP subtotal is **260**.
