@@ -2,7 +2,7 @@
 
 **Status:** EXACT REGIONAL-HUNT G AUTHORITY
 
-Exactly **11 Regional Hunts** exist.
+There are currently **9 active Regional Hunts**. Slots **#2** and **#3** are retired/open and carry no current Hunt payout.
 
 ## Domain split
 - access / quest state → `11_QUESTS`
@@ -28,8 +28,6 @@ Regional Hunts remain first-clear objectives, not repeatable money farms.
 | # | Regional Hunt | G |
 |---:|---|---:|
 | 1 | **Cistern Devourer** | **2,500 G** |
-| 2 | **Transfer Executioner** | **3,500 G** |
-| 3 | **Archive Judgment Engine** | **4,500 G** |
 | 4 | **Crown Prototype** | **6,000 G** |
 | 5 | **Whitehorn Ravager** | **8,000 G** |
 | 6 | **Winterglass Titan** | **9,500 G** |
@@ -40,8 +38,8 @@ Regional Hunts remain first-clear objectives, not repeatable money farms.
 | 11 | **Throne of Emperor Vaelkor** | **23,000 G** |
 
 ## Full Regional Hunt cash budget
-Clearing all 11 Regional Hunts yields:
-> **116,500 G**
+Clearing all currently active Regional Hunts yields:
+> **108,500 G**
 
 This is optional surplus and is not required for mandatory-route baseline solvency.
 
