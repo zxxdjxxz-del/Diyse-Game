@@ -3,13 +3,13 @@
 **Current whole-project written authority:** **v2.20 / Audit135**, plus later explicit user corrections/current domain migrations.  
 **Domain rule:** this file owns the current mandatory Chapter-3 story structure, scene order, reveal order, permanent-party changes, cleanup state, and chapter-end knowledge state. Exact dialogue belongs to the current Agent-Brain rehearsal-first Dialogue Engine. Combat mechanics/numbers belong to live battle and encounter authority.  
 **Status:** **CURRENT REVISED 15-BEAT STRUCTURAL AUTHORITY — SEPTEMBER 23, 2026 MIGRATION.**  
-**Migration note:** this revision supersedes the former Chapter-2 mural dependency, Ancient Barrier sequence, Beat-8 Nimera recruitment, Caelora First Command Warden placement, Crest-marked Cresthaven lead, and standalone overnight-rest beat.
+**Migration note:** this revision supersedes the former Chapter-2 mural dependency, Ancient Barrier sequence, Beat-8 Nimera recruitment, Caelora Authority Construct placement, Crest-marked Cresthaven lead, and standalone overnight-rest beat.
 
 ## Authority rule
 
 This file is the current Chapter-3 master.
 
-Dedicated Beat packets remaining in the live `CHAPTERS/` root are supporting authority only where they agree with this file and later explicit user corrections. Files under `HISTORICAL/CHAPTER_03/` are provenance only and are never current authority. Any older packet that still places the First Command Warden in Caelora, uses the deleted Chapter-2 Western Map Mural, traps Nimera behind an Ancient Barrier, delays her permanent recruitment until the Scribe Engine, or uses a standalone Caelora overnight-rest beat is retired on those points.
+Dedicated Beat packets remaining in the live `CHAPTERS/` root are supporting authority only where they agree with this file and later explicit user corrections. Files under `HISTORICAL/CHAPTER_03/` are provenance only and are never current authority. Any older packet that still places the Authority Construct in Caelora, uses the deleted Chapter-2 Western Map Mural, traps Nimera behind an Ancient Barrier, delays her permanent recruitment until the Scribe Engine, or uses a standalone Caelora overnight-rest beat is retired on those points.
 
 Exact dialogue is not authored here.
 
@@ -83,7 +83,7 @@ Favor:
 
 Avoid backend/network/terminal/permissions-interface/computer-system presentation.
 
-The First Command Warden may explicitly assess the party, but that assessment is rendered through Ancient magical craft.
+The Authority Construct may explicitly assess the party, but that assessment is rendered through Ancient magical craft.
 
 ## Three Chapter-3 mystery threads
 
@@ -96,7 +96,7 @@ Impossible orders → real royal seal not knowingly used → recent-reader / Hal
 The seal thread does not point the party to Cresthaven.
 
 ### Card / Last Sentinel thread
-Unstable Card through the Archives → First Command Warden at Cresthaven → **PREVIOUS ERROR** → **LAST SENTINEL CONFIRMED** → Warden fully inert → Card stabilizes deep Ruby.
+Unstable Card through the Archives → Authority Construct at Cresthaven → **PREVIOUS ERROR** → **LAST SENTINEL CONFIRMED** → Warden fully inert → Card stabilizes deep Ruby.
 
 The Warden message plus the Card's immediate deep-Ruby stabilization makes **Prime Card an explicit working hypothesis for Cyanis's Card by Chapter 3's end**, but it remains unconfirmed because nobody knows what a Prime Card actually is or does. Might, bearer status, and the full meaning of Last Sentinel remain unresolved. **Last Sentinel is not yet Recovered in Chapter 3; its Recovered transition occurs during its first verified modern manifestation in the Chapter-4 Elder Thornhide battle.**
 
@@ -429,7 +429,7 @@ Mandatory:
 - it is procedural Ancient machinery, not a speaking villain;
 - it is the main story boss of the Archive dungeon;
 - defeating it opens/accesses the protected Inner Collections;
-- no First Command Warden appears in Caelora;
+- no Authority Construct appears in Caelora;
 - no PREVIOUS ERROR;
 - no LAST SENTINEL CONFIRMED;
 - Cyanis's Card does not stabilize Ruby here.
@@ -543,13 +543,13 @@ Transition:
 - Mirena says she and Maevra will meet the party at Cresthaven after everyone has rested;
 - cut forward to the next morning at Cresthaven.
 
-Handoff → **Beat 14 — Cresthaven / Ancient Tower Base / First Command Warden**.
+Handoff → **Beat 14 — Cresthaven / Ancient Tower Base / Authority Construct**.
 
 ---
 
-## Beat 14 — Cresthaven / Ancient Tower Base / First Command Warden
+## Beat 14 — Cresthaven / Ancient Tower Base / Authority Construct
 
-**Purpose:** preserve normal Cresthaven, add a short Ancient dungeon beneath/within it, and relocate the First Command Warden to the place where its command identity matters.
+**Purpose:** preserve normal Cresthaven, add a short Ancient dungeon beneath/within it, and relocate the Authority Construct to the place where its command identity matters.
 
 ### Normal Cresthaven
 
@@ -582,14 +582,14 @@ Compact progression:
    - confirms the site's importance without giving another northern map.
 3. **Warden Chamber**
    - endpoint of the surviving lower structure;
-   - First Command Warden encounter.
+   - Authority Construct encounter.
 
 No second route map, Ivorybridge marker, hidden northern chart, or convenient destination reveal appears in this dungeon.
 
-### First Command Warden sequence
+### Authority Construct sequence
 
 Preserve exact order:
-1. the First Command Warden activates;
+1. the Authority Construct activates;
 2. it visibly assesses the **entire party** through Ancient magical craft;
 3. the result is unacceptable/insufficient;
 4. it attacks;
@@ -737,7 +737,7 @@ At Chapter-3 end, the party may know:
 - multiple major routes converge on that tower and continue north beyond it until the copied map ends;
 - Mirena identifies the tower's modern location as Cresthaven;
 - Cresthaven's fort sits over/within surviving remains of that Ancient tower base;
-- the First Command Warden assessed the party and ended with **PREVIOUS ERROR** / **LAST SENTINEL CONFIRMED**;
+- the Authority Construct assessed the party and ended with **PREVIOUS ERROR** / **LAST SENTINEL CONFIRMED**;
 - Cyanis's Card is now stable deep Ruby;
 - Cresthaven is the party's working headquarters;
 - the party has chosen Ivorybridge as the next sensible northern investigation point.
