@@ -216,8 +216,8 @@ Source dialogue is structurally current and the Chapter-3 **tightening + mature-
 Completed results:
 - repeated reasoning was cut rather than personality;
 - natural floor-holding was preserved;
-- mandatory dialogue reduced from **631 to 564 spoken lines**;
-- total Chapter-3 dialogue reduced from **807 to 706 spoken lines**;
+- mandatory dialogue reduced from **631 to 558 spoken lines**;
+- total Chapter-3 dialogue reduced from **807 to 700 spoken lines**;
 - the differentiation pass lowered non-Nimera profanity density and removed the overuse of shared `fuck/fucking` intensifiers while preserving naturally mature speech;
 - the two protected Authority Construct messages compile as Authority Construct spoken runtime dialogue in B10.
 
