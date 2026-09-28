@@ -2,7 +2,7 @@ name: Dialogue Sync
 
 on:
   push:
-    branches: [main, chapter3-11-beat-consolidation]
+    branches: [main]
     paths:
       - 'tools/dialogue/sync_current_dialogue.py'
       - 'tools/dialogue/compile_current_runtime_dialogue.py'
@@ -120,9 +120,10 @@ jobs:
             echo "No synchronized text changes to commit."
           else
             git commit -m "Synchronize Chapters 0-3 dialogue and runtime mirror"
-            git fetch origin main
-            git rebase origin/main
-            git push origin HEAD:main
+            BRANCH="${GITHUB_REF_NAME}"
+            git fetch origin "$BRANCH"
+            git rebase "origin/$BRANCH"
+            git push origin "HEAD:$BRANCH"
           fi
 
       - name: Upload exact-dialogue reader

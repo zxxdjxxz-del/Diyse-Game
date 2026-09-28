@@ -96,7 +96,7 @@ Impossible orders → real royal seal not knowingly used → recent-reader / Hal
 The seal thread does not point the party to Cresthaven.
 
 ### Card / Last Sentinel thread
-Unstable Card through the Archives → Authority Construct at Cresthaven → **PREVIOUS ERROR** → **LAST SENTINEL CONFIRMED** → Warden fully inert → Card stabilizes deep Ruby.
+Unstable Card through the Archives → Authority Construct at Cresthaven → **PREVIOUS ERROR** → **LAST SENTINEL CONFIRMED** → Authority Construct fully inert → Card stabilizes deep Ruby.
 
 The Warden message plus the Card's immediate deep-Ruby stabilization makes **Prime Card an explicit working hypothesis for Cyanis's Card by Chapter 3's end**, but it remains unconfirmed because nobody knows what a Prime Card actually is or does. Might, bearer status, and the full meaning of Last Sentinel remain unresolved. **Last Sentinel is not yet Recovered in Chapter 3; its Recovered transition occurs during its first verified modern manifestation in the Chapter-4 Elder Thornhide battle.**
 
