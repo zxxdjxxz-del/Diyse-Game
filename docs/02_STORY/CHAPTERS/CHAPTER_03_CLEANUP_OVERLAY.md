@@ -1,20 +1,20 @@
 # Chapter 3 — Cresthaven Cleanup / Party-State Overlay
 
-**Status:** ACTIVE — revised September 23, 2026
+**Status:** ACTIVE — revised September 27, 2026
 
 ## Mandatory lead-in
 
 Cleanup begins only after the mandatory Cresthaven sequence:
 - normal abandoned-fort exploration;
 - short Ancient tower-base dungeon;
-- First Command Warden;
+- Authority Construct;
 - PREVIOUS ERROR;
 - LAST SENTINEL CONFIRMED;
-- Warden fully inert;
+- Authority Construct fully inert;
 - Cyanis's Card stabilizes deep Ruby;
 - return to normal Cresthaven.
 
-No second northern map or Ivorybridge marker is discovered in the Warden dungeon.
+No second northern map or Ivorybridge marker is discovered in the Authority Construct dungeon.
 
 ## Cresthaven handoff
 
@@ -47,7 +47,7 @@ After physically confirming the tower site at Cresthaven, the party chooses **Iv
 
 This is a hypothesis:
 - no Ancient map labels Ivorybridge;
-- no Warden message names Ivorybridge;
+- no Authority Construct message names Ivorybridge;
 - nobody claims the Ancient routes definitely pass through it.
 
 ## Character-Life set

@@ -1,4 +1,4 @@
-# Chapter 3 — Beat 15 — Cresthaven Headquarters / Cleanup / Ivorybridge Decision
+# Chapter 3 — Beat 11 — Cresthaven Headquarters / Ivorybridge Decision
 
 **Status:** CURRENT STORY SUPPORT  
 **Primary authority:** CHAPTER_03.md  
@@ -6,16 +6,16 @@
 
 ## Purpose
 
-Land the First Command Warden aftermath, establish Cresthaven as headquarters, unlock cleanup content, and let the party choose its next northern lead.
+Land the Authority Construct aftermath, establish Cresthaven as headquarters, unlock cleanup content, and let the party choose its next northern lead.
 
 ## Opening state
 
 Beat begins after the party returns to normal Cresthaven from the short Ancient tower-base dungeon.
 
 Known:
-- Warden said PREVIOUS ERROR;
-- Warden's final message was LAST SENTINEL CONFIRMED;
-- Warden is inert;
+- Authority Construct said PREVIOUS ERROR;
+- Authority Construct's final message was LAST SENTINEL CONFIRMED;
+- Authority Construct is inert;
 - Cyanis's Card is stable deep Ruby.
 
 Unknown:
@@ -39,7 +39,6 @@ Minimum functions:
 
 The fort remains partly damaged/under restoration.
 
-
 ## Ivorybridge decision
 
 The party revisits the Westways recordbook map.
@@ -54,7 +53,7 @@ The party chooses **Ivorybridge** as the next practical modern place to investig
 
 This is explicitly a hypothesis:
 - Ancient evidence does not name Ivorybridge;
-- no Warden message identifies it;
+- no Authority Construct message identifies it;
 - nobody claims the route definitely passes through it.
 
 ## Departure state

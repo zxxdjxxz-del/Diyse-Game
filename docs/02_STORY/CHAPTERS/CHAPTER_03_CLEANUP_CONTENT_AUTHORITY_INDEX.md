@@ -6,12 +6,12 @@
 ## Cleanup opening authority
 The mandatory story reaches Cresthaven through:
 - consolidated `CHAPTER_03.md`;
-- `CH03_B15_CRESTHAVEN_HEADQUARTERS_CLEANUP_STORY_SUPPORT.md` as detailed support;
+- `CH03_B11_CRESTHAVEN_HEADQUARTERS_CLEANUP_STORY_SUPPORT.md` as detailed support;
 - `CHAPTER_03_CRESTHAVEN_ARCHIVE_HUNT_UNLOCK_LOCK.md`;
 - `CHAPTER_03_CLEANUP_OVERLAY.md`;
 - `REGIONAL_HUNTS_CH1_CH3_CLEANUP_ACCESS_LOCK.md` plus the global Regional Hunt structure lock.
 
-After the Beat-15 handoff:
+After the Beat-11 handoff:
 - Mirena and Maevra return to Caelora;
 - the normal resident / traveling party is **Cyanis + Ilyra + Torren + Nimera**;
 - Cresthaven is the party's operational headquarters while they help Mirena investigate;
@@ -79,13 +79,13 @@ Dialogue-generation brief:
 Corrections from that audit are now applied:
 - `CHAPTER_03_CLEANUP_OVERLAY.md` no longer carries the retired medical C07 structure;
 - `CHAPTER_03_OLD_CITY_MAEVRA_MIRENA_CONTINUITY_LOCK.md` no longer carries the retired Beat-12 northern-route display or `Four Answers, Not One` Beat-13 naming;
-- `CHAPTER_03.md` has been replaced with the consolidated current 15-beat master authority.
+- `CHAPTER_03.md` has been replaced with the consolidated current 11-beat master authority.
 
 ## Current cleanup production status
-- Beat-15 Cresthaven handoff — **COMPLETE STRUCTURALLY**
+- Beat-11 Cresthaven handoff — **COMPLETE STRUCTURALLY**
 - Archive-passage Hunt unlock — **LOCKED**
 - C06 / canonical C06 — **STRUCTURE + EXACT DIALOGUE COMPLETE — 75 lines**
 - C07 / canonical C07 — **STRUCTURE + EXACT DIALOGUE COMPLETE — 67 lines**
 - Chapter-3 cleanup / continuity audit — **COMPLETE**
 - final `CHAPTER_03.md` consolidation — **COMPLETE**
-- Chapter-3 Agent-Brain dialogue production — **COMPLETE FOR BEATS 1–15 + C06/C07**
+- Chapter-3 Agent-Brain dialogue production — **COMPLETE FOR BEATS 1–11 + C06/C07**

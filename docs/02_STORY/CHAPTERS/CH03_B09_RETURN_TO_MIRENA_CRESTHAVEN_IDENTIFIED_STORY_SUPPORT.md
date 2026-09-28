@@ -1,11 +1,11 @@
-# Chapter 3 — Beat 13 — Return to Mirena / Cresthaven Identified
+# Chapter 3 — Beat 9 — Return to Mirena / Cresthaven Identified
 
 **Status:** CURRENT STORY SUPPORT  
 **Primary authority:** CHAPTER_03.md
 
 ## Purpose
 
-Convert the Old City findings into:
+Convert the archive findings into:
 - one unresolved seal/Crown investigation;
 - one actionable geographic lead.
 
@@ -13,7 +13,7 @@ Convert the Old City findings into:
 
 - private meeting with Crown Princess Mirena;
 - Cyanis, Ilyra, Torren, Nimera present;
-- Maevra may/presumptively is present after remaining with Mirena in Caelora;
+- Maevra is present after remaining with Mirena in Caelora;
 - Queen Lysara is not required in this scene.
 
 ## Report
@@ -21,7 +21,7 @@ Convert the Old City findings into:
 The field party reports:
 - recent-reader trail;
 - Hall-of-Seals findings;
-- Sealwright copying attempts;
+- later seal-reproduction attempts;
 - approximately 500-year-old Yahtrean Westways recordbook;
 - intact but less precise hand-copy derived from an Ancient Diysean Wayfinder.
 
@@ -30,7 +30,7 @@ The field party reports:
 The copied map covers only Westways + central Yahtrea.
 
 It clearly shows:
-- complete Ancient Caelora cluster;
+- the Ancient Caelora-area cluster;
 - routes radiating outward;
 - giant tower north of the city;
 - several largest routes converging on it;
@@ -49,7 +49,7 @@ No map or Ancient source identifies Ivorybridge.
 
 ## Seal outcome
 
-The seal-copying evidence is serious but does not solve:
+The seal-reproduction evidence is serious but does not solve:
 - who did it;
 - whether any copy reproduced true royal authority;
 - how Lysara's genuine authority answered on unauthorized orders.
@@ -58,10 +58,10 @@ The seal thread ends in Caelora for now and does not point to Cresthaven.
 
 ## Transition
 
-Mirena asks the party to continue helping.
+Mirena tells everyone to rest and arranges a small Crown work/support team.
 
-Everyone rests offscreen.
+Rest is offscreen only.
 
-There is no standalone overnight-rest beat.
+There is no standalone overnight-rest beat and no inserted character scene.
 
-Mirena and Maevra meet the party at Cresthaven the next morning.
+The story cuts to the next morning at Cresthaven.

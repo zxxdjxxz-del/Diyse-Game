@@ -1,11 +1,11 @@
 # Chapter 3 — Old City Fantasy Presentation Lock
 
 **Status:** ACTIVE PRESENTATION CORRECTION  
-**Scope:** Chapter 3 Old City material, especially Beats 5–12  
+**Scope:** Chapter 3 Caelora Archive material, especially Beats 5–8  
 **Purpose:** prevent Ancient Diysean spaces, magic, records, barriers, and mechanisms from reading like computers, networks, software, terminals, or modern information systems.
 
 ## Core rule
-The Old City is the surviving work of an **ancient magical civilization**.
+The deepest archive infrastructure is surviving work of an **ancient magical civilization**, while the accessible documentary holdings remain old Yahtrean records.
 
 It may be extraordinarily sophisticated, precise, responsive, and mechanically complex, but its presentation must remain rooted in:
 - carved stone and fitted metal;
@@ -19,7 +19,7 @@ It may be extraordinarily sophisticated, precise, responsive, and mechanically c
 The Old City should feel closer to an impossible ancient magical archive, temple-workshop, royal vault, observatory, or enchanted civic complex than to a buried computer facility.
 
 ## Language to avoid
-Do not describe Old City functions with repeated computer/network/software language such as:
+Do not describe Archive/Ancient functions with repeated computer/network/software language such as:
 - system state;
 - interface;
 - terminal;
@@ -87,8 +87,8 @@ Avoid:
 - "user recognized";
 - "classification successful."
 
-## Scribe Engine presentation correction
-The **Archive Scribe Engine** remains valid as a fantasy machine name, but its presentation should be tangible and artisanal:
+## Memory Construct / copying machinery presentation correction
+Ancient copying machinery and the **Memory Construct** should be tangible and artisanal:
 - articulated bronze/black-metal scribing arms;
 - revolving tablets or record drums;
 - cutters, styluses, stamp-seals, chain-driven shelves, enchanted inlay;
@@ -97,22 +97,15 @@ The **Archive Scribe Engine** remains valid as a fantasy machine name, but its p
 
 It is not a robot running software.
 
-## Beat 9 correction
-Beat 9 remains **Deeper Archive / Six-Face Markings**, but computer-like phrases in the earlier packet are superseded by the revised Beat-9 authority file.
+## Beat 7 Six-Face presentation
+Beat 7 contains the Deep Archives / Six-Face markings and Memory Construct.
 
 The six Faces are discovered as recurring **marks, traditions, and organizing signs** in the physical archive.
 
 The party should feel that Diyseans built their worldview into the architecture and record craft—not that they tagged files with metadata.
 
-## Beat 10 presentation rename
-The working presentation name **Command Route / Authority Architecture** is retired.
-
-Use:
-> **Beat 10 — Command Galleries / Hall of Seals**
-
-This beat should move from scholarly archive spaces into chambers where old Diysean officials, keepers, or wardens once exercised command through seals, marked doors, carved stations, ceremonial/mechanical controls, and physical magical authority.
-
-It must not resemble a server room, control center, or software admin layer.
+## Hall of Seals presentation
+The Hall of Seals is a physical subzone inside Beat 6, not a separate mandatory story beat. It should read as old Yahtrean archive use increasingly exposing much older physical construction and magical authority traditions—not as a server room, control center, or software admin layer.
 
 ## Permanent presentation statement
 > **Ancient Diyse was magically advanced, not digitally coded. Its surviving works should feel crafted, enchanted, physical, ceremonial, and architectural—even when their logic is precise enough to be studied and reproduced.**

@@ -1,6 +1,6 @@
 # Chapter 3 — Beat Development Authority Index
 
-**Status:** CURRENT AFTER SEPTEMBER 23, 2026 STRUCTURAL MIGRATION + SEPTEMBER 26 STORY-SUPPORT CLEANUP
+**Status:** CURRENT AFTER SEPTEMBER 27, 2026 11-BEAT CONSOLIDATION
 
 Naming authority: `STORY_FILE_NAMING_AUTHORITY.md`.
 
@@ -17,35 +17,31 @@ Naming authority: `STORY_FILE_NAMING_AUTHORITY.md`.
 - B02 — Royal Audience / Chapter-2 Report
 - B03 — The Impossible Orders
 - B04 — The Seal That Wasn't Used
-- B05 — Old City Access / Archive Descent
-- B06 — Scholar in Redacted Stacks / Nimera Joins
-- B07 — Lower Archives
-- B08 — Buried Collections / Recent Reader
-- B09 — Hall of Seals / Recent Reader Continuation
-- B10 — Deep Archives
-- B11 — Archive Scribe Engine
-- B12 — Inner Collections / Westways Recordbook / Sealwright Chamber
-- B13 — Return to Mirena / Cresthaven Identified
-- B14 — Cresthaven / Ancient Tower Base / Authority Construct
-- B15 — Cresthaven Headquarters / Cleanup / Ivorybridge Decision
+- B05 — Lower Archives Entrance / Nimera Joins
+- B06 — Lower Archives Investigation
+- B07 — Deep Archives / Memory Construct
+- B08 — Inner Collections / Findings
+- B09 — Return to Mirena / Cresthaven Identified
+- B10 — Cresthaven / Tower Base / Authority Construct
+- B11 — Cresthaven Headquarters / Ivorybridge Decision
 
 ## Current supporting story files
 
 These are supplemental to `CHAPTER_03.md`; they do not supersede it.
 
 - `CH03_B04_SEAL_NOT_USED_STORY_SUPPORT.md`
-- `CH03_B12_SEAL_COPYING_MAP_SEPARATION_LOCK.md`
-- `CH03_B12_TO_B13_MIRENA_MEETING_LOCK.md`
-- `CH03_B13_RETURN_TO_MIRENA_CRESTHAVEN_IDENTIFIED_STORY_SUPPORT.md`
-- `CH03_B14_AUTHORITY_CONSTRUCT_SCAN_LOCK.md`
-- `CH03_B14_AUTHORITY_CONSTRUCT_FINAL_MESSAGE_LOCK.md`
-- `CH03_B15_CRESTHAVEN_HEADQUARTERS_CLEANUP_STORY_SUPPORT.md`
+- `CH03_B08_SEAL_COPYING_MAP_SEPARATION_LOCK.md`
+- `CH03_B08_TO_B09_MIRENA_MEETING_LOCK.md`
+- `CH03_B09_RETURN_TO_MIRENA_CRESTHAVEN_IDENTIFIED_STORY_SUPPORT.md`
+- `CH03_B10_AUTHORITY_CONSTRUCT_SCAN_LOCK.md`
+- `CH03_B10_AUTHORITY_CONSTRUCT_FINAL_MESSAGE_LOCK.md`
+- `CH03_B11_CRESTHAVEN_HEADQUARTERS_CLEANUP_STORY_SUPPORT.md`
 
 Character-Life, cleanup, presentation, continuity, and Hunt locks remain separate domain authorities and are not mandatory beat packets.
 
 ## Historical packet policy
 
-The `HISTORICAL/CHAPTER_03/` folder contains retired or superseded development packets, including files that once carried a `CURRENT` label but no longer match the September 23 structure.
+The `HISTORICAL/CHAPTER_03/` folder contains retired or superseded development packets, including files that once carried a `CURRENT` label but no longer match the September 27 structure.
 
 Historical packets may be consulted only as provenance. They must not supply current:
 - beat numbering;
