@@ -33,16 +33,16 @@ This is a **chapter-role register**, so a recurring identity may appear in multi
 | 1 | Regional Hunt | Regional Hunt #1 — Cistern Devourer |
 | 2 | Ordinary/carryover | Bogshell |
 | 2 | Ordinary/carryover | Cistern Leech |
-| 2 | Ordinary/carryover | Archive Current |
-| 2 | Ordinary/carryover | Memory Scribe |
-| 2 | Ordinary/carryover | Ruin Shieldbearer — approved carryover |
-| 2 | Ordinary/carryover | Black Host Crossbowman — approved carryover |
-| 2 | Ordinary/carryover | Black Host War-Sorcerer — Chapter-2 variant |
-| 2 | Ordinary/carryover | Black Host Raider — approved carryover |
-| 2 | Ordinary/carryover | Rift Hound — approved carryover |
+| 2 | Ordinary/carryover | Needlewing — Chapter-1 carryover |
+| 2 | Ordinary | Scaldback — later Old Waterworks normal pool |
+| 2 | Ordinary/carryover | Arcdrift |
+| 2 | Ordinary/carryover | Black Host Raider |
+| 2 | Ordinary/carryover | Black Host Crossbowman |
+| 2 | Ordinary/carryover | Black Host Shieldbearer |
+| 2 | Ordinary/carryover | Battle Sorcerer |
+| 2 | Ordinary/carryover | War Hound |
 | 2 | Mandatory named/boss | Archive Leviathan |
 | 2 | Mandatory named/boss | Commander Rhazek — Bastion Master |
-| 2 | Regional Hunt | Regional Hunt #2 — Scaldback |
 | 3 | Ordinary/carryover | Construct — Old City + Cresthaven |
 | 3 | Ordinary/carryover | Shield Construct — Old City + Cresthaven |
 | 3 | Ordinary | Maul Construct — Old City + Cresthaven |
@@ -261,10 +261,15 @@ Chapter-2 ordinary / authored / Elite batch:
 
 Current roster has been structurally revised after the historical Power pass.
 
-Active Chapter-2 identities are owned by the current chapter roster and formation files. Retired Redwater / Vault Sentinel / Drowned Archive Maw / Beast Handler / Hold-the-Junction entries must not be counted as current Chapter-2 content.
+Active Chapter-2 identities are owned by the current chapter roster and formation files. Memory Scribe, Redwater Initiate, Vault Sentinel, Watch Sentry, Archive Duplicant, Drowned Archive Maw, Bastion duplicate identities, Beast Handler, and Hold-the-Junction material must not be counted as current Chapter-2 content.
 
-Regional Hunt #2:
-> not included in this historical chapter batch; the separate Hunt action-Power audit is now complete.
+Scaldback is now an ordinary later-Waterworks enemy. There is currently **no Chapter-2 Regional Hunt**.
+
+Current ordinary formation structure is rebuilt for the three-person party:
+- Waterworks: 2–3 bodies;
+- Sunken Archive: 2–3 normally, 4 maximum;
+- Old Bastion: 2–3 normally, 4 maximum;
+- no ordinary 5–6 body Chapter-2 formations.
 
 Status rollout:
 - Burn introduced
