@@ -21,7 +21,7 @@ This file mirrors the current 15-beat structure in compact form. `CHAPTER_03.md`
 11. **Archive Scribe Engine** — major Caelora Archives boss; no Last Sentinel/Ruby event.
 12. **Inner Collections / Westways Recordbook / Sealwright Chamber** — 500-year-old Yahtrean Westways book contains intact but rougher regional copy of thousands-of-years-old Diysean Wayfinder information; full Caelora cluster + giant northern tower + routes continuing north. Seal evidence dead-ends in Caelora.
 13. **Return to Mirena / Cresthaven Identified** — Mirena identifies tower location as Cresthaven; no standalone overnight scene; cut after rest to next morning.
-14. **Cresthaven / Ancient Tower Base / First Command Warden** — normal abandoned fort + short tower-base dungeon; Warden gives PREVIOUS ERROR then LAST SENTINEL CONFIRMED; after it is inert, Card stabilizes deep Ruby.
+14. **Cresthaven / Ancient Tower Base / Authority Construct** — normal abandoned fort + short tower-base dungeon; Warden gives PREVIOUS ERROR then LAST SENTINEL CONFIRMED; after it is inert, Card stabilizes deep Ruby.
 15. **Cresthaven Headquarters / Cleanup / Ivorybridge Decision** — headquarters and cleanup open; party chooses Ivorybridge as the next practical northern investigation point because routes continue north beyond the map.
 
 ## Hard retirements
@@ -30,7 +30,7 @@ Do not restore:
 - Chapter-2 Western Map Mural or Crest-marked northern structure;
 - Ancient Barrier / first-cooperation gate;
 - Nimera recruitment at the Scribe Engine;
-- First Command Warden in Caelora;
+- Authority Construct in Caelora;
 - Prime/Might classification in Chapter 3;
 - routing display beyond the Warden;
 - Sealwright evidence pointing to Cresthaven;
