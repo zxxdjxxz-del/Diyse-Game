@@ -154,11 +154,11 @@ The existing early-game access lock:
 `docs/02_STORY/CHAPTERS/REGIONAL_HUNTS_CH1_CH3_CLEANUP_ACCESS_LOCK.md`
 
 remains the specific implementation for:
-- **Regional Hunt #1 — Cistern Devourer**;
-- **Regional Hunt #2 — Transfer Executioner**;
-- **Regional Hunt #3 — Archive Judgment Engine**.
+- **Regional Hunt #1 — Cistern Devourer**.
 
-Those three are examples of this global rule, not special exceptions to it.
+Slots **#2** and **#3** are retired/open and are not examples of current Hunt implementation. Scaldback is a Chapter-2 ordinary enemy; Archive Judgment Engine is retired.
+
+Hunt #1 is the current early-game example of this global rule, not a special exception to it.
 
 Future Regional Hunts should inherit this global structure automatically unless explicitly revised.
 
