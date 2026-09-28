@@ -33,64 +33,85 @@ Placement character:
 - Arcdrift supplies the established elemental threat;
 - Ruin Spider supplies the natural/organic ruin ecology.
 
+## Old City enemy-introduction sequence — LOCKED 2026-09-27
+
+The Old City roster is deliberately stretched across the full Archive dungeon instead of front-loading nearly every identity.
+
+- **Beat 7 — Lower Archives:** Construct, Shield Construct, Flash Drone, Arcdrift.
+- **Beat 8 — Buried Collections:** Ruin Spider enters.
+- **Beat 9 — Hall of Seals:** Scriptshade enters.
+- **Beat 10 — Deep Archives:** Maul Construct enters.
+- Once Maul Construct enters in Beat 10, **Shield Construct drops out of Beat-10 random formations**. Do not stack Shield Construct and Maul Construct together in the Deep Archives.
+- Beat 10 may mix the full currently introduced Old City roster **except Shield Construct**.
+
 ## Beat 7 — Lower Archives
 
-Early Archive encounters establish the shared construct family and ruin ecology before the stranger late-Archive pressure becomes common.
+Beat 7 establishes the basic Ancient security language plus aerial/ranged and elemental variation. Ruin Spider, Scriptshade, and Maul Construct are deliberately withheld.
 
 | Formation | Composition | Bodies |
 |---|---|---:|
-| **Lower Patrol** | 2 Constructs + 1 Ruin Spider | 3 |
+| **Lower Patrol** | 2 Constructs + 1 Flash Drone | 3 |
 | **Shield Detail** | 1 Shield Construct + 2 Constructs | 3 |
-| **Heavy Patrol** | 1 Maul Construct + 2 Constructs | 3 |
-| **Broken Stacks** | 1 Shield Construct + 1 Construct + 2 Ruin Spiders | 4 |
+| **Current Patrol** | 1 Arcdrift + 2 Constructs | 3 |
+| **Broken Airspace** | 1 Flash Drone + 1 Arcdrift + 1 Construct | 3 |
+| **Archive Guard** | 1 Shield Construct + 1 Construct + 1 Flash Drone + 1 Arcdrift | 4 |
 
 Rules:
-- Scriptshade, Flash Drone, and Arcdrift are held back here;
+- Ruin Spider does not appear yet;
+- Scriptshade does not appear yet;
+- Maul Construct does not appear yet;
+- 3 bodies are normal; 4 bodies are the heavier Beat-7 formation;
 - Beat 7 body range: **3–4**.
 
 ## Beat 8 — Buried Collections
 
-| Formation | Composition | Bodies |
-|---|---|---:|
-| **Buried Guard** | 1 Shield Construct + 1 Maul Construct + 2 Constructs | 4 |
-| **Webbed Archive** | 1 Maul Construct + 1 Construct + 2 Ruin Spiders | 4 |
-| **Shade in the Stacks** | 1 Scriptshade + 1 Shield Construct + 2 Constructs | 4 |
-| **Collapsed Gallery** | 1 Shield Construct + 1 Maul Construct + 1 Construct + 2 Ruin Spiders | 5 |
+**New identity:** Ruin Spider.
 
-Rules:
-- Scriptshade begins appearing here;
-- Flash Drone and Arcdrift remain later pressure pieces;
-- body range: **4–5**.
+Eligible pool:
+- Construct
+- Shield Construct
+- Flash Drone
+- Arcdrift
+- Ruin Spider
+
+Firewalls:
+- no Scriptshade yet;
+- no Maul Construct yet.
+
+Exact Beat-8 formations are being rebuilt in the current structural pass. The prior 4–5-body table is superseded and must not be restored automatically.
 
 ## Beat 9 — Hall of Seals
 
-| Formation | Composition | Bodies |
-|---|---|---:|
-| **Flash Detail** | 1 Flash Drone + 1 Shield Construct + 1 Maul Construct + 1 Construct | 4 |
-| **Seal Shadow** | 1 Flash Drone + 1 Scriptshade + 1 Shield Construct + 2 Constructs | 5 |
-| **Archive Pressure** | 1 Scriptshade + 1 Maul Construct + 1 Shield Construct + 2 Constructs | 5 |
-| **Webbed Seal Hall** | 1 Flash Drone + 1 Shield Construct + 1 Construct + 2 Ruin Spiders | 5 |
+**New identity:** Scriptshade.
 
-Late Beat-9 transition may begin limited Arcdrift use if the final map visibly enters deeper Ancient infrastructure.
+Eligible pool:
+- Construct
+- Shield Construct
+- Flash Drone
+- Arcdrift
+- Ruin Spider
+- Scriptshade
 
-Rules:
-- body range: **4–5**.
+Firewall:
+- no Maul Construct yet.
+
+Exact Beat-9 formations are being rebuilt in the current structural pass. Scriptshade should read as a new strange archive-magic presence rather than generic crowd filler.
 
 ## Beat 10 — Deep Archives
 
-All Old City ordinary identities are eligible.
+**New identity:** Maul Construct.
 
-| Formation | Composition | Bodies |
-|---|---|---:|
-| **Deep Current** | 1 Arcdrift + 1 Flash Drone + 1 Shield Construct + 1 Maul Construct + 1 Construct | 5 |
-| **Shade Current** | 1 Arcdrift + 1 Scriptshade + 1 Maul Construct + 2 Constructs | 5 |
-| **Deep Archive Array** | 1 Arcdrift + 1 Flash Drone + 1 Scriptshade + 1 Shield Construct + 1 Maul Construct + 1 Construct | 6 |
-| **Ruin Nest** | 1 Scriptshade + 1 Shield Construct + 1 Maul Construct + 1 Construct + 2 Ruin Spiders | 6 |
+Eligible pool:
+- Construct
+- Maul Construct
+- Flash Drone
+- Arcdrift
+- Ruin Spider
+- Scriptshade
 
-Rules:
-- Arcdrift is a late-Archive pressure piece;
-- no retired Grand Inquisitor Frame formations remain;
-- body range: **4–6**.
+**Shield Construct is no longer eligible for Beat-10 random formations once Maul Construct enters.**
+
+Exact Beat-10 formations are being rebuilt in the current structural pass. Maul Construct is the deeper Archive's heavier/more aggressive security escalation and should not be paired with Shield Construct here.
 
 ## Beat 11 — Memory Construct approach
 
@@ -101,11 +122,9 @@ Memory Construct:
 > **mandatory authored boss only — never random**
 
 ## Old City body-count progression
-- Beat 7: **3–4**
-- Beat 8: **4–5**
-- Beat 9: **4–5**
-- Beat 10: **4–6**
-- simultaneous ordinary-enemy ceiling: **6**
+- Beat 7: **3–4 — confirmed**
+- Beats 8–10: **under current formation rebuild**
+- Do not restore the previous automatic 4–5 / 4–5 / 4–6 escalation without explicit review.
 
 # Cresthaven Ancient tower base
 
