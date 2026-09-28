@@ -159,7 +159,7 @@ After this gate:
   - Maevra counted as guest combat option; after Nimera joins the combat roster has five available bodies but only four active
   - recovered approved Chapter-3 formation compositions into `09_ENEMIES_AND_ENCOUNTERS/ENCOUNTER_FORMATIONS/CHAPTER_03_FORMATIONS.md`
   - Grand Inquisitor Frame HP **1,450 → 1,200** to satisfy its real-access 2–4 serious-round Elite role
-  - First Command Warden and Archive Judgment Engine retained
+  - Authority Construct and Archive Judgment Engine retained
   - False-Warrant Adept remains explicit placement dependency
   - no direct-damage Power changed
 - **Chapter 4 — PASS / VALIDATED v80**
