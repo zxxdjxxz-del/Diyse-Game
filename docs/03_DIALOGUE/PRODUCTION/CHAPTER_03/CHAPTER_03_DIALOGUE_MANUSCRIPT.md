@@ -21,7 +21,7 @@
 | 11 | Beat 11 | `CH03_B11_ARCHIVE_SCRIBE_ENGINE_DIALOGUE.md` | `4907ea3ba8efac6befbe7f559773b965cce08c0fe6f979d20ddd62ec58284686` |
 | 12 | Beat 12 | `CH03_B12_INNER_COLLECTIONS_WESTWAYS_RECORDBOOK_SEALWRIGHT_DIALOGUE.md` | `35c62c209dfb0b7e11b47189c461302d953a1c615562d68041df135ab61933d5` |
 | 13 | Beat 13 | `CH03_B13_RETURN_TO_MIRENA_CRESTHAVEN_IDENTIFIED_DIALOGUE.md` | `7c8ce93da4885efb1f31d2a6d928090684d20fe856802c9e5fdd3cabb835d76e` |
-| 14 | Beat 14 | `CH03_B14_CRESTHAVEN_TOWER_BASE_FIRST_COMMAND_WARDEN_DIALOGUE.md` | `2781f5907cf6ee5c56ecf854161c9b262659a346b298da297c3166db0b080ec5` |
+| 14 | Beat 14 | `CH03_B14_CRESTHAVEN_TOWER_BASE_AUTHORITY_CONSTRUCT_DIALOGUE.md` | `2781f5907cf6ee5c56ecf854161c9b262659a346b298da297c3166db0b080ec5` |
 | 15 | Beat 15 | `CH03_B15_CRESTHAVEN_HEADQUARTERS_IVORYBRIDGE_DECISION_DIALOGUE.md` | `00ef57aaa9f4d038c3ca89a4a109bf45ff7b0689e3eb5ab3ac222c0bdab415a4` |
 | 16 | C06 — Nimera Takes Over a Table | `C06_NIMERA_TAKES_OVER_A_TABLE_DIALOGUE.md` | `a6677f95a37436a6f66bc74f89bf705f4ed0631b42fa6700cf4a1d6851c0e972` |
 | 17 | C07 — Ilyra and Nimera | `C07_ILYRA_AND_NIMERA_DIALOGUE.md` | `084ec24788d5ba8a24a03528e94d10afc795ad2ffc850a4757b131f72cbd448b` |
@@ -1714,7 +1714,7 @@ This is the major story boss of the Caelora Archives dungeon.
 
 The Engine is procedural Ancient archive/security machinery, not a speaking villain.
 
-No First Command Warden appears here.
+No Authority Construct appears here.
 
 No Card classification, Last Sentinel message, Ruby stabilization, or Prime event occurs.
 
@@ -2150,7 +2150,7 @@ Cut forward to the next morning at Cresthaven.
 
 Transition into:
 
-**Beat 14 — Cresthaven / Ancient Tower Base / First Command Warden.**
+**Beat 14 — Cresthaven / Ancient Tower Base / Authority Construct.**
 
 ## Beat-13 end state
 
@@ -2167,11 +2167,11 @@ Transition into:
 
 ## Beat 14
 
-**Atomic source:** `CH03_B14_CRESTHAVEN_TOWER_BASE_FIRST_COMMAND_WARDEN_DIALOGUE.md`  
+**Atomic source:** `CH03_B14_CRESTHAVEN_TOWER_BASE_AUTHORITY_CONSTRUCT_DIALOGUE.md`  
 **Source SHA-256:** `2781f5907cf6ee5c56ecf854161c9b262659a346b298da297c3166db0b080ec5`
 
 # Chapter 3 — Beat 14
-# Cresthaven / Ancient Tower Base / First Command Warden
+# Cresthaven / Ancient Tower Base / Authority Construct
 ## CURRENT LOCKED DIALOGUE — REVISED TRUE-VOICE / AGENT-BRAIN PASS
 
 **Status:** CURRENT ATOMIC DIALOGUE AUTHORITY — 2026-09-23
@@ -2310,7 +2310,7 @@ Torren stops.
 
 Cyanis steps into the chamber.
 
-The First Command Warden activates.
+The Authority Construct activates.
 
 ### [THE ASSESSMENT]
 
@@ -2447,7 +2447,7 @@ Transition into:
 - Cresthaven is confirmed to sit over/within the surviving base of the giant Ancient tower shown on the Westways recordbook map;
 - Mirena and Maevra remain aboveground and do not participate in combat;
 - the short dungeon is Tower Foundation → Command Interior → Warden Chamber;
-- the First Command Warden assesses the four-person party, rejects the result, and attacks;
+- the Authority Construct assesses the four-person party, rejects the result, and attacks;
 - after defeat it says exactly:
   - PREVIOUS ERROR
   - LAST SENTINEL CONFIRMED
@@ -2634,7 +2634,7 @@ Current next investigative direction:
 
 ## Beat-15 end state
 
-- First Command Warden and Ruby Card events are reported without being solved;
+- Authority Construct and Ruby Card events are reported without being solved;
 - Prime Card becomes an explicit working hypothesis for Cyanis's Card, but remains unconfirmed; Might/bearer status remains unresolved;
 - Cresthaven becomes operational headquarters;
 - Regional Hunt #3 unlocks;
