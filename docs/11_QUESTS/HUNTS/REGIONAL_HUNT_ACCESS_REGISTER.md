@@ -5,14 +5,14 @@
 **Domain rule:** this folder owns optional-activity identity, unlocks, objectives, route/area flow, quest-state outcomes, combat/no-combat classification, completion conditions, and world-state payoff. Exact enemy kits/stats live in `09_ENEMIES_AND_ENCOUNTERS`; exact EXP/CEXP in `10_PROGRESSION_AND_EXP`; item/equipment mechanics in `08_ITEMS_AND_EQUIPMENT`; exact dialogue in `03_DIALOGUE`.
 
 
-Exactly:
-> **11 Regional Hunts**
+Current active count:
+> **9 Regional Hunts**
+
+Slots **#2** and **#3** are retired/open; later hunt numbering remains unchanged pending a separate numbering decision.
 
 | # | Regional Hunt | Current access context | EXP |
 |---:|---|---|---:|
 | 1 | **Cistern Devourer** | Chapter 1 — old cistern branch becomes known after S011 | 1,000 |
-| 2 | **Scaldback** | Chapter 2 cleanup — sealed side-branch door in the Old Waterworks → additional Hunt branch | 1,500 |
-| 3 | **Archive Judgment Engine** | Chapter 3 — Old City/Archive return after S021 authorization-state change | 2,200 |
 | 4 | **Crown Prototype** | Chapter 4 — Reaction Annex optional-return branch | 3,000 |
 | 5 | **Whitehorn Ravager** | Chapter 5 — Greyspires / Chapter-5 optional branch | 4,000 |
 | 6 | **Winterglass Titan** | Chapter 6 — Greyspires / Chapter-6 optional branch | 5,200 |
@@ -22,11 +22,13 @@ Exactly:
 | 10 | **Authority Remnant** | Chapter 11 — Crown Engine / administrative-domain optional access | 13,000 |
 | 11 | **Throne of Emperor Vaelkor** | Chapter 12 — Black Host campaign; remains available in post-Vaelkor cleanup if unfinished | 13,800 |
 
-Total:
-> **70,000 Player EXP**
+Current active-Hunt total:
+> **66,300 Player EXP**
 
 ## Trigger precision
-For #1–#3, current early-chapter branch logic is recovered with strong scene context.
+For #1, current early-chapter branch logic is recovered with strong scene context.
+
+Retired slots #2 and #3 have no current Hunt access route.
 
 For later Hunts, this file records the current chapter/area access context without inventing unsupported exact S### triggers.
 
