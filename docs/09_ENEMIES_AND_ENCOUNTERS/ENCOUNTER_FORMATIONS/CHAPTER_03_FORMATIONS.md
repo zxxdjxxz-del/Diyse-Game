@@ -9,7 +9,7 @@
 - no hostile Caelora gate / perimeter random pool;
 - no Caelora → Cresthaven road encounters;
 - Memory Construct is a mandatory Beat-11 boss and never random-spawns;
-- First Command Warden is the authored Beat-14 boss;
+- Authority Construct is the authored Beat-14 boss;
 - retired September-23 Chapter-3 enemy identities must not appear in current random formations.
 
 # Old City Archives
@@ -171,7 +171,7 @@ Immediate pre-Warden buffer:
 > **SAFE — no random encounter**
 
 Warden Chamber:
-> authored **First Command Warden** encounter only
+> authored **Authority Construct** encounter only
 
 ## Cresthaven body-count progression
 - Tower Foundation: **4–5**
