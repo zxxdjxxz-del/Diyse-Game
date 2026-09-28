@@ -38,7 +38,7 @@ No mandatory combat.
 Short Ancient tower-base dungeon ending with the **Authority Construct**.
 
 ### Beat 15 — Cresthaven headquarters / cleanup
-No mandatory mainline combat. Regional Hunt #3 may unlock during cleanup under its own authority.
+No mandatory mainline combat.
 
 # Locked ordinary / repeatable roster — 2026-09-27
 
@@ -121,15 +121,6 @@ This retirement is **Chapter-3 placement only**. It does not automatically delet
   2. **LAST SENTINEL CONFIRMED**
 - Warden becomes fully inert before Cyanis's Card stabilizes deep Ruby.
 
-# Regional Hunt
-
-## Regional Hunt #3 — Archive Judgment Engine
-- optional Chapter-3 cleanup content;
-- unlocked through the accessible Old City Archive side passage;
-- party: Cyanis + Ilyra + Torren + Nimera;
-- one continuous HP bar / one targetable boss body;
-- no phases, adds, support objects, or Command-Warden mechanics;
-- current final tuning remains deferred.
 
 # Status rollout
 
