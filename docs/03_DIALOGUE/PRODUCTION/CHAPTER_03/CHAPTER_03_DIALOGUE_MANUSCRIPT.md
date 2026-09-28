@@ -2538,25 +2538,6 @@ Nimera looks at the large central table.
 
 **NIMERA:** It has no evidence.
 
-### [OLD CITY ARCHIVE HUNT UNLOCK]
-
-Mirena pulls out one final note.
-
-**MIRENA:** One more thing. Crown crews opened an Old City side passage that wasn't accessible during your run.
-
-**CYANIS:** Know what's in it?
-
-**MIRENA:** Not a damn clue.
-
-**NIMERA:** Beautiful.
-
-**ILYRA:** The murderous furniture remains a concern.
-
-**NIMERA:** Narrow thinking.
-
-Mirena gives them the access location.
-
-Regional Hunt #3 — Archive Judgment Engine unlocks under encounter authority.
 
 ### [THE NORTHERN LEAD]
 
@@ -2621,7 +2602,6 @@ Normal Cresthaven resident/traveling party:
 Available cleanup content includes:
 - C06 — Nimera Takes Over a Table
 - C07 — Ilyra and Nimera
-- Regional Hunt #3 — Archive Judgment Engine
 - permitted backtracking and preparation
 
 Chapter 3 remains active until the player deliberately chooses:
@@ -2637,7 +2617,6 @@ Current next investigative direction:
 - Authority Construct and Ruby Card events are reported without being solved;
 - Prime Card becomes an explicit working hypothesis for Cyanis's Card, but remains unconfirmed; Might/bearer status remains unresolved;
 - Cresthaven becomes operational headquarters;
-- Regional Hunt #3 unlocks;
 - Mirena and Maevra return to Caelora after the handoff;
 - the permanent four remain at Cresthaven;
 - the party chooses Ivorybridge as the next practical northern investigation point because the routes continue north beyond Cresthaven and off the copied map;
