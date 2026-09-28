@@ -20,7 +20,6 @@ No second northern map or Ivorybridge marker is discovered in the Warden dungeon
 
 - Crown Princess Mirena Ceryth and Maevra Solmar are present for the initial headquarters handoff.
 - Mirena tells Cyanis, Ilyra, Torren, and Nimera that they may use Cresthaven as headquarters while helping her investigate the unresolved Card, royal-seal, and Ancient-route situation.
-- Mirena gives the newly accessible Old City Archive passage update for Regional Hunt #3.
 - after the practical handoff, Mirena and Maevra normally return to Caelora.
 - Maevra remains fully non-playable.
 
@@ -67,20 +66,10 @@ Retired:
 - H02
 - H04
 
-## Regional Hunt #3 — Archive Judgment Engine
-
-- optional Chapter-3 cleanup content;
-- unlock delivered by Mirena during Beat 15 headquarters handoff;
-- entrance is newly accessible Old City Archive side passage beneath Caelora;
-- party = Cyanis + Ilyra + Torren + Nimera;
-- additional optional Archive area → Hunt boss → rewards;
-- minimal/no Hunt-specific dialogue required by default.
-
-The Hunt must not solve the main Chapter-3 mysteries.
 
 ## Cleanup / Chapter-4 boundary
 
-Chapter 3 remains active while the player uses Cresthaven for Character-Life scenes, Regional Hunt #3, preparation, permitted backtracking/returns, and normal hub functions.
+Chapter 3 remains active while the player uses Cresthaven for Character-Life scenes, preparation, permitted backtracking/returns, and normal hub functions.
 
 Chapter 4 begins only when the player deliberately chooses **Begin Chapter 4**.
 
