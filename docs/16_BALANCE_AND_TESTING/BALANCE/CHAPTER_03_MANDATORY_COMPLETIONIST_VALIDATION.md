@@ -1,25 +1,12 @@
 # Diyse — Chapter 3 Mandatory-vs-Completionist Validation
 
 **Current status:** **REOPENED / REVALIDATION REQUIRED**  
-**Direct-damage Power audit:** **CLOSED — no Power coefficient is reopened by this correction**  
-**Reason reopened:** the previous v79 validation tested a superseded party chronology and route structure.
+**Direct-damage Power audit:** **CLOSED — no Power coefficient is reopened by this structural correction**  
+**Reason reopened:** Chapter 3 now uses the September 27 enemy roster and the consolidated 11-beat route; earlier validation tested superseded party chronology, encounter identities, and beat placement.
 
 ---
 
-## Current authority correction — 2026-09-12
-
-The old Chapter-3 validation is historical rather than current certification.
-
-Three material assumptions are retired:
-
-1. **Maevra is not a Chapter-3 guest combatant.**  
-   Current story keeps her noncombat. She remains above with Mirena when Cyanis, Ilyra, and Torren descend into the Old City.
-
-2. **The former hostile-perimeter identities are retired from Chapter 3.**  
-   Way-Fort Marauder / Rift Boltman / Black Host Ward-Sorcerer must not be included in any Chapter-3 mandatory, optional, random, cleanup, Caelora, Archive, Cresthaven, or travel encounter.
-
-3. **The old S018 lawful Caelora confrontations are not part of the current mandatory 15-beat Chapter-3 route.**  
-   Retained lawful/nonlethal enemy identities may remain available for later explicit placement, but they do not currently create mandatory combat at Caelora's gate, palace, audience, or seal investigation.
+## Current authority correction — 2026-09-27
 
 Current story authority:
 - `../../02_STORY/CHAPTERS/CHAPTER_03.md`
@@ -30,131 +17,183 @@ Current encounter summary:
 Current formation authority:
 - `../../09_ENEMIES_AND_ENCOUNTERS/ENCOUNTER_FORMATIONS/CHAPTER_03_FORMATIONS.md`
 
+Material assumptions now locked for validation:
+1. **Maevra is not a Chapter-3 guest combatant.**
+2. **No hostile Caelora gate / palace / seal-investigation combat is mandatory.**
+3. **No Caelora → Cresthaven road encounter stretch exists.**
+4. **Nimera joins permanently during Beat 5.**
+5. **The sustained four-person Archive encounter sequence begins in Beat 6.**
+6. **Memory Construct is the mandatory Beat-7 Archive boss.**
+7. **Authority Construct is the mandatory Beat-10 Cresthaven boss.**
+8. **The September 27 ordinary-enemy roster supersedes older Judgment/Authority/Watch-frame Chapter-3 placement.**
+
 ---
 
 ## What remains closed
 
 The direct-damage **Power audit remains closed**.
 
-This correction does not itself change Power coefficients for:
-- Archive Scribe Engine;
-- Judgment Frame;
-- Erasure Wisp;
-- Command Guard Frame;
-- Authority Lens;
-- Command Ring Drone;
-- Grand Inquisitor Frame;
-- Authority Construct;
+This structural correction does not itself reopen ability Power coefficients. Any HP, raw-stat, action-frequency, durability, or encounter-weight change must come from fresh encounter validation.
 
-Any later HP/stat/tuning change must come from fresh encounter validation.
+Current mandatory bosses requiring fresh current-party body/fight-length validation:
+- **Memory Construct**;
+- **Authority Construct**.
 
 ---
 
-## Current mandatory-route chronology
+# Current mandatory-route chronology
 
-### Caelora arrival and investigation
-- Beat 1 is a lawful routine gate arrival.
-- Beats 2–4 are audience / order / seal investigation.
-- No hostile-perimeter random battle is inserted here.
-- No old S018 lawful confrontation is mandatory here.
+## Beats 1–4 — Caelora / Crown investigation
+No mandatory combat.
 
-### Old City before Nimera
-Combat-party baseline:
+## Beat 5 — Lower Archives Entrance / Nimera Joins
+
+Opening field group:
 > **Cyanis + Ilyra + Torren**
 
-Maevra stays above with Mirena and contributes no battle action economy.
+Mirena escorts the trio only to the Lower Archives entrance and returns to the Crown-side investigation with Maevra.
 
-Beat 5 is the Archive descent.
-Beat 6 finds Nimera actively researching in the Redacted Stacks; she is **not trapped** and there is **no Ancient Barrier**.
+Nimera is found actively working; she is **not trapped** and there is **no Ancient Barrier**.
 
-### Nimera joins / main Archives dungeon
-Nimera joins permanently in Beat 6.
+Nimera joins permanently during Beat 5.
 
-From Beat 6 onward the permanent four-person combat party is:
+No sustained random-encounter pressure is required before the permanent four are established.
+
+## Beat 6 — Lower Archives Investigation
+
+Permanent combat party:
 > **Cyanis + Ilyra + Torren + Nimera**
 
-Beat 7 through Beat 10 use the current Old City formation structure:
-- Lower Archives;
-- Buried Collections;
-- Hall of Seals;
-- Deep Archives.
+Physical subzones:
+1. Lower Archives;
+2. Buried Collections;
+3. Hall of Seals.
 
-Archive Scribe Engine does **not** random-spawn.
+Current enemy-introduction progression:
+- Lower Archives — Construct / Shield Construct / Flash Drone / Arcdrift;
+- Buried Collections — Ruin Spider enters;
+- Hall of Seals — Scriptshade enters.
 
-### Beat 11 mandatory Archive boss
-Archive Scribe Engine is now:
-> **one continuous HP bar / one targetable mandatory boss body**
+Current confirmed body-count bands:
+- Lower Archives: **3–4**;
+- Buried Collections: **3–4**;
+- Hall of Seals: still under current formation review.
 
-Its former ordinary Lv10 / HP315 body is retired for Chapter-3 boss use.
-Its boss raw body / fight-length budget require fresh four-person validation.
+Do not flatten these subzones into one uniform enemy pool.
 
-### Beat 14 Cresthaven tower base
-Current ordinary pool uses:
-- Watch Sentry;
-- Watch Ballista;
-- Watch Captain Frame;
-- Command Guard Frame;
-- Authority Lens;
-- Command Ring Drone.
+## Beat 7 — Deep Archives / Memory Construct
 
-Authority Construct remains the mandatory boss at the end of the short Cresthaven tower-base dungeon.
+Deep Archives introduce:
+- **Maul Construct**;
+- Construct;
+- Flash Drone;
+- Arcdrift;
+- Ruin Spider;
+- Scriptshade.
 
+Once Maul Construct enters, **Shield Construct leaves the Deep Archives random pool**.
 
-### Authority Construct current structural target
+Deep Archives formation composition/body-count tuning remains under review.
+
+### Memory Construct
+- mandatory authored boss;
 - one continuous HP bar;
-- same-bar 45% Imposed Authority → Challenged Authority shift;
+- one targetable body;
+- never random-spawns;
+- no Last Sentinel / Ruby / Prime event;
+- raw body and fight-length budget require fresh four-person validation.
+
+## Beat 8 — Inner Collections / Findings
+No mandatory story boss.
+
+This is primarily an evidence-payoff section after the Memory Construct.
+
+## Beat 9 — Return to Mirena / Cresthaven Identified
+No mandatory combat.
+
+Rest is an offscreen transition only.
+
+## Beat 10 — Cresthaven / Tower Base / Authority Construct
+
+Current Cresthaven ordinary roster:
+- Construct;
+- Shield Construct;
+- Maul Construct;
+- Flame Construct;
+- Blade Drone;
+- Ruin Spider.
+
+Current provisional body-count structure:
+- Tower Foundation: **4–5**;
+- Command Interior: **4–6**;
+- Authority approach: **5–6**;
+- simultaneous ordinary-enemy ceiling: **6**.
+
+### Authority Construct
+- mandatory authored boss;
+- one continuous HP bar;
+- same-bar 45% **Imposed Authority → Challenged Authority** shift;
 - Command Seal retained;
-- Command Ring / Major Ruling retained;
+- interruptible Command Ring / Major Ruling retained;
 - Recorded Analogue / copied-action behavior retired;
 - no Staggered rider;
-- current inherited raw body / Ring durability / round targets are historical only and require fresh Beat-14 testing.
+- protected shutdown order:
+  1. **PREVIOUS ERROR**
+  2. **LAST SENTINEL CONFIRMED**
+- Authority Construct becomes fully inert before Cyanis's Card stabilizes deep Ruby;
+- inherited raw body / Ring durability / round targets are historical only and require fresh Beat-10 testing.
 
-### Exit / chapter close
-Beat 12 uses a hard cut upstairs after the player leaves the Sealwright Chamber:
-- no playable return traversal;
-- no exit combat;
-- no exterior walk.
+## Beat 11 — Cresthaven Headquarters / Ivorybridge Decision
+No mandatory mainline combat.
 
-Beat 14 → Beat 15 travel to Cresthaven is explicitly skipped:
-- no road dungeon;
-- no road random encounters;
-- no Way-Fort/Rift-Bolt/Ward-Sorcerer mandatory stretch.
+Chapter 3 enters cleanup/free-roam after the headquarters handoff.
 
 ---
 
-## Placement status of retired / recovered identities
+# Retired Chapter-3 placement
 
-### Retired hostile-perimeter group
-- Way-Fort Marauder
-- Rift Boltman
-- Black Host Ward-Sorcerer
+Do **not** validate or count these as active Chapter-3 ordinary/strong-normal placements unless explicitly reintroduced:
+- Judgment Frame;
+- Erasure Wisp;
+- Authority Lens;
+- Archive Current;
+- Command Guard Frame;
+- Command Ring Drone;
+- Watch Sentry;
+- Watch Ballista;
+- Grand Inquisitor Frame;
+- Watch Captain Frame;
+- Way-Fort Marauder;
+- Rift Boltman;
+- Black Host Ward-Sorcerer.
 
-Status:
-> **RETIRED FROM CHAPTER 3 — DO NOT VALIDATE OR COUNT**
-
-### Recovered lawful/nonlethal group
-- Ivory Watch Guard
-- Royal Polearm Officer
-- Ivory Crossbow Sentinel
-- Order Clerk
-- False-Warrant Adept
-- Ivory Adjudicator
-
-Status:
-> **RETAINED IDENTITY / NO CURRENT MANDATORY 15-BEAT PLACEMENT**
-
-Do not balance the mandatory Chapter-3 route as if these fights necessarily occur.
+Historical lawful/nonlethal Caelora identities likewise have no current mandatory placement.
 
 ---
 
-## What must be revalidated
+# Status rollout
 
-Run fresh mandatory-vs-completionist tests for the encounters that actually belong to the current route:
-- mandatory Beat-11 Archive Scribe Engine boss;
-- Beat-7 through Beat-10 Old City Archives formations;
-- any currently approved optional Grand Inquisitor Frame placement;
-- Cresthaven tower-base ordinary formations;
-- Authority Construct;
+> **Stun is introduced in Chapter 3.**
+
+The former Command Guard Frame Stun assignment is retired.
+
+The replacement ordinary-enemy Stun introduction is **open** and must be decided before final encounter certification.
+
+Do not silently restore retired enemies merely to provide a Stun source.
+
+---
+
+# What must be revalidated
+
+Run fresh mandatory-vs-completionist tests for:
+- Beat 6 Lower Archives formations;
+- Beat 6 Buried Collections formations;
+- Beat 6 Hall of Seals formations once finalized;
+- Beat 7 Deep Archives formations once finalized;
+- mandatory Beat-7 Memory Construct;
+- Beat-10 Tower Foundation formations;
+- Beat-10 Command Interior / Authority-approach formations;
+- mandatory Beat-10 Authority Construct.
 
 For every encounter use both required baselines:
 1. **mandatory / critical-path party**;
@@ -162,29 +201,31 @@ For every encounter use both required baselines:
 
 Use actual progression points rather than one flat chapter level.
 
-Do not include retired hostile-perimeter identities in any Chapter-3 EXP, encounter-pressure, or validation assumptions.
+Do not include retired Chapter-3 placements in EXP, encounter-pressure, or validation assumptions.
 
 ---
 
-## Previous v79 result status
+# Previous validation status
 
-The old v79 calculations included:
+Any prior Chapter-3 certification that assumed:
 - Maevra combat contribution;
-- a five-available-character choose-four assumption after Nimera;
-- hostile-perimeter formations as active Chapter-3 route content;
-- old lawful Caelora encounter structure.
+- five available combat characters;
+- hostile road/perimeter formations;
+- old lawful Caelora encounters;
+- old B07–B15 placement;
+- Judgment/Authority/Watch-frame ordinary rosters;
+- Archive Scribe Engine / First Command Warden naming;
 
-Those calculations are therefore:
+is:
+
 > **HISTORICAL — NOT CURRENT CERTIFICATION**
 
-Git history preserves them for comparison.
-
-Existing raw values remain in their owning files until the fresh validation tests them; this file no longer certifies those values against the current chapter.
+Existing raw values may remain in historical/reference material for comparison, but they are not current certification.
 
 ---
 
-## Next action
+# Next action
 
-> **After Chapters 1 and 2 are recertified, run Chapter 3 mandatory-vs-completionist validation against the current three-person pre-Nimera state and four-person post-Nimera state, with no mandatory road/perimeter or lawful-Caelora combat inserted.**
+> **After Chapters 1 and 2 are recertified, validate Chapter 3 against the current three-person Beat-5 entry state and four-person Beat-6 onward combat state, using the September 27 roster and no mandatory road/perimeter or lawful-Caelora combat.**
 
 CEXP recalibration remains downstream of encounter validation.
