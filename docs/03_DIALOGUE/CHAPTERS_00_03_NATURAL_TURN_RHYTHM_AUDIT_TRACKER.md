@@ -90,24 +90,23 @@ Audited and intentionally preserved as predominantly terse/mixed because the sit
 Beat 3 and Beat 9 received minor consolidation while preserving their underlying cadence.
 
 ### Chapter 3
-**Production content:** complete current working production, including Beats 1–15 + **C06/C07**.  
-**Prior closing integration audit:** complete.  
-**Natural-turn rhythm audit:** **COMPLETE.**
+**Production content:** complete current working production, including Beats 1–11 + **C06/C07**.  
+**Natural-turn rhythm audit:** **COMPLETE; carried forward through the September 27 structural consolidation.**
 
-Material rhythm revisions:
-- Beat 2 — Royal Audience / Chapter-2 Report;
-- Beat 3 — Impossible Orders;
-- Beat 9 — Buried Collections / Dormant Card Research;
-- Beat 10 — Recent Reader / Hall of Seals;
-- Beat 12 — Sealwright Chamber / Copying Attempts;
-- Beat 14 — Rest in Caelora / Morning Departure;
-- Beat 15 — Cresthaven Headquarters / Cleanup Window.
+The 11-beat consolidation merged previously separate archive beats without restoring the old one-sentence ping-pong problem. Current production atomics remain the exact dialogue authority.
 
-Audited and intentionally preserved as predominantly terse/mixed because the situation earns it:
-- Beat 1;
-- Beats 4–8;
-- Beat 11;
-- Beat 13;
+Material rhythm work carried into the current structure includes:
+- B02 — Royal Audience / Chapter-2 Report;
+- B03 — Impossible Orders;
+- B06 — Lower Archives Investigation, including the former Buried Collections / recent-reader / Hall-of-Seals material;
+- B08 — Inner Collections / Findings;
+- B09 — Return to Mirena / Cresthaven Identified;
+- B11 — Cresthaven Headquarters / Ivorybridge Decision.
+
+Audited and intentionally preserved as predominantly terse/mixed where the situation earns it:
+- B01;
+- B04–B07;
+- B10;
 - **C06 — Nimera Takes Over a Table**;
 - **C07 — Ilyra and Nimera**.
 
@@ -115,7 +114,7 @@ Protected **C06** anchors remain exact:
 > **CYANIS:** I bet you use that cape to sneak up on the goats you fuck.  
 > **TORREN:** You look like a walking dick in armor.
 
-Beat 11 final Warden messages remain exact and ordered:
+B10 Authority Construct final messages remain exact and ordered:
 > **PREVIOUS ERROR**  
 > **LAST SENTINEL CONFIRMED**
 

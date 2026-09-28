@@ -5,7 +5,7 @@
 **Dialogue authority rule:** story function lives in `02_STORY`; combat mechanics live in `05_BATTLE_SYSTEM` / `09_ENEMIES_AND_ENCOUNTERS`; Card mechanics live in `07_CARDS`; progression lives in `10_PROGRESSION_AND_EXP`. Exact accepted spoken wording remains usable only where the scene has not subsequently been reopened. For reopened scenes, current story authority supersedes old transcript structure and the Dialogue Engine regenerates current dialogue from the active beats. Historical line-complete files remain voice/staging reference only where compatible.
 
 ## Already reconciled in source before this migration
-- Ch3 S020/S021: Crownhold → **Yahtrenhold**
+- Historical Ch3 S020/S021 checkpoint: Crownhold → **Yahtrenhold**
 - Ch4 S022: Crownhold → **Yahtrenhold**
 - Ch4 Crown Prototype placement: Sixfold Annex → **Reaction Annex**
 - Ch4 S022–S026: four-element conversion
@@ -350,197 +350,74 @@ Retired from old S016:
 - Dunmere-side safe-area staging as the required final geography;
 - any ending that leaves the Greenhollow–Dunmere road still blocked after the Bastion operation is broken.
 
-# Chapter 3 — Reopened Dialogue Migration Overlay
+# Chapter 3 — Current 11-Beat Production Correction
 
-## Global Chapter-3 correction
-The retired `old orders assembled from unrelated valid records / precedents` explanation is **not current canon**.
+**Supersedes the retired S017–S021/H01–H04 migration overlay.**
 
-Current Chapter-3 authority question:
-> **How could someone have used the Queen's personal magical royal seal, or caused its magic to answer, without the Queen's knowledge or authorization?**
+Current exact spoken-wording authority:
+`PRODUCTION/CHAPTER_03/`
 
-Dialogue must treat the seal as a **real physical personal royal seal with a genuine magical authority response**, not as a digital signature or abstract system credential.
+Current story authority:
+`../02_STORY/CHAPTERS/CHAPTER_03.md`
 
-### Ch3 S017 — CAELORA / THE QUEEN'S SEAL — REOPENED
-Historical containment framing is retired.
+Current mandatory structure:
+1. B01 — Caelora Gate / Arrival
+2. B02 — Royal Audience / Chapter-2 Report
+3. B03 — Impossible Orders
+4. B04 — Seal Not Used
+5. B05 — Lower Archives Entrance / Nimera Joins
+6. B06 — Lower Archives Investigation
+7. B07 — Deep Archives / Memory Construct
+8. B08 — Inner Collections / Findings
+9. B09 — Return to Mirena / Cresthaven Identified
+10. B10 — Cresthaven / Tower Base / Authority Construct
+11. B11 — Cresthaven Headquarters / Ivorybridge Decision
 
-Current authority:
-- the party arrives voluntarily with Maevra and remains free;
-- the audience includes the **Queen, Crown Princess Mirena Ceryth, Chancellor Othmar Calder, Maevra, Cyanis, Ilyra, and Torren**;
-- the Queen is hearing about the recovered Card for the first time and previously knew nothing about its recovery, custody, transport toward Caelora, or the party's route;
-- physical Card-related orders nevertheless carry the genuine magical response of the Queen's **personal royal seal**;
-- the Queen personally denies using the seal, authorizing its use, or approving the orders.
+Current Character-Life:
+- C06 — Nimera Takes Over a Table
+- C07 — Ilyra and Nimera
 
-**Calder:**
-- Calder is present;
-- he deliberately argues that committing Crown resources to an inactive / apparently non-working Card would be absurd or insane;
-- underlying canon: Calder himself ordered the Card transported toward Caelora and is lying to conceal that involvement;
-- do not expose that lie as proven fact yet;
-- do not assume his hidden transport order also proves he personally used the Queen's seal.
+## Current Chapter-3 locks
 
-**Cyanis retains the Card:**
-- the Queen explicitly allows Cyanis to keep it for now because its unexplained response around him makes forced separation an unnecessary risk;
-- this is caution, not bearer confirmation or ownership.
+- party arrives in Caelora voluntarily; no containment/arrest framing;
+- Queen Lysara did not authorize the Card orders even though her genuine royal-seal magic answers on them;
+- physical seal remains secure enough that there is no simple documented theft/loss explanation;
+- Calder's hidden role remains unrevealed;
+- Mirena brings Cyanis, Ilyra, and Torren through the active Upper Archives to the Lower Archives entrance;
+- there is **no Ancient Barrier**;
+- Nimera is found actively working and joins permanently during B05;
+- accessible archive documentary evidence is **old Yahtrean material**;
+- Ancient Diysean influence is primarily physical architecture, mechanisms, infrastructure, symbols, and Constructs;
+- B06 contains Lower Archives → Buried Collections → Hall of Seals as physical subzones;
+- the old term **Prime Card** may appear in copied/quoted/transcribed material, but nobody knows what one looks like or does;
+- B07 contains the Deep Archives and **Memory Construct**; no Last Sentinel/Ruby/Prime event occurs there;
+- B08 contains the ~500-year-old Yahtrean Westways recordbook, a Wayfinder-derived regional copy, and a later seal-reproduction workspace whose original Ancient purpose is unknown;
+- the seal-reproduction evidence does not prove a successful duplicate Royal Magic Seal;
+- Mirena identifies the giant tower's modern location as **Cresthaven** in B09;
+- rest after B09 is an offscreen transition only; no standalone rest beat or inserted character scene;
+- B10 contains the short Cresthaven tower-base dungeon and **Authority Construct**;
+- protected shutdown order is exactly **PREVIOUS ERROR → LAST SENTINEL CONFIRMED**;
+- LAST SENTINEL CONFIRMED is the Authority Construct's final message;
+- the Authority Construct becomes fully inert before Cyanis's Card stabilizes deep Ruby;
+- no Prime manifestation occurs in Chapter 3;
+- B11 establishes Cresthaven headquarters and selects **Ivorybridge** only as the sensible modern place to test the northbound route;
+- the copied/Ancient map does **not** name Ivorybridge.
 
-**Mirena's Old City lead:**
-- in front of the room, Mirena says only that **one of Caelora's best Card experts is currently working in the Old City archives** and should examine the Card;
-- that expert is Nimera Pellan;
-- Mirena privately also expects Nimera to be highly interested in the impossible royal-seal anomaly;
-- **Mirena does not say that second reason in front of Calder / the full room**.
+## Chapter-3 reveal firewall
 
-### Ch3 S018 — THE SEAL THAT WASN'T USED — REOPENED
-Current structure:
-- the investigation examines the Queen's **actual personal physical seal**, its magical response, its custody, its recent legitimate uses, and who could approach or handle it;
-- comparison with unquestionably genuine royal documents confirms that the suspect Card orders carry the same authentic magical authority response expected from the Queen's personal seal;
-- the Queen did not use it on those orders;
-- the seal is physically present and no simple documented period of theft / loss explains the orders;
-- lawful guards, attendants, clerks, and custodians remain witnesses / collaborators rather than mandatory enemies;
-- the investigation must not claim royal custody protections are infallible, but there is no easy `the seal was missing for three days` answer.
+Do not restore:
+- Ancient Barrier / trapped-Nimera recruitment;
+- First Command Warden;
+- Archive Scribe Engine as the current boss identity;
+- Sealwright Chamber as a known original Ancient workshop;
+- direct accessible Diysean documentary archives;
+- Prime/Might/bearer classification;
+- Last Sentinel recovery/manifestation/gameplay use in Chapter 3;
+- a second northern map behind the Authority Construct;
+- Ancient evidence explicitly naming Cresthaven or Ivorybridge;
+- Archive Judgment Engine as Chapter-3 cleanup content.
 
-The open possibilities remain deliberately broad:
-- someone may have gained unauthorized physical access to the seal and used it without leaving an obvious custody break; or
-- someone may have found a way to make the seal's magic answer without conventionally removing / using the physical object;
-- the party cannot yet choose between those possibilities.
-
-If another freshly received Card order appears:
-- it is a **physical sealed dispatch**, not a computer-generated event;
-- it carries the same genuine royal-seal magic;
-- the Queen did not issue it;
-- it is retained as evidence rather than blindly enforced.
-
-Old City handoff:
-- the party goes to the Old City primarily because **Nimera is already there** and Mirena wants her expert view on the Card;
-- Mirena also privately wants Nimera to inspect the seal anomaly;
-- access to restricted historical material Nimera may need is a secondary benefit;
-- the handoff does **not** depend on a paper trail proving that old valid orders were combined in the Old City.
-
-### Ch3 S019 — SCHOLAR IN REDACTED STACKS — REOPENED / FULL LEAN MIGRATION
-Historical S019 remains useful for Nimera's voice, her trapped-but-not-helpless barrier introduction, precision about uncertainty, first Archive-machine combat, Cardweaver/Conduit presentation, and voluntary decision to continue.
-
-Current authority:
-- the party is actively looking for **Nimera Pellan** because Mirena sent them to her;
-- Nimera is already working in the Old City archives;
-- she may still be found behind an Ancient archive barrier that has unexpectedly closed around her work alcove;
-- she is irritated and inconvenienced, not helpless;
-- Cyanis and Nimera may cooperate to release the barrier through a Crest-like structural observation plus Nimera's understanding of Ancient interface behavior;
-- this does not prove modern Crests are identical to Diysean systems or that Cyanis has Ancient authorization.
-
-**First combat / party usefulness:**
-- an Archive Scribe Engine or equivalent machine may activate soon after;
-- Nimera fights naturally with the group;
-- her Cardweaver / Conduit presentation may be established here;
-- Maevra remains non-playable.
-
-**Nimera and Cyanis's Card:**
-- Cyanis still retains the Card by direct royal permission;
-- Nimera gets a direct expert look and hears the firsthand history from the party;
-- she is interested in its abnormal response around Cyanis but remains precise about uncertainty;
-- she must not identify it as Might, Prime, Last Sentinel, a bearer bond, or known Ancient weapon yet.
-
-**Nimera and the Queen's seal:**
-- Maevra / the party show Nimera the permitted seal evidence;
-- this pays off Mirena's private expectation that Nimera would care about it;
-- Nimera does **not** identify a culprit or solve the mechanism;
-- her central conclusion is narrower: if Crown authentication is correct, **something caused the Queen's real personal seal magic to answer**;
-- the problem is therefore one of access / conditions / magical response, not the wording or provenance of the orders;
-- she may help distinguish what evidence would support normal physical use versus abnormal invocation, but she cannot yet choose between them.
-
-**Deeper Archive / recruitment:**
-- Nimera believes older restricted material and surviving deeper mechanisms may provide useful comparison for magically responsive objects, authority marks, binding conditions, or related practices;
-- this is a research direction, not proof that the Old City caused the seal anomaly;
-- she chooses to continue with the group because the abnormal Card, impossible seal response, and active Ancient archive are too important to abandon;
-- her continued involvement is voluntary;
-- **Nimera Pellan joins permanently**;
-- permanent combat-capable party becomes **Cyanis + Ilyra + Torren + Nimera**;
-- Maevra remains non-playable.
-
-**Six Faces:**
-Current terminology remains:
-> **NIMERA:** Might. Elements. Grace. Perception. Memory. Ruin.
-
-- `Resource` remains retired;
-- `Acuity` is retired → **Perception**;
-- Face-name `Change` is retired → **Memory**;
-- recognizing the same six-name arrangement from Wayfinder does not assign Cyanis's Card to Might.
-
-### Ch3 S020 — OATH SENTINEL — REOPENED / ANCIENT SEAL CHAMBER
-Historical S020 may retain compatible command-architecture atmosphere, First Command Warden staging, Last Sentinel confirmation, Ruby Card response, and Torren's routing-map discovery.
-
-Do **not** retain:
-- proof that two old valid records were combined into the modern order;
-- `request path`, `input/output`, `downstream system`, or machine-generated-modern-authority explanations;
-- any scene whose purpose is to explain how the wording of the impossible orders was assembled;
-- a purely abstract explanation of the seal mystery with no physical discovery in the final room.
-
-Current required functions:
-- **First Command Warden** is defeated under live encounter authority;
-- machine / display confirms `/LAST SENTINEL CONFIRMED/`;
-- this confirmation **does not recover Last Sentinel and does not make it usable**;
-- Cyanis's sealed Card resolves to stable **deep Ruby** only after that confirmation sequence;
-- the Ruby response is **not** a recovery event;
-- no Prime manifestation occurs here;
-- nobody identifies the Card as Might or Prime yet.
-
-**Final-room seal discovery:**
-- the protected room beyond the Warden contains a **much older physical authority seal**;
-- beside it is a surviving Diysean mechanism whose purpose is to **imbue / charge a physical seal with magical authority**;
-- the party does not need to recreate the process, but surviving structure / markings / magical residue and Nimera's examination establish the function with reasonable confidence;
-- the discovery shows concretely that magical authority can be placed **into the seal as a property of the object**, rather than requiring its owner to consciously cast through it every time the seal is used;
-- this is the first strong historical comparison for the Queen's personal magical seal.
-
-**Implication for Yahtrea:**
-- the ancient seal and imbuing apparatus predate Yahtrea by a very large margin;
-- their similarity in function to the Queen's magically authenticated personal seal implies that **Yahtrea did not invent the underlying magical royal-seal practice from nothing**;
-- dialogue may explicitly recognize that the Yahtrean seal tradition appears to be **much older than Yahtrea itself**;
-- the exact continuity remains unresolved: the Queen's present seal could be an inherited ancient relic, a later copy / successor, or a seal made through knowledge preserved from the older tradition;
-- do **not** state yet that the Queen's current physical seal is definitively a Diysean artifact or that this exact ancient machine created it.
-
-**Seal-mystery limit:**
-- the discovery makes the Queen's seal itself more important: its true age, origin, prior holders, construction, and any history of how its magical authority was renewed / preserved now matter;
-- it still does **not** identify who used the Queen's seal on the Card orders;
-- it does not prove whether the Queen's physical seal was secretly accessed;
-- it does not prove magical authority can be copied or transferred from one seal to another;
-- it does not provide the exact method used to create the suspect orders.
-
-**Routing discovery:**
-- Torren also copies a surviving Ancient routing display showing roads / high ground / water / major destination geometry extending beyond ancient Caelora;
-- the map itself contains **no readable `Cresthaven` name**;
-- one major site is preserved clearly enough to copy but cannot be confidently identified by the party while they are still in the Old City;
-- the Ancient route **continues north beyond that site** toward additional unresolved terrain / destination geometry;
-- Torren copies the major site and the surviving northward continuation for later comparison;
-- no character identifies the site as Cresthaven in S020.
-
-### Ch3 S021 — FOUR ANSWERS, NOT ONE — CRESTHAVEN IDENTIFICATION
-Current route-map handoff:
-- the party returns to Mirena with Torren's copied route geometry and the Old City discoveries;
-- **Mirena**, not the Ancient map and not the party in S020, recognizes the important unlabeled site;
-- Mirena explains that the site **used to be called Cresthaven**;
-- Cresthaven is associated with the abandoned Crown outpost in **Yahtrenhold** and becomes the party's next temporary working headquarters;
-- the copied Ancient route does **not** stop at Cresthaven: it continues **north beyond it**;
-- the farther northern destination / purpose remains unresolved at the end of Chapter 3.
-
-Other current Beat-5 functions remain:
-- bounded answers become **Prime / Might / Last Sentinel**;
-- ultimate meaning remains unknown;
-- **Last Sentinel remains identified / confirmed but unrecovered and unusable through the end of Chapter 3**;
-- its first manifestation during **Chapter 4 S022 — Brilliant Answer** is the recovery event and the point at which it first becomes gameplay-usable.
-
-### Chapter-3 production firewall through S021
-Do not regenerate:
-- containment / arrest on Caelora arrival;
-- public Mirena dialogue telling Calder she wants Nimera for the seal investigation;
-- forced Card separation from Cyanis after the Queen permits him to keep it;
-- computer-network language for Crown paperwork;
-- composite-order / old-record-assembly theory;
-- proof that Calder used the Queen's seal;
-- proof of exactly how the personal seal was used on the Card orders;
-- definitive confirmation that the Queen's present physical seal is itself a surviving Diysean artifact;
-- proof that ancient seal magic can simply be copied / transferred into another seal;
-- bearer confirmation;
-- Last Sentinel recovery, manifestation, or gameplay use before **Chapter 4 S022**;
-- premature Might / Prime identification;
-- `Cresthaven` written / spoken as a readable label on the Ancient routing map;
-- the party identifying the unlabeled site as Cresthaven before Mirena examines Torren's copy;
-- treating Cresthaven as the end of the Ancient route rather than an intermediate site on a route continuing north.
+The first verified modern manifestation of Last Sentinel remains a Chapter-4 event.
 
 # Other Dialogue Corrections
 
