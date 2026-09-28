@@ -12,16 +12,12 @@ const EXPECTED := {
 	"B03": {"environment": "CH03_ROYAL_PALACE", "background": "", "cutscene": "C2", "vfx": "V1", "encounter": "none"},
 	"B04": {"environment": "CH03_ROYAL_PALACE", "background": "", "cutscene": "C1", "vfx": "V1", "encounter": "none"},
 	"B05": {"environment": "CH03_OLD_CITY_ARCHIVES", "background": "", "cutscene": "C1", "vfx": "V1", "encounter": "none"},
-	"B06": {"environment": "CH03_OLD_CITY_ARCHIVES", "background": "", "cutscene": "C1", "vfx": "V1", "encounter": "none"},
-	"B07": {"environment": "CH03_OLD_CITY_ARCHIVES", "background": "CH03_OLD_CITY_ARCHIVES", "cutscene": "C1", "vfx": "V1", "encounter": "random_allowed"},
-	"B08": {"environment": "CH03_OLD_CITY_ARCHIVES", "background": "CH03_OLD_CITY_ARCHIVES", "cutscene": "C1", "vfx": "V1", "encounter": "random_allowed"},
-	"B09": {"environment": "CH03_OLD_CITY_ARCHIVES", "background": "CH03_OLD_CITY_ARCHIVES", "cutscene": "C1", "vfx": "V1", "encounter": "random_allowed"},
-	"B10": {"environment": "CH03_OLD_CITY_ARCHIVES", "background": "CH03_OLD_CITY_ARCHIVES", "cutscene": "C1", "vfx": "V1", "encounter": "random_allowed"},
-	"B11": {"environment": "CH03_OLD_CITY_ARCHIVES", "background": "CH03_ARCHIVE_SCRIBE_ENGINE", "cutscene": "C2", "vfx": "V2", "encounter": "fixed_authored"},
-	"B12": {"environment": "CH03_OLD_CITY_ARCHIVES", "background": "", "cutscene": "C2", "vfx": "V1", "encounter": "none"},
-	"B13": {"environment": "CH03_ROYAL_PALACE", "background": "", "cutscene": "C1", "vfx": "V1", "encounter": "none"},
-	"B14": {"environment": "CH03_CRESTHAVEN", "background": "CH03_FIRST_COMMAND_WARDEN", "cutscene": "C2", "vfx": "V3", "encounter": "mixed"},
-	"B15": {"environment": "CH03_CRESTHAVEN", "background": "", "cutscene": "C2", "vfx": "V1", "encounter": "none"},
+	"B06": {"environment": "CH03_OLD_CITY_ARCHIVES", "background": "CH03_OLD_CITY_ARCHIVES", "cutscene": "C1", "vfx": "V1", "encounter": "random_allowed"},
+	"B07": {"environment": "CH03_OLD_CITY_ARCHIVES", "background": "CH03_MEMORY_CONSTRUCT", "cutscene": "C2", "vfx": "V2", "encounter": "mixed"},
+	"B08": {"environment": "CH03_OLD_CITY_ARCHIVES", "background": "", "cutscene": "C2", "vfx": "V1", "encounter": "none"},
+	"B09": {"environment": "CH03_ROYAL_PALACE", "background": "", "cutscene": "C1", "vfx": "V1", "encounter": "none"},
+	"B10": {"environment": "CH03_CRESTHAVEN", "background": "CH03_AUTHORITY_CONSTRUCT", "cutscene": "C2", "vfx": "V3", "encounter": "mixed"},
+	"B11": {"environment": "CH03_CRESTHAVEN", "background": "", "cutscene": "C2", "vfx": "V1", "encounter": "none"},
 	"C06": {"environment": "CH03_CRESTHAVEN", "background": "", "cutscene": "C0", "vfx": "V1", "encounter": "none"},
 	"C07": {"environment": "CH03_CRESTHAVEN", "background": "", "cutscene": "C0", "vfx": "V1", "encounter": "none"},
 }
@@ -81,27 +77,33 @@ func _validate_current_story_boundaries() -> void:
 	var b01 = load(PRESENTATION_DIR + "B01.tres")
 	var b02 = load(PRESENTATION_DIR + "B02.tres")
 	var b03 = load(PRESENTATION_DIR + "B03.tres")
+	var b05 = load(PRESENTATION_DIR + "B05.tres")
 	var b06 = load(PRESENTATION_DIR + "B06.tres")
+	var b07 = load(PRESENTATION_DIR + "B07.tres")
 	var b08 = load(PRESENTATION_DIR + "B08.tres")
+	var b09 = load(PRESENTATION_DIR + "B09.tres")
+	var b10 = load(PRESENTATION_DIR + "B10.tres")
 	var b11 = load(PRESENTATION_DIR + "B11.tres")
-	var b12 = load(PRESENTATION_DIR + "B12.tres")
-	var b14 = load(PRESENTATION_DIR + "B14.tres")
-	var b15 = load(PRESENTATION_DIR + "B15.tres")
 	var c06 = load(PRESENTATION_DIR + "C06.tres")
 	var c07 = load(PRESENTATION_DIR + "C07.tres")
 	_expect(str(b01.encounter_mode) == "none" and b01.has_tag("FUNCTIONING_CAPITAL"), "B01 Caelora arrival must remain non-hostile")
 	_expect(b02.has_tag("NO_RETIRED_CH2_MURAL"), "B02 must not restore the retired Chapter-2 mural")
 	_expect(b03.has_tag("CALDER_UNREVEALED") and b03.has_tag("NO_CARD_CLASSIFICATION"), "B03 must preserve the impossible-orders reveal firewall")
-	_expect(b06.has_tag("NIMERA_PERMANENT_JOIN") and b06.has_tag("NO_ANCIENT_BARRIER"), "B06 must recruit Nimera without restoring the Ancient Barrier")
-	_expect(b08.has_tag("PRIME_TERM_UNDEFINED") and b08.has_tag("NO_CARD_PRIME_CLASSIFICATION"), "B08 may establish the Ancient Prime term without classifying Cyanis's Card")
-	_expect(str(b11.encounter_mode) == "fixed_authored" and b11.has_tag("ARCHIVE_SCRIBE_ENGINE_BOSS"), "B11 must be the mandatory Archive Scribe Engine boss")
-	_expect(b11.has_tag("NO_FIRST_COMMAND_WARDEN") and b11.has_tag("NO_RUBY_STABILIZATION"), "B11 must not inherit the retired Caelora Warden/Ruby sequence")
-	_expect(b12.has_tag("WESTWAYS_RECORDBOOK") and b12.has_tag("WAYFINDER_HAND_COPY"), "B12 must preserve the current recordbook/Wayfinder-copy provenance")
-	_expect(str(b14.encounter_mode) == "mixed" and b14.has_tag("FIRST_COMMAND_WARDEN"), "B14 must own the Cresthaven tower-base traversal and First Command Warden")
-	_expect(b14.has_tag("PREVIOUS_ERROR_THEN_LAST_SENTINEL_CONFIRMED") and b14.has_tag("LAST_SENTINEL_CONFIRMED_FINAL_MESSAGE"), "B14 must preserve the Warden shutdown message order")
-	_expect(b14.has_tag("RUBY_AFTER_WARDEN_INERT") and b14.has_tag("NO_PRIME_MANIFESTATION"), "B14 Ruby stabilization must occur only after the inert Warden and without Prime manifestation")
-	_expect(b15.has_tag("CRESTHAVEN_HEADQUARTERS") and b15.has_tag("IVORYBRIDGE_HYPOTHESIS"), "B15 must establish headquarters and keep Ivorybridge as a hypothesis")
-	_expect(b15.has_tag("NO_PRIME_MANIFESTATION"), "B15 must not manifest Last Sentinel")
+	_expect(b05.has_tag("NIMERA_PERMANENT_JOIN") and b05.has_tag("NO_ANCIENT_BARRIER"), "B05 must recruit Nimera without restoring the Ancient Barrier")
+	_expect(b06.has_tag("LOWER_ARCHIVES") and b06.has_tag("BURIED_COLLECTIONS") and b06.has_tag("HALL_OF_SEALS"), "B06 must preserve all three archive investigation subzones")
+	_expect(b06.has_tag("PRIME_TERM_UNDEFINED") and b06.has_tag("NO_CARD_PRIME_CLASSIFICATION"), "B06 may establish the old Prime term without classifying Cyanis's Card")
+	_expect(str(b07.encounter_mode) == "mixed" and b07.has_tag("MEMORY_CONSTRUCT_BOSS"), "B07 must contain Deep Archives pressure plus the mandatory Memory Construct")
+	_expect(b07.has_tag("NO_AUTHORITY_CONSTRUCT") and b07.has_tag("NO_RUBY_STABILIZATION"), "B07 must not inherit the Cresthaven Authority Construct/Ruby sequence")
+	_expect(b08.has_tag("WESTWAYS_RECORDBOOK") and b08.has_tag("WAYFINDER_HAND_COPY"), "B08 must preserve the current recordbook/Wayfinder-copy provenance")
+	_expect(b08.has_tag("ORIGINAL_ANCIENT_PURPOSE_UNKNOWN"), "B08 must not falsely identify the original function of the later seal-reproduction workspace")
+	_expect(b09.has_tag("CRESTHAVEN_IDENTIFIED") and b09.has_tag("OFFSCREEN_REST_ONLY") and b09.has_tag("NO_REST_CHARACTER_SCENE"), "B09 must identify Cresthaven and keep rest as an offscreen transition only")
+	_expect(str(b10.encounter_mode) == "mixed" and b10.has_tag("AUTHORITY_CONSTRUCT"), "B10 must own the Cresthaven tower-base traversal and Authority Construct")
+	_expect(b10.has_tag("PREVIOUS_ERROR_THEN_LAST_SENTINEL_CONFIRMED") and b10.has_tag("LAST_SENTINEL_CONFIRMED_FINAL_MESSAGE"), "B10 must preserve the Authority Construct shutdown message order")
+	_expect(b10.has_tag("RUBY_AFTER_AUTHORITY_CONSTRUCT_INERT") and b10.has_tag("NO_PRIME_MANIFESTATION"), "B10 Ruby stabilization must occur only after the inert Authority Construct and without Prime manifestation")
+	_expect(b11.has_tag("CRESTHAVEN_HEADQUARTERS") and b11.has_tag("IVORYBRIDGE_HYPOTHESIS"), "B11 must establish headquarters and keep Ivorybridge as a hypothesis")
+	_expect(b11.has_tag("NO_PRIME_MANIFESTATION"), "B11 must not manifest Last Sentinel")
+	for retired_slot in ["B12", "B13", "B14", "B15"]:
+		_expect(not ResourceLoader.exists(PRESENTATION_DIR + retired_slot + ".tres"), "Retired Chapter-3 presentation slot must be removed: %s" % retired_slot)
 	for scene in [c06, c07]:
 		_expect(str(scene.environment_family) == "CH03_CRESTHAVEN", "Chapter-3 Character-Life scenes must occur during Cresthaven cleanup")
 
@@ -130,7 +132,7 @@ func _expect(condition: bool, message: String) -> void:
 
 func _finish() -> void:
 	if failures.is_empty():
-		print("Diyse Chapter 3 current B01-B15 HD-2D presentation validation passed.")
+		print("Diyse Chapter 3 current B01-B11 HD-2D presentation validation passed.")
 		quit(0)
 		return
 	for failure in failures:

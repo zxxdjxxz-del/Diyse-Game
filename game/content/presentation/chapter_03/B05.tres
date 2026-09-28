@@ -11,4 +11,4 @@ battle_background_family = ""
 cutscene_tier = "C1"
 vfx_tier = "V1"
 encounter_mode = "none"
-presentation_tags = Array[String](["HD2D", "NO_RANDOM", "OLD_CITY_ARCHIVE_DESCENT", "MAEVRA_STAYS_CAELORA", "DUNGEON_ENTRY"])
+presentation_tags = Array[String](["HD2D", "NO_RANDOM", "LOWER_ARCHIVES_ENTRANCE", "UPPER_ARCHIVES_ACTIVE", "NIMERA_PERMANENT_JOIN", "NO_ANCIENT_BARRIER", "FOUR_PERSON_PARTY_BEGINS", "MIRENA_RETURNS_TO_CROWN_TRACK"])

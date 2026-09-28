@@ -1,20 +1,20 @@
 # Chapter 3 — Current HD-2D Presentation Authority
 
-**Status:** CURRENT B01–B15 / C06–C07 PRESENTATION SIDECARS  
+**Status:** CURRENT B01–B11 / C06–C07 PRESENTATION SIDECARS  
 **Dialogue pairing:** `game/content/dialogue/current/chapter_03/`  
 **Story authority:** `docs/02_STORY/CHAPTERS/CHAPTER_03.md`
 
 Current scene sidecars:
-- mandatory: `B01.tres` through `B15.tres`;
+- mandatory: `B01.tres` through `B11.tres`;
 - Character-Life: `C06.tres`, `C07.tres`.
 
 Legacy `S017–S021` and `H01–H04` presentation identities are retired. The old presentation layer must not restore:
 - hostile Caelora authority encounters;
 - the Ancient Barrier;
 - late Nimera recruitment;
-- a Caelora First Command Warden;
+- a Caelora Authority Construct;
 - a Deep Command Route;
-- Ruby stabilization at the Archive Scribe Engine;
+- Ruby stabilization at the Memory Construct;
 - extra retired Character-Life scenes.
 
 Current environment families:
