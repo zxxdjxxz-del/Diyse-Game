@@ -176,7 +176,6 @@ Current Chapter-3 dialogue respects the presentation locks:
 - Beat 12 exits the Old City with a direct cut back to Caelora;
 - Beat 14 uses a player preparation window and skips the road to Cresthaven;
 - Beat 15 demonstrates Cresthaven's hub functions through active reopening work rather than a spoken menu;
-- Regional Hunt #3 is unlocked without prematurely naming or explaining its boss;
 - Chapter 3 remains active during cleanup until explicit player advance to Chapter 4.
 
 ---
