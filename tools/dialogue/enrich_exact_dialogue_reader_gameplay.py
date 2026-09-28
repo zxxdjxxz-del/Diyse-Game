@@ -87,11 +87,11 @@ BRIDGES = (
         "Construct • Shield Construct • Flash Drone • Arcdrift",
         "This is the opening Beat-6 Archive pool. Ruin Spider, Scriptshade, and Maul Construct are deliberately held back.",
     ), CH3, ("Construct", "Shield Construct", "Flash Drone", "Arcdrift")),
-    ("Authored Stop — Card Cases", "Enemy Roster — Buried Collections", (
+    ("Card Cases", "Enemy Roster — Buried Collections", (
         "Construct • Shield Construct • Flash Drone • Arcdrift • Ruin Spider",
         "Ruin Spider enters in the Buried Collections. Scriptshade and Maul Construct remain held back.",
     ), CH3, ("Construct", "Shield Construct", "Flash Drone", "Arcdrift", "Ruin Spider")),
-    ("Authored Stop — Working Seal", "Enemy Roster — Hall of Seals", (
+    ("Working Seal", "Enemy Roster — Hall of Seals", (
         "Construct • Shield Construct • Flash Drone • Arcdrift • Ruin Spider • Scriptshade",
         "Scriptshade enters in the Hall of Seals. Maul Construct remains held back until the Deep Archives.",
     ), CH3, ("Construct", "Shield Construct", "Flash Drone", "Arcdrift", "Ruin Spider", "Scriptshade")),
@@ -99,7 +99,7 @@ BRIDGES = (
         "Construct • Maul Construct • Flash Drone • Arcdrift • Ruin Spider • Scriptshade",
         "Maul Construct enters here. Once it enters, Shield Construct leaves the Deep Archives random pool.",
     ), CH3, ("Construct", "Maul Construct", "Flash Drone", "Arcdrift", "Ruin Spider", "Scriptshade")),
-    ("Boss Battle — Memory Construct", "Boss — Memory Construct", (
+    ("Memory Construct", "Boss — Memory Construct", (
         "Memory Construct",
         "Mandatory authored boss only. The immediate pre-boss staging pocket is safe from random encounters.",
     ), CH3, ("Memory Construct",)),
@@ -107,7 +107,7 @@ BRIDGES = (
         "Construct • Shield Construct • Maul Construct • Flame Construct • Blade Drone • Ruin Spider",
         "Tower Foundation starts at 4–5 bodies; later Command Interior formations may reach 6. The immediate Authority Construct approach is safe.",
     ), CH3, ("Construct", "Shield Construct", "Maul Construct", "Flame Construct", "Blade Drone", "Ruin Spider")),
-    ("Boss Battle — Authority Construct", "Boss — Authority Construct", (
+    ("Authority Construct", "Boss — Authority Construct", (
         "Authority Construct",
         "Mandatory authored boss only. PREVIOUS ERROR → LAST SENTINEL CONFIRMED remains the protected shutdown order.",
     ), CH3, ("Authority Construct",)),
