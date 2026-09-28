@@ -70,42 +70,6 @@ Current direction:
 Dialogue-generation brief:
 > Put Ilyra and Nimera together during ordinary downtime at Cresthaven. Let them behave like themselves. Find a low-stakes premise that gives them something genuinely fun to react to. Do not force injury, treatment, trauma, consent instruction, lore, or an emotional breakthrough. Once the interaction finds its point and lands, get out.
 
----
-
-## Regional Hunt #3 — Archive Judgment Engine
-**Status:** STORY ACCESS COMPLETE / NO SEPARATE HUNT STORY FLOW REQUIRED
-
-Unlock authority:
-- during the Cresthaven handoff, Mirena tells the party that continuing Crown work in the Old City Archives has uncovered / opened a previously inaccessible passage;
-- Mirena does not know what waits at its end;
-- that conversation is the canonical in-world unlock for **Regional Hunt #3 — Archive Judgment Engine**;
-- once cleanup control begins, the party may return to the Old City Archives and investigate the new passage;
-- normal Hunt party is **Cyanis + Ilyra + Torren + Nimera**;
-- Mirena and Maevra do not accompany the Hunt as combatants / default travelers.
-
-Global Regional Hunt structure applies:
-> **chapter-cleanup unlock / access notice → clear entrance → additional optional area → Hunt boss → rewards**
-
-Therefore the remaining Hunt work belongs to:
-- area design;
-- ordinary encounter placement;
-- boss implementation / validation;
-- treasure and reward placement when sequencing permits.
-
-It does **not** require a separate Chapter-3 investigation subplot, long dialogue sequence, boss-lore scene, or post-Hunt debrief.
-
-Story firewall:
-- do not reveal the recent reader identity;
-- do not reveal the seal-copying practitioner identity;
-- do not reveal Calder's hidden role;
-- do not solve the Queen-seal mechanism;
-- do not solve `PREVIOUS ERROR`;
-- do not recover / awaken Last Sentinel;
-- do not explain why the Yahtrean Crest appears on Ancient material;
-- do not turn the optional Hunt into a replacement mandatory Chapter-3 ending.
-
-Exact boss mechanics remain in `09_ENEMIES_AND_ENCOUNTERS/REGIONAL_HUNTS/REGIONAL_HUNT_03.md`.
-Exact rewards remain deferred under item / equipment / reward-placement authority.
 
 ---
 
@@ -122,7 +86,6 @@ Corrections from that audit are now applied:
 - Archive-passage Hunt unlock — **LOCKED**
 - C06 / canonical C06 — **STRUCTURE + EXACT DIALOGUE COMPLETE — 75 lines**
 - C07 / canonical C07 — **STRUCTURE + EXACT DIALOGUE COMPLETE — 67 lines**
-- Regional Hunt #3 story/access layer — **COMPLETE**
 - Chapter-3 cleanup / continuity audit — **COMPLETE**
 - final `CHAPTER_03.md` consolidation — **COMPLETE**
 - Chapter-3 Agent-Brain dialogue production — **COMPLETE FOR BEATS 1–15 + C06/C07**
