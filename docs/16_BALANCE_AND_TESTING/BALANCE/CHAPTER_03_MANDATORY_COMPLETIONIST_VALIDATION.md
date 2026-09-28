@@ -45,7 +45,6 @@ This correction does not itself change Power coefficients for:
 - Command Ring Drone;
 - Grand Inquisitor Frame;
 - Authority Construct;
-- Archive Judgment Engine.
 
 Any later HP/stat/tuning change must come from fresh encounter validation.
 
@@ -100,17 +99,6 @@ Current ordinary pool uses:
 
 Authority Construct remains the mandatory boss at the end of the short Cresthaven tower-base dungeon.
 
-### Regional Hunt #3 current structural target
-Archive Judgment Engine is available during cleanup after Cresthaven becomes headquarters.
-
-Current structure:
-- one continuous HP bar;
-- one targetable body;
-- no phases / adds / support objects;
-- no command-Warden mechanics;
-- Judgment Lance / Archive Verdict / Lock Verdict / Enforcement Crash / Record Guard;
-- Lock Verdict may inflict Stun;
-- inherited Lv15 / HP4,928 line and Lv15 recommendation are provisional pending current cleanup-state testing.
 
 ### Authority Construct current structural target
 - one continuous HP bar;
@@ -167,7 +155,6 @@ Run fresh mandatory-vs-completionist tests for the encounters that actually belo
 - any currently approved optional Grand Inquisitor Frame placement;
 - Cresthaven tower-base ordinary formations;
 - Authority Construct;
-- Regional Hunt #3 at its actual access state.
 
 For every encounter use both required baselines:
 1. **mandatory / critical-path party**;
