@@ -5,15 +5,20 @@
 **Current whole-project written authority:** **v2.20 / Audit135** plus newer accepted corrections.  
 **Migration rule:** later current names, chapter reindexing, four-element rules, removed-system firewalls, and current Prime-restoration rules supersede stale earlier enemy text.
 
-Exactly:
-> **11 Regional Hunts**
+Current active count:
+> **9 Regional Hunts**
+
+Retired/open slots:
+- **#2** — retired 2026-09-27; Scaldback moved into the Chapter-2 ordinary pool;
+- **#3** — retired 2026-09-27; Archive Judgment Engine removed from Chapter 3.
+
+Later hunt numbers remain unchanged pending a separate numbering decision.
 
 Recommended level is a preparedness target, not an access gate.
 
 | # | Regional Hunt / form | Rec. Lv | HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR | Architecture |
 |---:|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---|
 | 1 | **Cistern Devourer** | 7 | 2,706 | 43 | 26 | 30 | 27 | 24 | 5 | 5 | one bar |
-| 2 | **Scaldback** | 11 | 3,760 | 54 | 36 | 38 | 35 | 28 | 0 | 10 | one bar |
 | 4 | **Crown Prototype** | 20 | 6,503 | 81 | 68 | 57 | 54 | 33 | 5 | 10 | one bar |
 | 5 | **Whitehorn Ravager** | 26 | 8,678 | 104 | 74 | 70 | 64 | 41 | 10 | 5 | one bar |
 | 6 | **Winterglass Titan** | 32 | 10,879 | 101 | 125 | 90 | 94 | 34 | 0 | 10 | one bar / Frozen Shell → Thawed Core same-bar |
@@ -40,7 +45,7 @@ Support assemblies:
 Regional Hunts remain above numbered-chapter Elites and below Major Hunts as a class.
 
 ## Power completion — v73
-All 11 Regional Hunts have:
+All current active Regional Hunts have:
 - exact direct-damage Power;
 - Base Hit;
 - damage typing;
@@ -50,7 +55,7 @@ All 11 Regional Hunts have:
 - exact support Power classification.
 
 Status:
-> **REGIONAL HUNTS #1–#11 POWER COMPLETE**
+> **CURRENT ACTIVE REGIONAL HUNTS POWER COMPLETE**
 
 No Regional Hunt fresh-body transition restores a spent Prime identity.
 
@@ -60,8 +65,8 @@ Major Hunts remain separate.
 Regional Hunt #11 — Throne of Emperor Vaelkor is **FORMALLY VALIDATED v88** at its retained Lv61–62 recommendation. Mandatory Chapter-12 clear is Lv57; completionist Chapter-12 entry is Lv63 and rises through Lv64–66. Exact within-chapter timing remains a story/world-state dependency. No numerical or Power change.
 
 
-## Regional Hunt #2 identity correction — 2026-09-23
-Regional Hunt #2 is **Scaldback**, replacing retired **Transfer Executioner**. Its retained historical raw line is provisional for the new monster and requires fresh validation before final certification.
+## Regional Hunt #2 retirement — 2026-09-27
+Regional Hunt #2 is retired. **Scaldback is now an ordinary Chapter-2 enemy**, so its former Hunt raw line / recommendation / boss architecture are historical only and must not be used for the ordinary enemy.
 
 
 > **Regional Hunt #3 retired 2026-09-27:** Archive Judgment Engine was removed from Chapter 3. Later hunt numbers remain unchanged pending a separate numbering decision.
