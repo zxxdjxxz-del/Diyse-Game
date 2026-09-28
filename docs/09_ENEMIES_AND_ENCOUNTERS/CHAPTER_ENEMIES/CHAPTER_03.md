@@ -134,15 +134,18 @@ The previous ordinary-enemy Stun-source assignment to Command Guard Frame is ret
 Exact current formation compositions and sub-area eligibility are owned by:
 `../ENCOUNTER_FORMATIONS/CHAPTER_03_FORMATIONS.md`
 
-Body-count structure remains:
-- Beat 7 Lower Archives — **3–4 enemies**
-- Beat 8 Buried Collections — **4–5 enemies**
-- Beat 9 Hall of Seals — **4–5 enemies**
-- Beat 10 Deep Archives — **4–6 enemies**
-- Cresthaven Tower Foundation — **4–5 enemies**
-- Cresthaven Command Interior — **4–6 enemies**
-- Cresthaven Warden approach — **5–6 enemies**
-- simultaneous ordinary-enemy ceiling — **6**
+Old City rollout structure:
+- Beat 7 Lower Archives — Construct / Shield Construct / Flash Drone / Arcdrift; **3–4 enemies confirmed**
+- Beat 8 Buried Collections — **Ruin Spider enters**
+- Beat 9 Hall of Seals — **Scriptshade enters**
+- Beat 10 Deep Archives — **Maul Construct enters; Shield Construct leaves the Beat-10 random pool**
+- exact Beat 8–10 body-count bands are under the current formation rebuild and must not inherit the superseded 4–5 / 4–5 / 4–6 escalation automatically
+
+Cresthaven body-count structure remains provisional pending its own formation pass:
+- Tower Foundation — **4–5 enemies**
+- Command Interior — **4–6 enemies**
+- Warden approach — **5–6 enemies**
+- simultaneous ordinary-enemy ceiling there remains **6** until reviewed
 
 # Validation boundary
 
@@ -155,6 +158,5 @@ Still open:
 - encounter frequencies;
 - mandatory/completionist level anchors;
 - Memory Construct and Authority Construct current-party validation;
-- Regional Hunt #3 cleanup-state validation.
 
 Do not silently restore the September 23 roster to fill these gaps.
