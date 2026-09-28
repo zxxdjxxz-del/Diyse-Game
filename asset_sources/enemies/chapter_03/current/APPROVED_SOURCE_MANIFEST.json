@@ -2,9 +2,85 @@
   "schema_version": 1,
   "chapter": 3,
   "repository_root": "asset_sources/enemies/chapter_03/current",
-  "locked_count": 1,
-  "binary_sync_count": 1,
+  "locked_count": 8,
+  "binary_sync_count": 8,
+  "carryover_visuals": {
+    "construct": "asset_sources/enemies/chapter_01/current/construct.png",
+    "shield_construct": "asset_sources/enemies/chapter_01/current/shield_construct.png",
+    "arcdrift": "asset_sources/enemies/chapter_02/current/arcdrift.png"
+  },
   "masters": {
+    "maul_construct": {
+      "display_name": "Maul Construct",
+      "file": "01_maul_construct.png",
+      "format": "PNG",
+      "width": 1122,
+      "height": 1402,
+      "size_bytes": 1690848,
+      "sha256": "afd5d3835bbb918a7d9e0fc06cf6bca27073d926a1b0ff7f7e473e3f0a6537c1",
+      "exact_binary_sync": "complete"
+    },
+    "flame_construct": {
+      "display_name": "Flame Construct",
+      "file": "02_flame_construct.png",
+      "format": "PNG",
+      "width": 1122,
+      "height": 1402,
+      "size_bytes": 1660815,
+      "sha256": "399c68ecb8b90e8e66dc13c0184e0f96f7c56a031ca061c62b668192ee2eb1bd",
+      "exact_binary_sync": "complete"
+    },
+    "flash_drone": {
+      "display_name": "Flash Drone",
+      "file": "03_flash_drone.png",
+      "format": "PNG",
+      "width": 1199,
+      "height": 1312,
+      "size_bytes": 1457885,
+      "sha256": "d564a78b7118076c76afed6920b24e7e409f50fa0bb300ed39b7e3b8b61258e3",
+      "exact_binary_sync": "complete"
+    },
+    "blade_drone": {
+      "display_name": "Blade Drone",
+      "file": "04_blade_drone.png",
+      "format": "PNG",
+      "width": 1198,
+      "height": 1313,
+      "size_bytes": 1564342,
+      "sha256": "e7a3a6b63454af0cb5753c0eb6dd6e6ba0d9593b3044d41780e830790fa72895",
+      "exact_binary_sync": "complete"
+    },
+    "ruin_spider": {
+      "display_name": "Ruin Spider",
+      "file": "05_ruin_spider.png",
+      "format": "PNG",
+      "width": 1151,
+      "height": 1367,
+      "size_bytes": 1715361,
+      "sha256": "49351a3f8c478d59405d4bfa0c64b7bcae0636d5b5be80c6a18e6b475afae408",
+      "exact_binary_sync": "complete"
+    },
+    "memory_construct": {
+      "display_name": "Memory Construct",
+      "file": "06_memory_construct.png",
+      "format": "PNG",
+      "width": 1448,
+      "height": 1086,
+      "size_bytes": 2178168,
+      "sha256": "203b299ec1a6b3b6001eb688a0e11e0ba61a1084a8edc6929c90bda6662f4812",
+      "exact_binary_sync": "complete"
+    },
+    "authority_construct": {
+      "display_name": "Authority Construct",
+      "file": "07_authority_construct.png",
+      "format": "PNG",
+      "width": 1122,
+      "height": 1402,
+      "size_bytes": 1941860,
+      "sha256": "88203b9cff49f226f4b15d0c7e7628ff02515c3bcaaadb331d5b4459ec61581f",
+      "exact_binary_sync": "complete",
+      "image_generation_id": "e72f0de7-f0bc-44df-8dc9-58fb78be8fe3"
+    },
     "scriptshade": {
       "display_name": "Scriptshade",
       "file": "scriptshade.png",
