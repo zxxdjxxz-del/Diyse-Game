@@ -54,7 +54,6 @@ This is a **chapter-role register**, so a recurring identity may appear in multi
 | 3 | Ordinary | Blade Drone — Cresthaven only |
 | 3 | Mandatory named/boss | Memory Construct |
 | 3 | Mandatory named/boss | Authority Construct — one bar / same-bar command-state shift |
-| 3 | Regional Hunt | Regional Hunt #3 — Archive Judgment Engine |
 | 4 | Ordinary/carryover | Reaction Node |
 | 4 | Ordinary/carryover | Composite Elemental |
 | 4 | Ordinary/carryover | Reaction Hound |
@@ -297,12 +296,9 @@ Mandatory bosses:
 - Memory Construct;
 - Authority Construct.
 
-Regional Hunt:
-- Archive Judgment Engine.
 
 Current Stun assignment:
 - Authority Construct;
-- Archive Judgment Engine;
 - ordinary-enemy introduction — **OPEN after September 27 roster revision**.
 
 Historical lawful/nonlethal Caelora identities remain in their owner files but have **no current Chapter-3 placement** and are not counted in the active chapter roster.
@@ -674,3 +670,8 @@ Memory Construct is now registered as a mandatory named/boss rather than an ordi
 The active Chapter-3 chapter-role rows now contain only current combat content.
 
 The former lawful-Caelora confrontation package is retained historically in its owner files but removed from the active Chapter-3 master-register rows because the revised 15-beat route contains no such encounters.
+
+
+## Chapter-3 Regional Hunt retirement — 2026-09-27
+- **Regional Hunt #3 — Archive Judgment Engine is retired and removed from Chapter 3.**
+- Later Regional Hunt numbering is intentionally left unchanged pending a separate numbering pass.
