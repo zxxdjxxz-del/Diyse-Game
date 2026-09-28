@@ -2,7 +2,7 @@
 """Restore the approved world intro and currently validated encounter bridges to the Ch0-3 reader.
 
 Run after presentation cleanup/heading normalization and before layout repair.
-All 2,021 spoken lines are immutable.
+All 2,015 spoken lines are immutable.
 """
 from __future__ import annotations
 
@@ -67,46 +67,67 @@ BRIDGES = (
 
     ("Sealed Side Door", "Enemy Roster — Old Waterworks", (
         "Bogshell • Cistern Leech • Needlewing",
-    ), CH2, ("Bogshell", "Cistern Leech", "Needlewing")),
+        "Later hot-runoff / steam / mineral sectors add Scaldback. Scaldback is an ordinary enemy, not a Regional Hunt.",
+    ), CH2, ("Bogshell", "Cistern Leech", "Needlewing", "Scaldback")),
     ("Leviathan Chamber Approach", "Boss — Archive Leviathan", (
         "Archive Leviathan",
     ), CH2, ("Archive Leviathan",)),
     ("Threshold", "Enemy Roster — Sunken Archive", (
-        "Archive Current • Memory Scribe • Bogshell • Cistern Leech • Needlewing",
-    ), CH2, ("Archive Current", "Memory Scribe", "Bogshell", "Cistern Leech", "Needlewing")),
+        "Bogshell • Cistern Leech • Needlewing • Arcdrift",
+        "Arcdrift is the Archive-specific ordinary identity. Memory Scribe is retired from Chapter 2.",
+    ), CH2, ("Bogshell", "Cistern Leech", "Needlewing", "Arcdrift")),
     ("The Alarm", "Enemy Roster — Old Bastion", (
-        "Ruin Shieldbearer • Black Host Crossbowman • Black Host War-Sorcerer • Black Host Raider • Rift Hound",
-    ), CH2, ("Ruin Shieldbearer", "Black Host Crossbowman", "Black Host War-Sorcerer", "Black Host Raider", "Rift Hound")),
+        "Ruin Shieldbearer • Black Host Crossbowman • Black Host War-Sorcerer • Black Host Raider • War Hound",
+    ), CH2, ("Ruin Shieldbearer", "Black Host Crossbowman", "Black Host War-Sorcerer", "Black Host Raider", "War Hound")),
     ("Authority", "Boss — Commander Rhazek — Bastion Master", (
         "Commander Rhazek — Bastion Master",
     ), CH2, ("Commander Rhazek", "Bastion Master")),
-    ("Still Burns", "Optional Regional Hunt — Scaldback", (
-        "Scaldback",
-    ), CH2, ("Scaldback",)),
 
-    ("Short Stop — Route Marks", "Enemy Roster — Old City Archives", (
-        "Lower Archives through Hall of Seals: Judgment Frame • Erasure Wisp • Authority Lens.",
-        "Deep Archives adds Archive Current. Grand Inquisitor Frame is a rare late strong normal-pool Elite, maximum one per formation.",
-    ), CH3, ("Judgment Frame", "Erasure Wisp", "Authority Lens", "Archive Current", "Grand Inquisitor Frame")),
-    ("Boss Battle — Archive Scribe Engine", "Boss — Archive Scribe Engine", (
-        "Archive Scribe Engine",
-    ), CH3, ("Archive Scribe Engine",)),
+    ("Short Stop — Route Marks", "Enemy Roster — Lower Archives", (
+        "Construct • Shield Construct • Flash Drone • Arcdrift",
+        "This is the opening Beat-6 Archive pool. Ruin Spider, Scriptshade, and Maul Construct are deliberately held back.",
+    ), CH3, ("Construct", "Shield Construct", "Flash Drone", "Arcdrift")),
+    ("Authored Stop — Card Cases", "Enemy Roster — Buried Collections", (
+        "Construct • Shield Construct • Flash Drone • Arcdrift • Ruin Spider",
+        "Ruin Spider enters in the Buried Collections. Scriptshade and Maul Construct remain held back.",
+    ), CH3, ("Construct", "Shield Construct", "Flash Drone", "Arcdrift", "Ruin Spider")),
+    ("Authored Stop — Working Seal", "Enemy Roster — Hall of Seals", (
+        "Construct • Shield Construct • Flash Drone • Arcdrift • Ruin Spider • Scriptshade",
+        "Scriptshade enters in the Hall of Seals. Maul Construct remains held back until the Deep Archives.",
+    ), CH3, ("Construct", "Shield Construct", "Flash Drone", "Arcdrift", "Ruin Spider", "Scriptshade")),
+    ("Short Stop — Old Copying Floor", "Enemy Roster — Deep Archives", (
+        "Construct • Maul Construct • Flash Drone • Arcdrift • Ruin Spider • Scriptshade",
+        "Maul Construct enters here. Once it enters, Shield Construct leaves the Deep Archives random pool.",
+    ), CH3, ("Construct", "Maul Construct", "Flash Drone", "Arcdrift", "Ruin Spider", "Scriptshade")),
+    ("Boss Battle — Memory Construct", "Boss — Memory Construct", (
+        "Memory Construct",
+        "Mandatory authored boss only. The immediate pre-boss staging pocket is safe from random encounters.",
+    ), CH3, ("Memory Construct",)),
     ("Short Ancient Dungeon — Tower Foundation", "Enemy Roster — Cresthaven Ancient Tower Base", (
-        "Watch Sentry • Watch Ballista • Watch Captain Frame • Command Guard Frame • Authority Lens • Command Ring Drone",
-        "Watch Captain Frame remains maximum one per formation. The immediate First Command Warden approach is safe.",
-    ), CH3, ("Watch Sentry", "Watch Ballista", "Watch Captain Frame", "Command Guard Frame", "Authority Lens", "Command Ring Drone", "First Command Warden")),
-    ("First Command Warden", "Boss — First Command Warden", (
-        "First Command Warden",
-    ), CH3, ("First Command Warden",)),
-    ("The Northern Lead", "Regional Hunt — Archive Judgment Engine", (
-        "Archive Judgment Engine",
-    ), CH3, ("Archive Judgment Engine",)),
+        "Construct • Shield Construct • Maul Construct • Flame Construct • Blade Drone • Ruin Spider",
+        "Tower Foundation starts at 4–5 bodies; later Command Interior formations may reach 6. The immediate Authority Construct approach is safe.",
+    ), CH3, ("Construct", "Shield Construct", "Maul Construct", "Flame Construct", "Blade Drone", "Ruin Spider")),
+    ("Boss Battle — Authority Construct", "Boss — Authority Construct", (
+        "Authority Construct",
+        "Mandatory authored boss only. PREVIOUS ERROR → LAST SENTINEL CONFIRMED remains the protected shutdown order.",
+    ), CH3, ("Authority Construct",)),
+
 )
 
 FORMATION_AUTHORITIES = (
     (CH1_FORMATIONS, ("Briar Passage — first / northern traversal", "Hollow Watch — surface / Black Host", "Hollow Watch — excavation / ancient defenses", "Southern Briar Passage", "Shield Construct", "Thornhide")),
-    (CH2_FORMATIONS, ("Old Waterworks", "Sunken Archive", "Old Bastion", "Watch Sentry in Chapter 2", "Full Bastion Response")),
-    (CH3_FORMATIONS, ("Old City Archives", "Cresthaven Ancient tower base", "Archive Scribe Engine", "First Command Warden", "Way-Fort Marauder / Rift Boltman / Black Host Ward-Sorcerer are retired from Chapter 3")),
+    (CH2_FORMATIONS, ("Old Waterworks", "Sunken Archive", "Old Bastion", "Arcdrift", "Full Bastion Response")),
+    (CH3_FORMATIONS, (
+        "Caelora Archives",
+        "Beat 6 — Lower Archives subzone",
+        "Beat 6 — Buried Collections subzone",
+        "Beat 6 — Hall of Seals subzone",
+        "Beat 7 — Deep Archives",
+        "Memory Construct",
+        "Cresthaven Ancient tower base",
+        "Authority Construct",
+    )),
+
 )
 
 
