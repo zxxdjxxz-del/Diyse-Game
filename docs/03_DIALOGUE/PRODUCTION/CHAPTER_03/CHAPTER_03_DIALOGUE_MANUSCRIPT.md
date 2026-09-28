@@ -12,19 +12,15 @@
 | 2 | Beat 2 | `CH03_B02_ROYAL_AUDIENCE_CH2_REPORT_DIALOGUE.md` | `c9a5dd986f27a098269bbeb55cbcfdc9378e67bee031bed3c7a7d5d06b83d4b4` |
 | 3 | Beat 3 | `CH03_B03_IMPOSSIBLE_ORDERS_DIALOGUE.md` | `5239b06c2cc6347c247e35ad987a283d83bd3ef4a651d09fdcf4bd0a5f3f8234` |
 | 4 | Beat 4 | `CH03_B04_SEAL_NOT_USED_DIALOGUE.md` | `fe113078b854b70c556ee649ddae43782b20533dd86a83fbdb4f0a73c6ac6861` |
-| 5 | Beat 5 | `CH03_B05_OLD_CITY_ACCESS_ARCHIVE_DESCENT_DIALOGUE.md` | `2bba880980c269e13d67fc66ed11be942120909f27691c30b129ee3f66b8a7eb` |
-| 6 | Beat 6 | `CH03_B06_SCHOLAR_IN_REDACTED_STACKS_NIMERA_JOINS_DIALOGUE.md` | `5e76af818708514a72c4ea647e4fefdc1526842ba1d5beeaa7d4c1e3174bc4f6` |
-| 7 | Beat 7 | `CH03_B07_LOWER_ARCHIVES_DIALOGUE.md` | `4ad14ec3f304bfaeb957bb54724b76d3e3fd85ff124c6873081ba929cfb8167a` |
-| 8 | Beat 8 | `CH03_B08_BURIED_COLLECTIONS_RECENT_READER_DIALOGUE.md` | `d699b00f289a4e3175a7381db42d050d679efca98b41880e2ae793b11231ce0a` |
-| 9 | Beat 9 | `CH03_B09_HALL_OF_SEALS_RECENT_READER_DIALOGUE.md` | `7b131e08f41cefd7ed72ca82a5693917bc4ad3ee02ce8915d607b88c36beecb7` |
-| 10 | Beat 10 | `CH03_B10_DEEP_ARCHIVES_DIALOGUE.md` | `c70d72910b62a9045b55cc10a581854fcdaf559b3c3d12c5cacc3ca14cea803d` |
-| 11 | Beat 11 | `CH03_B11_ARCHIVE_SCRIBE_ENGINE_DIALOGUE.md` | `4907ea3ba8efac6befbe7f559773b965cce08c0fe6f979d20ddd62ec58284686` |
-| 12 | Beat 12 | `CH03_B12_INNER_COLLECTIONS_WESTWAYS_RECORDBOOK_SEALWRIGHT_DIALOGUE.md` | `35c62c209dfb0b7e11b47189c461302d953a1c615562d68041df135ab61933d5` |
-| 13 | Beat 13 | `CH03_B13_RETURN_TO_MIRENA_CRESTHAVEN_IDENTIFIED_DIALOGUE.md` | `7c8ce93da4885efb1f31d2a6d928090684d20fe856802c9e5fdd3cabb835d76e` |
-| 14 | Beat 14 | `CH03_B14_CRESTHAVEN_TOWER_BASE_AUTHORITY_CONSTRUCT_DIALOGUE.md` | `2781f5907cf6ee5c56ecf854161c9b262659a346b298da297c3166db0b080ec5` |
-| 15 | Beat 15 | `CH03_B15_CRESTHAVEN_HEADQUARTERS_IVORYBRIDGE_DECISION_DIALOGUE.md` | `00ef57aaa9f4d038c3ca89a4a109bf45ff7b0689e3eb5ab3ac222c0bdab415a4` |
-| 16 | C06 — Nimera Takes Over a Table | `C06_NIMERA_TAKES_OVER_A_TABLE_DIALOGUE.md` | `a6677f95a37436a6f66bc74f89bf705f4ed0631b42fa6700cf4a1d6851c0e972` |
-| 17 | C07 — Ilyra and Nimera | `C07_ILYRA_AND_NIMERA_DIALOGUE.md` | `084ec24788d5ba8a24a03528e94d10afc795ad2ffc850a4757b131f72cbd448b` |
+| 5 | Beat 5 | `CH03_B05_LOWER_ARCHIVES_ENTRANCE_NIMERA_JOINS_DIALOGUE.md` | `a62bdb1382cdbdfe74cbcc817d917541d1748aafd71ce137acf500c3b78e1252` |
+| 6 | Beat 6 | `CH03_B06_LOWER_ARCHIVES_INVESTIGATION_DIALOGUE.md` | `6c36f32da7463237f55015d0a17862c3b23fe4845982e3ef05763bc3661ad418` |
+| 7 | Beat 7 | `CH03_B07_DEEP_ARCHIVES_MEMORY_CONSTRUCT_DIALOGUE.md` | `0cddfb5f4742d7c2a903aefaff21ac676aa0342eeb8b10fdaa84f8ad9348a8d3` |
+| 8 | Beat 8 | `CH03_B08_INNER_COLLECTIONS_FINDINGS_DIALOGUE.md` | `015caf6c2deae7c30848b74186f39089c17043a1d604c98e71c71da2f866517c` |
+| 9 | Beat 9 | `CH03_B09_RETURN_TO_MIRENA_CRESTHAVEN_IDENTIFIED_DIALOGUE.md` | `a3c8a94ebc1530921f5f81e44dfd095df97356ac9562084cef81c0ad6492eb38` |
+| 10 | Beat 10 | `CH03_B10_CRESTHAVEN_TOWER_BASE_AUTHORITY_CONSTRUCT_DIALOGUE.md` | `d7f5983c9e454ff0cbe83010aeaeed01da869fd4367ba07edb2b74c402b0d3a8` |
+| 11 | Beat 11 | `CH03_B11_CRESTHAVEN_HEADQUARTERS_IVORYBRIDGE_DECISION_DIALOGUE.md` | `1b674810dcfbe3eefe98db91250b2fbfa486f89440ddac3bf2363d093ac5ec71` |
+| 12 | C06 — Nimera Takes Over a Table | `C06_NIMERA_TAKES_OVER_A_TABLE_DIALOGUE.md` | `d47469b53f91e167c11e72dbab5bfe96bb488d98c7e7da913b45aa7ace77559d` |
+| 13 | C07 — Ilyra and Nimera | `C07_ILYRA_AND_NIMERA_DIALOGUE.md` | `084ec24788d5ba8a24a03528e94d10afc795ad2ffc850a4757b131f72cbd448b` |
 
 ---
 
@@ -678,25 +674,25 @@ Transition into:
 
 ## Beat 5
 
-**Atomic source:** `CH03_B05_OLD_CITY_ACCESS_ARCHIVE_DESCENT_DIALOGUE.md`  
-**Source SHA-256:** `2bba880980c269e13d67fc66ed11be942120909f27691c30b129ee3f66b8a7eb`
+**Atomic source:** `CH03_B05_LOWER_ARCHIVES_ENTRANCE_NIMERA_JOINS_DIALOGUE.md`  
+**Source SHA-256:** `a62bdb1382cdbdfe74cbcc817d917541d1748aafd71ce137acf500c3b78e1252`
 
 # Chapter 3 — Beat 5
-# Old City Access / Archive Descent
-## CURRENT LOCKED DIALOGUE — TRUE-VOICE / DIALOGUE-ECONOMY PASS
+# Lower Archives Entrance / Nimera Joins
+## CURRENT LOCKED DIALOGUE — 11-BEAT CONSOLIDATION
 
-**Status:** CURRENT ATOMIC DIALOGUE AUTHORITY — 2026-09-23
+**Status:** CURRENT ATOMIC DIALOGUE AUTHORITY — 2026-09-27
 
-### [GAMEPLAY — OLD CITY ARCHIVE ENTRY]
+### [GAMEPLAY — LOWER ARCHIVES ENTRANCE]
 
-Player control begins at the Crown-maintained Old City archive entrance beneath Caelora.
+Mirena brings Cyanis, Ilyra, and Torren through the active Upper Archives to the secured entrance of the Lower Archives.
 
 Current field party:
 **Cyanis + Ilyra + Torren.**
 
-Maevra remains in Caelora with Mirena.
+Maevra remains on the Crown-side investigation. Mirena leaves the field group once Lower Archives access is confirmed and rejoins Maevra.
 
-The upper archive layer is active Crown workspace built into much older construction. Let the environment establish that contrast before anyone explains it.
+The Upper Archives remain an active, used library/archive area above. The Lower Archives entrance is still recognizably Yahtrean and maintained; older construction becomes more visible only as the party descends.
 
 ### [STORY TRIGGER — RESTRICTED ACCESS DESK]
 
@@ -748,7 +744,7 @@ Most traversal is silent.
 
 At the point where current repairs stop:
 
-**TORREN:** Crown work ends here.
+**TORREN:** Newer work stops here.
 
 Cyanis looks at the seam.
 
@@ -758,7 +754,7 @@ Cyanis looks at the seam.
 
 He looks down the marked route.
 
-**TORREN:** Upper archive was built into this. Not the other way around.
+**TORREN:** Doesn't mean the rest is ancient. Means the newer work stops.
 
 **CYANIS:** And this route is still approved.
 
@@ -774,13 +770,11 @@ Ilyra looks at him.
 
 They keep moving.
 
-### [GAMEPLAY — DIYSEAN DESCENT]
+### [GAMEPLAY — LOWER ARCHIVE APPROACH]
 
-The trio continues into unmistakably Diysean construction.
+The trio continues through older Yahtrean archive construction. Strange fitted stone, metalwork, seals, shutters, and older foundations begin to appear, but the space is not yet dominated by Ancient Diysean architecture.
 
-Keep the deeper archive physical and magical: carved stone, fitted metal, seals, wards, shutters, rings, engraved channels, record niches and cases.
-
-Do not explain every mechanism.
+Do not explain every mechanism or treat every older feature as Diysean.
 
 Near a sealed side passage:
 
@@ -801,38 +795,6 @@ Cyanis waits.
 **TORREN:** Wonder can turn left.
 
 Ilyra laughs.
-
-### [STORY HANDOFF — DEEPER WORK SECTION]
-
-The marked route reaches the deeper work section where Nimera Pellan is currently working.
-
-Stop before introducing Nimera. There is no Ancient Barrier setup.
-
-Transition directly into:
-
-**Beat 6 — Scholar in Redacted Stacks / Nimera Joins.**
-
-## Beat-5 end state
-
-- Cyanis, Ilyra, and Torren have lawful restricted Old City access;
-- the Crown visibly maintains upper archive spaces without mastering the whole buried complex;
-- the player experiences the transition from modern Crown archive to unmistakably Diysean construction;
-- the trio is intentionally seeking Nimera Pellan;
-- Maevra remains in Caelora with Mirena;
-- no major revelation, Card classification, seal solution, or Nimera recruitment occurs until Beat 6.
-
----
-
-## Beat 6
-
-**Atomic source:** `CH03_B06_SCHOLAR_IN_REDACTED_STACKS_NIMERA_JOINS_DIALOGUE.md`  
-**Source SHA-256:** `5e76af818708514a72c4ea647e4fefdc1526842ba1d5beeaa7d4c1e3174bc4f6`
-
-# Chapter 3 — Beat 6
-# Scholar in Redacted Stacks / Nimera Joins
-## CURRENT LOCKED DIALOGUE — REVISED TRUE-VOICE / AGENT-BRAIN PASS
-
-**Status:** CURRENT ATOMIC DIALOGUE AUTHORITY — 2026-09-23
 
 ### [STORY TRIGGER — REDACTED STACKS WORK SECTION]
 
@@ -976,7 +938,7 @@ Nimera turns back to the spread on her table and flips through two tagged volume
 
 **CYANIS:** Where is it?
 
-**NIMERA:** Lower collections. Older Yahtrean copies, older Card records, whatever survived from the Diysean archive layers underneath them.
+**NIMERA:** Lower collections. Older Yahtrean copies, older Card records, and the deepest historical holdings stored farther down.
 
 **ILYRA:** Accessible?
 
@@ -1040,30 +1002,32 @@ New objective:
 
 Transition into:
 
-**Beat 7 — Lower Archives.**
+**Beat 6 — Lower Archives Investigation.**
 
-## Beat-6 end state
+## Beat-5 end state
 
-- Nimera is introduced as active, capable, socially alive, evidence-driven, and naturally profane;
+- Mirena personally brings the field party to the Lower Archives entrance, then returns to the Crown-side investigation with Maevra;
+- the Upper Archives remain active, used archive/library space above;
+- the Lower Archives begin recognizably Yahtrean, with older foundations only gradually becoming more prominent;
+- Nimera is introduced as active, capable, evidence-driven, and socially alive;
 - no Ancient Barrier exists;
-- she learns only the bounded Card and royal-seal facts the party currently knows;
-- she does not classify the Card or solve the seal anomaly;
-- Torren/Nimera begin with first-contact professional friction and reciprocal interest, not familial shorthand;
-- Nimera voluntarily joins because the evidence worth examining lies deeper and she wants direct access to it;
-- Nimera becomes a permanent party member in Beat 6.
+- Nimera does not classify Cyanis's Card or solve the royal-seal anomaly;
+- Nimera voluntarily joins because the useful evidence lies deeper;
+- Nimera Pellan becomes a permanent party member in Beat 5;
+- the active permanent field party is Cyanis, Ilyra, Torren, and Nimera.
 
 ---
 
-## Beat 7
+## Beat 6
 
-**Atomic source:** `CH03_B07_LOWER_ARCHIVES_DIALOGUE.md`  
-**Source SHA-256:** `4ad14ec3f304bfaeb957bb54724b76d3e3fd85ff124c6873081ba929cfb8167a`
+**Atomic source:** `CH03_B06_LOWER_ARCHIVES_INVESTIGATION_DIALOGUE.md`  
+**Source SHA-256:** `6c36f32da7463237f55015d0a17862c3b23fe4845982e3ef05763bc3661ad418`
 
-# Chapter 3 — Beat 7
-# Lower Archives
-## CURRENT LOCKED DIALOGUE — REVISED TRUE-VOICE / AGENT-BRAIN PASS
+# Chapter 3 — Beat 6
+# Lower Archives Investigation
+## CURRENT LOCKED DIALOGUE — 11-BEAT CONSOLIDATION
 
-**Status:** CURRENT ATOMIC DIALOGUE AUTHORITY — 2026-09-23
+**Status:** CURRENT ATOMIC DIALOGUE AUTHORITY — 2026-09-27
 
 ### [GAMEPLAY — LOWER ARCHIVES]
 
@@ -1197,41 +1161,11 @@ Torren studies the corridor.
 
 Ilyra laughs.
 
-### [GAMEPLAY HANDOFF]
-
-New objective:
-
-**Search the Buried Collections.**
-
-Transition into:
-
-**Beat 8 — Buried Collections / Recent Reader.**
-
-## Beat-7 end state
-
-- Nimera has meaningful party time immediately after joining;
-- the permanent four function together without artificial recruitment gating;
-- Torren/Nimera establish first-contact friction and reciprocal competence without familial shorthand;
-- the Crown's mapped/maintained authority visibly thins as the party descends;
-- no major geographic reveal, Cresthaven clue, Last Sentinel wording, Prime/Might classification, or Ruby stabilization occurs;
-- the party reaches the threshold of older buried collections.
-
----
-
-## Beat 8
-
-**Atomic source:** `CH03_B08_BURIED_COLLECTIONS_RECENT_READER_DIALOGUE.md`  
-**Source SHA-256:** `d699b00f289a4e3175a7381db42d050d679efca98b41880e2ae793b11231ce0a`
-
-# Chapter 3 — Beat 8
-# Buried Collections / Recent Reader
-## CURRENT LOCKED DIALOGUE — REVISED TRUE-VOICE / AGENT-BRAIN PASS
-
-**Status:** CURRENT ATOMIC DIALOGUE AUTHORITY — 2026-09-23
+### [SUBZONE — BURIED COLLECTIONS]
 
 ### [GAMEPLAY — BURIED COLLECTIONS]
 
-The party enters older physical collections layered through Diysean chambers.
+The party enters older Yahtrean collections built through increasingly exposed older foundations. The documentary holdings remain Yahtrean even where the surrounding construction is much older.
 
 Books, copied manuscripts, field journals, Card studies, seal references, regional records, and badly preserved cross-indexes coexist here because centuries of archivists kept moving useful material downward instead of discarding it.
 
@@ -1265,11 +1199,11 @@ Nimera checks it.
 
 Nimera turns back through several older Card references, then stops on a repeated term.
 
-**NIMERA:** There's a phrase that keeps turning up in Diysean material. Prime Card.
+**NIMERA:** There's a phrase that keeps turning up in these old records. Prime Card.
 
 **CYANIS:** Prime?
 
-**NIMERA:** In inscriptions. Fragmentary texts. Later copies of older writing. Enough independent appearances that the words are real, not one scholar's bad guess.
+**NIMERA:** In copied inscriptions. Quoted fragments. Later transcriptions of older writing. Enough independent appearances that the words are real, not one scholar's bad guess.
 
 **ILYRA:** Meaning?
 
@@ -1327,7 +1261,7 @@ Ilyra points to a marginal citation.
 
 Nimera reads it.
 
-**NIMERA:** Older than Yahtrea. Diysean authority-seal material, or at least a later copy claiming that provenance.
+**NIMERA:** The copyist says the source tradition predates Yahtrea. That's what we actually have.
 
 **CYANIS:** Same tradition?
 
@@ -1395,40 +1329,7 @@ She checks the next citation.
 
 **NIMERA:** Those are not opposites.
 
-### [GAMEPLAY HANDOFF]
-
-New objective:
-
-**Follow the recent research trail to the Hall of Seals.**
-
-Transition into:
-
-**Beat 9 — Hall of Seals / Recent Reader Continuation.**
-
-## Beat-8 end state
-
-- limited historical precedent exists for dormant Cards later becoming responsive without classifying Cyanis's Card;
-- surviving Diysean writings and inscriptions repeatedly use **Prime Card** in contexts that distinguish it from ordinary Standard Cards; later historians who encountered the term also did not understand what it meant, and no verified sighting, specimen description, or functional account survives;
-- Cyanis's Card remains unclassified and is not identified as Prime;
-- older authority-seal material distinguishes a working magical seal from its visible impression;
-- related authority-seal practices may predate Yahtrea without proving lineage;
-- someone relatively recently researched an overlapping cluster of Card, seal, Westways, and Face material;
-- the identity, number, motive, and conclusions of that researcher/research team remain unknown;
-- the recent-reader trail points to the Hall of Seals;
-- the Westways recordbook map is not found here and is not part of the recent-reader lead.
-
----
-
-## Beat 9
-
-**Atomic source:** `CH03_B09_HALL_OF_SEALS_RECENT_READER_DIALOGUE.md`  
-**Source SHA-256:** `7b131e08f41cefd7ed72ca82a5693917bc4ad3ee02ce8915d607b88c36beecb7`
-
-# Chapter 3 — Beat 9
-# Hall of Seals / Recent Reader Continuation
-## CURRENT LOCKED DIALOGUE — REVISED TRUE-VOICE / AGENT-BRAIN PASS
-
-**Status:** CURRENT ATOMIC DIALOGUE AUTHORITY — 2026-09-23
+### [SUBZONE — HALL OF SEALS]
 
 ### [GAMEPLAY — HALL OF SEALS]
 
@@ -1472,7 +1373,7 @@ Nimera checks one provenance plate twice.
 
 **TORREN:** Same kind of seal?
 
-**NIMERA:** Similar authority object. Diysean, administrative. Looks related, maybe it is. I'm not shoving six missing centuries up history's ass because the shapes rhyme.
+**NIMERA:** Similar authority object in a very old copied source. The writer thought the practice predated Yahtrea. Looks related, maybe it is. I'm not shoving six missing centuries up history's ass because the shapes rhyme.
 
 **ILYRA:** So the broad practice predates Yahtrea.
 
@@ -1510,9 +1411,7 @@ Nimera follows the citations.
 
 ### [HANDOFF]
 
-The marked route leaves the Hall for a much older archive descent.
-
-No command-route Warden appears here.
+The recent-reader trail and oldest seal references now point into the Deep Archives.
 
 New objective:
 
@@ -1520,37 +1419,36 @@ New objective:
 
 Transition into:
 
-**Beat 10 — Deep Archives.**
+**Beat 7 — Deep Archives / Memory Construct.**
 
-## Beat-9 end state
+## Beat-6 end state
 
-- working seals and their visible impressions are historically distinct;
-- magical authority could persist in the physical seal and be maintained/restored;
-- comparable authority-seal practice predates Yahtrea without proving direct lineage;
-- the recent reader deliberately followed the oldest references deeper;
-- reader identity and seal mechanism remain unknown;
-- no Cresthaven, Warden, Last Sentinel, Prime/Might, or Ruby reveal occurs.
+- Lower Archives, Buried Collections, and Hall of Seals are one continuous investigation beat rather than three separate story beats;
+- the records being read remain old Yahtrean holdings;
+- Ancient Diysean influence is primarily physical architecture, mechanisms, infrastructure, and Constructs beneath/around the archive;
+- the recent-reader trail remains unresolved and may represent one reader, collaborators, or inherited work;
+- Prime Card exists only as an old term preserved through Yahtrean records quoting/transcribing older material; nobody knows what one is or does;
+- historical seal evidence distinguishes visible impressions from magical authority function without explaining Lysara's impossible orders;
+- the party follows the oldest seal references into the Deep Archives.
 
 ---
 
-## Beat 10
+## Beat 7
 
-**Atomic source:** `CH03_B10_DEEP_ARCHIVES_DIALOGUE.md`  
-**Source SHA-256:** `c70d72910b62a9045b55cc10a581854fcdaf559b3c3d12c5cacc3ca14cea803d`
+**Atomic source:** `CH03_B07_DEEP_ARCHIVES_MEMORY_CONSTRUCT_DIALOGUE.md`  
+**Source SHA-256:** `0cddfb5f4742d7c2a903aefaff21ac676aa0342eeb8b10fdaa84f8ad9348a8d3`
 
-# Chapter 3 — Beat 10
-# Deep Archives
-## CURRENT LOCKED DIALOGUE — REVISED TRUE-VOICE / AGENT-BRAIN PASS
+# Chapter 3 — Beat 7
+# Deep Archives / Memory Construct
+## CURRENT LOCKED DIALOGUE — 11-BEAT CONSOLIDATION
 
-**Status:** CURRENT ATOMIC DIALOGUE AUTHORITY — 2026-09-23
+**Status:** CURRENT ATOMIC DIALOGUE AUTHORITY — 2026-09-27
 
 ### [GAMEPLAY — DEEP ARCHIVES]
 
-The party descends beyond ordinary Crown archival use.
+At this depth, Ancient Diysean physical structure finally dominates. Later Yahtrean shelving, platforms, labels, repairs, and storage are fitted into much older stone, metalwork, tracks, shutters, copying infrastructure, and mechanisms.
 
-Modern lamps, braces, labels, and repairs become sparse. Ancient fitted stone, record frames, rotating shutters, old chains, rails, copying arms, and dormant sigils dominate.
-
-This is a substantial exploration stretch with ordinary encounters and optional side rooms.
+The records being handled remain Yahtrean holdings unless explicitly established otherwise.
 
 ### [SHORT STOP — SIX MARKS]
 
@@ -1622,7 +1520,7 @@ Ordinary combat/exploration resumes.
 
 After several rooms, the party reaches an unusually intact transfer chamber.
 
-A much larger recessed Scribe Engine occupies the far end behind closed inner shutters.
+A much larger recessed mechanism occupies the far end behind closed inner shutters.
 
 Nimera stops.
 
@@ -1642,43 +1540,9 @@ Nimera draws her Conduit.
 
 **NIMERA:** Both.
 
-### [HANDOFF]
-
-Transition into:
-
-**Beat 11 — Archive Scribe Engine.**
-
-## Beat-10 end state
-
-- the party has completed a major four-person Deep Archives exploration stretch;
-- the six current Faces appear as a recurring Diysean organizational framework:
-  - Might
-  - Elements
-  - Grace
-  - Memory
-  - Perception
-  - Ruin
-- Ruin is presented as one legitimate category among six;
-- the party does not assign Cyanis's Card to a Face;
-- deeper spaces are older, less catalogued, and more dangerous;
-- the party reaches the major Scribe Engine guarding the oldest accessible inner collections.
-
----
-
-## Beat 11
-
-**Atomic source:** `CH03_B11_ARCHIVE_SCRIBE_ENGINE_DIALOGUE.md`  
-**Source SHA-256:** `4907ea3ba8efac6befbe7f559773b965cce08c0fe6f979d20ddd62ec58284686`
-
-# Chapter 3 — Beat 11
-# Archive Scribe Engine
-## CURRENT LOCKED DIALOGUE — REVISED TRUE-VOICE / AGENT-BRAIN PASS
-
-**Status:** CURRENT ATOMIC DIALOGUE AUTHORITY — 2026-09-23
-
 ### [STORY TRIGGER — INNER TRANSFER CHAMBER]
 
-The large Archive Scribe Engine wakes as the party enters the intact transfer chamber.
+The large Memory Construct wakes as the party enters the intact transfer chamber.
 
 Articulated copying arms unfold. Heavy shutters turn. Engraved channels brighten through the floor.
 
@@ -1702,7 +1566,7 @@ Nimera already has her Conduit ready.
 
 **NIMERA:** No. That's why the offense is pure.
 
-### [BOSS BATTLE — ARCHIVE SCRIBE ENGINE]
+### [BOSS BATTLE — MEMORY CONSTRUCT]
 
 Active party:
 - Cyanis
@@ -1712,7 +1576,7 @@ Active party:
 
 This is the major story boss of the Caelora Archives dungeon.
 
-The Engine is procedural Ancient archive/security machinery, not a speaking villain.
+The Memory Construct is procedural Ancient archive/security/copying machinery, not a speaking villain.
 
 No Authority Construct appears here.
 
@@ -1776,32 +1640,33 @@ The inner shutters open onto the protected Inner Collections.
 
 Transition into:
 
-**Beat 12 — Inner Collections / Westways Recordbook / Sealwright Chamber.**
+**Beat 8 — Inner Collections / Findings.**
 
-## Beat-11 end state
+## Beat-7 end state
 
-- Archive Scribe Engine is defeated as the major Caelora Archives boss;
-- the Engine is procedural machinery, not a lore-speaking villain;
-- no Warden/Last Sentinel/Ruby event occurs;
-- defeating the Engine opens access to the protected Inner Collections;
-- the permanent four proceed deeper together.
+- the Deep Archives are the point where Ancient Diysean physical architecture and mechanisms become dominant;
+- the documentary holdings remain Yahtrean;
+- all six current Faces appear with equal structural treatment;
+- the Memory Construct is defeated as the archive descent's mechanical/combat climax;
+- no Last Sentinel, Ruby stabilization, or Prime manifestation occurs here;
+- defeating the Memory Construct opens the protected Inner Collections.
 
 ---
 
-## Beat 12
+## Beat 8
 
-**Atomic source:** `CH03_B12_INNER_COLLECTIONS_WESTWAYS_RECORDBOOK_SEALWRIGHT_DIALOGUE.md`  
-**Source SHA-256:** `35c62c209dfb0b7e11b47189c461302d953a1c615562d68041df135ab61933d5`
+**Atomic source:** `CH03_B08_INNER_COLLECTIONS_FINDINGS_DIALOGUE.md`  
+**Source SHA-256:** `015caf6c2deae7c30848b74186f39089c17043a1d604c98e71c71da2f866517c`
 
-# Chapter 3 — Beat 12
-# Inner Collections / Westways Recordbook / Sealwright Chamber
-## CURRENT LOCKED DIALOGUE — REVISED TRUE-VOICE / AGENT-BRAIN PASS
+# Chapter 3 — Beat 8
+# Inner Collections / Findings
+## CURRENT LOCKED DIALOGUE — 11-BEAT CONSOLIDATION
 
-**Status:** CURRENT ATOMIC DIALOGUE AUTHORITY — 2026-09-23
+**Status:** CURRENT ATOMIC DIALOGUE AUTHORITY — 2026-09-27
 
 ### [GAMEPLAY — INNER COLLECTIONS]
 
-The party enters the oldest accessible protected collections after defeating the Scribe Engine.
+The party enters the oldest accessible protected collections after defeating the Memory Construct.
 
 The rooms are quieter and better sealed, but not magically pristine. Some materials survived because these chambers were simply used less by later Yahtrean administrations.
 
@@ -1903,9 +1768,9 @@ No Ivorybridge label appears.
 
 The recent-reader trail is not what led them to this book.
 
-### [SEALWRIGHT CHAMBER]
+### [LATER SEAL-REPRODUCTION WORKSPACE]
 
-A later inner room is an Ancient physical magical Sealwright workshop.
+A later inner room occupies Ancient construction, but its original Diysean purpose is unknown. Later users adapted the space for seal-related magical work.
 
 Stone worktables, fitted dies, matrices, engraving frames, seal rests, inlay channels, blanks, impressions, test media, and magical scorching remain among more recent practice work.
 
@@ -1913,7 +1778,7 @@ Nimera examines the progression.
 
 Nimera moves along the tables.
 
-**NIMERA:** Ancient seals. Older Yahtrean forms. Then royal-document copies.
+**NIMERA:** Older seal work. Yahtrean forms. Then royal-document copies.
 
 Then the latest attempts.
 
@@ -1933,7 +1798,7 @@ Nimera studies the attempts.
 
 **NIMERA:** Maybe. I want them connected because that makes the story neat, which is exactly why I don't trust it.
 
-**CYANIS:** So we found the workshop, and the orders still don't make any damn sense.
+**CYANIS:** So we found where somebody was trying, and the orders still don't make any damn sense.
 
 **NIMERA:** Exactly. Somebody practiced their ass off. Whether they ever got one to work? That's the irritating part.
 
@@ -1955,46 +1820,40 @@ Nimera closes the final case.
 
 ### [TRANSITION]
 
-The Old City field section ends.
+The archive field section ends.
 
 No playable return traversal is required.
 
 Cut directly upstairs in Caelora to:
 
-**Beat 13 — Return to Mirena / Cresthaven Identified.**
+**Beat 9 — Return to Mirena / Cresthaven Identified.**
 
-## Beat-12 end state
+## Beat-8 end state
 
-- the party finds an approximately 500-year-old Yahtrean Westways recordbook;
-- it contains a less precise but intact regional hand-copy derived from Ancient Diysean Wayfinder information;
-- coverage is Westways + central Yahtrea only;
-- the copy shows the complete Ancient Caelora cluster;
-- the copy shows a huge tower north of the city;
-- several major routes converge there and continue north until the copied map ends;
-- the map does not show where those routes lead;
-- the existence of an Ancient capital at Caelora is not treated as new;
-- the Sealwright Chamber separately shows repeated seal-copying practice and powerful magic;
-- no successful reproduction of Lysara's true royal magical authority is proven;
-- recent reader and seal practitioner remain unidentified;
-- seal evidence dead-ends in Caelora for now;
-- no Cresthaven identification or Ivorybridge reveal occurs before Beat 13.
+- the party finds the approximately 500-year-old Yahtrean Westways recordbook and its Wayfinder-derived regional copy;
+- the copy restores the Caelora-area center missing from the damaged physical Wayfinder and shows major routes continuing north through a huge tower site;
+- the map does not name Cresthaven, Ivorybridge, or the northern destination;
+- the later seal-reproduction workspace proves repeated study/practice with powerful unknown magic but does not prove a successful duplicate Royal Magic Seal;
+- the workspace's original Ancient purpose is unknown;
+- recent reader and seal practitioner remain unidentified and are not automatically treated as the same person;
+- the seal thread remains unresolved while the geographic lead becomes actionable.
 
 ---
 
-## Beat 13
+## Beat 9
 
-**Atomic source:** `CH03_B13_RETURN_TO_MIRENA_CRESTHAVEN_IDENTIFIED_DIALOGUE.md`  
-**Source SHA-256:** `7c8ce93da4885efb1f31d2a6d928090684d20fe856802c9e5fdd3cabb835d76e`
+**Atomic source:** `CH03_B09_RETURN_TO_MIRENA_CRESTHAVEN_IDENTIFIED_DIALOGUE.md`  
+**Source SHA-256:** `a3c8a94ebc1530921f5f81e44dfd095df97356ac9562084cef81c0ad6492eb38`
 
-# Chapter 3 — Beat 13
+# Chapter 3 — Beat 9
 # Return to Mirena / Cresthaven Identified
-## CURRENT LOCKED DIALOGUE — REVISED TRUE-VOICE / AGENT-BRAIN PASS
+## CURRENT LOCKED DIALOGUE — 11-BEAT CONSOLIDATION
 
-**Status:** CURRENT ATOMIC DIALOGUE AUTHORITY — 2026-09-23
+**Status:** CURRENT ATOMIC DIALOGUE AUTHORITY — 2026-09-27
 
 ### [DIRECT CUT — PRIVATE ROOM, CAELORA]
 
-The Old City field section ends.
+The archive field section ends.
 
 The party is now back upstairs in a private palace workroom with:
 - Mirena
@@ -2032,7 +1891,7 @@ Mirena gestures to the table.
 
 Cyanis looks to Nimera.
 
-**NIMERA:** Recent Card-and-seal research, then a Sealwright chamber full of Crest copies. Later attempts had serious magic shoved through them. I never saw one answer like the Queen's real seal.
+**NIMERA:** Recent Card-and-seal research, then a workspace full of Crest copies. Later attempts had serious magic shoved through them. I never saw one answer like the Queen's real seal.
 
 **MIRENA:** Good. Annoying, but good.
 
@@ -2060,7 +1919,7 @@ Mirena studies the dense central cluster.
 
 **MIRENA:** Caelora.
 
-**NIMERA:** Known capital, intact center. That's the new part.
+**NIMERA:** Known location. Intact copied region. That's the useful part.
 
 **TORREN:** And it's a hell of a lot bigger than we could reconstruct.
 
@@ -2150,31 +2009,29 @@ Cut forward to the next morning at Cresthaven.
 
 Transition into:
 
-**Beat 14 — Cresthaven / Ancient Tower Base / Authority Construct.**
+**Beat 10 — Cresthaven / Tower Base / Authority Construct.**
 
-## Beat-13 end state
+## Beat-9 end state
 
-- Mirena and Maevra receive the field findings;
+- Mirena and Maevra receive the archive findings;
 - the seal investigation remains unresolved in Caelora;
-- the approximately 500-year-old Yahtrean Westways recordbook copy becomes the geographic lead;
-- nobody treats the existence of the Ancient capital at Caelora as a new discovery;
-- Mirena identifies the huge tower's modern location as Cresthaven;
-- no one knows the tower's original name, full function, or the destination of the routes continuing north;
-- no Warden, Last Sentinel, Prime/Might, or Ruby event has occurred yet;
-- everyone rests offscreen and meets at Cresthaven the next morning.
+- Mirena compares the Wayfinder-derived copy to modern geography and identifies the huge tower's location as present-day Cresthaven;
+- the tower's ancient name, purpose, and ultimate northbound destination remain unknown;
+- rest occurs only as an offscreen transition: no rest beat and no character scene;
+- next morning the story resumes at Cresthaven.
 
 ---
 
-## Beat 14
+## Beat 10
 
-**Atomic source:** `CH03_B14_CRESTHAVEN_TOWER_BASE_AUTHORITY_CONSTRUCT_DIALOGUE.md`  
-**Source SHA-256:** `2781f5907cf6ee5c56ecf854161c9b262659a346b298da297c3166db0b080ec5`
+**Atomic source:** `CH03_B10_CRESTHAVEN_TOWER_BASE_AUTHORITY_CONSTRUCT_DIALOGUE.md`  
+**Source SHA-256:** `d7f5983c9e454ff0cbe83010aeaeed01da869fd4367ba07edb2b74c402b0d3a8`
 
-# Chapter 3 — Beat 14
-# Cresthaven / Ancient Tower Base / Authority Construct
-## CURRENT LOCKED DIALOGUE — REVISED TRUE-VOICE / AGENT-BRAIN PASS
+# Chapter 3 — Beat 10
+# Cresthaven / Tower Base / Authority Construct
+## CURRENT LOCKED DIALOGUE — 11-BEAT CONSOLIDATION
 
-**Status:** CURRENT ATOMIC DIALOGUE AUTHORITY — 2026-09-23
+**Status:** CURRENT ATOMIC DIALOGUE AUTHORITY — 2026-09-27
 
 ### [NEXT MORNING — NORMAL CRESTHAVEN]
 
@@ -2296,7 +2153,7 @@ No new route map appears.
 
 No Ivorybridge marker appears.
 
-### [WARDEN CHAMBER]
+### [AUTHORITY CONSTRUCT CHAMBER]
 
 The party enters the deepest surviving room.
 
@@ -2332,7 +2189,7 @@ The assessment changes as it crosses the group.
 
 The last ring fills.
 
-The Warden's posture hardens.
+The Authority Construct's posture hardens.
 
 Its weapon rises.
 
@@ -2340,9 +2197,9 @@ Its weapon rises.
 
 **NIMERA:** Apparently we're unacceptable. Rude.
 
-The Warden attacks.
+The Authority Construct attacks.
 
-### [BOSS BATTLE — FIRST COMMAND WARDEN]
+### [BOSS BATTLE — AUTHORITY CONSTRUCT]
 
 Active party:
 - Cyanis
@@ -2352,13 +2209,13 @@ Active party:
 
 Current story intent: one HP bar unless battle authority revises it.
 
-The Card does not pacify, command, weaken, or unlock the Warden.
+The Card does not pacify, command, weaken, or unlock the Authority Construct.
 
 No Prime event occurs.
 
 ### [VICTORY / SHUTDOWN]
 
-The defeated Warden drops into a failing kneel.
+The defeated Authority Construct drops into a failing kneel.
 
 Most of its light dies.
 
@@ -2366,9 +2223,9 @@ Nimera raises a hand.
 
 **NIMERA:** Wait.
 
-Ancient characters ignite across the Warden.
+Ancient characters ignite across the Authority Construct.
 
-**FIRST COMMAND WARDEN:** PREVIOUS ERROR
+**AUTHORITY CONSTRUCT:** PREVIOUS ERROR
 
 Nobody interprets it.
 
@@ -2376,11 +2233,11 @@ The message fades.
 
 A second forms.
 
-**FIRST COMMAND WARDEN:** LAST SENTINEL CONFIRMED
+**AUTHORITY CONSTRUCT:** LAST SENTINEL CONFIRMED
 
 The final character completes.
 
-Every remaining light in the Warden goes out.
+Every remaining light in the Authority Construct goes out.
 
 The construct becomes fully inert.
 
@@ -2398,7 +2255,7 @@ She looks at the dead construct.
 
 **NIMERA:** Not a damned clue.
 
-### [ONLY AFTER THE WARDEN IS INERT — THE CARD]
+### [ONLY AFTER THE AUTHORITY CONSTRUCT IS INERT — THE CARD]
 
 Cyanis's Card responds.
 
@@ -2440,35 +2297,33 @@ The party returns to normal Cresthaven above.
 
 Transition into:
 
-**Beat 15 — Cresthaven Headquarters / Cleanup / Ivorybridge Decision.**
+**Beat 11 — Cresthaven Headquarters / Ivorybridge Decision.**
 
-## Beat-14 end state
+## Beat-10 end state
 
-- Cresthaven is confirmed to sit over/within the surviving base of the giant Ancient tower shown on the Westways recordbook map;
+- Cresthaven is confirmed to sit over/within the surviving base of the huge Ancient tower shown on the Westways copy;
 - Mirena and Maevra remain aboveground and do not participate in combat;
-- the short dungeon is Tower Foundation → Command Interior → Warden Chamber;
+- the short dungeon is Tower Foundation → Command Interior → Authority Chamber;
 - the Authority Construct assesses the four-person party, rejects the result, and attacks;
-- after defeat it says exactly:
-  - PREVIOUS ERROR
-  - LAST SENTINEL CONFIRMED
+- after defeat it says exactly PREVIOUS ERROR → LAST SENTINEL CONFIRMED;
 - LAST SENTINEL CONFIRMED is its final message;
-- the Warden becomes fully inert;
-- only afterward Cyanis's Card stabilizes deep Ruby;
-- Prime, Might, bearer status, Last Sentinel meaning, and causation remain unresolved;
-- no new northern map or Ivorybridge clue is found.
+- the Authority Construct becomes fully inert before Cyanis's Card stabilizes deep Ruby;
+- no Prime manifestation occurs;
+- Prime, Might, bearer status, Last Sentinel meaning, PREVIOUS ERROR meaning, and Ruby causation remain unresolved;
+- no new northern map or Ivorybridge clue is found here.
 
 ---
 
-## Beat 15
+## Beat 11
 
-**Atomic source:** `CH03_B15_CRESTHAVEN_HEADQUARTERS_IVORYBRIDGE_DECISION_DIALOGUE.md`  
-**Source SHA-256:** `00ef57aaa9f4d038c3ca89a4a109bf45ff7b0689e3eb5ab3ac222c0bdab415a4`
+**Atomic source:** `CH03_B11_CRESTHAVEN_HEADQUARTERS_IVORYBRIDGE_DECISION_DIALOGUE.md`  
+**Source SHA-256:** `1b674810dcfbe3eefe98db91250b2fbfa486f89440ddac3bf2363d093ac5ec71`
 
-# Chapter 3 — Beat 15
-# Cresthaven Headquarters / Cleanup / Ivorybridge Decision
-## CURRENT LOCKED DIALOGUE — REVISED TRUE-VOICE / AGENT-BRAIN PASS
+# Chapter 3 — Beat 11
+# Cresthaven Headquarters / Ivorybridge Decision
+## CURRENT LOCKED DIALOGUE — 11-BEAT CONSOLIDATION
 
-**Status:** CURRENT ATOMIC DIALOGUE AUTHORITY — 2026-09-23
+**Status:** CURRENT ATOMIC DIALOGUE AUTHORITY — 2026-09-27
 
 ### [RETURN TO NORMAL CRESTHAVEN]
 
@@ -2480,7 +2335,7 @@ Mirena sees Cyanis's Card before anyone starts.
 
 **MIRENA:** That was not Ruby when you went down.
 
-**CYANIS:** No. Warden assessed all four of us, decided something was wrong, and attacked. After we dropped it: PREVIOUS ERROR. Then LAST SENTINEL CONFIRMED.
+**CYANIS:** No. Authority Construct assessed all four of us, decided something was wrong, and attacked. After we dropped it: PREVIOUS ERROR. Then LAST SENTINEL CONFIRMED.
 
 **NIMERA:** Exact order. It went dead, then the Card turned Ruby. The timing stinks.
 
@@ -2498,7 +2353,7 @@ Mirena studies the Ruby Card but does not reach for it.
 
 **CYANIS:** Same thought.
 
-**TORREN:** Warden names Last Sentinel. Card changes right after. Hell of a coincidence.
+**TORREN:** Authority Construct names Last Sentinel. Card changes right after. Hell of a coincidence.
 
 **NIMERA:** Yes. Which makes Prime a better hypothesis than it was in the Archives.
 
@@ -2612,22 +2467,23 @@ Current next investigative direction:
 
 **Ivorybridge — a modern place chosen to test the northbound route hypothesis, not a confirmed Ancient destination.**
 
-## Beat-15 end state
+## Beat-11 end state
 
 - Authority Construct and Ruby Card events are reported without being solved;
-- Prime Card becomes an explicit working hypothesis for Cyanis's Card, but remains unconfirmed; Might/bearer status remains unresolved;
+- Prime Card is an explicit working hypothesis for Cyanis's Card, still unconfirmed;
 - Cresthaven becomes operational headquarters;
 - Mirena and Maevra return to Caelora after the handoff;
 - the permanent four remain at Cresthaven;
-- the party chooses Ivorybridge as the next practical northern investigation point because the routes continue north beyond Cresthaven and off the copied map;
-- no Ancient evidence explicitly names Ivorybridge.
+- the copied map establishes only that major Ancient routes continue north beyond Cresthaven;
+- Ivorybridge is chosen as the sensible modern place to begin testing that northbound route, not as a destination named by Ancient evidence;
+- Chapter 3 enters its cleanup/free-roam window before Chapter 4.
 
 ---
 
 ## C06 — Nimera Takes Over a Table
 
 **Atomic source:** `C06_NIMERA_TAKES_OVER_A_TABLE_DIALOGUE.md`  
-**Source SHA-256:** `a6677f95a37436a6f66bc74f89bf705f4ed0631b42fa6700cf4a1d6851c0e972`
+**Source SHA-256:** `d47469b53f91e167c11e72dbab5bfe96bb488d98c7e7da913b45aa7ace77559d`
 
 # Chapter 3 — Character-Life C06
 # Nimera Takes Over a Table
@@ -2637,7 +2493,7 @@ Current next investigative direction:
 
 ### [OPTIONAL CHARACTER-LIFE TRIGGER — CRESTHAVEN RECORDS / MAP ROOM]
 
-Available during the Chapter-3 cleanup window after Beat 15.
+Available during the Chapter-3 cleanup window after Beat 11.
 
 The records room is usable but newly reopened.
 

@@ -493,124 +493,80 @@
         },
         {
           "resource_path": "res://game/content/dialogue/current/chapter_03/B05.tres",
-          "scene_id": "CH03_B05_OLD_CITY_ACCESS_ARCHIVE_DESCENT",
+          "scene_id": "CH03_B05_LOWER_ARCHIVES_ENTRANCE_NIMERA_JOINS",
           "scene_kind": "mandatory",
           "slot_id": "B05",
-          "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_03/CH03_B05_OLD_CITY_ACCESS_ARCHIVE_DESCENT_DIALOGUE.md",
-          "source_sha256": "2bba880980c269e13d67fc66ed11be942120909f27691c30b129ee3f66b8a7eb",
-          "spoken_lines": 26,
-          "spoken_sha256": "589c2f680958b05b45ede8a2803052a20aec35114ce647b204bbe26f844fb4a3",
-          "title": "Old City Access / Archive Descent"
+          "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_03/CH03_B05_LOWER_ARCHIVES_ENTRANCE_NIMERA_JOINS_DIALOGUE.md",
+          "source_sha256": "a62bdb1382cdbdfe74cbcc817d917541d1748aafd71ce137acf500c3b78e1252",
+          "spoken_lines": 89,
+          "spoken_sha256": "ebbf028bb4f940749bf57b1046eb43aaeb28aa0fbbd7f0abfcb1c1b13d9d2043",
+          "title": "Lower Archives Entrance / Nimera Joins"
         },
         {
           "resource_path": "res://game/content/dialogue/current/chapter_03/B06.tres",
-          "scene_id": "CH03_B06_SCHOLAR_IN_REDACTED_STACKS_NIMERA_JOINS",
+          "scene_id": "CH03_B06_LOWER_ARCHIVES_INVESTIGATION",
           "scene_kind": "mandatory",
           "slot_id": "B06",
-          "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_03/CH03_B06_SCHOLAR_IN_REDACTED_STACKS_NIMERA_JOINS_DIALOGUE.md",
-          "source_sha256": "5e76af818708514a72c4ea647e4fefdc1526842ba1d5beeaa7d4c1e3174bc4f6",
-          "spoken_lines": 63,
-          "spoken_sha256": "4a4013d79161d62788791627b7b150c665dd9e52a15327ba7c8e24249ecef85e",
-          "title": "Scholar in Redacted Stacks / Nimera Joins"
+          "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_03/CH03_B06_LOWER_ARCHIVES_INVESTIGATION_DIALOGUE.md",
+          "source_sha256": "6c36f32da7463237f55015d0a17862c3b23fe4845982e3ef05763bc3661ad418",
+          "spoken_lines": 111,
+          "spoken_sha256": "14c9e1048ee77757bbb25e2a3ff50fdb59a32fa25c778572f395ac0033745b57",
+          "title": "Lower Archives Investigation"
         },
         {
           "resource_path": "res://game/content/dialogue/current/chapter_03/B07.tres",
-          "scene_id": "CH03_B07_LOWER_ARCHIVES",
+          "scene_id": "CH03_B07_DEEP_ARCHIVES_MEMORY_CONSTRUCT",
           "scene_kind": "mandatory",
           "slot_id": "B07",
-          "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_03/CH03_B07_LOWER_ARCHIVES_DIALOGUE.md",
-          "source_sha256": "4ad14ec3f304bfaeb957bb54724b76d3e3fd85ff124c6873081ba929cfb8167a",
-          "spoken_lines": 32,
-          "spoken_sha256": "71d0fd46e4668d68713226c701ec2ca99644003327e3db357543351406944d1b",
-          "title": "Lower Archives"
+          "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_03/CH03_B07_DEEP_ARCHIVES_MEMORY_CONSTRUCT_DIALOGUE.md",
+          "source_sha256": "0cddfb5f4742d7c2a903aefaff21ac676aa0342eeb8b10fdaa84f8ad9348a8d3",
+          "spoken_lines": 46,
+          "spoken_sha256": "5a617698e7e02d453aac66df530b5dbc44967d3dc4ac81cefa213bdc22f63d96",
+          "title": "Deep Archives / Memory Construct"
         },
         {
           "resource_path": "res://game/content/dialogue/current/chapter_03/B08.tres",
-          "scene_id": "CH03_B08_BURIED_COLLECTIONS_RECENT_READER",
+          "scene_id": "CH03_B08_INNER_COLLECTIONS_FINDINGS",
           "scene_kind": "mandatory",
           "slot_id": "B08",
-          "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_03/CH03_B08_BURIED_COLLECTIONS_RECENT_READER_DIALOGUE.md",
-          "source_sha256": "d699b00f289a4e3175a7381db42d050d679efca98b41880e2ae793b11231ce0a",
-          "spoken_lines": 53,
-          "spoken_sha256": "84c4f5c6507db8b6f346f6d11ab978b72da17cf6a98ceb0b50d079129f90c11a",
-          "title": "Buried Collections / Recent Reader"
+          "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_03/CH03_B08_INNER_COLLECTIONS_FINDINGS_DIALOGUE.md",
+          "source_sha256": "015caf6c2deae7c30848b74186f39089c17043a1d604c98e71c71da2f866517c",
+          "spoken_lines": 36,
+          "spoken_sha256": "c77c3a59f27ddd208c8927669de333e516ba0cdc98a724ba534d3f5830fdc81e",
+          "title": "Inner Collections / Findings"
         },
         {
           "resource_path": "res://game/content/dialogue/current/chapter_03/B09.tres",
-          "scene_id": "CH03_B09_HALL_OF_SEALS_RECENT_READER_CONTINUATION",
+          "scene_id": "CH03_B09_RETURN_TO_MIRENA_CRESTHAVEN_IDENTIFIED",
           "scene_kind": "mandatory",
           "slot_id": "B09",
-          "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_03/CH03_B09_HALL_OF_SEALS_RECENT_READER_DIALOGUE.md",
-          "source_sha256": "7b131e08f41cefd7ed72ca82a5693917bc4ad3ee02ce8915d607b88c36beecb7",
-          "spoken_lines": 26,
-          "spoken_sha256": "3cec3000327977aacaee51b7b7684a3c7efc5e8d7c94a22ee0b25dbd177cba38",
-          "title": "Hall of Seals / Recent Reader Continuation"
-        },
-        {
-          "resource_path": "res://game/content/dialogue/current/chapter_03/B10.tres",
-          "scene_id": "CH03_B10_DEEP_ARCHIVES",
-          "scene_kind": "mandatory",
-          "slot_id": "B10",
-          "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_03/CH03_B10_DEEP_ARCHIVES_DIALOGUE.md",
-          "source_sha256": "c70d72910b62a9045b55cc10a581854fcdaf559b3c3d12c5cacc3ca14cea803d",
-          "spoken_lines": 24,
-          "spoken_sha256": "cb06f4e007131453273c60857bbda64b643af16745fd0b12c1b0177be21b3cdf",
-          "title": "Deep Archives"
-        },
-        {
-          "resource_path": "res://game/content/dialogue/current/chapter_03/B11.tres",
-          "scene_id": "CH03_B11_ARCHIVE_SCRIBE_ENGINE",
-          "scene_kind": "mandatory",
-          "slot_id": "B11",
-          "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_03/CH03_B11_ARCHIVE_SCRIBE_ENGINE_DIALOGUE.md",
-          "source_sha256": "4907ea3ba8efac6befbe7f559773b965cce08c0fe6f979d20ddd62ec58284686",
-          "spoken_lines": 22,
-          "spoken_sha256": "3e39c1dbcd9e2b09f8e4cc408552143a94a84d6201fd74500dfd89caabdbfc88",
-          "title": "Archive Scribe Engine"
-        },
-        {
-          "resource_path": "res://game/content/dialogue/current/chapter_03/B12.tres",
-          "scene_id": "CH03_B12_INNER_COLLECTIONS_WESTWAYS_RECORDBOOK_SEALWRIGHT_CHAMBER",
-          "scene_kind": "mandatory",
-          "slot_id": "B12",
-          "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_03/CH03_B12_INNER_COLLECTIONS_WESTWAYS_RECORDBOOK_SEALWRIGHT_DIALOGUE.md",
-          "source_sha256": "35c62c209dfb0b7e11b47189c461302d953a1c615562d68041df135ab61933d5",
-          "spoken_lines": 36,
-          "spoken_sha256": "99ed2442d41eb29dbb3d0597e08a1805c1681045653ef271a3579ff10ea5e9e1",
-          "title": "Inner Collections / Westways Recordbook / Sealwright Chamber"
-        },
-        {
-          "resource_path": "res://game/content/dialogue/current/chapter_03/B13.tres",
-          "scene_id": "CH03_B13_RETURN_TO_MIRENA_CRESTHAVEN_IDENTIFIED",
-          "scene_kind": "mandatory",
-          "slot_id": "B13",
-          "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_03/CH03_B13_RETURN_TO_MIRENA_CRESTHAVEN_IDENTIFIED_DIALOGUE.md",
-          "source_sha256": "7c8ce93da4885efb1f31d2a6d928090684d20fe856802c9e5fdd3cabb835d76e",
+          "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_03/CH03_B09_RETURN_TO_MIRENA_CRESTHAVEN_IDENTIFIED_DIALOGUE.md",
+          "source_sha256": "a3c8a94ebc1530921f5f81e44dfd095df97356ac9562084cef81c0ad6492eb38",
           "spoken_lines": 41,
-          "spoken_sha256": "259d9b258e9052c5d9fa901bd3e77100943d20736afc3191d868b17b0603bfa2",
+          "spoken_sha256": "f474f19e17932182d8311747934cdfa3f566134b57c428152a11a4d2902bf6e9",
           "title": "Return to Mirena / Cresthaven Identified"
         },
         {
-          "resource_path": "res://game/content/dialogue/current/chapter_03/B14.tres",
-          "scene_id": "CH03_B14_CRESTHAVEN_ANCIENT_TOWER_BASE_FIRST_COMMAND_WARDEN",
+          "resource_path": "res://game/content/dialogue/current/chapter_03/B10.tres",
+          "scene_id": "CH03_B10_CRESTHAVEN_TOWER_BASE_AUTHORITY_CONSTRUCT",
           "scene_kind": "mandatory",
-          "slot_id": "B14",
-          "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_03/CH03_B14_CRESTHAVEN_TOWER_BASE_FIRST_COMMAND_WARDEN_DIALOGUE.md",
-          "source_sha256": "2781f5907cf6ee5c56ecf854161c9b262659a346b298da297c3166db0b080ec5",
+          "slot_id": "B10",
+          "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_03/CH03_B10_CRESTHAVEN_TOWER_BASE_AUTHORITY_CONSTRUCT_DIALOGUE.md",
+          "source_sha256": "d7f5983c9e454ff0cbe83010aeaeed01da869fd4367ba07edb2b74c402b0d3a8",
           "spoken_lines": 51,
-          "spoken_sha256": "8cce899d30a2fa3fc9340345fa8db6838cf08171f84c4ede62f95f35af901d08",
-          "title": "Cresthaven / Ancient Tower Base / First Command Warden"
+          "spoken_sha256": "dcad82afc2f1cc8884e8c928cc6ff00f03238bd75bb9730ed4effee5a3e0bda4",
+          "title": "Cresthaven / Tower Base / Authority Construct"
         },
         {
-          "resource_path": "res://game/content/dialogue/current/chapter_03/B15.tres",
-          "scene_id": "CH03_B15_CRESTHAVEN_HEADQUARTERS_CLEANUP_IVORYBRIDGE_DECISION",
+          "resource_path": "res://game/content/dialogue/current/chapter_03/B11.tres",
+          "scene_id": "CH03_B11_CRESTHAVEN_HEADQUARTERS_IVORYBRIDGE_DECISION",
           "scene_kind": "mandatory",
-          "slot_id": "B15",
-          "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_03/CH03_B15_CRESTHAVEN_HEADQUARTERS_IVORYBRIDGE_DECISION_DIALOGUE.md",
-          "source_sha256": "00ef57aaa9f4d038c3ca89a4a109bf45ff7b0689e3eb5ab3ac222c0bdab415a4",
-          "spoken_lines": 45,
-          "spoken_sha256": "65af8e23c9617cc5e6a6acd82f2f072ce9e08841dfca37322bbc28e262f57a33",
-          "title": "Cresthaven Headquarters / Cleanup / Ivorybridge Decision"
+          "slot_id": "B11",
+          "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_03/CH03_B11_CRESTHAVEN_HEADQUARTERS_IVORYBRIDGE_DECISION_DIALOGUE.md",
+          "source_sha256": "1b674810dcfbe3eefe98db91250b2fbfa486f89440ddac3bf2363d093ac5ec71",
+          "spoken_lines": 39,
+          "spoken_sha256": "c6c9b441d069a291f613b7a2d833c9421357b443659dbc1a5cf466713b7ad95e",
+          "title": "Cresthaven Headquarters / Ivorybridge Decision"
         },
         {
           "resource_path": "res://game/content/dialogue/current/chapter_03/C06.tres",
@@ -618,7 +574,7 @@
           "scene_kind": "character_life",
           "slot_id": "C06",
           "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_03/C06_NIMERA_TAKES_OVER_A_TABLE_DIALOGUE.md",
-          "source_sha256": "a6677f95a37436a6f66bc74f89bf705f4ed0631b42fa6700cf4a1d6851c0e972",
+          "source_sha256": "d47469b53f91e167c11e72dbab5bfe96bb488d98c7e7da913b45aa7ace77559d",
           "spoken_lines": 75,
           "spoken_sha256": "6c4c97cdc86136c1746bec882efaca873ebf23d10d6c2dc9ae22d057aa9cb1d6",
           "title": "Nimera Takes Over a Table"
@@ -637,9 +593,9 @@
       ]
     }
   },
-  "expected_total_spoken": 2021,
-  "global_spoken_sha256": "883e525afe24c0f0f30bac63a5aeeb3b7d738d6ff7da4d4714e1ec815e3307ae",
+  "expected_total_spoken": 2015,
+  "global_spoken_sha256": "0bf7c59043563cf25c52d356b0c2d95f2b17cae07113aa9f002bfd49c853ad9c",
   "schema": "diyse_current_runtime_dialogue_manifest_v1",
   "source_authority": "docs/03_DIALOGUE/PRODUCTION",
-  "total_spoken": 2021
+  "total_spoken": 2015
 }
