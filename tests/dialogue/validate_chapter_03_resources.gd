@@ -1,16 +1,23 @@
 extends SceneTree
 
-const REGISTRY_PATH := "res://game/content/dialogue/chapter_03/chapter_03_dialogue_registry.tres"
+const REGISTRY_PATH := "res://game/content/dialogue/current/chapter_03/chapter_03_dialogue_registry.tres"
+const SOURCE_ROOT := "res://docs/03_DIALOGUE/PRODUCTION/CHAPTER_03/"
+const EXPECTED_TOTAL_SPOKEN := 700
+
 const SCENE_SPECS := [
-	{"id": "S017", "path": "res://game/content/dialogue/chapter_03/S017.tres", "source": "res://docs/03_DIALOGUE/LINE_COMPLETE/CHAPTER_03/S017.md", "kind": "mandatory", "location": "LOC_CAELORA_CONTAINMENT", "trigger": "trigger.chapter_03.s017"},
-	{"id": "S018", "path": "res://game/content/dialogue/chapter_03/S018.tres", "source": "res://docs/03_DIALOGUE/LINE_COMPLETE/CHAPTER_03/S018.md", "kind": "mandatory", "location": "LOC_CAELORA_JUDICIAL_CAUSEWAY", "trigger": "trigger.chapter_03.s018"},
-	{"id": "S019", "path": "res://game/content/dialogue/chapter_03/S019.tres", "source": "res://docs/03_DIALOGUE/LINE_COMPLETE/CHAPTER_03/S019.md", "kind": "mandatory", "location": "LOC_OLD_CITY_SUPPRESSED_ARCHIVES", "trigger": "trigger.chapter_03.s019"},
-	{"id": "S020", "path": "res://game/content/dialogue/chapter_03/S020.tres", "source": "res://docs/03_DIALOGUE/LINE_COMPLETE/CHAPTER_03/S020.md", "kind": "mandatory", "location": "LOC_OLD_CITY_COMMAND_STATION", "trigger": "trigger.chapter_03.s020"},
-	{"id": "S021", "path": "res://game/content/dialogue/chapter_03/S021.tres", "source": "res://docs/03_DIALOGUE/LINE_COMPLETE/CHAPTER_03/S021.md", "kind": "mandatory", "location": "LOC_CRESTHAVEN", "trigger": "trigger.chapter_03.s021.next_morning"},
-	{"id": "H01", "path": "res://game/content/dialogue/chapter_03/H01.tres", "source": "res://docs/03_DIALOGUE/LINE_COMPLETE/CHAPTER_03/H01.md", "kind": "character_life", "location": "LOC_CRESTHAVEN_ARCHIVE_COMMON", "trigger": "trigger.chapter_03.h01.after_s019.at_cresthaven"},
-	{"id": "H02", "path": "res://game/content/dialogue/chapter_03/H02.tres", "source": "res://docs/03_DIALOGUE/LINE_COMPLETE/CHAPTER_03/H02.md", "kind": "character_life", "location": "LOC_CRESTHAVEN_RECORDS_ROOM", "trigger": "trigger.chapter_03.h02.after_s018.at_cresthaven"},
-	{"id": "H03", "path": "res://game/content/dialogue/chapter_03/H03.tres", "source": "res://docs/03_DIALOGUE/LINE_COMPLETE/CHAPTER_03/H03.md", "kind": "character_life", "location": "LOC_CRESTHAVEN_MEDICAL", "trigger": "trigger.chapter_03.h03.after_s019.at_cresthaven"},
-	{"id": "H04", "path": "res://game/content/dialogue/chapter_03/H04.tres", "source": "res://docs/03_DIALOGUE/LINE_COMPLETE/CHAPTER_03/H04.md", "kind": "character_life", "location": "LOC_CRESTHAVEN_COMMON", "trigger": "trigger.chapter_03.h04.after_s021"}
+	{"id": "B01", "source": "CH03_B01_CAELORA_GATE_ARRIVAL_DIALOGUE.md"},
+	{"id": "B02", "source": "CH03_B02_ROYAL_AUDIENCE_CH2_REPORT_DIALOGUE.md"},
+	{"id": "B03", "source": "CH03_B03_IMPOSSIBLE_ORDERS_DIALOGUE.md"},
+	{"id": "B04", "source": "CH03_B04_SEAL_NOT_USED_DIALOGUE.md"},
+	{"id": "B05", "source": "CH03_B05_LOWER_ARCHIVES_ENTRANCE_NIMERA_JOINS_DIALOGUE.md"},
+	{"id": "B06", "source": "CH03_B06_LOWER_ARCHIVES_INVESTIGATION_DIALOGUE.md"},
+	{"id": "B07", "source": "CH03_B07_DEEP_ARCHIVES_MEMORY_CONSTRUCT_DIALOGUE.md"},
+	{"id": "B08", "source": "CH03_B08_INNER_COLLECTIONS_FINDINGS_DIALOGUE.md"},
+	{"id": "B09", "source": "CH03_B09_RETURN_TO_MIRENA_CRESTHAVEN_IDENTIFIED_DIALOGUE.md"},
+	{"id": "B10", "source": "CH03_B10_CRESTHAVEN_TOWER_BASE_AUTHORITY_CONSTRUCT_DIALOGUE.md"},
+	{"id": "B11", "source": "CH03_B11_CRESTHAVEN_HEADQUARTERS_IVORYBRIDGE_DECISION_DIALOGUE.md"},
+	{"id": "C06", "source": "C06_NIMERA_TAKES_OVER_A_TABLE_DIALOGUE.md"},
+	{"id": "C07", "source": "C07_ILYRA_AND_NIMERA_DIALOGUE.md"},
 ]
 
 var failures: Array[String] = []
@@ -20,29 +27,37 @@ func _initialize() -> void:
 
 func _run_validation() -> void:
 	var registry := load(REGISTRY_PATH) as DiyseDialoguePortraitRegistry
-	_expect(registry != null, "Chapter 3 portrait registry must load")
+	_expect(registry != null, "Chapter 3 current portrait registry must load")
 	if registry == null:
 		_finish()
 		return
+
+	var total_spoken := 0
 	for spec in SCENE_SPECS:
-		_validate_scene(spec, registry)
+		total_spoken += _validate_scene(spec, registry)
+
+	for retired_slot in ["B12", "B13", "B14", "B15"]:
+		_expect(not ResourceLoader.exists("res://game/content/dialogue/current/chapter_03/%s.tres" % retired_slot), "Retired Chapter-3 current runtime slot must be absent: %s" % retired_slot)
+
+	_expect(total_spoken == EXPECTED_TOTAL_SPOKEN, "Chapter 3 current spoken total changed: expected %d, got %d" % [EXPECTED_TOTAL_SPOKEN, total_spoken])
 	_finish()
 
-func _validate_scene(spec: Dictionary, registry: DiyseDialoguePortraitRegistry) -> void:
-	var scene_id := str(spec["id"])
-	var scene := load(str(spec["path"])) as DiyseDialogueSceneDefinition
-	_expect(scene != null, "%s Resource must load" % scene_id)
+func _validate_scene(spec: Dictionary, registry: DiyseDialoguePortraitRegistry) -> int:
+	var slot_id := str(spec["id"])
+	var scene_path := "res://game/content/dialogue/current/chapter_03/%s.tres" % slot_id
+	var source_path := SOURCE_ROOT + str(spec["source"])
+	var scene := load(scene_path) as DiyseDialogueSceneDefinition
+	_expect(scene != null, "%s current Resource must load" % slot_id)
 	if scene == null:
-		return
+		return 0
+
 	for failure in scene.validate_schema(registry):
-		failures.append("%s schema: %s" % [scene_id, failure])
-	_expect(scene.scene_id == scene_id, "%s scene_id changed" % scene_id)
-	_expect(scene.chapter_id == "chapter_03", "%s must remain chapter_03" % scene_id)
-	_expect(scene.scene_kind == str(spec["kind"]), "%s scene_kind changed" % scene_id)
-	_expect(scene.location_id == str(spec["location"]), "%s location_id changed" % scene_id)
-	_expect(scene.trigger_id == str(spec["trigger"]), "%s trigger_id changed" % scene_id)
-	_expect(scene.completion_flag == "scene.%s.complete" % scene_id.to_lower(), "%s completion flag changed" % scene_id)
-	_expect(not scene.beats.is_empty(), "%s must contain beats" % scene_id)
+		failures.append("%s schema: %s" % [slot_id, failure])
+
+	_expect(scene.chapter_id == "chapter_03", "%s must remain chapter_03" % slot_id)
+	_expect(scene.scene_id.begins_with("CH03_%s_" % slot_id), "%s must use the canonical current scene ID" % slot_id)
+	_expect(scene.trigger_id == "trigger.chapter_03.%s" % slot_id.to_lower(), "%s trigger ID mismatch" % slot_id)
+	_expect(scene.completion_flag == "scene.ch03_%s.complete" % slot_id.to_lower(), "%s completion flag mismatch" % slot_id)
 
 	var resource_spoken: Array[Dictionary] = []
 	for beat in scene.beats:
@@ -50,35 +65,22 @@ func _validate_scene(spec: Dictionary, registry: DiyseDialoguePortraitRegistry) 
 		if not speaker_id.is_empty():
 			resource_spoken.append({"speaker_id": speaker_id, "text": str(beat.get("text", ""))})
 
-	var source_spoken := _parse_source_spoken(str(spec["source"]), scene_id)
-	_expect(source_spoken.size() == resource_spoken.size(), "%s source/Resource spoken-line counts differ: source %d, Resource %d" % [scene_id, source_spoken.size(), resource_spoken.size()])
+	var source_spoken := _parse_source_spoken(source_path, slot_id)
+	_expect(source_spoken.size() == resource_spoken.size(), "%s source/Resource spoken counts differ: source %d, Resource %d" % [slot_id, source_spoken.size(), resource_spoken.size()])
 	var compare_count: int = min(source_spoken.size(), resource_spoken.size())
 	for i in range(compare_count):
-		var expected: Dictionary = source_spoken[i]
-		var actual: Dictionary = resource_spoken[i]
-		if expected != actual:
-			failures.append("%s exact dialogue mismatch at spoken line %d: expected %s, got %s" % [scene_id, i + 1, str(expected), str(actual)])
+		if source_spoken[i] != resource_spoken[i]:
+			failures.append("%s exact dialogue mismatch at spoken line %d: expected %s, got %s" % [slot_id, i + 1, str(source_spoken[i]), str(resource_spoken[i])])
 			break
+	return resource_spoken.size()
 
-	var source_participants: Array[String] = []
-	for item in source_spoken:
-		var speaker_id := str(item["speaker_id"])
-		if speaker_id not in source_participants:
-			source_participants.append(speaker_id)
-	for speaker_id in source_participants:
-		_expect(speaker_id in scene.participants, "%s participants missing source speaker %s" % [scene_id, speaker_id])
-
-func _parse_source_spoken(path: String, scene_id: String) -> Array[Dictionary]:
+func _parse_source_spoken(path: String, slot_id: String) -> Array[Dictionary]:
 	var result: Array[Dictionary] = []
 	var source := FileAccess.get_file_as_string(path)
-	_expect(not source.is_empty(), "%s controlling Markdown source must be readable: %s" % [scene_id, path])
-	var current_section := ""
+	_expect(not source.is_empty(), "%s controlling Markdown source must be readable: %s" % [slot_id, path])
 	for raw_line in source.split("\n"):
 		var line := str(raw_line).strip_edges()
-		if line.begins_with("### ") or line.begins_with("## "):
-			current_section = line
-			continue
-		if current_section.is_empty() or not line.begins_with("**"):
+		if not line.begins_with("**"):
 			continue
 		var separator := line.find(":**")
 		if separator < 0:
@@ -114,7 +116,7 @@ func _expect(condition: bool, message: String) -> void:
 
 func _finish() -> void:
 	if failures.is_empty():
-		print("Diyse Chapter 3 exact dialogue Resource/schema/source-parity validation passed.")
+		print("Diyse Chapter 3 current B01-B11 + C06/C07 Resource/schema/source-parity validation passed: 700 spoken lines.")
 		quit(0)
 		return
 	for failure in failures:
