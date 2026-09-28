@@ -99,9 +99,13 @@ Current recommended levels:
 All remain fixed authored encounters. No dynamic player-level scaling was introduced.
 
 
-## Regional Hunt Power closure — v73
-Regional Hunts #1–#11:
-> **POWER COMPLETE**
+## Regional Hunt Power closure — v73 / current retirement overlay
+Historical v73 certified the then-active #1–#11 set.
+
+Current authority:
+> **CURRENT ACTIVE REGIONAL HUNTS POWER COMPLETE**
+
+Slots #2 and #3 are retired/open and are not current encounters. Their former certification does not place them back into the game.
 
 The pass preserves:
 - Audit134 raw stats;
