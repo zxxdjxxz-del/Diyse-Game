@@ -2,7 +2,7 @@ name: Dialogue Sync
 
 on:
   push:
-    branches: [main]
+    branches: [main, chapter3-11-beat-consolidation]
     paths:
       - 'tools/dialogue/sync_current_dialogue.py'
       - 'tools/dialogue/compile_current_runtime_dialogue.py'
