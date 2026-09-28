@@ -15,12 +15,12 @@ Required gap:
 > **178,700**
 
 Authored pre-Shelter optional pool:
-> **195,000**
+> **191,300**
 
-`415,400 + 195,000 = 610,400`
+`415,400 + 191,300 = 606,700`
 
 Buffer:
-> **16,300 EXP**
+> **12,600 EXP**
 
 Therefore a broad completionist can reach **Lv70 before Last Shelter without repetitive grinding**.
 
@@ -32,3 +32,7 @@ Route centers:
 - typical developed: ~Lv66–67
 - heavy optional: ~Lv68–69
 - broad completionist: Lv70 before Last Shelter
+
+
+## Regional Hunt retirement sync — 2026-09-27
+The cap proof now excludes retired Regional Hunt slots #2 and #3 (-3,700 EXP combined). The remaining authored pre-Shelter optional pool still clears the Lv70 threshold by **12,600 EXP**, so the broad-completionist conclusion remains valid without repetitive grinding.
