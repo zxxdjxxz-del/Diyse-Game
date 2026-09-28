@@ -39,12 +39,6 @@ Minimum functions:
 
 The fort remains partly damaged/under restoration.
 
-## Archive Judgment Engine unlock
-
-Mirena gives the current Old City Archive side-passage update under:
-- CHAPTER_03_CRESTHAVEN_ARCHIVE_HUNT_UNLOCK_LOCK.md
-
-This unlocks Regional Hunt #3 for cleanup.
 
 ## Ivorybridge decision
 
