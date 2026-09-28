@@ -1,71 +1,86 @@
 # Chapter 2 — Ordinary Enemy Power + Raw Register
 
-**Status:** **CURRENT ROSTER CLEANED / RAW BODY REVALIDATION OPEN**
+**Status:** **CURRENT ROSTER SYNCED / PARTIAL RAW AUTHORITY / REVALIDATION OPEN**  
+**Latest roster sync:** 2026-09-27
 
-The raw bodies below are newly authored active-balance values except where explicitly retained.
-
-| Enemy | Lv | HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR | Direct-damage Powers |
-|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---|
-| Bogshell | 5 | 240 | 38 | 12 | 31 | 22 | 15 | 0 | 0 | 150 / 130 |
-| Cistern Leech | 5 | 160 | 35 | 18 | 18 | 17 | 28 | 5 | 0 | 130 / 155 |
-| Archive Current | 6 | 185 | 12 | 42 | 19 | 28 | 30 | 5 | 10 | 140 Lightning / 105 AoE |
-| Memory Scribe | 6 | 230 | 25 | 44 | 24 | 30 | 26 | 0 | 10 | 135 / Recorded Echo 65%, clamp80–180 |
-| Ruin Shieldbearer — Ch2 | 7 | 300 | 44 | 15 | 38 | 27 | 18 | 0 | 5 | 140 / 155 Ruin |
-| Black Host Crossbowman — Ch2 | 7 | 210 | 46 | 12 | 24 | 22 | 27 | 5 | 5 | 150 / 175 |
-| Black Host War-Sorcerer — Ch2 | 8 | 235 | 28 | 50 | 25 | 34 | 29 | 0 | 10 | 160 Fire + Burn / 175 Ruin — provisional |
-| Black Host Raider — Ch2 | 6 | 220 | 40 | 14 | 24 | 20 | 25 | 0 | 5 | 120 / 145 |
-| Rift Hound — Ch2 | 7 | 250 | 47 | 26 | 27 | 24 | 32 | 5 | 5 | 155 / 150 Ruin |
-
-
-
-## Status rollout
-Chapter 2 introduces:
-> **Burn**
-
-Burn appears through:
-- Black Host War-Sorcerer — Warfire (Chapter-2 Burn application value open)
-
-Bleed remains in use.
-
-This batch does **not** introduce:
-- Stun
-- Freeze
-
-
-## Copy-mechanic closure
-Memory Scribe uses the current bounded echo rule:
-> 65% source total Power, clamp80–180
-
-It records only completed eligible direct-damage actions and does not predict menu selections.
-
-
-## 2026-09-23 roster cleanup
-Removed from the active Chapter-2 raw register:
-- Redwater Initiate;
-- Vault Sentinel;
-- Drowned Archive Maw;
-- Beast Handler;
-- Hold the Junction.
-
-Current Chapter-2 roster structure is owned by:
+This file follows:
 - `../CHAPTER_ENEMIES/CHAPTER_02.md`
 - `../ENCOUNTER_FORMATIONS/CHAPTER_02_FORMATIONS.md`
 
-Any retained historical files for removed identities are design provenance only and do not place those enemies back into Chapter 2.
+The chapter uses **Cyanis + Ilyra + Torren** only. Maevra is noncombat.
 
+## Current ordinary roster
 
-## Construct-density correction — 2026-09-23
-Archive Duplicant and Hollow Watch Sentry are not active Chapter-2 roster entries.
+| Enemy | Current Chapter-2 raw status |
+|---|---|
+| Bogshell | existing Lv5 body retained pending three-person validation |
+| Cistern Leech | existing Lv5 body retained pending three-person validation |
+| Needlewing | Chapter-2 body/tuning **OPEN**; do not silently reuse Ch1 raw |
+| Scaldback | ordinary-enemy body/action kit **OPEN**; former Hunt body is retired |
+| Arcdrift | existing Lv6 Archive Current-derived body retained provisionally under current name |
+| Black Host Raider | existing Ch2 body retained pending validation |
+| Black Host Crossbowman | existing Ch2 body retained pending validation |
+| Black Host Shieldbearer | current-name sync required; former Ruin Shieldbearer Ch2 body may be used only as provisional tuning material |
+| Battle Sorcerer | Chapter-2 ordinary body/action kit **OPEN**; do not use Chapter-0 boss body unchanged |
+| War Hound | Chapter-2 ordinary body/action kit **OPEN**; do not import retired Rift Hound body automatically |
 
-Current Sunken Archive construct identities:
-- Archive Current
-- Memory Scribe
+## Retained provisional numeric lines
 
+These values remain usable as **starting points**, not current difficulty certification:
 
-## Chapter-2 War-Sorcerer kit lock — 2026-09-23
-Current action set:
-- Warfire — 160 provisional Power / Fire / 25% Burn provisional;
-- Rift Lance — 175 provisional Power / Ruin;
-- War Ward — Power N/A / Magic +10% / Spirit +10 through end following round.
+| Enemy | Lv | HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR | Current Power notes |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---|
+| Bogshell | 5 | 240 | 38 | 12 | 31 | 22 | 15 | 0 | 0 | 150 / 130 |
+| Cistern Leech | 5 | 160 | 35 | 18 | 18 | 17 | 28 | 5 | 0 | 130 / 155 |
+| Arcdrift | 6 | 185 | 12 | 42 | 19 | 28 | 30 | 5 | 10 | 140 Lightning / 105 Lightning AoE |
+| Black Host Raider — Ch2 | 6 | 220 | 40 | 14 | 24 | 20 | 25 | 0 | 5 | 120 / 145 |
+| Black Host Crossbowman — Ch2 | 7 | 210 | 46 | 12 | 24 | 22 | 27 | 5 | 5 | 150 / 175 |
+| Black Host Shieldbearer — provisional inherited tuning | 7 | 300 | 44 | 15 | 38 | 27 | 18 | 0 | 5 | former 140 / 155 Ruin grammar pending current-name sync |
 
-Ruin Volley is intentionally withheld until the later Chapter-6 War-Sorcerer escalation.
+## Explicitly retired from active Chapter-2 raw authority
+- Memory Scribe;
+- Redwater Initiate;
+- Vault Sentinel;
+- Watch Sentry;
+- Archive Duplicant;
+- Drowned Archive Maw;
+- Bastion Shield Guard;
+- Bastion Crossbow Guard;
+- Transfer Adept;
+- Beast Handler;
+- Rift Hound as the current Chapter-2 hound identity;
+- Black Host War-Sorcerer as the current Chapter-2 caster identity.
+
+Historical owner files may remain as provenance but do not place those identities back into Chapter 2.
+
+## Scaldback firewall
+Scaldback is now:
+> **ordinary later-Old-Waterworks enemy**
+
+Do **not** use the former Regional-Hunt:
+- Lv11 recommendation;
+- 3,760 HP body;
+- boss-length action architecture;
+- cleanup-only access assumptions;
+- Hunt reward package.
+
+Its ordinary-enemy raw body and action kit require a fresh pass.
+
+## Burn rollout
+Chapter 2 still introduces:
+> **Burn**
+
+Exact current ordinary-enemy Burn assignment must be revalidated while the Scaldback and Battle Sorcerer Chapter-2 kits are finalized.
+
+Do not reintroduce Stun or Freeze.
+
+## Next numerical work
+Author/confirm:
+1. Needlewing Chapter-2 body;
+2. Scaldback ordinary body/actions;
+3. Black Host Shieldbearer current-name body/action mapping;
+4. Battle Sorcerer Chapter-2 ordinary variant;
+5. War Hound Chapter-2 ordinary variant;
+6. then run the current 2–4-body formation validation.
+
+Do not finalize EXP/CEXP from the old encounter structure.
