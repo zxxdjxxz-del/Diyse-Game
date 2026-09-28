@@ -53,7 +53,7 @@ This is a **chapter-role register**, so a recurring identity may appear in multi
 | 3 | Ordinary | Flame Construct — Chapter-3 Cresthaven introduction; reusable in later chapters |
 | 3 | Ordinary | Blade Drone — Cresthaven only |
 | 3 | Mandatory named/boss | Memory Construct |
-| 3 | Mandatory named/boss | First Command Warden — one bar / same-bar command-state shift |
+| 3 | Mandatory named/boss | Authority Construct — one bar / same-bar command-state shift |
 | 3 | Regional Hunt | Regional Hunt #3 — Archive Judgment Engine |
 | 4 | Ordinary/carryover | Reaction Node |
 | 4 | Ordinary/carryover | Composite Elemental |
@@ -295,13 +295,13 @@ The former Chapter-3 Grand Inquisitor Frame / Watch Captain Frame strong-normal 
 
 Mandatory bosses:
 - Memory Construct;
-- First Command Warden.
+- Authority Construct.
 
 Regional Hunt:
 - Archive Judgment Engine.
 
 Current Stun assignment:
-- First Command Warden;
+- Authority Construct;
 - Archive Judgment Engine;
 - ordinary-enemy introduction — **OPEN after September 27 roster revision**.
 
