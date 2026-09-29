@@ -1,52 +1,33 @@
 # Game Source Layout
 
-This directory will contain the Godot gameplay implementation.
+This directory contains the current Godot gameplay implementation and implementation-facing content.
 
-Intended top-level subsystem layout:
+## Current top-level layout
 
 ```text
 game/
-  core/
-    state/
-    save/
-    data/
-    events/
-  exploration/
-    actors/
-    camera/
-    interaction/
-    maps/
-  dialogue/
-    runner/
-    portraits/
-    staging/
-  combat/
-    battle_state/
-    resolver/
-    actions/
-    targeting/
-    effects/
-    statuses/
-    cards/
-    primes/
-    ai/
-  characters/
-    data/
-    presentation/
-  content/
-    characters/
-    abilities/
-    cards/
-    enemies/
-    items/
-    encounters/
-  ui/
-    exploration/
-    dialogue/
-    battle/
-    menus/
+  characters/    character runtime/presentation implementation
+  combat/        battle systems and combat runtime
+  content/       implementation-facing authored/runtime content
+  core/          shared state, save, data and core services
+  dialogue/      dialogue runtime integration
+  equipment/     equipment runtime
+  exploration/   field traversal, interaction and map runtime
+  presentation/  presentation/runtime sidecars and related support
 ```
 
-This is a direction, not permission to create empty abstraction layers in advance. Create folders/classes when the current milestone actually needs them.
+Subdirectories should exist because current implementation work needs them, not to pre-create speculative architecture.
 
-Systems should not depend on final authored content being complete. Placeholder proof data must be replaceable without rewriting the engine.
+## Authority boundary
+
+This folder is implementation, not the primary design/canon library.
+
+Before changing runtime behavior or production-facing content, follow:
+- `docs/00_MASTER_CONTROL/CURRENT_CANON_STATUS.md`;
+- the owning numbered `docs/` domain;
+- `docs/13_UI_AND_IMPLEMENTATION/IMPLEMENTATION_AUTHORITY_PRECEDENCE.md`;
+- `docs/13_UI_AND_IMPLEMENTATION/IMPLEMENTATION_NOTES/CURRENT_CODE_DIVERGENCES.md` when proof/runtime behavior may be stale.
+
+Proof data and placeholder implementations may remain while systems are migrated. Their presence does not make them current design authority.
+
+Systems should remain replaceable as authored content matures; implementation should not require unfinished chapters or provisional content to be treated as final canon.
