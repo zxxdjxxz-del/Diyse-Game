@@ -62,6 +62,8 @@ Current production battle flow:
 
 Do not use the current proof queue/confirm architecture as production battle-flow authority.
 
+The CI suite `tests/combat/validate_round_combat.gd` still regression-locks this proof architecture and the retired `first_champion` Prime fixture. It is an engineering continuity test, not production-mechanics certification, and must migrate with the combat runtime.
+
 ## 4. Currency — HIGH
 Proof state:
 - technical identifier `gold` and old proof values may remain.
@@ -130,3 +132,5 @@ Current production authority:
 - `10_PROGRESSION_AND_EXP/` for final EXP/CEXP.
 
 Do not use executable stale rows to overwrite current encounter canon. Reconcile the runtime catalog in a dedicated implementation pass, without inventing open Chapter-3/4 formation decisions during cleanup.
+
+The CI suites `tests/encounters/validate_audit98_encounters.gd` and `tests/combat/validate_generated_encounter_battle_state.gd` currently regression-lock this engineering prototype. Their passing status proves prototype continuity only; it does not certify current Chapter-1/3/4 encounter authority, final EXP, or current player-facing economy behavior.
