@@ -5,10 +5,10 @@
 [resource]
 script = ExtResource("1_scene")
 schema_version = 1
-scene_id = "CH01_B10_THORNHIDE_STALKER"
+scene_id = "CH01_B10_THORNHIDE"
 chapter_id = "chapter_01"
 scene_kind = "mandatory"
-location_id = "LOC_THORNHIDE_STALKER"
+location_id = "LOC_THORNHIDE"
 trigger_id = "trigger.chapter_01.b10"
 completion_flag = "scene.ch01_b10.complete"
 participants = Array[String](["cyanis", "ilyra", "maevra", "torren"])
