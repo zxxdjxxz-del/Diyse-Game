@@ -111,7 +111,7 @@ State-B behavior should favor direct aggression over defensive delay.
 ## Status boundary
 
 Chapter 2's current harmful-status rollout remains:
-> **Burn introduced on the mandatory route through Black Host War-Sorcerer**
+> **Burn introduced during Chapter 2 through the current ordinary-enemy kit**
 
 Archive Leviathan does not need to introduce another status.
 
@@ -126,9 +126,9 @@ Do not add:
 
 ## Chapter-3 contrast boundary
 
-Chapter 2 intentionally keeps the Sunken Archive light on constructs:
-- Archive Current;
-- Memory Scribe.
+Chapter 2 intentionally keeps the Sunken Archive light on Ancient-machine identities:
+- **Arcdrift** is the only Archive-specific ordinary identity;
+- compatible flooded wildlife carries into the area.
 
 Archive Leviathan is deliberately **organic** so that Chapter 3 can deliver the stronger construct-heavy escalation.
 
@@ -165,7 +165,8 @@ Retired:
 - repeated-action damage suppression;
 - actor-qualified action recording;
 - Emergent archive-system framing;
-- old four-person Maevra-inclusive certification.
+- old four-person Maevra-inclusive certification;
+- retired Archive Current / Memory Scribe display identities.
 
 Current intent:
 > **large living flooded-ruin predator / one-bar territorial boss / more aggressive at 45% HP**
