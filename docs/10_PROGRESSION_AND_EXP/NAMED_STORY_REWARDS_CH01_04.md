@@ -24,8 +24,8 @@ Subtotal: **2,512 EXP / 220 CEXP**
 | Archive Leviathan | 700 | 55 |
 | Prisoner Galleries secured | 250 | 20 |
 | Commander Rhazek clear / withdrawal | 900 | 75 |
-| Hold the Junction | 350 | 30 |
-| Extraction / chapter clear | 312 | 40 |
+| Prisoner release / proper Bastion exit secured | 350 | 30 |
+| Return to Dunmere / road reopened / chapter clear | 312 | 40 |
 
 ## Chapter 3
 Subtotal: **4,520 EXP / 264 CEXP**
