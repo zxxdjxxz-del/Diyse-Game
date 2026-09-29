@@ -59,13 +59,13 @@ Existing Elite-strength target:
 - every direct-damage Power and all other raw stats/effects retained.
 
 
-## Normal-pool conversion — 2026-09-22
-Grand Inquisitor Frame is no longer optional side content.
+## Historical normal-pool conversion — SUPERSEDED 2026-09-27
+Under the September 22/23 superseded pass, Grand Inquisitor Frame had been converted from optional side content into the Chapter-3 normal pool.
 
 Former Chapter-3 role:
 > **strong normal-pool enemy**
 
-It is encountered through the chapter/area's normal encounter structure rather than an optional room or branch. If the identity is unique/named, use a one-time normal-pool entry rather than repeatable copies. Existing raw stats and Power remain retained; encounter frequency/placement and reward impact require revalidation where the prior optional placement mattered.
+Under that superseded pass it was routed through the chapter/area's normal encounter structure rather than an optional room or branch. Those Chapter-3 placement/frequency instructions are historical only.
 
 
 ## Historical Chapter-3 placement lock — SUPERSEDED 2026-09-27
@@ -89,7 +89,7 @@ Encounter rules:
 - maximum **1 Grand Inquisitor Frame per formation**;
 - never stack multiple copies;
 - ordinary supporting constructs may accompany it;
-- it should be uncommon enough that Judgment Frame remains the normal heavy body.
+- it was intended to be uncommon enough that Judgment Frame remained the normal heavy body.
 
 Identity:
 > high-order Archive enforcement frame / late-dungeon pressure spike
@@ -101,10 +101,10 @@ It is not:
 - a First Command Warden substitute.
 
 ## Historical Chapter-3 Stun boundary
-Lock Sequence remains Lightning damage but has **no Stun rider in Chapter 3**.
+Historical Lock Sequence used Lightning damage with **no Stun rider in Chapter 3**.
 
 This reflected the superseded September 23 status rollout:
-> Command Guard Frame at Cresthaven is the preferred ordinary-enemy introduction to Stun.
+> Under the superseded roster, Command Guard Frame at Cresthaven was the preferred ordinary-enemy introduction to Stun.
 
 A later reused version may gain Stun under its own chapter authority.
 
