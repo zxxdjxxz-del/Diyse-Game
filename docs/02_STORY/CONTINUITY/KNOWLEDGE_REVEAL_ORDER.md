@@ -10,7 +10,8 @@ Artifact behaves abnormally.
 No Prime identity.
 
 ## Ch1
-Ancient Face notation used in cartographic grammar.
+The Wayfinder visibly includes the six current Face markings plus a second unexplained marking system.
+Their map/network function is **not understood**.
 No buried-system explanation.
 
 ## Ch2

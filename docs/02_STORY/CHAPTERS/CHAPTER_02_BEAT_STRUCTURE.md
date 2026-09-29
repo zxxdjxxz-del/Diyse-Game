@@ -262,7 +262,7 @@ Purpose: turn the deeper Archive into sustained exploration pressure and build n
 - Cyanis, Ilyra, Torren, and Maevra are all still traveling together.
 
 ### Exploration pressure
-The deeper Archive should feel materially harder to traverse than the mural approach.
+The deeper Archive should feel materially harder to traverse than the earlier Archive approach.
 
 Use a combination of:
 - deeper standing water / partially submerged passages;
@@ -330,7 +330,7 @@ Beat 6 should end at the threshold of a larger flooded chamber/deeper route spac
 
 ### Beat-6 knowledge checkpoint
 By the end:
-- the deeper Archive has provided substantial exploration after the mural;
+- the deeper Archive has provided substantial exploration beyond the entrance sequence;
 - environmental pressure and non-Host danger have increased;
 - no second major lore answer has been discovered;
 - no Black Host presence has appeared;
@@ -400,7 +400,7 @@ Hard rule:
 
 After the fight:
 - there is no spoken Ancient record, vision, memory, magical explanation, or bestiary lecture;
-- no item drop is used to explain the mural, Crest marker, Archive, or wider network unless reward authority separately requires an item for mechanics;
+- no item drop is used to restore or explain the retired mural/Crest-marker concept, the Archive, or the wider network unless reward authority separately requires an item for mechanics;
 - the chamber becomes safely traversable enough for the party to proceed;
 - the route beyond the creature is now physically accessible because its body/presence no longer occupies or denies the usable way forward.
 
