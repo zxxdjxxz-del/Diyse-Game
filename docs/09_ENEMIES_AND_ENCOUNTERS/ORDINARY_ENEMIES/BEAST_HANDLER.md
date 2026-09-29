@@ -35,8 +35,9 @@ If no allied Rift Hound is alive:
 > Handler Lash is used instead.
 
 ## Carryover boundary
-This certifies Chapter 2 only.
-Chapter-0 use remains part of the separate Chapter-0 reconciliation.
+The former Chapter-2 body is historical only.
+Chapter 0 is already reconciled and explicitly **does not use Beast Handler**.
+Later explicitly authored Handler + Hound encounters remain legal only where their chapter authority owns them.
 
 
 ## Chapter-7 authored body
