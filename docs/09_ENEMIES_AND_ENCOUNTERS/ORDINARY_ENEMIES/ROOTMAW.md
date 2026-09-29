@@ -1,5 +1,7 @@
 # Rootmaw
 
+**Chapter-1 retirement firewall:** **RETIRED NAME — current Chapter-1 identity is Burrowclaw.** Historical mechanics below may be used only as provisional tuning reference where the current Burrowclaw owner explicitly permits it. Do not place Rootmaw in current Chapter 1.
+
 **Chapter:** 1 — Southern Briar Passage  
 **Role:** ordinary natural threat / slow durable plant-beast pressure  
 **Status:** **IDENTITY + NAME + PLACEMENT LOCKED / RAW BODY + ACTION POWER AUTHORED / ENCOUNTER VALIDATION OPEN**
