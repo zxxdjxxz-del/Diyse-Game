@@ -1,7 +1,9 @@
 # Annex Crucible Guard
 
 **Chapter:** 4 — Reaction Annex / Regulation Core  
-**Status:** **POWER COMPLETE / RAW BODY AUTHORED**
+**Status:** **CHAPTER-4 REWORK INPUT / NOT FINAL CURRENT AUTHORITY**
+
+> The identity, body, actions, and placement below are inherited design material for the pending Chapter-4 enemy rework. Do not treat them as locked current roster/balance authority until that rework explicitly retains or revises them.
 
 ## Body
 | Lv | HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR |
