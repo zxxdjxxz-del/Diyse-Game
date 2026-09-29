@@ -1,5 +1,7 @@
 # Briar Boar
 
+**Chapter-1 retirement firewall:** **RETIRED NAME — current Chapter-1 identity is Bullhog.** Historical mechanics below may be used only as provisional tuning reference where the current Bullhog owner explicitly permits it. Do not place Briar Boar in current Chapter 1.
+
 **Chapter-1 authority:** western ecology  
 **Status:** **POWER COMPLETE / CH1 RAW BODY AUTHORED**
 
