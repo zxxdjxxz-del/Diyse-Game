@@ -8,9 +8,11 @@ currency:
   current_term: G
   retired_terms:
     - Auren
-  authoring_scale_only:
-    economy_unit_equals_G: 200
-    do_not_use_economy_unit_as_in_world_dialogue_term: true
+
+numeric_authority_boundary:
+  detailed_economy_rebuild_pending: true
+  legacy_prices_payouts_liquidity_and_conversion_scales_are_not_active_runtime_truth: true
+  do_not_inject_legacy_numeric_calibration_without_explicit_relock: true
 
 regional_markets:
   - Brackenwall
@@ -43,10 +45,13 @@ lived_economic_pressures:
   - money_does_not_guarantee_availability
 
 price_knowledge_rules:
-  - exact_prices_require_plausible_local_professional_or_scene_basis
+  - exact_price_requires_current_owner_relock_or_current_scene_establishment
+  - exact_price_also_requires_plausible_local_professional_or_continuity_basis
+  - legacy_numeric_files_are_reference_not_automatic_character_knowledge
   - balance_totals_are_not_character_knowledge
   - completionist_or_mandatory_route_totals_are_author_only
   - catalog_ceiling_values_are_author_only
+  - legacy_unit_conversion_scales_are_not_character_or_runtime_truth
 
 forbidden_inventions_without_owner_authority:
   - average_wages

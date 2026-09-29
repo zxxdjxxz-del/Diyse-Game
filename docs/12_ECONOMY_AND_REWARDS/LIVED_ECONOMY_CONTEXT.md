@@ -1,10 +1,10 @@
 # Diyse — Lived Economy Context
 
-**Status:** ACTIVE ECONOMY-CONTEXT AUTHORITY  
+**Status:** ACTIVE ECONOMY-CONTEXT AUTHORITY / NUMERIC REBUILD PENDING  
 **Domain:** `12_ECONOMY_AND_REWARDS`  
-**Purpose:** define how current economy canon should enter character/NPC reasoning and dialogue without turning authoring calibration numbers into omniscient in-world knowledge.
+**Purpose:** define how current economy terminology, structure, and lived pressures should enter character/NPC reasoning and dialogue without promoting rebuild-pending calibration numbers into active canon.
 
-This file does not reopen the closed G economy. Exact prices, stock, reward values, and commerce rules continue to be owned by the existing files in this domain.
+This file does **not** relock the detailed numeric economy. Exact prices, payout totals, liquidity targets, legacy calibration scales, and similar numeric values remain provisional until the dedicated economy rebuild/recalibration explicitly relocks them. Structural commerce rules and current terminology continue to be owned by the existing files in this domain.
 
 ## Current ordinary currency
 
@@ -13,7 +13,7 @@ The current player-facing and ordinary in-world currency term is:
 
 The retired term **Auren** must not return as a current ordinary currency.
 
-The authoring calibration `1 economy unit = 200 G` is a design scale. Characters should not speak about "economy units" unless a separate in-world source explicitly establishes that phrase.
+Historical planning values such as `1 economy unit = 200 G` are legacy/provisional calibration references. They must not be injected into runtime dialogue context as active current scale authority unless the future economy rebuild explicitly relocks them.
 
 ## What characters may experience economically
 
@@ -56,22 +56,23 @@ A character only knows or discusses a market/endpoint when their location, trave
 
 ## Price knowledge is not universal knowledge
 
-Exact prices may be used by a character when:
-- the item is ordinary and the character has reason to know the local/current price;
-- the scene or shop context supplies the price;
+Exact prices may be used by a character only when:
+- a current owning economy source has actually relocked that price, or the current scene explicitly establishes it;
+- the character has reason to know the local/current price;
 - their profession plausibly tracks the cost;
 - the information has already been established in continuity.
 
-Agents must not treat every numeric economy file as common knowledge.
+While the economy rebuild is pending, legacy numeric files are reference/provenance material and must not be treated as current price authority merely because a number exists in the repository.
 
 Authoring/balance values such as:
 - mandatory-route total G;
 - completionist direct-cash totals;
 - percent-of-route income shares;
 - full catalog ceiling values;
-- chapter liquidity stress-test balances
+- chapter liquidity stress-test balances;
+- legacy unit-to-G conversion scales
 
-are **design authority, not things characters know because they exist in the repo**.
+are **authoring reference material, not things characters know because they exist in the repo**.
 
 ## No invented civilian macroeconomy
 
@@ -93,7 +94,7 @@ A scene may establish a local concrete transaction when needed, but that new fac
 
 The existence of G does not guarantee availability.
 
-A settlement under pressure may have money moving while particular goods are scarce. A convoy delay, damaged road, evacuation, occupation, weather event, local demand spike, or military requisition can change what is practically obtainable without changing the closed global price architecture by implication.
+A settlement under pressure may have money moving while particular goods are scarce. A convoy delay, damaged road, evacuation, occupation, weather event, local demand spike, or military requisition can change what is practically obtainable without silently defining or relocking the rebuild-pending global price model.
 
 Likewise, a functioning market should not be written as starving merely because the campaign contains a war.
 
@@ -103,7 +104,7 @@ Location/story authority decides the condition.
 
 G rewards do not always have to be imagined as literal coins taken from an enemy body.
 
-Current economy authority already permits appropriate presentation such as:
+Current structural economy authority permits appropriate presentation such as:
 - requisition credit;
 - secured funds;
 - bounty;
@@ -144,7 +145,7 @@ Economic texture should usually enter dialogue as a concrete human problem:
 - a delayed wagon;
 - somebody saving a good bottle;
 - a repair that must wait for a part;
-- the price of replacing something actually being discussed;
+- a price or transaction established by the current scene or a relocked owner;
 - a quartermaster refusing an impossible request;
 - a merchant complaining about a blocked route;
 - a medic rationing time rather than delivering an economy lecture.
@@ -155,7 +156,16 @@ Do not turn ordinary scenes into exposition about the campaign's balance model.
 
 Agent runtime context may carry selected current economy anchors for grounding, but it is a **synthesis layer only**. If runtime context conflicts with this domain, this domain wins.
 
+While the numeric rebuild is pending, runtime synthesis should carry:
+- **G** as the current currency term;
+- retired-term firewalls;
+- structural market/endpoint information;
+- lived scarcity/logistics pressures;
+- price-knowledge guardrails.
+
+It should **not** carry legacy calibration numbers as active current truth unless a future economy owner explicitly relocks them.
+
 Primary authority remains:
 - `ECONOMY_MASTER.md`
-- price/stock owner files in this folder
+- price/stock owner files in this folder when their numeric values are explicitly relocked
 - current story/location state for local availability.
