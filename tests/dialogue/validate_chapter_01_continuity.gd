@@ -62,7 +62,7 @@ func _validate_current_structure() -> void:
 
 	if scenes.has("B10"):
 		var b10: DiyseDialogueSceneDefinition = scenes["B10"]
-		_expect(b10.scene_id == "CH01_B10_THORNHIDE_STALKER", "B10 must use Thornhide Stalker boss identity")
+		_expect(b10.scene_id == "CH01_B10_THORNHIDE", "B10 technical scene_id must remain filename-aligned")
 		_expect(b10.story_position.contains("Thornhide Stalker"), "B10 story position must use Thornhide Stalker")
 
 func _validate_party_and_handoffs() -> void:
