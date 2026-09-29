@@ -21,7 +21,7 @@ This is an executable engineering formation catalog, **not a whole-file canon so
 Known authority boundaries:
 
 - Chapters 1–2 still defer to their current `docs/09` owners for identity, composition, placement, body caps, and any later correction.
-- **Chapter 3 runtime rows are stale.** Current September 27 authority replaced older identities such as Judgment Frame, Erasure Wisp, Authority Lens, Archive Current, Command Guard Frame, Command Ring Drone, Watch Sentry, Watch Ballista, Grand Inquisitor Frame, and Watch Captain Frame.
+- **Chapter 3 runtime rows are stale.** Current September 27 authority includes these explicit successor mappings: Judgment Frame → **Maul Construct**, Erasure Wisp → **Scriptshade**, Authority Lens → **Flash Drone**, and Archive Current → **Arcdrift**. Command Guard Frame, Command Ring Drone, Watch Sentry, Watch Ballista, Grand Inquisitor Frame, and Watch Captain Frame are retired from current Chapter 3 with no approved rename.
 - Current Chapter 3 roster/formations are owned by:
   - `docs/09_ENEMIES_AND_ENCOUNTERS/CHAPTER_ENEMIES/CHAPTER_03.md`
   - `docs/09_ENEMIES_AND_ENCOUNTERS/ENCOUNTER_FORMATIONS/CHAPTER_03_FORMATIONS.md`
