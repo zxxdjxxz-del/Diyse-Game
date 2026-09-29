@@ -63,7 +63,7 @@ Prime UI must expose:
 
 ## Availability
 Each Prime identity:
-> once per battle per Prime identity unless explicitly restored.
+> one use until restored by a valid rest or an explicit authored restoration effect.
 
 After normal dismissal:
 > 3 full normal party rounds

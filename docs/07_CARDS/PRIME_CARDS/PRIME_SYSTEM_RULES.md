@@ -49,20 +49,20 @@ There is no Prime MP stat, invocation MP charge, or per-Prime-round MP drain.
 
 ## Prime use and restoration
 Each Prime identity has:
-> **one use per battle unless restored by an explicit authored restoration effect**
+> **one use until restored by a valid rest or an explicitly authored restoration effect**
 
-Invoking a Prime spends that specific Prime identity for the battle.
+Invoking a Prime spends that specific Prime identity until valid restoration.
 
 Using one Prime does not spend any other available Prime.
 
-Prime spent/Ready state is **battle-scoped**:
-- battle end clears transient spent state;
-- a new battle begins with legally available/equipped Prime identities Ready;
+Prime spent/Ready state is **persistent across battles**:
+- battle end does **not** clear spent state;
+- a new battle does **not** automatically restore spent Prime identities;
+- valid rest can restore eligible spent Prime identities;
+- explicit authored restoration effects can restore eligible spent Prime identities;
 - same-bar phase/state changes do **not** refresh spent Prime identities;
 - genuine fresh-HP enemy bodies/forms do **not** refresh spent Prime identities;
 - changing enemy bodies/forms does not create a new automatic Prime-use allowance.
-
-Only an explicit authored Prime-restoration effect can return a spent Prime identity to Ready during the same battle.
 
 ### Emergency Kit restoration
 **Emergency Kit** is an explicitly authored valid Prime-restoration effect.
@@ -150,7 +150,7 @@ The spacing gate does not restore the Prime that was just spent. It only control
 An explicit restoration effect such as Emergency Kit may restore spent Prime identities during this spacing window, but it does not shorten or cancel the spacing window itself.
 
 ## Boss-form interaction
-Prime identity availability is battle-scoped, not enemy-body-scoped.
+Prime identity availability is **persistent across battles** until valid restoration; it is not enemy-body-scoped.
 
 A genuine fresh-HP boss form:
 - does **not** refresh spent Prime identities;

@@ -22,11 +22,11 @@ Required automated/integration cases:
 12. Party cannot be targeted during Prime rounds.
 13. Exactly 3 Prime rounds.
 14. Dismissal restores party battle state.
-15. Same Prime identity cannot be invoked twice in the same battle unless explicitly restored.
+15. A spent Prime identity remains unavailable across battle end until valid rest or an explicit authored restoration effect restores it.
 16. After dismissal, cooldown counts 3 **full normal party rounds**.
 17. Another unused Prime cannot bypass cooldown early.
 18. Genuine fresh body does **not** refresh Prime availability; spent identities remain spent unless explicitly restored.
 19. Same-bar state also does not refresh.
 20. Boss defeat ends battle; no cooldown check after victory.
-21. Save/load must not persist transient in-battle Prime state unless a future battle-save feature explicitly requires it.
+21. Save/load must preserve persistent Prime spent/Ready state; transient manifestation/spacing state remains separately scoped.
 22. Old bearer-locked `first_champion` proof expectation must be removed from production tests.
