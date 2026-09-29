@@ -56,7 +56,7 @@ No harmful-status rider.
 ## Chapter-1 identity correction
 Current Chapter-1 Hollow Watch uses the displayed identity **Black Host Shieldbearer**, not Ruin Shieldbearer.
 
-This file's Chapter-1 body/action package may be used only as provisional tuning material for Black Host Shieldbearer until the current owner is numerically revalidated. This does not rename or alter any separately current Chapter-0/Chapter-2 use owned by those chapters.
+This file's Chapter-1 body/action package may be used only as provisional tuning material for Black Host Shieldbearer until the current owner is numerically revalidated. Chapter 0 retains its own Ruin Shieldbearer use; Chapter 2 is remapped to **Black Host Shieldbearer** in the historical-body section below.
 
 
 ## Chapter-0 placement lock
