@@ -45,28 +45,28 @@
 ## Exact payout certification
 - ordinary formations = **~135,600 G expected route total** — PASS
 - former optional-Elite standalone bounty layer = **RETIRED (historical 38,900 G)**
-- mandatory story bosses/named encounters = **92,700 G** — PASS
+- mandatory story bosses/named encounters = **92,100 G** — PASS
 - fixed authored combat/event payouts = **5,300 G** — PASS
 - mandatory non-battle map = **80,800 G** — PASS
 - ordinary Side Quests = **18,000 G direct** — PASS
 - Character Quests = **22,200 G direct** — PASS
-- Regional Hunts = **116,500 G** — PASS
+- Regional Hunts = **114,000 G** — PASS
 - Major Hunts = **134,000 G** — PASS
 - Kessara Relic-copy fee = **6,000 G** — PASS
 - all 18 current Kessara copy opportunities = **108,000 G maximum service spend** — PASS
 
 ## Campaign calibration
 Mandatory direct-G reference:
-> **~316,900 G** — PASS
+> **~316,300 G** — CURRENT AGGREGATE; CH1 FORMATION REMAP OPEN
 
 Ordinary-formation share of mandatory direct G:
-> **~42.8%** — PASS
+> **~42.9%** — PASS
 
 Optional authored direct G:
-> **290,700 G** — CURRENT AFTER ELITE-Bounty RETIREMENT
+> **288,200 G** — CURRENT AFTER ELITE-Bounty + HUNT #1 RETIREMENT
 
 Broad completionist direct-cash reference:
-> **~607,600 G** — CURRENT REFERENCE; RECALIBRATION OPEN
+> **~604,500 G** — CURRENT REFERENCE; RECALIBRATION OPEN
 
 Target:
 > **roughly 650,000 G**
@@ -84,12 +84,12 @@ Mandatory-only stress model reserves:
 
 Results:
 - wallet remains positive in every chapter — PASS
-- Chapter-10 tight point still retains **~7,200 G** — PASS
-- modeled Chapter-13 ending wallet retains **~29,870 G** — PASS
+- Chapter-10 tight point still retains **~6,600 G** — PROVISIONAL PASS
+- modeled Chapter-13 ending wallet retains **~29,270 G** — PROVISIONAL PASS
 - optional content/grinding not required for baseline gear + healing readiness — PASS
 - premium Consumables correctly remain outside baseline solvency — PASS
 
 ## Status
-> **MANDATORY-ROUTE LIQUIDITY CERTIFIED / OPTIONAL-CASH CALIBRATION REOPENED**
+> **MANDATORY-ROUTE LIQUIDITY PROVISIONAL PASS / CH1 FORMATION-G REMAP + OPTIONAL-CASH CALIBRATION OPEN**
 
 Do not restore older Auren-era exact totals as current G authority.
