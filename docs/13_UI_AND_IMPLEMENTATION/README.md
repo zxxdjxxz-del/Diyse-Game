@@ -1,7 +1,7 @@
 # 13_UI_AND_IMPLEMENTATION
 **Migration baseline:** `Diyse_CURRENT_WORKING_TRACKER_CONSOLIDATED_2026-08-27_v85.md`  
 **Current written whole-project authority:** **v2.20 / Audit135**, plus newer explicit v85 working overrides already preserved in the reorganized domains.  
-**Runtime source checkpoint inspected:** `Diyse-Game` commit `3fd07e92eda04f31ba613a654b3b1b28071f44e6`.  
+**Runtime source checkpoint inspected:** `Diyse-Game` main commit `2127e6a7d80ce5c4070193a9a47b47868d79087a`.  
 **Implementation rule:** current domain canon beats older proof code/docs. Proof implementations are evidence of architecture, not permission to restore stale mechanics, names, currencies, progression, or UI concepts.
 
 
@@ -27,16 +27,20 @@ Three labels are used throughout this folder:
 - current Godot code proves the architecture or behavior exists.
 
 **OPEN PRODUCTION UX**
-- exact final layout, interaction styling, slot count, menu transition, animation, copy/original badge, service fee, etc. has not been approved and must not be invented as canon.
+- exact final layout, interaction styling, slot count, menu transition, animation, copy/original badge, and other production presentation details remain open; numeric service-fee values belong to the rebuild-pending economy owner and must not be invented here.
 
 ## Current implementation warning
 The existing Godot repository still contains historical proof data and stale documentation in several places.
 
 Notable examples:
 - old `first_champion` proof Prime / bearer-lock assumptions;
-- proof `gold` key instead of current **G**;
+- proof `gold` technical key versus current player-facing **G** terminology; detailed numeric economy values remain rebuild-pending;
 - proof Potion/equipment names;
 - older Mastery-Point documentation;
 - a proof battle UI rather than final production combat UI.
 
 Those are implementation debt, not current-facing canon.
+
+
+## Routing note
+Current project priority is not owned by this README. Use `../90_WORKING/ACTIVE_WORK_QUEUE.md` for active sequencing and `IMPLEMENTATION_NOTES/CURRENT_CODE_DIVERGENCES.md` for verified runtime gaps.
