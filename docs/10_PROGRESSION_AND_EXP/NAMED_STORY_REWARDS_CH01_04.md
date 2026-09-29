@@ -8,11 +8,12 @@
 Fixed one-time authored rewards. They are exempt from weak-enemy diminishing returns.
 
 ## Chapter 1 — Brackenwall and the Wayfinder
-Subtotal: **745 EXP / 172 CEXP**
+**Current structural mapping; numeric values remain subject to the planned progression/CEXP recalibration.**
+
+Subtotal: **445 EXP / 107 CEXP**
 | Mandatory authored event | EXP | CEXP |
 |---|---:|---:|
-| Watch Castellan — mandatory mini-boss clear | 300 | 65 |
-| Thornhide — normal lethal boss victory | 120 | 28 |
+| Thornhide Stalker — normal lethal boss victory | 120 | 28 |
 | Greenhollow civilians secured / Torren permanent recruitment | 75 | 19 |
 | Wayfinder Junction documented / chapter clear | 250 | 60 |
 
