@@ -6,10 +6,9 @@ This file is the consolidated index of genuinely unfinished work. It does **not*
 
 ## 1 — Approval Needed Now
 
-### Visual B00 — Ilyra
-- Ilyra's permanent-party new-style master remains in **cleanup/remake review OPEN** state.
-- The immediate visual decision gate is the B00 remake/clothing review against her approved appearance and current Diyse visual direction.
-- Cyanis's high-resolution new-style master is already locked.
+No permanent-party B00 master approval is currently open; all six exact party masters are locked.
+
+Open visual work is derivative/gameplay-scale validation and environment/material certification, not re-approval of the six masters.
 
 Area-layout grayboxes and blueprints are production/testing work and should not be mislabeled as new canon approvals until a topology is ready for L3 promotion.
 
@@ -46,23 +45,21 @@ Working pointers:
 - `AREA_LAYOUTS/BLUEPRINT_001_CH00_CONVOY_WRECK_ROUTE.md`
 
 ### Visual production
-- Produce the remaining permanent-party new-style masters for **Torren, Nimera, Vaelira, and Seyrik**, plus finish Ilyra after her review gate.
-- Complete battle-scale and field-scale derivative validation.
+- Complete battle-scale and field-scale derivative validation for the six locked permanent-party masters.
 - Produce/certify environment and material benchmark gates **B01–B11** before bulk environment conversion.
 
 ### Dialogue
-- Complete the already-approved Chapter-5 Seyrik/Rhazek beat rewrite.
-- Line-author Chapter 5 after that rewrite.
-- Continue exact dialogue through Chapters 6–13 using the current scene architecture.
+- Chapters **0–3** are line-complete.
+- Rewrite Chapter 4 exact dialogue against the current redesigned beat structure.
+- Preserve approved Chapter-5 Seyrik/Rhazek material as later-chapter working source.
+- Continue Chapters 5–13 only as their broader development work resolves.
 - Complete remaining optional Side Quest / Character Quest dialogue where not already finished.
-
-Chapters 0–4 are line-complete and are not part of this backlog.
 
 ### Implementation
 - Reconcile runtime/UI/save/test proof structures to current canon.
 - Remove stale Mastery Point assumptions.
 - Implement current Prime behavior and update stale Prime tests.
-- Use canonical **G** semantics and closed economy fixtures.
+- Use canonical **G** terminology while detailed economy values remain rebuild-pending.
 - Replace proof item/equipment/party fixtures with production data.
 - Expand/version the save schema.
 - Reconcile current Chapter-13 scene assumptions.
@@ -92,7 +89,7 @@ Current examples include:
 - Crown Engine Technician exact story placement;
 - bounded Hunt return/unlock timing where the story trigger is not yet exact.
 
-Any resulting special-encounter G placement remains downstream of the story decision and must consume the closed economy framework rather than reopening it.
+Any resulting special-encounter G placement remains downstream of the story decision and should wait for the planned economy rebuild/recalibration.
 
 ## 5 — Certification / QA Backlog
 
@@ -108,7 +105,7 @@ For each representative map and later production area, validate:
 - Android performance for representative environment density.
 
 ### Visual certification
-- B00 party-style completion and gameplay-scale derivative checks.
+- gameplay-scale derivative checks for the six locked party masters.
 - B01–B11 environment/material benchmark certification.
 
 ### Audio validation
@@ -118,7 +115,7 @@ For each representative map and later production area, validate:
 When the relevant content/implementation layers are ready, run:
 - campaign-only, light, typical, heavy, and completionist routes;
 - boss/Hunt/Elite regression;
-- economy validation against the already-closed G calibration;
+- economy validation after the planned economy rebuild/recalibration;
 - save/load and exploit testing;
 - readability/input checks;
 - Android performance QA.
@@ -128,10 +125,9 @@ This is certification debt, not a reason to treat settled canon or numeric syste
 ## 6 — Retired / Closed — NOT Active
 
 Do **not** automatically route work back into these streams:
-- core **G economy / reward calibration** — closed;
-- chapter-scale G liquidity validation — closed/certified;
-- enemy static/paper validation — closed;
-- CEXP Lv55–60 recalibration — closed v92;
+- historical G economy/liquidity certification — superseded as current authority by the planned economy rebuild;
+- enemy static/paper validation — historical closed pass only; it does not override Chapter-4 rework or Chapters 5–13 development-in-progress;
+- CEXP Lv55–60 recalibration — closed v92 in the current progression owner;
 - former mandatory-route enemy-difficulty queue sequence centered on **First Command Warden / global ×1.20 sensitivity / boss-local retunes** — retired from the active queue;
 - legacy giant-tracker migration — complete;
 - repository documentation replacement/migration — complete.
