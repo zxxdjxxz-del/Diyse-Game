@@ -8,7 +8,9 @@ This folder records chapter-level dialogue readiness. These files are status/gat
 
 - **Chapter 0:** COMPLETE CURRENT WORKING PRODUCTION — see `CHAPTER_00.md`.
 - **Chapter 1:** COMPLETE CURRENT WORKING PRODUCTION — see `CHAPTER_01.md`.
-- **Chapters 2–4:** historical line-complete material may still exist, but current rehearsal-first replacement work remains pending.
+- **Chapter 2:** COMPLETE CURRENT WORKING PRODUCTION — current standalone atomics are exact wording authority.
+- **Chapter 3:** COMPLETE CURRENT WORKING PRODUCTION — current B01–B11 + C06/C07 atomics are exact wording authority.
+- **Chapter 4:** current story/beat structure exists, but the exact rehearsal-first dialogue rewrite remains **PENDING / OPEN**.
 - **Chapters 5–13:** use the chapter-specific status/gate files in this folder; macro-story or beat completion does not by itself mean line-complete current dialogue.
 
 ## Authority rule
