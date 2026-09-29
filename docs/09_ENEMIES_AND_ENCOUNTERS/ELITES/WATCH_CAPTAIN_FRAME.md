@@ -1,8 +1,8 @@
 # Watch Captain Frame
 
-**Current use:** Chapter 1 — Hollow Watch; Chapter 3 — Cresthaven Ancient tower base carryover  
-**Role:** strong normal-pool construct / Elite-strength identity  
-**Status:** **POWER COMPLETE / FORMER OPTIONAL PLACEMENT RETIRED / NORMAL-POOL REVALIDATION REQUIRED**
+**Chapter-1 status:** **RETIRED — not part of current Hollow Watch**  
+**Later-chapter status:** follow the current owning chapter authority; material below does not by itself establish active placement.  
+**Status:** **HISTORICAL MECHANICS REFERENCE / CHAPTER-1 PLACEMENT RETIRED**
 
 ## Raw body — v77 difficulty recertification
 
@@ -48,12 +48,10 @@ Effect:
 
 No Barrier or Brace.
 
-## Encounter role
-Watch Captain Frame is not optional side-room content.
+## Historical Chapter-1 encounter role — RETIRED
+Watch Captain Frame is **not** part of the current Hollow Watch roster or formation pool. Current Chapter-1 underground combat uses ordinary **Construct** encounters plus one fixed **Shield Construct** fight.
 
-It is folded into Hollow Watch's normal lower-section encounter pool as a strong construct identity. Its existing body/action kit is retained, but exact random-pool insertion weight and fight-frequency must be revalidated before finalization.
-
-No unique cutscene or optional story information is attached to the encounter.
+The former Chapter-1 body/action package below is historical tuning evidence only.
 
 
 ## Current Chapter-1 party reference
