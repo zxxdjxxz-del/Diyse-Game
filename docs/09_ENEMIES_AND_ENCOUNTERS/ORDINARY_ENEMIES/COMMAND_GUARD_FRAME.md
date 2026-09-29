@@ -52,7 +52,7 @@ True construct: **Bleed Immune**
 
 
 ## Historical Chapter-3 placement lock — SUPERSEDED 2026-09-27
-Command Guard Frame is **not** an Old City Archives ordinary enemy.
+Under the superseded September 23 roster, Command Guard Frame was **not** an Old City Archives ordinary enemy.
 
 Former Chapter-3 placement:
 > **Cresthaven Ancient tower base**
@@ -70,7 +70,7 @@ This placement supports the distinction:
 - Cresthaven tower base = command / authority infrastructure.
 
 ## Historical Chapter-3 Stun introduction
-**Station Pulse** remains:
+Historical **Station Pulse** package:
 - Magical / Lightning;
 - 155 provisional Power;
 - **15% Stun**;
@@ -78,7 +78,7 @@ This placement supports the distinction:
 
 Under the superseded September 23 roster, Command Guard Frame was the preferred ordinary-enemy source for introducing **Stun in Chapter 3**. Current Chapter-3 Stun-source assignment is open.
 
-Do not add Stun to Judgment Frame or Erasure Wisp merely to spread the status around.
+The superseded pass did not add Stun to Judgment Frame or Erasure Wisp merely to spread the status around.
 
 The former Chapter-3 raw line and Powers are historical tuning reference only and no longer await current Cresthaven validation.
 
