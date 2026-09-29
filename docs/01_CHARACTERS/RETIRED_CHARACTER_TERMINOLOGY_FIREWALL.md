@@ -3,20 +3,20 @@
 **Status:** ACTIVE CHARACTER TERMINOLOGY FIREWALL  
 **Domain boundary:** character identity here; exact class mechanics in `06_CLASSES_AND_ABILITIES`; Face/Card/Prime mechanics in `07_CARDS`; exact visuals in `14_ART_AND_VISUALS`.
 
-## Current permanent-party names
-Use:
-- Cyanis
-- Ilyra
-- Torren
-- Nimera
-- Vaelira
-- Seyrik
+## Current character names
+Canonical full names:
+- Cyanis Dovaren
+- Ilyra Amarin
+- Torren Harth
+- Nimera Pellan
+- Vaelira Serren
+- Seyrik Rell
+- Maevra Solmar
+- Kessara Durnan
 
-Do not restore surnames from superseded migration files.
+Surnames are **current canon, not retired terminology**. First-name-only usage remains valid shorthand where context calls for it.
 
-For the two current supporting visual masters, use **Maevra** and **Kessara** without restoring retired migration surnames.
-
-This does not alter unrelated established supporting-character names such as Edda Harth or Talia Rell.
+Other established supporting-character surnames such as Edda Harth and Talia Rell remain current as separately owned.
 
 ## Current Subclass names
 Current:
