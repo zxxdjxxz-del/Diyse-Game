@@ -150,17 +150,12 @@ A Regional Hunt should not normally interrupt the mandatory chapter spine before
 ---
 
 ## Current concrete applications
-The existing early-game access lock:
+The early-campaign file:
 `docs/02_STORY/CHAPTERS/REGIONAL_HUNTS_CH1_CH3_CLEANUP_ACCESS_LOCK.md`
 
-remains the specific implementation for:
-- **Regional Hunt #1 — Cistern Devourer**.
+is now a **retirement/access firewall** for slots **#1–#3**. It is not an active Hunt implementation example.
 
-Slots **#2** and **#3** are retired/open and are not examples of current Hunt implementation. Scaldback is a Chapter-2 ordinary enemy; Archive Judgment Engine is retired.
-
-Hunt #1 is the current early-game example of this global rule, not a special exception to it.
-
-Future Regional Hunts should inherit this global structure automatically unless explicitly revised.
+Current active Regional Hunts begin at later numbered slots. Future Regional Hunts should inherit this global structure automatically unless explicitly revised by their own authority.
 
 ---
 
