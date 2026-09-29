@@ -60,7 +60,7 @@ Current-facing UI must use:
 - Spirit
 - Evasion
 - Status Resistance
-- Acuity
+- Perception
 - Last Cartographer
 - Sixfold Volition
 - Auren

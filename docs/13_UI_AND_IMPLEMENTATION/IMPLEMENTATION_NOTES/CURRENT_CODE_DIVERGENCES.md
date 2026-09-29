@@ -28,14 +28,17 @@ Proof runtime still uses:
 Current production:
 - Last Sentinel current name;
 - any acquired Prime can occupy any legal character Prime slot;
-- 2 Prime slots/character after Volition;
+- 1 Prime slot/character from Chapter-4 Prime-loadout access until Sixfold Volition; 2 Prime slots/character after Volition;
 - Recovered = one signature action/same round;
 - Awakened = 3 Prime rounds;
 - Prime Invocation costs **0 MP**;
-- each Prime identity has **one use until restored** by a valid rest or other explicitly authored Prime-restoration effect;
-- a spent Prime remains spent across battle end;
-- after a Prime ends, **2 full normal party rounds** must pass before another available Prime may be invoked later in that battle;
-- fresh-HP boss forms do **not** restore spent Prime availability.
+- each Prime identity has **one use per enemy HP body** unless explicitly restored;
+- Prime spent/Ready state is **battle-scoped** and a new battle begins with legally available/equipped Prime identities Ready;
+- after any Prime manifestation ends, **3 full normal party rounds** must pass before another Ready Prime may be invoked later in that battle;
+- a genuine fresh-HP enemy body refreshes spent Prime identities to Ready when the new body becomes active;
+- same-bar phase/state changes do **not** refresh spent Prime identities;
+- fresh-body refresh does **not** erase or shorten an active 3-full-normal-round post-dismissal spacing gate;
+- Emergency Kit is an explicitly authored restoration effect that restores acquired Prime identities to Ready without bypassing the spacing gate.
 
 ## 3. Normal battle turn flow — HIGH
 Proof runtime still implements the retired whole-round queue model.
