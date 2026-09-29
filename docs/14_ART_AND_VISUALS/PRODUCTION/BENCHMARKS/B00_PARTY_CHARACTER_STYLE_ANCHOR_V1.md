@@ -37,7 +37,7 @@ Current permanent-party masters:
 | Vaelira | `asset_sources/characters/current/vaelira.jpg` | `../CHARACTERS/VAELIRA_CURRENT_VISUAL_LOCK.md` |
 | Seyrik | `asset_sources/characters/current/seyrik.jpg` | `../CHARACTERS/SEYRIK_CURRENT_VISUAL_LOCK.md` |
 
-Do not infer surnames from superseded documents. The current production identities use the character names above.
+Asset filenames use first names for stable repository identifiers. Canonical surnames remain current character authority and are not retired by these filenames.
 
 ## 3. Shared B00 party grammar
 
@@ -60,12 +60,12 @@ The six-character set must remain visibly part of the same game while preserving
 
 These are runtime/cohesion shorthand only. The repository images control exact minutiae.
 
-- **Cyanis:** royal-blue / black / silver mobile battle-knight silhouette, dark hair, layered silver armor, long split outer garment.
-- **Ilyra:** white / pale-blue Warden silhouette, long blonde hair, coherent pale-blue cape, restrained silver protection, vivid jade/green eye identity.
-- **Torren:** rugged veteran ranger silhouette, forest-green clothing, golden-bronze medium armor, back-mounted bow, right-hip arrow draw/quiver layout, field gear, mixed-foliage ghillie mantle.
-- **Nimera:** dark skin, large dark-purple braided/updo hair mass, white foundation, purple constellation waist garment, black utility masses, green Cardweaver prop cue.
-- **Vaelira:** crimson/burgundy hair, emerald / black / silver Green Arcanist silhouette, Arcane Staff. **No bow or quiver.**
-- **Seyrik:** massive black/crimson Black Host-derived heavy silhouette, skeletal/rib-like armor architecture, red/black outer garment mass, oversized two-handed greatsword.
+- **Cyanis:** royal-blue / black / silver knight silhouette, dark hair, polished silver plate, blue accents, and the locked long split coat/garment structure.
+- **Ilyra:** white / pale-blue Warden silhouette, neatly tied-back shorter blonde hair, pale-blue cape, restrained silver protection, vivid green eyes.
+- **Torren:** rugged veteran ranger silhouette, forest-green clothing, tarnished silver/steel armor, lightweight mixed-foliage ghillie mantle, bow and field gear.
+- **Nimera:** medium-dark brown skin, shorter purple locs/twists, white sleeveless clothing/trousers, coat tied at the waist, silver metals, and the locked book prop.
+- **Vaelira:** shoulder-length crimson hair, emerald / black / silver fitted silhouette, royal-blue eyes, Arcane Staff. **No bow or quiver.**
+- **Seyrik:** massive dark-charcoal / black heavy silhouette, short blond hair, deep-red coat/collar accents, and the locked reduced-shine armor distribution.
 
 These shorthand reads must never be used to redraw a character from memory when the exact repository master is available.
 
