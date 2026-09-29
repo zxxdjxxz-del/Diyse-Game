@@ -72,7 +72,7 @@ Authority order for these characters:
 3. current approved B00 / HD-2D anime style rules;
 4. older prose, archived renders, historical hashes, or superseded concept notes.
 
-Do not infer surnames from historical filenames. Do not let an older visual description override a current repository master image.
+Canonical surnames remain current and are owned by the character authority files; image filenames do not need to encode the surname. Do not let an older visual description or filename override a current character-name or repository-master-image authority.
 
 ## Music research
 Ancient Music R&D and old regional music programs are retained as research/provenance only.
