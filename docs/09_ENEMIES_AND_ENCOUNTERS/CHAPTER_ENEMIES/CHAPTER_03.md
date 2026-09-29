@@ -48,8 +48,8 @@ Current active identities:
 - **Construct**
 - **Shield Construct**
 - **Maul Construct** — normal construct with a large maul; replaces the retired Chapter-3 Judgment Frame role/name
-- **Flash Drone** — Old City flying/ranged construct; replaces the retired Chapter-3 Authority Lens placement
-- **Scriptshade** — moved into Chapter 3 from the Chapter-2 concept; Chapter 2 must not use it
+- **Flash Drone** — current Chapter-3 identity replacing Authority Lens; Old City flying/ranged construct
+- **Scriptshade** — current Chapter-3 replacement for Erasure Wisp; moved from the Chapter-2 concept into Chapter 3; Chapter 2 must not use it
 - **Arcdrift** — established elemental enemy; current name supersedes Chapter-3 Archive Current references
 - **Ruin Spider** — natural enemy occupying the Old City ruins
 
@@ -83,16 +83,16 @@ Chapter-3 Cresthaven placement:
 # Retired Chapter-3 ordinary / strong-normal-pool identities
 
 The following older Chapter-3 placements are superseded by the September 27 roster lock and must not appear in current Chapter-3 random formations unless explicitly reintroduced later:
-- Judgment Frame
-- Erasure Wisp
-- Authority Lens
-- Archive Current
-- Command Guard Frame
-- Command Ring Drone
-- Watch Sentry
-- Watch Ballista
-- Grand Inquisitor Frame
-- Watch Captain Frame
+- Judgment Frame → **Maul Construct** in current Chapter 3
+- Erasure Wisp → **Scriptshade** in current Chapter 3
+- Authority Lens → **Flash Drone** in current Chapter 3
+- Archive Current → **Arcdrift** under the current identity
+- Command Guard Frame — retired from Chapter 3; no approved rename
+- Command Ring Drone — retired from Chapter 3; no approved rename
+- Watch Sentry — retired from Chapter 3; no approved rename
+- Watch Ballista — retired from Chapter 3; no approved rename
+- Grand Inquisitor Frame — retired from Chapter 3; no approved rename
+- Watch Captain Frame — retired from Chapter 3; no approved rename
 
 Previously retired Chapter-3 identities remain retired:
 - Way-Fort Marauder
