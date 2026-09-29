@@ -98,3 +98,17 @@ Master fingerprint:
 - dimensions: **1145 × 1374**
 
 The visual master controls helmet/hood treatment, armor-vs-cloth balance, staff geometry, purple focus crystal, and overall B00/B00.5 silhouette over older prose.
+
+
+## Chapter-2 ordinary use — Old Bastion
+Battle Sorcerer is the current Chapter-2 caster identity, replacing the older **Black Host War-Sorcerer / Transfer Adept** lane.
+
+Chapter-2 status:
+> **PLACEMENT LOCKED / ORDINARY RAW BODY + ACTION KIT OPEN**
+
+Rules:
+- do not copy the Chapter-0 P06 authored-boss body unchanged into ordinary Chapter-2 encounters;
+- exact Chapter-2 stats/actions remain open;
+- Battle Sorcerer is a valid candidate to carry Chapter 2's Burn rollout, but exact Burn ownership remains open until the ordinary kit is finalized;
+- no Stun or Freeze in Chapter 2;
+- maximum one Battle Sorcerer per ordinary formation under current formation authority.
