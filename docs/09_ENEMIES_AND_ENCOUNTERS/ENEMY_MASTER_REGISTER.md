@@ -51,17 +51,17 @@ This is a **chapter-role register**, so a recurring identity may appear in multi
 | 3 | Ordinary | Blade Drone — Cresthaven only |
 | 3 | Mandatory named/boss | Memory Construct |
 | 3 | Mandatory named/boss | Authority Construct — one bar / same-bar command-state shift |
-| 4 | Ordinary/carryover | Reaction Node |
-| 4 | Ordinary/carryover | Composite Elemental |
-| 4 | Ordinary/carryover | Reaction Hound |
-| 4 | Ordinary/carryover | Element Mirror |
-| 4 | Ordinary/carryover | Annex Crucible Guard |
+| 4 | Rework candidate / ordinary | Reaction Node |
+| 4 | Rework candidate / ordinary | Composite Elemental |
+| 4 | Rework candidate / ordinary | Reaction Hound |
+| 4 | Rework candidate / ordinary | Element Mirror |
+| 4 | Rework candidate / ordinary | Annex Crucible Guard |
 | 4 | Authored/protected | Elemental Researcher — nonlethal |
 | 4 | Authored/protected | Annex Battle Mage — nonlethal |
 | 4 | Authored/protected | Crucible Attendant — nonlethal |
 | 4 | Authored/protected | Elder Thornhide — mandatory nonlethal |
 | 4 | Authored/protected | Reaction Conduit — mandatory nonlethal stabilization |
-| 4 | Elite | Annex Duelist — one chassis / one bar / exactly four elemental states |
+| 4 | Placement open / rework input | Annex Duelist — one chassis / one bar / exactly four elemental states |
 | 4 | Mandatory named/boss | Regulation Crucible — fresh Form I |
 | 4 | Mandatory named/boss | The Seventh Reaction — fresh Form II |
 | 4 | Regional Hunt | Regional Hunt #4 — Crown Prototype |
@@ -327,8 +327,10 @@ Open work is numeric only:
 - mandatory-vs-completionist certification.
 
 ## Chapter-4 Power-pass status
-Chapter-4 ordinary / Elite / protected-roster action pass:
-> **PASS**
+Chapter-4 ordinary roster / formation / Elite placement:
+> **REWORK PENDING**
+
+The former Power pass is historical tuning evidence only and does not lock the redesigned Chapter-4 enemy layer.
 
 Complete:
 - Reaction Node
