@@ -83,8 +83,8 @@ Current locked Chapter-0 appearance:
 Combat/encounter mechanics remain owned by this file; visual identity is owned by the art-domain authority above.
 
 
-## Chapter-2 body — Old Bastion
-Ruin Shieldbearer carries into the Chapter-2 Old Bastion as the same established Black Host shield troop.
+## Chapter-2 historical body — current display identity is Black Host Shieldbearer
+Chapter 2 uses **Black Host Shieldbearer**, not Ruin Shieldbearer, as the current Old Bastion display identity.
 
 Provisional Chapter-2 raw body retained from the retired duplicate Bastion Shield Guard tuning:
 
@@ -99,7 +99,7 @@ Chapter-2 action grammar:
 
 The retired Bastion Shield Guard's ally-targeted **Hold Line** is not part of the current Ruin Shieldbearer identity.
 
-Final Chapter-2 raw-body/difficulty certification remains open for the current three-person party.
+These values are provisional tuning material for `BLACK_HOST_SHIELDBEARER.md`; final Chapter-2 raw-body/difficulty certification remains open for the current three-person party.
 
 ## Exact current visual master
 The Ruin Shieldbearer's exact current approved appearance is the 2026-09-23 B00/B00.5-style render recorded in:
