@@ -4,7 +4,7 @@
 
 **Former Chapter-1 placement:** Southern Briar Passage  
 **Former role:** ordinary natural threat / slow durable plant-beast pressure  
-**Status:** **RETIRED CHAPTER-1 IDENTITY / HISTORICAL TUNING REFERENCE ONLY**
+**Status:** **CHAPTER-1 NAME/PLACEMENT SUPERSEDED BY BURROWCLAW / HISTORICAL TUNING REFERENCE ONLY**
 
 ## Historical Chapter-1 body
 | Lv | HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR |
@@ -51,7 +51,7 @@ Southern Briar uses:
 Do not tune Rootmaw against a four-character party.
 
 ## Historical validation context
-Historical raw body and direct-damage Powers were authored before this identity was retired.
+Historical raw body and direct-damage Powers were authored under the superseded Rootmaw identity. Burrowclaw is the current Chapter-1 successor, but its final kit is not forced to preserve this grammar.
 
 Former validation items were:
 - mandatory-vs-completionist damage/TTK validation;

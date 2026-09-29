@@ -1,9 +1,9 @@
 # Erasure Wisp
 
-**Chapter-3 retirement firewall:** **RETIRED FROM CURRENT CHAPTER 3 by the September 27 roster revision.** Later-chapter reuse remains separately owned and is not retired by this firewall.
+**Chapter-3 successor firewall:** the former Chapter-3 **Erasure Wisp slot/identity is replaced by Scriptshade** under the September 27 roster revision. Do not place Erasure Wisp in current Chapter 3. Later-chapter Erasure Wisp reuse remains separately owned and is not retired by this firewall.
 
 **Former Chapter-3 placement:** Old City Archives  
-**Status:** **CHAPTER-3 PLACEMENT RETIRED / HISTORICAL CH3 TUNING REFERENCE; LATER-CHAPTER REUSE SEPARATELY OWNED**
+**Status:** **CHAPTER-3 IDENTITY/PLACEMENT SUPERSEDED BY SCRIPTSHADE / HISTORICAL CH3 TUNING REFERENCE; LATER-CHAPTER ERASURE WISP REUSE SEPARATELY OWNED**
 
 ## Historical Chapter-3 body
 | Lv | HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR |
@@ -72,4 +72,4 @@ The Chapter-3 version does **not** use Stun.
 
 The later Chapter-10 version may retain Ruin Flicker / Stun as a later progression escalation.
 
-The former Chapter-3 raw line and Powers are historical tuning reference only and no longer await current Chapter-3 validation.
+The former Chapter-3 raw line and Powers are historical tuning reference only. Scriptshade is the current Chapter-3 successor and owns its own eventual current tuning rather than inheriting Erasure Wisp mechanics automatically.
