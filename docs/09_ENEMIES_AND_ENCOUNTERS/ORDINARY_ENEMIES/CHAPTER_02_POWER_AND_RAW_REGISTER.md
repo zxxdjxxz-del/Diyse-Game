@@ -81,6 +81,10 @@ Author/confirm:
 3. Black Host Shieldbearer current-name body/action mapping;
 4. Battle Sorcerer Chapter-2 ordinary variant;
 5. War Hound Chapter-2 ordinary variant;
-6. then run the current 2–4-body formation validation.
+6. then run the current **3–6-body** formation validation.
 
 Do not finalize EXP/CEXP from the old encounter structure.
+
+
+## Formation-size correction — 2026-09-28
+Current Chapter-2 validation uses **3–5 bodies through Waterworks/Archive, with up to 6 in the final Old Bastion ascent**. The temporary 2–4-body reduction is superseded.
