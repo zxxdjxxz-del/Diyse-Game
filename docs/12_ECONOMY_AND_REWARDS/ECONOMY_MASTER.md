@@ -31,23 +31,25 @@ Buying every available upgrade immediately is not the baseline expectation.
 
 ## Mandatory-route calibration
 Current expected direct G:
-> **approximately 316,900 G**
+> **approximately 316,300 G**
 
 Composition:
 - starting wallet: **2,500 G**;
 - ordinary Chapter 1–13 formations: **~135,600 G**;
-- mandatory story bosses / named encounters: **92,700 G**;
+- mandatory story bosses / named encounters: **92,100 G**;
 - fixed authored combat/event payouts: **5,300 G**;
 - mandatory non-battle reward map: **80,800 G**.
 
 Ordinary formations therefore contribute approximately:
-> **42.8%**
+> **42.9%**
 
 of the calibrated mandatory-route direct G, preserving the intended **40–50%** ordinary-encounter share.
 
 Protected/nonlethal resolution is included in the current economy and does **not** default to zero G.
 
 ## Chapter liquidity certification
+
+Chapter 1's current per-formation G remap remains open, so the liquidity result below is a **provisional stress-test pass** rather than a final exact Chapter-1 certification.
 The whole-game total is also validated at chapter scale in:
 > `CHAPTER_G_LIQUIDITY_VALIDATION.md`
 
@@ -60,10 +62,10 @@ Result:
 > **PASS — wallet remains positive through every chapter**
 
 Tightest late-game checkpoint:
-> **Chapter 10 — approximately 7,200 G remains after modeled equipment + routine restock**
+> **Chapter 10 — approximately 6,600 G remains after modeled equipment + routine restock**
 
 Modeled end-of-Chapter-13 wallet:
-> **approximately 29,870 G**
+> **approximately 29,270 G**
 
 This confirms that normal equipment progression and routine recovery supplies do not require optional content or grinding.
 
@@ -73,15 +75,15 @@ Premium Consumables are deliberately excluded from baseline solvency. Buying Eme
 Current optional direct G if all authored activities are cleared:
 - 5 ordinary Side Quests: **18,000 G**;
 - 6 Character Quests: **22,200 G**;
-- 11 Regional Hunts: **116,500 G**;
+- 8 active Regional Hunts: **114,000 G**;
 - 6 Major Hunts: **134,000 G**.
 
 Current optional direct G after retiring the former-Elite bounty layer:
-> **290,700 G**
+> **288,200 G**
 
 ## Completionist direct-cash reference
 Mandatory center + current optional direct G:
-> **approximately 607,600 G**
+> **approximately 604,500 G**
 
 This is **below the prior ~650,000-G broad completionist target** because the historical 38,900-G standalone optional-Elite bounty layer has been retired.
 
