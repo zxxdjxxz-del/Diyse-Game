@@ -6,13 +6,12 @@
 
 
 Current active count:
-> **9 Regional Hunts**
+> **8 Regional Hunts**
 
-Slots **#2** and **#3** are retired/open; later hunt numbering remains unchanged pending a separate numbering decision.
+Slots **#1**, **#2**, and **#3** are retired/open; later hunt numbering remains unchanged pending a separate numbering decision.
 
 | # | Regional Hunt | Current access context | EXP |
 |---:|---|---|---:|
-| 1 | **Cistern Devourer** | Chapter 1 — old cistern branch becomes known after S011 | 1,000 |
 | 4 | **Crown Prototype** | Chapter 4 — Reaction Annex optional-return branch | 3,000 |
 | 5 | **Whitehorn Ravager** | Chapter 5 — Greyspires / Chapter-5 optional branch | 4,000 |
 | 6 | **Winterglass Titan** | Chapter 6 — Greyspires / Chapter-6 optional branch | 5,200 |
@@ -23,12 +22,10 @@ Slots **#2** and **#3** are retired/open; later hunt numbering remains unchanged
 | 11 | **Throne of Emperor Vaelkor** | Chapter 12 — Black Host campaign; remains available in post-Vaelkor cleanup if unfinished | 13,800 |
 
 Current active-Hunt total:
-> **66,300 Player EXP**
+> **65,300 Player EXP**
 
 ## Trigger precision
-For #1, current early-chapter branch logic is recovered with strong scene context.
-
-Retired slots #2 and #3 have no current Hunt access route.
+Retired slots #1, #2, and #3 have no current Hunt access route. Chapter 1 has no Regional Hunt.
 
 For later Hunts, this file records the current chapter/area access context without inventing unsupported exact S### triggers.
 
