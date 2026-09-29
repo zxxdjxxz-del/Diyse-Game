@@ -1,9 +1,9 @@
 # Authority Lens
 
-**Chapter-3 retirement firewall:** **RETIRED FROM CURRENT CHAPTER 3 by the September 27 roster revision.** Later-chapter reuse remains separately owned and is not retired by this firewall.
+**Chapter-3 successor firewall:** the former Chapter-3 **Authority Lens identity/placement is superseded by Flash Drone** under the September 27 roster revision. Do not place Authority Lens in current Chapter 3. Later-chapter Authority Lens reuse remains separately owned and is not retired by this firewall.
 
 **Former Chapter-3 placement:** Old City Archives + Cresthaven Ancient tower base  
-**Status:** **CHAPTER-3 PLACEMENT RETIRED / HISTORICAL CH3 TUNING REFERENCE; LATER-CHAPTER REUSE SEPARATELY OWNED**
+**Status:** **CHAPTER-3 IDENTITY/PLACEMENT SUPERSEDED BY FLASH DRONE / HISTORICAL CH3 TUNING REFERENCE; LATER-CHAPTER AUTHORITY LENS REUSE SEPARATELY OWNED**
 
 ## Historical Chapter-3 body
 | Lv | HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR |
@@ -87,4 +87,4 @@ Reason:
 
 The later Chapter-10 version may retain its stronger Classification Flash with Stun.
 
-Former Chapter-3 raw values are historical tuning reference only and no longer await current Cresthaven validation.
+Former Chapter-3 raw values are historical tuning reference only. Flash Drone is the current Chapter-3 successor and must receive its own current tuning rather than inheriting Authority Lens mechanics automatically.
