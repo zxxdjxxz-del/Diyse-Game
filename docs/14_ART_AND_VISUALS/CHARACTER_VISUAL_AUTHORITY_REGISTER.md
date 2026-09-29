@@ -36,5 +36,13 @@ These heights are current character-scale authority for runtime proportion check
 
 Do not infer height from the white-background canvas bounds alone; runtime/model scale must respect these canonical heights while preserving each locked master’s proportions.
 
+## Canonical supporting-character heights
+
+Current locked scale references:
+- **Maevra Solmar — 6'0"**
+- **Kessara Durnan — approximately 5'0"**
+
+These values are character-scale authority where those characters appear. As with the permanent party, the exact visual masters still control body shape, proportions, costume, and framing.
+
 
 Older renders, prose, hashes, filenames, or migration notes are historical whenever they conflict with the current exact source. Do not rebuild a current design by merging old prose into the new image.
