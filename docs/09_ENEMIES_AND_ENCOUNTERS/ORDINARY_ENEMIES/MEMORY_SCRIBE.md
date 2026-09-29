@@ -1,10 +1,12 @@
-# Memory Scribe
+# Memory Scribe — Retired Chapter-2 Reference
 
-**Chapter:** 2 — Sunken Archive  
-**Story anchor:** S013 authored teaching encounter, then ordinary formations  
-**Status:** **POWER COMPLETE / RAW BODY AUTHORED / COPY RULE BOUNDED**
+**Chapter-2 retirement firewall:** **RETIRED FROM CURRENT CHAPTER 2 by the September 27 roster revision.** Arcdrift is the only Archive-specific ordinary identity in the current Sunken Archive roster. The material below is historical tuning/mechanics reference only unless a later owner explicitly reintroduces the identity.
 
-## Body
+**Former Chapter-2 placement:** Sunken Archive  
+**Former story anchor:** S013 authored teaching encounter, then ordinary formations  
+**Status:** **CHAPTER-2 PLACEMENT RETIRED / HISTORICAL TUNING AND COPY-MECHANIC REFERENCE**
+
+## Historical body
 | Lv | HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR |
 |---:|---:|---:|---:|---:|---:|---:|---:|---:|
 | 6 | **230** | 25 | **44** | 24 | **30** | 26 | 0 | 10 |

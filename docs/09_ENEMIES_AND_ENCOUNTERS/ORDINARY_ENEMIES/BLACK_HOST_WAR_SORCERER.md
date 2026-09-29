@@ -1,7 +1,7 @@
 # Black Host War-Sorcerer
 
-**Current use:** Chapter 2 — Old Bastion variant; Chapter 6 — Crimson Work  
-**Status:** **POWER COMPLETE / RAW BODY AUTHORED**
+**Current use:** Chapter 6 — Crimson Work; Chapter-2 Old Bastion placement retired  
+**Status:** **CHAPTER-2 DISPLAY/PLACEMENT RETIRED / CHAPTER-6 OWNER RETAINED**
 
 ## Body
 | Lv | HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR |
@@ -40,15 +40,15 @@ Effect:
 2-round repetition lock.
 
 
-## Chapter-2 variant — Old Bastion
-Black Host War-Sorcerer appears in the Chapter-2 Old Bastion as the established Black Host caster identity at an earlier progression tier.
+## Historical Chapter-2 variant — SUPERSEDED 2026-09-27
+Under the superseded Chapter-2 roster, Black Host War-Sorcerer appeared in the Old Bastion as the Black Host caster identity. Current Chapter 2 uses **Battle Sorcerer**; its ordinary Chapter-2 body/action kit remains open under that owner.
 
-### Provisional Chapter-2 body
+### Historical provisional Chapter-2 body
 | Lv | HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR |
 |---:|---:|---:|---:|---:|---:|---:|---:|---:|
 | 8 | **235** | 28 | **50** | 25 | **34** | 29 | 0 | 10 |
 
-This body is retained as the current tuning starting point and requires three-person encounter validation.
+This former Chapter-2 body is historical tuning reference only and must not be promoted into the current Battle Sorcerer variant automatically.
 
 ### Warfire
 - one party member
@@ -59,7 +59,7 @@ This body is retained as the current tuning starting point and requires three-pe
 - 2-round repetition lock
 
 Purpose:
-> Chapter 2 mandatory-route introduction to Burn.
+> Under the superseded roster, this was a Chapter-2 mandatory-route Burn introduction.
 
 ### Rift Lance
 - one party member
@@ -77,9 +77,9 @@ Effect:
 
 2-round repetition lock.
 
-## Chapter-2 behavior / escalation boundary
-- Chapter 2 uses exactly **Warfire / Rift Lance / War Ward**.
-- **Ruin Volley is not available in Chapter 2.**
+## Historical Chapter-2 behavior / escalation boundary
+- the superseded Chapter-2 variant used exactly **Warfire / Rift Lance / War Ward**;
+- **Ruin Volley was not available in the superseded Chapter-2 variant.**
 - no Stun;
 - no Freeze;
 - no Transfer terminology;
@@ -87,10 +87,10 @@ Effect:
 - no extra action;
 - no hidden focus-fire.
 
-This intentionally leaves the Chapter-6 War-Sorcerer room to escalate through:
+This historical split intentionally left the Chapter-6 War-Sorcerer room to escalate through:
 - higher raw body;
 - stronger Warfire / Rift Lance;
 - **Ruin Volley** AoE;
 - later-chapter pressure.
 
-Chapter-2 exact raw-body and Power certification remains open until the mandatory/completionist three-person validation pass.
+Current Chapter-2 Battle Sorcerer certification remains open under the Battle Sorcerer owner; this retired variant no longer awaits Chapter-2 certification.

@@ -1,9 +1,11 @@
-# Vault Sentinel
+# Vault Sentinel — Retired Chapter-2 Reference
 
-**Chapter:** 2 — Sunken Archive  
-**Status:** **POWER COMPLETE / RAW BODY AUTHORED**
+**Chapter-2 retirement firewall:** **RETIRED FROM CURRENT CHAPTER 2 by the September 27 roster revision.** Current Sunken Archive ordinary combat keeps Arcdrift as its only Archive-specific ordinary identity. The material below is historical tuning reference only unless a later owner explicitly reintroduces the identity.
 
-## Body
+**Former Chapter-2 placement:** Sunken Archive  
+**Status:** **CHAPTER-2 PLACEMENT RETIRED / HISTORICAL TUNING REFERENCE**
+
+## Historical body
 | Lv | HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR |
 |---:|---:|---:|---:|---:|---:|---:|---:|---:|
 | 7 | **265** | **43** | 32 | **31** | 31 | 22 | 0 | 10 |
