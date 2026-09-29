@@ -8,7 +8,7 @@
 Current optional authored activity inventory:
 - **6 Character Quests**
 - **5 ordinary Side Quests**
-- **11 Regional Hunts**
+- **8 current active Regional Hunts**; retired/open slots remain separately tracked
 - **6 Major Hunts**
 
 Total:
@@ -19,7 +19,7 @@ This supersedes Audit103's older ten-ordinary-side-quest count.
 ## Quest-family boundaries
 Character Quests:
 - exactly one per permanent character;
-- ~30 minutes each;
+- runtime remains **provisional/open** and must be set by later research/playtesting;
 - optional;
 - deepen character/Face/Prime themes without gating main-story comprehension, Story Primes, required Abilities, or the ending;
 - award that character's unique Legacy Component at completion.
