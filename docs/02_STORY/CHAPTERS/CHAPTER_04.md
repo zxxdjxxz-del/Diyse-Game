@@ -39,12 +39,12 @@ Active combat party remains **4**.
 ## Last Sentinel state lock
 
 At Chapter-4 opening:
-- the First Command Warden has already communicated **LAST SENTINEL CONFIRMED**;
+- the Authority Construct has already communicated **LAST SENTINEL CONFIRMED**;
 - Cyanis's Card is stable deep Ruby;
 - **Last Sentinel is not yet Recovered**;
 - no verified modern Prime manifestation has occurred;
 - the party does not possess a reliable modern definition of what a **Prime Card** is or does;
-- because of the Warden's **LAST SENTINEL CONFIRMED** message followed by Cyanis's deep-Ruby stabilization, **Prime Card is an active but unproven hypothesis for Cyanis's Card**.
+- because of the Authority Construct's **LAST SENTINEL CONFIRMED** message followed by Cyanis's deep-Ruby stabilization, **Prime Card is an active but unproven hypothesis for Cyanis's Card**.
 
 During the **Elder Thornhide battle**:
 - Last Sentinel manifests for the first verified modern time;

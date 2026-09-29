@@ -18,9 +18,9 @@ Black Host transfer operation and Rhazek established.
 No ancient-system answer.
 
 ## Ch3
-Prime / Might / Last Sentinel identified.
-Composite order mechanics exposed.
-Cresthaven route copied.
+**LAST SENTINEL CONFIRMED** is received from the Authority Construct and Cyanis's Card stabilizes deep Ruby.
+Prime Card becomes an explicit working hypothesis, but **Prime / Might / bearer classification remain unconfirmed**.
+The Westways recordbook's Wayfinder-derived copy provides the geographic lead that Mirena identifies as Cresthaven.
 No Prime manifestation yet.
 
 ## Ch4
@@ -30,7 +30,8 @@ No giant-Crest/Entity reveal.
 
 ## Ch5
 Deepforge proves route continuity north.
-Last Sentinel Awakening / Last Cartographer recovery.
+Last Cartographer recovery.
+Last Sentinel's later Awakening remains **TBD / open**.
 No underground-civilization truth.
 
 ## Ch6–8

@@ -35,7 +35,9 @@ This does **not** directly point them to Westguard.
 
 ## Story Primes
 ### Last Sentinel
-Awakens through the mandatory Deepforge sovereign-chamber/Chapter-5 story resolution.
+Last Sentinel enters Chapter 5 in the **Recovered** state.
+
+Its later **Recovered → Awakened** transition is currently **TBD / open** and is **not locked to Deepforge or Chapter 5** by current authority.
 
 ### Last Cartographer
 Torren's **Perception** Story Prime is recovered in Chapter 5.

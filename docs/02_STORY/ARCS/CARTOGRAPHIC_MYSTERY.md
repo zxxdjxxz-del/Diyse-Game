@@ -7,10 +7,12 @@
 
 This is a long physical archaeological mystery, not a magical six-piece puzzle.
 
+Hidden author truth: the large-scale Ancient magic/infrastructure pattern ultimately involves **all six Faces together** across the mapped region. Character knowledge does not reach that conclusion in Chapter 4.
+
 ## Sequence
 1. Ch1 — Hollow Watch rubbing/local route evidence
 2. Ch1 — Wayfinder Junction material/copies
-3. Ch3 — Torren's post-Warden routing sketch
+3. Ch3 — Westways recordbook / Wayfinder-derived regional copy
 4. Ch4 — Vaelira/Reaction Annex related transcription/chart
 5. Ch5 — Deepforge works survey
 6. Ch8 — Westguard-area western survey
@@ -21,7 +23,11 @@ This is a long physical archaeological mystery, not a magical six-piece puzzle.
 Party learns Ancient route notation relates physical geography in ways not yet understood.
 
 ### Ch3
-Second routing display points practically to Cresthaven.
+The party finds an approximately 500-year-old Yahtrean Westways recordbook containing a hand-copied regional map derived from a much older Wayfinder.
+
+The copy restores the Caelora-area center missing from the damaged physical Wayfinder, shows the giant northern tower, and shows major routes continuing north beyond the copied page. Mirena compares the tower's position to modern geography and identifies the location as **Cresthaven**.
+
+No Authority Construct routing display or second hidden northern map is required.
 
 ### Ch4
 Vaelira recognizes related positional grammar.

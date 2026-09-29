@@ -7,10 +7,10 @@
 
 | Story Prime | Face | Associated character | Recovered | Awakened |
 |---|---|---|---|---|
-| Last Sentinel | Might | Cyanis | Ch3 | Ch5 |
-| Last Cartographer | Acuity | Torren | Ch5 | Ch8 |
+| Last Sentinel | Might | Cyanis | **Ch4 — Elder Thornhide / first verified modern manifestation** | **TBD / open** |
+| Last Cartographer | Perception | Torren | Ch5 | Ch8 |
 | Last Convergence | Elements | Vaelira | Ch6 | end Ch7 / Sixfold Volition |
-| Last Scribe | Change | Nimera | Ch7 | Ch11 |
+| Last Scribe | Memory | Nimera | Ch7 | Ch11 |
 | Last Erasure | Ruin | Seyrik | Ch8 | Ch12 |
 | Last Sanctuary | Grace | Ilyra | Ch9 | Ch9 |
 
@@ -20,9 +20,10 @@ Once acquired, current Prime battle-access rules are owned by `07_CARDS`.
 
 ## First verified manifestation
 Last Sentinel:
-- identified/recovered Ch3;
-- **first verified modern Prime manifestation occurs Ch4 S022**;
-- this is not the same as its later Awakening.
+- Chapter 3 ends with **LAST SENTINEL CONFIRMED** and Cyanis's Card stable deep Ruby, but Last Sentinel is **not yet Recovered**;
+- **first verified modern Prime manifestation occurs during the Chapter-4 Elder Thornhide battle**;
+- that manifestation is the **Recovered transition / acquisition event**;
+- the later **Recovered → Awakened** transition remains **TBD / open**.
 
 ## Removed
 - Concordant stage

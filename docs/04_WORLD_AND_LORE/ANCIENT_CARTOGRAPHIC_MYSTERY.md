@@ -11,12 +11,16 @@ The cartographic mystery is:
 - archaeological;
 - cumulative;
 - not a magical six-piece puzzle;
-- not numerically tied to the Six Faces.
+- not a six-piece collection puzzle and not organized as one map fragment per Face.
+
+Hidden author truth:
+- the large-scale Ancient magic/infrastructure pattern ultimately involves **all six Faces together** across the mapped region;
+- Chapter 4 does **not** let the characters identify that truth.
 
 ## Source progression
 1. Chapter 1 — Hollow Watch rubbing
 2. Chapter 1 — Wayfinder material / surviving copies
-3. Chapter 3 — post-Warden routing sketch leading to Cresthaven
+3. Chapter 3 — ~500-year-old Yahtrean Westways recordbook containing a Wayfinder-derived regional copy; Mirena identifies the giant tower's modern location as Cresthaven
 4. Chapter 4 — Vaelira / Reaction Annex related transcription/chart
 5. Chapter 5 — Deepforge works survey / physical map
 6. Chapter 8 — Westguard-area western survey material

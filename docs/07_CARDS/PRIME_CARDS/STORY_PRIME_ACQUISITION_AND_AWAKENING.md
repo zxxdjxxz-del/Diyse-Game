@@ -7,7 +7,7 @@ Story Primes are acquired **Recovered** and awaken through mandatory story miles
 
 | Story Prime | Face / narrative bearer | Acquired | Awakens |
 |---|---|---|---|
-| Last Sentinel | Might / Cyanis | **Ch4 — Elder Thornhide battle; first modern manifestation is the Recovered transition** | Ch5 — Deepforge sovereign-chamber resolution |
+| Last Sentinel | Might / Cyanis | **Ch4 — Elder Thornhide battle; first modern manifestation is the Recovered transition** | **TBD / open — later mandatory story milestone not yet placed** |
 | Last Cartographer | Perception / Torren | Ch5 | Ch8 — Horizon Vault / western survey reconstruction |
 | Last Convergence | Elements / Vaelira | Ch6 | end Ch7 — Sixfold Volition |
 | Last Scribe | Memory / Nimera | Ch7 | Ch11 — Custodian / truth-archive resolution |
