@@ -77,7 +77,7 @@ Normal legal HP thresholds, same-body state changes, support destruction/spawn r
 
 They do not automatically dismiss the Prime.
 
-A genuine fresh-HP enemy body **refreshes battle-scoped Prime availability** when the new body becomes active. This does not erase an active post-dismissal spacing gate.
+A genuine fresh-HP enemy body **does not refresh Prime availability**. Spent Prime identities remain spent across the form/body transition unless an explicit authored restoration effect restores them. The post-dismissal spacing gate remains separate.
 
 ## 6. Dismissal after Prime Round 3
 After the end-of-round processing for Prime Round 3:
@@ -117,7 +117,7 @@ This sequencing rule does not introduce:
 - a party command queue;
 - Confirm Round;
 - a universal Wait/Move command;
-- boss-form Prime restoration;
+- accidental boss-form Prime restoration;
 - automatic Prime immunity to harmful statuses.
 
 Prime status/control behavior remains owned by `../07_CARDS/PRIME_CARDS/PRIME_STATUS_CONTROL.md`.
