@@ -1,6 +1,6 @@
 # Diyse — Mandatory Route G Budget
 
-**Status:** CURRENT MANDATORY-ROUTE G CALIBRATION / CH1 FORMATION REMAP OPEN
+**Status:** CURRENT MANDATORY-ROUTE G CALIBRATION / CH1–2 FORMATION REMAPS OPEN
 
 This file defines the mandatory-route G envelope used to tune ordinary formations, story encounters, authored currency rewards, and direct-G caches.
 
@@ -75,5 +75,5 @@ Former optional-Elite identities are now part of normal encounter pools. They do
 Their current G is subsumed by the normal formation-level reward selected from `ENCOUNTER_G_REWARDS.md`. This keeps the existing ordinary-formation route expectation structurally intact unless later encounter-frequency/G validation changes the formation-level budget itself.
 
 
-## Chapter-1 remap note
-The **~135,600 G** ordinary-formation route expectation is still the campaign planning envelope, but Chapter 1's old named 3×3 formation payout matrix has been retired. Exact G assignments for the current Chapter-1 formations must be remapped before the mandatory-route total is treated as fully closed to the last G. The current aggregate therefore remains approximately **~316,300 G** rather than a false exact lock.
+## Chapter-1/2 remap note
+The **~135,600 G** ordinary-formation route expectation is still the campaign planning envelope, but the old named per-formation payout matrices for Chapters 1 and 2 have been retired where they no longer match current formation authority. Exact G assignments for the current Chapter-1 and Chapter-2 formations must be remapped before the mandatory-route total is treated as fully closed to the last G. The current aggregate therefore remains approximately **~316,300 G** rather than a false exact lock.
