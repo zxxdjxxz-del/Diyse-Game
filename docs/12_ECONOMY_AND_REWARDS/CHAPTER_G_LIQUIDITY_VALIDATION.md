@@ -1,6 +1,6 @@
 # Diyse — Chapter-by-Chapter G Liquidity Validation
 
-**Status:** PROVISIONAL PASS / CH1–2 ORDINARY-G REMAP REVALIDATION OPEN
+**Status:** PROVISIONAL PASS / CH1 ORDINARY-G REMAP REVALIDATION OPEN
 
 This validation checks whether the closed mandatory-route G economy provides enough usable money at the points where the player actually needs to spend it.
 
@@ -162,7 +162,7 @@ This still leaves substantial completionist flexibility for:
 The prior ~650,000-G completionist cash target is reopened after retirement of the standalone optional-Elite bounty layer. This does **not** invalidate the mandatory-route liquidity PASS above.
 
 ## Certification
-> **MANDATORY-ROUTE LIQUIDITY: PROVISIONAL PASS — FINAL CH1–2 ORDINARY-G REMAPS PENDING**
+> **MANDATORY-ROUTE LIQUIDITY: PROVISIONAL PASS — FINAL CH1 ORDINARY-G REMAP PENDING**
 
 The recalculated route still has enough modeled money for ordinary equipment progression and routine healing/MP/revive/status supplies without requiring optional content or grinding. Final certification remains open only because Chapter 1's current formation identities have not yet received their exact per-formation G remap.
 
@@ -173,8 +173,5 @@ Reopen this certification only if:
 - or playtesting demonstrates repeated chapter-level insolvency.
 
 
-## Chapter-1/2 correction note
-The former Watch Castellan **600 G** payout is removed. The Chapter-1 line above therefore drops from 7,070 G to **~6,470 G** using the existing ordinary-route expectation. Because `ENCOUNTER_G_REWARDS.md` intentionally leaves exact current Chapter-1 and Chapter-2 formation payouts open, this liquidity model remains a **provisional stress-test pass**, not a final exact early-campaign G certification.
-
-
-Chapter 2 keeps its existing **~4,020 G ordinary-route planning envelope** for stress testing, but exact payout assignments must be remapped to the current 3–5 → 6 formation set before final certification.
+## Chapter-1 correction note
+The former Watch Castellan **600 G** payout is removed. The Chapter-1 line above therefore drops from 7,070 G to **~6,470 G** using the existing ordinary-route expectation. Because `ENCOUNTER_G_REWARDS.md` intentionally leaves exact current Chapter-1 formation payouts open, this liquidity model remains a **provisional stress-test pass**, not a final exact Chapter-1 G certification.
