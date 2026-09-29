@@ -37,7 +37,7 @@ Current dialogue supports simultaneous senior command and preexisting friendship
 
 ## Watch notes
 - Beat 5 gives Ilyra a short personal pause at the dead garrison. This is a personal human response, not a healer/conscience assignment; keep it short as currently authored.
-- Beat 14 necessarily gives Torren a large share of the Wayfinder interpretation because the visible route geography belongs to his expertise. Do not mistake domain-earned floor time for speaker ownership.
+- Beat 11 necessarily gives Torren a large share of the Wayfinder interpretation because the visible route geography belongs to his expertise. Do not mistake domain-earned floor time for speaker ownership.
 - Optional C04 may remain nosy and personal because Ilyra is speaking to a longstanding friend and Maevra can refuse; do not expand it into relationship exposition.
 
 ## Authority effect
