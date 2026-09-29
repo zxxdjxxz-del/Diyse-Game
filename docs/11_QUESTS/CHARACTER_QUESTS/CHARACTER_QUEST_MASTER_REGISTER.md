@@ -8,8 +8,10 @@
 Exactly:
 > **6 standalone Character Quests**
 
-Target authored runtime:
-> approximately **30 minutes each**
+Authored runtime:
+> **PROVISIONAL / OPEN**
+
+There is no locked ~30-minute Character Quest target. Final quest runtimes must be determined from content scope, area traversal, dialogue, combat, and later playtesting/research rather than forced to one uniform duration.
 
 | Character | Quest | Unlock | Site | Boss/climax | EXP |
 |---|---|---|---|---|---:|
