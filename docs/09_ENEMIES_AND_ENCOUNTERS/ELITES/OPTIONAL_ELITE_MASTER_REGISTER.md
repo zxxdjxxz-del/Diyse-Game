@@ -13,7 +13,6 @@ The 12 identities historically tracked here are **former strong normal-pool Elit
 
 | Ch | Strong normal-pool identity | Lv | HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR |
 |---:|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| 2 | **Archive Duplicant** | 9 | 1,000 | 43 | 46 | 32 | 33 | 27 | 5 | 10 |
 | 3 | **Grand Inquisitor Frame** | 14 | 1,200 | 58 | 62 | 44 | 45 | 29 | 0 | 10 |
 | 4 | **Annex Duelist** | 18 | 1,700 | 72 | 72 | 50 | 49 | 34 | 10 | 5 |
 | 5 | **Ruin Forgemaster** | 23 | 2,250 | 88 | 62 | 64 | 57 | 31 | 0 | 5 |
@@ -51,28 +50,10 @@ There is **no approved strong normal-pool Elite in current Chapter 1**.
 
 Watch Captain Frame's former Hollow Watch role is retired. Its old Lv6 / HP500 package is historical tuning evidence only and does not establish current placement.
 
-## Chapter 2 Power completion
+## Chapter 2
+There is **no approved strong normal-pool Elite in current Chapter 2**.
 
-### Archive Duplicant
-Raw line retained:
-> Lv9 / HP1,000 / ATK43 / MAG46 / DEF32 / Spirit33 / SPD27 / EVA5 / SR10
-
-Direct damage:
-- Duplicate Lance — **180**
-- Mirror Burst — **145 per target**
-- Deep Duplicate — **80% source total Power, clamp110–240**
-
-Non-damage:
-- Duplicant Guard — **Power N/A**
-
-Deep Duplicate:
-- records only after an eligible party action resolves;
-- does not predict commands;
-- copies no status/penetration/resource riders.
-
-Status:
-> **POWER COMPLETE**
-
+Archive Duplicant is removed from the Sunken Archive encounter pool. Its retained design/body is historical/future-use material only and does not establish current Chapter-2 placement.
 
 ## Chapter 3 Power completion
 
