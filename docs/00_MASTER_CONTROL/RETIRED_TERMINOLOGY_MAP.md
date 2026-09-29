@@ -30,14 +30,6 @@ Use this file when cleaning old text, code comments, filenames or notes.
 | Crest Magus | Crest Arcanist |
 | Sixfold Knight | Proofhunter |
 | Ruin Healer | Ruin Warden |
-| Cyanis Dovaren | Cyanis |
-| Ilyra Amarin | Ilyra |
-| Torren Harth | Torren |
-| Nimera Pellan | Nimera |
-| Vaelira Serren | Vaelira |
-| Seyrik Rell | Seyrik |
-| Maevra Solmar | Maevra |
-| Kessara Durnan | Kessara |
 | Auren | G |
 | MDEF / Magic Defense as display term | Spirit |
 | Accuracy as character stat | no natural Accuracy; use Base Hit where appropriate |
@@ -49,10 +41,20 @@ Use this file when cleaning old text, code comments, filenames or notes.
 | Break/Stagger meter | removed |
 | general Accessory slot | removed |
 
-## Character-name migration note
-The surname-bearing forms above are retained only as migration/provenance references. Current-facing character authority uses the first-name-only forms unless a newer explicit authority establishes a surname.
+## Character-name note
+Canonical surnames are **not retired terminology**.
 
-This rule does not remove independently established surnames from unrelated supporting characters such as **Edda Harth** or **Talia Rell**.
+Current full names owned by the active character files include:
+- Cyanis Dovaren
+- Ilyra Amarin
+- Torren Harth
+- Nimera Pellan
+- Vaelira Serren
+- Seyrik Rell
+- Maevra Solmar
+- Kessara Durnan
+
+First-name-only usage remains valid in dialogue/UI according to context, but it does not replace or retire the surname.
 
 ## Currency migration note
 Current ordinary currency:

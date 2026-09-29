@@ -16,7 +16,7 @@ Use:
 - Vorathen
 - The Veiled Citadel
 - Sixfold Volition
-- Acuity
+- Perception
 - Last Cartographer
 - Reaction Annex
 - Reaction Conduit
@@ -40,3 +40,5 @@ Do not restore as current-facing story language:
 - Sixfold Crucible
 
 Historical filenames/audits may retain old strings for provenance.
+
+**Acuity is not a current Face name.** Current Face terminology is **Perception**.

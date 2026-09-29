@@ -7,22 +7,22 @@
 
 | Character | Age | Permanent join | Base | Subclass | Face | Story Prime |
 |---|---:|---|---|---|---|---|
-| Cyanis | 29 | Start | Crest Knight | Crest Arcanist | Might | Last Sentinel |
-| Ilyra | 28 | Chapter 0 | Blue Warden | Vowblade | Grace | Last Sanctuary |
-| Torren | 42 | Chapter 1 | War Archer | Routeweaver | Perception | Last Cartographer |
-| Nimera | 22 | Chapter 3 | Cardweaver | Proofhunter | Memory | Last Scribe |
-| Vaelira | 27 | Chapter 4 | Green Arcanist | Axiomblade | Elements | Last Convergence |
-| Seyrik | 29 | end of Chapter 6 | Ruin Vanguard | Ruin Warden | Ruin | Last Erasure |
+| Cyanis Dovaren | 29 | Start | Crest Knight | Crest Arcanist | Might | Last Sentinel |
+| Ilyra Amarin | 28 | Chapter 0 | Blue Warden | Vowblade | Grace | Last Sanctuary |
+| Torren Harth | 42 | Chapter 1 | War Archer | Routeweaver | Perception | Last Cartographer |
+| Nimera Pellan | 22 | Chapter 3 | Cardweaver | Proofhunter | Memory | Last Scribe |
+| Vaelira Serren | 27 | Chapter 4 | Green Arcanist | Axiomblade | Elements | Last Convergence |
+| Seyrik Rell | 29 | end of Chapter 6 | Ruin Vanguard | Ruin Warden | Ruin | Last Erasure |
 
-Do **not** infer or restore surnames for the permanent six from superseded migration filenames.
+Canonical surnames are current. First-name-only references are valid shorthand, not replacements for the full names.
 
 No permanent character uses a Subclass before **Sixfold Volition at the end of Chapter 7**.
 
 Exact class/Face mechanics are owned by `06_CLASSES_AND_ABILITIES` and `07_CARDS`; this table is identity shorthand and should be synchronized whenever those current labels change.
 
 ## Major recurring supporting characters
-- Maevra
-- Kessara
+- Maevra Solmar
+- Kessara Durnan
 - Queen Lysara Ceryth
 - Crown Princess Mirena Ceryth
 - Prince Alaric Ceryth
@@ -31,7 +31,7 @@ Exact class/Face mechanics are owned by `06_CLASSES_AND_ABILITIES` and `07_CARDS
 - Talia Rell
 - Edda Harth
 
-Maevra and Kessara also have current exact visual masters under `asset_sources/characters/current/`. Do not infer surnames for either from retired migration files.
+Maevra Solmar and Kessara Durnan also have current exact visual masters under `asset_sources/characters/current/`. Their surnames are current canon.
 
 ## Major antagonists
 - Commander Rhazek
