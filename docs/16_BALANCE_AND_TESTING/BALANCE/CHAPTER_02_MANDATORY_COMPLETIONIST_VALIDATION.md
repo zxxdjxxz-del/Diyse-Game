@@ -33,10 +33,10 @@ Retired:
 - dedicated escort battle.
 
 ## Current formation-size targets
-- **Old Waterworks:** 2–3 enemies;
-- **Sunken Archive:** 2–3 normally, one late 4-body ceiling;
-- **Old Bastion:** 2–3 normally, one late 4-body ceiling;
-- **no ordinary 5–6 enemy Chapter-2 formations.**
+- **Old Waterworks:** 3–5 enemies;
+- **Sunken Archive:** 3–5 enemies;
+- **Old Bastion:** 3–5 through most alerted combat, scaling up to **6** in the final ascent;
+- six bodies are a late ceiling rather than the normal baseline.
 
 ## Encounters that must be revalidated
 At minimum:
@@ -79,7 +79,7 @@ Do not import:
 - former Memory Scribe numbers;
 - former Regional-Hunt Scaldback boss numbers;
 - Chapter-0 Battle Sorcerer boss body as a Chapter-2 ordinary body;
-- retired Rift Hound numbers as War Hound numbers without an explicit current mapping.
+- retired Rift Hound numbers may be used only as provisional tuning material through the current `WAR_HOUND.md` mapping.
 
 ## Completion condition
 Chapter 2 is recertified only when:
@@ -90,3 +90,7 @@ Chapter 2 is recertified only when:
 - no retired encounter assumptions remain in the test harness.
 
 CEXP recalibration remains downstream of this pass.
+
+
+## 2026-09-28 formation correction
+The temporary 2–4-body Chapter-2 reduction is superseded. Final mandatory-vs-completionist certification must use the restored **3–5 → 6** growth curve and the current identities in `CHAPTER_02_FORMATIONS.md`.

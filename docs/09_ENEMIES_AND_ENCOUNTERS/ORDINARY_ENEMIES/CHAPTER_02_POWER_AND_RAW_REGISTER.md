@@ -20,7 +20,7 @@ The chapter uses **Cyanis + Ilyra + Torren** only. Maevra is noncombat.
 | Arcdrift | existing Lv6 Archive Current-derived body retained provisionally under current name |
 | Black Host Raider | existing Ch2 body retained pending validation |
 | Black Host Crossbowman | existing Ch2 body retained pending validation |
-| Black Host Shieldbearer | current-name sync required; former Ruin Shieldbearer Ch2 body may be used only as provisional tuning material |
+| Black Host Shieldbearer | current owner mapped; former Ruin Shieldbearer Ch2 body retained only as provisional tuning material |
 | Battle Sorcerer | Chapter-2 ordinary body/action kit **OPEN**; do not use Chapter-0 boss body unchanged |
 | War Hound | Chapter-2 ordinary body/action kit **OPEN**; do not import retired Rift Hound body automatically |
 
@@ -35,7 +35,7 @@ These values remain usable as **starting points**, not current difficulty certif
 | Arcdrift | 6 | 185 | 12 | 42 | 19 | 28 | 30 | 5 | 10 | 140 Lightning / 105 Lightning AoE |
 | Black Host Raider — Ch2 | 6 | 220 | 40 | 14 | 24 | 20 | 25 | 0 | 5 | 120 / 145 |
 | Black Host Crossbowman — Ch2 | 7 | 210 | 46 | 12 | 24 | 22 | 27 | 5 | 5 | 150 / 175 |
-| Black Host Shieldbearer — provisional inherited tuning | 7 | 300 | 44 | 15 | 38 | 27 | 18 | 0 | 5 | former 140 / 155 Ruin grammar pending current-name sync |
+| Black Host Shieldbearer — provisional inherited tuning | 7 | 300 | 44 | 15 | 38 | 27 | 18 | 0 | 5 | former 140 / 155 Ruin grammar retained provisionally under the current owner |
 
 ## Explicitly retired from active Chapter-2 raw authority
 - Memory Scribe;
@@ -78,9 +78,13 @@ Do not reintroduce Stun or Freeze.
 Author/confirm:
 1. Needlewing Chapter-2 body;
 2. Scaldback ordinary body/actions;
-3. Black Host Shieldbearer current-name body/action mapping;
+3. Black Host Shieldbearer final body/action certification;
 4. Battle Sorcerer Chapter-2 ordinary variant;
 5. War Hound Chapter-2 ordinary variant;
-6. then run the current 2–4-body formation validation.
+6. then run the current **3–6-body** formation validation.
 
 Do not finalize EXP/CEXP from the old encounter structure.
+
+
+## Formation-size correction — 2026-09-28
+Current Chapter-2 validation uses **3–5 bodies through Waterworks/Archive, with up to 6 in the final Old Bastion ascent**. The temporary 2–4-body reduction is superseded.

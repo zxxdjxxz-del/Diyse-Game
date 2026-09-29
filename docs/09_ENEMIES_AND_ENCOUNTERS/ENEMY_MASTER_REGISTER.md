@@ -271,11 +271,11 @@ Active Chapter-2 identities are owned by the current chapter roster and formatio
 
 Scaldback is now an ordinary later-Waterworks enemy. There is currently **no Chapter-2 Regional Hunt**.
 
-Current ordinary formation structure is rebuilt for the three-person party:
-- Waterworks: 2–3 bodies;
-- Sunken Archive: 2–3 normally, 4 maximum;
-- Old Bastion: 2–3 normally, 4 maximum;
-- no ordinary 5–6 body Chapter-2 formations.
+Current ordinary formation structure is tuned for the three-person party:
+- Waterworks: **3–5 bodies**;
+- Sunken Archive: **3–5 bodies**;
+- Old Bastion: **3–5 through most alerted combat, up to 6 in the final ascent**;
+- six bodies are a late ceiling, not the baseline.
 
 Status rollout:
 - Burn introduced

@@ -74,14 +74,14 @@ This is an intentional defensive choice, not Brace.
 
 ## Finite support
 
-If Chapter-2 encounter design places support with Rhazek, it must use **actual existing Black Host troop identities** from the active Old Bastion roster.
+If Chapter-2 encounter design places support with Rhazek, it must use **actual current Black Host troop identities** from the active Old Bastion roster.
 
 Legal support identities:
-- Ruin Shieldbearer;
+- Black Host Shieldbearer;
 - Black Host Crossbowman;
 - Black Host Raider;
-- Black Host War-Sorcerer;
-- Rift Hound, only if the final room/formation placement supports it.
+- Battle Sorcerer;
+- War Hound, only if the final room/formation placement supports it.
 
 Rules:
 - support is finite;
