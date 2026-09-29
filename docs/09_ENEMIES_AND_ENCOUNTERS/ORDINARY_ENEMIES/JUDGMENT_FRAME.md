@@ -1,9 +1,11 @@
 # Judgment Frame
 
-**Chapter-3 authority:** Old City Archives  
-**Status:** **CHAPTER-3 IDENTITY / ROLE / ACTION GRAMMAR LOCKED — NUMERIC REVALIDATION REQUIRED**
+**Chapter-3 retirement firewall:** **RETIRED FROM CURRENT CHAPTER 3 by the September 27 roster revision.** Current Chapter 3 uses the locked Construct / Shield Construct / Maul Construct / Flash Drone / Scriptshade / Arcdrift / Ruin Spider roster. Later-chapter reuse remains separately owned and is not retired by this firewall.
 
-## Chapter-3 body
+**Former Chapter-3 placement:** Old City Archives  
+**Status:** **CHAPTER-3 PLACEMENT RETIRED / HISTORICAL CH3 TUNING REFERENCE; LATER-CHAPTER REUSE SEPARATELY OWNED**
+
+## Historical Chapter-3 body
 | Lv | HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR |
 |---:|---:|---:|---:|---:|---:|---:|---:|---:|
 | 11 | **365** | **58** | 52 | **41** | 39 | 23 | 0 | 10 |
@@ -47,10 +49,10 @@ Chapter-10 actions:
 True construct: **Bleed Immune**
 
 
-## Chapter-3 placement / identity lock — 2026-09-23
+## Historical Chapter-3 placement / identity lock — SUPERSEDED 2026-09-27
 Judgment Frame remains an active ordinary Old City Archives construct.
 
-Current role:
+Former Chapter-3 role:
 > durable heavy enforcement chassis / physical anchor for construct formations
 
 It is not:
@@ -60,7 +62,7 @@ It is not:
 - a speaking adjudicator;
 - a Stun-teaching enemy.
 
-The Chapter-3 ordinary kit remains:
+The historical Chapter-3 ordinary kit was:
 - Judgment Strike;
 - Adjudication Pulse;
 - Enforcement Crush.
@@ -76,4 +78,4 @@ Escalation is intentional:
 
 Do not promote ordinary Judgment Frames to Hunt mechanics.
 
-The existing Chapter-3 raw line remains a provisional starting point pending current four-person encounter validation.
+The former Chapter-3 raw line is historical tuning reference only and no longer awaits current Chapter-3 validation.
