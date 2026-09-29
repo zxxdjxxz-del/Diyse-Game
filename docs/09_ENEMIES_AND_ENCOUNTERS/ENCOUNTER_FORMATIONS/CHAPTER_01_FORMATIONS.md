@@ -128,7 +128,7 @@ Roster:
 - Bullhog
 - Needlewing
 - Burrowclaw
-- Rubbleback
+- Barkling
 
 Southern Briar is Chapter 1's largest natural exploration area and retains **six** ordinary formations. Exact stats/actions remain open for later enemy-balance work; formation design currently needs only broad combat-role compatibility.
 
@@ -139,13 +139,13 @@ Southern Briar is Chapter 1's largest natural exploration area and retains **six
 | **Predator Trail** | 1 Needlewing + 1 Thicket Stalker + 1 Bullhog | fast pressure around one sturdy body |
 | **Briar Flight** | 1 Needlewing + 1 Vine Creeper + 1 Bullhog | mixed-pressure familiar/new-species blend |
 | **Burrow Ambush** | 1 Burrowclaw + 1 Thicket Stalker + 1 Vine Creeper | introduces the deeper-route burrowing threat |
-| **Barkline** | 1 Rubbleback + 1 Bullhog + 1 Needlewing | sturdier frontline plus fast aerial pressure |
+| **Barkline** | 1 Barkling + 1 Bullhog + 1 Needlewing | sturdier frontline plus fast aerial pressure |
 
 ### Four-enemy formations
 
 | Formation | Composition | Structural identity |
 |---|---|---|
-| **Deep Briar Mix** | 1 Rubbleback + 1 Burrowclaw + 1 Vine Creeper + 1 Needlewing | broadest deep-route ecosystem mix |
+| **Deep Briar Mix** | 1 Barkling + 1 Burrowclaw + 1 Vine Creeper + 1 Needlewing | broadest deep-route ecosystem mix |
 | **Canopy Rush** | 2 Needlewings + 1 Thicket Stalker + 1 Bullhog | fastest ordinary Chapter-1 formation |
 
 The current authored examples below are 3–4 bodies, but the **structural Southern Briar ceiling is 6 enemies**. Exact 5–6 body formations and their selection weights remain open for later encounter tuning; do not infer a max-4 cap from the present example list.
@@ -171,7 +171,7 @@ Burrowclaw enters the ecosystem here.
 - Burrow Ambush
 - Barkline
 
-Rubbleback enters here.
+Barkling enters here.
 
 **Deep / hardest-navigation section**
 - all six formations
@@ -218,14 +218,14 @@ These are broad structural identities, not final action locks.
 - Bullhog: sturdy straightforward physical pressure.
 - Needlewing: fastest, comparatively fragile aerial harasser.
 - Burrowclaw: broad placeholder role is mobile / ambush-oriented physical threat.
-- Rubbleback: broad placeholder role is sturdier frontline / bruiser threat.
+- Barkling: broad placeholder role is sturdier frontline / bruiser threat.
 
-Exact Burrowclaw and Rubbleback stats/actions are intentionally deferred.
+Exact Burrowclaw and Barkling stats/actions are intentionally deferred.
 
 ## Removed from active Chapter-1 formation authority
 - Briar Boar name
 - Rootmaw
-- Barkling
+- Rubbleback
 - Brambleback
 - Watch Sentry
 - Watch Ballista
