@@ -1,9 +1,9 @@
 # Judgment Frame
 
-**Chapter-3 retirement firewall:** **RETIRED FROM CURRENT CHAPTER 3 by the September 27 roster revision.** Current Chapter 3 uses the locked Construct / Shield Construct / Maul Construct / Flash Drone / Scriptshade / Arcdrift / Ruin Spider roster. Later-chapter reuse remains separately owned and is not retired by this firewall.
+**Chapter-3 successor firewall:** the former Chapter-3 **Judgment Frame role/name is superseded by Maul Construct** under the September 27 roster revision. Do not place Judgment Frame in current Chapter 3. Later-chapter Judgment Frame reuse remains separately owned and is not retired by this firewall.
 
 **Former Chapter-3 placement:** Old City Archives  
-**Status:** **CHAPTER-3 PLACEMENT RETIRED / HISTORICAL CH3 TUNING REFERENCE; LATER-CHAPTER REUSE SEPARATELY OWNED**
+**Status:** **CHAPTER-3 ROLE/NAME SUPERSEDED BY MAUL CONSTRUCT / HISTORICAL CH3 TUNING REFERENCE; LATER-CHAPTER JUDGMENT FRAME REUSE SEPARATELY OWNED**
 
 ## Historical Chapter-3 body
 | Lv | HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR |
@@ -78,4 +78,4 @@ Escalation is intentional:
 
 Do not promote ordinary Judgment Frames to Hunt mechanics.
 
-The former Chapter-3 raw line is historical tuning reference only and no longer awaits current Chapter-3 validation.
+The former Chapter-3 raw line is historical tuning reference only. Maul Construct is the current Chapter-3 successor, but its final raw body/actions remain separately open and must not be inferred automatically from Judgment Frame.
