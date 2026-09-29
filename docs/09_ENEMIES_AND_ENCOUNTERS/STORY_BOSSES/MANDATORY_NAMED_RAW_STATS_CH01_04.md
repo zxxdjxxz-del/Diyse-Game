@@ -271,22 +271,25 @@ Expected complete encounter:
 - high-side **~9–11**
 
 
-## Thornhide Power-complete override
-Raw body remains:
+## Thornhide Stalker current Chapter-1 line
+Current boss identity:
+> **Thornhide Stalker** — Thornhide species
+
+Current retained/provisional raw body:
 > Lv4 / HP850 / ATK34 / MAG18 / DEF22 / Spirit20 / SPD29 / EVA10 / SR0
 
-Direct damage:
-- Panic Rush155
-- Briar Rend135 / 20% Bleed
-- Cornered Sweep110 AoE
-- Frightened Guard N/A
+Current action package:
+- Panic Rush — 155 Power
+- Briar Rend — 135 Power / 20% Bleed
+- Cornered Sweep — 110 Power per target
+- Frightened Guard — Power N/A
 
-Black Host Irritant Fitting:
-- HP180 / DEF18 / Spirit18
-- Power N/A
-- required nonlethal objective
+Current resolution:
+- normal lethal boss victory;
+- no Black Host fitting or control apparatus;
+- no protected HP floor;
+- no purification/stabilization objective;
+- no forced retreat-alive resolution.
 
-While fitting survives:
-> Thornhide floor = **213 HP / 25% Max HP**
+Final balance certification remains open until the Chapter-1 mandatory/completionist level spine is recalibrated.
 
-Fitting 0 HP ends battle immediately with Thornhide retreat alive.
