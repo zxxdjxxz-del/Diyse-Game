@@ -59,14 +59,14 @@ Detailed Face owner:
 ## Current Prime locks
 - progression: **Recovered → Awakened** only;
 - Prime invocation and Prime commands cost **0 MP**;
-- each Prime identity has **one use per battle unless explicitly restored**;
-- Prime spent/Ready state is battle-scoped and resets for a new battle;
+- each Prime identity has **one use until restored by valid rest or an explicitly authored restoration effect**;
+- Prime spent/Ready state **persists across battle end** until valid restoration;
 - same-bar state changes do **not** refresh Prime availability;
 - genuine fresh-HP boss forms/bodies also do **not** refresh Prime availability;
 - a form transition never creates a new automatic Prime-use allowance;
-- after an Awakened Prime ends, **3 full normal party rounds** must pass before another Ready Prime can be invoked;
+- after any Prime manifestation ends, **3 full normal party rounds** must pass before another Ready Prime can be invoked;
 - Awakened Prime round sequencing is owned by `../05_BATTLE_SYSTEM/PRIME_ROUND_SEQUENCING.md`;
-- Emergency Kit is an explicit authored Prime-restoration effect and restores acquired Prime identities to Ready without bypassing the separate spacing rule.
+- valid rest and explicit authored restoration effects such as Emergency Kit restore eligible spent Prime identities to Ready without bypassing an active spacing rule.
 
 ## Current class / progression locks
 Permanent six:
