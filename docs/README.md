@@ -52,7 +52,7 @@ When current claims conflict:
 
 `99_ARCHIVE` contains migration history, retired terminology/authority, old package records, and provenance references. It is non-authoritative for current gameplay unless a current owner explicitly cites it for historical evidence.
 
-Completed subject-folder migration/consolidation checklists are historical and do not belong in active domain roots. The current economy certification remains in `12_ECONOMY_AND_REWARDS/MIGRATION_VALIDATION.md` only because that legacy-named file has been converted into an explicitly current G/payout/liquidity validation.
+Completed subject-folder migration/consolidation checklists are historical and do not belong in active domain roots. Economy validation files under `12_ECONOMY_AND_REWARDS` are retained as **provisional/historical planning references** while the detailed economy rebuild/recalibration is pending; they are not hard current G/payout/liquidity certification.
 
 ## Current Face terminology
 

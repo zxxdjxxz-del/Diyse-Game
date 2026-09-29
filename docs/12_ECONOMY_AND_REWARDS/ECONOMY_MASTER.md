@@ -1,20 +1,20 @@
 # Diyse — Economy Master
 
-**Status:** CORE ECONOMY DESIGN / OPTIONAL-CASH CALIBRATION REOPENED AFTER FORMER-ELITE CONVERSION
+**Status:** **ECONOMY REBUILD / RECALIBRATION PENDING — LEGACY NUMERIC MODEL RETAINED FOR REFERENCE**
 
-**Domain rule:** `12_ECONOMY_AND_REWARDS` owns G denomination, purchase/replacement prices, sell rules, stock progression, commerce endpoint roles, reward-value/scarcity rules, and non-EXP reward handoffs. Item definitions remain in `08`; enemy bodies remain in `09`; EXP/CEXP remain in `10`; quest structure remains in `11`.
+**Domain rule:** `12_ECONOMY_AND_REWARDS` owns the economy domain and remains the home for the future rebuild. **G** remains current player-facing currency terminology. The numeric calibration below is retained as historical/provisional planning material and is **not** a hard current lock while the rebuild is pending. Item definitions remain in `08`; enemy bodies remain in `09`; EXP/CEXP remain in `10`; quest structure remains in `11`.
 
-## Currency
+## Currency terminology
 The ordinary currency is:
 > **G**
 
 The former currency name **Auren** is retired.
 
-Current display scale:
-> **1 economy unit = 200 G**
+Legacy/provisional planning references:
+- prior display/calibration scale: **1 economy unit = 200 G**;
+- prior starting-wallet figure: **2,500 G**.
 
-Starting wallet:
-> **2,500 G**
+These values remain reference material only until the economy rebuild explicitly relocks them.
 
 ## Design objective
 The economy should support:
@@ -29,8 +29,8 @@ The intended checkpoint pressure remains:
 
 Buying every available upgrade immediately is not the baseline expectation.
 
-## Mandatory-route calibration
-Current expected direct G:
+## Provisional legacy mandatory-route calibration
+Legacy/provisional direct-G reference:
 > **approximately 316,300 G**
 
 Composition:
@@ -45,9 +45,9 @@ Ordinary formations therefore contribute approximately:
 
 of the calibrated mandatory-route direct G, preserving the intended **40–50%** ordinary-encounter share.
 
-Protected/nonlethal resolution is included in the current economy and does **not** default to zero G.
+Retained structural intent: protected/nonlethal resolution does **not** automatically imply zero G; exact payouts remain rebuild-pending.
 
-## Chapter liquidity certification
+## Historical/provisional chapter-liquidity model
 
 Chapter 1's current per-formation G remap remains open, so the liquidity result below is a **provisional stress-test pass** rather than a final exact Chapter-1 certification.
 The whole-game total is also validated at chapter scale in:
@@ -58,8 +58,10 @@ Stress-test model using **mandatory-route income only**:
 - substantial routine HP/MP/revive/status Consumable restocking: **171,400 G** total;
 - combined modeled spending: **287,000 G**.
 
-Result:
-> **PASS — wallet remains positive through every chapter**
+Historical model result:
+> **PASS under the former calibration**
+
+This is not current final economy certification.
 
 Tightest late-game checkpoint:
 > **Chapter 10 — approximately 6,600 G remains after modeled equipment + routine restock**
@@ -67,34 +69,34 @@ Tightest late-game checkpoint:
 Modeled end-of-Chapter-13 wallet:
 > **approximately 29,270 G**
 
-This confirms that normal equipment progression and routine recovery supplies do not require optional content or grinding.
+The former stress-test model suggested mandatory-route solvency under that calibration; it is retained as historical evidence only.
 
 Premium Consumables are deliberately excluded from baseline solvency. Buying Emergency Kit / Reservoir Tonic / Emergency Rally is optional emergency/luxury spending, not routine healing maintenance.
 
-## Optional direct-G layer
-Current optional direct G if all authored activities are cleared:
+## Provisional legacy optional direct-G layer
+Legacy/provisional optional direct-G reference if all authored activities are cleared:
 - 5 ordinary Side Quests: **18,000 G**;
 - 6 Character Quests: **22,200 G**;
 - 8 active Regional Hunts: **114,000 G**;
 - 6 Major Hunts: **134,000 G**.
 
-Current optional direct G after retiring the former-Elite bounty layer:
+Legacy/provisional optional direct-G subtotal after retiring the former-Elite bounty layer:
 > **288,200 G**
 
-## Completionist direct-cash reference
-Mandatory center + current optional direct G:
+## Provisional legacy completionist direct-cash reference
+Legacy mandatory reference + legacy optional direct-G reference:
 > **approximately 604,500 G**
 
 This is **below the prior ~650,000-G broad completionist target** because the historical 38,900-G standalone optional-Elite bounty layer has been retired.
 
-Do not restore those bounties simply to recover the old total. The completionist-cash calibration is reopened and should be solved later through the current economy process if the ~650,000-G target is still desired.
+Do not restore those bounties simply to recover the old total. Any future completionist-cash target belongs to the dedicated economy rebuild.
 
 This completionist reference excludes:
 - equipment/Consumable resale;
 - deliberate extra ordinary encounters/backtracking;
 - non-cash reward-equivalent value.
 
-## Current major sinks / purchase references
+## Legacy/provisional major sinks / purchase references
 ### Ordinary equipment
 There are exactly:
 > **38 ordinary equipment identities**
@@ -138,7 +140,7 @@ Exactly:
 Cresthaven Quartermaster is a separate long-term requisition/backfill endpoint.
 Vhalmarch is a separate forward-supply/requisition endpoint.
 
-## Hunt reward rule — LOCKED
+## Hunt reward intent — retained; exact G values pending rebuild
 Regional and Major Hunts should provide **strong G regardless of separate permanent/item rewards**.
 
 Do not reduce Hunt cash merely because the Hunt also grants:
@@ -216,12 +218,8 @@ Optional content should make the player richer and widen build flexibility, not 
 - Consumable prices/resale → `CONSUMABLE_PRICES.md`, `CONSUMABLE_SELL_RULE.md`
 - Kessara → `KESSARA_RELIC_COPY_ECONOMY.md`
 
-## Reopen rule
-Reopen a closed economy value only when:
-- a current playtest demonstrates a specific affordability/exploit failure;
-- actual battle-consumption simulation materially exceeds the certified restock allowance;
-- an owner-domain reward/source changes materially;
-- or the user explicitly revises the economy design.
+## Rebuild rule
+Detailed economy values are already **open for rebuild/recalibration**. Do not spend cleanup/consolidation work polishing or propagating legacy numeric totals. Relock prices/payouts/liquidity only through the dedicated future economy pass.
 
 ## Ownership
 - `08` owns item identity/stats/effects/source identity.
