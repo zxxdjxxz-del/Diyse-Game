@@ -30,7 +30,7 @@ The intended checkpoint pressure remains:
 Buying every available upgrade immediately is not the baseline expectation.
 
 ## Provisional legacy mandatory-route calibration
-Current expected direct G:
+Legacy/provisional direct-G reference:
 > **approximately 316,300 G**
 
 Composition:
@@ -45,7 +45,7 @@ Ordinary formations therefore contribute approximately:
 
 of the calibrated mandatory-route direct G, preserving the intended **40–50%** ordinary-encounter share.
 
-Protected/nonlethal resolution is included in the current economy and does **not** default to zero G.
+Retained structural intent: protected/nonlethal resolution does **not** automatically imply zero G; exact payouts remain rebuild-pending.
 
 ## Historical/provisional chapter-liquidity model
 
@@ -69,27 +69,27 @@ Tightest late-game checkpoint:
 Modeled end-of-Chapter-13 wallet:
 > **approximately 29,270 G**
 
-This confirms that normal equipment progression and routine recovery supplies do not require optional content or grinding.
+The former stress-test model suggested mandatory-route solvency under that calibration; it is retained as historical evidence only.
 
 Premium Consumables are deliberately excluded from baseline solvency. Buying Emergency Kit / Reservoir Tonic / Emergency Rally is optional emergency/luxury spending, not routine healing maintenance.
 
 ## Provisional legacy optional direct-G layer
-Current optional direct G if all authored activities are cleared:
+Legacy/provisional optional direct-G reference if all authored activities are cleared:
 - 5 ordinary Side Quests: **18,000 G**;
 - 6 Character Quests: **22,200 G**;
 - 8 active Regional Hunts: **114,000 G**;
 - 6 Major Hunts: **134,000 G**.
 
-Current optional direct G after retiring the former-Elite bounty layer:
+Legacy/provisional optional direct-G subtotal after retiring the former-Elite bounty layer:
 > **288,200 G**
 
 ## Provisional legacy completionist direct-cash reference
-Mandatory center + current optional direct G:
+Legacy mandatory reference + legacy optional direct-G reference:
 > **approximately 604,500 G**
 
 This is **below the prior ~650,000-G broad completionist target** because the historical 38,900-G standalone optional-Elite bounty layer has been retired.
 
-Do not restore those bounties simply to recover the old total. The completionist-cash calibration is reopened and should be solved later through the current economy process if the ~650,000-G target is still desired.
+Do not restore those bounties simply to recover the old total. Any future completionist-cash target belongs to the dedicated economy rebuild.
 
 This completionist reference excludes:
 - equipment/Consumable resale;
