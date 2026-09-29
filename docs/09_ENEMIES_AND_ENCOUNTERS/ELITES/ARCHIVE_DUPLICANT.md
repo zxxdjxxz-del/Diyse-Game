@@ -33,7 +33,7 @@ True construct:
 ### Deep Duplicate
 The Duplicant records the most recent completed eligible direct-damage party action.
 
-Eligibility and timing match the Memory Scribe:
+Historical eligibility/timing used the former Memory Scribe grammar:
 - only after the action resolves;
 - Attack / direct-damage Ability / direct-damage Standard Card;
 - no menu prediction;
@@ -64,7 +64,7 @@ Deep Duplicate does **not** copy:
 - extra actions;
 - once-per-battle gates.
 
-This is deliberately stronger than the ordinary Memory Scribe's 65% / 80–180 echo.
+This was deliberately stronger than the retired Chapter-2 Memory Scribe reference package.
 
 ### Duplicant Guard
 > **Power: N/A — no direct damage**
@@ -101,6 +101,6 @@ It is encountered through the chapter/area's normal encounter structure rather t
 ## Chapter-2 placement retirement — 2026-09-23
 Archive Duplicant is no longer part of the Chapter-2 Sunken Archive encounter pool.
 
-Chapter 2 keeps only Archive Current and Memory Scribe as active ordinary construct identities so that Chapter 3 can deliver a stronger construct-density escalation.
+Chapter 2 keeps only **Arcdrift** as its Archive-specific ordinary identity, mixed with compatible flooded wildlife, so Chapter 3 can deliver the stronger construct-density escalation.
 
 Do not automatically move Archive Duplicant into Chapter 3. Its future placement remains open and requires explicit approval.
