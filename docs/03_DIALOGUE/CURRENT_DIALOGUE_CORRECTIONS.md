@@ -11,12 +11,12 @@
 - Ch4 S022–S026: four-element conversion
 - Ch1 C04: current final wording **old slut**, not stale old-whore README note
 
-# Chapter 1 — Historical Reopened Dialogue Migration Overlay — SUPERSEDED BY 2026-09-19 LOCK
+# Chapter 1 — Historical Reopened Dialogue Migration Overlay — SUPERSEDED BY 2026-09-25 12-BEAT LOCK
 
 ## Current Chapter-1 rule
-**This entire Chapter-1 migration overlay is historical provenance only.** The current Chapter-1 authority is the locked Beats 1–15 atomic set plus current C02/C03/C04 Character-Life atomics, as indexed by `PRODUCTION/CHAPTER_01/CHAPTER_01_DIALOGUE_AUTHORITY_INDEX.md`. The synchronized combined manuscript, runtime mirror, sync manifest, and exact-dialogue reader are current derived mirrors. Nothing in the older reopened/regeneration notes below may reopen or regenerate Chapter 1 unless the user explicitly revises the locked current dialogue.
+**This entire Chapter-1 migration overlay is historical provenance only.** The current Chapter-1 authority is the **12-beat B01–B12 atomic set** plus current **C02/C03/C04** Character-Life atomics, as indexed by `PRODUCTION/CHAPTER_01/CHAPTER_01_DIALOGUE_AUTHORITY_INDEX.md`. The synchronized combined manuscript, runtime mirror, sync manifest, and exact-dialogue reader are current derived mirrors. Nothing in the older S007–S011-era reopened/regeneration notes below may restore retired structure or override the current atomics unless the user explicitly revises Chapter 1.
 
-The legacy line-complete files `S007.md` through `S011.md` contain earlier **APPROVED / LOCKED** labels. Those labels describe their historical authoring checkpoint and do not override the September 19, 2026 Chapter-1 lock.
+The legacy line-complete files `S007.md` through `S011.md` contain earlier **APPROVED / LOCKED** labels. Those labels describe their historical authoring checkpoint and do not override the September 25, 2026 12-beat Chapter-1 authority.
 
 Historical migration guidance was:
 - `docs/02_STORY/CHAPTERS/CHAPTER_01.md` controls scene order, required events, knowledge, recruitment, and reveals;
