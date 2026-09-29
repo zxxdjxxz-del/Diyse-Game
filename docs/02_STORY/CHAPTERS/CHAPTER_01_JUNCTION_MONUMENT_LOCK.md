@@ -9,9 +9,9 @@ The location previously spoken of in Chapter-1 dialogue as `Wayfinder` is called
 
 Torren knows the place as an **ancient crossroads** on the modern southern route network. He has been through / around the crossroads before and knows where it is, but he has **never seen the actual ancient cartographic monument hidden there**.
 
-## Hollow Watch mural
+## Hollow Watch landscape depiction
 
-The protected Hollow Watch mural must show:
+The preserved Hollow Watch landscape depiction must show:
 - recognizable regional geography;
 - Hollow Watch's own hill;
 - the ancient crossroads farther south that Torren recognizes as **the Junction**;
@@ -51,10 +51,11 @@ The party may recognize that the map represents a much larger and more interconn
 
 The local information remains usable:
 - the surviving Dunmere-bound alignment matches the party's already-planned route;
-- the water/cistern notation still corresponds to the earlier overgrown Southern Briar side access;
 - Face markings remain part of the monument's technical grammar without their map function being explained.
 
-The party's practical copy should preserve as much of the surviving western map as possible, including the broad route relationships, the unexplained second marking system, city clusters, the shape/location of the Caelora-area break, and the local useful notations. They must not draw in or reconstruct the missing center.
+There is **no water/cistern notation and no Southern-Briar Hunt/backtrack hook** in the current Chapter-1 Wayfinder sequence.
+
+The party's practical copy should preserve as much of the surviving western map as possible, including the broad route relationships, the unexplained second marking system, city clusters, the shape/location of the Caelora-area break, and the surviving Dunmere-bound alignment. They must not draw in or reconstruct the missing center.
 
 ## Knowledge rule
 
