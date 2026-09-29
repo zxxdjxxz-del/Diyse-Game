@@ -1,11 +1,11 @@
-# Briar Boar
+# Briar Boar — Chapter-1 Retired / Later Reuse
 
 **Chapter-1 retirement firewall:** **RETIRED NAME — current Chapter-1 identity is Bullhog.** Historical mechanics below may be used only as provisional tuning reference where the current Bullhog owner explicitly permits it. Do not place Briar Boar in current Chapter 1.
 
-**Chapter-1 authority:** western ecology  
-**Status:** **POWER COMPLETE / CH1 RAW BODY AUTHORED**
+**Former Chapter-1 role:** western ecology  
+**Status:** **CHAPTER-1 NAME/PLACEMENT RETIRED / HISTORICAL CH1 TUNING REFERENCE; CHAPTER-10 REUSE SEPARATELY OWNED**
 
-## Chapter-1 body
+## Historical Chapter-1 body
 | Lv | HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR |
 |---:|---:|---:|---:|---:|---:|---:|---:|---:|
 | 4 | 195 | 32 | 8 | 22 | 15 | 21 | 0 | 0 |
@@ -42,7 +42,7 @@ Chapter-10 actions:
 
 Same identity; no renamed late-game species.
 
-## Chapter-1 behavior lock
+## Historical Chapter-1 behavior reference
 - Uses the normal action-selection fallback between currently legal Tusk Rush and Shoulder Charge.
 - Tusk Rush keeps its existing 1-round repetition lock.
 - Single-target selection is equal among conscious active party members.
