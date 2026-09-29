@@ -166,7 +166,7 @@ Only after the layout pipeline and visual benchmark pipeline are proven should t
 
 ## Relationship to B01–B11 visual certification
 
-**Layout/blockout work can proceed now in parallel with B00/B01–B11.**
+**Layout/blockout work can proceed now in parallel with gameplay-scale derivative validation of the locked party masters and B01–B11 environment/material certification.**
 
 Final environment art generation should not be treated as style-certified until the relevant B01–B11 material/environment benchmarks are approved. The route topology does not need to wait for final texture certification; the final rendered environment does.
 
