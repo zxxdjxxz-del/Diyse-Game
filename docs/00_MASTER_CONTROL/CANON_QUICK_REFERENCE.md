@@ -100,7 +100,7 @@ Prime progression:
 > Recovered → Awakened
 
 Prime resource:
-> 0 MP; each Prime identity **one use per battle unless explicitly restored**; neither same-bar changes nor genuine fresh-HP forms refresh spent Prime identities
+> 0 MP; each Prime identity **one use until restored by valid rest or an explicit authored restoration effect**; spent state persists across battle end; neither same-bar changes nor genuine fresh-HP forms refresh spent Prime identities
 
 Post-dismissal spacing:
 > **3 full normal party rounds**
