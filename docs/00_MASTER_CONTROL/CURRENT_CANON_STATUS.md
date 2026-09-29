@@ -59,13 +59,14 @@ Detailed Face owner:
 ## Current Prime locks
 - progression: **Recovered → Awakened** only;
 - Prime invocation and Prime commands cost **0 MP**;
-- each Prime identity has one use per enemy HP body unless explicitly restored;
+- each Prime identity has **one use per battle unless explicitly restored**;
 - Prime spent/Ready state is battle-scoped and resets for a new battle;
-- genuine fresh-HP boss bodies **refresh Prime availability** when the fresh body becomes active;
-- same-bar state changes do not refresh Prime availability;
+- same-bar state changes do **not** refresh Prime availability;
+- genuine fresh-HP boss forms/bodies also do **not** refresh Prime availability;
+- a form transition never creates a new automatic Prime-use allowance;
 - after an Awakened Prime ends, **3 full normal party rounds** must pass before another Ready Prime can be invoked;
 - Awakened Prime round sequencing is owned by `../05_BATTLE_SYSTEM/PRIME_ROUND_SEQUENCING.md`;
-- Emergency Kit is an explicit authored Prime-restoration effect and restores all acquired Prime identities to Ready without bypassing the separate spacing rule.
+- Emergency Kit is an explicit authored Prime-restoration effect and restores acquired Prime identities to Ready without bypassing the separate spacing rule.
 
 ## Current class / progression locks
 Permanent six:
@@ -90,61 +91,38 @@ Class progression:
 - Masteries unlock automatically by Class Level;
 - normal mandatory-route full Base + Subclass completion occurs around **Player Lv55–60**.
 
-## Current economy locks
-Currency:
+## Economy status
+Currency terminology remains:
 > **G**
 
 Retired currency name:
 > **Auren**
 
-Current scale and starting state:
-- **1 economy unit = 200 G**;
-- Chapter-0 starting wallet = **2,500 G**;
-- Field Salve = **200 G**.
+The detailed economy is **scheduled for a later rebuild/recalibration**.
 
-Current direct-G calibration:
-- mandatory route = **~316,900 G**;
-- ordinary formations = **~135,600 G** (~42.8% of mandatory direct G);
-- mandatory story bosses / named encounters = **92,700 G**;
-- fixed authored combat/event payouts = **5,300 G**;
-- mandatory non-battle map = **80,800 G**;
-- authored optional direct G = **290,700 G**;
-- broad completionist direct-cash reference = **~607,600 G**, with the prior ~650,000-G completionist target now reopened after retirement of the standalone optional-Elite cash layer.
+Therefore:
+- existing prices, chapter-income totals, liquidity totals, Hunt G, and completionist cash totals are **provisional planning data**, not hard current locks;
+- cleanup/consolidation work must not spend time rebalancing or propagating G totals unless the economy rebuild explicitly begins;
+- structural non-economy canon must not be inferred from old payout tables;
+- ordinary enemies still do not gain a random junk/material-drop economy merely because old reward files exist.
 
-Affordability validation:
-- chapter-by-chapter mandatory-route liquidity is **PASS** under an aggressive modeled spend of one meaningful equipment purchase per chapter plus generous healing/MP/revive/status/utility restocking;
-- premium Consumables are not required baseline purchases.
+Detailed economy working material remains under:
+> `../12_ECONOMY_AND_REWARDS/`
 
-Premium Consumables:
-- Emergency Kit — **8,000 G**;
-- Reservoir Tonic — **12,000 G**;
-- Emergency Rally — **15,000 G**;
-- every Consumable-selling shop carries **1 of each from first access**;
-- no automatic restock;
-- guaranteed authored copies remain separate;
-- premium Consumables remain non-sellable.
+## Major Hunt timing
+Major Hunt cadence remains individually owned in the Hunt/story files and may contain locked milestones even though Chapters 5–13 are still development-in-progress.
 
-Other economy locks:
-- protected/nonlethal resolution does **not** default to 0 G;
-- Regional and Major Hunts receive strong G regardless of separate permanent rewards;
-- 38-item registered ordinary-equipment catalog value = **251,000 G**;
-- Kessara Relic-copy fee = **6,000 G per successful copy**;
-- all 18 current copy opportunities = **108,000 G** maximum service spend;
-- ordinary enemies have no random Consumable/equipment/material/vendor-trash economy;
-- exactly **9 Regional Markets**.
+Do not use this master summary to invent or freeze later-chapter placement details that have not been separately approved.
 
-Detailed economy authority:
-> `../12_ECONOMY_AND_REWARDS/ECONOMY_MASTER.md`
+Prime rule for every Major Hunt:
+> **fresh forms do not refresh spent Prime identities.**
 
-## Current Major Hunt timing
-- #1 **Ashen Whitehorn** — after Chapter 6 — recommended **Lv33**;
-- #2 **Crownless Siege Marshal → Crownless War Engine** — after Chapter 7 — encounter recommendation **Lv41**;
-- #3 **Concordance Guardian** — after Chapter 9 — recommended **Lv54**;
-- #4 **Worldscar Leviathan** — after Chapter 10 — recommended **Lv60**;
-- #5 **Final Archive Arbiter** — after Chapter 11 — recommended **Lv65**;
-- #6 **The Unfinished World** — after Final Archive Arbiter clear + Vaelkor defeat in Chapter 12 — recommended **Lv70**.
-
-Only Major Hunt #2 has a genuine fresh second body, and that fresh War Engine **refreshes Prime availability** when Form II begins.
+## Chapter-authority maturity boundary
+- Chapters **0–3** have the strongest current completed/consolidated authority.
+- Chapter **4** story structure is current, but its ordinary enemy/formation layer is explicitly **REWORK PENDING**.
+- Chapters **5–13** remain **development-in-progress** and still require additional story/enemy/balance/dialogue work.
+- Individual facts inside Chapters 5–13 may still be explicitly locked by their own newer authority, but the chapter packages as a whole must not be treated as finished/certified merely because inherited files contain PASS / COMPLETE / VALIDATED language.
+- When later-chapter files conflict, preserve the newest explicit lock and mark the unresolved remainder open rather than synthesizing new canon during cleanup.
 
 ## Current enemy / encounter status
 Static enemy/encounter owner files and prior true-battle/sensitivity reports remain available in their owning domains.
@@ -175,7 +153,8 @@ Current canon beats proof runtime. See:
 
 ## Current open areas
 - story-owned special-enemy placement/timing dependencies explicitly left unresolved;
-- Chapters 5–13 exact dialogue where not yet line-complete;
+- Chapter 4 ordinary-enemy / formation rework;
+- Chapters **5–13 broader story/enemy/balance/dialogue development**, not only missing exact dialogue;
 - production implementation reconciliation;
 - final production UI/readability validation;
 - final audio/music completion and mix validation;
