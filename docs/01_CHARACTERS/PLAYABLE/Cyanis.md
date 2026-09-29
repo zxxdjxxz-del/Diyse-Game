@@ -8,7 +8,7 @@
 - Age: **29**
 - Permanent party: **yes**
 - Join: **start**
-- Base / Subclass: **Crest Knight / Crest Magus**
+- Base / Subclass: **Crest Knight / Crest Arcanist**
 - Face: **Might**
 - Story Prime: **Last Sentinel**
 
@@ -492,6 +492,8 @@ He should defer where others have deeper authority. In particular, he is not aut
 Crest Knight expertise allows him to recognize relationships to modern Crest geometry. It does **not** grant lost ancient Network/Entity/Last-Weapon knowledge before the story earns it.
 
 Subclass expertise is unavailable before its current story unlock.
+
+**Crest Magus is retired current-facing terminology; use Crest Arcanist.**
 
 ## Memory tendencies
 Cyanis is especially likely to retain:
