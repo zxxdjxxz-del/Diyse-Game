@@ -14,13 +14,17 @@ Examples include:
 Economy consequence:
 > exact G for story-dependent special encounters remains deferred until the owning scene role is finalized.
 
-## 2 — Chapters 5–13 Exact Dialogue
-Chapters 0–4 are line-complete.
+## 2 — Chapter 4 Dialogue Rewrite + Later-Chapter Dialogue
+Chapters **0–3** are line-complete.
 
-Immediate next dialogue work:
-- complete the approved Chapter-5 Seyrik/Rhazek beat rewrite;
-- then line-author Chapter 5;
-- continue Chapters 6–13 through the current story/scene-ID architecture.
+Chapter 4's current story/beat structure is established, but its exact dialogue rewrite remains **OPEN**.
+
+Chapters 5–13 remain development-in-progress and require additional dialogue/story work; do not treat them as line-complete merely because older scene architecture exists.
+
+Current dialogue backlog:
+- rewrite Chapter 4 against the current redesigned beat structure;
+- preserve the approved Chapter-5 Seyrik/Rhazek rewrite work as later-chapter source material;
+- continue Chapters 5–13 only through their current development-in-progress authority.
 
 Optional Side Quest / Character Quest exact dialogue remains open where not separately completed.
 
@@ -62,7 +66,7 @@ Working pointers:
 Reconcile current canon with runtime, including:
 - removal of stale Mastery Point assumptions;
 - current Prime behavior and tests;
-- **G** semantics and closed economy fixtures;
+- canonical **G** terminology while detailed economy values remain rebuild-pending;
 - production equipment/item fixtures;
 - versioned save schema;
 - current chapter/scene assumptions;
@@ -77,10 +81,8 @@ Current immediate gate:
 > **B00 Permanent Party Character Style Anchor**
 
 Current B00 state:
-- Cyanis — high-resolution new-style master **LOCKED**;
-- Ilyra — **cleanup/remake review OPEN**;
-- Torren, Nimera, Vaelira, Seyrik — new-style masters pending;
-- battle-scale and field-scale derivative validation pending.
+- Cyanis, Ilyra, Torren, Nimera, Vaelira, and Seyrik — exact permanent-party masters **LOCKED**;
+- battle-scale and field-scale derivative validation remains pending.
 
 Environment/material certification B01–B11 also remains open. Do not bulk-convert the environment library until the benchmark set reads as one coherent game at gameplay scale.
 
@@ -93,7 +95,7 @@ Final soundtrack identity, cue hierarchy, regional language, battle/boss/Hunt/Pr
 ## 7 — Whole-Game Playtest / QA
 Run campaign-only, light, typical, heavy, and completionist routes plus boss/Hunt/Elite, **economy**, save/load, exploit, readability, input, and Android performance QA when the relevant implementation/content layers are ready.
 
-Economy QA validates the closed owner-domain G calibration rather than treating the numeric economy as still unauthored.
+Economy QA belongs **after the planned economy rebuild/recalibration**; current numeric G tables are provisional planning material.
 
 ## 8 — Intentionally Open Story / Lore Details
 Keep explicitly open details unresolved until separately approved, including the sole Entity-fragment survival mechanism, Chapter-10 research-trail specifics, final survey prop, and unresolved formal chapter titles.
@@ -105,32 +107,15 @@ The v103–v105 sensitivity/true-battle reports remain available as historical o
 
 Any future balance changes should follow the separately established current handling process or a new explicit instruction, rather than reviving this retired queue workflow.
 
-## Closed stream — Core G Economy / Rewards
-The independent economy-design stream is **CLOSED**.
+## Deferred stream — Economy rebuild / recalibration
+The detailed G economy is **not closed current authority**.
 
-Current owner-domain calibration includes:
-- currency **G**;
-- **1 economy unit = 200 G**;
-- starting wallet **2,500 G**;
-- ~**316,900 G** mandatory-route direct-cash center;
-- ~**135,600 G** ordinary-formation income (~42.8% of mandatory direct G);
-- **92,700 G** mandatory story-boss/named-encounter G;
-- **5,300 G** fixed authored combat/event G;
-- **80,800 G** mandatory non-battle delivery map;
-- **329,600 G** total authored optional direct G;
-- ~**646,500 G** full direct-cash completionist reference before resale/extra encounters;
-- **116,500 G** Regional Hunt cash;
-- **134,000 G** Major Hunt cash;
-- strong Hunt cash regardless of separate permanent rewards;
-- protected/nonlethal resolution does not default to 0 G;
-- exact ordinary equipment/Consumable resale;
-- ordinary equipment catalog value **251,000 G**;
-- no random ordinary-enemy loot economy;
-- exactly 9 Regional Markets;
-- Kessara fee **6,000 G** per successful copy;
-- premium Consumables available as one-copy-per-Consumable-shop limited stock with no automatic restock.
-
-Do not reopen this stream merely for vendor presentation, UI binding, story-placement-dependent special encounters, or later economy QA. Reopen only for a demonstrated balance/exploit failure or explicit design revision.
+Current routing:
+- currency terminology remains **G**;
+- existing prices, payouts, liquidity totals, Hunt cash, shop values, and completionist totals remain provisional working/reference data;
+- do not spend cleanup time propagating or polishing G totals;
+- reopen detailed economy design when the planned economy rebuild begins;
+- story/encounter cleanup must not infer structural canon from old payout tables.
 
 ## Rule
 Do not use this queue to silently modify a closed owner-domain rule. When a working item is resolved, update the owning numbered domain first, then remove/archive its working tracker.
