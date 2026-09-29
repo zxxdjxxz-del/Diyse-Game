@@ -1,17 +1,17 @@
-# Rubbleback
+# Rubbleback — Retired Chapter-1 Reference
 
 **Chapter-1 retirement firewall:** **RETIRED NAME — current Chapter-1 identity is Barkling.** Historical mechanics below may be used only as provisional tuning reference where the current Barkling owner explicitly permits it. Do not place Rubbleback in current Chapter 1.
 
-**Chapter:** 1 — Southern Briar Passage  
-**Role:** ordinary natural threat / armored woodland bruiser  
-**Status:** **IDENTITY + NAME + PLACEMENT LOCKED / RAW BODY + ACTION POWER AUTHORED / ENCOUNTER VALIDATION OPEN**
+**Former Chapter-1 placement:** Southern Briar Passage  
+**Former role:** ordinary natural threat / armored woodland bruiser  
+**Status:** **RETIRED CHAPTER-1 IDENTITY / HISTORICAL TUNING REFERENCE ONLY**
 
-## Chapter-1 body
+## Historical Chapter-1 body
 | Lv | HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR |
 |---:|---:|---:|---:|---:|---:|---:|---:|---:|
 | 5 | **265** | **35** | 8 | **29** | 18 | 18 | 0 | 5 |
 
-## Ecology / combat identity
+## Historical ecology / combat identity
 - native Southern Briar wildlife;
 - broad, heavily protected animal whose hide carries dense bark/thorn-like growth;
 - appears only in Southern Briar during Chapter 1;
@@ -48,23 +48,23 @@ Effect:
 
 No Barrier or Brace.
 
-## Chapter-1 party-size boundary
+## Historical Chapter-1 party-size context
 Southern Briar uses:
 > **Cyanis + Ilyra + Torren — 3 active combatants maximum**
 
 Do not tune Rubbleback against a four-character party.
 
-## Validation boundary
-Raw body and direct-damage Powers are now authored.
+## Historical validation context
+Historical raw body and direct-damage Powers were authored before this identity was retired.
 
-Still open:
+Former validation items were:
 - mandatory-vs-completionist damage/TTK validation;
 - final formation weights;
 - any stat/HP adjustment demonstrated by that validation.
 
 Do not add Burn, Freeze, Stun, or Staggered to the Chapter-1 body.
 
-## Chapter-1 behavior lock
+## Historical Chapter-1 behavior reference
 - Bramble Charge and Spine Sweep use the normal action-selection fallback when legal.
 - Spine Sweep keeps its 2-round repetition lock.
 - Hunker is legal only while its own Defense increase is not already active and remains subject to its 2-round repetition lock.
