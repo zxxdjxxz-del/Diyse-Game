@@ -6,8 +6,8 @@
 ## Current rule
 
 Current Prime availability rule:
-- each Prime identity has **one use per battle** unless explicitly restored;
-- spent/Ready state is battle-scoped;
+- each Prime identity has **one use until restored by valid rest or an explicit authored restoration effect**;
+- spent/Ready state persists across battle end until valid restoration;
 - same-bar state changes do not refresh Prime availability;
 - genuine fresh-HP boss forms also **do not refresh Prime availability**;
 - form changes do not create a new automatic Prime-use allowance;
