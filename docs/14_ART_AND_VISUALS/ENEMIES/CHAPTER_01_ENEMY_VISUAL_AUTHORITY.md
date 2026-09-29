@@ -54,6 +54,11 @@ The current source manifest records:
 - Watch Castellan → Shield Construct;
 - Thornhide Stalker → Thornhide.
 
+These arrows are **visual-source reconciliation only**. They do not transfer gameplay roles or encounter architecture:
+- Watch Captain Frame is retired from current Chapter 1; ordinary underground combat uses **Construct**.
+- Watch Castellan is retired from current Chapter 1; **Shield Construct** is a separate fixed stronger encounter and is **not a miniboss**.
+- Thornhide Stalker is the specific Chapter-1 boss identity; the approved image file is named for its **Thornhide species**.
+
 Watch Sentry, Watch Ballista, Cistern Devourer, and Regional Hunt #1 are retired from the Chapter-1 visual roster. Their former pending entries do not request additional masters.
 
 ## Visual identity and presentation
