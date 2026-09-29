@@ -54,7 +54,7 @@ Optional C04 may reveal only a little more: Torren is more than an ordinary coll
 ## Current scenes
 
 ### C02 — Torren's Version of Dinner
-Legacy atomic source:
+Current atomic source:
 `docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/C02_TORRENS_VERSION_OF_DINNER_DIALOGUE.md`
 
 Hard premise:
@@ -69,7 +69,7 @@ Hard premise:
 - after everyone has finished eating, Torren lights a blunt as ordinary post-meal behavior.
 
 ### C03 — What the Map Says
-Legacy atomic source:
+Current atomic source:
 `docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/C03_WHAT_THE_MAP_SAYS_DIALOGUE.md`
 
 Hard premise:
@@ -82,7 +82,7 @@ Hard premise:
 - the scene does not imply their later brother-like insult routine is already established.
 
 ### C04 — Not Professionally
-Legacy atomic source:
+Current atomic source:
 `docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/C04_NOT_PROFESSIONALLY_DIALOGUE.md`
 
 Hard premise:
@@ -108,4 +108,4 @@ The broken arm is established before these optional scenes:
 
 ## Chapter placement
 
-Beat 15 remains the location/availability authority for the Junction camp cleanup window and must identify the three current scenes canonically as **C02, C03, C04**.
+Beat 12 owns the Junction camp cleanup window and must expose the three current scenes canonically as **C02, C03, C04**.
