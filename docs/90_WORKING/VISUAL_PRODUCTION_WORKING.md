@@ -19,18 +19,19 @@ Authority:
 `../14_ART_AND_VISUALS/PRODUCTION/BENCHMARKS/B00_PARTY_CHARACTER_STYLE_ANCHOR_V1.md`
 
 Current state:
-- Cyanis — **HIGH-RES NEW-STYLE MASTER APPROVED / LOCKED**;
-- Ilyra — **PROVISIONAL DESIGN TARGET / CLEAN REMAKE + CLOTHING REVIEW OPEN**;
-- Torren — new-style master pending;
-- Nimera — new-style master pending;
-- Vaelira — new-style master pending;
-- Seyrik — new-style master pending.
+- Cyanis — exact master **APPROVED / LOCKED**;
+- Ilyra — exact master **APPROVED / LOCKED**;
+- Torren — exact master **APPROVED / LOCKED**;
+- Nimera — exact master **APPROVED / LOCKED**;
+- Vaelira — exact master **APPROVED / LOCKED**;
+- Seyrik — exact master **APPROVED / LOCKED**.
 
-B00 is not complete until:
-1. all six permanent-party high-resolution masters are explicitly approved;
-2. battle-scale derivative logic is validated;
-3. field-scale derivative logic at approximately 80 px character height is validated;
-4. character readability holds against the environment/VFX line-density hierarchy.
+Permanent-party master creation is complete.
+
+Still open:
+1. battle-scale derivative logic validation;
+2. field-scale derivative validation at approximately 80 px character height;
+3. gameplay-scale character readability against the environment/VFX line-density hierarchy.
 
 The preferred review asset for each character is a single clean full-body render unless another view is specifically needed.
 
@@ -73,4 +74,4 @@ Asset Forge may inventory, hash, classify, plan, preserve/generate, QA-check, an
 - gameplay-scale readability is a required acceptance test, not an optional cleanup pass.
 
 ## Current next action
-> **Resolve Ilyra's clean B00 remake/clothing review, then continue the remaining permanent-party B00 masters.**
+> **Validate gameplay-scale derivatives for the six locked party masters, then continue environment/material benchmark certification.**
