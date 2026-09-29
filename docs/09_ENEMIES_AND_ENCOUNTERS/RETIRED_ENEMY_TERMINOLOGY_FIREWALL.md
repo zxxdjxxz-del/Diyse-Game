@@ -10,7 +10,8 @@ Normalize current enemy content as follows:
 
 - Elemental Hexarch → **Reaction Conduit**
 - Skyreach Shield Guard → **Weather Crown Shield Guard**
-- Resource → **Acuity**
+- older `Resource` Face → **Perception**
+- `Acuity` Face → **Perception**
 - old final-domain Fragment labels → **Hunger / Ruin / Silence / Fear Aspect**
 - Blackstone political-region label → **BLACK HOST TERRITORY**
 - old pre-insertion Chapter 10 Custodian/Crown Engine material → **current Chapter 11**
