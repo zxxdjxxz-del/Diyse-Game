@@ -20,6 +20,9 @@ Major-Hunt Prime:
 No Concordant screen.
 
 ## Loadout
+From Chapter-4 Prime-loadout access until Sixfold Volition:
+> **1 Prime slot per permanent character**
+
 After Sixfold Volition:
 > **2 Prime slots per permanent character**
 
@@ -31,12 +34,13 @@ Story bearer association is narrative:
 - it does not owner-lock battle use.
 
 ## Invocation costs
-- Recovered Story: **50 MP**
-- Awakened Story: **80 MP**
-- Awakened Major Hunt: **90 MP**
+Prime Invocation costs:
+> **0 MP**
 
-Prime commands after manifestation:
-> **0 additional MP**
+Prime commands after manifestation also cost:
+> **0 MP**
+
+Do not display or reserve a Prime-specific MP charge, per-round MP drain, or state-based Prime MP tier.
 
 ## Recovered UI state
 Recovered Story Prime:
