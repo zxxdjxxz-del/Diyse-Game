@@ -45,3 +45,7 @@ Its event-level G remains owned by:
 
 ## Economy revalidation consequence
 Removing the former 38,900-G optional-Elite layer changes the old completionist direct-cash reference. The optional-layer/completionist-cash calibration is therefore reopened; do not restore the retired Elite bounties merely to hit the previous ~650,000-G reference.
+
+
+## Chapter 2 consequence
+Archive Duplicant is not part of current Chapter 2. Its former **1,000 G** optional-Elite bounty remains historical/retired and is not replaced by a current Chapter-2 Elite payout.
