@@ -1,6 +1,6 @@
 # Diyse — Open & Pending Work
 
-This is the cross-domain index of work that remains genuinely unresolved. Closed owner-domain values remain closed unless a current test or explicit design revision reopens them.
+This is the cross-domain summary of work that remains genuinely unresolved. Detailed sequencing lives in `../90_WORKING/ACTIVE_WORK_QUEUE.md`; this file must not become a competing second backlog.
 
 ## Priority 1 — Story-owned enemy placement / timing dependencies — DEFERRED
 Owner:
@@ -12,7 +12,7 @@ Examples include:
 - Crown Engine Technician exact story placement;
 - bounded Hunt return/unlock timing where the story trigger is not yet exact.
 
-Exact G for any still-unplaced special authored encounter remains deferred until its owning scene role is finalized.
+Any payout detail for a still-unplaced special authored encounter remains deferred until its owning scene role is finalized **and** the planned economy rebuild/recalibration is ready.
 
 ## Priority 2 — Chapter 4 onward exact dialogue — ACTIVE / OPEN
 Owner:
@@ -60,7 +60,7 @@ Owner:
 High-impact engineering work:
 - remove stale Mastery Point implementation assumptions;
 - replace proof bearer-locked `first_champion` Prime behavior;
-- reconcile proof `gold` variable/data semantics and old values to current **G** authority;
+- reconcile proof `gold` technical identifiers to player-facing **G** terminology; do not promote old proof numeric values while detailed economy is rebuild-pending;
 - replace proof equipment/item content with current production fixtures;
 - implement current Prime persistent-spend/restoration behavior;
 - build production save schema/migrations;
@@ -89,7 +89,7 @@ When the relevant implementation/content layers are ready:
 - campaign route playtests;
 - light / typical / heavy / completionist route playtests;
 - boss/Hunt/Elite regressions;
-- economy validation against actual combat-consumption behavior;
+- economy validation after the planned economy rebuild/recalibration, using actual combat-consumption behavior;
 - resource attrition checks;
 - optional overlevel checks;
 - Prime regressions;
@@ -114,27 +114,19 @@ Historical v103–v105 sensitivity and true-battle reports may remain in `16_BAL
 
 Future balance work follows the separately established current handling process or a new explicit revision.
 
-## Closed stream — Core G economy / rewards
+## Deferred stream — Economy rebuild / recalibration
 Owner:
 `12_ECONOMY_AND_REWARDS`
 
 Status:
-> **CLOSED**
+> **REBUILD / RECALIBRATION PENDING**
 
-Current anchors:
-- currency = **G**;
-- 1 economy unit = **200 G**;
-- starting wallet = **2,500 G**;
-- mandatory direct G = **~316,900 G**;
-- authored optional direct G = **329,600 G**;
-- broad completionist direct-cash reference = **~646,500 G**;
-- chapter-by-chapter mandatory-route liquidity validation = **PASS**;
-- Kessara = **6,000 G per successful Relic copy**;
-- premium Consumables = 1 of each per Consumable-selling shop from first access, no automatic restock;
-- protected/nonlethal resolution does not default to 0 G;
-- Hunts pay strong G regardless of separate permanent rewards.
-
-Do not list the economy as an open numeric gap unless later playtest evidence or an explicit user revision reopens it.
+Current cross-domain rule:
+- player-facing currency terminology remains **G**;
+- **Auren** remains retired;
+- existing prices, payouts, shop values, liquidity totals, Hunt cash, Kessara fees, and completionist totals are provisional planning/history data;
+- cleanup/consolidation should not rebalance or propagate those numbers;
+- detailed economy work resumes when the planned economy rebuild begins.
 
 ## Rule
 Do not use this index to silently reopen a closed owner-domain rule.
