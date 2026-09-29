@@ -14,14 +14,17 @@ Examples include:
 
 Exact G for any still-unplaced special authored encounter remains deferred until its owning scene role is finalized.
 
-## Priority 2 — Chapters 5–13 exact dialogue — OPEN
+## Priority 2 — Chapter 4 onward exact dialogue — ACTIVE / OPEN
 Owner:
 Story/dialogue domains
 
-Chapters 0–4 are line-complete.
+Chapters 0–3 are source-closed and synchronized.
+
+**Chapter 4 — The Seventh Reaction** is the current active Dialogue Engine production frontier under its current 12-beat pre-dialogue story authority.
 
 Immediate dialogue work remains:
-- finish the approved Chapter-5 Seyrik/Rhazek beat rewrite;
+- line-author Chapter 4 through the current rehearsal-first Person-Brain pipeline;
+- after Chapter 4, finish the approved Chapter-5 Seyrik/Rhazek beat rewrite as needed for the current chapter structure;
 - line-author Chapter 5;
 - continue Chapters 6–13 through current scene-ID architecture.
 
