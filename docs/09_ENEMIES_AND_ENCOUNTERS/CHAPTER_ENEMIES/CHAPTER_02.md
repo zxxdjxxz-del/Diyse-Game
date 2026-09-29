@@ -95,12 +95,12 @@ Scaldback is an ordinary Chapter-2 enemy.
 Chapter 2 must be tuned for:
 > **3 active party members**
 
-Current ordinary formation bands:
-- Old Waterworks: **2–3 normally**
-- Sunken Archive: **2–3 normally; one late 4-body ceiling**
-- Old Bastion: **2–3 normally; one late 4-body ceiling**
+Current ordinary formation growth:
+- Old Waterworks: **3–5 enemies**
+- Sunken Archive: **3–5 enemies**
+- Old Bastion: **3–5 through most alerted combat, scaling up to 6 in the final ascent**
 
-Five- and six-enemy ordinary formations are retired from Chapter 2.
+Chapter 2 intentionally grows from **3–5 bodies early** to an **up-to-6** end-of-chapter ceiling.
 
 Difficulty should escalate primarily through:
 - role synergy;
