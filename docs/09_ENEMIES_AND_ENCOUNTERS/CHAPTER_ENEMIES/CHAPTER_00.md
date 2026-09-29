@@ -3,7 +3,7 @@
 **Primary enemy-production authority:** compatible **Audit90 / Audit93** plus accepted later tracker roster/action cleanups.  
 **Primary raw-stat authority:** **Audit129 + Audit130 / Audit131 / Audit132 / Audit133 / Audit134 / Audit135**.  
 **Current whole-project written authority:** **v2.20 / Audit135**, plus later explicit story / encounter-placement corrections.  
-**Migration rule:** later current names, chapter reindexing, four-element rules, removed-system firewalls, fresh-body Prime-refresh rules, and current Chapter-0 story placement supersede stale earlier enemy text.
+**Migration rule:** later current names, chapter reindexing, four-element rules, removed-system firewalls, the current persistent-spend / no-form-refresh Prime rules, and current Chapter-0 story placement supersede stale earlier enemy text.
 
 ## Ordinary / repeatable
 - Black Host Raider
