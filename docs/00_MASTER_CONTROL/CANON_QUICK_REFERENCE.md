@@ -41,6 +41,11 @@ Chapter 1 party progression:
 True PONR:
 > **Last Shelter → Reactor Galleries**
 
+## Chapter maturity
+- Chapters 0–3: strongest current consolidated chapter authority.
+- Chapter 4: story structure current; ordinary enemy/formation layer **REWORK PENDING**.
+- Chapters 5–13: **development-in-progress**. Individual explicit locks may be current, but inherited chapter packages are not globally certified as finished.
+
 ## Regions
 Exactly:
 - Yahtrenhold
@@ -95,7 +100,7 @@ Prime progression:
 > Recovered → Awakened
 
 Prime resource:
-> 0 MP; each Prime identity one use per enemy HP body unless explicitly restored; a genuine fresh-HP body refreshes Prime availability; same-bar changes do not
+> 0 MP; each Prime identity **one use per battle unless explicitly restored**; neither same-bar changes nor genuine fresh-HP forms refresh spent Prime identities
 
 Post-dismissal spacing:
 > **3 full normal party rounds**
@@ -127,44 +132,15 @@ Forge Components:
 > 30
 
 ## Economy
-Currency:
+Currency terminology:
 > **G**
 
 Retired currency name:
 > **Auren**
 
-Scale:
-> **1 economy unit = 200 G**
+Detailed G prices, payouts, chapter-income totals, liquidity models, and completionist cash totals are **provisional / rebuild pending**.
 
-Starting wallet:
-> **2,500 G**
-
-Mandatory-route direct G:
-> **~316,900 G**
-
-Authored optional direct G:
-> **290,700 G**
-
-Broad completionist direct-cash reference:
-> **~607,600 G**
-
-Ordinary formations:
-> **~135,600 G**, about **42.8%** of mandatory direct G
-
-Key economy rules:
-- protected/nonlethal resolution does not default to 0 G;
-- Hunts pay strong G regardless of separate permanent rewards;
-- ordinary enemies have no random junk/item-drop economy;
-- chapter-by-chapter mandatory-route liquidity validation = **PASS**.
-
-Premium Consumables:
-- Emergency Kit — **8,000 G**
-- Reservoir Tonic — **12,000 G**
-- Emergency Rally — **15,000 G**
-- **1 of each per Consumable-selling shop from first access; no automatic restock**
-
-Kessara Relic-copy fee:
-> **6,000 G per successful copy**
+Do not use this quick reference to lock economy numbers before the planned economy rebuild.
 
 ## Progression
 Player cap:
@@ -190,7 +166,7 @@ Historical v103–v105 balance reports remain analytical evidence only. Do not i
 ## Optional content
 - 6 Character Quests
 - 5 ordinary Side Quests
-- 11 Regional Hunts
+- **8 currently active Regional Hunts**; retired/open slots remain subject to later content work
 - 6 Major Hunts
 
 ## Finale
@@ -208,9 +184,4 @@ Final Severance:
 All six permanent characters survive.
 
 ## Major Hunt unlocks
-- #1 after Ch6
-- #2 after Ch7
-- #3 after Ch9
-- #4 after Ch10
-- #5 after Ch11
-- #6 existing late dual gate
+Use the dedicated Major Hunt/story owners for current cadence. Later-chapter placement remains subject to the Chapters 5–13 development boundary; do not promote an inherited quick-reference chapter number over a newer dedicated lock.
