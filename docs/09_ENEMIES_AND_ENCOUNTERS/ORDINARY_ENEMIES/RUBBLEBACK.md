@@ -4,7 +4,7 @@
 
 **Former Chapter-1 placement:** Southern Briar Passage  
 **Former role:** ordinary natural threat / armored woodland bruiser  
-**Status:** **RETIRED CHAPTER-1 IDENTITY / HISTORICAL TUNING REFERENCE ONLY**
+**Status:** **CHAPTER-1 NAME/PLACEMENT SUPERSEDED BY BARKLING / HISTORICAL TUNING REFERENCE ONLY**
 
 ## Historical Chapter-1 body
 | Lv | HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR |
@@ -55,7 +55,7 @@ Southern Briar uses:
 Do not tune Rubbleback against a four-character party.
 
 ## Historical validation context
-Historical raw body and direct-damage Powers were authored before this identity was retired.
+Historical raw body and direct-damage Powers were authored under the superseded Rubbleback identity. Barkling is the current Chapter-1 successor, with this package retained only as provisional tuning reference.
 
 Former validation items were:
 - mandatory-vs-completionist damage/TTK validation;
