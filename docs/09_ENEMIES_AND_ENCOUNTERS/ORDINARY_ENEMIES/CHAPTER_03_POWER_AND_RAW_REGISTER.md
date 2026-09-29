@@ -4,7 +4,7 @@
 **Numeric status:** **REVALIDATION REQUIRED — RAW BODIES / ENCOUNTER WEIGHTS / FREQUENCIES / FINAL DIFFICULTY**  
 **Power-audit status:** **CLOSED — direct-damage coefficients are not reopened by the structural roster correction**
 
-This register tracks the current Chapter-3 combat identities only. Retired Judgment/Authority/Watch-frame placement is historical and must not be used to fill open tuning gaps.
+This register tracks the current Chapter-3 combat identities only. Superseded Chapter-3 names/placements are historical and must not be used to fill open tuning gaps. Current successor mappings are Judgment Frame → Maul Construct, Erasure Wisp → Scriptshade, Authority Lens → Flash Drone, and Archive Current → Arcdrift.
 
 # Active ordinary identities
 
@@ -83,17 +83,17 @@ Bleed follows the global current Bleed rules where an active ability explicitly 
 
 # Retired / non-active Chapter-3 combat identities
 
-Do not use these in current Chapter-3 random formations unless explicitly reintroduced:
-- Judgment Frame;
-- Erasure Wisp;
-- Authority Lens;
-- Archive Current;
-- Command Guard Frame;
-- Command Ring Drone;
-- Watch Sentry;
-- Watch Ballista;
-- Grand Inquisitor Frame;
-- Watch Captain Frame;
+Do not use these old Chapter-3 identities/names in current random formations unless explicitly reintroduced:
+- Judgment Frame — current Chapter-3 successor: **Maul Construct**;
+- Erasure Wisp — current Chapter-3 successor: **Scriptshade**;
+- Authority Lens — current Chapter-3 successor: **Flash Drone**;
+- Archive Current — current identity: **Arcdrift**;
+- Command Guard Frame — retired from Chapter 3; no approved rename;
+- Command Ring Drone — retired from Chapter 3; no approved rename;
+- Watch Sentry — retired from Chapter 3; no approved rename;
+- Watch Ballista — retired from Chapter 3; no approved rename;
+- Grand Inquisitor Frame — retired from Chapter 3; no approved rename;
+- Watch Captain Frame — retired from Chapter 3; no approved rename;
 - Way-Fort Marauder;
 - Rift Boltman;
 - Black Host Ward-Sorcerer.
