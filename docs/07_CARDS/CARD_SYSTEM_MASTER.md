@@ -68,11 +68,11 @@ Current Invocation MP:
 
 Manifested Prime commands also cost **0 MP**.
 
-Each Prime identity has **one use until restored** by a valid rest or other explicitly authored Prime-restoration effect. A spent Prime remains spent across battle end; using one Prime does not spend other available Primes.
+Each Prime identity has **one use per enemy HP body** unless explicitly restored. Prime spent/Ready state is battle-scoped; using one Prime does not spend other available Primes.
 
-After a Prime manifestation ends, **2 full normal party rounds** must pass before another available Prime may be invoked later in the same battle.
+After a Prime manifestation ends, **3 full normal party rounds** must pass before another available Prime may be invoked later in the same battle.
 
-Fresh-HP boss forms do not restore spent Primes.
+A genuine fresh-HP boss form refreshes Prime availability when the new body becomes active. Same-bar state changes do not.
 
 Awakened manifestation turn flow is owned by `../05_BATTLE_SYSTEM/PRIME_ROUND_SEQUENCING.md`.
 

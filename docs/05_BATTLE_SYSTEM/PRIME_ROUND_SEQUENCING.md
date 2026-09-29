@@ -77,7 +77,7 @@ Normal legal HP thresholds, same-body state changes, support destruction/spawn r
 
 They do not automatically dismiss the Prime.
 
-A genuine fresh-HP enemy body also does **not** restore a spent Prime identity. Prime restoration remains owned by the valid-rest/explicit-restoration rule.
+A genuine fresh-HP enemy body **refreshes battle-scoped Prime availability** when the new body becomes active. This does not erase an active post-dismissal spacing gate.
 
 ## 6. Dismissal after Prime Round 3
 After the end-of-round processing for Prime Round 3:
@@ -87,7 +87,7 @@ After the end-of-round processing for Prime Round 3:
 - skipped ordinary party slots from the original invocation round do not resume.
 
 The post-dismissal spacing gate begins with that fresh normal round:
-> **2 full normal party rounds must be completed before another Ready Prime may be invoked.**
+> **3 full normal party rounds must be completed before another Ready Prime may be invoked.**
 
 Spacing never restores a spent Prime; restoration remains separate.
 
@@ -97,7 +97,7 @@ If the manifested Prime reaches 0 HP before completing all three Prime rounds:
 2. dismiss the Prime immediately after that action finishes;
 3. do not insert ordinary party turns into the unfinished Prime round;
 4. return the ordinary party only at the beginning of a fresh normal round;
-5. begin the normal 2-full-normal-round post-dismissal spacing gate with that fresh normal round.
+5. begin the normal 3-full-normal-round post-dismissal spacing gate with that fresh normal round.
 
 Prime defeat does **not** by itself mean the ordinary party is KO'd or defeated unless an encounter explicitly says otherwise.
 

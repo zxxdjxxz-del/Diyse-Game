@@ -28,7 +28,7 @@ Recommended Level is a preparedness target, not an access gate.
 Only Major Hunt #2 has a genuine fresh second body:
 - Crownless Siege Marshal → Crownless War Engine
 - combined raw body HP = **30,500**
-- the fresh body **does not restore spent Prime availability** under the current rest-based Prime model.
+- the fresh body **refreshes Prime availability** when Crownless War Engine begins; the separate post-dismissal spacing gate still applies.
 
 All other Major Hunts remain one-bar encounters under their current state architectures.
 
@@ -49,7 +49,7 @@ Recommended Level remains a preparedness target, not an access gate.
 
 ## Recertification progress
 - #1 Ashen Whitehorn — **RECERTIFIED** for the after-Ch6 window at recommended Lv33.
-- #2 Crownless Siege Marshal / Crownless War Engine — raw-stat/level baseline retained at encounter recommendation Lv41; **runtime Prime-economy revalidation required** because the former fresh-body Prime refresh was removed.
+- #2 Crownless Siege Marshal / Crownless War Engine — raw-stat/level baseline retained at encounter recommendation Lv41; the genuine fresh War Engine body refreshes Prime availability.
 - #3 Concordance Guardian — **RECERTIFIED** for the after-Ch9 window at recommended Lv54.
 - #4 Worldscar Leviathan — **RECERTIFIED** for the after-Ch10 window at recommended Lv60.
 - #5 Final Archive Arbiter — **RECERTIFIED** for the after-Ch11 window at recommended Lv65.
@@ -57,7 +57,7 @@ Recommended Level remains a preparedness target, not an access gate.
 
 
 ## Recertification closure
-Major Hunts #1 and #3–#5 retain their current two-baseline recertification for their current unlock windows. #2 retains its current numeric baseline but requires runtime Prime-economy revalidation under the no-refresh rule. #6 retains its runtime duration/attrition playtest gate.
+Major Hunts #1 and #3–#5 retain their current two-baseline recertification for their current unlock windows. #2 retains its current numeric baseline under the restored fresh-body Prime-refresh rule. #6 retains its runtime duration/attrition playtest gate.
 
 Current recommendations:
 - #1 Ashen Whitehorn — Lv33
@@ -82,7 +82,7 @@ Status:
 > **MAJOR HUNTS #1–#6 POWER COMPLETE**
 
 Fresh-body rule remains:
-> only #2 Crownless Siege Marshal → Crownless War Engine has a genuine fresh second body; it does **not** restore spent Prime availability.
+> only #2 Crownless Siege Marshal → Crownless War Engine has a genuine fresh second body; it **refreshes Prime availability** when Form II begins.
 
 The Unfinished World remains:
 > one 78,000-HP bar / WORLDFRAME → WORLDHEART EXPOSED → FINAL CONSTRUCTION

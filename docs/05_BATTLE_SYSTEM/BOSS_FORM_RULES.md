@@ -11,14 +11,14 @@ Diyse distinguishes between:
 ### Same-bar state/phase change
 The encounter changes behavior while continuing the same HP bar.
 
-This does **not** restore a spent Prime.
+This does **not** refresh Prime availability.
 
 ### Genuine fresh-HP body/form
 The encounter transitions into a new authored body/form with a fresh HP pool.
 
-A genuine fresh-HP transformation also does **not** restore a spent Prime.
+A genuine fresh-HP transformation **refreshes Prime availability** when the fresh body becomes active.
 
-Prime availability now persists across battles until a valid Prime-restoration event occurs. Boss phase/form transitions are not Prime-restoration events merely because they create a fresh HP pool.
+This refresh resets battle-scoped spent/Ready identity state for the new HP body. It does **not** cancel or shorten the separate post-dismissal Prime-spacing gate.
 
 ## Examples of same-bar behavior
 
@@ -32,7 +32,7 @@ Current authoritative examples:
   - WORLDHEART EXPOSED
   - FINAL CONSTRUCTION
 
-These remain on one continuous HP bar and do not restore Prime availability.
+These remain on one continuous HP bar and do not refresh Prime availability.
 
 ## Examples of genuine fresh forms
 
@@ -40,7 +40,7 @@ Current authoritative examples:
 - Crownless Siege Marshal → **Crownless War Engine**
 - Regulation Crucible Form I → fresh **The Seventh Reaction / Form II** under the approved Chapter 4 architecture
 
-These are genuine new HP forms, but they do **not** refresh Prime identity availability or bypass the current Prime-use/restoration rules.
+These are genuine new HP forms and **do refresh Prime identity availability** when the new HP body becomes active. They do not bypass the separate post-dismissal spacing gate.
 
 ## No automatic multi-form assumption
 
@@ -48,7 +48,7 @@ Do not infer:
 - a second bar from a named phase;
 - a third form because an encounter has multiple mechanics;
 - a hidden post-defeat body;
-- a Prime refresh from any phase or fresh-body transition.
+- a Prime refresh from a same-bar phase/state transition.
 
 Fresh-body behavior must be explicitly authored.
 

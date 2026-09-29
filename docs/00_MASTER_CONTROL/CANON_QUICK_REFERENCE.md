@@ -95,10 +95,10 @@ Prime progression:
 > Recovered → Awakened
 
 Prime resource:
-> 0 MP; each Prime identity one use until valid restoration; fresh boss forms do not restore spent Primes
+> 0 MP; each Prime identity one use per enemy HP body unless explicitly restored; a genuine fresh-HP body refreshes Prime availability; same-bar changes do not
 
 Post-dismissal spacing:
-> **2 full normal party rounds**
+> **3 full normal party rounds**
 
 Awakened round sequencing:
 > `05_BATTLE_SYSTEM/PRIME_ROUND_SEQUENCING.md`

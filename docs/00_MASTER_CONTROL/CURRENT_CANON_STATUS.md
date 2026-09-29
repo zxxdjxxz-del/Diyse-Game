@@ -59,11 +59,11 @@ Detailed Face owner:
 ## Current Prime locks
 - progression: **Recovered → Awakened** only;
 - Prime invocation and Prime commands cost **0 MP**;
-- each Prime identity has one use until a valid rest/restoration effect makes it Ready again;
-- spent state persists across battle end;
-- genuine fresh boss bodies **do not** restore spent Prime identities;
-- same-bar state changes do not restore spent Primes;
-- after an Awakened Prime ends, **2 full normal party rounds** must pass before another Ready Prime can be invoked;
+- each Prime identity has one use per enemy HP body unless explicitly restored;
+- Prime spent/Ready state is battle-scoped and resets for a new battle;
+- genuine fresh-HP boss bodies **refresh Prime availability** when the fresh body becomes active;
+- same-bar state changes do not refresh Prime availability;
+- after an Awakened Prime ends, **3 full normal party rounds** must pass before another Ready Prime can be invoked;
 - Awakened Prime round sequencing is owned by `../05_BATTLE_SYSTEM/PRIME_ROUND_SEQUENCING.md`;
 - Emergency Kit is an explicit authored Prime-restoration effect and restores all acquired Prime identities to Ready without bypassing the separate spacing rule.
 
@@ -144,7 +144,7 @@ Detailed economy authority:
 - #5 **Final Archive Arbiter** — after Chapter 11 — recommended **Lv65**;
 - #6 **The Unfinished World** — after Final Archive Arbiter clear + Vaelkor defeat in Chapter 12 — recommended **Lv70**.
 
-Only Major Hunt #2 has a genuine fresh second body, and that fresh War Engine does **not** restore spent Prime identities.
+Only Major Hunt #2 has a genuine fresh second body, and that fresh War Engine **refreshes Prime availability** when Form II begins.
 
 ## Current enemy / encounter status
 Static enemy/encounter owner files and prior true-battle/sensitivity reports remain available in their owning domains.

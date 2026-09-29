@@ -29,10 +29,10 @@ Test:
 - 2 Prime slots per character after Sixfold Volition.
 
 Invocation costs:
-- Recovered Story 50 MP
-- Awakened Story 80 MP
-- Major Hunt 90 MP
-- Prime commands 0 additional MP.
+- Recovered Story **0 MP**
+- Awakened Story **0 MP**
+- Major Hunt **0 MP**
+- Prime commands **0 MP**.
 
 ## Recovered
 Test:
@@ -51,9 +51,9 @@ Test:
 
 ## Availability/cooldown
 Test:
-- each Prime identity once per battle per genuine fresh body;
-- after normal dismissal, 3 full normal party rounds before another unused equipped Prime;
-- fresh-body transition refreshes Prime availability;
+- each Prime identity once per enemy HP body unless explicitly restored;
+- after any Prime dismissal, 3 full normal party rounds before another Ready Prime may be invoked;
+- genuine fresh-body transition refreshes Prime availability but does not bypass the spacing gate;
 - same-bar state does not.
 
 ## Access

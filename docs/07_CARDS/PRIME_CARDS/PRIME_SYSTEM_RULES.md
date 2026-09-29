@@ -49,13 +49,19 @@ There is no Prime MP stat, invocation MP charge, or per-Prime-round MP drain.
 
 ## Prime use and restoration
 Each Prime identity has:
-> **one use until restored**
+> **one use per enemy HP body**
 
-Invoking a Prime spends that specific Prime identity. The spent state persists across battle end and into later battles until the Prime is restored by a valid rest or other explicitly authored Prime-restoration effect.
+Invoking a Prime spends that specific Prime identity for the current enemy HP body.
 
 Using one Prime does not spend any other available Prime.
 
-A battle ending, a same-bar phase change, or a genuine fresh-HP boss form does **not** by itself restore a spent Prime.
+Prime spent/Ready state is **battle-scoped**:
+- battle end clears transient spent state;
+- a new battle begins with legally available/equipped Prime identities Ready;
+- a same-bar phase/state change does **not** refresh spent Prime identities;
+- a genuine fresh-HP enemy body **does refresh Prime availability** when the new body becomes active.
+
+Fresh-body refresh changes spent/Ready identity state only. It does **not** erase or shorten the separate post-dismissal spacing gate.
 
 ### Emergency Kit restoration
 **Emergency Kit** is an explicitly authored valid Prime-restoration effect.
@@ -64,13 +70,13 @@ When Emergency Kit legally resolves:
 - every **acquired** Story Prime identity is restored to Ready;
 - every **acquired** Major-Hunt Prime identity is restored to Ready;
 - restoration applies whether or not that Prime is currently equipped/assigned;
-- a Prime spent earlier in the same battle or in an earlier battle may be restored;
+- a Prime spent earlier in the same battle may be restored;
 - an unacquired Prime is not granted;
 - Story Prime progression is unchanged: Recovered stays Recovered and Awakened stays Awakened.
 
 Emergency Kit restoration changes **Prime spent/Ready state only**.
 
-It does **not** erase or bypass the separate post-dismissal spacing requirement. If the party is still inside the 2-full-normal-round spacing gate after a Prime dismissal, restored Primes are Ready but cannot be invoked until that spacing gate is complete.
+It does **not** erase or bypass the separate post-dismissal spacing requirement. If the party is still inside the 3-full-normal-round spacing gate after a Prime dismissal, restored Primes are Ready but cannot be invoked until that spacing gate is complete.
 
 ## Recovered Story Prime
 - manifests in the current ordinary round;
@@ -134,7 +140,7 @@ Harmful-status clocks remain owned separately by `05_BATTLE_SYSTEM/STATUS_EFFECT
 
 ## Post-dismissal Prime spacing
 After any Prime manifestation ends, the party must complete:
-> **2 full normal party rounds**
+> **3 full normal party rounds**
 
 before another available Prime may be invoked later in that battle.
 
@@ -142,15 +148,15 @@ The spacing gate does not restore the Prime that was just spent. It only control
 
 An explicit restoration effect such as Emergency Kit may restore spent Prime identities during this spacing window, but it does not shorten or cancel the spacing window itself.
 
-## No boss-form refresh
-Prime identity availability is not once-per-battle or once-per-fresh-form.
+## Boss-form refresh
+Prime identity availability is battle-scoped by enemy HP body.
 
-A genuine fresh-HP boss form does **not** refresh:
-- a spent Prime identity;
-- Prime restoration state;
-- the requirement that Prime use returns only through a valid rest/restoration effect.
+A genuine fresh-HP boss form:
+- refreshes spent Prime identities to Ready when the new body becomes active;
+- creates a new per-body Prime-use allowance;
+- does **not** cancel or shorten an active post-dismissal spacing gate.
 
-Same-bar phase changes likewise do not restore spent Primes.
+Same-bar phase/state changes do **not** refresh spent Primes.
 
 Global fresh-form authority is in:
 `05_BATTLE_SYSTEM/BOSS_FORM_RULES.md`.
@@ -167,7 +173,7 @@ It is:
 - not a third boss combat phase.
 
 Therefore:
-> combat spent/availability flags and the two-round Prime-spacing gate do not block the six required Story Prime manifestations in Final Severance.
+> combat spent/availability flags and the three-round Prime-spacing gate do not block the six required Story Prime manifestations in Final Severance.
 
 Combat Prime rules remain unchanged during the actual fight.
 

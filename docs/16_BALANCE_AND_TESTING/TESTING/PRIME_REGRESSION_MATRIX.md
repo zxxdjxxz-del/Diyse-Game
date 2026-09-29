@@ -12,20 +12,20 @@ Required automated/integration cases:
 2. Acquired Story Prime may be equipped by any legal permanent character slot.
 3. Pre-Volition Prime-slot behavior follows current progression authority.
 4. Post-Volition each character supports 2 Prime slots.
-5. Recovered Story invocation costs 50 MP.
+5. Recovered Story invocation costs 0 MP.
 6. Recovered Story performs one signature action and dismisses same ordinary round.
-7. Awakened Story costs 80 MP.
-8. Major-Hunt Prime costs 90 MP.
+7. Awakened Story costs 0 MP.
+8. Major-Hunt Prime costs 0 MP.
 9. Prime commands cost 0 additional MP.
 10. Awakened Prime suspends four-person party.
 11. Party cannot act during Prime rounds.
 12. Party cannot be targeted during Prime rounds.
 13. Exactly 3 Prime rounds.
 14. Dismissal restores party battle state.
-15. Same Prime identity cannot be invoked twice in same body.
+15. Same Prime identity cannot be invoked twice in the same enemy HP body unless explicitly restored.
 16. After dismissal, cooldown counts 3 **full normal party rounds**.
 17. Another unused Prime cannot bypass cooldown early.
-18. Genuine fresh body refreshes Prime availability.
+18. Genuine fresh body refreshes Prime availability without bypassing an active 3-round spacing gate.
 19. Same-bar state does not refresh.
 20. Boss defeat ends battle; no cooldown check after victory.
 21. Save/load must not persist transient in-battle Prime state unless a future battle-save feature explicitly requires it.
