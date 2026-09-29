@@ -223,25 +223,34 @@ Current locked Chapter-1 roster/placement is owned by:
 - `CHAPTER_ENEMIES/CHAPTER_01.md`;
 - `ENCOUNTER_FORMATIONS/CHAPTER_01_FORMATIONS.md`.
 
-Existing Power/raw-complete identities:
-- Black Host Raider — Chapter-1 Hollow Watch variant;
-- Black Host Crossbowman — Chapter-1 Hollow Watch variant;
-- Ruin Shieldbearer — Chapter-1 Hollow Watch variant;
+Current Chapter-1 identities:
+- Black Host Raider;
+- Black Host Crossbowman;
+- Black Host Shieldbearer;
 - Thicket Stalker;
 - Vine Creeper;
+- Bullhog;
+- Needlewing;
+- Burrowclaw;
+- Barkling;
+- Construct;
+- Shield Construct — fixed authored stronger encounter, not random and not a miniboss;
+- Thornhide Stalker — Thornhide species; mandatory normal-lethal final boss.
+
+Retired from current Chapter 1:
 - Briar Boar;
+- Rootmaw;
+- Rubbleback / Brambleback;
 - Watch Sentry;
 - Watch Ballista;
-- Watch Captain Frame — Power complete, now strong normal-pool construct;
-- Watch Castellan — mini-boss body retained pending current-party revalidation;
-- Thornhide — normal lethal Chapter-1 final boss.
+- Watch Captain Frame;
+- Watch Castellan;
+- Cistern Devourer / Regional Hunt #1.
 
-New Southern-Briar identities:
-- Needlewing;
-- Rootmaw;
-- Rubbleback.
+Current numeric status:
+> **revalidation open**
 
-Those three names/identities/placements are locked, but their raw bodies/action Powers remain open. Therefore the Chapter-1 ordinary-enemy authoring pass is **reopened only for those three identities**, and encounter validation remains reopened for the current formations/party states.
+Inherited bodies/action kits may remain provisional tuning references where their current owner explicitly permits it. They do not restore retired names, placements, or encounter architecture.
 
 Brackenwall Reaver is not part of the active Chapter-1 roster.
 
