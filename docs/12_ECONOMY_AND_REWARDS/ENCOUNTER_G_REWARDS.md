@@ -1,6 +1,6 @@
 # Diyse — Encounter G Rewards
 
-**Status:** EXACT WHERE MAPPED; CHAPTER-1/2 PER-FORMATION REMAPS OPEN
+**Status:** EXACT WHERE MAPPED; CHAPTER-1 PER-FORMATION REMAP OPEN
 
 ## Currency
 Ordinary encounter currency is:
@@ -42,17 +42,17 @@ The current provisional chapter band remains:
 Exact G values for the current Northern Briar, Hollow Watch surface, Hollow Watch Construct, and Southern Briar formations must be remapped during the final Chapter-1 progression/economy validation. Do not use the retired names Brackenwall Patrol, Lower Woods Pack, Watch Line, Crossfire Post, or Fortified Watch as current encounter identities.
 
 ## Chapter 2
-The former Chapter-2 3×3 payout matrix is retired because its formation identities no longer match the current Waterworks / Sunken Archive / Old Bastion structure.
-
-Current composition authority:
-> `../09_ENEMIES_AND_ENCOUNTERS/ENCOUNTER_FORMATIONS/CHAPTER_02_FORMATIONS.md`
-
-The current provisional chapter band remains:
-> **180–240 G per ordinary formation**
-
-The existing route-planning envelope of approximately **~4,020 G** from ordinary Chapter-2 combat remains a budget reference only. Exact G values for the current formations must be remapped during final Chapter-2 progression/economy validation.
-
-Do not use the retired formation identities Redwater Line, Archive Current, Transfer Pursuit, or Bastion Command as current encounters.
+| Phase | Formation | G |
+|---|---|---:|
+| Opening | **Redwater Line** | **180** |
+| Opening | **Leech Screen** | **200** |
+| Opening | **Bogshell Nest** | **210** |
+| Middle | **Archive Current** | **200** |
+| Middle | **Memory Pressure** | **210** |
+| Middle | **Vault Hold** | **220** |
+| Late | **Bastion Line** | **220** |
+| Late | **Transfer Pursuit** | **230** |
+| Late | **Bastion Command** | **240** |
 
 ## Chapter 3
 | Phase | Formation | G |
