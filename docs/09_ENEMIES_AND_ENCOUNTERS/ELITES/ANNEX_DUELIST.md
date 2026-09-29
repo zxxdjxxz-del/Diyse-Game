@@ -1,8 +1,8 @@
 # Annex Duelist
 
-**Chapter:** 4 strong normal-pool Elite  
+**Chapter:** 4 — placement open pending enemy rework  
 **Architecture:** one chassis / one HP bar / exactly four elemental states  
-**Status:** **POWER COMPLETE / RAW LINE RETAINED**
+**Status:** **HISTORICAL RAW/POWER INPUT / PLACEMENT REOPENED**
 
 ## Raw body — RETAIN
 | Lv | HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR |
@@ -112,10 +112,7 @@ The standing Elite-strength target remains:
 The four-state identity remains visible through HP thresholds without creating extra bodies.
 
 
-## Normal-pool conversion — 2026-09-22
-Annex Duelist is no longer optional side content.
+## Normal-pool conversion — 2026-09-22 — SUPERSEDED
+That conversion is no longer current authority.
 
-Current role:
-> **strong normal-pool enemy**
-
-It is encountered through the chapter/area's normal encounter structure rather than an optional room or branch. If the identity is unique/named, use a one-time normal-pool entry rather than repeatable copies. Existing raw stats and Power remain retained; encounter frequency/placement and reward impact require revalidation where the prior optional placement mattered.
+Current Chapter-4 story authority explicitly allows Annex Duelist to remain optional combat. Final placement is **OPEN** pending the Chapter-4 enemy rework. Preserve the inherited chassis/state design only as a candidate until that decision closes.
