@@ -23,7 +23,7 @@ The 2026-09-25 restructuring used `DIYSE_Chapters_0-3_Spoiler_Free_Exact_Dialogu
 The pass deliberately preserved its spoken wording wherever the new 12-beat structure still supports it.
 
 Dialogue-level changes were restricted to:
-- **Briarhide → Thornhide** terminology;
+- **Briarhide → Thornhide** species terminology; Chapter-1 boss identity is **Thornhide Stalker**. Existing spoken `Thornhide` references remain valid species shorthand unless a line explicitly needs the boss title;
 - deletion of lines that depended on retired Six-Channel / forced-inner / Castellan / Cistern structures;
 - direct reconnection of surviving lines after those deletions.
 
@@ -94,7 +94,7 @@ Current Chapter-1 dialogue follows the 12-beat story authority:
 - Beat 7 preserves the strong regional landscape-depiction conversation without post-Castellan staging.
 - Beat 8 preserves the Greenhollow resolution / Torren recruitment dialogue.
 - Beat 9 preserves the track exchange with **Thornhide** terminology and removes the side-access conversation.
-- Beat 10 preserves the Thornhide pre-fight/aftermath exchange and has no mid-battle dialogue.
+- Beat 10 is the **Thornhide Stalker** boss scene; its existing `Thornhide` spoken references are valid species shorthand, and there is no mid-battle dialogue.
 - Beat 11 preserves the Wayfinder discovery and `trainable` exchange while deleting all water/cistern/backtrack dialogue.
 - Beat 12 preserves the brief morning departure and the three Character-Life options; there is no Regional Hunt/backtrack.
 

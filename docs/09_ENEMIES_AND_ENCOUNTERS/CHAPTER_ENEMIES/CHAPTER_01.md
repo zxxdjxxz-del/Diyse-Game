@@ -88,7 +88,7 @@ Natural threats only:
 - Bullhog
 - Needlewing
 - Burrowclaw
-- Barkling
+- Rubbleback
 
 ### Junction
 - no random encounters
