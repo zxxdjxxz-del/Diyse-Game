@@ -10,6 +10,33 @@ Machine-readable fingerprints: [`asset_sources/characters/current/APPROVED_SOURC
 
 The approved image itself controls face, facial proportions, hair, eyes as depicted, body proportions, clothing, armor, jewelry, equipment/props, palette, materials, silhouette, stance, scale/framing, and incidental visual detail. Do not reconstruct these appearances from older prose.
 
+## Canonical permanent-party height lock
+
+Canonical in-world heights are separate scalar authority from the individual source-image framing:
+
+| Character | Canonical height |
+| --- | ---: |
+| Seyrik | **6'6"** |
+| Cyanis | **6'1"** |
+| Torren | **5'11"** |
+| Ilyra | **5'9"** |
+| Vaelira | **5'6"** |
+| Nimera | **5'4"** |
+
+Rules:
+- do **not** infer relative in-world height from the separate master-image pixel dimensions, crop, margins, or individual framing;
+- do **not** resize, crop, or otherwise alter the locked source masters merely to encode these heights;
+- ensemble/model/runtime scaling should respect the canonical height table while preserving each exact appearance master as the visual identity authority.
+
+## Hair-length ceiling
+
+The approved Nimera and Vaelira masters are also the maximum allowed current hair length for those characters.
+
+- **Nimera:** do not lengthen her current locs/twists beyond the locked master silhouette.
+- **Vaelira:** do not lengthen her current crimson hair beyond the locked master silhouette.
+
+Shortening or otherwise redesigning those silhouettes is also not implied; any change requires a new explicit visual revision.
+
 | Character | Exact master | Dimensions | Bytes | SHA-256 |
 | --- | --- | ---: | ---: | --- |
 | Cyanis | [asset_sources/characters/current/cyanis.jpg](../../../../asset_sources/characters/current/cyanis.jpg) | 1280 × 1536 | 206567 | `9c86bb384051997786fad71fa9fd8427b7386bda77e98b4a52816b0ee76878ea` |
