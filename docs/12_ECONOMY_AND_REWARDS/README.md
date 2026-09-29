@@ -1,8 +1,10 @@
 # 12_ECONOMY_AND_REWARDS
 
-**Status:** CORE G ECONOMY RETAINED / OPTIONAL-CASH CALIBRATION REOPENED
+**Status:** **ECONOMY REBUILD / RECALIBRATION PENDING — G TERMINOLOGY + STRUCTURAL RULES RETAINED**
 
-This folder is the single editable home for Diyse's purchase/replacement economy, **G** distribution, commerce structure, resale rules, non-EXP reward balancing, and the lived economic context used by character/NPC reasoning.
+This folder remains the single editable home for Diyse's purchase/replacement economy, **G** distribution, commerce structure, resale rules, non-EXP reward balancing, and lived economic context.
+
+> **Numeric-authority firewall:** detailed prices, payouts, chapter-income totals, liquidity totals, Hunt cash, completionist totals, shop-price figures, and sink totals below are **provisional historical/working references** until the planned economy rebuild/recalibration. Cleanup work should preserve them for provenance but must not propagate them as hard current locks.
 
 ## Domain ownership
 `12_ECONOMY_AND_REWARDS` owns:
@@ -23,24 +25,22 @@ Other owners:
 
 ## Lived-economy context
 
-`LIVED_ECONOMY_CONTEXT.md` defines how the closed economy enters dialogue and character reasoning: concrete needs, supply/transport constraints, plausible price knowledge, market/quartermaster awareness, scarcity, and the distinction between in-world economics and authoring calibration.
+`LIVED_ECONOMY_CONTEXT.md` defines how economic context enters dialogue and character reasoning: concrete needs, supply/transport constraints, plausible price knowledge, market/quartermaster awareness, scarcity, and the distinction between in-world economics and authoring calibration.
 
 It explicitly does **not** invent universal wages, rent, tax rates, household income bands, or other macroeconomic canon that has not been established by an owning source.
 
-## Current economy anchors
+## Retained terminology / structural anchors
 - ordinary currency: **G**;
 - retired currency name: **Auren**;
 - no second ordinary shop currency;
-- **1 economy unit = 200 G**;
-- Field Salve = **200 G**;
-- starting wallet = **2,500 G**;
+- legacy planning scale/reference values such as **1 economy unit = 200 G**, Field Salve pricing, and starting-wallet figures are **provisional until the economy rebuild**;
 - ordinary equipment identities = **38**;
 - Consumables = **20**;
 - Regional Markets = **exactly 9**.
 
 `1 economy unit = 200 G` is a design/calibration scale. It is not automatically an in-world conversational term.
 
-## Mandatory-route calibration
+## Provisional legacy mandatory-route calibration
 
 Chapter 1's exact per-formation G remap is still open, so the aggregate below is the current planning center rather than a false exact lock.
 Expected direct G:
@@ -57,7 +57,7 @@ Ordinary formations are approximately **42.9%** of mandatory direct G, preservin
 
 These campaign-balance totals are author/design authority, not facts ordinary characters know simply because the files exist.
 
-## Optional direct-G calibration
+## Provisional legacy optional direct-G calibration
 Current total if all authored optional activities are cleared:
 > **288,200 G**
 
@@ -67,7 +67,7 @@ Breakdown:
 - Regional Hunts: **114,000 G**;
 - Major Hunts: **134,000 G**.
 
-## Completionist direct-cash reference
+## Provisional legacy completionist direct-cash reference
 Mandatory center + all authored optional direct G:
 > **~604,500 G**
 
@@ -90,7 +90,7 @@ Separate endpoints:
 - **Cresthaven Quartermaster** — long-term consolidation / registered ordinary-equipment requisition authority;
 - **Vhalmarch Forward Supply / Requisition** — field logistics after capture/stabilization.
 
-## Premium Consumables
+## Premium Consumables — numeric pricing provisional
 Reservoir Tonic, Emergency Kit, and Emergency Rally are **not reward-only**.
 
 From the first accessible state of every Consumable-selling shop:
@@ -101,14 +101,14 @@ From the first accessible state of every Consumable-selling shop:
 
 Guaranteed authored pickups remain separate and do not consume shop stock.
 
-Current prices:
+Legacy/provisional price references:
 - Emergency Kit — **8,000 G**;
 - Reservoir Tonic — **12,000 G**;
 - Emergency Rally — **15,000 G**.
 
 Premium Consumables remain non-sellable.
 
-## Major sinks
+## Major sinks — numeric values provisional
 - complete registered ordinary-equipment catalog value: **251,000 G**;
 - Kessara Relic-copy fee: **6,000 G per successful copy**;
 - all 18 current Relic-copy opportunities: **108,000 G** maximum service spending.
@@ -127,4 +127,4 @@ Implementation/presentation still owns:
 - runtime shop IDs, stock schema, save persistence and UI formatting;
 - Kessara menu timing / original-vs-copy presentation.
 
-These do not reopen the closed numeric economy by themselves.
+These implementation dependencies are separate from the already-open economy rebuild/recalibration.
