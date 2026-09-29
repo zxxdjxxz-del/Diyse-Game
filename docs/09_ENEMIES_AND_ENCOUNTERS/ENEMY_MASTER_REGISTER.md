@@ -56,9 +56,9 @@ This is a **chapter-role register**, so a recurring identity may appear in multi
 | 4 | Rework candidate / ordinary | Reaction Hound |
 | 4 | Rework candidate / ordinary | Element Mirror |
 | 4 | Rework candidate / ordinary | Annex Crucible Guard |
-| 4 | Authored/protected | Elemental Researcher — nonlethal |
-| 4 | Authored/protected | Annex Battle Mage — nonlethal |
-| 4 | Authored/protected | Crucible Attendant — nonlethal |
+| 4 | Placement unscheduled / rework input | Elemental Researcher — nonlethal kit only; no current battle placement |
+| 4 | Placement unscheduled / rework input | Annex Battle Mage — nonlethal kit only; no current battle placement |
+| 4 | Placement unscheduled / rework input | Crucible Attendant — nonlethal kit only; no current battle placement |
 | 4 | Authored/protected | Elder Thornhide — mandatory nonlethal |
 | 4 | Authored/protected | Reaction Conduit — mandatory nonlethal stabilization |
 | 4 | Placement open / rework input | Annex Duelist — one chassis / one bar / exactly four elemental states |
