@@ -1,8 +1,9 @@
 # Chapter 4 — Ordinary / Elite / Protected Roster Power Register
 
-**Status:** **CHAPTER-4 BROAD ENEMY POWER PASS**
+**Status:** **REWORK PENDING / HISTORICAL-PROVISIONAL RAW-BODY INPUT**
 
-## Ordinary identities
+## Ordinary identities — REWORK INPUT
+The following inherited bodies are not final Chapter-4 canon until the roster/action rework closes.
 
 | Enemy | Lv | HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR | Direct-damage Powers |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---|
@@ -62,7 +63,9 @@ They remain usable only if a distinct authored encounter is later approved/recov
 
 Do not automatically identify Elemental Researcher as the Reaction Conduit victim.
 
-## Optional Elite
+## Annex Duelist — placement reopened
+The inherited body below is a rework input only; current story authority permits optional placement and the former normal-pool conversion is superseded.
+
 Annex Duelist:
 - retained Lv18 / HP1,700 / 72 ATK / 72 MAG / 50 DEF / 49 Spirit / 34 SPD
 - one HP bar
@@ -71,10 +74,12 @@ Annex Duelist:
 - Recenter N/A
 - no Wind/Water state
 
-## Already certified mandatory special encounters
-Separately owned and unchanged:
-- Elder Thornhide — **PASS**
-- Reaction Conduit — **PASS**
-- Regulation Crucible → The Seventh Reaction — **PASS**
+## Story-required special encounters
+Separately owned:
+- Elder Thornhide;
+- Reaction Conduit;
+- Regulation Crucible → The Seventh Reaction.
 
-Regional Hunt #4 remains separate from this batch.
+Their story roles remain current. Chapter-wide enemy/balance certification is nevertheless reopened until the redesigned Chapter-4 encounter structure is validated.
+
+Regional Hunt #4 remains separate from this ordinary-enemy rework.

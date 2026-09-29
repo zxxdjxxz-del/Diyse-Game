@@ -51,9 +51,9 @@ Test:
 
 ## Availability/cooldown
 Test:
-- each Prime identity once per enemy HP body unless explicitly restored;
+- each Prime identity once per battle unless explicitly restored;
 - after any Prime dismissal, 3 full normal party rounds before another Ready Prime may be invoked;
-- genuine fresh-body transition refreshes Prime availability but does not bypass the spacing gate;
+- genuine fresh-body transitions do **not** refresh Prime availability and do not bypass the spacing gate;
 - same-bar state does not.
 
 ## Access

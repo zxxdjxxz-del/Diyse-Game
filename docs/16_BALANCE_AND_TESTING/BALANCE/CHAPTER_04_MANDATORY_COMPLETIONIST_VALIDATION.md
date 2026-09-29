@@ -1,11 +1,23 @@
 # Chapter 4 — Mandatory vs Completionist Enemy/Boss Validation
 
 **Version:** v99 synchronization of v80 paper pass  
-**Status:** **PASS / VALIDATED**  
+**Status:** **SUPERSEDED AS CHAPTER-WIDE CERTIFICATION / ENEMY REWORK PENDING**  
 **Power-audit status:** **CLOSED — no direct-damage Power changed**
 
-## Purpose
-Validate Chapter 4 at the party state that actually exists at each encounter point rather than treating the chapter as one flat level.
+## Rework notice
+This file is preserved as **historical tuning/simulation evidence**.
+
+It is not current Chapter-wide certification because:
+- the September 25 Chapter-4 story redesign changed route/area structure;
+- the ordinary enemy roster and formations are explicitly being reworked;
+- the inherited 19-encounter Annex model is reopened;
+- Annex Duelist placement is reopened;
+- the forest-route encounter layer was not represented in the old certification.
+
+Do not use old PASS/RETAIN statements below to block the Chapter-4 enemy rework.
+
+## Historical purpose
+Validate the older Chapter 4 at the party state that existed in that model rather than treating the chapter as one flat level.
 
 This pass does **not** reopen enemy Power authoring. Existing Power remains authority unless a specific encounter fails its intended difficulty role.
 
@@ -240,8 +252,8 @@ Recovered compositions are used as formation authority only. Historical phase-sp
 
 ---
 
-# Final Chapter-4 verdict
-> **PASS / VALIDATED**
+# Historical Chapter-4 verdict
+> **FORMER PASS / NOT CURRENT CERTIFICATION — REWORK PENDING**
 
 Chapter 4 works at its actual progression points:
 - opening **Lv13**;

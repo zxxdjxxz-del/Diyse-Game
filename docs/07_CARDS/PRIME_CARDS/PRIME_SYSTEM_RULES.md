@@ -49,19 +49,20 @@ There is no Prime MP stat, invocation MP charge, or per-Prime-round MP drain.
 
 ## Prime use and restoration
 Each Prime identity has:
-> **one use per enemy HP body**
+> **one use per battle unless restored by an explicit authored restoration effect**
 
-Invoking a Prime spends that specific Prime identity for the current enemy HP body.
+Invoking a Prime spends that specific Prime identity for the battle.
 
 Using one Prime does not spend any other available Prime.
 
 Prime spent/Ready state is **battle-scoped**:
 - battle end clears transient spent state;
 - a new battle begins with legally available/equipped Prime identities Ready;
-- a same-bar phase/state change does **not** refresh spent Prime identities;
-- a genuine fresh-HP enemy body **does refresh Prime availability** when the new body becomes active.
+- same-bar phase/state changes do **not** refresh spent Prime identities;
+- genuine fresh-HP enemy bodies/forms do **not** refresh spent Prime identities;
+- changing enemy bodies/forms does not create a new automatic Prime-use allowance.
 
-Fresh-body refresh changes spent/Ready identity state only. It does **not** erase or shorten the separate post-dismissal spacing gate.
+Only an explicit authored Prime-restoration effect can return a spent Prime identity to Ready during the same battle.
 
 ### Emergency Kit restoration
 **Emergency Kit** is an explicitly authored valid Prime-restoration effect.
@@ -148,15 +149,15 @@ The spacing gate does not restore the Prime that was just spent. It only control
 
 An explicit restoration effect such as Emergency Kit may restore spent Prime identities during this spacing window, but it does not shorten or cancel the spacing window itself.
 
-## Boss-form refresh
-Prime identity availability is battle-scoped by enemy HP body.
+## Boss-form interaction
+Prime identity availability is battle-scoped, not enemy-body-scoped.
 
 A genuine fresh-HP boss form:
-- refreshes spent Prime identities to Ready when the new body becomes active;
-- creates a new per-body Prime-use allowance;
+- does **not** refresh spent Prime identities;
+- does **not** create a new Prime-use allowance;
 - does **not** cancel or shorten an active post-dismissal spacing gate.
 
-Same-bar phase/state changes do **not** refresh spent Primes.
+Same-bar phase/state changes also do **not** refresh spent Primes.
 
 Global fresh-form authority is in:
 `05_BATTLE_SYSTEM/BOSS_FORM_RULES.md`.

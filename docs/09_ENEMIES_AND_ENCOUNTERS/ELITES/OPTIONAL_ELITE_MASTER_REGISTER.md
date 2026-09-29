@@ -3,7 +3,7 @@
 **Primary enemy-production authority:** compatible **Audit90 / Audit93** plus accepted later tracker roster/action cleanups.  
 **Primary raw-stat authority:** **Audit129 + Audit130 / Audit131 / Audit132 / Audit133 / Audit134 / Audit135**.  
 **Current whole-project written authority:** **v2.20 / Audit135**.  
-**Migration rule:** later current names, chapter reindexing, four-element rules, removed-system firewalls, and fresh-body Prime-refresh rules supersede stale earlier enemy text.
+**Migration rule:** later current names, chapter reindexing, four-element rules, removed-system firewalls, and the current **no form-transition Prime refresh** rule supersede stale earlier enemy text.
 
 
 Current rule:
@@ -14,7 +14,7 @@ The 12 identities historically tracked here are **former strong normal-pool Elit
 | Ch | Strong normal-pool identity | Lv | HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR |
 |---:|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
 | 3 | **Grand Inquisitor Frame** | 14 | 1,200 | 58 | 62 | 44 | 45 | 29 | 0 | 10 |
-| 4 | **Annex Duelist** | 18 | 1,700 | 72 | 72 | 50 | 49 | 34 | 10 | 5 |
+| 4 | **Annex Duelist — placement OPEN / rework input** | 18 | 1,700 | 72 | 72 | 50 | 49 | 34 | 10 | 5 |
 | 5 | **Ruin Forgemaster** | 23 | 2,250 | 88 | 62 | 64 | 57 | 31 | 0 | 5 |
 | 6 | **Crimson Progenitor** | 28 | 2,700 | 92 | 104 | 69 | 72 | 38 | 5 | 10 |
 | 7 | **First Registrar's Shade** | 33 | 2,950 | 104 | 116 | 76 | 82 | 44 | 10 | 10 |
@@ -73,10 +73,10 @@ Status:
 > **POWER COMPLETE**
 
 
-## Chapter 4 Power completion
+## Chapter 4 — REWORK PENDING
 
 ### Annex Duelist
-Raw line retained:
+Placement is reopened by current Chapter-4 story authority. Raw line retained only as historical/provisional rework input:
 > Lv18 / HP1,700 / ATK72 / MAG72 / DEF50 / Spirit49 / SPD34 / EVA10 / SR5
 
 Exactly four same-bar states:

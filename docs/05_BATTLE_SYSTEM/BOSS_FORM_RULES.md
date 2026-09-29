@@ -16,9 +16,9 @@ This does **not** refresh Prime availability.
 ### Genuine fresh-HP body/form
 The encounter transitions into a new authored body/form with a fresh HP pool.
 
-A genuine fresh-HP transformation **refreshes Prime availability** when the fresh body becomes active.
+A genuine fresh-HP transformation **does not refresh Prime availability**.
 
-This refresh resets battle-scoped spent/Ready identity state for the new HP body. It does **not** cancel or shorten the separate post-dismissal Prime-spacing gate.
+Spent/Ready Prime identity state remains battle-scoped across the form transition. A new HP body does not create a new automatic Prime-use allowance and does not cancel or shorten the separate post-dismissal Prime-spacing gate.
 
 ## Examples of same-bar behavior
 
@@ -40,7 +40,7 @@ Current authoritative examples:
 - Crownless Siege Marshal → **Crownless War Engine**
 - Regulation Crucible Form I → fresh **The Seventh Reaction / Form II** under the approved Chapter 4 architecture
 
-These are genuine new HP forms and **do refresh Prime identity availability** when the new HP body becomes active. They do not bypass the separate post-dismissal spacing gate.
+These are genuine new HP forms, but they **do not refresh Prime identity availability**. A Prime spent earlier in the battle remains spent unless an explicit authored restoration effect restores it.
 
 ## No automatic multi-form assumption
 
@@ -48,13 +48,13 @@ Do not infer:
 - a second bar from a named phase;
 - a third form because an encounter has multiple mechanics;
 - a hidden post-defeat body;
-- a Prime refresh from a same-bar phase/state transition.
+- a Prime refresh from any boss phase or form transition.
 
-Fresh-body behavior must be explicitly authored.
+Fresh-body behavior must be explicitly authored, but fresh HP never implies Prime restoration.
 
 ## Encounter ownership
 
 Exact boss HP, stats, AI, moves, components, and phase-specific kits belong in:
 `09_ENEMIES_AND_ENCOUNTERS`.
 
-This file owns only the global fresh-body / same-bar battle distinction and its interaction with Prime availability.
+This file owns only the global fresh-body / same-bar battle distinction and its interaction with Prime availability. Current rule: **neither same-bar transitions nor fresh-HP forms refresh Primes.**
