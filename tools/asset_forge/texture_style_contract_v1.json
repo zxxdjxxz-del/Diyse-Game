@@ -1,0 +1,64 @@
+{
+  "id": "DIYSE_ASSET_FORGE_TEXTURE_STYLE_CONTRACT_V1",
+  "version": 1,
+  "status": "active",
+  "authority": "docs/14_ART_AND_VISUALS/DIYSE_VISUAL_STYLE_CANON.md",
+  "purpose": "Translate the approved Diyse character-side visual language into texture/material behavior without transferring character identity, palette, costume, or props.",
+  "shared_style_block": "Diyse visual style: mature seinen-inspired HD-2D fantasy, graphic anime-stylized shape-first rendering, controlled saturation, clear authored light/mid/dark grouping, strong material separation, deliberate detail hierarchy, selective edge emphasis that echoes chaotic variable line weight without outlining every element, cinematic atmospheric-lighting compatibility, handcrafted irregularity, and strong gameplay-scale readability. Avoid chibi, glossy mobile-game rendering, photoreal texture-pack realism, soft-brushed or painterly finishes, uniform comic outlines, sterile vector regularity, plastic surfaces, and noisy microtexture.",
+  "categories": {
+    "stone": "Reinterpret this stone/environment asset into Diyse's stone grammar. Preserve functional tile/edge relationships and broad structure. Build large readable stone planes first, use stylized fractures and sparse dark crack accents, keep major structural breaks stronger than incidental cracks, preserve local stone color with controlled saturation, and suppress meaningless high-frequency noise. Never outline every block or stone cell.",
+    "foliage": "Reinterpret this foliage asset into Diyse's foliage grammar. Preserve silhouette function and alpha behavior. Build a few large designed canopy or leaf-cluster masses before interior detail, create intentional negative spaces, group light/shadow values, use controlled hue variation, and reserve darker selective accents for deep overlaps and branch forks. Do not render every leaf equally or add a uniform black contour.",
+    "grass": "Reinterpret this grass/vegetation asset as grouped Diyse foliage masses. Preserve animation registration and alpha. Favor stable tuft/cluster shapes, grouped light/shadow values, controlled hue variation, and sparse selective accents. Avoid frame-specific random detail, leaf-by-leaf noise, or universal dark outlines.",
+    "water": "Reinterpret as stylized Diyse water with broad graphic flow/ripple bands, clear reflection/value grouping, controlled color movement, sparse darker accents at selected overlaps, clean transparency, and no photoreal surface noise or over-baked bloom.",
+    "fire": "Reinterpret as graphic Diyse fire/emissive art. Use strong flame silhouettes, readable core-to-edge value hierarchy, bright mostly line-free cores, tapered selective accents at darker flame edges, restrained bloom compatibility, and clean transparent edges.",
+    "wood": "Reinterpret this wood/prop surface into Diyse's graphic material language. Use broad grain and plank/form direction first, clear material planes, darker irregular accents only at meaningful joints/cracks/overlaps, restrained functional wear, and no universal toon outline or microscopic repeating grain.",
+    "cave": "Reinterpret as Diyse subterranean material. Build large rock planes first, use sparse irregular fractures, reserve deepest darks for crevices and occlusion, keep mineral/moss breakup subordinate to form, and preserve clear traversal surfaces.",
+    "ritual": "Reinterpret as an original Diyse ritual/magical surface. Preserve functional composition only; use authored asymmetrical sigil hierarchy, variable selective line emphasis in inactive marks, controlled emissive glow when active, and avoid generic stock magic-circle geometry.",
+    "interior": "Reinterpret this interior asset with graphic material separation, controlled ornament density, clear value grouping, selective edge accents at seams/folds/carved overlaps, and mature non-glossy fantasy rendering.",
+    "prop": "Restyle this prop to feel native to Diyse. Preserve useful geometry and silhouette while replacing generic material appearance with graphic wood/metal/cloth treatment, strong material separation, selective edge emphasis, and controlled wear. Do not add a universal black toon outline.",
+    "generic": "Reinterpret this asset into Diyse's visual language while preserving its functional silhouette, alpha, seams, and gameplay readability. Simplify meaningless noise, strengthen major forms and value groups, preserve intended local color, and use selective edge hierarchy rather than uniform outlining."
+  },
+  "material_profiles": {
+    "stone": {
+      "value_levels": 5,
+      "value_blend": 0.62,
+      "saturation_scale": 0.82,
+      "edge_percentile": 97.0,
+      "edge_min_area": 18,
+      "edge_strength": 0.28,
+      "residual_amplitude": 4
+    },
+    "foliage": {
+      "value_levels": 4,
+      "value_blend": 0.58,
+      "saturation_scale": 0.90,
+      "edge_percentile": 98.5,
+      "edge_min_area": 14,
+      "edge_strength": 0.18,
+      "residual_amplitude": 3
+    },
+    "grass": {
+      "value_levels": 4,
+      "value_blend": 0.54,
+      "saturation_scale": 0.88,
+      "edge_percentile": 99.0,
+      "edge_min_area": 10,
+      "edge_strength": 0.14,
+      "residual_amplitude": 2
+    }
+  },
+  "technical_preservation": {
+    "preserve_dimensions": true,
+    "preserve_alpha_when_present": true,
+    "preserve_tileability_when_applicable": true,
+    "preserve_animation_registration": true,
+    "preserve_lighting_state_relationships": true,
+    "preserve_channel_semantics": true
+  },
+  "review": {
+    "first_validation_families": ["stone", "foliage"],
+    "automatic_approval": false,
+    "user_approval_required": true,
+    "approved_does_not_equal_locked": true
+  }
+}

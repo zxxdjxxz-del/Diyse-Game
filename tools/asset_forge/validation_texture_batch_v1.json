@@ -1,0 +1,219 @@
+{
+  "id": "DIYSE_TEXTURE_VALIDATION_12_V1",
+  "status": "bounded_validation_only",
+  "style_contract": "texture_style_contract_v1.json",
+  "source_authority": "docs/14_ART_AND_VISUALS/PRODUCTION/ASSET_LIBRARY",
+  "provenance_lane": "license-unverified private/reference",
+  "stop_after_jobs": 12,
+  "promotion_rule": "Do not widen into family-sized conversion until representative outputs pass Art Director review and explicit user approval.",
+  "jobs": [
+    {
+      "id": "STONE_01_CLEAN_CUT",
+      "family": "stone",
+      "map": "057",
+      "primary": ["gt_0_map057_map_color.tga"],
+      "companions": ["gt_0_map057_map_lighting.tga"],
+      "source_kind": "mixed_environment_atlas",
+      "evaluation_target": "clean bright architectural stone",
+      "processing_rule": "Use atlas/material analysis to isolate representative stone regions before style evaluation; do not treat non-stone atlas content as stone."
+    },
+    {
+      "id": "STONE_02_ROUGH_NATURAL",
+      "family": "stone",
+      "map": "105",
+      "primary": ["gt_0_map105_map_color.tga"],
+      "companions": ["gt_0_map105_map_lighting.tga"],
+      "source_kind": "mixed_environment_atlas",
+      "evaluation_target": "rough natural cave stone",
+      "processing_rule": "Isolate representative rock material regions; preserve functional atlas registration."
+    },
+    {
+      "id": "STONE_03_AGED_WORN",
+      "family": "stone",
+      "map": "069",
+      "primary": ["gt_0_map069_map_color.tga"],
+      "companions": ["gt_0_map069_map_lighting.tga"],
+      "source_kind": "mixed_environment_atlas",
+      "evaluation_target": "aged pale ruined masonry",
+      "processing_rule": "Evaluate weathering, breakage, plane grouping, and selective crack hierarchy on stone regions only."
+    },
+    {
+      "id": "STONE_04_MASONRY_BLOCK",
+      "family": "stone",
+      "map": "010",
+      "primary": ["gt_0_map010_map_color.tga"],
+      "companions": ["gt_0_map010_map_lighting.tga"],
+      "source_kind": "mixed_environment_atlas",
+      "evaluation_target": "fortress/cathedral masonry",
+      "processing_rule": "Evaluate block rhythm, joints, value grouping, and edge hierarchy without turning mortar into a black grid."
+    },
+    {
+      "id": "STONE_05_DARK",
+      "family": "stone",
+      "map": "059",
+      "primary": ["gt_0_map059_map_color.tga"],
+      "companions": ["gt_0_map059_map_lighting.tga"],
+      "source_kind": "mixed_environment_atlas",
+      "evaluation_target": "dark brown/olive stone",
+      "processing_rule": "Preserve readable plane separation without crushing the source into near-black values."
+    },
+    {
+      "id": "STONE_06_LIGHT",
+      "family": "stone",
+      "map": "023",
+      "primary": ["gt_0_map023_map_color.tga"],
+      "companions": ["gt_0_map023_map_lighting_a.tga", "gt_0_map023_map_lighting_b.tga"],
+      "source_kind": "mixed_environment_atlas",
+      "evaluation_target": "bright white monumental stone",
+      "processing_rule": "Preserve light-value structure and architectural readability without heavy universal outlines."
+    },
+    {
+      "id": "FOLIAGE_01_BROAD_LEAF",
+      "family": "foliage",
+      "map": "084",
+      "primary": ["gt_1_map084_tree_color.tga"],
+      "companions": [
+        "gt_1_map084_tree_lighting.tga",
+        "gt_1_map084_tree_lighting_ra.tga",
+        "gt_1_map084_tree_lighting_rb.tga",
+        "gt_1_map084_tree_lighting_rc.tga",
+        "gt_1_map084_tree_lighting_rd.tga",
+        "gt_1_map084_tree_lighting_re.tga",
+        "gt_1_map084_tree_lighting_rf.tga",
+        "gt_4_map084_icon_tree_color.tga",
+        "gt_4_map084_icon_tree_lighting.tga",
+        "gt_4_map084_icon_tree_lighting_ra.tga",
+        "gt_4_map084_icon_tree_lighting_rb.tga",
+        "gt_4_map084_icon_tree_lighting_rc.tga",
+        "gt_4_map084_icon_tree_lighting_rd.tga",
+        "gt_4_map084_icon_tree_lighting_re.tga",
+        "gt_4_map084_icon_tree_lighting_rf.tga"
+      ],
+      "source_kind": "alpha_cut_tree_family",
+      "evaluation_target": "broad-leaf canopy clusters",
+      "processing_rule": "Preserve alpha silhouette and every lighting-state relationship; evaluate designed cluster masses rather than individual-leaf noise."
+    },
+    {
+      "id": "FOLIAGE_02_CLEAN_TREE",
+      "family": "foliage",
+      "map": "002",
+      "primary": ["gt_1_map002_tree_color.tga"],
+      "companions": [
+        "gt_1_map002_tree_lighting.tga",
+        "gt_5_map002_icon_tree_color.tga",
+        "gt_5_map002_icon_tree_lighting.tga"
+      ],
+      "source_kind": "alpha_cut_tree_family",
+      "evaluation_target": "clean reusable transparent tree",
+      "processing_rule": "Preserve source alpha exactly and retain tree/icon-tree functional separation."
+    },
+    {
+      "id": "FOLIAGE_03_GROUND_GRASS",
+      "family": "foliage",
+      "material_kind": "grass",
+      "map": "071",
+      "primary": [
+        "gt_3_map071_grass_color_0.tga",
+        "gt_3_map071_grass_color_1.tga",
+        "gt_3_map071_grass_color_2.tga",
+        "gt_3_map071_grass_color_3.tga",
+        "gt_3_map071_grass_color_4.tga",
+        "gt_3_map071_grass_color_5.tga",
+        "gt_3_map071_grass_color_6.tga",
+        "gt_3_map071_grass_color_7.tga",
+        "gt_3_map071_grass_color_8.tga",
+        "gt_3_map071_grass_color_9.tga"
+      ],
+      "companions": [
+        "gt_3_map071_grass_lighting.tga",
+        "gt_3_map071_grass_lighting_ra.tga",
+        "gt_3_map071_grass_lighting_rb.tga",
+        "gt_3_map071_grass_lighting_rc.tga",
+        "gt_3_map071_grass_lighting_rd.tga",
+        "gt_3_map071_grass_lighting_re.tga",
+        "gt_3_map071_grass_lighting_rf.tga",
+        "gt_6_map071_icon_grass_color.tga",
+        "gt_6_map071_icon_grass_lighting.tga",
+        "gt_6_map071_icon_grass_lighting_ra.tga",
+        "gt_6_map071_icon_grass_lighting_rb.tga",
+        "gt_6_map071_icon_grass_lighting_rc.tga",
+        "gt_6_map071_icon_grass_lighting_rd.tga",
+        "gt_6_map071_icon_grass_lighting_re.tga",
+        "gt_6_map071_icon_grass_lighting_rf.tga"
+      ],
+      "source_kind": "animated_grass_family",
+      "expected_primary_frames": 10,
+      "evaluation_target": "wetland grass/reeds",
+      "processing_rule": "Preserve frame order/registration and use one coherent family treatment; no frame-specific random detail."
+    },
+    {
+      "id": "FOLIAGE_04_GRASS_VARIANT",
+      "family": "foliage",
+      "material_kind": "grass",
+      "map": "081",
+      "primary": [
+        "gt_1_map081_grass_color_0.tga",
+        "gt_1_map081_grass_color_1.tga",
+        "gt_1_map081_grass_color_2.tga",
+        "gt_1_map081_grass_color_3.tga",
+        "gt_1_map081_grass_color_4.tga",
+        "gt_1_map081_grass_color_5.tga",
+        "gt_1_map081_grass_color_6.tga",
+        "gt_1_map081_grass_color_7.tga"
+      ],
+      "companions": [
+        "gt_1_map081_grass_lighting.tga",
+        "gt_1_map081_grass_lighting_ra.tga",
+        "gt_1_map081_grass_lighting_rb.tga",
+        "gt_1_map081_grass_lighting_rc.tga",
+        "gt_1_map081_grass_lighting_rd.tga",
+        "gt_1_map081_grass_lighting_re.tga",
+        "gt_1_map081_grass_lighting_rf.tga"
+      ],
+      "source_kind": "animated_grass_family",
+      "expected_primary_frames": 8,
+      "evaluation_target": "second ground-foliage structure",
+      "processing_rule": "Preserve frame order/registration and compare against the Map071 family for style coherence without forcing identical palette."
+    },
+    {
+      "id": "FOLIAGE_05_CONIFER_DARK",
+      "family": "foliage",
+      "map": "074",
+      "primary": ["gt_3_map074_tree_color.tga"],
+      "companions": [
+        "gt_3_map074_tree_lighting.tga",
+        "gt_3_map074_tree_lighting_ra.tga",
+        "gt_3_map074_tree_lighting_rb.tga",
+        "gt_3_map074_tree_lighting_rc.tga",
+        "gt_3_map074_tree_lighting_rd.tga",
+        "gt_3_map074_tree_lighting_re.tga",
+        "gt_3_map074_tree_lighting_rf.tga",
+        "gt_6_map074_icon_tree_color.tga",
+        "gt_6_map074_icon_tree_lighting.tga",
+        "gt_6_map074_icon_tree_lighting_ra.tga",
+        "gt_6_map074_icon_tree_lighting_rb.tga",
+        "gt_6_map074_icon_tree_lighting_rc.tga",
+        "gt_6_map074_icon_tree_lighting_rd.tga",
+        "gt_6_map074_icon_tree_lighting_re.tga",
+        "gt_6_map074_icon_tree_lighting_rf.tga"
+      ],
+      "source_kind": "alpha_cut_tree_family",
+      "evaluation_target": "darker conifer foliage",
+      "processing_rule": "Test narrow branch/needle mass readability without converting the silhouette into fuzzy photographic noise or a hard black cutout."
+    },
+    {
+      "id": "FOLIAGE_06_LIGHT_TREE",
+      "family": "foliage",
+      "map": "034",
+      "primary": ["gt_1_map034_tree_color.tga"],
+      "companions": [
+        "gt_1_map034_tree_lighting.tga",
+        "gt_4_map034_icon_tree_color.tga",
+        "gt_4_map034_icon_tree_lighting.tga"
+      ],
+      "source_kind": "alpha_cut_tree_family",
+      "evaluation_target": "bright rural/sunlit tree",
+      "processing_rule": "Test light foliage value grouping and clean alpha edges while retaining local hue identity."
+    }
+  ]
+}
