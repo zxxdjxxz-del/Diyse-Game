@@ -42,8 +42,8 @@ It explicitly does **not** invent universal wages, rent, tax rates, household in
 
 ## Provisional legacy mandatory-route calibration
 
-Chapter 1's exact per-formation G remap is still open, so the aggregate below is the current planning center rather than a false exact lock.
-Expected direct G:
+The aggregate below is retained only as a **legacy/provisional planning center** until the economy rebuild; it is not a current exact lock.
+Legacy/provisional direct-G reference:
 > **~316,300 G**
 
 Composition:
@@ -58,7 +58,7 @@ Ordinary formations are approximately **42.9%** of mandatory direct G, preservin
 These campaign-balance totals are author/design authority, not facts ordinary characters know simply because the files exist.
 
 ## Provisional legacy optional direct-G calibration
-Current total if all authored optional activities are cleared:
+Legacy/provisional optional direct-G reference:
 > **288,200 G**
 
 Breakdown:
@@ -68,10 +68,10 @@ Breakdown:
 - Major Hunts: **134,000 G**.
 
 ## Provisional legacy completionist direct-cash reference
-Mandatory center + all authored optional direct G:
+Legacy mandatory reference + legacy optional reference:
 > **~604,500 G**
 
-The former ~650,000-G completionist target is now reopened because the standalone optional-Elite bounty layer was retired.
+The former ~650,000-G completionist target is historical context only; no completionist cash target is currently relocked.
 It excludes resale, deliberate extra encounters/backtracking, and non-cash reward-equivalent value.
 
 ## Current commerce structure
