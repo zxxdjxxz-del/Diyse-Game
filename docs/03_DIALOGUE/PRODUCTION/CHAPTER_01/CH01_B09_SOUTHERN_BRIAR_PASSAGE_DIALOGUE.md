@@ -107,4 +107,4 @@ The Thornhide itself is **not clearly shown in Beat 9**.
 ## [GAMEPLAY HANDOFF]
 
 Next mandatory beat:
-**Beat 10 — Thornhide**
+**Beat 10 — Thornhide Stalker**
