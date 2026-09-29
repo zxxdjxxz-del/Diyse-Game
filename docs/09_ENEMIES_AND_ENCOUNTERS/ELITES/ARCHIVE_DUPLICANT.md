@@ -89,13 +89,13 @@ Actual access is ~Lv6 mandatory-route vicinity / ~Lv7 completionist high-side. A
 > **PASS — RETAIN**
 
 
-## Normal-pool conversion — 2026-09-22
-Archive Duplicant is no longer optional side content.
+## Normal-pool conversion — 2026-09-22 — SUPERSEDED
+Archive Duplicant was briefly converted away from optional side content.
 
-Current role:
+Historical role at that checkpoint:
 > **strong normal-pool enemy**
 
-It is encountered through the chapter/area's normal encounter structure rather than an optional room or branch. If the identity is unique/named, use a one-time normal-pool entry rather than repeatable copies. Existing raw stats and Power remain retained; encounter frequency/placement and reward impact require revalidation where the prior optional placement mattered.
+This conversion is **superseded by the Chapter-2 placement retirement below**. It must not be used to restore Archive Duplicant to the current Sunken Archive pool.
 
 
 ## Chapter-2 placement retirement — 2026-09-23
