@@ -21,4 +21,20 @@ Authority order is: newest explicit approved source → registered exact fingerp
 
 Kessara remains separately locked to `asset_sources/characters/current/kessara.png`.
 
+## Canonical permanent-party heights
+
+These heights are current character-scale authority for runtime proportion checks. They do not replace the exact master images for body shape, pose, or framing.
+
+| Character | Canonical height |
+| --- | ---: |
+| Seyrik Rell | **6'6"** |
+| Cyanis Dovaren | **6'1"** |
+| Torren Harth | **5'11"** |
+| Ilyra Amarin | **5'9"** |
+| Vaelira Serren | **5'6"** |
+| Nimera Pellan | **5'4"** |
+
+Do not infer height from the white-background canvas bounds alone; runtime/model scale must respect these canonical heights while preserving each locked master’s proportions.
+
+
 Older renders, prose, hashes, filenames, or migration notes are historical whenever they conflict with the current exact source. Do not rebuild a current design by merging old prose into the new image.
