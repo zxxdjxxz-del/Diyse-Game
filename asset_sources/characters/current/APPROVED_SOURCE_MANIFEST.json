@@ -1,8 +1,9 @@
 {
   "schema_version": 1,
   "approved_local_date": "2026-09-22",
-  "authority": "newest explicit user-approved exact character appearance sources",
-  "sync_rule": "A repository binary is authoritative only when its SHA-256 matches this manifest exactly. Never re-encode, resize, crop, recolor, retouch, or otherwise alter the master during sync.",
+  "authority": "2026-09-22 eight-character exact-source appearance set",
+  "scope_note": "This manifest registers only the eight-character exact-source set approved on 2026-09-22. It is not an exhaustive registry of every current character visual master. Separately locked current masters such as Kessara are routed by asset_sources/characters/current/README.md and docs/14_ART_AND_VISUALS/CHARACTER_VISUAL_AUTHORITY_REGISTER.md.",
+  "sync_rule": "For characters listed in this manifest, a repository binary is authoritative only when its SHA-256 matches this manifest exactly. Never re-encode, resize, crop, recolor, retouch, or otherwise alter the master during sync.",
   "source_format_note": "All eight approved uploads are native JPEG/JFIF byte streams; .jpg destinations preserve their native format.",
   "characters": {
     "cyanis": {
