@@ -1,48 +1,69 @@
 # Chapter 1 — Dialogue Authoring Status
 
-**Status:** COMPLETE CURRENT WORKING PRODUCTION  
-**Chapter:** 1
+**Status:** CURRENT 12-BEAT PRODUCTION STRUCTURE / WRITTEN DIALOGUE CURRENT  
+**Chapter:** 1  
+**Current structure date:** 2026-09-25
 
-Current cumulative production manuscript:
-`docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/CHAPTER_01_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md`
+## Current written authority
 
-Current standalone production scenes/specs are stored in:
-`docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/`
+Use the current Chapter-1 production set:
+- `docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/CHAPTER_01_DIALOGUE_AUTHORITY_INDEX.md`
+- `docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/CHAPTER_01_DIALOGUE_MANUSCRIPT.md`
+- standalone Beat files `CH01_B01` through `CH01_B12`
+- Character-Life scenes `C02`, `C03`, and `C04`
 
-## Authority state
+The current story owner is:
+> `docs/02_STORY/CHAPTERS/CHAPTER_01.md`
 
-Chapter 1 is assembled end-to-end through the rehearsal-first Dialogue Engine process: Beats 1–15 plus optional Character-Life C03–C05 during the Junction camp cleanup window.
+## Current structure
 
-The old Chapter-1 `LINE_COMPLETE` transcript set and the superseded pre-rehearsal cumulative working manuscript have been removed from the live repository tree. Git history remains the archive for those superseded versions.
+Chapter 1 uses **12 mandatory beats**:
 
-The current production manuscript is the dialogue version to use going forward. It may still receive bounded implementation/playtest edits; `complete current working production` is not a permanent immutable line lock.
+1. Brackenwall / Protocol
+2. Briar Passage / First Traversal
+3. Greenhollow / Torren
+4. Hollow Watch Approach
+5. Hollow Watch Surface / Garrison
+6. Hollow Watch Excavation
+7. Hollow Watch Landscape Depiction
+8. Greenhollow Resolution / Torren Recruitment
+9. Southern Briar Passage
+10. Thornhide Stalker
+11. The Junction / Hidden Monument
+12. Junction Camp / Cleanup / next-morning handoff
 
-## Pipeline continuity
-
-Chapter 1 is one of the two reference implementations for the locked forward dialogue workflow. The same rehearsal-first Agent Brain system used here and in Chapter 0 is mandatory for Chapters 2–13 and future Diyse dialogue unless explicitly revised by the user.
-
-Owning lock:
-`docs/03_DIALOGUE/AGENT_SYSTEM/CHAPTER_0_1_PIPELINE_CONTINUITY_LOCK.md`
-
-Required sequence:
-**scene/world state → independent Person Agent Brain rehearsals → Dialogue Editor → invisible Canon/Knowledge Checker → economical HD-2D staging/implementation**.
+Retired pre-restructure Beat-13–15 numbering must not be treated as current Chapter-1 structure.
 
 ## Current Character-Life files
 
-- `C03_TORRENS_VERSION_OF_DINNER_REHEARSAL_FIRST_DRAFT_C.md`
-- `C04_WHAT_THE_MAP_SAYS_REHEARSAL_FIRST_DRAFT_A.md`
-- `C05_NOT_PROFESSIONALLY_REHEARSAL_FIRST_DRAFT_D.md`
+- `C02_TORRENS_VERSION_OF_DINNER_DIALOGUE.md`
+- `C03_WHAT_THE_MAP_SAYS_DIALOGUE.md`
+- `C04_NOT_PROFESSIONALLY_DIALOGUE.md`
 
 ## Key continuity
 
-- Maevra enters Chapter 1 with the arm broken during the Broken Convoy attack and remains noncombat;
-- C03: all four at camp, Torren's bad food, Torren smokes only after dinner;
-- C04: Cyanis/Torren modern route-map scene, preserving `old slut / old cut` at early relationship timing;
-- C05: Ilyra + Maevra only, splint change, limited pain-easing magic cannot mend the bone, private Maevra/Torren conversation;
-- Briarhide is not clearly seen until the immediate boss trigger;
-- Junction monument is hidden until Beat 14 and Torren has never seen the exposed monument before then;
-- Chapter 1 ends with departure toward Dunmere.
+- Maevra enters Chapter 1 with the arm broken during the Broken Convoy attack and remains noncombat.
+- Cyanis + Ilyra are the opening combat party.
+- Torren joins combat for Hollow Watch and becomes permanent in Greenhollow after Hollow Watch resolves.
+- Hollow Watch underground is a short Construct-only Diysean corridor after the excavation transition.
+- Shield Construct is a fixed stronger encounter, not a miniboss.
+- Watch Castellan / Six-Channel / forced-inner material is retired.
+- Southern Briar has no Cistern Hunt hook.
+- **Thornhide Stalker** is the Chapter-1 final boss; **Thornhide** is the species terminology used in ordinary dialogue/sign references.
+- the creature is not clearly seen until the immediate boss trigger.
+- the Junction monument remains hidden until the authored clearing interaction.
+- Chapter 1 ends with continuation toward Dunmere.
+
+## Pipeline continuity
+
+Use the current Agent Brain / dialogue workflow:
+**scene authority → Person Agent context → dialogue generation/editing → Canon/Knowledge validation → author approval → implementation**.
+
+No walking dialogue and no mid-battle dialogue.
 
 ## Runtime note
 
-Legacy Godot dialogue resources under `game/content/dialogue/chapter_01/` are implementation assets from the earlier script generation and are **not current written dialogue authority**. They must be regenerated/replaced from the current production manuscript before Chapter 1 dialogue implementation is considered synchronized. Do not treat those `.tres` files as a competing locked chapter.
+Current Chapter-1 runtime dialogue resources live under:
+> `game/content/dialogue/current/chapter_01/`
+
+Written production files remain the dialogue authority. Runtime resources must be validated against those current files before implementation is considered synchronized; stale legacy mirrors must not override the written authority.
