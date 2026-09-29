@@ -9,7 +9,7 @@
 
 Player control is active.
 
-The group camps near the Junction after the Thornhide fight and Wayfinder discovery.
+The group camps near the Junction after the Thornhide Stalker fight and Wayfinder discovery.
 
 This is a safe camp area.
 

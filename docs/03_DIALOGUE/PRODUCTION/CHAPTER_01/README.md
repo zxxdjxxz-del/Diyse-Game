@@ -28,4 +28,4 @@ The old 15-beat Hollow Watch/Castellan/Cistern atomics were removed from live au
 
 Story structure is owned by `docs/02_STORY/CHAPTERS/CHAPTER_01.md`.
 
-Legacy `game/content/dialogue/chapter_01/*.tres` files are implementation artifacts awaiting synchronization from this production set; they are not current written dialogue authority.
+Current compiled runtime resources live under `game/content/dialogue/current/chapter_01/` and are generated from this production set. The production Markdown/spec files remain exact written authority; any older `game/content/dialogue/chapter_01/` mirrors are legacy and must not override the current tree.

@@ -6,21 +6,21 @@
 
 
 Last Shelter:
-> **415,400 EXP = ~Lv60**
+> **415,100 EXP = ~Lv60**
 
 Level 70:
 > **594,100 EXP**
 
 Required gap:
-> **178,700**
+> **179,000**
 
 Authored pre-Shelter optional pool:
-> **191,300**
+> **190,300**
 
-`415,400 + 191,300 = 606,700`
+`415,100 + 190,300 = 605,400`
 
 Buffer:
-> **12,600 EXP**
+> **11,300 EXP**
 
 Therefore a broad completionist can reach **Lv70 before Last Shelter without repetitive grinding**.
 
@@ -34,5 +34,5 @@ Route centers:
 - broad completionist: Lv70 before Last Shelter
 
 
-## Regional Hunt retirement sync — 2026-09-27
-The cap proof now excludes retired Regional Hunt slots #2 and #3 (-3,700 EXP combined). The remaining authored pre-Shelter optional pool still clears the Lv70 threshold by **12,600 EXP**, so the broad-completionist conclusion remains valid without repetitive grinding.
+## Regional Hunt retirement sync — current
+The cap proof excludes retired Regional Hunt slots **#1, #2, and #3** and uses the corrected **415,100 EXP** mandatory Last-Shelter baseline after removal of Watch Castellan's 300 EXP. The authored pre-Shelter optional pool is **190,300 EXP** and still clears the Lv70 threshold by **11,300 EXP**. The broad-completionist conclusion remains valid without repetitive grinding.

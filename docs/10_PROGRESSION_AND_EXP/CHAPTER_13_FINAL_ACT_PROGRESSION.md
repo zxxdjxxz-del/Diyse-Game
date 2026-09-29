@@ -6,7 +6,7 @@
 
 
 Start Ch13:
-- **369,100 EXP**
+- **368,800 EXP**
 - ~Lv57
 
 Pre-Last-Shelter mandatory:
@@ -18,7 +18,7 @@ Pre-Last-Shelter mandatory:
 - **1,500 total CEXP before Last Shelter**
 
 At Last Shelter:
-- **415,400 EXP**
+- **415,100 EXP**
 - ~Lv60
 
 Irreversible threshold:
@@ -33,7 +33,7 @@ Post-threshold mandatory:
 - **250 total CEXP after Last Shelter**
 
 Ending:
-- **448,100 EXP**
+- **447,800 EXP**
 - ~Lv62
 
 Chapter 13 total:
@@ -61,3 +61,7 @@ At Last Shelter, the mandatory route has earned **8,500 post-Volition CEXP**. Wi
 
 Balance implementation requirement:
 > Last Shelter recovery must allow entry into the irreversible Reactor Galleries sequence in full combat-ready condition. Do not accidentally carry mandatory Last Weapon Archon attrition into the final boss solely because of implementation omission.
+
+
+## Current cumulative-EXP note
+The Chapter-13 internal **79,000 EXP** package is unchanged. The three cumulative campaign checkpoints above are each **300 EXP lower** because the retired Chapter-1 Watch Castellan package no longer contributes to the mandatory route. Approximate level labels remain pending the campaign level-spine recalibration.

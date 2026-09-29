@@ -990,7 +990,7 @@ Next mandatory beat:
 ## Beat 9
 
 **Atomic source:** `CH01_B09_SOUTHERN_BRIAR_PASSAGE_DIALOGUE.md`  
-**Source SHA-256:** `fc454c2077786a1fd489d4a79247d71fd6caedccbb0289567da1cd0dc8e6175d`
+**Source SHA-256:** `123d24cb01225640eb19d2239bd70248f059006afb0ad0c80285567abb5bedc4`
 
 # Chapter 1 — Beat 9
 # Southern Briar Passage
@@ -1101,17 +1101,17 @@ The Thornhide itself is **not clearly shown in Beat 9**.
 ## [GAMEPLAY HANDOFF]
 
 Next mandatory beat:
-**Beat 10 — Thornhide**
+**Beat 10 — Thornhide Stalker**
 
 ---
 
 ## Beat 10
 
 **Atomic source:** `CH01_B10_THORNHIDE_DIALOGUE.md`  
-**Source SHA-256:** `e008158d9b9970b31c89f5398b97a27cf252f49275a95ed820dcb02f432c3530`
+**Source SHA-256:** `9f52f2c811159f6c230865c41325796b86bcfd9e43ee4a3ddd11d676099668dc`
 
 # Chapter 1 — Beat 10
-# Thornhide
+# Thornhide Stalker
 ## CURRENT LOCKED DIALOGUE — 12-BEAT CONTINUITY PASS
 
 **Status:** CURRENT ATOMIC DIALOGUE AUTHORITY — 2026-09-25  
@@ -1125,7 +1125,7 @@ Cyanis is the only visible party field character during ordinary traversal.
 
 There is no dialogue before the boss trigger.
 
-The Thornhide has not been clearly seen yet.
+The Thornhide Stalker has not been clearly seen yet.
 
 The Card remains inert.
 
@@ -1138,11 +1138,11 @@ Maevra remains with the traveling group but does not participate in combat.
 
 The usable route opens ahead.
 
-The Thornhide is there.
+The Thornhide Stalker is there.
 
-This is the first clear visual reveal of the animal.
+This is the first clear visual reveal of the Thornhide Stalker.
 
-It is an exceptionally large native Thornhide: a massive werebear-like beast covered in porcupine-like quills, with red eyes.
+The Thornhide Stalker is an exceptionally large native Thornhide: a massive werebear-like beast covered in porcupine-like quills, with red eyes.
 
 There is no Black Host equipment, corruption, machinery, special wound, or other condition to diagnose.
 
@@ -1158,7 +1158,7 @@ Torren watches it.
 
 **TORREN:** Bigger than I thought.
 
-The Thornhide holds the route.
+The Thornhide Stalker holds the route.
 
 **ILYRA:** It's not moving on.
 
@@ -1186,7 +1186,7 @@ Maevra stays back.
 
 **MAEVRA:** Do it.
 
-**BOSS BATTLE — THORNHIDE**
+**BOSS BATTLE — THORNHIDE STALKER**
 
 ## [BOSS COMBAT]
 
@@ -1195,7 +1195,7 @@ Combat party:
 
 Maevra does not participate.
 
-The Thornhide is defeated and killed through ordinary combat victory.
+The Thornhide Stalker is defeated and killed through ordinary combat victory.
 
 There is:
 - no corruption phase;
@@ -1208,7 +1208,7 @@ There is:
 
 ## [STORY TRIGGER — AFTERMATH]
 
-The Thornhide lies still.
+The Thornhide Stalker lies still.
 
 For a moment, nobody says anything.
 
@@ -1484,7 +1484,7 @@ Next mandatory beat:
 ## Beat 12
 
 **Atomic source:** `CH01_B12_JUNCTION_CAMP_CLEANUP_DIALOGUE.md`  
-**Source SHA-256:** `8f4578d9f3d6bb1ac14fced205a12d7bf08643c8d732bec120692319e0e24a25`
+**Source SHA-256:** `75568ec82b66fc98b43823b17f3ae17217441a9ff37b984a2e85ed63b38491c7`
 
 # Chapter 1 — Beat 12
 # Junction Camp / Chapter 1 Cleanup Window
@@ -1497,7 +1497,7 @@ Next mandatory beat:
 
 Player control is active.
 
-The group camps near the Junction after the Thornhide fight and Wayfinder discovery.
+The group camps near the Junction after the Thornhide Stalker fight and Wayfinder discovery.
 
 This is a safe camp area.
 

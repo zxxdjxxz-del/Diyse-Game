@@ -1,5 +1,7 @@
 # Rubbleback
 
+**Chapter-1 retirement firewall:** **RETIRED NAME — current Chapter-1 identity is Barkling.** Historical mechanics below may be used only as provisional tuning reference where the current Barkling owner explicitly permits it. Do not place Rubbleback in current Chapter 1.
+
 **Chapter:** 1 — Southern Briar Passage  
 **Role:** ordinary natural threat / armored woodland bruiser  
 **Status:** **IDENTITY + NAME + PLACEMENT LOCKED / RAW BODY + ACTION POWER AUTHORED / ENCOUNTER VALIDATION OPEN**

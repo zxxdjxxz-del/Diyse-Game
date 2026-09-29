@@ -1,5 +1,5 @@
 # Chapter 1 — Beat 10
-# Thornhide
+# Thornhide Stalker
 ## CURRENT LOCKED DIALOGUE — 12-BEAT CONTINUITY PASS
 
 **Status:** CURRENT ATOMIC DIALOGUE AUTHORITY — 2026-09-25  
@@ -13,7 +13,7 @@ Cyanis is the only visible party field character during ordinary traversal.
 
 There is no dialogue before the boss trigger.
 
-The Thornhide has not been clearly seen yet.
+The Thornhide Stalker has not been clearly seen yet.
 
 The Card remains inert.
 
@@ -26,11 +26,11 @@ Maevra remains with the traveling group but does not participate in combat.
 
 The usable route opens ahead.
 
-The Thornhide is there.
+The Thornhide Stalker is there.
 
-This is the first clear visual reveal of the animal.
+This is the first clear visual reveal of the Thornhide Stalker.
 
-It is an exceptionally large native Thornhide: a massive werebear-like beast covered in porcupine-like quills, with red eyes.
+The Thornhide Stalker is an exceptionally large native Thornhide: a massive werebear-like beast covered in porcupine-like quills, with red eyes.
 
 There is no Black Host equipment, corruption, machinery, special wound, or other condition to diagnose.
 
@@ -46,7 +46,7 @@ Torren watches it.
 
 **TORREN:** Bigger than I thought.
 
-The Thornhide holds the route.
+The Thornhide Stalker holds the route.
 
 **ILYRA:** It's not moving on.
 
@@ -74,7 +74,7 @@ Maevra stays back.
 
 **MAEVRA:** Do it.
 
-**BOSS BATTLE — THORNHIDE**
+**BOSS BATTLE — THORNHIDE STALKER**
 
 ## [BOSS COMBAT]
 
@@ -83,7 +83,7 @@ Combat party:
 
 Maevra does not participate.
 
-The Thornhide is defeated and killed through ordinary combat victory.
+The Thornhide Stalker is defeated and killed through ordinary combat victory.
 
 There is:
 - no corruption phase;
@@ -96,7 +96,7 @@ There is:
 
 ## [STORY TRIGGER — AFTERMATH]
 
-The Thornhide lies still.
+The Thornhide Stalker lies still.
 
 For a moment, nobody says anything.
 

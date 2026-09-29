@@ -35,7 +35,7 @@ Historical subtotal retired:
 This subtotal is no longer part of the optional-content direct-G budget.
 
 ## Chapter 1 consequence
-Watch Captain Frame is a strong normal-pool Hollow Watch construct. It receives no separate 700-G first-clear bounty. Its G comes from the formation-level Hollow Watch reward package once final normal-pool weighting is validated.
+Watch Captain Frame is no longer part of current Chapter 1. Its former **700 G** bounty remains historical/retired and must not be paid. Current Hollow Watch G belongs only to the active Black Host / Construct formations and authored encounters once final Chapter-1 economy mapping is validated.
 
 ## Chapter 0 classification
 Ruin Vanguard Pursuer / concealed Seyrik remains a mandatory authored/protected encounter, not part of this former optional-Elite set.

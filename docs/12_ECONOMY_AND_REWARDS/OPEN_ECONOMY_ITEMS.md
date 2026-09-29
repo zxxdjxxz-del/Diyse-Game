@@ -5,7 +5,7 @@
 ## Core economy-design status
 > **CORE STRUCTURE RETAINED / OPTIONAL-CASH CALIBRATION REOPENED**
 
-Mandatory-route solvency remains certified, but the optional/completionist cash calibration is reopened after the former standalone optional-Elite bounty layer was retired.
+Mandatory-route liquidity remains a **provisional stress-test pass** while Chapter 1's current per-formation G remap is open. The optional/completionist cash calibration is also reopened after the former standalone optional-Elite bounty layer and Regional Hunt #1 were retired.
 
 ## Closed current structure
 - currency = **G**;
@@ -26,20 +26,20 @@ Mandatory-route solvency remains certified, but the optional/completionist cash 
 
 ## Current direct-G calibration
 Mandatory route:
-> **~316,900 G**
+> **~316,300 G**
 
 Optional authored direct G:
-> **290,700 G**
+> **288,200 G**
 
 Broad completionist direct-cash reference:
-> **~607,600 G**
+> **~604,500 G**
 
 The prior **~650,000 G** completionist target is now open for recalibration; do not restore retired Elite bounties merely to recover it.
 
 Mandatory composition:
 - starting wallet: **2,500 G**;
 - ordinary formations: **~135,600 G**;
-- mandatory story bosses/named encounters: **92,700 G**;
+- mandatory story bosses/named encounters: **92,100 G**;
 - fixed authored combat/event payouts: **5,300 G**;
 - mandatory non-battle map: **80,800 G**.
 
@@ -50,7 +50,7 @@ Former optional-Elite bounty layer:
 Optional composition:
 - ordinary Side Quests: **18,000 G**;
 - Character Quests: **22,200 G**;
-- Regional Hunts: **116,500 G**;
+- Regional Hunts: **114,000 G**;
 - Major Hunts: **134,000 G**.
 
 ## Closed price / sink synchronization

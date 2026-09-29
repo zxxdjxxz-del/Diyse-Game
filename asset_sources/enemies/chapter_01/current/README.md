@@ -29,6 +29,8 @@ Exact dimensions, source/generation identity, byte size, SHA-256, and binary-syn
 - Watch Captain Frame → **Construct**
 - Watch Castellan → **Shield Construct**
 - Thornhide Stalker → **Thornhide**
+
+These are **asset-source reconciliation mappings only**. They do not mean the current enemies inherit the retired encounter roles. In gameplay authority, Watch Captain Frame and Watch Castellan are retired from Chapter 1; Shield Construct is fixed/authored and explicitly **not a miniboss**.
 - **Watch Sentry** removed
 - **Watch Ballista** removed
 - **Cistern Devourer** removed

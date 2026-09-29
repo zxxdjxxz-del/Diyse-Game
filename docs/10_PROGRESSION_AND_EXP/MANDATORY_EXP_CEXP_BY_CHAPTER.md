@@ -7,7 +7,7 @@
 
 | Chapter | End level | Total EXP | Ordinary EXP | Named/story EXP | Campaign CEXP | Ordinary CEXP | Named/story CEXP | Encounters |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
-| Ch1 | ~5 | 1,600 | 855 | 745 | 350 | 178 | 172 | 18 |
+| Ch1 | ~5 | **1,300** | 855 | **445** | **285** | 178 | **107** | 18 |
 | Ch2 | ~9 | 4,800 | 2,288 | 2,512 | 450 | 230 | 220 | 19 |
 | Ch3 | ~13 | 8,000 | 3,480 | 4,520 | 550 | 286 | 264 | 19 |
 | Ch4 | ~17 | 11,200 | 5,262 | 5,938 | 650 | 346 | 304 | 19 |
@@ -24,9 +24,13 @@
 > **v91 CEXP note:** Ch12/Ch13 CEXP columns are recalibrated; Player EXP and encounter counts are unchanged. Ch13 CEXP is split 1,500 pre–Last Shelter / 250 post–Last Shelter.
 
 Totals:
-- mandatory Player EXP: **448,100**
+- mandatory Player EXP: **447,800**
 - ordinary/repeatable allocation: **243,545**
-- named/story allocation: **204,555**
+- named/story allocation: **204,255**
 - ordinary encounter planning center: **225**
 
 This is a pacing architecture, not a requirement to force a fixed number of random battles.
+
+
+## Chapter-1 progression-note — current structural correction
+Chapter 1 no longer includes Watch Castellan. The named/story package is therefore **445 EXP / 107 CEXP**, and the current chapter total is **1,300 EXP / 285 CEXP** using the existing ordinary-route planning allocation. Final Chapter-1 level-spine certification remains open until the planned mandatory/completionist progression recalibration.

@@ -1,6 +1,6 @@
 # Diyse — Encounter G Rewards
 
-**Status:** EXACT ORDINARY-FORMATION G AUTHORITY
+**Status:** EXACT WHERE MAPPED; CHAPTER-1 PER-FORMATION REMAP OPEN
 
 ## Currency
 Ordinary encounter currency is:
@@ -31,17 +31,15 @@ Ordinary encounter currency is:
 | Ch13 | **1,200–1,400 G** | 8 |
 
 ## Chapter 1
-| Phase | Formation | G |
-|---|---|---:|
-| Opening | **Brackenwall Patrol** | **140** |
-| Opening | **Brackenwall Mixed** | **150** |
-| Opening | **Reaver Push** | **160** |
-| Middle | **Lower Woods Pack** | **150** |
-| Middle | **Briar Pressure** | **160** |
-| Middle | **Heavy Woods** | **170** |
-| Late | **Watch Line** | **160** |
-| Late | **Crossfire Post** | **170** |
-| Late | **Fortified Watch** | **180** |
+The former Chapter-1 3×3 payout matrix is retired because its formation names no longer match current Chapter-1 encounter authority.
+
+Current Chapter-1 formation composition is owned by:
+> `../09_ENEMIES_AND_ENCOUNTERS/ENCOUNTER_FORMATIONS/CHAPTER_01_FORMATIONS.md`
+
+The current provisional chapter band remains:
+> **140–180 G per ordinary formation**
+
+Exact G values for the current Northern Briar, Hollow Watch surface, Hollow Watch Construct, and Southern Briar formations must be remapped during the final Chapter-1 progression/economy validation. Do not use the retired names Brackenwall Patrol, Lower Woods Pack, Watch Line, Crossfire Post, or Fortified Watch as current encounter identities.
 
 ## Chapter 2
 | Phase | Formation | G |

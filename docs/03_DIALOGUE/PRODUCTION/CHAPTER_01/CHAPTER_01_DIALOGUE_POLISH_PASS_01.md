@@ -1,7 +1,9 @@
 # Chapter 1 — Dialogue Polish Pass 01
 
-**Status:** CURRENT PASS RECORD — standalone scene drafts are current authority  
-**Scope:** full-chapter read across Beats 1–15 + C03/C04/C05 after the rehearsal-first rebuild and field-presentation normalization.
+**Status:** **SUPERSEDED HISTORICAL PASS RECORD — PRE-2026-09-25 CHAPTER RESTRUCTURE**  
+**Scope:** preserved record of the older Beats 1–15 / C03–C05 polish pass.
+
+> **Current-authority warning:** references below to Lower Junction / Six Channels, Forced Inner, Watch Castellan, Post-Castellan staging, Briarhide naming, old Character-Life numbering, or Beats 13–15 are historical only. Current Chapter-1 authority is the 12-beat production set and `CHAPTER_01_DIALOGUE_AUTHORITY_INDEX.md`.
 
 ## Purpose
 

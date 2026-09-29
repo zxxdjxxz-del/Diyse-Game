@@ -1,6 +1,6 @@
 # Diyse — Mandatory Route G Budget
 
-**Status:** EXACT MANDATORY-ROUTE G CALIBRATION AUTHORITY
+**Status:** CURRENT MANDATORY-ROUTE G CALIBRATION / CH1 FORMATION REMAP OPEN
 
 This file defines the mandatory-route G envelope used to tune ordinary formations, story encounters, authored currency rewards, and direct-G caches.
 
@@ -13,16 +13,16 @@ All current-facing mandatory income uses:
 |---|---:|
 | Starting wallet | **2,500 G** |
 | Ordinary Chapter 1–13 formations | **~135,600 G** |
-| Mandatory story bosses / named encounters | **92,700 G** |
+| Mandatory story bosses / named encounters | **92,100 G** |
 | Fixed authored combat/event payouts | **5,300 G** |
 | Mandatory non-battle reward map | **80,800 G** |
-| **Mandatory-route total** | **~316,900 G** |
+| **Mandatory-route total** | **~316,300 G** |
 
 The ordinary-formation total is a route expectation across the 225-encounter planning spine, so the final wallet can vary with encounter RNG, escapes, backtracking, and spending.
 
 ## Ordinary encounter share
 Ordinary formations contribute approximately:
-> **42.8%**
+> **42.9%**
 
 of the calibrated mandatory-route direct G.
 
@@ -32,7 +32,7 @@ This satisfies the retained design target that ordinary random encounters contri
 without becoming the only meaningful source of money.
 
 ## Protected/nonlethal contribution
-Protected/nonlethal story-boss resolutions contribute **7,800 G** inside the 92,700-G story-boss layer.
+Protected/nonlethal story-boss resolutions contribute **7,200 G** inside the 92,100-G story-boss layer.
 
 Additional protected/nonlethal authored-event payouts are represented in the fixed event layer where applicable.
 
@@ -73,3 +73,7 @@ If the mandatory route routinely buys everything with little sacrifice, reduce o
 Former optional-Elite identities are now part of normal encounter pools. They do **not** add a separate fixed bounty to the mandatory-route budget.
 
 Their current G is subsumed by the normal formation-level reward selected from `ENCOUNTER_G_REWARDS.md`. This keeps the existing ordinary-formation route expectation structurally intact unless later encounter-frequency/G validation changes the formation-level budget itself.
+
+
+## Chapter-1 remap note
+The **~135,600 G** ordinary-formation route expectation is still the campaign planning envelope, but Chapter 1's old named 3×3 formation payout matrix has been retired. Exact G assignments for the current Chapter-1 formations must be remapped before the mandatory-route total is treated as fully closed to the last G. The current aggregate therefore remains approximately **~316,300 G** rather than a false exact lock.

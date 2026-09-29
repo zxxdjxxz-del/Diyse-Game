@@ -4,7 +4,6 @@
 
 | # | Hunt | Rec. Lv | Boss HP architecture | Key direct-damage Power |
 |---:|---|---:|---|---|
-| 1 | Cistern Devourer | 7 | 2,706 / one bar | 205 /220 /145 AoE |
 | 4 | Crown Prototype | 20 | 6,503 / one bar | 265 /255 current element /190 AoE |
 | 5 | Whitehorn Ravager | 26 | 8,678 / one bar | 285 /305 /215 Ice AoE /320 |
 | 6 | Winterglass Titan | 32 | 10,879 / same-bar Shell→Core | 300 /225 Ice AoE /285 →335 /245 AoE |
@@ -16,8 +15,7 @@
 
 ## Status rollout integrity
 Regional Hunt access obeys chapter status chronology:
-- #1 — no Burn/Stun/Freeze; Bleed only
-- retired #2/#3 rows carry no current status-rollout authority;
+- retired #1/#2/#3 rows carry no current status-rollout authority;
 - #4 onward — full established harmful-status vocabulary legal
 
 No Poison, Silence, Fear, Blood, Name, or other new status.
@@ -68,3 +66,6 @@ Major Hunts remain a separate workstream.
 > **Regional Hunt #2 retired 2026-09-27:** Scaldback moved into the Chapter-2 ordinary pool. The former Transfer Executioner / Scaldback Hunt Power package is historical only.
 
 > **Regional Hunt #3 retired 2026-09-27:** Archive Judgment Engine was removed from Chapter 3. Later hunt numbers remain unchanged pending a separate numbering decision.
+
+
+> **Regional Hunt #1 retired 2026-09-25:** Cistern Devourer and its Chapter-1 route were removed. Its Power package is historical only.

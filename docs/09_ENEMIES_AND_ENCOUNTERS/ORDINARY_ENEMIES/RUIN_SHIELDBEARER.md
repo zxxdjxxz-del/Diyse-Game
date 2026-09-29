@@ -53,16 +53,16 @@ No Brace.
 No harmful-status rider.
 
 
-## Chapter-1 placement correction — 2026-09-22
-Ruin Shieldbearer is active again in the Chapter-1 Hollow Watch Black Host encounter pool.
+## Chapter-1 identity correction
+Current Chapter-1 Hollow Watch uses the displayed identity **Black Host Shieldbearer**, not Ruin Shieldbearer.
 
-Its Chapter-1-authored body remains the current active body for that use.
+This file's Chapter-1 body/action package may be used only as provisional tuning material for Black Host Shieldbearer until the current owner is numerically revalidated. This does not rename or alter any separately current Chapter-0/Chapter-2 use owned by those chapters.
 
 
 ## Chapter-0 placement lock
 Ruin Shieldbearer is part of the locked Chapter-0 roster. Current authored use: **P01 Combat 2**.
 
-## Chapter-1 behavior lock
+## Historical/provisional Chapter-1 behavior reference
 - Shield Bash / Ruin-Edged Thrust use the normal action-selection fallback when legal.
 - Guard is legal only while its own Defense/Spirit increase is not already active.
 - Guard never stacks with itself.

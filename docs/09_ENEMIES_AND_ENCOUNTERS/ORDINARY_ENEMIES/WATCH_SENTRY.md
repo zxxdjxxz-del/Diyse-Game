@@ -1,7 +1,8 @@
 # Watch Sentry
 
-**Current use:** Chapter 1 — Hollow Watch; Chapter 3 — Cresthaven Ancient tower base carryover  
-**Status:** **POWER COMPLETE / RAW BODY AUTHORED**
+**Chapter-1 status:** **RETIRED — replaced by current generic Construct roster**  
+**Later-chapter status:** follow the current owning chapter authority; material below does not by itself establish active placement.  
+**Status:** **HISTORICAL MECHANICS REFERENCE**
 
 ## Body
 | Lv | HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR |
@@ -39,7 +40,7 @@ Rules:
 
 This is a formation relationship, not a harmful status or new universal command.
 
-## Chapter-1 behavior lock
+## Historical Chapter-1 behavior — RETIRED
 Targeting Signal is legal only when:
 - at least one linked Watch Ballista is conscious/functional;
 - this Sentry is not already maintaining a signal;

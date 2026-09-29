@@ -1,12 +1,10 @@
 # Watch Ballista
 
-**Current use:** Chapter 1 — Hollow Watch; Chapter 3 — Cresthaven Ancient tower base carryover  
-**Status:** **POWER COMPLETE / RAW BODY AUTHORED**
+**Chapter-1 status:** **RETIRED — replaced by current generic Construct roster**  
+**Later-chapter status:** follow the current owning chapter authority; material below does not by itself establish active placement.  
+**Status:** **HISTORICAL MECHANICS REFERENCE**
 
-This file owns the ordinary Hollow Watch fixture.
-
-The stronger **Fortress Ballista** used by Hollow Watch Castellan remains separately owned by:
-`../STORY_BOSSES/HOLLOW_WATCH_CASTELLAN.md`
+This file no longer owns current Hollow Watch combat.
 
 ## Ordinary fixture body
 | Lv | HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR |
@@ -53,7 +51,7 @@ The Ballista cannot fire during Reload.
 This implements the Chapter-1 authored beat:
 > Sentry marks the shot → player can kill or interrupt the Sentry → Ballista's heavier attack is prevented.
 
-## Chapter-1 behavior lock
+## Historical Chapter-1 behavior — RETIRED
 Priority order:
 1. if Reload is pending, Reload is forced;
 2. otherwise, if this Ballista owns a completed Targeting Signal at beginning-round, Marked Heavy Bolt is forced;
