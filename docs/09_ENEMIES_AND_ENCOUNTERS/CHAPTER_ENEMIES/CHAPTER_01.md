@@ -25,7 +25,7 @@ Every Chapter-1 enemy and formation must be validated against those actual 2- or
 ### Southern Briar additions
 - Needlewing
 - Burrowclaw
-- Rubbleback
+- Barkling
 
 Southern Briar may use all six natural-threat identities.
 
@@ -88,7 +88,7 @@ Natural threats only:
 - Bullhog
 - Needlewing
 - Burrowclaw
-- Rubbleback
+- Barkling
 
 ### Junction
 - no random encounters
@@ -115,8 +115,8 @@ Current identity replaces **Rootmaw**.
 Broad combat-role placeholder only: mobile / ambush-oriented physical threat.
 Exact stats/actions are intentionally deferred.
 
-### Rubbleback
-Current identity replaces the earlier **Brambleback** naming.
+### Barkling
+Current identity replaces **Rubbleback**; the earlier **Brambleback** naming is also retired.
 Broad combat-role placeholder only: sturdier frontline / bruiser threat.
 Exact stats/actions remain open for later validation/rework.
 
@@ -146,7 +146,7 @@ Current Chapter-1 final boss of the **Thornhide** species.
 Do not restore without an explicit later revision:
 - Briar Boar
 - Rootmaw
-- Barkling
+- Rubbleback
 - Brambleback
 - Watch Sentry
 - Watch Ballista
