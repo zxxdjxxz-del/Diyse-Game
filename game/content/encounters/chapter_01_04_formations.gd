@@ -3,11 +3,14 @@ class_name DiyseChapter0104FormationCatalog
 
 const TIER_NAMES := ["light", "standard", "heavy"]
 
-# Engineering/runtime formation catalog.
-# Chapters 1-4 are reconciled to the current structural encounter authorities.
+# Engineering/runtime formation catalog with mixed authority status.
+# Do not treat this file as current encounter canon merely because it is executable.
+# Chapters 1-2 must still defer to their current docs/09 encounter owners.
+# Chapter 3 rows are superseded by the September 27 roster/formation revision and remain stale implementation data.
+# Chapter 4 rows are historical/rework input only while the ordinary-enemy and formation rework is open.
 # Hunts, fixed authored encounters, mandatory named encounters, and bosses are absent from random pools.
 # Tier placement / weights / EXP here remain executable engineering values pending later balance recalibration.
-# Enemy identity, formation composition, area caps, and subarea eligibility follow current structural authority.
+# See game/content/encounters/README.md and the current-code divergence tracker before modifying or consuming this catalog.
 const AREAS := {
 	"ch01_greenhollow": {
 		"chapter": 1,
