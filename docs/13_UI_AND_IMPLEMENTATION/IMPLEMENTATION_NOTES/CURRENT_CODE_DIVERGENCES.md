@@ -32,13 +32,13 @@ Current production:
 - Recovered = one signature action/same round;
 - Awakened = 3 Prime rounds;
 - Prime Invocation costs **0 MP**;
-- each Prime identity has **one use per enemy HP body** unless explicitly restored;
-- Prime spent/Ready state is **battle-scoped** and a new battle begins with legally available/equipped Prime identities Ready;
-- after any Prime manifestation ends, **3 full normal party rounds** must pass before another Ready Prime may be invoked later in that battle;
-- a genuine fresh-HP enemy body refreshes spent Prime identities to Ready when the new body becomes active;
+- each Prime identity has **one use until restored by valid rest or an explicitly authored restoration effect**;
+- Prime spent/Ready state **persists across battle end** until valid restoration;
+- after any Prime manifestation ends, **3 full normal party rounds** must pass before another Ready Prime may be invoked;
+- genuine fresh-HP enemy bodies/forms do **not** refresh spent Prime identities;
 - same-bar phase/state changes do **not** refresh spent Prime identities;
-- fresh-body refresh does **not** erase or shorten an active 3-full-normal-round post-dismissal spacing gate;
-- Emergency Kit is an explicitly authored restoration effect that restores acquired Prime identities to Ready without bypassing the spacing gate.
+- form/body transitions do **not** create a new automatic Prime-use allowance and do not erase or shorten an active 3-full-normal-round post-dismissal spacing gate;
+- valid rest and explicitly authored restoration effects such as Emergency Kit can restore eligible spent Prime identities without bypassing the spacing gate.
 
 ## 3. Normal battle turn flow — HIGH
 Proof runtime still implements the retired whole-round queue model.
@@ -66,13 +66,13 @@ Do not use the current proof queue/confirm architecture as production battle-flo
 Proof state:
 - technical identifier `gold` and old proof values may remain.
 
-Current player-facing authority:
+Current player-facing currency terminology:
 - **G**
 
 Retired player-facing currency name:
 - **Auren**
 
-Requires version-safe production state/schema/UI work. Internal migration may preserve a legacy technical identifier temporarily, but final player-facing presentation must use **G** and must not revive Auren.
+Detailed prices, payouts, balances, and liquidity values are rebuild-pending and must not be hard-coded from old proof fixtures during cleanup. Requires version-safe production state/schema/UI work. Internal migration may preserve a legacy technical identifier temporarily, but final player-facing presentation must use **G** and must not revive Auren.
 
 ## 5. Proof equipment/content — HIGH
 GameState defaults still include:

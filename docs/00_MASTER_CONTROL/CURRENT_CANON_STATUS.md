@@ -143,7 +143,7 @@ Detailed balance material remains under:
 ## Current implementation debt
 Proof/runtime material may still contain intentionally stale fixtures. Known examples include:
 - proof `first_champion` bearer lock;
-- proof `gold` variable/data semantics and old currency-scale values that must be reconciled to current **G** authority;
+- proof `gold` variable/data semantics and old numeric economy fixtures; player-facing terminology must use **G**, while detailed values await the planned economy rebuild;
 - proof item/equipment records;
 - old queue/Confirm Round battle architecture;
 - stale technical IDs that require save-safe migration.
@@ -164,4 +164,4 @@ Current canon beats proof runtime. See:
 
 The former mandatory-route enemy-difficulty recalibration sequence is not listed here as an open master-queue item because it is being handled through a different process.
 
-The core G economy structure remains retained, but the **optional/completionist direct-cash calibration is REOPENED** after the standalone optional-Elite reward layer was removed.
+The detailed G economy remains **rebuild/recalibration pending**. Existing prices, payouts, liquidity totals, Hunt cash, and completionist totals are provisional planning/history data rather than hard current locks.
