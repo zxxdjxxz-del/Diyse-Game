@@ -18,19 +18,16 @@ This is a **chapter-role register**, so a recurring identity may appear in multi
 | 0 | Mandatory named/boss | Riftmaw |
 | 1 | Ordinary/carryover | Black Host Raider — limited carryover |
 | 1 | Ordinary/carryover | Black Host Crossbowman — limited carryover |
-| 1 | Ordinary/carryover | Ruin Shieldbearer — limited carryover |
+| 1 | Ordinary/carryover | Black Host Shieldbearer — limited carryover |
 | 1 | Ordinary/carryover | Thicket Stalker |
-| 1 | Ordinary | Needlewing |
-| 1 | Ordinary | Rootmaw |
-| 1 | Ordinary | Rubbleback |
 | 1 | Ordinary/carryover | Vine Creeper |
-| 1 | Ordinary/carryover | Briar Boar |
-| 1 | Ordinary/carryover | Watch Sentry |
-| 1 | Ordinary/carryover | Watch Ballista |
-| 1 | Mandatory named/boss | Thornhide — Chapter-1 main/final boss; normal lethal victory |
-| 1 | Strong normal-pool Elite | Watch Captain Frame |
-| 1 | Mandatory mini-boss | Watch Castellan — one bar; Fortress → Walking same-bar |
-| 1 | Regional Hunt | Regional Hunt #1 — Cistern Devourer |
+| 1 | Ordinary/carryover | Bullhog |
+| 1 | Ordinary | Needlewing |
+| 1 | Ordinary | Burrowclaw |
+| 1 | Ordinary | Barkling |
+| 1 | Ordinary | Construct — Hollow Watch underground random pool |
+| 1 | Authored fixed encounter | Shield Construct — stronger-than-normal; not random; not a miniboss |
+| 1 | Mandatory named/boss | Thornhide Stalker — Thornhide species; normal lethal victory |
 | 2 | Ordinary/carryover | Bogshell |
 | 2 | Ordinary/carryover | Cistern Leech |
 | 2 | Ordinary/carryover | Needlewing — Chapter-1 carryover |
