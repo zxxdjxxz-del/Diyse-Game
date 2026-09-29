@@ -80,7 +80,7 @@ Legal support identities:
 - Black Host Shieldbearer;
 - Black Host Crossbowman;
 - Black Host Raider;
-- Black Host War-Sorcerer;
+- Battle Sorcerer;
 - War Hound, only if the final room/formation placement supports it.
 
 Rules:
