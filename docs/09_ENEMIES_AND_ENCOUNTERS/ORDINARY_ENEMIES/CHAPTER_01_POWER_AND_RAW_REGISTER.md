@@ -21,7 +21,7 @@ Current roster / placement authority:
 | Bullhog | old Briar Boar body may be used only as provisional tuning material under the current name |
 | Needlewing | existing body retained provisionally |
 | Burrowclaw | old Rootmaw body may be used only as provisional tuning material under the current name |
-| Rubbleback | existing late-Briar bruiser body may be used provisionally; exact current actions/stats remain open |
+| Barkling | existing late-Briar bruiser body may be used provisionally; exact current actions/stats remain open |
 | Construct | current Hollow Watch ordinary Construct body/action kit requires current-name validation; old Watch Sentry/Watch Ballista bodies are historical tuning references only |
 
 ## Non-random authored encounters
@@ -43,7 +43,7 @@ Current roster / placement authority:
 - Northern Briar: Thicket Stalker / Vine Creeper / Bullhog.
 - Hollow Watch surface: Black Host Raider / Black Host Crossbowman / Black Host Shieldbearer.
 - Hollow Watch underground random pool: Construct only.
-- Southern Briar: Thicket Stalker / Vine Creeper / Bullhog / Needlewing / Burrowclaw / Rubbleback.
+- Southern Briar: Thicket Stalker / Vine Creeper / Bullhog / Needlewing / Burrowclaw / Barkling.
 - Shield Construct is fixed/authored only.
 - Thornhide Stalker is mandatory boss only.
 
@@ -60,7 +60,7 @@ Do not treat these as active Chapter-1 enemies:
 - Ruin Shieldbearer as the current displayed name;
 - Briar Boar;
 - Rootmaw;
-- Barkling;
+- Rubbleback;
 - Brambleback;
 - Watch Sentry;
 - Watch Ballista;
