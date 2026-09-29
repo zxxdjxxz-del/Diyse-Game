@@ -6,9 +6,10 @@
 **Migration rule:** later current names, chapter reindexing, four-element rules, removed-system firewalls, and current Prime-restoration rules supersede stale earlier enemy text.
 
 Current active count:
-> **9 Regional Hunts**
+> **8 Regional Hunts**
 
 Retired/open slots:
+- **#1** — retired 2026-09-25; Cistern Devourer and the Chapter-1 Hunt route were removed;
 - **#2** — retired 2026-09-27; Scaldback moved into the Chapter-2 ordinary pool;
 - **#3** — retired 2026-09-27; Archive Judgment Engine removed from Chapter 3.
 
@@ -18,7 +19,6 @@ Recommended level is a preparedness target, not an access gate.
 
 | # | Regional Hunt / form | Rec. Lv | HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR | Architecture |
 |---:|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---|
-| 1 | **Cistern Devourer** | 7 | 2,706 | 43 | 26 | 30 | 27 | 24 | 5 | 5 | one bar |
 | 4 | **Crown Prototype** | 20 | 6,503 | 81 | 68 | 57 | 54 | 33 | 5 | 10 | one bar |
 | 5 | **Whitehorn Ravager** | 26 | 8,678 | 104 | 74 | 70 | 64 | 41 | 10 | 5 | one bar |
 | 6 | **Winterglass Titan** | 32 | 10,879 | 101 | 125 | 90 | 94 | 34 | 0 | 10 | one bar / Frozen Shell → Thawed Core same-bar |
@@ -70,3 +70,7 @@ Regional Hunt #2 is retired. **Scaldback is now an ordinary Chapter-2 enemy**, s
 
 
 > **Regional Hunt #3 retired 2026-09-27:** Archive Judgment Engine was removed from Chapter 3. Later hunt numbers remain unchanged pending a separate numbering decision.
+
+
+## Regional Hunt #1 retirement — 2026-09-25
+Cistern Devourer is retired from current content. Chapter 1 has no Regional Hunt. Its former raw line and recommendation are historical only.
