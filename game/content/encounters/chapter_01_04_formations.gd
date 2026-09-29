@@ -64,17 +64,20 @@ const AREAS := {
 	"ch02_dunmere_waterworks": {
 		"chapter": 2,
 		"max_enemies": 5,
+		# Composition is current structural proof. Weights/EXP remain provisional engineering values.
 		"formations": {
 			"light": [
 				{"id": "ch02_dunmere_l01", "weight": 50.0, "exp": 130, "enemies": ["Bogshell", "Cistern Leech", "Cistern Leech"], "subareas": ["waterworks_early", "waterworks_flooded_middle"]},
 				{"id": "ch02_dunmere_l02", "weight": 50.0, "exp": 130, "enemies": ["Needlewing", "Cistern Leech", "Cistern Leech"], "subareas": ["waterworks_early", "waterworks_flooded_middle"]},
 			],
 			"standard": [
-				{"id": "ch02_dunmere_s01", "weight": 50.0, "exp": 165, "enemies": ["Bogshell", "Cistern Leech", "Needlewing", "Needlewing"], "subareas": ["waterworks_early", "waterworks_flooded_middle", "waterworks_ancient_threshold"]},
-				{"id": "ch02_dunmere_s02", "weight": 50.0, "exp": 165, "enemies": ["Bogshell", "Cistern Leech", "Cistern Leech", "Cistern Leech"], "subareas": ["waterworks_flooded_middle", "waterworks_ancient_threshold"]},
+				{"id": "ch02_dunmere_s01", "weight": 34.0, "exp": 165, "enemies": ["Bogshell", "Cistern Leech", "Needlewing", "Needlewing"], "subareas": ["waterworks_early", "waterworks_flooded_middle", "waterworks_ancient_threshold"]},
+				{"id": "ch02_dunmere_s02", "weight": 33.0, "exp": 165, "enemies": ["Bogshell", "Cistern Leech", "Cistern Leech", "Cistern Leech"], "subareas": ["waterworks_flooded_middle", "waterworks_ancient_threshold"]},
+				{"id": "ch02_dunmere_s03", "weight": 33.0, "exp": 165, "enemies": ["Scaldback", "Bogshell", "Cistern Leech", "Needlewing"], "subareas": ["waterworks_flooded_middle", "waterworks_ancient_threshold"]},
 			],
 			"heavy": [
-				{"id": "ch02_dunmere_h01", "weight": 100.0, "exp": 200, "enemies": ["Bogshell", "Needlewing", "Needlewing", "Cistern Leech", "Cistern Leech"], "subareas": ["waterworks_flooded_middle", "waterworks_ancient_threshold"]},
+				{"id": "ch02_dunmere_h01", "weight": 50.0, "exp": 200, "enemies": ["Scaldback", "Bogshell", "Cistern Leech", "Needlewing", "Needlewing"], "subareas": ["waterworks_flooded_middle", "waterworks_ancient_threshold"]},
+				{"id": "ch02_dunmere_h02", "weight": 50.0, "exp": 200, "enemies": ["Scaldback", "Bogshell", "Cistern Leech", "Cistern Leech", "Needlewing"], "subareas": ["waterworks_ancient_threshold"]},
 			],
 		},
 	},
@@ -83,15 +86,17 @@ const AREAS := {
 		"max_enemies": 5,
 		"formations": {
 			"light": [
-				{"id": "ch02_archive_l01", "weight": 50.0, "exp": 130, "enemies": ["Bogshell", "Cistern Leech", "Archive Current"], "subareas": ["archive_entrance", "archive_mid"]},
-				{"id": "ch02_archive_l02", "weight": 50.0, "exp": 130, "enemies": ["Needlewing", "Archive Current", "Memory Scribe"], "subareas": ["archive_entrance", "archive_mid", "archive_depths"]},
+				{"id": "ch02_archive_l01", "weight": 50.0, "exp": 130, "enemies": ["Bogshell", "Cistern Leech", "Arcdrift"], "subareas": ["archive_entrance", "archive_mid"]},
+				{"id": "ch02_archive_l02", "weight": 50.0, "exp": 130, "enemies": ["Needlewing", "Arcdrift", "Arcdrift"], "subareas": ["archive_entrance", "archive_mid", "archive_depths"]},
 			],
 			"standard": [
-				{"id": "ch02_archive_s01", "weight": 50.0, "exp": 165, "enemies": ["Archive Current", "Archive Current", "Memory Scribe", "Cistern Leech"], "subareas": ["archive_mid", "archive_depths"]},
-				{"id": "ch02_archive_s02", "weight": 50.0, "exp": 165, "enemies": ["Bogshell", "Archive Current", "Memory Scribe", "Needlewing"], "subareas": ["archive_entrance", "archive_mid", "archive_depths"]},
+				{"id": "ch02_archive_s01", "weight": 34.0, "exp": 165, "enemies": ["Bogshell", "Cistern Leech", "Needlewing", "Arcdrift"], "subareas": ["archive_entrance", "archive_mid", "archive_depths"]},
+				{"id": "ch02_archive_s02", "weight": 33.0, "exp": 165, "enemies": ["Bogshell", "Cistern Leech", "Arcdrift", "Arcdrift"], "subareas": ["archive_mid", "archive_depths"]},
+				{"id": "ch02_archive_s03", "weight": 33.0, "exp": 165, "enemies": ["Cistern Leech", "Needlewing", "Arcdrift", "Arcdrift"], "subareas": ["archive_mid", "archive_depths"]},
 			],
 			"heavy": [
-				{"id": "ch02_archive_h01", "weight": 100.0, "exp": 200, "enemies": ["Archive Current", "Archive Current", "Memory Scribe", "Bogshell", "Cistern Leech"], "subareas": ["archive_depths"]},
+				{"id": "ch02_archive_h01", "weight": 50.0, "exp": 200, "enemies": ["Bogshell", "Cistern Leech", "Cistern Leech", "Arcdrift", "Arcdrift"], "subareas": ["archive_depths"]},
+				{"id": "ch02_archive_h02", "weight": 50.0, "exp": 200, "enemies": ["Bogshell", "Cistern Leech", "Needlewing", "Arcdrift", "Arcdrift"], "subareas": ["archive_depths"]},
 			],
 		},
 	},
@@ -100,18 +105,19 @@ const AREAS := {
 		"max_enemies": 6,
 		"formations": {
 			"light": [
-				{"id": "ch02_bastion_l01", "weight": 50.0, "exp": 130, "enemies": ["Black Host Raider", "Black Host Crossbowman", "Ruin Shieldbearer"], "subareas": ["bastion_alarm_opening", "bastion_alerted_interior"]},
-				{"id": "ch02_bastion_l02", "weight": 50.0, "exp": 130, "enemies": ["Black Host Raider", "Rift Hound", "Rift Hound", "Black Host Crossbowman"], "subareas": ["bastion_alarm_opening"]},
+				{"id": "ch02_bastion_l01", "weight": 50.0, "exp": 130, "enemies": ["Black Host Raider", "Black Host Crossbowman", "Black Host Shieldbearer"], "subareas": ["bastion_alarm_opening", "bastion_alerted_interior"]},
+				{"id": "ch02_bastion_l02", "weight": 50.0, "exp": 130, "enemies": ["Black Host Raider", "Black Host Crossbowman", "War Hound", "War Hound"], "subareas": ["bastion_alarm_opening"]},
 			],
 			"standard": [
-				{"id": "ch02_bastion_s01", "weight": 50.0, "exp": 165, "enemies": ["Ruin Shieldbearer", "Black Host Crossbowman", "Black Host Crossbowman", "Black Host Raider"], "subareas": ["bastion_alarm_opening", "bastion_alerted_interior", "bastion_final_ascent"]},
-				{"id": "ch02_bastion_s02", "weight": 50.0, "exp": 165, "enemies": ["Ruin Shieldbearer", "Black Host War-Sorcerer", "Black Host Crossbowman", "Black Host Raider"], "subareas": ["bastion_alarm_opening", "bastion_alerted_interior"]},
+				{"id": "ch02_bastion_s01", "weight": 34.0, "exp": 165, "enemies": ["Black Host Shieldbearer", "Black Host Crossbowman", "Black Host Crossbowman", "Black Host Raider"], "subareas": ["bastion_alarm_opening", "bastion_alerted_interior", "bastion_final_ascent"]},
+				{"id": "ch02_bastion_s02", "weight": 33.0, "exp": 165, "enemies": ["Black Host Shieldbearer", "Battle Sorcerer", "Black Host Crossbowman", "Black Host Raider"], "subareas": ["bastion_alerted_interior", "bastion_final_ascent"]},
+				{"id": "ch02_bastion_s03", "weight": 33.0, "exp": 165, "enemies": ["Black Host Shieldbearer", "Black Host Raider", "Black Host Crossbowman", "War Hound", "War Hound"], "subareas": ["bastion_alerted_interior", "bastion_final_ascent"]},
 			],
 			"heavy": [
-				{"id": "ch02_bastion_h01", "weight": 25.0, "exp": 200, "enemies": ["Ruin Shieldbearer", "Black Host Raider", "Black Host Raider", "Black Host Raider", "Black Host Crossbowman"], "subareas": ["bastion_alerted_interior", "bastion_final_ascent"]},
-				{"id": "ch02_bastion_h02", "weight": 25.0, "exp": 200, "enemies": ["Ruin Shieldbearer", "Black Host Raider", "Black Host Raider", "Black Host Crossbowman", "Black Host War-Sorcerer"], "subareas": ["bastion_final_ascent"]},
-				{"id": "ch02_bastion_h03", "weight": 25.0, "exp": 200, "enemies": ["Ruin Shieldbearer", "Black Host Raider", "Black Host Crossbowman", "Rift Hound", "Rift Hound"], "subareas": ["bastion_alerted_interior", "bastion_final_ascent"]},
-				{"id": "ch02_bastion_h04", "weight": 25.0, "exp": 200, "enemies": ["Ruin Shieldbearer", "Black Host Raider", "Black Host Raider", "Black Host Raider", "Black Host Crossbowman", "Black Host Crossbowman"], "subareas": ["bastion_final_ascent"]},
+				{"id": "ch02_bastion_h01", "weight": 25.0, "exp": 200, "enemies": ["Black Host Shieldbearer", "Black Host Raider", "Black Host Raider", "Black Host Crossbowman", "Battle Sorcerer"], "subareas": ["bastion_alerted_interior", "bastion_final_ascent"]},
+				{"id": "ch02_bastion_h02", "weight": 25.0, "exp": 200, "enemies": ["Black Host Shieldbearer", "Black Host Raider", "Black Host Crossbowman", "War Hound", "War Hound"], "subareas": ["bastion_alerted_interior", "bastion_final_ascent"]},
+				{"id": "ch02_bastion_h03", "weight": 25.0, "exp": 200, "enemies": ["Black Host Shieldbearer", "Black Host Raider", "Black Host Raider", "Black Host Raider", "Black Host Crossbowman"], "subareas": ["bastion_final_ascent"]},
+				{"id": "ch02_bastion_h04", "weight": 25.0, "exp": 200, "enemies": ["Black Host Shieldbearer", "Black Host Raider", "Black Host Raider", "Black Host Crossbowman", "Black Host Crossbowman", "Battle Sorcerer"], "subareas": ["bastion_final_ascent"]},
 			],
 		},
 	},
