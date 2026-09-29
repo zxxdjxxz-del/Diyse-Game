@@ -2,7 +2,7 @@
 **Migration baseline:** `Diyse_CURRENT_WORKING_TRACKER_CONSOLIDATED_2026-08-27_v85.md`  
 **Primary master-canon progression chain:** **Audit123 / Audit124 / Audit125 / Audit126 / Audit127 / Audit128**, plus compatible later raw-stat audits.  
 **Current whole-project written authority:** **v2.20 / Audit135**.  
-**Current working override:** v85 Sections 220–225 remove the **Mastery Point** currency and make Masteries automatic Class-Level unlocks. This newer working lock is preserved as current working authority pending formal promotion.
+**Current Mastery authority:** the **Mastery Point currency is removed** and Masteries unlock automatically from Class Level. The former 8-point schedule is historical only.
 
 
 Canonical home for Player EXP, campaign levels, CEXP, Class-Level pacing, formation rewards, optional progression, overlevel controls, and progression-to-enemy handoff.
@@ -17,16 +17,20 @@ Canonical home for Player EXP, campaign levels, CEXP, Class-Level pacing, format
 - normal ending: **~Lv62**
 - CL13 threshold: **6,000 CEXP**
 - broad completionist route can reach **Lv70 before Last Shelter**
-- **Mastery Point currency removed** under current v85 working authority
+- **Mastery Point currency removed**; Masteries use automatic Class-Level unlocks
 
-Audit123's former 8-point Mastery schedule remains historical master-canon text, but is not the current working implementation.
+Audit123's former 8-point Mastery schedule remains historical provenance only and must not be restored as current progression.
 
 - `NATURAL_STAT_CURVE.md` — exact Lv1–70 neutral natural-stat formulas and balance-validation construction order.
 
-## v91 CEXP timing
+## v92 recruitment-aware CEXP timing
 - CL13 threshold remains **6,000 CEXP**.
 - mandatory-route full Base + Subclass completion now spans **~Lv55–60**.
 - end Ch12 post-Volition mandatory CEXP: **7,000**.
 - Last Shelter post-Volition mandatory CEXP: **8,500**.
-- optional CEXP: **1,000 before MH6 / 1,075 including MH6**.
+- optional CEXP subtotals are owned by `OPTIONAL_CEXP.md`; do not use this README to preserve an older subtotal.
 
+
+
+Current recruitment-aware CEXP proof:
+> `CEXP_RECALIBRATION_PROOF_v92.md`
