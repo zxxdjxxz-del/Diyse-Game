@@ -113,7 +113,7 @@ Structural band:
 
 ### Archive role rules
 - maximum **2 Arcdrifts** per formation;
-- the two-Arcdrift formation is **3 bodies total**;
+- Arcdrift is capped at two bodies even in the 4–5 enemy formations;
 - no Memory Scribe;
 - no extra construct identities;
 - no Archive formation exceeds 5 bodies.
@@ -219,7 +219,7 @@ Eligible:
 Typical body count:
 > **5**, with the **6-body Full Bastion Response** as the end-of-chapter ceiling.
 
-**Full Bastion Response** is the chapter's ordinary four-body ceiling and is restricted to the final alerted stretch.
+**Full Bastion Response** is the chapter's ordinary **six-body ceiling** and is restricted to the final alerted stretch.
 
 Noncombat medical/support personnel and incapacitated wounded are not random-combat enemies.
 
@@ -248,7 +248,7 @@ Do not restore:
 - Infantry Block;
 - old Command Defense;
 - old Rift Pursuit;
-- old six-body Full Bastion Response;
+- old six-body Full Bastion Response **composition using retired display identities**;
 - Memory-Scribe formations;
 - Regional-Hunt Scaldback encounter structure;
 - Hold the Junction;
@@ -263,7 +263,7 @@ Do not restore:
 - Bogshell supplies durability.
 - Cistern Leech supplies fast Bleed pressure.
 - Needlewing supplies aerial speed/evasion contrast.
-- Scaldback adds the late-Waterworks geothermal/Burn-facing identity without increasing body count.
+- Scaldback adds the late-Waterworks geothermal/Burn-facing identity without restoring its former Hunt/boss architecture.
 
 ## Sunken Archive
 - Arcdrift supplies fast Lightning / magical pressure.
