@@ -207,15 +207,12 @@ There is no optional-progression gap to erase or preserve inside Chapter 0.
 
 ## Current next action
 
-> **Re-run Chapter 0 against the five-fight Cyanis-solo sequence and the current combined P06 boss before treating any old PASS result as current.**
+> **Re-run Chapter 0 against the five-fight Cyanis-solo sequence, the current protected B05 Seyrik encounter, and the combined B06 Riftmaw + Battle Sorcerer boss before treating any historical PASS result as current.**
 
-After Chapter 0 is recertified, Chapter 1 remains separately reopened for its current roster/party-state changes.
+Chapter 1 structural cleanup/consolidation is already complete. This Chapter-0 validation file must not route work back into retired Chapter-1 content.
 
-## Historical next validation frontier
-Do not redo the already-authored preliminary mandatory story-boss recertification for Chapters 1–13 unless the broader formation/resource pass exposes a contradiction.
-
-Proceed to:
-> **Chapter 1 ordinary formations + Watch Captain Frame + authored/nonlethal content + Cistern Devourer**, while carrying Watch Castellan's existing mandatory/completionist boss recertification forward.
+## Historical next validation frontier — SUPERSEDED
+The former Chapter-1 frontier referencing Watch Captain Frame, Cistern Devourer, and Watch Castellan is historical only. Those Chapter-1 roles were removed or retired by later authority and must not be restored from this validation record.
 
 
 ## Progression-rebalance boundary
