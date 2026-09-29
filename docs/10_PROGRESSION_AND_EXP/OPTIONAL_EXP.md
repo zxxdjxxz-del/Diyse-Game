@@ -28,10 +28,9 @@ Removed quests such as **The Living List** and **When the Roads Open** contribut
 | Ilyra — Mercy Has a Voice | 10,000 |
 | Torren — The Road That Returns | 15,000 |
 
-## Nine active Regional Hunts — 66,300
+## Eight active Regional Hunts — 65,300
 | # | Regional Hunt | EXP |
 |---:|---|---:|
-| 1 | Cistern Devourer | 1,000 |
 | 4 | Crown Prototype | 3,000 |
 | 5 | Whitehorn Ravager | 4,000 |
 | 6 | Winterglass Titan | 5,200 |
@@ -54,7 +53,7 @@ Removed quests such as **The Living List** and **When the Roads Open** contribut
 Major Hunts #1–5 subtotal: **50,000**.
 
 Pre-Last-Shelter cap-proof pool:
-> **20,000 + 55,000 + 66,300 + 50,000 = 191,300 EXP**
+> **20,000 + 55,000 + 65,300 + 50,000 = 190,300 EXP**
 
 Major Hunt #6 gives **24,000** but is excluded from the cap proof.
 Incidental optional combat is bonus progression.
@@ -69,5 +68,5 @@ Their EXP awards are unchanged; the change delays when completionist EXP enters 
 Major Hunts #1–#5 are now recertified for their current unlock windows. EXP rewards are unchanged.
 
 
-## Regional Hunt retirement sync — 2026-09-27
-Slots #2 and #3 are retired/open. Their former 1,500 EXP and 2,200 EXP awards are removed from the current optional pool. Later Hunt numbering remains unchanged pending a separate numbering pass.
+## Regional Hunt retirement sync — current
+Slots **#1, #2, and #3** are retired/open. Cistern Devourer's former **1,000 EXP** package is removed along with the previously retired #2/#3 awards. Current active Regional-Hunt EXP subtotal is **65,300**. Later Hunt numbering remains unchanged pending a separate numbering pass.
