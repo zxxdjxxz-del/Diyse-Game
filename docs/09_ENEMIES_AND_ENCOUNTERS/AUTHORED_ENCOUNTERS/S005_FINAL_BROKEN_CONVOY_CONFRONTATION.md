@@ -1,10 +1,21 @@
-# S005 — Final Broken Convoy Confrontation
+# S005 — Final Broken Convoy Confrontation — HISTORICAL / SUPERSEDED
 
 **Chapter:** 0  
 **Scene:** S005  
-**Status:** **POWER COMPLETE / EXACT ENCOUNTER AUTHORITY**
+**Status:** **HISTORICAL PROVENANCE ONLY — NOT CURRENT ENCOUNTER AUTHORITY**
 
-## Encounter-start player state
+This file preserves a superseded Chapter-0 encounter model.
+
+Current authority:
+> `CHAPTER_00_ENCOUNTER_ORDER_AND_POWER_REGISTER.md`
+
+Current Chapter-0 structure supersedes this file:
+- the old S005 numbering is retired;
+- the injured Iron Cohort Soldier is removed from Chapter-0 combat;
+- Riftmaw and Battle Sorcerer form the single combined final mandatory B06 encounter;
+- this file must not be used to restore separate Riftmaw / War-Sorcerer fights or the injured-Soldier branch.
+
+## Historical encounter-start player state
 S005 is evaluated as a fresh authored confrontation after the S003/S004 noncombat runway.
 
 Immediately before battle initialization:
@@ -15,7 +26,7 @@ Immediately before battle initialization:
 
 This makes S005 a reproducible fresh confrontation rather than carrying arbitrary residual HP/MP forward from the earlier solo tutorial encounters.
 
-## Formation
+## Historical formation
 Exactly:
 1. Convoy War-Sorcerer
 2. Injured Iron Cohort Soldier
@@ -30,7 +41,7 @@ No:
 - second wave;
 - reinforcement loop.
 
-## Victory condition
+## Historical victory condition
 > **Defeat the Convoy War-Sorcerer**
 
 The injured Soldier is not required to be defeated.
@@ -40,7 +51,7 @@ When War-Sorcerer reaches 0 HP:
 - if the Soldier remains active, he withdraws;
 - S005_B019 is shown only in that surviving-Soldier branch.
 
-## Three-round incomplete protective response
+## Historical three-round incomplete protective response
 At battle start:
 > Cyanis and Ilyra receive **+15 Total Defense** for combat Rounds **1–3**.
 
@@ -61,7 +72,7 @@ This preserves both:
 - S004's exact **three rounds of authored protection only**;
 - S005_B021's post-confrontation visual fade.
 
-## Rift Lance sequence
+## Historical Rift Lance sequence
 Rift Lance Preparation:
 > cannot be selected before **Round 2**.
 
@@ -74,13 +85,13 @@ Preparation is:
 - not a free action;
 - not command prediction.
 
-## Status rollout
+## Historical status rollout
 Chapter 0 inflicts:
 > **no harmful party statuses**
 
 No Burn / Freeze / Stun / Staggered / Bleed is used in this encounter.
 
-## Relationship to Riftmaw
+## Historical relationship to Riftmaw
 Riftmaw:
 > **already occurred earlier in Chapter 0**
 
