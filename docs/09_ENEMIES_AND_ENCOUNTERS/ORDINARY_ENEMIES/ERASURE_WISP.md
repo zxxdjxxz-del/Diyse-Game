@@ -44,7 +44,7 @@ Erasure presentation cannot erase permanent player progression.
 
 
 ## Historical Chapter-3 identity / presentation lock — SUPERSEDED 2026-09-27
-Erasure Wisp remains an active ordinary Old City Archives construct.
+Erasure Wisp was an active ordinary Old City Archives construct under the superseded September 23 roster.
 
 Former Chapter-3 role:
 > fast, fragile magical pressure / Ruin-aligned cleanup-security construct
