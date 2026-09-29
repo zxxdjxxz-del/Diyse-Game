@@ -41,33 +41,35 @@ It explicitly does **not** invent universal wages, rent, tax rates, household in
 `1 economy unit = 200 G` is a design/calibration scale. It is not automatically an in-world conversational term.
 
 ## Mandatory-route calibration
+
+Chapter 1's exact per-formation G remap is still open, so the aggregate below is the current planning center rather than a false exact lock.
 Expected direct G:
-> **~316,900 G**
+> **~316,300 G**
 
 Composition:
 - starting wallet: **2,500 G**;
 - ordinary formations: **~135,600 G**;
-- mandatory story bosses/named encounters: **92,700 G**;
+- mandatory story bosses/named encounters: **92,100 G**;
 - fixed authored combat/event payouts: **5,300 G**;
 - mandatory non-battle reward map: **80,800 G**.
 
-Ordinary formations are approximately **42.8%** of mandatory direct G, preserving the intended **40–50%** share.
+Ordinary formations are approximately **42.9%** of mandatory direct G, preserving the intended **40–50%** share.
 
 These campaign-balance totals are author/design authority, not facts ordinary characters know simply because the files exist.
 
 ## Optional direct-G calibration
 Current total if all authored optional activities are cleared:
-> **290,700 G**
+> **288,200 G**
 
 Breakdown:
 - ordinary Side Quests: **18,000 G**;
 - Character Quests: **22,200 G**;
-- Regional Hunts: **116,500 G**;
+- Regional Hunts: **114,000 G**;
 - Major Hunts: **134,000 G**.
 
 ## Completionist direct-cash reference
 Mandatory center + all authored optional direct G:
-> **~607,600 G**
+> **~604,500 G**
 
 The former ~650,000-G completionist target is now reopened because the standalone optional-Elite bounty layer was retired.
 It excludes resale, deliberate extra encounters/backtracking, and non-cash reward-equivalent value.
