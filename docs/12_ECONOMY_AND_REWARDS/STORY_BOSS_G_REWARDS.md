@@ -20,8 +20,7 @@ Mandatory named/story encounter economic rewards use:
 ## Exact encounter payouts
 | Ch | Mandatory encounter | G | Economy note |
 |---:|---|---:|---|
-| 1 | **Thornhide** | **600 G** | protected/nonlethal resolution still pays |
-| 1 | **Watch Castellan** | **600 G** | resolved hostile encounter |
+| 1 | **Thornhide Stalker** | **600 G** | normal lethal boss victory |
 | 2 | **Archive Leviathan** | **900 G** | resolved hostile encounter |
 | 2 | **Commander Rhazek — Bastion Master** | **1,000 G** | protected withdrawal/resolution still pays |
 | 3 | **First Command Warden** | **1,600 G** | resolved chapter boss |
@@ -49,9 +48,9 @@ Mandatory named/story encounter economic rewards use:
 
 ## Mandatory story-boss cash total
 The mandatory named/story encounter layer contributes:
-> **92,700 G**
+> **92,100 G**
 
-Of this, **7,800 G** is specifically the restored protected/nonlethal payout layer for Thornhide, Chapter-2 Rhazek, Elder Thornhide, Reaction Conduit, and Seyrik.
+Of this, **7,200 G** is specifically the protected/nonlethal payout layer for Chapter-2 Rhazek, Elder Thornhide, Reaction Conduit, and Seyrik.
 
 ## Protected/nonlethal rule — LOCKED
 Do not restore the old blanket rule:
