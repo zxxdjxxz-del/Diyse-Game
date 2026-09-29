@@ -49,7 +49,7 @@ True construct: **Bleed Immune**
 
 
 ## Historical Chapter-3 placement lock — SUPERSEDED 2026-09-27
-Command Ring Drone is **not** an Old City Archives ordinary enemy.
+Under the superseded September 23 roster, Command Ring Drone was **not** an Old City Archives ordinary enemy.
 
 Former Chapter-3 placement:
 > **Cresthaven Ancient tower base**
@@ -70,11 +70,11 @@ Combat role:
 - no extra-action behavior.
 
 ## Support-role distinction
-Authority Lens and Command Ring Drone serve different purposes:
+In the superseded Chapter-3 roster, Authority Lens and Command Ring Drone served different purposes:
 
 - **Authority Lens** improves allied **Base Hit** and provides Lightning AoE pressure;
 - **Command Ring Drone** improves allied **Attack / Magic** and otherwise uses a simple single-target bolt.
 
-Do not collapse them into the same support identity.
+Historical note: the superseded pass treated them as distinct support identities.
 
 The former Chapter-3 raw line and Power values are historical tuning reference only and no longer await current Cresthaven validation.
