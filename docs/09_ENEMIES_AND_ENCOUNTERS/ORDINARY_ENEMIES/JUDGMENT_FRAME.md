@@ -50,7 +50,7 @@ True construct: **Bleed Immune**
 
 
 ## Historical Chapter-3 placement / identity lock — SUPERSEDED 2026-09-27
-Judgment Frame remains an active ordinary Old City Archives construct.
+Judgment Frame was an active ordinary Old City Archives construct under the superseded September 23 roster.
 
 Former Chapter-3 role:
 > durable heavy enforcement chassis / physical anchor for construct formations
