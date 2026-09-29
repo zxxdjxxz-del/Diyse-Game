@@ -10,13 +10,13 @@ Game-design authority for Cards and Primes lives under:
 - current battle-system owners referenced by that domain;
 - current character/story owners for acquisition, knowledge, and chronology.
 
-A resource existing in this folder does **not** make its name, bearer rule, duration, use limit, command set, or other proof behavior current canon.
+A resource existing in this folder does **not** make its name, bearer rule, duration, use limit, command set, or other proof behavior current canon. The current Story Prime identity is **Last Sentinel**; `First Champion` is a retired proof-only label.
 
 ## Current files
 
 - `standard_card_definition.gd` — runtime Resource definition/infrastructure.
 - `proof_standard_card.tres` — explicitly non-canon Standard Card fixture.
-- `first_champion_recovered.tres` — legacy Prime proof fixture retained for the current combat prototype.
+- `first_champion_recovered.tres` — legacy Prime proof fixture retained for the current combat prototype. Its filename and `First Champion` display name are obsolete proof identifiers; current canon is **Last Sentinel**.
 
 The `first_champion_recovered.tres` resource intentionally still carries retired proof assumptions such as the `first_champion` identity, First Champion display name, bearer lock, proof duration, and direct-control command data. Those assumptions are tracked as implementation debt in:
 
