@@ -25,7 +25,7 @@
     "area_phase": "chapter_01_final_boss",
     "dialogue_readiness": "GREEN",
     "static_story_context_only": true,
-    "runtime_note": "Preserve CURRENT(6) spoken wording except the species/name correction to Thornhide. No mid-battle dialogue."
+    "runtime_note": "Preserve CURRENT(6) spoken wording. Boss identity is Thornhide Stalker; ordinary spoken/species references may still use Thornhide. No mid-battle dialogue."
   },
   "current_floor_state": {
     "thornhide_stalker_state": "alive_until_boss_victory",
