@@ -63,7 +63,7 @@ func _run_validation() -> void:
 		var continue_button := intro.get_node_or_null("Background/Page/Content/Continue") as Button
 		if title == null or title.text != "The World of Diyse":
 			failures.append("World intro title is missing")
-		if body == null or not body.text.contains("713 YF") or not body.text.contains("Nimera Pellan"):
+		if body == null or not body.text.contains("713 YF") or not body.text.contains("—Nimera"):
 			failures.append("World intro scene did not load the approved runtime text")
 		if continue_button == null:
 			failures.append("World intro scene is missing its Continue control")
