@@ -10,9 +10,9 @@ Final Severance presentation order:
 
 1. **Last Sentinel / Might — HOLD**
 2. **Last Convergence / Elements — DISTINGUISH**
-3. **Last Cartographer / Acuity — MAP**
+3. **Last Cartographer / Perception — MAP**
 4. **Last Sanctuary / Grace — PRESERVE**
-5. **Last Scribe / Change — CONTAIN**
+5. **Last Scribe / Memory — CONTAIN**
 6. **Last Erasure / Ruin — END**
 
 ## Visual causality
@@ -28,7 +28,8 @@ Suggested readability:
 
 ## Hard correction
 Do not restore:
-- Resource / Last Measure;
+- Resource / Acuity / Change as current Face labels;
+- Last Measure;
 - ancient convergence as the modern visual solution.
 
 Last Convergence's title does not mean the party literally repeats ancient convergence.

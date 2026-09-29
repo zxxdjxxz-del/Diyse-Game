@@ -10,13 +10,15 @@
 - Might
 - Elements
 - Grace
-- Acuity
-- Change
+- Perception
+- Memory
 - Ruin
 
-Do not use:
+Do not use the retired Face labels:
 - Resource
-as a current Face.
+- Acuity
+- Change
+as current Faces.
 
 ## Standard Cards
 Visual goal:
