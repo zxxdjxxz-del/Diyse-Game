@@ -1,9 +1,11 @@
 # Authority Lens
 
-**Chapter-3 authority:** Old City Archives + Cresthaven Ancient tower base  
-**Status:** **CHAPTER-3 IDENTITY / PLACEMENT / ACTION GRAMMAR LOCKED — NUMERIC REVALIDATION REQUIRED**
+**Chapter-3 retirement firewall:** **RETIRED FROM CURRENT CHAPTER 3 by the September 27 roster revision.** Later-chapter reuse remains separately owned and is not retired by this firewall.
 
-## Chapter-3 body
+**Former Chapter-3 placement:** Old City Archives + Cresthaven Ancient tower base  
+**Status:** **CHAPTER-3 PLACEMENT RETIRED / HISTORICAL CH3 TUNING REFERENCE; LATER-CHAPTER REUSE SEPARATELY OWNED**
+
+## Historical Chapter-3 body
 | Lv | HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR |
 |---:|---:|---:|---:|---:|---:|---:|---:|---:|
 | 11 | **235** | 20 | **63** | 25 | **42** | 31 | 5 | 10 |
@@ -52,8 +54,8 @@ Chapter-10 actions:
 True construct: **Bleed Immune**
 
 
-## Chapter-3 placement lock — 2026-09-23
-Authority Lens is an active ordinary construct in **both** major Chapter-3 Ancient locations.
+## Historical Chapter-3 placement lock — SUPERSEDED 2026-09-27
+Authority Lens was an active ordinary construct in both major Chapter-3 Ancient locations under the superseded September 23 roster.
 
 ### Old City Archives
 Role:
@@ -76,13 +78,13 @@ Combat role:
 - **Targeting Focus** supports another living allied construct with Base Hit +10;
 - fragile enough that the player can remove it to reduce formation support.
 
-## Chapter-3 status boundary
-Authority Lens does **not** inflict Stun in Chapter 3.
+## Historical Chapter-3 status boundary
+Under the superseded September 23 roster, Authority Lens did **not** inflict Stun in Chapter 3.
 
 Reason:
-- Command Guard Frame's Station Pulse is the current preferred ordinary-enemy Stun introduction;
+- the superseded September 23 roster used Command Guard Frame's Station Pulse as the preferred ordinary-enemy Stun introduction;
 - duplicating Stun across multiple tower-base support identities would muddy the teaching signal.
 
 The later Chapter-10 version may retain its stronger Classification Flash with Stun.
 
-Existing Chapter-3 raw values remain provisional pending four-person Cresthaven validation.
+Former Chapter-3 raw values are historical tuning reference only and no longer await current Cresthaven validation.

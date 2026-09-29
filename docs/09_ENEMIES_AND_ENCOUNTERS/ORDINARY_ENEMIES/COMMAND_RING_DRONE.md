@@ -1,9 +1,11 @@
 # Command Ring Drone
 
-**Chapter-3 authority:** Cresthaven Ancient tower base  
-**Status:** **CHAPTER-3 IDENTITY / PLACEMENT / ACTION GRAMMAR LOCKED — NUMERIC REVALIDATION REQUIRED**
+**Chapter-3 retirement firewall:** **RETIRED FROM CURRENT CHAPTER 3 by the September 27 roster revision.** Later-chapter reuse remains separately owned and is not retired by this firewall.
 
-## Chapter-3 body
+**Former Chapter-3 placement:** Cresthaven Ancient tower base  
+**Status:** **CHAPTER-3 PLACEMENT RETIRED / HISTORICAL CH3 TUNING REFERENCE; LATER-CHAPTER REUSE SEPARATELY OWNED**
+
+## Historical Chapter-3 body
 | Lv | HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR |
 |---:|---:|---:|---:|---:|---:|---:|---:|---:|
 | 11 | **255** | 24 | **52** | 30 | 36 | **34** | 5 | 10 |
@@ -46,10 +48,10 @@ Command Relay grants no extra action and does not stack with itself from the sam
 True construct: **Bleed Immune**
 
 
-## Chapter-3 placement lock — 2026-09-23
-Command Ring Drone is **not** an Old City Archives ordinary enemy.
+## Historical Chapter-3 placement lock — SUPERSEDED 2026-09-27
+Under the superseded September 23 roster, Command Ring Drone was **not** an Old City Archives ordinary enemy.
 
-Current mandatory placement:
+Former Chapter-3 placement:
 > **Cresthaven Ancient tower base**
 
 Primary home:
@@ -68,11 +70,11 @@ Combat role:
 - no extra-action behavior.
 
 ## Support-role distinction
-Authority Lens and Command Ring Drone serve different purposes:
+In the superseded Chapter-3 roster, Authority Lens and Command Ring Drone served different purposes:
 
 - **Authority Lens** improves allied **Base Hit** and provides Lightning AoE pressure;
 - **Command Ring Drone** improves allied **Attack / Magic** and otherwise uses a simple single-target bolt.
 
-Do not collapse them into the same support identity.
+Historical note: the superseded pass treated them as distinct support identities.
 
-The existing Chapter-3 raw line and Power values remain provisional pending current four-person Cresthaven validation.
+The former Chapter-3 raw line and Power values are historical tuning reference only and no longer await current Cresthaven validation.

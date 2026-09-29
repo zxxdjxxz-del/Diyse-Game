@@ -1,17 +1,17 @@
-# Rootmaw
+# Rootmaw — Retired Chapter-1 Reference
 
 **Chapter-1 retirement firewall:** **RETIRED NAME — current Chapter-1 identity is Burrowclaw.** Historical mechanics below may be used only as provisional tuning reference where the current Burrowclaw owner explicitly permits it. Do not place Rootmaw in current Chapter 1.
 
-**Chapter:** 1 — Southern Briar Passage  
-**Role:** ordinary natural threat / slow durable plant-beast pressure  
-**Status:** **IDENTITY + NAME + PLACEMENT LOCKED / RAW BODY + ACTION POWER AUTHORED / ENCOUNTER VALIDATION OPEN**
+**Former Chapter-1 placement:** Southern Briar Passage  
+**Former role:** ordinary natural threat / slow durable plant-beast pressure  
+**Status:** **RETIRED CHAPTER-1 IDENTITY / HISTORICAL TUNING REFERENCE ONLY**
 
-## Chapter-1 body
+## Historical Chapter-1 body
 | Lv | HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR |
 |---:|---:|---:|---:|---:|---:|---:|---:|---:|
 | 5 | **230** | **30** | **30** | **24** | **23** | 14 | 0 | 5 |
 
-## Ecology / combat identity
+## Historical ecology / combat identity
 - native Southern Briar plant-beast / predatory growth;
 - appears only in Southern Briar during Chapter 1;
 - heavier and stranger than Thornvine Creeper without replacing it;
@@ -44,23 +44,23 @@ Effect:
 
 No Barrier or Brace.
 
-## Chapter-1 party-size boundary
+## Historical Chapter-1 party-size context
 Southern Briar uses:
 > **Cyanis + Ilyra + Torren — 3 active combatants maximum**
 
 Do not tune Rootmaw against a four-character party.
 
-## Validation boundary
-Raw body and direct-damage Powers are now authored.
+## Historical validation context
+Historical raw body and direct-damage Powers were authored before this identity was retired.
 
-Still open:
+Former validation items were:
 - mandatory-vs-completionist damage/TTK validation;
 - final formation weights;
 - any stat/HP adjustment demonstrated by that validation.
 
 Do not add Burn, Freeze, Stun, or Staggered to the Chapter-1 body.
 
-## Chapter-1 behavior lock
+## Historical Chapter-1 behavior reference
 - Root Snap / Earth Maw use the normal action-selection fallback when legal.
 - Sink Roots is legal only while its own Defense/Spirit increase is not already active and remains subject to its 2-round repetition lock.
 - Sink Roots never stacks with itself.
