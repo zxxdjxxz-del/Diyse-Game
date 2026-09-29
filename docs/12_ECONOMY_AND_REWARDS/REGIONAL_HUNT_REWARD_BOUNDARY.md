@@ -2,7 +2,7 @@
 
 **Status:** EXACT REGIONAL-HUNT G AUTHORITY
 
-There are currently **9 active Regional Hunts**. Slots **#2** and **#3** are retired/open and carry no current Hunt payout.
+There are currently **8 active Regional Hunts**. Slots **#1**, **#2**, and **#3** are retired/open and carry no current Hunt payout.
 
 ## Domain split
 - access / quest state → `11_QUESTS`
@@ -27,7 +27,6 @@ Regional Hunts remain first-clear objectives, not repeatable money farms.
 ## Exact G payouts
 | # | Regional Hunt | G |
 |---:|---|---:|
-| 1 | **Cistern Devourer** | **2,500 G** |
 | 4 | **Crown Prototype** | **6,000 G** |
 | 5 | **Whitehorn Ravager** | **8,000 G** |
 | 6 | **Winterglass Titan** | **9,500 G** |
@@ -39,7 +38,7 @@ Regional Hunts remain first-clear objectives, not repeatable money farms.
 
 ## Full Regional Hunt cash budget
 Clearing all currently active Regional Hunts yields:
-> **108,500 G**
+> **106,000 G**
 
 This is optional surplus and is not required for mandatory-route baseline solvency.
 
@@ -59,3 +58,7 @@ These handoffs remain, but **do not reduce their G payout**.
 
 ## No automatic extra package
 Do not automatically add random vendor-trash or generic farming materials merely for symmetry.
+
+
+## Regional Hunt #1 retirement — 2026-09-25
+Cistern Devourer and the Chapter-1 Regional Hunt route are retired. Chapter 1 has no Regional Hunt. Do not restore the 2,500-G payout without an explicit new revision.
