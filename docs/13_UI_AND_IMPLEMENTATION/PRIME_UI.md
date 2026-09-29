@@ -63,7 +63,7 @@ Prime UI must expose:
 
 ## Availability
 Each Prime identity:
-> once per battle per genuine fresh-HP boss form.
+> once per battle per Prime identity unless explicitly restored.
 
 After normal dismissal:
 > 3 full normal party rounds
@@ -74,9 +74,9 @@ The UI must be able to represent:
 - available;
 - used;
 - cooldown rounds remaining;
-- fresh-form refresh.
+- explicit authored restoration only.
 
-Same-bar phase changes do not refresh Prime availability.
+Neither same-bar phase changes nor genuine fresh-HP form changes refresh Prime availability.
 
 ## Implementation divergence
 Current proof runtime still models an old bearer-locked `first_champion` and an outdated proof duration.
