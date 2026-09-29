@@ -1,17 +1,20 @@
-# Diyse — Chapter 04 Enemies — Reaction Annex
+# Diyse — Chapter 04 Enemies — REWORK BOUNDARY
 **Migration baseline:** `Diyse_CURRENT_WORKING_TRACKER_CONSOLIDATED_2026-08-27_v85.md`  
 **Primary enemy-production authority:** compatible **Audit90 / Audit93** plus accepted later tracker roster/action cleanups.  
 **Primary raw-stat authority:** **Audit129 + Audit130 / Audit131 / Audit132 / Audit133 / Audit134 / Audit135**.  
 **Current whole-project written authority:** **v2.20 / Audit135**.  
-**Migration rule:** later current names, chapter reindexing, four-element rules, removed-system firewalls, and fresh-body Prime-refresh rules supersede stale earlier enemy text.
+**Migration rule:** later current names, chapter reindexing, four-element rules, removed-system firewalls, and the current **no form-transition Prime refresh** rule supersede stale earlier enemy text.
 
 
-## Ordinary / repeatable
+## Ordinary / repeatable — REWORK PENDING
+The inherited identities below are **candidate/source material only**, not a finalized Chapter-4 ordinary roster:
 - Reaction Node
 - Composite Elemental
 - Reaction Hound
 - Element Mirror
 - Annex Crucible Guard
+
+Chapter 4's ordinary enemies still require a dedicated roster/role/placement rework, including the new forest-route segment before Ivorybridge. Do not treat this list as locked canon until that rework closes.
 
 ## Support objects / support identities
 - None
@@ -23,8 +26,10 @@
 - Elder Thornhide — mandatory nonlethal
 - Reaction Conduit — mandatory nonlethal stabilization
 
-## Strong normal-pool identity
-- Annex Duelist — one chassis / one bar / exactly four elemental states — folded into the chapter/area normal encounter pool; not optional combat
+## Annex Duelist — PLACEMENT REOPENED
+Annex Duelist's combat identity may be retained as source material, but its **placement is not currently locked**.
+
+The current Chapter-4 story authority explicitly allows Annex Duelist to remain optional combat. The older normal-pool conversion is therefore superseded pending the Chapter-4 enemy rework.
 
 ## Mandatory named / boss
 - Regulation Crucible — fresh Form I
@@ -38,7 +43,7 @@
 - `Elemental Hexarch` is retired; use Reaction Conduit.
 - Do not restore six-state Annex Duelist wording; current Duelist uses four standard elemental states.
 - Regulation Crucible Form I has four chambers, exactly two active/targetable at once.
-- Chapter-4 broad ordinary/Elite/protected Power pass: **PASS**.
+- Chapter-4 broad ordinary/Elite/protected Power pass is **reopened** because the enemy roster/formations still require rework.
 - Freeze is introduced in Chapter 4.
 
 Summary:
@@ -66,24 +71,28 @@ State thresholds:
 No refill, free action, or Prime refresh at state change.
 
 ## Numerical boundary
-Chapter-4 ordinary raw bodies are now newly authored active-balance authority in individual files.
+Current ordinary-enemy raw bodies/actions are **historical/provisional rework inputs**, not final Chapter-4 balance authority.
 
-Annex Duelist retains its inherited Elite-strength raw line.
+Annex Duelist's inherited body remains available as a rework input, but its placement is open.
 
-Mandatory named/boss raw authority remains separate and unchanged.
+Mandatory story-required encounters remain separately owned:
+- Elder Thornhide;
+- Reaction Conduit;
+- Regulation Crucible → The Seventh Reaction.
 
-Regional Hunt #4 remains outside this batch.
+Regional Hunt #4 remains separately owned and is not reopened merely by the ordinary-enemy rework.
 
-## v80 mandatory-vs-completionist validation
-- progression anchors: **Lv13 opening → ~Lv15 middle → Lv17 chapter end**;
-- Maevra is not the default Chapter-4 balance combatant;
-- Vaelira becomes a legal permanent-party option after S022, with active party still capped at four;
-- current ordinary roster / raw bodies / Powers — **PASS / RETAIN**;
-- Annex Duelist — **PASS / RETAIN**;
-- Elder Thornhide / Reaction Conduit / Regulation Crucible → The Seventh Reaction — **PASS / RETAIN**;
-- Crown Prototype — **PASS / RETAIN at Lv20 recommendation**;
-- protected Annex staff remain placement dependencies;
-- no raw-stat or direct-damage Power change.
+## Historical v80 validation — NOT CURRENT CERTIFICATION
+The old v80 pass remains useful as tuning evidence, but it predates the September 25 Chapter-4 story redesign and the current enemy-rework decision.
+
+Do not use it to lock:
+- the ordinary roster;
+- ordinary raw bodies/actions;
+- Annex Duelist placement;
+- the 19-encounter Annex model;
+- final Chapter-4 difficulty.
+
+Story-required encounter identities and Crown Prototype retain their separate owners, but Chapter-wide certification must be rerun after the enemy rework.
 
 Formation authority:
 `../ENCOUNTER_FORMATIONS/CHAPTER_04_FORMATIONS.md`
