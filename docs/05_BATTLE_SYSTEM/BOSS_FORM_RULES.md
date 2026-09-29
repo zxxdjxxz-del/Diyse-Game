@@ -18,7 +18,7 @@ The encounter transitions into a new authored body/form with a fresh HP pool.
 
 A genuine fresh-HP transformation **does not refresh Prime availability**.
 
-Spent/Ready Prime identity state remains battle-scoped across the form transition. A new HP body does not create a new automatic Prime-use allowance and does not cancel or shorten the separate post-dismissal Prime-spacing gate.
+Spent/Ready Prime identity state remains persistent across the form transition and across battle end until valid restoration. A new HP body does not create a new automatic Prime-use allowance and does not cancel or shorten the separate post-dismissal Prime-spacing gate.
 
 ## Examples of same-bar behavior
 
@@ -40,7 +40,7 @@ Current authoritative examples:
 - Crownless Siege Marshal → **Crownless War Engine**
 - Regulation Crucible Form I → fresh **The Seventh Reaction / Form II** under the approved Chapter 4 architecture
 
-These are genuine new HP forms, but they **do not refresh Prime identity availability**. A Prime spent earlier in the battle remains spent unless an explicit authored restoration effect restores it.
+These are genuine new HP forms, but they **do not refresh Prime identity availability**. A Prime already spent remains spent until a valid rest or explicit authored restoration effect restores it.
 
 ## No automatic multi-form assumption
 
