@@ -1,9 +1,11 @@
 # Command Guard Frame
 
-**Chapter-3 authority:** Cresthaven Ancient tower base  
-**Status:** **CHAPTER-3 IDENTITY / PLACEMENT / ACTION GRAMMAR LOCKED — NUMERIC REVALIDATION REQUIRED**
+**Chapter-3 retirement firewall:** **RETIRED FROM CURRENT CHAPTER 3 by the September 27 roster revision.** The current Chapter-3 Stun introduction is reopened. Later-chapter reuse remains separately owned and is not retired by this firewall.
 
-## Chapter-3 body
+**Former Chapter-3 placement:** Cresthaven Ancient tower base  
+**Status:** **CHAPTER-3 PLACEMENT RETIRED / HISTORICAL CH3 TUNING REFERENCE; LATER-CHAPTER REUSE SEPARATELY OWNED**
+
+## Historical Chapter-3 body
 | Lv | HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR |
 |---:|---:|---:|---:|---:|---:|---:|---:|---:|
 | 11 | **345** | **56** | 47 | **39** | 38 | 28 | 0 | 10 |
@@ -49,10 +51,10 @@ Chapter-10 actions:
 True construct: **Bleed Immune**
 
 
-## Chapter-3 placement lock — 2026-09-23
+## Historical Chapter-3 placement lock — SUPERSEDED 2026-09-27
 Command Guard Frame is **not** an Old City Archives ordinary enemy.
 
-Current mandatory placement:
+Former Chapter-3 placement:
 > **Cresthaven Ancient tower base**
 
 Intended sub-areas:
@@ -67,18 +69,18 @@ This placement supports the distinction:
 - Old City Archives = archival / preservation / enforcement machinery;
 - Cresthaven tower base = command / authority infrastructure.
 
-## Chapter-3 Stun introduction
+## Historical Chapter-3 Stun introduction
 **Station Pulse** remains:
 - Magical / Lightning;
 - 155 provisional Power;
 - **15% Stun**;
 - 2-round repetition lock.
 
-Command Guard Frame is the current preferred ordinary-enemy source for introducing **Stun in Chapter 3**.
+Under the superseded September 23 roster, Command Guard Frame was the preferred ordinary-enemy source for introducing **Stun in Chapter 3**. Current Chapter-3 Stun-source assignment is open.
 
 Do not add Stun to Judgment Frame or Erasure Wisp merely to spread the status around.
 
-The existing Chapter-3 raw line and Powers remain provisional pending four-person Cresthaven encounter validation.
+The former Chapter-3 raw line and Powers are historical tuning reference only and no longer await current Cresthaven validation.
 
 
 ## Naming correction — 2026-09-23
