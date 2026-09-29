@@ -8,8 +8,7 @@
 
 | Ch | Encounter / form | Lv | HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR | Architecture |
 |---:|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---|
-| 1 | **Thornhide** | 4 | 850 | 34 | 18 | 22 | 20 | 29 | 10 | 0 | nonlethal; Irritant Fitting objective / 25% protected floor |
-| 1 | **Watch Castellan** | 6 | 450 | 42 | 27 | 27 | 24 | 25 | 0 | 5 | one bar; Fortress → Walking same-bar |
+| 1 | **Thornhide Stalker** | 4 | 850 | 34 | 18 | 22 | 20 | 29 | 10 | 0 | normal lethal victory; Thornhide species; Chapter-1 final boss |
 | 2 | **Archive Leviathan** | 9 | 1,900 | 50 | 52 | 31 | 33 | 25 | 0 | 5 | one bar; Recorded Pattern → Emergent same-bar |
 | 2 | **Commander Rhazek — Bastion Master** | 10 | 2,050 | 58 | 44 | 36 | 32 | 27 | 5 | 5 | one bar; Bastion Master → Ruin Escalation same-bar; survives/withdraws |
 | 3 | **Authority Construct** | 14 | 2,850 | 72 | 72 | 43 | 43 | 30 | 0 | 10 | one bar; Imposed Authority → Challenged Authority same-bar |
@@ -24,23 +23,10 @@
 - Same-bar states do not refresh Prime availability.
 
 
-## Watch Castellan working recertification override
-The former Audit129-compatible line:
-> Lv6 / 1,758 HP / 36 ATK / 27 MAG / 27 DEF / 24 Spirit / 25 SPD
+## Chapter 1 current note
+Watch Castellan is retired from current Chapter 1 and has no active raw-stat row in this register.
 
-was tested against the wrong late Chapter-1 reference point.
-
-The actual S008 balance profile is approximately:
-- Cyanis Lv2 / Crest Knight CL1
-- Ilyra Lv2 / Blue Warden CL1
-- Maevra Lv2 guest
-- Lv3 high-side validation
-
-Current working recertification line:
-> **Lv6 / 450 HP / 42 ATK / 27 MAG / 27 DEF / 24 Spirit / 25 SPD / 0 EVA / 5 SR**
-
-This is the active working balance line for the boss pass. It remains a working recertification result pending later formal canon promotion.
-
+The Chapter-1 final boss is **Thornhide Stalker**. Its existing Lv4 / 850-HP raw line remains a provisional numeric input pending the later mandatory/completionist level-spine validation.
 
 ## Archive Leviathan — v97 true-battle certification
 Actual S013 progression:
