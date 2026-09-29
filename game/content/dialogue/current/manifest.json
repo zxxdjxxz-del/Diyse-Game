@@ -190,21 +190,21 @@
           "scene_kind": "mandatory",
           "slot_id": "B09",
           "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/CH01_B09_SOUTHERN_BRIAR_PASSAGE_DIALOGUE.md",
-          "source_sha256": "fc454c2077786a1fd489d4a79247d71fd6caedccbb0289567da1cd0dc8e6175d",
+          "source_sha256": "123d24cb01225640eb19d2239bd70248f059006afb0ad0c80285567abb5bedc4",
           "spoken_lines": 14,
           "spoken_sha256": "4775e1b5974b3e4b5597b858a72a3ff14df121772967174ec4f1f06dcdf10848",
           "title": "Southern Briar Passage"
         },
         {
           "resource_path": "res://game/content/dialogue/current/chapter_01/B10.tres",
-          "scene_id": "CH01_B10_THORNHIDE",
+          "scene_id": "CH01_B10_THORNHIDE_STALKER",
           "scene_kind": "mandatory",
           "slot_id": "B10",
           "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/CH01_B10_THORNHIDE_DIALOGUE.md",
-          "source_sha256": "e008158d9b9970b31c89f5398b97a27cf252f49275a95ed820dcb02f432c3530",
+          "source_sha256": "9f52f2c811159f6c230865c41325796b86bcfd9e43ee4a3ddd11d676099668dc",
           "spoken_lines": 20,
           "spoken_sha256": "31251192e355055c4af39485474d47b082bd68615eb7f9c37830664622f48736",
-          "title": "Thornhide"
+          "title": "Thornhide Stalker"
         },
         {
           "resource_path": "res://game/content/dialogue/current/chapter_01/B11.tres",
@@ -223,7 +223,7 @@
           "scene_kind": "mandatory",
           "slot_id": "B12",
           "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/CH01_B12_JUNCTION_CAMP_CLEANUP_DIALOGUE.md",
-          "source_sha256": "8f4578d9f3d6bb1ac14fced205a12d7bf08643c8d732bec120692319e0e24a25",
+          "source_sha256": "75568ec82b66fc98b43823b17f3ae17217441a9ff37b984a2e85ed63b38491c7",
           "spoken_lines": 6,
           "spoken_sha256": "cd1dc7327169ab2db53ed18af705b8521e50fa3bbc592fea4b8704486e1ef599",
           "title": "Junction Camp / Chapter 1 Cleanup Window"
