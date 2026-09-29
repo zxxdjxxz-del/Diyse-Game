@@ -1,9 +1,11 @@
 # Erasure Wisp
 
-**Chapter-3 authority:** Old City Archives  
-**Status:** **CHAPTER-3 IDENTITY / ROLE / ACTION GRAMMAR LOCKED — NUMERIC REVALIDATION REQUIRED**
+**Chapter-3 retirement firewall:** **RETIRED FROM CURRENT CHAPTER 3 by the September 27 roster revision.** Later-chapter reuse remains separately owned and is not retired by this firewall.
 
-## Chapter-3 body
+**Former Chapter-3 placement:** Old City Archives  
+**Status:** **CHAPTER-3 PLACEMENT RETIRED / HISTORICAL CH3 TUNING REFERENCE; LATER-CHAPTER REUSE SEPARATELY OWNED**
+
+## Historical Chapter-3 body
 | Lv | HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR |
 |---:|---:|---:|---:|---:|---:|---:|---:|---:|
 | 10 | **210** | 18 | **61** | 22 | **38** | **36** | 10 | 10 |
@@ -41,10 +43,10 @@ Magical construct: **Bleed Immune**
 Erasure presentation cannot erase permanent player progression.
 
 
-## Chapter-3 identity / presentation lock — 2026-09-23
+## Historical Chapter-3 identity / presentation lock — SUPERSEDED 2026-09-27
 Erasure Wisp remains an active ordinary Old City Archives construct.
 
-Current role:
+Former Chapter-3 role:
 > fast, fragile magical pressure / Ruin-aligned cleanup-security construct
 
 Archive-function presentation:
@@ -61,8 +63,8 @@ Archive-function presentation:
 - undoing permanent progression;
 - rewriting player state.
 
-## Chapter-3 combat boundary
-Current Chapter-3 kit remains:
+## Historical Chapter-3 combat boundary
+The historical Chapter-3 kit was:
 - **Erasure Touch** — single-target Ruin magic;
 - **Empty Pulse** — party-wide Colorless magic.
 
@@ -70,4 +72,4 @@ The Chapter-3 version does **not** use Stun.
 
 The later Chapter-10 version may retain Ruin Flicker / Stun as a later progression escalation.
 
-The existing Chapter-3 raw line and Powers remain provisional starting values pending current four-person encounter validation.
+The former Chapter-3 raw line and Powers are historical tuning reference only and no longer await current Chapter-3 validation.
