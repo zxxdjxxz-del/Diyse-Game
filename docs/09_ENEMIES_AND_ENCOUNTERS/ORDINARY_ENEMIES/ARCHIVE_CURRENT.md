@@ -1,7 +1,7 @@
-# Archive Current
+# Archive Current — RETIRED NAME
 
-**Chapter:** 2 — Sunken Archive  
-**Status:** **POWER COMPLETE / RAW BODY AUTHORED**
+**Chapter-2 status:** **RETIRED DISPLAY NAME — current identity is Arcdrift**  
+**Status:** **HISTORICAL TUNING REFERENCE**
 
 ## Body
 | Lv | HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR |
@@ -30,7 +30,7 @@ True construct / magical current:
 
 
 ## Element identity lock — 2026-09-23
-Archive Current is a dedicated **Lightning** construct.
+Current identity **Arcdrift** is the dedicated Lightning construct; this file preserves the former-name tuning record.
 
 Both authored direct-damage actions use Lightning:
 - Current Arc — Lightning
@@ -40,7 +40,7 @@ Do not revert Archive Surge to Colorless.
 
 
 ## Chapter-3 carryover lock — 2026-09-23
-Archive Current carries forward from Chapter 2 into the **late Old City Archives** in Chapter 3.
+The current identity **Arcdrift** carries forward from Chapter 2 into the **late Old City Archives** in Chapter 3 where Chapter-3 authority permits it.
 
 Placement:
 - not used in early Old City access;
@@ -63,3 +63,9 @@ Chapter-3 use does not add:
 Its established Lightning actions remain its whole elemental identity.
 
 Chapter-3 body/tuning must be revalidated at the current four-person party state rather than blindly reusing its Chapter-2 raw body.
+
+
+Current owner:
+> `ARCDRIFT.md`
+
+Do not place the display name **Archive Current** in current Chapter 2.
