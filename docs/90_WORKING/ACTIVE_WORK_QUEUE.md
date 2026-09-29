@@ -12,7 +12,7 @@ Examples include:
 - bounded Hunt return/unlock timing where the story trigger is not yet exact.
 
 Economy consequence:
-> exact G for story-dependent special encounters remains deferred until the owning scene role is finalized.
+> story-dependent special-encounter payout details remain deferred until both the owning scene role and the planned economy rebuild/recalibration are ready.
 
 ## 2 — Chapter 4 Dialogue Rewrite + Later-Chapter Dialogue
 Chapters **0–3** are line-complete.
