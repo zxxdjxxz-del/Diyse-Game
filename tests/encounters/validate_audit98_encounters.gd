@@ -1,5 +1,12 @@
 extends SceneTree
 
+# LEGACY ENGINEERING / PROOF REGRESSION.
+# This suite verifies the still-executable Audit98 encounter prototype; it is not current
+# Chapter 1-4 encounter canon. In particular, current Chapter 3 authority supersedes this
+# catalog's old roster/formations, Chapter 4 is rework-pending, and current Southern Briar
+# authority may allow up to 6 enemies even though this proof catalog still carries a 4 cap.
+# See docs/13_UI_AND_IMPLEMENTATION/IMPLEMENTATION_NOTES/CURRENT_CODE_DIVERGENCES.md.
+
 const Balance = preload("res://game/exploration/encounter_balance.gd")
 const Pressure = preload("res://game/exploration/encounter_pressure.gd")
 const Selector = preload("res://game/exploration/encounter_selector.gd")
@@ -158,7 +165,7 @@ func _validate_pressure(failures: Array[String]) -> void:
 func _validate_chapter_01_04_catalog(failures: Array[String]) -> void:
 	var area_ids := Catalog.area_ids()
 	if area_ids.size() != ALLOWED_BY_AREA.size():
-		failures.append("Chapter 1-4 catalog must contain exactly the approved first-pass area tables")
+		failures.append("Audit98 proof catalog must retain its expected first-pass area tables")
 	if Catalog.has_area("ch03_caelora"):
 		failures.append("Caelora lawful personnel must not receive an ordinary random-farm table")
 	for retired_area in ["ch03_way_fort", "ch03_suppressed_archives", "ch03_command_station"]:
@@ -169,7 +176,7 @@ func _validate_chapter_01_04_catalog(failures: Array[String]) -> void:
 	if Catalog.max_enemies_for_area("ch01_hollow_watch") != 3:
 		failures.append("Hollow Watch surface must cap at 3 active enemies")
 	if Catalog.max_enemies_for_area("ch01_briar_south") != 4:
-		failures.append("Southern Briar must cap at 4 active enemies")
+		failures.append("Audit98 proof catalog expects its legacy Southern Briar 4-enemy cap; current design authority is separate")
 	if Catalog.max_enemies_for_area("ch02_dunmere_waterworks") != 5:
 		failures.append("Old Waterworks must allow up to 5 active enemies")
 	if Catalog.max_enemies_for_area("ch02_sunken_archive") != 5:
@@ -214,7 +221,7 @@ func _validate_chapter_01_04_catalog(failures: Array[String]) -> void:
 					failures.append("%s violates the %s enemy-count limit" % [formation_id, area_id])
 				for enemy_name in enemies:
 					if str(enemy_name) not in ALLOWED_BY_AREA[area_id]:
-						failures.append("%s uses non-approved random enemy %s in %s" % [formation_id, enemy_name, area_id])
+						failures.append("%s uses an enemy outside the retained Audit98 proof allowlist: %s in %s" % [formation_id, enemy_name, area_id])
 			if absf(total_weight - 100.0) > 0.001:
 				failures.append("%s %s formation weights must total 100" % [area_id, tier])
 
@@ -241,7 +248,7 @@ func _validate_chapter_01_subareas(failures: Array[String]) -> void:
 	for area_id in expected.keys():
 		var actual_subareas := Catalog.subarea_ids_for_area(area_id)
 		if actual_subareas.size() != expected[area_id].size():
-			failures.append("%s subarea count drifted from current Chapter 1 placement" % area_id)
+			failures.append("%s subarea count drifted from retained Audit98 Chapter 1 proof placement" % area_id)
 		for subarea_id in expected[area_id].keys():
 			var ids := Catalog.formation_ids_for_subarea(area_id, subarea_id)
 			if ids.size() != int(expected[area_id][subarea_id]):
@@ -282,7 +289,7 @@ func _validate_chapter_03_subareas(failures: Array[String]) -> void:
 	for area_id in expected.keys():
 		var actual_subareas := Catalog.subarea_ids_for_area(area_id)
 		if actual_subareas.size() != expected[area_id].size():
-			failures.append("%s subarea count drifted from current Chapter 3 placement" % area_id)
+			failures.append("%s subarea count drifted from retained Audit98 Chapter 3 proof placement" % area_id)
 		for subarea_id in expected[area_id].keys():
 			var ids := Catalog.formation_ids_for_subarea(area_id, subarea_id)
 			if ids.size() != int(expected[area_id][subarea_id]):
@@ -335,7 +342,7 @@ func _validate_selector(failures: Array[String]) -> void:
 
 func _finish(failures: Array[String]) -> void:
 	if failures.is_empty():
-		print("Current encounter pressure, level curve, balance profiles, and Chapter 1-4 formation validation passed.")
+		print("Legacy Audit98 encounter engineering regression passed; this does not certify current encounter canon.")
 		quit(0)
 		return
 	for failure in failures:

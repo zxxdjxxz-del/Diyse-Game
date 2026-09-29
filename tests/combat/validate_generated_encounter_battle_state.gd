@@ -1,5 +1,11 @@
 extends SceneTree
 
+# ENGINEERING / PROOF REGRESSION.
+# This suite validates the current generated-battle prototype against proof enemy data and
+# the mixed-authority encounter catalog. Legacy technical reward keys such as "gold" are
+# implementation fixtures, not player-facing currency authority.
+# See docs/13_UI_AND_IMPLEMENTATION/IMPLEMENTATION_NOTES/CURRENT_CODE_DIVERGENCES.md.
+
 const BaseBattleState = preload("res://game/combat/battle_state.gd")
 const GeneratedBattleState = preload("res://game/combat/generated_encounter_battle_state.gd")
 const ProofEnemyData = preload("res://game/content/encounters/proof_enemy_combat_data.gd")
@@ -78,7 +84,7 @@ func _validate_generated_setup_and_rewards(failures: Array[String]) -> void:
 	if int(battle.rewards.get("xp", 0)) != int(formation.get("exp", 0)):
 		failures.append("Generated battle did not preserve the formation EXP reward")
 	if int(battle.rewards.get("gold", -1)) != 0:
-		failures.append("Generated proof encounter invented a gold reward")
+		failures.append("Generated proof encounter invented a reward under the legacy technical gold key")
 
 func _validate_enemy_cap_and_invalid_data(failures: Array[String]) -> void:
 	var base_def := ProofEnemyData.definition_for("Vine Creeper")
@@ -111,11 +117,11 @@ func _validate_base_demo_regression(failures: Array[String]) -> void:
 	if not battle._check_end_state():
 		failures.append("Existing setup_demo path no longer resolves victory")
 	if int(battle.rewards.get("xp", 0)) != 30 or int(battle.rewards.get("gold", 0)) != 42:
-		failures.append("Existing setup_demo 30 XP / 42 gold regression reward changed")
+		failures.append("Existing proof setup_demo 30 XP / legacy technical 42-gold-key regression changed")
 
 func _finish(failures: Array[String]) -> void:
 	if failures.is_empty():
-		print("Audit98 generated random-encounter battle-state validation passed.")
+		print("Audit98 generated random-encounter proof regression passed; proof rewards/catalog do not certify current canon.")
 		quit(0)
 		return
 	for failure in failures:

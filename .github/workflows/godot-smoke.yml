@@ -54,7 +54,7 @@ jobs:
       - name: Run Audit88 Chapter 4 HD-2D presentation resource validation
         run: godot --headless --path . --script tests/presentation/validate_chapter_04_hd2d.gd
 
-      - name: Run Audit98 encounter pressure, progression, and Chapter 1-4 formation validation
+      - name: Run legacy Audit98 encounter-engineering proof regression
         run: godot --headless --path . --script tests/encounters/validate_audit98_encounters.gd
 
       - name: Run Audit98 reusable field encounter controller validation
@@ -66,7 +66,7 @@ jobs:
       - name: Run Audit98 live resolved-movement encounter proof validation
         run: godot --headless --path . --script tests/encounters/validate_live_movement_encounter_proof.gd
 
-      - name: Run Audit98 generated random-encounter battle-state validation
+      - name: Run Audit98 generated random-encounter proof regression
         run: godot --headless --path . --script tests/combat/validate_generated_encounter_battle_state.gd
 
       - name: Run Audit98 transient field-combat-field loop validation
@@ -75,7 +75,7 @@ jobs:
       - name: Run exploration, dialogue, combat, Card, Prime, and persistence smoke validation
         run: godot --headless --path . --script tests/smoke/validate_project.gd
 
-      - name: Run accepted combat, Card, retarget, and Prime validation
+      - name: Run legacy combat/Card/Prime proof regression
         run: godot --headless --path . --script tests/combat/validate_round_combat.gd
 
       - name: Run Kessara Relic-copy service validation

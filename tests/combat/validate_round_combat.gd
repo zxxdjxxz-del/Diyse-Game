@@ -1,5 +1,11 @@
 extends SceneTree
 
+# LEGACY ENGINEERING / PROOF REGRESSION.
+# This suite intentionally verifies the still-unmigrated combat prototype, including the
+# retired whole-round queue/priority flow and retired First Champion/first_champion Prime
+# fixture. It must not be read as current combat or Prime authority.
+# See docs/13_UI_AND_IMPLEMENTATION/IMPLEMENTATION_NOTES/CURRENT_CODE_DIVERGENCES.md.
+
 const Resolver = preload("res://game/combat/round_resolver.gd")
 const BattleState = preload("res://game/combat/battle_state.gd")
 
@@ -185,17 +191,17 @@ func _test_standard_card_retargets_after_enemy_ko() -> void:
 func _test_prime_is_bearer_locked_and_spent_only_on_manifestation() -> void:
 	var battle = BattleState.new()
 	battle.setup_demo()
-	_expect(battle.available_prime_cards_for_actor(0).size() == 1, "Cyanis must have access to bearer-locked First Champion")
+	_expect(battle.available_prime_cards_for_actor(0).size() == 1, "Legacy proof fixture expects Cyanis-only access to the retired First Champion identifier")
 	_expect(battle.available_prime_cards_for_actor(1).is_empty(), "Ilyra must not have access to Cyanis's story Prime")
-	_expect(not battle.queue_party_action(1, "Card", -1, "first_champion"), "Non-bearer must not queue First Champion")
-	_expect(battle.prime_use_remaining("first_champion") == 1, "Prime use begins available")
-	_expect(battle.queue_party_action(0, "Card", -1, "first_champion"), "Cyanis must be able to queue First Champion through Card")
-	_expect(battle.prime_use_remaining("first_champion") == 1, "Queueing alone must not spend the Prime use")
+	_expect(not battle.queue_party_action(1, "Card", -1, "first_champion"), "Legacy proof fixture expects non-bearer rejection for the retired First Champion identifier")
+	_expect(battle.prime_use_remaining("first_champion") == 1, "Legacy proof Prime use begins available")
+	_expect(battle.queue_party_action(0, "Card", -1, "first_champion"), "Legacy proof fixture expects Cyanis to queue the retired First Champion identifier through Card")
+	_expect(battle.prime_use_remaining("first_champion") == 1, "Legacy proof queueing alone must not spend the proof Prime use")
 	battle.queue_party_action(1, "Defend", 1)
 	battle.queue_party_action(2, "Defend", 2)
 	battle.queue_party_action(3, "Defend", 3)
 	_expect(battle.confirm_round(), "Prime activation round must confirm")
-	_expect(battle.prime_use_remaining("first_champion") == 0, "Successful manifestation must spend the one Prime use")
+	_expect(battle.prime_use_remaining("first_champion") == 0, "Legacy proof manifestation must spend the proof Prime use")
 
 func _test_prime_activation_suspends_party_after_ordinary_round() -> void:
 	var battle = BattleState.new()
@@ -207,18 +213,18 @@ func _test_prime_activation_suspends_party_after_ordinary_round() -> void:
 	_expect(battle.confirm_round(), "Prime activation proof round must confirm")
 	_expect(battle.party_suspended, "Party must be suspended only after the activation round finishes")
 	_expect(battle.phase == "prime_selecting", "First Prime action round must enter direct command selection")
-	_expect(str(battle.active_prime.get("name", "")) == "First Champion", "First Champion must become the sole active player combatant")
+	_expect(str(battle.active_prime.get("name", "")) == "First Champion", "Retired First Champion proof fixture must become the sole active player combatant")
 	_expect(int(battle.active_prime.get("max_hp", 0)) == 118, "Recovered Prime HP must equal rounded 70% of combined four-party maximum HP")
-	_expect(int(battle.active_prime.get("speed", 0)) == 10, "First Champion Speed must snapshot Cyanis at the 1.00 profile multiplier")
-	_expect(int(battle.active_prime.get("rounds_remaining", 0)) == 2, "Recovered First Champion must begin with exactly two Prime action rounds")
+	_expect(int(battle.active_prime.get("speed", 0)) == 10, "Retired First Champion proof fixture must snapshot Cyanis Speed at the 1.00 profile multiplier")
+	_expect(int(battle.active_prime.get("rounds_remaining", 0)) == 2, "Legacy proof fixture expects two Prime action rounds; this is not current Recovered authority")
 	for action in battle.enemy_actions:
 		_expect(str(action.get("target_side", "")) == "prime", "Hostile actions must target the active Prime while party is suspended")
 	var commands := battle.available_prime_commands()
-	_expect(commands.size() == 3, "Recovered First Champion must expose exactly its first three commands")
+	_expect(commands.size() == 3, "Legacy proof fixture must expose its three prototype commands")
 	var command_names: Array[String] = []
 	for command in commands:
 		command_names.append(str(command.get("display_name", "")))
-	_expect(command_names == ["Champion Edge", "Shieldbreak Arc", "Stand Between"], "Prime command sheet must match Recovered First Champion")
+	_expect(command_names == ["Champion Edge", "Shieldbreak Arc", "Stand Between"], "Legacy proof command sheet must match the retired First Champion fixture")
 
 func _test_prime_direct_control_two_rounds_and_normal_return() -> void:
 	var battle = BattleState.new()
@@ -239,17 +245,17 @@ func _test_prime_direct_control_two_rounds_and_normal_return() -> void:
 	for i in range(battle.party.size()):
 		_expect(int(battle.party[i]["hp"]) == frozen_hp[i] and int(battle.party[i]["mp"]) == frozen_mp[i], "Suspended party HP/MP must remain frozen during Prime replacement")
 	_expect(battle.resolve_prime_command("stand_between", -1), "Player must directly select Stand Between for Prime round two")
-	_expect(battle.phase == "prime_returned", "Recovered Prime must return normally after exactly two action rounds")
+	_expect(battle.phase == "prime_returned", "Legacy proof Prime must return after its prototype two action rounds")
 	_expect(not battle.party_suspended and battle.active_prime.is_empty(), "Party must be restored and Prime removed after normal expiry")
 	for i in range(battle.party.size()):
 		_expect(int(battle.party[i]["hp"]) == frozen_hp[i] and int(battle.party[i]["mp"]) == frozen_mp[i], "Normal Prime return must restore frozen party HP/MP unchanged")
 	_expect(int(battle.party[0]["return_defense_bonus"]) == 25, "Stand Between must deliver its +25 Total Defense return marker")
 	battle.begin_round()
-	_expect(battle.available_prime_cards_for_actor(0).is_empty(), "First Champion cannot be activated again in the same ordinary battle after its use is spent")
+	_expect(battle.available_prime_cards_for_actor(0).is_empty(), "Legacy proof fixture expects the retired First Champion use to remain spent within this proof battle")
 
 func _finish() -> void:
 	if failures.is_empty():
-		print("Diyse 7B.5F deterministic combat, Card, retarget, and Prime validation passed.")
+		print("Legacy 7B.5F combat/Card/Prime proof regression passed; this does not certify current combat or Prime mechanics.")
 		quit(0)
 		return
 	for failure in failures:
