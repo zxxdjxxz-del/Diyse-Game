@@ -9,7 +9,7 @@ source_authority:
 identity:
   age: 29
   base_class: Crest Knight
-  subclass: Crest Magus
+  subclass: Crest Arcanist
   face: Might
   prime: Last Sentinel
 
@@ -629,8 +629,8 @@ decision_model:
 
 chronology_gates:
   active_from: Chapter_0
-  pre_subclass_unlock: no_Crest_Magus_expertise
-  post_subclass_unlock: Crest_Magus_expertise_available
+  pre_subclass_unlock: no_Crest_Arcanist_expertise
+  post_subclass_unlock: Crest_Arcanist_expertise_available
   relationships: only_progress_when_story_position_has_earned_it
 
 anti_patterns:
