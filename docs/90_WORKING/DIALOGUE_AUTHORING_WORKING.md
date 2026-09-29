@@ -3,9 +3,12 @@
 **Owner:** `03_DIALOGUE`
 
 ## Closed
-Chapters 0–4 exact line-complete dialogue.
+Chapters **0–3** exact line-complete dialogue.
 
-## Next
+## Open — Chapter 4
+Chapter 4's redesigned story/beat structure is current, but the exact dialogue rewrite remains **OPEN**.
+
+## Later-chapter working material
 ### Chapter 5
 Complete approved beat rewrite first:
 - second pre-reveal masked Seyrik appearance
@@ -26,4 +29,6 @@ Do not resurrect pre-insertion scene numbering.
 - later optional/hub Character-Life material as desired
 
 ## Guardrail
-Do not rewrite approved Ch0–4 lines simply to make voice style "cleaner."
+Do not rewrite approved Ch0–3 lines simply to make voice style "cleaner."
+
+Chapter 4 is not protected by the Ch0–3 line-complete guardrail; rewrite it only against the current Chapter-4 structure and character-voice authority.
