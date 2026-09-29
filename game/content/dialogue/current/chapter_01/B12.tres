@@ -5,7 +5,7 @@
 [resource]
 script = ExtResource("1_scene")
 schema_version = 1
-scene_id = "CH01_B12_JUNCTION_CAMP_CLEANUP"
+scene_id = "CH01_B12_JUNCTION_CAMP_CHAPTER_1_CLEANUP_WINDOW"
 chapter_id = "chapter_01"
 scene_kind = "mandatory"
 location_id = "LOC_JUNCTION_CAMP_CHAPTER_1_CLEANUP_WINDOW"
