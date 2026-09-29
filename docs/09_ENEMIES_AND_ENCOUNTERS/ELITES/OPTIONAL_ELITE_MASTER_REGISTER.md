@@ -13,7 +13,6 @@ The 12 identities historically tracked here are **former strong normal-pool Elit
 
 | Ch | Strong normal-pool identity | Lv | HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR |
 |---:|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| 1 | **Watch Captain Frame** | 6 | **500** | 38 | 29 | 27 | 26 | 25 | 0 | 10 |
 | 2 | **Archive Duplicant** | 9 | 1,000 | 43 | 46 | 32 | 33 | 27 | 5 | 10 |
 | 3 | **Grand Inquisitor Frame** | 14 | 1,200 | 58 | 62 | 44 | 45 | 29 | 0 | 10 |
 | 4 | **Annex Duelist** | 18 | 1,700 | 72 | 72 | 50 | 49 | 34 | 10 | 5 |
@@ -47,29 +46,10 @@ depending on level, build, resource state, and mechanics.
 - Devourer of Names: temporary capped Echo support only; cannot erase permanent player progression/state.
 
 
-## Chapter 1 Power completion
+## Chapter 1
+There is **no approved strong normal-pool Elite in current Chapter 1**.
 
-### Watch Captain Frame
-v77 difficulty-recertified line:
-> Lv6 / **HP500** / ATK38 / MAG29 / DEF27 / Spirit26 / SPD25 / EVA0 / SR10
-
-Direct damage:
-- Captain Edge — **175**
-- Signal Burst — **125 per target**
-- Locking Thrust — **210**
-
-Non-damage:
-- Watchline Guard — **Power N/A**
-
-True construct:
-> Bleed Immune
-
-Status:
-> **POWER COMPLETE / v77 HISTORICAL VALIDATION / CURRENT NORMAL-POOL REVALIDATION REQUIRED**
-
-HP-only balance correction:
-> **820 → 500** at the actual Hollow Watch Lv2–3 route point.
-
+Watch Captain Frame's former Hollow Watch role is retired. Its old Lv6 / HP500 package is historical tuning evidence only and does not establish current placement.
 
 ## Chapter 2 Power completion
 
