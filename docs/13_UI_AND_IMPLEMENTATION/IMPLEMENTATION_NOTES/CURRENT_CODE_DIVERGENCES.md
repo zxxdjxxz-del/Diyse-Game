@@ -114,3 +114,19 @@ No production service menu/fee/timing presentation yet.
 
 ## 10. Current-facing naming — ONGOING
 Legacy technical identifiers may remain internally until safe migration, but player-facing text must use current names.
+
+## 11. Encounter runtime catalog — HIGH
+`game/content/encounters/chapter_01_04_formations.gd` is executable engineering data, but it is not uniformly current encounter authority.
+
+Known gaps:
+- Chapter 3 rows still contain superseded pre-September-27 enemy identities/formations;
+- Chapter 4 rows preserve inherited Reaction Annex formations while the ordinary-enemy / formation layer is explicitly rework-pending;
+- proof enemy stats and encounter tuning remain engineering fixtures rather than production balance authority.
+
+Current production authority:
+- `09_ENEMIES_AND_ENCOUNTERS/CHAPTER_ENEMIES/`;
+- `09_ENEMIES_AND_ENCOUNTERS/ENCOUNTER_FORMATIONS/`;
+- current enemy/action/raw-stat owners;
+- `10_PROGRESSION_AND_EXP/` for final EXP/CEXP.
+
+Do not use executable stale rows to overwrite current encounter canon. Reconcile the runtime catalog in a dedicated implementation pass, without inventing open Chapter-3/4 formation decisions during cleanup.
