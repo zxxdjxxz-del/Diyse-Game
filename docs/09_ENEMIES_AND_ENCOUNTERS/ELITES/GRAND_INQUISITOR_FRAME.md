@@ -1,7 +1,9 @@
 # Grand Inquisitor Frame
 
-**Chapter:** 3 — Old City Archives strong normal-pool Elite  
-**Status:** **CHAPTER-3 IDENTITY / PLACEMENT / ACTION GRAMMAR LOCKED — NUMERIC REVALIDATION REQUIRED**
+**Chapter-3 retirement firewall:** **RETIRED FROM CURRENT CHAPTER 3 by the September 27 roster revision.** This removes its former Chapter-3 strong-normal-pool placement. Any later reuse requires its own current chapter authority.
+
+**Former Chapter-3 placement:** Old City Archives strong normal-pool Elite  
+**Status:** **CHAPTER-3 PLACEMENT RETIRED / HISTORICAL CH3 TUNING REFERENCE; LATER REUSE REQUIRES SEPARATE AUTHORITY**
 
 ## Raw body — RETAIN
 | Lv | HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR |
@@ -60,16 +62,16 @@ Existing Elite-strength target:
 ## Normal-pool conversion — 2026-09-22
 Grand Inquisitor Frame is no longer optional side content.
 
-Current role:
+Former Chapter-3 role:
 > **strong normal-pool enemy**
 
 It is encountered through the chapter/area's normal encounter structure rather than an optional room or branch. If the identity is unique/named, use a one-time normal-pool entry rather than repeatable copies. Existing raw stats and Power remain retained; encounter frequency/placement and reward impact require revalidation where the prior optional placement mattered.
 
 
-## Chapter-3 placement lock — 2026-09-23
-Grand Inquisitor Frame remains Chapter 3's **strong normal-pool Elite**.
+## Historical Chapter-3 placement lock — SUPERSEDED 2026-09-27
+Grand Inquisitor Frame was Chapter 3's **strong normal-pool Elite** under the superseded September 23 roster.
 
-Current home:
+Former Chapter-3 home:
 > **Old City Archives — late dungeon only**
 
 Eligible:
@@ -98,12 +100,12 @@ It is not:
 - an Archive Judgment Engine substitute;
 - a First Command Warden substitute.
 
-## Chapter-3 Stun boundary
+## Historical Chapter-3 Stun boundary
 Lock Sequence remains Lightning damage but has **no Stun rider in Chapter 3**.
 
-This preserves the current status rollout:
+This reflected the superseded September 23 status rollout:
 > Command Guard Frame at Cresthaven is the preferred ordinary-enemy introduction to Stun.
 
 A later reused version may gain Stun under its own chapter authority.
 
-The inherited Lv14 / 1,200 HP body and direct-damage Powers are retained only as provisional starting values. The old v79 certification is retired because Chapter 3's party chronology and dungeon structure have changed.
+The inherited Lv14 / 1,200 HP body and direct-damage Powers are retained only as historical/provisional reference. The old v79 certification and Chapter-3 placement are retired.
