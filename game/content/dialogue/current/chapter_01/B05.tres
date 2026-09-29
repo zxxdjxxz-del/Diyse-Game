@@ -5,7 +5,7 @@
 [resource]
 script = ExtResource("1_scene")
 schema_version = 1
-scene_id = "CH01_B05_OCCUPIED_HOLLOW_WATCH_FORT"
+scene_id = "CH01_B05_OCCUPIED_HOLLOW_WATCH"
 chapter_id = "chapter_01"
 scene_kind = "mandatory"
 location_id = "LOC_OCCUPIED_HOLLOW_WATCH"
