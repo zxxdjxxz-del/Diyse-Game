@@ -79,7 +79,7 @@ Combat role:
 - fragile enough that the player can remove it to reduce formation support.
 
 ## Historical Chapter-3 status boundary
-Authority Lens does **not** inflict Stun in Chapter 3.
+Under the superseded September 23 roster, Authority Lens did **not** inflict Stun in Chapter 3.
 
 Reason:
 - the superseded September 23 roster used Command Guard Frame's Station Pulse as the preferred ordinary-enemy Stun introduction;
