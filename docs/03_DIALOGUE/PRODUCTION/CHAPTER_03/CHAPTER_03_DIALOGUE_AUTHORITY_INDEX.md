@@ -79,7 +79,7 @@ If any brain changes, reread it before finalizing/revising affected dialogue.
 
 ### Cyanis
 - **Crest Knight only in Chapter 3**.
-- Crest Magus is locked until **Sixfold Volition at the end of Chapter 7** and is not available as Chapter-3 expertise, ability access, or active identity.
+- Crest Arcanist is locked until **Sixfold Volition at the end of Chapter 7** and is not available as Chapter-3 expertise, ability access, or active identity.
 - practical/social leader, not automatic plot-summary voice;
 - moderate natural profanity; long-form editorial calibration roughly **7–14%**;
 - humor, argument, opinion, and multi-sentence turns are available.
