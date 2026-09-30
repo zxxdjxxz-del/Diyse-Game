@@ -15,7 +15,7 @@ All current Chapter-0 atomics pass:
 - B03 — Evacuation Relay Decision — PASS
 - B04 — Field Triage / Ilyra / First Flare — PASS
 - B05 — Concealed Ruin Vanguard — PASS
-- B06 — Riftmaw + War-Sorcerer — PASS
+- B06 — Riftmaw + Battle Sorcerer — PASS
 - B07 — Aftermath / Survivor Recovery — PASS
 - C01 — Six Minutes — PASS
 
