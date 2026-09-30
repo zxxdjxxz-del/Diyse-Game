@@ -5,13 +5,9 @@
 **Migration date:** September 23, 2026  
 **Primary story authority:** ../../../02_STORY/CHAPTERS/CHAPTER_03.md  
 **Current spoken-line count after tightening:** **558 mandatory + 142 Character-Life = 700 total**  
-**Post-tightening differentiated mature-register audit:** **PASS**
-- Nimera — **49 / 229 = 21.4%** — target **20–35%**
-- Cyanis — **14 / 111 = 12.6%** — target **7–14%**
-- Torren — **15 / 122 = 12.3%** — target **7–16%**
-- Ilyra — **8 / 89 = 9.0%** — target **5–12%**
-- Maevra — **1 / 25 = 4.0%** — target **2–6%**
-- Mirena — **2 / 50 = 4.0%** — target **1–5% overall**
+**Current mature-register status:** **PASS — September 28, 2026 Person-Brain compatibility audit.**
+
+Live character calibration bands are owned by `../../AGENT_SYSTEM/MATURE_ADULT_SPEECH_AND_PROFANITY_LOCK.md`. The older frozen per-character ratios are not retained here as current metrics because the Chapter-3 source set has changed since that recount. Any new numeric profanity audit must be recomputed from the current B01–B11 + C06/C07 atomics rather than carried forward from the earlier totals.
 
 The profanity-differentiation pass remains active: Nimera retains the broadest vulgar vocabulary; Cyanis, Torren, Ilyra, Maevra, and Mirena use lower-frequency, character-specific adult registers rather than sharing `fuck/fucking` as a default intensifier.
 
