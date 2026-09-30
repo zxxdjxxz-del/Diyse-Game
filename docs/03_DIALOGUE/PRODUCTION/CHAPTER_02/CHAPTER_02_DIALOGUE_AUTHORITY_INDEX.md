@@ -125,7 +125,7 @@ No profanity is inserted by quota. Prisoner contact, medical instructions, and c
 
 ## Natural uncertainty / canon-checker speech — CLOSED
 
-Current active Beats 1–5, 7–16 + C05 audit finds **zero targeted canon-checker constructions**.
+Current active **B01–B15 + C05** audit finds **zero targeted canon-checker constructions**.
 
 The pass removed or naturalized constructions such as:
 - Beat 1's `Important distinction`;
@@ -164,7 +164,7 @@ State-based brevity remains valid in covert movement, suspense, combat and priso
 Spoken-dialogue rule:
 > **The environment shows. Evidence owners interpret. Authority figures decide. Characters react. Nobody recites the scene back to the player.**
 
-Material spoken-vs-narration revisions remain in force in Beats 2, 5, 10, 13, 14 and 16.
+Material spoken-vs-narration revisions remain in force in the current B01–B15 atomics; retired pre-consolidation beat numbers do not define live scene identity.
 
 ## Material ensemble corrections already current
 
