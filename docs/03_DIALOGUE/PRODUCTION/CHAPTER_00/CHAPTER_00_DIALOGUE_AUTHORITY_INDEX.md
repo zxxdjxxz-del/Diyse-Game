@@ -108,7 +108,7 @@ Material prior corrections remain in force, including:
 - Cyanis is solo initially.
 - Ilyra joins combat in B04.
 - B05 Ruin Vanguard Pursuer is Cyanis + Ilyra.
-- B06 Riftmaw + War-Sorcerer is Cyanis + Ilyra.
+- B06 Riftmaw + Battle Sorcerer is Cyanis + Ilyra.
 - no random encounter table is introduced into Chapter 0.
 - Card first/second flare remains incomplete/unclassified.
 - no levels are gained in Chapter 0.
