@@ -176,7 +176,7 @@ Current locks:
 - Cyanis solo initially;
 - Ilyra joins combat in B04;
 - B05 Ruin Vanguard Pursuer = Cyanis + Ilyra;
-- B06 Riftmaw + War-Sorcerer = Cyanis + Ilyra;
+- B06 Riftmaw + Battle Sorcerer = Cyanis + Ilyra;
 - no random encounter table;
 - Card flares remain incomplete/unclassified;
 - no Chapter-0 levels.
