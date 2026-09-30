@@ -54,8 +54,8 @@ Watch Captain Frame is **not** part of the current Hollow Watch roster or format
 The former Chapter-1 body/action package below is historical tuning evidence only.
 
 
-## Current Chapter-1 party reference
-Watch Captain Frame is encountered in Hollow Watch against exactly:
+## Historical Chapter-1 party reference
+Under the retired Chapter-1 placement, Watch Captain Frame was encountered in Hollow Watch against exactly:
 - Cyanis;
 - Ilyra;
 - Torren.
@@ -63,14 +63,14 @@ Watch Captain Frame is encountered in Hollow Watch against exactly:
 Maximum active combatants:
 > **3**
 
-Maevra is noncombat. Do not validate this normal-pool encounter against a four-character party.
+Maevra was noncombat in that retired context. This section is historical tuning evidence only.
 
-## v77 mandatory-vs-completionist validation
+## Historical v77 mandatory-vs-completionist validation
 Actual Hollow Watch access is approximately Lv2 mandatory / Lv3 high-side, not end-Chapter-1 Lv5.
 
 The inherited 820-HP body exceeded its previous 2–4 serious-round Elite-strength target at that route point.
 
-Current active correction:
+Historical active correction at the time:
 > **HP 820 → 500**
 
 All non-HP raw stats, action Power values, status rules, and Watchline Guard remain unchanged.
@@ -78,7 +78,7 @@ All non-HP raw stats, action Power values, status rules, and Watchline Guard rem
 Owning validation:
 `../../16_BALANCE_AND_TESTING/BALANCE/CHAPTER_01_MANDATORY_COMPLETIONIST_VALIDATION.md`
 
-## Current normal-pool behavior lock
+## Historical normal-pool behavior reference
 - Captain Edge / Signal Burst / Locking Thrust use the normal action-selection fallback when legal.
 - Signal Burst and Locking Thrust retain their existing repetition locks.
 - Watchline Guard is legal only while its own Defense/Spirit increase is not already active and never stacks with itself.
@@ -87,21 +87,21 @@ Owning validation:
 - Formation role: the strong body in a normal construct formation, not a scripted mini-boss AI package.
 
 
-## Chapter-3 Cresthaven carryover lock — 2026-09-23
-Watch Captain Frame returns as a **strong normal-pool construct** in the Cresthaven Ancient tower base.
+## Historical Chapter-3 Cresthaven carryover — SUPERSEDED 2026-09-27
+Under the superseded September 23 roster, Watch Captain Frame returned as a **strong normal-pool construct** in the Cresthaven Ancient tower base. Current Chapter 3 explicitly retires this placement.
 
-Placement:
+Historical placement:
 - late Tower Foundation — rare eligibility;
 - Command Interior — primary eligibility;
 - never more than **1 Watch Captain Frame per formation**;
 - not used in the Warden Chamber.
 
-Its established action grammar remains:
+The historical carryover action grammar was:
 - Captain Edge;
 - Signal Burst;
 - Locking Thrust;
 - Watchline Guard.
 
-It does not gain Targeting Signal and does not amplify Hollow Watch Sentry / Ballista links.
+Under that superseded carryover, it did not gain Targeting Signal and did not amplify Hollow Watch Sentry / Ballista links.
 
-The Chapter-3 body requires fresh four-person-party tuning rather than reusing the Chapter-1 Lv6 body unchanged.
+This former Chapter-3 placement no longer awaits current validation. Any future reintroduction requires explicit chapter authority and fresh tuning.
