@@ -13,7 +13,7 @@ Legacy `S001–S006` and the obsolete Chapter-0 `C02` presentation sidecar are r
 Critical split:
 - B05 is the separate concealed Ruin Vanguard/Seyrik encounter;
 - a real noncombat perimeter/triage reset follows;
-- B06 is the combined Riftmaw + War-Sorcerer final boss.
+- B06 is the combined Riftmaw + Battle Sorcerer final boss.
 
 All Chapter-0 presentation sidecars preserve the no-random-encounter rule.
 
