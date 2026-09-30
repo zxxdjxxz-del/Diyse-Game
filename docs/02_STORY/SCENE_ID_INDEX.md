@@ -6,20 +6,24 @@
 
 ## Scene-ID rule after Dialogue Engine restructuring
 
-A retained S### range identifies stable legacy **scene-routing IDs** still present in current implementation resources. It does **not** mean the historical exact transcript remains current wording, and it does not override a newer completed chapter manuscript/structure.
+Scene-ID status is chapter-specific.
+
+- **Chapters 0–3:** the live generated runtime mirror already uses the current B/C production IDs. Earlier S### ranges are historical/provenance identifiers only and are not live runtime routing.
+- **Chapter 4:** current production authority uses B01–B12 scene specs, but exact current runtime dialogue has not yet been promoted; legacy S022–S026 material remains proof/compatibility provenance only.
+- **Later chapters:** retain only the S### anchors explicitly listed below until their current dialogue/runtime migrations are authored.
 
 Current all-dialogue regeneration/experiment authority applies:
 - current `02_STORY` structure owns what each scene function must accomplish;
 - `03_DIALOGUE` owns generated/approved spoken wording;
 - historical line-complete dialogue is reference/provenance only unless an individual exact line is explicitly preserved by current authority;
-- when a newer production manuscript uses different scene labels, those labels may coexist with legacy runtime S### IDs until an explicit implementation migration rewires Resources/tests.
+- for Chapters 0–3, `game/content/dialogue/current/manifest.json` is the implementation routing manifest and retired S### IDs must not be reconstructed as live dependencies.
 
 | Chapter | Mandatory scene IDs | Current routing status |
 |---|---|---|
 | Ch0 | **B01–B07** | **current mandatory production/runtime IDs; optional Character-Life C01 is also live** |
-| Ch1 | S007–S011 | **IDs retained; current lean structure controls; detailed beat→S### routing requires current mapping where not explicit** |
-| Ch2 | S012–S016 | **IDs retained; current lean structure/dialogue regeneration controls** |
-| Ch3 | S017–S021 | **IDs retained; current lean structure/dialogue regeneration controls** |
+| Ch1 | **B01–B12** | **current mandatory production/runtime IDs; Character-Life C02–C04 are also live** |
+| Ch2 | **B01–B15** | **current mandatory production/runtime IDs; Character-Life C05 is also live** |
+| Ch3 | **B01–B11** | **current mandatory production/runtime IDs; Character-Life C06–C07 are also live** |
 | Ch4 | S022–S026 | **legacy implementation-compatibility IDs only; current production uses B01–B12, and no one-to-one S### → B## mapping should be inferred until an explicit runtime migration is authored** |
 | Ch5 | current detailed S-range not promoted here | beat/macro authority |
 | Ch6 | includes S035 / S036 inherited anchors | macro/beat authority |
