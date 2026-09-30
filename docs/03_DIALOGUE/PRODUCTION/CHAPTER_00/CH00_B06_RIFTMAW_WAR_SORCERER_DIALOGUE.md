@@ -1,5 +1,5 @@
 # Chapter 0 — B06
-# Riftmaw + War-Sorcerer / Final Broken Convoy Confrontation
+# Riftmaw + Battle Sorcerer / Final Broken Convoy Confrontation
 ## REHEARSAL-FIRST PRODUCTION DRAFT — PERSON-BRAIN PERFORMANCE PASS
 
 ---
@@ -10,7 +10,7 @@ The noncombat reset from B05 has had time to breathe.
 
 The recovered Card is still inside its damaged recovery casing and remains inert when the final push begins.
 
-The War-Sorcerer advances on the treatment/evacuation line with **Riftmaw**, visibly a Black Host war-beast asset in restraint/harness context.
+The Battle Sorcerer advances on the treatment/evacuation line with **Riftmaw**, visibly a Black Host war-beast asset in restraint/harness context.
 
 This is the single combined final boss encounter for Chapter 0.
 
@@ -58,7 +58,7 @@ Cyanis forces himself to actually check rather than wave her off.
 
 **CYANIS:** I will.
 
-The War-Sorcerer and Riftmaw continue closing on the camp.
+The Battle Sorcerer and Riftmaw continue closing on the camp.
 
 Cyanis looks at the temporary protection.
 
@@ -114,7 +114,7 @@ The Card itself remains intact.
 
 ### [BOSS VICTORY]
 
-Riftmaw and the War-Sorcerer are defeated in the same encounter.
+Riftmaw and the Battle Sorcerer are defeated in the same encounter.
 
 Remaining organized Black Host pressure breaks contact and withdraws.
 
@@ -256,7 +256,7 @@ Scene ends.
 
 ## B06 end state
 
-Riftmaw and the Convoy War-Sorcerer are defeated in the combined final encounter. The second incomplete Card flare has occurred and fully ended. The recovery casing breaks during the fight; the Card survives intact and Cyanis picks it up afterward. From here through B07, camp cleanup, departure, and Chapter 1, the group carries the Card itself. Nobody has identified the phenomenon as Prime, Might, Last Sentinel, bearer confirmation, an ancient weapon, or anything Entity-related.
+Riftmaw and the Battle Sorcerer are defeated in the combined final encounter. The second incomplete Card flare has occurred and fully ended. The recovery casing breaks during the fight; the Card survives intact and Cyanis picks it up afterward. From here through B07, camp cleanup, departure, and Chapter 1, the group carries the Card itself. Nobody has identified the phenomenon as Prime, Might, Last Sentinel, bearer confirmation, an ancient weapon, or anything Entity-related.
 
 ## Person-Brain performance note
 
