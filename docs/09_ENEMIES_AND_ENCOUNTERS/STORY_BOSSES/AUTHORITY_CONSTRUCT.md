@@ -2,7 +2,7 @@
 
 **Chapter:** 3  
 **Current location:** Cresthaven Ancient tower base — Warden Chamber  
-**Role:** mandatory Beat-14 chapter-climax boss  
+**Role:** mandatory Beat-10 Cresthaven tower-base boss  
 **Status:** **IDENTITY / ONE-BAR ARCHITECTURE / ACTION GRAMMAR LOCKED — CURRENT FOUR-PERSON REVALIDATION REQUIRED**
 
 ## Current party
@@ -239,7 +239,7 @@ are **historical starting points, not current certification**.
 The Warden moved from the retired Caelora command route to the end of the Cresthaven tower-base dungeon, and Chapter-3 progression / encounter structure changed substantially.
 
 Fresh validation must determine:
-- actual Beat-14 mandatory level;
+- actual Beat-10 mandatory level;
 - completionist / high-side level;
 - HP and raw stat line;
 - Command Ring durability;
