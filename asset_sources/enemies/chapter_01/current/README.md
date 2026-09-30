@@ -27,7 +27,7 @@ Exact dimensions, source/generation identity, byte size, SHA-256, and binary-syn
 - Rootmaw → **Burrowclaw**
 - Rubbleback → **Barkling**
 
-These are **asset-source reconciliation mappings only**. They do not mean the current enemies inherit retired encounter roles. Watch Captain Frame is retired from Chapter 1 and has no Chapter-1 rename/successor mapping; Construct is its own current ordinary underground identity. Watch Castellan is likewise retired with no successor mapping; Shield Construct is its own separately locked fixed/authored encounter and is explicitly **not a miniboss**. **Thornhide Stalker remains the current Chapter-1 boss identity; `thornhide.png` is named for the Thornhide species, not a renamed boss.**
+These are **asset-source reconciliation mappings only**. They do not mean the current enemies inherit retired encounter roles. Watch Captain Frame is retired from Chapter 1 and has no Chapter-1 rename/successor mapping; Construct is its own current ordinary underground identity. Watch Castellan is likewise retired with no successor mapping; Shield Construct is its own separately locked fixed/authored encounter and is explicitly **not a miniboss**. **Thornhide** is the current Chapter-1 boss identity and species name. **Thornhide Stalker → Thornhide** is a true retired-name → current-name mapping.
 - **Watch Sentry** removed
 - **Watch Ballista** removed
 - **Cistern Devourer** removed
