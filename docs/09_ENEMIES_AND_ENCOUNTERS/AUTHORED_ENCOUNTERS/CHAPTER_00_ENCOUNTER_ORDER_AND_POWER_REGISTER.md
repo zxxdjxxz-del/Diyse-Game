@@ -19,7 +19,7 @@ Chapter 0 uses **two separate incomplete-response flares**.
 
 - **First flare:** occurs during S004's triage crisis and fully subsides before the next combat.
 - **Ruin Vanguard Pursuer / concealed Seyrik:** no Card-derived protection.
-- **Second flare:** returns only for the combined Riftmaw + War-Sorcerer final confrontation and owns the current three-round Defense / Spirit bonus.
+- **Second flare:** returns only for the combined Riftmaw + Battle Sorcerer final confrontation and owns the current three-round Defense / Spirit bonus.
 - neither flare is a Prime action, Prime manifestation, selectable Card command, or bearer confirmation.
 
 ## Mandatory-resource baseline
