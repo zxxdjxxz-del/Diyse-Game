@@ -31,7 +31,7 @@
 - Riftmaw current raw HP: **340**; action Powers unchanged pending moved-party-state revalidation.
 - Chapter 0 inflicts no harmful party statuses.
 - Enemy direct-damage Power completeness remains closed.
-- **Difficulty validation is reopened for the expanded five-fight Cyanis-solo sequence, the current Cyanis + Ilyra Seyrik encounter, and the combined Riftmaw + War-Sorcerer final boss.**
+- **Difficulty validation is reopened for the expanded five-fight Cyanis-solo sequence, the current Cyanis + Ilyra Seyrik encounter, and the combined Riftmaw + Battle Sorcerer final boss.**
 
 Exact current encounter authority:
 `../AUTHORED_ENCOUNTERS/CHAPTER_00_ENCOUNTER_ORDER_AND_POWER_REGISTER.md`
@@ -89,7 +89,7 @@ Locks:
 - no injured Iron Cohort Soldier;
 - second incomplete Card flare provides the current opening Defense/Spirit protection;
 - recovery casing breaks during this encounter under story authority;
-- both Riftmaw and the War-Sorcerer are defeated in the same fight.
+- both Riftmaw and the Battle Sorcerer are defeated in the same fight.
 
 ## Numerical boundary
 Chapter-0 enemy raw bodies and direct-damage Power remain exact in their owning files unless separately reopened.
@@ -100,8 +100,8 @@ Riftmaw:
 Ruin Vanguard Pursuer:
 > **CURRENT / AUTHORED PROTECTED / SEYRIK CONCEALED / MOVED AFTER ILYRA JOINS**
 
-Final War-Sorcerer confrontation:
-> **CURRENT / POWER COMPLETE / COMBINED RIFTMAW + WAR-SORCERER FINAL BOSS**
+Final Battle Sorcerer confrontation:
+> **CURRENT / POWER COMPLETE / COMBINED RIFTMAW + BATTLE SORCERER FINAL BOSS**
 
 Structural enemy/encounter status:
 > **CLOSED — roster / order / spacing / party state / behavior**

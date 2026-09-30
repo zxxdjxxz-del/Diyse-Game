@@ -824,7 +824,7 @@ Black Host battlefield caster attached to the convoy-interception force.
 No armor glow. No luminous channels.
 
 ## Exact officer-adjacent armor derivation
-The War-Sorcerer should look like a **refined command/specialist evolution** of the Raider baseline, not a robe-wearing outsider.
+The Battle Sorcerer should look like a **refined command/specialist evolution** of the Raider baseline, not a robe-wearing outsider.
 
 Torso:
 - central sternum plate remains;
@@ -889,7 +889,7 @@ A catalyst gauntlet or similar issued focus may support the design, but the unit
 ## Signature read
 - combat officer / battle mage;
 - organized army member;
-- war-sorcerer, not cultist or necromancer.
+- battle sorcerer, not cultist or necromancer.
 
 ## Motion / animation
 - deliberate aiming gestures;

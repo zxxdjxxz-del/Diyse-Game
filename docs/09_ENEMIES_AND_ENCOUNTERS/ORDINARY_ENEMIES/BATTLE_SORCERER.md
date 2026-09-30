@@ -3,7 +3,7 @@
 **Chapter:** 0 — P06 combined final Broken Convoy confrontation  
 **Status:** **POWER COMPLETE / AUTHORED STORY BODY**
 
-This is the exact War-Sorcerer used in the current P06 combined final boss with Riftmaw.
+This is the exact Battle Sorcerer used in the current P06 combined final boss with Riftmaw.
 
 ## Body
 | Lv | HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR |
@@ -32,9 +32,9 @@ Availability:
 > **Round 2 or later only**
 
 Rules:
-- consumes the War-Sorcerer's selected action;
+- consumes the Battle Sorcerer's selected action;
 - can be selected only if no Rift Lance is currently prepared;
-- once selected, locks **Rift Lance** as the War-Sorcerer's next selected action if the War-Sorcerer remains able to act;
+- once selected, locks **Rift Lance** as the Battle Sorcerer's next selected action if the Battle Sorcerer remains able to act;
 - **once per battle**;
 - no free action;
 - no prediction of player commands.
@@ -56,8 +56,8 @@ The Battle Sorcerer is one of two mandatory bodies in P06:
 
 Victory requires both bodies to be defeated.
 
-At War-Sorcerer 0 HP:
-- the War-Sorcerer is defeated;
+At Battle Sorcerer 0 HP:
+- the Battle Sorcerer is defeated;
 - the battle continues if Riftmaw remains active;
 - no second wave occurs.
 
@@ -70,13 +70,13 @@ No Prime refresh.
 The final Broken Convoy confrontation uses:
 > **Riftmaw + Battle Sorcerer**
 
-The injured Iron Cohort Soldier is not part of the Chapter-0 combat roster. There is no separate Riftmaw fight and no separate later War-Sorcerer fight.
+The injured Iron Cohort Soldier is not part of the Chapter-0 combat roster. There is no separate Riftmaw fight and no separate later Battle Sorcerer fight.
 
 ## P06 behavior lock
 - Round 1: Rift Lance Preparation is illegal.
 - Round 2 onward: Rift Lance Preparation becomes eligible if it has not been used and no Rift Lance is already prepared.
-- Selecting Rift Lance Preparation consumes the War-Sorcerer's action exactly as authored.
-- Once prepared, **Rift Lance is forced as the War-Sorcerer's next selected action** if the War-Sorcerer remains able to act.
+- Selecting Rift Lance Preparation consumes the Battle Sorcerer's action exactly as authored.
+- Once prepared, **Rift Lance is forced as the Battle Sorcerer's next selected action** if the Battle Sorcerer remains able to act.
 - Rift Lance selects equally between conscious Cyanis and Ilyra when that forced action is selected; preparation does not secretly pre-mark or focus a target.
 - Shard Volley retains its 2-round repetition lock.
 - When no forced Rift Lance exists, currently legal War-Sorcery Bolt / Shard Volley / eligible Preparation use the normal action-selection fallback.
