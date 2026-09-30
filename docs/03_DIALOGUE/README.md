@@ -46,7 +46,7 @@ Route conversations use authored stop triggers with movement/input paused. Battl
 
 - **Chapter 0 — COMPLETE CURRENT WORKING PRODUCTION**  
   `PRODUCTION/CHAPTER_00/CHAPTER_00_DIALOGUE_MANUSCRIPT.md`
-- **Chapter 1 — LOCKED CURRENT WORKING PRODUCTION — SYNCHRONIZED 2026-09-19**  
+- **Chapter 1 — LOCKED CURRENT WORKING PRODUCTION — SYNCHRONIZED 2026-09-25**  
   `PRODUCTION/CHAPTER_01/CHAPTER_01_DIALOGUE_MANUSCRIPT.md`
 - **Chapter 2 — COMPLETE CURRENT WORKING PRODUCTION**  
   `PRODUCTION/CHAPTER_02/CHAPTER_02_DIALOGUE_MANUSCRIPT.md`
@@ -70,7 +70,7 @@ Current synchronization contract:
 - generated directly from current production atomics;
 - source and spoken-sequence hashes recorded in `game/content/dialogue/current/manifest.json`;
 - validated in Godot by `tests/dialogue/validate_current_dialogue_resources.gd`;
-- the older sibling `game/content/dialogue/chapter_00` through `chapter_03` S-scene Resources are legacy implementation/proof assets and are not current spoken-wording authority.
+- the former direct `game/content/dialogue/chapter_00` through `chapter_03` runtime folders are retired from the live tree and recoverable through Git history; only `current/` is the live generated mirror, while `proof/` remains non-authoritative.
 
 Regenerate/check with:
 
@@ -118,6 +118,6 @@ Embedded scene notes may mention mechanics or story structure for context, but t
 
 1. Current Face list is **Might / Elements / Grace / Perception / Memory / Ruin**.
 2. Chapter 0 uses two distinct incomplete green-and-gold Card responses; neither is a Prime activation.
-3. The recovery casing breaks during Chapter 0 P06; the Card itself survives intact and is carried directly afterward.
+3. The recovery casing breaks during Chapter 0 B06; the Card itself survives intact and is carried directly afterward.
 4. Chapter 1 C03 preserves the `old slut` / `old cut` misunderstanding and the protected `Old slut?` / `Bitch.` exchange within current early Cyanis/Torren relationship timing.
-5. Chapter 1 C05 is `Not Professionally`: Ilyra changes Maevra's splint; limited magic eases pain/strain but cannot mend the broken bone; the private conversation turns to Maevra and Torren.
+5. Chapter 1 C04 is `Not Professionally`: Ilyra changes Maevra's splint; limited magic eases pain/strain but cannot mend the broken bone; the private conversation turns to Maevra and Torren.
