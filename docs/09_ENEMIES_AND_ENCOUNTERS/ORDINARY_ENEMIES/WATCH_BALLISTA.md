@@ -67,28 +67,26 @@ Single-target Snap Bolt selection is equal among conscious active party members.
 No hidden focus-fire rule is added.
 
 
-## Chapter-3 Cresthaven carryover lock — 2026-09-23
-Watch Ballista returns as an ordinary fixture construct in the **Cresthaven Ancient tower base**.
+## Historical Chapter-3 Cresthaven carryover — SUPERSEDED 2026-09-27
+Under the superseded September 23 roster, Watch Ballista returned as an ordinary fixture construct in the **Cresthaven Ancient tower base**. Current Chapter 3 explicitly retires this placement.
 
 The established linked behavior remains:
 - Snap Bolt;
 - Marked Heavy Bolt after a completed Watch Sentry Targeting Signal;
 - Reload after firing.
 
-Chapter-3 placement:
+Historical Chapter-3 placement:
 - Tower Foundation — primary fit;
 - Command Interior — eligible where fixed defensive emplacements make spatial sense;
 - not used in the final Warden Chamber.
 
 Do not convert the Ballista into a mobile construct.
 
-Chapter-3 body/tuning requires fresh validation and must not blindly reuse the Chapter-1 raw body.
+This former Chapter-3 placement no longer awaits current validation. Any future reintroduction requires explicit chapter authority and fresh tuning.
 
 
 ## Naming correction — 2026-09-23
-This reusable Ancient-defense chassis is no longer named after the Hollow Watch location.
+Historical note: this reusable Ancient-defense chassis was intended for reuse beyond Hollow Watch.
 
-Current canonical identity:
-> **Watch Ballista**
-
-The former Hollow Watch-specific name is retired.
+Identity note:
+> **Watch Ballista** remains the historical/current identity name where explicitly reintroduced; Chapter 1 and current Chapter 3 do not actively place it.
