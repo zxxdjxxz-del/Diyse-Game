@@ -12,7 +12,7 @@ Current authored combat order:
 
 **Cyanis solo**
 1. Black Host Raider + Black Host Crossbowman;
-2. Black Host Raider + Ruin Shieldbearer;
+2. Black Host Raider + Black Host Shieldbearer;
 3. 2 War Hounds;
 4. Black Host Crossbowman + War Hound;
 5. 1 War Hound.
@@ -100,7 +100,7 @@ Approximate direct damage under the current formula before crits or temporary de
 |---|---:|---:|---:|
 | Ch0 Raider | 46.8 | 65.5 | 55.2 |
 | Crossbowman | 47.5 | 66.5 | 55.2 |
-| Ruin Shieldbearer | 41.3 | 57.8 | 49.0 |
+| Black Host Shieldbearer | 41.3 | 57.8 | 49.0 |
 | Beast Handler / War Hound | 43.6 | 61.0 | ~50–51 |
 | Ruin Vanguard Pursuer | 38.7 | 54.2 | 45.3 |
 | Riftmaw | 38.7 | 54.2 | 45.3 |
