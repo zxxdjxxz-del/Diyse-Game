@@ -346,10 +346,10 @@ Cloth:
 - no long cape.
 
 ## Head / face
-- same basic issued helmet family as Raider or a lighter hood-helm derivative;
-- narrow non-glowing visor;
-- lower face may use dark cloth protection;
-- anonymous and uniformed.
+- same issued Black Host helmet family and small-horn language as the Raider;
+- **larger non-glowing face/visor opening than the Raider**;
+- helmet remains practical and uniformed rather than hooded/rogue-like;
+- anonymous military read is preserved without reducing the opening back to the Raider's narrower treatment.
 
 ## Weapon
 - compact Black Host military crossbow;
