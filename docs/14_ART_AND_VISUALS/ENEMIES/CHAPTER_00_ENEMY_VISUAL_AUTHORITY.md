@@ -75,15 +75,18 @@ Only the highest Black Host commanders may carry luminous armor channels, and th
 
 Do not make Chapter-0 line troops look like miniature Entities, heroic knights, flamboyant fantasy villains, cultists, or generic glossy-gacha soldiers.
 
-## Rift beasts
+## Black Host war-beasts
 Shared visual language:
 - visibly living creatures;
 - recognizable animal/predator anatomy first;
-- wrong or Ruin-adjacent characteristics second;
 - not undead;
 - not pure demons;
 - not amorphous goo monsters;
-- Black Host war-beast handling may leave practical restraint/harness evidence.
+- Black Host handling may leave practical restraint/harness evidence.
+
+Identity split:
+- **War Hound is entirely natural** — no Rift effects, Ruin mutation, supernatural anatomy, or corruption;
+- **Riftmaw is the Rift-altered war-beast** — wrong / Ruin-adjacent characteristics belong to Riftmaw rather than the War Hound.
 
 ## Concealed elite threat
 The Ruin Vanguard Pursuer is visually distinct from line troops:
