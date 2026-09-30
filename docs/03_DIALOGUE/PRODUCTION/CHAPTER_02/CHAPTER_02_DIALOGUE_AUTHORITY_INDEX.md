@@ -3,7 +3,7 @@
 **Chapter:** 2 — The Drowned Oath  
 **Status:** **FULL SOURCE-LEVEL DIALOGUE CLOSURE — 2026-09-23 NATURALISM / MANDATORY TIGHTENING / C05 PASS COMPLETE**
 **Primary story authority:** `../../../02_STORY/CHAPTERS/CHAPTER_02.md`  
-**Beat-development authority:** `../../../02_STORY/CHAPTERS/CHAPTER_02_BEAT_DEVELOPMENT_WORKING.md`  
+**Beat-structure authority:** `../../../02_STORY/CHAPTERS/CHAPTER_02_BEAT_STRUCTURE.md`  
 **Character-Life numbering:** `../CHARACTER_LIFE_NUMBERING_LOCK.md`  
 **Rhythm:** `../../AGENT_SYSTEM/NATURAL_TURN_LENGTH_AND_FLOOR_HOLDING_LOCK.md`  
 **Mature-adult speech:** `../../AGENT_SYSTEM/MATURE_ADULT_SPEECH_AND_PROFANITY_LOCK.md`  
