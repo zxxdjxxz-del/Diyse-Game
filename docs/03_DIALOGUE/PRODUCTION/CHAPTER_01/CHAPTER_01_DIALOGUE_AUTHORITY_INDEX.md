@@ -168,7 +168,7 @@ Chapter 1 also retains the project-wide rule:
 - combined manuscript — **CURRENT SYNCHRONIZED DERIVED MIRROR**;
 - current Person-Brain compatibility — **PRESERVED THROUGH STRUCTURAL PASS**;
 - exact-dialogue reader — **CURRENT: `DIYSE_Chapters_0-3_Spoiler_Free_Exact_Dialogue_Reader_CURRENT_2026-09-25.docx`**; older unnumbered/numbered readers are historical snapshots;
-- legacy implementation dialogue resources — **DERIVED / require later synchronization**.
+- current runtime dialogue mirror under `game/content/dialogue/current/` — **CURRENT SYNCHRONIZED DERIVED MIRROR**; proof/legacy resources do not outrank it.
 
 ## Conflict order
 
