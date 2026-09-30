@@ -82,14 +82,14 @@ If any brain changes, reread it before finalizing/revising affected dialogue.
 
 ### Ilyra
 - **Blue Warden only in Chapter 3**; Vowblade is locked until **Sixfold Volition at the end of Chapter 7**;
-- whole adult personality: dry, curious, skeptical, profane, capable of pettiness and humor; long-form editorial calibration roughly **9–20%**;
+- whole adult personality: dry, curious, skeptical, profane, capable of pettiness and humor; long-form editorial calibration roughly **7–16%**;
 - not party therapist/mother/safety monitor;
 - Grace is not a dialogue assignment.
 
 ### Torren
 - **War Archer only in Chapter 3**; Routeweaver is locked until **Sixfold Volition at the end of Chapter 7**;
 - Chapter-3 comfort with Cyanis/Ilyra does not reset to early terseness;
-- can joke, swear, argue, tell stories, and hold the floor; long-form editorial calibration roughly **7–16%**;
+- can joke, swear, argue, tell stories, and hold the floor; long-form editorial calibration roughly **9–20%**;
 - Torren/Nimera are **first contact / early competence respect only** in Chapter 3;
 - no paternal shorthand, dad jokes, or possessive father behavior.
 
