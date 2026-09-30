@@ -23,7 +23,7 @@ The accumulating Chapter-0 enemy visual file should contain **only explicitly ap
 Currently locked:
 1. Black Host Raider
 2. Black Host Crossbowman
-3. Ruin Shieldbearer
+3. Black Host Shieldbearer
 4. War Hound
 5. Ruin Vanguard Pursuer / concealed Seyrik
 6. Battle Sorcerer
