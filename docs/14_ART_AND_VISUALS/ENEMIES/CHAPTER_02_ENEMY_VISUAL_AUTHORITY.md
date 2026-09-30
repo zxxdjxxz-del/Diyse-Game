@@ -27,6 +27,17 @@ Scriptshade has moved to Chapter 3 and is not part of the Chapter-2 exact-source
 
 ## Reused existing masters
 
-Chapter 2 also reuses previously locked masters where encounter authority calls for them: Needlewing, Black Host Raider, Black Host Crossbowman, Black Host Shieldbearer, War Hound, and Battle Sorcerer.
+Chapter 2 also reuses exact locked masters owned by earlier chapter asset folders. Do **not** duplicate these binaries into the Chapter-2 folder.
+
+| Enemy | Exact approved master | Chapter-2 status |
+| --- | --- | --- |
+| Needlewing | [needlewing.png](../../../asset_sources/enemies/chapter_01/current/needlewing.png) | Locked carryover |
+| Black Host Raider | [black_host_raider.png](../../../asset_sources/enemies/chapter_00/current/black_host_raider.png) | Locked carryover |
+| Black Host Crossbowman | [black_host_crossbowman.png](../../../asset_sources/enemies/chapter_00/current/black_host_crossbowman.png) | Locked carryover |
+| Black Host Shieldbearer | [black_host_shieldbearer.png](../../../asset_sources/enemies/chapter_00/current/black_host_shieldbearer.png) | Locked carryover |
+| War Hound | [war_hound.png](../../../asset_sources/enemies/chapter_00/current/war_hound.png) | Locked carryover |
+| Battle Sorcerer | [battle_sorcerer.png](../../../asset_sources/enemies/chapter_00/current/battle_sorcerer.png) | Locked carryover |
+
+The Chapter-2 manifest records these as `carryover_visuals` and preserves exact-source ownership in the earlier chapter folders.
 
 A generated image becomes exact authority only after explicit approval and fingerprint registration. Never re-encode or alter an approved master during repository sync.
