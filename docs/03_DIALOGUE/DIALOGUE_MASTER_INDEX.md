@@ -60,7 +60,7 @@ A conversational turn may be a fragment, one sentence, several connected sentenc
 > **Leadership is not a dialogue assignment.**
 
 Current runtime identity:
-- Crest Knight / **Crest Magus**.
+- Crest Knight / **Crest Arcanist**.
 
 He may lead, decide, joke, argue, volunteer an opinion, be wrong, revise, or stay quiet. He is not the automatic question-feed for specialists or the automatic plot-synthesis voice.
 
@@ -267,7 +267,7 @@ Nimera joins permanently in Beat 5. Torren/Nimera remain first-contact/new-acqua
 # Source-closure corrections completed on 2026-09-13
 
 Upstream runtime-brain fixes:
-- Cyanis — Crest Magus + non-question-feed guardrail;
+- Cyanis — Crest Arcanist + non-question-feed guardrail;
 - Ilyra — removed generic caretaker/risk/agency default;
 - Torren — encoded social progression + non-route personality + Torren/Nimera chronology;
 - Nimera — encoded first-contact Torren timing + later earned paternal bond + adult profanity;
