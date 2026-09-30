@@ -416,7 +416,7 @@ Do not:
 - elaborate the chest/shoulders toward Seyrik's personalized armor tier.
 
 ## Core visual identity
-Heavy Black Host defensive infantry with a Ruin-affiliated edge.
+Heavy Black Host defensive infantry; a reinforced ordinary troop-family specialist rather than a separate Ruin identity.
 
 ## Silhouette
 - broadest ordinary Black Host soldier in Chapter 0;
@@ -485,7 +485,7 @@ Cloth:
 ## Shield
 - large, dark, angular military shield;
 - oppressive and practical;
-- slight Ruin-edged detailing allowed;
+- restrained Black Host angular/hooked detailing allowed;
 - must still look physically functional rather than like a magical prop.
 
 ## Weapon
