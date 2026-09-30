@@ -89,7 +89,7 @@ may promote a scene or story-memory delta into persistent production continuity.
 - Traveling roster: Cyanis + Ilyra + Torren + Nimera.
 - Maevra / Mirena are not default traveling companions.
 - Ivorybridge was already selected in Chapter 3.
-- Last Sentinel is confirmed by the Warden and Cyanis's Card is stable deep Ruby, but **Last Sentinel is not yet Recovered**.
+- Last Sentinel is confirmed by the Authority Construct and Cyanis's Card is stable deep Ruby, but **Last Sentinel is not yet Recovered**.
 - The party knows the Ancient term **Prime Card** exists but does not know what a Prime Card is or does and has not classified Cyanis's Card as one.
 - Last Sentinel's first verified manifestation / Recovered transition occurs in Beat 2, not Beat 1.
 
