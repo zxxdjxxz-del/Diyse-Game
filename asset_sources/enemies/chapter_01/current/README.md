@@ -4,8 +4,12 @@ Canonical destination for exact approved Chapter-1 enemy visual masters.
 
 **Current visual state:** **9 / 9 Chapter-1 masters locked and exact-binary synced.**
 
-The three reused Black Host enemies remain sourced from:
-> `../../chapter_00/current/`
+The three reused Black Host enemies remain sourced from Chapter 0:
+- Black Host Raider → `asset_sources/enemies/chapter_00/current/black_host_raider.png`
+- Black Host Crossbowman → `asset_sources/enemies/chapter_00/current/black_host_crossbowman.png`
+- Black Host Shieldbearer → `asset_sources/enemies/chapter_00/current/black_host_shieldbearer.png`
+
+Do not duplicate those carryover masters into this folder. Their exact source paths are also recorded in `APPROVED_SOURCE_MANIFEST.json`.
 
 ## Locked exact masters
 

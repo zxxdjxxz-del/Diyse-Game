@@ -33,16 +33,18 @@ All nine source files match the manifest's SHA-256, byte size, dimensions, and n
 
 ## Reused Chapter-0 masters
 
-Chapter 1 reuses these exact locked Chapter-0 binaries with no redesign:
-- Black Host Raider;
-- Black Host Crossbowman;
-- Ruin Shieldbearer.
+Chapter 1 reuses these exact locked Chapter-0 binaries with no redesign. Do **not** duplicate them into the Chapter-1 folder.
+
+| Enemy | Exact approved master | Chapter-1 status |
+| --- | --- | --- |
+| Black Host Raider | [black_host_raider.png](../../../asset_sources/enemies/chapter_00/current/black_host_raider.png) | Locked carryover |
+| Black Host Crossbowman | [black_host_crossbowman.png](../../../asset_sources/enemies/chapter_00/current/black_host_crossbowman.png) | Locked carryover |
+| Black Host Shieldbearer | [black_host_shieldbearer.png](../../../asset_sources/enemies/chapter_00/current/black_host_shieldbearer.png) | Locked carryover |
 
 Authority:
 > [CHAPTER_00_ENEMY_VISUAL_AUTHORITY.md](CHAPTER_00_ENEMY_VISUAL_AUTHORITY.md)
 
-Source binaries:
-> [`asset_sources/enemies/chapter_00/current/`](../../../asset_sources/enemies/chapter_00/current/)
+The Chapter-1 manifest records these exact source paths as `carryover_visuals`.
 
 ## Approved roster reconciliation
 
