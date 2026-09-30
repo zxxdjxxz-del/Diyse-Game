@@ -138,7 +138,7 @@ Combined manuscripts, exact-dialogue readers, sync manifests, and runtime resour
 - Chapter 0 mandatory dialogue: `CH00_B01`–`CH00_B07`;
 - Chapter 1 mandatory dialogue: `CH01_B01`–`CH01_B12`;
 - Chapter 2 mandatory dialogue: `CH02_B01`–`CH02_B15`;
-- Chapter 3 mandatory dialogue: `CH03_B01`–`CH03_B15`;
+- Chapter 3 mandatory dialogue: `CH03_B01`–`CH03_B11`;
 - Character-Life: C01–C07;
 - Chapter 4 begins directly under this contract.
 
