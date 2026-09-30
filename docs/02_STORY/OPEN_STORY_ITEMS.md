@@ -7,7 +7,7 @@
 
 Intentionally open / do not guess:
 
-1. Exact full line-complete dialogue for Chapters 5–13 where not already authored.
+1. Exact current rehearsal-first dialogue for Chapters 4–13 where not already authored; Chapter 4 is the active B01–B12 rewrite frontier.
 2. Exact current scene-ID subdivision for Chapters 5–8 where not explicitly re-certified.
 3. Exact formal chapter titles for chapters whose current index exposes only an identity rather than a locked title.
 4. Exact final S049 title in Chapter 9.
