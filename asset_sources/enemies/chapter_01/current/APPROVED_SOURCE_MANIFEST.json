@@ -137,7 +137,9 @@
   "renames": {
     "Briar Boar": "Bullhog",
     "Rootmaw": "Burrowclaw",
-    "Rubbleback": "Barkling",
-    "Thornhide Stalker": "Thornhide"
+    "Rubbleback": "Barkling"
+  },
+  "species_asset_notes": {
+    "Thornhide Stalker": "Current Chapter-1 boss identity; uses thornhide.png because Thornhide is the species name. This is not a rename."
   }
 }
