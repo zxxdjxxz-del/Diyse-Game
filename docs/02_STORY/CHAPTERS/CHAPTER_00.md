@@ -5,7 +5,7 @@
 **Current structural source:** the completed approved/locked Chapter-0 manuscript supplied by the user on 2026-09-08.
 
 **Status:** CURRENT COMPLETED CHAPTER-0 STRUCTURE — **B01 → B02 → B03 → B04 → B05 → B06 → B07 → optional C01**.  
-The former eight-beat split that separated Riftmaw from the final War-Sorcerer confrontation is superseded. **Riftmaw + Battle Sorcerer are now one combined final boss encounter in B06.**
+The former eight-beat split that separated Riftmaw from the final Battle Sorcerer confrontation is superseded. **Riftmaw + Battle Sorcerer are now one combined final boss encounter in B06.**
 
 ---
 
@@ -337,7 +337,7 @@ Do not identify Prime, Might, Last Sentinel, bearer/ownership status, ancient La
 
 ---
 
-## B06 — Riftmaw + War-Sorcerer / Final Broken Convoy Confrontation
+## B06 — Riftmaw + Battle Sorcerer / Final Broken Convoy Confrontation
 
 **Purpose**
 - combine Riftmaw and the Battle Sorcerer into the single final mandatory boss encounter;
@@ -354,7 +354,7 @@ Do not identify Prime, Might, Last Sentinel, bearer/ownership status, ancient La
 - wounded/patients still make control of the camp materially important.
 
 **Final push**
-- War-Sorcerer advances with Riftmaw.
+- Battle Sorcerer advances with Riftmaw.
 - Riftmaw arrives in visible Black Host restraint/harness context; it is not a wild incidental creature.
 - Their advance directly threatens the camp/treatment line.
 
@@ -388,7 +388,7 @@ Locks:
 - the Card itself remains in continuity.
 
 **Post-battle**
-- Riftmaw and War-Sorcerer are defeated in the same encounter.
+- Riftmaw and Battle Sorcerer are defeated in the same encounter.
 - Remaining organized Black Host pressure breaks contact/withdraws.
 - Cyanis does not pursue.
 - Second Card flare fully collapses.
@@ -490,4 +490,4 @@ Party does **not** know:
 - Seyrik Rell's identity as the Ruin Vanguard Pursuer.
 
 ## Final dramatic shape
-**Working convoy / Cyanis competence → ambush → three solo opening fights → Wreck Field rescue + two more solo fights → suspicious north withdrawal → evidence-based refusal of pursuit → triage camp → Ilyra introduced through medical authority → first incomplete Card flare → Ilyra independently joins defense → concealed Seyrik pressure encounter with Card inert → real breathing/reset interval → combined Riftmaw + War-Sorcerer final boss with second incomplete flare + casing break → organized attack breaks → survivor recovery / bounded sweep → most convoy continues → Cyanis + Ilyra remain overnight with the intact Card itself → optional C01 Six Minutes → player explicitly chooses departure → Chapter 1 begins at Brackenwall.**
+**Working convoy / Cyanis competence → ambush → three solo opening fights → Wreck Field rescue + two more solo fights → suspicious north withdrawal → evidence-based refusal of pursuit → triage camp → Ilyra introduced through medical authority → first incomplete Card flare → Ilyra independently joins defense → concealed Seyrik pressure encounter with Card inert → real breathing/reset interval → combined Riftmaw + Battle Sorcerer final boss with second incomplete flare + casing break → organized attack breaks → survivor recovery / bounded sweep → most convoy continues → Cyanis + Ilyra remain overnight with the intact Card itself → optional C01 Six Minutes → player explicitly chooses departure → Chapter 1 begins at Brackenwall.**
