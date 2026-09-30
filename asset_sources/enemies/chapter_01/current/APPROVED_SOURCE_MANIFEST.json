@@ -139,5 +139,10 @@
     "Rootmaw": "Burrowclaw",
     "Rubbleback": "Barkling",
     "Thornhide Stalker": "Thornhide"
+  },
+  "carryover_visuals": {
+    "black_host_raider": "asset_sources/enemies/chapter_00/current/black_host_raider.png",
+    "black_host_crossbowman": "asset_sources/enemies/chapter_00/current/black_host_crossbowman.png",
+    "black_host_shieldbearer": "asset_sources/enemies/chapter_00/current/black_host_shieldbearer.png"
   }
 }
