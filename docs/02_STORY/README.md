@@ -33,7 +33,10 @@ Any `status`, `pass in progress`, or similar wording inside a chapter story file
 Current dialogue production state:
 - Chapter 0 — **COMPLETE CURRENT WORKING PRODUCTION**;
 - Chapter 1 — **COMPLETE CURRENT WORKING PRODUCTION**;
-- Chapters 2–13 — future dialogue production must use the locked Chapter 0–1 rehearsal-first Agent Brain pipeline.
+- Chapter 2 — **COMPLETE CURRENT WORKING PRODUCTION**;
+- Chapter 3 — **COMPLETE CURRENT WORKING PRODUCTION**;
+- Chapter 4 — current B01–B12 story/scene-authority structure exists; exact rehearsal-first dialogue remains **PENDING / OPEN**;
+- Chapters 5–13 — future dialogue production must use the current rehearsal-first Agent Brain pipeline and chapter-specific authoring gates.
 
 Owning forward dialogue lock:
 `../03_DIALOGUE/AGENT_SYSTEM/CHAPTER_0_1_PIPELINE_CONTINUITY_LOCK.md`
@@ -63,8 +66,8 @@ This global rule supersedes older automatic chapter-to-chapter transitions in hi
 **Chapter 13:** final chapter; no following-chapter cleanup and no post-game.
 
 ## Line-complete / dialogue-production status
-- Chapters 0–1: **complete current rehearsal-first production** under `03_DIALOGUE`; historical exact authoring exists but no longer controls current spoken wording where superseded
-- Chapters 2–4: historical exact authoring exists, but reopened/current story authority supersedes incompatible old structure; current dialogue production pending
+- Chapters 0–3: **complete current rehearsal-first production** under `03_DIALOGUE`; historical exact authoring remains provenance only where superseded
+- Chapter 4: current 12-beat B01–B12 story/scene-authority structure is active; exact rehearsal-first dialogue remains pending
 - Chapters 5–9: current macro/beat authority; not all line-complete
 - Chapter 10: detailed story architecture locked
 - Chapters 11–13: macro story authority locked; exact dialogue remains later production
