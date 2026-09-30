@@ -5,14 +5,14 @@
 [resource]
 script = ExtResource("1_scene")
 schema_version = 1
-scene_id = "CH01_B10_THORNHIDE_STALKER"
+scene_id = "CH01_B10_THORNHIDE"
 chapter_id = "chapter_01"
 scene_kind = "mandatory"
-location_id = "LOC_THORNHIDE_STALKER"
+location_id = "LOC_THORNHIDE"
 trigger_id = "trigger.chapter_01.b10"
 completion_flag = "scene.ch01_b10.complete"
 participants = Array[String](["cyanis", "ilyra", "maevra", "torren"])
-story_position = "Chapter 1 — Beat 10 — Thornhide Stalker"
+story_position = "Chapter 1 — Beat 10 — Thornhide"
 scene_mode = "full_authored_stop_scene"
 movement_lock = true
 dialogue_readiness = "GREEN"
@@ -21,7 +21,7 @@ encounter_policy = {"during_scene": "temporarily_suppress_trigger", "after_scene
 return_to_gameplay = {"control_mode": "exploration"}
 cutscene_tier = "C0"
 vfx_tier = "V1"
-authoring_notes = "CURRENT runtime dialogue compiled from docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/CH01_B10_THORNHIDE_DIALOGUE.md. docs/03_DIALOGUE/PRODUCTION is exact spoken-wording authority; legacy S001-S021 Resources are not source authority. Source SHA-256: 9f52f2c811159f6c230865c41325796b86bcfd9e43ee4a3ddd11d676099668dc. Spoken-sequence SHA-256: 31251192e355055c4af39485474d47b082bd68615eb7f9c37830664622f48736. Spoken lines: 20."
+authoring_notes = "CURRENT runtime dialogue compiled from docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/CH01_B10_THORNHIDE_DIALOGUE.md. docs/03_DIALOGUE/PRODUCTION is exact spoken-wording authority; legacy S001-S021 Resources are not source authority. Source SHA-256: 7518f65d81f27cffec63ec9d2c1747eedb70a172373ddd83d73e140409f4896d. Spoken-sequence SHA-256: 31251192e355055c4af39485474d47b082bd68615eb7f9c37830664622f48736. Spoken lines: 20."
 beats = [
 {"beat_id": "CH01_B10_L0001", "speaker_id": "cyanis", "text": "There.", "left": {}, "right": {}, "active_side": "none", "advance_mode": "manual", "cues": {"pause_ms": 80, "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE"], "source_section": "[STORY TRIGGER — FIRST CLEAR SIGHTING]", "source_speaker_label": "CYANIS", "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/CH01_B10_THORNHIDE_DIALOGUE.md", "source_line": 39}},
 {"beat_id": "CH01_B10_L0002", "speaker_id": "torren", "text": "Yeah.", "left": {}, "right": {}, "active_side": "none", "advance_mode": "manual", "cues": {"pause_ms": 80, "interrupt": false, "implementation_flags": ["IN_WORLD_DIALOGUE"], "source_section": "[STORY TRIGGER — FIRST CLEAR SIGHTING]", "source_speaker_label": "TORREN", "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/CH01_B10_THORNHIDE_DIALOGUE.md", "source_line": 43}},

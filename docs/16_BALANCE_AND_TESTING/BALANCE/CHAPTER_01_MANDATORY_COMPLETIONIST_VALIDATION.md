@@ -46,7 +46,7 @@ Chapter 1 has a maximum of **3 active combatants**.
 
 ## Authored encounters
 - **Shield Construct** — fixed authored stronger encounter; not random; not a miniboss
-- **Thornhide Stalker** — mandatory Chapter-1 final boss; Thornhide species; normal lethal victory
+- **Thornhide** — mandatory Chapter-1 final boss; natural Thornhide species; normal lethal victory
 
 There is:
 - no Watch Captain Frame in the current Chapter-1 pool;
@@ -59,7 +59,7 @@ There is:
 - Hollow Watch surface: **3**
 - Hollow Watch underground ordinary encounters: **2 Constructs**
 - Southern Briar: **up to 6**
-- Shield Construct and Thornhide Stalker are outside the random pool
+- Shield Construct and Thornhide are outside the random pool
 
 Current authored Southern-Briar examples are 3–4 bodies. Exact 5–6 body compositions and selection weights remain open.
 
@@ -83,7 +83,7 @@ Current replacements:
 - Rubbleback → **Barkling**
 - old Watch Sentry / Watch Ballista / Watch Captain spread → **Construct** ordinary roster
 - former Castellan slot → no replacement miniboss; only the fixed **Shield Construct** encounter remains
-- Thornhide boss identity → **Thornhide Stalker**; **Thornhide** is the species
+- Thornhide boss identity → **Thornhide**; **Thornhide** is also the species name
 
 ## Numerical firewall
 The following remain open until the campaign level spine is recalibrated:
@@ -104,7 +104,7 @@ After the new level spine is locked:
 2. validate Hollow Watch surface and Construct encounters against the three-character state;
 3. validate the fixed Shield Construct encounter as a stronger normal authored spike, not a boss;
 4. validate Southern Briar including eventual 5–6 body formations;
-5. validate Thornhide Stalker as the normal lethal final boss;
+5. validate Thornhide as the normal lethal final boss;
 6. close EXP/CEXP/G and mandatory/completionist difficulty only after those passes.
 
 Until then, Chapter 1 is structurally current but numerically provisional.

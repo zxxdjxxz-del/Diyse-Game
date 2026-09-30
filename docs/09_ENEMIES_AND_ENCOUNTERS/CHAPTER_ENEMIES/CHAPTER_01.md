@@ -51,7 +51,7 @@ Underground ordinary random encounters use **Construct** only.
 - does not gate/unlock the route.
 
 ### Mandatory boss
-- **Thornhide Stalker** — Chapter-1 main/final boss; Thornhide species; natural wild beast; normal lethal victory.
+- **Thornhide** — Chapter-1 main/final boss; natural wild Greater Beast; normal lethal victory.
 
 ### Optional combat
 - No Chapter-1 Regional Hunt.
@@ -128,8 +128,8 @@ Replaces the old Chapter-1 Watch Sentry / Watch Ballista / Watch Captain Frame s
 Defensive/heavier Construct variant.
 Fixed authored stronger fight, not a miniboss.
 
-### Thornhide Stalker
-Current Chapter-1 final boss of the **Thornhide** species.
+### Thornhide
+Current Chapter-1 final boss. **Thornhide** is both the species name and the boss display identity.
 - exceptionally large native beast;
 - werebear-like body;
 - dense porcupine-like quills;
@@ -166,7 +166,7 @@ Older files may still retain historical raw bodies or art references for superse
 - Southern Briar ordinary formations may scale **up to 6 enemies**.
 - Existing authored 3–4 body formations remain valid; exact 5–6 body compositions/weights are still open for later encounter tuning.
 - Shield Construct is outside the random pool.
-- Thornhide Stalker is outside the random pool.
+- Thornhide is outside the random pool.
 
 Current formation owner:
 `../ENCOUNTER_FORMATIONS/CHAPTER_01_FORMATIONS.md`
