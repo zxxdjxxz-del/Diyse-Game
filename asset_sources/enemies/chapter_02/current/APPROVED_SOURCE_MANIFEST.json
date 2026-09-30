@@ -71,5 +71,13 @@
       "exact_binary_sync": "complete",
       "image_generation_id": "71334361-d976-48b8-b5cd-59a7c39bcbbe"
     }
+  },
+  "carryover_visuals": {
+    "needlewing": "asset_sources/enemies/chapter_01/current/needlewing.png",
+    "black_host_raider": "asset_sources/enemies/chapter_00/current/black_host_raider.png",
+    "black_host_crossbowman": "asset_sources/enemies/chapter_00/current/black_host_crossbowman.png",
+    "black_host_shieldbearer": "asset_sources/enemies/chapter_00/current/black_host_shieldbearer.png",
+    "war_hound": "asset_sources/enemies/chapter_00/current/war_hound.png",
+    "battle_sorcerer": "asset_sources/enemies/chapter_00/current/battle_sorcerer.png"
   }
 }
