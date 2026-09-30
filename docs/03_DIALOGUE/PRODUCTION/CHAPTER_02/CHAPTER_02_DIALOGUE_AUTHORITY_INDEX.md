@@ -107,13 +107,9 @@ C05 `Still Burns` no longer states an exact `twenty-five years` duration. Their 
 
 ## Mature-adult speech — CLOSED
 
-The 2026-09-23 pass brings Chapter 2 into the current differentiated adult-register standard.
+Chapter 2 retains a **PASS** under the September 25, 2026 Person-Brain compatibility audit.
 
-Current Chapter-2 audit:
-- **Cyanis — 15 / 117 = 12.8%** — target **7–14%**;
-- **Ilyra — 8 / 76 = 10.5%** — target **5–12%**;
-- **Torren — 10 / 131 = 7.6%** — target **7–16%**;
-- **Maevra — 3 / 60 = 5.0%** — target **2–6%**.
+Live calibration bands are owned by `../../AGENT_SYSTEM/MATURE_ADULT_SPEECH_AND_PROFANITY_LOCK.md`. The older frozen Chapter-2 ratios are not retained here as current metrics because they were evaluated against superseded calibration bands. Any new numeric profanity audit must be recomputed from the current B01–B15 + C05 atomics.
 
 Vocabulary remains differentiated:
 - Cyanis favors `damn / hell / shit`, with `fuck` remaining a sharper spike;
