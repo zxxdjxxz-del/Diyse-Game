@@ -26,7 +26,7 @@ Retired Chapter-0 combat assumptions:
 - injured Iron Cohort Soldier;
 - solo Cyanis vs Ruin Vanguard Pursuer;
 - solo Cyanis vs Riftmaw;
-- separate Riftmaw and War-Sorcerer boss fights.
+- separate Riftmaw and Battle Sorcerer boss fights.
 
 Revalidation must test cumulative HP/MP/item pressure across all five solo fights, then the current Cyanis + Ilyra P05/P06 states. Existing raw bodies and direct-damage Powers remain retained unless that validation produces an explicit change.
 
@@ -105,7 +105,7 @@ Approximate direct damage under the current formula before crits or temporary de
 | Ruin Vanguard Pursuer | 38.7 | 54.2 | 45.3 |
 | Riftmaw | 38.7 | 54.2 | 45.3 |
 | Injured Soldier | 43.0 | 60.1 | 51.5 |
-| War-Sorcerer | 40.2 | 56.3 | 42.8 |
+| Battle Sorcerer | 40.2 | 56.3 | 42.8 |
 
 ## Historical encounter findings — superseded encounter layout
 ### 0-01 — Opening Line
@@ -170,12 +170,12 @@ Its current durability and damage remain appropriate for a post-boss authored so
 
 No Power/raw adjustment required.
 
-### 0-06 — S005 War-Sorcerer + injured Soldier
-War-Sorcerer HP620 / Soldier HP165.
+### Historical 0-06 — retired S005 Battle Sorcerer + injured Soldier
+Historical structure: Battle Sorcerer HP620 / Soldier HP165.
 
-The War-Sorcerer remains the encounter victory target under the current S005 authority.
+Under that retired S005 structure, the Battle Sorcerer was the encounter victory target.
 
-Baseline two-character basic throughput against the War-Sorcerer is approximately:
+Baseline two-character basic throughput against the Battle Sorcerer is approximately:
 - Cyanis: 40.2
 - Ilyra: 30.2
 - combined: **~70.4 damage per round** before Ability use
