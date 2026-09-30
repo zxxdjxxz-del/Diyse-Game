@@ -40,7 +40,7 @@ Exact wording, banter, profanity, pacing, reactions, and relationship-performanc
 - Ordinary underground enemies are **Constructs only**.
 - **Shield Construct** is a fixed authored stronger encounter. It is **not random and not a miniboss**.
 - Southern Briar remains the chapter's largest natural exploration/combat area.
-- **Thornhide Stalker** is Chapter 1's main/final boss; **Thornhide** is the species name used for tracks/signs and ordinary references.
+- **Thornhide** is Chapter 1's main/final boss and the species name used for tracks/signs and ordinary references.
 
 ## Locked cuts
 Do not restore:
@@ -251,7 +251,7 @@ Wayfinder Junction is the chapter's actual waystone/cartographic monument.
 
 ---
 
-## Beat 10 — Thornhide Stalker
+## Beat 10 — Thornhide
 
 **Purpose**
 - provide Chapter 1's final combat climax;
@@ -260,7 +260,7 @@ Wayfinder Junction is the chapter's actual waystone/cartographic monument.
 
 **Current sequence**
 - first clear sighting occurs immediately before combat;
-- Thornhide Stalker is an exceptionally large Thornhide, visually a massive werebear-like creature covered in porcupine-like quills;
+- Thornhide is an exceptionally large member of its species, visually a massive werebear-like creature covered in porcupine-like quills;
 - its red eyes and other physical traits are natural, not evidence of corruption or control;
 - Thornhide is not corrupted, controlled, mechanized, Black-Host-altered, or wounded by a special device;
 - it blocks/controls the only practical immediate route forward;
@@ -321,7 +321,7 @@ Wayfinder Junction is the chapter's actual waystone/cartographic monument.
 - **CHAPTER 1 END**.
 
 ## Chapter-1 dramatic shape
-**Brackenwall Card custody anomaly → Caelora objective → Maevra seeks Torren → first Briar traversal → Greenhollow / Card briefing → Torren requires Hollow Watch resolved → small Black Host occupation / dead garrison → short excavation into buried Diysean construction → Constructs / fixed Shield Construct → regional landscape depiction → Torren permanently joins → Southern Briar route-reading and expanded wildlife → Thornhide signs → Thornhide Stalker final boss → Junction Wayfinder payoff → western ancient Diyse revealed as a dense regional route map with many city structures plus a second unexplained marking system → largest cluster converges around present-day Caelora but the Wayfinder is broken through its center → existing Dunmere-bound route is recognized inside the older network → camp / optional Character-Life scenes → next-morning continuation toward Dunmere.**
+**Brackenwall Card custody anomaly → Caelora objective → Maevra seeks Torren → first Briar traversal → Greenhollow / Card briefing → Torren requires Hollow Watch resolved → small Black Host occupation / dead garrison → short excavation into buried Diysean construction → Constructs / fixed Shield Construct → regional landscape depiction → Torren permanently joins → Southern Briar route-reading and expanded wildlife → Thornhide signs → Thornhide final boss → Junction Wayfinder payoff → western ancient Diyse revealed as a dense regional route map with many city structures plus a second unexplained marking system → largest cluster converges around present-day Caelora but the Wayfinder is broken through its center → existing Dunmere-bound route is recognized inside the older network → camp / optional Character-Life scenes → next-morning continuation toward Dunmere.**
 
 ## Knowledge firewall
 Chapter 1 must not reveal:
