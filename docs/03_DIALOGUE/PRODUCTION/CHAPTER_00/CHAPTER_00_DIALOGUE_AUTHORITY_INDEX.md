@@ -67,11 +67,9 @@ Current result:
 
 ## Mature-adult speech — CLOSED
 
-Chapter 0 passes the current adult-register standard while staying deliberately near the lower end of the cast's long-form bands because most of the chapter is first-contact crisis/command speech.
+Chapter 0 retains a **PASS** under the September 25, 2026 Person-Brain compatibility audit. Most of the chapter is first-contact crisis/command speech, so scene-level profanity density may sit below a character's full-game long-form calibration.
 
-Current Chapter-0 audit:
-- **Cyanis — 13 / 181 = 7.2%** — target **7–14%**;
-- **Ilyra — 9 / 131 = 6.9%** — target **5–12%**.
+Live calibration bands are owned by `../../AGENT_SYSTEM/MATURE_ADULT_SPEECH_AND_PROFANITY_LOCK.md`. The older frozen Chapter-0 ratios are not retained here as current metrics because they were evaluated against superseded calibration bands. Any new numeric profanity audit must be recomputed from the current B01–B07 + C01 atomics.
 
 Vocabulary remains differentiated:
 - Cyanis favors `damn / hell / shit`, with only one `fuck` in the chapter;
