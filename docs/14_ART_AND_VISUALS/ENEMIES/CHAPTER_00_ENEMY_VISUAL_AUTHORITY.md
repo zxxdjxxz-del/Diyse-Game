@@ -713,13 +713,15 @@ Seyrik's current master already defines the actual armor. For Black Host hierarc
 Do **not** redesign Seyrik into a generic commander suit merely to make this hierarchy visible. His current exact master remains controlling.
 
 ## Identity concealment
-Use staging rather than redesign:
+The **approved black half-mask is the fixed physical concealment treatment**. In-game staging may reinforce it through:
 - shadow;
 - angle;
-- damaged/obscuring visor or partial face obstruction where compatible with the master;
-- high collar;
 - smoke/fire contrast;
-- limited clean face exposure.
+- limited clean exposure of the visible eye / upper face.
+
+Do not substitute a full helmet, damaged visor, different mask, or extra face-covering design for the approved half-mask.
+
+The correct blond hair remains visible as in the master, but staging must avoid presenting it as a clean identity reveal.
 
 The player must know this is a person, not a construct.
 
