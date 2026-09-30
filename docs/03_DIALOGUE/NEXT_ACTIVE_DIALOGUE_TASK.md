@@ -1,43 +1,59 @@
 # Diyse — Next Active Dialogue Task
 
 **Status:** ACTIVE RESUME MARKER  
-**Current next task:** **Chapter 4 — The Seventh Reaction — Dialogue Engine production**  
+**Current next task:** **Chapter 4 — Beat 1 — Cresthaven Morning Disturbance — rehearsal-first dialogue production**  
 **Primary story authority:** `../02_STORY/CHAPTERS/CHAPTER_04.md`  
-**Dialogue system authority:** `AGENT_SYSTEM/CHAPTER_0_1_PIPELINE_CONTINUITY_LOCK.md` + `AGENT_SYSTEM/STORY_BEAT_AS_GUARDRAIL_LOCK.md` + `AGENT_SYSTEM/NATURAL_TURN_LENGTH_AND_FLOOR_HOLDING_LOCK.md`
+**Chapter-4 dialogue authority index:** `PRODUCTION/CHAPTER_04/CHAPTER_04_DIALOGUE_AUTHORITY_INDEX.md`  
+**Current Beat-1 scene authority:** `PRODUCTION/CHAPTER_04/CH04_B01_CRESTHAVEN_MORNING_DISTURBANCE_SPEC.json`
 
 ## Current completed boundary
 Chapters **0–3** are complete current working dialogue production and have completed the retroactive natural-turn / floor-holding rhythm audit.
 
 Do **not** reopen Chapters 0–3 as the active task unless the user explicitly requests a revision.
 
+## Current Chapter-4 structure
+Chapter 4 uses the current **12-beat B01–B12 structure**.
+
+The retired five-scene **S022–S026** structure is historical/superseded and must not be used as the Chapter-4 production sequence.
+
+Current beat order:
+1. **B01 — Cresthaven Morning Disturbance**
+2. **B02 — Elder Thornhide**
+3. **B03 — Field Aftermath / Shortcut Decision**
+4. **B04 — Forest Route / Crown Road**
+5. **B05 — Ivorybridge / Vaelira**
+6. **B06 — Reaction Annex Arrival / Initial Investigation**
+7. **B07 — Elemental Laboratory Ring**
+8. **B08 — Interaction Gallery / Reaction Conduit**
+9. **B09 — Central Regulation / Regulation Crucible**
+10. **B10 — The Seventh Reaction**
+11. **B11 — Safe Upper Labs / Aftermath**
+12. **B12 — Ivorybridge Morning / Cresthaven Return**
+
+All twelve scene-authority specs are authored as **pre-dialogue authority**. Exact dialogue becomes current only after rehearsal/editor production, Canon Checker PASS, and explicit author approval.
+
 ## Exact next production frontier
-Create the current Chapter-4 dialogue production authority under:
+Resume with:
+> **CH04_B01_CRESTHAVEN_MORNING_DISTURBANCE**
 
-`docs/03_DIALOGUE/PRODUCTION/CHAPTER_04/`
+The current B01 rehearsal target already exists and may be used as a non-canon rehearsal aid. Do not synchronize or promote rehearsal-target wording as exact dialogue authority.
 
-Then begin sequential rehearsal-first dialogue production with:
+Beat 1 purpose:
+- open the morning after the player deliberately begins Chapter 4;
+- establish the large territorial-animal disturbance around reoccupied Cresthaven;
+- let the party inspect evidence rather than receive a recap briefing;
+- hand directly into following the Elder Thornhide trail.
 
-> **S022 — Brilliant Answer**
-
-Chapter 4 story sequence is currently:
-1. S022 — Brilliant Answer
-2. S023 — Cost Outside Equation
-3. S024 — Seventh Reaction
-4. S025 — Responsibility Without Humiliation
-5. S026 — A Place Where Being Wrong Is Survivable
-
-## S022 opening state / hard guardrails
-- Chapter 4 begins only after the player deliberately chooses **Begin Chapter 4** from the Cresthaven cleanup hub.
-- Cresthaven is already established as the party headquarters; Chapter 4 does not recreate that handoff.
-- Opening traveling permanent roster: **Cyanis, Ilyra, Torren, Nimera**.
-- **Maevra is not traveling with the party**; she returned to Caelora with Mirena after the Chapter-3 headquarters handoff.
-- Chapter 3 identified Last Sentinel as a real Ancient designation and a Might Prime, but it is still unrecovered/unusable at Chapter-4 start.
-- S022 contains the Elder Briarhide confrontation and resolves it **nonlethally**.
-- During that fight, **Last Sentinel manifests for the first verified modern Prime action**.
-- That manifestation changes Last Sentinel to **Recovered / gameplay-usable**.
-- Elder Briarhide survives/retreats.
-- **Vaelira Serren joins permanently** during S022.
-- Active battle party remains four even though the permanent roster becomes five.
+Beat-1 hard guardrails:
+- traveling permanent roster is **Cyanis + Ilyra + Torren + Nimera**;
+- Maevra and Mirena are not default traveling companions;
+- Ivorybridge was already chosen in Chapter 3 and is **not chosen again here**;
+- Last Sentinel is confirmed by the Chapter-3 Warden sequence but has **not yet manifested and is not yet Recovered**;
+- the party may treat `Prime Card` as an Ancient term and Cyanis's Card as an unproven Prime hypothesis, but nobody knows what Prime Cards actually are or do;
+- the disturbance begins without a confirmed missing resident or casualty;
+- the Elder Thornhide identification is earned from field evidence rather than known before inspection;
+- no walking dialogue;
+- no mid-battle dialogue.
 
 ## Authoring method
 Use the locked rehearsal-first process from the first line:
@@ -48,7 +64,7 @@ Apply the natural-turn rule immediately:
 
 > **Concision is not a one-sentence limit. A character yields the floor because the interaction changes, not because the script reached a period.**
 
-Do not prebuild a conversational checkpoint chain. Story authority controls facts, outcomes, knowledge and reveal firewalls; Agent Brains control the actual path of the scene.
+Story authority controls facts, outcomes, knowledge and reveal firewalls; Person Brains control the actual conversational path.
 
 ## Resume instruction
-When the user says **“Let’s continue”**, resume here: inspect the current S022 story/character/Prime authority, create the Chapter-4 dialogue authority structure, then rehearse and draft **S022 — Brilliant Answer**.
+When dialogue production resumes, inspect the current B01 story authority, B01 scene spec, current four Person Brains, and existing B01 rehearsal target; then rehearse/edit **Beat 1 — Cresthaven Morning Disturbance** toward Canon Checker PASS and explicit author approval.
