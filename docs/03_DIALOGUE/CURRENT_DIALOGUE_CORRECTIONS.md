@@ -390,7 +390,7 @@ Current Character-Life:
 - Ancient Diysean influence is primarily physical architecture, mechanisms, infrastructure, symbols, and Constructs;
 - B06 contains Lower Archives → Buried Collections → Hall of Seals as physical subzones;
 - the old term **Prime Card** may appear in copied/quoted/transcribed material, but nobody knows what one looks like or does;
-- B07 contains the Deep Archives; no Last Sentinel/Ruby/Prime event occurs there. The retired **Memory Construct** label must not be restored as a current Chapter-3 boss identity;
+- B07 contains the Deep Archives and the mandatory **Memory Construct** boss; no Last Sentinel/Ruby/Prime event occurs there;
 - B08 contains the ~500-year-old Yahtrean Westways recordbook, a Wayfinder-derived regional copy, and a later seal-reproduction workspace whose original Ancient purpose is unknown;
 - the seal-reproduction evidence does not prove a successful duplicate Royal Magic Seal;
 - Mirena identifies the giant tower's modern location as **Cresthaven** in B09;
