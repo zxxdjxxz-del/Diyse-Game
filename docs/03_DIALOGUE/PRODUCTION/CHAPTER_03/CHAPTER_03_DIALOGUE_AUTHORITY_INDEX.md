@@ -4,7 +4,7 @@
 **Status:** FULL SOURCE-LEVEL DIALOGUE CLOSURE — REVISED 11-BEAT STRUCTURE CURRENT  
 **Migration date:** September 23, 2026  
 **Primary story authority:** ../../../02_STORY/CHAPTERS/CHAPTER_03.md  
-**Current spoken-line count after tightening:** **564 mandatory + 142 Character-Life = 706 total**  
+**Current spoken-line count after tightening:** **558 mandatory + 142 Character-Life = 700 total**  
 **Post-tightening differentiated mature-register audit:** **PASS**
 - Nimera — **49 / 229 = 21.4%** — target **20–35%**
 - Cyanis — **14 / 111 = 12.6%** — target **7–14%**
