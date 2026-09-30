@@ -20,7 +20,7 @@ Current all-dialogue regeneration/experiment authority applies:
 | Ch1 | S007–S011 | **IDs retained; current lean structure controls; detailed beat→S### routing requires current mapping where not explicit** |
 | Ch2 | S012–S016 | **IDs retained; current lean structure/dialogue regeneration controls** |
 | Ch3 | S017–S021 | **IDs retained; current lean structure/dialogue regeneration controls** |
-| Ch4 | S022–S026 | **IDs retained; current lean structure + four-element overlay control** |
+| Ch4 | S022–S026 | **legacy implementation-compatibility IDs only; current production uses B01–B12, and no one-to-one S### → B## mapping should be inferred until an explicit runtime migration is authored** |
 | Ch5 | current detailed S-range not promoted here | beat/macro authority |
 | Ch6 | includes S035 / S036 inherited anchors | macro/beat authority |
 | Ch7 | current detailed S-range not promoted here | macro authority |
