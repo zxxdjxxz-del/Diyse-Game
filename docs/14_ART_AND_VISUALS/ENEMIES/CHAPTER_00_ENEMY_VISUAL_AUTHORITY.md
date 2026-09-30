@@ -565,59 +565,62 @@ Locked identity:
 - no Rift effects or mutation.
 
 ## Core visual identity
-Fast Black Host-employed war-beast / natural predator used in convoy interception.
+Natural Black Host military war dog used in convoy interception.
 
 ## Silhouette
 - low, fast quadruped;
-- closer to a warped hunting hound / wolf-hound than a feline;
-- lean forward body;
-- aggressive head silhouette;
-- long enough to feel dangerous rather than compact or cute.
+- pitbull-type military attack-dog anatomy;
+- muscular forward-driving body;
+- heavy neck and jaw;
+- immediately readable as a real trained war dog rather than a fantasy mutation.
 
 ## Anatomy
 - four-legged;
 - muscular but not enormous;
-- elongated shoulders / forelimb emphasis for lunging;
-- narrow waist;
-- heavy neck and jaw;
-- tail reduced, ragged, or held tensely rather than elegant.
+- powerful shoulders and forelimbs for lunging;
+- compact, athletic waist;
+- broad head and strong jaw;
+- natural tail and limb structure.
 
 ## Head
-- elongated predatory skull;
-- oversized jaw slightly beyond natural proportion;
-- visible teeth;
-- intense, wrong-looking eyes;
-- subtle Ruin fissuring or dark tearing around mouth/eyes allowed.
+- broad pitbull-type head;
+- strong natural jaw;
+- visible teeth when snarling;
+- intense but non-glowing eyes;
+- scars may show battlefield wear;
+- **no Ruin fissures, tearing, mutation, or supernatural anatomy**.
 
 ## Surface / hide
-- short dark hide/fur;
-- patchy in places;
-- real beast first, wrong second;
-- scarred restraint marks, collar abrasions, or old war-harness wear are appropriate;
-- Ruin veining/cracking must remain restrained.
+- short black / dark-charcoal coat;
+- restrained dirty-white markings;
+- battle-worn scars;
+- practical collar/harness wear is appropriate;
+- **no Ruin veining, cracking, glow, or corrupted skin**.
 
 ## Palette
-- black-brown / charcoal hide;
-- dull ash gray or bruised undertones;
-- faint Ruin-crimson or dim violet-red in eyes/fissures if used;
-- never neon.
+- black / dark-charcoal coat;
+- restrained dirty-white markings;
+- black military harness;
+- crimson harness accents;
+- ordinary scar/fur tones only.
 
 ## Signature read
-- deployed war-beast, not wild forest animal;
-- must plausibly have been transported and handled by Black Host forces;
-- subtle collar, restraint ring, or broken control-harness language is appropriate.
+- trained and deployed Black Host war dog;
+- practical harness makes military handling immediately plausible;
+- dangerous because of training, conditioning, and physicality—not mutation.
 
 ## Motion / animation
 - low rapid lunges;
 - snapping bite;
-- abrupt/skittering acceleration;
-- attack-dog energy taken into dangerous fantasy territory.
+- powerful short acceleration;
+- disciplined attack-dog aggression.
 
 ## Must not
+- Rift Hound identity;
+- Ruin mutation or supernatural fissures;
 - undead dog;
-- goo beast;
-- pure demon wolf;
-- cute fantasy wolf;
+- demon wolf;
+- cute fantasy pet;
 - boss-scale giant proportions.
 
 ---
