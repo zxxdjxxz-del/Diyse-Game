@@ -77,12 +77,12 @@ If any brain changes, reread it before finalizing/revising affected dialogue.
 - **Crest Knight only in Chapter 3**.
 - Crest Arcanist is locked until **Sixfold Volition at the end of Chapter 7** and is not available as Chapter-3 expertise, ability access, or active identity.
 - practical/social leader, not automatic plot-summary voice;
-- moderate natural profanity; long-form editorial calibration roughly **7–14%**;
+- moderate natural profanity; long-form editorial calibration roughly **10–19%**;
 - humor, argument, opinion, and multi-sentence turns are available.
 
 ### Ilyra
 - **Blue Warden only in Chapter 3**; Vowblade is locked until **Sixfold Volition at the end of Chapter 7**;
-- whole adult personality: dry, curious, skeptical, profane, capable of pettiness and humor; long-form editorial calibration roughly **5–12%**;
+- whole adult personality: dry, curious, skeptical, profane, capable of pettiness and humor; long-form editorial calibration roughly **9–20%**;
 - not party therapist/mother/safety monitor;
 - Grace is not a dialogue assignment.
 
@@ -114,12 +114,12 @@ Required current performance:
 - genuine vulnerability may become simpler.
 
 Current long-form editorial profanity calibration:
-> **20–35% of Nimera's spoken lines containing natural profanity across a sufficiently large corpus.**
+> **22–35% of Nimera's spoken lines containing natural profanity across a sufficiently large corpus.**
 
 This is an anti-sanitization range, not a per-scene quota or fixed swear interval.
 
 Current Chapter-3 audit:
-> **49 profane Nimera lines / 229 total Nimera lines = 21.4% — PASS.** Her profanity remains the broadest and most frequent in the cast without making `fuck/fucking` the only register marker.
+> **PASS under the September 28, 2026 Person-Brain compatibility audit.** No frozen Chapter-3 profanity ratio is current after the source-set changes; any future numeric recount must use the current B01–B11 + C06/C07 atomics.
 
 Do not mechanically add profanity to force a count. Do not systematically clean fuck/shit/vulgar metaphors into polite wording.
 
