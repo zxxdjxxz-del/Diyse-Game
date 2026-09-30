@@ -805,7 +805,7 @@ Black Host battlefield caster attached to the convoy-interception force.
 - slimmer than Raider/Shieldbearer;
 - upright and composed;
 - robe/coat-panel or military-mantle shape;
-- a compact casting implement should aid immediate role recognition.
+- the large military focus staff should aid immediate role recognition.
 
 ## Body / proportions
 - adult;
@@ -859,14 +859,14 @@ Cloth:
 - still military, not ceremonial wizard robes.
 
 ## Head / face
-Preferred Chapter-0 presentation:
-- open-faced or partially open officer helm / high-collar hood-helm;
-- clearly human;
-- more refined brow/visor geometry than ordinary troops;
-- no crown spikes;
-- no glowing eye slit;
-- cold, task-focused expression;
-- not flamboyant sorcerer-king presentation.
+Current Chapter-0 presentation:
+- full Black Host helmet beneath a deep crimson hood;
+- face remains concealed;
+- compact horned helmet silhouette remains readable beneath the hood;
+- refined brow/visor geometry compared with ordinary troops;
+- no crown-tier ornament;
+- no glowing eye slit or luminous armor treatment;
+- clearly an armored human battlefield caster, not a cultist or sorcerer-king.
 
 ## Casting language
 - geometric;
@@ -877,10 +877,13 @@ Preferred Chapter-0 presentation:
 - precise battlefield effects rather than chaotic wild magic.
 
 ## Weapon / focus
-Preferred:
-> **compact military war-rod / focus staff**
+Current locked focus:
+> **large military focus staff**
 
-A catalyst gauntlet or similar issued focus may support the design, but the unit should not read as an unarmed generic mage.
+- simplified staff head;
+- faceted **purple crystal** as the magical focal point;
+- purple light belongs to the crystal / spell focus, not the armor;
+- do not replace the staff with a compact war-rod or unarmed casting treatment.
 
 ## Palette
 - charcoal;
