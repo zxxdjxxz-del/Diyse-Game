@@ -50,11 +50,10 @@ The current source manifest records:
 - Briar Boar → Bullhog;
 - Rootmaw → Burrowclaw;
 - Rubbleback → Barkling;
-- Watch Captain Frame → Construct;
 - Thornhide Stalker → Thornhide.
 
 These arrows are **visual-source reconciliation only**. They do not transfer gameplay roles or encounter architecture:
-- Watch Captain Frame is retired from current Chapter 1; ordinary underground combat uses **Construct**.
+- Watch Captain Frame is retired from current Chapter 1 and has no Chapter-1 rename/successor mapping; ordinary underground combat uses the separate current **Construct** identity. Watch Captain Frame remains separately owned where later chapters explicitly reuse it.
 - Watch Castellan is retired from current Chapter 1 and has no current rename/successor mapping; **Shield Construct** is a separate locked fixed stronger encounter and is **not a miniboss**.
 - Thornhide Stalker is the specific Chapter-1 boss identity; the approved image file is named for its **Thornhide species**.
 
