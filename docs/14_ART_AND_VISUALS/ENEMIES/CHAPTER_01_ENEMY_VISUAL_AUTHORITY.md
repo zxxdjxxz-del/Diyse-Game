@@ -54,7 +54,7 @@ The current source manifest records:
 These arrows are **visual-source reconciliation only**. They do not transfer gameplay roles or encounter architecture:
 - Watch Captain Frame is retired from current Chapter 1 and has no Chapter-1 rename/successor mapping; ordinary underground combat uses the separate current **Construct** identity. Watch Captain Frame remains separately owned where later chapters explicitly reuse it.
 - Watch Castellan is retired from current Chapter 1 and has no current rename/successor mapping; **Shield Construct** is a separate locked fixed stronger encounter and is **not a miniboss**.
-- **Thornhide Stalker** remains the specific Chapter-1 boss identity; the approved `thornhide.png` image is named for its **Thornhide species**. This is an asset/species naming relationship, not a boss rename.
+- **Thornhide** is the current Chapter-1 boss identity and species name. The approved `thornhide.png` master is therefore named directly for the current boss/species identity.
 
 Watch Sentry, Watch Ballista, Cistern Devourer, and Regional Hunt #1 are retired from the Chapter-1 visual roster. Their former pending entries do not request additional masters.
 
