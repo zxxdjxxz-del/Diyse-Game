@@ -72,28 +72,26 @@ Reason:
 Do not place Watch Sentry in Chapter 2 unless explicitly reintroduced.
 
 
-## Chapter-3 Cresthaven carryover lock — 2026-09-23
-Watch Sentry returns as an ordinary construct in the **Cresthaven Ancient tower base**.
+## Historical Chapter-3 Cresthaven carryover — SUPERSEDED 2026-09-27
+Under the superseded September 23 roster, Watch Sentry returned as an ordinary construct in the **Cresthaven Ancient tower base**. Current Chapter 3 explicitly retires this placement.
 
 Its identity and Sentry → Ballista setup grammar remain unchanged:
 - Sentry Strike;
 - Targeting Signal;
 - Targeting Signal is legal only with a linked living Watch Ballista.
 
-Chapter-3 placement:
+Historical Chapter-3 placement:
 - Tower Foundation — eligible;
 - Command Interior — eligible;
 - Warden approach — eligible before the final safe buffer.
 
 This is deliberate reuse of an established Ancient-defense chassis.
 
-Chapter-3 body/tuning requires fresh validation and must not blindly reuse the Chapter-1 raw body.
+This former Chapter-3 placement no longer awaits current validation. Any future reintroduction requires explicit chapter authority and fresh tuning.
 
 
 ## Naming correction — 2026-09-23
-This reusable Ancient-defense chassis is no longer named after the Hollow Watch location.
+Historical note: this reusable Ancient-defense chassis was intended for reuse beyond Hollow Watch.
 
-Current canonical identity:
-> **Watch Sentry**
-
-The former Hollow Watch-specific name is retired.
+Identity note:
+> **Watch Sentry** remains the historical/current identity name where explicitly reintroduced; Chapter 1 and current Chapter 3 do not actively place it.
