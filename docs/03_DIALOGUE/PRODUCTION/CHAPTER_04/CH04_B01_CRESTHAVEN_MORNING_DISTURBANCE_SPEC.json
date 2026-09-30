@@ -64,7 +64,7 @@
     "active_party_cap": 4,
     "maevra_traveling": false,
     "mirena_traveling": false,
-    "cyanis_card_state": "stable deep Ruby after the Chapter-3 First Command Warden",
+    "cyanis_card_state": "stable deep Ruby after the Chapter-3 Authority Construct",
     "last_sentinel_state": "LAST SENTINEL CONFIRMED is known; no verified modern manifestation; not yet Recovered",
     "prime_card_knowledge": "The party knows Prime Card is a recurring Ancient Diysean term distinct in context from ordinary Standard Cards. After LAST SENTINEL CONFIRMED and the Card's immediate deep-Ruby stabilization, Prime Card is an active but unproven hypothesis for Cyanis's Card; nobody knows what Prime Cards are or do, and the Card is not classified as Prime.",
     "immediate_safety": "Torren has found evidence of a very large creature crossing/approaching occupied Cresthaven grounds; no confirmed missing resident or casualty at scene start.",
@@ -110,11 +110,11 @@
         },
         "last_sentinel": {
           "status": "known_fact",
-          "value": "The First Command Warden ended with LAST SENTINEL CONFIRMED; his Card later stabilized deep Ruby."
+          "value": "The Authority Construct ended with LAST SENTINEL CONFIRMED; his Card later stabilized deep Ruby."
         },
         "prime_card_classification": {
           "status": "hypothesis",
-          "value": "He considers that his Card might be what Ancient sources called a Prime Card because of the Warden/Ruby sequence, but he does not know that it is one."
+          "value": "He considers that his Card might be what Ancient sources called a Prime Card because of the Authority Construct/Ruby sequence, but he does not know that it is one."
         },
         "ivorybridge": {
           "status": "known_fact",
@@ -156,7 +156,7 @@
         },
         "last_sentinel": {
           "status": "known_fact",
-          "value": "She witnessed the First Command Warden sequence and Cyanis's later deep-Ruby Card stabilization."
+          "value": "She witnessed the Authority Construct sequence and Cyanis's later deep-Ruby Card stabilization."
         },
         "prime_card_classification": {
           "status": "hypothesis",
@@ -210,7 +210,7 @@
         },
         "prime_card_classification": {
           "status": "hypothesis",
-          "value": "The Warden naming Last Sentinel immediately before the Card stabilized makes Prime plausible to him, but not proven."
+          "value": "The Authority Construct naming Last Sentinel immediately before the Card stabilized makes Prime plausible to him, but not proven."
         },
         "restoration_range_conflict": {
           "status": "inference",
@@ -253,7 +253,7 @@
         },
         "last_sentinel": {
           "status": "known_fact",
-          "value": "She witnessed the Warden's exact LAST SENTINEL CONFIRMED wording and the Card's later Ruby stabilization."
+          "value": "She witnessed the Authority Construct's exact LAST SENTINEL CONFIRMED wording and the Card's later Ruby stabilization."
         },
         "prime_card_term": {
           "status": "known_fact",
@@ -261,7 +261,7 @@
         },
         "cyanis_prime_classification": {
           "status": "hypothesis",
-          "value": "Prime Card is now a materially better hypothesis for Cyanis's Card after the Warden/Ruby sequence, but evidence remains insufficient for classification."
+          "value": "Prime Card is now a materially better hypothesis for Cyanis's Card after the Authority Construct/Ruby sequence, but evidence remains insufficient for classification."
         }
       },
       "scene_local_state": {

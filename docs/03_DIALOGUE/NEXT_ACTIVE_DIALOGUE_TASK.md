@@ -48,7 +48,7 @@ Beat-1 hard guardrails:
 - traveling permanent roster is **Cyanis + Ilyra + Torren + Nimera**;
 - Maevra and Mirena are not default traveling companions;
 - Ivorybridge was already chosen in Chapter 3 and is **not chosen again here**;
-- Last Sentinel is confirmed by the Chapter-3 Warden sequence but has **not yet manifested and is not yet Recovered**;
+- Last Sentinel is confirmed by the Chapter-3 Authority Construct sequence but has **not yet manifested and is not yet Recovered**;
 - the party may treat `Prime Card` as an Ancient term and Cyanis's Card as an unproven Prime hypothesis, but nobody knows what Prime Cards actually are or do;
 - the disturbance begins without a confirmed missing resident or casualty;
 - the Elder Thornhide identification is earned from field evidence rather than known before inspection;
