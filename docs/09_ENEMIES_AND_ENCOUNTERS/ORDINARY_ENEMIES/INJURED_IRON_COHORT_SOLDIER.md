@@ -1,13 +1,15 @@
-# Injured Iron Cohort Soldier
+# Injured Iron Cohort Soldier — Retired Chapter-0 Reference
 
-**Chapter:** 0 — S005 authored encounter  
-**Status:** **POWER COMPLETE / INJURED STORY BODY**
+**Chapter-0 retirement firewall:** **REMOVED FROM CURRENT CHAPTER 0.** The current P06 final confrontation is Riftmaw + Battle Sorcerer only. This file preserves the superseded S005 body and branch logic as historical provenance.
 
-This body exists specifically for line-complete S005.
+**Former placement:** Chapter 0 — retired S005 authored encounter  
+**Status:** **CHAPTER-0 PLACEMENT RETIRED / HISTORICAL STORY-BODY REFERENCE**
+
+This body existed specifically for the superseded line-complete S005 encounter.
 
 It is already injured before battle and is not a generic reusable Iron Cohort template.
 
-## Body
+## Historical body
 | Lv | HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR |
 |---:|---:|---:|---:|---:|---:|---:|---:|---:|
 | 3 | **165** | **27** | 10 | 17 | 14 | 18 | 0 | 0 |
@@ -41,10 +43,10 @@ No extra action.
 
 No harmful-status rider.
 
-## S005 resolution
-The Soldier is **not** the encounter victory target.
+## Historical S005 resolution
+Under the superseded S005 structure, the Soldier was **not** the encounter victory target.
 
-When the Convoy War-Sorcerer reaches 0 HP:
+Under that retired structure, when the Convoy War-Sorcerer reached 0 HP:
 - encounter victory is secured;
 - if this Soldier remains active, he immediately withdraws through the east cut;
 - S005_B019 is then shown.
@@ -52,4 +54,4 @@ When the Convoy War-Sorcerer reaches 0 HP:
 If this Soldier was already defeated:
 - S005_B019 is skipped cleanly.
 
-The balance file does not add a new death confirmation.
+This historical branch must not be restored into the current combined P06 encounter.
