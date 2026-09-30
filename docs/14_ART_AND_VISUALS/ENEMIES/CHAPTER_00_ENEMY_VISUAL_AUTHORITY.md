@@ -47,7 +47,7 @@ Chapter 0 visually reads as:
 
 Maintain strong visual separation between:
 1. **Black Host military enemies**;
-2. **Rift / warped war-beasts**;
+2. **Black Host war-beasts — natural War Hound and Rift-altered Riftmaw**;
 3. **the concealed Ruin Vanguard Pursuer**.
 
 Enemy silhouettes must remain readable at field and battle camera distance as well as in high-resolution concept/reference art.
@@ -1020,7 +1020,7 @@ Large Black Host war-beast boss: a heavy rift predator more extreme than the Hou
 - restraint metal in black iron.
 
 ## Signature read
-- visually related to the Rift Hound family without being a simple enlarged Hound;
+- distinct from the natural War Hound; Riftmaw is the Chapter-0 Rift-altered war-beast rather than an enlarged hound variant;
 - deployed military beast, not random cave monster;
 - the **maw dominates the identity**.
 
