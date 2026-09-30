@@ -130,14 +130,14 @@
     "Watch Sentry",
     "Watch Ballista",
     "Cistern Devourer",
-    "Regional Hunt #1"
+    "Regional Hunt #1",
+    "Watch Castellan"
   ],
   "renames": {
     "Briar Boar": "Bullhog",
     "Rootmaw": "Burrowclaw",
     "Rubbleback": "Barkling",
     "Watch Captain Frame": "Construct",
-    "Watch Castellan": "Shield Construct",
     "Thornhide Stalker": "Thornhide"
   }
 }
