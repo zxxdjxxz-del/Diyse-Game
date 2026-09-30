@@ -1,13 +1,13 @@
-# Thornhide Stalker
+# Thornhide
 
 **Chapter:** 1 — Southern Briar Passage  
 **Role:** mandatory named story boss / Chapter-1 final combat climax  
-**Species:** Thornhide  
+**Species / boss display identity:** Thornhide  
 **Status:** **POWER COMPLETE / STORY RESOLUTION CORRECTED**
 
 ## Current story lock
 
-The **Thornhide Stalker** is:
+The **Thornhide** is:
 - an exceptionally large, powerful Briarhide native to Briar Passage;
 - a naturally occurring wild Greater Beast;
 - not corrupted, controlled, fitted, collared, or altered by the Black Host;
@@ -17,9 +17,9 @@ The **Thornhide Stalker** is:
 There is **no** protected HP floor, targetable irritant fitting, purification objective, nonlethal objective, or forced retreat resolution.
 
 At ordinary combat defeat:
-> **Thornhide Stalker is dead.**
+> **Thornhide is dead.**
 
-This matches the current Chapter-1 story and exact Beat-13 dialogue authority.
+This matches the current Chapter-1 story and exact Beat-10 dialogue authority.
 
 ## Current battle-party lock
 Thornhide is fought by exactly:
