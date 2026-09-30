@@ -34,7 +34,7 @@ Availability:
 Rules:
 - consumes the Battle Sorcerer's selected action;
 - can be selected only if no Rift Lance is currently prepared;
-- once selected, locks **Rift Lance** as the War-Sorcerer's next selected action if the Battle Sorcerer remains able to act;
+- once selected, locks **Rift Lance** as the Battle Sorcerer's next selected action if the Battle Sorcerer remains able to act;
 - **once per battle**;
 - no free action;
 - no prediction of player commands.
@@ -75,8 +75,8 @@ The injured Iron Cohort Soldier is not part of the Chapter-0 combat roster. Ther
 ## P06 behavior lock
 - Round 1: Rift Lance Preparation is illegal.
 - Round 2 onward: Rift Lance Preparation becomes eligible if it has not been used and no Rift Lance is already prepared.
-- Selecting Rift Lance Preparation consumes the War-Sorcerer's action exactly as authored.
-- Once prepared, **Rift Lance is forced as the War-Sorcerer's next selected action** if the Battle Sorcerer remains able to act.
+- Selecting Rift Lance Preparation consumes the Battle Sorcerer's action exactly as authored.
+- Once prepared, **Rift Lance is forced as the Battle Sorcerer's next selected action** if the Battle Sorcerer remains able to act.
 - Rift Lance selects equally between conscious Cyanis and Ilyra when that forced action is selected; preparation does not secretly pre-mark or focus a target.
 - Shard Volley retains its 2-round repetition lock.
 - When no forced Rift Lance exists, currently legal War-Sorcery Bolt / Shard Volley / eligible Preparation use the normal action-selection fallback.
