@@ -101,7 +101,7 @@ Ruin Vanguard Pursuer:
 > **CURRENT / AUTHORED PROTECTED / SEYRIK CONCEALED / MOVED AFTER ILYRA JOINS**
 
 Final Battle Sorcerer confrontation:
-> **CURRENT / POWER COMPLETE / COMBINED RIFTMAW + WAR-SORCERER FINAL BOSS**
+> **CURRENT / POWER COMPLETE / COMBINED RIFTMAW + BATTLE SORCERER FINAL BOSS**
 
 Structural enemy/encounter status:
 > **CLOSED — roster / order / spacing / party state / behavior**
