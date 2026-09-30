@@ -15,7 +15,7 @@ Current Chapter-1 exact wording authority is its standalone production atomics a
 
 Current Chapter-2 exact wording authority is its standalone production atomics as indexed by `docs/03_DIALOGUE/PRODUCTION/CHAPTER_02/CHAPTER_02_DIALOGUE_AUTHORITY_INDEX.md`.
 
-The legacy sibling Godot `.tres` resources under `game/content/dialogue/chapter_00` and `chapter_01` remain historical implementation/proof artifacts. The current generated game-facing mirror lives under `game/content/dialogue/current/` and is synchronized from the production atomics. Legacy resources do **not** restore historical text as current authority.
+The former direct Godot `.tres` runtime resources under `game/content/dialogue/chapter_00` through `chapter_03` are retired from the live content tree and remain recoverable through Git history as implementation/provenance artifacts. The current generated game-facing mirror lives under `game/content/dialogue/current/` and is synchronized from the production atomics. Historical resource paths retained in the checksum rows below are provenance references only and do **not** restore historical text as current authority.
 
 Chapter 3 is superseded by the current B01–B11 + C06/C07 production set under `docs/03_DIALOGUE/PRODUCTION/CHAPTER_03/`; its S017–S021/H01–H04 rows below are historical checkpoint records only.
 
