@@ -39,7 +39,7 @@ func _run_validation() -> void:
 	_validate_retired_structure_firewall()
 	_validate_knowledge_firewall()
 	_validate_wayfinder_faces()
-	_validate_thornhide_stalker()
+	_validate_thornhide()
 	_validate_character_life()
 	_finish()
 
@@ -62,8 +62,8 @@ func _validate_current_structure() -> void:
 
 	if scenes.has("B10"):
 		var b10: DiyseDialogueSceneDefinition = scenes["B10"]
-		_expect(b10.scene_id == "CH01_B10_THORNHIDE_STALKER", "B10 runtime scene_id must follow the current Thornhide Stalker title")
-		_expect(b10.story_position.contains("Thornhide Stalker"), "B10 story position must use Thornhide Stalker")
+		_expect(b10.scene_id == "CH01_B10_THORNHIDE", "B10 runtime scene_id must follow the current Thornhide title")
+		_expect(b10.story_position.contains("Thornhide"), "B10 story position must use Thornhide")
 
 func _validate_party_and_handoffs() -> void:
 	if scenes.has("B01"):
@@ -126,14 +126,14 @@ func _validate_wayfinder_faces() -> void:
 	_expect("Acuity" not in source, "B11 must not restore retired Acuity Face terminology")
 	_expect("Resource" not in source, "B11 must not restore retired Resource Face terminology")
 
-func _validate_thornhide_stalker() -> void:
+func _validate_thornhide() -> void:
 	_expect(FileAccess.file_exists(B10_SOURCE), "Current B10 production source must exist")
 	if not FileAccess.file_exists(B10_SOURCE):
 		return
 
 	var source := FileAccess.get_file_as_string(B10_SOURCE)
-	_expect(source.contains("# Thornhide Stalker"), "B10 source must identify the boss as Thornhide Stalker")
-	_expect(source.contains("**BOSS BATTLE — THORNHIDE STALKER**"), "B10 boss marker must use Thornhide Stalker")
+	_expect(source.contains("# Thornhide"), "B10 source must identify the boss as Thornhide")
+	_expect(source.contains("**BOSS BATTLE — THORNHIDE**"), "B10 boss marker must use Thornhide")
 	_expect(source.contains("**Cyanis + Ilyra + Torren**"), "B10 must preserve the three-person combat party")
 	_expect(source.contains("Maevra remains with the traveling group but does not participate in combat."), "B10 must keep Maevra noncombat")
 	_expect(source.contains("no dialogue during active combat"), "B10 must preserve the no-mid-battle-dialogue rule")
