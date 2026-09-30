@@ -27,10 +27,9 @@ Exact dimensions, source/generation identity, byte size, SHA-256, and binary-syn
 - Rootmaw → **Burrowclaw**
 - Rubbleback → **Barkling**
 - Watch Captain Frame → **Construct**
-- Watch Castellan → **Shield Construct**
 - Thornhide Stalker → **Thornhide**
 
-These are **asset-source reconciliation mappings only**. They do not mean the current enemies inherit the retired encounter roles. In gameplay authority, Watch Captain Frame and Watch Castellan are retired from Chapter 1; Shield Construct is fixed/authored and explicitly **not a miniboss**.
+These are **asset-source reconciliation mappings only**. They do not mean the current enemies inherit retired encounter roles. Watch Castellan is simply retired from Chapter 1 and has no current rename/successor mapping; Shield Construct is its own separately locked fixed/authored encounter and is explicitly **not a miniboss**.
 - **Watch Sentry** removed
 - **Watch Ballista** removed
 - **Cistern Devourer** removed
