@@ -70,7 +70,7 @@ Cyanis looks at the temporary protection.
 
 **ILYRA:** Don't sound surprised.
 
-**BOSS COMBAT BEGINS — CYANIS + ILYRA VS. RIFTMAW + CONVOY WAR-SORCERER.**
+**BOSS COMBAT BEGINS — CYANIS + ILYRA VS. RIFTMAW + BATTLE SORCERER.**
 
 ---
 
