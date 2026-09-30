@@ -60,14 +60,14 @@
         },
         {
           "resource_path": "res://game/content/dialogue/current/chapter_00/B06.tres",
-          "scene_id": "CH00_B06_RIFTMAW_WAR_SORCERER_FINAL_BROKEN_CONVOY_CONFRONTATION",
+          "scene_id": "CH00_B06_RIFTMAW_BATTLE_SORCERER_FINAL_BROKEN_CONVOY_CONFRONTATION",
           "scene_kind": "mandatory",
           "slot_id": "B06",
-          "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_00/CH00_B06_RIFTMAW_WAR_SORCERER_DIALOGUE.md",
-          "source_sha256": "875751323e5b8e7a4c9e3ac78565e32f551153aedc333ffea9f9bff761dad2c1",
+          "source_path": "docs/03_DIALOGUE/PRODUCTION/CHAPTER_00/CH00_B06_RIFTMAW_BATTLE_SORCERER_DIALOGUE.md",
+          "source_sha256": "1504b4b416d858a8fc6b504e2855c92951e07af15c96187f6f27221d16e5a52c",
           "spoken_lines": 52,
           "spoken_sha256": "027bb7c8bbcf0d77f8a3c9bcd1dc70a7b00a95bd21c2bdb2cfc45c7f2322784e",
-          "title": "Riftmaw + War-Sorcerer / Final Broken Convoy Confrontation"
+          "title": "Riftmaw + Battle Sorcerer / Final Broken Convoy Confrontation"
         },
         {
           "resource_path": "res://game/content/dialogue/current/chapter_00/B07.tres",
