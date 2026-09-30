@@ -16,7 +16,7 @@ Current all-dialogue regeneration/experiment authority applies:
 
 | Chapter | Mandatory scene IDs | Current routing status |
 |---|---|---|
-| Ch0 | **Production manuscript: P01–P07; legacy runtime Resources: S001–S006** | **P01–P07 current structure; S001–S006 remain implementation-compatibility IDs pending migration** |
+| Ch0 | **B01–B07** | **current mandatory production/runtime IDs; optional Character-Life C01 is also live** |
 | Ch1 | S007–S011 | **IDs retained; current lean structure controls; detailed beat→S### routing requires current mapping where not explicit** |
 | Ch2 | S012–S016 | **IDs retained; current lean structure/dialogue regeneration controls** |
 | Ch3 | S017–S021 | **IDs retained; current lean structure/dialogue regeneration controls** |
@@ -33,30 +33,21 @@ Current all-dialogue regeneration/experiment authority applies:
 
 ## Current Chapter-0 routing clarification
 
-Current completed Chapter-0 production structure is:
+Current completed Chapter-0 production and runtime structure is:
 
-> **P01 → P02 → P03 → P04 → P05 → P06 → P07 → optional C01 — Six Minutes**
+> **B01 → B02 → B03 → B04 → B05 → B06 → B07 → optional C01 — Six Minutes**
 
 Current functions:
-- **P01** — Convoy / Opening Ambush;
-- **P02** — Wreck Field;
-- **P03** — Evacuation Relay Decision;
-- **P04** — Field Triage Camp / Ilyra / First Incomplete Response;
-- **P05** — Concealed Ruin Vanguard;
-- **P06** — **Riftmaw + Convoy War-Sorcerer / Final Broken Convoy Confrontation**;
-- **P07** — Aftermath / Survivor Recovery / Overnight Camp;
+- **B01** — Convoy / Opening Ambush;
+- **B02** — Wreck Field;
+- **B03** — Evacuation Relay Decision;
+- **B04** — Field Triage Camp / Ilyra / First Incomplete Response;
+- **B05** — Concealed Ruin Vanguard;
+- **B06** — **Riftmaw + Battle Sorcerer / Final Broken Convoy Confrontation**;
+- **B07** — Aftermath / Survivor Recovery / Overnight Camp;
 - **C01** — `Six Minutes` optional Character-Life scene.
 
-The former current-repo eight-beat split in which Riftmaw was a separate mandatory encounter before a later War-Sorcerer confrontation is superseded. **Riftmaw and the Convoy War-Sorcerer are fought together in P06.**
-
-### Legacy S### implementation compatibility
-Existing Chapter-0 `.tres` Resources and tests still use S001–S006. Those IDs are **not** being silently remapped in this document because doing so would guess a production migration that has not yet been implemented.
-
-Until the Chapter-0 Resource migration is explicitly performed:
-- treat P01–P07 as the current story/manuscript structure;
-- treat S001–S006 as legacy implementation-routing IDs only;
-- do not infer that old S004→S005 or old S005 combat content remains story-correct;
-- any Dialogue Engine experiment should use P01–P07 story functions rather than the obsolete eight-beat split.
+The generated game-facing mirror under `game/content/dialogue/current/chapter_00/` uses these B/C slot IDs now. Former P01–P07 and S001–S006 references are historical/provenance identifiers only; there is no pending Chapter-0 runtime-ID migration.
 
 ## Current Chapter-10 scene sequence
 - S051 — The Missing Middle
