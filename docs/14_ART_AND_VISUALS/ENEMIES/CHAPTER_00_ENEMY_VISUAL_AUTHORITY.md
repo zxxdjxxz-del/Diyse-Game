@@ -489,7 +489,8 @@ Cloth:
 - must still look physically functional rather than like a magical prop.
 
 ## Weapon
-- short thrusting weapon, mace, or compact spear-like sidearm;
+- compact one-handed spear;
+- short enough to remain a secondary sidearm beside the tower shield;
 - visually secondary to the shield.
 
 ## Palette
