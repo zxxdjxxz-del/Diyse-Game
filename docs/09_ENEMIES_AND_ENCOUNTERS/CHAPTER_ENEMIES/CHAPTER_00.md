@@ -8,7 +8,7 @@
 ## Ordinary / repeatable
 - Black Host Raider
 - Black Host Crossbowman
-- Ruin Shieldbearer
+- Black Host Shieldbearer
 - War Hound
 
 ## Support objects / support identities
@@ -40,7 +40,7 @@ Exact current encounter authority:
 
 ### Opening ambush — Cyanis solo
 1. **Opening Line** — Black Host Raider + Black Host Crossbowman.
-2. **Shield Push** — Black Host Raider + Ruin Shieldbearer.
+2. **Shield Push** — Black Host Raider + Black Host Shieldbearer.
 3. **Hound Rush** — 2 War Hounds.
 
 The opening S001 combat segment ends here. **Do not place concealed Seyrik or Riftmaw in the opening chain.**
@@ -116,7 +116,7 @@ The Chapter-0 combat roster is exactly:
 ### Shared Black Host identities
 - Black Host Raider
 - Black Host Crossbowman
-- Ruin Shieldbearer
+- Black Host Shieldbearer
 
 ### Chapter-0-specific combat identities
 - War Hound

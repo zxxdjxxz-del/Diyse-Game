@@ -152,7 +152,7 @@ Environmental details may reinforce known events but must not reveal:
 
 **Combat 2 — Cyanis solo**
 - Black Host Raider
-- Ruin Shieldbearer
+- Black Host Shieldbearer
 
 **Inter-fight gameplay**
 - return to player control;

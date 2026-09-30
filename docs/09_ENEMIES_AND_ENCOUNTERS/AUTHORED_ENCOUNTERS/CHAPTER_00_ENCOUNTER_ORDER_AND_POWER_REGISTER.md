@@ -42,7 +42,7 @@ Exact seconds/meters remain map-playtest variables, but the following presentati
 - after victory, return to player control;
 - Cyanis gets a short route-clearing / survivor-movement interval before the next fight.
 
-**Combat 2 — Raider + Ruin Shieldbearer**
+**Combat 2 — Raider + Black Host Shieldbearer**
 - occurs at a later road pocket, not as an immediate reinforcement wave;
 - after victory, return to player control;
 - a second short movement / wreckage-read interval separates it from Combat 3.
@@ -117,7 +117,7 @@ No statuses.
 ### 0-02 — P01 Shield Push — CYANIS SOLO
 Formation:
 - Black Host Raider
-- Ruin Shieldbearer
+- Black Host Shieldbearer
 
 Purpose:
 > introduce a more durable defensive enemy and teach target/tempo adjustment
@@ -223,7 +223,7 @@ Aftermath / survivor recovery / overnight-camp handoff.
 |---|---:|---:|---|
 | Black Host Raider — Ch0 | 1 | 88 | 110 / 125 |
 | Black Host Crossbowman — Ch0 | 1 | 72 | 115 / 135 |
-| Ruin Shieldbearer — Ch0 | 2 | 128 | 105 / 125 Ruin |
+| Black Host Shieldbearer — Ch0 | 2 | 128 | 105 / 125 Ruin |
 | War Hound | 2 | 142 | 135 / 130 Ruin / 145 |
 | Ruin Vanguard Pursuer | 4 | 620 | 150 / 155 Ruin |
 | Riftmaw | 4 | 340 | 165 / 175 Ruin / 120 AoE |
@@ -276,7 +276,7 @@ Detailed prior proof remains historical baseline/reference:
 Chapter 0 uses exactly these combat identities:
 - Black Host Raider;
 - Black Host Crossbowman;
-- Ruin Shieldbearer;
+- Black Host Shieldbearer;
 - War Hound;
 - Ruin Vanguard Pursuer / concealed Seyrik;
 - Riftmaw;

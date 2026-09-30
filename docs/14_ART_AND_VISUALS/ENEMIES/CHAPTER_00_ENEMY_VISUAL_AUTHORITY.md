@@ -66,7 +66,7 @@ Shared visual language:
 Chapter-0 glow firewall:
 - Raider — no glow;
 - Crossbowman — no glow;
-- Ruin Shieldbearer — no glow;
+- Black Host Shieldbearer — no glow;
 - Ruin Vanguard Pursuer / Seyrik — no glow;
 - Battle Sorcerer — no armor glow.
 
@@ -101,7 +101,7 @@ For Chapter 0, read the humanoid enemies in this order:
 **Black Host Crossbowman / Raider**  
 → lower-rank issued armor
 
-**Ruin Shieldbearer**  
+**Black Host Shieldbearer**  
 → mid-rank heavy specialist
 
 **Ruin Vanguard Pursuer / Seyrik**  
@@ -382,7 +382,7 @@ Cloth:
 
 ---
 
-# Ruin Shieldbearer
+# Black Host Shieldbearer
 
 ## Exact approved Shieldbearer visual master
 
@@ -526,7 +526,7 @@ Viewed side-by-side:
 **Raider**
 > baseline medium armor / balanced soldier silhouette.
 
-**Ruin Shieldbearer**
+**Black Host Shieldbearer**
 > broadest / heaviest ordinary troop / shield dominates.
 
 They must share:
@@ -918,7 +918,7 @@ At a glance, Chapter 0 should show the Black Host hierarchy without needing labe
 - standard issued armor;
 - faction baseline.
 
-**Ruin Shieldbearer**
+**Black Host Shieldbearer**
 - reinforced specialist;
 - broader, heavier, sharper.
 
@@ -1041,7 +1041,7 @@ If the mouth does not dominate the silhouette/read:
 These seven Chapter-0 visual identities are now locked:
 1. Black Host Raider
 2. Black Host Crossbowman
-3. Ruin Shieldbearer
+3. Black Host Shieldbearer
 4. War Hound
 5. Ruin Vanguard Pursuer / concealed Seyrik
 6. Battle Sorcerer
