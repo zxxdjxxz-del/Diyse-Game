@@ -1,10 +1,7 @@
 # Diyse — Open Audio Items
-**Migration baseline:** `Diyse_CURRENT_WORKING_TRACKER_CONSOLIDATED_2026-08-27_v85.md`  
-**Current whole-project authority:** **v2.20 / Audit135**, plus newer explicit corrections already preserved in current reorganized domains.  
-**Music supersession authority:** later Complete Master Canon explicitly marks **ALL whole-project music OPEN / under separate redevelopment** and supersedes the older v1.53–v1.57 regional-music prescriptions as active canon.  
-**Research preservation:** older approved/researched music material remains valuable development evidence but is **not automatically current soundtrack canon** unless explicitly promoted.  
-**Runtime checkpoint:** `3fd07e92eda04f31ba613a654b3b1b28071f44e6`; no production music/SFX/audio asset library is present in the inspected Godot repository.
 
+**Status:** ACTIVE AUDIO OPEN-WORK REGISTER  
+**Parent authority:** `AUDIO_AUTHORITY_MASTER.md`
 
 Current open items include:
 
@@ -20,7 +17,7 @@ Current open items include:
 10. title/ending/credits music;
 11. diegetic music culture;
 12. voice-acting scope;
-13. combat-bark scope;
+13. combat-bark/nonverbal-vocalization scope;
 14. final SFX palette;
 15. UI sound palette;
 16. environment ambience library;
@@ -37,4 +34,4 @@ Current open items include:
 27. final pronunciation guide if VO is adopted;
 28. final sample-source/licensing inventory.
 
-The existing Ancient Music R&D can inform later decisions but does not close these items by itself.
+Historical research may inform later decisions but does not close these items by itself.
