@@ -1,6 +1,5 @@
 # Chapter 4 — The Seventh Reaction
 
-**Current whole-project written authority:** **v2.20 / Audit135**, plus later explicit user corrections and the September 25, 2026 Chapter-4 redesign migration.  
 **Domain rule:** this file owns the current mandatory Chapter-4 story structure, scene order, reveal order, recruitment state, Prime-state transition, chapter-end knowledge state, and cleanup boundary. Exact spoken dialogue belongs in `03_DIALOGUE`; battle numbers in `09_ENEMIES_AND_ENCOUNTERS`; progression numbers in `10_PROGRESSION_AND_EXP`.  
 **Status:** **CURRENT 12-BEAT STRUCTURAL AUTHORITY — PRE-DIALOGUE PRODUCTION.**
 
