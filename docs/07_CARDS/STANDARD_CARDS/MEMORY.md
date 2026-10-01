@@ -1,7 +1,7 @@
 # Diyse — Standard Cards: Memory
 **Migration baseline:** `Diyse_CURRENT_WORKING_TRACKER_CONSOLIDATED_2026-08-27_v85.md`  
-**Primary Card/Prime authority:** compatible **Audit116**, superseded where applicable by **Audit119**, **Audit122**, later current v85 working closures, and newer explicit Face correction.  
-**Current written whole-project authority:** **v2.20 / Audit135** plus newer approved corrections.
+**Historical provenance:** Audit116/Audit119/Audit122, v85-era closures, and later approved corrections as applicable.
+**Authority treatment:** this repository file is current Card/Prime-domain authority. Audit/v85 references remain provenance; later explicit corrections and current owner-domain rules supersede conflicting historical text.
 
 **Face identity:** recall, repetition, preservation, and reuse of prior actions/states; what has happened remaining available to influence the present.
 
@@ -17,7 +17,7 @@
 These effects remain mechanically unchanged by the Face rename. Their Memory identity comes from preserving or reusing already-established state/action context rather than from a universal new replay subsystem.
 
 ## Global references
-- MP prices use the current Audit119/v85 rebase.
+- MP prices shown here are current repository values; Audit119/v85 remains provenance only.
 - Harmful statuses resolve through `../../05_BATTLE_SYSTEM/STATUS_EFFECTS.md`.
 - Base Hit/Evasion resolves through `../../05_BATTLE_SYSTEM/BASE_HIT_AND_EVASION.md`.
 - Current Bleed timing/clearing follows Audit122, not stale Audit116 heal-clears-Bleed wording.
