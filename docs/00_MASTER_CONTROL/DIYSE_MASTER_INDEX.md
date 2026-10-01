@@ -1,86 +1,93 @@
 # DIYSE MASTER INDEX
 
 ## Authority
-Newest explicit approved correction → current owning domain → `00_MASTER_CONTROL` cross-domain rule → `90_WORKING` only for unresolved work → `99_ARCHIVE` for provenance only.
+
+Newest explicit approved correction → current owning numbered domain → `00_MASTER_CONTROL` cross-domain rule → `90_WORKING` only for unresolved sequencing/work → archive/Git history for provenance only.
 
 Cross-domain terminology handoffs:
 - current class names → `CLASS_TERMINOLOGY_CURRENT.md`
 - current Face names → `FACE_TERMINOLOGY_CURRENT.md`
-- retired-name migration map → `RETIRED_TERMINOLOGY_MAP.md`
+- retired/current terminology migration → `RETIRED_TERMINOLOGY_MAP.md`
+- current glossary → `TERMINOLOGY_GLOSSARY.md`
 
 ## Active domains
+
 ### 01_CHARACTERS
-Playable/supporting/antagonist identities, relationships and chronology.
+Playable/supporting/antagonist identities, relationships, chronology, and character-specific boundaries.
 
 ### 02_STORY
-Chapter 0–13 mandatory spine, arcs, reveal order, recruitment, PONR and ending.
+Chapter 0–13 mandatory spine, arcs, reveal order, recruitment, PONR, and ending.
 
 ### 03_DIALOGUE
-Exact Ch0–3 dialogue, Chapter-4 rewrite status, and later authoring-status gates.
+Exact current dialogue for completed chapters plus authoring status for later chapters.
 
 ### 04_WORLD_AND_LORE
-Current geography, map, factions, modern/ancient history and lore truth.
+Current geography, map, factions, modern/ancient history, and lore truth.
 
 ### 05_BATTLE_SYSTEM
-Global combat formulas, targeting, statuses, elements and boss-form rules.
+Global combat formulas, round/turn rules, targeting, statuses, elements, and boss-form rules.
 
 ### 06_CLASSES_AND_ABILITIES
-12 classes, Ability/Ultimate roster, Traits, MP and automatic Masteries.
+12 classes, Ability/Ultimate roster, Traits, MP, class progression structure, and automatic Masteries.
 
 ### 07_CARDS
-24 Standard Cards, 12 Primes and the six current Faces.
+24 Standard Cards, 12 Primes, the six current Faces, Prime loadouts, progression, and runtime rules.
 
 ### 08_ITEMS_AND_EQUIPMENT
-Consumables, 91 equipment identities, Relics, Legacies and materials.
+Consumables, 91 equipment identities, Relics, Legacies, Forge Components, and project materials.
 
 ### 09_ENEMIES_AND_ENCOUNTERS
-Chapter rosters, raw stats, bosses, Elites and Hunts.
+Chapter rosters, formations, raw-stat/action owners, bosses, **strong normal-pool enemies**, Regional Hunts, Major Hunts, and support objects.
+
+There is no separate Elite encounter category.
 
 ### 10_PROGRESSION_AND_EXP
-Level/EXP spine, CEXP model, encounter pacing and optional progression.
+Player EXP, level curve, CEXP, overlevel controls, reward/progression placement, and the current rebuild frontier.
 
 ### 11_QUESTS
-6 Character Quests, 5 Side Quests and Hunt access/presentation.
+6 Character Quests, 5 ordinary Side Quests, 8 active Regional Hunts, 6 Major Hunts, and optional-content cutoff.
 
 ### 12_ECONOMY_AND_REWARDS
-**G**, prices, shops, ordinary-equipment backfill and reward boundaries.
+Player-facing **G**, prices/shops/rewards, with detailed numeric recalibration still open.
 
 ### 13_UI_AND_IMPLEMENTATION
-Production UI/runtime requirements and current Godot proof divergence.
+Production UI/runtime requirements, save-state boundaries, current Godot proof status, and implementation debt.
 
 ### 14_ART_AND_VISUALS
-Exact visual authorities, HD-2D grammar, environment/VFX production rules, and authoritative asset inventory/provenance routing.
+Exact visual authorities, HD-2D world/presentation grammar, environment/VFX production rules, and asset provenance.
 
-Current exact character-image masters are stored under:
-`asset_sources/characters/current/`
+Permanent-party field/battle runtime direction:
+> **rigged 3D models matched to the exact current 2D masters**
 
-Current character visual authority index:
-`docs/14_ART_AND_VISUALS/PRODUCTION/CHARACTERS/README.md`
+Current character masters:
+> `asset_sources/characters/current/`
+
+Current character visual authority:
+> `docs/14_ART_AND_VISUALS/PRODUCTION/CHARACTERS/README.md`
 
 ### 15_AUDIO_AND_MUSIC
-OPEN soundtrack authority, sound-design requirements and research archive.
+Open soundtrack authority, sound-design requirements, implementation boundary, and historical research archive.
 
 ### 16_BALANCE_AND_TESTING
-Balance closure/open status, regression plans and release gates.
+Current balance/rebuild frontier, regression matrices, test methods, and release gates.
+
+Historical v93–v103 true-battle snapshots are no longer live authority; the current protocol is:
+> `16_BALANCE_AND_TESTING/TRUE_BATTLES/TRUE_BATTLE_TEST_PROTOCOL.md`
 
 ## Working layer
-`90_WORKING/` contains only current unresolved/reopened work. It must not become a second cumulative canon tracker.
+
+`90_WORKING/` is not a second canon tracker.
+
+Live contents are limited to:
+- `ACTIVE_WORK_QUEUE.md`;
+- playable-area/route production files and blueprints.
 
 ## Archive layer
-`99_ARCHIVE/` contains migration history and historical authority references. Nothing there is current by default.
+
+`99_ARCHIVE/` and Git history are provenance/history only. Nothing there is current by default.
 
 ## Reorganization status
+
 > **COMPLETE**
 
-Next work should happen inside the owning subject domain, using `90_WORKING` only as a temporary drafting/staging area.
-
-## Current routing checkpoint
-- historical enemy static/paper passes remain evidence, but do **not** override the active Chapter-4 enemy rework, enemy ability/action-kit redesign, or Chapters 5–13 development-in-progress;
-- historical balance reports remain evidence, not an automatic work queue;
-- Player EXP/CEXP numeric tuning is **provisional / rebuild pending** under `10_PROGRESSION_AND_EXP`; **Lv55–60** remains the current class-completion target window;
-- class architecture remains owned by `06_CLASSES_AND_ABILITIES`;
-- Prime loadout access remains **1 slot from Chapter 4 Prime-loadout access until Sixfold Volition; 2 after Volition**;
-- playable-area/route layout production is an active project stream;
-- character visual masters and their production locks are repository-backed under the current visual authority system; B00 identity sources are 6/6 locked while runtime translation remains open.
-
-For unresolved work, use `OPEN_AND_PENDING_WORK.md` as the cross-domain summary and `../90_WORKING/ACTIVE_WORK_QUEUE.md` for detailed sequencing; do not follow historical “Next” lines embedded in older reports.
+New work should update its numbered owner domain first. Temporary cross-domain production notes belong in `90_WORKING` only when a dedicated working surface is genuinely needed.

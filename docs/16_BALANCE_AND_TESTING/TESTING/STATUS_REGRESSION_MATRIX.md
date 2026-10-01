@@ -3,60 +3,90 @@
 **Status:** ACTIVE STATUS QA OWNER  
 **Status-system authority:** `../../05_BATTLE_SYSTEM/STATUS_EFFECTS.md`
 
-Automate where practical:
+Automate where practical. If this file conflicts with `STATUS_EFFECTS.md`, the battle-system owner wins and this matrix must be synchronized.
 
 ## Burn
-- apply
-- tick1/2/3
-- refresh
-- KO
-- boss magnitude conversion
-- no Crit.
+
+Verify:
+- 4-round duration;
+- 6% Max HP end-of-round damage per affected round;
+- application round can count as round 1 when Burn remains active through round end;
+- Defense −10% and Spirit −10% while active;
+- reapplication refreshes duration;
+- Burn does not stack with itself;
+- damage cannot Crit;
+- damage ignores Defense/Spirit;
+- damage can KO;
+- Regional Hunt damage conversion = 4.5% Max HP/round;
+- Major Hunt / mandatory boss damage conversion = 3% Max HP/round;
+- high-rank conversion changes damage magnitude only, not the Defense/Spirit rider.
 
 ## Freeze
-- action denial
-- guaranteed first2
-- persistence r3/r4
-- max4
-- direct Physical hit removes **after** damage
-- no refresh
-- Regional max2
-- Major/mandatory max1.
+
+Verify:
+- target cannot act;
+- first 2 affected rounds guaranteed;
+- separate 80% persistence checks into affected rounds 3 and 4;
+- ordinary maximum 4 affected rounds;
+- first successful direct Physical hit removes Freeze after that hit;
+- no refresh while active;
+- Regional Hunt maximum 2 affected rounds;
+- Major Hunt / mandatory boss maximum 1 affected round;
+- application timing correctly distinguishes before-turn vs after-turn application.
 
 ## Stun
-- affected-turn counter
-- 40% ordinary roll
-- 25% Regional
-- 20% Major/mandatory
-- no refresh.
+
+Verify:
+- 4 affected turns;
+- 40% action-loss chance on each ordinary affected turn;
+- cannot refresh while active;
+- Regional Hunt action-loss chance = 25%;
+- Major Hunt / mandatory boss action-loss chance = 20%;
+- each affected turn opportunity consumes one duration count whether the action-loss roll succeeds or fails.
 
 ## Staggered
-- Speed/Base Hit/Evasion −20%
-- refresh
-- no stack
-- expiry restoration
-- no Break meter.
+
+Verify:
+- 5-round ordinary duration;
+- Attack −20%;
+- Magic −20%;
+- Speed −20%;
+- application round counts as round 1;
+- mid-round application does not reorder the already-fixed current-round initiative;
+- Speed penalty affects later beginning-of-round ordering while active;
+- reapplication refreshes duration;
+- no self-stacking;
+- remains a normal harmful status, not a Break/Stagger meter;
+- Regional Hunt duration = 4 rounds;
+- Major Hunt / mandatory boss duration = 3 rounds.
 
 ## Bleed
-- starts at **3% Max HP per qualifying proc**
-- after the affected unit completes **3 turns uncleared**, escalates to **4% Max HP per qualifying proc**
-- third-turn action proc still uses 3%; escalation applies after that turn resolves
-- reapplication while active does not reset the age/escalation; full removal followed by reapplication starts a fresh 3% Bleed
-- round tick
-- action tick
-- multiple actual actions each qualify
-- can KO
-- no Crit
-- ignores defenses
-- partial heal does not clear
-- Regen only clears if full HP achieved
-- exact full HP clears
-- valid status clear/item clears
-- Regional Hunt conversion: 2.25% → 3% after escalation
-- Major Hunt / mandatory boss conversion: 1.5% → 2% after escalation.
 
-## Application
-- hit-attached rider never applies on miss
-- ordinary chance clamps 5–95
-- explicit immunity blocks
-- SR is raw 0/5/10/15, not percentage multiplier.
+Verify:
+- starts at 3% Max HP per qualifying proc;
+- end-of-round proc while active;
+- additional proc after each actual action by the affected unit;
+- lost/no-action turns can advance Bleed age but do not create an action proc;
+- third completed affected turn's action proc still uses 3%;
+- after that third completed turn, same uncleared Bleed escalates to 4%;
+- reapplication while active does not reset age/escalation;
+- full removal + later reapplication starts a fresh 3% Bleed;
+- can KO;
+- cannot Crit;
+- ignores Defense/Spirit;
+- full HP clears;
+- valid harmful-status clear/item clears;
+- partial heal does not clear;
+- Regen clears only if full HP is actually reached or an explicit clear is included;
+- Regional Hunt magnitude = 2.25% initially → 3% escalated;
+- Major Hunt / mandatory boss magnitude = 1.5% initially → 2% escalated.
+
+## Application resolver
+
+Verify:
+- hit-attached status rider never applies on miss;
+- ordinary status chance clamps to 5%–95%;
+- explicit immunity/guarantee/script may override the ordinary clamp;
+- Status Resistance uses raw 0/5/10/15 values;
+- application-reliability bonuses add percentage points where legal;
+- retired percentage-based Status Resistance tables do not reappear.
