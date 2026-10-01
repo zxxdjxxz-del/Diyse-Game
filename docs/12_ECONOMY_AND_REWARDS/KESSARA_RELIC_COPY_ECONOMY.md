@@ -1,6 +1,6 @@
 # Diyse — Kessara Relic-Copy Economy
 
-**Status:** EXACT SERVICE-FEE AUTHORITY
+**Status:** CURRENT RELIC-COPY SERVICE STRUCTURE / FEE PROVISIONAL PENDING ECONOMY REBUILD
 
 The Relic-copy mechanic itself is owned by `08_ITEMS_AND_EQUIPMENT/RELICS/RELIC_COPY_RULES.md`.
 
@@ -13,8 +13,8 @@ Current mechanical requirements remain:
 - Legacies cannot be copied;
 - donor access does not create a copy.
 
-## Exact service fee
-Kessara charges:
+## Provisional service-fee reference
+Retained provisional planning fee:
 > **6,000 G per successful Relic-copy forge**
 
 This is the tenfold-display synchronization of the established flat service fee. It is flat across all Relic identities and all chapters once the service is available.
@@ -48,16 +48,16 @@ Completionist/optional-content income is the intended source of comfortable copy
 ## Current authored material supply
 There are currently **18 Relic-copy-specific Forge Component source slots** across the six Faces.
 
-At 6,000 G per successful copy, fully using 18 such copy opportunities would represent:
+Under the provisional 6,000-G fee, fully using 18 such copy opportunities would represent:
 > **108,000 G**
 
 of optional service spending.
 
-This is a deliberate late/completionist G sink and helps keep optional Hunt/Elite/quest income economically meaningful.
+This is a provisional late/completionist G-sink model and helps frame optional Hunt/quest income economically.
 
 ## Still open outside the fee
 - exact menu unlock/presentation timing;
 - exact original-vs-copy UI labeling where needed;
 - final physical pickup presentation for every Forge Component.
 
-Those implementation/presentation questions do not reopen the 6,000-G service fee.
+Those implementation/presentation questions do not change the copy mechanic itself. The numeric fee remains eligible for economy-rebuild recertification.
