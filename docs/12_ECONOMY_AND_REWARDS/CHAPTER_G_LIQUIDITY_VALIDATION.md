@@ -1,8 +1,8 @@
 # Diyse — Chapter-by-Chapter G Liquidity Validation
 
-**Status:** PROVISIONAL PASS / CH1 ORDINARY-G REMAP REVALIDATION OPEN
+**Status:** HISTORICAL / PROVISIONAL STRESS MODEL — FULL ECONOMY REBUILD PENDING
 
-This validation checks whether the closed mandatory-route G economy provides enough usable money at the points where the player actually needs to spend it.
+This retained stress model checks whether the former/provisional mandatory-route G calibration provided enough usable money at the points where the player needed to spend it. It is not current final economy certification.
 
 It is intentionally stricter than simply comparing whole-game income against whole-game prices.
 
@@ -13,8 +13,8 @@ At a normal chapter-scale commerce cadence, can a player who does **no optional 
 
 without repeatedly exhausting the wallet or requiring grinding?
 
-Result:
-> **YES — PASS**
+Historical model result:
+> **SOLVENT UNDER THE PROVISIONAL CALIBRATION / NOT FINAL CERTIFICATION**
 
 ## Income basis
 Mandatory-route expected direct G:
@@ -144,8 +144,8 @@ That is deliberate:
 - premium purchases should compete with other luxury/build spending rather than becoming assumed routine maintenance.
 
 ## Completionist margin
-Broad completionist direct-cash reference:
-> **~604,500 G**
+Broad completionist direct-cash reference from the synchronized provisional ledgers:
+> **~596,500 G**
 
 Compared with the stress-test baseline spending modeled here:
 - equipment allowances: **115,600 G**;
@@ -159,12 +159,12 @@ This still leaves substantial completionist flexibility for:
 - extra recovery stock;
 - alternate-build experimentation.
 
-The prior ~650,000-G completionist cash target is reopened after retirement of the standalone optional-Elite bounty layer. This does **not** invalidate the mandatory-route liquidity PASS above.
+The prior ~650,000-G completionist cash target is reopened after retirement of the standalone optional-Elite bounty layer. This historical comparison does not certify the pending rebuilt economy.
 
-## Certification
-> **MANDATORY-ROUTE LIQUIDITY: PROVISIONAL PASS — FINAL CH1 ORDINARY-G REMAP PENDING**
+## Current certification boundary
+> **NO CURRENT FINAL LIQUIDITY CERTIFICATION — ECONOMY REBUILD PENDING**
 
-The recalculated route still has enough modeled money for ordinary equipment progression and routine healing/MP/revive/status supplies without requiring optional content or grinding. Final certification remains open only because Chapter 1's current formation identities have not yet received their exact per-formation G remap.
+The historical/provisional route model remained solvent under its own assumptions, but final certification now requires the full economy rebuild, including Chapter-1 formation-G remap and resolution of currently open payout rows such as Chapter-3 Memory Construct.
 
 Reopen this certification only if:
 - actual battle-consumption simulation shows routine Consumable usage materially above this stress basket;
