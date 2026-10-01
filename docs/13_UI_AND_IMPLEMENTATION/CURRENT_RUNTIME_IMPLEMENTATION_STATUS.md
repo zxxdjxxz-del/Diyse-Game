@@ -1,7 +1,7 @@
 # Diyse — Current Runtime Implementation Status
 
-**Migration baseline:** `Diyse_CURRENT_WORKING_TRACKER_CONSOLIDATED_2026-08-27_v85.md`  
-**Current written whole-project authority:** **v2.20 / Audit135**, plus newer explicit corrections already preserved in the reorganized domains.  
+**Historical migration provenance:** v85-era consolidated tracker.
+**Authority treatment:** this repository file is current UI/implementation-domain authority within its stated scope; Audit/v85 references remain provenance only.
 **Implementation rule:** current domain canon beats older proof code/docs. Proof implementations are architectural evidence only; they do not restore stale mechanics, names, currencies, progression or UI concepts.
 
 ---
