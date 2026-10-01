@@ -1,7 +1,7 @@
 # Diyse — Standard Cards: Perception
 **Migration baseline:** `Diyse_CURRENT_WORKING_TRACKER_CONSOLIDATED_2026-08-27_v85.md`  
-**Primary Card/Prime authority:** compatible **Audit116**, superseded where applicable by **Audit119**, **Audit122**, later current v85 working closures, and newer explicit Face correction.  
-**Current written whole-project authority:** **v2.20 / Audit135** plus newer approved turn-entry initiative corrections.
+**Historical provenance:** Audit116/Audit119/Audit122, v85-era closures, and later approved corrections as applicable.
+**Authority treatment:** this repository file is current Card/Prime-domain authority. Audit/v85 references remain provenance; later explicit corrections and current owner-domain rules supersede conflicting historical text.
 
 **Face identity:** Accuracy-oriented effects, Evasion, Critical Hits, and Fields; reading the battlefield, positioning, timing, openings, and controlling or exploiting space. This Face does not create a natural Accuracy stat.
 
@@ -91,7 +91,7 @@ The delay:
 The enemy still chooses its legal action using the real battle state when its delayed turn actually arrives.
 
 ## Global references
-- MP prices use the current Audit119/v85 rebase.
+- MP prices shown here are current repository values; Audit119/v85 remains provenance only.
 - Harmful statuses resolve through `../../05_BATTLE_SYSTEM/STATUS_EFFECTS.md`.
 - Base Hit/Evasion resolves through `../../05_BATTLE_SYSTEM/BASE_HIT_AND_EVASION.md`.
 - Initiative and next-round rerouting resolve through `../../05_BATTLE_SYSTEM/TURN_AND_ROUND_RULES.md`.

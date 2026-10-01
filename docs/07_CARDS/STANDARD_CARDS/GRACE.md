@@ -1,7 +1,7 @@
 # Diyse — Standard Cards: Grace
 **Migration baseline:** `Diyse_CURRENT_WORKING_TRACKER_CONSOLIDATED_2026-08-27_v85.md`  
-**Primary Card/Prime authority:** compatible **Audit116**, superseded where applicable by **Audit119**, **Audit122**, and later current v85 working closures.  
-**Current written whole-project authority:** **v2.20 / Audit135**.  
+**Historical provenance:** Audit116/Audit119/Audit122, v85-era closures, and later approved corrections as applicable.
+**Authority treatment:** this repository file is current Card/Prime-domain authority. Audit/v85 references remain provenance; later explicit corrections and current owner-domain rules supersede conflicting historical text.
 
 
 ## Current count
@@ -15,7 +15,7 @@
 | **Dawn Recall** | 44 | one defeated party member | Revival | — | — | Revive at 35% Max HP; clear all eligible harmful statuses; **Defense +15% / Spirit +15% through end of following round**. | Regional Hunt #5 — Whitehorn Ravager |
 
 ## Global references
-- MP prices use the current Audit119/v85 rebase.
+- MP prices shown here are current repository values; Audit119/v85 remains provenance only.
 - Temporary stat changes resolve through `05_BATTLE_SYSTEM/STAT_CHANGES.md`.
 - Harmful statuses resolve through `05_BATTLE_SYSTEM/STATUS_EFFECTS.md`.
 - Base Hit/Evasion resolves through `05_BATTLE_SYSTEM/BASE_HIT_AND_EVASION.md`.
