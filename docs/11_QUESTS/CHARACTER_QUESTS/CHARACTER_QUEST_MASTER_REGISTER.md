@@ -31,3 +31,17 @@ The Character Quest does not directly hand the player the finished Legacy equipm
 
 ## Numeric reward ownership
 Exact Character Quest Player EXP/CEXP is owned by `10_PROGRESSION_AND_EXP` and remains provisional pending the progression rebuild.
+
+
+## Retired concept firewall
+Do not restore the following as separate current Character Quests or bosses:
+
+- Cyanis: **The Ones He Could Not Save**, **No One Is Expendable** → compatible material is folded into **The Weight of the Crest**.
+- Cyanis boss: **Crest Load Warden** → current **Crest-Exhausted Warden**.
+- Ilyra: **The Quiet Ward** as a separate quest, **What Healing Cannot Restore** → compatible material is folded into **Mercy Has a Voice**; current quest has no boss.
+- Torren: **Routes No Crown Recorded**, **The Path No Map Holds** → compatible material is folded into **The Road That Returns**; current boss is **Old Relay Warden**.
+- Nimera boss: **Revision Custodian** → retired; current quest has no boss.
+- Seyrik's old no-boss climax → superseded by **Black Host Remnant Captain**.
+- Vaelira: do not restore old six-element / Wind-damage / Water-damage quest mechanics. Current forecast language is **Storm / Lightning**, **Blizzard / Ice**, **Heatwave / Fire**.
+
+Git history preserves superseded versions; no separate retired-concepts owner file is required.
