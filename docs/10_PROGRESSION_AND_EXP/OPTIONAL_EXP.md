@@ -7,6 +7,8 @@
 
 Fixed authored packages are exempt from weak-enemy diminishing returns.
 
+> **NUMERIC STATUS — PROVISIONAL.** Optional EXP values, subtotals, cap-proof pools, and recommended-level centers are retained as planning references pending the later EXP rebuild.
+
 ## Five ordinary Side Quests — 20,000
 | Side Quest | Giver | Timing | EXP |
 |---|---|---|---:|
@@ -45,9 +47,9 @@ Removed quests such as **The Living List** and **When the Roads Open** contribut
 |---:|---|---|---:|---:|---|
 | 1 | Ashen Whitehorn | after Ch6 | ~33 | 4,500 | Yes |
 | 2 | Crownless Siege Marshal / Crownless War Engine | after Ch7 | ~41 | 6,000 | Yes |
-| 3 | Concordance Guardian | after Ch9 | ~54 | 8,000 | Yes |
-| 4 | Worldscar Leviathan | after Ch10 | ~60 | 13,000 | Yes |
-| 5 | Final Archive Arbiter | after Ch11 | ~65 | 18,500 | Yes |
+| 3 | Concordance Guardian | after Sixfold Volition / end Ch7 | ~54 | 8,000 | Yes |
+| 4 | Worldscar Leviathan | after Ch8 | ~60 | 13,000 | Yes |
+| 5 | Final Archive Arbiter | after Ch10 | ~65 | 18,500 | Yes |
 | 6 | The Unfinished World | post-Vaelkor Ch12 + Arbiter clear | 68–70 | 24,000 | No |
 
 Major Hunts #1–5 subtotal: **50,000**.
@@ -60,12 +62,10 @@ Incidental optional combat is bonus progression.
 
 
 ## Current Major Hunt timing effect
-The first five Major Hunts are now delayed to:
-> after Ch6 / after Ch7 / after Ch9 / after Ch10 / after Ch11
+Current Major Hunt access timing is:
+> after Ch6 / after Ch7 / after Sixfold Volition at end Ch7 / after Ch8 / after Ch10
 
-Their EXP awards are unchanged; the change delays when completionist EXP enters the campaign curve.
-
-Major Hunts #1–#5 are now recertified for their current unlock windows. EXP rewards are unchanged.
+Their existing EXP awards are unchanged in this cleanup pass. Because #3–#5 moved to earlier access windows, any old completionist-level proof tied to the later timing is **provisional / revalidation open**. The full optional-EXP layer is scheduled for later rebalance.
 
 
 ## Regional Hunt retirement sync — current
