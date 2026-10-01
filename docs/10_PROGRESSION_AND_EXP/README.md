@@ -24,15 +24,15 @@ Structural rules such as **Lv70 player cap**, **CL13 class cap**, **Chapter 0 no
 - normal ending: **~Lv62**
 - CL13 threshold: **6,000 CEXP**
 - current provisional cap proof reaches **Lv70 before Last Shelter**; final proof remains rebuild-dependent
-- **Mastery Point currency removed** under current v85 working authority
+- **Mastery Point currency removed** under current repository class/progression authority
 
 Audit123's former 8-point Mastery schedule is historical provenance only; current repository authority has no Mastery Point currency.
 
 - `NATURAL_STAT_CURVE.md` — exact Lv1–70 neutral natural-stat formulas and balance-validation construction order.
 
-## Provisional v91 CEXP timing baseline
+## Historical v91/v92 CEXP timing reference
 - CL13 threshold remains **6,000 CEXP**.
-- mandatory-route full Base + Subclass completion now spans **~Lv55–60**.
+- the historical v91/v92 model places mandatory-route full Base + Subclass completion around **~Lv55–60**; final recertification remains pending.
 - end Ch12 post-Volition mandatory CEXP: **7,000**.
 - Last Shelter post-Volition mandatory CEXP: **8,500**.
 - optional CEXP totals: see `OPTIONAL_CEXP.md`; current ledger remains provisional pending rebuild.
