@@ -147,12 +147,9 @@ No spoken dialogue, reveal order, Card state, or encounter identity was changed 
 The synchronized combined manuscript has been regenerated from the current B01/B02 atomic sources after this update.
 
 
-## Current Person-Brain compatibility audit
+## Person-Brain revision boundary
 
-**September 25, 2026: PASS — no dialogue regeneration required.**
+Current production atomics remain the exact spoken-wording authority. Runtime Person-Brain profiles are generation/revision constraints, not a parallel transcript.
 
-The current exact atomics were rechecked against the live runtime Person Brains and current relationship chronology after the Person-Brain architecture expansion.
+If a live Person Brain, relationship chronology, scene authority, or canon fact materially changes, revalidate only the affected atomics. Do not regenerate approved dialogue merely for architectural parity.
 
-See the chapter-local `*_PERSON_BRAIN_COMPATIBILITY_AUDIT.md`.
-
-This pass does not freeze future revision if canon, scene authority, or a live Person Brain materially changes. It establishes that the current approved wording remains a plausible output of the current agents and should not be regenerated merely for architectural parity.
