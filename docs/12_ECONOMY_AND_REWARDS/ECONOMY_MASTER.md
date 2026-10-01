@@ -89,9 +89,9 @@ Legacy/provisional optional direct-G subtotal after retiring the former-Elite bo
 Legacy mandatory reference + legacy optional direct-G reference:
 > **approximately 596,500 G**
 
-This is **below the prior ~650,000-G broad completionist target** because the historical 38,900-G standalone optional-Elite bounty layer has been retired.
+This is **below the prior ~650,000-G broad completionist target** because the historical standalone Elite-bounty layer has been retired.
 
-Do not restore those bounties simply to recover the old total. Any future completionist-cash target belongs to the dedicated economy rebuild.
+Do not restore separate strong-enemy bounties simply to recover an older completionist total. Any future completionist-cash target belongs to the dedicated economy rebuild.
 
 This completionist reference excludes:
 - equipment/Consumable resale;
@@ -211,7 +211,6 @@ Optional content should make the player richer and widen build flexibility, not 
 - fixed authored combats → `ENEMY_REWARD_HANDOFF.md`
 - mandatory non-battle map → `MANDATORY_NONBATTLE_G_BUDGET.md`
 - chapter liquidity validation → `CHAPTER_G_LIQUIDITY_VALIDATION.md`
-- former optional-Elite reward retirement → `ELITE_G_REWARDS.md`
 - Regional Hunts → `REGIONAL_HUNT_REWARD_BOUNDARY.md`
 - Major Hunts → `MAJOR_HUNT_REWARD_BOUNDARY.md`
 - Side Quests → `SIDE_QUEST_REWARD_BOUNDARY.md`
