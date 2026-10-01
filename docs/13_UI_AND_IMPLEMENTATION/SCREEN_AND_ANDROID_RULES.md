@@ -1,6 +1,6 @@
 # Diyse — Screen, Layout & Android Rules
-**Migration baseline:** `Diyse_CURRENT_WORKING_TRACKER_CONSOLIDATED_2026-08-27_v85.md`  
-**Current written whole-project authority:** **v2.20 / Audit135**, plus newer explicit v85 working overrides already preserved in the reorganized domains.  
+**Historical migration provenance:** v85-era consolidated tracker.
+**Authority treatment:** this repository file is current UI/implementation-domain authority; Audit/v85 references remain provenance only. Cross-domain gameplay rules defer to their current owning repository domains.
 **Runtime source checkpoint inspected:** `Diyse-Game` commit `3fd07e92eda04f31ba613a654b3b1b28071f44e6`.  
 **Implementation rule:** current domain canon beats older proof code/docs. Proof implementations are evidence of architecture, not permission to restore stale mechanics, names, currencies, progression, or UI concepts.
 
@@ -23,7 +23,7 @@ Wider Android screens:
 
 ## Dialogue
 General final target:
-- portraits around **35–45% screen height** where practical;
+- portraits generally **~25–35% of screen height**, with **~30%** as the normal starting target under `DIALOGUE_UI.md`;
 - dialogue UI generally in the lower **20–25%** while preserving environment/portrait readability.
 
 The current proof dialogue panel is substantially taller and is **not final layout authority**.
