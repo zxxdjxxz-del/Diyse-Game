@@ -143,20 +143,15 @@ Detailed G prices, payouts, chapter-income totals, liquidity models, and complet
 Do not use this quick reference to lock economy numbers before the planned economy rebuild.
 
 ## Progression
-Player cap:
+Structural player cap:
 > **70**
 
-Campaign-only ending:
-> about **Lv62**
+Current completion target:
+> normal-route full Base + Subclass completion should land around **Player Lv55–60**
 
-Last Shelter:
-> about **Lv60**
+The existing campaign ending (~Lv62), Last Shelter (~Lv60), 225-encounter planning center, CL13 6,000-CEXP threshold, chapter CEXP totals, and optional CEXP pool are **provisional reference values from the pre-rebuild model**.
 
-Ordinary encounter planning center:
-> **225**
-
-Current CEXP timing:
-> normal-route full Base + Subclass completion ~Player Lv55–60; CL13 = 6,000 CEXP; 7,000 post-Volition mandatory CEXP by end Ch12; 8,500 by Last Shelter; optional pool 1,000 before MH6 / 1,075 including MH6.
+Do not use this quick reference to certify or propagate exact EXP/CEXP totals until the planned progression rebuild is complete.
 
 ## Balance routing
 The former mandatory-route ×1.20 / First Command Warden boss-local retune sequence is **not the current work-routing authority**.
