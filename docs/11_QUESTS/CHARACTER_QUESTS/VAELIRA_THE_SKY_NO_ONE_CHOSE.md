@@ -7,7 +7,7 @@
 
 ## Unlock / runtime
 - after **Sixfold Volition**
-- ~30 minutes
+- runtime: **OPEN / provisional** — scope-driven; no uniform Character Quest duration target
 - parent hub: **Cerythvale**
 - site: **Skyglass Observatory**
 - local placement: elevated east/east-northeast of Cerythvale
@@ -57,7 +57,7 @@ Boss:
 Vaelira chooses a stable configuration and closes the unused predictive branches because she **wants** the chosen future, not because every other possibility is proven objectively wrong.
 
 ## Reward
-- **7,000 Player EXP**
+- numeric progression rewards: owned by `10_PROGRESSION_AND_EXP`; current values are provisional pending rebuild
 - **Vaelira Legacy Component**
 - no mandatory Story Prime/Ability gate
 
