@@ -27,7 +27,7 @@ These are persistent/stateful bases. Story and optional content should reuse the
 | Hub | Region / role | Layout maturity | Production notes |
 |---|---|---|---|
 | Brackenwall | Westways hub | L1 | Needs base settlement topology; Quiet Ward is an internal quest precinct/stateful sub-area. |
-| Greenhollow | Westways hub | L1 | Needs base settlement + Lower Woods connection; reused by two Side Quests and Torren CQ launch. |
+| Greenhollow | Westways hub | L1 | Needs base settlement + links to current Chapter-1/Westways local routes; reused by Side Quests and Torren CQ launch. Do not restore retired Lower Woods as a required base-map connection. |
 | Dunmere | Westways hub | L1 | Needs base community topology and links into Ch2 waterworks route. |
 | Stonewake | Greyspires hub | L1 | Ch5 entry hub; needs route handoff toward Emberforge. |
 | Frostmere | Greyspires hub | L1 | Ch6 entry hub; does not require mandatory return between Weather Crown and Crimson Work. |
@@ -67,45 +67,54 @@ These are persistent/stateful bases. Story and optional content should reuse the
 | Packet | Function | Maturity | Treatment |
 |---|---|---|---|
 | Brackenwall safe opening geography | opening hub state | L2 | Reuse Brackenwall. |
-| Hollow Watch | investigation + Castellan encounter | L1 | New watch/ruin route with combat-capable spaces. |
-| Greenhollow | Torren recruitment hub | L2 | Reuse Greenhollow base. |
-| Lower Woods | Greenhollow local problem / ecology | L1 | New reusable local field route; also used by *The Marks We Leave*. |
-| Briar Passage | harder civilian-safe tactical route | L1 | New field route; must visibly preserve civilian flood crossing logic. |
-| Wayfinder Junction | Ancient outdoor cartographic monument/crossroads | L1 | Compact landmark route/monument packet. |
-| Dunmere arrival | chapter handoff | L2 | Reuse Dunmere. |
+| First / northern Briar Passage | Brackenwall → Greenhollow opening traversal | L1 | Short, comparatively readable field route; use Blueprint 002 scale testing. |
+| Greenhollow | Torren recruitment hub + later Chapter-1 return | L2 | Reuse Greenhollow base. |
+| Hollow Watch approach / surface | investigation + light Black Host pressure | L1 | Compact fort/watch route with excavation access. |
+| Hollow Watch excavation / Diysean corridor | Construct-only underground sequence + fixed Shield Construct | L1 | Small corridor/few-room excavation, not a full dungeon. |
+| Hollow Watch landscape-depiction chamber | safe physical-history discovery | L1 | Ends in direct story transition back to Greenhollow; no playable backtrack requirement. |
+| Southern Briar Passage | major natural exploration/combat route | L1 | Moderately maze-like with a few forks/reconnections; no retired Lower Woods rescue route. |
+| Thornhide territory / boss space | mandatory Chapter-1 final boss | L1 | Current boss identity is **Thornhide**; normal lethal victory. |
+| Wayfinder Junction | Ancient outdoor cartographic monument/crossroads + camp | L1 | Compact landmark route/monument packet; safe after boss. |
+| Dunmere approach / arrival | chapter handoff | L2 | Reuse Dunmere base once mapped. |
 
 ## Chapter 2 — The Drowned Oath
 
 | Packet | Function | Maturity | Treatment |
 |---|---|---|---|
 | Dunmere | pressured functioning community | L2 | Reuse hub. |
-| Poisoned Waterworks | contamination investigation | L1 | New industrial/waterworks dungeon layer. |
-| Sunken Archive | archive evidence + Archive Leviathan | L1 | New flooded/archive dungeon segment. |
-| Prisoner Galleries | protected prisoner-controlled safe area | L1 | New interior segment with agency/no-forced-care staging. |
-| Red Transfer Bastion | Rhazek operation / boss area | L1 | New military facility packet; later supports Regional Hunt #2 branch/state. |
-| Extraction Causeway | Hold the Junction + extraction threshold | L1 | New linear-to-defensive causeway route; no combat beyond final threshold. |
+| Old Waterworks | covert municipal/service-route infiltration | L1 | New industrial/waterworks route leading into older construction. |
+| Sunken Archive | archive depths + Archive Leviathan | L1 | Major flooded/archive dungeon segment. |
+| Secret passage / Old Bastion foundations | covert Archive-to-fort connection | L1 | Short transition proving the Ancient complex intersects the later fort foundations. |
+| Prisoner Galleries | prisoner first contact / protected safe area / later release return | L1 | Interior segment with agency/no-forced-care staging. |
+| Old Bastion command ascent / boss area | Rhazek + masked-officer operation | L1 | Current military-facility packet; **Red Transfer Bastion** is retired. |
+| Dunmere return | road reopened / cleanup handoff | L2 | Reuse Dunmere; no retired Extraction Causeway packet. |
 
 ## Chapter 3 — The Old City and Last Sentinel
 
 | Packet | Function | Maturity | Treatment |
 |---|---|---|---|
-| Caelora containment / civic-admin state | opening procedure | L2 | Reuse Caelora base/state. |
-| Old City / Suppressed Archives approach | false-order investigation | L1 | New ancient/urban buried route packet. |
-| Redacted Stacks | Nimera recruitment | L1 | Interior archive sub-area, probably within Old City complex. |
-| Oath Sentinel / record-room domain | First Command Warden + provenance evidence | L1 | Dungeon/guardian sub-area with record-room branch. |
-| Old City optional-return branch | Regional Hunt #3 access after authorization change | L2 | Same complex, new branch/state; no duplicate base dungeon. |
-| Cresthaven | new headquarters establishment | L2 | Reuse persistent HQ once mapped. |
+| Caelora civic / royal / archive-access states | arrival, audience, false-order and seal investigation | L2 | Reuse Caelora base/state. |
+| Lower Archives Entrance | Nimera permanent recruitment | L1 | Archive threshold attached to the current Caelora/Old City archive complex. |
+| Lower Archives Investigation | Yahtrean-over-Ancient archive descent | L1 | Main early archive route packet. |
+| Deep Archives / Memory Construct | Ancient-dominant lower archive + mandatory boss | L1 | Current Chapter-3 archive combat climax. |
+| Inner Collections / Findings | Westways recordbook / Wayfinder-derived copy payoff | L1 | Protected post-boss evidence space. |
+| Cresthaven / Tower Base / Authority Construct | tower verification + mandatory B10 boss | L1/L2 | Reuse/establish Cresthaven base plus Ancient tower-base subspace. |
+| Cresthaven Headquarters | HQ establishment + Ivorybridge decision | L2 | Persistent HQ state; Regional Hunt #3 is retired/open and creates no current map requirement. |
 
 ## Chapter 4 — The Seventh Reaction
 
 | Packet | Function | Maturity | Treatment |
 |---|---|---|---|
-| Cresthaven / Yahtrenhold road handoff | travel start | L2 | Reuse HQ + road transition. |
-| Ivorybridge | hub/staging | L2 | Reuse persistent hub once mapped. |
-| Reaction Annex approach/interior | elemental crisis facility | L1 | New facility base map. |
-| Reaction Node / Conduit spaces | living-researcher stabilization | L1 | Internal facility modules; reuse kit. |
-| Regulation Crucible | four-chamber boss space / Seventh Reaction | L1 | Dedicated boss/mechanic arena within Annex. |
-| Reaction Annex return branch | Regional Hunt #4 | L2 | Reuse facility with optional branch/state. |
+| Cresthaven disturbed grounds / Elder Thornhide territory | opening investigation + nonlethal confrontation | L1/L2 | Reuse HQ edge, then short forest-edge tracking/boss space distinct from Beat-4 shortcut. |
+| Forest shortcut | medium exploration/combat route toward Crown road | L1 | About half Briar Passage scale; a few forks/reconnections, no dense maze. |
+| Crown road / Ivorybridge approach | travel payoff + compressed arrival | L1/L2 | Maintained-road handoff into Ivorybridge. |
+| Ivorybridge | Vaelira introduction / safe staging | L2 | Reuse persistent hub once mapped. |
+| Reaction Annex Front / Research Floor | arrival + controlled comparison | L1 | Healthy functioning facility base. |
+| Elemental Laboratory Ring | four individual branch diagnostics | L1 | Interconnected four-leg lab ring. |
+| Interaction Gallery / Reaction Conduit | six pair tests + nonlethal crisis | L1 | Shared pair-test spaces and Conduit encounter area. |
+| Central Regulation / Regulation Crucible | late dungeon + two-form final battle | L1 | Shared all-four infrastructure and four-chamber/core boss architecture. |
+| Safe Upper Labs | aftermath / recovery handoff | L1/L2 | No forced dungeon backtrack after The Seventh Reaction. |
+| Reaction Annex return branch | Regional Hunt #4 — Crown Prototype | L2 | Reuse facility with optional branch/state after mandatory crisis. |
 
 ## Chapter 5 — The Mountain Engine
 
@@ -255,7 +264,7 @@ These six quests each need a dedicated build packet or a tightly bounded interio
 
 | Side Quest | Map impact | Maturity | Rule |
 |---|---|---|---|
-| *The Marks We Leave* | Greenhollow + existing Lower Woods | L2 | No separate Old Fern Path / Creek Crossing / North Marker / Shelter Spur maps. Use stateful marker/route changes. |
+| *The Marks We Leave* | Greenhollow + current nearby route area (**exact anchor open**) | L2/L0 | Do not restore Lower Woods or the retired Old Fern Path / Creek Crossing / North Marker / Shelter Spur map set solely for this quest. |
 | *A Measure of Bread* | Caelora civic/market/supply spaces | L2 | No new city district. Needs quest-state interaction placement on Caelora base. |
 | *The Crown's Debt* | Ashford civilian/storage/workshop/civic spaces | L2 | No new district. Needs post-occupation recovery-state variants. |
 | *The Third Caravan* | Recovery Depot → Old Supply Cut → Failed Handoff → Temporary Shelter → Settlement Approach → Ashford | L1/L2 | Requires a real local recovery-route packet; nodes are sub-map spaces, not world-map pins. |
@@ -267,11 +276,13 @@ These six quests each need a dedicated build packet or a tightly bounded interio
 
 Regional Hunts should preferentially reuse chapter environment kits and existing route branches, but each still needs a deliberate arena/branch footprint rather than a boss dropped into arbitrary scenery.
 
+Current active count:
+> **8 Regional Hunts**
+
+Slots **#1–#3 are retired/open** and create **no current production-map requirement**. Do not build the retired Cistern Devourer route, retired #2 Bastion Hunt branch, or retired Archive Judgment Engine branch unless later authority explicitly reuses those spaces for something else.
+
 | # | Hunt | Existing area relationship | Maturity | Layout action |
 |---:|---|---|---|---|
-| 1 | Cistern Devourer | Ch1 old cistern branch after Wayfinder knowledge | L0/L1 | Define old-cistern branch off an existing Ch1 route/hub. |
-| 2 | Transfer Executioner | Red Transfer Bastion branch/state | L2/L1 | Add optional Bastion branch/arena. |
-| 3 | Archive Judgment Engine | Old City/Archive return | L2/L1 | Add authorization-opened archive branch/arena. |
 | 4 | Crown Prototype | Reaction Annex return | L2/L1 | Add facility branch/arena. |
 | 5 | Whitehorn Ravager | Ch5 Greyspires branch | L0/L1 | Select exact Ch5 route attachment and arena footprint. |
 | 6 | Winterglass Titan | Ch6 Greyspires branch | L0/L1 | Select exact Ch6 route attachment and arena footprint. |
@@ -306,7 +317,7 @@ These maps must be designed from the start to support meaningful state changes r
 - **Westguard** — Ch8 reclaim; Ch9 military corridor; Ch12 invasion launch.
 - **Vhalmarch** — hostile Varkesh strongpoint → captured forward hub → post-Vaelkor cleanup → Ch13/ending return route.
 - **Vorathen / Veiled Citadel** — active imperial stronghold in Ch12 → captured/post-war transit and excavation access in Ch13.
-- **Greenhollow / Lower Woods** — Ch1 recruitment ecology; *The Marks We Leave* state changes; *The Third Caravan* launch; Torren CQ launch.
+- **Greenhollow / nearby Westways routes** — Ch1 recruitment/return ecology; *The Marks We Leave* uses a current nearby route anchor still to be selected; *The Third Caravan* and Torren CQ launch here. Do not restore Lower Woods as required geography.
 
 ---
 
@@ -332,7 +343,7 @@ Map three representative packets before mass production:
 
 1. **Outdoor route:** Chapter 0 Convoy Road → Wreck Field, or Chapter 10 Eastern Old Road.
 2. **Settlement/hub slice:** Greenhollow or Cresthaven.
-3. **Dungeon/facility slice:** Reaction Annex or Poisoned Waterworks/Sunken Archive.
+3. **Dungeon/facility slice:** Reaction Annex or Old Waterworks/Sunken Archive.
 
 These three should establish:
 - world-unit scale;
