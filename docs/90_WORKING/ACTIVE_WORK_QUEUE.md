@@ -1,134 +1,112 @@
 # Diyse — Active Work Queue
 
-This queue tracks unresolved/reopened work only. Closed owner-domain values remain closed unless a current test or explicit user revision changes them.
+**Status:** ACTIVE CROSS-DOMAIN SEQUENCING INDEX
 
-## 1 — Story-Owned Enemy Placement / Timing Dependencies
-**DEFERRED UNTIL RELEVANT STORY/DIALOGUE WORK**
+This file tracks work order only. Detailed rules and open-item definitions belong to the numbered owner domains.
 
-Examples include:
-- False-Warrant Adept exact placement/role;
-- Highland Resistance Fighter exact Chapter-5 placement;
-- Crown Engine Technician exact story placement;
-- bounded Hunt return/unlock timing where the story trigger is not yet exact.
+## 1 — Dialogue / story continuation
 
-Economy consequence:
-> story-dependent special-encounter payout details remain deferred until both the owning scene role and the planned economy rebuild/recalibration are ready.
+Current:
+- Chapters 0–3 dialogue are current production;
+- Chapter 4 exact dialogue remains open against the current redesigned beats;
+- Chapters 5–13 remain development-in-progress;
+- optional Side Quest / Character Quest dialogue remains open where not already authored.
 
-## 2 — Chapter 4 Dialogue Rewrite + Later-Chapter Dialogue
-Chapters **0–3** are line-complete.
+Use:
+- `../03_DIALOGUE/README.md`
+- `../02_STORY/OPEN_STORY_ITEMS.md`
 
-Chapter 4's current story/beat structure is established, but its exact dialogue rewrite remains **OPEN**.
+Story-owned enemy placement/timing questions remain deferred until their scenes are authored, including currently bounded identities such as False-Warrant Adept, Highland Resistance Fighter, and Crown Engine Technician.
 
-Chapters 5–13 remain development-in-progress and require additional dialogue/story work; do not treat them as line-complete merely because older scene architecture exists.
+## 2 — Playable area / route production
 
-Current dialogue backlog:
-- rewrite Chapter 4 against the current redesigned beat structure;
-- preserve the approved Chapter-5 Seyrik/Rhazek rewrite work as later-chapter source material;
-- continue Chapters 5–13 only through their current development-in-progress authority.
+**ACTIVE — inventory established; blueprint/graybox work underway**
 
-Optional Side Quest / Character Quest exact dialogue remains open where not separately completed.
+The world map and macro route order do not replace build-ready playable geometry.
 
-## 3 — Playable Area & Route Layout Production
-**ACTIVE / PHASE A INVENTORY COMPLETE ENOUGH / PHASE B BLUEPRINT + GRAYBOX STARTED**
-
-The current world map and macro travel order do **not** constitute production-ready playable maps.
-
-Completed in the current pass:
-- created `PLAYABLE_AREA_INVENTORY_WORKING.md` covering mandatory Chapters 0–13, persistent hubs, Character Quests, Side Quests, Regional Hunts and Major Hunts;
-- established layout maturity states L0–L3;
-- confirmed that current production areas are not yet L3 build-ready topology;
-- created `AREA_LAYOUTS/BLUEPRINT_001_CH00_CONVOY_WRECK_ROUTE.md`;
-- created the provisional Godot graybox `game/exploration/maps/chapter_00/chapter_00_graybox.tscn` plus its route builder;
-- reconciled **B06** to the Field Triage Camp perimeter and added **B07**'s bounded player-controlled survivor sweep before Brackenwall;
-- added focused Godot CI validation for the Chapter-0 graybox structure.
-
-Current next deliverable:
-> **Validate/play Blueprint 001's Chapter-0 graybox, revise scale/camera/topology from traversal evidence, then explicitly promote the approved topology to L3.**
-
-Validation targets:
-- scene loads cleanly in Godot;
-- Android touch navigation works;
-- camera variants A/B/C are compared;
-- Wreck Field reads without minimap dependence;
-- **B03** recovery-line logic is spatially obvious;
-- **B06** camp-edge/east-cut staging matches exact dialogue;
-- **B07** recovery sweep remains short, bounded and no-combat;
-- route pacing and transition seams are acceptable.
-
-Layout/blockout work may proceed before final environment-material certification. Final rendered environment production remains downstream of relevant B01–B11 style/material approvals.
-
-Working pointers:
+Current working owners:
 - `AREA_AND_ROUTE_LAYOUT_PRODUCTION_WORKING.md`
 - `PLAYABLE_AREA_INVENTORY_WORKING.md`
-- `AREA_LAYOUTS/BLUEPRINT_001_CH00_CONVOY_WRECK_ROUTE.md`
+- `AREA_LAYOUTS/`
 
-## 4 — Production Implementation
-Reconcile current canon with runtime, including:
-- removal of stale Mastery Point assumptions;
-- current Prime behavior and tests;
-- canonical **G** terminology while detailed economy values remain rebuild-pending;
-- production equipment/item fixtures;
-- versioned save schema;
-- current chapter/scene assumptions;
-- production menus, combat UI, loadout UI, shop stock/persistence, and Kessara copy UI.
+Current first production anchor:
+> validate/play the Chapter-0 Convoy/Wreck graybox, revise scale/camera/topology from traversal evidence, then promote approved topology to L3.
 
-Implementation must consume owner-domain values rather than recreate them.
+## 3 — Runtime / UI implementation reconciliation
 
-## 5 — Visual Production / Style Certification
-**ACTIVE**
+Current high-impact debt includes:
+- remove stale Mastery Point state/UI;
+- replace legacy First Champion/bearer-lock Prime proof behavior;
+- migrate combat proof flow to current turn-entry rules;
+- use player-facing **G**;
+- replace proof items/equipment/party fixtures;
+- expand/version save schema;
+- reconcile current encounter runtime data;
+- build production menu/combat/loadout/shop/Kessara UI from owner-domain values.
+
+Use:
+- `../13_UI_AND_IMPLEMENTATION/IMPLEMENTATION_NOTES/CURRENT_CODE_DIVERGENCES.md`
+- `../13_UI_AND_IMPLEMENTATION/OPEN_UI_IMPLEMENTATION_ITEMS.md`
+
+## 4 — Visual production
 
 Current immediate gate:
-> **B00 Permanent Party Character Style Anchor**
+> **B00 rigged-model runtime validation**
 
-Current B00 state:
-- Cyanis, Ilyra, Torren, Nimera, Vaelira, and Seyrik — exact permanent-party masters **LOCKED**;
-- battle-scale and field-scale derivative validation remains pending.
+Six exact party masters are locked. Production work now focuses on a shared rig/model/shader solution that reproduces those masters in field and battle.
 
-Environment/material certification B01–B11 also remains open. Do not bulk-convert the environment library until the benchmark set reads as one coherent game at gameplay scale.
+The old mandatory field/battle sprite-derivative pipeline is retired.
 
-Working pointer:
-`VISUAL_PRODUCTION_WORKING.md`
+Environment/material B01–B11 certification remains open before bulk environment conversion.
 
-## 6 — Audio / Music Redevelopment
-Final soundtrack identity, cue hierarchy, regional language, battle/boss/Hunt/Prime music, leitmotifs, diegetic scope, voice scope, SFX palette, and mix/implementation targets remain open.
+Use:
+- `../14_ART_AND_VISUALS/PRODUCTION/OPEN_VISUAL_PRODUCTION_ITEMS.md`
+- `../14_ART_AND_VISUALS/PRODUCTION/BENCHMARKS/B00_RIGGED_MODEL_RUNTIME_VALIDATION_V1.md`
 
-## 7 — Enemy Ability / Difficulty + Progression Revalidation
-**OPEN / REBUILD + RECERTIFICATION PENDING**
+## 5 — Enemy / progression / economy rebuild and recertification
 
-Current boundary:
-- enemy abilities/action kits and direct-damage Powers will be redone/revalidated;
-- existing enemy stats/Powers remain reference inputs unless explicitly revised;
-- mandatory/completionist difficulty certification must be rerun after the current kits exist;
-- Player EXP/CEXP allocation is rebuild-pending;
-- **Lv55–60** remains the target window for normal full Base + Subclass completion;
-- old v89–v105 PASS/sensitivity results remain historical evidence only where their assumptions were superseded.
+Current:
+- enemy abilities/action kits and direct-damage Powers require redesign/revalidation;
+- mandatory/completionist difficulty must be rerun from current kits;
+- Player EXP/CEXP placement is rebuild-pending;
+- **Lv55–60** remains the normal full Base + Subclass completion target;
+- detailed **G** economy pricing/payout/liquidity calibration remains rebuild-pending.
 
-This does **not** revive the retired ×1.20 global floor, First Command Warden routing, or old boss-local sequence.
+Do not restore retired global ×1.20 sensitivity or old PASS/certification snapshots.
 
-## 8 — Whole-Game Playtest / QA
-Run campaign-only, light, typical, heavy, and completionist routes plus boss/Hunt/Elite, **economy**, save/load, exploit, readability, input, and Android performance QA when the relevant implementation/content layers are ready.
+Use:
+- `../09_ENEMIES_AND_ENCOUNTERS/`
+- `../10_PROGRESSION_AND_EXP/`
+- `../12_ECONOMY_AND_REWARDS/`
+- `../16_BALANCE_AND_TESTING/OPEN_BALANCE_ITEMS.md`
 
-Economy QA belongs **after the planned economy rebuild/recalibration**; current numeric G tables are provisional planning material.
+## 6 — Audio / music
 
-## 9 — Intentionally Open Story / Lore Details
-Keep explicitly open details unresolved until separately approved, including the sole Entity-fragment survival mechanism, Chapter-10 research-trail specifics, final survey prop, and unresolved formal chapter titles.
+Final music direction, cue plan, voice scope, SFX palette, and implementation/mix targets remain open.
 
-## Balance-workflow routing note
-The former `Mandatory-Route Enemy Difficulty Recalibration` queue item and its First Command Warden / ×1.20 boss-local sequence remain **retired**.
+Use:
+- `../15_AUDIO_AND_MUSIC/OPEN_AUDIO_ITEMS.md`
 
-The active balance stream is now the broader enemy ability/action-kit redesign plus mandatory/completionist difficulty and progression revalidation described above.
+## 7 — Whole-game QA / release certification
 
-Historical v103–v105 sensitivity/true-battle reports remain evidence only; they do not define the current work order or authorize the old global-floor / boss-local workflow.
+After the relevant content and implementation layers stabilize, run the current campaign, optional-content, boss/Hunt, progression, save/exploit, UI, audio, and Android release gates.
 
-## Deferred stream — Economy rebuild / recalibration
-The detailed G economy is **not closed current authority**.
+Use:
+- `../16_BALANCE_AND_TESTING/FINAL_RELEASE_GATES.md`
+- `../16_BALANCE_AND_TESTING/TRUE_BATTLES/TRUE_BATTLE_TEST_PROTOCOL.md`
 
-Current routing:
-- currency terminology remains **G**;
-- existing prices, payouts, liquidity totals, Hunt cash, shop values, and completionist totals remain provisional working/reference data;
-- do not spend cleanup time propagating or polishing G totals;
-- reopen detailed economy design when the planned economy rebuild begins;
-- story/encounter cleanup must not infer structural canon from old payout tables.
+There is currently no live historical true-battle certification to inherit; new certifications must use current inputs.
+
+## 8 — Intentionally open story/lore
+
+Do not guess intentionally unresolved story/lore details into canon.
+
+Use:
+- `../02_STORY/OPEN_STORY_ITEMS.md`
 
 ## Rule
-Do not use this queue to silently modify a closed owner-domain rule. When a working item is resolved, update the owning numbered domain first, then remove/archive its working tracker.
+
+When a working item is resolved:
+1. update the numbered owner domain;
+2. update this queue only if sequencing changes;
+3. delete obsolete working notes rather than preserving parallel authority.
