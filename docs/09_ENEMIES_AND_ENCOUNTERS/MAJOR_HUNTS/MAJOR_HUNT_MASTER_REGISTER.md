@@ -14,9 +14,9 @@ Exactly:
 | 1 | **Ashen Whitehorn** | after Ch6 | 33 | 15,600 | 130 | 94 | 92 | 85 | 44 | 10 | 10 | one bar / Last Run same-bar |
 | 2 | **Crownless Siege Marshal** | after Ch7 | 40 | 13,600 | 155 | 110 | 111 | 96 | 41 | 5 | 10 | Form I |
 | 2 | **Crownless War Engine** | after Ch7 | 41 | 16,900 | 174 | 122 | 121 | 105 | 39 | 0 | 10 | genuine fresh Form II |
-| 3 | **Concordance Guardian** | after Ch9 | 54 | 27,400 | 194 | 210 | 144 | 151 | 49 | 5 | 15 | one bar / Six Faces → Open Concordance same-bar |
-| 4 | **Worldscar Leviathan** | after Ch10 | 60 | 38,800 | 221 | 246 | 166 | 178 | 53 | 0 | 10 | one bar / Prismatic Confluence same-bar |
-| 5 | **Final Archive Arbiter** | after Ch11 | 65 | 52,600 | 258 | 276 | 202 | 211 | 56 | 5 | 15 | one bar |
+| 3 | **Concordance Guardian** | after Sixfold Volition (Ch7) | 54 | 27,400 | 194 | 210 | 144 | 151 | 49 | 5 | 15 | one bar / Six Faces → Open Concordance same-bar |
+| 4 | **Worldscar Leviathan** | after Ch8 | 60 | 38,800 | 221 | 246 | 166 | 178 | 53 | 0 | 10 | one bar / Prismatic Confluence same-bar |
+| 5 | **Final Archive Arbiter** | after Ch10 | 65 | 52,600 | 258 | 276 | 202 | 211 | 56 | 5 | 15 | one bar |
 | 6 | **The Unfinished World** | post-Vaelkor Ch12 + Arbiter clear | 70 | 78,000 | 304 | 318 | 226 | 232 | 61 | 0 | 15 | one bar / three same-bar states |
 
 Recommended Level is a preparedness target, not an access gate.
@@ -39,9 +39,9 @@ Prime availability/restoration is owned globally by `05_BATTLE_SYSTEM/BOSS_FORM_
 Current unlock timing is part of the Major Hunt encounter authority:
 - #1 after Chapter 6
 - #2 after Chapter 7
-- #3 after Chapter 9
-- #4 after Chapter 10
-- #5 after Chapter 11
+- #3 after Sixfold Volition at the end of Chapter 7
+- #4 after Chapter 8
+- #5 after Chapter 10
 - #6 after Final Archive Arbiter clear and Vaelkor defeat in Chapter 12
 
 Recommended Level remains a preparedness target, not an access gate.
@@ -50,16 +50,16 @@ Recommended Level remains a preparedness target, not an access gate.
 ## Recertification progress
 - #1 Ashen Whitehorn — **RECERTIFIED** for the after-Ch6 window at recommended Lv33.
 - #2 Crownless Siege Marshal / Crownless War Engine — raw-stat/level baseline retained at encounter recommendation Lv41; the genuine fresh War Engine body does **not** refresh spent Prime identities.
-- #3 Concordance Guardian — **RECERTIFIED** for the after-Ch9 window at recommended Lv54.
-- #4 Worldscar Leviathan — **RECERTIFIED** for the after-Ch10 window at recommended Lv60.
-- #5 Final Archive Arbiter — **RECERTIFIED** for the after-Ch11 window at recommended Lv65.
+- #3 Concordance Guardian — **REVALIDATION OPEN** after the unlock moved to Sixfold Volition / end Chapter 7; Lv54/raw line retained provisionally.
+- #4 Worldscar Leviathan — **REVALIDATION OPEN** after the unlock moved to after Chapter 8; Lv60/raw line retained provisionally.
+- #5 Final Archive Arbiter — **REVALIDATION OPEN** after the unlock moved to after Chapter 10; Lv65/raw line retained provisionally.
 - #6 The Unfinished World — **TWO-BASELINE PAPER RECERTIFIED v88** for post-Vaelkor unlock; Lv70 target retained; runtime duration gate remains.
 
 
 ## Recertification closure
-Major Hunts #1 and #3–#5 retain their current two-baseline recertification for their current unlock windows. #2 retains its current numeric baseline under the global persistent-spend / no-form-refresh Prime rule. #6 retains its runtime duration/attrition playtest gate.
+Major Hunt #1 retains its current two-baseline recertification. #2 retains its current numeric baseline under the global persistent-spend / no-form-refresh Prime rule but still has runtime Prime-economy revalidation open. #3–#5 require new mandatory/completionist validation for their earlier unlock windows; their existing numeric lines are provisional. #6 retains its runtime duration/attrition playtest gate.
 
-Current recommendations:
+Retained / provisional recommendations:
 - #1 Ashen Whitehorn — Lv33
 - #2 Crownless Siege Marshal / Crownless War Engine — encounter Lv41 retained pending Prime-economy runtime revalidation
 - #3 Concordance Guardian — Lv54
