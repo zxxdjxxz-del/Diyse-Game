@@ -1,15 +1,14 @@
 # Diyse — Native Legacy Master Register
-**Migration baseline:** `Diyse_CURRENT_WORKING_TRACKER_CONSOLIDATED_2026-08-27_v85.md`  
-**Historical provenance:** Audit117/Audit118/Audit121, v85-era equipment closures, and later approved corrections as applicable.
-**Authority treatment:** this repository file is current items/equipment-domain authority. Audit/v85 references remain provenance; later explicit corrections and current owner-domain rules supersede conflicting historical text.
-**Rule:** current repository decisions in this domain are active authority; superseded Audit/v85 text remains provenance only.
+
+**Status:** ACTIVE LEGACY AUTHORITY  
+**Authority:** current items/equipment-domain owner plus later explicit approved corrections.  
 
 
-# Tracker-level status
-The current v85 Legacy rebalance is:
-> **17 / 17 FINAL AT TRACKER LEVEL**
+## Current status
+The current Legacy register contains:
+> **17 / 17 current Legacy identities**
 
-Current repository authority does not depend on a separate Audit-era promotion step.
+This register is direct repository authority and does not depend on a tracker/audit promotion layer.
 
 | Character | Legacy | Slot | Current raw stats | Capstone perk | Legacy Trait |
 |---|---|---|---|---|---|

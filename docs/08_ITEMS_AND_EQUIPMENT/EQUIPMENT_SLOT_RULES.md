@@ -1,8 +1,7 @@
 # Diyse — Equipment Slot and Handedness Rules
-**Migration baseline:** `Diyse_CURRENT_WORKING_TRACKER_CONSOLIDATED_2026-08-27_v85.md`  
-**Historical provenance:** Audit117/Audit118/Audit121, v85-era equipment closures, and later approved corrections as applicable.
-**Authority treatment:** this repository file is current items/equipment-domain authority. Audit/v85 references remain provenance; later explicit corrections and current owner-domain rules supersede conflicting historical text.
-**Rule:** current repository decisions in this domain are active authority; superseded Audit/v85 text remains provenance only.
+
+**Status:** ACTIVE ITEMS / EQUIPMENT AUTHORITY  
+**Authority:** current items/equipment-domain owner plus later explicit approved corrections.  
 
 
 ## Slots
@@ -19,9 +18,9 @@ Always consume Weapon + Secondary:
 Nimera's ordinary and surviving Base Relic Conduits remain one-slot unless an individual item explicitly says otherwise.
 
 ## Ilyra
-- Primary: Wardrod
+- Primary: **Wardrod only**
 - Secondary options: Shield **or** Focus
-- no sword assumption
+- **no sword / Two-Handed Sword access**, including through Vowblade donor equipment
 - no simultaneous Shield + Focus
 
 ## Vaelira
@@ -30,11 +29,13 @@ Nimera's ordinary and surviving Base Relic Conduits remain one-slot unless an in
 
 ## Donor equipment
 Subclass equipment access belongs to the class system:
-- donor Primary begins with Subclass access;
+- donor Primary begins with Subclass access **only when that weapon family is legal for the receiver**;
 - donor armor at the established early Subclass milestone;
-- donor Secondary at the established early Subclass milestone;
+- donor Secondary at the established early Subclass milestone when legal;
 - donor Relic eligibility at current Subclass CL7 Equipment Mastery;
 - donor Legacy eligibility at current Subclass CL11 Legacy Mastery.
+
+**Ilyra exception:** Vowblade's Ruin Vanguard donor path is armor-only. It may unlock eligible Ruin Vanguard armor/armor Relics and the donor Battle Heavy Armor Legacy, but never Two-Handed Swords or sword Relics/Legacies.
 
 The donor Relic/Legacy item must actually have been obtained.
 Access does not create a duplicate.
