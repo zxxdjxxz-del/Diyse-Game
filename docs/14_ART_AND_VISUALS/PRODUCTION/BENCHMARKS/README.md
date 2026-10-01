@@ -49,3 +49,9 @@ The replacement B06 pilot must use large cel-like graphic flame masses, hand-dra
 B10 remains pending final Godot/runtime validation and B00 cross-check. Shared-material authority remains `../DIYSE_CC0_PROP_MATERIAL_GRAMMAR_V1.md`; Furniture and Metal are approved within B10, while Props and Cloth require broader validation. The full 94-glTF dependency scan remains: Metal **60**, Furniture **41**, Props **39**, Cloth **10**.
 
 The broader asset library must not enter bulk final-style conversion until B00 and the remaining benchmark set are coherent enough to define Diyse Visual Material Grammar v1 under the revised non-painterly style authority.
+
+## Legacy compatibility filenames
+
+The files `B00_PARTY_CHARACTER_STYLE_ANCHOR.md`, `CYANIS_CURRENT_VISUAL_LOCK.md`, `ILYRA_CURRENT_VISUAL_LOCK.md`, and `TORREN_CURRENT_VISUAL_LOCK.md` in this **BENCHMARKS** directory are historical compatibility records only. Their filenames survive to keep old links resolvable; they are not parallel current character authorities.
+
+For current character identity, always use the exact repository masters and the locks under `../CHARACTERS/`. Historical benchmark fingerprints may document provenance, but they must not restore superseded appearance details or retired sprite-deliverable requirements.
