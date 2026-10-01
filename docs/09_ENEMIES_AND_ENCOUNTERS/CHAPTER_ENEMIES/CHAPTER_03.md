@@ -1,6 +1,8 @@
 # Diyse — Chapter 03 Enemies — Caelora / Old City Archives / Cresthaven Tower Base
 
-**Authority treatment:** this chapter file is current enemy roster/placement authority; Audit/v85 references remain historical provenance only.
+**Status:** ACTIVE CHAPTER ENEMY / ENCOUNTER AUTHORITY  
+**Authority:** current chapter roster/placement owner; numeric tuning remains subject to the domain recertification boundary.  
+
 **Current Chapter-3 story authority:** `../../02_STORY/CHAPTERS/CHAPTER_03.md`.  
 **Ordinary-enemy roster authority:** **LOCKED — September 27, 2026.**  
 **Numeric status:** **DEFERRED — raw-stat tuning, final selection weights, encounter frequencies, and difficulty certification remain downstream.**
