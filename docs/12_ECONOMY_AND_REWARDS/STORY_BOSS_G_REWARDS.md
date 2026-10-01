@@ -1,6 +1,6 @@
 # Diyse — Mandatory Story-Boss / Named Encounter G Rewards
 
-**Status:** EXACT MANDATORY STORY-BOSS G AUTHORITY
+**Status:** CURRENT ENCOUNTER-IDENTITY / PAYOUT-RULE OWNER; G VALUES PROVISIONAL PENDING ECONOMY REBUILD
 
 This file replaces the former Auren-named story-boss reward authority.
 
@@ -17,13 +17,14 @@ Mandatory named/story encounter economic rewards use:
 - G may represent requisition credit, secured funds, bounty, recovered operational value, or another story-appropriate handoff; enemies do not need to literally carry coins.
 - Final-boss G should only exist if it remains spendable/useful within the game's ending structure.
 
-## Exact encounter payouts
+## Provisional encounter payout ledger
 | Ch | Mandatory encounter | G | Economy note |
 |---:|---|---:|---|
-| 1 | **Thornhide Stalker** | **600 G** | normal lethal boss victory |
+| 1 | **Thornhide** | **600 G** | normal lethal boss victory; provisional G |
 | 2 | **Archive Leviathan** | **900 G** | resolved hostile encounter |
 | 2 | **Commander Rhazek — Bastion Master** | **1,000 G** | protected withdrawal/resolution still pays |
-| 3 | **First Command Warden** | **1,600 G** | resolved chapter boss |
+| 3 | **Memory Construct** | **OPEN / TBD** | current mandatory B07 boss; do not invent G before economy rebuild |
+| 3 | **Authority Construct** | **1,600 G** | current mandatory B10 boss; inherited provisional payout row |
 | 4 | **Elder Thornhide** | **1,600 G** | mandatory nonlethal fixed sequence still pays |
 | 4 | **Reaction Conduit** | **1,600 G** | stabilization resolution still pays |
 | 4 | **Regulation Crucible → The Seventh Reaction** | **2,200 G** | one payout for complete two-form encounter |
@@ -46,11 +47,13 @@ Mandatory named/story encounter economic rewards use:
 | 13 | **Last Weapon Archon** | **8,000 G** | resolved final-act pre-finale encounter |
 | 13 | **Reconstituted Entity → The Last Command** | **0 G** | final victory; no economically useful postgame cash window |
 
-## Mandatory story-boss cash total
-The mandatory named/story encounter layer contributes:
+## Mandatory story-boss cash subtotal
+The currently mapped legacy/provisional rows sum to:
 > **92,100 G**
 
-Of this, **7,200 G** is specifically the protected/nonlethal payout layer for Chapter-2 Rhazek, Elder Thornhide, Reaction Conduit, and Seyrik.
+This is **not a complete current mandatory-story total** because Memory Construct's payout is OPEN/TBD.
+
+Of the mapped subtotal, **7,200 G** is the inherited protected/nonlethal payout layer for Chapter-2 Rhazek, Elder Thornhide, Reaction Conduit, and Seyrik.
 
 ## Protected/nonlethal rule — LOCKED
 Do not restore the old blanket rule:
