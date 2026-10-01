@@ -56,7 +56,7 @@ Completionist:
 - by Last Shelter — **Lv70 cap** even without requiring MH6;
 - full all-content route may already be Lv70 before the Archon.
 
-## v91 class-completion anchor
+## Historical v91/v92 class-completion reference
 At Last Shelter, the mandatory route has earned **8,500 post-Volition CEXP**. With the **v92 recruitment-aware Volition centers**, this places the slowest normal-route full Base + Subclass completion (Seyrik) at approximately **Lv60**.
 
 Balance implementation requirement:
