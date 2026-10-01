@@ -4,6 +4,7 @@
 **Domain authority:** `README.md`
 
 Do not restore:
+- Maevra as a Chapters 1–3 combat guest or guest progression package;
 - Level cap 50 or 60;
 - 12 numbered main chapters;
 - Chapter 0 level gain;
@@ -55,3 +56,15 @@ Git history preserves them as historical evidence. They must not be used to rest
 - old Power/action-kit certification;
 - old completionist equipment assumptions;
 - historical PASS labels.
+
+
+## Removed balance-report layer
+
+The following historical report families were removed from the live tree after their owning inputs reopened:
+- Character Quest boss v90 certification snapshots;
+- Major Hunt numeric recertification snapshots;
+- raw-stat Audit129–135 certification index;
+- migration-era static consistency arithmetic;
+- stale automated-test inventory counts.
+
+Git history preserves them. Current owner-domain data and live validation frameworks replace them.

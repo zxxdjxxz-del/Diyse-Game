@@ -1,48 +1,55 @@
 # Diyse — Runtime Test-Suite Status
-**Migration baseline:** `Diyse_CURRENT_WORKING_TRACKER_CONSOLIDATED_2026-08-27_v85.md`  
-**Current written whole-project authority:** **v2.20 / Audit135**, plus newer explicit user corrections preserved by the reorganization.  
-**Primary balance chain:** Audits 121–135 where compatible, especially 123–128 progression and 129–135 raw-stat certification.  
-**Runtime test checkpoint inspected:** `Diyse-Game` commit `3fd07e92eda04f31ba613a654b3b1b28071f44e6`.  
-**Balance ownership rule:** this domain owns cross-system balance acceptance criteria, verification plans, playtest targets, certification status and regression gates. Exact formulas/stats/rewards remain canonically housed in their dedicated system domains.
 
+**Status:** ACTIVE TEST-SOURCE STATUS / NOT A GREEN RELEASE CERTIFICATE  
+**Balance/QA authority:** `../README.md`
 
-## Source availability
-Automated GDScript test sources exist for:
-- smoke;
+## Current source inventory
+
+Current repository inspection finds **36 GDScript validation/test files** under `tests/`.
+
+Coverage includes:
 - combat;
-- encounters;
-- dialogue;
-- save/load;
+- dialogue/authoring/runtime context;
+- encounters/field encounter flow;
 - equipment service;
+- exploration/graybox;
+- presentation/HD-2D;
+- save/load;
+- smoke/integration;
+- visual capture/proof utilities.
+
+The source inventory is useful foundation coverage, but not all tests represent current production canon.
+
+## Known legacy proof debt
+
+The current smoke/combat proof still contains legacy First Champion / `first_champion` assumptions, including:
+- Cyanis-only bearer access;
+- non-bearer rejection;
+- old manifestation/duration behavior.
+
+The legacy combat regression explicitly labels itself as proof-only, but the smoke test still asserts these stale Prime expectations.
+
+These tests must be updated before Prime-related CI can be treated as a current-canon gate.
+
+## Current interpretation
+
+Preserve useful foundations for:
+- deterministic combat behavior;
+- targeting/retarget;
+- encounter handoff;
+- dialogue continuity/runtime wiring;
+- save/load;
+- Kessara copy service;
 - HD-2D presentation.
 
-## Execution status in this migration
-The active artifact-building environment does not provide the project's Godot runtime binary as an executable test runner.
+Do not treat:
+- placeholder content fixtures;
+- retired Prime identifiers;
+- proof-only UI/content assumptions;
+- old migration-era assertions
 
-Therefore this migration:
-- inspected test source;
-- inventories coverage;
-- performs static cross-domain arithmetic/consistency checks;
-- does **not** falsely claim a fresh full Godot test run passed.
+as production balance truth.
 
-## Known stale assertions
-At least the integrated smoke proof still asserts:
-- `first_champion`;
-- Cyanis bearer-lock;
-- non-bearer unavailability.
+## Execution boundary
 
-Those are incompatible with current Prime canon.
-
-A future production CI pass must update these assertions before the suite can be treated as a current-canon green gate.
-
-## Good existing foundations
-Current source includes meaningful regression coverage for:
-- deterministic round resolution;
-- targeting/retarget;
-- random encounter handoff;
-- save/load;
-- dialogue source/continuity;
-- Kessara copy service;
-- HD-2D proof.
-
-Preserve and update rather than discard.
+Repository inspection alone does not prove the full Godot test suite is currently green. A release gate requires an actual current runtime/CI execution against the production branch.
