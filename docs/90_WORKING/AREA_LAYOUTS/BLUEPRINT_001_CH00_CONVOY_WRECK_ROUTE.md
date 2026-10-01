@@ -52,7 +52,7 @@ Mandatory scene/combat order:
 
 ### B06 — Combined final Broken Convoy boss
 Current exact story/dialogue staging establishes:
-- Riftmaw + Convoy Battle Sorcerer advance through the defended camp edge / east-cut approach;
+- Riftmaw + Battle Sorcerer advance through the defended camp edge / east-cut approach;
 - the second incomplete Card flare is active at battle opening;
 - Cyanis + Ilyra receive the current three-round Defense/Spirit protection;
 - the recovery casing breaks during the fight;
@@ -193,7 +193,7 @@ Approximate nodes:
 | A | (0, +95) | convoy competence framing |
 | B | (−8, +55) | B01 combat 1 — Raider + Crossbowman |
 | C | (+18, +20) | convoy obstacle / route read |
-| D | (+10, −15) | B01 combat 2 — Raider + Shieldbearer |
+| D | (+10, −15) | B01 combat 2 — Black Host Raider + Black Host Shieldbearer |
 | E | (−20, −48) | B01 combat 3 — 2 War Hounds |
 | F | (−5, −82) | late-road breathing / seam approach |
 | Exit | (0, −105) | Wreck Field seam |
