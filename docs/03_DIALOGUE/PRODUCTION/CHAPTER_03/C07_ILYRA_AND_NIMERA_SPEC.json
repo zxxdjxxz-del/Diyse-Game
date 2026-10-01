@@ -12,17 +12,20 @@
   "scene_purpose": "Give Ilyra and Nimera a genuinely fun, low-stakes Cresthaven downtime scene discovered from their personalities rather than a predetermined relationship lesson.",
   "story_sources": [
     {
-      "path": "docs/02_STORY/CHAPTERS/CH03_C07_ILYRA_AND_NIMERA_STORY_SUPPORT.md",
-      "whole_file": true,
-      "role": "current_c07_structural_authority"
-    },
+      "path": "docs/02_STORY/CHAPTERS/CHAPTER_03.md",
+      "sections": [
+        "Chapter-3 Cleanup Authority",
+        "Character-Life set"
+      ],
+      "role": "chapter_03_cleanup_and_character_life_authority"
+    }
+  ],
+  "additional_authority_sources": [
     {
       "path": "docs/03_DIALOGUE/AGENT_SYSTEM/STORY_BEAT_AS_GUARDRAIL_LOCK.md",
       "whole_file": true,
       "role": "conversation_route_must_emerge_from_agents"
-    }
-  ],
-  "additional_authority_sources": [
+    },
     {
       "path": "external-services/canary/brains/ilyra.yaml",
       "whole_file": true,
