@@ -11,8 +11,8 @@ Current optional authored activity inventory:
 - **8 current active Regional Hunts**; retired/open slots remain separately tracked
 - **6 Major Hunts**
 
-Total:
-> **28 optional activities/routes**
+Total current authored activity/routes:
+> **25 optional activities/routes**
 
 This supersedes Audit103's older ten-ordinary-side-quest count.
 
