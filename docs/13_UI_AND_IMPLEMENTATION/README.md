@@ -1,6 +1,6 @@
 # 13_UI_AND_IMPLEMENTATION
-**Migration baseline:** `Diyse_CURRENT_WORKING_TRACKER_CONSOLIDATED_2026-08-27_v85.md`  
-**Current written whole-project authority:** **v2.20 / Audit135**, plus newer explicit v85 working overrides already preserved in the reorganized domains.  
+**Historical migration provenance:** v85-era consolidated tracker.
+**Authority treatment:** this repository file is current UI/implementation-domain authority; Audit/v85 references remain provenance only. Cross-domain gameplay rules defer to their current owning repository domains.
 **Runtime source checkpoint inspected:** `Diyse-Game` main commit `2127e6a7d80ce5c4070193a9a47b47868d79087a`.  
 **Implementation rule:** current domain canon beats older proof code/docs. Proof implementations are evidence of architecture, not permission to restore stale mechanics, names, currencies, progression, or UI concepts.
 
