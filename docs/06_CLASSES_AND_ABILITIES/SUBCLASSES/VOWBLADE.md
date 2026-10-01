@@ -25,8 +25,8 @@
 |---:|---|---|
 | CL3 | **Tempered Vow** | Vital Edge 185 → 205 Power. |
 | CL5 | **Life Through Steel** | Mercy Returned other-ally Max-HP healing component 12% → 15%; +0.90 × Magic unchanged. |
-| CL7 | **Equipment Mastery** | Unlocks class eligibility for the donor **Ruin Vanguard Relic**, subject to actual Relic ownership and other established requirements. |
-| CL11 | **Legacy Mastery** | Unlocks class eligibility for the donor **Ruin Vanguard Legacy**, subject to donor Legacy completion/ownership and other established requirements. |
+| CL7 | **Equipment Mastery** | Unlocks class eligibility for donor **Ruin Vanguard armor Relics only**, subject to actual Relic ownership and other established requirements. Ilyra never gains Two-Handed Sword access. |
+| CL11 | **Legacy Mastery** | Unlocks class eligibility for the donor **Ruin Vanguard Battle Heavy Armor Legacy only**, subject to donor Legacy completion/ownership and other established requirements. The Two-Handed Sword Legacy remains illegal for Ilyra. |
 
 The previous third mechanical Subclass Mastery and old fourth-node Equipment-Mastery layout are historical. Current repository structure is two mechanical Masteries → Equipment Mastery → Legacy Mastery, with no Mastery Point cost.
 
