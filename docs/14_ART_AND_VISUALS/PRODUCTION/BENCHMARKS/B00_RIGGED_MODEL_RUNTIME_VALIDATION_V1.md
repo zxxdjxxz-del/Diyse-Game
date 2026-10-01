@@ -1,6 +1,6 @@
 # Diyse — B00 Rigged Character Runtime Validation v1
 
-**Status:** **ACTIVE B00 RUNTIME GATE — CURRENT CHARACTER MASTERS LOCKED / V5 RIG SOURCE VERIFIED / GODOT PILOT NEXT**  
+**Status:** **ACTIVE B00 RUNTIME GATE — CURRENT CHARACTER MASTERS LOCKED / UAL GODOT RIG + ILYRA DEFORMATION PROOF VERIFIED / CURRENT-MASTER VISUAL MATCH NEXT**  
 **Parent benchmark:** `B00_PARTY_CHARACTER_STYLE_ANCHOR_V1.md`  
 **Style authority:** `../../DIYSE_VISUAL_STYLE_CANON.md`  
 **Character identity authority:** `../CHARACTERS/README.md`  
@@ -40,7 +40,16 @@ The official prototype foundation is the **Quaternius Universal Animation Librar
 
 The verified pilot payload represented by Asset Library Master v5 includes the standard and root-motion UAL1/UAL2 rigged mannequin GLBs plus a compatible female mannequin on the same Armature contract. This source is for **technical rig/animation validation**, not character identity.
 
-Never allow mannequin proportions, face, costume, or generic body construction to replace the proportions and identity of a Diyse repository master.
+Current repository proof has progressed beyond source verification:
+- the stock/female UAL path is running through Godot preview scenes;
+- the unchanged **65-bone UAL core** is the active shared deformation foundation;
+- UAL1 + UAL2 provide **86 verified humanoid animation clips**;
+- Ilyra has progressed through modular, authored-geometry, deformation-aware and production-topology stages to the current **v0.7 replacement-mesh deformation test**;
+- the v0.7 proof keeps the 65-bone core and appends **35 auxiliary hair/cape spring bones** for **100 skin joints total**.
+
+This proves the rig/deformation architecture. It does **not** approve the current v0.7 mesh as Ilyra's visual identity.
+
+Never allow mannequin proportions, face, costume, prototype hair geometry, or generic body construction to replace the proportions and identity of a Diyse repository master.
 
 ## 4. One character model, multiple runtime contexts
 
@@ -170,47 +179,49 @@ Retargeted motion is not automatically final. Check each clip for Diyse characte
 Test royal-blue/black cloth vs layered silver armor separation, long split outer-garment motion, and mobile battle-knight readability.
 
 ### Ilyra
-Test pale-value readability, long blonde hair/cape motion, natural slightly athletic proportions, and Wardrod/Shield/Focus attachment logic without sword drift.
+Test pale-value readability, **neatly tied-back shorter blonde hair** and pale-blue cape motion, natural slightly athletic proportions, and Wardrod/Shield/Focus attachment logic without sword drift. The older long-hair rig-preview geometry is prototype history only and must not define the current model.
 
 ### Torren
 Test back-mounted bow, exact right-hip arrow draw/quiver layout, mixed-foliage ghillie silhouette, field gear, and foliage secondary motion without alpha-card noise.
 
 ### Nimera
-Test dense braided/updo hair, purple constellation waist garment, green Cardweaver book/card attachments, and utility hardware without clipping or noisy motion.
+Test **short purple locs/twists**, white sleeveless clothing and fitted trousers, the **coat tied at the waist**, black utility/harness masses, restrained silver hardware, and the current Cardweaver book/card attachments without clipping or noisy motion. Do not restore the older gathered-braid/constellation-drape silhouette.
 
 ### Vaelira
-Test long crimson/burgundy hair, emerald/black/silver garment separation, Arcane Staff handling, and vivid caster silhouette. **No archer/ranger cues or bow animations.**
+Test the current **shoulder-length crimson hair** ceiling, emerald/black/silver garment separation, Arcane Staff handling, and vivid caster silhouette. **No archer/ranger cues or bow animations.** The prototype must not lengthen her hair beyond the exact master.
 
 ### Seyrik
-Test broad muscular proportions, black/crimson Black Host skeletal/rib-like armor articulation, long outer-garment mass, and oversized two-handed greatsword handling.
+Test broad muscular proportions, current dark-charcoal/black Black Host heavy-plate articulation with the **reduced-shine** distribution and deep-red collar/coat accents, plus oversized two-handed greatsword handling. Do not restore older glossy rib-shell or overbuilt hip/upper-leg armor treatments.
 
 ## 11. B00 model-validation sequence
 
 Completed:
 1. lock the six current repository masters as character identity authority;
 2. align the six visual-lock documents and character authority index;
-3. verify the Quaternius-compatible rigged humanoid pilot source used by the V5 technical prototype.
+3. verify the Quaternius-compatible rigged humanoid source used by the V5 technical prototype;
+4. run the UAL Godot preview path and merge UAL1 + UAL2 animation libraries on the shared female-compatible skeleton;
+5. prove the unchanged 65-bone UAL core deformation path and the 86-clip animation foundation;
+6. progress Ilyra through modular/replacement-mesh deformation testing to v0.7, including the 35-bone auxiliary spring architecture and seam-repair pass.
 
 Next:
-4. import the standard pilot GLB into Godot and validate skeleton/animation behavior;
-5. compare root-motion behavior;
-6. validate compatible female retargeting on the same rig contract;
-7. create one B00-faithful character model/material pilot;
-8. validate its neutral presentation directly against the current repository master;
-9. validate the same model at field camera distance;
-10. validate the same model at battle camera distance;
-11. test representative exploration/battle animation;
-12. test representative B01 stone, B03 foliage, B10 props, and B06 VFX overlap;
-13. correct shader/outline/LOD/rig issues;
-14. propagate only the proven model/material/rig grammar across all six;
-15. compare all six together for silhouette, palette, scale, and animation separation;
-16. close B00 only when the runtime models visibly belong to the same game as the current masters.
+7. rematch the active Ilyra production candidate to the **current exact source**, especially face, current tied-back shorter hair silhouette, clothing/guard construction and B00 material treatment;
+8. complete any still-needed root-motion comparison and production root-motion policy;
+9. create/approve a current-master-faithful B00 model/material/shader pilot;
+10. validate its neutral presentation directly against the current repository master;
+11. validate the same model at field camera distance;
+12. validate the same model at battle camera distance;
+13. test representative exploration/battle animation;
+14. test representative B01 stone, B03 foliage, B10 props, and B06 VFX overlap;
+15. correct shader/outline/LOD/rig issues;
+16. propagate only the proven model/material/rig grammar across all six;
+17. compare all six together for silhouette, palette, canonical height scale, and animation separation;
+18. close B00 only when the runtime models visibly belong to the same game as the current masters.
 
 ## 12. First technical and visual pilots
 
 Use the verified V5 standard non-root-motion mannequin GLB as the default **technical rig** pilot and its root-motion counterpart for comparison. Use the compatible female mannequin for shared-rig proportion/retarget testing.
 
-Once the rig itself passes, **Cyanis** remains the preferred first B00 character-style model target because his blue/black cloth plus silver armor provides a clean material/outline baseline. His actual model must be built from `asset_sources/characters/current/cyanis.jpg`, not from the mannequin or an older Cyanis render.
+The shared rig/deformation architecture has already passed a substantial technical proof through the Ilyra preview path. **Ilyra v0.7 is still a deformation prototype, not a current visual-match approval.** For the first full current-master B00 material/style approval, **Cyanis** remains the preferred baseline because his blue/black cloth plus silver armor provides a clean material/outline test. His actual model must be built from `asset_sources/characters/current/cyanis.jpg`, not from the mannequin or an older Cyanis render.
 
 ## 13. Asset Forge / Godot boundary
 
@@ -222,4 +233,4 @@ Do not mistake a successful offline render for final runtime approval.
 
 Current B00 gate:
 
-`6/6 CURRENT REPOSITORY MASTERS LOCKED → CHARACTER AUTHORITY ALIGNED → V5 RIG SOURCE VERIFIED → GODOT IMPORT/ROOT-MOTION/RETARGET TEST → B00 MODEL/SHADER PILOT → FIELD + BATTLE CAMERA VALIDATION → B01/B03/B10/B06 CROSS-CHECK → SIX-CHARACTER RUNTIME COHESION → B00 PASS`
+`6/6 CURRENT REPOSITORY MASTERS LOCKED → CHARACTER AUTHORITY ALIGNED → UAL GODOT RIG/DEFORMATION PROOF VERIFIED → CURRENT-MASTER MODEL/SHADER REMATCH → FIELD + BATTLE CAMERA VALIDATION → B01/B03/B10/B06 CROSS-CHECK → SIX-CHARACTER HEIGHT/SILHOUETTE/RUNTIME COHESION → B00 PASS`
