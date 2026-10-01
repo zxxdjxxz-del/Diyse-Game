@@ -1,9 +1,9 @@
 # Diyse — Chapter 06 Enemies — Broken Sky / Crimson Work
 **Migration baseline:** `Diyse_CURRENT_WORKING_TRACKER_CONSOLIDATED_2026-08-27_v85.md`  
-**Primary enemy-production authority:** compatible **Audit90 / Audit93** plus accepted later tracker roster/action cleanups.  
-**Primary raw-stat authority:** **Audit129 + Audit130 / Audit131 / Audit132 / Audit133 / Audit134 / Audit135**.  
-**Current whole-project written authority:** **v2.20 / Audit135**.  
-**Migration rule:** later current names, chapter reindexing, four-element rules, removed-system firewalls, and fresh-body Prime-refresh rules supersede stale earlier enemy text.
+**Historical enemy-production provenance:** Audit90/Audit93 plus later tracker-era roster/action cleanups.
+**Historical raw-stat provenance:** Audit129–Audit135.
+**Authority treatment:** this chapter file is current enemy roster/placement authority; Audit/v85 references remain historical provenance only.
+**Migration rule:** current repository names, chapter placement, system firewalls, and Prime-restoration rules supersede conflicting historical enemy text.
 
 
 ## Ordinary / repeatable
@@ -45,7 +45,7 @@
 
 ## Current notes
 - `Gale` presentation is not a Wind damage element.
-- Chapter-6 broad ordinary / Elite / authored-special Power pass: **PASS**.
+- Chapter-6 broad ordinary / strong-normal / authored-special Power pass: **PASS**.
 - Chapter 6 introduces no new harmful status.
 - No Poison / Blood status / Blood element exists.
 
@@ -72,7 +72,7 @@ Chapter-6 ordinary raw bodies are now newly authored active-balance authority in
 
 Rift Hound receives a distinct Chapter-6 raw variant rather than reusing its Chapter-2 body.
 
-Crimson Progenitor retains its inherited Elite-strength raw line.
+Crimson Progenitor retains its inherited strong-normal raw line.
 
 Mandatory boss/support authority remains separately owned and unchanged.
 
