@@ -21,7 +21,7 @@ The six current repository master images are the exact visual authorities for th
 
 Use the authority order defined in `../CHARACTERS/README.md`:
 
-1. current repository master image in `../../../../../asset_sources/characters/current/`;
+1. current repository master image in `../../../../asset_sources/characters/current/`;
 2. matching `../CHARACTERS/*_CURRENT_VISUAL_LOCK.md`;
 3. current B00 / Diyse visual-style rules;
 4. older prose, archived renders, historical hashes, superseded concepts, or generated filenames.
