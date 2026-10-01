@@ -163,13 +163,11 @@ Also check:
 
 ## Retroactive scope
 
-Chapters 0–3 were authored before this failure was explicitly identified.
+Chapters 0–3 were authored before this failure was explicitly identified, and their retroactive **turn-length / floor-holding rhythm audit is complete**.
 
-They remain current working dialogue authority, but they now require a **turn-length / floor-holding rhythm audit** before being treated as dialogue-polished for implementation.
+Their current production manuscripts already include the approved rhythm corrections. Do not reopen or rewrite them merely because the historical audit tracker has been removed.
 
-The audit should preserve strong wording and story structure while repairing mechanical one-sentence ping-pong wherever it appears.
-
-Do not rewrite scenes simply to make every turn longer. Change only places where the current cadence is artificial.
+Future revisions should continue to preserve strong wording/story structure and change cadence only where a real rhythm problem is intentionally reopened.
 
 ## Forward lock
 
