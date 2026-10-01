@@ -12,7 +12,7 @@ This file owns the chapter-by-chapter delivery structure for mandatory-route G t
 5. A permanent equipment/Card/Prime/Forge Component reward does not automatically gain extra G merely because it shares the same area.
 6. No delivery below is repeatable.
 
-# Exact reward map
+# Provisional / structural reward map
 
 ## Chapter 1 — 3,000 G
 ### Brackenwall / Protocol — S007
@@ -32,17 +32,21 @@ Chapter total: **3,000 G**
 
 Chapter total: **4,000 G**
 
-## Chapter 3 — 4,600 G
-### Caelora investigation / Old City deployment
-**Authorized investigation requisition: 1,800 G**
+## Chapter 3 — DELIVERY REMAP OPEN
 
-### Oath Sentinel record-room resolution — S020
-**Secured Old City administrative reserve: 2,800 G**
+The former **4,600 G** Chapter-3 non-battle envelope is historical/provisional only.
 
-These are separate from the S018 nonlethal-confrontation payouts in `ENEMY_REWARD_HANDOFF.md`.
+Retired mappings:
+- the old `Oath Sentinel record-room / S020` delivery label;
+- any dependency on the retired S018 lawful-authority confrontation branch.
 
-Chapter total: **4,600 G**
+Current Chapter-3 route authority instead includes:
+- Lower Archives / Old City investigation;
+- mandatory **Memory Construct** in Beat 7;
+- Cresthaven tower-base progression;
+- mandatory **Authority Construct** in Beat 10.
 
+Do **not** assign the historical 4,600 G across those current beats by inference and do not manufacture a top-up. The economy rebuild must author and recertify the Chapter-3 delivery map.
 ## Chapter 4 — 5,800 G
 ### Reaction Annex emergency progression
 **Annex emergency operations reserve: 2,400 G**
