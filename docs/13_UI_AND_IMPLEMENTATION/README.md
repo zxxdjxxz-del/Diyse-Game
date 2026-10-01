@@ -1,9 +1,7 @@
 # 13_UI_AND_IMPLEMENTATION
-**Historical migration provenance:** v85-era consolidated tracker.
-**Authority treatment:** this repository file is current UI/implementation-domain authority; Audit/v85 references remain provenance only. Cross-domain gameplay rules defer to their current owning repository domains.
-**Runtime source checkpoint inspected:** `Diyse-Game` main commit `2127e6a7d80ce5c4070193a9a47b47868d79087a`.  
-**Implementation rule:** current domain canon beats older proof code/docs. Proof implementations are evidence of architecture, not permission to restore stale mechanics, names, currencies, progression, or UI concepts.
 
+**Status:** ACTIVE UI / IMPLEMENTATION DOMAIN ROUTER  
+**Authority rule:** current numbered owner domains define gameplay/content truth; proof runtime is engineering evidence only.
 
 Canonical home for:
 - production-facing UI requirements;

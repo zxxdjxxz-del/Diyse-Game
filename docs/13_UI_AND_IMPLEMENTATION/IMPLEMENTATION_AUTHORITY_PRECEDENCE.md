@@ -1,8 +1,7 @@
 # Diyse — Implementation Authority Precedence
-**Historical migration provenance:** v85-era consolidated tracker.
-**Authority treatment:** this repository file is current UI/implementation-domain authority; Audit/v85 references remain provenance only. Cross-domain gameplay rules defer to their current owning repository domains.
-**Implementation rule:** current domain canon beats older proof code/docs. Proof implementations are evidence of architecture, not permission to restore stale mechanics, names, currencies, progression, or UI concepts.
 
+**Status:** ACTIVE IMPLEMENTATION PRECEDENCE  
+**Cross-domain rule:** current gameplay/content owner domains outrank proof code and historical implementation notes.
 
 When implementation-facing sources disagree:
 

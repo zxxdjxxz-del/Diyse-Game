@@ -1,10 +1,7 @@
 # Diyse — Current Runtime Implementation Status
 
-**Historical migration provenance:** v85-era consolidated tracker.
-**Authority treatment:** this repository file is current UI/implementation-domain authority; Audit/v85 references remain provenance only. Cross-domain gameplay rules defer to their current owning repository domains.
-**Implementation rule:** current domain canon beats older proof code/docs. Proof implementations are architectural evidence only; they do not restore stale mechanics, names, currencies, progression or UI concepts.
-
----
+**Status:** ACTIVE RUNTIME IMPLEMENTATION STATUS  
+**Boundary:** implementation facts documented here never override current owner-domain canon.
 
 ## 1. Project / display foundation
 
@@ -65,7 +62,7 @@ Output authority schema:
 > `diyse_scene_authority_packet_v1`
 
 Current behavior:
-- derives canon snapshot from current `CURRENT_CANON_STATUS.md`;
+- derives an opaque `repo-…` canon snapshot token from the surviving live master-control handoffs (`AUTHORITY_AND_CHANGE_CONTROL`, `CANON_QUICK_REFERENCE`, and current class/Face terminology files);
 - requires explicit current `02_STORY` source sections;
 - packages current participant character files as profile sources;
 - automatically includes permanent-six relationship authority when relevant;
