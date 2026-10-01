@@ -6,27 +6,27 @@
 - currency = **G** — PASS
 - retired currency name = **Auren** — PASS
 - second ordinary shop currency absent — PASS
-- 1 economy unit = **200 G** — PASS
-- Field Salve = **200 G** — PASS
-- starting wallet = **2,500 G** — PASS
+- 1 economy unit = **200 G** — PROVISIONAL REFERENCE
+- Field Salve = **200 G** — PROVISIONAL REFERENCE
+- starting wallet = **2,500 G** — PROVISIONAL REFERENCE
 
 ## Consumables
 - Consumables = **20 / 20** — PASS
 - fixed Salve ladder = **250 / 750 / 1,500 / 2,250 HP** — PASS
-- Emergency Kit = **8,000 G** — PASS
-- Reservoir Tonic = **12,000 G** — PASS
-- Emergency Rally = **15,000 G** — PASS
+- Emergency Kit = **8,000 G** — PROVISIONAL REFERENCE
+- Reservoir Tonic = **12,000 G** — PROVISIONAL REFERENCE
+- Emergency Rally = **15,000 G** — PROVISIONAL REFERENCE
 - premium stock = **1 of each per Consumable-selling shop from first accessible state; no restock** — PASS
 - guaranteed premium pickups remain separate — PASS
 - premium Consumables remain non-sellable — PASS
-- exact Consumable G resale table synchronized — PASS
+- Consumable G resale mechanic synchronized — PASS; numeric sell table remains PROVISIONAL
 
 ## Equipment / commerce
 - ordinary equipment identities = **38 / 38** — PASS
-- exact G purchase/replacement table synchronized — PASS
-- complete registered catalog value = **251,000 G** — PASS
+- ordinary-equipment purchase/replacement table synchronized — PROVISIONAL NUMERIC REFERENCE
+- complete registered catalog value = **251,000 G** — PROVISIONAL REFERENCE
 - ordinary sell formula preserves unit-level round-down — PASS
-- exact ordinary-equipment G resale table synchronized — PASS
+- ordinary-equipment resale mechanic synchronized — PASS; numeric sell table remains PROVISIONAL
 - Cresthaven registration/backfill/anti-missability preserved — PASS
 - ordinary gear does not inflate after Subclass access — PASS
 - Regional Markets = **9** — PASS
@@ -48,7 +48,7 @@
 - ordinary formations = **~135,600 G expected route total** — provisional reference
 - former optional-Elite standalone bounty layer = **RETIRED (historical 38,900 G)**
 - mandatory story bosses/named encounters = **92,100 G mapped legacy subtotal** — provisional/incomplete; Memory Construct payout OPEN
-- fixed authored combat/event payouts = **5,300 G** — provisional reference
+- fixed authored combat/event payouts = former **5,300 G** subtotal retired because it included Hold-the-Junction/S018 rows; current subtotal OPEN
 - mandatory non-battle map = **80,800 G** — provisional reference
 - ordinary Side Quests = **18,000 G direct** — provisional reference
 - Character Quests = **22,200 G direct** — provisional reference
@@ -59,21 +59,18 @@
 
 ## Campaign calibration
 Mandatory direct-G reference:
-> **~316,300 G** — legacy/provisional aggregate; incomplete because Memory Construct G is OPEN and the economy rebuild is pending
+> **former ~316,300 G aggregate — historical only; no current aggregate relocked**
 
 Ordinary-formation share of mandatory direct G:
 > **~42.9%** — historical/provisional ratio only
 
 Optional authored direct G:
-> **280,200 G** — synchronized provisional subtotal using the current eight Regional Hunt rows
+> **owner-file provisional ledgers only — no aggregate relocked**
 
 Broad completionist direct-cash reference:
-> **~596,500 G** — provisional arithmetic reference only; mandatory side remains incomplete/rebuild-pending
+> **OPEN — no aggregate relocked**
 
-Target:
-> **roughly 650,000 G**
-
-The prior completionist calibration no longer lands near the target because the standalone optional-Elite bounty layer was intentionally removed. Optional/completionist cash calibration is reopened.
+The former ~650,000 G completionist target is not current authority. Optional/completionist cash calibration is reopened.
 
 ## Chapter liquidity certification
 Owner validation:

@@ -1,11 +1,11 @@
 # Diyse — Consumable Sell Rule
 
-**Status:** EXACT CONSUMABLE G RESALE AUTHORITY
+**Status:** CURRENT CONSUMABLE RESALE MECHANIC / NUMERIC SELL TABLE PROVISIONAL
 
 This rule applies to sellable normal-stock Consumables. It does not change ordinary-equipment resale, Relics, Legacies, Forge Components, Key Items, Cards, or Primes.
 
 ## Core rule
-Normal-stock Consumables sell for approximately **25% of their purchase price**:
+Under the current resale mechanic, normal-stock Consumables sell for approximately **25% of their purchase price**. The numeric table below follows the provisional buy-price table and must be regenerated if that price table changes:
 
 > `SellG = max(50, floor((BuyG × 0.25) / 50) × 50)`
 
@@ -17,7 +17,7 @@ Purpose:
 - resale should not become a major alternate income engine;
 - no buy/sell arbitrage is possible.
 
-## Exact sell table
+## Provisional sell table
 | ID | Consumable | Buy | Sell |
 |---|---|---:|---:|
 | C01 | **Field Salve** | 200 G | **50 G** |

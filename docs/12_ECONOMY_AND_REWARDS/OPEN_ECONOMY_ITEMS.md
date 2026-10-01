@@ -10,55 +10,36 @@ Mandatory-route liquidity remains a **provisional stress-test pass** while Chapt
 ## Closed current structure
 - currency = **G**;
 - retired currency name = **Auren**;
-- **1 economy unit = 200 G**;
-- starting wallet = **2,500 G**;
 - exactly **9 Regional Markets**;
 - Cresthaven = separate long-term requisition/backfill authority;
 - Vhalmarch = separate forward-supply endpoint;
 - ordinary equipment identities = **38**;
 - Consumables = **20**;
 - ordinary enemies have **no random Consumable/equipment/material/junk drops**;
-- Kessara Relic-copy fee = **6,000 G per successful copy**;
 - protected/nonlethal resolution may award G and does not default to zero;
 - Hunts give strong G regardless of separate permanent rewards;
 - premium Consumables use one-copy-per-Consumable-shop stock from each shop's first accessible state;
 - premium Consumables do not automatically restock and remain non-sellable.
 
-## Current direct-G calibration
-Mandatory route:
-> **~316,300 G**
+## Provisional numeric references
 
-Optional authored direct G:
-> **288,200 G**
+The former working display scale, starting-wallet amount, shop prices, resale tables, and Kessara service fee remain numeric planning references in their owner files. They are **not** part of the closed structural list above while the economy rebuild is pending.
 
-Broad completionist direct-cash reference:
-> **~604,500 G**
+## Numeric calibration state
 
-The prior **~650,000 G** completionist target is now open for recalibration; do not restore retired Elite bounties merely to recover it.
+No current mandatory-route, optional-route, or completionist direct-G aggregate is relocked while the economy rebuild is pending.
 
-Mandatory composition:
-- starting wallet: **2,500 G**;
-- ordinary formations: **~135,600 G**;
-- mandatory story bosses/named encounters: **92,100 G**;
-- fixed authored combat/event payouts: **5,300 G**;
-- mandatory non-battle map: **80,800 G**.
+Historical/provisional ledgers remain in their owner files for comparison, but:
+- the former **~316,300 G** mandatory aggregate is no longer a closed subtotal;
+- retired Hold-the-Junction/S018 payouts are excluded from current event authority;
+- Memory Construct G remains open;
+- optional G rows remain provisional;
+- former Elite bounty totals remain retired;
+- do not restore a ~650,000 G completionist target merely to force old arithmetic to balance.
 
-Former optional-Elite bounty layer:
-- historical **38,900 G** total — **RETIRED**;
-- strong normal-pool identities now use formation-level G.
+## Price / sink state
 
-Optional composition:
-- ordinary Side Quests: **18,000 G**;
-- Character Quests: **22,200 G**;
-- Regional Hunts: **114,000 G**;
-- Major Hunts: **134,000 G**.
-
-## Closed price / sink synchronization
-- ordinary equipment catalog value: **251,000 G**;
-- ordinary equipment resale table synchronized;
-- Consumable purchase/resale tables synchronized;
-- Kessara all-18-copy maximum service spending: **108,000 G**.
-
+Structural rules remain usable, but detailed G prices, resale tables, service-fee totals, and derived sink totals are rebuild-pending numeric references unless explicitly relocked later.
 ## Deferred cross-domain / implementation dependencies
 These remain open but do not reopen the numeric economy by themselves:
 - story-owned special encounter placement before exact reward assignment where scene role is unresolved;

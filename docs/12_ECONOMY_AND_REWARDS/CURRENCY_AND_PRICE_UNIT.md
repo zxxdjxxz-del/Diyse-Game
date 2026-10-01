@@ -1,6 +1,6 @@
 # Diyse — Currency & Price Unit
 
-**Status:** DISPLAY-SCALE AUTHORITY
+**Status:** G TERMINOLOGY AUTHORITY / NUMERIC DISPLAY SCALE PROVISIONAL PENDING ECONOMY REBUILD
 
 ## Currency
 The ordinary currency is:
@@ -10,15 +10,15 @@ There is no second ordinary shop currency.
 
 `G` is both the currency name and the current-facing display suffix. No separate currency glyph is required.
 
-## Display-scale revision
-Current G uses the deliberate extra display digit for JRPG-style presentation.
+## Display-scale reference
+The retained provisional G model uses the deliberate extra display digit for JRPG-style presentation.
 
 The entire prior balanced currency economy is displayed at:
 > **10× the former numeric denomination**
 
 This is a presentation-scale change, not a tenfold increase in purchasing power.
 
-Current conversion anchor:
+Provisional conversion reference pending the economy rebuild:
 > **1.0 economy unit = 200 G**
 
 Anchor item:
@@ -38,17 +38,14 @@ All current-facing economy/reward files must use **G** rather than the retired c
 The party begins Chapter 0 with:
 > **2,500 G**
 
-This is the current starting-currency authority.
+This is the retained provisional starting-wallet reference, not a final numeric lock while the economy rebuild is pending.
 
 It is separate from Cyanis's Chapter-0 field-issued Consumables and from Chapter-0 encounter payouts.
 
-## Campaign-scale target
-Before the display-scale multiplication, the completionist direct-cash target is approximately **65,000** on the former purchasing-power scale.
+## Historical campaign-scale reference
+The former working model targeted approximately **65,000** on the old purchasing-power scale, corresponding to roughly **650,000 G** under the retained display conversion.
 
-Under the current displayed denomination, this corresponds to roughly:
-> **650,000 G**
-
-The exact current calibration may land slightly above or below this target while preserving chapter pacing.
+That completionist cash target is **not current authority**. The economy rebuild must establish any replacement campaign-scale target.
 
 ## Retired terminology
 - **Auren** — retired currency name; do not use in current-facing text or implementation.

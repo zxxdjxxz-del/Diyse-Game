@@ -34,7 +34,7 @@ Valid presentations include:
 - administrative/expedition funds;
 - direct G cache.
 
-Exact G amounts are being recalibrated against the ~650,000 G completionist target and current encounter/Hunt rules.
+Exact G amounts are being recalibrated in the pending economy rebuild against current encounter/Hunt structure. No completionist direct-cash target is currently relocked.
 
 ## Mandatory solvency rule
 Direct-currency placement must not depend on obscure optional rooms.

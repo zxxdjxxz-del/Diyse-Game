@@ -1,11 +1,11 @@
 # Diyse — Ordinary Equipment Sell Rule
 
-**Status:** EXACT ORDINARY-EQUIPMENT G RESALE AUTHORITY
+**Status:** CURRENT ORDINARY-EQUIPMENT RESALE MECHANIC / NUMERIC TABLE PROVISIONAL
 
 Ordinary equipment sells for:
 > **50% of its registered purchase/replacement value in economy units, rounded down, then denominated in G.**
 
-Current display conversion:
+Provisional display-conversion reference:
 > **1 economy unit = 200 G**
 
 Equivalent implementation:
@@ -15,7 +15,7 @@ This preserves the established unit-level rounding rule.
 
 Do **not** instead half the displayed G first for odd-unit prices, because that would silently change the established unit-level rounding convention.
 
-## Complete current sell table
+## Provisional sell table
 | Equipment | Units | Buy / replace | Sell |
 |---|---:|---:|---:|
 | **Dunmere Steel** | 23 | **4,600 G** | **2,200 G** |

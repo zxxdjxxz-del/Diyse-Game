@@ -1,12 +1,12 @@
 # Diyse — Chapter 0 Field Issue
 
-**Status:** ACTIVE / MANDATORY BALANCE RESOURCE
+**Status:** CURRENT FIELD-ISSUE STRUCTURE / G-PRICE VALUES PROVISIONAL PENDING ECONOMY REBUILD
 
 Chapter 0 is a tightly authored tutorial sequence with no normal shop loop and no Player-Level gain.
 
 ## Starting resources
 The party begins Chapter 0 with:
-- **2,500 G**;
+- a **provisional 2,500 G starting-wallet reference** pending the economy rebuild;
 - **3 Field Salves** issued to Cyanis.
 
 Starting G is spendable currency once commerce becomes available. It is not a hidden completionist advantage.
@@ -14,7 +14,7 @@ Starting G is spendable currency once commerce becomes available. It is not a hi
 Each Field Salve retains its normal function:
 > restore **250 HP** to one ally.
 
-Current Field Salve purchase value under the current display scale:
+Provisional Field Salve purchase reference pending the economy rebuild:
 > **200 G**
 
 ## Boundary
@@ -36,6 +36,6 @@ They are part of the Chapter-0 mandatory baseline.
 
 
 ## Current encounter-flow validation note
-Chapter 0 now contains five authored Cyanis-solo fights before Ilyra joins, followed by the concealed-Seyrik encounter and the combined Riftmaw + Convoy War-Sorcerer final boss.
+Chapter 0 now contains five authored Cyanis-solo fights before Ilyra joins, followed by the concealed-Seyrik encounter and the combined Riftmaw + Battle Sorcerer final boss.
 
 The guaranteed **3 Field Salves** remain current field-issue authority, but their sufficiency is **reopened for encounter validation**. Do not increase or reduce the issue automatically until the current Chapter-0 mandatory-route resource pass is rerun.

@@ -22,19 +22,16 @@ This means:
 
 ## Chapter 0 authored field issue
 Chapter 0 begins with:
-- **2,500 G**;
+- the provisional starting-wallet amount owned by `CHAPTER_00_FIELD_ISSUE.md`;
 - **3 Field Salves** issued to Cyanis.
 
 Reliable normal purchasing still begins in Chapter 1.
 
-## Premium prices
-The premium identities use:
-- **Emergency Kit — 8,000 G**
-- **Reservoir Tonic — 12,000 G**
-- **Emergency Rally — 15,000 G**
+## Premium price boundary
 
-Their high prices are the main economic barrier early in the game; they are visible and purchasable when the player can afford them rather than being chapter-gated.
+Exact numeric premium prices live in `CONSUMABLE_PRICES.md` and remain provisional pending the economy rebuild.
 
+The structural stock rule here does not relock those values; early scarcity remains a function of limited one-copy-per-shop availability plus whatever prices are ultimately recertified.
 ## Premium per-shop rule
 Every commerce endpoint that actually sells Consumables carries:
 - **1 Emergency Kit**
@@ -93,8 +90,10 @@ Guaranteed authored Reservoir Tonic / Emergency Kit pickups remain separate free
 
 ### Chapter 9
 Larkspire Regional Market introduces unlimited normal stock for:
-- Grand Salve — 2,250 HP / **2,400 G**
-- Highflow Tonic — **3,600 G** around this late-stock window
+- Grand Salve
+- Highflow Tonic
+
+Their numeric prices are owned by `CONSUMABLE_PRICES.md` and remain provisional.
 
 ### Chapter 10+
 No new unlimited normal-stock Consumable tier is required.

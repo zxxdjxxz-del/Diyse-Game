@@ -18,7 +18,7 @@ Player EXP remains owned by `10_PROGRESSION_AND_EXP`; quest structure/world-stat
 - Consumables respect the normal progression spine at the quest's unlock point.
 - Premium Consumables are not automatically added merely for symmetry.
 
-## Exact rewards
+## Provisional economic reward packages
 | Side Quest | Direct G | Consumable package | Consumable value | Economic value |
 |---|---:|---|---:|---:|
 | **The Marks We Leave** | **1,000 G** | 2× Field Salve, 1× Trauma Remedy, 1× Blinding Mist | **650 G** | **1,650 G** |

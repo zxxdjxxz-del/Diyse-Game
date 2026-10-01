@@ -30,14 +30,14 @@ The intended checkpoint pressure remains:
 Buying every available upgrade immediately is not the baseline expectation.
 
 ## Provisional legacy mandatory-route calibration
-Legacy/provisional direct-G reference:
-> **approximately 316,300 G**
+Former legacy/provisional direct-G reference:
+> **approximately 316,300 G — historical aggregate only / no longer a current subtotal**
 
 Composition:
 - starting wallet: **2,500 G**;
 - ordinary Chapter 1–13 formations: **~135,600 G**;
 - mandatory story bosses / named encounters: **92,100 G**;
-- fixed authored combat/event payouts: **5,300 G**;
+- fixed authored combat/event payouts: the former **5,300 G** subtotal included now-retired Hold-the-Junction/S018 rows and is no longer a current subtotal;
 - mandatory non-battle reward map: **80,800 G**.
 
 Ordinary formations therefore contribute approximately:
@@ -47,7 +47,7 @@ of the calibrated mandatory-route direct G, preserving the intended **40–50%**
 
 Retained structural intent: protected/nonlethal resolution does **not** automatically imply zero G; exact payouts remain rebuild-pending.
 
-The legacy mandatory-route aggregate is not a complete current ledger because Chapter 3's mandatory **Memory Construct** payout has not yet been assigned. Do not treat the ~316,300-G figure as a closed current total.
+The legacy mandatory-route aggregate is not a complete current ledger because Chapter 3's mandatory **Memory Construct** payout has not yet been assigned and retired Hold-the-Junction/S018 authored-event payouts have been removed. Do not treat the ~316,300-G figure as a closed current total or mechanically subtract retired rows to invent a replacement aggregate.
 
 ## Historical/provisional chapter-liquidity model
 
