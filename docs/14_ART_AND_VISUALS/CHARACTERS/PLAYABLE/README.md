@@ -9,4 +9,4 @@ This folder is a compatibility/navigation layer. The six permanent-party appeara
 - Vaelira → `../../PRODUCTION/CHARACTERS/VAELIRA_CURRENT_VISUAL_LOCK.md` → `asset_sources/characters/current/vaelira.jpg`
 - Seyrik → `../../PRODUCTION/CHARACTERS/SEYRIK_CURRENT_VISUAL_LOCK.md` → `asset_sources/characters/current/seyrik.jpg`
 
-The first-name files in this folder are redirects only. Deleted surname-bearing migration files are superseded and must not be reconstructed.
+The first-name files in this folder are redirects only. Canonical surnames remain current under `01_CHARACTERS`; deleted surname-bearing migration files must not be used to override or reconstruct obsolete visual details.
