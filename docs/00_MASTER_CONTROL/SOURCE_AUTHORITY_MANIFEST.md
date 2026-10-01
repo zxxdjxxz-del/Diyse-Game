@@ -50,10 +50,10 @@ These handoffs exist to prevent superseded migration labels from regaining curre
 The map binary is not fabricated inside this text package.
 
 ## Character image authority
-The current exact character masters are now repository-backed under:
+Current character masters are repository-backed under:
 `asset_sources/characters/current/`
 
-Current set:
+Exact 2026-09-22 source-lock set:
 - Cyanis — `cyanis.jpg`
 - Ilyra — `ilyra.jpg`
 - Torren — `torren.jpg`
@@ -61,16 +61,23 @@ Current set:
 - Vaelira — `vaelira.jpg`
 - Seyrik — `seyrik.jpg`
 - Maevra — `maevra.jpg`
+- Crown Princess Mirena Ceryth — `mirena.jpg`
+
+Separately locked current master:
 - Kessara — `kessara.png`
 
 Controlling production index:
 `../14_ART_AND_VISUALS/PRODUCTION/CHARACTERS/README.md`
 
-Authority order for these characters:
-1. current repository master image;
-2. matching current visual-lock document;
-3. current approved B00 / HD-2D anime style rules;
-4. older prose, archived renders, historical hashes, or superseded concept notes.
+Authority order for the exact-source set follows that production index:
+1. newest explicit user-approved exact source image;
+2. exact approved fingerprint/source-lock record;
+3. repository master binary when it matches the approved fingerprint;
+4. matching current visual-lock document;
+5. current approved B00 / HD-2D anime style rules;
+6. older prose, archived renders, historical hashes, or superseded concept notes.
+
+Kessara remains separately locked by her current repository master/visual-lock authority rather than being folded into the 2026-09-22 eight-image source-lock set.
 
 Canonical surnames remain current and are owned by the character authority files; image filenames do not need to encode the surname. Do not let an older visual description or filename override a current character-name or repository-master-image authority.
 
