@@ -18,7 +18,7 @@ Current MP range:
 | Might | **Relentless Flurry** | 30 | Regional Hunt #4 — Crown Prototype |
 | Might | **March of Blades** | 32 | Major Hunt #1 — Ashen Whitehorn |
 | Might | **Sanguine Alloy** | 26 | Zevraya laboratory sealed cache |
-| Elements | **Cinder Judgment** | 24 | Chapter 5 — Deepforge furnace-regulation protected cache |
+| Elements | **Cinder Judgment** | 24 | Chapter 4 — Central Regulation / Regulation Crucible protected cache |
 | Elements | **Winterglass Spear** | 26 | Chapter 6 — Crownstorm Roc / Weather Crown stabilization |
 | Elements | **Thunder Chain** | 32 | Regional Hunt #6 — Winterglass Titan |
 | Elements | **Confluence Sigil** | 34 | Major Hunt #4 — Worldscar Leviathan |
@@ -27,7 +27,7 @@ Current MP range:
 | Grace | **Merciful Reprisal** | 28 | Ilyra Character Quest — Mercy Has a Voice |
 | Grace | **Wellspring** | 36 | Chapter 9 — Equal Mercy Arbiter |
 | Grace | **Dawn Recall** | 44 | Regional Hunt #5 — Whitehorn Ravager |
-| Perception | **Faultline Sight** | 18 | Chapter 1 — Hollow Watch Castellan / S008 |
+| Perception | **Faultline Sight** | 18 | **OPEN / TBD — retired Hollow Watch Castellan source removed; replacement source not yet assigned** |
 | Perception | **Measured Response** | 24 | Chapter 5 — Deepforge Colossus |
 | Perception | **Predicted Impact** | 28 | Regional Hunt #9 — Mercyfallen Behemoth |
 | Perception | **Decisive Interval** | 36 | Major Hunt #5 — Final Archive Arbiter |
@@ -39,21 +39,22 @@ Current MP range:
 | Ruin | **Zero Hour** | 48 | Major Hunt #6 — The Unfinished World |
 
 ## Source status reconciliation
-Audit116 still listed four homes as OPEN:
+Audit116 listed four homes as OPEN:
 - Restoration
 - Cinder Judgment
 - Iron Testament
 - Sunder the Gate
 
-The later active v85 tracker marks the four-card source issue **CLOSED by later 24/24 source-continuity authority**.
+Later v85 work assigned homes to all four, but newer chapter revisions supersede part of that source map.
 
-This register therefore uses the latest recovered/accepted homes:
+Current source state:
 - Restoration → Stonewake protected relief cache
-- Cinder Judgment → Deepforge furnace-regulation protected cache
+- Cinder Judgment → **Chapter 4 Central Regulation / Regulation Crucible protected cache**
 - Iron Testament → Regional Hunt #7 / Rift Gate Colossus
 - Sunder the Gate → Regional Hunt #8 / Rift Siege Beast
+- Faultline Sight → **OPEN / TBD** because its former Hollow Watch Castellan source was retired from current Chapter 1 and no replacement source has yet been authored
 
-These are treated as current tracker-level source authority pending any future explicit master-canon rewrite.
+Do not invent a replacement Faultline Sight source merely to preserve an obsolete 24/24 placement claim.
 
 ## Renamed/reclassified continuity
 - `Chosen Course` → **Measured Response**

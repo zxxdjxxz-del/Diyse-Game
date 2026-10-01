@@ -13,7 +13,7 @@ Fixed one-time authored rewards. They are exempt from weak-enemy diminishing ret
 Subtotal: **445 EXP / 107 CEXP**
 | Mandatory authored event | EXP | CEXP |
 |---|---:|---:|
-| Thornhide Stalker — normal lethal boss victory | 120 | 28 |
+| Thornhide — normal lethal boss victory | 120 | 28 |
 | Greenhollow civilians secured / Torren permanent recruitment | 75 | 19 |
 | Wayfinder Junction documented / chapter clear | 250 | 60 |
 
@@ -33,8 +33,8 @@ Subtotal: **4,520 EXP / 264 CEXP**
 |---|---:|---:|
 | Lawful authority confrontation I | 400 | 24 |
 | Lawful authority confrontation II | 500 | 30 |
-| Suppressed Archives / Nimera recruitment | 500 | 30 |
-| First Command Warden | 1,800 | 90 |
+| Lower Archives Entrance / Nimera permanent recruitment | 500 | 30 |
+| Authority Construct | 1,800 | 90 |
 | Last Sentinel confirmed | 600 | 40 |
 | Cresthaven established / chapter clear | 720 | 50 |
 
