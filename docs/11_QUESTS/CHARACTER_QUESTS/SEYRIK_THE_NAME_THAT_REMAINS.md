@@ -7,7 +7,7 @@
 
 ## Unlock / runtime
 - after Chapter 8
-- ~30 minutes
+- runtime: **OPEN / provisional** — scope-driven; no uniform Character Quest duration target
 - parent anchor: Draevensreach
 - site: **Vaelkor Youth Intake Facility**
 - local placement: west/northwest on the Black Host-interior side
@@ -75,5 +75,5 @@ The quest does not force:
 - automatic sibling reconciliation.
 
 ## Reward
-- **8,000 Player EXP**
+- numeric progression rewards: owned by `10_PROGRESSION_AND_EXP`; current values are provisional pending rebuild
 - **Seyrik Legacy Component**
