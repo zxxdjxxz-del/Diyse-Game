@@ -35,13 +35,34 @@ Do not restore retired location/region naming where newer geography authority ha
 
 Current geography authority controls any naming nuance not captured here.
 
-## Elements
+## Faces / elements / Primes
+
+Do not restore the retired Face labels:
+- Resource;
+- Acuity;
+- Change.
+
+Current Faces are:
+- Might;
+- Elements;
+- Grace;
+- Perception;
+- Memory;
+- Ruin.
 
 Do not build current combat VFX identities around retired elemental damage types:
 - Wind;
 - Water.
 
-Use the current combat/Face authorities for active elemental identity.
+Do not restore retired Prime progression/presentation:
+- Concordant;
+- a third Prime evolution stage;
+- Prime XP/rank-up presentation;
+- owner-lock visual language that contradicts current Story Prime usability;
+- Last Measure as a current Story Prime/finale visual role;
+- ancient convergence as the modern finale's literal visual solution.
+
+Current Prime states are Recovered and Awakened only. Use the current combat/Card authorities for active mechanics.
 
 ## Character corrections
 

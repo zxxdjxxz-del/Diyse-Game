@@ -1,10 +1,10 @@
 # Diyse — Antagonist Visual Authority
-**Migration baseline:** `Diyse_CURRENT_WORKING_TRACKER_CONSOLIDATED_2026-08-27_v85.md`  
-**Current written authority:** **v2.20 / Audit135** plus newer explicit visual approvals/corrections already accepted in the project conversation.  
-**Inherited presentation authority:** Audit86 Cyanis exact visual lock, Audit87 HD-2D production grammar, Audit88 compatible Chapters 0–4 production conversion, Audit111 final world-map visual/spatial authority.  
-**Runtime checkpoint:** `3fd07e92eda04f31ba613a654b3b1b28071f44e6`.  
-**Visual rule:** the newest explicitly approved visual reference for a character/location controls all derivative field sprites, battle sprites, portraits, cut-ins, model sheets, and promotional derivatives unless that exact visual is later revised.
 
+**Status:** ACTIVE ANTAGONIST VISUAL ROUTING AUTHORITY  
+**Shared rendering authority:** `../../DIYSE_VISUAL_STYLE_CANON.md`  
+**Top-level visual routing:** `../../ART_VISUAL_MASTER.md`
+
+This file records current antagonist visual status and production boundaries. Exact approved visual masters control appearance; current story/combat domains control nonvisual identity, forms, mechanics, and chronology.
 
 ## Commander Rhazek
 Status:
@@ -21,8 +21,6 @@ Perfected War Mother is a deliberate self-escalation, not a possession/body-horr
 ## Marshal Varkesh
 Status:
 > **LOCKED**
-
-Older documentation saying his visual remained open is superseded.
 
 Rift Conqueror remains a deliberate combat escalation, not possession.
 
@@ -57,4 +55,4 @@ No hidden surviving visual branch.
 Where exact antagonist image details are not textually reproduced here:
 > use the approved visual master itself.
 
-Do not "fill the gap" by redesigning from archetype.
+Do not fill visual gaps by redesigning from archetype.

@@ -1,10 +1,8 @@
 # Diyse — Face / Card / Prime Visual Language
-**Migration baseline:** `Diyse_CURRENT_WORKING_TRACKER_CONSOLIDATED_2026-08-27_v85.md`  
-**Current written authority:** **v2.20 / Audit135** plus newer explicit visual approvals/corrections already accepted in the project conversation.  
-**Inherited presentation authority:** Audit86 Cyanis exact visual lock, Audit87 HD-2D production grammar, Audit88 compatible Chapters 0–4 production conversion, Audit111 final world-map visual/spatial authority.  
-**Runtime checkpoint:** `3fd07e92eda04f31ba613a654b3b1b28071f44e6`.  
-**Visual rule:** the newest explicitly approved visual reference for a character/location controls all derivative field sprites, battle sprites, portraits, cut-ins, model sheets, and promotional derivatives unless that exact visual is later revised.
 
+**Status:** ACTIVE FACE/CARD/PRIME VISUAL AUTHORITY  
+**Shared rendering authority:** `../DIYSE_VISUAL_STYLE_CANON.md`  
+**Card/Prime rules:** `../../07_CARDS/`
 
 ## Six Faces
 - Might
@@ -13,12 +11,6 @@
 - Perception
 - Memory
 - Ruin
-
-Do not use the retired Face labels:
-- Resource
-- Acuity
-- Change
-as current Faces.
 
 ## Standard Cards
 Visual goal:
@@ -34,12 +26,12 @@ Prime invocation must read as a much larger manifestation event than Standard Ca
 
 ### Recovered Story Prime
 - one signature action;
-- immediate dismissal same ordinary round;
+- immediate dismissal after that action;
 - strong but bounded manifestation.
 
 ### Awakened
 - full direct-control Prime state;
-- three Prime rounds;
+- three Prime turns;
 - sustained manifestation identity.
 
 ### Major-Hunt Prime
@@ -49,8 +41,4 @@ Prime invocation must read as a much larger manifestation event than Standard Ca
 ## Prime spectacle
 V4 is appropriate.
 
-Do not restore:
-- Concordant visual stage;
-- third Prime evolution;
-- owner-lock aura;
-- Prime XP/rank-up VFX.
+Retired Face/Prime terminology is centralized in `../RETIRED_VISUAL_CONCEPTS_FIREWALL.md` rather than repeated in this active authority.
