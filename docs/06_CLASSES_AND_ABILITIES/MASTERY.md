@@ -1,10 +1,10 @@
 # Diyse — Current Mastery Architecture
 **Migration baseline:** `Diyse_CURRENT_WORKING_TRACKER_CONSOLIDATED_2026-08-27_v85.md`  
 **Master-canon class/resource authority:** **v2.08 / Audit123**, with compatible **Audit115** class normalization and later current working corrections.  
-**Authority treatment:** explicit/newer working corrections are preserved as working overrides when they have not yet been promoted into the audit chain.
+**Authority treatment:** this repository file is current domain authority. Audit/v85 references remain provenance; later explicit corrections and current owner-domain rules supersede conflicting historical text.
 
-# Current active working rule
-**Mastery Points do not exist in the active v85 working branch.**
+# Current active rule
+**Mastery Points do not exist in the current class system.**
 
 Masteries unlock automatically by Class Level.
 
@@ -15,7 +15,7 @@ This supersedes the old tracker-level:
 - Sixfold Volition Mastery Point;
 - Lv40 / Lv50 / Lv60 Mastery Point grants.
 
-It has **not yet been formally promoted into the Audit123 master-canon file**, so preserve that authority distinction in historical documentation.
+Audit123 remains historical provenance for the superseded point-purchase model. Current repository authority controls implementation and authoring: automatic Class-Level unlocks are the active rule.
 
 ## Core Masteries
 | Character | Class | Unlock | Mastery | Effect |
