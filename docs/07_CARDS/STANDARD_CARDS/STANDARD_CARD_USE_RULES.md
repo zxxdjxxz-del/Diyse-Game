@@ -1,7 +1,7 @@
 # Diyse — Standard Card Use Rules
-**Migration baseline:** `Diyse_CURRENT_WORKING_TRACKER_CONSOLIDATED_2026-08-27_v85.md`  
-**Historical provenance:** Audit116/Audit119/Audit122, v85-era closures, and later approved corrections as applicable.
-**Authority treatment:** this repository file is current Card/Prime-domain authority. Audit/v85 references remain provenance; later explicit corrections and current owner-domain rules supersede conflicting historical text.
+
+**Status:** ACTIVE STANDARD-CARD AUTHORITY  
+**Authority:** current Card/Prime-domain owner plus later explicit approved corrections.  
 
 ## Equip
 Each permanent character may equip:
@@ -65,7 +65,7 @@ Standard Cards do not normally alter current-round action order.
 **Decisive Interval** is the current explicit exception only in the narrow form defined by its owner:
 - it never reshuffles the already-fixed current round;
 - an eligible ordinary-enemy delay may resolve only during a later beginning-of-round initiative setup while Decisive Opening is still active;
-- the exact one-slot delay and its precedence relative to Routeweaver routing are owned by `../../05_BATTLE_SYSTEM/TURN_AND_ROUND_RULES.md` and `ACUITY.md`;
+- the exact one-slot delay and its precedence relative to Routeweaver routing are owned by `../../05_BATTLE_SYSTEM/TURN_AND_ROUND_RULES.md` and `PERCEPTION.md`;
 - this does not create a pending-action queue, Wait command, action Speed, or extra action.
 
 ## Acquisition fiction

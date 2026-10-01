@@ -1,7 +1,7 @@
 # Diyse — Prime: Starfall Engine
-**Migration baseline:** `Diyse_CURRENT_WORKING_TRACKER_CONSOLIDATED_2026-08-27_v85.md`  
-**Historical provenance:** Audit116/Audit119/Audit122, v85-era closures, and later approved corrections as applicable.
-**Authority treatment:** this repository file is current Card/Prime-domain authority. Audit/v85 references remain provenance; later explicit corrections and current owner-domain rules supersede conflicting historical text.
+
+**Status:** ACTIVE PRIME AUTHORITY  
+**Authority:** current Card/Prime-domain owner plus later explicit approved corrections.  
 
 
 **Face:** Ruin  
