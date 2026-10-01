@@ -1,23 +1,17 @@
 # DIYSE — Chapters 0–3 Current Source-Closure Index
 
-**Compatibility filename retained:** `CHAPTERS_00_03_FULL_SOURCE_CLOSURE_2026-09-13.md`  
-**Status:** CURRENT INDEX / HISTORICAL SNAPSHOT MOVED  
-**Current structure date:** September 28, 2026
+**Status:** ACTIVE CROSS-CHAPTER DIALOGUE CLOSURE INDEX  
+**Compatibility path:** retained because `tools/dialogue/sync_current_dialogue.py` validates it.
 
-The original September 13 source-closure snapshot has been preserved at:
-
-`../HISTORICAL/CHAPTERS_00_03_FULL_SOURCE_CLOSURE_2026-09-13.md`
-
-This file now exists only as the canonical cross-chapter closure/index path expected by repository validation.
+> **Chapters 0–3 are now fully updated at the source level.**
 
 ## Current exact dialogue authority
 
-Current exact spoken wording lives in standalone production atomics:
-
-- Chapter 0 — `CHAPTER_00/`
-- Chapter 1 — `CHAPTER_01/`
-- Chapter 2 — `CHAPTER_02/`
-- Chapter 3 — `CHAPTER_03/`
+Exact spoken wording is owned by the production atomics under:
+- `CHAPTER_00/`
+- `CHAPTER_01/`
+- `CHAPTER_02/`
+- `CHAPTER_03/`
 
 Current synchronized combined manuscripts:
 - `CHAPTER_00/CHAPTER_00_DIALOGUE_MANUSCRIPT.md`
@@ -25,35 +19,34 @@ Current synchronized combined manuscripts:
 - `CHAPTER_02/CHAPTER_02_DIALOGUE_MANUSCRIPT.md`
 - `CHAPTER_03/CHAPTER_03_DIALOGUE_MANUSCRIPT.md`
 
-Current runtime mirror:
-`../../../game/content/dialogue/current/`
+Current generated-source fingerprint ledger:
+> `CHAPTERS_00_03_DIALOGUE_SYNC_MANIFEST.md`
 
-Current runtime totals:
-- **52 scenes**
-- **2,015 spoken lines**
+Current runtime mirror:
+> `../../../game/content/dialogue/current/`
 
 ## Chapter 3 current closure
 
-Chapter 3 current mandatory structure is **B01–B11**, plus Character-Life **C06/C07**.
+Current mandatory structure:
+> **B01–B11**
 
-Current Chapter 3 exact dialogue total:
-- **700 spoken lines**
+Current Character-Life scenes:
+> **C06 / C07**
 
-Current Chapter 3 structural authority:
-`../../02_STORY/CHAPTERS/CHAPTER_03.md`
+Story owner:
+> `../../02_STORY/CHAPTERS/CHAPTER_03.md`
 
-Current Chapter 3 dialogue authority:
-`CHAPTER_03/CHAPTER_03_DIALOGUE_AUTHORITY_INDEX.md`
+Dialogue owner:
+> `CHAPTER_03/CHAPTER_03_DIALOGUE_AUTHORITY_INDEX.md`
 
-Retired S017–S021/H01–H04 material is historical only:
-`../HISTORICAL/CHAPTER_03/`
+The retired S017–S021 / H01–H04 transcript model and older Chapter-3 working packets have been removed from the live tree. Git history preserves provenance only.
 
 ## Closure rule
 
 A chapter is source-closed only when its:
 - story authority;
 - production atomics/specs;
-- current character/Person-Brain authority;
+- current character / Person-Brain authority;
 - reveal boundaries;
 - runtime generation inputs;
 - current naming/validation rules
@@ -62,4 +55,4 @@ agree with one another.
 
 Generated manuscripts, reader artifacts, runtime Resources, registries, and manifests are derived outputs and must be regenerated/check-validated after source changes.
 
-Nothing in the archived September 13 snapshot may override later current production authority.
+Historical snapshots never override later current production authority.
