@@ -6,4 +6,4 @@ This navigation file routes older playable-character visual references into the 
 **Current visual lock:** [`PRODUCTION/CHARACTERS/VAELIRA_CURRENT_VISUAL_LOCK.md`](../../PRODUCTION/CHARACTERS/VAELIRA_CURRENT_VISUAL_LOCK.md)  
 **Authority index:** [`PRODUCTION/CHARACTERS/README.md`](../../PRODUCTION/CHARACTERS/README.md)
 
-Do not infer or restore a surname from older filenames or migration documents. The current visual authority uses **Vaelira**. Her current combat/visual identity uses Arcane Staff language, not bow/quiver language.
+Canonical full name: **Vaelira Serren**. The first-name visual filename is shorthand only; current naming authority remains `01_CHARACTERS`, and retired migration files must not override it. Her current combat/visual identity uses Arcane Staff language, not bow/quiver language.
