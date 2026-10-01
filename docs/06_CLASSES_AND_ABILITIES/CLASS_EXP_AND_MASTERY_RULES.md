@@ -8,7 +8,9 @@
 - Base Class: **CL13**
 - Subclass: **CL13**
 
-## CEXP threshold curve
+## Provisional pre-rebuild CEXP threshold reference
+
+> **Numeric rebuild boundary:** the values below are retained as the current pre-rebuild reference only. `10_PROGRESSION_AND_EXP` owns the planned EXP/CEXP recalibration and may replace these cumulative thresholds. Do not use this table as final balance certification.
 
 | Class Level | Cumulative CEXP |
 |---:|---:|
@@ -31,9 +33,11 @@ Base and Subclass CEXP are separate.
 Battle CEXP goes to the **currently selected class only**.
 The unselected class receives 0.
 
-The detailed chapter CEXP economy, formation awards, optional-source budgets, and simulations belong in `10_PROGRESSION_AND_EXP`.
+The detailed chapter CEXP economy, formation awards, optional-source budgets, simulations, and final threshold calibration belong in `10_PROGRESSION_AND_EXP`.
 
-## Recruitment Base-Class planning inputs
+## Provisional recruitment Base-Class planning inputs
+
+Recruitment **chapters** below remain current story facts. Starting Base CL/CEXP values are provisional progression inputs and must be revalidated with the EXP/CEXP rebuild.
 
 | Character | Recruitment | Starting Base CL | Starting Base CEXP |
 |---|---|---:|---:|
@@ -44,7 +48,7 @@ The detailed chapter CEXP economy, formation awards, optional-source budgets, an
 | Vaelira | Ch4 | CL7 | 1,800 |
 | Seyrik | Ch6 | CL8 | 2,300 |
 
-## Current active Mastery behavior — v85 working override
+## Current active Mastery behavior
 
 Mastery Points are **removed**.
 
@@ -78,7 +82,10 @@ Full class completion still requires CL13 in both lines.
 
 ## Authority note
 
-Audit123's published master-canon text still contains an 8-Mastery-Point purchase model.
-v85 explicitly labels the Mastery-Point removal as a newer **working-level decision not yet promoted into master canon**.
+Audit123 is historical provenance for the older 8-Mastery-Point purchase model. Current repository authority supersedes that model:
 
-This file preserves that distinction rather than pretending the audit file already says something it does not.
+- Mastery Points are removed;
+- Masteries unlock automatically by Class Level;
+- Sixfold Volition unlocks Subclass access but grants no Mastery currency.
+
+The pending EXP/CEXP rebuild may change the **CEXP required to reach a Class Level**, but it does not by itself reopen the Class-Level unlock schedule above.
