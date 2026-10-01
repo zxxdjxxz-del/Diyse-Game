@@ -86,7 +86,7 @@ Major Hunt #3 is unavailable until after Chapter 9.
 
 Ilyra's Character Quest unlocks after Chapter 9 and is also excluded.
 
-Optional Elite/incidental combat can push the high side toward:
+Incidental optional combat can push the high side toward:
 > **~Lv46**
 
 Balance references:
