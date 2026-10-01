@@ -1,9 +1,9 @@
 # Diyse — Enemy System Rules
 **Migration baseline:** `Diyse_CURRENT_WORKING_TRACKER_CONSOLIDATED_2026-08-27_v85.md`  
-**Primary enemy-production authority:** compatible **Audit90 / Audit93** plus accepted later tracker roster/action cleanups.  
-**Primary raw-stat authority:** **Audit129 + Audit130 / Audit131 / Audit132 / Audit133 / Audit134 / Audit135**.  
-**Current whole-project written authority:** **v2.20 / Audit135**.  
-**Migration rule:** later current names, chapter reindexing, four-element rules, removed-system firewalls, and fresh-body Prime-refresh rules supersede stale earlier enemy text.
+**Historical enemy-production provenance:** Audit90/Audit93 plus later tracker-era roster/action cleanups.
+**Historical raw-stat provenance:** Audit129–Audit135.
+**Authority treatment:** this repository file is current enemy-domain authority; Audit/v85 references remain historical provenance only.
+**Migration rule:** current repository names, chapter placement, system firewalls, and Prime-restoration rules supersede conflicting historical enemy text.
 
 
 ## Encounter-size cap
@@ -80,7 +80,7 @@ Staggered remains a normal harmful status.
 ## Explicit action-Power gate
 Every enemy action that deals direct HP damage must state exact numeric Power.
 
-No enemy, Elite, Hunt, boss, or damaging support-object kit can be numerically certified with an unspecified direct-damage coefficient.
+No enemy, Hunt, boss, or damaging support-object kit can be numerically certified with an unspecified direct-damage coefficient.
 
 Non-damaging actions explicitly use `Power: N/A — no direct damage`.
 
