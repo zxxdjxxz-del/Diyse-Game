@@ -8,14 +8,14 @@
 Exactly:
 > **6 Major Hunts**
 
-| # | Major Hunt | Destination | Unlock | Prime | EXP |
-|---:|---|---|---|---|---:|
-| 1 | **Ashen Whitehorn** | Ashfrost Expanse | after Chapter 6 fully ends | **Dawn Shepherd** | 4,500 |
-| 2 | **Crownless Siege Marshal / Crownless War Engine** | Crownfall Redoubt / deep old Crownfall ruins | after Chapter 7 | **Oathbound Colossus** | 6,000 |
-| 3 | **Concordance Guardian** | Concordance Vault | after **Sixfold Volition** at the end of Chapter 7 | **Living Revision** | 8,000 |
-| 4 | **Worldscar Leviathan** | Worldscar Basin | after Chapter 8 | **Prismatic Leviathan** | 13,000 |
-| 5 | **Final Archive Arbiter** | Final Archive | after Chapter 10 | **Parallax Host** | 18,500 |
-| 6 | **The Unfinished World** | Worldframe Depths inside Final Archive | Final Archive Arbiter route cleared **and** Vaelkor defeated in Chapter 12 | **Starfall Engine** | 24,000 |
+| # | Major Hunt | Destination | Unlock | Prime |
+|---:|---|---|---|---|
+| 1 | **Ashen Whitehorn** | Ashfrost Expanse | after Chapter 6 fully ends | **Dawn Shepherd** |
+| 2 | **Crownless Siege Marshal / Crownless War Engine** | Crownfall Redoubt / deep old Crownfall ruins | after Chapter 7 | **Oathbound Colossus** |
+| 3 | **Concordance Guardian** | Concordance Vault | after **Sixfold Volition** at the end of Chapter 7 | **Living Revision** |
+| 4 | **Worldscar Leviathan** | Worldscar Basin | after Chapter 8 | **Prismatic Leviathan** |
+| 5 | **Final Archive Arbiter** | Final Archive | after Chapter 10 | **Parallax Host** |
+| 6 | **The Unfinished World** | Worldframe Depths inside Final Archive | Final Archive Arbiter route cleared **and** Vaelkor defeated in Chapter 12 | **Starfall Engine** |
 
 ## Prime state
 Each Major-Hunt Prime is obtained:
@@ -54,3 +54,7 @@ Current Major Hunt unlock schedule:
 - Major Hunt #6 — The Unfinished World: unchanged existing late dual gate
 
 This schedule supersedes older Major-Hunt timing rows. Major Hunt #6 retains its separate post-Vaelkor Chapter-12 + Arbiter-clear dual gate.
+
+
+## Numeric reward ownership
+Exact Hunt Player EXP/CEXP is owned by `10_PROGRESSION_AND_EXP` and remains provisional pending the progression rebuild.
