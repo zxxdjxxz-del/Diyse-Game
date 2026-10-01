@@ -1,8 +1,7 @@
 # Diyse — Retired Enemy Terminology / Mechanic Firewall
-**Migration baseline:** `Diyse_CURRENT_WORKING_TRACKER_CONSOLIDATED_2026-08-27_v85.md`  
-**Historical provenance:** Audit90/Audit93 and Audit129–Audit135, plus later tracker-era roster/action cleanups.  
-**Authority treatment:** this repository firewall and the current enemy owner files are active enemy-domain authority. Audit/tracker material remains provenance only.  
-**Migration rule:** later current names, chapter reindexing, four-element rules, removed-system firewalls, and current Prime-restoration rules supersede stale earlier enemy text.
+
+**Status:** ACTIVE ENEMY RETIREMENT FIREWALL  
+**Authority:** current enemy/encounter-domain owner plus later explicit approved corrections.  
 
 
 Normalize current enemy content as follows:
