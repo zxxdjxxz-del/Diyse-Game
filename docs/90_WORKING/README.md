@@ -1,39 +1,37 @@
 # 90_WORKING
 
-This folder contains **unresolved or reopened work only**.
+This folder contains **temporary cross-domain production work only**.
 
-It is not a cumulative canon tracker and does not override the owning numbered domains.
+It is not a canon tracker and never overrides numbered owner domains.
 
 ## Rules
-- keep drafts narrowly scoped;
-- state the owning numbered domain;
-- state what is already locked/closed;
-- do not duplicate whole-system canon;
-- when approved, update the owning domain first;
-- then remove or archive the working file.
 
-## Current major working streams
-1. story-owned enemy placement/timing dependencies;
-2. Chapter-4 dialogue rewrite plus later-chapter/optional dialogue still in development;
-3. playable area / route layout production — actual field, hub, dungeon, facility, quest and Hunt geometry/blockouts plus AI/environment-generation handoff specs;
-4. production implementation reconciliation;
-5. visual production / style certification, including gameplay-scale derivatives of the six locked party masters and B01–B11 material benchmarks;
-6. audio/music redevelopment;
-7. **enemy ability/action-kit + difficulty revalidation and Player EXP/CEXP progression rebuild**;
-8. whole-game playtest / QA;
-9. intentionally open story/lore details.
+- keep only work that genuinely needs a temporary cross-domain production surface;
+- do not duplicate numbered-domain open-item registers;
+- route detailed rules to the owner domain;
+- when work becomes current authority, update the owner first;
+- delete obsolete working trackers rather than keeping compatibility copies unless a real workflow depends on the filename.
 
-The former mandatory-route difficulty recalibration / First Command Warden / ×1.20 sensitivity sequence remains **retired**. The current enemy/progression work is a newer redesign/revalidation stream owned by `09_ENEMIES_AND_ENCOUNTERS`, `10_PROGRESSION_AND_EXP`, and `16_BALANCE_AND_TESTING`.
+## Live working content
 
-## Historical work that should not be mistaken for current final authority
-- enemy static/paper validation — historical pass only; enemy ability/action-kit and difficulty recertification are open;
-- v91/v92 CEXP recalibration — historical/provisional reference only; **Lv55–60 remains the target**, but the Player EXP/CEXP model is rebuild-pending;
-- former G economy/reward and liquidity certifications — retained as history/reference only; detailed economy is **rebuild pending**;
-- legacy giant-tracker migration — complete;
-- repository documentation replacement/migration — complete.
+### Cross-domain sequencing
+- `ACTIVE_WORK_QUEUE.md`
 
-Economy-related story-placement and runtime/UI dependencies remain owned by the relevant story/implementation streams. Detailed numeric economy work should wait for the planned economy rebuild/recalibration.
+### Playable area / route production
+- `AREA_AND_ROUTE_LAYOUT_PRODUCTION_WORKING.md`
+- `PLAYABLE_AREA_INVENTORY_WORKING.md`
+- `AREA_LAYOUTS/`
 
-Macro world geography being closed does **not** mean playable area design is complete. Use `AREA_AND_ROUTE_LAYOUT_PRODUCTION_WORKING.md` for the missing build-ready level-design layer.
+Playable-area work remains here because actual build-ready geometry/graybox production is still an active cross-domain workflow spanning story, traversal, encounters, visuals, implementation, and QA.
 
-Use `ACTIVE_WORK_QUEUE.md` for current sequencing and `OPEN_WORK_AUDIT.md` for the consolidated unfinished-work classification.
+## Detailed open-work owners
+
+Use the numbered domains instead of parallel working trackers:
+- story — `../02_STORY/OPEN_STORY_ITEMS.md`;
+- dialogue — `../03_DIALOGUE/README.md`;
+- implementation — `../13_UI_AND_IMPLEMENTATION/OPEN_UI_IMPLEMENTATION_ITEMS.md` and `IMPLEMENTATION_NOTES/CURRENT_CODE_DIVERGENCES.md`;
+- visuals — `../14_ART_AND_VISUALS/PRODUCTION/OPEN_VISUAL_PRODUCTION_ITEMS.md`;
+- audio — `../15_AUDIO_AND_MUSIC/OPEN_AUDIO_ITEMS.md`;
+- balance/progression/QA — `../16_BALANCE_AND_TESTING/OPEN_BALANCE_ITEMS.md` and `FINAL_RELEASE_GATES.md`.
+
+Historical migrations, old certification snapshots, and retired sensitivity studies belong in Git history / archive, not in active working trackers.
