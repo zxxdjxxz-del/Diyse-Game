@@ -42,7 +42,7 @@ Current class-completion timing target:
 
 Deleted v90 static-completion files and v104–v106 sensitivity studies remain available through Git history only. Their tested scalars, PASS labels, enemy rosters, and progression snapshots are not current implementation authority.
 
-Retained historical true-battle reports likewise document only the exact snapshots they tested. Current owner-domain rules supersede them whenever they conflict.
+Historical true-battle v93–v103 reports were removed from the live tree. Git history preserves their exact snapshots; they are not current certification and must not override current owner-domain rules.
 
 
 ## Retired validation snapshots
@@ -68,3 +68,17 @@ The following historical report families were removed from the live tree after t
 - stale automated-test inventory counts.
 
 Git history preserves them. Current owner-domain data and live validation frameworks replace them.
+
+
+## Removed true-battle snapshots
+
+Detailed v93–v103 true-battle reports were removed from the live tree after enemy/progression inputs reopened.
+
+Do not restore their:
+- retired encounters or party compositions;
+- historical route levels/EXP/CEXP snapshots;
+- old enemy Power/action-kit locks;
+- old PASS/RETAIN conclusions;
+- superseded Prime timing/restoration assumptions.
+
+Only the current `TRUE_BATTLE_TEST_PROTOCOL.md` remains a live testing method.
