@@ -89,6 +89,6 @@ On the conservative fragile Lv37 reference:
 - Ruin Shot is approximately **8.7%** before Spirit penetration;
 - Final Order is approximately **13.9% per target** before Spirit penetration.
 
-The danger comes from Bleed, temporary defense pressure, self-buffing, and the telegraphed Final Order rather than one-action deletion. The **7,200 HP** body places the encounter above an ordinary/Elite remnant officer but below the Hunt tier available in the same broad window.
+The danger comes from Bleed, temporary defense pressure, self-buffing, and the telegraphed Final Order rather than one-action deletion. The **7,200 HP** body places the encounter above an ordinary remnant officer but below the Hunt tier available in the same broad window.
 
 **Verdict:** **PASS / RAW-BODY GAP CLOSED v90**
