@@ -1,4 +1,4 @@
-# Chapter 9 — Ordinary / Elite / Authored-Protected Power Register
+# Chapter 9 — Ordinary / Strong-Normal / Authored-Protected Power Register
 **Status:** **CHAPTER-9 BROAD ENEMY POWER PASS**
 
 | Enemy | Lv | HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR | Direct-damage Powers |
@@ -32,7 +32,7 @@ No Poison, disease meter, Triage resource, or universal Mercy command.
 - no death presentation / no patient loot
 - exact scene placement remains story-owned
 
-## Optional Elite
+## Strong normal-pool identity
 Ruin Breach Captain:
 - retained Lv44 / HP4,350 / ATK160 / MAG120 / DEF108 / Spirit99 / SPD46
 - 300 /310 Ruin /220 AoE /285 Fire
