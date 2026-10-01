@@ -1,13 +1,13 @@
 # Diyse — Mandatory Non-Battle G Reward Map
 
-**Status:** EXACT MANDATORY NON-BATTLE G DELIVERY AUTHORITY
+**Status:** CURRENT DELIVERY-STRUCTURE OWNER; G AMOUNTS PROVISIONAL PENDING ECONOMY REBUILD
 
-This file owns the exact chapter-by-chapter delivery of mandatory-route G that is not earned from ordinary formations, fixed authored combats, or mandatory story-boss payouts.
+This file owns the chapter-by-chapter delivery structure for mandatory-route G that is not earned from ordinary formations, fixed authored combats, or mandatory story-boss payouts. Existing amounts are provisional planning references pending the economy rebuild.
 
 ## Delivery rules
 1. These rewards are on the **mandatory route**. Baseline solvency does not depend on obscure optional rooms.
 2. A delivery can be requisition/field-operation credit, secured hostile operational funds, liberated military reserve, mandatory-path administrative/expedition reserve, or a direct G cache where appropriate.
-3. The G amount is exact. Exact container art, interaction animation, dialogue acknowledgment, or UI toast may be authored later without changing the amount.
+3. Existing G amounts are provisional until the economy rebuild. Container art, interaction animation, dialogue acknowledgment, or UI toast may still be authored independently.
 4. Do not reinterpret every line as literal loose coins carried by a monster or Ancient machine.
 5. A permanent equipment/Card/Prime/Forge Component reward does not automatically gain extra G merely because it shares the same area.
 6. No delivery below is repeatable.
