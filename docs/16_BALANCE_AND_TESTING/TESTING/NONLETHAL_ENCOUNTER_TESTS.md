@@ -1,33 +1,32 @@
 # Diyse — Nonlethal / Protected Encounter Tests
-**Migration baseline:** `Diyse_CURRENT_WORKING_TRACKER_CONSOLIDATED_2026-08-27_v85.md`  
-**Current written whole-project authority:** **v2.20 / Audit135**, plus newer explicit user corrections preserved by the reorganization.  
-**Primary balance chain:** Audits 121–135 where compatible, especially 123–128 progression and 129–135 raw-stat certification.  
-**Runtime test checkpoint inspected:** `Diyse-Game` commit `3fd07e92eda04f31ba613a654b3b1b28071f44e6`.  
-**Balance ownership rule:** this domain owns cross-system balance acceptance criteria, verification plans, playtest targets, certification status and regression gates. Exact formulas/stats/rewards remain canonically housed in their dedicated system domains.
 
+**Status:** ACTIVE NONLETHAL / PROTECTED-OUTCOME QA  
+**Story/enemy authority:** current `02_STORY` and `09_ENEMIES_AND_ENCOUNTERS` owners
 
-Current authored encounters include outcomes where 0 HP does not mean generic death.
+Some authored encounters resolve without generic lethal defeat.
 
-Test:
-- Briarhide Stalker retreat/resolution;
-- Elder Briarhide protected nonlethal Last Sentinel sequence;
+Current examples requiring protected/nonlethal handling include:
+- **Elder Thornhide** in Chapter 4;
 - Reaction Conduit stabilization;
-- lawful-authority confrontations;
-- prisoner/victim/coerced-human outcomes;
-- animal retreat contexts.
+- lawful-authority confrontations where current story authority specifies nonlethal resolution;
+- prisoner/victim/coerced-human encounters;
+- animal retreat contexts where explicitly authored.
+
+Regression firewall:
+- Chapter 1 **Thornhide** is the current normal lethal final boss and must **not** inherit retired Briarhide/Stalker nonlethal treatment.
 
 ## Presentation
 Nonlethal resolution should suppress generic:
 - death dissolve;
 - corpse assumption;
-- victory pose if inappropriate;
-- loot framing if not authored.
+- inappropriate victory pose;
+- loot framing when not authored.
 
 ## Mechanics
 Protected/nonlethal state must not:
-- leave target farmable;
+- leave the target farmable;
 - pay rewards repeatedly;
 - corrupt later story state;
-- secretly create a universal Capture/Subdual/Mercy command.
+- create a universal Capture/Subdual/Mercy command.
 
 Objective scripting controls the authored outcome.
