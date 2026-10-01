@@ -14,7 +14,7 @@ Player EXP is owned by `10_PROGRESSION_AND_EXP`.
 
 The Legacy Component remains the dominant permanent progression reward, with a worthwhile G/Consumable add-on.
 
-## Exact economic add-ons
+## Provisional economic add-ons
 | Character | Quest | Direct G | Consumable add-on | Consumable value | Economic add-on value |
 |---|---|---:|---|---:|---:|
 | Vaelira | **The Sky No One Chose** | **3,000 G** | 1× Deepflow Tonic, 1× Full Remedy | **3,400 G** | **6,400 G** |
