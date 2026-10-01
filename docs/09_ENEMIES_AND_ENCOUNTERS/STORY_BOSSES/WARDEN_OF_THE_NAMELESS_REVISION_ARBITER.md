@@ -238,7 +238,7 @@ Revision Claim has a 2-round repetition lock.
 This is the encounter's continuing action-tax architecture:
 > the player may accept reduced output or vary that character's ordinary command usage.
 
-It does not duplicate the First Command Warden's reprisal mechanic because:
+It does not duplicate the Authority Construct's reprisal mechanic because:
 - repeating the command causes no counterattack;
 - no damage is triggered by the Claim;
 - the tax is a temporary damage-output reduction only.
