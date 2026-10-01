@@ -1,4 +1,6 @@
-# 12_ECONOMY_AND_REWARDS — Current Validation
+# 12_ECONOMY_AND_REWARDS — Structural Validation / Provisional Numeric Reference
+
+> **Economy rebuild boundary:** PASS labels in structural sections confirm terminology, inventory counts, ownership, or rule migration only. Prices, payouts, G totals, liquidity results, sink totals, and derived campaign-cash aggregates remain provisional until the dedicated economy rebuild.
 
 ## Currency / scale
 - currency = **G** — PASS
@@ -42,31 +44,31 @@
 - no universal random enemy item/drop table — PASS
 - no vendor-trash economy — PASS
 
-## Exact payout certification
-- ordinary formations = **~135,600 G expected route total** — PASS
+## Provisional payout-ledger references
+- ordinary formations = **~135,600 G expected route total** — provisional reference
 - former optional-Elite standalone bounty layer = **RETIRED (historical 38,900 G)**
-- mandatory story bosses/named encounters = **92,100 G** — PASS
-- fixed authored combat/event payouts = **5,300 G** — PASS
-- mandatory non-battle map = **80,800 G** — PASS
-- ordinary Side Quests = **18,000 G direct** — PASS
-- Character Quests = **22,200 G direct** — PASS
-- Regional Hunts = **114,000 G** — PASS
-- Major Hunts = **134,000 G** — PASS
-- Kessara Relic-copy fee = **6,000 G** — PASS
-- all 18 current Kessara copy opportunities = **108,000 G maximum service spend** — PASS
+- mandatory story bosses/named encounters = **92,100 G mapped legacy subtotal** — provisional/incomplete; Memory Construct payout OPEN
+- fixed authored combat/event payouts = **5,300 G** — provisional reference
+- mandatory non-battle map = **80,800 G** — provisional reference
+- ordinary Side Quests = **18,000 G direct** — provisional reference
+- Character Quests = **22,200 G direct** — provisional reference
+- Regional Hunts = **106,000 G** — synchronized sum of the current eight provisional Hunt rows
+- Major Hunts = **134,000 G** — provisional reference
+- Kessara Relic-copy fee = **6,000 G** — provisional reference
+- all 18 current Kessara copy opportunities = **108,000 G maximum service spend** — provisional reference
 
 ## Campaign calibration
 Mandatory direct-G reference:
-> **~316,300 G** — CURRENT AGGREGATE; CH1 FORMATION REMAP OPEN
+> **~316,300 G** — legacy/provisional aggregate; incomplete because Memory Construct G is OPEN and the economy rebuild is pending
 
 Ordinary-formation share of mandatory direct G:
-> **~42.9%** — PASS
+> **~42.9%** — historical/provisional ratio only
 
 Optional authored direct G:
-> **288,200 G** — CURRENT AFTER ELITE-Bounty + HUNT #1 RETIREMENT
+> **280,200 G** — synchronized provisional subtotal using the current eight Regional Hunt rows
 
 Broad completionist direct-cash reference:
-> **~604,500 G** — CURRENT REFERENCE; RECALIBRATION OPEN
+> **~596,500 G** — provisional arithmetic reference only; mandatory side remains incomplete/rebuild-pending
 
 Target:
 > **roughly 650,000 G**
@@ -83,13 +85,13 @@ Mandatory-only stress model reserves:
 - **287,000 G** combined modeled spending.
 
 Results:
-- wallet remains positive in every chapter — PASS
-- Chapter-10 tight point still retains **~6,600 G** — PROVISIONAL PASS
-- modeled Chapter-13 ending wallet retains **~29,270 G** — PROVISIONAL PASS
-- optional content/grinding not required for baseline gear + healing readiness — PASS
-- premium Consumables correctly remain outside baseline solvency — PASS
+- historical stress-test wallet remains positive in every chapter — provisional model result
+- historical Chapter-10 tight point retains **~6,600 G** — provisional model result
+- historical modeled Chapter-13 ending wallet retains **~29,270 G** — provisional model result
+- old stress model did not require optional content/grinding for baseline gear + healing readiness — provisional model result
+- premium Consumables remain outside the baseline stress basket — structural modeling rule
 
 ## Status
-> **MANDATORY-ROUTE LIQUIDITY PROVISIONAL PASS / CH1 FORMATION-G REMAP + OPTIONAL-CASH CALIBRATION OPEN**
+> **HISTORICAL/PROVISIONAL LIQUIDITY MODEL — FULL ECONOMY REBUILD + CH1 FORMATION-G REMAP + OPEN MEMORY-CONSTRUCT PAYOUT**
 
 Do not restore older Auren-era exact totals as current G authority.
