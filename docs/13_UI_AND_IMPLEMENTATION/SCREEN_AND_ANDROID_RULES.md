@@ -23,7 +23,7 @@ Wider Android screens:
 
 ## Dialogue
 General final target:
-- portraits around **35–45% screen height** where practical;
+- portraits generally around **25–35% screen height**, with **~30%** as the normal starting target;
 - dialogue UI generally in the lower **20–25%** while preserving environment/portrait readability.
 
 The current proof dialogue panel is substantially taller and is **not final layout authority**.
