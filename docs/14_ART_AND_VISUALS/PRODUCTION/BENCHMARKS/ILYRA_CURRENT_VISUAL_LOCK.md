@@ -6,7 +6,7 @@
 ## Current authority
 
 - current visual lock: `../CHARACTERS/ILYRA_CURRENT_VISUAL_LOCK.md`
-- exact master: `../../../../../asset_sources/characters/current/ilyra.jpg`
+- exact master: `../../../../asset_sources/characters/current/ilyra.jpg`
 - character authority index: `../CHARACTERS/README.md`
 - active B00 benchmark: `B00_PARTY_CHARACTER_STYLE_ANCHOR_V1.md`
 
