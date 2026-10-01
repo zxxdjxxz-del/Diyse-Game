@@ -10,7 +10,7 @@ Ordinary encounter currency is:
 - G is awarded once per resolved ordinary formation, not as a simple sum of per-enemy bounties.
 - Formation size may influence payout, but large weak groups must not automatically become the best money farm.
 - Summoned/generated support created during battle grants no separate G unless explicitly authored.
-- Elites, authored encounters, story bosses, Regional Hunts, and Major Hunts use their own reward authorities.
+- Strong normal-pool enemies use the same formation-level G authority as the ordinary formation that contains them; they do not receive a separate historical Elite bounty. Authored encounters, story bosses, Regional Hunts, and Major Hunts use their own reward authorities.
 - Normal story participation must support the mandatory economy without repetitive money grinding.
 
 ## Chapter payout bands
@@ -42,6 +42,8 @@ The current provisional chapter band remains:
 Exact G values for the current Northern Briar, Hollow Watch surface, Hollow Watch Construct, and Southern Briar formations must be remapped during the final Chapter-1 progression/economy validation. Do not use the retired names Brackenwall Patrol, Lower Woods Pack, Watch Line, Crossfire Post, or Fortified Watch as current encounter identities.
 
 ## Chapter 2
+> **Structural warning:** the detailed formation names below are historical/provisional economy mappings and do not match the current Chapter-2 formation owner. Use the current formation file for encounter identity; final G values will be remapped in the economy rebuild.
+
 | Phase | Formation | G |
 |---|---|---:|
 | Opening | **Redwater Line** | **180** |
@@ -55,6 +57,8 @@ Exact G values for the current Northern Briar, Hollow Watch surface, Hollow Watc
 | Late | **Bastion Command** | **240** |
 
 ## Chapter 3
+> **Structural warning:** the detailed formation names below are historical/provisional economy mappings and do not match the current Chapter-3 formation owner. Use the current formation file for encounter identity; final G values will be remapped in the economy rebuild.
+
 | Phase | Formation | G |
 |---|---|---:|
 | Opening | **Way-Fort Patrol** | **240** |
