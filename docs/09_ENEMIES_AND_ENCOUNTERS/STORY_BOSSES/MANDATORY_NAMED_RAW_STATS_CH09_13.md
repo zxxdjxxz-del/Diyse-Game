@@ -276,7 +276,7 @@ Raw:
 > **RETAIN — Lv55 / HP16,017 / ATK177 / MAG190 / DEF144 / Spirit146 / SPD48 / EVA0 / SR10**
 
 Supports:
-- Acuity Node — HP700 / DEF140 / Spirit152 / Power N/A
+- Perception Node — HP700 / DEF140 / Spirit152 / Power N/A
 - Ruin Containment Seal — HP760 / DEF150 / Spirit145 / Power N/A
 
 Administrative Closure Powers:
