@@ -27,7 +27,7 @@ Total fixed optional advantage:
 Completionist pre-Elder total:
 > **19,600 EXP = Lv15 exactly**
 
-Incidental optional combat / Elites may place the high-side route around:
+Incidental optional combat may place the high-side route around:
 > **Lv16**
 
 Balance references:
