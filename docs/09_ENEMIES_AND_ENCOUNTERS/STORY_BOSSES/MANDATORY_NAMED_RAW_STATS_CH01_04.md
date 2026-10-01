@@ -8,7 +8,7 @@
 
 | Ch | Encounter / form | Lv | HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR | Architecture |
 |---:|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---|
-| 1 | **Thornhide Stalker** | 4 | 850 | 34 | 18 | 22 | 20 | 29 | 10 | 0 | normal lethal victory; Thornhide species; Chapter-1 final boss |
+| 1 | **Thornhide** | 4 | 850 | 34 | 18 | 22 | 20 | 29 | 10 | 0 | normal lethal victory; Thornhide species; Chapter-1 final boss |
 | 2 | **Archive Leviathan** | 9 | 1,900 | 50 | 52 | 31 | 33 | 25 | 0 | 5 | one bar; Recorded Pattern → Emergent same-bar |
 | 2 | **Commander Rhazek — Bastion Master** | 10 | 2,050 | 58 | 44 | 36 | 32 | 27 | 5 | 5 | one bar; Bastion Master → Ruin Escalation same-bar; survives/withdraws |
 | 3 | **Authority Construct** | 14 | 2,850 | 72 | 72 | 43 | 43 | 30 | 0 | 10 | one bar; Imposed Authority → Challenged Authority same-bar |
@@ -26,7 +26,7 @@
 ## Chapter 1 current note
 Watch Castellan is retired from current Chapter 1 and has no active raw-stat row in this register.
 
-The Chapter-1 final boss is **Thornhide Stalker**. Its existing Lv4 / 850-HP raw line remains a provisional numeric input pending the later mandatory/completionist level-spine validation.
+The Chapter-1 final boss is **Thornhide**. Its existing Lv4 / 850-HP raw line remains a provisional numeric input pending the later mandatory/completionist level-spine validation.
 
 ## Archive Leviathan — v97 true-battle certification
 Actual S013 progression:
@@ -271,9 +271,9 @@ Expected complete encounter:
 - high-side **~9–11**
 
 
-## Thornhide Stalker current Chapter-1 line
+## Thornhide current Chapter-1 line
 Current boss identity:
-> **Thornhide Stalker** — Thornhide species
+> **Thornhide** — Thornhide species
 
 Current retained/provisional raw body:
 > Lv4 / HP850 / ATK34 / MAG18 / DEF22 / Spirit20 / SPD29 / EVA10 / SR0
