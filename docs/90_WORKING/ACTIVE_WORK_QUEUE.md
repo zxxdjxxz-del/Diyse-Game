@@ -92,20 +92,33 @@ Working pointer:
 ## 6 — Audio / Music Redevelopment
 Final soundtrack identity, cue hierarchy, regional language, battle/boss/Hunt/Prime music, leitmotifs, diegetic scope, voice scope, SFX palette, and mix/implementation targets remain open.
 
-## 7 — Whole-Game Playtest / QA
+## 7 — Enemy Ability / Difficulty + Progression Revalidation
+**OPEN / REBUILD + RECERTIFICATION PENDING**
+
+Current boundary:
+- enemy abilities/action kits and direct-damage Powers will be redone/revalidated;
+- existing enemy stats/Powers remain reference inputs unless explicitly revised;
+- mandatory/completionist difficulty certification must be rerun after the current kits exist;
+- Player EXP/CEXP allocation is rebuild-pending;
+- **Lv55–60** remains the target window for normal full Base + Subclass completion;
+- old v89–v105 PASS/sensitivity results remain historical evidence only where their assumptions were superseded.
+
+This does **not** revive the retired ×1.20 global floor, First Command Warden routing, or old boss-local sequence.
+
+## 8 — Whole-Game Playtest / QA
 Run campaign-only, light, typical, heavy, and completionist routes plus boss/Hunt/Elite, **economy**, save/load, exploit, readability, input, and Android performance QA when the relevant implementation/content layers are ready.
 
 Economy QA belongs **after the planned economy rebuild/recalibration**; current numeric G tables are provisional planning material.
 
-## 8 — Intentionally Open Story / Lore Details
+## 9 — Intentionally Open Story / Lore Details
 Keep explicitly open details unresolved until separately approved, including the sole Entity-fragment survival mechanism, Chapter-10 research-trail specifics, final survey prop, and unresolved formal chapter titles.
 
 ## Balance-workflow routing note
-The former `Mandatory-Route Enemy Difficulty Recalibration` queue item and its First Command Warden / ×1.20 boss-local sequence are **not an active task in this queue anymore**.
+The former `Mandatory-Route Enemy Difficulty Recalibration` queue item and its First Command Warden / ×1.20 boss-local sequence remain **retired**.
 
-The v103–v105 sensitivity/true-battle reports remain available as historical or analytical evidence in `16_BALANCE_AND_TESTING`, but they do not define the current work sequence and must not be used to automatically route the next task back to First Command Warden, the ×1.20 test floor, or the old boss-local retune list.
+The active balance stream is now the broader enemy ability/action-kit redesign plus mandatory/completionist difficulty and progression revalidation described above.
 
-Any future balance changes should follow the separately established current handling process or a new explicit instruction, rather than reviving this retired queue workflow.
+Historical v103–v105 sensitivity/true-battle reports remain evidence only; they do not define the current work order or authorize the old global-floor / boss-local workflow.
 
 ## Deferred stream — Economy rebuild / recalibration
 The detailed G economy is **not closed current authority**.
