@@ -53,8 +53,8 @@ Strong existing environmental functions:
 - Briar Passage as old route reclaimed by wilderness;
 - Hollow Watch occupation/excavation readable through logistics and damage;
 - material progression from Yahtrean fort to Ancient construction;
-- six-channel evidence of human use without full understanding;
-- post-Castellan mural as physical map evidence;
+- small buried Diysean excavation with physical evidence of human use without full understanding;
+- Hollow Watch landscape depiction as physical regional/cartographic evidence;
 - Wayfinder damage and surviving geometry;
 - Southern Briar ecological escalation into Thornhide.
 
@@ -100,7 +100,7 @@ Strong existing environmental functions:
 - modern Caelora layered over older construction;
 - active Crown archive gradually becoming less controlled / more Ancient;
 - recent-reader trail reconstructed from disturbed research materials;
-- Hall of Seals / Sealwright physical evidence;
+- Hall of Seals / seal-reproduction physical evidence;
 - Westways recordbook discovered in genuine archival context;
 - Cresthaven fort visibly built over something vastly larger;
 - command-oriented lower tower base;
@@ -111,7 +111,7 @@ New lock strengthens:
 - non-digital physical research traces;
 - distinction between evidence of repeated seal-copy attempts and proof of success;
 - rough hand-copy visual contrast between recordbook map and true Wayfinder;
-- Cresthaven's reuse history before the Warden encounter;
+- Cresthaven's reuse history before the Authority Construct encounter;
 - headquarters transformation without magically restoring the entire fort.
 
 **Risk to avoid:** environmental depiction of what a Prime Card looks like, successful royal-seal duplication, Calder identification, Last Sentinel meaning, Wayfinder second-system explanation, or all-six-Faces network truth.
