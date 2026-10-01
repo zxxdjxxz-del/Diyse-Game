@@ -10,19 +10,20 @@ Mandatory-route liquidity remains a **provisional stress-test pass** while Chapt
 ## Closed current structure
 - currency = **G**;
 - retired currency name = **Auren**;
-- **1 economy unit = 200 G**;
-- starting wallet = **2,500 G**;
 - exactly **9 Regional Markets**;
 - Cresthaven = separate long-term requisition/backfill authority;
 - Vhalmarch = separate forward-supply endpoint;
 - ordinary equipment identities = **38**;
 - Consumables = **20**;
 - ordinary enemies have **no random Consumable/equipment/material/junk drops**;
-- Kessara Relic-copy fee = **6,000 G per successful copy**;
 - protected/nonlethal resolution may award G and does not default to zero;
 - Hunts give strong G regardless of separate permanent rewards;
 - premium Consumables use one-copy-per-Consumable-shop stock from each shop's first accessible state;
 - premium Consumables do not automatically restock and remain non-sellable.
+
+## Provisional numeric references
+
+The former working display scale, starting-wallet amount, shop prices, resale tables, and Kessara service fee remain numeric planning references in their owner files. They are **not** part of the closed structural list above while the economy rebuild is pending.
 
 ## Numeric calibration state
 
