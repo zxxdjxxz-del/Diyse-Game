@@ -19,14 +19,15 @@ It is not a cumulative canon tracker and does not override the owning numbered d
 4. production implementation reconciliation;
 5. visual production / style certification, including gameplay-scale derivatives of the six locked party masters and B01–B11 material benchmarks;
 6. audio/music redevelopment;
-7. whole-game playtest / QA;
-8. intentionally open story/lore details.
+7. **enemy ability/action-kit + difficulty revalidation and Player EXP/CEXP progression rebuild**;
+8. whole-game playtest / QA;
+9. intentionally open story/lore details.
 
-The former mandatory-route difficulty recalibration / First Command Warden / ×1.20 sensitivity sequence is **retired from the active queue**. Historical v103–v105 reports remain analytical evidence in `16_BALANCE_AND_TESTING`, but they are not an automatic next-work route.
+The former mandatory-route difficulty recalibration / First Command Warden / ×1.20 sensitivity sequence remains **retired**. The current enemy/progression work is a newer redesign/revalidation stream owned by `09_ENEMIES_AND_ENCOUNTERS`, `10_PROGRESSION_AND_EXP`, and `16_BALANCE_AND_TESTING`.
 
-## Closed / historical work that should not be mistaken for current final authority
-- enemy static/paper validation — historical closed pass; Chapter-4 rework and Chapters 5–13 WIP remain outside that blanket certification;
-- CEXP Lv55–60 recalibration — closed v92 under the current progression owner;
+## Historical work that should not be mistaken for current final authority
+- enemy static/paper validation — historical pass only; enemy ability/action-kit and difficulty recertification are open;
+- v91/v92 CEXP recalibration — historical/provisional reference only; **Lv55–60 remains the target**, but the Player EXP/CEXP model is rebuild-pending;
 - former G economy/reward and liquidity certifications — retained as history/reference only; detailed economy is **rebuild pending**;
 - legacy giant-tracker migration — complete;
 - repository documentation replacement/migration — complete.
