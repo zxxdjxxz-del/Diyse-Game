@@ -9,10 +9,10 @@
 | Chapter | Geography | Current macro route |
 |---|---|---|
 | Ch0 | Westways convoy approach | Convoy Road → Wreck Field → Evacuation / Recovery Line → Field Triage Camp → Brackenwall |
-| Ch1 | Westways | Brackenwall → Hollow Watch → Greenhollow → Briar Passage → Wayfinder Junction → Dunmere |
-| Ch2 | Dunmere local | Poisoned Waterworks → Sunken Archive → Prisoner Galleries → Red Transfer Bastion → Extraction Causeway |
-| Ch3 | Yahtrenhold | Caelora → Old City / Suppressed Archives → Caelora → separate Cresthaven |
-| Ch4 | Yahtrenhold | Cresthaven / road network → Ivorybridge → Reaction Annex local spaces |
+| Ch1 | Westways | Brackenwall → Briar Passage → Greenhollow → Hollow Watch → Greenhollow → Southern Briar Passage → Thornhide → Wayfinder Junction → Dunmere approach |
+| Ch2 | Dunmere local | Dunmere → Old Waterworks → Sunken Archive → Prisoner Galleries → Old Bastion → return to Prisoner Galleries → Dunmere |
+| Ch3 | Yahtrenhold | Caelora → Lower Archives / Deep Archives / Inner Collections → Caelora → Cresthaven |
+| Ch4 | Yahtrenhold | Cresthaven → Elder Thornhide territory → forest shortcut → Crown road → Ivorybridge → Reaction Annex → Ivorybridge → Cresthaven |
 | Ch5 | Greyspires | Stonewake → Emberforge → Deepforge |
 | Ch6 | Greyspires | Frostmere → Weather Crown / Weather Core → Crimson Relay / Crimson Work → Saboteur Refuge → Witness Camp |
 | Ch7 | westward occupied corridor | Ashford → Veycross → western transfer corridor → Prison of Names |
