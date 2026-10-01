@@ -27,16 +27,22 @@ Subtotal: **2,512 EXP / 220 CEXP**
 | Prisoner release / proper Bastion exit secured | 350 | 30 |
 | Return to Dunmere / road reopened / chapter clear | 312 | 40 |
 
-## Chapter 3
-Subtotal: **4,520 EXP / 264 CEXP**
-| Mandatory authored event | EXP | CEXP |
+## Chapter 3 — structural reward-map rebuild required
+The current Chapter-3 route no longer contains the retired lawful-authority confrontation package. **Do not award** the former confrontation rewards (400 EXP / 24 CEXP and 500 EXP / 30 CEXP).
+
+The former **4,520 EXP / 264 CEXP** subtotal is therefore historical/provisional arithmetic only and is **not an implementable current event sum**. The current Memory Construct encounter and revised Archive/Cresthaven sequence require fresh reward allocation during the planned progression rebuild.
+
+Current identifiable reward-bearing milestones, with inherited values shown only as provisional inputs:
+
+| Mandatory authored event | Provisional EXP | Provisional CEXP |
 |---|---:|---:|
-| Lawful authority confrontation I | 400 | 24 |
-| Lawful authority confrontation II | 500 | 30 |
 | Lower Archives Entrance / Nimera permanent recruitment | 500 | 30 |
+| Memory Construct | **OPEN** | **OPEN** |
 | Authority Construct | 1,800 | 90 |
 | Last Sentinel confirmed | 600 | 40 |
 | Cresthaven established / chapter clear | 720 | 50 |
+
+Do not manufacture a hidden top-up to preserve the historical Chapter-3 subtotal.
 
 ## Chapter 4
 Subtotal: **5,938 EXP / 304 CEXP**
