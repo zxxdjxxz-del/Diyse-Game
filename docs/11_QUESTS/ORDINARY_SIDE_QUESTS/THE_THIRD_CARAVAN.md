@@ -98,8 +98,8 @@ Talia may accept useful information without the quest forcing personal reconcili
 No mandatory ambush.
 
 Optional normal route ecology only:
-- Greenhollow Stalker
-- Thornvine Creeper
+- Thicket Stalker
+- Vine Creeper
 - Briar Boar
 
 No:
