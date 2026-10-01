@@ -1,7 +1,7 @@
 # Diyse — Prime Manifestation Scaling
 **Migration baseline:** `Diyse_CURRENT_WORKING_TRACKER_CONSOLIDATED_2026-08-27_v85.md`  
-**Primary Card/Prime authority:** compatible **Audit116**, superseded where applicable by **Audit119**, **Audit122**, and later current v85 working closures.  
-**Current written whole-project authority:** **v2.20 / Audit135**.  
+**Historical provenance:** Audit116/Audit119/Audit122, v85-era closures, and later approved corrections as applicable.
+**Authority treatment:** this repository file is current Card/Prime-domain authority. Audit/v85 references remain provenance; later explicit corrections and current owner-domain rules supersede conflicting historical text.
 
 
 Prime manifestation uses deterministic battle-time scaling.
