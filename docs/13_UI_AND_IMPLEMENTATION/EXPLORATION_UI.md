@@ -33,14 +33,13 @@ Normal exploration remains gameplay. Dialogue does not convert ordinary traversa
 
 The field UI/runtime should transition cleanly among:
 - ordinary Cyanis-controlled exploration;
-- short legal walking dialogue presented through portraits/text;
 - interaction dialogue;
-- authored stop dialogue;
-- post-battle reaction;
+- authored **stop dialogue** with movement/input paused;
+- post-battle reaction after combat has fully ended;
 - recovery/story-bearing cell;
 - return to ordinary exploration.
 
-A guide such as Torren may direct the group through dialogue while **Cyanis remains the sole visible traversal avatar**.
+**Walking dialogue is not part of current production dialogue grammar.** If a route needs conversation, reach an authored trigger/natural stopping point, pause traversal, run the portrait/text scene, then return cleanly to Cyanis-controlled exploration.
 
 ## Environment presentation
 
@@ -58,10 +57,7 @@ Random encounters remain normal hostile-exploration grammar in approved areas.
 
 The field UI must not show a mandatory visible random-encounter meter unless separately approved.
 
-For mandatory authored walking dialogue:
-- encounter triggering may be temporarily suppressed for the exchange plus a short buffer;
-- accumulated encounter pressure is preserved rather than reset/discarded;
-- player-facing UI does not need to announce the suppression.
+Route dialogue must not run while the player continues walking. Authored dialogue triggers pause traversal under the current field/dialogue presentation lock; encounter handling follows that stopped-scene policy rather than a special walking-dialogue suppression mode.
 
 ## Dialogue presentation during exploration
 
@@ -98,5 +94,5 @@ Chapter 0 is authored/tutorial content, not normal random-encounter UI.
 - interaction icon language;
 - encounter-transition overlay;
 - exact field HUD density;
-- exact walking-dialogue HUD suppression rules;
-- exact priority rules when interaction prompts and dialogue-safe traversal overlap.
+- exact stopped-dialogue field-HUD suppression rules;
+- exact priority rules when interaction prompts and authored dialogue triggers overlap.
