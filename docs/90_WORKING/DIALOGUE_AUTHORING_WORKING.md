@@ -12,7 +12,7 @@ Chapter 4's redesigned story/beat structure is current, but the exact dialogue r
 ### Chapter 5
 Complete approved beat rewrite first:
 - second pre-reveal masked Seyrik appearance
-- party recognizes Red Transfer Bastion officer
+- direct recognition that the party is the same group from the **Old Bastion**
 - later Rhazek/Seyrik interlude
 - Rhazek advances Seyrik through competence
 - placement supports Chapter-6 Zevraya operation

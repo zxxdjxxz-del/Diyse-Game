@@ -22,8 +22,8 @@ Completed in the current area-production pass:
 - layout maturity states L0–L3 are defined;
 - `AREA_LAYOUTS/BLUEPRINT_001_CH00_CONVOY_WRECK_ROUTE.md` now provides the first coordinate-based route blueprint;
 - `game/exploration/maps/chapter_00/chapter_00_graybox.tscn` and its builder provide the first actual in-engine blockout;
-- Chapter-0 S005 spatial presentation was corrected to the Field Triage Camp perimeter/east cut;
-- S006's bounded no-combat survivor sweep is represented as Recovery-Line reuse before the Brackenwall handoff;
+- Chapter-0 **B06** spatial presentation uses the Field Triage Camp perimeter/east cut;
+- **B07**'s bounded no-combat survivor sweep is represented as Recovery-Line reuse before the Brackenwall handoff;
 - focused graybox validation is wired into Godot smoke CI.
 
 Still required:
@@ -67,6 +67,13 @@ Working pointers:
 
 ### Audio
 - Audio/music redevelopment remains genuinely **OPEN**: soundtrack identity, cue hierarchy, regional language, battle/boss/Hunt/Prime music, leitmotifs, diegetic/voice scope, SFX palette, and mix/implementation targets.
+
+### Enemy ability / difficulty + progression
+- Enemy abilities/action kits and direct-damage Powers are **OPEN for redesign/revalidation**.
+- Mandatory/completionist difficulty certification must be rerun against the rebuilt kits.
+- Player EXP/CEXP placement is **rebuild-pending**; **Lv55–60** remains the class-completion target window.
+- Historical v89–v105 paper/true-battle/sensitivity reports remain reference evidence only where their assumptions have been superseded.
+- This does **not** reactivate the retired ×1.20 global floor / First Command Warden / boss-local queue.
 
 ## 3 — Intentionally Unresolved / Deferred Canon
 
@@ -127,7 +134,7 @@ This is certification debt, not a reason to treat settled canon or numeric syste
 Do **not** automatically route work back into these streams:
 - historical G economy/liquidity certification — superseded as current authority by the planned economy rebuild;
 - enemy static/paper validation — historical closed pass only; it does not override Chapter-4 rework or Chapters 5–13 development-in-progress;
-- CEXP Lv55–60 recalibration — closed v92 in the current progression owner;
+- v91/v92 CEXP recalibration — historical/provisional reference only; current progression rebuild is active;
 - former mandatory-route enemy-difficulty queue sequence centered on **First Command Warden / global ×1.20 sensitivity / boss-local retunes** — retired from the active queue;
 - legacy giant-tracker migration — complete;
 - repository documentation replacement/migration — complete.
@@ -136,10 +143,10 @@ Historical v103–v105 balance reports may remain evidence, but they do not defi
 
 ## 7 — Audit Corrections
 
-- `90_WORKING/README.md` no longer lists the retired mandatory-route difficulty recalibration as a current major stream.
+- `90_WORKING/README.md` distinguishes the **current enemy ability/difficulty + progression rebuild** from the retired ×1.20 / First Command Warden workflow.
 - implementation-facing currency guidance now uses canonical **G**; Auren is retired.
 - playable area/route production is explicitly tracked; macro geography is not treated as finished level design.
-- Chapter-0 presentation now follows exact dialogue: S005 is a **Field Triage Camp perimeter** confrontation, while S006 retains Recovery-Line identity for its bounded player-controlled survivor sweep.
+- Chapter-0 presentation now follows current B-beat authority: **B06** is the Field Triage Camp perimeter confrontation, while **B07** contains the bounded Recovery-Line-reuse survivor sweep.
 
 ## Routing Rule
 

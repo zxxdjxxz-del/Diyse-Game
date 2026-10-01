@@ -2,12 +2,15 @@
 
 **Owner:** `16_BALANCE_AND_TESTING`
 
-## Closed prerequisites retained as test oracles
-- enemy static/paper validation — historical closed pass; not blanket authority for Chapter-4 rework or Chapters 5–13 WIP;
-- Lv55–60 CEXP recalibration — **CLOSED v92**.
+## Current prerequisite boundary
+- global battle formulas/status/Prime sequencing remain usable structural test oracles;
+- old enemy static/paper validation is historical evidence, not final authority for rebuilt action kits;
+- v91/v92 CEXP results are historical/provisional references; **Lv55–60 remains the target window**, but Player EXP/CEXP placement is rebuild-pending.
 
 ## Still required before production balance is considered complete
-- finish representative true-battle certification;
+- finish the enemy ability/action-kit redesign;
+- rebuild mandatory/completionist Player EXP/CEXP snapshots;
+- rerun representative true-battle certification against those current inputs;
 - update stale Prime regressions;
 - run campaign-only route;
 - run light / typical / heavy / completionist routes;
@@ -24,4 +27,4 @@
 - complete Android performance, readability, and input QA.
 
 ## Rule
-Closed values remain test oracles until explicitly revised. A playtest failure may reopen the specific failing component; it does not automatically reopen a closed system-wide balance pass.
+Still-closed structural rules remain test oracles until explicitly revised. Historical/provisional numeric packages remain comparison evidence only where their owning layer is reopened. A playtest failure should reopen the specific failing component rather than silently rewriting unrelated canon.

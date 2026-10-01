@@ -8,6 +8,8 @@
 
 This blueprint converts Chapter 0's locked story/dialogue order into testable 3D exploration geometry. It is **not yet an L3 final topology**. Dimensions and camera values remain vertical-slice test constants until the graybox is actually played and approved.
 
+**Runtime migration note:** current story-facing event IDs are **B01–B07**. If the existing graybox scene/builder still contains legacy `P01–P07` marker/property IDs, treat those as implementation debt to migrate; do not use them as current story authority.
+
 ---
 
 # 1. Canon Route and Scene Order
@@ -16,60 +18,60 @@ Macro travel remains:
 
 > **Convoy Road → Wreck Field → Evacuation / Recovery Line → Field Triage Camp → Brackenwall**
 
-The line-complete P07 aftermath adds a bounded local recovery sweep after the camp confrontation. That sweep is a **Recovery-Line reuse spur**, not a new world-map destination:
+The line-complete B07 aftermath adds a bounded local recovery sweep after the camp confrontation. That sweep is a **Recovery-Line reuse spur**, not a new world-map destination:
 
 > **Triage Camp → bounded survivor sweep south of the wagon line → Brackenwall handoff**
 
 Mandatory scene/combat order:
 
-### P01 — Opening combat
+### B01 — Opening combat
 1. Black Host Raider + Black Host Crossbowman
-2. Black Host Raider + Ruin Shieldbearer
-3. 2 Convoy Rift Hounds
+2. Black Host Raider + Black Host Shieldbearer
+3. 2 War Hounds
 
-### P02 — Wreck Field
-4. Black Host Crossbowman + Convoy Rift Hound
-5. exactly one Convoy Rift Hound encounter threatening the survivor route;
+### B02 — Wreck Field
+4. Black Host Crossbowman + War Hound
+5. exactly one War Hound encounter threatening the survivor route;
 - survivors, wreckage, evacuation routes and suspicious northern withdrawal must be readable.
 
-### P03 — Evacuation Relay Decision
+### B03 — Evacuation Relay Decision
 - no combat;
 - wounded/civilians and the damaged recovery line must be spatially visible so Cyanis's refusal of the pursuit reads as professional judgment rather than exposition.
 
-### P04 — Field Triage Camp
+### B04 — Field Triage Camp
 - Ilyra introduction;
 - first incomplete Card flare;
 - Cyanis + Ilyra become the active combat pair.
 
-### P05 — Concealed Ruin Vanguard
+### B05 — Concealed Ruin Vanguard
 - Ruin Vanguard Pursuer only;
 - concealed Seyrik;
 - protected disengagement;
 - no Card-derived protection;
 - real noncombat reset follows.
 
-### P06 — Combined final Broken Convoy boss
+### B06 — Combined final Broken Convoy boss
 Current exact story/dialogue staging establishes:
-- Riftmaw + Convoy War-Sorcerer advance through the defended camp edge / east-cut approach;
+- Riftmaw + Battle Sorcerer advance through the defended camp edge / east-cut approach;
 - the second incomplete Card flare is active at battle opening;
 - Cyanis + Ilyra receive the current three-round Defense/Spirit protection;
 - the recovery casing breaks during the fight;
 - there is no injured Iron Cohort Soldier;
-- both Riftmaw and the War-Sorcerer are defeated in this same encounter.
+- both Riftmaw and the Battle Sorcerer are defeated in this same encounter.
 
 Therefore:
-> **P06 belongs to the Field Triage Camp perimeter, not the earlier Recovery-Line approach.**
+> **B06 belongs to the Field Triage Camp perimeter, not the earlier Recovery-Line approach.**
 
-### P07 — Aftermath and bounded survivor sweep
+### B07 — Aftermath and bounded survivor sweep
 Current exact dialogue staging establishes:
-- P07 begins in the still-active camp after P06;
+- B07 begins in the still-active camp after B06;
 - a wounded escort reports tracks south of the wagon line;
 - the officer authorizes **one sweep** with **no chase beyond the wreck markers**;
 - Cyanis and Ilyra leave the treatment lane for that bounded survivor sweep;
 - Brackenwall follows afterward.
 
 Implementation/presentation interpretation:
-- P07 dialogue opens in the camp state;
+- B07 dialogue opens in the camp state;
 - the player-controlled sweep may use/re-enter the `CH00_RECOVERY_LINE` environment family;
 - it must not become a second dungeon, combat route or open-ended pursuit.
 
@@ -107,8 +109,8 @@ Ordinary/fixed combat resolves in the dedicated combat presentation, so the fiel
 | CH00_F01 | Convoy Road | 220 × 100 m | ~260 m | movement/tutorial combat cadence |
 | CH00_F02 | Wreck Field | 180 × 140 m | ~180 m | aftermath reading / two solo fights |
 | CH00_F03 | Recovery Line | 170 × 85 m | ~170 m | evacuation logic / command decision |
-| CH00_F04 | Field Triage Camp | 115 × 95 m | ~110 m | Ilyra / P05 Seyrik / P06 combined final boss / aftermath |
-| CH00_F03R | Survivor Recovery Sweep | ~80 × 70 m local spur | ~80–100 m | P07 no-combat bounded sweep / Brackenwall handoff |
+| CH00_F04 | Field Triage Camp | 115 × 95 m | ~110 m | Ilyra / B05 Seyrik / B06 combined final boss / aftermath |
+| CH00_F03R | Survivor Recovery Sweep | ~80 × 70 m local spur | ~80–100 m | B07 no-combat bounded sweep / Brackenwall handoff |
 
 Total first-pass critical traversal is roughly **800 m** before Brackenwall, excluding investigation wandering. At 5 m/s this is under three minutes of uninterrupted running; authored dialogue, fixed battles, investigation, staging and first-time navigation provide the actual pacing.
 
@@ -126,7 +128,7 @@ Coordinates are test targets, not final centimeter locks.
 
 Exact distances/timing remain graybox-playtest variables. The following separation is structural:
 
-### Convoy Road / P01
+### Convoy Road / B01
 - Combat 1 pocket;
 - **route-clearing / survivor-movement socket**;
 - Combat 2 pocket;
@@ -135,7 +137,7 @@ Exact distances/timing remain graybox-playtest variables. The following separati
 - **late-road breathing / seam approach**;
 - enter Wreck Field.
 
-No P01 fight is an immediate reinforcement wave from the prior fight.
+No B01 fight is an immediate reinforcement wave from the prior fight.
 
 Current graybox intent:
 - Combat 1 around `(-8,+55)`;
@@ -145,7 +147,7 @@ Current graybox intent:
 - Combat 3 around `(-20,-48)`;
 - late-road breathing / Wreck Field seam approach around `(-5,-82)`.
 
-### Wreck Field / P02
+### Wreck Field / B02
 Before Combat 4:
 - survivor/wounded lobe;
 - short rescue route;
@@ -164,16 +166,16 @@ Current graybox intent:
 - lower-stone-line breathing socket around `(-8,+2)`;
 - Combat 5 around `(+5,-10)`.
 
-### Recovery Line / P03
+### Recovery Line / B03
 Entire sequence is combat-free.
 
-### Triage Camp / P04–P06
-- P04 has no standalone battle;
-- short perimeter-control interval before P05;
-- P05 occurs on the camp edge;
-- a genuine noncombat reset occurs after P05;
-- P06 cannot auto-chain from the P05 result screen;
-- P06 remains the final combat.
+### Triage Camp / B04–B06
+- B04 has no standalone battle;
+- short perimeter-control interval before B05;
+- B05 occurs on the camp edge;
+- a genuine noncombat reset occurs after B05;
+- B06 cannot auto-chain from the B05 result screen;
+- B06 remains the final combat.
 
 These are presentation/spacing sockets, not final traversal-time locks.
 
@@ -189,10 +191,10 @@ Approximate nodes:
 |---|---|---|
 | Start | (0, +112) | opening spawn |
 | A | (0, +95) | convoy competence framing |
-| B | (−8, +55) | P01 combat 1 — Raider + Crossbowman |
+| B | (−8, +55) | B01 combat 1 — Raider + Crossbowman |
 | C | (+18, +20) | convoy obstacle / route read |
-| D | (+10, −15) | P01 combat 2 — Raider + Shieldbearer |
-| E | (−20, −48) | P01 combat 3 — 2 Convoy Rift Hounds |
+| D | (+10, −15) | B01 combat 2 — Black Host Raider + Black Host Shieldbearer |
+| E | (−20, −48) | B01 combat 3 — 2 War Hounds |
 | F | (−5, −82) | late-road breathing / seam approach |
 | Exit | (0, −105) | Wreck Field seam |
 
@@ -214,8 +216,8 @@ Approximate nodes relative to the Wreck Field chunk:
 - entry `(0,+60)`;
 - survivor/wreck lobe `(−45,+20)`;
 - damaged convoy lobe `(+38,+12)`;
-- P02 mixed pressure — Crossbowman + Convoy Rift Hound `(+5,+18)`;
-- P02 survivor-route Hound `(+5,−10)`;
+- B02 mixed pressure — Crossbowman + War Hound `(+5,+18)`;
+- B02 survivor-route Hound `(+5,−10)`;
 - evacuation evidence `(−28,−42)`;
 - suspicious northern-withdrawal sightline `(+30,−62)`;
 - Recovery-Line exit `(0,−70)`.
@@ -237,16 +239,16 @@ Approximate nodes:
 - entry `(0,+78)`;
 - damaged evacuation traffic `(+8,+35)`;
 - relay yard `(−12,0)`;
-- P03 decision overlook `(+14,−30)`;
+- B03 decision overlook `(+14,−30)`;
 - protected recovery stretch `(0,−60)`;
 - camp seam `(0,−82)`.
 
-P03 spatial requirement:
+B03 spatial requirement:
 from the decision pocket, framing must communicate both:
 - the wounded/civilian recovery line toward camp;
 - the competing pursuit direction back toward the attack/withdrawal evidence.
 
-No combat trigger volumes belong in the P03 recovery-line sequence.
+No combat trigger volumes belong in the B03 recovery-line sequence.
 
 ---
 
@@ -258,24 +260,24 @@ Approximate local zones:
 - arrival lane `(0,+40)`;
 - wounded/treatment `(−28,+8)`;
 - supply/Blue Warden work area `(+24,+5)`;
-- P04 Ilyra/Card focal pocket `(0,−10)`;
-- P05 concealed-Seyrik pressure pocket `(−8,−34)`;
-- P06 combined final-boss perimeter `(+24,−38)`;
+- B04 Ilyra/Card focal pocket `(0,−10)`;
+- B05 concealed-Seyrik pressure pocket `(−8,−34)`;
+- B06 combined final-boss perimeter `(+24,−38)`;
 - east cut `(+45,−34)`;
-- P07 sweep departure `(0,−48)`.
+- B07 sweep departure `(0,−48)`.
 
 Hard spatial rules:
-- P05 and P06 occur on the **camp edge**;
+- B05 and B06 occur on the **camp edge**;
 - treatment/supply zones remain protected no-combat spaces;
 - the enemy approach through the east cut is visible/understandable;
 - no battle spawn is placed among wounded civilians;
-- before P05/P06, the perimeter reads as an ordinary defensible camp edge rather than an obvious boss circle.
+- before B05/B06, the perimeter reads as an ordinary defensible camp edge rather than an obvious boss circle.
 
 After victory, the camp remains active and damaged; it does not become celebratory or empty.
 
 ---
 
-# 8. CH00_F03R — P07 Survivor Recovery Sweep
+# 8. CH00_F03R — B07 Survivor Recovery Sweep
 
 This is a **bounded stateful reuse of the Recovery-Line visual/environment family**, attached after the camp scene. It is not an atlas node and should not receive its own permanent location label in final player-facing travel UI.
 
@@ -295,7 +297,7 @@ Hard rules:
 - the player's task is to complete the bounded sweep and proceed toward Brackenwall.
 
 The first graybox uses this spur to reconcile:
-- P07's camp-opening dialogue;
+- B07's camp-opening dialogue;
 - the `PLAYER_CONTROLLED_SURVIVOR_SWEEP` presentation intent;
 - the macro route's Triage Camp → Brackenwall handoff.
 
@@ -311,7 +313,7 @@ First-pass exploration targets, excluding combat resolution and dialogue:
 | Wreck Field | 4–6 min |
 | Recovery Line | 2–3 min |
 | Triage Camp exploration/staging | 3–5 min |
-| P07 survivor sweep | 2–3 min |
+| B07 survivor sweep | 2–3 min |
 
 Chapter 0 should remain authored and compact. It is a prologue/tutorial, not a large labyrinthine exploration chapter.
 
@@ -406,10 +408,10 @@ The builder may beautify/construct but must preserve:
 - encounter order;
 - Wreck Field investigation loop;
 - north-withdrawal sightline;
-- P03 recovery-line logic;
+- B03 recovery-line logic;
 - medical-zone protection;
-- P06 camp-edge/east-cut staging;
-- P07 bounded no-combat survivor sweep;
+- B06 camp-edge/east-cut staging;
+- B07 bounded no-combat survivor sweep;
 - Brackenwall as a separate persistent base map.
 
 Forbidden:
@@ -419,7 +421,7 @@ Forbidden:
 - new permanent quest nodes;
 - wounded civilians as combat obstacles;
 - making the suspicious north route the critical path;
-- turning P07 into another hostile route;
+- turning B07 into another hostile route;
 - final environment art before relevant visual benchmarks are approved.
 
 ---
@@ -434,7 +436,7 @@ Before Blueprint 001 becomes build-ready locked topology:
 5. compare camera A/B/C;
 6. test Wreck Field readability without relying on a minimap;
 7. measure traversal pacing;
-8. verify P03, P06 and P07 staging against exact dialogue;
+8. verify B03, B06 and B07 staging against exact dialogue;
 9. verify no world-map/geography contradiction;
 10. revise dimensions/topology from playtest evidence;
 11. explicitly approve the resulting topology;
