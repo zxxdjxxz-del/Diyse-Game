@@ -15,10 +15,13 @@ Ch0:
 - no confirmed Last Sentinel/Prime identity.
 
 Ch3:
-- Last Sentinel identified/recovered.
+- Last Sentinel is **confirmed/identified** by the Authority Construct;
+- the Card stabilizes deep Ruby;
+- no verified modern manifestation has occurred yet, so it is **not yet Recovered**.
 
 Ch4:
-- first verified modern Prime manifestation.
+- first verified modern Prime manifestation;
+- Last Sentinel transitions to **Recovered**.
 
 A music cue should not unmistakably label Ch0 as "Last Sentinel's theme" in a way that defeats the intended reveal unless the use is deliberately subtle and approved.
 
