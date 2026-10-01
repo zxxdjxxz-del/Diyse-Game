@@ -1,36 +1,32 @@
 # Diyse — Retired Balance Assumptions Firewall
-**Migration baseline:** `Diyse_CURRENT_WORKING_TRACKER_CONSOLIDATED_2026-08-27_v85.md`  
-**Current written whole-project authority:** **v2.20 / Audit135**, plus newer explicit user corrections preserved by the reorganization.  
-**Primary balance chain:** Audits 121–135 where compatible, especially 123–128 progression and 129–135 raw-stat certification.  
-**Runtime test checkpoint inspected:** `Diyse-Game` commit `3fd07e92eda04f31ba613a654b3b1b28071f44e6`.  
-**Balance ownership rule:** this domain owns cross-system balance acceptance criteria, verification plans, playtest targets, certification status and regression gates. Exact formulas/stats/rewards remain canonically housed in their dedicated system domains.
 
+**Status:** ACTIVE RETIREMENT GUARDRAIL  
+**Domain authority:** `README.md`
 
 Do not restore:
-
-- Level cap 50 or 60
-- 12 numbered main chapters
-- Ch0 level gain
-- old near-linear pre-Ch7 progression
-- dynamic Hunt scaling
-- Party+N automatic Hunt formulas
-- old 165/210 ordinary-battle campaign targets
-- old Lv66-ending branch
-- Mastery Point currency/schedule
-- Synthesis progression
-- Barrier durability/balance layer
-- Brace
-- Break/Stagger meter
-- natural Accuracy stat
-- six-element Ch4
-- Water/Wind combat-element resistance matrices
-- Concordant Prime stage
-- Prime XP
-- Card charges
-- Accessory slot
-- old one-body duplication for bosses now fresh forms
-- old two-body Worldframe/Worldheart superboss
-- automatic class-completion acceptance at Lv53–57
+- Level cap 50 or 60;
+- 12 numbered main chapters;
+- Chapter 0 level gain;
+- old near-linear pre-Chapter-7 progression;
+- dynamic Hunt scaling;
+- Party+N automatic Hunt formulas;
+- old 165/210 ordinary-battle campaign targets;
+- old Lv66-ending branch;
+- Mastery Point currency/schedule;
+- Synthesis progression;
+- Barrier durability/balance layer;
+- Brace;
+- Break/Stagger meter;
+- natural Accuracy stat;
+- six-element Chapter 4;
+- Water/Wind combat-element resistance matrices;
+- Concordant Prime stage;
+- Prime XP;
+- Card charges;
+- Accessory slot;
+- old one-body duplication for bosses now defined as fresh forms;
+- old two-body Worldframe/Worldheart superboss;
+- automatic class-completion acceptance at Lv53–57.
 
 Provisional historical ordinary-encounter planning center:
 > 225 — **rebuild pending**
@@ -40,3 +36,9 @@ Provisional historical player-ending reference:
 
 Current class-completion timing target:
 > **Lv55–60** for normal full Base + Subclass completion; exact EXP/CEXP totals and completion centers remain rebuild-pending.
+
+## Historical study boundary
+
+Deleted v90 static-completion files and v104–v106 sensitivity studies remain available through Git history only. Their tested scalars, PASS labels, enemy rosters, and progression snapshots are not current implementation authority.
+
+Retained historical true-battle reports likewise document only the exact snapshots they tested. Current owner-domain rules supersede them whenever they conflict.
