@@ -1,6 +1,6 @@
 # Diyse — Ordinary Equipment Pricing
 
-**Status:** EXACT ORDINARY-EQUIPMENT G PRICE AUTHORITY
+**Status:** PROVISIONAL ORDINARY-EQUIPMENT G PRICE REFERENCE / ECONOMY REBUILD PENDING
 
 Current ordinary catalog:
 > **38 / 38**
@@ -12,19 +12,19 @@ Breakdown:
 - 3 Foci
 
 The item/stat/source identity remains owned by `08_ITEMS_AND_EQUIPMENT`.
-This file owns the purchase/replacement values.
+This file holds the current provisional purchase/replacement values; final numeric prices must be relocked by the economy rebuild.
 
 ## Currency and conversion
 All current-facing prices use:
 > **G**
 
-Current display conversion:
+Provisional display conversion reference:
 > **1 economy unit = 200 G**
 
 For an item with economy-unit value `U`:
 > `PriceG = U × 200`
 
-## Exact catalog prices
+## Provisional catalog prices
 | Equipment | Units | Buy / replacement price |
 |---|---:|---:|
 | **Dunmere Steel** | 23 | **4,600 G** |
