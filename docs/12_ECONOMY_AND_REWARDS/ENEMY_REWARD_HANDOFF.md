@@ -45,7 +45,7 @@ as a default rule.
 
 The reward can represent mission credit, secured resources, institutional compensation, bounty/requisition value, or another event-level handoff rather than loot from a killed body.
 
-## Exact fixed authored non-boss payouts
+## Authored non-boss payout boundary
 ### Chapter 0 authored combat
 Chapter 0 remains level-static.
 
