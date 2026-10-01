@@ -1,6 +1,5 @@
 # Chapter 3 — The Old City and Last Sentinel
 
-**Current whole-project written authority:** **v2.20 / Audit135**, plus later explicit user corrections/current domain migrations.  
 **Domain rule:** this file owns the current mandatory Chapter-3 story structure, scene order, reveal order, permanent-party changes, cleanup state, and chapter-end knowledge state. Exact dialogue belongs to the current Agent-Brain rehearsal-first Dialogue Engine. Combat mechanics/numbers belong to live battle and encounter authority.  
 **Status:** **CURRENT REVISED 11-BEAT STRUCTURAL AUTHORITY — SEPTEMBER 27, 2026 CONSOLIDATION.**  
 **Migration note:** this revision supersedes the former Chapter-2 mural dependency, Ancient Barrier sequence, Beat-8 Nimera recruitment, Caelora Authority Construct placement, Crest-marked Cresthaven lead, and standalone overnight-rest beat.
