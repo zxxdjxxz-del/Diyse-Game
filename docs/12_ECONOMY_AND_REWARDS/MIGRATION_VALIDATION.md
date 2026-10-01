@@ -48,7 +48,7 @@
 - ordinary formations = **~135,600 G expected route total** — provisional reference
 - former optional-Elite standalone bounty layer = **RETIRED (historical 38,900 G)**
 - mandatory story bosses/named encounters = **92,100 G mapped legacy subtotal** — provisional/incomplete; Memory Construct payout OPEN
-- fixed authored combat/event payouts = **5,300 G** — provisional reference
+- fixed authored combat/event payouts = former **5,300 G** subtotal retired because it included Hold-the-Junction/S018 rows; current subtotal OPEN
 - mandatory non-battle map = **80,800 G** — provisional reference
 - ordinary Side Quests = **18,000 G direct** — provisional reference
 - Character Quests = **22,200 G direct** — provisional reference
@@ -59,7 +59,7 @@
 
 ## Campaign calibration
 Mandatory direct-G reference:
-> **~316,300 G** — legacy/provisional aggregate; incomplete because Memory Construct G is OPEN and the economy rebuild is pending
+> **former ~316,300 G aggregate — historical only; no current aggregate relocked**
 
 Ordinary-formation share of mandatory direct G:
 > **~42.9%** — historical/provisional ratio only
