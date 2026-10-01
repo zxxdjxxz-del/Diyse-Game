@@ -1,6 +1,6 @@
 # Diyse — Enemy Action Selection Default
 
-**Status:** ACTIVE FALLBACK AUTHORITY — v90 plus newer turn-entry battle-flow correction
+**Status:** ACTIVE CURRENT REPOSITORY FALLBACK AUTHORITY
 
 This rule closes the reorganization-era ambiguity where an enemy's current action sheet is complete but historical per-action selection weights were not migrated into the owning file.
 
