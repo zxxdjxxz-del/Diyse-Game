@@ -3,7 +3,7 @@
 **Current economy authority:** `12_ECONOMY_AND_REWARDS`
 
 ## Status
-> **CURRENT / CERTIFIED**
+> **PROVISIONAL CAMPAIGN-INCOME REFERENCE / ECONOMY REBUILD PENDING**
 
 Exact formation-by-formation payouts live in `ENCOUNTER_G_REWARDS.md`.
 Chapter-level liquidity is validated in `CHAPTER_G_LIQUIDITY_VALIDATION.md`.
@@ -31,24 +31,24 @@ All current-facing income values use:
 
 These are formation-level payout boundaries, not per-enemy bounties.
 
-## Current ordinary-route calibration
+## Historical/provisional ordinary-route calibration
 Using current formation weights and the 225-encounter planning spine, ordinary random encounters contribute approximately:
 > **135,600 G**
 
 over a normal full campaign route before optional encounters/backtracking variance.
 
-This is approximately **42.8%** of the calibrated mandatory-route direct G and remains inside the intended 40–50% ordinary-income share.
+Under the retained historical model this was approximately **42.8%** of mandatory-route direct G and sat inside the intended 40–50% ordinary-income share. The percentage is not current certification while the G rebuild is pending.
 
 ## Purchase-pressure certification
 The intended checkpoint pressure is:
 > **one meaningful ordinary equipment purchase + routine Consumable restock should usually be affordable without exhausting all funds.**
 
-Current chapter-by-chapter stress validation:
-> **PASS**
+Historical chapter-by-chapter stress model:
+> **PASS UNDER THE FORMER CALIBRATION / NOT CURRENT CERTIFICATION**
 
 The validation reserves **115,600 G** for substantial ordinary-equipment purchases and **171,400 G** for generous routine Consumable restocking while using mandatory-route income only.
 
-The modeled wallet remains positive through every chapter and ends at approximately **29,870 G**.
+The former modeled wallet remained positive through every chapter and ended at approximately **29,870 G**; this is provenance only until the economy rebuild.
 
 Tightest late-game checkpoint:
 > **Chapter 10 — ~7,200 G remains after the modeled equipment purchase + routine restock.**
