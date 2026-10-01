@@ -33,7 +33,7 @@ Current roster / placement authority:
 - outside the ordinary formation pool;
 - exact current raw body/action kit belongs to its authored encounter authority and remains subject to later validation.
 
-### Thornhide Stalker
+### Thornhide
 - mandatory Chapter-1 final boss;
 - outside the ordinary pool;
 - exact boss numbers remain under boss/encounter authority.
@@ -45,7 +45,7 @@ Current roster / placement authority:
 - Hollow Watch underground random pool: Construct only.
 - Southern Briar: Thicket Stalker / Vine Creeper / Bullhog / Needlewing / Burrowclaw / Barkling.
 - Shield Construct is fixed/authored only.
-- Thornhide Stalker is mandatory boss only.
+- Thornhide is mandatory boss only.
 
 ## Southern Briar ceiling
 
