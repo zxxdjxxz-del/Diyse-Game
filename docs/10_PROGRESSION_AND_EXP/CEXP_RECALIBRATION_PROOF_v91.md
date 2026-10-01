@@ -1,4 +1,5 @@
-> **SUPERSEDED FOR CHARACTER-BY-CHARACTER TIMING BY `CEXP_RECALIBRATION_PROOF_v92.md`.** v91 chapter totals remain active; the v91 Volition planning-center arithmetic was approximate.
+> **SUPERSEDED FOR CHARACTER-BY-CHARACTER TIMING BY `CEXP_RECALIBRATION_PROOF_v92.md`.**  
+> **NUMERIC STATUS — HISTORICAL / PROVISIONAL.** The v91 totals remain useful as a reference baseline only; the EXP/CEXP layer is scheduled for rebuild and this file is not final balance certification.
 
 # Diyse — v91 CEXP Recalibration Proof
 
@@ -29,7 +30,7 @@ Using the preserved Base-Class planning centers at Sixfold Volition:
 | Seyrik | ~2,500 | 6,000 | **~8,500** | **~Lv60** |
 
 Result:
-> **mandatory-route completion window ~Lv55–60 — PASS**
+> **historical model lands in the ~Lv55–60 target window — TARGET CHECK ONLY / NOT FINAL CERTIFICATION**
 
 ## Exact optional CEXP chapter-boundary maximum
 Assuming every optional activity is cleared at the earliest chapter boundary where it is legally available, the cumulative optional pool is:
