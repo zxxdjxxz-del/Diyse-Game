@@ -45,7 +45,7 @@ Completionist Lv17 reference:
 - median **13** with Last Sentinel;
 - median **16** without Prime.
 
-Retain Form-I HP2,400 / Form-II HP2,900, current raw stats/Powers, chamber architecture, and no fresh-form Prime restoration.
+Historical v99 package: Form-I HP2,400 / Form-II HP2,900 with the then-current raw stats/Powers and chamber architecture. The no-fresh-form-Prime-restoration finding remains current; Powers/action-kit tuning is reopened.
 
 ## v100 Revision Arbiter historical measurement
 Warden of the Nameless / Revision Arbiter recorded a **v100 TRUE-BATTLE PASS under the then-current package**; final difficulty certification is reopened.
@@ -59,7 +59,7 @@ Completionist Lv34 reference:
 - no Prime: **median 8 / mean 8.01 / P90 9**;
 - with Last Sentinel: **median 8 / mean 7.86 / P90 9**.
 
-Retain HP7,600, all raw stats/Powers/status chances, 3 Closed Record Assertion Layers, Revision Claim, 2 Open Revision Layers, and repetition locks.
+Historical v100 package: HP7,600 with the then-current raw stats/Powers/status chances, Assertion Layers, Revision Claim, Open Revision Layers, and repetition locks. Treat those combat-tuning values as historical inputs pending the ability/difficulty rewrite.
 
 Detailed certification:
 `TRUE_BATTLES/REVISION_ARBITER_TRUE_BATTLE_v100.md`
@@ -82,7 +82,7 @@ Prime persistence stress:
 
 Completionist Lv48–49 no-Prime references both center at **median 12**.
 
-Retain both HP bodies, raw stats/Powers/status chances/repetition locks, Demolition Breaker, 18% Exposed Rhazek, and current Prime rules.
+Historical v101 package: both HP bodies with the then-current raw stats/Powers/status chances/repetition locks, Demolition Breaker, and 18% Exposed Rhazek. Current Prime-persistence findings remain valid; enemy combat tuning is reopened.
 
 Detailed certification:
 `TRUE_BATTLES/RHAZEK_BASTION_DEVOURER_TRUE_BATTLE_v101.md`
@@ -121,13 +121,15 @@ Completionist Lv66 native-Legacy reference:
 - **100% wins / median 15 / mean 14.68 / P90 17** over 5,000 runs;
 - **0% any-KO**.
 
-Retain unchanged:
+Historical v102 tested package:
 - Form-I HP **16,800** and raw line;
 - Form-II HP **20,200** and raw line;
-- all Powers/status chances/repetition locks;
+- then-current Powers/status chances/repetition locks;
 - Sovereign Overrun's 55% threshold, protected one-round Preparation, **390 Power** resolution, 20% Staggered, and 3-round lock;
 - Final Sovereignty's 25% same-bar state;
 - the genuine fresh-body and persistent-spend Prime rules.
+
+Only the form/Prime-system findings are carried forward automatically; enemy action-kit/Power tuning remains reopened.
 
 Current true-battle pacing refines the historical generic paper estimate to approximately **19–21 total rounds depending on Prime commitment**, while completionist Lv66 remains at the intended **~13–15** center.
 
