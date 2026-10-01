@@ -1,96 +1,39 @@
 # Diyse — Campaign Progression Balance
-**Migration baseline:** `Diyse_CURRENT_WORKING_TRACKER_CONSOLIDATED_2026-08-27_v85.md`  
-**Current written whole-project authority:** **v2.20 / Audit135**, plus newer explicit user corrections preserved by the reorganization.  
-**Primary balance chain:** Audits 121–135 where compatible, especially 123–128 progression and 129–135 raw-stat certification.  
-**Runtime test checkpoint inspected:** `Diyse-Game` commit `3fd07e92eda04f31ba613a654b3b1b28071f44e6`.  
-**Balance ownership rule:** this domain owns cross-system balance acceptance criteria, verification plans, playtest targets, certification status and regression gates. Exact formulas/stats/rewards remain canonically housed in their dedicated system domains.
 
-## Current certification boundary
+**Status:** ACTIVE PROGRESSION-BALANCE FRAMEWORK / EXACT ROUTE NUMBERS PROVISIONAL  
+**Progression owner:** `../../10_PROGRESSION_AND_EXP/`  
+**Balance/QA authority:** `../README.md`
 
-The direct-damage **Power audit is CLOSED**.
+This file defines what progression balance must demonstrate. Exact EXP totals, chapter level anchors, CEXP placement, and ending-route centers belong to the progression owner and are currently rebuild-pending.
 
-Mandatory-vs-completionist **encounter validation is ACTIVE / REOPENED** where current production authority superseded older party or route assumptions. In particular, Chapters 1–3 require recertification against the current story/party state before their older balance results may be treated as current certification.
+## Current locks / targets
 
-Current sequence:
-1. recertify encounters against the mandatory / critical-path party;
-2. recertify the same encounter points against the completionist / high-side party;
-3. reconcile any resulting EXP/CEXP reward changes;
-4. rerun recruitment-aware CEXP calibration;
-5. confirm normal full Base + Subclass completion lands in the **Lv55–60** target window.
+- Player Level cap: **70**;
+- Chapter 0: no Player Levels;
+- no dynamic enemy scaling to erase optional progression;
+- full Base + Subclass completion target: **Lv55–60** under normal developed play;
+- recruitment-aware CEXP accounting is required.
 
-Do not reopen direct-damage Power coefficients merely because encounter validation is active.
+## Validation sequence
 
-## Player-Level spine
-Current campaign-only anchors:
-- End Ch1 ~5
-- Ch2 ~9
-- Ch3 ~13
-- Ch4 ~17
-- Ch5 ~22
-- Ch6 ~27
-- Ch7 ~32
-- Ch8 ~37
-- Ch9 ~42
-- Ch10 ~47
-- Ch11 ~52
-- Ch12 ~57
-- Last Shelter ~60
-- End Ch13 ~62
-- cap 70
+1. stabilize current encounter rosters/formations and mandatory/completionist comparison points;
+2. rebuild Player EXP placement;
+3. rebuild CEXP placement from each character's actual permanent recruitment point;
+4. validate campaign-only, light-optional, typical-developed, heavy-optional, and completionist routes;
+5. verify optional progression creates meaningful advantage without making mandatory-route tuning dependent on optional grind;
+6. confirm the Level 70 cap is reachable only through legitimate authored progression/grind behavior intended by the final progression owner.
 
-These are progression targets, not proof that every chapter's current encounter tuning has already been recertified.
+## Route outcomes
 
-Mandatory Player EXP:
-> **448,100**
+Do not hard-code historical chapter-end or ending-level centers here while the progression rebuild is open.
 
-## Encounter planning
-Expected ordinary encounters:
-> **225**
+For each route, record:
+- Player Level by chapter/major validation point;
+- CEXP and selected class progression by character;
+- optional content completed;
+- ordinary encounters fought;
+- weak-enemy diminishing-return effects;
+- when each character completes Base + Subclass progression;
+- whether the route hits Level 70 and when.
 
-This is a pacing center, not a forced battle quota.
-
-The normal route must tolerate reasonable:
-- encounter RNG;
-- exploration;
-- backtracking;
-- safe pockets;
-- optional avoidance
-
-without radically breaking the level spine.
-
-Repeatedly fleeing/avoiding most ordinary combat should still permit the player to fall behind.
-
-## Completionist proof
-Last Shelter:
-> **415,400 EXP**
-
-Lv70 threshold:
-> **594,100 EXP**
-
-Authored optional pre-Shelter proof pool:
-> **195,000 EXP**
-
-Result:
-> **610,400 EXP**
-
-Buffer:
-> **16,300 EXP**
-
-This remains a campaign-level progression proof. If current encounter recertification changes authored reward totals, rerun the arithmetic before treating the exact buffer as final.
-
-## Route playtests
-Verify at minimum:
-- campaign-only;
-- light optional;
-- typical-developed;
-- heavy optional;
-- broad completionist.
-
-Current route centers:
-- campaign-only ending ~Lv62;
-- light optional ~Lv64–65;
-- typical developed ~Lv66–67;
-- heavy optional ~Lv68–69;
-- broad completionist Lv70 before Last Shelter.
-
-These remain target centers pending the current encounter-validation and downstream reward/CEXP reconciliation.
+Historical v8x/v9x EXP totals and level centers remain Git-history evidence only and are not current acceptance targets unless the rebuilt progression owner independently reproduces them.

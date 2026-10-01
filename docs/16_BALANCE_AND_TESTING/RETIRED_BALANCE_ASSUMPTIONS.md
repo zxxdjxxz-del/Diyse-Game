@@ -42,3 +42,16 @@ Current class-completion timing target:
 Deleted v90 static-completion files and v104–v106 sensitivity studies remain available through Git history only. Their tested scalars, PASS labels, enemy rosters, and progression snapshots are not current implementation authority.
 
 Retained historical true-battle reports likewise document only the exact snapshots they tested. Current owner-domain rules supersede them whenever they conflict.
+
+
+## Retired validation snapshots
+
+The former per-chapter `CHAPTER_00`–`CHAPTER_13_MANDATORY_COMPLETIONIST_VALIDATION.md` files and the old `MANDATORY_BOSS_ROUTE_RECERTIFICATION.md` were removed from the live tree after their progression/enemy inputs reopened.
+
+Git history preserves them as historical evidence. They must not be used to restore:
+- old chapter Player-Level spines;
+- old EXP/CEXP totals;
+- old enemy rosters or placements;
+- old Power/action-kit certification;
+- old completionist equipment assumptions;
+- historical PASS labels.
