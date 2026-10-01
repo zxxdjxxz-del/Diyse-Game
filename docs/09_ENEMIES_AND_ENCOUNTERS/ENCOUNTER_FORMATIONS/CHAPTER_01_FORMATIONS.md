@@ -18,7 +18,7 @@
 - Hollow Watch excavation: **2 ordinary Constructs**
 - Southern Briar: **up to 6**
 - Shield Construct: fixed authored single encounter, outside the random pool
-- Thornhide Stalker: mandatory boss, outside the random pool
+- Thornhide: mandatory boss, outside the random pool
 
 ---
 
