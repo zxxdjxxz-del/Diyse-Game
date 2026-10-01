@@ -1,9 +1,9 @@
 # Diyse — Chapter 09 Enemies — Larkspire / Equal Mercy + Crownfall Redoubt
 **Migration baseline:** `Diyse_CURRENT_WORKING_TRACKER_CONSOLIDATED_2026-08-27_v85.md`  
-**Primary enemy-production authority:** compatible **Audit90 / Audit93** plus accepted later tracker roster/action cleanups.  
-**Primary raw-stat authority:** **Audit129 + Audit130 / Audit131 / Audit132 / Audit133 / Audit134 / Audit135**.  
-**Current whole-project written authority:** **v2.20 / Audit135**.  
-**Migration rule:** later current names, chapter reindexing, four-element rules, removed-system firewalls, and fresh-body Prime-refresh rules supersede stale earlier enemy text.
+**Historical enemy-production provenance:** Audit90/Audit93 plus later tracker-era roster/action cleanups.
+**Historical raw-stat provenance:** Audit129–Audit135.
+**Authority treatment:** this chapter file is current enemy roster/placement authority; Audit/v85 references remain historical provenance only.
+**Migration rule:** current repository names, chapter placement, system firewalls, and Prime-restoration rules supersede conflicting historical enemy text.
 
 
 ## Ordinary / repeatable
@@ -35,7 +35,7 @@
 
 ## Current notes
 - Medical/quarantine fiction does not restore Poison or a universal Mercy/Triage resource.
-- Chapter-9 broad ordinary / Elite / authored-protected Power pass: **PASS**.
+- Chapter-9 broad ordinary / strong-normal / authored-protected Power pass: **PASS**.
 - Chapter-9 mandatory-vs-completionist difficulty validation: **PASS / VALIDATED v85**.
 - Actual route anchors: **Lv37 start → Lv37 Equal Mercy → Lv38 post-Last-Sanctuary → Lv40 Rhazek → Lv42 clear**.
 - Ordinary formations are restored in `../ENCOUNTER_FORMATIONS/CHAPTER_09_FORMATIONS.md`. RH9 exact return trigger remains story-owned; no enemy-design, stat, or Power gap.
@@ -55,7 +55,7 @@ The story rule that victim-class / compromised / sick people are not default ene
 ## Numerical boundary
 Chapter-9 ordinary/carryover raw bodies are now active-balance authority in individual files.
 
-Ruin Breach Captain retains its inherited Elite-strength raw line.
+Ruin Breach Captain retains its inherited strong-normal raw line.
 
 Mandatory boss authority remains separately owned and unchanged.
 
