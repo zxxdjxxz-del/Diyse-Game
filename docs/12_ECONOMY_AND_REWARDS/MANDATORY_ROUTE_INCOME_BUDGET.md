@@ -1,8 +1,8 @@
 # Diyse — Mandatory Route G Budget
 
-**Status:** CURRENT MANDATORY-ROUTE G CALIBRATION / CH1 FORMATION REMAP OPEN
+**Status:** PROVISIONAL MANDATORY-ROUTE G REFERENCE / ECONOMY REBUILD PENDING
 
-This file defines the mandatory-route G envelope used to tune ordinary formations, story encounters, authored currency rewards, and direct-G caches.
+This file preserves the former mandatory-route G envelope as a planning reference. It is not a closed current total while the economy rebuild, Chapter-1 formation remap, Chapter-3 Memory Construct payout, and retired authored-event cleanup remain open.
 
 ## Currency
 All current-facing mandatory income uses:
@@ -14,19 +14,19 @@ All current-facing mandatory income uses:
 | Starting wallet | **2,500 G** |
 | Ordinary Chapter 1–13 formations | **~135,600 G** |
 | Mandatory story bosses / named encounters | **92,100 G** |
-| Fixed authored combat/event payouts | **5,300 G** |
+| Fixed authored combat/event payouts | **historical 5,300 G subtotal is retired; current exact subtotal OPEN** |
 | Mandatory non-battle reward map | **80,800 G** |
-| **Mandatory-route total** | **~316,300 G** |
+| **Mandatory-route total** | **OPEN — former ~316,300 G aggregate is historical/provisional only** |
 
 The ordinary-formation total is a route expectation across the 225-encounter planning spine, so the final wallet can vary with encounter RNG, escapes, backtracking, and spending.
 
 ## Ordinary encounter share
-Ordinary formations contribute approximately:
+Under the former calibration, ordinary formations contributed approximately:
 > **42.9%**
 
-of the calibrated mandatory-route direct G.
+of the historical mandatory-route direct G. This ratio is a design reference, not current certification.
 
-This satisfies the retained design target that ordinary random encounters contribute roughly:
+The retained design target remains that ordinary random encounters contribute roughly:
 > **40–50% of routine mandatory-route spendable currency**
 
 without becoming the only meaningful source of money.
