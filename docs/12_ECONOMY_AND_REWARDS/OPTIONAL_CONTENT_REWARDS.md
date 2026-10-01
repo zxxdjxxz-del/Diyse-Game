@@ -6,6 +6,8 @@ Optional activities are owned structurally by `11_QUESTS` and their Player EXP b
 
 This file summarizes the non-EXP economic/reward layer owned by `12_ECONOMY_AND_REWARDS`.
 
+All G amounts and derived totals below are **provisional pending the economy rebuild**. Structural reward identities and handoffs remain usable where separately locked.
+
 ## Current activity inventory
 - 5 ordinary Side Quests;
 - 6 Character Quests;
@@ -28,14 +30,14 @@ Current Hunt rule:
 
 Do not discount Regional or Major Hunt G simply because another reward axis is present.
 
-## Exact direct-G totals
+## Provisional direct-G totals
 | Activity layer | Direct G |
 |---|---:|
 | 5 ordinary Side Quests | **18,000 G** |
 | 6 Character Quests | **22,200 G** |
-| 8 active Regional Hunts | **114,000 G** |
+| 8 active Regional Hunts | **106,000 G** |
 | 6 Major Hunts | **134,000 G** |
-| **Total** | **288,200 G** |
+| **Total** | **280,200 G** |
 
 These current optional totals exclude the retired former-Elite cash layer and are not required for baseline story solvency. The broader completionist cash target is reopened for later economy recalibration.
 
@@ -74,7 +76,7 @@ Exact first-clear cash lives in:
 > `REGIONAL_HUNT_REWARD_BOUNDARY.md`
 
 Total:
-> **114,000 G**
+> **106,000 G**
 
 Whitehorn Ravager, Winterglass Titan, and Rift Siege Beast retain their Forge Component handoffs **without any reduction to their G payouts**.
 
@@ -100,4 +102,4 @@ Optional content makes the player richer, broadens build choices, and supports e
 
 
 ## Regional Hunt #1 retirement note
-The former Cistern Devourer payout is no longer part of the optional cash layer. Active Regional Hunts now contribute **114,000 G** across eight current Hunts; slots #1–#3 are retired/open.
+The former Cistern Devourer payout is no longer part of the optional cash layer. The eight current provisional Regional Hunt rows sum to **106,000 G**; slots #1–#3 are retired/open.
