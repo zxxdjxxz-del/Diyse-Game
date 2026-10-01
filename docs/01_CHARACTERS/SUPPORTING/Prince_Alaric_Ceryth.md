@@ -1,7 +1,7 @@
 # Prince Alaric Ceryth
-**Migration baseline:** `Diyse_CURRENT_WORKING_TRACKER_CONSOLIDATED_2026-08-27_v85.md`  
-**Current whole-project written authority:** **v2.20 / Audit135**.  
-**Character-authority inputs:** compatible character/chronology overlays, current approved dialogue/story evidence, newer corrections, and the newest explicit user corrections.  
+
+**Status:** ACTIVE CHARACTER AUTHORITY  
+**Authority:** current character-domain owner plus later explicit approved corrections.  
 **Domain rule:** this folder owns character identity, biography, chronology, personality, relationship logic, ordinary-life behavior, and concise voice direction. Exact class mechanics live in `06_CLASSES_AND_ABILITIES`; detailed art specifications in `14_ART_AND_VISUALS`; exact dialogue scripts live in `03_DIALOGUE`.
 
 ## Identity
