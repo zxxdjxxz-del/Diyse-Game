@@ -1,4 +1,4 @@
-# Chapter 6 — Ordinary / Elite / Authored-Special Power Register
+# Chapter 6 — Ordinary / Strong-Normal / Authored-Special Power Register
 
 **Status:** **CHAPTER-6 BROAD ENEMY POWER PASS**
 
@@ -64,7 +64,7 @@ They do not random-spawn.
 Masked Ruin Vanguard — Seyrik:
 > already separately **POWER COMPLETE**
 
-## Optional Elite
+## Strong normal-pool identity
 Crimson Progenitor:
 - retained Lv28 / HP2,700 / ATK92 / MAG104 / DEF69 / Spirit72 / SPD38
 - one bar

@@ -1,4 +1,4 @@
-# Chapter 12 — Ordinary / Elite / Authored-Protected Power Register
+# Chapter 12 — Ordinary / Strong-Normal / Authored-Protected Power Register
 
 **Status:** **CHAPTER-12 BROAD ENEMY POWER PASS**
 
@@ -64,7 +64,7 @@ No personal loot.
 
 The exact compulsion mechanism remains story-owned and is not defined as possession or a universal status.
 
-## Optional Elite — Lord-Marshal Kharvek
+## Strong normal-pool identity — Lord-Marshal Kharvek
 Raw retained:
 > Lv61 / HP6,750 / ATK224 / MAG166 / DEF152 / Spirit142 / SPD56 / EVA5 / SR10
 

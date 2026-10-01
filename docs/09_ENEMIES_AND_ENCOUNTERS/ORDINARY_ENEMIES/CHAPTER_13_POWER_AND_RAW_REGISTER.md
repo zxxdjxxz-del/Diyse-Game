@@ -1,4 +1,4 @@
-# Chapter 13 — Ordinary / Elite / Final-Support Power Register
+# Chapter 13 — Ordinary / Strong-Normal / Final-Support Power Register
 
 **Status:** **CHAPTER-13 BROAD ENEMY POWER PASS**
 
@@ -68,7 +68,7 @@ Both:
 - cannot copy Prime commands;
 - cannot rewrite permanent player state.
 
-## Optional Elite — Devourer of Names
+## Strong normal-pool identity — Devourer of Names
 Raw retained:
 > Lv63 / HP7,000 / ATK216 / MAG230 / DEF151 / Spirit159 / SPD57 / EVA10 / SR10
 

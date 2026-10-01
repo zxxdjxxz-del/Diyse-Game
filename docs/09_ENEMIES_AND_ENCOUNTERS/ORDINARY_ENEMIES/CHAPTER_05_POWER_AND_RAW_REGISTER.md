@@ -1,4 +1,4 @@
-# Chapter 5 — Ordinary / Elite / Protected Power Register
+# Chapter 5 — Ordinary / Strong-Normal / Protected Power Register
 
 **Status:** **CHAPTER-5 BROAD ENEMY POWER PASS**
 
