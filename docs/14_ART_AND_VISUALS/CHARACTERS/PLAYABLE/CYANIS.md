@@ -6,4 +6,4 @@ This navigation file exists only to route older `docs/14_ART_AND_VISUALS/CHARACT
 **Current visual lock:** [`PRODUCTION/CHARACTERS/CYANIS_CURRENT_VISUAL_LOCK.md`](../../PRODUCTION/CHARACTERS/CYANIS_CURRENT_VISUAL_LOCK.md)  
 **Authority index:** [`PRODUCTION/CHARACTERS/README.md`](../../PRODUCTION/CHARACTERS/README.md)
 
-Do not infer or restore a surname from older filenames or migration documents. The current visual authority uses **Cyanis**.
+Canonical full name: **Cyanis Dovaren**. The first-name visual filename is shorthand only; current naming authority remains `01_CHARACTERS`, and retired migration files must not override it.
