@@ -7,11 +7,12 @@
 When implementation-facing sources disagree:
 
 1. newest explicit user correction;
-2. current reorganized domain authority;
-3. newest compatible master-canon audit;
-4. current operational chapter/system file;
-5. proof runtime;
-6. historical audit/prototype source.
+2. current owning repository domain/chapter/system file;
+3. current migration/firewall/implementation handoff that agrees with its owner;
+4. proof runtime, for architecture/behavior evidence only;
+5. historical Audit/tracker/prototype material as provenance only.
+
+Historical audits never outrank a current repository owner merely because the audit was once master canon.
 
 ## Critical current override: Mastery
 Older proof/runtime or superseded documentation may still contain an 8-point Mastery schedule.
