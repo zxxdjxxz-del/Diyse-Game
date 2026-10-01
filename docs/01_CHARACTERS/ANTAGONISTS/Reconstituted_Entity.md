@@ -1,7 +1,6 @@
 # The Reconstituted Entity / The Last Command
-**Migration baseline:** `Diyse_CURRENT_WORKING_TRACKER_CONSOLIDATED_2026-08-27_v85.md`  
-**Current whole-project written authority:** **v2.20 / Audit135**.  
-**Character-authority inputs:** compatible approved Entity deep-character work, current final-act story authority, current `04_WORLD_AND_LORE/HISTORY/ENTITY_AND_LAST_WEAPON.md`, and later explicit user corrections.  
+
+**Authority:** current antagonist-character owner plus later explicit approved corrections.  
 **Domain rule:** this folder owns the Entity's mentality, identity continuity, perception, relationship logic, emotional architecture, voice, and performance. Ancient historical events/ontology live in `04_WORLD_AND_LORE`; exact story sequence/outcome in `02_STORY`; battle mechanics in `09_ENEMIES_AND_ENCOUNTERS`; detailed art specifications in `14_ART_AND_VISUALS`; exact dialogue in `03_DIALOGUE`.
 
 ## Status

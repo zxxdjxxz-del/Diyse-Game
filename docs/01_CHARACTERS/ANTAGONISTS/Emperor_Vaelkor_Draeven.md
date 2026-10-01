@@ -1,7 +1,6 @@
 # Emperor Vaelkor Draeven
-**Migration baseline:** `Diyse_CURRENT_WORKING_TRACKER_CONSOLIDATED_2026-08-27_v85.md`  
-**Current whole-project written authority:** **v2.20 / Audit135**.  
-**Character-authority inputs:** restored v1.49/v1.50 Vaelkor status/hard-canon record, current Chapter-12 story authority, compatible current Black Host character relationship authority, and later explicit user corrections.  
+
+**Authority:** current antagonist-character owner plus later explicit approved corrections.  
 **Domain rule:** this folder owns character identity, biography/psychology already established, relationship logic, ordinary conversational behavior, and voice/performance direction. Exact story sequence/outcome lives in `02_STORY`; world/Entity history in `04_WORLD_AND_LORE`; battle mechanics in `09_ENEMIES_AND_ENCOUNTERS`; detailed art specifications in `14_ART_AND_VISUALS`; exact dialogue in `03_DIALOGUE`.
 
 ## Status

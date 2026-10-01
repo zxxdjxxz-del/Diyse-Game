@@ -1,7 +1,6 @@
 # Chancellor Othmar Calder
-**Migration baseline:** `Diyse_CURRENT_WORKING_TRACKER_CONSOLIDATED_2026-08-27_v85.md`  
-**Current whole-project written authority:** **v2.20 / Audit135**.  
-**Character-authority inputs:** compatible approved Othmar deep-character work, current Chapter 10–11 story authority, current chronology/world authority, and later explicit user corrections.  
+
+**Authority:** current antagonist-character owner plus later explicit approved corrections.  
 **Domain rule:** this folder owns character identity, biography, chronology, personality, relationship logic, ordinary-life behavior, and voice/performance direction. Exact story sequencing/outcome lives in `02_STORY`; battle mechanics in `09_ENEMIES_AND_ENCOUNTERS`; detailed art specifications in `14_ART_AND_VISUALS`; exact dialogue scripts in `03_DIALOGUE`.
 
 ## Status
