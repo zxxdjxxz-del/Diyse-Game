@@ -31,7 +31,7 @@ Exact class/Face mechanics are owned by `06_CLASSES_AND_ABILITIES` and `07_CARDS
 - Talia Rell
 - Edda Harth
 
-Maevra Solmar and Kessara Durnan also have current exact visual masters under `asset_sources/characters/current/`. Their surnames are current canon.
+Maevra Solmar and Crown Princess Mirena Ceryth are part of the current exact 2026-09-22 supporting-character source-lock set under `asset_sources/characters/current/`. Kessara Durnan also has a current repository-backed visual master, but her lock is maintained separately rather than folded into that eight-image source-lock set. Their current visual authority is owned by `14_ART_AND_VISUALS`.
 
 ## Major antagonists
 - Commander Rhazek
