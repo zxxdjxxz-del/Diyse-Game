@@ -11,7 +11,7 @@ All G amounts and derived totals below are **provisional pending the economy reb
 ## Current activity inventory
 - 5 ordinary Side Quests;
 - 6 Character Quests;
-- 11 Regional Hunts;
+- 8 active Regional Hunts;
 - 6 Major Hunts.
 
 ## Authoring principle
@@ -63,13 +63,10 @@ Normal-stock Consumable reward-equivalent total:
 
 Each Character Quest also retains its unique Legacy Component as the dominant permanent progression reward.
 
-## Former optional Elites
-The former standalone optional-Elite category has been removed.
+## Former Elite reward layer
+The separate Elite category is retired. Current strong normal-pool enemies use ordinary formation-level G and receive no separate first-clear bounty.
 
-Its historical **38,900 G** first-clear cash layer is retired. Those identities now use normal formation-level G when they appear in normal encounter pools.
-
-Compatibility/retirement record:
-> `ELITE_G_REWARDS.md`
+Historical Elite-bounty amounts remain retired; Git history preserves the old payout table if audit archaeology is ever required.
 
 ## Regional Hunts
 Exact first-clear cash lives in:

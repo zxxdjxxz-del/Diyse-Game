@@ -14,8 +14,10 @@ Do not restore the following as current economy authority.
 Current currency:
 > **G**
 
-Current display conversion:
+Legacy/provisional display-calibration reference:
 > **1 economy unit = 200 G**
+
+This scale is not a hard current economy lock while the rebuild is pending.
 
 ## Consumables
 Do not restore:
@@ -67,8 +69,18 @@ Do not restore:
 - the old ~49.5k completionist direct-cash total as current authority;
 - old Auren-era exact payout tables as current G values.
 
-Current broad completionist direct-cash target:
-> **roughly 650,000 G**
+Do not restore the former **~650,000 G** broad-completionist cash target as current authority.
+
+No exact completionist direct-cash target is currently relocked; the economy rebuild owns that decision.
 
 ## Drops/material economy
 Do not restore generic vendor-trash or monster-part farming solely to populate loot tables.
+
+
+## Former Elite reward layer
+Do not restore:
+- a separate Elite reward category;
+- one-time first-clear Elite G bounties;
+- historical Elite cash subtotals as current optional-budget requirements.
+
+Current stronger normal enemies use ordinary formation-level G unless a separately authored encounter owner explicitly says otherwise.
