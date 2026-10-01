@@ -6,6 +6,8 @@
 
 The current reference model uses **CL1→CL13 / 0→6,000 CEXP** and a campaign award stream intended to place full Base + Subclass completion around the **Player Lv55–60 target window**. These award totals remain provisional pending the planned CEXP rebuild.
 
+> **Current structural warning:** the historical v91/v92 model still carries the former **350 CEXP** Chapter-1 budget, while the latest structurally corrected Chapter-1 reward map in `MANDATORY_EXP_CEXP_BY_CHAPTER.md` currently sums to **285 CEXP** after Watch Castellan removal. Do **not** reconcile this by inventing a top-up or by treating either figure as final; the planned CEXP rebuild owns the replacement budget and downstream completion proof.
+
 ## Pre-Volition
 Unchanged.
 
