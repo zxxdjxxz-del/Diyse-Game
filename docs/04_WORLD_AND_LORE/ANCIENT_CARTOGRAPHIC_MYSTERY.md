@@ -17,11 +17,11 @@ Hidden author truth:
 - the large-scale Ancient magic/infrastructure pattern ultimately involves **all six Faces together** across the mapped region;
 - Chapter 4 does **not** let the characters identify that truth.
 
-## Source progression
-1. Chapter 1 — Hollow Watch rubbing
-2. Chapter 1 — Wayfinder material / surviving copies
-3. Chapter 3 — ~500-year-old Yahtrean Westways recordbook containing a Wayfinder-derived regional copy; Mirena identifies the giant tower's modern location as Cresthaven
-4. Chapter 4 — Vaelira / Reaction Annex related transcription/chart
+## Evidence progression
+1. Chapter 1 — Hollow Watch landscape depiction establishes a real regional catastrophe/use pattern and points the party toward the Junction without functioning as the Wayfinder itself
+2. Chapter 1 — Wayfinder Junction monument reveals the broad western Ancient map: dense overland routes, a second unexplained marking system, city/settlement structures, Face markings, and the broken Caelora-area center
+3. Chapter 3 — ~500-year-old Yahtrean Westways recordbook contains a rough Wayfinder-derived regional copy; Mirena identifies the giant tower's modern location as Cresthaven
+4. Chapter 4 — Vaelira compares the already-copied Wayfinder evidence against Reaction Annex behavior; the resemblance strengthens, but **no new cartographic transcription/chart is discovered**
 5. Chapter 5 — Deepforge works survey / physical map
 6. Chapter 8 — Westguard-area western survey material
 7. Chapter 10 — final eastern survey at Eastern Wayfinder

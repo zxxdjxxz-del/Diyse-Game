@@ -51,7 +51,7 @@ Torren's significance is judgment/route-reading under incomplete information, no
 ## Seyrik pre-reveal requirement
 Chapter 5 must include:
 - a second masked/unnamed Seyrik appearance;
-- direct recognition that the party is the same group from Red Transfer Bastion;
+- direct recognition that the party is the same group from the Old Bastion;
 - a later non-boss Rhazek/Seyrik command interlude;
 - Rhazek advances/gives Seyrik greater responsibility because of competence;
 - Seyrik accepts professionally without celebrating.
