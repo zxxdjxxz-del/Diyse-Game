@@ -29,7 +29,7 @@ No renamed clones are added merely to hide reuse.
 ## Permanent-state firewall
 Archive / Registry / Erasure presentation cannot permanently rename characters, remove levels/classes/equipment/Cards/abilities/commands, or alter save data.
 
-## Optional Elite
+## Strong normal-pool identity
 > **NONE — INTENTIONAL**
 
 ## Authored / protected
