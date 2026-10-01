@@ -1,7 +1,7 @@
 # Diyse — Retired Synthesis Firewall
-**Migration baseline:** `Diyse_CURRENT_WORKING_TRACKER_CONSOLIDATED_2026-08-27_v85.md`  
-**Historical provenance:** **v2.08 / Audit123**, with compatible **Audit115** class normalization and later current working corrections.  
-**Authority treatment:** this repository file is current class-domain authority. Audit/v85 references remain provenance; later explicit corrections and current owner-domain rules supersede conflicting historical text.
+
+**Status:** ACTIVE CLASS-SYSTEM RETIREMENT FIREWALL  
+**Authority:** current class-domain owner plus later explicit approved corrections.  
 
 
 # SYNTHESIS IS REMOVED
