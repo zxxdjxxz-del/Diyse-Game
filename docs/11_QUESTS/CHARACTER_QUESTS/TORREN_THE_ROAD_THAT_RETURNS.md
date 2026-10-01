@@ -7,7 +7,7 @@
 
 ## Unlock / runtime
 - after **Chapter 10**
-- ~30 minutes
+- runtime: **OPEN / provisional** — scope-driven; no uniform Character Quest duration target
 - start: Greenhollow
 - region: The Westways
 
@@ -52,8 +52,10 @@ Road/wilderness reuse:
 - Vine Creeper
 - Briar Boar
 
-Westline security:
-- Command-Station Sentry
+Westline security reuse:
+> **OPEN / current-owner assignment required**
+
+Do not restore the unowned **Command-Station Sentry** identity. Assign only a current enemy whose chronology and location fit Westline during the later quest-encounter pass.
 
 Boss:
 > **Old Relay Warden**
@@ -81,5 +83,5 @@ Do not restore:
 - Last Measure
 
 ## Reward
-- **15,000 Player EXP**
+- numeric progression rewards: owned by `10_PROGRESSION_AND_EXP`; current values are provisional pending rebuild
 - **Torren Legacy Component**
