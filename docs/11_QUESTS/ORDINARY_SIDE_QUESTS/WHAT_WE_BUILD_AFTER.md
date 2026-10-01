@@ -12,7 +12,7 @@
 - runtime: ~15–20 minutes
 - boss: none
 - combat: none
-- EXP: **14,500**
+- numeric progression rewards: owned by `10_PROGRESSION_AND_EXP`; current values are provisional pending rebuild
 
 ## Mirena's ordinary-quest arc
 1. **A Measure of Bread** — see people accurately.
@@ -82,6 +82,6 @@ After completion:
 - NPC chatter/placement reflects future planning.
 
 ## Reward boundary
-- **14,500 Player EXP**
+- numeric progression rewards: owned by `10_PROGRESSION_AND_EXP`; current values are provisional pending rebuild
 - exact currency/Consumables belong in `12`
 - no unique weapon/Relic/Legacy/Card
