@@ -1,12 +1,9 @@
 # Diyse — Save / Persistence Test Plan
-**Migration baseline:** `Diyse_CURRENT_WORKING_TRACKER_CONSOLIDATED_2026-08-27_v85.md`  
-**Current written whole-project authority:** **v2.20 / Audit135**, plus newer explicit user corrections preserved by the reorganization.  
-**Primary balance chain:** Audits 121–135 where compatible, especially 123–128 progression and 129–135 raw-stat certification.  
-**Runtime test checkpoint inspected:** `Diyse-Game` commit `3fd07e92eda04f31ba613a654b3b1b28071f44e6`.  
-**Balance ownership rule:** this domain owns cross-system balance acceptance criteria, verification plans, playtest targets, certification status and regression gates. Exact formulas/stats/rewards remain canonically housed in their dedicated system domains.
 
+**Status:** ACTIVE SAVE / PERSISTENCE QA PLAN  
+**Current schema authority:** implementation/save owners plus current numbered system domains
 
-Existing proof coverage is useful but production schema must expand.
+Existing proof coverage is useful, but production schema must expand beyond proof fixtures.
 
 ## Existing tests should continue to verify
 - missing save safe failure;
@@ -17,24 +14,26 @@ Existing proof coverage is useful but production schema must expand.
 - transient random-encounter state excluded;
 - transient state cleared on load.
 
-## Production-state coverage must add
+## Production-state coverage must add/verify
 - Player EXP/Level;
 - Base/Subclass CL/CEXP;
 - selected class;
 - automatic Mastery unlock derivation/state;
-- Auren;
+- player-facing **G** currency semantics;
 - equipment/loadouts;
 - Relic copies;
 - Legacy project state;
-- Cards/Primes/loadouts;
+- Standard Cards/Primes/loadouts;
+- persistent Prime spent/Ready state where current authority requires it;
 - quests/Hunts;
 - world/travel flags;
 - story state;
 - settings.
 
-## Must not serialize
+## Must not serialize as current canon
 - Mastery Point currency;
-- stale proof Gold as current semantic currency;
+- stale proof `gold` as a separate player-facing currency system;
+- Auren as current currency;
 - unconfirmed UI cursor state;
 - live scene-node references.
 
@@ -45,6 +44,7 @@ Test save/load around:
 - Kessara Relic copy;
 - shop transactions;
 - Legacy completion;
-- quest completion
+- quest completion;
+- Prime restoration/spent-state changes
 
 for duplication or rollback exploits.

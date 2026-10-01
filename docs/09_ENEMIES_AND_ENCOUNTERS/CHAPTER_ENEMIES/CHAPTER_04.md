@@ -97,5 +97,5 @@ Story-required encounter identities and Crown Prototype retain their separate ow
 Formation authority:
 `../ENCOUNTER_FORMATIONS/CHAPTER_04_FORMATIONS.md`
 
-Validation record:
-`../../16_BALANCE_AND_TESTING/BALANCE/CHAPTER_04_MANDATORY_COMPLETIONIST_VALIDATION.md`
+Current validation framework:
+`../../16_BALANCE_AND_TESTING/BALANCE/ENEMY_BOSS_MANDATORY_COMPLETIONIST_VALIDATION.md`
