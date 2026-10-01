@@ -27,7 +27,7 @@ This uses the current owner-domain chapter income map:
 - fixed authored-event G;
 - mandatory non-battle G.
 
-No Side Quest, Character Quest, Regional Hunt, Major Hunt, resale, or deliberate grinding income is included. Former optional-Elite identities are normal-pool enemies and are already represented only through formation-level G where encountered.
+No Side Quest, Character Quest, Regional Hunt, Major Hunt, resale, or deliberate grinding income is included. Former Elite-design identities that remain current are normal-pool enemies and are represented only through formation-level G where encountered.
 
 ## Stress-test spending model
 This is a **liquidity stress test**, not an exact player shopping script.
