@@ -10,19 +10,17 @@ Current active count:
 
 Slots **#1**, **#2**, and **#3** are retired/open; later hunt numbering remains unchanged pending a separate numbering decision.
 
-| # | Regional Hunt | Current access context | EXP |
-|---:|---|---|---:|
-| 4 | **Crown Prototype** | Chapter 4 — Reaction Annex optional-return branch | 3,000 |
-| 5 | **Whitehorn Ravager** | Chapter 5 — Greyspires / Chapter-5 optional branch | 4,000 |
-| 6 | **Winterglass Titan** | Chapter 6 — Greyspires / Chapter-6 optional branch | 5,200 |
-| 7 | **Rift Gate Colossus** | Chapter 7 — western transfer / Prison-of-Names era optional access | 6,800 |
-| 8 | **Rift Siege Beast** | Chapter 8 — western theater optional return | 8,500 |
-| 9 | **Mercyfallen Behemoth** | Chapter 9 — Larkspire optional return | 11,000 |
-| 10 | **Authority Remnant** | Chapter 11 — Crown Engine / administrative-domain optional access | 13,000 |
-| 11 | **Throne of Emperor Vaelkor** | Chapter 12 — Black Host campaign; remains available in post-Vaelkor cleanup if unfinished | 13,800 |
+| # | Regional Hunt | Current access context |
+|---:|---|---|
+| 4 | **Crown Prototype** | Chapter 4 — Reaction Annex optional-return branch |
+| 5 | **Whitehorn Ravager** | Chapter 5 — Greyspires / Chapter-5 optional branch |
+| 6 | **Winterglass Titan** | Chapter 6 — Greyspires / Chapter-6 optional branch |
+| 7 | **Rift Gate Colossus** | Chapter 7 — western transfer / Prison-of-Names era optional access |
+| 8 | **Rift Siege Beast** | Chapter 8 — western theater optional return |
+| 9 | **Mercyfallen Behemoth** | Chapter 9 — Larkspire optional return |
+| 10 | **Authority Remnant** | Chapter 11 — Crown Engine / administrative-domain optional access |
+| 11 | **Throne of Emperor Vaelkor** | Chapter 12 — Black Host campaign; remains available in post-Vaelkor cleanup if unfinished |
 
-Current active-Hunt total:
-> **65,300 Player EXP**
 
 ## Trigger precision
 Retired slots #1, #2, and #3 have no current Hunt access route. Chapter 1 has no Regional Hunt.
@@ -32,3 +30,7 @@ For later Hunts, this file records the current chapter/area access context witho
 Hunt numbering is independent of chapter numbering.
 
 Regional Hunt #11 remains Hunt **#11** even though current post-insertion placement is Chapter 12.
+
+
+## Numeric reward ownership
+Exact Hunt Player EXP/CEXP is owned by `10_PROGRESSION_AND_EXP` and remains provisional pending the progression rebuild.
