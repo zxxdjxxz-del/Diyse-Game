@@ -38,7 +38,12 @@ def main() -> int:
 
     request = compiled["request_seed"]
     expect(request["scene_id"] == "PROOF_CH1_BRACKENWALL_PROTOCOL", "scene ID changed")
-    expect(request["canon_snapshot_id"] == "v2.20-Audit135", "current canon snapshot was not derived")
+    expected_snapshot = compiler._derive_canon_snapshot_id(ROOT)
+    expect(request["canon_snapshot_id"] == expected_snapshot, "current repository snapshot was not derived")
+    expect(
+        request["canon_snapshot_id"].startswith("repo-") and len(request["canon_snapshot_id"]) == 21,
+        "repository snapshot ID has the wrong format",
+    )
     expect(request["participants"] == ["cyanis", "ilyra", "maevra"], "participant order changed")
     expect(request["exact_line_anchors"] == [], "fixture should not invent exact anchors")
     expect(request["current_floor_state"] == {}, "compiler must not invent live floor state")
