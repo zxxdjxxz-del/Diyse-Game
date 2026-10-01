@@ -1,9 +1,7 @@
 # Implementation Notes — Validation & Test Gates
-**Historical migration provenance:** v85-era consolidated tracker.
-**Authority treatment:** this repository file is current UI/implementation-domain authority; Audit/v85 references remain provenance only. Cross-domain gameplay rules defer to their current owning repository domains.
-**Runtime source checkpoint inspected:** `Diyse-Game` commit `3fd07e92eda04f31ba613a654b3b1b28071f44e6`.  
-**Implementation rule:** current domain canon beats older proof code/docs. Proof implementations are evidence of architecture, not permission to restore stale mechanics, names, currencies, progression, or UI concepts.
 
+**Status:** ACTIVE IMPLEMENTATION-LEVEL TEST-GATE INDEX  
+**Broader QA authority:** `../../16_BALANCE_AND_TESTING/`
 
 Current repository has automated validation for important foundations.
 
