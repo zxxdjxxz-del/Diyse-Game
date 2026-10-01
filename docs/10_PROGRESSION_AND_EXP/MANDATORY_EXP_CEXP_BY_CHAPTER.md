@@ -34,6 +34,9 @@ Totals:
 
 This is a pacing architecture, not a requirement to force a fixed number of random battles.
 
+### Chapter-3 structural warning
+The Chapter-3 **8,000 EXP / 550 CEXP** row still contains historical reward arithmetic from the retired lawful-authority confrontation branch and does not yet allocate a current reward for the Memory Construct. It is therefore a **provisional historical envelope, not an implementable exact event sum**. Do not invent replacement/top-up rewards; the planned progression rebuild must replace and recertify this row against the current Chapter-3 route.
+
 
 ## Chapter-1 progression-note — current structural correction
 Chapter 1 no longer includes Watch Castellan. The named/story package is therefore **445 EXP / 107 CEXP**, and the current chapter total is **1,300 EXP / 285 CEXP** using the existing ordinary-route planning allocation. Final Chapter-1 level-spine certification remains open until the planned mandatory/completionist progression recalibration.
