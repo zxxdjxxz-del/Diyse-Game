@@ -58,7 +58,9 @@ Do not restore retired Prime progression/presentation:
 - Concordant;
 - a third Prime evolution stage;
 - Prime XP/rank-up presentation;
-- owner-lock visual language that contradicts current Story Prime usability.
+- owner-lock visual language that contradicts current Story Prime usability;
+- Last Measure as a current Story Prime/finale visual role;
+- ancient convergence as the modern finale's literal visual solution.
 
 Current Prime states are Recovered and Awakened only. Use the current combat/Card authorities for active mechanics.
 
