@@ -1,9 +1,9 @@
 # Diyse — Chapter 07 Enemies — Ashford / Veycross / Prison of Names
 **Migration baseline:** `Diyse_CURRENT_WORKING_TRACKER_CONSOLIDATED_2026-08-27_v85.md`  
-**Primary enemy-production authority:** compatible **Audit90 / Audit93** plus accepted later tracker roster/action cleanups.  
-**Primary raw-stat authority:** **Audit129 + Audit130 / Audit131 / Audit132 / Audit133 / Audit134 / Audit135**.  
-**Current whole-project written authority:** **v2.20 / Audit135**.  
-**Migration rule:** later current names, chapter reindexing, four-element rules, removed-system firewalls, and fresh-body Prime-refresh rules supersede stale earlier enemy text.
+**Historical enemy-production provenance:** Audit90/Audit93 plus later tracker-era roster/action cleanups.
+**Historical raw-stat provenance:** Audit129–Audit135.
+**Authority treatment:** this chapter file is current enemy roster/placement authority; Audit/v85 references remain historical provenance only.
+**Migration rule:** current repository names, chapter placement, system firewalls, and Prime-restoration rules supersede conflicting historical enemy text.
 
 
 ## Ordinary / repeatable
@@ -42,7 +42,7 @@
 
 ## Current notes
 - Sixfold Volition follows the chapter's Prison/identity resolution; it is party progression, not an enemy-system name.
-- Chapter-7 broad ordinary / Elite / authored-special Power pass: **PASS**.
+- Chapter-7 broad ordinary / strong-normal / authored-special Power pass: **PASS**.
 - Mandatory-vs-completionist difficulty validation: **PASS / VALIDATED v83**; no numerical or Power changes; ordinary formations are restored under v90; authored-special placements remain story-integration dependencies only.
 - Chapter 7 introduces no new harmful status.
 
@@ -77,7 +77,7 @@ One bar.
 ## Numerical boundary
 Chapter-7 ordinary raw bodies are now newly authored active-balance authority in individual files.
 
-First Registrar's Shade retains its inherited Elite-strength raw line.
+First Registrar's Shade retains its inherited strong-normal raw line.
 
 Mandatory boss/support authority remains separate and unchanged.
 
