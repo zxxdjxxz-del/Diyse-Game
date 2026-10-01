@@ -36,11 +36,18 @@ The archive preserves:
 - rejected drafts.
 
 ## Combat
-Reused ordinary identities:
-- Archive Scribe Engine
+Current reusable ordinary identities retained for this quest:
 - Judgment Frame
 - Erasure Wisp
-- Memory Scribe
+
+Additional archive-enemy reuse:
+> **OPEN / TBD**
+
+Do not restore as current quest identities:
+- **Memory Scribe** — retired historical identity unless a later enemy owner explicitly reintroduces it;
+- **Archive Scribe Engine** — legacy filepath/name whose current owned identity is Memory Construct, not a separate display identity.
+
+Do not promote Memory Construct into this optional quest by inference; any additional reuse must be explicitly assigned during the later quest-encounter pass.
 
 Current boss:
 > **NONE**

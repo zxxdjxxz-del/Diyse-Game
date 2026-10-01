@@ -10,7 +10,7 @@ Current final roster:
 
 | Side Quest | Giver | Unlock | Area | Combat | EXP |
 |---|---|---|---|---|---:|
-| **The Marks We Leave** | Edda Harth | Ch1 after Torren joins | Greenhollow / Lower Woods | none required | 500 |
+| **The Marks We Leave** | Edda Harth | Ch1 after B08 Torren permanent join | Greenhollow / current nearby route area (map anchor open) | none required | 500 |
 | **A Measure of Bread** | Crown Princess Mirena Ceryth | after Ch3 | Caelora | none | 0 |
 | **The Crown's Debt** | Crown Princess Mirena Ceryth | after Ch7 | Ashford | none | 0 |
 | **The Third Caravan** | Talia Rell | after Ch8 | Greenhollow → Ashford recovery corridor | none required; optional route combat | 5,000 |
