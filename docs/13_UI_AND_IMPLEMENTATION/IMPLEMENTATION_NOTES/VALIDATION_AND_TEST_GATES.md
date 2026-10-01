@@ -73,7 +73,7 @@ When production UI is built, add tests for:
 - 3 Standard + 2 Prime slots;
 - no Accessory slot;
 - two-slot equipment commitments;
-- Auren display;
+- current **G** display and no player-facing Auren/Gold fallback;
 - current Prime availability/cooldown;
 - current names/terminology;
 - save-schema migrations;
