@@ -10,7 +10,7 @@ Economy authority:
 `12_ECONOMY_AND_REWARDS`
 
 ## Current currency
-> **Auren**
+> **G**
 
 ## Test goals
 - normal-route income can support ordinary consumable/equipment use without trivializing purchases;
@@ -21,14 +21,15 @@ Economy authority:
 - Vhalmarch is not a duplicate full superstore;
 - Cresthaven Quartermaster backfill works as authored.
 
-## Unresolved payouts
-Do not "test to an invented target" for still-open exact:
-- Side Quest cash packages;
-- Character Quest cash add-ons;
-- Hunt Auren payouts where open;
-- Kessara service fee.
+## Numeric-authority boundary
+The current economy is explicitly **rebuild/recalibration pending** in `12_ECONOMY_AND_REWARDS`.
 
-Those need design closure first.
+Do not test provisional G prices, payouts, fees, liquidity totals, or completionist-cash totals as final target oracles. Preserve structural exploit/flow tests now; rerun numeric affordability and sink calibration after the rebuilt economy is authored.
+
+Current open examples include:
+- Chapter-3 Memory Construct G payout;
+- final formation-level G remap where still open;
+- future recertification of quest/Hunt cash and Kessara service pricing.
 
 ## Exploit tests
 Check:
