@@ -1,6 +1,6 @@
 # Devourer of Names — Consumed Echo
 
-**Chapter:** 13 optional-Elite support  
+**Chapter:** 13 strong-normal support  
 **Encounter:** Devourer of Names  
 **Status:** **POWER COMPLETE / TEMPORARY CAPPED SUPPORT**
 
