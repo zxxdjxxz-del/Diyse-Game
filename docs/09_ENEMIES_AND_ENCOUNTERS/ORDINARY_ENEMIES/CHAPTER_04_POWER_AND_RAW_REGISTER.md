@@ -1,4 +1,4 @@
-# Chapter 4 — Ordinary / Elite / Protected Roster Power Register
+# Chapter 4 — Ordinary / Strong-Normal / Protected Roster Power Register
 
 **Status:** **REWORK PENDING / HISTORICAL-PROVISIONAL RAW-BODY INPUT**
 
