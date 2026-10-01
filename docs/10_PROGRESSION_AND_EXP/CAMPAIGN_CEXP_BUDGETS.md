@@ -1,7 +1,10 @@
 # Diyse — Campaign CEXP Budgets
 **v91 budget recalibration + v92 recruitment-aware proof correction:** 2026-08-29
 
-The CL1→CL13 curve remains **0→6,000 CEXP**. The campaign award stream, rather than the class threshold curve, is recalibrated so a correctly managed mandatory route finishes full Base + Subclass progression across approximately **Player Lv55–60**.
+> **STATUS — PROVISIONAL NUMERIC BASELINE / REBUILD PENDING.**  
+> All chapter CEXP awards in this file are retained for planning continuity only until the later campaign CEXP rebalance replaces and recertifies them.
+
+The current reference model uses **CL1→CL13 / 0→6,000 CEXP** and a campaign award stream intended to place full Base + Subclass completion around the **Player Lv55–60 target window**. These award totals remain provisional pending the planned CEXP rebuild.
 
 ## Pre-Volition
 Unchanged.
