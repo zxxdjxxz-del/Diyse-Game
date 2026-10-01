@@ -1,6 +1,6 @@
 # First Registrar's Shade
 
-**Chapter:** 7 strong normal-pool Elite  
+**Chapter:** 7 strong normal-pool enemy  
 **Architecture:** one HP bar  
 **Status:** **VALIDATED v83 / POWER COMPLETE / RAW LINE RETAINED**
 
@@ -61,7 +61,7 @@ Despite its prison/registry presentation, First Registrar's Shade cannot:
 - permanently remove commands;
 - alter save data.
 
-Standing Elite-strength target:
+Standing strong-normal fight-length target:
 > **roughly 2–4 serious party rounds**
 
 

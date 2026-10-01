@@ -1,6 +1,6 @@
 # Lord-Marshal Kharvek
 
-**Chapter:** 12 strong normal-pool Elite  
+**Chapter:** 12 strong normal-pool enemy  
 **Architecture:** one HP bar / finite ordinary support  
 **Status:** **POWER COMPLETE / RAW LINE RETAINED / FORMALLY VALIDATED v88 WITH PLACEMENT DEPENDENCY**
 
@@ -85,7 +85,7 @@ No:
 - extra ordinary action;
 - command-reading AI.
 
-Standing Elite-strength fight-length target:
+Standing strong-normal fight-length target:
 > **roughly 2–4 serious party rounds**
 
 

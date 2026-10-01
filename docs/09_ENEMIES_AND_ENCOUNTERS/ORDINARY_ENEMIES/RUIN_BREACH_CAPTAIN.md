@@ -1,5 +1,5 @@
 # Ruin Breach Captain
-**Chapter:** 9 strong normal-pool Elite — Crownfall theater  
+**Chapter:** 9 strong normal-pool enemy — Crownfall theater  
 **Architecture:** one HP bar  
 **Status:** **POWER COMPLETE / RAW LINE RETAINED**
 

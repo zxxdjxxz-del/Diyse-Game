@@ -12,7 +12,7 @@ Enemy identities are assigned to areas/ecologies first, not spread uniformly to 
 There is:
 - no minimum species quota per area;
 - no requirement for one new enemy in every content beat;
-- no requirement for one Elite per numbered chapter.
+- no requirement for one strong-normal enemy per numbered chapter.
 
 ## Carryover
 Earlier enemies may return later when:

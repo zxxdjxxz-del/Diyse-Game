@@ -74,7 +74,7 @@ This is a **chapter-role register**, so a recurring identity may appear in multi
 | 5 | Ordinary/carryover | Deepforge Lifter |
 | 5 | Ordinary/carryover | Molten Crawler |
 | 5 | Authored/protected | Highland Resistance Fighter — authored nonlethal |
-| 5 | Strong normal-pool Elite | Ruin Forgemaster |
+| 5 | Strong normal-pool enemy | Ruin Forgemaster |
 | 5 | Mandatory named/boss | Furnace Tyrant — one bar |
 | 5 | Mandatory named/boss | Deepforge Colossus — Assembly Frame → Worldsmith Body fresh |
 | 5 | Regional Hunt | Regional Hunt #5 — Whitehorn Ravager |
@@ -94,7 +94,7 @@ This is a **chapter-role register**, so a recurring identity may appear in multi
 | 6 | Authored/protected | Blood Husk — authored/special |
 | 6 | Authored/protected | Perfected Soldier — authored/special |
 | 6 | Authored/protected | Masked Ruin Vanguard — Seyrik — mandatory nonlethal/forced disengagement |
-| 6 | Strong normal-pool Elite | Crimson Progenitor |
+| 6 | Strong normal-pool enemy | Crimson Progenitor |
 | 6 | Mandatory named/boss | Crownstorm Roc — one bar / Perched Sovereign → Stormbound same-bar |
 | 6 | Mandatory named/boss | Matron Zevraya → Perfected War Mother — genuine fresh body |
 | 6 | Regional Hunt | Regional Hunt #6 — Winterglass Titan |
@@ -115,7 +115,7 @@ This is a **chapter-role register**, so a recurring identity may appear in multi
 | 7 | Authored/protected | Resistance Saboteur |
 | 7 | Authored/protected | Controlled Prisoner |
 | 7 | Authored/protected | Command-Seal Warden |
-| 7 | Strong normal-pool Elite | First Registrar's Shade |
+| 7 | Strong normal-pool enemy | First Registrar's Shade |
 | 7 | Mandatory named/boss | Chainworks Behemoth — one bar / Bound → Freed same-bar |
 | 7 | Mandatory named/boss | Warden of the Nameless / Revision Arbiter — one identity / one bar |
 | 7 | Regional Hunt | Regional Hunt #7 — Rift Gate Colossus |
@@ -129,7 +129,7 @@ This is a **chapter-role register**, so a recurring identity may appear in multi
 | 8 | Ordinary/carryover | Varkesh Tactician |
 | 8 | Ordinary/carryover | Conqueror Executioner — rare |
 | 8 | Support | Rift Echo — finite support |
-| 8 | Strong normal-pool Elite | Conqueror Legate |
+| 8 | Strong normal-pool enemy | Conqueror Legate |
 | 8 | Mandatory named/boss | Western Rift Engine — one bar / Engine Core → Rift Incarnate same-bar |
 | 8 | Mandatory named/boss | Marshal Varkesh → Rift Conqueror — genuine fresh body |
 | 8 | Regional Hunt | Regional Hunt #8 — Rift Siege Beast |
@@ -143,7 +143,7 @@ This is a **chapter-role register**, so a recurring identity may appear in multi
 | 9 | Ordinary/carryover | Siege Engineer — carryover |
 | 9 | Authored/protected | Mercy Warden — authored nonlethal |
 | 9 | Authored/protected | Relay-Fever Patient — authored nonlethal |
-| 9 | Strong normal-pool Elite | Ruin Breach Captain |
+| 9 | Strong normal-pool enemy | Ruin Breach Captain |
 | 9 | Mandatory named/boss | Equal Mercy Arbiter — one continuous HP bar |
 | 9 | Mandatory named/boss | Commander Rhazek — Reforged Commander → Bastion Devourer — genuine fresh body |
 | 9 | Regional Hunt | Regional Hunt #9 — Mercyfallen Behemoth |
@@ -170,7 +170,7 @@ This is a **chapter-role register**, so a recurring identity may appear in multi
 | 11 | Support | Perception Node |
 | 11 | Support | Ruin Containment Seal |
 | 11 | Authored/protected | Crown Engine Technician — protected authored nonlethal |
-| 11 | Strong normal-pool Elite | Perfect Administrator |
+| 11 | Strong normal-pool enemy | Perfect Administrator |
 | 11 | Mandatory named/boss | Chancellor Othmar Calder — Protector of Continuity → Crown-Bound Living Anchor — genuine fresh body |
 | 11 | Mandatory named/boss | The Custodian — one bar / Administrative Closure → Open Reconciliation at 45%; Perception Node + Ruin Containment Seal supports |
 | 11 | Regional Hunt | Regional Hunt #10 — Authority Remnant |
@@ -192,7 +192,7 @@ This is a **chapter-role register**, so a recurring identity may appear in multi
 | 12 | Support | Authority Attendant Frame — Regional Hunt support |
 | 12 | Support | Renewal Attendant Frame — Regional Hunt support |
 | 12 | Authored/protected | Compelled Relay Bearer — protected authored nonlethal |
-| 12 | Strong normal-pool Elite | Lord-Marshal Kharvek |
+| 12 | Strong normal-pool enemy | Lord-Marshal Kharvek |
 | 12 | Mandatory named/boss | Marshal Varkesh — Final Capture — one bar / two-Beacon 20% capture-floor architecture |
 | 12 | Mandatory named/boss | Emperor Vaelkor Draeven — Emperor of the Reforged Host → Sovereign Panoply Unbound — genuine fresh body |
 | 12 | Regional Hunt | Regional Hunt #11 — Throne of Emperor Vaelkor: Sealed Throne → Walking Throne fresh |
@@ -207,7 +207,7 @@ This is a **chapter-role register**, so a recurring identity may appear in multi
 | 13 | Ordinary/carryover | Calamity Memory |
 | 13 | Support | Heart Manifestation — max1 / HP1,100 / Power N/A / same Entity continuity |
 | 13 | Support | Unbound Shard — max2 / HP1,050 each / Power N/A / same Entity continuity |
-| 13 | Strong normal-pool Elite | Devourer of Names |
+| 13 | Strong normal-pool enemy | Devourer of Names |
 | 13 | Mandatory named/boss | Last Weapon Archon — one bar; Archive Authority → Weapon Protocol Unsealed at 60% |
 | 13 | Mandatory named/boss | Reconstituted Entity → The Last Command — exactly two genuine full-health forms; final HP pacing adjusted / supports capped |
 
@@ -262,7 +262,7 @@ Chapter-0 current firewall:
 - no injured Iron Cohort Soldier.
 
 ## Chapter-2 Power-pass status
-Chapter-2 ordinary / authored / Elite batch:
+Chapter-2 ordinary / authored / strong-normal batch:
 > **PASS**
 
 Current roster has been structurally revised after the historical Power pass.
@@ -327,7 +327,7 @@ Open work is numeric only:
 - mandatory-vs-completionist certification.
 
 ## Chapter-4 Power-pass status
-Chapter-4 ordinary roster / formation / Elite placement:
+Chapter-4 ordinary roster / formation / strong-normal placement:
 > **REWORK PENDING**
 
 The former Power pass is historical tuning evidence only and does not lock the redesigned Chapter-4 enemy layer.
@@ -357,7 +357,7 @@ Chapter 4 introduces:
 Regional Hunt #4 remains separate.
 
 ## Chapter-5 Power-pass status
-Chapter-5 ordinary / Elite / protected action pass:
+Chapter-5 ordinary / strong-normal / protected action pass:
 > **PASS**
 
 Complete:
@@ -383,7 +383,7 @@ Already separately complete:
 Regional Hunt #5 remains separate.
 
 ## Chapter-6 Power-pass status
-Chapter-6 ordinary / Elite / authored-special action pass:
+Chapter-6 ordinary / strong-normal / authored-special action pass:
 > **PASS**
 
 Complete ordinary/carryover:
@@ -405,7 +405,7 @@ Authored/special:
 - Blood Husk — Power-complete / placement bounded
 - Perfected Soldier — Power-complete / placement bounded
 
-Elite:
+Strong normal-pool enemy:
 - Crimson Progenitor — Power-complete
 
 Already separately complete:
@@ -420,7 +420,7 @@ No Poison/Blood status.
 Regional Hunt #6 remains separate.
 
 ## Chapter-7 Power-pass status
-Chapter-7 ordinary / Elite / authored-special action pass:
+Chapter-7 ordinary / strong-normal / authored-special action pass:
 > **PASS**
 
 Complete ordinary:
@@ -444,7 +444,7 @@ Authored/protected:
 - Controlled Prisoner — Power-complete / nonlethal / placement bounded
 - Command-Seal Warden — Power-complete / placement bounded
 
-Elite:
+Strong normal-pool enemy:
 - First Registrar's Shade — Power-complete
 
 Already separately complete:
@@ -456,7 +456,7 @@ Prison identity presentation does not erase permanent player state.
 Regional Hunt #7 remains separate.
 
 ## Chapter-8 Power-pass status
-Chapter-8 ordinary / Elite action pass:
+Chapter-8 ordinary / strong-normal action pass:
 > **PASS**
 
 Complete ordinary:
@@ -470,7 +470,7 @@ Complete ordinary:
 - Varkesh Tactician
 - Conqueror Executioner — rare
 
-Elite:
+Strong normal-pool enemy:
 - Conqueror Legate — Power-complete
 
 Current authored/protected roster:
@@ -488,7 +488,7 @@ No Spatial element, grid, rows, adjacency, hidden severance gauge, or extra-acti
 Regional Hunt #8 remains separate.
 
 ## Chapter-9 Power-pass status
-Chapter-9 ordinary / Elite / authored-protected action pass: **PASS**
+Chapter-9 ordinary / strong-normal / authored-protected action pass: **PASS**
 
 Complete:
 - Triage Automaton
@@ -522,14 +522,14 @@ Complete:
 - Command Ring Drone — Ch10
 
 New ordinary identities: **0**
-Optional Elite: **none — intentional**
+Separate Elite category: **none — intentional**
 Authored/protected: **none**
 Regional Hunt: **none**
 
 Registry Warden's existing status-neutral one-bar Power-complete certification is verified unchanged.
 
 ## Chapter-11 Power-pass status
-Chapter-11 ordinary / Elite / authored-protected action pass: **PASS**
+Chapter-11 ordinary / strong-normal / authored-protected action pass: **PASS**
 
 Ordinary complete:
 Crown Engine Sentinel; Continuity Adjudicator; Emergency Executor Frame; Administrative Sentinel; Permission Scribe; Might Bastion; Element Matrix; Grace Curator; Memory Schema.
@@ -537,7 +537,7 @@ Crown Engine Sentinel; Continuity Adjudicator; Emergency Executor Frame; Adminis
 Authored/protected:
 - Crown Engine Technician — Power-complete / nonlethal / placement bounded
 
-Elite:
+Strong normal-pool enemy:
 - Perfect Administrator — Power-complete
 
 Calder/Custodian supports and mandatory encounters remain separately complete and unchanged.
@@ -546,7 +546,7 @@ Face terminology does not grant enemy Card use.
 Regional Hunt #10 remains separate.
 
 ## Chapter-12 Power-pass status
-Chapter-12 ordinary / Elite / authored-protected action pass:
+Chapter-12 ordinary / strong-normal / authored-protected action pass:
 > **PASS**
 
 Ordinary complete:
@@ -565,7 +565,7 @@ Ordinary complete:
 Authored/protected:
 - Compelled Relay Bearer — Power-complete / nonlethal / never random
 
-Elite:
+Strong normal-pool enemy:
 - Lord-Marshal Kharvek — Power-complete / one finite Imperial Bulwark support
 
 Already separately complete:
@@ -578,7 +578,7 @@ Civilian populations remain non-default enemies.
 Regional Hunt #11 and its Attendant Frames remain separate.
 
 ## Chapter-13 Power-pass status
-Chapter-13 ordinary / Elite / final-support action pass:
+Chapter-13 ordinary / strong-normal / final-support action pass:
 > **PASS**
 
 Ordinary complete:
@@ -592,7 +592,7 @@ Ordinary complete:
 - Dying-Light Wisp
 - Calamity Memory
 
-Elite:
+Strong normal-pool enemy:
 - Devourer of Names — Power-complete
 - Consumed Echo — max1 temporary support / Power N/A
 

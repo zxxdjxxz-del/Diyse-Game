@@ -1,78 +1,67 @@
-# Crimson Progenitor
+# Ruin Forgemaster
 
-**Chapter:** 6 strong normal-pool Elite  
-**Identity:** engineered non-person organism  
-**Architecture:** one HP bar  
+**Chapter:** 5 strong normal-pool enemy  
 **Status:** **POWER COMPLETE / RAW LINE RETAINED**
 
 ## Raw body — RETAIN
 | Lv | HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR |
 |---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| 28 | **2,700** | **92** | **104** | **69** | **72** | **38** | 5 | 10 |
-
-No second form.
-No infinite brood loop.
+| 23 | **2,250** | **88** | **62** | **64** | **57** | **31** | 0 | 5 |
 
 ## Actions
 
-### Progenitor Rend
+### Forgemaster Hammer
 - one party member
 - Physical / Neutral
-- **245 Power**
+- **240 Power**
 - Base Hit100
-- **25% Bleed**
-- 1-round repetition lock
+- no harmful-status rider
 
-### Crimson Ruin
+### Ruin Temper
 - one party member
 - Hybrid / Ruin
 - **75% ATK / 25% MAG**
-- **250 Power**
+- **225 Power**
 - Base Hit100
-
-### Alteration Wave
-- all conscious party members
-- Magical / Colorless
-- **180 Power per target**
-- Base Hit95
+- **20% Staggered**
 - 2-round repetition lock
 
-### Warbody Crush
+### Cinder Break
 - one party member
-- Physical / Neutral
-- **270 Power**
-- Base Hit95
-- **25% Staggered**
+- Hybrid / Fire
+- **75% ATK / 25% MAG**
+- **210 Power**
+- Base Hit100
+- **25% Burn**
 - 2-round repetition lock
 
-### Adaptive Growth
+### Anvil Sweep
+- all conscious party members
+- Physical / Neutral
+- **175 Power per target**
+- Base Hit95
+- no harmful-status rider
+- 2-round repetition lock
+
+### Temper Armor
 > **Power: N/A — no direct damage**
 
-Effects:
-- Attack +10%
-- Magic +10%
-- Defense +10%
-- Spirit +10%
+Effect:
+> **Defense +15% / Spirit +15% through the end of the following round**
 
-through the end of the following round.
-
-No extra action.
 2-round repetition lock.
 
-## Firewall
-Biological/crimson presentation does not create:
-- Poison;
-- Blood status;
-- Blood element;
-- infinite healing;
-- infinite adds.
-
-Standing Elite-strength fight-length target:
+## Fight-length role
+Standing strong-normal fight-length target:
 > **roughly 2–4 serious party rounds**
+
+No second form.
+No support wave.
+No extra ordinary action.
 
 
 ## Normal-pool conversion — 2026-09-22
-Crimson Progenitor is no longer optional side content.
+Ruin Forgemaster is no longer optional side content.
 
 Current role:
 > **strong normal-pool enemy**

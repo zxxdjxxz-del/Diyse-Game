@@ -1,65 +1,78 @@
-# Conqueror Legate
-**Chapter:** 8 strong normal-pool Elite  
+# Crimson Progenitor
+
+**Chapter:** 6 strong normal-pool enemy  
+**Identity:** engineered non-person organism  
 **Architecture:** one HP bar  
 **Status:** **POWER COMPLETE / RAW LINE RETAINED**
 
 ## Raw body — RETAIN
 | Lv | HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR |
 |---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| 38 | **3,650** | **138** | **102** | **97** | **88** | **43** | 5 | 10 |
+| 28 | **2,700** | **92** | **104** | **69** | **72** | **38** | 5 | 10 |
+
+No second form.
+No infinite brood loop.
 
 ## Actions
-### Legate Cleave
+
+### Progenitor Rend
 - one party member
 - Physical / Neutral
-- **280 Power**
+- **245 Power**
 - Base Hit100
 - **25% Bleed**
 - 1-round repetition lock
 
-### Conqueror Verdict
-- one party member
-- Hybrid / Neutral
-- **50% ATK / 50% MAG**
-- **295 Power**
-- Base Hit100
-- **20% Staggered**
-- 2-round repetition lock
-
-### Rift Command
+### Crimson Ruin
 - one party member
 - Hybrid / Ruin
 - **75% ATK / 25% MAG**
-- **275 Power**
+- **250 Power**
 - Base Hit100
 
-### Legate Sweep
+### Alteration Wave
 - all conscious party members
-- Physical / Neutral
-- **205 Power per target**
+- Magical / Colorless
+- **180 Power per target**
 - Base Hit95
 - 2-round repetition lock
 
-### Command Posture
+### Warbody Crush
+- one party member
+- Physical / Neutral
+- **270 Power**
+- Base Hit95
+- **25% Staggered**
+- 2-round repetition lock
+
+### Adaptive Growth
 > **Power: N/A — no direct damage**
+
 Effects:
 - Attack +10%
 - Magic +10%
 - Defense +10%
 - Spirit +10%
+
 through the end of the following round.
+
 No extra action.
 2-round repetition lock.
 
-## Architecture firewall
-No second form, support wave, extra ordinary actions, command-reading AI, Spatial element, grid, rows, or adjacency system.
+## Firewall
+Biological/crimson presentation does not create:
+- Poison;
+- Blood status;
+- Blood element;
+- infinite healing;
+- infinite adds.
 
-Standing Elite-strength fight-length target:
+Standing strong-normal fight-length target:
 > **roughly 2–4 serious party rounds**
 
 
 ## Normal-pool conversion — 2026-09-22
-Conqueror Legate is no longer optional side content.
+Crimson Progenitor is no longer optional side content.
 
 Current role:
 > **strong normal-pool enemy**

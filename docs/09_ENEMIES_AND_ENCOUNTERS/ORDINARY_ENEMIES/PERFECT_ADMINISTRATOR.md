@@ -1,5 +1,5 @@
 # Perfect Administrator
-**Chapter:** 11 strong normal-pool Elite  
+**Chapter:** 11 strong normal-pool enemy  
 **Architecture:** one HP bar  
 **Status:** **POWER COMPLETE / RAW LINE RETAINED / FORMALLY VALIDATED v87**
 

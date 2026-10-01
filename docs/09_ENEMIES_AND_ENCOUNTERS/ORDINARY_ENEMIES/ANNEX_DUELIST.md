@@ -106,7 +106,7 @@ No extra action.
 2-round repetition lock.
 
 ## Fight-length role
-The standing Elite-strength target remains:
+The standing strong-normal fight-length target remains:
 > **roughly 2–4 serious party rounds**
 
 The four-state identity remains visible through HP thresholds without creating extra bodies.

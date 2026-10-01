@@ -1,6 +1,6 @@
 # Devourer of Names
 
-**Chapter:** 13 strong normal-pool Elite  
+**Chapter:** 13 strong normal-pool enemy  
 **Architecture:** one HP bar / one temporary capped Echo support  
 **Status:** **FORMALLY VALIDATED v89 / POWER COMPLETE / RAW LINE RETAINED**
 
@@ -98,7 +98,7 @@ No second form.
 No replacement Echo.
 No permanent-state erasure.
 
-Standing Elite-strength fight-length target:
+Standing strong-normal fight-length target:
 > **roughly 2–4 serious party rounds**
 
 

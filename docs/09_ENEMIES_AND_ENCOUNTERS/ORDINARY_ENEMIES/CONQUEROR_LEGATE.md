@@ -1,67 +1,65 @@
-# Ruin Forgemaster
-
-**Chapter:** 5 strong normal-pool Elite  
+# Conqueror Legate
+**Chapter:** 8 strong normal-pool enemy  
+**Architecture:** one HP bar  
 **Status:** **POWER COMPLETE / RAW LINE RETAINED**
 
 ## Raw body — RETAIN
 | Lv | HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR |
 |---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| 23 | **2,250** | **88** | **62** | **64** | **57** | **31** | 0 | 5 |
+| 38 | **3,650** | **138** | **102** | **97** | **88** | **43** | 5 | 10 |
 
 ## Actions
-
-### Forgemaster Hammer
+### Legate Cleave
 - one party member
 - Physical / Neutral
-- **240 Power**
+- **280 Power**
 - Base Hit100
-- no harmful-status rider
+- **25% Bleed**
+- 1-round repetition lock
 
-### Ruin Temper
+### Conqueror Verdict
 - one party member
-- Hybrid / Ruin
-- **75% ATK / 25% MAG**
-- **225 Power**
+- Hybrid / Neutral
+- **50% ATK / 50% MAG**
+- **295 Power**
 - Base Hit100
 - **20% Staggered**
 - 2-round repetition lock
 
-### Cinder Break
+### Rift Command
 - one party member
-- Hybrid / Fire
+- Hybrid / Ruin
 - **75% ATK / 25% MAG**
-- **210 Power**
+- **275 Power**
 - Base Hit100
-- **25% Burn**
-- 2-round repetition lock
 
-### Anvil Sweep
+### Legate Sweep
 - all conscious party members
 - Physical / Neutral
-- **175 Power per target**
+- **205 Power per target**
 - Base Hit95
-- no harmful-status rider
 - 2-round repetition lock
 
-### Temper Armor
+### Command Posture
 > **Power: N/A — no direct damage**
-
-Effect:
-> **Defense +15% / Spirit +15% through the end of the following round**
-
+Effects:
+- Attack +10%
+- Magic +10%
+- Defense +10%
+- Spirit +10%
+through the end of the following round.
+No extra action.
 2-round repetition lock.
 
-## Fight-length role
-Standing Elite-strength target:
-> **roughly 2–4 serious party rounds**
+## Architecture firewall
+No second form, support wave, extra ordinary actions, command-reading AI, Spatial element, grid, rows, or adjacency system.
 
-No second form.
-No support wave.
-No extra ordinary action.
+Standing strong-normal fight-length target:
+> **roughly 2–4 serious party rounds**
 
 
 ## Normal-pool conversion — 2026-09-22
-Ruin Forgemaster is no longer optional side content.
+Conqueror Legate is no longer optional side content.
 
 Current role:
 > **strong normal-pool enemy**
