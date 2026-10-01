@@ -48,7 +48,7 @@ Fixed completionist post-Zevraya reference:
 If Regional Hunt #6 is legally available and completed before this point:
 > approximately **79,400 EXP = Lv28**
 
-Optional Elite/incidental combat can push the extreme high side toward:
+Incidental optional combat can push the extreme high side toward:
 > **~Lv29**
 
 Balance references:
