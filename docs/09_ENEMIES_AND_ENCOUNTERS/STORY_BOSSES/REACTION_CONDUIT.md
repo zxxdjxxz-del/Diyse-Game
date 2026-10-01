@@ -11,7 +11,7 @@ End Chapter 3:
 > **14,400 mandatory EXP = Lv13**
 
 Mandatory fixed rewards before Reaction Conduit:
-- Elder Briarhide nonlethal resolution — 500 EXP
+- Elder Thornhide nonlethal resolution — 500 EXP
 - Vaelira recruitment / expedition milestone — 450 EXP
 
 Mandatory pre-Conduit total:
@@ -184,7 +184,7 @@ Target:
 - high-side ~Lv16 — **~5–6**
 - safety / heavy cleansing — **~9–10**
 
-This encounter is intentionally shorter than the First Command Warden and Rhazek fights.
+This encounter is intentionally shorter than the Authority Construct and Rhazek fights.
 
 Optional progression produces a visible duration advantage here.
 
