@@ -32,7 +32,7 @@ Current MP range:
 | Perception | **Predicted Impact** | 28 | Regional Hunt #9 — Mercyfallen Behemoth |
 | Perception | **Decisive Interval** | 36 | Major Hunt #5 — Final Archive Arbiter |
 | Memory | **Burden Shift** | 26 | Chapter 3 — protected Ancient repository |
-| Memory | **Reversal Engine** | 40 | Regional Hunt #3 — Archive Judgment Engine |
+| Memory | **Reversal Engine** | 40 | **OPEN / TBD — retired Regional Hunt #3 / Archive Judgment Engine source removed; replacement source not yet assigned** |
 | Memory | **Split Moment** | 48 | Chapter 7 — Warden of the Nameless / Revision Arbiter |
 | Ruin | **Calamity Lance** | 34 | Chapter 6 — Matron Zevraya |
 | Ruin | **Devouring Singularity** | 42 | Chapter 11 — Custodian reconciliation |
@@ -53,8 +53,9 @@ Current source state:
 - Iron Testament → Regional Hunt #7 / Rift Gate Colossus
 - Sunder the Gate → Regional Hunt #8 / Rift Siege Beast
 - Faultline Sight → **OPEN / TBD** because its former Hollow Watch Castellan source was retired from current Chapter 1 and no replacement source has yet been authored
+- Reversal Engine → **OPEN / TBD** because Regional Hunt #3 / Archive Judgment Engine is retired/open and no replacement source has yet been authored
 
-Do not invent a replacement Faultline Sight source merely to preserve an obsolete 24/24 placement claim.
+Do not invent replacement sources for Faultline Sight or Reversal Engine merely to preserve an obsolete 24/24 placement claim.
 
 ## Renamed/reclassified continuity
 - `Chosen Course` → **Measured Response**
