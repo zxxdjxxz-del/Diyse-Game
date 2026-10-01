@@ -1,13 +1,13 @@
 # Nimera — The Archive That Remembers
-**Migration baseline:** `Diyse_CURRENT_WORKING_TRACKER_CONSOLIDATED_2026-08-27_v85.md`  
-**Current whole-project written authority:** **v2.20 / Audit135**, plus later explicitly accepted tracker-level quest reductions/corrections and the already-migrated current story/world/progression domains.  
-**Quest architecture provenance:** compatible Audit103, superseded where later current working authority changes quest counts, boss distribution, geography, terminology, rewards, or final access timing.  
+**Historical migration provenance:** v85-era consolidated tracker.
+**Authority treatment:** this repository file is current quest-domain authority. Audit/v85 references remain provenance only; exact EXP/CEXP values are owned by `10_PROGRESSION_AND_EXP` and remain provisional pending the planned progression rebuild.
+**Historical quest-architecture provenance:** Audit103 plus later accepted quest reductions/corrections.
 **Domain rule:** this folder owns optional-activity identity, unlocks, objectives, route/area flow, quest-state outcomes, combat/no-combat classification, completion conditions, and world-state payoff. Exact enemy kits/stats live in `09_ENEMIES_AND_ENCOUNTERS`; exact EXP/CEXP in `10_PROGRESSION_AND_EXP`; item/equipment mechanics in `08_ITEMS_AND_EQUIPMENT`; exact dialogue in `03_DIALOGUE`.
 
 
 ## Unlock / runtime
 - after Chapter 8
-- ~30 minutes
+- runtime: **OPEN / provisional** — scope-driven; no uniform Character Quest duration target
 - parent hub: Cerythvale
 - site: **Palimpsest Archive**
 - local placement: north/northwest in older buried infrastructure
@@ -36,18 +36,17 @@ The archive preserves:
 - rejected drafts.
 
 ## Combat
-Current reusable ordinary identities retained for this quest:
-- Judgment Frame
-- Erasure Wisp
+Ordinary-enemy reuse:
+> **OPEN / current-owner assignment required**
 
-Additional archive-enemy reuse:
-> **OPEN / TBD**
+Do not pre-introduce the later Chapter-10 Judgment Frame / Erasure Wisp roster merely because older versions of this quest used those identities.
 
 Do not restore as current quest identities:
-- **Memory Scribe** — retired historical identity unless a later enemy owner explicitly reintroduces it;
-- **Archive Scribe Engine** — legacy filepath/name whose current owned identity is Memory Construct, not a separate display identity.
+- **Memory Scribe** — retired historical identity unless a later enemy owner explicitly reintroduces it.
 
-Do not promote Memory Construct into this optional quest by inference; any additional reuse must be explicitly assigned during the later quest-encounter pass.
+**Archive Scribe Engine** remains separately owned where current enemy authority uses it; it is **not currently assigned to this Character Quest**.
+
+Do not promote Memory Construct into this optional quest by inference. Any combat reuse must be explicitly assigned during the later quest-encounter pass with chronology respected.
 
 Current boss:
 > **NONE**
@@ -64,6 +63,6 @@ The final archival contradiction is between:
 Nimera resolves it by preserving the record while clearly marking which version is current.
 
 ## Reward
-- **8,000 Player EXP**
+- numeric progression rewards: owned by `10_PROGRESSION_AND_EXP`; current values are provisional pending rebuild
 - **Nimera Legacy Component**
 - no Last Scribe or mandatory-lore gate

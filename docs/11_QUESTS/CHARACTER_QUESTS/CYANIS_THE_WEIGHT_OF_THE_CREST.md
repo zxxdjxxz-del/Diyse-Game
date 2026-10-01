@@ -1,13 +1,13 @@
 # Cyanis — The Weight of the Crest
-**Migration baseline:** `Diyse_CURRENT_WORKING_TRACKER_CONSOLIDATED_2026-08-27_v85.md`  
-**Current whole-project written authority:** **v2.20 / Audit135**, plus later explicitly accepted tracker-level quest reductions/corrections and the already-migrated current story/world/progression domains.  
-**Quest architecture provenance:** compatible Audit103, superseded where later current working authority changes quest counts, boss distribution, geography, terminology, rewards, or final access timing.  
+**Historical migration provenance:** v85-era consolidated tracker.
+**Authority treatment:** this repository file is current quest-domain authority. Audit/v85 references remain provenance only; exact EXP/CEXP values are owned by `10_PROGRESSION_AND_EXP` and remain provisional pending the planned progression rebuild.
+**Historical quest-architecture provenance:** Audit103 plus later accepted quest reductions/corrections.
 **Domain rule:** this folder owns optional-activity identity, unlocks, objectives, route/area flow, quest-state outcomes, combat/no-combat classification, completion conditions, and world-state payoff. Exact enemy kits/stats live in `09_ENEMIES_AND_ENCOUNTERS`; exact EXP/CEXP in `10_PROGRESSION_AND_EXP`; item/equipment mechanics in `08_ITEMS_AND_EQUIPMENT`; exact dialogue in `03_DIALOGUE`.
 
 
 ## Unlock / runtime
 - after Chapter 7
-- ~30 minutes
+- runtime: **OPEN / provisional** — scope-driven; no uniform Character Quest duration target
 - parent hub: Cerythvale
 - site: **Crestline Relay**
 - local placement: west/southwest toward the populated interior
@@ -45,10 +45,10 @@ This is not:
 The trapped team remains alive.
 
 ## Combat
-Reused ordinary identities:
-- Command-Station Sentry
-- Authority Lens
-- Command Ring Drone
+Ordinary-enemy reuse:
+> **OPEN / current-owner assignment required**
+
+Do not restore the unowned **Command-Station Sentry** name, and do not pre-introduce later story enemy families merely to populate this quest. The later quest-encounter pass must select only currently owned identities whose chronology fits this unlock window.
 
 Boss:
 > **Crest-Exhausted Warden**
@@ -67,6 +67,6 @@ somehow excludes himself.
 The party restores distributed pathways, rescues the trapped team, and gets Cyanis out without replacing him with another sacrificial victim.
 
 ## Reward
-- **7,000 Player EXP**
+- numeric progression rewards: owned by `10_PROGRESSION_AND_EXP`; current values are provisional pending rebuild
 - **Cyanis Legacy Component**
 - no Last Sentinel / required-Ability gate

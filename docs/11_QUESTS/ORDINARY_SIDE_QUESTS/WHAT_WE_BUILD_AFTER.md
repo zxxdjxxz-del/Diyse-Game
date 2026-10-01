@@ -1,7 +1,7 @@
 # What We Build After
-**Migration baseline:** `Diyse_CURRENT_WORKING_TRACKER_CONSOLIDATED_2026-08-27_v85.md`  
-**Current whole-project written authority:** **v2.20 / Audit135**, plus later explicitly accepted tracker-level quest reductions/corrections and the already-migrated current story/world/progression domains.  
-**Quest architecture provenance:** compatible Audit103, superseded where later current working authority changes quest counts, boss distribution, geography, terminology, rewards, or final access timing.  
+**Historical migration provenance:** v85-era consolidated tracker.
+**Authority treatment:** this repository file is current quest-domain authority. Audit/v85 references remain provenance only; exact EXP/CEXP values are owned by `10_PROGRESSION_AND_EXP` and remain provisional pending the planned progression rebuild.
+**Historical quest-architecture provenance:** Audit103 plus later accepted quest reductions/corrections.
 **Domain rule:** this folder owns optional-activity identity, unlocks, objectives, route/area flow, quest-state outcomes, combat/no-combat classification, completion conditions, and world-state payoff. Exact enemy kits/stats live in `09_ENEMIES_AND_ENCOUNTERS`; exact EXP/CEXP in `10_PROGRESSION_AND_EXP`; item/equipment mechanics in `08_ITEMS_AND_EQUIPMENT`; exact dialogue in `03_DIALOGUE`.
 
 
@@ -12,7 +12,7 @@
 - runtime: ~15–20 minutes
 - boss: none
 - combat: none
-- EXP: **14,500**
+- numeric progression rewards: owned by `10_PROGRESSION_AND_EXP`; current values are provisional pending rebuild
 
 ## Mirena's ordinary-quest arc
 1. **A Measure of Bread** — see people accurately.
@@ -82,6 +82,6 @@ After completion:
 - NPC chatter/placement reflects future planning.
 
 ## Reward boundary
-- **14,500 Player EXP**
+- numeric progression rewards: owned by `10_PROGRESSION_AND_EXP`; current values are provisional pending rebuild
 - exact currency/Consumables belong in `12`
 - no unique weapon/Relic/Legacy/Card

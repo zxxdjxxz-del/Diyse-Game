@@ -1,7 +1,7 @@
 # A Measure of Bread
-**Migration baseline:** `Diyse_CURRENT_WORKING_TRACKER_CONSOLIDATED_2026-08-27_v85.md`  
-**Current whole-project written authority:** **v2.20 / Audit135**, plus later explicitly accepted tracker-level quest reductions/corrections and the already-migrated current story/world/progression domains.  
-**Quest architecture provenance:** compatible Audit103, superseded where later current working authority changes quest counts, boss distribution, geography, terminology, rewards, or final access timing.  
+**Historical migration provenance:** v85-era consolidated tracker.
+**Authority treatment:** this repository file is current quest-domain authority. Audit/v85 references remain provenance only; exact EXP/CEXP values are owned by `10_PROGRESSION_AND_EXP` and remain provisional pending the planned progression rebuild.
+**Historical quest-architecture provenance:** Audit103 plus later accepted quest reductions/corrections.
 **Domain rule:** this folder owns optional-activity identity, unlocks, objectives, route/area flow, quest-state outcomes, combat/no-combat classification, completion conditions, and world-state payoff. Exact enemy kits/stats live in `09_ENEMIES_AND_ENCOUNTERS`; exact EXP/CEXP in `10_PROGRESSION_AND_EXP`; item/equipment mechanics in `08_ITEMS_AND_EQUIPMENT`; exact dialogue in `03_DIALOGUE`.
 
 
@@ -12,7 +12,7 @@
 - runtime: ~15 minutes
 - boss: none
 - combat: none
-- EXP: **0**
+- numeric progression rewards: owned by `10_PROGRESSION_AND_EXP`; current values are provisional pending rebuild
 
 ## Premise
 Caelora has enough food, but an old emergency distribution formula allocates bread/grain according to household counts that no longer match the displaced population.
@@ -61,6 +61,6 @@ Arc principle:
 > government must accurately see the people it governs.
 
 ## Reward boundary
-- **0 Player EXP**
+- numeric progression rewards: owned by `10_PROGRESSION_AND_EXP`; current values are provisional pending rebuild
 - exact currency/Consumables deferred to `12`
 - no unique equipment/Card

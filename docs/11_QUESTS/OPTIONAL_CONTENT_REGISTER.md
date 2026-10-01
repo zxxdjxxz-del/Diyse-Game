@@ -1,28 +1,23 @@
 # Diyse — Optional Content Register
-**Migration baseline:** `Diyse_CURRENT_WORKING_TRACKER_CONSOLIDATED_2026-08-27_v85.md`  
-**Current whole-project written authority:** **v2.20 / Audit135**, plus later explicitly accepted tracker-level quest reductions/corrections and the already-migrated current story/world/progression domains.  
-**Quest architecture provenance:** compatible Audit103, superseded where later current working authority changes quest counts, boss distribution, geography, terminology, rewards, or final access timing.  
+**Historical migration provenance:** v85-era consolidated tracker.
+**Authority treatment:** this repository file is current quest-domain authority. Audit/v85 references remain provenance only; exact EXP/CEXP values are owned by `10_PROGRESSION_AND_EXP` and remain provisional pending the planned progression rebuild.
+**Historical quest-architecture provenance:** Audit103 plus later accepted quest reductions/corrections.
 **Domain rule:** this folder owns optional-activity identity, unlocks, objectives, route/area flow, quest-state outcomes, combat/no-combat classification, completion conditions, and world-state payoff. Exact enemy kits/stats live in `09_ENEMIES_AND_ENCOUNTERS`; exact EXP/CEXP in `10_PROGRESSION_AND_EXP`; item/equipment mechanics in `08_ITEMS_AND_EQUIPMENT`; exact dialogue in `03_DIALOGUE`.
 
 
-| Family | Count | Current authored Player EXP |
-|---|---:|---:|
-| Ordinary Side Quests | **5** | **20,000** |
-| Character Quests | **6** | **55,000** |
-| Regional Hunts | **11** | **70,000** |
-| Major Hunts | **6** | MH1–5 = **50,000** for cap proof; MH6 = 24,000 additional |
+| Family | Current active count |
+|---|---:|
+| Ordinary Side Quests | **5** |
+| Character Quests | **6** |
+| Regional Hunts | **8** |
+| Major Hunts | **6** |
 
-Total optional activities/routes:
-> **28**
+Total current optional activities/routes:
+> **25**
 
-## Level-70 proof boundary
-The pre-Last-Shelter proof pool uses:
-- 5 Side Quests;
-- 6 Character Quests;
-- 11 Regional Hunts;
-- Major Hunts #1–5.
+## Progression-reward boundary
+Exact Player EXP/CEXP values and any Level-70 completionist proof belong to `10_PROGRESSION_AND_EXP`.
 
-Authored proof-pool EXP:
-> **195,000**
+This quest register must not duplicate or freeze numeric reward totals while the progression rebuild is pending.
 
-Major Hunt #6 is optional beyond that proof and is not required to demonstrate grind-free Level 70.
+Retired Regional Hunt slots #1–#3 are not counted as current optional activities.
