@@ -1,9 +1,9 @@
 # Diyse — Chapter 13 Enemies — The Last Command / Final Domain
 **Migration baseline:** `Diyse_CURRENT_WORKING_TRACKER_CONSOLIDATED_2026-08-27_v85.md`  
-**Primary enemy-production authority:** compatible **Audit90 / Audit93** plus accepted later tracker roster/action cleanups.  
-**Primary raw-stat authority:** **Audit129 + Audit130 / Audit131 / Audit132 / Audit133 / Audit134 / Audit135**.  
-**Current whole-project written authority:** **v2.20 / Audit135**.  
-**Migration rule:** later current names, chapter reindexing, four-element rules, removed-system firewalls, and fresh-body Prime-refresh rules supersede stale earlier enemy text.
+**Historical enemy-production provenance:** Audit90/Audit93 plus later tracker-era roster/action cleanups.
+**Historical raw-stat provenance:** Audit129–Audit135.
+**Authority treatment:** this chapter file is current enemy roster/placement authority; Audit/v85 references remain historical provenance only.
+**Migration rule:** current repository names, chapter placement, system firewalls, and Prime-restoration rules supersede conflicting historical enemy text.
 
 
 ## Ordinary / repeatable
@@ -39,7 +39,7 @@
 - Major Hunt #6 is separate optional content and must be completed before the final point of no return if desired.
 - Hunger/Ruin/Silence/Fear are Aspects of the single Reconstituted Entity continuity, not separate surviving Entity souls/fragments.
 - No third final-boss form, hidden copy, escape fragment, or surviving branch.
-- Chapter-13 broad ordinary / Elite / final-support Power pass: **PASS**.
+- Chapter-13 broad ordinary / strong-normal / final-support Power pass: **PASS**.
 - Chapter-13 mandatory-vs-completionist balance: **PASS / VALIDATED v89**.
 - Last Shelter is the Lv60 true-PONR preparation boundary; final boss is validated at Lv61 mandatory / Lv70 completionist.
 
@@ -69,7 +69,7 @@ No permanent name/identity/progression erasure.
 ## Numerical boundary
 Chapter-13 ordinary raw bodies are now active-balance authority in individual files.
 
-Devourer of Names retains its inherited Elite-strength raw line and is **FORMALLY VALIDATED v89**.
+Devourer of Names retains its inherited strong-normal raw line and is **FORMALLY VALIDATED v89**.
 
 Last Weapon Archon and Reconstituted Entity → The Last Command remain separately owned and are **FORMALLY VALIDATED v89** with no numerical change.
 

@@ -1,9 +1,9 @@
 # Diyse — Chapter 11 Enemies — Crown Engine / Calder / Custodian / Truth
 **Migration baseline:** `Diyse_CURRENT_WORKING_TRACKER_CONSOLIDATED_2026-08-27_v85.md`  
-**Primary enemy-production authority:** compatible **Audit90 / Audit93** plus accepted later tracker roster/action cleanups.  
-**Primary raw-stat authority:** **Audit129 + Audit130 / Audit131 / Audit132 / Audit133 / Audit134 / Audit135**.  
-**Current whole-project written authority:** **v2.20 / Audit135** plus newer accepted corrections.  
-**Migration rule:** later current names, chapter reindexing, four-element rules, removed-system firewalls, and current Prime-restoration rules supersede stale earlier enemy text.
+**Historical enemy-production provenance:** Audit90/Audit93 plus later tracker-era roster/action cleanups.
+**Historical raw-stat provenance:** Audit129–Audit135.
+**Authority treatment:** this chapter file is current enemy roster/placement authority; Audit/v85 references remain historical provenance only.
+**Migration rule:** current repository names, chapter placement, system firewalls, and Prime-restoration rules supersede conflicting historical enemy text.
 
 ## Ordinary / repeatable
 - Crown Engine Sentinel
@@ -38,7 +38,7 @@
 ## Current notes
 - Current Chapter 11; historical pre-insertion sources may label this material Chapter 10.
 - Use current **Perception / Memory** Face terminology; Acuity and Face-name Change are retired.
-- Chapter-11 broad ordinary / Elite / authored-protected Power pass: **PASS**.
+- Chapter-11 broad ordinary / strong-normal / authored-protected Power pass: **PASS**.
 - Chapter-11 mandatory-vs-completionist balance: **PASS / VALIDATED v87**.
 - Approved opening/middle/late formation compositions/weights restored in `../ENCOUNTER_FORMATIONS/CHAPTER_11_FORMATIONS.md`.
 - Chapter 11 introduces no new harmful status.
@@ -59,7 +59,7 @@ One bar. No support wave. No permanent player-state erasure.
 ## Numerical boundary
 Chapter-11 ordinary raw bodies are now active-balance authority in individual files.
 
-Perfect Administrator retains its inherited Elite-strength raw line.
+Perfect Administrator retains its inherited strong-normal raw line.
 
 Mandatory Calder/Custodian and support-object authority remains separately owned and is **FORMALLY VALIDATED v87** with no numerical change.
 

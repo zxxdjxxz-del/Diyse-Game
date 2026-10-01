@@ -1,6 +1,6 @@
 # Diyse — Chapter 03 Enemies — Caelora / Old City Archives / Cresthaven Tower Base
 
-**Current whole-project written authority:** v2.20 / Audit135, plus later explicit user corrections.  
+**Authority treatment:** this chapter file is current enemy roster/placement authority; Audit/v85 references remain historical provenance only.
 **Current Chapter-3 story authority:** `../../02_STORY/CHAPTERS/CHAPTER_03.md`.  
 **Ordinary-enemy roster authority:** **LOCKED — September 27, 2026.**  
 **Numeric status:** **DEFERRED — raw-stat tuning, final selection weights, encounter frequencies, and difficulty certification remain downstream.**
@@ -99,7 +99,7 @@ Previously retired Chapter-3 identities remain retired:
 - Rift Boltman
 - Black Host Ward-Sorcerer
 
-This retirement is **Chapter-3 placement only**. It does not automatically delete those identities from other chapters or historical/reference files.
+This retirement is **Chapter-3 placement only**. It does not override any separately current later-chapter reuse; retired-only snapshots need not remain in the active tree.
 
 # Mandatory named / bosses
 

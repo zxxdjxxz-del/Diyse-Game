@@ -1,9 +1,9 @@
 # Diyse — Chapter 04 Enemies — REWORK BOUNDARY
 **Migration baseline:** `Diyse_CURRENT_WORKING_TRACKER_CONSOLIDATED_2026-08-27_v85.md`  
-**Primary enemy-production authority:** compatible **Audit90 / Audit93** plus accepted later tracker roster/action cleanups.  
-**Primary raw-stat authority:** **Audit129 + Audit130 / Audit131 / Audit132 / Audit133 / Audit134 / Audit135**.  
-**Current whole-project written authority:** **v2.20 / Audit135**.  
-**Migration rule:** later current names, chapter reindexing, four-element rules, removed-system firewalls, and the current **no form-transition Prime refresh** rule supersede stale earlier enemy text.
+**Historical enemy-production provenance:** Audit90/Audit93 plus later tracker-era roster/action cleanups.
+**Historical raw-stat provenance:** Audit129–Audit135.
+**Authority treatment:** this chapter file is current enemy roster/placement authority; Audit/v85 references remain historical provenance only.
+**Migration rule:** current repository names, chapter placement, system firewalls, and Prime-restoration rules supersede conflicting historical enemy text.
 
 
 ## Ordinary / repeatable — REWORK PENDING
@@ -43,7 +43,7 @@ The current Chapter-4 story authority explicitly allows Annex Duelist to remain 
 - `Elemental Hexarch` is retired; use Reaction Conduit.
 - Do not restore six-state Annex Duelist wording; current Duelist uses four standard elemental states.
 - Regulation Crucible Form I has four chambers, exactly two active/targetable at once.
-- Chapter-4 broad ordinary/Elite/protected Power pass is **reopened** because the enemy roster/formations still require rework.
+- Chapter-4 broad ordinary/strong-normal/protected Power pass is **reopened** because the enemy roster/formations still require rework.
 - Freeze is introduced in Chapter 4.
 
 Summary:

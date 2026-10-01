@@ -1,9 +1,9 @@
 # Diyse — Chapter 10 Enemies — The Last Blank
 **Migration baseline:** `Diyse_CURRENT_WORKING_TRACKER_CONSOLIDATED_2026-08-27_v85.md`  
-**Primary enemy-production authority:** compatible **Audit90 / Audit93** plus accepted later tracker roster/action cleanups.  
-**Primary raw-stat authority:** **Audit129 + Audit130 / Audit131 / Audit132 / Audit133 / Audit134 / Audit135**.  
-**Current whole-project written authority:** **v2.20 / Audit135**.  
-**Migration rule:** later current names, chapter reindexing, four-element rules, removed-system firewalls, and fresh-body Prime-refresh rules supersede stale earlier enemy text.
+**Historical enemy-production provenance:** Audit90/Audit93 plus later tracker-era roster/action cleanups.
+**Historical raw-stat provenance:** Audit129–Audit135.
+**Authority treatment:** this chapter file is current enemy roster/placement authority; Audit/v85 references remain historical provenance only.
+**Migration rule:** current repository names, chapter placement, system firewalls, and Prime-restoration rules supersede conflicting historical enemy text.
 
 
 ## Ordinary / repeatable
@@ -34,7 +34,7 @@
 ## Current notes
 - Exactly 8 default reused ordinary identities; 0 new ordinary identities required.
 - Chapter-10 reused-ordinary Power pass: **PASS**.
-- No approved strong normal-pool Elite in current Chapter 10.
+- No approved strong normal-pool enemy in current Chapter 10.
 - No authored/protected identities in current Chapter 10.
 - No Regional Hunt in current Chapter 10.
 - Eastern forest: Creeper/Boar; Eastern Wayfinder: Scribe/Frame/Wisp; Buried Registry: Sentry/Lens/Ring Drone; Judgment Frame may cross-use.
@@ -45,7 +45,7 @@ Summary:
 
 All eight remain established identities with Chapter-10 bodies; do not rename them into fake-new variants.
 
-Strong normal-pool Elite:
+Strong normal-pool enemy:
 > **none — intentional**
 
 Registry Warden:

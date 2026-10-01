@@ -1,9 +1,9 @@
 # Diyse — Chapter 05 Enemies — The Mountain Engine / Deepforge
 **Migration baseline:** `Diyse_CURRENT_WORKING_TRACKER_CONSOLIDATED_2026-08-27_v85.md`  
-**Primary enemy-production authority:** compatible **Audit90 / Audit93** plus accepted later tracker roster/action cleanups.  
-**Primary raw-stat authority:** **Audit129 + Audit130 / Audit131 / Audit132 / Audit133 / Audit134 / Audit135**.  
-**Current whole-project written authority:** **v2.20 / Audit135**.  
-**Migration rule:** later current names, chapter reindexing, four-element rules, removed-system firewalls, and fresh-body Prime-refresh rules supersede stale earlier enemy text.
+**Historical enemy-production provenance:** Audit90/Audit93 plus later tracker-era roster/action cleanups.
+**Historical raw-stat provenance:** Audit129–Audit135.
+**Authority treatment:** this chapter file is current enemy roster/placement authority; Audit/v85 references remain historical provenance only.
+**Migration rule:** current repository names, chapter placement, system firewalls, and Prime-restoration rules supersede conflicting historical enemy text.
 
 
 ## Ordinary / repeatable
@@ -34,7 +34,7 @@
 
 ## Current notes
 - Earlier Black Host bodies may appear only where occupation-road fiction/ecology fits.
-- Chapter-5 broad ordinary/Elite/protected Power pass: **PASS**.
+- Chapter-5 broad ordinary/strong-normal/protected Power pass: **PASS**.
 - Chapter 5 introduces no new harmful status.
 
 Summary:
@@ -67,7 +67,7 @@ Chapter-5 ordinary raw bodies are now newly authored active-balance authority in
 
 Furnace Servitor ordinary HP is 380; the Furnace Tyrant finite support instance remains HP280.
 
-Ruin Forgemaster retains its inherited Elite-strength raw line.
+Ruin Forgemaster retains its inherited strong-normal raw line.
 
 Mandatory named/boss raw authority remains separate and unchanged.
 

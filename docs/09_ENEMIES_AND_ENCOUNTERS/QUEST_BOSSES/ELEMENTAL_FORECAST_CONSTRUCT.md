@@ -126,6 +126,6 @@ Against the deliberately fragile no-equipment Green Arcanist reference:
 - Lv32: 260-Power Storm hit is approximately **18.4% Max HP**; 185-Power Stormfront is approximately **13.1% per target**;
 - Lv37: those checks fall to approximately **14.9%** and **10.6%**.
 
-6,200 HP places the boss above a Chapter-7 optional Elite but far below the post-Chapter-7 Major-Hunt body. Expected serious-party duration is approximately **5–6 rounds at immediate mandatory access** and **4–5 rounds for a strong completionist**, before affinity, Prime, Card, critical, and status variance.
+6,200 HP places the boss above a Chapter-7 strong normal-pool enemy but far below the post-Chapter-7 Major-Hunt body. Expected serious-party duration is approximately **5–6 rounds at immediate mandatory access** and **4–5 rounds for a strong completionist**, before affinity, Prime, Card, critical, and status variance.
 
 **Verdict:** **PASS / EXACT SHEET CLOSED v90**

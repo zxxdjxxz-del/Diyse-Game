@@ -1,9 +1,9 @@
 # Diyse — Chapter 12 Enemies — The Reforged March / Black Host Territory
 **Migration baseline:** `Diyse_CURRENT_WORKING_TRACKER_CONSOLIDATED_2026-08-27_v85.md`  
-**Primary enemy-production authority:** compatible **Audit90 / Audit93** plus accepted later tracker roster/action cleanups.  
-**Primary raw-stat authority:** **Audit129 + Audit130 / Audit131 / Audit132 / Audit133 / Audit134 / Audit135**.  
-**Current whole-project written authority:** **v2.20 / Audit135**.  
-**Migration rule:** later current names, chapter reindexing, four-element rules, removed-system firewalls, and fresh-body Prime-refresh rules supersede stale earlier enemy text.
+**Historical enemy-production provenance:** Audit90/Audit93 plus later tracker-era roster/action cleanups.
+**Historical raw-stat provenance:** Audit129–Audit135.
+**Authority treatment:** this chapter file is current enemy roster/placement authority; Audit/v85 references remain historical provenance only.
+**Migration rule:** current repository names, chapter placement, system firewalls, and Prime-restoration rules supersede conflicting historical enemy text.
 
 
 ## Ordinary / repeatable
@@ -44,7 +44,7 @@
 - Use BLACK HOST TERRITORY where the political/territorial label is intended.
 - Varkesh survives and is captured alive.
 - Vaelkor refuses surrender by agency; no possession reveal and no third form.
-- Chapter-12 broad ordinary / Elite / authored-protected Power pass: **PASS**.
+- Chapter-12 broad ordinary / strong-normal / authored-protected Power pass: **PASS**.
 - Chapter-12 mandatory-vs-completionist balance: **PASS / VALIDATED v88**.
 - Recovered nine-formation composition set and 30/45/25 phase weights are retained; missing per-action percentages use `../ACTION_SELECTION_DEFAULT.md` unless explicitly authored.
 - Civilian populations remain distinct from the imperial war machine and are not default enemies.
@@ -75,7 +75,7 @@ No support respawn or transformation.
 ## Numerical boundary
 Chapter-12 ordinary raw bodies are now active-balance authority in individual files.
 
-Lord-Marshal Kharvek retains its inherited Elite-strength raw line and is **FORMALLY VALIDATED v88**; exact within-chapter placement remains story-owned.
+Lord-Marshal Kharvek retains its inherited strong-normal raw line and is **FORMALLY VALIDATED v88**; exact within-chapter placement remains story-owned.
 
 Mandatory Varkesh/Vaelkor and their support authority remains separately owned and is **FORMALLY VALIDATED v88** with no numerical change.
 
