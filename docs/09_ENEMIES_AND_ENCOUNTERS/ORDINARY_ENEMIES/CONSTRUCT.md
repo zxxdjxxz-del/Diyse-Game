@@ -13,7 +13,7 @@ Construct is the current basic Hollow Watch ancient-defense identity.
 - the underground section is short and does not require a larger Chapter-1 construct catalogue.
 
 ## Historical-source boundary
-Old Watch Sentry / Watch Ballista / Watch Captain Frame bodies may inform later tuning only as historical reference. Their old linked formation grammar and identities are not current Chapter-1 authority.
+Watch Sentry / Watch Ballista / Watch Captain Frame are retired historical designs recorded centrally in `../RETIRED_ENEMY_TERMINOLOGY_FIREWALL.md`. Do not import their linked targeting/ballista formation grammar into the current Chapter-1 Construct kit unless explicitly reopened.
 
 ## Mechanical boundary
 Final current raw stats, action kit, status immunities/resistances, EXP/CEXP/G, and difficulty remain open for Chapter-1 numeric validation.
