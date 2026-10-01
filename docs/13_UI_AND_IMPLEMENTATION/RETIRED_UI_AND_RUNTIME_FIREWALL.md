@@ -48,5 +48,5 @@ Do not ship proof names as final content:
 ## Old progression UI
 Do not expose the Audit123-era 8-point Mastery schedule.
 
-Current v85:
+Current repository authority:
 > automatic Masteries by Class Level.
