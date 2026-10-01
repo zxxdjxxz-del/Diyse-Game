@@ -1,8 +1,8 @@
 # Diyse — Named / Story EXP + CEXP — Chapters 5–8
-**Migration baseline:** `Diyse_CURRENT_WORKING_TRACKER_CONSOLIDATED_2026-08-27_v85.md`  
-**Primary master-canon progression chain:** **Audit123 / Audit124 / Audit125 / Audit126 / Audit127 / Audit128**, plus compatible later raw-stat audits.  
-**Current whole-project written authority:** **v2.20 / Audit135**.  
-**Current working override:** v85 Sections 220–225 remove the **Mastery Point** currency and make Masteries automatic Class-Level unlocks. This newer working lock is preserved as current working authority pending formal promotion.
+**Historical migration provenance:** v85-era consolidated tracker.
+**Historical progression provenance:** Audit123–Audit128 plus compatible later raw-stat audits.
+**Authority treatment:** this repository file is current progression-domain authority; Audit/v85 references remain provenance only. Numeric reward/budget tables remain provisional where marked pending the planned progression rebuild.
+**Current structural rule:** Mastery Points do not exist; Masteries unlock automatically from Class Level under current repository class/progression authority.
 
 Fixed one-time authored rewards. They are exempt from weak-enemy diminishing returns.
 

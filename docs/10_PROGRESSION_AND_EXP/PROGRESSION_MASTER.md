@@ -1,8 +1,8 @@
 # Diyse — Progression Master
-**Migration baseline:** `Diyse_CURRENT_WORKING_TRACKER_CONSOLIDATED_2026-08-27_v85.md`  
-**Primary master-canon progression chain:** **Audit123 / Audit124 / Audit125 / Audit126 / Audit127 / Audit128**, plus compatible later raw-stat audits.  
-**Current whole-project written authority:** **v2.20 / Audit135**.  
-**Current working override:** v85 Sections 220–225 remove the **Mastery Point** currency and make Masteries automatic Class-Level unlocks. This newer working lock is preserved as current working authority pending formal promotion.
+**Historical migration provenance:** v85-era consolidated tracker.
+**Historical progression provenance:** Audit123–Audit128 plus compatible later raw-stat audits.
+**Authority treatment:** this repository file is current progression-domain authority; Audit/v85 references remain provenance only. Numeric reward/budget tables remain provisional where marked pending the planned progression rebuild.
+**Current structural rule:** Mastery Points do not exist; Masteries unlock automatically from Class Level under current repository class/progression authority.
 
 
 ## Player Level
@@ -31,7 +31,7 @@ Provisional planning values:
 - the existing Player-Level spine is retained as a reference baseline pending rebuild;
 - CL13 currently uses **6,000 cumulative CEXP** as the reference threshold;
 - post-Volition mandatory CEXP is currently modeled as **7,000 by end Ch12** and **8,500 by Last Shelter**;
-- optional CEXP is currently modeled as **1,000 before MH6 / 1,075 including MH6**;
+- optional CEXP totals are owned by `OPTIONAL_CEXP.md` and remain provisional pending rebuild;
 - Last Shelter is currently modeled near ~Lv60;
 - normal ending is currently modeled near ~Lv62;
 - player cap remains structurally **Lv70**.

@@ -8,7 +8,7 @@
 Both Base and Subclass remain:
 > **CL1 → CL13 / 0 → 6,000 cumulative CEXP**
 
-The v91 campaign CEXP totals are retained as the current provisional planning baseline. v92 corrects the character-by-character recruitment arithmetic within that historical/reference model.
+The v91/v92 campaign CEXP totals are retained only as a historical planning model. Current chapter reward structure has already diverged from that model, so these completion centers must not drive implementation until the planned CEXP rebuild recertifies the stream.
 
 ## Corrected Volition centers
 | Character | Base CEXP at Volition | Base deficit | Fresh Subclass | Total post-Volition CEXP needed |

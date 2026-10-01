@@ -1,8 +1,8 @@
 # Diyse — Mandatory EXP / CEXP by Chapter
-**Migration baseline:** `Diyse_CURRENT_WORKING_TRACKER_CONSOLIDATED_2026-08-27_v85.md`  
-**Primary master-canon progression chain:** **Audit123 / Audit124 / Audit125 / Audit126 / Audit127 / Audit128**, plus compatible later raw-stat audits.  
-**Current whole-project written authority:** **v2.20 / Audit135**.  
-**Current working override:** v85 Sections 220–225 remove the **Mastery Point** currency and make Masteries automatic Class-Level unlocks. This newer working lock is preserved as current working authority pending formal promotion.
+**Historical migration provenance:** v85-era consolidated tracker.
+**Historical progression provenance:** Audit123–Audit128 plus compatible later raw-stat audits.
+**Authority treatment:** this repository file is current progression-domain authority; Audit/v85 references remain provenance only. Numeric reward/budget tables remain provisional where marked pending the planned progression rebuild.
+**Current structural rule:** Mastery Points do not exist; Masteries unlock automatically from Class Level under current repository class/progression authority.
 
 > **NUMERIC STATUS — PROVISIONAL PLANNING TABLE.**  
 > EXP, CEXP, chapter totals, encounter-count centers, and derived end-level projections below are scheduled for later rebalance. Preserve the table as the current reference baseline, not as final certification.
@@ -33,6 +33,9 @@ Totals:
 - ordinary encounter planning center: **225**
 
 This is a pacing architecture, not a requirement to force a fixed number of random battles.
+
+### Chapter-3 structural warning
+The Chapter-3 **8,000 EXP / 550 CEXP** row still contains historical reward arithmetic from the retired lawful-authority confrontation branch and does not yet allocate a current reward for the Memory Construct. It is therefore a **provisional historical envelope, not an implementable exact event sum**. Do not invent replacement/top-up rewards; the planned progression rebuild must replace and recertify this row against the current Chapter-3 route.
 
 
 ## Chapter-1 progression-note — current structural correction
