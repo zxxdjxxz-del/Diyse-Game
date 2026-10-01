@@ -8,7 +8,7 @@
 ## Identity
 - giver: **Edda Harth**
 - start: Greenhollow
-- unlock: Chapter 1 immediately after Torren permanently joins in S009
+- unlock: Chapter 1 immediately after Torren permanently joins in **B08**
 - runtime: ~15 minutes
 - boss: none
 - required combat: none
@@ -16,17 +16,22 @@
 
 ## Current area reuse
 The quest reuses:
-- Greenhollow
-- existing **Lower Woods** geography from S009
+- Greenhollow;
+- a **current Greenhollow-adjacent route area** selected from the final Chapter-1 map implementation.
 
-Do **not** create separate field maps for retired v482 labels:
-- Old Fern Path
-- Creek Crossing
-- North Marker
-- Shelter Spur
+Do **not** restore the retired S009 / Lower Woods recruitment geography solely for this quest.
+
+Also do **not** create separate field maps for retired v482 labels:
+- Lower Woods;
+- Old Fern Path;
+- Creek Crossing;
+- North Marker;
+- Shelter Spur.
+
+Exact field-space anchoring remains **OPEN for the Chapter-1 map pass**.
 
 ## Premise
-After S009, the Lower Woods route has just been proven unreliable:
+After B08, Edda identifies three current civilian-route maintenance problems around Greenhollow:
 - at least one marker was moved;
 - weather changed footing;
 - the damaged cart route is still used;
@@ -34,11 +39,11 @@ After S009, the Lower Woods route has just been proven unreliable:
 
 Edda wants the civilian route corrected before someone follows the wrong marks.
 
-This is a direct maintenance aftermath to S009, not a second unrelated crisis.
+This remains a compact Greenhollow maintenance quest, but it no longer depends on the retired S009 / Lower Woods recruitment event.
 
 ## Objective flow
 1. Review Edda's Greenhollow route board and three maintenance problems.
-2. Re-enter the existing Lower Woods.
+2. Enter the selected current Greenhollow-adjacent route area once its map anchor is finalized.
 3. Reset the deliberately moved marker to the correct route.
 4. Verify changed ground/seasonal conditions and update the appropriate marker information rather than restoring stale instructions.
 5. Check the damaged cart/branch condition and make the route's real limitation readable.
@@ -51,10 +56,10 @@ Torren may identify/correct route information naturally, but Edda remains the ro
 The quest spawns:
 > **0 mandatory encounters**
 
-Normal incidental route combat may use the existing western ecology:
-- Greenhollow Stalker
-- Thornvine Creeper
-- Briar Boar
+Normal incidental route combat may use the current Chapter-1 western ecology:
+- Thicket Stalker
+- Vine Creeper
+- Bullhog
 
 No new enemy/boss.
 
