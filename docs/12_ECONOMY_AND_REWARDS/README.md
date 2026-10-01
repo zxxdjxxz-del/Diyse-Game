@@ -14,7 +14,7 @@ This folder remains the single editable home for Diyse's purchase/replacement ec
 - normal and limited-premium stock progression;
 - commerce endpoint roles;
 - reward-value/scarcity rules;
-- non-EXP quest/Hunt/Elite/boss reward handoffs;
+- non-EXP quest/Hunt/boss/authored-encounter reward handoffs;
 - lived economic context derived from those current rules without exposing author-only balance numbers as universal character knowledge.
 
 Other owners:
