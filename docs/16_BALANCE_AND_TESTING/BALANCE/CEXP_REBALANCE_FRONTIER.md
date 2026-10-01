@@ -1,59 +1,35 @@
-# Diyse — CEXP Recalibration Frontier
+# Diyse — CEXP Rebalance Frontier
 
-**Current status:** **DOWNSTREAM / REOPEN AFTER ENCOUNTER VALIDATION**  
-**Previous v92 proof:** retained as historical calibration evidence, not current final certification.
+**Status:** DOWNSTREAM / REOPEN AFTER ENCOUNTER AND REWARD VALIDATION  
+**Progression owner:** `../../10_PROGRESSION_AND_EXP/`
 
-# STATUS
-> **DO NOT FINALIZE CEXP UNTIL CURRENT MANDATORY-vs-COMPLETIONIST ENCOUNTER VALIDATION IS RECERTIFIED**
+## Target
 
-The previous v92 arithmetic demonstrated that the then-current reward ledger could place normal full Base + Subclass completion around the intended **Lv55–60** window.
+Normal full Base + Subclass completion should land in the:
+> **Lv55–60 target window**
 
-That proof is still useful, but the project has since corrected early-game party and route assumptions that materially affect encounter validation and may alter the final reward/encounter budget.
+This is a target window, not a promise that historical CEXP totals or old completion levels survive the rebuild.
 
-Current sequencing authority is therefore:
-1. finish current encounter validation against the actual mandatory/critical-path party;
-2. finish the same encounter validation against the completionist/high-side party;
-3. reconcile any EXP/CEXP reward changes required by those encounter corrections;
-4. rerun CEXP arithmetic from each character's actual permanent recruitment point;
-5. confirm normal full Base + Subclass completion still lands in the **Lv55–60 target window**.
+## Sequence
 
-## Preserved system locks
-- Base/Subclass cap CL13;
-- **6,000 cumulative CEXP** to CL13;
-- current Ability unlock architecture;
-- automatic Mastery CL gates;
-- no Mastery Points;
-- end-Ch7 Sixfold Volition Subclass unlock;
-- selected class receives 100% of awarded CEXP;
-- recruitment-aware accounting remains mandatory.
+1. finish current encounter validation against actual mandatory and completionist party states;
+2. stabilize reward placement that depends on those encounters;
+3. rebuild recruitment-aware CEXP awards from each permanent member's actual join point;
+4. run campaign-only, typical-developed, heavy-optional, and completionist route projections;
+5. verify each character's Base + Subclass completion timing;
+6. adjust campaign CEXP placement as needed to keep normal full completion in the Lv55–60 window.
 
-## Historical v92 result — retained, not current final certification
-Previous corrected mandatory Volition centers were:
-- Torren **5,350**;
-- Vaelira **5,250**;
-- Cyanis/Ilyra **4,950**;
-- Nimera **4,500**;
-- Seyrik **3,500**.
+## Boundaries
 
-Previous mandatory-route completion centers were approximately:
-- Torren ~Lv56;
-- Vaelira ~Lv56;
-- Cyanis/Ilyra just after Lv57;
-- Nimera ~Lv58;
-- Seyrik ~Lv60.
+- class-level thresholds and unlock rules are owned by `10_PROGRESSION_AND_EXP` and `06_CLASSES_AND_ABILITIES`;
+- do not copy historical cumulative CEXP totals into this file as permanent canon;
+- no Mastery Point currency;
+- Subclass access begins at **Sixfold Volition** under current class/story authority;
+- recruitment-aware accounting is mandatory;
+- no CEXP diminishing returns unless the progression owner explicitly adds one.
 
-These numbers are **not deleted**. They are the comparison baseline for the next CEXP pass.
+Historical v91/v92 arithmetic remains available in Git history for comparison only. It is not current certification.
 
-Exact historical arithmetic remains in:
-`../../10_PROGRESSION_AND_EXP/CEXP_RECALIBRATION_PROOF_v92.md`
+## Close condition
 
-## Current validation frontier
-Early chapters were reopened because current production authority superseded older balance assumptions:
-- Chapter 1: Maevra is noncombat; **Thornhide** is the normal lethal final boss;
-- Chapter 2: Maevra is noncombat; `Hold the Junction` is retired; current Waterworks/Archive/Bastion placements control;
-- Chapter 3: Maevra is noncombat; no mandatory hostile road/perimeter phase; current three-person pre-Nimera and four-person post-Nimera party chronology controls.
-
-The historical direct-damage Power-completeness audit remains provenance only; current enemy ability/action-kit and Power tuning are reopened.
-
-## Next
-> **Recertify encounter validation first. Then rerun the recruitment-aware CEXP pass and close it only if the Lv55–60 class-completion target still holds.**
+Close this frontier only when the rebuilt progression model demonstrates the Lv55–60 class-completion target across the intended route profiles using current encounter/reward inputs.
