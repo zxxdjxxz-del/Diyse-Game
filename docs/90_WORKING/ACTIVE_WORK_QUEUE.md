@@ -39,7 +39,7 @@ Completed in the current pass:
 - confirmed that current production areas are not yet L3 build-ready topology;
 - created `AREA_LAYOUTS/BLUEPRINT_001_CH00_CONVOY_WRECK_ROUTE.md`;
 - created the provisional Godot graybox `game/exploration/maps/chapter_00/chapter_00_graybox.tscn` plus its route builder;
-- reconciled S005 to the Field Triage Camp perimeter and added S006's bounded player-controlled survivor sweep before Brackenwall;
+- reconciled **B06** to the Field Triage Camp perimeter and added **B07**'s bounded player-controlled survivor sweep before Brackenwall;
 - added focused Godot CI validation for the Chapter-0 graybox structure.
 
 Current next deliverable:
@@ -50,9 +50,9 @@ Validation targets:
 - Android touch navigation works;
 - camera variants A/B/C are compared;
 - Wreck Field reads without minimap dependence;
-- S003 recovery-line logic is spatially obvious;
-- S005 camp-edge/east-cut staging matches exact dialogue;
-- S006 recovery sweep remains short, bounded and no-combat;
+- **B03** recovery-line logic is spatially obvious;
+- **B06** camp-edge/east-cut staging matches exact dialogue;
+- **B07** recovery sweep remains short, bounded and no-combat;
 - route pacing and transition seams are acceptable.
 
 Layout/blockout work may proceed before final environment-material certification. Final rendered environment production remains downstream of relevant B01–B11 style/material approvals.
