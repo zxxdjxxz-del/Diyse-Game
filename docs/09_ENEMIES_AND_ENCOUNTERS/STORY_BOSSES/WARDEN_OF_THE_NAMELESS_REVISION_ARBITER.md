@@ -64,7 +64,7 @@ Completionist pre-Warden total:
 That is:
 > **Lv34**, 1,980 EXP short of Lv35.
 
-Optional Elites / incidental optional combat can push the high side toward:
+Incidental optional combat can push the high side toward:
 > **~Lv35**
 
 Balance references:
