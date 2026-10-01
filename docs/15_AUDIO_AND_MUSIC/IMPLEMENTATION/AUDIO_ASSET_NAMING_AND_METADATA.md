@@ -20,6 +20,7 @@ Avoid creating new active assets named after:
 - Highlands
 - Edgelands
 - Blackstone
+- Sixfold Accord
 - Resource Face
 - Acuity Face
 - Change Face
