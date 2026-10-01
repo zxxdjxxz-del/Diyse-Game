@@ -35,6 +35,8 @@ Retired with no current enemy owner:
 - **Rift Boltman** — no current Chapter-3 placement
 - **Way-Fort Marauder** — no current Chapter-3 placement
 - **Watch Sentry / Watch Ballista / Watch Captain Frame** — retired Hollow Watch encounter grammar; current underground combat uses Construct plus the fixed Shield Construct encounter
+- **Archive Duplicant** — retired Chapter-2 Elite design with no current placement
+- **Grand Inquisitor Frame** — retired Chapter-3 Elite/strong-normal design with no current placement
 
 Retired authored encounter packages:
 - **Chapter 0 S005 Final Broken Convoy model** — superseded by the current B06 Riftmaw + Battle Sorcerer combined encounter
