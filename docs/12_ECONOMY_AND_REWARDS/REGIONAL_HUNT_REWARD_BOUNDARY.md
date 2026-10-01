@@ -1,6 +1,6 @@
 # Diyse — Regional Hunt Rewards
 
-**Status:** EXACT REGIONAL-HUNT G AUTHORITY
+**Status:** CURRENT REGIONAL-HUNT REWARD-STRUCTURE OWNER; G VALUES PROVISIONAL PENDING ECONOMY REBUILD
 
 There are currently **8 active Regional Hunts**. Slots **#1**, **#2**, and **#3** are retired/open and carry no current Hunt payout.
 
@@ -24,7 +24,7 @@ Those rewards add value; they do not replace the Hunt's cash reward.
 
 Regional Hunts remain first-clear objectives, not repeatable money farms.
 
-## Exact G payouts
+## Provisional G payout ledger
 | # | Regional Hunt | G |
 |---:|---|---:|
 | 4 | **Crown Prototype** | **6,000 G** |
