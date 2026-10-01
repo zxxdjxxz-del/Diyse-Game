@@ -26,7 +26,7 @@ Current Major Hunt access:
 ## Difficulty principles
 
 - Hunts use fixed authored encounters; no dynamic player-level scaling.
-- Regional Hunts should sit above ordinary/Elite content available around their access window.
+- Regional Hunts should sit above ordinary and strong normal-pool content available around their access window.
 - Major Hunts are intentionally above-level optional challenges.
 - Completionist progression may create a substantial earned advantage.
 - Recommended levels are **not locked here** while the Player EXP/CEXP model is being rebuilt.
