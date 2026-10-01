@@ -51,7 +51,7 @@ Fixed optional advantage:
 Completionist pre-boss planning total:
 > **~61,600 EXP = Lv25**
 
-Optional Elite/incidental combat can push a high-side route toward:
+Incidental optional combat can push a high-side route toward:
 > **~Lv26**
 
 Regional Hunt #6 is not counted in this pre-boss proof because its exact Chapter-6 unlock point is not established here.
