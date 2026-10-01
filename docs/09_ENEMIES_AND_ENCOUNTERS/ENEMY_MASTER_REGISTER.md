@@ -11,7 +11,7 @@ This is a **chapter-role register**, so a recurring identity may appear in multi
 |---:|---|---|
 | 0 | Ordinary/carryover | Black Host Raider |
 | 0 | Ordinary/carryover | Black Host Crossbowman |
-| 0 | Ordinary/carryover | Ruin Shieldbearer |
+| 0 | Ordinary/carryover | Black Host Shieldbearer |
 | 0 | Ordinary/carryover | War Hound |
 | 0 | Authored/protected | Ruin Vanguard Pursuer — concealed Seyrik; mandatory protected disengagement |
 | 0 | Authored | Battle Sorcerer |
@@ -27,7 +27,7 @@ This is a **chapter-role register**, so a recurring identity may appear in multi
 | 1 | Ordinary | Barkling |
 | 1 | Ordinary | Construct — Hollow Watch underground random pool |
 | 1 | Authored fixed encounter | Shield Construct — stronger-than-normal; not random; not a miniboss |
-| 1 | Mandatory named/boss | Thornhide Stalker — Thornhide species; normal lethal victory |
+| 1 | Mandatory named/boss | Thornhide — Thornhide species; normal lethal victory |
 | 2 | Ordinary/carryover | Bogshell |
 | 2 | Ordinary/carryover | Cistern Leech |
 | 2 | Ordinary/carryover | Needlewing — Chapter-1 carryover |
@@ -235,7 +235,7 @@ Current Chapter-1 identities:
 - Barkling;
 - Construct;
 - Shield Construct — fixed authored stronger encounter, not random and not a miniboss;
-- Thornhide Stalker — Thornhide species; mandatory normal-lethal final boss.
+- Thornhide — Thornhide species; mandatory normal-lethal final boss.
 
 Retired from current Chapter 1:
 - Briar Boar;
@@ -610,27 +610,27 @@ No Regional Hunt in Chapter 13.
 The old v72 order is superseded.
 
 Current exact authored order:
-1. P01 — Black Host Raider + Black Host Crossbowman;
-2. P01 — Black Host Raider + Ruin Shieldbearer;
-3. P01 — 2 War Hounds;
-4. P02 — Black Host Crossbowman + War Hound;
-5. P02 — 1 War Hound;
-6. P05 — Ruin Vanguard Pursuer / concealed Seyrik; protected disengagement;
-7. P06 — Riftmaw + Battle Sorcerer combined final boss.
+1. B01 — Black Host Raider + Black Host Crossbowman;
+2. B01 — Black Host Raider + Black Host Shieldbearer;
+3. B01 — 2 War Hounds;
+4. B02 — Black Host Crossbowman + War Hound;
+5. B02 — 1 War Hound;
+6. B05 — Ruin Vanguard Pursuer / concealed Seyrik; protected disengagement;
+7. B06 — Riftmaw + Battle Sorcerer combined final boss.
 
-P03 and P07:
+B03 and B07:
 > no combat
 
-P04:
+B04:
 > Ilyra introduction / first incomplete Card flare / party expansion; no standalone authored battle.
 
 Riftmaw:
-> **RETAINED / mandatory named boss body / Power complete / combined-P06 revalidation required**
+> **RETAINED / mandatory named boss body / Power complete / combined-B06 revalidation required**
 
 Ruin Vanguard Pursuer:
 > **SEYRIK CONCEALED / protected retreat / Power complete**
 
-P06:
+B06:
 > both Riftmaw and Battle Sorcerer must be defeated; three-round **Defense +15% / Spirit +15%** authored protection; Rift Lance Preparation Round2+; no injured Soldier.
 
 Chapter 0:
