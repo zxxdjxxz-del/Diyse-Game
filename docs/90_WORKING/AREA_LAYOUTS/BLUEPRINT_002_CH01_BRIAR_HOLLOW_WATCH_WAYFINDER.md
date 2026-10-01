@@ -9,7 +9,7 @@ This blueprint follows the current 12-beat Chapter-1 story authority. It is not 
 
 ## 1. Current route authority
 
-> **Brackenwall → first / northern Briar traversal → Greenhollow → Hollow Watch approach → Hollow Watch surface → short Black Host excavation into Diysean corridor → fixed Shield Construct encounter → Hollow Watch landscape depiction → direct transition to Greenhollow → Southern Briar → Thornhide Stalker → Wayfinder Junction → camp → Dunmere next morning**
+> **Brackenwall → first / northern Briar traversal → Greenhollow → Hollow Watch approach → Hollow Watch surface → short Black Host excavation into Diysean corridor → fixed Shield Construct encounter → Hollow Watch landscape depiction → direct transition to Greenhollow → Southern Briar → Thornhide → Wayfinder Junction → camp → Dunmere next morning**
 
 Current structure:
 - Briar Passage is a **major story area**.
@@ -54,7 +54,7 @@ Current structure:
 - current authored examples are 3–4 bodies; exact 5–6 body compositions remain open
 
 ### Named encounter
-- **Thornhide Stalker** — Chapter-1 main/final boss; Thornhide species; normal lethal victory
+- **Thornhide** — Chapter-1 main/final boss; Thornhide species; normal lethal victory
 
 ### Removed Chapter-1 combat
 - no Watch Sentry / Watch Ballista / Watch Captain Frame spread
@@ -160,7 +160,7 @@ Do not add a false trail, damaged crossing, civilian-crossing event, separate Ol
 Southern Briar is the chapter's largest natural exploration/combat area.
 
 Desired route rhythm:
-> readable opening → increasing route ambiguity → Thornhide sign/track authored stop → hardest moderate navigation / reconnecting loops → more direct predator-pressure final leg → Thornhide Stalker first clear sighting → boss → quiet route to Wayfinder
+> readable opening → increasing route ambiguity → Thornhide sign/track authored stop → hardest moderate navigation / reconnecting loops → more direct predator-pressure final leg → Thornhide first clear sighting → boss → quiet route to Wayfinder
 
 Requirements:
 - moderately maze-like, not heavily labyrinthine;
