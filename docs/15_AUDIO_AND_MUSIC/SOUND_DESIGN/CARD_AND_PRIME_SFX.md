@@ -40,9 +40,12 @@ Must read as a major state change.
 The UI may use subtle audio to signal:
 - invocation unavailable;
 - Prime ready;
-- fresh-form refresh;
+- post-dismissal cooldown completion;
+- explicit authored restoration when one actually occurs;
 
 but exact cues are OPEN.
+
+Do **not** author a fresh-form Prime-refresh cue. Genuine fresh-HP boss forms and same-bar state changes do not refresh spent Prime availability.
 
 ## Final Severance
 Each Story Prime role should remain distinguishable enough that the six-step causal sequence is understandable.
