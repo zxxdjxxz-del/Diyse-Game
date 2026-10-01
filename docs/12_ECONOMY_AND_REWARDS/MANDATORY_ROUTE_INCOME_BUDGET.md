@@ -76,4 +76,4 @@ Their current G is subsumed by the normal formation-level reward selected from `
 
 
 ## Chapter-1 remap note
-The **~135,600 G** ordinary-formation route expectation is still the campaign planning envelope, but Chapter 1's old named 3×3 formation payout matrix has been retired. Exact G assignments for the current Chapter-1 formations must be remapped before the mandatory-route total is treated as fully closed to the last G. The current aggregate therefore remains approximately **~316,300 G** rather than a false exact lock.
+The **~135,600 G** ordinary-formation route expectation remains a provisional planning envelope, but Chapter 1's old named 3×3 formation payout matrix has been retired. Exact G assignments for current formations must be remapped, retired authored-event payouts removed, and open mandatory payouts resolved before any new mandatory-route aggregate is relocked.
