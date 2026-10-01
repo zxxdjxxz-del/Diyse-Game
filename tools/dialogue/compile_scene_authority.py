@@ -83,7 +83,7 @@ DEFAULT_GLOBAL_SOURCES: list[dict[str, Any]] = [
     },
     {
         "path": "docs/02_STORY/DIALOGUE_HANDOFF.md",
-        "sections": ["Global chapter-end cleanup handoff", "Historical closed dialogue", "Later dialogue"],
+        "sections": ["Global chapter-end cleanup handoff", "Current dialogue boundary", "Later dialogue"],
         "role": "story_dialogue_handoff",
     },
     {
