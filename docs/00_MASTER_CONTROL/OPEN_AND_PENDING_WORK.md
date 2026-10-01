@@ -107,12 +107,26 @@ Current final soundtrack:
 ## Intentionally open story/lore details
 Keep explicitly bounded unknowns unresolved until separately approved, including the sole Entity-fragment survival mechanism and other owner-file items explicitly marked OPEN.
 
-## Retired work-routing note — mandatory enemy difficulty pass
-The former mandatory-route difficulty recalibration sequence is **not an active priority in this index anymore**.
+## Active balance stream — enemy ability / difficulty + progression revalidation
+Owners:
+`09_ENEMIES_AND_ENCOUNTERS` + `10_PROGRESSION_AND_EXP` + `16_BALANCE_AND_TESTING`
 
-Historical v103–v105 sensitivity and true-battle reports may remain in `16_BALANCE_AND_TESTING` as evidence, but this index must not interpret them as a standing instruction to apply an ×1.20 global floor, retune First Command Warden next, or follow the former boss-local retune sequence.
+Status:
+> **OPEN / REBUILD + RECERTIFICATION PENDING**
 
-Future balance work follows the separately established current handling process or a new explicit revision.
+Current boundary:
+- enemy abilities/action kits and direct-damage Powers will be redone/revalidated;
+- existing enemy stats/Powers remain reference inputs unless explicitly revised;
+- mandatory/completionist difficulty certification must be rerun after the current kits exist;
+- Player EXP/CEXP allocation is also rebuild-pending, with **Lv55–60** retained as the class-completion target window;
+- old v89–v105 PASS/sensitivity results remain historical evidence only where their tested assumptions were superseded.
+
+Retired routing remains retired:
+- do not apply a standing ×1.20 global Power floor;
+- do not retune First Command Warden next;
+- do not restore the former boss-local sequence.
+
+This active stream is the newer redesign/revalidation boundary, not a revival of the retired queue.
 
 ## Deferred stream — Economy rebuild / recalibration
 Owner:
