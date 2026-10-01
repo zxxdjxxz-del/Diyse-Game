@@ -18,7 +18,7 @@ Not yet canonized:
 9. exact equipment comparison presentation;
 10. exact original-vs-forged-Relic copy presentation;
 11. Kessara service unlock timing;
-12. Kessara service Auren fee, if any;
+12. Kessara service G fee, if any;
 13. Standard/Prime Card screen integration vs separate screens;
 14. quest/Hunt tracking/pinning UX;
 15. world-map marker/icon language;
