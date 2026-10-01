@@ -59,5 +59,7 @@ The final operation has distinct states:
 
 The exact cue plan remains OPEN.
 
+Any future cue promoted into canon must follow the cue-promotion rule in `../AUDIO_AUTHORITY_MASTER.md`.
+
 ## Android
 Streaming/memory choices must support the Android production target.
