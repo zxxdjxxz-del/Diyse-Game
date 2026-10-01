@@ -37,13 +37,11 @@ Rules:
 
 This applies to Regional Markets and to other endpoints such as Cresthaven Quartermaster or Vhalmarch Forward Supply whenever they actually function as Consumable shops.
 
-# Premium prices
-- **Emergency Kit — 8,000 G**
-- **Reservoir Tonic — 12,000 G**
-- **Emergency Rally — 15,000 G**
+# Premium price boundary
 
-The early scarcity pressure comes from price plus one-copy-per-shop stock, not from a chapter unlock gate.
+Exact numeric premium prices are owned by `CONSUMABLE_PRICES.md` and remain provisional pending the economy rebuild.
 
+The structural placement/stock rule in this file does not relock those prices.
 # Guaranteed authored pickups
 These remain free authored rewards and therefore retain substantial economic value even though the same identities can be bought from shops.
 
