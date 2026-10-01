@@ -1,5 +1,7 @@
 # Diyse — Class State Lifecycle
-**Current working authority:** 2026-08-30 class-state normalization.  
+
+**Status:** ACTIVE CLASS-STATE AUTHORITY  
+**Authority:** current class-domain owner plus later explicit approved corrections.  
 **Domain:** ordinary class-authored combat states that are not universal harmful statuses, temporary core-stat modifiers, Fields, summons, or Prime-local states.
 
 This file owns the default lifecycle of class-authored tactical/setup states. Individual class sheets still own each state's exact trigger, subject, magnitude, duration, consumption rule, and any explicit exception.

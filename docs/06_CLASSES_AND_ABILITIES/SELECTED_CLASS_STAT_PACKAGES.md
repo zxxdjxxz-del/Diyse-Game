@@ -1,7 +1,7 @@
 # Diyse — Selected-Class Natural-Stat Package Multipliers
-**Migration baseline:** `Diyse_CURRENT_WORKING_TRACKER_CONSOLIDATED_2026-08-27_v85.md`  
-**Historical provenance:** **v2.08 / Audit123**, with compatible **Audit115** class normalization and later current working corrections.  
-**Authority treatment:** this repository file is current class-domain authority. Audit/v85 references remain provenance; later explicit corrections and current owner-domain rules supersede conflicting historical text.
+
+**Status:** ACTIVE CLASS / ABILITY AUTHORITY  
+**Authority:** current class-domain owner plus later explicit approved corrections.  
 
 These multipliers define current selected-class identity.
 They are applied to the neutral pre-equipment natural-stat curve owned by the progression/stat layer.

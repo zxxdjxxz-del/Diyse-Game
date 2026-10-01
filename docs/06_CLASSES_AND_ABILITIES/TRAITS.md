@@ -1,5 +1,7 @@
 # Diyse — Trait Register
-**v93 true-battle recovery normalization**  
+
+**Status:** ACTIVE TRAIT AUTHORITY  
+**Authority:** current class-domain owner plus later explicit approved corrections.  
 **Rank milestones:** Rank I — CL1 / Rank II — CL6 / Rank III — CL12  
 **Selection rule:** exactly one selected-class Trait package is active: Base Trait while Base class is selected, Subclass Trait while that Subclass is selected.
 
