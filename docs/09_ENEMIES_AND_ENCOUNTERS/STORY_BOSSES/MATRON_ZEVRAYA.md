@@ -80,7 +80,7 @@ Regional Hunt #6 — Winterglass Titan is not included in the fixed proof becaus
 If Winterglass Titan is legally available and cleared before Zevraya:
 > completionist reaches approximately **Lv27 approaching Lv28**.
 
-With Elite/incidental optional combat:
+With incidental optional combat:
 > **high-side ~Lv28**
 
 Balance references:

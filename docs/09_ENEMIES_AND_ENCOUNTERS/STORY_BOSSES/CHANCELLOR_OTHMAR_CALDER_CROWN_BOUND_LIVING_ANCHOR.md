@@ -91,7 +91,7 @@ Regional Hunt #10 is Chapter-11 optional content, but its exact access point rel
 If RH#10 is legal before Calder:
 > the route reaches **412,800 EXP**, still Lv59 but close to Lv60.
 
-Optional Elite/incidental combat can push the high side toward:
+Incidental optional combat can push the high side toward:
 > **~Lv60**
 
 Balance references:

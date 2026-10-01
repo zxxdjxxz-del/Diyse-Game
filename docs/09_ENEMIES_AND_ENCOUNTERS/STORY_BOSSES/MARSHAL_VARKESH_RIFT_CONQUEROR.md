@@ -89,7 +89,7 @@ Completionist pre-Varkesh:
 
 This is 8,838 EXP short of Lv43.
 
-Optional Elites/incidental optional combat can push the high side toward:
+Incidental optional combat can push the high side toward:
 > **~Lv43**
 
 Balance references:

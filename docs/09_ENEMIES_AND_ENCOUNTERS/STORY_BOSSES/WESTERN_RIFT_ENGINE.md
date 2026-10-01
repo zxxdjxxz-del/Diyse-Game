@@ -66,7 +66,7 @@ Regional Hunt #8 is not included in the fixed proof because its exact Chapter-8 
 If Regional Hunt #8 is legally available and cleared before this boss:
 > **~165,300 EXP = Lv40**
 
-Optional Elite/incidental combat can likewise place the high-side route around:
+Incidental optional combat can likewise place the high-side route around:
 > **~Lv40**
 
 Balance references:

@@ -132,7 +132,7 @@ Regional Hunt #10 — Authority Remnant is Chapter-11 optional content, but its 
 If RH#10 is legally available and cleared before the Custodian:
 > **435,100 EXP = Lv61**
 
-Optional Elite/incidental combat can likewise put the high-side route around:
+Incidental optional combat can likewise put the high-side route around:
 > **~Lv61**
 
 Balance references:

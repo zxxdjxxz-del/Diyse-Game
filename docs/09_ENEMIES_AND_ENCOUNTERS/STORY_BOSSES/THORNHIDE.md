@@ -8,7 +8,7 @@
 ## Current story lock
 
 The **Thornhide** is:
-- an exceptionally large, powerful Briarhide native to Briar Passage;
+- an exceptionally large, powerful Thornhide native to Briar Passage;
 - a naturally occurring wild Greater Beast;
 - not corrupted, controlled, fitted, collared, or altered by the Black Host;
 - fought as a normal mandatory boss;

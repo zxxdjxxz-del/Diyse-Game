@@ -55,7 +55,7 @@ Completionist pre-boss planning total:
 
 This is 5,400 EXP short of Lv32.
 
-Optional Elites and incidental optional combat can push a very exhaustive route toward:
+Incidental optional combat can push a very exhaustive route toward:
 > **~Lv32**
 
 Balance references:

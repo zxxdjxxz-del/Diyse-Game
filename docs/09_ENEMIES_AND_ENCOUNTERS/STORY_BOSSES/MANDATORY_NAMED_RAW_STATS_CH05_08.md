@@ -1,9 +1,9 @@
 # Diyse — Mandatory Named Raw Stats — Chapters 5–8
 **Migration baseline:** `Diyse_CURRENT_WORKING_TRACKER_CONSOLIDATED_2026-08-27_v85.md`  
-**Primary enemy-production authority:** compatible **Audit90 / Audit93** plus accepted later tracker roster/action cleanups.  
-**Primary raw-stat authority:** **Audit129 + Audit130 / Audit131 / Audit132 / Audit133 / Audit134 / Audit135**.  
-**Current whole-project written authority:** **v2.20 / Audit135**.  
-**Migration rule:** later current names, chapter reindexing, four-element rules, removed-system firewalls, and fresh-body Prime-refresh rules supersede stale earlier enemy text.
+**Historical enemy-production provenance:** Audit90/Audit93 plus later tracker-era roster/action cleanups.
+**Historical raw-stat provenance:** Audit129–Audit135.
+**Authority treatment:** this repository register is current mandatory-boss raw-stat authority; Audit/v85 references remain historical provenance only.
+**Migration rule:** current repository boss names, chapter placement, form architecture, and Prime-restoration rules supersede conflicting historical text.
 
 
 | Ch | Encounter / form | Lv | HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR | Architecture |
@@ -23,7 +23,7 @@
 
 ## Authority notes
 - Ch4 Regulation Crucible uses Audit130's corrected **2,400 HP** Form-I value.
-- Genuine fresh forms use current Prime-refresh authority.
+- Genuine fresh forms do **not** restore spent Prime identities; spent/Ready state carries through unchanged.
 - Same-bar states do not refresh Prime availability.
 
 
@@ -210,7 +210,7 @@ Powers:
 - Perfected Brood Rend175
 
 Fresh Form II:
-> **Prime availability refreshes under current global authority.**
+> **Prime availability does not refresh; spent/Ready state carries through unchanged under current global authority.**
 
 Expected complete:
 - mandatory ~15–17
@@ -258,7 +258,7 @@ Actual route:
 - mandatory pre-boss **~73,300 EXP = Lv27**
 - all fixed available optional EXP adds 21,900
 - completionist pre-boss **~95,200 EXP = Lv31**
-- high-side with optional Elites/incidental combat **~Lv32**
+- high-side with incidental optional combat **~Lv32**
 
 Raw line:
 > **RETAIN — Lv29 / HP5,135 / ATK109 / MAG57 / DEF77 / Spirit59 / SPD32 / EVA0 / SR5**
@@ -416,7 +416,7 @@ Powers:
 Genuine fresh body:
 - no damage spillover
 - no free transition attack
-- **Prime availability refreshes**
+- **Prime availability does not refresh; spent/Ready state carries through unchanged.**
 
 Powers:
 - Conqueror Cleave270 / 25% Bleed
