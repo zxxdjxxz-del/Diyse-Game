@@ -4,7 +4,7 @@
 > #1–#2 access timing still matches the current cadence, but the broader progression and enemy-ability rebuilds mean their numeric difficulty conclusions are provisional. #3–#5 moved to earlier current access windows and require fresh recertification. No recommendation/raw-stat/Power value in this file should be treated as newly locked by cleanup.
 
 ## Purpose
-Major Hunts #1–#5 were moved to later unlock chapters. This pass rechecks each fixed authored encounter against:
+This file records an older recertification pass whose access assumptions are now partly superseded. It compared each fixed authored encounter against:
 - mandatory-route player level at unlock;
 - completionist level before that Hunt;
 - nearby Regional Hunt and mandatory-boss difficulty;
@@ -181,7 +181,7 @@ Rationale:
 Current recommendation ladder:
 > **33 → 41 → 54 → 60 → 65 → 70**
 
-Major Hunt #6 retains its Lv70 / 78,000-HP line as the ultimate optional superboss and is **paper recertified v88** against the actual post-Vaelkor route/completionist levels. Final runtime duration/attrition remains a required QA gate.
+Major Hunt #6's Lv70 / 78,000-HP line is retained here as a historical/provisional reference. The old v88 paper result is not current final certification; progression and runtime duration/attrition recertification remain open.
 
 
 ## Action-kit Power closure — v74
@@ -193,10 +193,10 @@ Historical v74 status:
 Current status:
 > **enemy/Hunt ability and Power redesign/revalidation pending**
 
-No recertified raw line was retuned during the action-kit pass.
+No raw line was retuned during that historical action-kit pass.
 
-Current hierarchy and unlock schedule remain unchanged.
+Current hierarchy/access authority comes from the live Hunt/quest owners; this historical document does not freeze an older unlock schedule.
 
 
-## #6 — The Unfinished World — v88 two-baseline paper recertification
-Earliest route-state after Vaelkor is only Lv56–57; satisfying the Final Archive Arbiter prerequisite at that point can raise a low-option route to about Lv58, still intentionally far below the Lv70 recommendation. An exhaustive completionist can reach about Lv68 after Chapter-12 clear, RH11, and the post-Vaelkor side quest. The Lv70 recommendation therefore remains a meaningful final preparedness target. No raw stat or Power changed. Runtime duration/attrition testing remains required because this one-bar 78,000-HP encounter explicitly assumes the full late-game toolset.
+## #6 — The Unfinished World — historical v88 two-baseline paper record
+The old route-state estimates (roughly Lv56–58 low-option and ~Lv68 exhaustive completionist) are retained only as provenance because the Player EXP/CEXP model is being rebuilt. The Lv70 recommendation and 78,000-HP body remain provisional reference inputs; runtime duration/attrition and progression-aware recertification are still required.
