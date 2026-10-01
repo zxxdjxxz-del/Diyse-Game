@@ -12,7 +12,7 @@
 - runtime: ~15 minutes
 - boss: none
 - required combat: none
-- EXP: **500**
+- numeric progression rewards: owned by `10_PROGRESSION_AND_EXP`; current values are provisional pending rebuild
 
 ## Current area reuse
 The quest reuses:
@@ -80,6 +80,6 @@ Core:
 > the route system works because it is maintained and revised, not treated as sacred.
 
 ## Reward boundary
-- **500 Player EXP**
+- numeric progression rewards: owned by `10_PROGRESSION_AND_EXP`; current values are provisional pending rebuild
 - exact currency/Consumable package belongs in `12_ECONOMY_AND_REWARDS`
 - no unique weapon, Relic, Legacy or Card
