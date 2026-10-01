@@ -1,9 +1,7 @@
 # Diyse — Chapter 04 Enemies — REWORK BOUNDARY
-**Migration baseline:** `Diyse_CURRENT_WORKING_TRACKER_CONSOLIDATED_2026-08-27_v85.md`  
-**Historical enemy-production provenance:** Audit90/Audit93 plus later tracker-era roster/action cleanups.
-**Historical raw-stat provenance:** Audit129–Audit135.
-**Authority treatment:** this chapter file is current enemy roster/placement authority; Audit/v85 references remain historical provenance only.
-**Migration rule:** current repository names, chapter placement, system firewalls, and Prime-restoration rules supersede conflicting historical enemy text.
+
+**Status:** ACTIVE CHAPTER ENEMY / ENCOUNTER AUTHORITY  
+**Authority:** current chapter roster/placement owner; numeric tuning remains subject to the domain recertification boundary.  
 
 
 ## Ordinary / repeatable — REWORK PENDING
@@ -70,32 +68,10 @@ State thresholds:
 
 No refill, free action, or Prime refresh at state change.
 
-## Numerical boundary
-Current ordinary-enemy raw bodies/actions are **historical/provisional rework inputs**, not final Chapter-4 balance authority.
+## Balance / numeric boundary
 
-Annex Duelist's inherited body remains available as a rework input, but its placement is open.
+This chapter file owns current enemy identity, placement, encounter architecture, and chapter-specific mechanic intent.
 
-Mandatory story-required encounters remain separately owned:
-- Elder Thornhide;
-- Reaction Conduit;
-- Regulation Crucible → The Seventh Reaction.
+Exact raw stats, action Powers/kits, recommended levels, and mandatory-vs-completionist difficulty are not re-certified here while the enemy/progression rebuild is open. Use current individual enemy/boss owners for working implementation inputs and `../../16_BALANCE_AND_TESTING/BALANCE/ENEMY_BOSS_MANDATORY_COMPLETIONIST_VALIDATION.md` for the current comparison method.
 
-Regional Hunt #4 remains separately owned and is not reopened merely by the ordinary-enemy rework.
 
-## Historical v80 validation — NOT CURRENT CERTIFICATION
-The old v80 pass remains useful as tuning evidence, but it predates the September 25 Chapter-4 story redesign and the current enemy-rework decision.
-
-Do not use it to lock:
-- the ordinary roster;
-- ordinary raw bodies/actions;
-- Annex Duelist placement;
-- the 19-encounter Annex model;
-- final Chapter-4 difficulty.
-
-Story-required encounter identities and Crown Prototype retain their separate owners, but Chapter-wide certification must be rerun after the enemy rework.
-
-Formation authority:
-`../ENCOUNTER_FORMATIONS/CHAPTER_04_FORMATIONS.md`
-
-Current validation framework:
-`../../16_BALANCE_AND_TESTING/BALANCE/ENEMY_BOSS_MANDATORY_COMPLETIONIST_VALIDATION.md`
