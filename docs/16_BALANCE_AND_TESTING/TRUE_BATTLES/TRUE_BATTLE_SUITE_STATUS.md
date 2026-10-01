@@ -1,5 +1,5 @@
 # Diyse — Representative True-Battle Suite Status
-**v104 WORKING — GLOBAL +20% ENEMY DIRECT-POWER SENSITIVITY ACTIVE**
+**HISTORICAL / PROVISIONAL SUITE — FINAL DIFFICULTY CERTIFICATION PAUSED FOR ENEMY-ABILITY + PROGRESSION REBUILD**
 
 ## Status change
 The previous v93–v102 reports remain valid records of the exact snapshots/rules they measured.
@@ -7,10 +7,10 @@ The previous v93–v102 reports remain valid records of the exact snapshots/rule
 However, the acceptance standard has changed:
 > **The mandatory route should be materially harder, and optional progression should produce a clear reduction in KO/wipe pressure even when equipment is held constant.**
 
-The current whole-roster sensitivity hypothesis is:
+The v104 whole-roster sensitivity experiment used:
 > **Enemy direct-damage Power × 1.20**
 
-This multiplier is a test layer, not yet a permanent rewrite of owner files.
+That multiplier remains a historical test layer only. It is **not** a current implementation recommendation while enemy action kits/Powers are being redone.
 
 Because Power is a linear factor in Diyse's direct-damage formulas, the scalar yields approximately +20% direct damage while leaving HP, raw stats, statuses, AI, turn count, encounter composition and fight duration architecture unchanged.
 
@@ -57,7 +57,7 @@ Do not multiply:
 - Base Hit;
 - support actions with Power N/A.
 
-Early Chapter-1 arithmetic does not show an obvious raw one-shot problem. The marked Hollow Watch Ballista 200-Power shot becomes 240 test Power and remains well below the Lv2 party's Max HP on all three benchmark targets.
+Do **not** use the retired Hollow Watch Castellan/Ballista v93 encounter to certify current Chapter-1 spike safety. Current Chapter-1 ordinary/fixed encounters must be tested from their present roster and formations after the ability rewrite.
 
 ---
 
@@ -105,8 +105,8 @@ Mandatory check:
 ---
 
 # Historical representative measurements
-1. **Hollow Watch Castellan — Chapter 1 / S008 — v93**
-   - historical measurement retained; early +20% raw-one-shot safety check currently passes.
+1. **Hollow Watch Castellan — retired Chapter-1 encounter / historical S008 — v93**
+   - historical simulation evidence only; provides **no current Chapter-1 difficulty certification**.
 2. **Archive Leviathan — Chapter 2 / S013 — v97**
    - historical measurement retained.
 3. **Regulation Crucible → The Seventh Reaction — Chapter 4 / S024 — v99**
@@ -124,15 +124,15 @@ Mandatory check:
 ---
 
 # Forward order
-1. Check early ordinary formations for +20% spike safety.
-2. **Deepforge Colossus — Chapter 5** — assembly correction + +20% scalar; lock first new difficulty anchor.
-3. Continue forward through later chapter climaxes using the same-gear method and common +20% layer.
-4. Mark specific outliers below/above the global baseline only when testing justifies it.
-5. Revisit Rhazek and Vaelkor.
-6. **Reconstituted Entity → The Last Command** only after the late-game mandatory difficulty curve is anchored.
-7. **The Unfinished World** remains the exhaustive completionist full-kit stress test.
+1. Finish the current enemy ability/action-kit rewrite.
+2. Rebuild the mandatory/completionist progression snapshots that depend on EXP/CEXP.
+3. Recheck early ordinary/fixed encounters using their **current** rosters.
+4. Re-establish a representative mandatory difficulty anchor before promoting any global Power scalar.
+5. Continue forward through chapter climaxes, then revisit Rhazek/Vaelkor.
+6. Test **Reconstituted Entity → The Last Command** only after the late-game curve is anchored.
+7. Keep **The Unfinished World** as the exhaustive completionist full-kit stress test.
 
-The suite remains **ACTIVE / RECALIBRATING**. Design-layer simulations do not replace runtime QA.
+The suite is **PAUSED AS FINAL CERTIFICATION / RETAINED AS HISTORICAL TEST EVIDENCE** until rebuilt inputs exist. Design-layer simulations do not replace runtime QA.
 
 ## Current Bleed rule
 All recalibration simulations continue using the current Bleed escalation rule:
