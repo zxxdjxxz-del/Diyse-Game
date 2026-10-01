@@ -25,6 +25,14 @@ Old music research may legitimately contain:
 
 These are archive titles, not active world terminology.
 
+## Retired Prime-audio assumptions
+Do not author current-facing audio for:
+- fresh-form Prime availability refresh;
+- same-bar phase-change Prime refresh;
+- state-based Prime MP cost tiers.
+
+Current Prime availability persists across form/state changes unless a valid rest or explicit authored restoration effect restores it.
+
 ## Prototype audio
 Samples 1–52 and related Ancient Music prototypes:
 - research/development;
