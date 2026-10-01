@@ -7,7 +7,7 @@
 
 ## Unlock / runtime
 - after Chapter 9 once optional travel/hub access resumes
-- ~30 minutes
+- runtime: **OPEN / provisional** — scope-driven; no uniform Character Quest duration target
 - parent: Brackenwall
 - site: **The Quiet Ward**, inside Brackenwall's settlement footprint
 
@@ -57,6 +57,6 @@ Ilyra rejects:
 Control of each record returns to the person who gave it.
 
 ## Reward
-- **10,000 Player EXP**
+- numeric progression rewards: owned by `10_PROGRESSION_AND_EXP`; current values are provisional pending rebuild
 - **Ilyra Legacy Component**
 - no Last Sanctuary gate
