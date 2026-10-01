@@ -107,7 +107,7 @@ Excluded because they unlock only after Vaelkor:
 - What We Build After — 14,500
 - Major Hunt #6 — The Unfinished World — 24,000
 
-Optional Elite/incidental combat can also push a very exhaustive route toward:
+Incidental optional combat can also push a very exhaustive route toward:
 > **~Lv67**
 
 Balance references:
