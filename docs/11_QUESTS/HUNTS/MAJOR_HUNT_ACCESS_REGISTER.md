@@ -30,10 +30,8 @@ The Unfinished World is a dual-gate late optional superboss:
 
 It is available during the post-Vaelkor cleanup / returnable endgame period before the final cutoff.
 
-Current combat architecture is owned by `09`:
-- one **78,000 HP** bar;
-- same-bar state escalation;
-- no fresh Worldheart second body.
+Current combat architecture is owned by `09_ENEMIES_AND_ENCOUNTERS`.
+Quest authority preserves only the access/result boundary here: The Unfinished World is a single current Major Hunt encounter whose exact body, stats, actions, and state thresholds must be read from the enemy-domain owner.
 
 Do not restore older two-body Worldframe/Worldheart architecture.
 
