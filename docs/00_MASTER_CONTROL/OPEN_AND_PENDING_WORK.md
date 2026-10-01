@@ -73,9 +73,10 @@ Owner:
 
 The B00 character identity/master setup is no longer an unresolved repository gate:
 - the permanent six have current repository-backed exact masters;
-- Maevra and Kessara also have current repository-backed exact masters;
+- Maevra and Mirena are part of the current exact-source lock set;
+- Kessara remains separately locked by her current repository master/visual authority;
 - character visual authority is routed through `14_ART_AND_VISUALS/PRODUCTION/CHARACTERS/README.md`;
-- exact source masters live in `asset_sources/characters/current/`.
+- current source masters live in `asset_sources/characters/current/`.
 
 Do **not** reopen character identity from older render/prose material merely because later production stages remain active.
 
