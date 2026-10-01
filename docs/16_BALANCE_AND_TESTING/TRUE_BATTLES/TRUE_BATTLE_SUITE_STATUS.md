@@ -1,24 +1,38 @@
 # Diyse — Representative True-Battle Suite Status
 
-**Status:** HISTORICAL / PROVISIONAL SUITE — FINAL DIFFICULTY CERTIFICATION PAUSED  
+**Status:** FINAL DIFFICULTY CERTIFICATION PAUSED / METHOD RETAINED  
+**Current protocol:** `TRUE_BATTLE_TEST_PROTOCOL.md`  
 **Current balance authority:** `../README.md`
 
-## What the retained reports mean
+## Historical report cleanup
 
-The versioned true-battle reports remain records of the exact historical snapshots they measured. They do not certify current difficulty where enemy action kits, Powers, progression, rewards, or other tested inputs have since reopened.
+The detailed v93–v103 true-battle snapshots have been removed from the live repository tree because their tested inputs are no longer current enough to act as implementation guidance.
 
-Mechanical observations may be reused only when they still match the current owning combat/Prime/boss-form rules.
+Those reports froze combinations of:
+- retired encounters/party states;
+- old enemy action kits/Powers;
+- provisional route levels and CEXP/EXP assumptions;
+- superseded Prime-spacing/restoration behavior;
+- historical PASS/RETAIN conclusions.
+
+Git history preserves the exact reports if historical provenance is needed.
+
+## Current meaning
+
+There is currently **no live true-battle difficulty certification** for the campaign.
+
+The reusable test method remains active. New certifications must be generated from current owner-domain inputs after the relevant enemy/progression rebuild work is stable enough to test.
 
 ## Current comparison standard
 
-For the main mandatory-vs-completionist comparison:
+For mandatory-vs-completionist core comparisons:
 - use the same ordinary equipment where practical;
 - use the same normal-stock consumables;
 - use the same active four and competent tactical policy;
 - let Player Level, CEXP, and naturally learned abilities express real route differences;
-- test Prime-specific advantages separately.
+- test Prime-specific and optional-gear advantages separately.
 
-Primary difficulty signals:
+Primary signals:
 1. temporary-KO incidence;
 2. wipe incidence;
 3. ending HP/MP;
@@ -26,24 +40,14 @@ Primary difficulty signals:
 5. mechanic-response pressure;
 6. duration secondarily.
 
-## Historical representative reports retained
-
-- Archive Leviathan — v97;
-- Regulation Crucible → The Seventh Reaction — v99;
-- Warden of the Nameless / Revision Arbiter — v100;
-- Commander Rhazek → Bastion Devourer — v101;
-- Emperor Vaelkor → Sovereign Panoply Unbound — v102.
-
-The retired Hollow Watch Castellan report is historical only and provides no current Chapter-1 certification.
-
 ## Forward order
 
-1. Finish the current enemy ability/action-kit rewrite.
-2. Revalidate mandatory/completionist encounter baselines using current rosters/formations.
-3. Rebuild progression snapshots that depend on EXP/CEXP.
-4. Re-establish representative mandatory difficulty anchors.
-5. Continue forward through chapter climaxes and Hunts.
-6. Test **Reconstituted Entity → The Last Command** only after the late-game curve is anchored.
-7. Keep **The Unfinished World** as an exhaustive completionist full-kit stress test.
+1. finish current enemy ability/action-kit rewrites;
+2. stabilize current encounter formations/placements;
+3. rebuild mandatory/completionist progression snapshots where EXP/CEXP is provisional;
+4. establish early/midgame representative anchors;
+5. continue through chapter climaxes and Hunts;
+6. test **Reconstituted Entity → The Last Command** only after the late-game curve is anchored;
+7. use **The Unfinished World** as an exhaustive completionist full-kit stress test.
 
 Design-layer simulations do not replace runtime QA.

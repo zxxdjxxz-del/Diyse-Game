@@ -1,37 +1,77 @@
-# Diyse — Canonical True-Battle Test Protocol
-**v93**
+# Diyse — True-Battle Test Protocol
 
-This layer is distinct from the completed paper mandatory-vs-completionist certification. A true-battle test resolves actual rounds, action order, MP, healing, targeting, Hit/Evasion, Criticals, statuses, support objects, phase transitions, Cards, Primes, Traits, Masteries, equipment, and legal consumables as applicable.
+**Status:** ACTIVE TRUE-BATTLE TEST METHOD  
+**Balance/QA authority:** `../README.md`
 
-## Snapshot rules
-For each boss test, define before combat:
-- exact Character Level and Class Level for every available permanent character;
-- active four (or smaller forced story party);
-- selected class and therefore selected Trait/stat package;
-- equipment actually available at that story point;
-- legal learned persistent Abilities and Masteries;
-- equipped Standard Cards and Prime slots only if already acquired;
-- consumables carried;
-- starting HP/MP and encounter-specific forced states.
+True-battle tests resolve actual battle flow under the current repository rules. They are balance/QA evidence, not a second source of enemy stats, progression, Prime rules, equipment, or rewards.
 
-## Mandatory baseline
-Use only critical-path progression and deterministic mandatory acquisitions available by that encounter. No optional Hunt/CQ/side-quest rewards unless mandatory for the encounter.
+## Source rule
 
-## Completionist baseline
-Use all legal optional progression/rewards reasonably obtainable before that encounter, respecting actual unlock timing and the level cap.
+Before every test, read current inputs from their owners:
+- combat math/status/round rules — `../../05_BATTLE_SYSTEM/`;
+- classes/Abilities/MP — `../../06_CLASSES_AND_ABILITIES/`;
+- Cards/Primes — `../../07_CARDS/`;
+- equipment/items — `../../08_ITEMS_AND_EQUIPMENT/`;
+- encounter bodies/forms/actions — `../../09_ENEMIES_AND_ENCOUNTERS/`;
+- Player EXP/CEXP route state — `../../10_PROGRESSION_AND_EXP/`.
 
-## Boss-isolation benchmark
-Representative boss simulations may begin at full HP/full MP to isolate encounter tuning unless the encounter explicitly owns incoming attrition or a preceding sequence. A separate attrition stress run can be added where needed.
+Never copy an old true-battle snapshot forward as current authority.
+
+## Snapshot requirements
+
+Record before combat:
+- current Character Level / Class Level / learned ability state;
+- legal active party and active four;
+- selected classes;
+- equipment/loadouts;
+- Standard Cards / Prime loadouts and Ready/spent state;
+- consumables;
+- starting HP/MP;
+- encounter-specific forced states;
+- route profile and any incoming attrition intentionally included.
+
+## Mandatory vs completionist core comparison
+
+Where practical, hold constant:
+- ordinary equipment;
+- normal-stock consumables;
+- active four;
+- competent tactical policy.
+
+Let real route differences come from Player Level, CEXP, and naturally learned progression.
+
+Optional Card/Prime/Relic/Legacy advantages may be tested separately so they do not hide the underlying progression signal.
+
+## Prime rules
+
+Use the current Prime owner at test time. In particular:
+- spent Prime identities persist until valid restoration;
+- a boss state/form transition does not restore spent Primes merely because a new body begins;
+- after Prime dismissal, **3 full normal party rounds** must complete before another Ready Prime may be invoked;
+- explicit authored restoration effects may restore Ready/spent state without bypassing the spacing gate unless their current owner explicitly says otherwise.
 
 ## Stochastic resolution
-Where actions/targets/hits/crits/statuses are random, record both:
-1. at least one full turn-by-turn representative battle log; and
-2. a repeated-run distribution using the exact same tactical policy.
 
-Do not treat a single lucky/unlucky roll as balance authority.
+Where actions/targets/hits/crits/statuses are random:
+1. preserve the exact tactical policy;
+2. record representative logs where useful;
+3. run enough repeated samples to estimate outcome distribution;
+4. do not treat one lucky/unlucky run as balance authority.
 
-## Player tactical policies
-At minimum test a sensible **normal/smart** policy. Add aggressive/safety variants when encounter architecture makes those strategically distinct. Player policy may react only to information legitimately visible at the time.
+## Primary difficulty signals
+
+Measure:
+- temporary-KO incidence;
+- wipe incidence;
+- ending HP/MP;
+- item/recovery pressure;
+- mechanic-response pressure;
+- duration secondarily.
 
 ## Retune rule
-Do not reopen a closed Power/stat sheet merely because one stochastic run is strange. Retune only when repeated true-battle outcomes show a structural failure: excessive/insufficient duration, unavoidable death spiral, irrelevant mechanics, resource collapse, trivialization, or a mandatory/completionist inversion outside the intended tier.
+
+Do not change a closed owner-domain value from one strange run.
+
+A balance change should require reproducible evidence of a real structural failure, then be made in the owning domain with affected regression tests rerun.
+
+Design-layer simulation does not replace runtime QA.
