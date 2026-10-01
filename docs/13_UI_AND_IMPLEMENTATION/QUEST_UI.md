@@ -8,7 +8,7 @@
 Current optional authored inventory:
 - 6 Character Quests
 - 5 ordinary Side Quests
-- 11 Regional Hunts
+- 8 active Regional Hunts (#4–#11); slots #1–#3 are retired/open
 - 6 Major Hunts
 
 ## Required state representation
