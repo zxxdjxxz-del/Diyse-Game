@@ -1,6 +1,6 @@
 # Diyse — Encounter G Rewards
 
-**Status:** EXACT WHERE MAPPED; CHAPTER-1 PER-FORMATION REMAP OPEN
+**Status:** PROVISIONAL FORMATION-G REFERENCE; CHAPTER-1 REMAP + FULL ECONOMY REBUILD PENDING
 
 ## Currency
 Ordinary encounter currency is:

@@ -1,6 +1,6 @@
 # Diyse — Major Hunt Rewards
 
-**Status:** EXACT MAJOR-HUNT G AUTHORITY
+**Status:** CURRENT MAJOR-HUNT REWARD-STRUCTURE OWNER; G VALUES PROVISIONAL PENDING ECONOMY REBUILD
 
 Exactly **6 Major Hunts** exist.
 
@@ -8,7 +8,7 @@ Exactly **6 Major Hunts** exist.
 Every Major Hunt awards its associated Prime:
 > **already Awakened**
 
-Prime identity/combat rules live in `07_CARDS_AND_PRIMES`; access/quest state lives in `11_QUESTS`; combat bodies live in `09_ENEMIES_AND_ENCOUNTERS`; Player EXP lives in `10_PROGRESSION_AND_EXP`.
+Prime identity/combat rules live in `07_CARDS`; access/quest state lives in `11_QUESTS`; combat bodies live in `09_ENEMIES_AND_ENCOUNTERS`; Player EXP lives in `10_PROGRESSION_AND_EXP`.
 
 ## Reward philosophy — LOCKED
 Major Hunts should give a **strong G payout regardless of their Prime or any additional reward**.
@@ -21,7 +21,7 @@ Do **not** reduce the G reward because a Major Hunt also awards:
 
 The Prime remains a major reason to complete the Hunt, but cash is also meant to feel substantial.
 
-## Exact G payouts
+## Provisional G payout ledger
 | # | Major Hunt | Prime | G |
 |---:|---|---|---:|
 | 1 | **Ashen Whitehorn** | **Dawn Shepherd** | **9,000 G** |

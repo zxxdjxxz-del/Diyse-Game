@@ -1,6 +1,6 @@
 # Diyse — Character Quest Economic Add-On Rewards
 
-**Status:** EXACT NON-EXP CHARACTER-QUEST REWARD AUTHORITY
+**Status:** CURRENT CHARACTER-QUEST REWARD-STRUCTURE OWNER; G/PRICE VALUES PROVISIONAL PENDING ECONOMY REBUILD
 
 Exactly six Character Quests exist.
 

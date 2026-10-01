@@ -47,6 +47,8 @@ of the calibrated mandatory-route direct G, preserving the intended **40–50%**
 
 Retained structural intent: protected/nonlethal resolution does **not** automatically imply zero G; exact payouts remain rebuild-pending.
 
+The legacy mandatory-route aggregate is not a complete current ledger because Chapter 3's mandatory **Memory Construct** payout has not yet been assigned. Do not treat the ~316,300-G figure as a closed current total.
+
 ## Historical/provisional chapter-liquidity model
 
 Chapter 1's current per-formation G remap remains open, so the liquidity result below is a **provisional stress-test pass** rather than a final exact Chapter-1 certification.
@@ -77,15 +79,15 @@ Premium Consumables are deliberately excluded from baseline solvency. Buying Eme
 Legacy/provisional optional direct-G reference if all authored activities are cleared:
 - 5 ordinary Side Quests: **18,000 G**;
 - 6 Character Quests: **22,200 G**;
-- 8 active Regional Hunts: **114,000 G**;
+- 8 active Regional Hunts: **106,000 G**;
 - 6 Major Hunts: **134,000 G**.
 
 Legacy/provisional optional direct-G subtotal after retiring the former-Elite bounty layer:
-> **288,200 G**
+> **280,200 G**
 
 ## Provisional legacy completionist direct-cash reference
 Legacy mandatory reference + legacy optional direct-G reference:
-> **approximately 604,500 G**
+> **approximately 596,500 G**
 
 This is **below the prior ~650,000-G broad completionist target** because the historical 38,900-G standalone optional-Elite bounty layer has been retired.
 
