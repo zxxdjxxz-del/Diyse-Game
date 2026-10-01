@@ -1,6 +1,6 @@
 # Diyse — Ability Master Register
 **Migration baseline:** `Diyse_CURRENT_WORKING_TRACKER_CONSOLIDATED_2026-08-27_v85.md`  
-**Master-canon class/resource authority:** **v2.08 / Audit123**, with compatible **Audit115** class normalization, later current working corrections, and the approved 2026-08-30 global Ability-MP reduction.  
+**Historical provenance:** **v2.08 / Audit123**, with compatible **Audit115** class normalization, later current working corrections, and the approved 2026-08-30 global Ability-MP reduction.  
 **Authority treatment:** explicit/newer user corrections are preserved as current domain authority.
 
 Current register contains:

@@ -1,6 +1,6 @@
 # Diyse — Class Ability MP Costs
 **Migration baseline:** `Diyse_CURRENT_WORKING_TRACKER_CONSOLIDATED_2026-08-27_v85.md`  
-**Master-canon class/resource authority:** **v2.08 / Audit123**, with compatible **Audit115** class normalization, later current working corrections, the approved 2026-08-30 global Ability-MP reduction, and the later 2026-08-30 Cardweaver/Routeweaver cost mechanics.  
+**Historical provenance:** **v2.08 / Audit123**, with compatible **Audit115** class normalization, later current working corrections, the approved 2026-08-30 global Ability-MP reduction, and the later 2026-08-30 Cardweaver/Routeweaver cost mechanics.  
 **Authority treatment:** explicit/newer user corrections override older certified prices and are promoted here as current domain authority.
 
 # Status
