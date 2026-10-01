@@ -16,27 +16,26 @@ It separates:
 - **release acceptance gates**.
 
 ## Current balance sequence
-1. Enemy static design + mandatory-vs-completionist paper validation — **CLOSED through Chapters 0–13 / v90**.
-2. CEXP recalibration to Player Lv55–60 — **CLOSED v91**.
-3. Canonical mandatory/completionist party snapshots + representative true-battle simulations — **ACTIVE NEXT**.
+1. Preserve current encounter architecture/identity while **enemy ability/action-kit and difficulty tuning are reopened**.
+2. Revalidate mandatory and completionist encounter baselines against the current party/story structure.
+3. Rebuild Player EXP / CEXP placement and confirm full Base + Subclass completion still lands in the **Lv55–60 target window**.
+4. Rebuild/recalibrate economy values in `12_ECONOMY_AND_REWARDS`.
+5. Resume representative true-battle certification against the rebuilt encounter/progression inputs.
 
-The direct-damage Power authoring audit remains closed. The CL13 curve remains 6,000 CEXP. Class Ability MP certification remains closed.
+The old direct-damage Power-completeness audits and v89–v102 difficulty PASS results remain useful historical evidence, but they are **not final current tuning authority** while enemy abilities and progression are being redone.
 
-## Closed balance layers
-Current formal authority closes:
+## Closed structural balance layers
+Current formal authority still closes:
 - direct damage formulas;
 - Base Hit/Evasion;
 - crit rules;
 - four elements;
 - five universal harmful statuses;
-- Ability base MP costs;
-- player EXP curve/cap;
-- mandatory Player-EXP placement;
-- optional Player-EXP packages;
-- mandatory named raw stats;
-- optional Elite raw stats;
-- Regional Hunt raw stats;
-- Major Hunt raw stats.
+- Ability base MP rules where their owning class files remain current;
+- Player Level cap **70**;
+- Chapter 0 no Player Levels;
+- automatic Mastery unlock architecture / no Mastery Point currency.
 
-Closed numbers still require runtime/playtest verification.
-A bug report or playtest finding does not silently rewrite canon.
+Current raw-stat tables, EXP/CEXP tables, G tables, enemy Powers/action kits, and timing-dependent difficulty proofs are reference inputs until their owning rebuild/revalidation pass closes them again.
+
+A reproducible test result or explicit later authority may reopen any affected numeric layer; cleanup must not silently promote historical PASS text back into current certification.

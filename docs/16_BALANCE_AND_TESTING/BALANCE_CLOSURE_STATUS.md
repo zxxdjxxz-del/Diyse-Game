@@ -11,28 +11,30 @@
 | Hit/Evasion | **CLOSED** | `05_BATTLE_SYSTEM` |
 | Crit | **CLOSED** | `05_BATTLE_SYSTEM` |
 | Elements/status rules | **CLOSED** | `05_BATTLE_SYSTEM` |
-| Class Ability base MP | **CLOSED** | `06_CLASSES_AND_ABILITIES` |
-| Class Ability roster | **CLOSED** | `06_CLASSES_AND_ABILITIES` |
+| Class Ability base MP | **CLOSED where current owner files say closed** | `06_CLASSES_AND_ABILITIES` |
+| Class Ability roster | **CLOSED where current owner files say closed** | `06_CLASSES_AND_ABILITIES` |
 | Mastery-point currency | **REMOVED** | `06` / `10` |
 | Mastery unlock schedule | **CLOSED — automatic by CL** | `06` / `10` |
-| CL1–13 cumulative curve | **CLOSED: 6,000 CEXP** | `10` |
-| Chapter CEXP allocation / full-class completion timing | **CLOSED v92 — mandatory full Base + Subclass completion ~Lv56–60 within Lv55–60 target** | `10` + this domain |
-| Player EXP curve / Lv70 cap | **CLOSED** | `10` |
-| Mandatory Player EXP | **CLOSED** | `10` |
-| Optional Player EXP | **CLOSED** | `10` |
-| Ordinary encounter planning center | **CLOSED AS PACING CENTER: 225** | `10` |
-| Mandatory named raw stats Ch1–13 | **CLOSED** | `09` |
-| Optional Elite raw stats | **CLOSED** | `09` |
-| Regional Hunt raw stats | **CLOSED** | `09` |
-| Major Hunt raw stats | **CLOSED** | `09` |
-| Whole-roster mandatory-vs-completionist validation | **PAPER PASS COMPLETE Ch0–13 / v89; representative true-battle follow-up ACTIVE** | `16` + owning `09` files |
-| Representative true-battle suite | **ACTIVE — Hollow Watch PASS v93; Archive Leviathan PASS v97; Regulation Crucible → Seventh Reaction PASS v99; Revision Arbiter PASS v100; Rhazek → Bastion Devourer PASS v101; Vaelkor → Sovereign Panoply PASS v102; Reconstituted Entity → Last Command next** | `16/TRUE_BATTLES` + owning `09` files |
+| CL1–13 cumulative CEXP reference | **CURRENT REFERENCE: 6,000; final campaign CEXP rebuild pending** | `10` |
+| Chapter CEXP allocation / full-class completion timing | **REOPENED — Lv55–60 remains the target window, old v91/v92 proof is provisional** | `10` + this domain |
+| Player Level cap | **CLOSED: Lv70** | `10` |
+| Player EXP curve / mandatory / optional placement | **PROVISIONAL — rebuild pending** | `10` |
+| Ordinary encounter planning center | **PROVISIONAL historical pacing reference: 225** | `10` |
+| Mandatory named raw stats Ch1–13 | **CURRENT REFERENCE; may reopen where difficulty/ability rebuild requires** | `09` |
+| Optional Elite raw stats | **CURRENT REFERENCE; may reopen where difficulty/ability rebuild requires** | `09` |
+| Regional Hunt raw stats | **CURRENT REFERENCE; timing/ability recertification open** | `09` |
+| Major Hunt raw stats | **CURRENT REFERENCE; #3–#5 timing recertification open** | `09` |
+| Enemy direct-damage Powers / action kits | **REOPENED / REDESIGN PENDING** | `09` + this domain |
+| Whole-roster mandatory-vs-completionist validation | **HISTORICAL PAPER PASS ONLY; recertification required after ability/progression rebuild** | `16` + owning `09` files |
+| Representative true-battle suite | **HISTORICAL/PROVISIONAL measurements retained; final certification paused pending rebuilt inputs** | `16/TRUE_BATTLES` + owning `09` files |
 | Ordinary equipment/item definitions | **CLOSED where catalog says closed** | `08` |
-| Economy exact unresolved payouts | **OPEN where `12` says open** | `12` |
+| Economy numeric calibration | **REBUILD / RECALIBRATION PENDING** | `12` |
 | Final production UI/audio balance | **OPEN production validation** | `13` / `15` |
 
-## v99 Regulation Crucible certification
-Regulation Crucible → The Seventh Reaction is **TRUE-BATTLE CERTIFIED / PASS / RETAIN**.
+> **Historical-certification boundary:** v99–v102 sections below preserve the exact test packages and mechanical findings they measured. Their old difficulty PASS/RETAIN conclusions are **provisional**, and any statement retaining enemy Powers/action kits is superseded by the current enemy-ability redesign/revalidation work. Prime-persistence and form-architecture findings remain usable where they match current system authority.
+
+## v99 Regulation Crucible historical measurement
+Regulation Crucible → The Seventh Reaction recorded a **v99 TRUE-BATTLE PASS under the then-current package**; final difficulty certification is reopened.
 
 Strict mandatory Lv15 prepared benchmark:
 - no Prime core-rush: **100% wins / median 18 / mean 17.78 / P90 19** over 5,000 runs;
@@ -43,10 +45,10 @@ Completionist Lv17 reference:
 - median **13** with Last Sentinel;
 - median **16** without Prime.
 
-Retain Form-I HP2,400 / Form-II HP2,900, current raw stats/Powers, chamber architecture, and no fresh-form Prime restoration.
+Historical v99 package: Form-I HP2,400 / Form-II HP2,900 with the then-current raw stats/Powers and chamber architecture. The no-fresh-form-Prime-restoration finding remains current; Powers/action-kit tuning is reopened.
 
-## v100 Revision Arbiter certification
-Warden of the Nameless / Revision Arbiter is **TRUE-BATTLE CERTIFIED / PASS / RETAIN**.
+## v100 Revision Arbiter historical measurement
+Warden of the Nameless / Revision Arbiter recorded a **v100 TRUE-BATTLE PASS under the then-current package**; final difficulty certification is reopened.
 
 Strict mandatory Lv30 prepared benchmark:
 - no Prime: **100% wins / median 11 / mean 10.76 / P90 12** over 20,000 runs;
@@ -57,13 +59,13 @@ Completionist Lv34 reference:
 - no Prime: **median 8 / mean 8.01 / P90 9**;
 - with Last Sentinel: **median 8 / mean 7.86 / P90 9**.
 
-Retain HP7,600, all raw stats/Powers/status chances, 3 Closed Record Assertion Layers, Revision Claim, 2 Open Revision Layers, and repetition locks.
+Historical v100 package: HP7,600 with the then-current raw stats/Powers/status chances, Assertion Layers, Revision Claim, Open Revision Layers, and repetition locks. Treat those combat-tuning values as historical inputs pending the ability/difficulty rewrite.
 
 Detailed certification:
 `TRUE_BATTLES/REVISION_ARBITER_TRUE_BATTLE_v100.md`
 
-## v101 Rhazek → Bastion Devourer certification
-Commander Rhazek — Reforged Commander → Bastion Devourer is **TRUE-BATTLE CERTIFIED / PASS / RETAIN**.
+## v101 Rhazek → Bastion Devourer historical measurement
+Commander Rhazek — Reforged Commander → Bastion Devourer recorded a **v101 TRUE-BATTLE PASS under the then-current package**; final difficulty certification is reopened.
 
 Strict prepared mandatory Lv40, no Prime:
 - **100% wins / median 14 / mean 14.48 / P90 17** over 20,000 runs;
@@ -80,13 +82,13 @@ Prime persistence stress:
 
 Completionist Lv48–49 no-Prime references both center at **median 12**.
 
-Retain both HP bodies, raw stats/Powers/status chances/repetition locks, Demolition Breaker, 18% Exposed Rhazek, and current Prime rules.
+Historical v101 package: both HP bodies with the then-current raw stats/Powers/status chances/repetition locks, Demolition Breaker, and 18% Exposed Rhazek. Current Prime-persistence findings remain valid; enemy combat tuning is reopened.
 
 Detailed certification:
 `TRUE_BATTLES/RHAZEK_BASTION_DEVOURER_TRUE_BATTLE_v101.md`
 
-## v102 Vaelkor → Sovereign Panoply certification
-Emperor Vaelkor Draeven → Sovereign Panoply Unbound is **TRUE-BATTLE CERTIFIED / PASS / RETAIN**.
+## v102 Vaelkor → Sovereign Panoply historical measurement
+Emperor Vaelkor Draeven → Sovereign Panoply Unbound recorded a **v102 TRUE-BATTLE PASS under the then-current package**; final difficulty certification is reopened.
 
 Prepared mandatory Lv56, no Prime:
 - **100% wins / median 21 / mean 22.46 / P90 29** over 5,000 runs;
@@ -119,13 +121,15 @@ Completionist Lv66 native-Legacy reference:
 - **100% wins / median 15 / mean 14.68 / P90 17** over 5,000 runs;
 - **0% any-KO**.
 
-Retain unchanged:
+Historical v102 tested package:
 - Form-I HP **16,800** and raw line;
 - Form-II HP **20,200** and raw line;
-- all Powers/status chances/repetition locks;
+- then-current Powers/status chances/repetition locks;
 - Sovereign Overrun's 55% threshold, protected one-round Preparation, **390 Power** resolution, 20% Staggered, and 3-round lock;
 - Final Sovereignty's 25% same-bar state;
 - the genuine fresh-body and persistent-spend Prime rules.
+
+Only the form/Prime-system findings are carried forward automatically; enemy action-kit/Power tuning remains reopened.
 
 Current true-battle pacing refines the historical generic paper estimate to approximately **19–21 total rounds depending on Prime commitment**, while completionist Lv66 remains at the intended **~13–15** center.
 

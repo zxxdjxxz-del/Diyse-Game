@@ -32,11 +32,11 @@ Do not restore:
 - old two-body Worldframe/Worldheart superboss
 - automatic class-completion acceptance at Lv53–57
 
-Current ordinary encounter planning center:
-> 225
+Provisional historical ordinary-encounter planning center:
+> 225 — **rebuild pending**
 
-Current player ending:
-> ~Lv62
+Provisional historical player-ending reference:
+> ~Lv62 — **EXP rebuild pending**
 
 Current class-completion timing target:
-> around Lv62 — CEXP redo pending.
+> **Lv55–60** for normal full Base + Subclass completion; exact EXP/CEXP totals and completion centers remain rebuild-pending.

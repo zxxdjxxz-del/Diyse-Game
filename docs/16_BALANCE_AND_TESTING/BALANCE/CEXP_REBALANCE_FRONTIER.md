@@ -49,11 +49,11 @@ Exact historical arithmetic remains in:
 
 ## Current validation frontier
 Early chapters were reopened because current production authority superseded older balance assumptions:
-- Chapter 1: Maevra is noncombat; Briarhide Stalker is a normal lethal final boss;
+- Chapter 1: Maevra is noncombat; **Thornhide** is the normal lethal final boss;
 - Chapter 2: Maevra is noncombat; `Hold the Junction` is retired; current Waterworks/Archive/Bastion placements control;
 - Chapter 3: Maevra is noncombat; no mandatory hostile road/perimeter phase; current three-person pre-Nimera and four-person post-Nimera party chronology controls.
 
-The direct-damage Power audit remains closed.
+The historical direct-damage Power-completeness audit remains provenance only; current enemy ability/action-kit and Power tuning are reopened.
 
 ## Next
 > **Recertify encounter validation first. Then rerun the recruitment-aware CEXP pass and close it only if the Lv55–60 class-completion target still holds.**

@@ -1,7 +1,10 @@
 # Diyse — Major Hunt Difficulty Recertification
 
+> **STATUS — HISTORICAL / PROVISIONAL RECERTIFICATION RECORD.**  
+> #1–#2 access timing still matches the current cadence, but the broader progression and enemy-ability rebuilds mean their numeric difficulty conclusions are provisional. #3–#5 moved to earlier current access windows and require fresh recertification. No recommendation/raw-stat/Power value in this file should be treated as newly locked by cleanup.
+
 ## Purpose
-Major Hunts #1–#5 were moved to later unlock chapters. This pass rechecks each fixed authored encounter against:
+This file records an older recertification pass whose access assumptions are now partly superseded. It compared each fixed authored encounter against:
 - mandatory-route player level at unlock;
 - completionist level before that Hunt;
 - nearby Regional Hunt and mandatory-boss difficulty;
@@ -13,12 +16,12 @@ No dynamic player-level scaling is introduced.
 
 | # | Hunt | Unlock | Mandatory level at chapter end | Current status |
 |---:|---|---|---:|---|
-| 1 | Ashen Whitehorn | after Ch6 | ~27 | **RECERTIFIED** |
-| 2 | Crownless Siege Marshal / War Engine | after Ch7 | ~32 | **RECERTIFIED** |
-| 3 | Concordance Guardian | after Ch9 | ~42 | **RECERTIFIED** |
-| 4 | Worldscar Leviathan | after Ch10 | ~47 | **RECERTIFIED** |
-| 5 | Final Archive Arbiter | after Ch11 | ~52 | **RECERTIFIED** |
-| 6 | The Unfinished World | post-Vaelkor Ch12 + Arbiter clear | ~57 route / ~68 exhaustive completionist | **PAPER RECERTIFIED v88 / runtime duration gate** |
+| 1 | Ashen Whitehorn | after Ch6 | historical ~27 reference | **PROVISIONAL / progression rebuild pending** |
+| 2 | Crownless Siege Marshal / War Engine | after Ch7 | historical ~32 reference | **PROVISIONAL / progression rebuild pending** |
+| 3 | Concordance Guardian | after Sixfold Volition / end Ch7 | **OPEN / recalculate** | **REVALIDATION OPEN** |
+| 4 | Worldscar Leviathan | after Ch8 | **OPEN / recalculate** | **REVALIDATION OPEN** |
+| 5 | Final Archive Arbiter | after Ch10 | **OPEN / recalculate** | **REVALIDATION OPEN** |
+| 6 | The Unfinished World | post-Vaelkor Ch12 + Arbiter clear | historical route/completionist references provisional | **REVALIDATION OPEN after progression rebuild** |
 
 ## #1 — Ashen Whitehorn
 
@@ -76,8 +79,8 @@ Rationale:
 - Regional Hunt #7 recommends Lv38, so the Major Hunt recommendation remains clearly above that tier;
 - the Marshal remains the more tactical/command-oriented first body;
 - the War Engine is physically stronger and more durable;
-- Form II is a genuine fresh body, so the party receives a Prime-availability refresh;
-- the extra combined HP compensates for that fresh-body advantage without creating a third form.
+- Form II is a genuine fresh body, but **does not refresh spent Prime availability**;
+- the existing combined HP is retained only as a historical/provisional tested body, not justified by any Prime-refresh advantage.
 
 ## #3 — Concordance Guardian
 
@@ -172,25 +175,28 @@ Rationale:
 - Custody Protocols, Archive Burden, and Transfer Windows are all same-bar systems, so none refresh Prime availability;
 - Lv65 leaves a deliberate five-level recommendation gap before The Unfinished World at Lv70.
 
-## Pass closure
-> **Major Hunt #1–#5 later-unlock recertification COMPLETE**
+## Historical pass closure — superseded
+> **The old #1–#5 recertification is not current final certification. #3–#5 require new timing-aware validation; all six Hunts require ability/difficulty revalidation after the current rebuilds.**
 
 Current recommendation ladder:
 > **33 → 41 → 54 → 60 → 65 → 70**
 
-Major Hunt #6 retains its Lv70 / 78,000-HP line as the ultimate optional superboss and is **paper recertified v88** against the actual post-Vaelkor route/completionist levels. Final runtime duration/attrition remains a required QA gate.
+Major Hunt #6's Lv70 / 78,000-HP line is retained here as a historical/provisional reference. The old v88 paper result is not current final certification; progression and runtime duration/attrition recertification remain open.
 
 
 ## Action-kit Power closure — v74
-Recommended-level/raw-stat recertification remains unchanged.
+The former recommendation/raw-stat record is retained for comparison.
 
-All six Major Hunts now additionally pass:
-> **direct-damage Power completeness**
+Historical v74 status:
+> **direct-damage Power completeness was recorded for all six Major Hunts under the old action kits**
 
-No recertified raw line was retuned during the action-kit pass.
+Current status:
+> **enemy/Hunt ability and Power redesign/revalidation pending**
 
-Current hierarchy and unlock schedule remain unchanged.
+No raw line was retuned during that historical action-kit pass.
+
+Current hierarchy/access authority comes from the live Hunt/quest owners; this historical document does not freeze an older unlock schedule.
 
 
-## #6 — The Unfinished World — v88 two-baseline paper recertification
-Earliest route-state after Vaelkor is only Lv56–57; satisfying the Final Archive Arbiter prerequisite at that point can raise a low-option route to about Lv58, still intentionally far below the Lv70 recommendation. An exhaustive completionist can reach about Lv68 after Chapter-12 clear, RH11, and the post-Vaelkor side quest. The Lv70 recommendation therefore remains a meaningful final preparedness target. No raw stat or Power changed. Runtime duration/attrition testing remains required because this one-bar 78,000-HP encounter explicitly assumes the full late-game toolset.
+## #6 — The Unfinished World — historical v88 two-baseline paper record
+The old route-state estimates (roughly Lv56–58 low-option and ~Lv68 exhaustive completionist) are retained only as provenance because the Player EXP/CEXP model is being rebuilt. The Lv70 recommendation and 78,000-HP body remain provisional reference inputs; runtime duration/attrition and progression-aware recertification are still required.

@@ -7,41 +7,42 @@
 
 
 ## Regional Hunts
-Exactly:
-> **11**
+Current active count:
+> **8**
 
-Recommended levels:
-> **7 / 11 / 15 / 20 / 26 / 32 / 38 / 44 / 50 / 56 / 61**
+Slots **#1–#3 are retired/open**. The historical 11-slot ladder is not a current active-Hunt count.
 
-Raw stats:
-> CLOSED under Audit134.
+Retained provisional recommended-level references for active #4–#11:
+> **20 / 26 / 32 / 38 / 44 / 50 / 56 / 61**
+
+Raw stats remain current reference inputs, but Hunt ability/difficulty recertification is open.
 
 Regional #11:
 - Sealed Throne 11,800 HP
 - Walking Throne 14,200 HP
 - total raw body HP 26,000
-- fresh form refreshes Prime availability
+- fresh form **does not refresh spent Prime availability**
 - no third form.
 
 ## Major Hunts
 Exactly:
 > **6**
 
-Current recommended levels:
-- **33** — Ashen Whitehorn — recertified for after Ch6
-- **41** — Crownless Siege Marshal / War Engine — recertified for after Ch7
-- **54** — Concordance Guardian — recertified for after Ch9
-- **60** — Worldscar Leviathan — recertified for after Ch10
-- **65** — Final Archive Arbiter — recertified for after Ch11
-- 70 — The Unfinished World — unchanged
+Retained provisional recommended-level references:
+- **33** — Ashen Whitehorn — after Ch6
+- **41** — Crownless Siege Marshal / War Engine — after Ch7
+- **54** — Concordance Guardian — current access after **Sixfold Volition / end Ch7; recertification open**
+- **60** — Worldscar Leviathan — current access after **Ch8; recertification open**
+- **65** — Final Archive Arbiter — current access after **Ch10; recertification open**
+- **70** — The Unfinished World — post-Vaelkor Ch12 + Arbiter clear; recertification remains open with progression rebuild
 
-Raw stats:
-- Major Hunt #1 — **RECERTIFIED** after unlock-timing move.
-- Major Hunt #2 — **RECERTIFIED** after unlock-timing move.
-- Major Hunt #3 — **RECERTIFIED** after unlock-timing move.
-- Major Hunt #4 — **RECERTIFIED** after unlock-timing move.
-- Major Hunt #5 — **RECERTIFIED** after unlock-timing move.
-- Major Hunt #6 — Audit135 value retained.
+Raw-stat status:
+- Major Hunt #1 — current reference line; progression/ability recertification pending.
+- Major Hunt #2 — current reference line; progression/ability recertification pending.
+- Major Hunt #3 — current reference line; **timing recertification open**.
+- Major Hunt #4 — current reference line; **timing recertification open**.
+- Major Hunt #5 — current reference line; **timing recertification open**.
+- Major Hunt #6 — current reference line; progression/runtime recertification open.
 
 Major #2:
 - 13,600 + 16,900 = **30,500** body HP
@@ -66,27 +67,25 @@ Hunt playtests must verify:
 ## Current Major Hunt unlock schedule
 - #1 — after Chapter 6
 - #2 — after Chapter 7
-- #3 — after Chapter 9
-- #4 — after Chapter 10
-- #5 — after Chapter 11
-- #6 — existing post-Vaelkor Chapter-12 + Arbiter-clear dual gate
+- #3 — after **Sixfold Volition at the end of Chapter 7**
+- #4 — after **Chapter 8**
+- #5 — after **Chapter 10**
+- #6 — post-Vaelkor Chapter-12 + Arbiter-clear dual gate
 
 ## Recommended-level recertification
-The unlock schedule moved later than the original Audit135 access windows.
-
 Current status:
-- #1 — **RECERTIFIED**
-- #2 — **RECERTIFIED**
-- #3 — **RECERTIFIED**
-- #4 — **RECERTIFIED**
-- #5 — **RECERTIFIED**
-- #6 — **TWO-BASELINE PAPER RECERTIFIED v88 / runtime duration gate remains**
+- #1 — **PROVISIONAL / progression rebuild pending**
+- #2 — **PROVISIONAL / progression rebuild pending**
+- #3 — **REVALIDATION OPEN for earlier end-Ch7 access**
+- #4 — **REVALIDATION OPEN for earlier Ch8 access**
+- #5 — **REVALIDATION OPEN for earlier Ch10 access**
+- #6 — **REVALIDATION OPEN after progression rebuild; runtime duration gate also remains**
 
-Do not dynamically scale Hunts. Each recertification remains a fixed authored stat line.
+Do not dynamically scale Hunts. Revalidation must use fixed authored encounters and current mandatory/completionist snapshots.
 
 
 ## Recertification pass closure
-> **Major Hunt #1–#5 later-unlock recertification: COMPLETE**
+> **Historical #1–#5 recertification retained for provenance; current timing/progression/ability recertification is OPEN**
 
 Current recommended levels:
 - #1 — 33
@@ -102,8 +101,11 @@ All remain fixed authored encounters. No dynamic player-level scaling was introd
 ## Regional Hunt Power closure — v73 / current retirement overlay
 Historical v73 certified the then-active #1–#11 set.
 
+Historical v73 result:
+> **the then-active Regional-Hunt set satisfied the old Power-completeness audit**
+
 Current authority:
-> **CURRENT ACTIVE REGIONAL HUNTS POWER COMPLETE**
+> **active Regional Hunt ability/action-kit and Power revalidation is pending**
 
 Slots #2 and #3 are retired/open and are not current encounters. Their former certification does not place them back into the game.
 
@@ -114,14 +116,14 @@ The pass preserves:
 - access timing;
 - difficulty hierarchy;
 - chapter status rollout;
-- fresh/same-bar Prime-refresh rules.
+- persistent Prime-spend rules: neither fresh forms nor same-bar state changes refresh spent Prime identities.
 
 Regional Hunt #11:
 - Sealed Throne11,800 HP
 - Walking Throne14,200 HP
 - total26,000 HP
 - genuine fresh body
-- Prime refresh at Walking Throne
+- no Prime refresh at Walking Throne
 - no third form
 
 New exact support active-balance values:
@@ -139,15 +141,18 @@ Next Hunt-specific Power work:
 
 
 ## Major Hunt Power closure — v74
-Major Hunts #1–#6:
-> **POWER COMPLETE**
+Historical v74 result:
+> **Major Hunts #1–#6 were POWER COMPLETE under their then-current action kits**
+
+Current status:
+> **Hunt ability/action-kit and Power redesign/revalidation pending**
 
 The pass preserves:
 - fixed authored raw stats;
 - current recommended levels;
 - current unlock timing;
 - hierarchy above Regional Hunts;
-- fresh/same-bar Prime-refresh rules.
+- persistent Prime-spend rules: fresh forms and same-bar state changes do not refresh spent Prime identities.
 
 Major #2 correction:
 > current recertified body HP is **13,600 + 16,900 = 30,500**, not the stale pre-recertification 21,010 figure.
@@ -158,16 +163,15 @@ Major #6:
 No dynamic scaling or extra HP body was introduced.
 
 ## Hunt Power milestone
-Regional Hunts:
-> **#1–#11 POWER COMPLETE**
+Historical milestone:
+- the former #1–#11 Regional-Hunt set and #1–#6 Major-Hunt set satisfied the old direct-damage Power-completeness audit.
 
-Major Hunts:
-> **#1–#6 POWER COMPLETE**
+Current authority:
+- Regional #1–#3 remain retired/open;
+- active Regional and Major Hunt action kits/Powers require revalidation with the enemy-ability redesign.
 
-All Hunts now satisfy the global direct-damage Power requirement.
 
-
-## v88 Hunt validation carry-forward
-- Regional Hunt #11 — **FORMALLY VALIDATED v88** at retained Lv61–62; exact Chapter-12 timing remains unresolved.
-- Major Hunt #6 — **TWO-BASELINE PAPER RECERTIFIED v88** at retained Lv70 / 78,000 HP against ~Lv58 low-option prerequisite-clearing route and ~Lv68 exhaustive completionist; final runtime duration/attrition remains open.
-- No Hunt raw stat or direct-damage Power changed.
+## v88 Hunt validation carry-forward — historical
+- Regional Hunt #11 — historical v88 validation retained as provenance; current ability/difficulty recertification remains open.
+- Major Hunt #6 — historical v88 two-baseline paper result retained as provenance; current progression and runtime duration/attrition recertification remain open.
+- No Hunt raw stat or direct-damage Power is changed by this cleanup.
