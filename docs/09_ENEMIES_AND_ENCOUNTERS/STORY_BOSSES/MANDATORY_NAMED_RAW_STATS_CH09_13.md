@@ -109,7 +109,7 @@ Powers:
 Fresh body:
 - no spillover
 - no free attack
-- **Prime availability does **not** refresh; spent/Ready state carries through unchanged**
+- **Prime availability does not refresh; spent/Ready state carries through unchanged.**
 
 Powers:
 - Devouring Cleave295 / 25% Bleed
@@ -225,7 +225,7 @@ Powers:
 Fresh body:
 - no spillover
 - no free attack
-- **Prime availability does **not** refresh; spent/Ready state carries through unchanged**
+- **Prime availability does not refresh; spent/Ready state carries through unchanged.**
 
 Living Anchor Clamps:
 - 2 × HP720
@@ -395,7 +395,7 @@ Powers:
 Fresh body:
 - no spillover
 - no free attack
-- **Prime availability does **not** refresh; spent/Ready state carries through unchanged**
+- **Prime availability does not refresh; spent/Ready state carries through unchanged.**
 
 Powers:
 - Panoply Cleave360 / 25% Bleed
@@ -554,7 +554,7 @@ Continuity Hunger:
 Fresh body:
 - no spillover
 - no free attack
-- **Prime availability does **not** refresh; spent/Ready state carries through unchanged**
+- **Prime availability does not refresh; spent/Ready state carries through unchanged.**
 
 Powers:
 - Last Command Strike390 / 25% Bleed
