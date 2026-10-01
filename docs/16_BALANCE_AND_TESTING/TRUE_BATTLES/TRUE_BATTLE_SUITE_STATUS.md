@@ -1,31 +1,21 @@
 # Diyse — Representative True-Battle Suite Status
-**HISTORICAL / PROVISIONAL SUITE — FINAL DIFFICULTY CERTIFICATION PAUSED FOR ENEMY-ABILITY + PROGRESSION REBUILD**
 
-## Status change
-The previous v93–v102 reports remain valid records of the exact snapshots/rules they measured.
+**Status:** HISTORICAL / PROVISIONAL SUITE — FINAL DIFFICULTY CERTIFICATION PAUSED  
+**Current balance authority:** `../README.md`
 
-However, the acceptance standard has changed:
-> **The mandatory route should be materially harder, and optional progression should produce a clear reduction in KO/wipe pressure even when equipment is held constant.**
+## What the retained reports mean
 
-The v104 whole-roster sensitivity experiment used:
-> **Enemy direct-damage Power × 1.20**
+The versioned true-battle reports remain records of the exact historical snapshots they measured. They do not certify current difficulty where enemy action kits, Powers, progression, rewards, or other tested inputs have since reopened.
 
-That multiplier remains a historical test layer only. It is **not** a current implementation recommendation while enemy action kits/Powers are being redone.
+Mechanical observations may be reused only when they still match the current owning combat/Prime/boss-form rules.
 
-Because Power is a linear factor in Diyse's direct-damage formulas, the scalar yields approximately +20% direct damage while leaving HP, raw stats, statuses, AI, turn count, encounter composition and fight duration architecture unchanged.
+## Current comparison standard
 
-Detailed sensitivity owner:
-`../GLOBAL_ENEMY_POWER_20_PERCENT_SENSITIVITY_v104.md`
-
----
-
-# New core comparison standard
 For the main mandatory-vs-completionist comparison:
-- use the **same ordinary equipment** on both routes;
-- use the **same normal-stock consumables**;
+- use the same ordinary equipment where practical;
+- use the same normal-stock consumables;
 - use the same active four and competent tactical policy;
-- do not give the completionist route Relic/Legacy equipment merely to make it safer;
-- allow the real Player-Level / CEXP / learned-ability difference created by optional play;
+- let Player Level, CEXP, and naturally learned abilities express real route differences;
 - test Prime-specific advantages separately.
 
 Primary difficulty signals:
@@ -36,106 +26,24 @@ Primary difficulty signals:
 5. mechanic-response pressure;
 6. duration secondarily.
 
----
+## Historical representative reports retained
 
-# Global +20% sensitivity boundaries
-Apply ×1.20 to authored enemy direct-damage Power for:
-- ordinary enemies;
-- Elites;
-- authored hostile combatants;
-- story bosses;
-- Regional Hunts;
-- Major Hunts;
-- hostile support actors/objects that deal ordinary direct damage.
+- Archive Leviathan — v97;
+- Regulation Crucible → The Seventh Reaction — v99;
+- Warden of the Nameless / Revision Arbiter — v100;
+- Commander Rhazek → Bastion Devourer — v101;
+- Emperor Vaelkor → Sovereign Panoply Unbound — v102.
 
-Do not multiply:
-- Burn/Bleed or other indirect damage;
-- fixed/%Max-HP damage;
-- healing/repair;
-- status chances;
-- raw stats;
-- Base Hit;
-- support actions with Power N/A.
+The retired Hollow Watch Castellan report is historical only and provides no current Chapter-1 certification.
 
-Do **not** use the retired Hollow Watch Castellan/Ballista v93 encounter to certify current Chapter-1 spike safety. Current Chapter-1 ordinary/fixed encounters must be tested from their present roster and formations after the ability rewrite.
+## Forward order
 
----
-
-# Current recalibration anchor
-## Chapter 5 — Deepforge Colossus → Worldsmith Body
-Working reports:
-- `CH5_DEEPFORGE_DIFFICULTY_RECALIBRATION_WORKING_v103.md`
-- `CH5_DEEPFORGE_ASSEMBLY_TUNING_CANDIDATE_v103.md`
-
-Same-gear route anchors:
-- mandatory — **Lv20**;
-- completionist — **Lv22**.
-
-Current-package competent-policy sample:
-- mandatory Lv20 — **100% wins / 0.095% any-KO** over 20,000 runs;
-- completionist Lv22 — **100% wins / 0.005% any-KO** over 20,000 runs.
-
-Verdict:
-> **CURRENT PACKAGE TOO SAFE FOR THE NEW MANDATORY-ROUTE STANDARD**
-
-The preferred v103 structural candidate converted Guard Press/Repair Arm away from action-menu dilution and used approximately +15% direct Power:
-- mandatory Lv20 rush — **96.665% wins / 37.37% any-KO / 3.335% wipes**;
-- mandatory Lv20 dismantle — **99.87% wins / 14.165% any-KO / 0.13% wipes**;
-- completionist Lv22 same-gear rush — **100% wins / 0.58% any-KO**;
-- completionist Lv22 same-gear dismantle — **100% wins / 0.315% any-KO**.
-
-The v104 +20% scalar is only about **4.35% more direct damage** than that preferred +15% candidate. It should therefore be tested as the new common baseline rather than jumping to the older rejected +45% brute-force package.
-
-Current Deepforge test Powers under exact ×1.20:
-- Assembly Frame — 246 / 168 AoE / 234 Fire / 204;
-- Worldsmith — 270 / 258 Fire / 186 AoE / 312 / Forge Collapse 360 AoE.
-
-The assembly-action-density correction remains required; a Power scalar alone does not solve that incentive.
-
----
-
-# Ordinary-formation watch
-The +20% layer applies to ordinary encounters as well as bosses.
-
-Chapter 5 is the first ordinary-formation pressure anchor because late formations contain **5–6 active enemies**. Their potential direct-damage budget rises 20% without adding turns or HP.
-
-Mandatory check:
-> confirm that attrition and focus pressure increase without producing routine unavoidable opening-round wipes.
-
----
-
-# Historical representative measurements
-1. **Hollow Watch Castellan — retired Chapter-1 encounter / historical S008 — v93**
-   - historical simulation evidence only; provides **no current Chapter-1 difficulty certification**.
-2. **Archive Leviathan — Chapter 2 / S013 — v97**
-   - historical measurement retained.
-3. **Regulation Crucible → The Seventh Reaction — Chapter 4 / S024 — v99**
-   - historical measurement retained.
-4. **Warden of the Nameless / Revision Arbiter — Chapter 7 — v100**
-   - old difficulty PASS provisional under revised standard and +20% sensitivity.
-5. **Commander Rhazek → Bastion Devourer — Chapter 9 — v101**
-   - old difficulty PASS provisional;
-   - fresh-body / Prime-persistence findings retained.
-6. **Emperor Vaelkor → Sovereign Panoply Unbound — Chapter 12 — v102**
-   - old difficulty PASS provisional;
-   - old mandatory no-Prime any-KO was only 1.98%; Sovereign Overrun 390 becomes **468 test Power** under v104;
-   - fresh-body / Overrun / Prime-persistence findings retained.
-
----
-
-# Forward order
 1. Finish the current enemy ability/action-kit rewrite.
-2. Rebuild the mandatory/completionist progression snapshots that depend on EXP/CEXP.
-3. Recheck early ordinary/fixed encounters using their **current** rosters.
-4. Re-establish a representative mandatory difficulty anchor before promoting any global Power scalar.
-5. Continue forward through chapter climaxes, then revisit Rhazek/Vaelkor.
+2. Revalidate mandatory/completionist encounter baselines using current rosters/formations.
+3. Rebuild progression snapshots that depend on EXP/CEXP.
+4. Re-establish representative mandatory difficulty anchors.
+5. Continue forward through chapter climaxes and Hunts.
 6. Test **Reconstituted Entity → The Last Command** only after the late-game curve is anchored.
-7. Keep **The Unfinished World** as the exhaustive completionist full-kit stress test.
+7. Keep **The Unfinished World** as an exhaustive completionist full-kit stress test.
 
-The suite is **PAUSED AS FINAL CERTIFICATION / RETAINED AS HISTORICAL TEST EVIDENCE** until rebuilt inputs exist. Design-layer simulations do not replace runtime QA.
-
-## Current Bleed rule
-All recalibration simulations continue using the current Bleed escalation rule:
-- 3% Max HP per qualifying ordinary proc;
-- escalates to 4% after three affected turns uncleared;
-- mandatory-boss conversion 1.5% → 2%.
+Design-layer simulations do not replace runtime QA.

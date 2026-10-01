@@ -126,45 +126,5 @@ This structural candidate produced three desired separations simultaneously:
 2. **Rush vs dismantle:** dismantling significantly reduced mandatory-route KO/wipe pressure.
 3. **Danger without one-shots:** pressure came from sustained attack density and mechanics rather than a new instant-kill system.
 
----
 
-# v104 global +20% sensitivity handoff
-
-The whole-roster recalibration now tests:
-> **enemy direct-damage Power ×1.20**
-
-Detailed owner:
-`../GLOBAL_ENEMY_POWER_20_PERCENT_SENSITIVITY_v104.md`
-
-For Deepforge, exact ×1.20 test Powers are:
-
-## Form I
-- Construction Hammer — **246**
-- Load-Bearing Sweep — **168**
-- Forge Discharge — **234**
-- Clamp and Draw — **204**
-
-## Form II
-- Worldsmith Clamp — **270**
-- Foundry Arc — **258**
-- Construction Sweep — **186**
-- Worldline Crush — **312**
-- Forge Collapse — **360**
-
-Relative to the v103 +15% structural candidate, the v104 scalar is only:
-> **~4.35% more direct damage**
-
-Therefore the structural assembly rewrite remains the preferred Deepforge architecture, but the next comparison uses the common +20% global test layer instead of promoting the old +15% rounded values.
-
-Do not rewrite the Deepforge owner yet.
-
-# Current candidate verdict
-> **STRUCTURAL FIX PROMISING / +15% RESULTS HISTORICAL / +20% GLOBAL SCALAR NOW ACTIVE FOR RETEST**
-
-Next Deepforge acceptance gate:
-- same gear;
-- Lv20 mandatory vs Lv22 completionist;
-- rush and dismantle policies;
-- assembly passive-function correction;
-- exact ×1.20 enemy direct-Power sensitivity;
-- no-Prime core line first, then same Recovered Last Sentinel stress.
+Historical note: later global-scalar sensitivity work was exploratory and has been removed from the live balance tree. Git history preserves that experiment if provenance is ever needed.
