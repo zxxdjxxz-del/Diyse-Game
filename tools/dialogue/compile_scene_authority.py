@@ -27,9 +27,14 @@ from typing import Any
 ROOT = Path(__file__).resolve().parents[2]
 SPEC_SCHEMA = "diyse_scene_authority_spec_v1"
 AUTHORITY_PACKET_SCHEMA = "diyse_scene_authority_packet_v1"
-COMPILER_VERSION = "1.2.1"
+COMPILER_VERSION = "1.3.0"
 
-CANON_STATUS_PATH = "docs/00_MASTER_CONTROL/CURRENT_CANON_STATUS.md"
+CANON_SNAPSHOT_PATHS = (
+    "docs/00_MASTER_CONTROL/AUTHORITY_AND_CHANGE_CONTROL.md",
+    "docs/00_MASTER_CONTROL/CANON_QUICK_REFERENCE.md",
+    "docs/00_MASTER_CONTROL/CLASS_TERMINOLOGY_CURRENT.md",
+    "docs/00_MASTER_CONTROL/FACE_TERMINOLOGY_CURRENT.md",
+)
 
 SAFE_CHARACTER_ID = re.compile(r"^[a-z0-9][a-z0-9_-]{0,63}$")
 SAFE_SCENE_ID = re.compile(r"^[A-Za-z0-9][A-Za-z0-9_.:-]{0,95}$")
@@ -67,24 +72,14 @@ RELATIONSHIP_MAP_PATH = "docs/01_CHARACTERS/RELATIONSHIPS/PERMANENT_SIX_RELATION
 # automatically for every authored story scene. Exact scene facts still come from scene specs.
 DEFAULT_GLOBAL_SOURCES: list[dict[str, Any]] = [
     {
-        "path": "docs/00_MASTER_CONTROL/CURRENT_CANON_STATUS.md",
-        "sections": [
-            "Repository / authority state",
-            "Current project locks",
-            "Current Card / Face locks",
-            "Current class / progression locks",
-        ],
-        "role": "master_control_guardrail",
-    },
-    {
         "path": "docs/00_MASTER_CONTROL/AUTHORITY_AND_CHANGE_CONTROL.md",
         "sections": ["Current authority precedence", "No silent resurrection"],
         "role": "authority_precedence",
     },
     {
         "path": "docs/00_MASTER_CONTROL/CANON_QUICK_REFERENCE.md",
-        "sections": ["Party", "Chapters", "Combat", "Cards", "Economy"],
-        "role": "current_terminology_guardrail",
+        "whole_file": True,
+        "role": "current_cross_domain_guardrail",
     },
     {
         "path": "docs/02_STORY/DIALOGUE_HANDOFF.md",
@@ -245,11 +240,14 @@ def _compile_source_record(root: Path, source: dict[str, Any], category: str) ->
 
 
 def _derive_canon_snapshot_id(root: Path) -> str:
-    status = _read_text(root, CANON_STATUS_PATH)
-    match = re.search(r"v(\d+\.\d+)\s*/\s*Audit(\d+)", status, flags=re.IGNORECASE)
-    if not match:
-        raise CompileError("Could not derive current canon snapshot from CURRENT_CANON_STATUS.md")
-    return f"v{match.group(1)}-Audit{match.group(2)}"
+    """Derive an opaque snapshot token from the surviving live master-control handoffs."""
+    fingerprint_parts: list[str] = []
+    for path in CANON_SNAPSHOT_PATHS:
+        text = _read_text(root, path)
+        fingerprint_parts.append(path)
+        fingerprint_parts.append(_sha256_text(text))
+    digest = _sha256_text("\n".join(fingerprint_parts))
+    return f"repo-{digest[:16]}"
 
 
 def _character_source_map(spec: dict[str, Any]) -> dict[str, str]:
