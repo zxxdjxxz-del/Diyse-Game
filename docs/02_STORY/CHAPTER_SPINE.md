@@ -1,8 +1,8 @@
 # Diyse — Mandatory Chapter Spine
-**Migration baseline:** `Diyse_CURRENT_WORKING_TRACKER_CONSOLIDATED_2026-08-27_v85.md`  
-**Current whole-project written authority:** **v2.20 / Audit135**, read through all later explicit user corrections and current domain migrations.  
-**Primary story authorities:** current chapter index; current chapter files and later explicit corrections; current Prime/character/world corrections.  
-**Domain rule:** this folder owns mandatory story structure, chapter purpose, scene order, reveal order, recruitment/Prime milestones, interchapter causality, and story-state outcomes. Exact spoken dialogue belongs in `03_DIALOGUE`; battle numbers in `09_ENEMIES_AND_ENCOUNTERS`; progression numbers in `10_PROGRESSION_AND_EXP`.
+
+**Status:** ACTIVE CROSS-CHAPTER STORY SPINE  
+**Authority:** chapter-specific detail is owned by the current chapter masters and later explicit approved corrections.  
+**Domain rule:**** this folder owns mandatory story structure, chapter purpose, scene order, reveal order, recruitment/Prime milestones, interchapter causality, and story-state outcomes. Exact spoken dialogue belongs in `03_DIALOGUE`; battle numbers in `09_ENEMIES_AND_ENCOUNTERS`; progression numbers in `10_PROGRESSION_AND_EXP`.
 
 ## Global chapter-end cleanup / transition rule — LOCKED
 For **every chapter that has a following chapter (Chapter 0 through Chapter 12)**:
