@@ -272,8 +272,11 @@ Validation:
 Implemented:
 - `game/dialogue/dialogue_scene_packet_importer.gd` converts `diyse_dialogue_scene_packet_v1` + explicit authoring metadata into `DiyseDialogueSceneDefinition`;
 - `game/dialogue/dialogue_field_bridge.gd` applies/restores movement and encounter policy when a Resource-backed scene runs;
-- walking dialogue may suppress encounter triggering without resetting accumulated pressure;
+- the bridge can preserve/restore encounter-pressure state while a dialogue scene pauses field traversal;
 - movement/encounter pause state is restored to its exact pre-scene value.
+
+Production authoring boundary:
+> **No walking dialogue.** Route dialogue must use an authored stop/trigger with movement/input paused. Any proof capability that could support dialogue while moving is implementation plumbing only and must not be used to author shipping scenes.
 
 The importer does **not** infer C0–C3 / V1–V4 from economical/moderate/bespoke.
 
