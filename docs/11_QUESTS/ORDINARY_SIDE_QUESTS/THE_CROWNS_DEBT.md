@@ -12,7 +12,7 @@
 - runtime: ~15–20 minutes
 - boss: none
 - combat: none
-- EXP: **0**
+- numeric progression rewards: owned by `10_PROGRESSION_AND_EXP`; current values are provisional pending rebuild
 
 ## Current continuity
 Mirena does not randomly stumble over the problem.
@@ -84,6 +84,6 @@ Do not add occupation remnants merely because Ashford used to be occupied.
 - more active civilian recovery/supply staging.
 
 ## Reward boundary
-- **0 Player EXP**
+- numeric progression rewards: owned by `10_PROGRESSION_AND_EXP`; current values are provisional pending rebuild
 - exact currency/Consumables belong in `12`
 - no unique weapon/Relic/Legacy/Card
