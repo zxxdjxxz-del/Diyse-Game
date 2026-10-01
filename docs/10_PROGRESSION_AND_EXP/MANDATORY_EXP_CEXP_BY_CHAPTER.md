@@ -4,6 +4,9 @@
 **Current whole-project written authority:** **v2.20 / Audit135**.  
 **Current working override:** v85 Sections 220–225 remove the **Mastery Point** currency and make Masteries automatic Class-Level unlocks. This newer working lock is preserved as current working authority pending formal promotion.
 
+> **NUMERIC STATUS — PROVISIONAL PLANNING TABLE.**  
+> EXP, CEXP, chapter totals, encounter-count centers, and derived end-level projections below are scheduled for later rebalance. Preserve the table as the current reference baseline, not as final certification.
+
 
 | Chapter | End level | Total EXP | Ordinary EXP | Named/story EXP | Campaign CEXP | Ordinary CEXP | Named/story CEXP | Encounters |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|

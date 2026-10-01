@@ -1,5 +1,8 @@
 # Diyse — v92 Recruitment-Aware CEXP Proof
 
+> **STATUS — HISTORICAL / PROVISIONAL REFERENCE.**  
+> v92 corrects recruitment arithmetic inside the current reference model, but the EXP/CEXP award layer is scheduled for rebuild. Preserve this file for provenance and comparison; do not treat its PASS/level centers as final balance certification.
+
 ## Objective
 Correct the v91 character-by-character proof without reopening the accepted class curve or late campaign CEXP budgets.
 
@@ -43,7 +46,7 @@ Planning interpolation gives:
 - Seyrik: 8,500 exactly → **~Lv60 / Last Shelter**.
 
 Result:
-> **mandatory full Base + Subclass completion ~Lv56–60 — PASS within the chosen Lv55–60 band**
+> **the provisional v92 model places mandatory full Base + Subclass completion around ~Lv56–60, inside the chosen Lv55–60 target window; final recertification remains pending**
 
 ## Torren sanity check
 Torren's 600-CEXP recruitment package means he will naturally be somewhat ahead of Cyanis/Ilyra by Volition. The minimum possible Torren total if he received zero Chapter-1 CEXP after recruitment would be:
@@ -63,9 +66,12 @@ Corrected high-side Base totals would then be:
 
 No character is forced over the 6,000-CEXP Base cap before Subclasses unlock.
 
-## Acceptance
-- chapter CEXP budgets unchanged — PASS;
-- recruitment CEXP no longer retroactively double-counted — PASS;
-- Torren/Vaelira catch-up advantage preserved but bounded — PASS;
-- mandatory completion remains inside Lv55–60 target — PASS;
-- true-battle snapshots can now use a consistent recruitment-aware baseline — PASS.
+## Historical model checks
+Within the provisional v92 reference model:
+- chapter CEXP budgets were unchanged from v91;
+- recruitment CEXP no longer retroactively double-counted;
+- Torren/Vaelira catch-up remained bounded in the reference arithmetic;
+- modeled mandatory completion remained inside the Lv55–60 target window;
+- snapshot calculations gained a consistent recruitment-aware baseline.
+
+These checks validate the arithmetic of the old reference model only; they do **not** certify final campaign CEXP tuning.

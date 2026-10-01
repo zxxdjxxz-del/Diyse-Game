@@ -1,4 +1,5 @@
-> **SUPERSEDED FOR CHARACTER-BY-CHARACTER TIMING BY `CEXP_RECALIBRATION_PROOF_v92.md`.** v91 chapter totals remain active; the v91 Volition planning-center arithmetic was approximate.
+> **SUPERSEDED FOR CHARACTER-BY-CHARACTER TIMING BY `CEXP_RECALIBRATION_PROOF_v92.md`.**  
+> **NUMERIC STATUS — HISTORICAL / PROVISIONAL.** The v91 totals remain useful as a reference baseline only; the EXP/CEXP layer is scheduled for rebuild and this file is not final balance certification.
 
 # Diyse — v91 CEXP Recalibration Proof
 
@@ -29,7 +30,7 @@ Using the preserved Base-Class planning centers at Sixfold Volition:
 | Seyrik | ~2,500 | 6,000 | **~8,500** | **~Lv60** |
 
 Result:
-> **mandatory-route completion window ~Lv55–60 — PASS**
+> **historical model lands in the ~Lv55–60 target window — TARGET CHECK ONLY / NOT FINAL CERTIFICATION**
 
 ## Exact optional CEXP chapter-boundary maximum
 Assuming every optional activity is cleared at the earliest chapter boundary where it is legally available, the cumulative optional pool is:
@@ -60,9 +61,12 @@ Broad completionist optional CEXP by end Ch7 is **425**. Added to the preserved 
 - Ch13 ordinary pool: **370**; formation bands **36 / 46 / 57** across 8 expected encounters.
 - Player EXP values are unchanged.
 
-## Acceptance
-- Player Level spine unchanged — PASS
-- CL threshold curve unchanged — PASS
-- normal full class completion ~Lv55–60 — PASS
-- completionist accelerator remains meaningful but bounded — PASS
-- exact optional ledger now supports reproducible true-battle party snapshots — PASS
+## Historical model checks
+Within the superseded/provisional v91 model:
+- Player Level spine was unchanged;
+- CL threshold curve was unchanged;
+- modeled full class completion landed near the Lv55–60 target window;
+- the modeled completionist accelerator remained bounded;
+- the optional ledger supported reproducible snapshots under that model.
+
+These checks are provenance only and do **not** certify the pending progression rebuild.

@@ -1,11 +1,14 @@
 # Diyse — Class Completion Timing
 **v92 recruitment-aware correction:** 2026-08-29
 
+> **STATUS — PROVISIONAL PLANNING BASELINE / REBALANCE PENDING.**  
+> The arithmetic below is retained to document the current reference model, but the campaign CEXP awards and derived completion levels are scheduled for rebuild. Do not use the former PASS as final certification.
+
 ## Locked class curve
 Both Base and Subclass remain:
 > **CL1 → CL13 / 0 → 6,000 cumulative CEXP**
 
-The v91 campaign CEXP totals remain active. v92 corrects the character-by-character recruitment arithmetic used to prove the timing.
+The v91 campaign CEXP totals are retained as the current provisional planning baseline. v92 corrects the character-by-character recruitment arithmetic within that historical/reference model.
 
 ## Corrected Volition centers
 | Character | Base CEXP at Volition | Base deficit | Fresh Subclass | Total post-Volition CEXP needed |
@@ -34,7 +37,7 @@ Using the chapter-level progression span as the planning interpolation, correctl
 | Seyrik | **~Lv60 / Last Shelter** |
 
 Acceptance:
-> **~Lv56–60, inside the preferred Lv55–60 completion window — PASS**
+> **~Lv56–60 falls inside the preferred Lv55–60 target window in the current provisional model — TARGET CHECK ONLY / FINAL RECERTIFICATION PENDING**
 
 The six do not cap simultaneously. Recruitment catch-up keeps Torren/Vaelira somewhat ahead, while Seyrik remains the slowest mandatory-route catch-up case.
 

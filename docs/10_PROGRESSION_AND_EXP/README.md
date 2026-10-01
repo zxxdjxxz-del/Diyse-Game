@@ -7,6 +7,13 @@
 
 Canonical home for Player EXP, campaign levels, CEXP, Class-Level pacing, formation rewards, optional progression, overlevel controls, and progression-to-enemy handoff.
 
+## Numeric-authority boundary
+The current EXP / CEXP tables and derived level/completion projections in this domain are **provisional planning baselines pending the planned progression rebuild**.
+
+Preserve them for implementation/reference continuity until replacement values are authored, but do **not** treat current EXP totals, CEXP totals, chapter award splits, optional-reward totals, or derived completion-level proofs as final balance locks.
+
+Structural rules such as **Lv70 player cap**, **CL13 class cap**, **Chapter 0 no Player Levels**, and the removal of Mastery Point currency remain separate from that numeric rebuild.
+
 ## Current state
 - Player level cap: **70**
 - Base Class cap: **CL13**
@@ -23,7 +30,7 @@ Audit123's former 8-point Mastery schedule remains historical master-canon text,
 
 - `NATURAL_STAT_CURVE.md` — exact Lv1–70 neutral natural-stat formulas and balance-validation construction order.
 
-## v91 CEXP timing
+## Provisional v91 CEXP timing baseline
 - CL13 threshold remains **6,000 CEXP**.
 - mandatory-route full Base + Subclass completion now spans **~Lv55–60**.
 - end Ch12 post-Volition mandatory CEXP: **7,000**.
