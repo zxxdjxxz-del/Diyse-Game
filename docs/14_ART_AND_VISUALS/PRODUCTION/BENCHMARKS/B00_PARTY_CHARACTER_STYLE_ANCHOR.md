@@ -1,5 +1,8 @@
 # B00 — Party Character Style Anchor
 
+> **SUPERSEDED HISTORICAL EXPLORATION NOTE.**  
+> This pre-v1 B00 file is retained for provenance only. It must not be used as current character identity, eye-color, costume, or B00 status authority. Current authority is `B00_PARTY_CHARACTER_STYLE_ANCHOR_V1.md` plus the exact repository masters and `PRODUCTION/CHARACTERS/*_CURRENT_VISUAL_LOCK.md` files.
+
 **Status:** CYANIS OUTFIT LOCKED / PARTY STYLE ANCHOR IN PROGRESS
 
 B00 exists to establish the first true party-character rendering authority for the current Diyse visual direction. Older approved party renders remain design/identity references only unless explicitly promoted here.
