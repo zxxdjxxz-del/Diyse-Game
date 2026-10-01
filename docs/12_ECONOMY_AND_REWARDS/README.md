@@ -55,21 +55,23 @@ Composition:
 
 Ordinary formations are approximately **42.9%** of mandatory direct G, preserving the intended **40–50%** share.
 
-These campaign-balance totals are author/design authority, not facts ordinary characters know simply because the files exist.
+These campaign-balance totals are author/design reference material, not facts ordinary characters know simply because the files exist.
+
+The mandatory aggregate is also **not currently complete**: Chapter 3 now includes the mandatory **Memory Construct** encounter, whose G payout remains OPEN/TBD pending the economy rebuild.
 
 ## Provisional legacy optional direct-G calibration
 Legacy/provisional optional direct-G reference:
-> **288,200 G**
+> **280,200 G**
 
 Breakdown:
 - ordinary Side Quests: **18,000 G**;
 - Character Quests: **22,200 G**;
-- Regional Hunts: **114,000 G**;
+- Regional Hunts: **106,000 G**;
 - Major Hunts: **134,000 G**.
 
 ## Provisional legacy completionist direct-cash reference
 Legacy mandatory reference + legacy optional reference:
-> **~604,500 G**
+> **~596,500 G**
 
 The former ~650,000-G completionist target is historical context only; no completionist cash target is currently relocked.
 It excludes resale, deliberate extra encounters/backtracking, and non-cash reward-equivalent value.
