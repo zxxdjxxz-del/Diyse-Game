@@ -1,8 +1,8 @@
 # Diyse — Retired Progression Firewall
-**Migration baseline:** `Diyse_CURRENT_WORKING_TRACKER_CONSOLIDATED_2026-08-27_v85.md`  
-**Primary master-canon progression chain:** **Audit123 / Audit124 / Audit125 / Audit126 / Audit127 / Audit128**, plus compatible later raw-stat audits.  
-**Current whole-project written authority:** **v2.20 / Audit135**.  
-**Current working override:** v85 Sections 220–225 remove the **Mastery Point** currency and make Masteries automatic Class-Level unlocks. This newer working lock is preserved as current working authority pending formal promotion.
+**Historical migration provenance:** v85-era consolidated tracker.
+**Historical progression provenance:** Audit123–Audit128 plus compatible later raw-stat audits.
+**Authority treatment:** this repository file is current progression-domain authority; Audit/v85 references remain provenance only. Numeric reward/budget tables remain provisional where marked pending the planned progression rebuild.
+**Current structural rule:** Mastery Points do not exist; Masteries unlock automatically from Class Level under current repository class/progression authority.
 
 
 Do not restore:
@@ -34,7 +34,7 @@ Do not use pre-insertion 12-chapter progression.
 
 ## Old optional-content model
 Do not use the former 10-Side-Quest optional EXP package.
-Current cap proof uses **5 ordinary Side Quests** and **195,000 pre-Shelter authored optional EXP**.
+Current provisional cap proof uses **5 ordinary Side Quests** and excludes retired Regional Hunt slots #1–#3; exact optional EXP totals remain rebuild-pending.
 
 ## CEXP
 Do not add Player-EXP-style diminishing returns to CEXP unless separately approved.
