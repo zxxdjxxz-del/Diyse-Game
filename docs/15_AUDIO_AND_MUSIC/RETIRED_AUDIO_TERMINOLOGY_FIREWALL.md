@@ -45,3 +45,24 @@ Do not claim the game is fully voiced unless later explicitly approved.
 ## Retired currency/audio naming
 
 Do not use **Auren** as current player-facing currency feedback or asset naming. Current player-facing currency is **G**.
+
+
+## Retired UI/system audio identities
+
+Do not create current-facing SFX or asset identities for retired systems/terms including:
+- Mastery Point spend;
+- Synthesis unlock;
+- Accessory slot;
+- Concordant rank-up;
+- Prime XP level-up;
+- Heartlands;
+- Highlands;
+- Edgelands;
+- Blackstone;
+- Sixfold Accord;
+- Resource Face;
+- Acuity Face;
+- Change Face;
+- Last Measure.
+
+**Sixfold Volition** is the current canon term; do not treat it as retired.
