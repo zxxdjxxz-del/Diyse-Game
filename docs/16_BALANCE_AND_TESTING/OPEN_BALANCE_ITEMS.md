@@ -66,30 +66,36 @@ From Chapter 5 onward, prior **difficulty** PASS/RETAIN conclusions are provisio
 
 Do **not** proceed to Reconstituted Entity → The Last Command difficulty certification until the recalibration standard is anchored earlier in the campaign.
 
-### Enemy static/paper work
+### Enemy architecture vs ability/difficulty tuning
 Status:
-> **CLOSED v90 for architecture/raw definitions; difficulty tuning may reopen specific values**
+> **ARCHITECTURE/IDENTITY RETAINED; ENEMY ABILITY/ACTION-KIT + DIFFICULTY TUNING REOPENED**
 
-- direct-damage Power audit — static completeness CLOSED;
-- Chapters 0–13 mandatory-vs-completionist paper validation — COMPLETE;
-- Character Quest combat boss sheets — COMPLETE;
-- formation composition/weight authority — COMPLETE;
-- targetable support/component static sheets — COMPLETE.
+Historical direct-damage Power-completeness and v90 paper-validation work remains useful provenance, but it is not final current tuning authority while enemy abilities are being redone.
 
-A difficulty retune may change a specific boss Power/stat only after reproducible testing demonstrates the need. This does not reopen unrelated enemy architecture.
+Retain unless separately revised:
+- encounter identities and current placements;
+- fresh-body vs same-bar architecture;
+- authored protected/nonlethal outcomes;
+- formation ownership/role boundaries;
+- targetable support/component identity where still current.
 
-### CEXP timing/allocation
+Rebuild/revalidate:
+- enemy action kits and direct-damage Powers;
+- difficulty-dependent status/repetition tuning where affected;
+- mandatory/completionist combat certification after the new kits exist.
+
+### Player EXP / CEXP timing and allocation
 Status:
-> **CLOSED v92**
+> **REOPENED / REBUILD PENDING**
 
-- CL13 remains **6,000 cumulative CEXP**;
-- normal mandatory-route full Base + Subclass completion = **~Lv55–60**;
-- post-Volition mandatory CEXP = **7,000 end Ch12 / 8,500 Last Shelter**;
-- optional ledger = **1,000 before MH6 / 1,075 including MH6**.
+- **Lv55–60** remains the target window for normal full Base + Subclass completion;
+- the former v91/v92 EXP/CEXP totals and completion centers are historical/provisional reference values;
+- recruitment-aware accounting remains required;
+- rerun the EXP/CEXP model only after current encounter validation and reward placement are stable.
 
 ## Still open from other domains
-- unresolved exact Auren payouts/reward packages;
-- Kessara service fee if any;
+- full **G** economy rebuild/recalibration, including payout/price/fee recertification;
+- Chapter-3 Memory Construct G payout;
 - any uncatalogued support-object HP that current enemy authority intentionally leaves open;
 - final UI readability/difficulty interaction;
 - final audio feedback/mix impact;
@@ -106,16 +112,16 @@ Status:
 
 A playtest-open question is not permission to silently change a closed value. Reproducible difficulty evidence now explicitly qualifies as a reason to reopen the affected boss value.
 
-## Major Hunt recommended-level recertification — COMPLETE
-Current unlocks:
-- #1 after Ch6 — Ashen Whitehorn, **Lv33**;
-- #2 after Ch7 — Crownless Siege Marshal / War Engine, **Lv41**;
-- #3 after Ch9 — Concordance Guardian, **Lv54**;
-- #4 after Ch10 — Worldscar Leviathan, **Lv60**;
-- #5 after Ch11 — Final Archive Arbiter, **Lv65**;
-- #6 post-Vaelkor + Arbiter gate — **Lv70**.
+## Major Hunt timing / recommended-level recertification — REOPENED
+Current access:
+- #1 after Ch6 — Ashen Whitehorn;
+- #2 after Ch7 — Crownless Siege Marshal / War Engine;
+- #3 after **Sixfold Volition / end Ch7** — Concordance Guardian;
+- #4 after **Ch8** — Worldscar Leviathan;
+- #5 after **Ch10** — Final Archive Arbiter;
+- #6 post-Vaelkor Ch12 + Arbiter clear — The Unfinished World.
 
-Recommended levels remain closed. Difficulty tuning under the new mandatory/optional pressure standard is a separate question.
+The old **33 / 41 / 54 / 60 / 65 / 70** ladder is retained only as a provisional reference. #3–#5 specifically require recertification for their earlier access windows, and the broader progression rebuild may alter first-access party levels.
 
-## Hunt action-kit Power closure
-Regional Hunts #1–#11 and Major Hunts #1–#6 remain **POWER COMPLETE as authored sheets**, but later difficulty testing may reopen exact numeric tuning where evidence requires it.
+## Hunt action-kit status
+Historical Power-completeness audits remain provenance only. Current Regional/Major Hunt action kits and Powers belong to the same enemy-ability redesign/revalidation frontier as the rest of the enemy roster.
