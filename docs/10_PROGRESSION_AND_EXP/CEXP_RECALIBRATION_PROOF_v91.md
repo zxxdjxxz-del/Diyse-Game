@@ -61,9 +61,12 @@ Broad completionist optional CEXP by end Ch7 is **425**. Added to the preserved 
 - Ch13 ordinary pool: **370**; formation bands **36 / 46 / 57** across 8 expected encounters.
 - Player EXP values are unchanged.
 
-## Acceptance
-- Player Level spine unchanged — PASS
-- CL threshold curve unchanged — PASS
-- normal full class completion ~Lv55–60 — PASS
-- completionist accelerator remains meaningful but bounded — PASS
-- exact optional ledger now supports reproducible true-battle party snapshots — PASS
+## Historical model checks
+Within the superseded/provisional v91 model:
+- Player Level spine was unchanged;
+- CL threshold curve was unchanged;
+- modeled full class completion landed near the Lv55–60 target window;
+- the modeled completionist accelerator remained bounded;
+- the optional ledger supported reproducible snapshots under that model.
+
+These checks are provenance only and do **not** certify the pending progression rebuild.
