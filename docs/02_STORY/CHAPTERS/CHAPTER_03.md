@@ -9,7 +9,7 @@
 
 This file is the current Chapter-3 master.
 
-Dedicated Beat packets remaining in the live `CHAPTERS/` root are supporting authority only where they agree with this file and later explicit user corrections. Superseded Chapter-3 development packets have been removed from the live tree; Git history is provenance only and is never current authority. Any historical packet that placed the Authority Construct in Caelora, used the deleted Chapter-2 Western Map Mural, trapped Nimera behind an Ancient Barrier, delayed her permanent recruitment until the Scribe Engine, or used a standalone Caelora overnight-rest beat is retired on those points.
+Small explicit Chapter-3 correction/support locks may remain in the live `CHAPTERS/` root only where they add detail not already carried here and agree with this master. Superseded development packets and duplicate routing/overlay files are removed from the live tree; Git history is provenance only and is never current authority. Any historical packet that placed the Authority Construct in Caelora, used the deleted Chapter-2 Western Map Mural, trapped Nimera behind an Ancient Barrier, delayed her permanent recruitment until the Scribe Engine, or used a standalone Caelora overnight-rest beat is retired on those points.
 
 Exact dialogue is not authored here.
 
