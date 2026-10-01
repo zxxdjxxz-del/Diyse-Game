@@ -11,7 +11,7 @@ Canonical home for:
 - ordinary-enemy ecology and reuse;
 - authored/nonlethal enemy roles;
 - support objects;
-- strong normal-pool Elite identities;
+- strong normal-pool enemy identities;
 - mandatory named encounters and bosses;
 - Regional Hunts;
 - Major Hunts;
@@ -25,11 +25,11 @@ Quest unlock/reward presentation belongs in `11_QUESTS`.
 
 ## Current difficulty hierarchy
 
-> **Ordinary < strong normal-pool Elite < mandatory story boss < Regional Hunt < Major Hunt**
+> **baseline ordinary enemy < strong normal-pool enemy < mandatory story boss < Regional Hunt < Major Hunt**
 
 This is a design hierarchy, not a rule that every later encounter must have more HP than every earlier one.
 
-**Optional-combat rule:** Hunts are the only standalone optional enemy/Elite encounters. Quest-owned combat remains governed by its owning quest. Elite-strength identities belong to normal encounter pools; there is no separate optional-Elite combat category.
+**Optional-combat rule:** Hunts are the only standalone optional enemy encounters. Quest-owned combat remains governed by its owning quest. Stronger normal identities belong to the ordinary enemy pool; there is no separate Elite encounter category.
 
 ## Current raw-stat fields
 
