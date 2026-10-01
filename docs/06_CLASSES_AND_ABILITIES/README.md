@@ -19,7 +19,10 @@ Canonical home for:
 This folder references global combat math/status rules from `05_BATTLE_SYSTEM`.
 It does not redefine the global damage, Hit/Evasion, Critical, element, or status resolver.
 
-Detailed CEXP economy and campaign progression remain destined for `10_PROGRESSION_AND_EXP`.
+Detailed Player EXP/CEXP economy and campaign progression are owned by `10_PROGRESSION_AND_EXP`.
+
+This folder owns the **structural class architecture**: CL caps, class learning/unlock levels, selected-class CEXP routing, automatic Mastery unlock levels, class kits, and subclass access after Sixfold Volition. The older exact CEXP threshold curve and recruitment starting-CL/CEXP values are **provisional pre-rebuild references**, not final numeric progression locks.
+
 Detailed Relic/Legacy item definitions remain destined for `08_ITEMS_AND_EQUIPMENT`.
 
 ## Current classes
