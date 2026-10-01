@@ -210,7 +210,7 @@ Powers:
 - Perfected Brood Rend175
 
 Fresh Form II:
-> **Prime availability does **not** refresh; spent/Ready state carries through unchanged under current global authority.**
+> **Prime availability does not refresh; spent/Ready state carries through unchanged under current global authority.**
 
 Expected complete:
 - mandatory ~15–17
@@ -416,7 +416,7 @@ Powers:
 Genuine fresh body:
 - no damage spillover
 - no free transition attack
-- **Prime availability does **not** refresh; spent/Ready state carries through unchanged**
+- **Prime availability does not refresh; spent/Ready state carries through unchanged.**
 
 Powers:
 - Conqueror Cleave270 / 25% Bleed
