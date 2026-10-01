@@ -5,8 +5,10 @@
 
 
 ## Standard Cards
-The exact current 24-card source ledger is stored in:
+The current 24-card source ledger is stored in:
 `STANDARD_CARDS/STANDARD_CARD_MASTER_REGISTER.md`.
+
+The ledger is authoritative about **current known source state**, including entries explicitly marked **OPEN / TBD** after a retired source is removed. A 24-card identity count does not require all 24 acquisition placements to be closed at the same time.
 
 Rules:
 - Standard Cards are not chosen-one restricted: any ordinary person can in principle obtain, possess, and use one if they actually acquire it;
