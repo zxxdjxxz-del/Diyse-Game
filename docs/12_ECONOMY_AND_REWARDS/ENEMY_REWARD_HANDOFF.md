@@ -50,13 +50,13 @@ The reward can represent mission credit, secured resources, institutional compen
 Chapter 0 remains level-static.
 
 The prior six-row payout mapping is superseded because the current encounter order now contains:
-1. P01 Raider + Crossbowman;
-2. P01 Raider + Ruin Shieldbearer;
-3. P01 2 Convoy Rift Hounds;
-4. P02 Crossbowman + Convoy Rift Hound;
-5. P02 1 Convoy Rift Hound;
-6. P05 Ruin Vanguard Pursuer protected disengagement;
-7. P06 Riftmaw + Convoy War-Sorcerer combined final boss.
+1. B01 Black Host Raider + Black Host Crossbowman;
+2. B01 Black Host Raider + Black Host Shieldbearer;
+3. B01 2 War Hounds;
+4. B02 Black Host Crossbowman + War Hound;
+5. B02 1 War Hound;
+6. B05 Ruin Vanguard Pursuer protected disengagement;
+7. B06 Riftmaw + Battle Sorcerer combined final boss.
 
 The previous Chapter-0 authored-combat envelope:
 > **1,700 G**
@@ -68,28 +68,18 @@ However:
 
 Do not use the old Handler / standalone Riftmaw / standalone War-Sorcerer payout rows as current encounter payouts.
 
-The Pursuer remains an authored protected resolution rather than an optional-Elite bounty source. The combined P06 encounter must receive one authored encounter-level payout, not separate body bounties.
+The Pursuer remains an authored protected resolution rather than a separate strong-normal/optional bounty source. The combined P06 encounter must receive one authored encounter-level payout, not separate body bounties.
 
-### Chapter 2 — Hold the Junction / S016
-Direct G:
-> **1,000 G**
+### Retired authored-event payout rows
 
-This is one authored event payout for the mandatory extraction rearguard, not a sum of individual enemy bounties.
+The former **Hold the Junction / S016** payout and both Chapter-3 **S018 lawful-authority confrontation** payouts are retired with those encounter branches.
 
-### Chapter 3 — S018 Lawful Authority Confrontation I
-**Ivory Watch Detail** direct G:
-> **1,200 G**
+Do not award:
+- former Hold the Junction — 1,000 G;
+- former S018 lawful-authority confrontation I — 1,200 G;
+- former S018 lawful-authority confrontation II — 1,400 G.
 
-This lawful-authority confrontation is nonlethal, but meaningful resolution still pays.
-
-### Chapter 3 — S018 Lawful Authority Confrontation II
-**Ivory Adjudicator Sereth** direct G:
-> **1,400 G**
-
-This protected-threshold confrontation is nonlethal, but meaningful resolution still pays.
-
-Total fixed authored-event additions in this file:
-> **5,300 G**
+The previous **5,300 G** fixed-authored-event subtotal is therefore historical only. The only retained numeric envelope in this section is the **provisional Chapter-0 1,700 G chapter-level envelope**; exact current fixed-event G outside that envelope remains open pending the economy rebuild.
 
 ## Character Quest authored bosses
 Character Quest bosses still award:
