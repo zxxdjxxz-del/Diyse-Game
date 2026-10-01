@@ -11,7 +11,7 @@
 | — | **Final Archive Arbiter** | 65 | 52,600 | 258 | 276 | 202 | 211 | 56 | 5 | 15 | one bar |
 
 ## Unlock
-After **Chapter 11**.
+After **Chapter 10**.
 
 ## Architecture
 One continuous HP bar. Custody Protocols, Archive Burden, and Transfer Windows remain same-bar architecture.
@@ -23,13 +23,11 @@ No dynamic player-level scaling.
 
 ## Recertification
 Current unlock:
-> **after Chapter 11**
+> **after Chapter 10**
 
-Expected party position at first access:
-- mandatory-route party: approximately **Lv52**
-- all normally available optional EXP before this Hunt: approximately **Lv61**, only 800 EXP short of Lv62
+The former after-Chapter-11 recertification window is superseded. Existing raw stats and the Lv65 recommendation are retained only as provisional inputs pending the later mandatory/completionist rebalance.
 
-Current recommendation:
+Retained provisional recommendation:
 > **Lv65**
 
 Recertified raw line:
@@ -46,7 +44,7 @@ Final Archive Arbiter remains a high-durability, magic-forward custody/control M
 
 Custody Protocols, Archive Burden, and Transfer Windows remain one continuous HP-bar architecture. None of those same-bar state changes refresh Prime availability.
 
-The Lv65 recommendation keeps the Arbiter above a completionist who clears everything available before entering it, while preserving clear headroom for The Unfinished World at Lv70.
+Do not treat the older Chapter-11 first-access proof as current certification under the earlier unlock window.
 
 ## Power-complete action kit — v74
 **Status:** **POWER COMPLETE**
@@ -155,5 +153,9 @@ Custody/Archive/Transfer presentation cannot:
 - permanently rename a character.
 
 
-## v87 mandatory-vs-completionist carry-forward
-Formally carried into the Chapter-11 validation: mandatory first-access party Lv52; completionist with all normally available optional EXP through Chapter 11 approximately Lv61 (800 EXP short of Lv62); recommendation Lv65 retained. No numerical change.
+## Timing-shift validation boundary
+**Status:** **REVALIDATION OPEN**
+
+The former Chapter-11 mandatory/completionist carry-forward is historical/provisional only because current access now begins after Chapter 10.
+
+Keep the existing raw body, recommendation, architecture, and Power package as provisional inputs until the planned mandatory/completionist rebalance.
