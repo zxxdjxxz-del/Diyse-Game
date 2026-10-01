@@ -72,6 +72,8 @@ v0.6 exposed large flexible-to-rigid seam gaps at the wrists and ankles, so it i
 
 ## Current active test — Ilyra Production Mesh v0.7
 
+> **Current-master mismatch warning:** v0.7 proves deformation architecture, not current appearance fidelity. Its long-hair replacement geometry predates the latest exact Ilyra source and must not be carried forward as the final hair silhouette.
+
 Run:
 
 `ilyra_production_v07_preview.tscn`
@@ -88,7 +90,7 @@ Measured animated seam gaps improved from roughly **0.21–0.40 m** in v0.6 to r
 - original 65 UAL joints remain first and unchanged
 - 35 auxiliary spring bones remain appended after them
 - 100 skin joints total
-- actual five long-hair volumes are spring-weighted
+- five long-hair prototype volumes are spring-weighted **for deformation proof only; this geometry is not current visual authority**
 - actual pale-blue cape is spring-weighted across three chains
 - no duplicate Stage 8 proxy hair/cape
 - face, bangs, clothing, Wardrod, shield and connector deformation use only the intended core or auxiliary joint ranges
@@ -116,10 +118,18 @@ See `ILYRA_PRODUCTION_V07_LIVE_MANIFEST.md` for the seam-repair details and curr
 
 Do **not** add another abstract rig stage by default. The UAL core, multi-bone deformation path and spring architecture are sufficiently proven.
 
-Next passes should respond to visible failures on the actual v0.7 model: exact B00 face likeness, better hair topology, boot/glove/guard modeling, shoulder/elbow/hip weighting, tabard/hard-gear intersections in extreme poses, spring tuning, UVs and final materials.
+Next passes should respond to visible failures on the actual v0.7 model while rematching the current exact Ilyra master: exact face likeness, replacement of the old long-hair prototype with the current **neatly tied-back shorter blonde-hair silhouette**, boot/glove/guard modeling, shoulder/elbow/hip weighting, tabard/hard-gear intersections in extreme poses, spring tuning, UVs and final materials.
 
 ## Authority boundary
 
-None of these 3D proof meshes are Ilyra visual canon. The approved cleaned B00 remains exact authority for her face, vivid jade eyes, windswept blonde hair, slightly athletic natural-waist proportions, fitted white/pale-blue Warden clothing, restrained decoration, brown utility gear, light silver guards, pale-blue cape, colors, silhouette, Wardrod and shield design.
+None of these 3D proof meshes are Ilyra visual canon.
 
-The UAL animation foundation is implementation infrastructure; it must not override the approved B00 visual identity.
+Current exact appearance authority:
+> `asset_sources/characters/current/ilyra.jpg`
+
+with the matching lock:
+> `docs/14_ART_AND_VISUALS/PRODUCTION/CHARACTERS/ILYRA_CURRENT_VISUAL_LOCK.md`
+
+That exact source controls Ilyra's face, hair, body proportions, clothing, armor/guards, colors, silhouette, Wardrod/shield presentation and incidental visual detail. Current runtime shorthand requires the **neatly tied-back shorter blonde-hair silhouette**, not the older long-hair proof geometry.
+
+The UAL animation foundation and all intermediate meshes are implementation infrastructure; they must not override the exact approved visual identity.
