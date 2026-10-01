@@ -50,3 +50,15 @@ Audio remains a future production workstream rather than a hidden completed subs
 Final Diyse music and sound assets must be original or properly licensed for production use.
 
 Reference studies may teach arrangement, production, rhythm, instrumentation, dynamics, form, and mix behavior. They do not authorize copying protected melodies, lyrics, distinctive samples, recognizable riffs, or song-specific arrangements.
+
+
+## 6. Cue promotion
+
+Before any music cue is treated as current canon, define:
+1. its function;
+2. story/area context;
+3. musical direction;
+4. whether it is unique, reused, arranged, or reprised;
+5. explicit approval state.
+
+A generated test, prototype, research sample, or recovered historical cue is not canon merely because it exists.
