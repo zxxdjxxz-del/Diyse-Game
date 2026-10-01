@@ -25,13 +25,8 @@ Production UI will need coherent feedback for:
 - load failure;
 - warning/point-of-no-return confirmation.
 
-## Current-system firewall
-Do not create SFX identities for removed UI systems such as:
-- Mastery Point spend;
-- Synthesis unlock;
-- Accessory slot;
-- Concordant rank-up;
-- Prime XP level-up.
+## Current-system boundary
+Only author UI feedback for systems present in the current UI/gameplay authorities. Retired system names are centralized in `../RETIRED_AUDIO_TERMINOLOGY_FIREWALL.md`.
 
 ## Kessara service
 Relic-copy service may have:
