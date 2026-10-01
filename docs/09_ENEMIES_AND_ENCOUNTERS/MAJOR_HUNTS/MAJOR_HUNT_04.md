@@ -11,7 +11,7 @@
 | — | **Worldscar Leviathan** | 60 | 38,800 | 221 | 246 | 166 | 178 | 53 | — | 10 | one bar / Prismatic Confluence same-bar |
 
 ## Unlock
-After **Chapter 10**.
+After **Chapter 8**.
 
 ## Architecture
 Prismatic Confluence is a same-bar escalation. Magic-forward / Spirit-forward colossal target; EVA0 is intentional.
@@ -23,13 +23,11 @@ No dynamic player-level scaling.
 
 ## Recertification
 Current unlock:
-> **after Chapter 10**
+> **after Chapter 8**
 
-Expected party position at first access:
-- mandatory-route party: approximately **Lv47**
-- all normally available optional EXP before this Hunt: approximately **Lv56**
+The former after-Chapter-10 recertification window is superseded. Existing raw stats and the Lv60 recommendation are retained only as provisional inputs pending the later mandatory/completionist rebalance.
 
-Current recommendation:
+Retained provisional recommendation:
 > **Lv60**
 
 Recertified raw line:
@@ -46,7 +44,7 @@ Worldscar Leviathan remains a colossal magic-forward / Spirit-forward Major Hunt
 
 Prismatic Confluence remains a same-bar escalation and does **not** refresh Prime availability.
 
-The Lv60 recommendation keeps the Leviathan meaningfully above a completionist entering immediately after Chapter 10 while also placing it above the nearby Lv56 Authority Remnant regional-hunt tier that follows in Chapter 11.
+Do not treat the older Chapter-10 first-access proof as current certification under the earlier unlock window.
 
 ## Power-complete action kit — v74
 **Status:** **POWER COMPLETE**
@@ -141,7 +139,9 @@ Standard elements remain:
 Ruin remains a special school, not a fifth element.
 
 
-## v86 two-baseline validation
-**Status:** **FORMALLY VALIDATED v86 / NO NUMERICAL CHANGE**
+## Timing-shift validation boundary
+**Status:** **REVALIDATION OPEN**
 
-The Lv60 / 38,800-HP line and all current Powers remain valid against **Lv47 mandatory first access**, approximately **Lv55–56 completionist first access**, and the intended **Lv60 recommendation**. See `../../16_BALANCE_AND_TESTING/BALANCE/CHAPTER_10_MANDATORY_COMPLETIONIST_VALIDATION.md`.
+The former Chapter-10 two-baseline PASS is historical/provisional only because current access now begins after Chapter 8.
+
+Keep the existing raw body, recommendation, architecture, and Power package as provisional inputs until the planned mandatory/completionist rebalance.

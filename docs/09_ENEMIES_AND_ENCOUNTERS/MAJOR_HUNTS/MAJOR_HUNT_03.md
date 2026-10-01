@@ -11,7 +11,7 @@
 | — | **Concordance Guardian** | 54 | 27,400 | 194 | 210 | 144 | 151 | 49 | 5 | 15 | one bar / Six Faces → Open Concordance same-bar |
 
 ## Unlock
-After **Chapter 9**.
+After **Sixfold Volition at the end of Chapter 7**.
 
 ## Architecture
 Six Faces → Open Concordance remains on one continuous HP bar. Do not create six separate boss bodies.
@@ -23,13 +23,11 @@ No dynamic player-level scaling.
 
 ## Recertification
 Current unlock:
-> **after Chapter 9**
+> **after Sixfold Volition at the end of Chapter 7**
 
-Expected party position at first access:
-- mandatory-route party: approximately **Lv42**
-- all normally available optional EXP before this Hunt: approximately **Lv50**, close to Lv51
+The former after-Chapter-9 recertification window is superseded. Existing raw stats and the Lv54 recommendation are retained only as provisional inputs pending the later mandatory/completionist rebalance.
 
-Current recommendation:
+Retained provisional recommendation:
 > **Lv54**
 
 Recertified raw line:
@@ -46,7 +44,7 @@ The Guardian remains a magic-leaning balanced Major Hunt rather than becoming a 
 
 Six Faces → Open Concordance stays on one continuous HP bar. This state change does **not** refresh Prime availability.
 
-The tuning keeps the Guardian above Regional Hunt #9 — Mercyfallen Behemoth — while preserving room for later Major Hunts to climb further.
+Do not treat the older Chapter-9 first-access proof as current certification under the earlier unlock window.
 
 ## Power-complete action kit — v74
 **Status:** **POWER COMPLETE**
@@ -59,7 +57,7 @@ At encounter load:
 > **Might**
 
 At each later beginning-round, advance:
-> Might → Elements → Grace → Acuity → Change → Ruin → Might
+> Might → Elements → Grace → Perception → Memory → Ruin → Might
 
 The state change:
 - grants no extra action;
@@ -104,12 +102,12 @@ Maximum:
 - after successful damage, restore **600 HP** to Concordance Guardian
 - cannot exceed Max HP
 
-#### Acuity Verdict
+#### Perception Verdict
 - Magical / Colorless / one target
 - **345 Power**
 - Base Hit110
 
-#### Change Verdict
+#### Memory Verdict
 - Hybrid / Neutral
 - 50% ATK / 50% MAG
 - **350 Power**
@@ -170,12 +168,9 @@ Effect:
 2-round repetition lock.
 
 
-## v85 Chapter-9 two-baseline validation
-**Status:** **PASS / EXISTING RECERTIFICATION FORMALLY COMPATIBLE WITH v85**
+## Timing-shift validation boundary
+**Status:** **REVALIDATION OPEN**
 
-First-access references:
-- mandatory Chapter-9 clear: approximately **Lv42**;
-- completionist after normally available through-Chapter-9 optional progression: approximately **Lv50**, close to Lv51;
-- recommendation remains **Lv54**.
+The former Chapter-9 two-baseline PASS is historical/provisional only because current access now begins after Sixfold Volition at the end of Chapter 7.
 
-The mandatory party is intentionally under-tier. A completionist can challenge the Guardian earlier, while the Lv54 recommendation remains meaningful. Six Faces → Open Concordance remains one continuous HP bar with no same-bar Prime refresh. No raw-stat, recommendation, architecture, or Power change.
+Keep the existing raw body, recommendation, architecture, and Power package as provisional inputs until the planned mandatory/completionist rebalance. Six Faces → Open Concordance remains one continuous HP bar and does not refresh Prime availability.

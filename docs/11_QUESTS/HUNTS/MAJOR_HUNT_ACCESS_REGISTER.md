@@ -12,9 +12,9 @@ Exactly:
 |---:|---|---|---|---|---:|
 | 1 | **Ashen Whitehorn** | Ashfrost Expanse | after Chapter 6 fully ends | **Dawn Shepherd** | 4,500 |
 | 2 | **Crownless Siege Marshal / Crownless War Engine** | Crownfall Redoubt / deep old Crownfall ruins | after Chapter 7 | **Oathbound Colossus** | 6,000 |
-| 3 | **Concordance Guardian** | Concordance Vault | after Chapter 9 | **Living Revision** | 8,000 |
-| 4 | **Worldscar Leviathan** | Worldscar Basin | after Chapter 10 | **Prismatic Leviathan** | 13,000 |
-| 5 | **Final Archive Arbiter** | Final Archive | after Chapter 11 | **Parallax Host** | 18,500 |
+| 3 | **Concordance Guardian** | Concordance Vault | after **Sixfold Volition** at the end of Chapter 7 | **Living Revision** | 8,000 |
+| 4 | **Worldscar Leviathan** | Worldscar Basin | after Chapter 8 | **Prismatic Leviathan** | 13,000 |
+| 5 | **Final Archive Arbiter** | Final Archive | after Chapter 10 | **Parallax Host** | 18,500 |
 | 6 | **The Unfinished World** | Worldframe Depths inside Final Archive | Final Archive Arbiter route cleared **and** Vaelkor defeated in Chapter 12 | **Starfall Engine** | 24,000 |
 
 ## Prime state
@@ -48,9 +48,9 @@ Current Major Hunt unlock schedule:
 
 - Major Hunt #1 — Ashen Whitehorn: **after Chapter 6**
 - Major Hunt #2 — Crownless Siege Marshal / Crownless War Engine: **after Chapter 7**
-- Major Hunt #3 — Concordance Guardian: **after Chapter 9**
-- Major Hunt #4 — Worldscar Leviathan: **after Chapter 10**
-- Major Hunt #5 — Final Archive Arbiter: **after Chapter 11**
+- Major Hunt #3 — Concordance Guardian: **after Sixfold Volition at the end of Chapter 7**
+- Major Hunt #4 — Worldscar Leviathan: **after Chapter 8**
+- Major Hunt #5 — Final Archive Arbiter: **after Chapter 10**
 - Major Hunt #6 — The Unfinished World: unchanged existing late dual gate
 
-This supersedes the earlier Ch5 / Ch6 / Ch8 / Ch9 / Ch10 schedule.
+This schedule supersedes older Major-Hunt timing rows. Major Hunt #6 retains its separate post-Vaelkor Chapter-12 + Arbiter-clear dual gate.

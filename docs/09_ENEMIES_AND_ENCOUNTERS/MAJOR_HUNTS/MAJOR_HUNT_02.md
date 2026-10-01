@@ -17,7 +17,7 @@ After **Chapter 7**.
 ## Architecture
 Crownless Siege Marshal → Crownless War Engine is a genuine fresh-body transformation. No third form.
 
-Under the current Prime model, the fresh Form II **refreshes Prime availability** when Crownless War Engine becomes active. This does not cancel or shorten an active post-dismissal spacing gate.
+Under the current Prime model, the fresh Form II **does not refresh Prime availability** when Crownless War Engine becomes active. Spent/Ready state carries through unchanged, and any active post-dismissal spacing gate also continues unchanged.
 
 ## Scaling
 Fixed authored tuning.
@@ -64,10 +64,10 @@ Recertified raw lines:
 Combined raw body HP:
 > **30,500**
 
-The two-form architecture is preserved. War Engine remains a genuine fresh body and refreshes battle-scoped Prime availability when Form II begins.
+The two-form architecture is preserved. War Engine remains a genuine fresh body, but spent/Ready Prime state carries into Form II unchanged.
 
 ### Prime-economy revalidation note
-The existing Lv41/raw-stat recertification was completed with fresh-body Prime refresh and remains structurally compatible with the restored current rule. No additional revalidation is required solely because of Prime refresh.
+The existing Lv41/raw-stat recertification predates the current persistent-spend / no-form-refresh Prime rule. Keep that numeric line as a provisional baseline only; runtime Prime-economy revalidation remains open and must not assume a fresh Form-II Prime refresh.
 
 ## Power-complete action kit — v74
 **Status:** **POWER COMPLETE**

@@ -48,8 +48,8 @@ This is not a romance branch.
 
 ## Combat
 Road/wilderness reuse:
-- Greenhollow Stalker
-- Thornvine Creeper
+- Thicket Stalker
+- Vine Creeper
 - Briar Boar
 
 Westline security:
@@ -73,7 +73,7 @@ Do not force old working wording as exact dialogue until the dialogue pass appro
 
 ## Thematic terminology
 Use:
-- **Acuity**
+- **Perception**
 - **Last Cartographer**
 
 Do not restore:
