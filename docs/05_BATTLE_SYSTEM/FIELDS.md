@@ -1,6 +1,7 @@
 # Diyse — Fields
-**Migration baseline:** `Diyse_CURRENT_WORKING_TRACKER_CONSOLIDATED_2026-08-27_v85.md`  
-**Primary recovered authority:** compatible **Audit115** Field rules, reconciled with the current turn-entry round model and current Prime replacement rules.  
+
+**Status:** ACTIVE BATTLE-SYSTEM AUTHORITY  
+**Authority:** current battle-system owner plus later explicit approved corrections.  
 **Authority rule:** this file owns the global Field lifecycle. Individual Abilities, Cards, enemies, encounters, and other effects own the exact Field they create and its printed effects.
 
 ## Definition
