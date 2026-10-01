@@ -1,5 +1,8 @@
 # Diyse — v92 Recruitment-Aware CEXP Proof
 
+> **STATUS — HISTORICAL / PROVISIONAL REFERENCE.**  
+> v92 corrects recruitment arithmetic inside the current reference model, but the EXP/CEXP award layer is scheduled for rebuild. Preserve this file for provenance and comparison; do not treat its PASS/level centers as final balance certification.
+
 ## Objective
 Correct the v91 character-by-character proof without reopening the accepted class curve or late campaign CEXP budgets.
 
