@@ -16,34 +16,13 @@
   "scene_purpose": "Show Nimera behaving as though Cresthaven is somewhere she expects to keep working by naturally occupying most of the records/map table; demonstrate Cyanis and Torren's vicious-but-safe banter in front of her; let Nimera immediately enjoy and join that social dynamic; end with the table still effectively hers without sentimentalizing belonging or escalating plot lore.",
   "story_sources": [
     {
-      "path": "docs/02_STORY/CHAPTERS/CH03_C06_NIMERA_TAKES_OVER_A_TABLE_STORY_SUPPORT.md",
-      "whole_file": true,
-      "role": "current_c06_structure_and_exact_line_anchors_subject_to_guardrail_method"
-    },
-    {
       "path": "docs/02_STORY/CHAPTERS/CHAPTER_03.md",
       "sections": [
         "Chapter-3 Cleanup Authority",
-        "Character-Life set",
-        "C06 — Nimera Takes Over a Table"
+        "Character-Life set"
       ],
-      "role": "cleanup_state_authority"
-    },
-    {
-      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/STORY_BEAT_AS_GUARDRAIL_LOCK.md",
-      "whole_file": true,
-      "role": "conversation_route_must_emerge_from_agents"
-    },
-    {
-      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/MATURE_ADULT_SPEECH_AND_PROFANITY_LOCK.md",
-      "whole_file": true,
-      "role": "adult_register_and_character_specific_profanity_rule"
+      "role": "chapter_03_cleanup_and_character_life_authority"
     }
-  ],
-  "brain_sources": [
-    "external-services/canary/brains/nimera.yaml",
-    "external-services/canary/brains/cyanis.yaml",
-    "external-services/canary/brains/torren.yaml"
   ],
   "scene_context_seed": {
     "location_name": "Cresthaven records/maps/investigation room",
@@ -101,5 +80,32 @@
     "torren_nimera_are_written_as_familial_paternal_or_already_deeply_familiar",
     "plot_exposition_interrupts_the_character_life_scene"
   ],
-  "production_cost_ceiling": "one_optional_cresthaven_room_scene_with_three_core_participants_and_minimal_staging"
+  "production_cost_ceiling": "one_optional_cresthaven_room_scene_with_three_core_participants_and_minimal_staging",
+  "additional_authority_sources": [
+    {
+      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/STORY_BEAT_AS_GUARDRAIL_LOCK.md",
+      "whole_file": true,
+      "role": "conversation_route_must_emerge_from_agents"
+    },
+    {
+      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/MATURE_ADULT_SPEECH_AND_PROFANITY_LOCK.md",
+      "whole_file": true,
+      "role": "adult_register_and_character_specific_profanity_rule"
+    },
+    {
+      "path": "external-services/canary/brains/nimera.yaml",
+      "whole_file": true,
+      "role": "nimera_agent_brain"
+    },
+    {
+      "path": "external-services/canary/brains/cyanis.yaml",
+      "whole_file": true,
+      "role": "cyanis_agent_brain"
+    },
+    {
+      "path": "external-services/canary/brains/torren.yaml",
+      "whole_file": true,
+      "role": "torren_agent_brain"
+    }
+  ]
 }
