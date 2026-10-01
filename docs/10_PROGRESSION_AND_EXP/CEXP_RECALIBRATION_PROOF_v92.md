@@ -1,10 +1,12 @@
 # Diyse — v92 Recruitment-Aware CEXP Proof
 
 > **STATUS — HISTORICAL / PROVISIONAL REFERENCE.**  
-> v92 corrects recruitment arithmetic inside the current reference model, but the EXP/CEXP award layer is scheduled for rebuild. Preserve this file for provenance and comparison; do not treat its PASS/level centers as final balance certification.
+> v92 corrects recruitment arithmetic inside the historical reference model, but the EXP/CEXP award layer is scheduled for rebuild. Preserve this file for provenance and comparison; do not treat its PASS/level centers or per-chapter CEXP budgets as current implementation authority.
+>
+> **Known structural divergence:** the v91/v92 model still assumes the former 350-CEXP Chapter-1 budget. Current structurally corrected Chapter-1 reward mapping is lower after Watch Castellan removal. Do not patch the proof piecemeal; the planned CEXP rebuild must recertify the full stream.
 
 ## Objective
-Correct the v91 character-by-character proof without reopening the accepted class curve or late campaign CEXP budgets.
+Document the recruitment-aware correction to the prior v91 model without claiming that its campaign CEXP budgets remain final.
 
 Preserved:
 - CL13 = **6,000 CEXP**;
