@@ -1,6 +1,5 @@
 # Chapter 0 — The Broken Convoy
 
-**Current whole-project written authority:** **v2.20 / Audit135**, plus later explicit user corrections/current domain migrations.  
 **Domain rule:** this file owns mandatory Chapter-0 story structure, scene order, reveal order, recruitment state, knowledge changes, chapter-end cleanup, and story outcomes. Exact spoken wording belongs to `03_DIALOGUE`; combat mechanics/numbers belong to live battle/encounter authority.  
 **Current structural source:** the completed approved/locked Chapter-0 manuscript supplied by the user on 2026-09-08.
 
