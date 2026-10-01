@@ -12,7 +12,7 @@ The AI evaluates the legitimate battle state that exists at that turn. It does n
 Explicit forced actions, Preparation follow-ups, threshold scripts, or other authored delayed-action rules may constrain what is legal on that turn without restoring the retired universal enemy-action queue.
 
 ## Default
-If an enemy, Elite, boss, Hunt, support actor, or authored encounter has **no explicit current selection weights** for its eligible selected actions:
+If an enemy, strong normal-pool identity, boss, Hunt, support actor, or authored encounter has **no explicit current selection weights** for its eligible selected actions:
 
 1. Resolve forced actions, phase rules, preparations/resolutions, scripted threshold behavior, cooldowns/repetition locks, and action-specific eligibility first.
 2. Build the set of selected actions that are currently legal.
