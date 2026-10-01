@@ -28,3 +28,21 @@ There are no current regional-NPC ordinary Side Quests.
 
 ## Numeric reward ownership
 Exact ordinary Side Quest Player EXP/CEXP is owned by `10_PROGRESSION_AND_EXP` and remains provisional pending the progression rebuild.
+
+
+## Retired Side Quest firewall
+The following are **not** active ordinary Side Quests:
+
+- The Water Between Houses
+- The Dark Span
+- One Fire Burning
+- The Living List
+- When the Roads Open
+
+Do not invent replacement quests merely to restore Audit103's ten-quest count or the older twelve-quest target.
+
+Compatible ideas from retired quests may survive only as separately useful ambient world-state dressing, background NPC activity, or non-quest reconstruction flavor. They are not playable quest records by default.
+
+Do not recreate `Regional Quests` as a third Side Quest menu/category. Regional Hunts remain Hunts.
+
+Git history preserves superseded versions; no separate retired-side-quests owner file is required.
