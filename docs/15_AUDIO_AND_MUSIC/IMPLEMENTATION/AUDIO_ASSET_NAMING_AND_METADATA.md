@@ -14,19 +14,8 @@ Useful fields:
 - source/license metadata where required;
 - current/retired status.
 
-## Do not use obsolete canon as new asset naming
-Avoid creating new active assets named after:
-- Heartlands
-- Highlands
-- Edgelands
-- Blackstone
-- Sixfold Accord
-- Resource Face
-- Acuity Face
-- Change Face
-- Last Measure
-
-unless the file is explicitly archival research.
+## Canon naming boundary
+New active audio assets must use current canonical names and stable IDs. Retired names are centralized in `../RETIRED_AUDIO_TERMINOLOGY_FIREWALL.md` and may appear only in explicitly archival research/provenance.
 
 ## Prototype naming
 Development renders should visibly indicate:
