@@ -146,7 +146,7 @@ Historical v103–v105 balance reports may remain evidence, but they do not defi
 - `90_WORKING/README.md` distinguishes the **current enemy ability/difficulty + progression rebuild** from the retired ×1.20 / First Command Warden workflow.
 - implementation-facing currency guidance now uses canonical **G**; Auren is retired.
 - playable area/route production is explicitly tracked; macro geography is not treated as finished level design.
-- Chapter-0 presentation now follows exact dialogue: S005 is a **Field Triage Camp perimeter** confrontation, while S006 retains Recovery-Line identity for its bounded player-controlled survivor sweep.
+- Chapter-0 presentation now follows current B-beat authority: **B06** is the Field Triage Camp perimeter confrontation, while **B07** contains the bounded Recovery-Line-reuse survivor sweep.
 
 ## Routing Rule
 
