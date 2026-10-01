@@ -1,9 +1,9 @@
 # Diyse — Chapter 08 Enemies — Horizon Vault / Western Counteroffensive
 **Migration baseline:** `Diyse_CURRENT_WORKING_TRACKER_CONSOLIDATED_2026-08-27_v85.md`  
-**Primary enemy-production authority:** compatible **Audit90 / Audit93** plus accepted later tracker roster/action cleanups.  
-**Primary raw-stat authority:** **Audit129 + Audit130 / Audit131 / Audit132 / Audit133 / Audit134 / Audit135**.  
-**Current whole-project written authority:** **v2.20 / Audit135**.  
-**Migration rule:** later current names, chapter reindexing, four-element rules, removed-system firewalls, and fresh-body Prime-refresh rules supersede stale earlier enemy text.
+**Historical enemy-production provenance:** Audit90/Audit93 plus later tracker-era roster/action cleanups.
+**Historical raw-stat provenance:** Audit129–Audit135.
+**Authority treatment:** this chapter file is current enemy roster/placement authority; Audit/v85 references remain historical provenance only.
+**Migration rule:** current repository names, chapter placement, system firewalls, and Prime-restoration rules supersede conflicting historical enemy text.
 
 
 ## Ordinary / repeatable
@@ -51,7 +51,7 @@ Do not invent a Western Rift / Westguard authored-special roster just because an
 Remains:
 > **rare ordinary**
 
-It is not promoted into a second strong normal-pool Elite.
+It is not promoted into a second strong normal-pool enemy.
 
 ### Conqueror Legate
 Raw retained:
@@ -62,7 +62,7 @@ One bar. No support wave. No extra ordinary action.
 ## Numerical boundary
 Chapter-8 ordinary raw bodies are now newly authored active-balance authority in individual files.
 
-Conqueror Legate retains its inherited Elite-strength raw line.
+Conqueror Legate retains its inherited strong-normal raw line.
 
 Mandatory boss/support authority remains separately owned and unchanged.
 
