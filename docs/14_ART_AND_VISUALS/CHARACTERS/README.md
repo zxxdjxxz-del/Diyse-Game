@@ -18,4 +18,4 @@ For Cyanis, Ilyra, Torren, Nimera, Vaelira, Seyrik, Maevra, and Kessara:
 3. use project-wide B00/style rules;
 4. treat older migration detail as superseded when it conflicts.
 
-Do not infer or restore surnames for those eight from deleted/retired migration filenames.
+Canonical surnames for these characters are owned by `01_CHARACTERS` and remain current. Do not infer different surnames or obsolete visual details from deleted/retired migration filenames.

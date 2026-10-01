@@ -63,7 +63,7 @@ Current supporting masters in the same repository set:
 - Crown Princess Mirena Ceryth;
 - Kessara.
 
-Do not infer additional surnames for these characters from retired migration filenames or older art documents.
+Canonical names and surnames are owned by `01_CHARACTERS`. Do not infer different/additional surnames from retired migration filenames or older art documents.
 
 ## Enemy visual authority
 

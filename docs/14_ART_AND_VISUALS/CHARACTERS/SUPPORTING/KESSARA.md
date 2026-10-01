@@ -6,6 +6,6 @@ This navigation file routes older supporting-character visual references into th
 **Current visual lock:** [`PRODUCTION/CHARACTERS/KESSARA_CURRENT_VISUAL_LOCK.md`](../../PRODUCTION/CHARACTERS/KESSARA_CURRENT_VISUAL_LOCK.md)  
 **Authority index:** [`PRODUCTION/CHARACTERS/README.md`](../../PRODUCTION/CHARACTERS/README.md)
 
-Do not infer or restore a surname from older filenames or migration documents. The current visual authority uses **Kessara**.
+Canonical full name: **Kessara Durnan**. The first-name visual filename is shorthand only; current naming authority remains `01_CHARACTERS`, and retired migration files must not override it.
 
 The retired vivid-red-hair / bronze-goggle / white-crimson-gold version and the old 4'4" proportion note are not current visual authority. Use the exact repository master and current visual lock instead.
