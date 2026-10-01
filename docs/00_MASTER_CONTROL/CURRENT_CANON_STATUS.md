@@ -20,7 +20,7 @@ This file is a current cross-domain status summary only. Historical incremental 
 - Chapter 0 + Chapters **1–13**;
 - true PONR = **Last Shelter → Reactor Galleries**;
 - Player Level cap **70**;
-- campaign ending around **Lv62**;
+- exact campaign ending level is **progression-rebuild pending**; the older ~Lv62 result is a provisional reference only;
 - HD-2D anime presentation target;
 - final whole-project music remains OPEN.
 
@@ -86,10 +86,10 @@ Torren/Nimera Face alignment:
 Class progression:
 - Base Class cap **CL13**;
 - Subclass cap **CL13**;
-- CL13 = **6,000 cumulative CEXP**;
 - Mastery Point currency removed;
 - Masteries unlock automatically by Class Level;
-- normal mandatory-route full Base + Subclass completion occurs around **Player Lv55–60**.
+- **Player Lv55–60** remains the target window for normal full Base + Subclass completion;
+- the older **6,000-CEXP CL13 threshold and campaign CEXP/EXP allocation are provisional reference values pending the planned progression rebuild**, not final balance locks.
 
 ## Economy status
 Currency terminology remains:
@@ -125,17 +125,19 @@ Prime rule for every Major Hunt:
 - When later-chapter files conflict, preserve the newest explicit lock and mark the unresolved remainder open rather than synthesizing new canon during cleanup.
 
 ## Current enemy / encounter status
-Static enemy/encounter owner files and prior true-battle/sensitivity reports remain available in their owning domains.
+Current enemy/encounter owner files preserve roster identity, placement, encounter architecture, and existing reference stats where not separately revised.
 
-Important routing correction:
-- the former mandatory-route enemy difficulty recalibration stream is **not an active work item in the master queue anymore**;
-- the former ×1.20 global direct-damage test floor is **not a standing instruction for new work**;
-- First Command Warden is **not** automatically the next balance task;
-- the former boss-local retune list is **not** the current work sequence.
+Current tuning boundary:
+- **enemy ability/action-kit and direct-damage Power redesign/revalidation is OPEN**;
+- mandatory/completionist difficulty certification must be rerun against the rebuilt enemy kits and progression inputs;
+- old raw-stat/Power packages and true-battle results remain useful reference evidence, not automatic final tuning authority.
 
-Historical v103–v105 reports remain valid as analytical evidence of the tests they actually performed, but they do not determine what should be worked on next.
+Retired routing remains retired:
+- the former ×1.20 global direct-damage test floor is **not** a standing instruction;
+- First Command Warden is **not** the next balance task;
+- the former boss-local retune sequence must not be revived from historical v103–v105 reports.
 
-Future balance work follows the separately established current handling process or a new explicit instruction. Do not revive the retired queue workflow from historical reports alone.
+Current redesign/revalidation work follows the active `09_ENEMIES_AND_ENCOUNTERS`, `10_PROGRESSION_AND_EXP`, and `16_BALANCE_AND_TESTING` owners rather than the retired queue workflow.
 
 Detailed balance material remains under:
 > `../16_BALANCE_AND_TESTING/`
@@ -155,13 +157,15 @@ Current canon beats proof runtime. See:
 - story-owned special-enemy placement/timing dependencies explicitly left unresolved;
 - Chapter 4 ordinary-enemy / formation rework;
 - Chapters **5–13 broader story/enemy/balance/dialogue development**, not only missing exact dialogue;
+- **enemy ability/action-kit / Power redesign and mandatory-vs-completionist difficulty revalidation**;
+- **Player EXP / CEXP progression rebuild and completion-timing recertification**;
 - production implementation reconciliation;
 - final production UI/readability validation;
 - final audio/music completion and mix validation;
-- visual production/style certification;
+- visual production/runtime-style certification;
 - whole-game/device/performance QA;
 - explicitly bounded story/lore details still marked open in their owning domains.
 
-The former mandatory-route enemy-difficulty recalibration sequence is not listed here as an open master-queue item because it is being handled through a different process.
+The retired ×1.20 / boss-local mandatory-route sequence remains retired; the current enemy/difficulty work is a different redesign/revalidation stream.
 
 The detailed G economy remains **rebuild/recalibration pending**. Existing prices, payouts, liquidity totals, Hunt cash, and completionist totals are provisional planning/history data rather than hard current locks.

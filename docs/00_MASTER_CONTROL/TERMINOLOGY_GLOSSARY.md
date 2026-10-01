@@ -57,11 +57,7 @@ Retired Face labels:
 ## Economy
 **G** — current ordinary currency and the only current-facing ordinary currency term.
 
-Current denomination:
-> **1 economy unit = 200 G**
-
-Current Chapter-0 starting wallet:
-> **2,500 G**
+The older **1 economy unit = 200 G** conversion and **2,500 G Chapter-0 starting-wallet** value are retained only as provisional pre-rebuild economy references. They are not terminology locks or final economy calibration.
 
 **Auren** — retired former currency name; use only for explicit historical/provenance discussion.
 
