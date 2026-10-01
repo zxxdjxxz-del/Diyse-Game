@@ -44,7 +44,7 @@ After all eligible normal actors have completed or lost their turns:
 - Prime invocation occurs as a selected Card/Prime action on the acting character's turn;
 - Recovered and Awakened states behave differently;
 - Awakened Prime suspends the ordinary party and enters direct-control Prime rounds;
-- the established Prime restoration and two-full-normal-round spacing rules remain owned by `07_CARDS`.
+- the established Prime restoration and **3-full-normal-party-round** spacing rule remains owned by `07_CARDS`.
 
 ## Victory / defeat / authored nonlethal
 The UI must support:
