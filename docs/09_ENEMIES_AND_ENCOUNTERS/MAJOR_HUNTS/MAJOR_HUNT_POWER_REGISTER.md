@@ -17,7 +17,7 @@ Only Major Hunt #2:
 
 uses a genuine fresh second body.
 
-Prime availability refreshes at War Engine.
+Prime availability does **not** refresh at War Engine; spent/Ready state carries through unchanged under the current Prime-restoration rule.
 
 Major Hunts #1, #3, #4, #5 and #6:
 > same-bar only / no Prime refresh at state changes
