@@ -36,6 +36,12 @@ Retired with no current enemy owner:
 - **Way-Fort Marauder** — no current Chapter-3 placement
 - **Watch Sentry / Watch Ballista / Watch Captain Frame** — retired Hollow Watch encounter grammar; current underground combat uses Construct plus the fixed Shield Construct encounter
 
+Retired authored encounter packages:
+- **Chapter 0 S005 Final Broken Convoy model** — superseded by the current B06 Riftmaw + Battle Sorcerer combined encounter
+- **Chapter 2 Hold the Junction** — retired from the current route
+- **Chapter 3 S018 lawful-authority confrontations** — retired from the current route; do not restore the Ivory Watch / Royal Polearm / Ivory Crossbow / Ivory Adjudicator combat package
+- **False-Warrant Adept Chapter-3 placement issue** — retired with the superseded S018 branch; no current enemy placement
+
 Do not restore:
 - Barrier;
 - Brace;

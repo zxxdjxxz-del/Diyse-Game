@@ -1,10 +1,9 @@
 # Diyse — Enemy Story-Integration Boundaries
 
-**Status:** ACTIVE — v90
+**Status:** ACTIVE CURRENT REPOSITORY AUTHORITY
 
 The following identities have combat design sufficient for the enemy domain, while exact scene placement/trigger remains owned by later chapter/dialogue authoring. They are **not enemy-design gaps** and must not be converted into random encounters merely to close a placement note.
 
-- False-Warrant Adept — exact Chapter 3 placement/role
 - Highland Resistance Fighter — exact Chapter 5 authored nonlethal placement
 - Weather Crown Shield Guard — exact Chapter 6 authored placement
 - Blood Husk — exact Chapter 6 authored placement
