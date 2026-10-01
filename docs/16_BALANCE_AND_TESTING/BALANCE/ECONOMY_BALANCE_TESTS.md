@@ -3,9 +3,6 @@
 **Status:** ACTIVE ECONOMY QA FRAMEWORK / NUMERIC RECALIBRATION OPEN  
 **Economy authority:** `../../12_ECONOMY_AND_REWARDS/`
 
-Economy authority:
-`12_ECONOMY_AND_REWARDS`
-
 ## Current currency
 > **G**
 
