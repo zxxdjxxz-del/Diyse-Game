@@ -8,26 +8,14 @@
 Current final roster:
 > **5 ordinary Side Quests**
 
-| Side Quest | Giver | Unlock | Area | Combat | EXP |
-|---|---|---|---|---|---:|
-| **The Marks We Leave** | Edda Harth | Ch1 after B08 Torren permanent join | Greenhollow / current nearby route area (map anchor open) | none required | 500 |
-| **A Measure of Bread** | Crown Princess Mirena Ceryth | after Ch3 | Caelora | none | 0 |
-| **The Crown's Debt** | Crown Princess Mirena Ceryth | after Ch7 | Ashford | none | 0 |
-| **The Third Caravan** | Talia Rell | after Ch8 | Greenhollow → Ashford recovery corridor | none required; optional route combat | 5,000 |
-| **What We Build After** | Crown Princess Mirena Ceryth | post-Vaelkor Ch12 cleanup | Caelora | none | 14,500 |
+| Side Quest | Giver | Unlock | Area | Combat |
+|---|---|---|---|---|
+| **The Marks We Leave** | Edda Harth | Ch1 after B08 Torren permanent join | Greenhollow / current nearby route area (map anchor open) | none required |
+| **A Measure of Bread** | Crown Princess Mirena Ceryth | after Ch3 | Caelora | none |
+| **The Crown's Debt** | Crown Princess Mirena Ceryth | after Ch7 | Ashford | none |
+| **The Third Caravan** | Talia Rell | after Ch8 | Greenhollow → Ashford recovery corridor | none required; optional route combat |
+| **What We Build After** | Crown Princess Mirena Ceryth | post-Vaelkor Ch12 cleanup | Caelora | none |
 
-Total:
-> **20,000 Player EXP**
-
-## Mirena EXP distribution — current
-- **A Measure of Bread:** 0 EXP
-- **The Crown's Debt:** 0 EXP
-- **What We Build After:** 14,500 EXP
-
-Mirena's three-quest EXP total remains:
-> **14,500 EXP**
-
-The five-Side-Quest total remains **20,000 EXP** because the 5,000 EXP from **The Third Caravan** and 500 EXP from **The Marks We Leave** are unchanged.
 
 Current giver allocation:
 - Edda Harth — 1
@@ -37,3 +25,6 @@ Current giver allocation:
 There are no current regional-NPC ordinary Side Quests.
 
 
+
+## Numeric reward ownership
+Exact ordinary Side Quest Player EXP/CEXP is owned by `10_PROGRESSION_AND_EXP` and remains provisional pending the progression rebuild.
