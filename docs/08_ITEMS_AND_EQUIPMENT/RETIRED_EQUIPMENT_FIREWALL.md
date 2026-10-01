@@ -41,7 +41,7 @@ only where specifically authored.
 ## Terminology
 Use:
 - Wardrod
-- Acuity
+- Perception
 - Calibration
 - Sixfold Volition
 
