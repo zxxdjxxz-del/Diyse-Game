@@ -39,10 +39,10 @@ Preserve:
 Do not let him become a generic silver plate knight or lose the royal-blue/black material blocks.
 
 ### Ilyra
-**White/pale-blue Warden with long blonde hair and one coherent cape.**
+**White/pale-blue Warden with neatly tied-back shorter blonde hair and one coherent pale-blue cape.**
 
 Preserve:
-- long blonde hair;
+- neatly tied-back shorter blonde hair silhouette;
 - pale-blue cape mass;
 - white/pale-blue fitted clothing block;
 - **vivid jade/green eyes** where camera distance permits;
@@ -52,12 +52,12 @@ Preserve:
 Her contextual runtime equipment follows gameplay canon: Wardrod primary, with Shield or Focus where equipped. Do not introduce a sword identity.
 
 ### Torren
-**Forest-green veteran ranger + golden-bronze medium armor + irregular mixed-foliage ghillie mantle.**
+**Forest-green veteran ranger + tarnished silver/steel medium armor + lightweight mixed-foliage ghillie mantle.**
 
 Preserve:
 - rugged age-42 veteran head/face silhouette;
 - forest/army-green clothing mass;
-- golden-bronze rigid medium armor on the torso/shoulders and other major protected areas shown by the master;
+- tarnished silver/steel medium armor on the torso/shoulders and other major protected areas shown by the master;
 - dark field-leather belts, harnessing, pouches, gloves, and boots;
 - bow carried on the back;
 - right-hip arrow draw/quiver layout exactly as established by the master;
@@ -67,17 +67,18 @@ Preserve:
 At distance the ghillie mantle must resolve into several designed organic masses, not hundreds of shimmering foliage cards. Torren must read as a veteran ranger/military scout, not a druid or heavy knight.
 
 ### Nimera
-**White foundation + dark-purple braided/updo silhouette + purple constellation waist mass.**
+**White sleeveless clothing/trousers + short purple locs/twists + coat tied at the waist.**
 
 Preserve:
-- dark skin;
-- large dark-purple gathered/braided hair silhouette;
-- white fitted clothing body block;
-- dark-purple constellation garment/drape around the waist;
-- black boot/utility masses;
-- one strong green Cardweaver book/card cue where visible.
+- medium-dark brown skin;
+- short purple locs/twists silhouette;
+- white sleeveless upper-body and fitted-trouser blocks;
+- coat tied at the waist rather than a skirt/drape silhouette;
+- black harness/belt/glove/boot utility masses;
+- restrained silver metal/hardware accents;
+- the locked Cardweaver book prop where visible.
 
-Do not force every braid, chain, charm, vial, or constellation mark to remain equally visible at distance. Group or fade secondary detail through LOD/material logic.
+Do not lengthen the hair or rebuild the older gathered-braid / constellation-drape silhouette. Group or fade secondary utility detail through LOD/material logic.
 
 ### Vaelira
 **Emerald Green Arcanist + black foundation + silver accents + Arcane Staff.**
@@ -93,18 +94,18 @@ Preserve:
 **Vaelira is not an archer.** Do not introduce bow, quiver, ranger, or bow-animation language in any runtime model or animation set.
 
 ### Seyrik
-**Massive black/crimson Black Host heavy silhouette + oversized greatsword.**
+**Massive dark-charcoal/black Black Host heavy silhouette + deep-red coat/collar accents + oversized greatsword.**
 
 Preserve:
 - broad muscular proportion;
 - short blond-hair head silhouette;
-- scarred severe face where camera distance permits;
-- red/black long outer-garment mass as shown by the master;
-- polished black skeletal/rib-like armor over crimson understructure;
-- sharp Black Host plate rhythm;
+- stern/scarred severe face where camera distance permits;
+- deep-red coat/collar accent mass;
+- dark-charcoal/black heavy armor with the locked reduced-shine distribution;
+- sharp Black Host plate rhythm without restoring an older glossy rib-shell treatment;
 - unmistakably oversized two-handed greatsword.
 
-At distance, the rib-shell should resolve into a few strong black/crimson structural bands rather than dense specular noise.
+At distance, the armor should resolve into a few strong dark structural masses with controlled red accents rather than dense specular noise.
 
 ## Avoid clone drift
 
