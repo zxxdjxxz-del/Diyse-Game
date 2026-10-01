@@ -1,56 +1,40 @@
 # Diyse — Balance Change Control
-**Migration baseline:** `Diyse_CURRENT_WORKING_TRACKER_CONSOLIDATED_2026-08-27_v85.md`  
-**Current written whole-project authority:** **v2.20 / Audit135**, plus newer explicit user corrections preserved by the reorganization.  
-**Primary balance chain:** Audits 121–135 where compatible, especially 123–128 progression and 129–135 raw-stat certification.  
-**Runtime test checkpoint inspected:** `Diyse-Game` commit `3fd07e92eda04f31ba613a654b3b1b28071f44e6`.  
-**Balance ownership rule:** this domain owns cross-system balance acceptance criteria, verification plans, playtest targets, certification status and regression gates. Exact formulas/stats/rewards remain canonically housed in their dedicated system domains.
 
+**Status:** ACTIVE BALANCE CHANGE-CONTROL RULE  
+**Balance/QA authority:** `README.md`
 
 ## Test first
 When a balance concern appears:
-1. reproduce it under current canon;
+1. reproduce it under current repository authority;
 2. record party level/build/equipment/Cards/Primes;
 3. record encounter/form/state;
 4. record exact inputs and result;
-5. determine whether the problem is:
-   - implementation bug;
-   - stale data;
-   - UX misunderstanding;
-   - encounter scripting error;
-   - actual numeric balance issue.
+5. determine whether the problem is an implementation bug, stale data, UX misunderstanding, encounter scripting error, or actual numeric balance issue.
 
-Do not reprice a stat because one uncontrolled playthrough "felt off."
+Do not change a value because one uncontrolled playthrough merely felt off.
 
-## Closed numeric changes
-A proposed change to a closed layer must identify:
-- current authority;
-- current value;
+## Closed-layer changes
+A proposed change to a closed owner-domain value must identify:
+- current owner;
+- current value/rule;
 - observed failure;
 - affected content;
-- why implementation-only correction is insufficient;
+- why an implementation-only correction is insufficient;
 - proposed replacement;
 - regression consequences.
 
-Then require explicit change approval.
+Then require explicit approved change.
 
-## Open balance
-Open/reopened work may be iterated without pretending the old values are final.
+## Reopened work
+Current reopened/rebuild frontiers include:
+- enemy action kits/Powers and difficulty certification;
+- Player EXP/CEXP placement;
+- economy G pricing/payout calibration;
+- downstream mandatory-vs-completionist certification.
 
-Current major reopened numeric layer:
-> **CEXP chapter allocation / class-completion timing**
-
-Target:
-> full Base + Subclass completion around Player **Lv55–60** after enemy/boss mandatory-vs-completionist validation.
-
-The old Lv53–57 model is baseline/reference only; the temporary Lv62 target is retired.
+The **Lv55–60** full Base + Subclass completion window remains a target, not proof that historical reward tables are final.
 
 ## No hidden compensation
-Do not compensate for one bad number by silently changing:
-- shop prices;
-- encounter rate;
-- enemy damage;
-- EXP;
-- MP;
-- status rates
+Do not compensate for one bad number by silently changing another domain's prices, encounter rate, enemy damage, EXP/CEXP, MP, status rates, equipment, or reward values.
 
-in another domain.
+Changes belong in the actual owner domain and require the corresponding regressions to be rerun.
