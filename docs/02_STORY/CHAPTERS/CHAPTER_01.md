@@ -1,10 +1,9 @@
 # Chapter 1 — Brackenwall and the Wayfinder
 
-**Current whole-project written authority:** v2.20 / Audit135, plus later explicit user corrections and current domain migrations.  
 **Domain rule:** this file owns mandatory Chapter-1 story structure, scene order, reveal order, recruitment milestones, knowledge state, and story outcomes. Exact dialogue belongs to the dialogue authority / `03_DIALOGUE`; combat mechanics and formation tuning belong to battle/encounter authority.
 
 **Status:** STRUCTURE REVISED / 12-BEAT AUTHORITY — 2026-09-25.  
-**Current exact-dialogue reference:** latest Chapter 0–3 exact-dialogue reader, `DIYSE_Chapters_0-3_Spoiler_Free_Exact_Dialogue_Reader_CURRENT(6).docx` (2026-09-23), subject to structural continuity edits required by this file.
+**Current exact-dialogue authority:** `../../03_DIALOGUE/PRODUCTION/CHAPTER_01/CHAPTER_01_DIALOGUE_AUTHORITY_INDEX.md` and its current production atomics/manuscript.
 
 ## Dialogue-engine beat rule
 For reopened Chapter-1 material, story authority should define only what is needed to keep dialogue canon-safe:
