@@ -1,4 +1,4 @@
-# Chapter 7 — Ordinary / Elite / Authored-Special Power Register
+# Chapter 7 — Ordinary / Strong-Normal / Authored-Special Power Register
 
 **Status:** **CHAPTER-7 BROAD ENEMY POWER PASS**
 
