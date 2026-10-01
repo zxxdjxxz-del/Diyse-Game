@@ -1,6 +1,6 @@
 # Diyse — Currency & Price Unit
 
-**Status:** DISPLAY-SCALE AUTHORITY
+**Status:** G TERMINOLOGY AUTHORITY / NUMERIC DISPLAY SCALE PROVISIONAL PENDING ECONOMY REBUILD
 
 ## Currency
 The ordinary currency is:
@@ -10,15 +10,15 @@ There is no second ordinary shop currency.
 
 `G` is both the currency name and the current-facing display suffix. No separate currency glyph is required.
 
-## Display-scale revision
-Current G uses the deliberate extra display digit for JRPG-style presentation.
+## Display-scale reference
+The retained provisional G model uses the deliberate extra display digit for JRPG-style presentation.
 
 The entire prior balanced currency economy is displayed at:
 > **10× the former numeric denomination**
 
 This is a presentation-scale change, not a tenfold increase in purchasing power.
 
-Current conversion anchor:
+Provisional conversion reference pending the economy rebuild:
 > **1.0 economy unit = 200 G**
 
 Anchor item:
@@ -38,7 +38,7 @@ All current-facing economy/reward files must use **G** rather than the retired c
 The party begins Chapter 0 with:
 > **2,500 G**
 
-This is the current starting-currency authority.
+This is the retained provisional starting-wallet reference, not a final numeric lock while the economy rebuild is pending.
 
 It is separate from Cyanis's Chapter-0 field-issued Consumables and from Chapter-0 encounter payouts.
 
