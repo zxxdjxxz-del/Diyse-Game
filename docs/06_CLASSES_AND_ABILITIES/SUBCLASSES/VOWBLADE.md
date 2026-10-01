@@ -1,7 +1,7 @@
 # Diyse — Vowblade
-**Migration baseline:** `Diyse_CURRENT_WORKING_TRACKER_CONSOLIDATED_2026-08-27_v85.md`  
-**Historical provenance:** **v2.08 / Audit123**, with compatible **Audit115** class normalization and later current working corrections, including the approved 2026-08-30 Ability-MP reduction and temporary-stat normalization.  
-**Authority treatment:** this repository file is current class-domain authority. Audit/v85 references remain provenance; later explicit corrections and current owner-domain rules supersede conflicting historical text.
+
+**Status:** ACTIVE SUBCLASS AUTHORITY  
+**Authority:** current class sheet plus later explicit approved corrections.  
 
 
 **Owner:** Ilyra  
