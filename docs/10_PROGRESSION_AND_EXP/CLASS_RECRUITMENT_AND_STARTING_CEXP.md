@@ -2,14 +2,16 @@
 **v92 recruitment-aware correction:** 2026-08-29  
 **Migration baseline:** `Diyse_CURRENT_WORKING_TRACKER_CONSOLIDATED_2026-08-27_v85.md`
 
+> **NUMERIC STATUS — PROVISIONAL.** Starting Base CL/CEXP values and recruitment-chapter CEXP splits are retained as planning inputs pending the later CEXP rebuild; scene/recruitment identities below should still match current story authority.
+
 ## Recruitment starting state
 | Character | Recruitment | Starting Base CL | Starting Base CEXP |
 |---|---|---:|---:|
 | Cyanis | Ch0 | CL1 | 0 |
 | Ilyra | Ch0 | CL1 | 0 |
-| Torren | Ch1 / after S009 resolution | CL4 | 600 |
-| Nimera | Ch3 / S019 | CL4 | 600 |
-| Vaelira | Ch4 / after S022 | CL7 | 1,800 |
+| Torren | Ch1 / after **B08** resolution | CL4 | 600 |
+| Nimera | Ch3 / **B05** permanent recruitment | CL4 | 600 |
+| Vaelira | Ch4 / **B05** join | CL7 | 1,800 |
 | Seyrik | Ch6 / chapter-end recruitment resolution | CL8 | 2,300 |
 
 ## CEXP handoff rule
@@ -25,8 +27,8 @@ The prior ~5,500 / ~5,050 etc. Volition rows were inherited planning approximati
 | Character | Recruitment chapter CEXP before join | Canonical CEXP remaining after join | Notes |
 |---|---:|---:|---|
 | Torren | ~200 of Ch1's 350 | **150** | joins after Greenhollow resolution; receives the late Ch1 route/clear stream only |
-| Nimera | ~250 of Ch3's 550 | **300** | joins at S019; receives the post-recruit Suppressed Archives / command-route stream |
-| Vaelira | ~150 of Ch4's 650 | **500** | joins after S022; receives most of the Reaction Annex crisis stream |
+| Nimera | ~250 of Ch3's 550 | **300** | joins at B05; receives the post-recruit Chapter-3 mandatory stream |
+| Vaelira | ~150 of Ch4's 650 | **500** | joins at B05; receives most of the Reaction Annex crisis stream |
 | Seyrik | Ch6's 950 occurs before permanent recruitment | **0** | joins at chapter end; first normal campaign CEXP as a permanent member is Ch7 |
 
 These checkpoint splits preserve the chapter budgets exactly:
