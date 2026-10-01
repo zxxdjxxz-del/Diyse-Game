@@ -1,5 +1,8 @@
 # Diyse — Equipment Max HP / Max MP Bonus Rules
 
+**Status:** ACTIVE EQUIPMENT BONUS AUTHORITY  
+**Authority:** current items/equipment-domain owner plus later explicit approved corrections.  
+
 **Current authority:** newer explicit equipment-stat correction.
 
 ## Core rule
