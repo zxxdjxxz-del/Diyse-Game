@@ -1,7 +1,7 @@
 # Diyse — Standard Cards: Elements
 **Migration baseline:** `Diyse_CURRENT_WORKING_TRACKER_CONSOLIDATED_2026-08-27_v85.md`  
-**Primary Card/Prime authority:** compatible **Audit116**, superseded where applicable by **Audit119**, **Audit122**, and later current v85 working closures.  
-**Current written whole-project authority:** **v2.20 / Audit135**.  
+**Historical provenance:** Audit116/Audit119/Audit122, v85-era closures, and later approved corrections as applicable.
+**Authority treatment:** this repository file is current Card/Prime-domain authority. Audit/v85 references remain provenance; later explicit corrections and current owner-domain rules supersede conflicting historical text.
 
 
 ## Current count
@@ -16,7 +16,7 @@
 | **Worldsplitter** | 38 | one enemy | Magical / Earth | 245 | 95 | 40% Spirit penetration; 30% Staggered. | Regional Hunt #10 — Authority Remnant |
 
 ## Global references
-- MP prices use the current Audit119/v85 rebase.
+- MP prices shown here are current repository values; Audit119/v85 remains provenance only.
 - Harmful statuses resolve through `05_BATTLE_SYSTEM/STATUS_EFFECTS.md`.
 - Base Hit/Evasion resolves through `05_BATTLE_SYSTEM/BASE_HIT_AND_EVASION.md`.
 - Current Bleed timing/clearing follows Audit122, not stale Audit116 heal-clears-Bleed wording.
