@@ -7,7 +7,7 @@
 
 ## Unlock / runtime
 - after Chapter 7
-- ~30 minutes
+- runtime: **OPEN / provisional** — scope-driven; no uniform Character Quest duration target
 - parent hub: Cerythvale
 - site: **Crestline Relay**
 - local placement: west/southwest toward the populated interior
@@ -45,10 +45,10 @@ This is not:
 The trapped team remains alive.
 
 ## Combat
-Reused ordinary identities:
-- Command-Station Sentry
-- Authority Lens
-- Command Ring Drone
+Ordinary-enemy reuse:
+> **OPEN / current-owner assignment required**
+
+Do not restore the unowned **Command-Station Sentry** name, and do not pre-introduce later story enemy families merely to populate this quest. The later quest-encounter pass must select only currently owned identities whose chronology fits this unlock window.
 
 Boss:
 > **Crest-Exhausted Warden**
@@ -67,6 +67,6 @@ somehow excludes himself.
 The party restores distributed pathways, rescues the trapped team, and gets Cyanis out without replacing him with another sacrificial victim.
 
 ## Reward
-- **7,000 Player EXP**
+- numeric progression rewards: owned by `10_PROGRESSION_AND_EXP`; current values are provisional pending rebuild
 - **Cyanis Legacy Component**
 - no Last Sentinel / required-Ability gate
