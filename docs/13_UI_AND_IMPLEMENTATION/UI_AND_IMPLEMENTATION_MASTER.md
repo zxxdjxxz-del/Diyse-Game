@@ -63,7 +63,7 @@ Current-facing UI must use:
 - Perception
 - Last Cartographer
 - Sixfold Volition
-- Auren
+- G
 - Weapon / Secondary / Armor
 - Locked / Unlocked Masteries
 

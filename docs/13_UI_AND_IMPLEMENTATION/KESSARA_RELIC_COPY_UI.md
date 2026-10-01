@@ -45,10 +45,10 @@ Player-facing wording can be polished without changing the rule.
 
 ## Still OPEN
 - exact service unlock/menu timing;
-- whether an Auren service fee exists;
+- whether a G service fee exists;
 - fee amount;
 - exact original-vs-copy visual badge/label;
 - confirmation flow;
 - service animation/presentation.
 
-Do not hardcode a fee until `12_ECONOMY_AND_REWARDS` closes it.
+Do not hardcode a fee while `12_ECONOMY_AND_REWARDS` still marks economy values rebuild/recalibration pending.

@@ -54,7 +54,7 @@ The final production save must eventually represent current authoritative state 
 - selected class;
 - automatic Mastery unlock state or derivable progress;
 - learned Abilities/Traits/Ultimates;
-- current Auren;
+- current G;
 - Consumables;
 - ordinary equipment;
 - Relic quantities/copies;
@@ -75,7 +75,7 @@ Current proof uses:
 > `rewards.gold`
 
 Current canon uses:
-> **Auren**
+> **G**
 
 Production schema must migrate/version this safely rather than merely relabeling a stale proof field with no compatibility plan.
 

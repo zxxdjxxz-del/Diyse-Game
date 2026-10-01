@@ -7,15 +7,15 @@
 
 ## Currency
 Current ordinary currency:
-> **Auren**
+> **G**
 
-Do not expose `Gold` as the final player-facing currency.
+Do not expose `Gold` or retired `Auren` as the final player-facing currency.
 
 ## Ordinary purchase/sell
 Economy values are owned by `12_ECONOMY_AND_REWARDS`.
 
 Shop UI must support:
-- price in Auren;
+- price in G;
 - owned quantity;
 - legal equipment recipient/slot where useful;
 - buy;
@@ -52,4 +52,4 @@ Exact:
 - stock badges;
 - merchant compare pane;
 - resale confirmation;
-- Side Quest/Hunt Auren reward panel.
+- Side Quest/Hunt G reward panel.
