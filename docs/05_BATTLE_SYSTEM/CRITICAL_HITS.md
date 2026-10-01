@@ -1,7 +1,7 @@
 # Diyse — Critical Hits
-**Migration baseline:** `Diyse_CURRENT_WORKING_TRACKER_CONSOLIDATED_2026-08-27_v85.md`  
-**Current domain authority checked:** repository `docs/COMBAT_RULES.md`, current through **v2.20 / Audit135**, plus compatible Audit115, Audit120, Audit122, Audit135.  
-**Migration rule:** current master canon outranks stale/open wording inherited by v85.
+
+**Status:** ACTIVE BATTLE-SYSTEM AUTHORITY  
+**Authority:** current battle-system owner plus later explicit approved corrections.  
 
 
 ## Global values
