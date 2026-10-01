@@ -1,7 +1,9 @@
 # Diyse — Optional CEXP Ledger
 **v91 recalibration:** 2026-08-29
 
-Optional CEXP is now exact so mandatory-vs-completionist battle snapshots can reproduce Class Levels instead of relying on a planning envelope. Every recruited permanent character receives the activity's CEXP package under the normal reserve-progression rule; CEXP still goes only to that character's selected class.
+> **STATUS — PROVISIONAL OPTIONAL-CEXP LEDGER / REBUILD PENDING.**
+>
+> The values below are the current reproducible planning ledger, not final balance certification. Every recruited permanent character receives an activity's CEXP package under the normal reserve-progression rule; CEXP still goes only to that character's selected class.
 
 ## Active Regional Hunts — 245 CEXP total
 | # | Hunt | CEXP |
