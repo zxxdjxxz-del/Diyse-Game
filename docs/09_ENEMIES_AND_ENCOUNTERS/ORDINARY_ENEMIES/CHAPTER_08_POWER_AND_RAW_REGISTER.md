@@ -1,4 +1,4 @@
-# Chapter 8 — Ordinary / Elite Power Register
+# Chapter 8 — Ordinary / Strong-Normal Power Register
 **Status:** **CHAPTER-8 BROAD ENEMY POWER PASS**
 
 ## Ordinary identities
@@ -42,9 +42,9 @@ Neither creates a universal Anchor resource/system.
 Classification:
 > **rare ordinary**
 
-It is not promoted to a second Chapter-8 Elite.
+It is not promoted to a second Chapter-8 strong-normal identity.
 
-## Optional Elite
+## Strong normal-pool identity
 Conqueror Legate:
 - retained Lv38 / HP3,650 / ATK138 / MAG102 / DEF97 / Spirit88 / SPD43
 - one bar
