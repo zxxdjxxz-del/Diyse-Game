@@ -1,5 +1,7 @@
 # Diyse — Shared Class States
-**Current working authority:** 2026-08-30 Torren/Nimera class redesign.  
+
+**Status:** ACTIVE CLASS-STATE AUTHORITY  
+**Authority:** current class-domain owner plus later explicit approved corrections.  
 **Domain:** shared class-authored combat states used by more than one current playable class.  
 
 This file owns the exact shared definition of a class state when multiple class sheets use the same state. Individual class Abilities own how they apply, refresh, or exploit that state.
