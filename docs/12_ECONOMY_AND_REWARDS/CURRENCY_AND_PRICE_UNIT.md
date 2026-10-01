@@ -42,13 +42,10 @@ This is the retained provisional starting-wallet reference, not a final numeric 
 
 It is separate from Cyanis's Chapter-0 field-issued Consumables and from Chapter-0 encounter payouts.
 
-## Campaign-scale target
-Before the display-scale multiplication, the completionist direct-cash target is approximately **65,000** on the former purchasing-power scale.
+## Historical campaign-scale reference
+The former working model targeted approximately **65,000** on the old purchasing-power scale, corresponding to roughly **650,000 G** under the retained display conversion.
 
-Under the current displayed denomination, this corresponds to roughly:
-> **650,000 G**
-
-The exact current calibration may land slightly above or below this target while preserving chapter pacing.
+That completionist cash target is **not current authority**. The economy rebuild must establish any replacement campaign-scale target.
 
 ## Retired terminology
 - **Auren** — retired currency name; do not use in current-facing text or implementation.
