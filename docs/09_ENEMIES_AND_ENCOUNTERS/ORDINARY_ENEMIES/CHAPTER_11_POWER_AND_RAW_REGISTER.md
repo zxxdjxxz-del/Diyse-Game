@@ -1,4 +1,4 @@
-# Chapter 11 — Ordinary / Elite / Authored-Protected Power Register
+# Chapter 11 — Ordinary / Strong-Normal / Authored-Protected Power Register
 **Status:** **CHAPTER-11 BROAD ENEMY POWER PASS**
 
 | Enemy | Lv | HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR | Direct-damage Powers |
