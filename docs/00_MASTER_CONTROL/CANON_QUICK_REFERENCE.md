@@ -1,6 +1,9 @@
 # Diyse — Canon Quick Reference
 
+This is a compact orientation layer only. Numbered owner domains control detailed rules.
+
 ## Party
+
 Permanent six:
 - Cyanis — Crest Knight / Crest Arcanist
 - Ilyra — Blue Warden / Vowblade
@@ -9,77 +12,65 @@ Permanent six:
 - Vaelira — Green Arcanist / Axiomblade
 - Seyrik — Ruin Vanguard / Ruin Warden
 
-Active battle party:
-> **4** general maximum
+General active battle-party maximum:
+> **4**
 
-Chapter 1 exception:
-> **3-character combat-party cap**
+Chapter 1:
+- opening / first Briar — Cyanis + Ilyra;
+- Hollow Watch onward — Cyanis + Ilyra + Torren;
+- Maevra is noncombat.
 
-Chapter 1 party progression:
-- opening / first Briar: **Cyanis + Ilyra**;
-- Hollow Watch onward: **Cyanis + Ilyra + Torren**;
-- **Maevra is noncombat for all of Chapter 1**.
+## Story structure
 
-## Chapters
-> Chapter 0 + Chapters 1–13
-
-- Ch0 The Broken Convoy
-- Ch1 Brackenwall and the Wayfinder
-- Ch2 The Drowned Oath
-- Ch3 The Old City and Last Sentinel
-- Ch4 The Seventh Reaction
-- Ch5 The Mountain Engine — inherited current identity
-- Ch6 Frostmere / Weather Crown / Crimson Work — formal title still open
-- Ch7 The Prison of Names
-- Ch8 Horizon Vault / Westguard / Varkesh — formal title still open
-- Ch9 Larkspire / Crownfall / Rhazek — formal title still open
-- Ch10 The Last Blank
-- Ch11 Crown Engine / Calder / Custodian / Truth — formal title still open
-- Ch12 The Reforged March
-- Ch13 The Last Command
+> **Chapter 0 + Chapters 1–13**
 
 True PONR:
 > **Last Shelter → Reactor Galleries**
 
-## Chapter maturity
-- Chapters 0–3: strongest current consolidated chapter authority.
-- Chapter 4: story structure current; ordinary enemy/formation layer **REWORK PENDING**.
-- Chapters 5–13: **development-in-progress**. Individual explicit locks may be current, but inherited chapter packages are not globally certified as finished.
+Chapter maturity:
+- Chapters 0–3 — current consolidated production authority;
+- Chapter 4 — story structure current; ordinary enemy/formation rework remains open;
+- Chapters 5–13 — development-in-progress, with individual explicit locks still binding where newer/current.
 
-## Regions
-Exactly:
+## World
+
+Current macro-regions:
 - Yahtrenhold
 - The Westways
 - The Greyspires
 - Black Host Territory
 
+Current year:
+> **713 YF**
+
 ## Combat
+
 Permanent commands:
-> Attack / Ability / Card / Item / Defend
+> **Attack / Ability / Card / Item / Defend**
 
 Elements:
-> Fire / Ice / Lightning / Earth
+> **Fire / Ice / Lightning / Earth**
 
-Harmful statuses:
-> Burn / Freeze / Stun / Staggered / Bleed
+Universal harmful statuses:
+> **Burn / Freeze / Stun / Staggered / Bleed**
 
-Bleed:
-> **3% Max HP per qualifying proc; after 3 affected turns uncleared → 4%; round tick + action tick; full-HP/status-clear/item removal only**
-
-Defensive magic-resistance stat:
+Magic-resistance defensive stat:
 > **Spirit**
 
-No natural Accuracy stat.
+No natural Accuracy character stat.
 
-## Cards
+Enemy difficulty hierarchy:
+> **baseline ordinary < strong normal-pool < mandatory story boss < Regional Hunt < Major Hunt**
+
+There is no separate Elite category.
+
+Exact status magnitudes/durations live in:
+> `../05_BATTLE_SYSTEM/STATUS_EFFECTS.md`
+
+## Cards / Faces / Primes
+
 Faces:
 > **Might / Elements / Grace / Perception / Memory / Ruin**
-
-Perception:
-> Accuracy-oriented effects under current Base Hit rules, Evasion, Critical Hits, and Fields; reading battlefield position, timing and openings.
-
-Memory:
-> recall, repetition, preservation, and reuse of prior actions/states; what has happened remaining available to influence the present.
 
 Retired Face labels:
 > Resource / Acuity / Change
@@ -87,86 +78,101 @@ Retired Face labels:
 Counts:
 - 24 Standard Cards
 - 12 Primes
-- 36 Card identities total
 
-Standard loadout:
-> 3 per character
+Standard Card loadout:
+> **3 per character**
 
-Prime loadout:
-- Chapter 4 Prime access → Sixfold Volition: **1 slot per character**
-- after Sixfold Volition: **2 slots per character**
+Prime slots:
+- from Chapter-4 Prime-loadout access until Sixfold Volition — **1 per character**
+- after Sixfold Volition — **2 per character**
 
 Prime progression:
-> Recovered → Awakened
+> **Recovered → Awakened**
 
-Prime resource:
-> 0 MP; each Prime identity **one use until restored by valid rest or an explicit authored restoration effect**; spent state persists across battle end; neither same-bar changes nor genuine fresh-HP forms refresh spent Prime identities
-
-Post-dismissal spacing:
-> **3 full normal party rounds**
-
-Awakened round sequencing:
-> `05_BATTLE_SYSTEM/PRIME_ROUND_SEQUENCING.md`
-
-No Concordant.
+Prime resource/runtime:
+- invocation costs **0 MP**;
+- manifested Prime commands cost **0 MP**;
+- each Prime identity has one use until valid restoration;
+- spent/Ready state persists across battle end;
+- boss form/state changes do **not** restore spent Primes;
+- after dismissal, **3 full normal party rounds** must complete before another Ready Prime may be invoked.
 
 ## Equipment
+
 Slots:
-> Weapon / Secondary / Armor
+> **Weapon / Secondary / Armor**
 
 No general Accessory slot.
 
-Counts:
-- 38 ordinary
-- 36 Relics
-- 17 Legacies
-- 91 total equipment
+Current equipment count:
+> **91 total**
 
-Equipment Max HP / Max MP:
-> **flat `+N` bonuses**, not percentages
-
-Consumables:
-> 20
-
-Forge Components:
-> 30
-
-## Economy
-Currency terminology:
-> **G**
-
-Retired currency name:
-> **Auren**
-
-Detailed G prices, payouts, chapter-income totals, liquidity models, and completionist cash totals are **provisional / rebuild pending**.
-
-Do not use this quick reference to lock economy numbers before the planned economy rebuild.
+Ilyra:
+- Wardrod primary;
+- Shield or Focus secondary;
+- no sword identity.
 
 ## Progression
-Structural player cap:
+
+Player Level cap:
 > **70**
 
-Current completion target:
-> normal-route full Base + Subclass completion should land around **Player Lv55–60**
+Chapter 0:
+> **no Player Levels**
 
-The existing campaign ending (~Lv62), Last Shelter (~Lv60), 225-encounter planning center, CL13 6,000-CEXP threshold, chapter CEXP totals, and optional CEXP pool are **provisional reference values from the pre-rebuild model**.
+Target for normal full Base + Subclass completion:
+> **Player Lv55–60**
 
-Do not use this quick reference to certify or propagate exact EXP/CEXP totals until the planned progression rebuild is complete.
+Exact Player EXP/CEXP placement and derived route-level centers remain rebuild-pending.
 
-## Balance routing
-The former mandatory-route ×1.20 / First Command Warden boss-local retune sequence is **not the current work-routing authority**.
+## Economy
 
-Historical v103–v105 balance reports remain analytical evidence only. Do not infer a current next balance task from them unless the current balance-handling process or a new explicit instruction calls for it.
+Current player-facing currency:
+> **G**
+
+Retired:
+> **Auren**
+
+Detailed prices, payouts, liquidity, and derived cash targets remain rebuild/recalibration-pending.
 
 ## Optional content
+
 - 6 Character Quests
 - 5 ordinary Side Quests
-- **8 currently active Regional Hunts**; retired/open slots remain subject to later content work
+- 8 active Regional Hunts
 - 6 Major Hunts
 
+Major Hunts are intentionally above-level optional challenges.
+
+## Visual direction
+
+Exact current 2D character masters remain identity authority.
+
+Permanent-party field/battle runtime direction:
+> **rigged 3D models matched to those exact masters**
+
+The former required ~80 px field / ~200–220 px battle sprite-redraw pipeline is retired.
+
+Shared visual style:
+> **Seinen HD-2D Fantasy with Chaotic Variable Line Weight + Graphic Anime-Stylized Rendering**
+
+## Dialogue / implementation / audio status
+
+- Chapters 0–3 dialogue — current production;
+- Chapter 4 exact dialogue — open;
+- runtime still contains proof-era divergences tracked in `13_UI_AND_IMPLEMENTATION`;
+- final music/audio direction remains open.
+
+## Balance / QA status
+
+Enemy action-kit/difficulty, Player EXP/CEXP placement, and detailed economy calibration remain active rebuild/recertification frontiers.
+
+Old paper/sensitivity/true-battle certifications are not live implementation authority. New true-battle certifications must use current owner-domain inputs.
+
 ## Finale
+
 Final boss:
-> Reconstituted Entity → The Last Command
+> **Reconstituted Entity → The Last Command**
 
 Exactly one ancient Entity fragment survived.
 
@@ -174,9 +180,13 @@ Exact ancient survival mechanism:
 > **OPEN**
 
 Final Severance:
-> HOLD → DISTINGUISH → MAP → PRESERVE → CONTAIN → END
+> **HOLD → DISTINGUISH → MAP → PRESERVE → CONTAIN → END**
 
 All six permanent characters survive.
 
-## Major Hunt unlocks
-Use the dedicated Major Hunt/story owners for current cadence. Later-chapter placement remains subject to the Chapters 5–13 development boundary; do not promote an inherited quick-reference chapter number over a newer dedicated lock.
+## Current sequencing
+
+Use:
+> `../90_WORKING/ACTIVE_WORK_QUEUE.md`
+
+for current cross-domain work order.
