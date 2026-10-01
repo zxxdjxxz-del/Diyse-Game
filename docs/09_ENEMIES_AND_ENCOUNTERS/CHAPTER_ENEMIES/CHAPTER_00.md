@@ -1,9 +1,7 @@
 # Diyse — Chapter 00 Enemies — The Broken Convoy
-**Migration baseline:** `Diyse_CURRENT_WORKING_TRACKER_CONSOLIDATED_2026-08-27_v85.md`  
-**Historical enemy-production provenance:** Audit90/Audit93 plus later tracker-era roster/action cleanups.
-**Historical raw-stat provenance:** Audit129–Audit135.
-**Authority treatment:** this chapter file is current enemy roster/placement authority; Audit/v85 references remain historical provenance only.
-**Migration rule:** current repository names, chapter placement, system firewalls, and Prime-restoration rules supersede conflicting historical enemy text.
+
+**Status:** ACTIVE CHAPTER ENEMY / ENCOUNTER AUTHORITY  
+**Authority:** current chapter roster/placement owner; numeric tuning remains subject to the domain recertification boundary.  
 
 ## Ordinary / repeatable
 - Black Host Raider
@@ -72,7 +70,7 @@ Resolution:
 Underlying retrospective canon:
 > this is **Seyrik Rell under concealed identity**.
 
-This encounter is **authored / protected**, not an optional Elite encounter.
+This encounter is **authored / protected**, not an optional standalone enemy encounter.
 
 A real noncombat field / triage / defensive-repositioning interval must separate this encounter from Riftmaw.
 
@@ -91,23 +89,11 @@ Locks:
 - recovery casing breaks during this encounter under story authority;
 - both Riftmaw and the Battle Sorcerer are defeated in the same fight.
 
-## Numerical boundary
-Chapter-0 enemy raw bodies and direct-damage Power remain exact in their owning files unless separately reopened.
+## Balance / numeric boundary
 
-Riftmaw:
-> **CURRENT / RETAINED / POWER COMPLETE / MOVED AFTER ILYRA JOINS**
+This chapter file owns current enemy identity, placement, encounter architecture, and chapter-specific mechanic intent.
 
-Ruin Vanguard Pursuer:
-> **CURRENT / AUTHORED PROTECTED / SEYRIK CONCEALED / MOVED AFTER ILYRA JOINS**
-
-Final Battle Sorcerer confrontation:
-> **CURRENT / POWER COMPLETE / COMBINED RIFTMAW + BATTLE SORCERER FINAL BOSS**
-
-Structural enemy/encounter status:
-> **CLOSED — roster / order / spacing / party state / behavior**
-
-Numeric difficulty/resource status:
-> **DEFERRED — five-fight Cyanis-solo endurance + B05 Seyrik + combined B06 final boss must be revalidated in the later balance/progression pass**
+Exact raw stats, action Powers/kits, recommended levels, and mandatory-vs-completionist difficulty are not re-certified here while the enemy/progression rebuild is open. Use current individual enemy/boss owners for working implementation inputs and `../../16_BALANCE_AND_TESTING/BALANCE/ENEMY_BOSS_MANDATORY_COMPLETIONIST_VALIDATION.md` for the current comparison method.
 
 
 ## Chapter-0 enemy identity/name lock — 2026-09-22
