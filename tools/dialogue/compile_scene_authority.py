@@ -106,6 +106,7 @@ FORBIDDEN_AUTHORITY_PREFIXES = (
     "docs/90_WORKING/",
     "docs/99_ARCHIVE/",
     "docs/03_DIALOGUE/LINE_COMPLETE/",
+    "docs/03_DIALOGUE/HISTORICAL/",
     "docs/02_STORY/CHAPTERS/HISTORICAL/",
     "docs/chapters/",
 )
