@@ -41,11 +41,14 @@ If the transition closes or changes optional content, dialogue/UI staging should
 
 **Chapter 13 exception:** there is no next chapter and no post-game cleanup after the final ending.
 
-## Historical closed dialogue
-Chapters 0–4 have historical exact/line-complete sources, but current reopened story authority and the global cleanup rule supersede any incompatible old chapter-ending structure.
+## Current dialogue boundary
+- Chapters 0–3 have complete current rehearsal-first dialogue production under `03_DIALOGUE`.
+- Historical exact/line-complete sources for those chapters are provenance only where superseded by current production.
+- Chapter 4 has current B01–B12 story/scene-authority structure, but its exact rehearsal-first dialogue remains OPEN.
+- Historical Chapter-4 dialogue may be used only as compatible provenance/reference; it does not override the current 12-beat structure or current reveal/cleanup rules.
 
 ## Later dialogue
-For Chapters 5–13:
+For Chapters 4–13 where exact current dialogue is still open:
 - do not invent line-complete dialogue merely because the story spine is now organized;
 - preserve OPEN dialogue work where current authority says it is not yet written;
-- when those chapters are authored, end Chapters 5–12 with the same cleanup → explicit player advance structure.
+- when those chapters are authored, end Chapters 4–12 with the same cleanup → explicit player advance structure.
