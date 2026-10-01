@@ -1,29 +1,22 @@
 # Diyse — Audio Authority Master
-**Migration baseline:** `Diyse_CURRENT_WORKING_TRACKER_CONSOLIDATED_2026-08-27_v85.md`  
-**Current whole-project authority:** **v2.20 / Audit135**, plus newer explicit corrections already preserved in current reorganized domains.  
-**Music supersession authority:** later Complete Master Canon explicitly marks **ALL whole-project music OPEN / under separate redevelopment** and supersedes the older v1.53–v1.57 regional-music prescriptions as active canon.  
-**Research preservation:** older approved/researched music material remains valuable development evidence but is **not automatically current soundtrack canon** unless explicitly promoted.  
-**Runtime checkpoint:** `3fd07e92eda04f31ba613a654b3b1b28071f44e6`; no production music/SFX/audio asset library is present in the inspected Godot repository.
 
+**Status:** ACTIVE AUDIO-DOMAIN AUTHORITY  
+**Open-work register:** `OPEN_AUDIO_ITEMS.md`  
+**Retired terminology:** `RETIRED_AUDIO_TERMINOLOGY_FIREWALL.md`
 
 ## 1. Music
+
 Status:
 > **OPEN**
 
-The later Complete Master explicitly supersedes the old:
-- Heartlands = LOOP
-- Highlands = POCKET
-- Edgelands = SONG
-- Black Host metal-derived soundtrack rule
-- Ancient Diysean psychedelic/progressive soundtrack rule
+No final soundtrack grammar, track list, regional music identity, leitmotif system, instrumentation plan, or mix/master target is currently canonized.
 
-as current whole-project canon.
-
-Those remain research history only.
+Historical regional and Ancient-music research remains available under `RESEARCH_ARCHIVE/`, but it is not active soundtrack authority.
 
 ## 2. Sound design
+
 Status:
-> **PRODUCTION REQUIREMENTS EXIST; EXACT SONIC DESIGN OPEN**
+> **FUNCTIONAL REQUIREMENTS EXIST; EXACT SONIC DESIGN OPEN**
 
 Current systems require readable audio feedback for:
 - exploration;
@@ -40,36 +33,20 @@ Current systems require readable audio feedback for:
 Exact assets remain open.
 
 ## 3. Voice acting
+
 Status:
 > **OPEN**
 
 Dialogue text and character voice-writing are locked independently of recorded voice-over.
 
 ## 4. Runtime implementation
-At the inspected Godot checkpoint:
-- no production audio directory;
-- no soundtrack bank;
-- no final SFX bank;
-- no voice bank
 
-was present.
+Current repository state contains no production music, SFX, voice, or audio-bank assets.
 
-Audio therefore remains a genuine future production workstream rather than a hidden completed subsystem.
+Audio remains a future production workstream rather than a hidden completed subsystem.
 
 ## 5. Originality
-Any final Diyse music must be original.
 
-Reference studies may teach:
-- arrangement;
-- production;
-- rhythm;
-- instrumentation;
-- dynamics;
-- form;
-- mix behavior.
+Final Diyse music and sound assets must be original or properly licensed for production use.
 
-They must not be used to copy:
-- melodies;
-- lyrics;
-- distinctive samples;
-- recognizable song-specific arrangements.
+Reference studies may teach arrangement, production, rhythm, instrumentation, dynamics, form, and mix behavior. They do not authorize copying protected melodies, lyrics, distinctive samples, recognizable riffs, or song-specific arrangements.
