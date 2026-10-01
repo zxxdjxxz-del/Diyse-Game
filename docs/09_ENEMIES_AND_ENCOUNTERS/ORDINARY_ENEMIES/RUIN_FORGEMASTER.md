@@ -1,0 +1,69 @@
+# Ruin Forgemaster
+
+**Chapter:** 5 strong normal-pool enemy  
+**Status:** **POWER COMPLETE / RAW LINE RETAINED**
+
+## Raw body — RETAIN
+| Lv | HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR |
+|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| 23 | **2,250** | **88** | **62** | **64** | **57** | **31** | 0 | 5 |
+
+## Actions
+
+### Forgemaster Hammer
+- one party member
+- Physical / Neutral
+- **240 Power**
+- Base Hit100
+- no harmful-status rider
+
+### Ruin Temper
+- one party member
+- Hybrid / Ruin
+- **75% ATK / 25% MAG**
+- **225 Power**
+- Base Hit100
+- **20% Staggered**
+- 2-round repetition lock
+
+### Cinder Break
+- one party member
+- Hybrid / Fire
+- **75% ATK / 25% MAG**
+- **210 Power**
+- Base Hit100
+- **25% Burn**
+- 2-round repetition lock
+
+### Anvil Sweep
+- all conscious party members
+- Physical / Neutral
+- **175 Power per target**
+- Base Hit95
+- no harmful-status rider
+- 2-round repetition lock
+
+### Temper Armor
+> **Power: N/A — no direct damage**
+
+Effect:
+> **Defense +15% / Spirit +15% through the end of the following round**
+
+2-round repetition lock.
+
+## Fight-length role
+Standing strong-normal fight-length target:
+> **roughly 2–4 serious party rounds**
+
+No second form.
+No support wave.
+No extra ordinary action.
+
+
+## Normal-pool conversion — 2026-09-22
+Ruin Forgemaster is no longer optional side content.
+
+Current role:
+> **strong normal-pool enemy**
+
+It is encountered through the chapter/area's normal encounter structure rather than an optional room or branch. If the identity is unique/named, use a one-time normal-pool entry rather than repeatable copies. Existing raw stats and Power remain retained; encounter frequency/placement and reward impact require revalidation where the prior optional placement mattered.
