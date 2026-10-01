@@ -1,9 +1,9 @@
 # Diyse — Regional Hunt Master Register
 **Migration baseline:** `Diyse_CURRENT_WORKING_TRACKER_CONSOLIDATED_2026-08-27_v85.md`  
-**Primary enemy-production authority:** compatible **Audit90 / Audit93** plus accepted later tracker roster/action cleanups.  
-**Primary raw-stat authority:** **Audit129 + Audit130 / Audit131 / Audit132 / Audit133 / Audit134 / Audit135**.  
-**Current whole-project written authority:** **v2.20 / Audit135** plus newer accepted corrections.  
-**Migration rule:** later current names, chapter reindexing, four-element rules, removed-system firewalls, and current Prime-restoration rules supersede stale earlier enemy text.
+**Historical enemy-production provenance:** Audit90/Audit93 plus later tracker-era roster/action cleanups.
+**Historical raw-stat provenance:** Audit129–Audit135.
+**Authority treatment:** this repository file is current Regional-Hunt-domain authority; Audit/v85 references remain historical provenance only.
+**Migration rule:** current repository Hunt names, numbering, chapter placement, and restoration rules supersede conflicting historical text.
 
 Current active count:
 > **8 Regional Hunts**

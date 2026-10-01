@@ -1,6 +1,6 @@
 # Diyse — Regional Hunt #4: Crown Prototype
 **Migration baseline:** `Diyse_CURRENT_WORKING_TRACKER_CONSOLIDATED_2026-08-27_v85.md`  
-**Current whole-project written authority:** **v2.20 / Audit135**, plus later accepted active-balance specifications.  
+**Authority treatment:** this repository file is current Regional-Hunt-domain authority; Audit/v85 references remain historical provenance only.
 **Scaling:** fixed authored tuning; no dynamic player-level scaling.
 
 
