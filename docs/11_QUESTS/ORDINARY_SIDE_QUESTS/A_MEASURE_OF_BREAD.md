@@ -12,7 +12,7 @@
 - runtime: ~15 minutes
 - boss: none
 - combat: none
-- EXP: **0**
+- numeric progression rewards: owned by `10_PROGRESSION_AND_EXP`; current values are provisional pending rebuild
 
 ## Premise
 Caelora has enough food, but an old emergency distribution formula allocates bread/grain according to household counts that no longer match the displaced population.
@@ -61,6 +61,6 @@ Arc principle:
 > government must accurately see the people it governs.
 
 ## Reward boundary
-- **0 Player EXP**
+- numeric progression rewards: owned by `10_PROGRESSION_AND_EXP`; current values are provisional pending rebuild
 - exact currency/Consumables deferred to `12`
 - no unique equipment/Card
