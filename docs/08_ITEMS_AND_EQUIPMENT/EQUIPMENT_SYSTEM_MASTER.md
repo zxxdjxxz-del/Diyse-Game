@@ -40,9 +40,10 @@ Current active Secondary families:
 - Focus
 
 Ilyra:
-- Wardrod is Primary;
+- Wardrod is her only legal Primary weapon family;
 - Shield **or** Focus may occupy Secondary;
-- Shield and Focus cannot be equipped simultaneously.
+- Shield and Focus cannot be equipped simultaneously;
+- Vowblade / Ruin Vanguard donor access does **not** grant Two-Handed Swords.
 
 Vaelira:
 - Arcane Staff remains one-slot Primary;
@@ -53,6 +54,8 @@ Vaelira:
 Once legal equipment access is unlocked, changing selected class does not silently erase already-established legal equipment access under the current class/equipment architecture.
 
 Exact donor unlock timing is referenced from `06_CLASSES_AND_ABILITIES`.
+
+Receiver-specific weapon locks override generic donor-family access. In particular, Ilyra's Vowblade donor path inherits eligible **Ruin Vanguard armor** only; it never grants the Ruin Vanguard Two-Handed Sword family.
 
 ## Equipment does not choose Ability formula
 
