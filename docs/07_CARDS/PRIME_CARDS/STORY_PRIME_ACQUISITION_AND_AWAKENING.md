@@ -1,7 +1,7 @@
 # Diyse — Story Prime Acquisition and Awakening
-**Migration baseline:** `Diyse_CURRENT_WORKING_TRACKER_CONSOLIDATED_2026-08-27_v85.md`  
-**Historical provenance:** Audit116/Audit119/Audit122, v85-era closures, and later approved corrections as applicable.
-**Authority treatment:** this repository file is current Card/Prime-domain authority. Audit/v85 references remain provenance; later explicit corrections and current owner-domain rules supersede conflicting historical text.
+
+**Status:** ACTIVE PRIME AUTHORITY  
+**Authority:** current Card/Prime-domain owner plus later explicit approved corrections.  
 
 Story Primes are acquired **Recovered** and awaken through mandatory story milestones. For Last Sentinel specifically, Chapter 3 only identifies/confirms the Prime; **its first verified modern manifestation during the Chapter-4 Elder Thornhide battle is the acquisition event that transitions it into Recovered**.
 
