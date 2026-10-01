@@ -413,4 +413,10 @@ Do not reduce Mirena to:
 - future Queen whose eventual closeness with the party erases the need to show that closeness growing.
 
 ## Visual
-Exact approved primary portrait + turnaround authority: **LOCKED**.
+Exact approved visual authority: **LOCKED**.
+
+Current source routing:
+- `asset_sources/characters/current/mirena.jpg`
+- `docs/14_ART_AND_VISUALS/PRODUCTION/CHARACTERS/MIRENA_CURRENT_VISUAL_LOCK.md`
+
+Exact appearance remains owned by `14_ART_AND_VISUALS`; this character file must not duplicate or override the source lock.
