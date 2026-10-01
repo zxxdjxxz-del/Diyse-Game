@@ -1,15 +1,15 @@
 # Diyse — Implementation Authority Precedence
-**Migration baseline:** `Diyse_CURRENT_WORKING_TRACKER_CONSOLIDATED_2026-08-27_v85.md`  
-**Current written whole-project authority:** **v2.20 / Audit135**, plus newer explicit corrections already preserved in the reorganized domains.  
+**Historical migration provenance:** v85-era consolidated tracker.
+**Authority treatment:** this repository file is current UI/implementation-domain authority; Audit/v85 references remain provenance only. Cross-domain gameplay rules defer to their current owning repository domains.
 **Implementation rule:** current domain canon beats older proof code/docs. Proof implementations are evidence of architecture, not permission to restore stale mechanics, names, currencies, progression, or UI concepts.
 
 
 When implementation-facing sources disagree:
 
 1. newest explicit user correction;
-2. current reorganized domain authority;
-3. newest compatible master-canon audit;
-4. current operational chapter/system file;
+2. current owning repository domain authority;
+3. current operational chapter/system or cross-domain handoff file;
+4. current implementation-status/divergence documentation where it does not conflict with owning gameplay authority;
 5. proof runtime;
 6. historical audit/prototype source.
 
