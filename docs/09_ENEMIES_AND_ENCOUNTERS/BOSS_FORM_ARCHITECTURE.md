@@ -1,9 +1,9 @@
 # Diyse — Boss Form Architecture
 **Migration baseline:** `Diyse_CURRENT_WORKING_TRACKER_CONSOLIDATED_2026-08-27_v85.md`  
-**Primary enemy-production authority:** compatible **Audit90 / Audit93** plus accepted later tracker roster/action cleanups.  
-**Primary raw-stat authority:** **Audit129 + Audit130 / Audit131 / Audit132 / Audit133 / Audit134 / Audit135**.  
-**Current whole-project written authority:** **v2.20 / Audit135** plus newer accepted corrections.  
-**Migration rule:** later current names, chapter reindexing, four-element rules, removed-system firewalls, temporary-stat percentage rules, and current Prime-restoration rules supersede stale earlier enemy text.
+**Historical enemy-production provenance:** Audit90/Audit93 plus later tracker-era roster/action cleanups.
+**Historical raw-stat provenance:** Audit129–Audit135.
+**Authority treatment:** this repository file is current enemy-domain authority; Audit/v85 references remain historical provenance only.
+**Migration rule:** current repository names, chapter placement, system firewalls, and Prime-restoration rules supersede conflicting historical enemy text.
 
 ## Same-bar state change
 Behavior/state changes while retaining the same HP bar:
@@ -11,7 +11,6 @@ Behavior/state changes while retaining the same HP bar:
 - no Prime restoration.
 
 Examples:
-- Hollow Watch Castellan Fortress → Walking
 - Furnace Tyrant High-Heat escalation
 - Crownstorm Roc Perched Sovereign → Stormbound
 - Chainworks Behemoth Bound → Freed

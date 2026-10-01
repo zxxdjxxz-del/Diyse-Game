@@ -1,9 +1,9 @@
 # Diyse — Nonlethal and Protected Encounter Rules
 **Migration baseline:** `Diyse_CURRENT_WORKING_TRACKER_CONSOLIDATED_2026-08-27_v85.md`  
-**Primary enemy-production authority:** compatible **Audit90 / Audit93** plus accepted later tracker roster/action cleanups.  
-**Primary raw-stat authority:** **Audit129 + Audit130 / Audit131 / Audit132 / Audit133 / Audit134 / Audit135**.  
-**Current whole-project written authority:** **v2.20 / Audit135**.  
-**Migration rule:** later current names, chapter reindexing, four-element rules, removed-system firewalls, and fresh-body Prime-refresh rules supersede stale earlier enemy text.
+**Historical enemy-production provenance:** Audit90/Audit93 plus later tracker-era roster/action cleanups.
+**Historical raw-stat provenance:** Audit129–Audit135.
+**Authority treatment:** this repository file is current enemy-domain authority; Audit/v85 references remain historical provenance only.
+**Migration rule:** current repository names, chapter placement, system firewalls, and Prime-restoration rules supersede conflicting historical enemy text.
 
 
 Diyse does not use a universal:
@@ -39,13 +39,13 @@ A bespoke encounter may override ordinary 0-HP resolution with visible objective
 - Varkesh Retreat Beacons;
 - Calder/Crown Engine support devices;
 - Continuity/Reconciliation requirements;
-- Last Sentinel's authored Elder Briarhide nonlethal override.
+- Last Sentinel's authored Elder Thornhide nonlethal override.
 
 No universal capture mechanic is inferred from these encounters.
 
-## Current Chapter-1 Briarhide firewall
+## Current Chapter-1 Thornhide firewall
 
-The **Briarhide Stalker** is **not** a nonlethal/protected encounter.
+The **Thornhide** is **not** a nonlethal/protected encounter.
 
 Current Chapter-1 authority resolves it as:
 - a natural wild Greater Beast;
@@ -53,12 +53,12 @@ Current Chapter-1 authority resolves it as:
 - ordinary combat victory;
 - lethal defeat at 0 HP.
 
-Do not reintroduce a Black Host Irritant Fitting, protected HP floor, purification/stabilization objective, or retreat-alive resolution for the Chapter-1 Briarhide Stalker.
+Do not reintroduce a Black Host Irritant Fitting, protected HP floor, purification/stabilization objective, or retreat-alive resolution for the Chapter-1 Thornhide.
 
-This does not alter the separate **Elder Briarhide** protected encounter later in the game.
+This does not alter the separate **Elder Thornhide** protected encounter later in the game.
 
 
-## Elder Briarhide — fixed-duration protected encounter
+## Elder Thornhide — fixed-duration protected encounter
 
 S022 is an explicit authored exception to ordinary boss-duration logic.
 
@@ -71,7 +71,7 @@ Rounds 1–3 use ordinary commands.
 
 Round 4 forces the Recovered Last Sentinel invocation.
 
-Sentinel Impact resolves normally at **340 Power**, then Elder Briarhide retreats alive.
+Sentinel Impact resolves normally at **340 Power**, then Elder Thornhide retreats alive.
 
 Completionist advantage is expressed through survivability/resource economy, not a shorter encounter.
 
