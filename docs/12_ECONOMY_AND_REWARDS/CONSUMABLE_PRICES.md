@@ -1,11 +1,11 @@
 # Diyse — Consumable Prices
 
-**Status:** CURRENT CONSUMABLE PRICE AUTHORITY
+**Status:** PROVISIONAL CONSUMABLE PRICE REFERENCE / ECONOMY REBUILD PENDING
 
 Current consumable count:
 > **20**
 
-All current-facing values use **G** at the tenfold display scale: **1 economy unit = 200 G**.
+The retained provisional price table uses **G** and the historical working display reference **1 economy unit = 200 G**. Final numeric prices remain rebuild-pending.
 
 | ID | Consumable | Current function | Commerce class | G |
 |---|---|---|---|---:|
@@ -30,7 +30,7 @@ All current-facing values use **G** at the tenfold display scale: **1 economy un
 | C19 | **Emergency Kit** | 75% Max HP + 60% Max MP + eligible cleanse/stat restoration; no revive | limited premium stock from first shop access + guaranteed finds | **8,000** |
 | C20 | **Emergency Rally** | Revive all KO active-party members at 60% Max HP + 35% Max MP | limited premium stock from first shop access + guaranteed finds | **15,000** |
 
-## Price-family read
+## Provisional price-family read
 Cheap maintenance:
 - Blinding Mist — 100 G
 - Trauma Remedy — 150 G
