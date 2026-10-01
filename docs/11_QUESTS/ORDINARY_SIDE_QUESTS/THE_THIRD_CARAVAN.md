@@ -13,7 +13,7 @@
 - end: Ashford
 - boss: none
 - required combat: none
-- EXP: **5,000**
+- numeric progression rewards: owned by `10_PROGRESSION_AND_EXP`; current values are provisional pending rebuild
 
 ## Route
 > Greenhollow → Recovery Depot → Old Supply Cut → Failed Handoff → Temporary Shelter → Settlement Approach → Ashford
@@ -120,5 +120,5 @@ No:
 - later route dressing may show recovery carts/freight.
 
 ## Reward boundary
-- **5,000 Player EXP**
+- numeric progression rewards: owned by `10_PROGRESSION_AND_EXP`; current values are provisional pending rebuild
 - exact currency/recovery Consumables belong in `12`
