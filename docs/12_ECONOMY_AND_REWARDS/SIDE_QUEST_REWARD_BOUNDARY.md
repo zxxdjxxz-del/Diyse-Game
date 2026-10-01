@@ -1,6 +1,6 @@
 # Diyse — Ordinary Side Quest Rewards
 
-**Status:** EXACT NON-EXP SIDE-QUEST REWARD AUTHORITY
+**Status:** CURRENT SIDE-QUEST REWARD-STRUCTURE OWNER; G/PRICE VALUES PROVISIONAL PENDING ECONOMY REBUILD
 
 Current ordinary Side Quests:
 - The Marks We Leave
