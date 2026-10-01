@@ -1,7 +1,7 @@
 # Diyse — Crest Arcanist
 **Migration baseline:** `Diyse_CURRENT_WORKING_TRACKER_CONSOLIDATED_2026-08-27_v85.md`  
-**Master-canon class/resource authority:** **v2.08 / Audit123**, with compatible **Audit115** class normalization and later current working corrections, including the approved 2026-08-30 Ability-MP reduction and temporary-stat normalization.  
-**Authority treatment:** explicit/newer working corrections are preserved as working overrides when they have not yet been promoted into the audit chain.
+**Historical provenance:** **v2.08 / Audit123**, with compatible **Audit115** class normalization and later current working corrections, including the approved 2026-08-30 Ability-MP reduction and temporary-stat normalization.  
+**Authority treatment:** this repository file is current class-domain authority. Audit/v85 references remain provenance; later explicit corrections and current owner-domain rules supersede conflicting historical text.
 
 
 **Owner:** Cyanis  
@@ -28,7 +28,7 @@
 | CL7 | **Equipment Mastery** | Unlocks class eligibility for the donor **Green Arcanist Relic**, subject to actual Relic ownership and other established requirements. |
 | CL11 | **Legacy Mastery** | Unlocks class eligibility for the donor **Green Arcanist Legacy**, subject to donor Legacy completion/ownership and other established requirements. |
 
-The previous third mechanical Subclass Mastery and old fourth-node Equipment-Mastery layout are historical. Current v85 structure is two mechanical Masteries → Equipment Mastery → Legacy Mastery, with no Mastery Point cost.
+The previous third mechanical Subclass Mastery and old fourth-node Equipment-Mastery layout are historical. Current repository structure is two mechanical Masteries → Equipment Mastery → Legacy Mastery, with no Mastery Point cost.
 
 ## Trait ranks
 - Rank I: all MP-costing Crest Arcanist Abilities cost 2 less MP, minimum 1.
