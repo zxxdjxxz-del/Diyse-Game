@@ -75,11 +75,12 @@ Balance closure/open status, regression plans and release gates.
 Next work should happen inside the owning subject domain, using `90_WORKING` only as a temporary drafting/staging area.
 
 ## Current routing checkpoint
-- historical enemy static/paper passes remain evidence, but do **not** override the active Chapter-4 enemy rework or Chapters 5–13 development-in-progress;
+- historical enemy static/paper passes remain evidence, but do **not** override the active Chapter-4 enemy rework, enemy ability/action-kit redesign, or Chapters 5–13 development-in-progress;
 - historical balance reports remain evidence, not an automatic work queue;
-- current CEXP/class-progression authority is owned by `10_PROGRESSION_AND_EXP` and `06_CLASSES_AND_ABILITIES`;
+- Player EXP/CEXP numeric tuning is **provisional / rebuild pending** under `10_PROGRESSION_AND_EXP`; **Lv55–60** remains the current class-completion target window;
+- class architecture remains owned by `06_CLASSES_AND_ABILITIES`;
 - Prime loadout access remains **1 slot from Chapter 4 Prime-loadout access until Sixfold Volition; 2 after Volition**;
 - playable-area/route layout production is an active project stream;
-- character visual masters and their production locks are now repository-backed under the current visual authority system.
+- character visual masters and their production locks are repository-backed under the current visual authority system; B00 identity sources are 6/6 locked while runtime translation remains open.
 
 For unresolved work, use `OPEN_AND_PENDING_WORK.md` as the cross-domain summary and `../90_WORKING/ACTIVE_WORK_QUEUE.md` for detailed sequencing; do not follow historical “Next” lines embedded in older reports.
