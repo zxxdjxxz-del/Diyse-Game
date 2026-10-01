@@ -1,6 +1,5 @@
 # Chapter 2 — The Drowned Oath
 
-**Current whole-project written authority:** **v2.20 / Audit135**, plus later explicit user corrections/current domain migrations.  
 **Domain rule:** this file owns mandatory Chapter-2 story structure, scene order, reveal order, recruitment state, knowledge changes, and story outcomes. Exact dialogue belongs to the current rehearsal-first Agent Brain pipeline in `03_DIALOGUE`; combat mechanics belong to battle/encounter authority.
 
 **Status:** **LOCKED REVISED CHAPTER-2 STORY STRUCTURE / 15 ACTIVE MANDATORY BEATS + C05.**
