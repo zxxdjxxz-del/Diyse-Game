@@ -55,3 +55,17 @@ Important current reindex:
 - Chapter 13 = **The Last Command / final domain**
 
 Do not use pre-insertion chapter numbers to relocate those rosters.
+
+
+## Balance / numeric authority boundary
+
+This domain's **current identity, placement, encounter architecture, status/mechanic intent, and owner routing** are live authority.
+
+Exact raw stats, action Powers/kits, recommended levels, and mandatory-vs-completionist difficulty claims remain subject to the active enemy/progression recertification frontier unless a newer explicit owner locks them after that rebuild.
+
+Old v80–v106 `PASS`, `FORMALLY VALIDATED`, `POWER COMPLETE`, and true-battle certification labels are historical evidence only and must not be treated as current release certification.
+
+Use:
+- current enemy/boss/Hunt owner files for working implementation inputs;
+- `../16_BALANCE_AND_TESTING/BALANCE/ENEMY_BOSS_MANDATORY_COMPLETIONIST_VALIDATION.md` for the current comparison method;
+- `../16_BALANCE_AND_TESTING/OPEN_BALANCE_ITEMS.md` for the active rebuild frontier.
