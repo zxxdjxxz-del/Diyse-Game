@@ -12,6 +12,9 @@ Normalize current enemy content as follows:
 - Archive Current → **Arcdrift**
 - Bastion Shield Guard → **Black Host Shieldbearer**
 - Bastion Crossbow Guard → **Black Host Crossbowman**
+- Rootmaw → **Burrowclaw**
+- Rubbleback / Brambleback → **Barkling**
+- Transfer Adept / retired Chapter-2 War-Sorcerer lane → **Battle Sorcerer**
 - Elemental Hexarch → **Reaction Conduit**
 - Skyreach Shield Guard → **Weather Crown Shield Guard**
 - older `Resource` Face → **Perception**
@@ -25,6 +28,13 @@ Retired with no current enemy owner:
 - **Watch Castellan** — Hollow Watch has no miniboss; use the fixed authored Shield Construct encounter under current Chapter-1 authority
 - **Black Host Ward-Sorcerer** — no current placement
 - **Injured Iron Cohort Soldier** — superseded Chapter-0 encounter branch only
+- **Redwater Initiate** — no current Chapter-2 placement
+- **Memory Scribe** — no current Chapter-2 placement
+- **Drowned Archive Maw** — no current Chapter-2 placement
+- **Vault Sentinel** — no current Chapter-2 placement
+- **Rift Boltman** — no current Chapter-3 placement
+- **Way-Fort Marauder** — no current Chapter-3 placement
+- **Watch Sentry / Watch Ballista / Watch Captain Frame** — retired Hollow Watch encounter grammar; current underground combat uses Construct plus the fixed Shield Construct encounter
 
 Do not restore:
 - Barrier;
