@@ -1,19 +1,18 @@
 # Diyse — Former Strong normal-pool Elite Conversion Register
 **Migration baseline:** `Diyse_CURRENT_WORKING_TRACKER_CONSOLIDATED_2026-08-27_v85.md`  
-**Primary enemy-production authority:** compatible **Audit90 / Audit93** plus accepted later tracker roster/action cleanups.  
-**Primary raw-stat authority:** **Audit129 + Audit130 / Audit131 / Audit132 / Audit133 / Audit134 / Audit135**.  
-**Current whole-project written authority:** **v2.20 / Audit135**.  
-**Migration rule:** later current names, chapter reindexing, four-element rules, removed-system firewalls, and the current **no form-transition Prime refresh** rule supersede stale earlier enemy text.
+**Historical enemy-production provenance:** Audit90/Audit93 plus later tracker-era roster/action cleanups.
+**Historical raw-stat provenance:** Audit129–Audit135.
+**Authority treatment:** this repository register is current Elite-domain authority; Audit/v85 references remain historical provenance only.
+**Migration rule:** current repository placement, identity, and Prime-restoration rules supersede conflicting historical Elite text.
 
 
 Current rule:
 > **Hunts are the only standalone optional enemy/Elite encounters. Quest-owned combat remains governed by its owning quest.**
 
-The 12 identities historically tracked here are **former strong normal-pool Elites**. They are now strong normal-pool enemies in their owning chapter/area. Unique/named identities use one-time normal-pool entries rather than repeatable duplicates.
+Current entries below are the active strong-normal identities plus the Chapter-4 rework candidate. Retired Elite snapshots are centralized in `../RETIRED_ENEMY_TERMINOLOGY_FIREWALL.md` rather than retained as parallel tuning owners. Unique/named current identities use one-time normal-pool entries rather than repeatable duplicates.
 
 | Ch | Strong normal-pool identity | Lv | HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR |
 |---:|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| 3 | **Grand Inquisitor Frame** | 14 | 1,200 | 58 | 62 | 44 | 45 | 29 | 0 | 10 |
 | 4 | **Annex Duelist — placement OPEN / rework input** | 18 | 1,700 | 72 | 72 | 50 | 49 | 34 | 10 | 5 |
 | 5 | **Ruin Forgemaster** | 23 | 2,250 | 88 | 62 | 64 | 57 | 31 | 0 | 5 |
 | 6 | **Crimson Progenitor** | 28 | 2,700 | 92 | 104 | 69 | 72 | 38 | 5 | 10 |
@@ -48,30 +47,12 @@ depending on level, build, resource state, and mechanics.
 ## Chapter 1
 There is **no approved strong normal-pool Elite in current Chapter 1**.
 
-Watch Captain Frame's former Hollow Watch role is retired. Its old Lv6 / HP500 package is historical tuning evidence only and does not establish current placement.
+Watch Captain Frame is retired and removed from the active enemy tree; the retirement boundary is recorded in `../RETIRED_ENEMY_TERMINOLOGY_FIREWALL.md`.
 
 ## Chapter 2
 There is **no approved strong normal-pool Elite in current Chapter 2**.
 
-Archive Duplicant is removed from the Sunken Archive encounter pool. Its retained design/body is historical/future-use material only and does not establish current Chapter-2 placement.
-
-## Chapter 3 Power completion
-
-### Grand Inquisitor Frame
-Raw line retained:
-> Lv14 / HP1,200 / ATK58 / MAG62 / DEF44 / Spirit45 / SPD29 / EVA0 / SR10
-
-Direct damage:
-- Inquisitor Lance — **220**
-- Verdict Pulse — **155 per target**
-- Lock Sequence — **235**, 25% Stun
-
-Non-damage:
-- Inquisitor Guard — **Power N/A**
-
-Status:
-> **POWER COMPLETE**
-
+Archive Duplicant is retired from current placement and removed from the active enemy tree; any future reuse requires a new explicit owner.
 
 ## Chapter 4 — REWORK PENDING
 
@@ -342,18 +323,12 @@ Status:
 > **POWER COMPLETE / CURRENT CYANIS + ILYRA PLACEMENT REVALIDATION REQUIRED**
 
 
-### v79 Chapter-3 validation correction
-Grand Inquisitor Frame HP is **1,200**, superseding the prior 1,450-HP retained line. All other raw stats and direct-damage Powers remain unchanged.
 
-
-## Conversion lock — 2026-09-22
-This file is retained for compatibility/provenance because the individual enemy files and older balance reports still refer to the historical Elite set.
-
+## Current placement boundary
 Current encounter rule:
-- no side-room/branch combat category exists for these enemies;
-- each identity is part of its chapter/area's normal encounter pool;
-- unique/named identities are one-time pool entries if repetition would violate fiction;
-- existing raw bodies and Powers remain in force unless their new pool placement requires revalidation;
-- any former optional-only EXP/CEXP/G treatment must be reconciled in the progression/reward owners.
-
-Hunts remain the only standalone optional enemy/Elite encounters; quest-owned combat remains quest-owned.
+- Hunts remain the only standalone optional enemy/Elite encounters; quest-owned combat remains quest-owned.
+- Current table entries are part of their chapter/area normal encounter structure, except Annex Duelist whose Chapter-4 placement remains explicitly open/rework-pending.
+- Unique/named current identities are one-time pool entries if repetition would violate fiction.
+- Ruin Vanguard Pursuer remains a current authored/protected Chapter-0 encounter outside the table.
+- Retired Elite designs do not supply current stats, actions, placement, or rewards unless a future explicit owner reintroduces them.
+- Any former optional-only EXP/CEXP/G treatment for current converted identities remains subject to the progression/reward owners.
