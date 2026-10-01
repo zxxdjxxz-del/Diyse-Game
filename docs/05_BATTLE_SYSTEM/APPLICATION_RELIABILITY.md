@@ -1,6 +1,7 @@
 # Diyse — Application Reliability
-**Migration baseline:** `Diyse_CURRENT_WORKING_TRACKER_CONSOLIDATED_2026-08-27_v85.md`  
-**Current authority basis:** current Base Hit/Evasion, harmful-status, class, Card, and equipment wording reconciled under the fixed turn-entry battle model.  
+
+**Status:** ACTIVE BATTLE-SYSTEM AUTHORITY  
+**Authority:** current battle-system owner plus later explicit approved corrections.  
 **Authority rule:** this file owns the meaning and resolution of **application reliability**. Individual Abilities, Cards, Traits, equipment, enemies, and encounters own which actions receive a reliability bonus and which effects they attempt to apply.
 
 ## Definition
