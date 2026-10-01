@@ -1,37 +1,35 @@
 # Diyse — Final Release Gates
-**Migration baseline:** `Diyse_CURRENT_WORKING_TRACKER_CONSOLIDATED_2026-08-27_v85.md`  
-**Current written whole-project authority:** **v2.20 / Audit135**, plus newer explicit user corrections preserved by the reorganization.  
-**Primary balance chain:** Audits 121–135 where compatible, especially 123–128 progression and 129–135 raw-stat certification.  
-**Runtime test checkpoint inspected:** `Diyse-Game` commit `3fd07e92eda04f31ba613a654b3b1b28071f44e6`.  
-**Balance ownership rule:** this domain owns cross-system balance acceptance criteria, verification plans, playtest targets, certification status and regression gates. Exact formulas/stats/rewards remain canonically housed in their dedicated system domains.
 
+**Status:** ACTIVE RELEASE-READINESS CHECKLIST  
+**Balance/QA authority:** `README.md`
 
 Before treating balance/testing as production-complete:
 
-1. enemy/boss mandatory-vs-completionist validation completed;
-2. CEXP recalibrated and verified against the Lv55–60 full-class completion target;
-3. all stale Prime proof tests replaced with current Prime architecture;
+1. current enemy/boss mandatory-vs-completionist validation completed;
+2. EXP/CEXP rebuilt and class-completion timing verified against the **Lv55–60** target;
+3. stale Prime proof tests replaced with current Prime architecture;
 4. production save schema/version migration complete;
-5. Auren fully implemented;
-6. all current content IDs/counts validated;
+5. player-facing **G** currency implemented and persistence-tested;
+6. all current content IDs/counts validated from their owner domains;
 7. Chapters 0–13 mandatory route end-to-end tested;
-8. five Side Quests tested;
-9. six Character Quests tested;
-10. 11 Regional Hunts tested;
-11. 6 Major Hunts tested;
-12. Lv70 completionist proof reproduced in live progression;
-13. no-grind campaign route reproduced;
-14. fixed authored Hunt tuning verified—no accidental scaling;
-15. all boss same-bar/fresh-form transitions verified;
-16. status matrix verified;
-17. equipment/Relic/Legacy rules verified;
-18. Card/Prime rules verified;
-19. Kessara copy service exploit-tested;
-20. Android performance/input/readability pass;
-21. save/load corruption/duplication pass;
-22. current terminology scan pass;
-23. final PONR/return-state pass;
-24. final Entity two-form/no-third-form pass;
-25. final ending all-six-survive state pass.
+8. all **5** ordinary Side Quests tested;
+9. all **6** Character Quests tested;
+10. all **8 active Regional Hunts** tested;
+11. all **6 Major Hunts** tested;
+12. Level 70 reachability/cap behavior reproduced under final progression;
+13. no-grind/campaign-only route validated against final progression;
+14. fixed Hunt tuning verified—no accidental dynamic scaling;
+15. all boss same-bar/fresh-form transitions verified against current owners;
+16. fresh-form/state transitions confirmed **not** to restore spent Primes unless an explicit restoration effect says so;
+17. status matrix verified;
+18. equipment/Relic/Legacy rules verified;
+19. Standard Card/Prime rules verified;
+20. Kessara copy-service exploit tests passed;
+21. Android performance/input/readability pass completed;
+22. save/load corruption/duplication pass completed;
+23. current-terminology scan passed;
+24. final PONR/return-state behavior passed;
+25. final Entity two-form/no-third-form rule passed;
+26. final ending all-six-survive state passed.
 
 Audio-specific final gates apply once final audio scope is actually designed.
