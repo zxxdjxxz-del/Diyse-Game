@@ -1,6 +1,7 @@
 # Diyse — Temporary Stat Changes
-**Migration baseline:** `Diyse_CURRENT_WORKING_TRACKER_CONSOLIDATED_2026-08-27_v85.md`  
-**Current authority basis:** compatible Audit115/Audit116 stat-change language plus newer explicit status and turn-entry corrections.  
+
+**Status:** ACTIVE BATTLE-SYSTEM AUTHORITY  
+**Authority:** current battle-system owner plus later explicit approved corrections.  
 **Authority rule:** this file owns the global temporary Attack / Magic / Defense / Spirit / Speed Up/Down framework. Individual Abilities, Cards, equipment, enemies, and encounters own which changes they apply; this file supplies the default magnitude, duration, stacking, and cap rules unless an owning effect explicitly overrides them.
 
 ## Scope

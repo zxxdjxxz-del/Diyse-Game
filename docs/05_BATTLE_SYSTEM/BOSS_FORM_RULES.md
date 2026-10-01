@@ -1,7 +1,7 @@
 # Diyse — Boss Forms, Fresh Bodies, and Prime Availability
-**Migration baseline:** `Diyse_CURRENT_WORKING_TRACKER_CONSOLIDATED_2026-08-27_v85.md`  
-**Current domain authority checked:** repository `docs/COMBAT_RULES.md`, current through **v2.20 / Audit135**, plus compatible Audit115, Audit120, Audit122, Audit135 and newer explicit user corrections.  
-**Migration rule:** current explicit user corrections and current organized domain canon outrank stale/open wording inherited by v85.
+
+**Status:** ACTIVE BATTLE-SYSTEM AUTHORITY  
+**Authority:** current battle-system owner plus later explicit approved corrections.  
 
 
 ## Core distinction
