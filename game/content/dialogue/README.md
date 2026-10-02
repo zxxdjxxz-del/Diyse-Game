@@ -6,23 +6,20 @@ The live Chapters 0-3 dialogue mirror is generated from approved standalone atom
 `docs/03_DIALOGUE/PRODUCTION/`. Use `current/manifest.json` and the generated per-chapter
 Resources for runtime dialogue.
 
-## Legacy runtime retirement
+## Retired runtime history
 
-The former direct `chapter_01/`, `chapter_02/`, and `chapter_03/` S/H/C resource folders
-were superseded by the generated current mirror and have been removed from the live content tree.
-Git history preserves them.
+The former direct `chapter_01/`, `chapter_02/`, and `chapter_03/` S/H/C resource folders,
+plus the obsolete pre-restructure Chapter 4 proof resources, have been removed from the live
+content tree. Git history is the provenance source for those retired implementations.
 
-Chapter 4 does not yet have approved exact runtime dialogue. Its obsolete pre-restructure S/H/C
-implementation resources are retained only under `proof/legacy_chapter_04/` as non-authoritative
-historical/proof material.
-
-Do not use proof resources as dialogue wording authority.
+Chapter 4 does not yet have approved exact runtime dialogue. Do not regenerate or load a
+Chapter 4 runtime mirror until current Chapter 4 dialogue has been authored, Canon Checker-passed,
+and explicitly approved.
 
 ## Source of truth
 
 Exact spoken wording remains owned by approved atomics in
 `docs/03_DIALOGUE/PRODUCTION/CHAPTER_##/`, subject to the chapter dialogue authority index.
-
 
 ## Automated layout guard
 
@@ -30,7 +27,6 @@ Exact spoken wording remains owned by approved atomics in
 
 Allowed direct entries under `game/content/dialogue/` are only:
 - `README.md`;
-- `current/`;
-- `proof/`.
+- `current/`.
 
-Direct `chapter_##/` runtime folders are retired and are a validation failure.
+Direct `chapter_##/`, `proof/`, or other historical runtime folders are a validation failure.
