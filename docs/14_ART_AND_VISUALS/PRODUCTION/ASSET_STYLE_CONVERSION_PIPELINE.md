@@ -80,7 +80,13 @@ Ensure stone planes/fractures, wood grain scale, metal highlight geometry, cloth
 Test in a representative scene for character/environment contrast, depth hierarchy, local lighting, shadow behavior, bloom, parallax/occlusion, route readability, and interaction visibility.
 
 ### Stage 7 — Runtime-scale review
-Review at actual output sizes. Character targets remain approximately **200–220 px battle** and **~80 px field**. Remove detail that aliases, shimmers, or collapses into noise.
+Review at the real target display resolution and the actual camera/presentation context for the asset.
+
+For permanent-party field/battle characters, follow the rigged-model B00 gate in `BENCHMARKS/B00_RIGGED_MODEL_RUNTIME_VALIDATION_V1.md` and `CHARACTER_SCALE_AND_SILHOUETTE.md`; the former fixed ~80 px field / ~200–220 px battle sprite targets are retired.
+
+For optional 2D derivatives, validate at the owning feature's actual output size rather than inheriting the retired character-sprite targets.
+
+Remove detail that aliases, shimmers, or collapses into noise.
 
 ### Stage 8 — Acceptance
 Promote only after provenance, style, seams/alpha/animation, runtime readability, and versioning all pass.

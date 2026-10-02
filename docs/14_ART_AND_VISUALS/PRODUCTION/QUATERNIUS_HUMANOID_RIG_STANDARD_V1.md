@@ -1,6 +1,6 @@
 # Diyse — Quaternius-Compatible Humanoid Rig Standard v1
 
-**Status:** **ACTIVE PROTOTYPE RIG STANDARD — V5 RIG SOURCE VERIFIED**  
+**Status:** **ACTIVE PROTOTYPE RIG STANDARD — GODOT UAL FOUNDATION PROVEN**  
 **B00 runtime gate:** `BENCHMARKS/B00_RIGGED_MODEL_RUNTIME_VALIDATION_V1.md`
 
 ## 1. Decision
@@ -53,15 +53,18 @@ The user re-uploaded both v5 archives in the active project conversation and the
 
 The included female-mannequin README explicitly states that the female mannequin shares the same rig and very similar proportions, and the animations can be retargeted from the library files.
 
-## 3. Prototype rig choice
+## 3. Current prototype rig path
 
-For the first Godot technical pilot:
-- use `UAL1_Standard.glb` as the default **non-root-motion mannequin + Armature + animation** source;
-- retain `UAL1_Standard_RM.glb` as the root-motion comparison source;
-- use `Mannequin_F.glb` to verify that the same skeleton contract supports a female body proportion without requiring a second incompatible rig;
-- use UAL2 clips to extend the available motion set once import/retarget behavior is proven.
+The active Godot preview path now:
+- uses the **non-root-motion** UAL standard assets as the current deformation/animation proof source;
+- merges UAL1 + UAL2 into the live preview animation library;
+- uses the compatible female/shared-skeleton path as the permanent-party technical foundation;
+- preserves the first **65 UAL bones unchanged** in the Ilyra production-mesh proof;
+- appends **35 auxiliary spring bones** for current hair/cape secondary-motion testing.
 
-This choice is technical and may be revised if Godot import testing reveals a better member file while preserving the same compatible skeleton contract.
+The root-motion variants remain available for an explicit production comparison/policy decision; the current Ilyra v0.7 proof does not itself close that decision.
+
+This rig choice is technical infrastructure and may evolve while preserving a compatible shared humanoid contract.
 
 ## 4. Skeleton compatibility requirements
 
@@ -127,25 +130,34 @@ The prototype rig/mannequin may come from the Quaternius ecosystem, but final vi
 
 The shared `Armature` is infrastructure, not character art authority.
 
-## 8. Godot import validation
+## 8. Godot validation state
 
-Before character-specific modeling is scaled across the party, validate the v5 rig through:
-1. import `UAL1_Standard.glb` into Godot;
-2. inspect skeleton hierarchy/rest pose;
-3. confirm the embedded 43 animations import correctly;
-4. compare non-root-motion vs `_RM` behavior;
-5. test idle/walk/run playback;
-6. decide the project root-motion policy;
-7. create stable weapon/prop attachment points;
-8. test a two-handed grip;
-9. inspect skin deformation at shoulders/hips/knees;
-10. import/retarget `Mannequin_F.glb` against the same animation set;
-11. test one coat/cape secondary-motion setup;
-12. run one field camera test;
-13. run one battle camera test;
-14. apply one B00 cel/outline material pilot;
-15. test representative environment/VFX overlap.
+Completed in the staged repository preview:
+1. import the non-root-motion UAL assets into Godot;
+2. verify the shared humanoid skeleton path;
+3. merge UAL1 + UAL2 into the preview animation library;
+4. exercise the compatible female/shared-rig path;
+5. retain the original 65-bone UAL core at the front of the Ilyra production skin;
+6. prove multi-bone torso/cloth/hair/cape deformation;
+7. append and simulate 35 auxiliary spring bones for hair/cape secondary motion;
+8. run the current Ilyra v0.7 replacement shell through the UAL stress loop;
+9. reduce the major v0.6 wrist/ankle seam failures with flexible underlayers in v0.7.
+
+Still open before production propagation:
+- explicit root-motion comparison and project policy;
+- exact current-master character likeness, including replacement of visually superseded proof geometry;
+- final attachment/grip verification across all needed equipment families;
+- final shoulder/elbow/hip and hard-gear intersection cleanup;
+- final spring tuning;
+- production UVs/materials;
+- B00 cel/outline treatment;
+- actual field-camera and battle-camera validation;
+- representative environment/VFX overlap;
+- six-character shared-rig propagation and cohesion review.
+
+Current detailed proof status:
+> `game/characters/presentation/rig_preview/README.md`
 
 ## 9. Gate
 
-`V5 QUATERNIUS RIG SOURCE VERIFIED → GODOT IMPORT/ROOT-MOTION/RETARGET TEST → B00 CHARACTER MODEL PILOT`
+`UAL SOURCE VERIFIED → GODOT UAL FOUNDATION PROVEN → ILYRA v0.7 DEFORMATION TEST ACTIVE → ROOT-MOTION POLICY / CURRENT-MASTER VISUAL CORRECTION → B00 PRODUCTION MODEL PILOT`

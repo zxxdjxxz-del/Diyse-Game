@@ -1,6 +1,6 @@
 # Diyse — B00 Rigged Character Runtime Validation v1
 
-**Status:** **ACTIVE B00 RUNTIME GATE — CURRENT CHARACTER MASTERS LOCKED / V5 RIG SOURCE VERIFIED / GODOT PILOT NEXT**  
+**Status:** **ACTIVE B00 RUNTIME GATE — CURRENT CHARACTER MASTERS LOCKED / UAL GODOT FOUNDATION PROVEN / ILYRA v0.7 DEFORMATION TEST ACTIVE**  
 **Parent benchmark:** `B00_PARTY_CHARACTER_STYLE_ANCHOR_V1.md`  
 **Style authority:** `../../DIYSE_VISUAL_STYLE_CANON.md`  
 **Character identity authority:** `../CHARACTERS/README.md`  
@@ -39,6 +39,8 @@ A runtime model is not approved merely because it is rigged and functional. It m
 The official prototype foundation is the **Quaternius Universal Animation Library humanoid `Armature`**, defined in `../QUATERNIUS_HUMANOID_RIG_STANDARD_V1.md`.
 
 The verified pilot payload represented by Asset Library Master v5 includes the standard and root-motion UAL1/UAL2 rigged mannequin GLBs plus a compatible female mannequin on the same Armature contract. This source is for **technical rig/animation validation**, not character identity.
+
+Repository implementation has progressed beyond source-only verification. The staged preview under `game/characters/presentation/rig_preview/` proves UAL1 + UAL2 animation-library merging in Godot, the shared 65-bone UAL core, multi-bone deformation, 35 appended auxiliary spring bones, and the current Ilyra v0.7 replacement-shell deformation path. Those proofs validate architecture only; they do not override the current exact character masters.
 
 Never allow mannequin proportions, face, costume, or generic body construction to replace the proportions and identity of a Diyse repository master.
 
@@ -170,47 +172,50 @@ Retargeted motion is not automatically final. Check each clip for Diyse characte
 Test royal-blue/black cloth vs layered silver armor separation, long split outer-garment motion, and mobile battle-knight readability.
 
 ### Ilyra
-Test pale-value readability, long blonde hair/cape motion, natural slightly athletic proportions, and Wardrod/Shield/Focus attachment logic without sword drift.
+Test pale-value readability, the current neatly tied-back shorter blonde-hair silhouette, pale-blue cape motion, natural slightly athletic proportions, and Wardrod/Shield/Focus attachment logic without sword drift. The v0.7 proof mesh's older long-hair volumes are deformation infrastructure, not current visual authority.
 
 ### Torren
 Test back-mounted bow, exact right-hip arrow draw/quiver layout, mixed-foliage ghillie silhouette, field gear, and foliage secondary motion without alpha-card noise.
 
 ### Nimera
-Test dense braided/updo hair, purple constellation waist garment, green Cardweaver book/card attachments, and utility hardware without clipping or noisy motion.
+Test short purple locs/twists, white sleeveless clothing/trousers, black harness/belt/glove/boot utility masses, the darker purple waist drape, and the hip book/Cardweaver prop without clipping or noisy motion. Do not restore the retired braided/updo or constellation-drape silhouette.
 
 ### Vaelira
 Test shoulder-length crimson/burgundy hair, emerald/black/silver garment separation, the staff-free default silhouette from the exact current master, and vivid caster readability. Separately test Arcane Staff attachment/handling when the gameplay loadout displays an equipped staff. **No archer/ranger cues or bow animations.**
 
 ### Seyrik
-Test broad muscular proportions, black/crimson Black Host skeletal/rib-like armor articulation, long outer-garment mass, and oversized two-handed greatsword handling.
+Test broad muscular proportions, black/deep-charcoal entity-inspired gothic plate, deep-red coat/collar accents, the locked reduced-shine material treatment, and oversized two-handed greatsword handling. Do not restore older glossy rib-shell armor or a bright chest-light treatment.
 
 ## 11. B00 model-validation sequence
 
 Completed:
 1. lock the six current repository masters as character identity authority;
 2. align the six visual-lock documents and character authority index;
-3. verify the Quaternius-compatible rigged humanoid pilot source used by the V5 technical prototype.
+3. verify the Quaternius-compatible UAL humanoid source;
+4. import the non-root-motion UAL path into Godot and merge UAL1 + UAL2 animation libraries;
+5. prove the compatible female/shared-skeleton path;
+6. prove the unchanged 65-bone UAL core plus 35 appended auxiliary spring bones;
+7. prove staged multi-bone deformation and the Ilyra v0.7 seam-repaired replacement-shell path.
 
 Next:
-4. import the standard pilot GLB into Godot and validate skeleton/animation behavior;
-5. compare root-motion behavior;
-6. validate compatible female retargeting on the same rig contract;
-7. create one B00-faithful character model/material pilot;
-8. validate its neutral presentation directly against the current repository master;
-9. validate the same model at field camera distance;
-10. validate the same model at battle camera distance;
-11. test representative exploration/battle animation;
-12. test representative B01 stone, B03 foliage, B10 props, and B06 VFX overlap;
-13. correct shader/outline/LOD/rig issues;
-14. propagate only the proven model/material/rig grammar across all six;
-15. compare all six together for silhouette, palette, scale, and animation separation;
-16. close B00 only when the runtime models visibly belong to the same game as the current masters.
+8. bring the Ilyra proof shell toward the **current exact master** rather than its older proof appearance: exact face likeness, neatly tied-back shorter hair, final gear shapes, UVs and materials;
+9. resolve remaining hard-gear/tabard intersections, weighting issues and final spring tuning;
+10. complete the explicit root-motion comparison/policy decision where production movement needs it;
+11. validate a B00-faithful production model/material treatment at the actual field camera;
+12. validate the same model at the actual battle camera;
+13. test representative exploration/battle animation plus B01 stone, B03 foliage, B10 props and B06 VFX overlap;
+14. correct shader/outline/LOD/rig issues;
+15. propagate only the proven model/material/rig grammar across all six;
+16. compare all six together for silhouette, palette, canonical height, scale and animation separation;
+17. close B00 only when the runtime models visibly reproduce their current masters and belong to the same game.
 
-## 12. First technical and visual pilots
+## 12. Technical and visual pilots
 
-Use the verified V5 standard non-root-motion mannequin GLB as the default **technical rig** pilot and its root-motion counterpart for comparison. Use the compatible female mannequin for shared-rig proportion/retarget testing.
+The shared UAL technical-rig foundation is already proven in Godot, and Ilyra v0.7 is the current deformation-focused replacement-shell pilot.
 
-Once the rig itself passes, **Cyanis** remains the preferred first B00 character-style model target because his blue/black cloth plus silver armor provides a clean material/outline baseline. His actual model must be built from `asset_sources/characters/current/cyanis.jpg`, not from the mannequin or an older Cyanis render.
+For full B00 **style/material fidelity**, **Cyanis** remains the preferred first character target because his blue/black cloth plus silver armor provides a clean material/outline baseline. His actual model must be built from `asset_sources/characters/current/cyanis.jpg`, not from the mannequin or an older Cyanis render.
+
+Ilyra's current v0.7 proof should continue as the deformation/secondary-motion track while its visible model is corrected toward the exact current Ilyra master.
 
 ## 13. Asset Forge / Godot boundary
 
@@ -222,4 +227,4 @@ Do not mistake a successful offline render for final runtime approval.
 
 Current B00 gate:
 
-`6/6 CURRENT REPOSITORY MASTERS LOCKED → CHARACTER AUTHORITY ALIGNED → V5 RIG SOURCE VERIFIED → GODOT IMPORT/ROOT-MOTION/RETARGET TEST → B00 MODEL/SHADER PILOT → FIELD + BATTLE CAMERA VALIDATION → B01/B03/B10/B06 CROSS-CHECK → SIX-CHARACTER RUNTIME COHESION → B00 PASS`
+`6/6 CURRENT REPOSITORY MASTERS LOCKED → UAL GODOT FOUNDATION PROVEN → ILYRA v0.7 DEFORMATION TEST ACTIVE → CURRENT-MASTER VISUAL CORRECTION → ROOT-MOTION POLICY + FINAL DEFORMATION TUNING → B00 MODEL/SHADER PILOT → FIELD + BATTLE CAMERA VALIDATION → B01/B03/B10/B06 CROSS-CHECK → SIX-CHARACTER RUNTIME COHESION → B00 PASS`

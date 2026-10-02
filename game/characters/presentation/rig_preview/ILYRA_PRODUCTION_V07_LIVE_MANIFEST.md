@@ -45,7 +45,7 @@ After the repair, measured connector-to-hard-gear gaps across Walk/Crouch/Roll a
 
 - first 65 skin joints are still the unchanged UAL core
 - 35 auxiliary hair/cape spring bones remain appended after the core
-- actual replacement long-hair meshes remain spring-weighted
+- the v0.7 proof long-hair meshes remain spring-weighted for architecture testing; this does not lock their visual design
 - actual replacement cape remains spring-weighted
 - UAL animation-library merge path is unchanged
 - SpringBoneSimulator3D starter settings are unchanged
@@ -53,7 +53,8 @@ After the repair, measured connector-to-hard-gear gaps across Walk/Crouch/Roll a
 
 ## Known remaining issues
 
-- face is still a generated approximation, not exact B00 likeness
+- face is still a generated approximation, not exact current-master likeness
+- the proof long-hair geometry does not match Ilyra's current neatly tied-back shorter hair and must be replaced during visual-fidelity work
 - boots/gloves/bracers/greaves remain primitive production-base shapes
 - extreme roll/crouch poses still produce hard-gear and tabard intersections
 - spring inertia has not been visually executed in this environment
@@ -61,8 +62,8 @@ After the repair, measured connector-to-hard-gear gaps across Walk/Crouch/Roll a
 
 ## Direction from here
 
-v0.7 is now the active replacement-mesh deformation test. Continue correcting concrete visual/deformation failures on this mesh; do not add another abstract rig stage unless a specific failure proves the current architecture insufficient.
+v0.7 is now the active replacement-mesh deformation test. Continue correcting concrete visual/deformation failures on this mesh, with the current exact Ilyra master controlling all appearance changes; do not add another abstract rig stage unless a specific failure proves the current architecture insufficient.
 
 ## Authority boundary
 
-The approved cleaned Ilyra B00 remains exact visual authority and overrides this generated candidate wherever they differ.
+Exact Ilyra appearance is owned by `asset_sources/characters/current/ilyra.jpg` and `docs/14_ART_AND_VISUALS/PRODUCTION/CHARACTERS/ILYRA_CURRENT_VISUAL_LOCK.md`; those current sources override this generated candidate wherever they differ.
