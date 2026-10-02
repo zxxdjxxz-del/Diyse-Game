@@ -6,10 +6,10 @@
 **Implementation rule:** current domain canon beats older proof code/docs. Proof implementations are evidence of architecture, not permission to restore stale mechanics, names, currencies, progression, or UI concepts.
 
 
-# CURRENT WORKING OVERRIDE
+# Current Mastery requirement
 > **Mastery Points do not exist.**
 
-This file intentionally supersedes the stale repository UI implication from Audit123-era documents.
+Automatic Mastery rules are owned by `../06_CLASSES_AND_ABILITIES/MASTERY.md`; older point-based UI/proof behavior does not override them.
 
 ## Class display
 For each permanent character, UI must be able to show:
@@ -26,8 +26,10 @@ For each permanent character, UI must be able to show:
 Base/Subclass cap:
 > **CL13**
 
-Cumulative CL13 CEXP:
+Provisional pre-rebuild cumulative CL13 CEXP reference:
 > **6,000**
+
+This retained value is not a final progression lock. Production UI must obtain current thresholds from the progression/class data owners; exact CEXP recalibration remains open in `../10_PROGRESSION_AND_EXP/`. Structural CL caps and automatic Mastery unlocks remain governed by the class owner.
 
 Base and Subclass CEXP are separate.
 
