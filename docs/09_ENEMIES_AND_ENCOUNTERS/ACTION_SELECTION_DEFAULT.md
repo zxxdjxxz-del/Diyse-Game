@@ -12,7 +12,7 @@ The AI evaluates the legitimate battle state that exists at that turn. It does n
 Explicit forced actions, Preparation follow-ups, threshold scripts, or other authored delayed-action rules may constrain what is legal on that turn without restoring the retired universal enemy-action queue.
 
 ## Default
-If an enemy, Elite, boss, Hunt, support actor, or authored encounter has **no explicit current selection weights** for its eligible selected actions:
+If an enemy, boss, Hunt, support actor, or authored encounter has **no explicit current selection weights** for its eligible selected actions:
 
 1. Resolve forced actions, phase rules, preparations/resolutions, scripted threshold behavior, cooldowns/repetition locks, and action-specific eligibility first.
 2. Build the set of selected actions that are currently legal.
@@ -29,7 +29,7 @@ If an owning current action says a Preparation locks a named follow-up as the ac
 Interrupt eligibility is never inferred solely from Preparation. A pending action must be explicitly marked **Interruptible** by its owning current rule before an interrupt mechanic may affect it.
 
 ## Override rule
-Any explicit per-action, per-phase, per-state, or conditional weights in an owning current file override this fallback. A later recovered exact approved weight table may replace this fallback for that identity without reopening its Power audit.
+Any explicit per-action, per-phase, per-state, or conditional weights in an owning current file override this fallback. A later recovered exact approved weight table may replace this fallback for that identity without reopening its current Power values.
 
 ## Boundaries
 - This does not add actions.
