@@ -79,7 +79,7 @@ Furnace Servitor direct-damage coefficients:
 `../ORDINARY_ENEMIES/FURNACE_SERVITOR.md`
 
 Furnace Tyrant is now Power-complete.
-Chapter-5 ordinary identities are now **POWER COMPLETE** under the v63 broad enemy pass.
+Chapter-5 ordinary identities are **POWER COMPLETE**.
 
 
 ## Current Deepforge Colossus handoff
@@ -91,26 +91,11 @@ Assembly authority:
 
 All Colossus direct-damage actions and all three support functions are now Power-complete.
 
-## v81 mandatory-vs-completionist difficulty validation
-Status:
-> **PASS / VALIDATED WITH EXPLICIT PLACEMENT DEPENDENCIES**
+## Current validation status
+Historical mandatory-vs-completionist snapshots are **not current certification**. Re-run Chapter-5 difficulty validation only after the current enemy-tuning and progression inputs are stable enough for the active framework.
 
-Route anchors:
-- mandatory: **Lv17 start → Lv18 Furnace Tyrant → Lv20 Deepforge Colossus → Lv22 end**;
-- completionist: approximately **Lv19 entry → Lv20 Furnace Tyrant → Lv22 Deepforge Colossus**;
-- five permanent characters available, four active;
-- Maevra is not part of the default Chapter-5 balance baseline;
-- Seyrik is not playable in Chapter 5.
+Current ownership remains:
+- exact ordinary formation composition/weights — `../ENCOUNTER_FORMATIONS/CHAPTER_05_FORMATIONS.md`;
+- Highland Resistance Fighter exact story placement/formation — `../AUTHORED_ENCOUNTERS/STORY_INTEGRATION_BOUNDARIES.md`.
 
-Retained without numerical change:
-- all eight ordinary bodies;
-- Ruin Forgemaster;
-- Furnace Tyrant;
-- Deepforge Colossus;
-- Whitehorn Ravager at recommended **Lv26**.
-
-v90 closure:
-- exact ordinary formation compositions/weights are restored in `../ENCOUNTER_FORMATIONS/CHAPTER_05_FORMATIONS.md`;
-- Highland Resistance Fighter exact story placement/formation remains story-owned and is indexed in `../AUTHORED_ENCOUNTERS/STORY_INTEGRATION_BOUNDARIES.md`.
-
-Enemy static design is complete; the remaining placement item is a later story-integration dependency, not missing combat data.
+No current mandatory-vs-completionist certification is asserted by this chapter file.
