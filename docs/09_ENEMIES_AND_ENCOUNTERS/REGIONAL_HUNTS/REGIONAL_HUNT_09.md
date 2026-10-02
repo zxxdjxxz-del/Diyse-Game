@@ -1,11 +1,10 @@
 # Diyse — Regional Hunt #9: Mercyfallen Behemoth
-**Migration baseline:** `Diyse_CURRENT_WORKING_TRACKER_CONSOLIDATED_2026-08-27_v85.md`  
-**Authority treatment:** this repository file is current Regional-Hunt-domain authority; Audit/v85 references remain historical provenance only.
+
+**Status:** ACTIVE REGIONAL-HUNT ENCOUNTER BODY — REVALIDATION PENDING  
+**Authority:** current enemy/encounter owner plus later explicit approved corrections.  
 **Scaling:** fixed authored tuning; no dynamic player-level scaling.
 
 
-**Recommended Lv:** 50  
-**Status:** **POWER COMPLETE**
 
 | Lv | HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR |
 |---:|---:|---:|---:|---:|---:|---:|---:|---:|
@@ -58,13 +57,3 @@ No Mercy/Triage resource.
 ## Architecture
 One HP bar.
 
-
-## v85 mandatory-vs-completionist validation
-**Status:** **PASS / FORMALLY VALIDATED v85**
-
-Reference positions:
-- immediate Chapter-9 mandatory optional-return state: approximately **Lv38**;
-- completionist at the same broad point: approximately **Lv46**;
-- intended recommendation: **Lv50**.
-
-The exact Chapter-9 S### return trigger remains story-owned. The Hunt is intentionally above route difficulty at immediate access and is not dynamically reduced. Current raw stats, two finite 650-HP heals, one-bar architecture, recommendation, and all Powers are retained.
