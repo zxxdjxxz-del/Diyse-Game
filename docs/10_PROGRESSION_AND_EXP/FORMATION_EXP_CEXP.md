@@ -37,7 +37,5 @@ Rules:
 - CEXP does not use Player-EXP diminishing returns.
 
 
-## v91 late-game CEXP recalibration
-Chapter 12/13 ordinary CEXP bands are deliberately reduced to match the new chapter pools while leaving Player EXP formation anchors unchanged. Weighted planning centers remain approximately:
-- Ch12: **~450 ordinary CEXP across 18 expected encounters**;
-- Ch13: **~370 ordinary CEXP across 8 expected encounters**.
+## Late-game CEXP planning baseline
+Chapter 12/13 ordinary CEXP bands are deliberately reduced to match the new chapter pools while leaving Player EXP formation anchors unchanged. The Chapter 12/13 ordinary-CEXP pool values remain provisional planning inputs and must be rebuilt against current formation pacing; no fixed encounter count is implied.
