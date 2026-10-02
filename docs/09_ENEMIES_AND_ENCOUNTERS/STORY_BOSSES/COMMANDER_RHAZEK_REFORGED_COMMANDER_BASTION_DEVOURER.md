@@ -131,7 +131,7 @@ The large optional advantage is preserved instead of dynamically scaling Rhazek 
 |---:|---:|---:|---:|---:|---:|---:|---:|---:|
 | 43 | **8,431** | **163** | **100** | **111** | **96** | **44** | 5 | 10 |
 
-The inherited Audit132 line is retained unchanged.
+The current raw line is retained unchanged.
 
 ## Action kit
 
@@ -202,7 +202,7 @@ This is not possession.
 |---:|---:|---:|---:|---:|---:|---:|---:|---:|
 | 44 | **10,462** | **175** | **131** | **107** | **104** | **46** | 0 | 10 |
 
-The inherited Audit132 line is retained unchanged.
+The current raw line is retained unchanged.
 
 ## Core action kit
 
