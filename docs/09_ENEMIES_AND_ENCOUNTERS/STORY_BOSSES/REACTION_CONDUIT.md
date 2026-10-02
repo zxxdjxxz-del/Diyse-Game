@@ -1,4 +1,4 @@
-# Reaction Conduit — Current Working Recertification
+# Reaction Conduit — Current Encounter Authority
 
 **Chapter:** 4  
 **Scene:** S023 — Reaction Annex / Exposure Gallery  
@@ -175,7 +175,9 @@ If used against Reaction Conduit:
 
 No mandatory Prime use is required.
 
-## Duration certification
+## Historical pacing target — not current certification
+
+These round-count estimates are retained only as historical pacing intent. They must be revalidated under the current progression/enemy inputs before being used for balance decisions.
 
 Target:
 - mandatory Lv13 normal — **~8–9 rounds**
