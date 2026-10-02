@@ -110,7 +110,7 @@ The boss is not dynamically scaled upward to erase Character Quest / Hunt progre
 |---:|---:|---:|---:|---:|---:|---:|---:|---:|
 | 38 | **7,326** | **140** | **93** | **93** | **85** | **44** | 5 | 10 |
 
-The inherited Audit131 Form-I line is retained unchanged.
+The current Form-I raw line is retained unchanged.
 
 ## Action kit
 
@@ -185,7 +185,7 @@ The transformation is deliberate, not possession.
 |---:|---:|---:|---:|---:|---:|---:|---:|---:|
 | 39 | **8,485** | **151** | **107** | **97** | **91** | **45** | 5 | 10 |
 
-The inherited Audit131 Form-II line is retained unchanged.
+The current Form-II raw line is retained unchanged.
 
 ## Action kit
 
