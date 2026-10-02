@@ -1,6 +1,6 @@
 # Diyse — Asset Forge Pilot Validation v1
 
-**Status:** PASS — real-sample routing/preflight validation  
+**Status:** HISTORICAL TECHNICAL EVIDENCE — v0.4 real-sample routing/preflight PASS  
 **Forge checkpoint:** v0.4  
 **Date:** 2026-08-31
 
@@ -77,7 +77,7 @@ Estimated image-generation calls at default atlas settings:
 
 ## What this proves
 
-The current pipeline successfully distinguishes a large composite atlas from isolated foliage assets using real source files and produces an actionable cost preflight before generation.
+The tested v0.4 pipeline successfully distinguished a large composite atlas from isolated foliage assets using real source files and produces an actionable cost preflight before generation.
 
 It also confirms why hard call caps matter: a single 2048² atlas can cost more generation calls than several isolated assets, so whole-library processing must be family-aware and budget-aware.
 
@@ -90,9 +90,11 @@ This pilot does not yet certify:
 - lighting-state propagation on a real `base + ra–rf` family;
 - full-library runtime or total expected cost.
 
-Those require the next bounded production pilots.
+These limits describe what this dated pilot tested; subsequent evidence and current production gates are owned by `ASSET_FORGE_AUTOMATION.md` and `BENCHMARKS/README.md`.
 
-## Next pilot order
+## Historical proposed pilot order
+
+The following order was proposed on 2026-08-31 and is retained only as provenance. It does not define current work order; use `../../90_WORKING/ACTIVE_WORK_QUEUE.md` and `OPEN_VISUAL_PRODUCTION_ITEMS.md`.
 
 1. **B10 CC0 prop cluster** — clean-provenance direct-edit pilot.
 2. **B04 animated grass** — real anchor + deterministic follower propagation.
@@ -104,4 +106,4 @@ Those require the next bounded production pilots.
 
 **Asset Forge v0.4 passes its first real-source routing and budget-preflight validation.**
 
-The program remains in bounded-pilot mode. Do not submit the full 3,214-file library to generation until the real provider-output pilots above pass their technical and visual gates.
+This PASS covers the three-source routing and budget preflight only. It grants no visual approval, whole-library cost certification, or bulk-conversion permission. Current conversion gates belong to the active production and benchmark owners.
