@@ -1,6 +1,8 @@
 # Diyse — Dialogue UI
-**Historical migration provenance:** v85-era consolidated tracker.
-**Authority treatment:** this repository file is current UI/implementation-domain authority; Audit/v85 references remain provenance only. Cross-domain gameplay rules defer to their current owning repository domains.
+
+**Status:** ACTIVE UI / IMPLEMENTATION SPEC
+**Authority:** current repository UI/implementation domain; cross-domain gameplay/content rules defer to their current numbered owner domains.
+
 **Implementation rule:** current domain canon and newer explicit presentation locks beat older proof code/docs.
 
 ## Controlling presentation lock

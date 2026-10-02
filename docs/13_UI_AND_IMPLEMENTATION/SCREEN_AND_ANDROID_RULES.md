@@ -1,7 +1,8 @@
 # Diyse — Screen, Layout & Android Rules
-**Historical migration provenance:** v85-era consolidated tracker.
-**Authority treatment:** this repository file is current UI/implementation-domain authority; Audit/v85 references remain provenance only. Cross-domain gameplay rules defer to their current owning repository domains.
-**Runtime source checkpoint inspected:** `Diyse-Game` commit `3fd07e92eda04f31ba613a654b3b1b28071f44e6`.  
+
+**Status:** ACTIVE UI / IMPLEMENTATION SPEC
+**Authority:** current repository UI/implementation domain; cross-domain gameplay/content rules defer to their current numbered owner domains.
+
 **Implementation rule:** current domain canon beats older proof code/docs. Proof implementations are evidence of architecture, not permission to restore stale mechanics, names, currencies, progression, or UI concepts.
 
 
@@ -14,12 +15,14 @@ Wider Android screens:
 - do not stretch critical gameplay/UI composition.
 
 ## HD-2D presentation anchors
-- field characters ~80 px target;
-- battle characters ~200–220 px target;
+- permanent-party field and battle characters use the current rigged-3D runtime pipeline;
+- character readability is validated at the actual target display resolution and actual field/battle cameras rather than fixed sprite-height targets;
 - large high-resolution dialogue portraits;
 - party battle framing left;
 - enemies right;
 - open center lane protected for actions/VFX.
+
+The former ~80 px field / ~200–220 px battle character targets are retired as production requirements.
 
 ## Dialogue
 General final target:
