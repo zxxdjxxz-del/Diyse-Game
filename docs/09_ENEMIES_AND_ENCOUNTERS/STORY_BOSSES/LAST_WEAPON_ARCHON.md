@@ -115,7 +115,7 @@ The boss remains fixed and is not dynamically scaled upward.
 |---:|---:|---:|---:|---:|---:|---:|---:|---:|
 | 63 | **20,800** | **236** | **220** | **160** | **160** | **56** | 0 | 15 |
 
-The inherited Audit132 offensive/defensive line is retained, with HP raised for the revised mandatory pacing target.
+The current offensive/defensive line is retained, with HP raised for the revised pacing target.
 
 Reason:
 - mandatory Lv58 is five levels below the guardian;
