@@ -1,9 +1,7 @@
 # Diyse — Major Hunt #6: The Unfinished World
-**Migration baseline:** `Diyse_CURRENT_WORKING_TRACKER_CONSOLIDATED_2026-08-27_v85.md`  
-**Historical enemy-production provenance:** Audit90/Audit93 plus later tracker-era roster/action cleanups.
-**Historical raw-stat provenance:** Audit129–Audit135.
-**Authority treatment:** this repository file is current Major-Hunt-domain authority; Audit/v85 references remain historical provenance only.
-**Migration rule:** current repository Hunt names, unlock timing, battle architecture, and Prime-restoration rules supersede conflicting historical text.
+
+**Status:** ACTIVE MAJOR-HUNT ENCOUNTER BODY — REVALIDATION PENDING  
+**Authority:** current enemy/encounter owner plus later explicit approved corrections.  
 
 
 | Ref | Encounter / form | Lv | HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR | Architecture |
@@ -20,8 +18,7 @@ Exactly one 78,000-HP bar: WORLDFRAME → WORLDHEART EXPOSED → FINAL CONSTRUCT
 Fixed authored tuning.
 No dynamic player-level scaling.
 
-## Power-complete action kit — v74
-**Status:** **POWER COMPLETE**
+## Current action kit
 
 This encounter has exactly:
 > **one 78,000-HP bar**
@@ -186,16 +183,3 @@ Standard elements remain:
 
 Ruin remains a special damage school.
 
-
-## v88 mandatory-vs-completionist recertification
-**Status:** **TWO-BASELINE PAPER RECERTIFIED / RUNTIME DURATION GATE REMAINS**
-
-- mandatory-route level immediately after Vaelkor: **Lv56**, chapter clear **Lv57**;
-- because Final Archive Arbiter clear is a prerequisite, a route clearing it only after Vaelkor reaches about **Lv58** from the Arbiter reward and is still intentionally far below preparedness;
-- exhaustive completionist after Chapter-12 clear + RH11 + post-Vaelkor `What We Build After`: approximately **Lv68**;
-- recommendation remains **Lv70**;
-- on a deliberately fragile unequipped Lv68 Green Arcanist reference, Final Construction is roughly **44% Max HP** and prepared Worldfall roughly **37% per target**;
-- no healthy-character one-shot appears on that fragile reference; geared endgame parties are materially safer;
-- the 78,000-HP duration still requires runtime testing with full Ultimates/Cards/Primes/Relics/Legacies before final production certification.
-
-Retain all current raw stats, state thresholds, Powers, and same-bar Prime rules.
