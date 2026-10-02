@@ -6,6 +6,10 @@
 **Execution authority:** `B01_STONE_EXECUTION_V1.md`  
 **Style authority:** `../../DIYSE_VISUAL_STYLE_CANON.md`
 
+## Current evidence boundary
+
+This record preserves the original within-family approval and review wording. Its painterly terminology and proposed next actions are historical evidence, not current rendering or sequencing requirements. Current production requirements are owned by `B01_STONE_EXECUTION_V1.md` and its kit/gameplay specs under `../../DIYSE_VISUAL_STYLE_CANON.md`. The retained approval remains gameplay-test/B00-cross-check pending; it does not certify final `ACCEPTED` status.
+
 ## Authority note
 
 Visual benchmark boards generated during the 2026-08-31 working session established the B01 stone direction. Generated-image labels are not authority by themselves; the approval state recorded in this document controls.
