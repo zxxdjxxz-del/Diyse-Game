@@ -1,9 +1,7 @@
 # Diyse — Nonlethal and Protected Encounter Rules
-**Migration baseline:** `Diyse_CURRENT_WORKING_TRACKER_CONSOLIDATED_2026-08-27_v85.md`  
-**Historical enemy-production provenance:** Audit90/Audit93 plus later tracker-era roster/action cleanups.
-**Historical raw-stat provenance:** Audit129–Audit135.
-**Authority treatment:** this repository file is current enemy-domain authority; Audit/v85 references remain historical provenance only.
-**Migration rule:** current repository names, chapter placement, system firewalls, and Prime-restoration rules supersede conflicting historical enemy text.
+
+**Status:** ACTIVE PROTECTED-ENCOUNTER AUTHORITY  
+**Authority:** current enemy/encounter owner plus later explicit approved corrections.  
 
 
 Diyse does not use a universal:
@@ -258,7 +256,7 @@ Reaction Conduit remains separately owned by its mandatory encounter file.
 ## Chapter-5 Highland Resistance Fighter
 
 Combat identity:
-> **POWER COMPLETE**
+> **CURRENT AUTHORED / PROTECTED ROLE — NUMERIC VALIDATION OPEN**
 
 Resolution:
 > 0 HP = disarmed / yielded / unable to continue
@@ -284,7 +282,7 @@ Roster identities:
 - Blood Husk
 - Perfected Soldier
 
-Each now has an exact Power-complete combat kit.
+Each has a current authored combat kit, but final action/Power and difficulty validation remain open for the later enemy rebuild.
 
 Chapter 6 is not line-complete.
 
@@ -307,7 +305,7 @@ Masked Ruin Vanguard — Seyrik remains separately governed by the existing 20% 
 
 ## Chapter-7 authored/protected roster boundary
 
-Power-complete identities:
+Current authored/protected identities:
 - Beast Handler + Bound Rift Hound
 - Resistance Saboteur
 - Controlled Prisoner
@@ -358,7 +356,7 @@ HP represents safe containment/ability to continue the crisis rather than lethal
 No Poison, disease meter, Triage resource, or universal Mercy/Stabilize command is created.
 
 ## Chapter-11 Crown Engine Technician
-Combat identity: **POWER COMPLETE / NONLETHAL**
+Combat identity: **CURRENT NONLETHAL ROLE — NUMERIC VALIDATION OPEN**
 
 0 HP:
 > disarmed / disabled / unable to continue
@@ -373,7 +371,7 @@ No universal Mercy/Subdual command, nonlethal weapon mode, or permanent operator
 ## Chapter-12 Compelled Relay Bearer
 
 Combat identity:
-> **POWER COMPLETE / NONLETHAL / NEVER RANDOM**
+> **CURRENT NONLETHAL / NEVER-RANDOM ROLE — NUMERIC VALIDATION OPEN**
 
 HP represents:
 > ability to continue the forced relay crisis rather than lethal injury.
