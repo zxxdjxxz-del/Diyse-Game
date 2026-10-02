@@ -3,7 +3,7 @@
 **Chapter:** 11 — Crown Engine / Calder / Custodian / Truth  
 **Scene anchor:** S063 — The Custodian  
 **Role:** mandatory Ancient administrative-domain encounter / truth gate  
-**Status:** **WORKING PASS / RAW LINE RETAINED / POWER COMPLETE**
+**Status:** **RAW LINE RETAINED / POWER COMPLETE / BALANCE REVALIDATION OPEN**
 
 ## Story boundary
 
@@ -363,7 +363,7 @@ Destroying the Perception Node or Ruin Containment Seal also does not refresh Pr
 
 ---
 
-# Duration certification
+# Pacing target — revalidation required
 
 ## Mandatory Lv51
 Expected:
@@ -408,7 +408,7 @@ Support objects:
 - Perception Node — **Power N/A**
 - Ruin Containment Seal — **Power N/A**
 
-> **WORKING PASS / RAW LINE RETAINED / POWER COMPLETE**
+> **RAW LINE RETAINED / POWER COMPLETE / BALANCE REVALIDATION OPEN**
 
 ## Reward / continuity
 
@@ -421,7 +421,7 @@ Current Standard Card continuity:
 The older `Chapter 10 — Custodian reconciliation` source label is retired because The Last Blank insertion moved this material to current Chapter 11.
 
 
-## v87 balance certification
-See `16_BALANCE_AND_TESTING/BALANCE/CHAPTER_11_MANDATORY_COMPLETIONIST_VALIDATION.md`.
+## Current validation status
+The former Chapter-11 balance snapshot is historical only. Revalidate The Custodian through the current global mandatory/completionist framework and True Battle suite using current progression, party, support-object, and Prime rules.
 
-No raw stat, support value, phase threshold, or direct-damage Power changed in v87.
+No boss mechanic, raw stat, support value, threshold, Power, or reward is changed by this status cleanup.
