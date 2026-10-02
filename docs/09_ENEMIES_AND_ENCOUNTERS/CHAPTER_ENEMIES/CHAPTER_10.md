@@ -7,11 +7,8 @@
 - Thornvine Creeper
 - Briar Boar
 - Archive Scribe Engine
-- Judgment Frame
-- Erasure Wisp
-- Command Guard Frame
-- Authority Lens
-- Command Ring Drone
+
+Eastern Wayfinder / Buried Registry ordinary-enemy composition is **REWORK PENDING**. Do not restore the retired Judgment Frame / Erasure Wisp / Command Guard Frame / Authority Lens / Command Ring Drone package, and do not invent replacements during cleanup.
 
 ## Support objects / support identities
 - None
@@ -29,18 +26,15 @@
 - None
 
 ## Current notes
-- Exactly 8 default reused ordinary identities; 0 new ordinary identities required.
 - Chapter-10 reused-ordinary Power coverage: **COMPLETE**.
 - No approved strong normal-pool enemy in current Chapter 10.
 - No authored/protected identities in current Chapter 10.
 - No Regional Hunt in current Chapter 10.
-- Eastern forest: Creeper/Boar; Eastern Wayfinder: Scribe/Frame/Wisp; Buried Registry: Sentry/Lens/Ring Drone; Judgment Frame may cross-use.
+- Eastern forest retains its separately owned formation material; Eastern Wayfinder / Buried Registry ordinary composition is reopened and requires a later enemy-design pass.
 - Registry Warden remains status-neutral by design; do not fabricate a generic status rider.
 
 Current individual enemy owners:
 `../ORDINARY_ENEMIES/` — use the files matching the active roster identities listed above.
-
-All eight remain established identities with Chapter-10 bodies; do not rename them into fake-new variants.
 
 Strong normal-pool enemy:
 > **none — intentional**
