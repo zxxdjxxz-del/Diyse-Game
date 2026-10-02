@@ -42,7 +42,7 @@
 
 ## Current notes
 - `Gale` presentation is not a Wind damage element.
-- Chapter-6 broad ordinary / strong-normal / authored-special Power pass: **PASS**.
+- Chapter-6 broad ordinary / strong-normal / authored-special Power coverage: **COMPLETE**.
 - Chapter 6 introduces no new harmful status.
 - No Poison / Blood status / Blood element exists.
 

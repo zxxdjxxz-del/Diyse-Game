@@ -31,7 +31,7 @@
 
 ## Current notes
 - Earlier Black Host bodies may appear only where occupation-road fiction/ecology fits.
-- Chapter-5 broad ordinary/strong-normal/protected Power pass: **PASS**.
+- Chapter-5 broad ordinary/strong-normal/protected Power coverage: **COMPLETE**.
 - Chapter 5 introduces no new harmful status.
 
 Current individual enemy owners:

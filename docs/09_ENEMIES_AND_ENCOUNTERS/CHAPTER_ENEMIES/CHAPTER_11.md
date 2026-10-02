@@ -35,7 +35,7 @@
 ## Current notes
 - Current Chapter 11; historical pre-insertion sources may label this material Chapter 10.
 - Use current **Perception / Memory** Face terminology; Acuity and Face-name Change are retired.
-- Chapter-11 broad ordinary / strong-normal / authored-protected Power pass: **PASS**.
+- Chapter-11 broad ordinary / strong-normal / authored-protected Power coverage: **COMPLETE**.
 - Historical mandatory-vs-completionist snapshots are **not current certification**; re-run under the active validation framework when current tuning/progression inputs are stable.
 - Approved opening/middle/late formation compositions/weights restored in `../ENCOUNTER_FORMATIONS/CHAPTER_11_FORMATIONS.md`.
 - Chapter 11 introduces no new harmful status.

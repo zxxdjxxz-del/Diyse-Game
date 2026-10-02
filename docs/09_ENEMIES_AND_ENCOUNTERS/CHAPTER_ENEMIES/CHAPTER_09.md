@@ -31,7 +31,7 @@
 
 ## Current notes
 - Medical/quarantine fiction does not restore Poison or a universal Mercy/Triage resource.
-- Chapter-9 broad ordinary / strong-normal / authored-protected Power pass: **PASS**.
+- Chapter-9 broad ordinary / strong-normal / authored-protected Power coverage: **COMPLETE**.
 - Historical mandatory-vs-completionist snapshots are **not current certification**; re-run under the active validation framework when current tuning/progression inputs are stable.
 
 - Ordinary formations are restored in `../ENCOUNTER_FORMATIONS/CHAPTER_09_FORMATIONS.md`. RH9 exact return trigger remains story-owned; no enemy-design, stat, or Power gap.
