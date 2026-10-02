@@ -120,7 +120,7 @@ func _on_eligible_distance_moved(distance: float) -> void:
 
 func _finish(failures: Array[String]) -> void:
 	if failures.is_empty():
-		print("Audit98 live resolved-movement encounter proof validation passed.")
+		print("Live resolved-movement encounter proof validation passed.")
 		quit(0)
 		return
 	for failure in failures:

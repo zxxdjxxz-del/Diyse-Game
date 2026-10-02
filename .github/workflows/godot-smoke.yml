@@ -33,43 +33,43 @@ jobs:
       - name: Validate player-facing Nimera world intro
         run: godot --headless --path . --script tests/presentation/validate_world_intro.gd
 
-      - name: Run Audit88 HD-2D runtime contract validation
+      - name: Run HD-2D runtime contract validation
         run: godot --headless --path . --script tests/presentation/validate_hd2d_runtime.gd
 
-      - name: Run Audit88 Chapter 0 HD-2D presentation resource validation
+      - name: Run Chapter 0 HD-2D presentation resource validation
         run: godot --headless --path . --script tests/presentation/validate_chapter_00_hd2d.gd
 
       - name: Run Chapter 0 playable graybox structure validation
         run: godot --headless --path . --script tests/exploration/validate_chapter_00_graybox.gd
 
-      - name: Run Audit88 Chapter 1 HD-2D presentation resource validation
+      - name: Run Chapter 1 HD-2D presentation resource validation
         run: godot --headless --path . --script tests/presentation/validate_chapter_01_hd2d.gd
 
-      - name: Run Audit88 Chapter 2 HD-2D presentation resource validation
+      - name: Run Chapter 2 HD-2D presentation resource validation
         run: godot --headless --path . --script tests/presentation/validate_chapter_02_hd2d.gd
 
-      - name: Run Audit88 Chapter 3 HD-2D presentation resource validation
+      - name: Run Chapter 3 HD-2D presentation resource validation
         run: godot --headless --path . --script tests/presentation/validate_chapter_03_hd2d.gd
 
-      - name: Run Audit88 Chapter 4 HD-2D presentation resource validation
+      - name: Run Chapter 4 HD-2D presentation resource validation
         run: godot --headless --path . --script tests/presentation/validate_chapter_04_hd2d.gd
 
-      - name: Run legacy Audit98 encounter-engineering proof regression
-        run: godot --headless --path . --script tests/encounters/validate_audit98_encounters.gd
+      - name: Run encounter runtime structural contract validation
+        run: godot --headless --path . --script tests/encounters/validate_encounter_runtime_contract.gd
 
-      - name: Run Audit98 reusable field encounter controller validation
+      - name: Run reusable field encounter controller validation
         run: godot --headless --path . --script tests/encounters/validate_field_encounter_controller.gd
 
-      - name: Run Audit98 area encounter tuning and ecology transition validation
+      - name: Run area encounter tuning and ecology transition validation
         run: godot --headless --path . --script tests/encounters/validate_area_encounter_tuning.gd
 
-      - name: Run Audit98 live resolved-movement encounter proof validation
+      - name: Run live resolved-movement encounter proof validation
         run: godot --headless --path . --script tests/encounters/validate_live_movement_encounter_proof.gd
 
-      - name: Run Audit98 generated random-encounter proof regression
+      - name: Run generated random-encounter proof regression
         run: godot --headless --path . --script tests/combat/validate_generated_encounter_battle_state.gd
 
-      - name: Run Audit98 transient field-combat-field loop validation
+      - name: Run transient field-combat-field loop validation
         run: godot --headless --path . --script tests/encounters/validate_transient_random_encounter_loop.gd
 
       - name: Run exploration, dialogue, combat, Card, Prime, and persistence smoke validation

@@ -67,7 +67,7 @@ func _validate_generated_setup_and_rewards(failures: Array[String]) -> void:
 	if battle.enemies.size() != formation.get("enemies", []).size():
 		failures.append("Generated setup changed the formation enemy count")
 	if battle.enemies.size() > 8:
-		failures.append("Generated setup exceeded the Audit98 eight-active-enemy cap")
+		failures.append("Generated setup exceeded the runtime eight-active-enemy cap")
 	if battle.phase != "selecting":
 		failures.append("Generated setup did not enter the normal round-selection phase")
 	if int(battle.rewards.get("xp", -1)) != 0:
@@ -121,7 +121,7 @@ func _validate_base_demo_regression(failures: Array[String]) -> void:
 
 func _finish(failures: Array[String]) -> void:
 	if failures.is_empty():
-		print("Audit98 generated random-encounter proof regression passed; proof rewards/catalog do not certify current canon.")
+		print("Generated random-encounter proof regression passed; proof rewards/catalog do not certify current canon.")
 		quit(0)
 		return
 	for failure in failures:

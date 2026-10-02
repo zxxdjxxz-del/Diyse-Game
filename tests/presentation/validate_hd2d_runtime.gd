@@ -48,7 +48,7 @@ func _test_battle_layout_controller() -> void:
 	controller.bind_and_layout(party_nodes, enemy_nodes, Hd2dRuntime.REFERENCE_SIZE)
 
 	for i in range(party_nodes.size()):
-		_expect(party_nodes[i].position == Hd2dRuntime.party_anchor(i), "Battle controller must place party slot %d at the permanent Audit88 anchor" % i)
+		_expect(party_nodes[i].position == Hd2dRuntime.party_anchor(i), "Battle controller must place party slot %d at the current HD-2D anchor" % i)
 	for i in range(enemy_nodes.size()):
 		_expect(enemy_nodes[i].position == Hd2dRuntime.enemy_anchor(i), "Battle controller must place enemy slot %d on the enemy side" % i)
 
@@ -144,7 +144,7 @@ func _test_dialogue_presentation_metadata() -> void:
 	for message in invalid.validate_schema():
 		if "Unsupported cutscene_tier" in message:
 			saw_invalid_tier = true
-	_expect(saw_invalid_tier, "Legacy S-tier shorthand must not be accepted as active Audit88 presentation metadata")
+	_expect(saw_invalid_tier, "Legacy S-tier shorthand must not be accepted as active presentation metadata")
 
 func _expect(condition: bool, message: String) -> void:
 	if not condition:
@@ -152,7 +152,7 @@ func _expect(condition: bool, message: String) -> void:
 
 func _finish() -> void:
 	if failures.is_empty():
-		print("Diyse Audit88 HD-2D runtime contract validation passed.")
+		print("Diyse HD-2D runtime contract validation passed.")
 		quit(0)
 		return
 	for failure in failures:
