@@ -1,6 +1,6 @@
 # Diyse — Asset Forge Automation
 
-**Status:** ACTIVE AUTOMATION IMPLEMENTATION — **v0.9 VFX structure-preservation checkpoint**  
+**Status:** ACTIVE AUTOMATION IMPLEMENTATION — structure preservation and technical-only VFX treatment  
 **Core:** `../../../tools/asset_forge/forge.py`  
 **Processor:** `../../../tools/asset_forge/pipeline.py`  
 **Operations:** `../../../tools/asset_forge/ops.py`  
@@ -8,6 +8,7 @@
 **ZIP intake:** `../../../tools/asset_forge/zip_intake_engine.py`  
 **VFX intake:** `../../../tools/asset_forge/vfx_intake_engine.py`  
 **VFX processor:** `../../../tools/asset_forge/vfx_processing_engine.py`  
+**Technical-only VFX treatment:** `../../../tools/asset_forge/vfx_style_engine.py`  
 **Style authority:** `../DIYSE_VISUAL_STYLE_CANON.md`  
 **Conversion authority:** `ASSET_STYLE_CONVERSION_PIPELINE.md`  
 **Asset/provenance authority:** `ASSET_LIBRARY/README.md`
@@ -53,9 +54,9 @@ B06 now uses this verified-open source pool as its primary fire/light production
 `BENCHMARKS/B06_CC0_FIRE_LIGHT_EXECUTION_V1.md`
 
 Current B06 state:
-> **SOURCE ANALYSIS COMPLETE — TECHNICAL STYLE PILOT READY**
+> **SOURCE ANALYSIS COMPLETE — TECHNICAL PRESERVATION PROOF COMPLETE — ANIME STYLE PILOT REQUIRED**
 
-The source board is technical evidence only; B06 is not STYLE-PASS until a Diyse-styled animated result passes temporal, alpha/emission and runtime-scale review.
+The source board and existing `vfx_style_engine.py` v1 treatment are technical evidence only. The treatment passed preservation QA but was visually rejected as insufficiently anime/seinen; its tests do not certify visual approval. See `BENCHMARKS/B06_FLAME_STYLE_PASS_CANDIDATE_V1.md` for the rejection record. The execution benchmark owns current visual sequencing and promotion gates.
 
 ## v0.8 — supplemental ZIP-native intake
 
@@ -120,7 +121,7 @@ Tests cover:
 
 ## Next production milestone
 
-1. build the first actual Diyse B06 fire/light style candidate from the bounded CC0 subset;
+1. build a replacement anime/seinen treatment on the real `flame_01_16x4` family; obtain visual approval before propagating to the wider bounded B06 subset;
 2. run temporal/flicker, alpha/fringe and additive/emissive QA on that animated candidate;
 3. test B06 at actual field/battle runtime scale before any STYLE-PASS promotion;
 4. user-review the Props/Cloth six-model family candidate;
