@@ -2,7 +2,7 @@
 
 **Chapter:** 8 — Horizon Vault / Westguard / Varkesh  
 **Role:** mandatory Horizon Vault / western-line boss  
-**Status:** **FORMALLY VALIDATED v84 / RAW LINE RETAINED / POWER COMPLETE**
+**Status:** **RAW LINE RETAINED / POWER COMPLETE / BALANCE REVALIDATION OPEN**
 
 ## Preserved architecture
 
@@ -326,7 +326,7 @@ No Spatial element.
 No hidden severance gauge.
 No extra-action system.
 
-> **FORMALLY VALIDATED v84 / RAW LINE RETAINED / POWER COMPLETE**
+> **RAW LINE RETAINED / POWER COMPLETE / BALANCE REVALIDATION OPEN**
 
 ## Reward
 Western Rift Engine:
