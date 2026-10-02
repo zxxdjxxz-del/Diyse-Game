@@ -99,7 +99,7 @@ Optional progression is allowed to make the final battle materially safer/faster
 
 ## HP pacing adjustment
 
-Inherited Audit132 raw:
+Current raw:
 > Lv63 / HP15,074 / ATK224 / MAG228 / DEF158 / Spirit163 / SPD55 / EVA5 / SR15
 
 Current final-boss pacing line:
@@ -258,7 +258,7 @@ It is the same sole continuity using a new body.
 
 ## HP pacing adjustment
 
-Inherited Audit132 raw:
+Current raw:
 > Lv64 / HP19,367 / ATK247 / MAG247 / DEF168 / Spirit168 / SPD58 / EVA5 / SR15
 
 Current final-boss pacing line:
