@@ -209,11 +209,13 @@ Next:
 16. compare all six together for silhouette, palette, canonical height, scale and animation separation;
 17. close B00 only when the runtime models visibly reproduce their current masters and belong to the same game.
 
-## 12. First technical and visual pilots
+## 12. Technical and visual pilots
 
-Use the verified V5 standard non-root-motion mannequin GLB as the default **technical rig** pilot and its root-motion counterpart for comparison. Use the compatible female mannequin for shared-rig proportion/retarget testing.
+The shared UAL technical-rig foundation is already proven in Godot, and Ilyra v0.7 is the current deformation-focused replacement-shell pilot.
 
-Once the rig itself passes, **Cyanis** remains the preferred first B00 character-style model target because his blue/black cloth plus silver armor provides a clean material/outline baseline. His actual model must be built from `asset_sources/characters/current/cyanis.jpg`, not from the mannequin or an older Cyanis render.
+For full B00 **style/material fidelity**, **Cyanis** remains the preferred first character target because his blue/black cloth plus silver armor provides a clean material/outline baseline. His actual model must be built from `asset_sources/characters/current/cyanis.jpg`, not from the mannequin or an older Cyanis render.
+
+Ilyra's current v0.7 proof should continue as the deformation/secondary-motion track while its visible model is corrected toward the exact current Ilyra master.
 
 ## 13. Asset Forge / Godot boundary
 
