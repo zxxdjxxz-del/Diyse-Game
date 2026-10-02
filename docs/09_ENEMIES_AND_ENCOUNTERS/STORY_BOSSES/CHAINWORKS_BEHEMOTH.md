@@ -71,7 +71,7 @@ The large level spread is intentional: post-Chapter-6 optional progression is al
 |---:|---:|---:|---:|---:|---:|---:|---:|---:|
 | 29 | **5,135** | **109** | **57** | **77** | **59** | **32** | 0 | 5 |
 
-The Audit131 raw line is retained unchanged.
+The current raw line is retained unchanged.
 
 Reason:
 - mandatory Lv27 is appropriately below the Lv29 miniboss;
