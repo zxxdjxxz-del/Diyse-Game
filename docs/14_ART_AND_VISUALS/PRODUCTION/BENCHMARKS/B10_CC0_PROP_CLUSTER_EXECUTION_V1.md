@@ -1,7 +1,7 @@
 # Diyse — B10 CC0 Prop Cluster Benchmark Execution v1
 
 **Benchmark:** B10 — Verified CC0 Prop Cluster  
-**Status:** SOURCE ANALYSIS COMPLETE / SHARED-MATERIAL PILOT READY  
+**Status:** STYLE-PASS APPROVED — GAMEPLAY/RUNTIME TEST READY / B00 CROSS-CHECK PENDING  
 **Style authority:** `../../DIYSE_VISUAL_STYLE_CANON.md`  
 **Benchmark authority:** `../STYLE_BENCHMARK_SET_V1.md`  
 **Conversion pipeline:** `../ASSET_STYLE_CONVERSION_PIPELINE.md`
@@ -50,7 +50,7 @@ The same shared-material strategy can potentially update a substantial portion o
 
 ## 3. B10 goal
 
-B10 must prove that clean-provenance 3D geometry can sit beside Diyse's painterly HD-2D environment language without reading as an imported generic low-poly pack.
+B10 must prove that clean-provenance 3D geometry can sit beside Diyse's graphic anime-stylized HD-2D environment language without reading as an imported generic low-poly pack.
 
 The benchmark must prove:
 - useful geometry can be retained;
@@ -98,7 +98,7 @@ Preferred order:
 `T_Trim_Furniture_BaseColor.png` becomes the first scalable wood/furniture style target.
 
 Target grammar:
-- painterly broad wood planes;
+- broad graphic wood value planes;
 - 3–4 value families;
 - grain follows functional direction rather than forming random noise;
 - darker irregular accents at joints/recesses;
@@ -119,18 +119,20 @@ Target grammar:
 - selective sharp highlights;
 - dark overlap/joint accents;
 - restrained scratches/dings;
-- painterly rather than photoreal reflection;
+- designed graphic rather than photoreal reflection;
 - no universal toon outline baked into every UV island.
 
 This single trim must work on barrel hoops, chair fasteners, lantern structure, and workbench hardware.
 
-## 7. Normal / ORM handling for first pilot
+## 7. Normal / ORM handling
 
-For B10 pilot v1:
+Current production handling is owned by `../DIYSE_CC0_PROP_MATERIAL_GRAMMAR_V1.md`: preserve source PBR data unless QA identifies incompatibility, retaining the documented Furniture normal attenuation where applicable. Do not reset that correction from first-pilot instructions.
+
+Historical B10 pilot-v1 isolation procedure:
 - preserve source Normal maps;
 - preserve source ORM maps;
 - replace only the two BaseColor trims first;
-- validate whether the existing geometry response and material roughness remain compatible with the new painterly BaseColor language.
+- validate whether the existing geometry response and material roughness remain compatible with the new BaseColor treatment.
 
 Only after that test should we decide whether Diyse needs:
 - softened/simplified normals;
@@ -190,7 +192,7 @@ For the representative B10 cluster, the expected style-generation count is **2 B
 
 ## 11. Required B10 pilot outputs
 
-Before B10 can become STYLE-PASS, produce:
+Use this evidence set for current-style/B00 and runtime validation of the existing within-family approval:
 
 1. Diyse-styled `T_Trim_Furniture_BaseColor`;
 2. Diyse-styled `T_Trim_Metal_BaseColor`;
@@ -235,7 +237,7 @@ B10 passes only when:
 
 - [ ] the two shared BaseColor trims are clearly Diyse-native;
 - [ ] all four props feel native to the same scene;
-- [ ] wood is painterly, readable, and non-photoreal;
+- [ ] wood is graphic, readable, and non-photoreal;
 - [ ] metal is crisp without glossy realism;
 - [ ] chaotic line influence is visible but selective;
 - [ ] no uniform toon outline dominates;
@@ -247,6 +249,6 @@ B10 passes only when:
 
 ## 15. Production decision
 
-**B10 shared-material source analysis is complete.**
+B10 retains Furniture/Metal within-family approval, with gameplay/runtime testing and B00 cross-check pending. Props/Cloth remain family candidates under `../DIYSE_CC0_PROP_MATERIAL_GRAMMAR_V1.md`.
 
-The preferred next action is a bounded **two-BaseColor real-output style pilot**, followed by rendering the four actual glTF models with those shared trims.
+Validate the existing treatments against current graphic-anime style and the actual renderer; do not restart the completed first pilot. Current sequencing belongs to `../../../90_WORKING/ACTIVE_WORK_QUEUE.md`.
