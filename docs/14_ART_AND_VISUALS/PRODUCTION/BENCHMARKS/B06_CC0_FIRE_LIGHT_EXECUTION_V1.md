@@ -55,7 +55,7 @@ Palette-mode predrawn sheets also retain source palette/transparency metadata du
 
 The final B06 language must read as **Diyse-native mature seinen anime VFX integrated into HD-2D lighting**, not as realistic stock fire, a painterly texture filter, or generic mobile-game particles.
 
-Diyse environments may use painterly shape-first rendering, but character and VFX identity must still belong unmistakably to the same anime/seinen visual world.
+Diyse environments use graphic shape-first rendering with selective ink and atmospheric lighting. Characters, environments and VFX must belong to the same anime/seinen visual world; painterly rendering is retired by the shared visual style authority.
 
 Required behavior:
 - bold readable anime flame/fire silhouettes;
