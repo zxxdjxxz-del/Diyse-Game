@@ -30,11 +30,11 @@ Legacy-gate components:
 Donor Relic access never creates a Relic copy.
 A receiver equips the actual original/copy inventory instance that exists.
 
-## Still OPEN at v85
-Do not invent:
-- Kessara copy-service fee;
+## Economy / presentation handoff
+
+The flat G service-fee structure and successful-transaction charging rules are owned by `../../12_ECONOMY_AND_REWARDS/KESSARA_RELIC_COPY_ECONOMY.md`. Its retained numeric fee is provisional pending economy rebuild; do not invent or lock a final amount here. A fee never replaces the matching Forge Component requirement.
+
+Still open in implementation/presentation:
 - exact menu timing;
 - exact original-vs-copy UI presentation;
 - final physical pickup presentation for every Forge Component.
-
-Those remain implementation/economy follow-up.
