@@ -129,7 +129,7 @@ This action is used only when encounter pacing needs a low-pressure animal-behav
 
 ### Last Sentinel — Sentinel Impact
 Authority:
-`07_CARDS/PRIME_CARDS/STORY_PRIMES/LAST_SENTINEL.md`
+`../../07_CARDS/PRIME_CARDS/STORY_PRIMES/LAST_SENTINEL.md`
 
 Current Recovered command:
 - one enemy
