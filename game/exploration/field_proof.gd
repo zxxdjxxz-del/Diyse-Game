@@ -32,7 +32,7 @@ const TORREN_DRY := "res://game/characters/placeholders/portraits/torren_dry.svg
 
 var encounter_controller
 var _player_in_talk_range := false
-var _encounter_proof_message := "Encounter proof armed: resolved movement feeds Audit98 pressure."
+var _encounter_proof_message := "Encounter proof armed: resolved movement feeds encounter pressure."
 
 func _ready() -> void:
 	talk_button.pressed.connect(_start_dialogue)
