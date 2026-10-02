@@ -1,9 +1,7 @@
 # Diyse — Enemy Reuse and Variant Rules
-**Migration baseline:** `Diyse_CURRENT_WORKING_TRACKER_CONSOLIDATED_2026-08-27_v85.md`  
-**Historical enemy-production provenance:** Audit90/Audit93 plus later tracker-era roster/action cleanups.
-**Historical raw-stat provenance:** Audit129–Audit135.
-**Authority treatment:** this repository file is current enemy-domain authority; Audit/v85 references remain historical provenance only.
-**Migration rule:** current repository names, chapter placement, system firewalls, and Prime-restoration rules supersede conflicting historical enemy text.
+
+**Status:** ACTIVE ENEMY / ENCOUNTER AUTHORITY  
+**Authority:** current enemy-domain owner plus later explicit approved corrections.  
 
 
 ## Area-first ecology
@@ -58,7 +56,5 @@ It reuses eight established enemies across:
 
 Do not invent `Eastern Judgment Frame`, `Greater Authority Lens`, `Registry Ring Drone`, or similar renamed clones merely to hide reuse.
 
-## Old 160-count note
-Audit93 closed a **160-combat-identity production basis** under the pre-insertion chapter structure, excluding some support-only identities and Major Hunts.
-
-This migration preserves that as production provenance but does not use it as a simplistic runtime count. Current chapter reindex, reused Chapter-10 identities, support objects, and Major Hunts are tracked by role instead.
+## Historical count boundary
+Old production-count targets do not constrain the current runtime roster. Current identities are tracked by their live owner files, chapter roles, support-object roles, and Hunt registers; superseded production counts remain available through Git history only.
