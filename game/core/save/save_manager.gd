@@ -1,7 +1,8 @@
 extends Node
 
 const SCHEMA_VERSION := 1
-const SAVE_PATH := "user://diyse_7b5g_save.json"
+const SAVE_PATH := "user://diyse_save.json"
+const LEGACY_SAVE_PATH := "user://diyse_7b5g_save.json"
 
 func save_state(state: Node, path: String = SAVE_PATH) -> Dictionary:
 	if state == null or not state.has_method("to_save_dict"):
@@ -14,15 +15,22 @@ func save_state(state: Node, path: String = SAVE_PATH) -> Dictionary:
 	file.flush()
 	return {"ok": true, "message": "Save complete.", "path": path}
 
-func load_state(state: Node, path: String = SAVE_PATH) -> Dictionary:
+func load_state(state: Node, path: String = SAVE_PATH, legacy_fallback_path: String = "") -> Dictionary:
 	if state == null or not state.has_method("apply_save_dict"):
 		return _failure("Invalid game state.")
-	var read_result := read_save_data(path)
+	var resolved_path := _resolve_load_path(path, legacy_fallback_path)
+	var read_result := read_save_data(resolved_path)
 	if not bool(read_result.get("ok", false)):
 		return read_result
 	if not state.apply_save_dict(read_result["data"]):
 		return _failure("Save data is incomplete or invalid.")
-	return {"ok": true, "message": "Load complete.", "path": path, "data": read_result["data"]}
+	return {
+		"ok": true,
+		"message": "Load complete.",
+		"path": resolved_path,
+		"data": read_result["data"],
+		"used_legacy_fallback": resolved_path != path
+	}
 
 func read_save_data(path: String = SAVE_PATH) -> Dictionary:
 	if not FileAccess.file_exists(path):
@@ -42,8 +50,19 @@ func read_save_data(path: String = SAVE_PATH) -> Dictionary:
 		return _failure("Unsupported save schema version: %d." % version)
 	return {"ok": true, "message": "Save data valid.", "path": path, "data": data}
 
-func has_save(path: String = SAVE_PATH) -> bool:
-	return bool(read_save_data(path).get("ok", false))
+func has_save(path: String = SAVE_PATH, legacy_fallback_path: String = "") -> bool:
+	var resolved_path := _resolve_load_path(path, legacy_fallback_path)
+	return bool(read_save_data(resolved_path).get("ok", false))
+
+func _resolve_load_path(path: String, legacy_fallback_path: String = "") -> String:
+	if FileAccess.file_exists(path):
+		return path
+	var fallback_path := legacy_fallback_path
+	if fallback_path.is_empty() and path == SAVE_PATH:
+		fallback_path = LEGACY_SAVE_PATH
+	if not fallback_path.is_empty() and FileAccess.file_exists(fallback_path):
+		return fallback_path
+	return path
 
 func _failure(message: String) -> Dictionary:
 	return {"ok": false, "message": message}
