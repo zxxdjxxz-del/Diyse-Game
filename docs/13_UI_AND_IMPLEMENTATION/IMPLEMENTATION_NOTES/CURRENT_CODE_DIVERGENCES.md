@@ -83,16 +83,14 @@ Do not hard-code old proof values merely because the storage key is now current.
 
 ## 5. Proof equipment/content — HIGH
 GameState defaults still include:
-- Proof Sword;
-- Proof Warden Blade;
+- generic Proof Sword / Proof Wardrod weapon placeholders;
 - proof armor;
 - Potion;
 - four-character proof party only.
 
 They are fixtures, not current equipment/content authority.
 
-Ilyra's current primary weapon family is:
-> **Wardrods**
+The prior Ilyra **Proof Warden Blade** contradiction has been removed; her proof placeholder now stays inside the current **Wardrod** weapon family.
 
 ## 6. Save schema completeness — HIGH
 Schema v1 proves persistence but does not yet carry the complete production progression/quest/loadout state.

@@ -50,7 +50,7 @@ func reset_defaults() -> void:
 	}
 	equipment = {
 		"Cyanis": {"weapon": "Proof Sword", "armor": "Proof Crest Armor"},
-		"Ilyra": {"weapon": "Proof Warden Blade", "armor": "Proof Blue Warden Armor"},
+		"Ilyra": {"weapon": "Proof Wardrod", "armor": "Proof Blue Warden Armor"},
 		"Torren": {"weapon": "Proof Bow", "armor": "Proof Field Armor"},
 		"Nimera": {"weapon": "Proof Cardweaver Implement", "armor": "Proof Archive Coat"}
 	}
