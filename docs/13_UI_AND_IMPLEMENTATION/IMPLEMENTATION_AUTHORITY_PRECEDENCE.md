@@ -37,7 +37,7 @@ Current production requirement:
 - after Sixfold Volition, each permanent character has **2 Prime slots**.
 
 ## Critical current override: currency
-Proof state may retain the technical identifier `gold` until version-safe migration work replaces or safely maps it.
+Current runtime and schema-v1 save state use `rewards.g`. Legacy schema-v1 `rewards.gold` values are accepted on load and normalize to `rewards.g`; preserve this compatibility when extending production persistence.
 
 Current player-facing game currency:
 > **G**
@@ -45,7 +45,7 @@ Current player-facing game currency:
 Retired player-facing currency name:
 > **Auren**
 
-Any production persistence/UI migration must map proof currency state to current **G** authority. Do not expose `gold` as the final player-facing label and do not restore Auren as a second or replacement ordinary currency.
+Production persistence/UI extensions must retain the current **G** storage/presentation contract and legacy-save normalization. Currency-key migration is complete; detailed economy calibration remains open. Do not expose `gold` as the final player-facing label and do not restore Auren as a second or replacement ordinary currency.
 
 ## Critical current override: final chapter IDs
 Production ID conventions must support:
