@@ -111,7 +111,7 @@ The ten-level optional spread is preserved rather than dynamically scaling Calde
 |---:|---:|---:|---:|---:|---:|---:|---:|---:|
 | 54 | **10,133** | **137** | **193** | **118** | **134** | **50** | 5 | 10 |
 
-The inherited Audit132 raw line is retained unchanged.
+The current raw line is retained unchanged.
 
 Calder is intentionally magic-forward.
 
@@ -233,7 +233,7 @@ This is voluntary system integration, not possession.
 |---:|---:|---:|---:|---:|---:|---:|---:|---:|
 | 55 | **13,662** | **181** | **204** | **139** | **139** | **47** | 0 | 10 |
 
-The inherited Audit132 raw line is retained unchanged.
+The current raw line is retained unchanged.
 
 ## Living Anchor Clamps
 
