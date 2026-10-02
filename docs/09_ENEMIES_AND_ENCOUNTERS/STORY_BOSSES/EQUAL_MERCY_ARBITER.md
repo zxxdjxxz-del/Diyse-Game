@@ -2,7 +2,7 @@
 
 **Chapter:** 9 — Larkspire / Equal Mercy + Crownfall  
 **Role:** mandatory Equal Mercy / Last Sanctuary boss  
-**Status:** **PASS / FORMALLY VALIDATED v85 / RAW LINE RETAINED / POWER COMPLETE**
+**Status:** **RAW LINE RETAINED / POWER COMPLETE / BALANCE REVALIDATION OPEN**
 
 ## Story / combat boundary
 
@@ -340,7 +340,7 @@ No Barrier.
 No Triage resource.
 No universal Mercy command.
 
-> **PASS / FORMALLY VALIDATED v85 / RAW LINE RETAINED / POWER COMPLETE**
+> **RAW LINE RETAINED / POWER COMPLETE / BALANCE REVALIDATION OPEN**
 
 ## Rewards
 
