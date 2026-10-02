@@ -34,7 +34,9 @@ Chapter-10 ordinary formation composition is **REWORK PENDING**. Do not restore 
 - Registry Warden remains status-neutral by design; do not fabricate a generic status rider.
 
 Current individual enemy owners:
-`../ORDINARY_ENEMIES/` — use the files matching the active roster identities listed above.
+- Vine Creeper — `../ORDINARY_ENEMIES/VINE_CREEPER.md`
+- Briar Boar — `../ORDINARY_ENEMIES/BRIAR_BOAR.md`
+- Memory Construct — `../ORDINARY_ENEMIES/ARCHIVE_SCRIBE_ENGINE.md` (legacy filename; file heading/current identity is Memory Construct)
 
 Strong normal-pool enemy:
 > **none — intentional**
