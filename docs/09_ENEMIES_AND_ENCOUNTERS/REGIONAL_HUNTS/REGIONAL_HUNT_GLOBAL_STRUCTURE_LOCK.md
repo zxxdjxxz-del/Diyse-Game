@@ -151,7 +151,7 @@ A Regional Hunt should not normally interrupt the mandatory chapter spine before
 
 ## Current concrete applications
 The early-campaign file:
-`docs/02_STORY/CHAPTERS/REGIONAL_HUNTS_CH1_CH3_CLEANUP_ACCESS_LOCK.md`
+`../../02_STORY/CHAPTERS/REGIONAL_HUNTS_CH1_CH3_CLEANUP_ACCESS_LOCK.md`
 
 is now a **retirement/access firewall** for slots **#1–#3**. It is not an active Hunt implementation example.
 
