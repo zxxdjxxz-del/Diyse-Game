@@ -33,7 +33,7 @@ Their production authority order and matching visual-lock documents are indexed 
 
 `docs/14_ART_AND_VISUALS/PRODUCTION/CHARACTERS/README.md`
 
-For those characters, the current repository master image controls exact appearance when older prose, archived renders, or historical hashes conflict with it.
+Use that index's source-authority order for exact appearance. A registered repository master controls only when its bytes match the approved fingerprint; newer approved sources and registered fingerprints outrank an older binary while sync is pending. Older prose, archived renders and historical hashes remain provenance.
 
 ## Implementation status
 
