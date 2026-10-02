@@ -72,11 +72,11 @@ jobs:
         run: |
           mkdir -p build
           godot --headless --path . --export-debug "Android" build/diyse-debug.apk
-          test -s build/diyse-7b5g-debug.apk
+          test -s build/diyse-debug.apk
 
       - name: Upload Android debug APK
         uses: actions/upload-artifact@v4
         with:
           name: diyse-debug-apk
-          path: build/diyse-7b5g-debug.apk
+          path: build/diyse-debug.apk
           if-no-files-found: error

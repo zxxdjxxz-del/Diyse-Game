@@ -155,7 +155,7 @@ theme_override_colors/font_shadow_color = Color(0, 0, 0, 0.85)
 theme_override_constants/shadow_offset_x = 2
 theme_override_constants/shadow_offset_y = 2
 theme_override_font_sizes/font_size = 24
-text = "Diyse 7B.5G — Save/Load Persistence Proof\nMove, open the proof chest, change Torren state, SAVE, then LOAD"
+text = "Diyse Technical Proof — Save/Load Persistence\nMove, open the proof chest, change Torren state, SAVE, then LOAD"
 
 [node name="PersistenceStatus" type="Label" parent="HUD"]
 offset_left = 24.0
