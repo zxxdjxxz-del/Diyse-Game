@@ -1,17 +1,17 @@
 # Diyse — Character Quest Boss Register
-**Migration baseline:** `Diyse_CURRENT_WORKING_TRACKER_CONSOLIDATED_2026-08-27_v85.md`  
-**Current exact-sheet closure:** **v90 — dedicated Character Quest boss completion pass**
+**Status:** CURRENT CHARACTER-QUEST BOSS INDEX  
+**Authority:** individual boss files below plus current owning quest/story files. Historical tracker/pass provenance remains in Git history.
 
 Current Character Quest boss identities:
 
 | Character | Character Quest | Boss | Exact sheet status |
 |---|---|---|---|
-| Vaelira | The Sky No One Chose | **Elemental Forecast Construct** | **CLOSED v90** — `ELEMENTAL_FORECAST_CONSTRUCT.md` |
-| Cyanis | The Weight of the Crest | **Crest-Exhausted Warden** | **CLOSED v90** — `CREST_EXHAUSTED_WARDEN.md` |
+| Vaelira | The Sky No One Chose | **Elemental Forecast Construct** | **CURRENT** — `ELEMENTAL_FORECAST_CONSTRUCT.md` |
+| Cyanis | The Weight of the Crest | **Crest-Exhausted Warden** | **CURRENT** — `CREST_EXHAUSTED_WARDEN.md` |
 | Nimera | The Archive That Remembers | **None** | no boss by current design |
-| Seyrik | The Name That Remains | **Black Host Remnant Captain** | **CLOSED v90** — `BLACK_HOST_REMNANT_CAPTAIN.md` |
+| Seyrik | The Name That Remains | **Black Host Remnant Captain** | **CURRENT** — `BLACK_HOST_REMNANT_CAPTAIN.md` |
 | Ilyra | Mercy Has a Voice | **None** | no boss by current design |
-| Torren | The Road That Returns | **Old Relay Warden** | **CLOSED v90** — `OLD_RELAY_WARDEN.md` |
+| Torren | The Road That Returns | **Old Relay Warden** | **CURRENT** — `OLD_RELAY_WARDEN.md` |
 
 ## Current architecture locks
 
