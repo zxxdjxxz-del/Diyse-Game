@@ -219,10 +219,10 @@ func _open_proof_chest() -> void:
 		return
 	GameState.flags["proof_chest_opened"] = true
 	GameState.flags["proof_story_flag"] = true
-	GameState.rewards["gold"] = int(GameState.rewards.get("gold", 0)) + 25
+	GameState.rewards["g"] = int(GameState.rewards.get("g", 0)) + 25
 	GameState.rewards["xp"] = int(GameState.rewards.get("xp", 0)) + 10
 	_apply_chest_visual()
-	_refresh_persistence_visuals("Proof chest opened: +25 gold, +10 XP; story flag set.")
+	_refresh_persistence_visuals("Proof chest opened: +25 G, +10 XP; story flag set.")
 
 func _toggle_torren_state() -> void:
 	if not _is_player_in_talk_range():
@@ -261,14 +261,14 @@ func _refresh_persistence_visuals(message: String = "") -> void:
 	var pressure_text := "OFF"
 	if encounter_controller != null:
 		pressure_text = "%.3fS" % encounter_controller.pressure_fraction_s()
-	persistence_status.text = "%s\nSave: %s | Chest: %s | Torren: %s | Story flag: %s | XP: %d | Gold: %d\nEncounter proof pressure: %s" % [
+	persistence_status.text = "%s\nSave: %s | Chest: %s | Torren: %s | Story flag: %s | XP: %d | G: %d\nEncounter proof pressure: %s" % [
 		message,
 		save_state,
 		chest_state,
 		str(GameState.flags.get("torren_state", "normal")),
 		story_state,
 		int(GameState.rewards.get("xp", 0)),
-		int(GameState.rewards.get("gold", 0)),
+		int(GameState.rewards.get("g", 0)),
 		pressure_text
 	]
 

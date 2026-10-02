@@ -12,6 +12,7 @@ func _initialize() -> void:
 	_test_full_state_round_trip()
 	_test_pre_kessara_schema_v1_save_is_compatible()
 	_test_legacy_face_names_normalize_on_load()
+	_test_legacy_gold_reward_key_normalizes_on_load()
 	_test_legacy_save_path_fallback()
 	_test_invalid_json_is_safe()
 	_test_future_schema_is_rejected()
@@ -56,7 +57,7 @@ func _test_full_state_round_trip() -> void:
 	source.flags["proof_story_flag"] = true
 	source.flags["proof_chest_opened"] = true
 	source.flags["torren_state"] = "prepared"
-	source.rewards = {"xp": 123, "gold": 456}
+	source.rewards = {"xp": 123, "g": 456}
 	_expect(source.queue_transient_random_encounter({
 		"kind": "random",
 		"chapter": 1,
@@ -99,7 +100,7 @@ func _test_full_state_round_trip() -> void:
 	_expect(bool(restored.flags.get("proof_story_flag", false)), "Story flag must round-trip")
 	_expect(bool(restored.flags.get("proof_chest_opened", false)), "Opened interactable flag must round-trip")
 	_expect(str(restored.flags.get("torren_state", "")) == "prepared", "NPC state must round-trip")
-	_expect(int(restored.rewards.get("xp", -1)) == 123 and int(restored.rewards.get("gold", -1)) == 456, "Rewards/currency must round-trip")
+	_expect(int(restored.rewards.get("xp", -1)) == 123 and int(restored.rewards.get("g", -1)) == 456, "Rewards/currency must round-trip")
 	_expect(not restored.has_transient_random_encounter(), "Loading a disk save must clear stale transient encounter state")
 	_expect(restored.transient_encounter_return.is_empty(), "Loading a disk save must clear stale transient encounter-return state")
 	var data: Dictionary = load_result.get("data", {})
@@ -117,7 +118,7 @@ func _test_pre_kessara_schema_v1_save_is_compatible() -> void:
 		"primes": {},
 		"equipment": {},
 		"flags": {"legacy_schema_v1": true},
-		"rewards": {"xp": 0, "gold": 0}
+		"rewards": {"xp": 0, "g": 0}
 	}
 	var file := FileAccess.open(TEST_PATH, FileAccess.WRITE)
 	file.store_string(JSON.stringify(legacy_data))
@@ -162,6 +163,31 @@ func _test_legacy_face_names_normalize_on_load() -> void:
 	_expect(str(state.relic_inventory["RELIC_OLD_ACUITY"].get("face", "")) == "Perception", "Loaded Acuity Face must normalize to Perception")
 	_expect(str(state.forge_components["FORGE_OLD_RESOURCE"].get("face", "")) == "Perception", "Loaded Resource Face must normalize to Perception")
 
+func _test_legacy_gold_reward_key_normalizes_on_load() -> void:
+	_cleanup()
+	var legacy_data := {
+		"schema_version": SaveManagerScript.SCHEMA_VERSION,
+		"area": "field_proof",
+		"field_position": {"x": 0.0, "y": 0.9, "z": 0.0},
+		"party": [],
+		"inventory": {},
+		"standard_cards": [],
+		"primes": {},
+		"equipment": {},
+		"flags": {},
+		"rewards": {"xp": 12, "gold": 34}
+	}
+	var file := FileAccess.open(TEST_PATH, FileAccess.WRITE)
+	file.store_string(JSON.stringify(legacy_data))
+	file.flush()
+	var manager = SaveManagerScript.new()
+	var state = GameStateScript.new()
+	var result: Dictionary = manager.load_state(state, TEST_PATH)
+	_expect(bool(result.get("ok", false)), "Schema-v1 save with legacy gold reward key must remain loadable")
+	_expect(int(state.rewards.get("xp", -1)) == 12, "Legacy reward migration must preserve XP")
+	_expect(int(state.rewards.get("g", -1)) == 34, "Legacy gold reward key must normalize to G")
+	_expect(not state.rewards.has("gold"), "Legacy gold reward key must not remain in current runtime state")
+
 func _test_legacy_save_path_fallback() -> void:
 	_cleanup()
 	var legacy_data := {
@@ -174,7 +200,7 @@ func _test_legacy_save_path_fallback() -> void:
 		"primes": {},
 		"equipment": {},
 		"flags": {"legacy_path": true},
-		"rewards": {"xp": 0, "gold": 0}
+		"rewards": {"xp": 0, "g": 0}
 	}
 	var legacy_file := FileAccess.open(LEGACY_TEST_PATH, FileAccess.WRITE)
 	legacy_file.store_string(JSON.stringify(legacy_data))

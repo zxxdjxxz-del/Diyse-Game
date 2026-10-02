@@ -73,14 +73,15 @@ The final production save must eventually represent current authoritative state 
 
 Do not serialize a Mastery Point currency.
 
-## Currency migration
-Current proof uses:
-> `rewards.gold`
+## Currency storage
 
-Current canon uses:
+Current runtime/save state uses:
+> `rewards.g`
+
+Current player-facing currency is:
 > **G**
 
-Production schema must migrate/version this safely rather than merely relabeling a stale proof field with no compatibility plan.
+Schema-v1 compatibility accepts the retired `rewards.gold` key on load and normalizes it to `rewards.g` before the state is re-saved. Reward amounts and economy balance remain independently rebuild-pending; this key migration does not certify old proof values.
 
 ## Stable IDs
 Persistent content should use stable semantic IDs, not:

@@ -66,7 +66,7 @@ func reset_defaults() -> void:
 		"proof_chest_opened": false,
 		"torren_state": "normal"
 	}
-	rewards = {"xp": 0, "gold": 0}
+	rewards = {"xp": 0, "g": 0}
 	clear_transient_encounter_state()
 
 func register_relic_original(relic_id: String, face: String) -> bool:
@@ -283,6 +283,7 @@ func apply_save_dict(data: Dictionary) -> bool:
 	_normalize_equipment_face_records()
 	flags = _dictionary_or_empty(data.get("flags", {}))
 	rewards = _dictionary_or_empty(data.get("rewards", {}))
+	_normalize_reward_currency()
 	# Loading a disk save must never resurrect a stale scene-to-scene random
 	# encounter request or battle return result.
 	clear_transient_encounter_state()
@@ -330,6 +331,15 @@ func _normalize_equipment_face_records() -> void:
 		if not canonical_component_face.is_empty():
 			component_record["face"] = canonical_component_face
 			forge_components[raw_id] = component_record
+
+func _normalize_reward_currency() -> void:
+	if rewards.has("gold") and not rewards.has("g"):
+		rewards["g"] = int(rewards.get("gold", 0))
+	rewards.erase("gold")
+	if not rewards.has("xp"):
+		rewards["xp"] = 0
+	if not rewards.has("g"):
+		rewards["g"] = 0
 
 func _dictionary_array(value: Variant) -> Array[Dictionary]:
 	var result: Array[Dictionary] = []

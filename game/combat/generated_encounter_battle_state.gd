@@ -5,13 +5,13 @@ const MAX_ACTIVE_ENEMIES := 8
 
 var generated_encounter_id := ""
 var generated_reward_xp := 0
-var generated_reward_gold := 0
+var generated_reward_g := 0
 var generated_encounter_active := false
 
 func setup_generated_formation(
 	enemy_definitions: Array,
 	xp_reward: int,
-	gold_reward: int = 0,
+	g_reward: int = 0,
 	encounter_id: String = ""
 ) -> bool:
 	if enemy_definitions.is_empty() or enemy_definitions.size() > MAX_ACTIVE_ENEMIES:
@@ -45,7 +45,7 @@ func setup_generated_formation(
 
 	generated_encounter_id = encounter_id
 	generated_reward_xp = maxi(0, xp_reward)
-	generated_reward_gold = maxi(0, gold_reward)
+	generated_reward_g = maxi(0, g_reward)
 	generated_encounter_active = true
 
 	round_number = 0
@@ -54,7 +54,7 @@ func setup_generated_formation(
 	party_actions.clear()
 	last_resolution_order.clear()
 	log.clear()
-	rewards = {"xp": 0, "gold": 0}
+	rewards = {"xp": 0, "g": 0}
 	party_suspended = false
 	pending_prime_id = ""
 	active_prime.clear()
@@ -96,5 +96,5 @@ func resolve_prime_command(command_id: String, target_index: int = -1) -> bool:
 	return result
 
 func _apply_generated_victory_rewards() -> void:
-	rewards = {"xp": generated_reward_xp, "gold": generated_reward_gold}
-	log.append("Victory. Rewards: %d XP, %d gold." % [generated_reward_xp, generated_reward_gold])
+	rewards = {"xp": generated_reward_xp, "g": generated_reward_g}
+	log.append("Victory. Rewards: %d XP, %d G." % [generated_reward_xp, generated_reward_g])

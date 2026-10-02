@@ -393,14 +393,14 @@ func _on_confirm_round() -> void:
 	_refresh_all()
 
 func _victory_prompt() -> String:
-	return "Victory — %d XP and %d gold awarded." % [int(battle.rewards.get("xp", 0)), int(battle.rewards.get("gold", 0))]
+	return "Victory — %d XP and %d G awarded." % [int(battle.rewards.get("xp", 0)), int(battle.rewards.get("g", 0))]
 
 func _finalize_generated_victory_once() -> void:
 	if not _generated_random_encounter or _generated_reward_applied or battle.phase != "victory":
 		return
 	var reward_payload: Dictionary = battle.rewards.duplicate(true)
 	GameState.rewards["xp"] = int(GameState.rewards.get("xp", 0)) + int(reward_payload.get("xp", 0))
-	GameState.rewards["gold"] = int(GameState.rewards.get("gold", 0)) + int(reward_payload.get("gold", 0))
+	GameState.rewards["g"] = int(GameState.rewards.get("g", 0)) + int(reward_payload.get("g", 0))
 	if GameState.complete_transient_random_encounter("victory", reward_payload):
 		_generated_reward_applied = true
 
