@@ -1,11 +1,10 @@
 # Diyse — Regional Hunt #11: Throne of Emperor Vaelkor
-**Migration baseline:** `Diyse_CURRENT_WORKING_TRACKER_CONSOLIDATED_2026-08-27_v85.md`  
-**Authority treatment:** this repository file is current Regional-Hunt-domain authority; Audit/v85 references remain historical provenance only.
+
+**Status:** ACTIVE REGIONAL-HUNT ENCOUNTER BODY — REVALIDATION PENDING  
+**Authority:** current enemy/encounter owner plus later explicit approved corrections.  
 **Scaling:** fixed authored tuning; no dynamic player-level scaling.
 
 
-**Recommended Lv:** 61–62 encounter  
-**Status:** **POWER COMPLETE / FORMALLY VALIDATED v88 WITH TIMING DEPENDENCY**
 
 ## Form I — Sealed Throne
 
@@ -123,11 +122,3 @@ Sealed Throne → Walking Throne:
 
 No third form.
 
-
-## v88 mandatory-vs-completionist certification
-- recommendation retained: **Lv61–62**;
-- mandatory Chapter-12 clear: **Lv57**, intentionally under recommendation;
-- completionist Chapter-12 entry: **Lv63**;
-- completionist mid/late Chapter 12: **Lv64–66**;
-- exact within-Chapter-12 timing relative to Varkesh/Vaelkor remains unresolved;
-- no raw stat, support value, or direct-damage Power changed.
