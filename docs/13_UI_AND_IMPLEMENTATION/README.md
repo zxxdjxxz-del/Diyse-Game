@@ -32,7 +32,7 @@ The existing Godot repository still contains historical proof data and stale doc
 
 Notable examples:
 - old `first_champion` proof Prime / bearer-lock assumptions;
-- proof `gold` technical key versus current player-facing **G** terminology; detailed numeric economy values remain rebuild-pending;
+- proof reward amounts and detailed numeric economy values remain rebuild-pending; current runtime/save storage uses `rewards.g`, with legacy `rewards.gold` load compatibility;
 - proof Potion/equipment names;
 - older Mastery-Point documentation;
 - a proof battle UI rather than final production combat UI.
