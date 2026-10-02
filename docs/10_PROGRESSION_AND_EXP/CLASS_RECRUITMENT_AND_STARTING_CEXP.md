@@ -3,8 +3,6 @@
 **Status:** PROVISIONAL RECRUITMENT-CEXP PLANNING BASELINE — REBUILD PENDING  
 **Authority:** current story recruitment state controls join timing; numeric starting CEXP remains provisional.  
 
-**v92 recruitment-aware correction:** 2026-08-29  
-**Migration baseline:** `Diyse_CURRENT_WORKING_TRACKER_CONSOLIDATED_2026-08-27_v85.md`
 
 > **NUMERIC STATUS — PROVISIONAL.** Starting Base CL/CEXP values and recruitment-chapter CEXP splits are retained as planning inputs pending the later CEXP rebuild; scene/recruitment identities below should still match current story authority.
 
@@ -19,14 +17,14 @@
 | Seyrik | Ch6 / chapter-end recruitment resolution | CL8 | 2,300 |
 
 ## CEXP handoff rule
-- Starting CEXP is the character's authoritative Base-Class total **at the moment that character becomes a recruited permanent party member**.
+- Starting CEXP is the current provisional Base-Class planning total **at the moment that character becomes a recruited permanent party member**.
 - There is **no retroactive CEXP** for mandatory rewards earned before recruitment.
 - From the first post-recruitment CEXP award onward, every recruited permanent character receives 100% of the awarded package whether active or reserve; it goes only to the selected class.
 - A recruitment milestone's starting CEXP is not added a second time as retroactive chapter CEXP.
 - Ordinary encounters are stochastic, so the values below are the **canonical expected-route planning checkpoints used for balance simulation**, not a claim that every player earns an identical random-battle total to the point.
 
-## Canonical recruitment-chapter handoff centers
-The prior ~5,500 / ~5,050 etc. Volition rows were inherited planning approximations. v92 resolves the recruitment chapters explicitly for simulation.
+## Provisional recruitment-chapter handoff centers
+The prior ~5,500 / ~5,050 etc. Volition rows were inherited planning approximations. The current table keeps one reproducible recruitment-aware baseline until the rebuild.
 
 | Character | Recruitment chapter CEXP before join | Canonical CEXP remaining after join | Notes |
 |---|---:|---:|---|
@@ -41,7 +39,7 @@ These checkpoint splits preserve the chapter budgets exactly:
 - Ch4: 150 pre-Vaelira + 500 post-Vaelira = **650**;
 - Ch6: 950 pre-Seyrik + 0 post-Seyrik = **950**.
 
-## End-Ch7 / Sixfold Volition — corrected mandatory planning centers
+## End-Ch7 / Sixfold Volition — provisional planning centers
 | Character | Arithmetic | Base CEXP at Volition | Approx. Base CL | Deficit to CL13 |
 |---|---|---:|---:|---:|
 | Cyanis | all Ch1–7 | **4,950** | CL12 | **1,050** |
@@ -58,7 +56,7 @@ Torren starts at **600 CEXP / CL4**. Even if he joined only after all Chapter-1 
 
 Vaelira similarly enters at **1,800 CEXP / CL7** and joins early enough in Chapter 4 to receive much of that chapter plus all Ch5–7 CEXP.
 
-The v92 correction therefore does **not** erase catch-up. It removes the exaggerated legacy assumption that Torren effectively received almost all Chapter-1 CEXP in addition to his 600-CEXP starting package.
+This provisional model preserves catch-up without granting retroactive Chapter-1 CEXP to Torren.
 
 ## Optional-content timing note
 Optional CEXP is awarded only to characters already recruited when that activity is cleared. Completionist simulations may defer still-available optional content until later recruits join, but must never grant retroactive CEXP for content already completed before that recruitment.
