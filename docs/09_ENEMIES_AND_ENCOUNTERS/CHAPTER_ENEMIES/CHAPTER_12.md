@@ -41,7 +41,7 @@
 - Use BLACK HOST TERRITORY where the political/territorial label is intended.
 - Varkesh survives and is captured alive.
 - Vaelkor refuses surrender by agency; no possession reveal and no third form.
-- Chapter-12 broad ordinary / strong-normal / authored-protected Power pass: **PASS**.
+- Chapter-12 broad ordinary / strong-normal / authored-protected Power coverage: **COMPLETE**.
 - Historical mandatory-vs-completionist snapshots are **not current certification**; re-run under the active validation framework when current tuning/progression inputs are stable.
 - Recovered nine-formation composition set and 30/45/25 phase weights are retained; missing per-action percentages use `../ACTION_SELECTION_DEFAULT.md` unless explicitly authored.
 - Civilian populations remain distinct from the imperial war machine and are not default enemies.
