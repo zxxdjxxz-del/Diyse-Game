@@ -22,13 +22,14 @@ Current:
 
 Add regression that no runtime/save/UI field reintroduces it.
 
-## HIGH — currency schema / G
-Proof state uses `gold`.
+## MEDIUM — currency balance / final economy coverage
 
-Current player-facing currency:
-> **G**
+Runtime/save reward storage now uses `rewards.g`, and schema-v1 `rewards.gold` compatibility is regression-tested.
 
-Production schema/UI tests must verify migration/semantic correctness.
+Still missing from final production coverage:
+- authoritative prices/payouts/balances after the economy rebuild;
+- complete shop/service UI behavior;
+- end-to-end player-facing rejection of retired Auren terminology across final content surfaces.
 
 ## HIGH — content fixtures
 Proof:
