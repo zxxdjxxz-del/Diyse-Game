@@ -60,7 +60,7 @@ Major Hunts remain separate.
 
 ## Chapter-12 balance status
 
-Regional Hunt #11 — Throne of Emperor Vaelkor retains its current Lv61–62/raw-body line as a **provisional implementation reference**, not a final v88 certification. Its exact within-Chapter-12 timing remains story/world-state owned, and its two-form fresh-body architecture remains current.
+Regional Hunt #11 — Throne of Emperor Vaelkor retains its current Lv61–62/raw-body line as a **provisional implementation reference**, not a final numeric certification. Its exact within-Chapter-12 timing remains story/world-state owned, and its two-form fresh-body architecture remains current.
 
 Final numeric validation should be rerun after the planned progression and enemy-action/stat retuning work.
 
