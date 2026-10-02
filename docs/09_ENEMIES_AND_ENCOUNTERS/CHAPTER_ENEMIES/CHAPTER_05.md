@@ -34,8 +34,8 @@
 - Chapter-5 broad ordinary/strong-normal/protected Power pass: **PASS**.
 - Chapter 5 introduces no new harmful status.
 
-Summary:
-`../ORDINARY_ENEMIES/CHAPTER_05_POWER_AND_RAW_REGISTER.md`
+Current individual enemy owners:
+`../ORDINARY_ENEMIES/` — use the files matching the active roster identities listed above.
 
 ### Highland Resistance Fighter
 Action/raw kit:

@@ -43,8 +43,8 @@
 - Historical mandatory-vs-completionist snapshots are **not current certification**. Current ordinary formations are owned by `../ENCOUNTER_FORMATIONS/CHAPTER_07_FORMATIONS.md`; authored-special placements remain story-integration dependencies.
 - Chapter 7 introduces no new harmful status.
 
-Summary:
-`../ORDINARY_ENEMIES/CHAPTER_07_POWER_AND_RAW_REGISTER.md`
+Current individual enemy owners:
+`../ORDINARY_ENEMIES/` — use the files matching the active roster identities listed above.
 
 ### Prison identity-system firewall
 Ordinary prison/registry identities cannot permanently:

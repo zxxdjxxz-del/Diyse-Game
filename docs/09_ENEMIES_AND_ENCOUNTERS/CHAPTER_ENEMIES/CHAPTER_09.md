@@ -37,8 +37,8 @@
 - Ordinary formations are restored in `../ENCOUNTER_FORMATIONS/CHAPTER_09_FORMATIONS.md`. RH9 exact return trigger remains story-owned; no enemy-design, stat, or Power gap.
 - Chapter 9 introduces no new harmful status.
 
-Summary:
-`../ORDINARY_ENEMIES/CHAPTER_09_POWER_AND_RAW_REGISTER.md`
+Current individual enemy owners:
+`../ORDINARY_ENEMIES/` — use the files matching the active roster identities listed above.
 
 Mercy Warden:
 > Power-complete authored nonlethal identity; 0 HP = disabled/disarmed/unable to continue.

@@ -43,8 +43,8 @@ The current Chapter-4 story authority explicitly allows Annex Duelist to remain 
 - Chapter-4 broad ordinary/strong-normal/protected Power pass is **reopened** because the enemy roster/formations still require rework.
 - Freeze is introduced in Chapter 4.
 
-Summary:
-`../ORDINARY_ENEMIES/CHAPTER_04_POWER_AND_RAW_REGISTER.md`
+Current individual enemy owners:
+`../ORDINARY_ENEMIES/` — use the files matching the active roster identities listed above.
 
 ### Protected-staff placement boundary
 Elemental Researcher, Annex Battle Mage, and Crucible Attendant now have exact action kits, but:

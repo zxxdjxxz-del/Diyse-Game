@@ -37,8 +37,8 @@
 - Eastern forest: Creeper/Boar; Eastern Wayfinder: Scribe/Frame/Wisp; Buried Registry: Sentry/Lens/Ring Drone; Judgment Frame may cross-use.
 - Registry Warden remains status-neutral by design; do not fabricate a generic status rider.
 
-Summary:
-`../ORDINARY_ENEMIES/CHAPTER_10_POWER_AND_RAW_REGISTER.md`
+Current individual enemy owners:
+`../ORDINARY_ENEMIES/` — use the files matching the active roster identities listed above.
 
 All eight remain established identities with Chapter-10 bodies; do not rename them into fake-new variants.
 
