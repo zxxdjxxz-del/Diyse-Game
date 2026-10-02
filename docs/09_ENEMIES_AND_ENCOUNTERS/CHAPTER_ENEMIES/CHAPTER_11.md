@@ -40,8 +40,8 @@
 - Approved opening/middle/late formation compositions/weights restored in `../ENCOUNTER_FORMATIONS/CHAPTER_11_FORMATIONS.md`.
 - Chapter 11 introduces no new harmful status.
 
-Summary:
-`../ORDINARY_ENEMIES/CHAPTER_11_POWER_AND_RAW_REGISTER.md`
+Current individual enemy owners:
+`../ORDINARY_ENEMIES/` — use the files matching the active roster identities listed above.
 
 Face-name identities use thematic terminology only; enemies do not use Cards or Prime Invocation.
 
