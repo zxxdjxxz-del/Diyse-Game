@@ -36,7 +36,4 @@ It does not override current local story/location state and does not make every 
 `Black Host Territory` is a political/territorial control label, not a conventional country name.
 
 ## Current surface-map authority
-The exact final approved world map identified by Audit111 is spatially closed unless the user explicitly reopens a bounded feature.
-
-The map binary is not copied into this migration package.
-Its exact authority is recorded by dimensions/hash in `MAP/WORLD_MAP_AUTHORITY.md`.
+The exact approved world-map source and spatial locks are owned by `MAP/WORLD_MAP_AUTHORITY.md`. Its registered dimensions/hash identify the controlling source; historical audit labels are provenance only. Spatial features remain closed unless the user explicitly reopens a bounded feature.
