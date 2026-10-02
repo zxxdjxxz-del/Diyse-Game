@@ -66,4 +66,4 @@ v0.7 is now the active replacement-mesh deformation test. Continue correcting co
 
 ## Authority boundary
 
-The approved cleaned Ilyra B00 remains exact visual authority and overrides this generated candidate wherever they differ.
+Exact Ilyra appearance is owned by `asset_sources/characters/current/ilyra.jpg` and `docs/14_ART_AND_VISUALS/PRODUCTION/CHARACTERS/ILYRA_CURRENT_VISUAL_LOCK.md`; those current sources override this generated candidate wherever they differ.
