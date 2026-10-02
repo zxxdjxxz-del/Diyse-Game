@@ -15,7 +15,7 @@ All Chapter-10 ordinary enemies will be redesigned in a later enemy pass. Do not
 - None
 
 ## Strong normal-pool identity
-- None
+- **REWORK PENDING — no current Chapter-10 strong-normal identity is locked.**
 
 ## Mandatory named / boss
 - Registry Warden — one bar / Open Registry same-bar escalation
@@ -25,14 +25,11 @@ All Chapter-10 ordinary enemies will be redesigned in a later enemy pass. Do not
 
 ## Current notes
 - Chapter-10 ordinary enemy identity, raw tuning, actions, and formation composition are all **OPEN / REWORK PENDING**.
-- No approved strong normal-pool enemy in current Chapter 10.
+- Strong-normal enemy identity/need is reopened with the rest of the Chapter-10 non-boss roster.
 - No authored/protected identities in current Chapter 10.
 - No Regional Hunt in current Chapter 10.
 - All Chapter-10 ordinary formation composition is reopened for a later enemy/formation pass.
 - Registry Warden remains status-neutral by design; do not fabricate a generic status rider.
-
-Strong normal-pool enemy:
-> **none — intentional**
 
 Registry Warden:
 > **raw line retained / Power-complete / status-neutral**
