@@ -1,7 +1,12 @@
 extends Node
 
 const DEFAULT_AREA := "field_proof"
-const EQUIPMENT_FACES := ["Might", "Elements", "Grace", "Acuity", "Change", "Ruin"]
+const EQUIPMENT_FACES := ["Might", "Elements", "Grace", "Perception", "Memory", "Ruin"]
+const LEGACY_EQUIPMENT_FACE_ALIASES := {
+	"acuity": "Perception",
+	"change": "Memory",
+	"resource": "Perception"
+}
 const MAX_RELIC_COPY_COMPONENTS_PER_FACE := 3
 
 var current_area: String
@@ -275,6 +280,7 @@ func apply_save_dict(data: Dictionary) -> bool:
 	# Relics/components in the new ownership layer.
 	relic_inventory = _dictionary_or_empty(data.get("relic_inventory", {}))
 	forge_components = _dictionary_or_empty(data.get("forge_components", {}))
+	_normalize_equipment_face_records()
 	flags = _dictionary_or_empty(data.get("flags", {}))
 	rewards = _dictionary_or_empty(data.get("rewards", {}))
 	# Loading a disk save must never resurrect a stale scene-to-scene random
@@ -299,10 +305,31 @@ func _registered_relic_copy_component_count(face: String) -> int:
 
 func _canonical_equipment_face(face: String) -> String:
 	var normalized := face.strip_edges().to_lower()
+	if LEGACY_EQUIPMENT_FACE_ALIASES.has(normalized):
+		return str(LEGACY_EQUIPMENT_FACE_ALIASES[normalized])
 	for candidate in EQUIPMENT_FACES:
 		if str(candidate).to_lower() == normalized:
 			return str(candidate)
 	return ""
+
+func _normalize_equipment_face_records() -> void:
+	for raw_id in relic_inventory.keys():
+		var relic_record = relic_inventory.get(raw_id, {})
+		if not (relic_record is Dictionary):
+			continue
+		var canonical_relic_face := _canonical_equipment_face(str(relic_record.get("face", "")))
+		if not canonical_relic_face.is_empty():
+			relic_record["face"] = canonical_relic_face
+			relic_inventory[raw_id] = relic_record
+
+	for raw_id in forge_components.keys():
+		var component_record = forge_components.get(raw_id, {})
+		if not (component_record is Dictionary):
+			continue
+		var canonical_component_face := _canonical_equipment_face(str(component_record.get("face", "")))
+		if not canonical_component_face.is_empty():
+			component_record["face"] = canonical_component_face
+			forge_components[raw_id] = component_record
 
 func _dictionary_array(value: Variant) -> Array[Dictionary]:
 	var result: Array[Dictionary] = []
