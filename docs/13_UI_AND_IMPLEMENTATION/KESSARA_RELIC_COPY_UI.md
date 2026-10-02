@@ -44,12 +44,15 @@ A future service menu must be able to show:
 
 Player-facing wording can be polished without changing the rule.
 
+## Economy handoff
+
+The flat G fee structure and successful-forge transaction rules are owned by `../12_ECONOMY_AND_REWARDS/KESSARA_RELIC_COPY_ECONOMY.md`. Its numeric amount remains provisional. Production UI must read the current economy data and show affordability/fee confirmation when that transaction is implemented; the existing service-logic proof does not certify fee charging.
+
 ## Still OPEN
 - exact service unlock/menu timing;
-- whether a G service fee exists;
-- fee amount;
+- final fee amount through the economy rebuild;
 - exact original-vs-copy visual badge/label;
 - confirmation flow;
 - service animation/presentation.
 
-Do not hardcode a fee while `12_ECONOMY_AND_REWARDS` still marks economy values rebuild/recalibration pending.
+Do not hardcode the provisional fee as a final numeric lock or redefine fee policy in UI. Use the economy owner's transaction rules, including no charge for cancellation, invalid copies or failed transactions.
