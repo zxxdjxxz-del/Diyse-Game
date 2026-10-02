@@ -311,7 +311,9 @@ Adjustment:
 
 This lengthens the fight without increasing per-hit lethality.
 
-# Duration certification
+# Historical pacing target — not current certification
+
+These round-count estimates are retained only as historical pacing intent. They must be revalidated under the current progression/enemy inputs before being used for balance decisions.
 
 ## Mandatory Lv58
 
