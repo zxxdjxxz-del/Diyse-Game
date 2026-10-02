@@ -2,7 +2,7 @@
 
 **Chapter:** 7 — The Prison of Names  
 **Role:** mandatory Chapter-7 climax boss  
-**Status:** **TRUE-BATTLE CERTIFIED v100 / POWER COMPLETE / RETAIN**
+**Status:** **POWER COMPLETE / BALANCE REVALIDATION OPEN**
 
 ## Identity / architecture
 
@@ -345,60 +345,17 @@ is one continuous HP body:
 
 Assertion/Open Revision Layers do not refresh Primes.
 
-Current v100 Awakened-Prime stress testing confirms that Last Sentinel is powerful without deleting the encounter's layer/command-variation structure. Prime rounds remain real combat rounds, and ordinary-party Assertion/Open Revision Layers are not removed by Prime commands.
+Prime rounds remain real combat rounds, and ordinary-party Assertion/Open Revision Layers are not removed by Prime commands.
 
 ---
 
-# TRUE-BATTLE DURATION CERTIFICATION — v100
+# Current validation status
 
-Detailed report:
-> `../../16_BALANCE_AND_TESTING/TRUE_BATTLES/REVISION_ARBITER_TRUE_BATTLE_v100.md`
+The former v100 true-battle snapshot is historical only and is not current difficulty certification. Revalidate this encounter under:
+- `../../16_BALANCE_AND_TESTING/BALANCE/ENEMY_BOSS_MANDATORY_COMPLETIONIST_VALIDATION.md`;
+- `../../16_BALANCE_AND_TESTING/TRUE_BATTLES/TRUE_BATTLE_TEST_PROTOCOL.md`.
 
-## Strict mandatory Lv30 — no Prime
-20,000 design-layer stochastic runs:
-- **100% wins**;
-- median **11 rounds**;
-- mean **10.76**;
-- P90 **12**;
-- any-KO **0.005% (1 / 20,000)**;
-- **0 defeats**.
-
-## Strict mandatory Lv30 — one Awakened Last Sentinel manifestation
-10,000 runs:
-- **100% wins**;
-- median **9 total combat rounds**;
-- mean **9.43**;
-- P90 **11**;
-- **0% any-KO**.
-
-The total includes the three Prime rounds; the Prime does not compress the encounter into a trivial few ordinary turns.
-
-## Completionist Lv34 reference
-5,000 no-Prime runs:
-- **100% wins**;
-- median **8**;
-- mean **8.01**;
-- P90 **9**;
-- **0% any-KO**.
-
-5,000 Last Sentinel runs:
-- **100% wins**;
-- median **8 total combat rounds**;
-- mean **7.86**;
-- P90 **9**;
-- **0% any-KO**.
-
-## Pacing interpretation
-The older paper estimate of ~12–13 mandatory rounds is superseded by the current smart-route true-battle center:
-> **~11 rounds strict no-Prime**
-
-The reason is healthy:
-- setup/support actions can remove damage-reduction layers without wasting the party's strongest attacks;
-- Revision Claim creates real command variation but does not disable actions;
-- completionist advantage is clearly visible;
-- Awakened Last Sentinel primarily improves safety/resource conservation while reducing median total duration by only about two rounds.
-
-No encounter retune is justified.
+The one-body layer architecture, Prime non-refresh rule, and current action/layer mechanics remain encounter-design inputs pending that revalidation.
 
 ---
 
@@ -423,9 +380,9 @@ Non-damaging:
 - Open Revision Layers — **Power N/A**
 - Final Reconciliation — **Power N/A**
 
-> **TRUE-BATTLE PASS / RETAIN v100 / POWER COMPLETE**
+> **POWER COMPLETE / BALANCE REVALIDATION OPEN**
 
-No HP, raw-stat, Power, status-chance, layer-count, action-tax, or repetition-lock change is approved or required.
+Current HP, raw-stat, Power, status-chance, layer-count, action-tax, and repetition-lock values remain encounter-design inputs until an owning redesign or current validation pass changes them.
 
 ## Reward continuity
 
