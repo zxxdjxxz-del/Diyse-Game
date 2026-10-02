@@ -1,7 +1,11 @@
 #!/usr/bin/env python3
-"""Deterministic structure-preserving VFX styling for Diyse Asset Forge.
+"""Technical-only structure-preserving VFX treatment for Diyse Asset Forge.
 
-The first production treatment targets fire/flame sheets. It preserves canvas size,
+The B06 v1 visual treatment was rejected as insufficiently anime/seinen. It remains
+preservation/temporal-QA evidence, not approved production styling. The owning record is
+ docs/14_ART_AND_VISUALS/PRODUCTION/BENCHMARKS/B06_FLAME_STYLE_PASS_CANDIDATE_V1.md.
+
+This proof treatment targets fire/flame sheets. It preserves canvas size,
 frame registration and source alpha exactly while converting photographic/noisy fire
 into broader painterly value masses with selective dark structural accents and a
 bright mostly-unoutlined core.
@@ -41,7 +45,7 @@ def _palette_map(value: np.ndarray) -> np.ndarray:
 
 
 def stylize_fire_rgba(image: Image.Image) -> Image.Image:
-    """Apply the B06 v0.1 fire treatment while preserving source alpha exactly."""
+    """Apply the visually rejected B06 v1 proof treatment, preserving source alpha."""
     rgba = np.asarray(image.convert("RGBA"), dtype=np.uint8)
     rgb = rgba[..., :3].astype(np.float32) / 255.0
     alpha = rgba[..., 3].astype(np.float32) / 255.0
