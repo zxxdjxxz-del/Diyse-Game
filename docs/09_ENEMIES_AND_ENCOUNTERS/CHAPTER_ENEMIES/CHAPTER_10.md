@@ -46,7 +46,7 @@ Strong normal-pool enemy:
 > **none — intentional**
 
 Registry Warden:
-> **FORMALLY VALIDATED v86 / raw line retained / Power-complete / status-neutral**
+> **raw line retained / Power-complete / status-neutral**
 
 ## Numerical boundary
 Chapter-10 ordinary/carryover raw bodies are now active-balance authority in individual files.
@@ -71,7 +71,11 @@ The Warden remains status-neutral exactly as required.
 No Burn, Freeze, Stun, Staggered, Bleed, Poison, Registry status, Barrier, or Break meter is introduced.
 
 
-## v86 mandatory-vs-completionist validation
-See `../../16_BALANCE_AND_TESTING/BALANCE/CHAPTER_10_MANDATORY_COMPLETIONIST_VALIDATION.md`.
+## Current validation status
+Historical mandatory-vs-completionist snapshots are **not current certification**. Re-run Chapter-10 difficulty validation only after the current enemy-tuning and progression inputs are stable enough for the active framework.
 
-Result: **PASS** for all numeric Chapter-10 route enemies. The accepted Eastern Forest formations are restored in `../ENCOUNTER_FORMATIONS/CHAPTER_10_RECOVERED_FORMATIONS.md`; missing per-action percentages use `../ACTION_SELECTION_DEFAULT.md` unless an owning file has explicit weights. No stat or Power retune was required.
+Current ownership remains:
+- Eastern Forest formations — `../ENCOUNTER_FORMATIONS/CHAPTER_10_RECOVERED_FORMATIONS.md`;
+- missing per-action percentages — `../ACTION_SELECTION_DEFAULT.md` unless an owning file has explicit weights.
+
+No current mandatory-vs-completionist certification is asserted by this chapter file.
