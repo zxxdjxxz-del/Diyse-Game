@@ -1,9 +1,7 @@
 # Diyse — Regional Hunt Master Register
-**Migration baseline:** `Diyse_CURRENT_WORKING_TRACKER_CONSOLIDATED_2026-08-27_v85.md`  
-**Historical enemy-production provenance:** Audit90/Audit93 plus later tracker-era roster/action cleanups.
-**Historical raw-stat provenance:** Audit129–Audit135.
-**Authority treatment:** this repository file is current Regional-Hunt-domain authority; Audit/v85 references remain historical provenance only.
-**Migration rule:** current repository Hunt names, numbering, chapter placement, and restoration rules supersede conflicting historical text.
+
+**Status:** ACTIVE REGIONAL-HUNT ENCOUNTER AUTHORITY  
+**Authority:** current enemy-domain Hunt owner plus later explicit approved corrections.  
 
 Current active count:
 > **8 Regional Hunts**
@@ -42,9 +40,9 @@ Support assemblies:
 - Renewal Attendant Frame — HP1,350 / Power N/A / 450 HP Renewal / max3 successful triggers.
 
 ## Difficulty
-Regional Hunts remain above numbered-chapter Elites and below Major Hunts as a class.
+Regional Hunts remain above strong normal-pool enemies and below Major Hunts as a class.
 
-## Power completion — v73
+## Current action-data status
 All current active Regional Hunts have:
 - exact direct-damage Power;
 - Base Hit;
@@ -54,16 +52,17 @@ All current active Regional Hunts have:
 - exact same-bar/fresh-body behavior;
 - exact support Power classification.
 
-Status:
-> **CURRENT ACTIVE REGIONAL HUNTS POWER COMPLETE**
+The register currently supplies explicit direct-damage Power and other required action data for all active Regional Hunts. These are **current implementation references, not frozen final tuning**; the planned enemy-action/stat retuning pass may replace them without changing Hunt identity, access, or form architecture.
 
 No Regional Hunt fresh-body transition restores a spent Prime identity.
 
 Major Hunts remain separate.
 
-## v88 Chapter-12 certification
-Regional Hunt #11 — Throne of Emperor Vaelkor is **FORMALLY VALIDATED v88** at its retained Lv61–62 recommendation. Mandatory Chapter-12 clear is Lv57; completionist Chapter-12 entry is Lv63 and rises through Lv64–66. Exact within-chapter timing remains a story/world-state dependency. No numerical or Power change.
+## Chapter-12 balance status
 
+Regional Hunt #11 — Throne of Emperor Vaelkor retains its current Lv61–62/raw-body line as a **provisional implementation reference**, not a final v88 certification. Its exact within-Chapter-12 timing remains story/world-state owned, and its two-form fresh-body architecture remains current.
+
+Final numeric validation should be rerun after the planned progression and enemy-action/stat retuning work.
 
 ## Regional Hunt #2 retirement — 2026-09-27
 Regional Hunt #2 is retired. **Scaldback is now an ordinary Chapter-2 enemy**, so its former Hunt raw line / recommendation / boss architecture are historical only and must not be used for the ordinary enemy.
