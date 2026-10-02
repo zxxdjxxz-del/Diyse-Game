@@ -27,7 +27,7 @@
 - Prismatic Mantle ends immediately when Prismatic Leviathan's next selected action begins, before that action resolves.
 - Reusing Prismatic Mantle later replaces the prior chosen-element protection rather than stacking another Mantle.
 
-Current v85 working closure fixes **Prismatic Deluge at 90 Power × 4 waves = 360 total per target**. Older Audit116 OPEN wording is superseded at tracker level.
+Current authority fixes **Prismatic Deluge at 90 Power × 4 waves = 360 total per target**.
 
 ## Global Prime references
 - `../PRIME_SYSTEM_RULES.md`

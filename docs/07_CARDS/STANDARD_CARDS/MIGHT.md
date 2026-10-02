@@ -17,7 +17,7 @@
 
 ## Global references
 - MP prices shown here are current repository values.
-- Temporary stat changes resolve through `05_BATTLE_SYSTEM/STAT_CHANGES.md`.
-- Harmful statuses resolve through `05_BATTLE_SYSTEM/STATUS_EFFECTS.md`.
-- Base Hit/Evasion resolves through `05_BATTLE_SYSTEM/BASE_HIT_AND_EVASION.md`.
-- Current Bleed timing/clearing follows Audit122, not stale Audit116 heal-clears-Bleed wording.
+- Temporary stat changes resolve through `../../05_BATTLE_SYSTEM/STAT_CHANGES.md`.
+- Harmful statuses resolve through `../../05_BATTLE_SYSTEM/STATUS_EFFECTS.md`.
+- Base Hit/Evasion resolves through `../../05_BATTLE_SYSTEM/BASE_HIT_AND_EVASION.md`.
+- Current Bleed timing/clearing is owned by `../../05_BATTLE_SYSTEM/STATUS_EFFECTS.md`.
