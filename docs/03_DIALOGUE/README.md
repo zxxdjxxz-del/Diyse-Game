@@ -83,7 +83,7 @@ The Chapters 0–3 read-through is also generated from current atomics. Its play
 
 Obsolete `LINE_COMPLETE/` source sets are not kept in the live repository tree. Chapters 0–3 are represented by their current `PRODUCTION/` atomics, and the retired pre-restructure Chapter-4 S022–S026 / H05 / C08–C09 material is Git-history provenance only until current Chapter-4 dialogue is authored.
 
-The migration-era `CURRENT_DIALOGUE_CORRECTIONS.md` overlay and `EXACT_SOURCE_MANIFEST.md` checksum ledger have also been removed from the live authority surface. Their historical content and hashes remain recoverable through Git history; current chapter indexes, story owners, production atomics, and generated runtime manifests now carry the live information needed for implementation.
+The migration-era `CURRENT_DIALOGUE_CORRECTIONS.md` overlay, `EXACT_SOURCE_MANIFEST.md` checksum ledger, and dated cross-chapter `CHAPTERS_00_03_FULL_SOURCE_CLOSURE_2026-09-13.md` recap have also been removed from the live authority surface. Their historical content and hashes remain recoverable through Git history; current chapter authority indexes, story owners, production atomics, and generated runtime manifests now carry the live information needed for implementation.
 
 The old Chapter-0 locked-manuscript casing overlay, the temporary Chapter-0 quick-pass cumulative manuscript, and the superseded pre-rehearsal Chapter-1 cumulative manuscript have also been removed.
 

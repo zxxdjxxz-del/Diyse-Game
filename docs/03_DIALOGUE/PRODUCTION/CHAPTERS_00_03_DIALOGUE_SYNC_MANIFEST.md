@@ -4,7 +4,7 @@
 
 The atomics remain exact wording authority. Combined manuscripts and the reader are generated derivatives.
 
-**Source closure:** `CHAPTERS_00_03_FULL_SOURCE_CLOSURE_2026-09-13.md`
+**Source authority:** current per-chapter `CHAPTER_##_DIALOGUE_AUTHORITY_INDEX.md` files.
 
 ## Combined manuscripts
 

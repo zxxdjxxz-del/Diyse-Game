@@ -3,7 +3,7 @@
 
 Standalone Markdown scene files under docs/03_DIALOGUE/PRODUCTION/CHAPTER_## are
 exact wording authority. Current character/runtime/spec authorities must already be
-source-closed before this tool is run.
+aligned and approved before this tool is run.
 
 This tool deliberately writes *derived artifacts only*:
 - CHAPTER_##_DIALOGUE_MANUSCRIPT.md for Chapters 0-3
@@ -15,7 +15,7 @@ source-authority/status files must be promoted manually only after generated-out
 verification succeeds.
 
 Modes:
-- --source-check : verify source closure, source selection, protected anchors, and
+- --source-check : verify current source authority, source selection, protected anchors, and
                    retired-canon guards without requiring derived outputs to exist.
 - --check        : verify the generated Markdown manuscripts/manifest without writing.
 - default        : regenerate Markdown/manifest and, unless --no-docx, the reader DOCX.
@@ -33,7 +33,6 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[2]
 PROD = ROOT / "docs/03_DIALOGUE/PRODUCTION"
 SYNC_MANIFEST = PROD / "CHAPTERS_00_03_DIALOGUE_SYNC_MANIFEST.md"
-SOURCE_CLOSURE = PROD / "CHAPTERS_00_03_FULL_SOURCE_CLOSURE_2026-09-13.md"
 READER_OUT = ROOT / "build/dialogue/DIYSE_Chapters_00-03_Spoiler_Free_Exact_Dialogue_Reader.docx"
 
 
@@ -242,25 +241,19 @@ def visible_chapter_text(sources: list[tuple[SourceSpec, Path, bytes, str]]) -> 
     return "\n".join(chunks)
 
 
-def verify_source_closure() -> None:
-    if not SOURCE_CLOSURE.exists():
-        raise RuntimeError(f"Missing source-closure record: {SOURCE_CLOSURE.relative_to(ROOT)}")
-    closure = SOURCE_CLOSURE.read_text(encoding="utf-8")
-    if "Chapters 0–3 are now fully updated at the source level" not in closure:
-        raise RuntimeError("Source-closure record does not contain the required Chapters 0–3 closure decision.")
-
+def verify_source_authority() -> None:
     for chapter in CHAPTERS:
         if not chapter.index.exists():
             raise RuntimeError(f"Missing chapter authority index: {chapter.index.relative_to(ROOT)}")
         index_text = chapter.index.read_text(encoding="utf-8")
-        closure_markers = (
+        authority_markers = (
             "FULL SOURCE-LEVEL DIALOGUE CLOSURE",
             "LOCKED CURRENT CHAPTER-1 DIALOGUE",
             "CURRENT 12-BEAT ATOMIC DIALOGUE AUTHORITY",
         )
-        if not any(marker in index_text for marker in closure_markers):
+        if not any(marker in index_text for marker in authority_markers):
             raise RuntimeError(
-                f"Chapter {int(chapter.chapter)} is not marked with a recognized source-closure status."
+                f"Chapter {int(chapter.chapter)} is not marked with a recognized current dialogue-authority status."
             )
 
 
@@ -350,7 +343,7 @@ def render_sync_manifest(
         "",
         "The atomics remain exact wording authority. Combined manuscripts and the reader are generated derivatives.",
         "",
-        "**Source closure:** `CHAPTERS_00_03_FULL_SOURCE_CLOSURE_2026-09-13.md`",
+        "**Source authority:** current per-chapter `CHAPTER_##_DIALOGUE_AUTHORITY_INDEX.md` files.",
         "",
         "## Combined manuscripts",
         "",
@@ -474,7 +467,7 @@ def add_reader_docx(all_sources: dict[str, list[tuple[SourceSpec, Path, bytes, s
 
 
 def prepare_sources() -> dict[str, list[tuple[SourceSpec, Path, bytes, str]]]:
-    verify_source_closure()
+    verify_source_authority()
     all_sources = {chapter.chapter: resolved_chapter_sources(chapter) for chapter in CHAPTERS}
     protected_checks(all_sources)
     return all_sources
@@ -485,7 +478,7 @@ def main() -> int:
     parser.add_argument(
         "--source-check",
         action="store_true",
-        help="Verify source closure/source selection/protected anchors without checking derived outputs",
+        help="Verify current source authority/source selection/protected anchors without checking derived outputs",
     )
     parser.add_argument("--check", action="store_true", help="Verify Markdown derived outputs without writing")
     parser.add_argument("--no-docx", action="store_true", help="Do not build the reader DOCX")
@@ -497,7 +490,7 @@ def main() -> int:
     all_sources = prepare_sources()
 
     if args.source_check:
-        print("Chapters 0–3 source closure verified: source selection and protected guards pass.")
+        print("Chapters 0–3 source authority verified: source selection and protected guards pass.")
         for chapter in CHAPTERS:
             print(f"- Chapter {int(chapter.chapter)}: {len(all_sources[chapter.chapter])} atomic sources")
         return 0
