@@ -33,16 +33,16 @@ Current Character Quest boss identities:
 - one continuous HP bar;
 - no transformation;
 - exact previously authored kit retained;
-- v90 supplies the missing raw body.
+- the current owner supplies the exact raw body.
 
 ### Old Relay Warden
 - one continuous HP bar;
 - no adds / no transformation;
-- v90 deliberately authors the formerly deferred exact numerical sheet;
+- the current owner supplies the formerly deferred exact numerical sheet;
 - Relay Hammer carries 25% Staggered;
 - electrical Capacitor Arc / Terminal Discharge carry bounded Stun.
 
-## Numerical boundary — CLOSED v90
+## Current numerical boundary
 The prior blanket statement that exact Character Quest boss bodies were deferred is superseded for the four current combat Character Quests.
 
 All four current Character Quest bosses now have:
@@ -52,6 +52,6 @@ All four current Character Quest bosses now have:
 - action weights / eligibility rules;
 - status/stat riders;
 - architecture and action-economy firewalls;
-- mandatory-vs-completionist paper validation.
+- complete current numerical/action sheets; difficulty certification remains separate under the current balance framework.
 
 Nimera and Ilyra intentionally have no boss and require no numerical boss sheet.
