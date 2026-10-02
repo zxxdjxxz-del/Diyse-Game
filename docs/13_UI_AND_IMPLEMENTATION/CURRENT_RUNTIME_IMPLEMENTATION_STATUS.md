@@ -310,17 +310,21 @@ External Person-Agent SQLite continuity remains separate from the production gam
 
 ---
 
-## 9. Current CI caveat
+## 9. CI validation boundary
 
-All new Dialogue Engine validators are listed in:
+The live automated smoke command list is owned by:
 > `.github/workflows/godot-smoke.yml`
 
-Recent hosted `Godot Smoke Validation` jobs are still failing **before any workflow steps start** and report no executed steps/runner details. The latest checked run after the new build client showed the same pre-step failure.
+Broader implementation-level test intent is indexed in:
+> `IMPLEMENTATION_NOTES/VALIDATION_AND_TEST_GATES.md`
 
-Therefore:
-- repository presence/wiring of the validators is verified;
-- a fresh successful hosted execution result is **not** currently available;
-- do not interpret the Actions failure as a discovered GDScript test failure because no test step is being launched.
+GitHub Actions run state is operational evidence for a specific commit, not durable architecture authority. Do not preserve transient runner outages, queued jobs, or one-off workflow failures as a standing repository-status claim in this document.
+
+When CI health matters:
+- inspect the current Actions result for the exact commit being evaluated;
+- distinguish runner/setup failure from an executed test failure;
+- use the checked-in workflow and test files to determine what the repository intends to validate;
+- do not infer gameplay canon from a green or red CI result.
 
 ---
 

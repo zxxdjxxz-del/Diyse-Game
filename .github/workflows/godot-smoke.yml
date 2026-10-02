@@ -81,10 +81,10 @@ jobs:
       - name: Run versioned save/load persistence validation
         run: godot --headless --path . --script tests/save/validate_save_load.gd
 
-      - name: Run 7B.6 production dialogue authoring schema validation
+      - name: Run production dialogue authoring schema validation
         run: godot --headless --path . --script tests/dialogue/validate_authoring_schema.gd
 
-      - name: Run 7B.6 Resource-to-DialogueRunner integration validation
+      - name: Run Resource-to-DialogueRunner integration validation
         run: godot --headless --path . --script tests/dialogue/validate_runner_scene_resource.gd
 
       - name: Run Dialogue Engine packet-to-Resource bridge validation
