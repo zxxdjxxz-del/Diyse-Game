@@ -16,7 +16,7 @@
 | **Sanguine Alloy** | 26 | self | Support | — | — | Attack +20% and Defense +20% for 3 rounds; refreshes, does not stack; no HP cost/self-Bleed/transformation. | Zevraya laboratory sealed cache |
 
 ## Global references
-- MP prices shown here are current repository values; Audit119/v85 remains provenance only.
+- MP prices shown here are current repository values.
 - Temporary stat changes resolve through `05_BATTLE_SYSTEM/STAT_CHANGES.md`.
 - Harmful statuses resolve through `05_BATTLE_SYSTEM/STATUS_EFFECTS.md`.
 - Base Hit/Evasion resolves through `05_BATTLE_SYSTEM/BASE_HIT_AND_EVASION.md`.
