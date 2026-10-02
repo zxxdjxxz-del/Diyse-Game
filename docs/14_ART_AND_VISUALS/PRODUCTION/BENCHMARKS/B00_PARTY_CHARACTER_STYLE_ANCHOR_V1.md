@@ -64,7 +64,7 @@ These are runtime/cohesion shorthand only. The repository images control exact m
 - **Ilyra:** white / pale-blue Warden silhouette, neatly tied-back shorter blonde hair, pale-blue cape, restrained silver protection, vivid green eyes.
 - **Torren:** rugged veteran ranger silhouette, forest-green clothing, tarnished silver/steel armor, lightweight mixed-foliage ghillie mantle, bow and field gear.
 - **Nimera:** medium-dark brown skin, shorter purple locs/twists, white sleeveless clothing/trousers, coat tied at the waist, silver metals, and the locked book prop.
-- **Vaelira:** shoulder-length crimson hair, emerald / black / silver fitted silhouette, royal-blue eyes, Arcane Staff. **No bow or quiver.**
+- **Vaelira:** shoulder-length crimson hair, emerald / black / silver fitted silhouette, royal-blue eyes, and the **staff-free default silhouette shown by the exact master**. Arcane Staff is gameplay equipment that may appear when actively equipped; **no bow or quiver.**
 - **Seyrik:** massive dark-charcoal / black heavy silhouette, short blond hair, deep-red coat/collar accents, and the locked reduced-shine armor distribution.
 
 These shorthand reads must never be used to redraw a character from memory when the exact repository master is available.
