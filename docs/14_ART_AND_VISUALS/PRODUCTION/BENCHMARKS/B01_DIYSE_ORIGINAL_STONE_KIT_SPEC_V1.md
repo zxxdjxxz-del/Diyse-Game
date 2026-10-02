@@ -4,7 +4,7 @@
 **Style source:** `B01_STONE_STYLE_PASS_CANDIDATE_V1.md`  
 **Execution source:** `B01_STONE_EXECUTION_V1.md`
 
-This specification turns the approved B01 stone rendering grammar into a reusable, Diyse-original environment kit.
+This specification turns the B01 stone rendering grammar into a reusable, Diyse-original environment kit under current `../../DIYSE_VISUAL_STYLE_CANON.md`. The existing within-family approval remains gameplay-test/B00-cross-check pending; older candidate language does not restore retired painterly rendering.
 
 ## 1. Production goal
 
@@ -133,12 +133,12 @@ Use at:
 - equal crack density everywhere;
 - heavy line clutter across walkable surfaces.
 
-## 6. Painterly material grammar
+## 6. Graphic material grammar
 
 Stone faces use broad color/value planes with:
-- restrained dry-brush breakup;
+- restrained designed graphic value breakup;
 - selective mineral staining;
-- subtle edge scumble;
+- selective tapered/broken edge accents;
 - sparse pitting;
 - limited warm/cool stone variation;
 - no photo-based high-frequency noise dependence.

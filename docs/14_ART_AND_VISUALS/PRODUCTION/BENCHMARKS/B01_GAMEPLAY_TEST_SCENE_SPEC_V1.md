@@ -81,7 +81,7 @@ Purpose: test strong local warm light against cool-neutral masonry.
 Requirements:
 - warm focal area without orange-washing the entire scene;
 - deep joints gain weight naturally;
-- painterly planes remain visible;
+- graphic stone value planes remain visible;
 - linework does not double up with lighting shadow into black mush.
 
 ### Test C — Cool night / moon
@@ -121,7 +121,7 @@ The scene must deliberately include three line-density bands.
 ### Quiet zone
 - light-facing intact masonry;
 - minimal fractures;
-- mostly painterly planes.
+- mostly quiet graphic value planes.
 
 ### Normal zone
 - standard joints;
@@ -189,6 +189,6 @@ If all checks pass:
 
 `B01 → ACCEPTED`
 
-Then extract the tested rules into **Diyse Visual Material Grammar v1 — Stone** and begin B03 foliage.
+Then extract the tested rules into **Diyse Visual Material Grammar v1 — Stone**. Continue production according to `../../../90_WORKING/ACTIVE_WORK_QUEUE.md` and `README.md`; B03 already retains a within-family approval and must not be restarted by this legacy sequence.
 
 If any major test fails, revise the stone kit or line-density implementation before promotion. Do not weaken the overall style canon merely to rescue one failed stone implementation.
