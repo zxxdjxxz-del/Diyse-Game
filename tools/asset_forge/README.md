@@ -1,6 +1,6 @@
 # Diyse Asset Forge
 
-**Status:** **v0.9 VFX structure-preservation checkpoint**
+**Status:** ACTIVE ASSET TOOLING — structure preservation and technical-only VFX treatment
 
 Diyse Asset Forge automates conversion of the current asset library into the locked Diyse visual style while preserving source provenance, archive identity, atlas/grid registration, animation stability, paired masks, shared-material reuse, lighting families, technical QA, and explicit approval gates.
 
@@ -13,6 +13,7 @@ Diyse Asset Forge automates conversion of the current asset library into the loc
 - `zip_intake_engine.py` — ZIP-native supplemental intake, now including metadata filtering and filename-grid metadata.
 - `vfx_intake_engine.py` — VFX-specific source-role, particle-pair and spritesheet/flipbook intake.
 - `vfx_processing_engine.py` — fixed-grid split/repack, small trailing-padding preservation, palette/transparency preservation and paired-particle validation.
+- `vfx_style_engine.py` — the visually rejected B06 v1 treatment, retained only for technical preservation/temporal QA; not approved production styling.
 
 ## v0.9 VFX structure preservation
 
@@ -156,13 +157,15 @@ Coverage includes atlas/animation/lighting/budget/resume behavior, shared 3D mat
 
 - B01 — **STYLE-PASS APPROVED — GAMEPLAY TEST READY**
 - B03 — **STYLE-PASS APPROVED — GAMEPLAY TEST READY**
-- B06 — **SOURCE ANALYSIS COMPLETE — TECHNICAL STYLE PILOT READY**
+- B06 — **SOURCE ANALYSIS COMPLETE — TECHNICAL PRESERVATION PROOF COMPLETE — ANIME STYLE PILOT REQUIRED**
 - B10 — **STYLE-PASS APPROVED — GAMEPLAY/RUNTIME TEST READY**
 - Props/Cloth shared families — **REAL-MODEL FAMILY CANDIDATE — USER REVIEW PENDING**
 - Supplemental Texture Batch 1 — **INVENTORIED — PROVENANCE PENDING**
 - Verified CC0 VFX Batch 2 — **INTAKE COMPLETE — STYLE/RUNTIME VALIDATION READY**
 
-The next B06 step is a bounded Diyse-style fire/light candidate using one open flame, one full fire body, one ring/ground-fire family, sparks and soft light/flare primitives. It must pass temporal, alpha/emission and runtime-scale tests before STYLE-PASS.
+The next B06 step is a replacement anime/seinen treatment on `flame_01_16x4`. The existing v1 treatment passed technical preservation QA but was visually rejected. Obtain visual approval of the replacement flame grammar before propagating to full fire, ring/ground-fire, sparks or light/flare families. Temporal, alpha/emission and runtime-scale gates remain required; technical QA alone does not grant STYLE-PASS.
+
+Current B06 state and sequencing are owned by `docs/14_ART_AND_VISUALS/PRODUCTION/BENCHMARKS/B06_CC0_FIRE_LIGHT_EXECUTION_V1.md`; the rejection record is `docs/14_ART_AND_VISUALS/PRODUCTION/BENCHMARKS/B06_FLAME_STYLE_PASS_CANDIDATE_V1.md` despite its legacy filename.
 
 ## Authority
 
