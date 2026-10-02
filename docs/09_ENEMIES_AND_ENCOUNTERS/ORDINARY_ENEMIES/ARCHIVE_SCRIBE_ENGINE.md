@@ -1,7 +1,6 @@
 # Memory Construct
 
 **Chapter-3 authority:** mandatory Beat-11 Old City Archives boss  
-**Chapter-10 reuse:** ordinary construct reuse under Chapter-10 tuning  
 **Status:** **CHAPTER-3 BOSS IDENTITY / ARCHITECTURE / ACTION GRAMMAR LOCKED — BOSS RAW BODY REVALIDATION REQUIRED**
 
 ## Chapter-3 role
@@ -115,18 +114,5 @@ The already-authored Chapter-3 direct-damage Powers remain:
 - Scribe Beam — 155;
 - Index Burst — 120 per target.
 
-## Chapter-10 Eastern Wayfinder ordinary reuse
-Chapter-10 body:
-| Lv | HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR |
-|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| 43 | **1,050** | 72 | **158** | 86 | **102** | 35 | 0 | 10 |
-
-Chapter-10 actions:
-- Scribe Beam — **210 Power**, Magical / Colorless, Base Hit100
-- Index Burst — **165 Power per target**, Magical / Colorless, Base Hit100, 2-round repetition lock
-- Record Stabilization — **Power N/A**, Defense +10 / Spirit +10 through end following round
-
-True construct:
-> **Bleed Immune**
-
-Chapter-10 ordinary reuse does not make the Chapter-3 boss random-spawn eligible.
+## Reuse boundary
+Former Chapter-10 ordinary reuse is retired. Memory Construct remains a Chapter-3 mandatory boss identity only unless a later explicit owner establishes new reuse.

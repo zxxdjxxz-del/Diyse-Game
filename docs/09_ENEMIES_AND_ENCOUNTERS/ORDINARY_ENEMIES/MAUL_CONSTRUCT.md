@@ -6,7 +6,7 @@
 
 Maul Construct is the current Chapter-3 identity replacing the former **Judgment Frame** Chapter-3 role/name.
 
-This successor mapping is Chapter-3-specific. It does not globally delete later separately owned Judgment Frame reuse.
+Judgment Frame has no current placement after retirement of its former Chapter-10 reuse; Git history retains its historical tuning.
 
 ## Chapter-3 introduction and placement
 
@@ -50,7 +50,7 @@ Numeric/action status:
 - **OPEN / DEFERRED** under `../CHAPTER_ENEMIES/CHAPTER_03.md`; exact per-enemy tuning remains for the later Chapter-3 combat/balance pass.
 
 Historical predecessor:
-- `JUDGMENT_FRAME.md`
+- Judgment Frame — retired; historical details remain in Git history.
 
 ## Visual authority
 

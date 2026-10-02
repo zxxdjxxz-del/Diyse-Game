@@ -6,7 +6,7 @@
 
 Flash Drone is the current Chapter-3 identity replacing the former **Authority Lens** Chapter-3 role/name.
 
-This successor mapping is Chapter-3-specific. It does not globally delete later separately owned Authority Lens reuse.
+Authority Lens has no current placement after retirement of its former Chapter-10 reuse; Git history retains its historical tuning.
 
 ## Chapter-3 placement
 
@@ -52,7 +52,7 @@ Numeric/action status:
 - **OPEN / DEFERRED** under `../CHAPTER_ENEMIES/CHAPTER_03.md`; exact per-enemy tuning remains for the later Chapter-3 combat/balance pass.
 
 Historical predecessor:
-- `AUTHORITY_LENS.md`
+- Authority Lens — retired; historical details remain in Git history.
 
 ## Visual authority
 

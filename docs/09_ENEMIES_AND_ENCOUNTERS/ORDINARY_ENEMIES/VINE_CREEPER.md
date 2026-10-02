@@ -33,19 +33,7 @@ Effect:
 No Barrier.
 
 ## Reuse boundary
-Chapter-10 and quest reuse requires chapter-appropriate raw scaling.
-
-## Chapter-10 eastern-forest body
-| Lv | HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR |
-|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| 42 | **1,050** | **138** | **142** | 88 | 88 | 31 | 0 | 5 |
-
-Chapter-10 actions:
-- Thorn Lash — **180 Power**, Physical / Neutral, Base Hit100
-- Root Spit — **190 Power**, Magical / Earth, Base Hit100, **20% Staggered**, 2-round repetition lock
-- Harden — **Power N/A**, Defense +10 through end following round
-
-Same identity; no renamed late-game variant.
+Former Chapter-10 reuse is retired. Any future reuse requires a new owning chapter/quest decision and chapter-appropriate tuning; do not carry the retired Chapter-10 body/actions forward by default.
 
 ## Chapter-1 behavior lock
 - Thorn Lash / Root Spit use the normal action-selection fallback when legal.

@@ -4,14 +4,9 @@
 
 
 ## Ordinary / repeatable
-- Thornvine Creeper
-- Briar Boar
-- Archive Scribe Engine
-- Judgment Frame
-- Erasure Wisp
-- Command Guard Frame
-- Authority Lens
-- Command Ring Drone
+- **REWORK PENDING — no current Chapter-10 ordinary enemy identities are locked.**
+
+All Chapter-10 ordinary enemies will be redesigned in a later enemy pass. Do not restore any retired carryover package, and do not infer replacement identities during repository cleanup.
 
 ## Support objects / support identities
 - None
@@ -20,7 +15,7 @@
 - None
 
 ## Strong normal-pool identity
-- None
+- **REWORK PENDING — no current Chapter-10 strong-normal identity is locked.**
 
 ## Mandatory named / boss
 - Registry Warden — one bar / Open Registry same-bar escalation
@@ -29,27 +24,18 @@
 - None
 
 ## Current notes
-- Exactly 8 default reused ordinary identities; 0 new ordinary identities required.
-- Chapter-10 reused-ordinary Power coverage: **COMPLETE**.
-- No approved strong normal-pool enemy in current Chapter 10.
+- Chapter-10 ordinary enemy identity, raw tuning, actions, and formation composition are all **OPEN / REWORK PENDING**.
+- Strong-normal enemy identity/need is reopened with the rest of the Chapter-10 non-boss roster.
 - No authored/protected identities in current Chapter 10.
 - No Regional Hunt in current Chapter 10.
-- Eastern forest: Creeper/Boar; Eastern Wayfinder: Scribe/Frame/Wisp; Buried Registry: Sentry/Lens/Ring Drone; Judgment Frame may cross-use.
+- All Chapter-10 ordinary formation composition is reopened for a later enemy/formation pass.
 - Registry Warden remains status-neutral by design; do not fabricate a generic status rider.
-
-Current individual enemy owners:
-`../ORDINARY_ENEMIES/` — use the files matching the active roster identities listed above.
-
-All eight remain established identities with Chapter-10 bodies; do not rename them into fake-new variants.
-
-Strong normal-pool enemy:
-> **none — intentional**
 
 Registry Warden:
 > **raw line retained / Power-complete / status-neutral**
 
 ## Numerical boundary
-Chapter-10 ordinary/carryover raw bodies are now active-balance authority in individual files.
+No Chapter-10 ordinary enemy raw body/action package is currently locked. Ordinary-enemy tuning and formation-level balance authority are reopened together.
 
 Mandatory Registry Warden authority remains separately owned and unchanged.
 
@@ -75,7 +61,7 @@ No Burn, Freeze, Stun, Staggered, Bleed, Poison, Registry status, Barrier, or Br
 Historical mandatory-vs-completionist snapshots are **not current certification**. Re-run Chapter-10 difficulty validation only after the current enemy-tuning and progression inputs are stable enough for the active framework.
 
 Current ownership remains:
-- Eastern Forest formations — `../ENCOUNTER_FORMATIONS/CHAPTER_10_RECOVERED_FORMATIONS.md`;
+- ordinary formation composition — **OPEN / no current locked Chapter-10 formation table**;
 - missing per-action percentages — `../ACTION_SELECTION_DEFAULT.md` unless an owning file has explicit weights.
 
 No current mandatory-vs-completionist certification is asserted by this chapter file.

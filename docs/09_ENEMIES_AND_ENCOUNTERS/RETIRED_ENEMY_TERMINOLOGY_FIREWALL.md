@@ -36,6 +36,12 @@ Retired with no current enemy owner:
 - **Watch Sentry / Watch Ballista / Watch Captain Frame** — retired Hollow Watch encounter grammar; current underground combat uses Construct plus the fixed Shield Construct encounter
 - **Archive Duplicant** — retired Chapter-2 Elite design with no current placement
 - **Grand Inquisitor Frame** — retired Chapter-3 Elite/strong-normal design with no current placement
+- **Judgment Frame** — former Chapter-3 role superseded by Maul Construct; former Chapter-10 reuse retired; no current placement
+- **Authority Lens** — former Chapter-3 role superseded by Flash Drone; former Chapter-10 reuse retired; no current placement
+- **Erasure Wisp** — former Chapter-3 role superseded by Scriptshade; former Chapter-10 reuse retired; no current placement
+- **Command Guard Frame** — former Chapter-3 placement retired; former Chapter-10 reuse retired; no current placement
+- **Command Ring Drone** — former Chapter-3 placement retired; former Chapter-10 reuse retired; no current placement
+- **Briar Boar** — retired Chapter-1 name/identity superseded there by Bullhog; former Chapter-10 reuse retired; no current placement
 
 Retired authored encounter packages:
 - **Chapter 0 S005 Final Broken Convoy model** — superseded by the current B06 Riftmaw + Battle Sorcerer combined encounter

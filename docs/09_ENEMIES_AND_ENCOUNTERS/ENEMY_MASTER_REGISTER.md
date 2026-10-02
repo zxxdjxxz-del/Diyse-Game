@@ -145,14 +145,7 @@ This is a **chapter-role register**, so a recurring identity may appear in multi
 | 9 | Mandatory named/boss | Equal Mercy Arbiter — one continuous HP bar |
 | 9 | Mandatory named/boss | Commander Rhazek — Reforged Commander → Bastion Devourer — genuine fresh body |
 | 9 | Regional Hunt | Regional Hunt #9 — Mercyfallen Behemoth |
-| 10 | Ordinary/carryover | Vine Creeper |
-| 10 | Ordinary/carryover | Briar Boar |
-| 10 | Ordinary/carryover | Memory Construct |
-| 10 | Ordinary/carryover | Judgment Frame |
-| 10 | Ordinary/carryover | Erasure Wisp |
-| 10 | Ordinary/carryover | Command Guard Frame |
-| 10 | Ordinary/carryover | Authority Lens |
-| 10 | Ordinary/carryover | Command Ring Drone |
+| 10 | Ordinary/repeatable | **REWORK PENDING — no current ordinary identities locked** |
 | 10 | Mandatory named/boss | Registry Warden — one bar / Open Registry same-bar escalation |
 | 11 | Ordinary/carryover | Crown Engine Sentinel |
 | 11 | Ordinary/carryover | Continuity Adjudicator |

@@ -6,7 +6,7 @@
 
 Scriptshade is the current Chapter-3 replacement for the former **Erasure Wisp** Chapter-3 identity/slot.
 
-This successor mapping is Chapter-3-specific. It does not globally delete later separately owned Erasure Wisp reuse.
+Erasure Wisp has no current placement after retirement of its former Chapter-10 reuse; Git history retains its historical tuning.
 
 ## Chapter-3 placement
 
@@ -51,7 +51,7 @@ Numeric/action status:
 - **OPEN / DEFERRED** under `../CHAPTER_ENEMIES/CHAPTER_03.md`; exact per-enemy tuning remains for the later Chapter-3 combat/balance pass.
 
 Historical predecessor:
-- `ERASURE_WISP.md`
+- Erasure Wisp — retired; historical details remain in Git history.
 
 ## Visual authority
 
