@@ -21,7 +21,7 @@ High-value production regressions:
 - enemy/entity AI chooses from the legitimate state when its turn arrives
 - Item and Defend do **not** receive universal priority phases
 - no whole-party action queue / universal Confirm Round gate
-- Speed changes affect later ordering according to current battle-system authority
+- initiative remains locked for the current round after setup; mid-round Speed changes affect the next round only if still active
 - no Speed extra actions unless explicitly authored
 - legal retarget behavior.
 
