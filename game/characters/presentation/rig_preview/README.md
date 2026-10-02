@@ -70,6 +70,12 @@ First live scene using the actual replacement Ilyra shell rather than the older 
 
 v0.6 exposed large flexible-to-rigid seam gaps at the wrists and ankles, so it is retained as the regression point for that failure.
 
+## Shared production-preview implementation
+
+`ilyra_production_preview_base.gd` owns the common live-production preview behavior: the UAL stress sequence, 100-bone validation, spring simulator, collisions, debug markers, turntable controls and HUD plumbing.
+
+The v0.6 and v0.7 scripts are thin version-specific wrappers that supply only their mesh path, actor name and display labels. The current v0.7 preview no longer inherits implementation through the historical v0.6 wrapper.
+
 ## Current active test — Ilyra Production Mesh v0.7
 
 Run:
