@@ -268,8 +268,10 @@ Revalidation must cover:
 
 Raw stats/Powers are not automatically changed by the placement revision.
 
-Detailed prior proof remains historical baseline/reference:
-`../../16_BALANCE_AND_TESTING/BALANCE/CHAPTER_00_MANDATORY_COMPLETIONIST_VALIDATION.md`
+Current revalidation framework:
+`../../16_BALANCE_AND_TESTING/BALANCE/ENEMY_BOSS_MANDATORY_COMPLETIONIST_VALIDATION.md`
+
+Historical Chapter-0 proof remains available through Git history only.
 
 
 ## Chapter-0 roster lock
