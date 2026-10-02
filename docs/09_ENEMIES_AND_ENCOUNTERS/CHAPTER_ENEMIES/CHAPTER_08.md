@@ -35,8 +35,8 @@
 - Chapter-8 broad ordinary / Elite Power pass: **PASS**.
 - Chapter 8 introduces no new harmful status.
 
-Summary:
-`../ORDINARY_ENEMIES/CHAPTER_08_POWER_AND_RAW_REGISTER.md`
+Current individual enemy owners:
+`../ORDINARY_ENEMIES/` — use the files matching the active roster identities listed above.
 
 ### Authored/protected correction
 Current Chapter-8 roster authority contains:
