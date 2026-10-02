@@ -179,7 +179,7 @@ Test back-mounted bow, exact right-hip arrow draw/quiver layout, mixed-foliage g
 Test dense braided/updo hair, purple constellation waist garment, green Cardweaver book/card attachments, and utility hardware without clipping or noisy motion.
 
 ### Vaelira
-Test long crimson/burgundy hair, emerald/black/silver garment separation, Arcane Staff handling, and vivid caster silhouette. **No archer/ranger cues or bow animations.**
+Test shoulder-length crimson/burgundy hair, emerald/black/silver garment separation, the staff-free default silhouette from the exact current master, and vivid caster readability. Separately test Arcane Staff attachment/handling when the gameplay loadout displays an equipped staff. **No archer/ranger cues or bow animations.**
 
 ### Seyrik
 Test broad muscular proportions, black/crimson Black Host skeletal/rib-like armor articulation, long outer-garment mass, and oversized two-handed greatsword handling.
