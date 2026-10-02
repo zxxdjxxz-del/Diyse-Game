@@ -30,7 +30,7 @@
 
 ## Current notes
 - Exactly 8 default reused ordinary identities; 0 new ordinary identities required.
-- Chapter-10 reused-ordinary Power pass: **PASS**.
+- Chapter-10 reused-ordinary Power coverage: **COMPLETE**.
 - No approved strong normal-pool enemy in current Chapter 10.
 - No authored/protected identities in current Chapter 10.
 - No Regional Hunt in current Chapter 10.
