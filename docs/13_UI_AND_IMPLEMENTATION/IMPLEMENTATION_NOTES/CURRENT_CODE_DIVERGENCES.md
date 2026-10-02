@@ -56,7 +56,7 @@ Current production battle flow:
 - enemy/entity AI likewise chooses its legal action when its turn arrives from the then-current legitimate state;
 - **Item** and **Defend** have no separate universal priority phases;
 - there is no whole-party action queue and no universal **Confirm Round** step;
-- Speed changes during the round affect later round ordering unless an explicit authored effect overrides the normal rule.
+- normal initiative locks for the rest of the round after beginning-of-round setup; mid-round Speed changes do **not** reshuffle that round, but affect the next round's initiative if still active.
 
 Do not use the current proof queue/confirm architecture as production battle-flow authority.
 
