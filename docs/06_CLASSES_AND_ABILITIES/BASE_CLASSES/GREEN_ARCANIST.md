@@ -29,7 +29,7 @@
 | CL9 | **Efficient Spectrum** | First eligible elemental Green Arcanist Base Ability each ordinary round costs 2 less MP, minimum 1. |
 | CL12 | **Spectrum Pressure** | Prism Lance +15 Power; Spectrum Cascade +15 Power. |
 
-All four Core Masteries unlock automatically at the listed Class Levels under the current v85 working override.
+All four Core Masteries unlock automatically at the listed Class Levels under current class-domain authority.
 
 
 ## Global references

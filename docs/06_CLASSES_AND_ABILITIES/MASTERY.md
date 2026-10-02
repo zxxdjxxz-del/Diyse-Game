@@ -8,14 +8,14 @@
 
 Masteries unlock automatically by Class Level.
 
-This supersedes the old tracker-level:
+This supersedes the retired point-purchase model:
 - 8-point schedule;
 - point banking;
 - point spending;
 - Sixfold Volition Mastery Point;
 - Lv40 / Lv50 / Lv60 Mastery Point grants.
 
-Audit123 remains historical provenance for the superseded point-purchase model. Current repository authority controls implementation and authoring: automatic Class-Level unlocks are the active rule.
+Git history preserves that superseded model for provenance only. Current repository authority controls implementation and authoring: automatic Class-Level unlocks are the active rule.
 
 ## Core Masteries
 | Character | Class | Unlock | Mastery | Effect |
@@ -93,7 +93,7 @@ A character's own native Base-Class Legacy:
 
 ## Historical mechanical Node-3 quarantine
 
-Before the v85 restructuring, each Subclass had a third mechanical Mastery:
+Before the current four-node Subclass Mastery structure, each Subclass had a third mechanical Mastery:
 - Crest Arcanist — Perfect Nullification
 - Vowblade — Unfaltering Edge
 - Routeweaver — Safe Passage
@@ -101,4 +101,4 @@ Before the v85 restructuring, each Subclass had a third mechanical Mastery:
 - Axiomblade — Exact Equivalence
 - Ruin Warden — Strengthened Ward
 
-Those effects are **not active Subclass Mastery nodes in the current v85 four-node structure** unless a later explicit rule rehomes them. Do not silently preserve them beside Equipment/Legacy Mastery and accidentally create five or six Subclass Masteries.
+Those effects are **not active Subclass Mastery nodes in the current four-node structure** unless a later explicit rule rehomes them. Do not silently preserve them beside Equipment/Legacy Mastery and accidentally create five or six Subclass Masteries.

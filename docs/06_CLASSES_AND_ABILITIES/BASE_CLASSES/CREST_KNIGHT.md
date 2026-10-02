@@ -69,7 +69,7 @@ Crest of Companions does not revive KO party members and does not cleanse or buf
 | CL9 | **Clear Channel** | Resonant Pulse costs 1 less MP: 10 → **9**. |
 | CL12 | **Penetrating Crest** | Crest Rend gains **+10 percentage points** of applicable penetration on both its Attack-derived and Magic-derived shares, raising its current base 30%/30% package to **40% Defense penetration / 40% Spirit penetration**. |
 
-All four Core Masteries unlock automatically at the listed Class Levels under the current v85 working override.
+All four Core Masteries unlock automatically at the listed Class Levels under current class-domain authority.
 
 
 ## Global references

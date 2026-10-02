@@ -52,7 +52,7 @@ Dawn Without End does not revive summons, devices, Prime manifestations, or perm
 | CL9 | **Restored Breath** | Revive recovery 35% → **45% target Max HP**. |
 | CL12 | **Stronger Lifeline** | Lifeline emergency Max-HP heal component 18% → **23%**; +0.80 × Magic remains unchanged. |
 
-All four Core Masteries unlock automatically at the listed Class Levels under the current v85 working override.
+All four Core Masteries unlock automatically at the listed Class Levels under current class-domain authority.
 
 
 ## Global references

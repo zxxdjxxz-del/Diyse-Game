@@ -99,7 +99,7 @@ The MP column reflects current authored Base MP prices after the approved **15% 
 The register uses the current class-specific normalized Subclass progression:
 **CL1 / CL4 / CL7 / CL9 / CL11 / CL13**.
 
-Do not use the stale generic v85 summary line that places the fifth Subclass Ability at CL10 to overwrite the class-specific normalized kits.
+Do not use the retired generic summary line that places the fifth Subclass Ability at CL10 to overwrite the current class-specific normalized kits.
 
 ## Power authority
 Exact direct-damage coefficients are indexed in `CLASS_ACTION_POWER_REGISTER.md`.

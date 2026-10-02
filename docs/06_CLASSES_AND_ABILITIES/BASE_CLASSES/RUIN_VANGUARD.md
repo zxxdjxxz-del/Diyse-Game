@@ -103,7 +103,7 @@ Controlled Apocalypse does not add a direct Bleed rider to its own AoE; Bleed re
 | CL9 | **Bound Fang** | Shardfang Pounce 135 → **145 Power**; Rend 100 → **110 Power**; Controlled Apocalypse's Empowered Rend 150 → **160 Power**. |
 | CL12 | **Controlled Unmaking** | Unmaking Blow costs 2 less MP: 26 → **24**; its Bleeding-target final-damage bonus +15% → **+20%**. |
 
-All four Core Masteries unlock automatically at the listed Class Levels under the current v85 working override.
+All four Core Masteries unlock automatically at the listed Class Levels under current class-domain authority.
 
 
 ## Global references
