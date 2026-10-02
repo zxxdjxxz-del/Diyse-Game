@@ -70,7 +70,7 @@ Current synchronization contract:
 - generated directly from current production atomics;
 - source and spoken-sequence hashes recorded in `game/content/dialogue/current/manifest.json`;
 - validated in Godot by `tests/dialogue/validate_current_dialogue_resources.gd`;
-- the former direct `game/content/dialogue/chapter_00` through `chapter_03` runtime folders and obsolete Chapter-4 proof resources are retired from the live tree and recoverable through Git history; only `current/` is the live generated mirror.
+- the former direct `game/content/dialogue/chapter_00` through `chapter_03` runtime folders and obsolete Chapter-4 proof resources are retired from the live tree and recoverable through Git history; only `current/` is the live generated mirror, while `proof/` contains only two non-canon dialogue-engine test fixtures.
 
 Regenerate/check with:
 

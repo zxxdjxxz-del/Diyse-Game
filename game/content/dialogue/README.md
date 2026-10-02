@@ -16,6 +16,15 @@ Chapter 4 does not yet have approved exact runtime dialogue. Do not regenerate o
 Chapter 4 runtime mirror until current Chapter 4 dialogue has been authored, Canon Checker-passed,
 and explicitly approved.
 
+## Non-canon schema fixtures
+
+`proof/` is retained only for the two active dialogue-engine test fixtures:
+- `PROOF_SCHEMA.tres`;
+- `proof_portrait_registry.tres`.
+
+They are non-canon implementation fixtures, not dialogue wording authority. Historical chapter
+proof resources are not allowed in this subtree.
+
 ## Source of truth
 
 Exact spoken wording remains owned by approved atomics in
@@ -27,6 +36,7 @@ Exact spoken wording remains owned by approved atomics in
 
 Allowed direct entries under `game/content/dialogue/` are only:
 - `README.md`;
-- `current/`.
+- `current/`;
+- `proof/`.
 
-Direct `chapter_##/`, `proof/`, or other historical runtime folders are a validation failure.
+Direct `chapter_##/` runtime folders or historical chapter resources under `proof/` are a validation failure.

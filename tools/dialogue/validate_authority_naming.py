@@ -210,7 +210,7 @@ def validate_cross_chapter_names(errors: list[str]) -> None:
 
 
 def validate_runtime_dialogue_layout(errors: list[str]) -> None:
-    allowed_root_entries = {"README.md", "current"}
+    allowed_root_entries = {"README.md", "current", "proof"}
     if not RUNTIME_DIALOGUE_ROOT.is_dir():
         errors.append(f"{RUNTIME_DIALOGUE_ROOT.relative_to(ROOT)}: runtime dialogue root missing")
         return
@@ -219,7 +219,7 @@ def validate_runtime_dialogue_layout(errors: list[str]) -> None:
         if path.name not in allowed_root_entries:
             errors.append(
                 f"{path.relative_to(ROOT)}: live runtime dialogue root permits only "
-                "README.md and current/"
+                "README.md, current/, and proof/"
             )
 
     for chapter in range(0, 100):
@@ -233,6 +233,18 @@ def validate_runtime_dialogue_layout(errors: list[str]) -> None:
     current = RUNTIME_DIALOGUE_ROOT / "current"
     if not current.is_dir():
         errors.append(f"{current.relative_to(ROOT)}: generated current runtime mirror missing")
+
+    proof = RUNTIME_DIALOGUE_ROOT / "proof"
+    allowed_proof_entries = {"PROOF_SCHEMA.tres", "proof_portrait_registry.tres"}
+    if not proof.is_dir():
+        errors.append(f"{proof.relative_to(ROOT)}: dialogue schema proof fixtures missing")
+    else:
+        for path in sorted(proof.iterdir()):
+            if path.name not in allowed_proof_entries:
+                errors.append(
+                    f"{path.relative_to(ROOT)}: proof/ permits only the two active non-canon "
+                    "dialogue schema fixtures; historical chapter proof resources belong in Git history"
+                )
 
 
 def main() -> int:
