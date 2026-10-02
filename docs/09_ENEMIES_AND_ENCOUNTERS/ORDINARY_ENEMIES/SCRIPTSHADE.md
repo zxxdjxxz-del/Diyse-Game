@@ -47,8 +47,8 @@ Roster and placement:
 Formation structure:
 - `../ENCOUNTER_FORMATIONS/CHAPTER_03_FORMATIONS.md`
 
-Power/raw-status boundary:
-- `CHAPTER_03_POWER_AND_RAW_REGISTER.md`
+Numeric/action status:
+- **OPEN / DEFERRED** under `../CHAPTER_ENEMIES/CHAPTER_03.md`; exact per-enemy tuning remains for the later Chapter-3 combat/balance pass.
 
 Historical predecessor:
 - `ERASURE_WISP.md`
