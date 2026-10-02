@@ -68,7 +68,7 @@ No Prime use is mandatory.
 |---:|---:|---:|---:|---:|---:|---:|---:|---:|
 | 18 | **2,400** | **64** | **90** | **54** | **57** | **30** | 0 | 10 |
 
-Audit130's corrected **2,400 HP** is retained.
+The current **2,400 HP** value is retained.
 
 The old ATK54 / MAG73 line is superseded by the current Power-complete pressure pass.
 
