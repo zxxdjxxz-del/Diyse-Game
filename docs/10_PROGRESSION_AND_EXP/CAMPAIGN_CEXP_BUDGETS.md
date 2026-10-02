@@ -1,4 +1,8 @@
 # Diyse — Campaign CEXP Budgets
+
+**Status:** PROVISIONAL CEXP PLANNING BASELINE — REBUILD PENDING  
+**Authority:** current progression-domain owner; values are retained only as rebuild inputs.  
+
 **v91 budget recalibration + v92 recruitment-aware proof correction:** 2026-08-29
 
 > **STATUS — PROVISIONAL NUMERIC BASELINE / REBUILD PENDING.**  
@@ -24,14 +28,14 @@ Unchanged.
 Ch1–7 total:
 > **4,950 CEXP**
 
-## Recruitment-aware application — v92
+## Recruitment-aware planning application
 Chapter totals are awards available across the chapter; they are **not retroactive** for characters who join partway through it. Canonical expected-route post-recruit pickup for simulation is:
 - Torren: **150** of Ch1 after permanent recruitment;
 - Nimera: **300** of Ch3 after permanent recruitment;
 - Vaelira: **500** of Ch4 after permanent recruitment;
 - Seyrik: **0** of Ch6 after permanent recruitment because he joins at chapter end.
 
-See `CLASS_RECRUITMENT_AND_STARTING_CEXP.md` and `CEXP_RECALIBRATION_PROOF_v92.md`.
+See `CLASS_RECRUITMENT_AND_STARTING_CEXP.md` for recruitment-state inputs. The derived proof will be regenerated only after the CEXP rebuild.
 
 ## Post-Volition
 
@@ -48,7 +52,7 @@ Chapter 13 is intentionally back-loaded toward the pre–Last Shelter segment:
 - pre–Last Shelter: **1,500 CEXP**;
 - post–Last Shelter: **250 CEXP**.
 
-The mandatory-route proof therefore reaches exactly **8,500 post-Volition CEXP by Last Shelter (~Lv60)**. This lets the largest catch-up case, Seyrik, finish full Base + Subclass progression at the top of the target window while earlier recruits finish sooner.
+These post-Volition totals are retained only as the current planning stream; they do not certify exact completion timing.
 
 ## Acceptance target
 Correctly managed mandatory route:
