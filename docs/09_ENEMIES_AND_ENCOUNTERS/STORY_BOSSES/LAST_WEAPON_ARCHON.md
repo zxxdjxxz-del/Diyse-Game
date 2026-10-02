@@ -3,7 +3,7 @@
 **Chapter:** 13 — The Last Command  
 **Location:** Last Weapon Archive  
 **Role:** mandatory pre–Last Shelter Ancient guardian  
-**Status:** **FORMALLY VALIDATED v89 / RAW LINE RETAINED / POWER COMPLETE**
+**Status:** **RAW LINE RETAINED / POWER COMPLETE / BALANCE REVALIDATION OPEN**
 
 ## Story boundary
 
@@ -373,5 +373,5 @@ Afterward:
 The Archon does not itself cross the true point of no return.
 
 
-## v89 mandatory-vs-completionist certification
-**PASS / FORMALLY VALIDATED.** Exact references are Lv58 mandatory / Lv69 broad completionist / Lv70 full completionist. The retained 20,800-HP body preserves the existing ~15–17 mandatory / ~9–12 completionist pacing. On the fragile unequipped Lv58 Green Arcanist reference, Compression Verdict is ~25% Max HP and Weapon Discharge ~14% per target. No raw stat or Power changed.
+## Current validation status
+Historical chapter-level certification is not current authority. Difficulty certification is **OPEN** pending revalidation under `../../16_BALANCE_AND_TESTING/BALANCE/ENEMY_BOSS_MANDATORY_COMPLETIONIST_VALIDATION.md` with current progression and encounter inputs.
