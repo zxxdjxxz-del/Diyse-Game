@@ -1,9 +1,13 @@
 # Diyse — B10 Deterministic Material Baseline Pilot v1
 
 **Benchmark:** B10 — Verified CC0 Prop Cluster  
-**Status:** TECHNICAL PILOT PASS / VISUAL STYLE-PASS NOT YET APPROVED  
+**Status:** HISTORICAL BASELINE EVIDENCE — TECHNICAL PILOT PASS; SUPERSEDED BY v2 / LATER APPROVAL  
 **Date:** 2026-08-31  
 **Source:** Quaternius Fantasy Props MegaKit [Standard] — verified CC0
+
+## Current evidence boundary
+
+This record preserves the results and review wording of its specific pilot/approval stage. Its painterly terminology, pending-review claims and proposed next actions describe that stage only; they do not override current graphic-anime requirements or completed later approvals. Current B10 status is owned by `README.md`, production requirements by `B10_CC0_PROP_CLUSTER_EXECUTION_V1.md`, and material handling by `../DIYSE_CC0_PROP_MATERIAL_GRAMMAR_V1.md`. Furniture/Metal within-family approval is retained, with runtime/B00 cross-check pending; Props/Cloth remain candidates. This record does not grant final `ACCEPTED` status.
 
 ## Purpose
 
@@ -134,7 +138,7 @@ The next runtime test must determine whether:
 - original ORM data is too glossy/strong;
 - roughness/metallic values need a Diyse-specific rebalance.
 
-## Decision
+## Recorded pilot-stage decision
 
 **B10 deterministic shared-material pipeline: PASS.**
 
