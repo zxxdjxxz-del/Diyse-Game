@@ -31,7 +31,7 @@ Legacy-gate components:
 Donor Relic access never creates a Relic copy.
 A receiver equips the actual original/copy inventory instance that exists.
 
-## Still OPEN at v85
+## Still OPEN
 Do not invent:
 - Kessara copy-service fee;
 - exact menu timing;
