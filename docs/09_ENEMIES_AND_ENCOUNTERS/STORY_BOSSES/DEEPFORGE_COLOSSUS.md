@@ -1,4 +1,4 @@
-# Deepforge Colossus — Assembly Frame → Worldsmith Body — Current Working Recertification
+# Deepforge Colossus — Assembly Frame → Worldsmith Body — Current Encounter Authority
 
 **Chapter:** 5 — The Mountain Engine  
 **Role:** mandatory Chapter-5 dungeon boss  
@@ -346,7 +346,9 @@ Fresh Worldsmith Body:
 
 No third body exists.
 
-# Duration certification
+# Historical pacing target — not current certification
+
+These round-count estimates are retained only as historical pacing intent. They must be revalidated under the current progression/enemy inputs before being used for balance decisions.
 
 The encounter intentionally supports two valid approaches.
 
