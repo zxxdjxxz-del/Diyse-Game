@@ -3,7 +3,7 @@
 **Chapter:** 13 — The Last Command  
 **Scene anchors:** S071–S073  
 **Role:** final mandatory boss  
-**Status:** **FORMALLY VALIDATED v89 / HP PACING RETAINED / POWER COMPLETE**
+**Status:** **HP PACING RETAINED / POWER COMPLETE / BALANCE REVALIDATION OPEN**
 
 ## Ontology / ending firewall
 
@@ -483,16 +483,18 @@ Therefore:
 The six mandatory narrative roles remain:
 1. Last Sentinel / Might — **HOLD**
 2. Last Convergence / Elements — **DISTINGUISH**
-3. Last Cartographer / Acuity — **MAP**
+3. Last Cartographer / Perception — **MAP**
 4. Last Sanctuary / Grace — **PRESERVE**
-5. Last Scribe / Change — **CONTAIN**
+5. Last Scribe / Memory — **CONTAIN**
 6. Last Erasure / Ruin — **END**
 
 The modern solution acts on Entity traces where they already are.
 
 It does not repeat ancient convergence.
 
-# Duration certification
+# Historical pacing target — not current certification
+
+These round-count estimates are retained only as historical pacing intent. They must be revalidated under the current progression/enemy inputs before being used for balance decisions.
 
 The final boss should be longer than the Chapter-12 Vaelkor climax.
 
@@ -563,5 +565,9 @@ Campaign endpoint:
 > **448,100 EXP = Lv62**
 
 
-## v89 mandatory-vs-completionist certification
-**PASS / FORMALLY VALIDATED.** Final-boss references are Lv61 mandatory / Lv70 completionist. Retain Reconstituted Entity at 22,500 HP and The Last Command at fresh 28,500 HP. On the deliberately fragile unequipped Lv61 reference, ordinary Form-II peak single-target pressure is ~25% Max HP; even an extreme fully buffed prepared Final Directive overlap is only ~35–36% per target and is telegraphed by Protected Preparation. Existing ~22–24 mandatory / ~18–20 completionist pacing remains coherent. No raw stat or Power changed.
+## Current validation status
+Historical v89 chapter-level certification is not current authority. Difficulty certification is **OPEN** pending revalidation under:
+- `../../16_BALANCE_AND_TESTING/BALANCE/ENEMY_BOSS_MANDATORY_COMPLETIONIST_VALIDATION.md`;
+- `../../16_BALANCE_AND_TESTING/TRUE_BATTLES/TRUE_BATTLE_TEST_PROTOCOL.md`.
+
+Current HP bodies, Powers, support limits, fresh-body architecture, and Final Directive telegraph remain encounter-design inputs until an owning redesign explicitly changes them.
