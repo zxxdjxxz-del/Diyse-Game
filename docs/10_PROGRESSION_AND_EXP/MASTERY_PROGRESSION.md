@@ -1,14 +1,12 @@
 # Diyse — Mastery Progression
-**Historical migration provenance:** v85-era consolidated tracker.
-**Historical progression provenance:** Audit123–Audit128 plus compatible later raw-stat audits.
-**Authority treatment:** this repository file is current progression-domain authority; Audit/v85 references remain provenance only. Numeric reward/budget tables remain provisional where marked pending the planned progression rebuild.
-**Current structural rule:** Mastery Points do not exist; Masteries unlock automatically from Class Level under current repository class/progression authority.
 
+**Status:** ACTIVE STRUCTURAL PROGRESSION AUTHORITY  
+**Authority:** current class/progression owners plus later explicit approved corrections.
 
-# CURRENT WORKING OVERRIDE
+## Current rule
 > **Mastery Points do not exist.**
 
-v85 Sections 220–225 supersede the old current-working use of Audit123's 8-point grant schedule.
+This supersedes every former Mastery Point grant/spend schedule.
 
 ## Automatic Core Masteries
 | Mastery | Unlock |
