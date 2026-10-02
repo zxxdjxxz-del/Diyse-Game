@@ -1,9 +1,7 @@
 # 09_ENEMIES_AND_ENCOUNTERS
-**Migration baseline:** `Diyse_CURRENT_WORKING_TRACKER_CONSOLIDATED_2026-08-27_v85.md`  
-**Historical enemy-production provenance:** Audit90/Audit93 plus later tracker-era roster/action cleanups.
-**Historical raw-stat provenance:** Audit129–Audit135.
-**Authority treatment:** this repository file is current enemy-domain authority; Audit/v85 references remain historical provenance only.
-**Migration rule:** current repository names, chapter placement, system firewalls, and Prime-restoration rules supersede conflicting historical enemy text.
+
+**Status:** ACTIVE ENEMY / ENCOUNTER DOMAIN ROUTER  
+**Authority:** current enemy-domain owner plus later explicit approved corrections.  
 
 
 Canonical home for:
@@ -29,7 +27,7 @@ Quest unlock/reward presentation belongs in `11_QUESTS`.
 
 This is a design hierarchy, not a rule that every later encounter must have more HP than every earlier one.
 
-**Optional-combat rule:** Hunts are the only standalone optional enemy encounters. Quest-owned combat remains governed by its owning quest. Stronger normal identities belong to the ordinary enemy pool; there is no separate Elite encounter category.
+**Optional-combat rule:** Hunts are the only standalone optional enemy encounters. Quest-owned combat remains governed by its owning quest. Stronger enemy identities remain in the ordinary enemy pool rather than forming a separate optional-combat tier.
 
 ## Current raw-stat fields
 
