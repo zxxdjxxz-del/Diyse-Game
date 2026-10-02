@@ -1,4 +1,4 @@
-# Furnace Tyrant — Current Working Recertification
+# Furnace Tyrant — Current Encounter Authority
 
 **Chapter:** 5 — The Mountain Engine  
 **Role:** mandatory miniboss  
@@ -330,7 +330,9 @@ Furnace Tyrant's same-bar Heat/Siege transitions:
 
 ---
 
-# DURATION CERTIFICATION
+# Historical pacing target — not current certification
+
+These round-count estimates are retained only as historical pacing intent. They must be revalidated under the current progression/enemy inputs before being used for balance decisions.
 
 Target pacing:
 
