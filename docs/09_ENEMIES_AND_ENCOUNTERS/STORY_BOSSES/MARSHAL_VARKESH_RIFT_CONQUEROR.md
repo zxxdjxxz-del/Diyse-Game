@@ -3,7 +3,7 @@
 **Chapter:** 8 — Horizon Vault / Westguard / Varkesh  
 **Role:** mandatory Chapter-8 climax boss  
 **Story outcome:** defeated; successfully escapes/withdraws  
-**Status:** **FORMALLY VALIDATED v84 / RAW LINES RETAINED / POWER COMPLETE**
+**Status:** **RAW LINES RETAINED / POWER COMPLETE / BALANCE REVALIDATION OPEN**
 
 ## Preserved character/combat identity
 
@@ -284,7 +284,7 @@ No third body exists.
 
 ---
 
-# DURATION CERTIFICATION
+# Pacing target — revalidation required
 
 ## Mandatory Lv35
 
@@ -339,7 +339,7 @@ No Spatial element.
 No extra-action system.
 No possession absolution.
 
-> **FORMALLY VALIDATED v84 / RAW LINES RETAINED / POWER COMPLETE**
+> **RAW LINES RETAINED / POWER COMPLETE / BALANCE REVALIDATION OPEN**
 
 ## Reward
 
