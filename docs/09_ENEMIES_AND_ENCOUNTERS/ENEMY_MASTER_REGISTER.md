@@ -1,9 +1,7 @@
 # Diyse — Enemy / Encounter Master Register
-**Migration baseline:** `Diyse_CURRENT_WORKING_TRACKER_CONSOLIDATED_2026-08-27_v85.md`  
-**Historical enemy-production provenance:** Audit90/Audit93 plus later tracker-era roster/action cleanups.
-**Historical raw-stat provenance:** Audit129–Audit135.
-**Authority treatment:** this repository file is current enemy-domain authority; Audit/v85 references remain historical provenance only.
-**Migration rule:** current repository names, chapter placement, system firewalls, and Prime-restoration rules supersede conflicting historical enemy text.
+
+**Status:** ACTIVE ENEMY / ENCOUNTER AUTHORITY  
+**Authority:** current enemy-domain owner plus later explicit approved corrections.  
 
 This is a **chapter-role register**, so a recurring identity may appear in multiple chapters.
 
@@ -522,7 +520,7 @@ Complete:
 - Command Ring Drone — Ch10
 
 New ordinary identities: **0**
-Separate Elite category: **none — intentional**
+Separate optional strong-enemy tier: **none — strong normal-pool identities remain in the ordinary pool**
 Authored/protected: **none**
 Regional Hunt: **none**
 
