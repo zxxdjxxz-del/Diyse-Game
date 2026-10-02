@@ -2,7 +2,7 @@
 
 **Chapter:** 7 — The Prison of Names  
 **Role:** mandatory Ashford / Chainworks named miniboss  
-**Status:** **VALIDATED v83 / RAW LINE RETAINED / POWER COMPLETE**
+**Status:** **RAW LINE RETAINED / POWER COMPLETE / BALANCE REVALIDATION OPEN**
 
 ## Preserved architecture
 
@@ -258,7 +258,7 @@ because it is the same HP body.
 
 Destroying Anchors also does not refresh a Prime.
 
-# Duration certification
+# Pacing target — revalidation required
 
 ## Mandatory Lv27
 
@@ -309,7 +309,7 @@ Freed direct damage:
 Restraint Anchors:
 > **Power N/A — no independent direct damage**
 
-> **WORKING PASS / RAW LINE RETAINED / POWER COMPLETE**
+> **RAW LINE RETAINED / POWER COMPLETE / BALANCE REVALIDATION OPEN**
 
 ## Reward
 Chainworks Behemoth:
