@@ -1,7 +1,7 @@
 # Diyse — B03 Foliage Benchmark Execution v1
 
 **Benchmark:** B03 — Tree / Foliage Silhouette  
-**Status:** SOURCE ANALYSIS COMPLETE / STYLE STUDY READY  
+**Status:** STYLE-PASS APPROVED — GAMEPLAY TEST READY / B00 CROSS-CHECK PENDING  
 **Style authority:** `../../DIYSE_VISUAL_STYLE_CANON.md`  
 **Benchmark authority:** `../STYLE_BENCHMARK_SET_V1.md`  
 **Conversion pipeline:** `../ASSET_STYLE_CONVERSION_PIPELINE.md`
@@ -142,16 +142,16 @@ Baseline forest foliage should use:
 
 Color should cluster by canopy mass, not random leaf-to-leaf variation.
 
-## 8. Painterly surface rule
+## 8. Graphic surface rule
 
 Foliage texture should rely on:
-- broad opaque/soft brush masses;
-- selective dry-brush breakup near cluster edges;
+- broad graphic canopy value masses;
+- selective tapered/broken shape accents near cluster edges;
 - limited internal texture;
 - controlled overlap shadows;
 - occasional sharper marks near focal edges.
 
-The canopy should look illustrated and painterly before the line layer is added.
+The canopy's graphic anime-compatible shape/value groups must read before selective line accents. Soft-brushed/painterly rendering is retired by the shared style authority.
 
 ## 9. Tree-vs-character hierarchy
 
@@ -163,7 +163,7 @@ At normal exploration scale:
 
 ## 10. Required B03 style-study outputs
 
-Before B03 can become STYLE-PASS:
+Use this output set for revision and current-style/B00 cross-check of the existing within-family approval:
 
 1. **Full tree neutral-light study** — tall field tree with grouped canopy masses.
 2. **Silhouette comparison** — too smooth / target / too noisy.
@@ -212,7 +212,7 @@ B03 passes only when:
 - [ ] no uniform black outline surrounds the asset;
 - [ ] alpha edges remain clean;
 - [ ] no shimmering/noisy silhouette at gameplay scale;
-- [ ] painterly masses remain visible;
+- [ ] graphic canopy value masses remain visible;
 - [ ] trunk supports rather than competes with canopy;
 - [ ] foreground/midground/background simplification is coherent;
 - [ ] icon-scale version still feels like the same visual family;
@@ -221,6 +221,4 @@ B03 passes only when:
 
 ## 14. Production decision
 
-**B03 is ready for visual style-study generation.**
-
-Do not mark it STYLE-PASS until the alpha-edge, silhouette, line-density, gameplay-scale, and depth tests have been visually reviewed.
+B03 retains its within-family STYLE-PASS approval, with gameplay testing and B00 cross-check pending as indexed by `README.md`. Validate current graphic-anime style, alpha stability, silhouette, line density and depth at gameplay scale before final `ACCEPTED` promotion. Current sequencing belongs to `../../../90_WORKING/ACTIVE_WORK_QUEUE.md`.
