@@ -1,7 +1,7 @@
 # Diyse — B03 Foliage Style Study Specification v1
 
 **Benchmark:** B03 — Tree / Foliage Silhouette  
-**Status:** STYLE STUDY SPEC LOCKED / VISUAL PASS PENDING  
+**Status:** ACTIVE STUDY / REVISION SPEC — EXISTING FAMILY APPROVAL; GAMEPLAY / B00 CROSS-CHECK PENDING  
 **Execution authority:** `B03_FOLIAGE_EXECUTION_V1.md`  
 **Style authority:** `../../DIYSE_VISUAL_STYLE_CANON.md`
 
@@ -74,7 +74,7 @@ Use at:
 - a few internal leaf-group accents;
 - bark texture marks;
 - small branch suggestions;
-- dry-brush edge breakup.
+- sparse tapered/broken graphic edge accents.
 
 ### Hard limits
 
@@ -86,7 +86,7 @@ Use at:
 
 The correct read is **ink rhythm carried by organic mass**, not “tree with a comic outline.”
 
-## 5. Painterly canopy structure
+## 5. Graphic canopy structure
 
 Build the tree in this order:
 
@@ -99,7 +99,7 @@ Build the tree in this order:
 7. selective chaotic line accents;
 8. minimal edge texture.
 
-The painterly masses must work before any line layer is added.
+The graphic canopy shape/value masses must work before any line layer is added. The source description above records inspected material, not a painterly production target.
 
 ## 6. Value and color baseline
 
@@ -214,7 +214,7 @@ B03 visually passes only if:
 
 ## 12. Original Diyse tree-family target
 
-After B03 style approval, build a specification for these original families:
+The existing kit specification is `B03_DIYSE_ORIGINAL_FOLIAGE_KIT_SPEC_V1.md`. Its original family targets include:
 - common broadleaf;
 - old-growth broadleaf;
 - narrow roadside tree;
@@ -240,8 +240,6 @@ They should not abandon the shared foliage grammar.
 
 **B03 source analysis and style-study specification are complete.**
 
-Current promotion state:
-
-`SOURCE ANALYSIS → STYLE STUDY SPEC LOCKED → VISUAL STYLE-PASS PENDING`
+Current status is owned by `README.md`: **STYLE-PASS APPROVED — GAMEPLAY TEST READY / B00 CROSS-CHECK PENDING**. This study remains a revision reference under current shared style; it does not restart the completed within-family approval.
 
 The recent repeated B01 stone image generations are explicitly **not** B03 results and must not be used as foliage authority.
