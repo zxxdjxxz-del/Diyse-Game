@@ -1,4 +1,8 @@
 # Diyse — Recruitment and Starting CEXP
+
+**Status:** PROVISIONAL RECRUITMENT-CEXP PLANNING BASELINE — REBUILD PENDING  
+**Authority:** current story recruitment state controls join timing; numeric starting CEXP remains provisional.  
+
 **v92 recruitment-aware correction:** 2026-08-29  
 **Migration baseline:** `Diyse_CURRENT_WORKING_TRACKER_CONSOLIDATED_2026-08-27_v85.md`
 
