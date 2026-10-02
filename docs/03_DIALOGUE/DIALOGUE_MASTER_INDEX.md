@@ -1,6 +1,6 @@
 # Diyse — Dialogue Master Index
 
-**Current whole-project written authority:** **v2.20 / Audit135**, plus later explicit user corrections/current domain migrations.  
+**Current authority:** live owning-domain files, current production atomics, and later explicit approved revisions.  
 **Dialogue production root:** `docs/03_DIALOGUE/PRODUCTION/`  
 **Chapters 0–3 source-closure record:** `PRODUCTION/CHAPTERS_00_03_FULL_SOURCE_CLOSURE_2026-09-13.md`
 
@@ -294,13 +294,13 @@ Full record:
 
 # Derived-artifact synchronization — CURRENT
 
-September 19, 2026 synchronization closure: the Chapter 1 atomic lock has passed the full sync/check pipeline. The files below are current synchronized derivatives:
+Current synchronization state: Chapters 0–3 have passed the live sync/check pipeline. The files below are current synchronized derivatives:
 - `PRODUCTION/CHAPTER_00/CHAPTER_00_DIALOGUE_MANUSCRIPT.md`
 - `PRODUCTION/CHAPTER_01/CHAPTER_01_DIALOGUE_MANUSCRIPT.md`
 - `PRODUCTION/CHAPTER_02/CHAPTER_02_DIALOGUE_MANUSCRIPT.md`
 - `PRODUCTION/CHAPTER_03/CHAPTER_03_DIALOGUE_MANUSCRIPT.md`
 - `PRODUCTION/CHAPTERS_00_03_DIALOGUE_SYNC_MANIFEST.md`
-- `game/content/dialogue/current/manifest.json` and its 56 generated current runtime scene Resources
+- `game/content/dialogue/current/manifest.json` and its 52 generated current runtime scene Resources
 - the generated Chapters 0–3 spoiler-free story/gameplay read-through.
 
 Current synchronization invariants:
@@ -313,7 +313,7 @@ Current synchronization invariants:
 7. `python tools/dialogue/sync_current_dialogue.py --check` and `python tools/dialogue/compile_current_runtime_dialogue.py --check` must pass after future source edits;
 8. `Current Dialogue Runtime Validation` is the dedicated Godot gate for the current runtime mirror.
 
-The older `game/content/dialogue/chapter_00` through `chapter_03` S-scene Resources remain legacy implementation/proof assets. They are not current spoken-wording authority and must not supersede the generated current mirror.
+The older direct `game/content/dialogue/chapter_00` through `chapter_03` S-scene Resources have been removed from the live tree. Git history is provenance only; the generated `game/content/dialogue/current/` mirror is the sole live runtime dialogue surface for Chapters 0–3.
 
 ---
 
@@ -350,4 +350,4 @@ When a scene changes:
 4. mark combined/reader artifacts stale until deliberately regenerated;
 5. use Git history for superseded copies.
 
-> **Current project statement: Chapters 0–3 are source-closed and synchronized into current combined manuscripts and a Godot runtime mirror. The production atomics remain exact wording authority.**
+> **Current project statement: Chapters 0–3 are source-closed and synchronized into current combined manuscripts and the generated Godot runtime mirror. The production atomics remain exact wording authority; superseded migration overlays and checksum ledgers live only in Git history.**

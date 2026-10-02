@@ -1,6 +1,6 @@
 # 03_DIALOGUE
 
-**Current whole-project written authority:** **v2.20 / Audit135**, plus later explicit user corrections/current domain migrations.  
+**Current authority:** live owning-domain files, current production atomics, and later explicit approved revisions.  
 
 This is the canonical home for **spoken dialogue and dialogue-scene authoring**.
 
@@ -83,9 +83,11 @@ The Chapters 0–3 read-through is also generated from current atomics. Its play
 
 Obsolete `LINE_COMPLETE/` source sets are not kept in the live repository tree. Chapters 0–3 are represented by their current `PRODUCTION/` atomics, and the retired pre-restructure Chapter-4 S022–S026 / H05 / C08–C09 material is Git-history provenance only until current Chapter-4 dialogue is authored.
 
+The migration-era `CURRENT_DIALOGUE_CORRECTIONS.md` overlay and `EXACT_SOURCE_MANIFEST.md` checksum ledger have also been removed from the live authority surface. Their historical content and hashes remain recoverable through Git history; current chapter indexes, story owners, production atomics, and generated runtime manifests now carry the live information needed for implementation.
+
 The old Chapter-0 locked-manuscript casing overlay, the temporary Chapter-0 quick-pass cumulative manuscript, and the superseded pre-rehearsal Chapter-1 cumulative manuscript have also been removed.
 
-Git history remains the provenance/archive for superseded dialogue versions. They must not be restored as competing dialogue authority or used as current Chapter-4 production seed material.
+Git history remains the provenance/archive for superseded dialogue versions. Historical overlays and checksum ledgers must not be restored as competing dialogue authority or used as current Chapter-4 production seed material.
 
 ## Explicit exact-line anchors
 
