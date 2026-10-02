@@ -1,11 +1,10 @@
 # Diyse — Regional Hunt #10: Authority Remnant
-**Migration baseline:** `Diyse_CURRENT_WORKING_TRACKER_CONSOLIDATED_2026-08-27_v85.md`  
-**Authority treatment:** this repository file is current Regional-Hunt-domain authority; Audit/v85 references remain historical provenance only.
+
+**Status:** ACTIVE REGIONAL-HUNT ENCOUNTER BODY — REVALIDATION PENDING  
+**Authority:** current enemy/encounter owner plus later explicit approved corrections.  
 **Scaling:** fixed authored tuning; no dynamic player-level scaling.
 
 
-**Recommended Lv:** 56  
-**Status:** **POWER COMPLETE / FORMALLY VALIDATED v87**
 
 | Lv | HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR |
 |---:|---:|---:|---:|---:|---:|---:|---:|---:|
@@ -73,11 +72,3 @@ No permanent command/identity/save-state alteration.
 One HP bar.
 Threshold Echo Nodes do not refresh Prime availability.
 
-
-## v87 mandatory-vs-completionist certification
-- mandatory Chapter-11 clear: Lv52, intentionally under recommended Lv56;
-- completionist Chapter-11 entry: about Lv57, around recommendation;
-- completionist mid/late Chapter 11: about Lv59–61;
-- exact within-Chapter-11 access timing remains a story/world-state dependency.
-
-Retain all current raw stats, Powers, and finite Echo Node architecture.

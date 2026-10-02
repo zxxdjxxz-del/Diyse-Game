@@ -1,11 +1,10 @@
 # Diyse — Regional Hunt #8: Rift Siege Beast
-**Migration baseline:** `Diyse_CURRENT_WORKING_TRACKER_CONSOLIDATED_2026-08-27_v85.md`  
-**Authority treatment:** this repository file is current Regional-Hunt-domain authority; Audit/v85 references remain historical provenance only.
+
+**Status:** ACTIVE REGIONAL-HUNT ENCOUNTER BODY — REVALIDATION PENDING  
+**Authority:** current enemy/encounter owner plus later explicit approved corrections.  
 **Scaling:** fixed authored tuning; no dynamic player-level scaling.
 
 
-**Recommended Lv:** 44  
-**Status:** **POWER COMPLETE / FORMALLY VALIDATED v84**
 
 | Lv | HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR |
 |---:|---:|---:|---:|---:|---:|---:|---:|---:|
@@ -49,13 +48,3 @@ through end following round
 One HP bar.
 No artillery support wave or extra-action system.
 
-
-## v84 mandatory-vs-completionist validation
-- mandatory Chapter-8 clear reference: **Lv37**;
-- completionist Chapter-8 reference: generally **~Lv41–42** depending on legal timing;
-- intended preparedness target: **Lv44**;
-- retained **15,875 HP** and all current Powers;
-- early Lv37 pressure is deliberately high but remains below healthy full-HP one-action deletion on the conservative fragile-body check.
-
-Verdict:
-> **PASS / RETAIN Lv44 RECOMMENDATION AND CURRENT RAW BODY**
