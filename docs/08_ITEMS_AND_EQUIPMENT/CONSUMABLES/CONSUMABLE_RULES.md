@@ -36,7 +36,7 @@ These remedies do not automatically remove:
 - boss scripted/protected states.
 
 ## Bleed interaction
-Current Audit122 behavior controls:
+Current harmful-status behavior:
 - ordinary partial healing does **not** clear Bleed;
 - reaching full HP may clear Bleed;
 - an eligible status-removal item can explicitly remove Bleed.
@@ -44,7 +44,6 @@ Current Audit122 behavior controls:
 ## Blinding Mist
 Guaranteed escape applies only to eligible ordinary random encounters.
 It does not trivialize:
-- Elites
 - Regional Hunts
 - Major Hunts
 - mandatory bosses
