@@ -25,7 +25,7 @@ var enemy_actions: Array = []
 var party_actions: Array = []
 var last_resolution_order: Array = []
 var log: Array[String] = []
-var rewards := {"xp": 0, "gold": 0}
+var rewards := {"xp": 0, "g": 0}
 var party_suspended := false
 var pending_prime_id := ""
 var active_prime: Dictionary = {}
@@ -53,7 +53,7 @@ func setup_demo() -> void:
 	party_actions.clear()
 	last_resolution_order.clear()
 	log.clear()
-	rewards = {"xp": 0, "gold": 0}
+	rewards = {"xp": 0, "g": 0}
 	party_suspended = false
 	pending_prime_id = ""
 	active_prime.clear()
@@ -406,8 +406,8 @@ func resolve_prime_command(command_id: String, target_index: int = -1) -> bool:
 	if _living_indices(enemies).is_empty():
 		_normal_prime_return()
 		phase = "victory"
-		rewards = {"xp": 30, "gold": 42}
-		log.append("Victory. Rewards: 30 XP, 42 gold.")
+		rewards = {"xp": 30, "g": 42}
+		log.append("Victory. Rewards: 30 XP, 42 G.")
 		return true
 	if int(active_prime.get("hp", 0)) <= 0:
 		_prime_defeat_return()
@@ -572,8 +572,8 @@ func _living_indices(units: Array) -> Array[int]:
 func _check_end_state() -> bool:
 	if _living_indices(enemies).is_empty():
 		phase = "victory"
-		rewards = {"xp": 30, "gold": 42}
-		log.append("Victory. Rewards: 30 XP, 42 gold.")
+		rewards = {"xp": 30, "g": 42}
+		log.append("Victory. Rewards: 30 XP, 42 G.")
 		return true
 	if not party_suspended and _living_indices(party).is_empty():
 		phase = "defeat"
