@@ -3,6 +3,7 @@
 **Status:** ACTIVE ENEMY / ENCOUNTER DOMAIN ROUTER  
 **Authority:** current enemy/encounter owner plus later explicit approved corrections.  
 **Provenance policy:** active authority files state current ownership/status directly. Historical Audit/v## tracker labels belong in Git history and should not be repeated as live authority metadata.  
+**Balance-validation policy:** historical chapter PASS/v## snapshots are not current certification. Current difficulty certification must use `../16_BALANCE_AND_TESTING/BALANCE/ENEMY_BOSS_MANDATORY_COMPLETIONIST_VALIDATION.md` with current enemy, formation, party, and progression inputs.  
 
 
 Canonical home for:

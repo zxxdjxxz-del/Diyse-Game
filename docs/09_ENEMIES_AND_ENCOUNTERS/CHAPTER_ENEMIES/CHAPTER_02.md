@@ -57,16 +57,7 @@ Current pool:
 
 These are established Black Host identities reused from earlier chapters with Chapter-2-appropriate tuning where required.
 
-Current naming supersedes older Chapter-2 labels:
-- Ruin Shieldbearer → **Black Host Shieldbearer**
-- Black Host War-Sorcerer / Transfer Adept lane → **Battle Sorcerer**
-- Rift Hound / handler-era Chapter-2 lane → **War Hound**
-
-Retired duplicate/specialized Chapter-2 identities:
-- Bastion Shield Guard
-- Bastion Crossbow Guard
-- Transfer Adept
-- Beast Handler
+Retired-name normalization is centralized in `../RETIRED_ENEMY_TERMINOLOGY_FIREWALL.md`; this chapter file lists the current active identities for Chapter 2.
 
 ---
 
@@ -151,5 +142,4 @@ Do not restore without explicit revision:
 - Regional Hunt #2 — Scaldback
 - Scriptshade — belongs to Chapter 3
 
-Archive Current is the retired name for:
-> **Arcdrift**
+Retired aliases are governed by `../RETIRED_ENEMY_TERMINOLOGY_FIREWALL.md`.

@@ -79,17 +79,17 @@ Mandatory story-required encounters remain separately owned:
 
 Regional Hunt #4 remains separately owned and is not reopened merely by the ordinary-enemy rework.
 
-## Historical v80 validation — NOT CURRENT CERTIFICATION
-The old v80 pass remains useful as tuning evidence, but it predates the September 25 Chapter-4 story redesign and the current enemy-rework decision.
+## Current validation status
+Historical Chapter-4 validation snapshots are **not current certification**. The current story redesign and ordinary-enemy rework reopened chapter-wide difficulty validation.
 
-Do not use it to lock:
+Do not treat historical validation as locking:
 - the ordinary roster;
 - ordinary raw bodies/actions;
 - Annex Duelist placement;
-- the 19-encounter Annex model;
+- any inherited fixed encounter-count model;
 - final Chapter-4 difficulty.
 
-Story-required encounter identities and Crown Prototype retain their separate owners, but Chapter-wide certification must be rerun after the enemy rework.
+Story-required encounter identities and Crown Prototype retain their separate owners, but Chapter-wide certification must be rerun under the current validation framework after the enemy rework.
 
 Formation authority:
 `../ENCOUNTER_FORMATIONS/CHAPTER_04_FORMATIONS.md`

@@ -86,7 +86,7 @@ Perched Sovereign → Stormbound remains a same-bar 50% HP transition with no Pr
 
 `Gale` remains Physical / Neutral presentation, not a Wind element.
 
-Chapter-6 ordinary identities are now **POWER COMPLETE** under the v64 broad enemy pass.
+Chapter-6 ordinary identities are **POWER COMPLETE**.
 
 
 ## Current Matron Zevraya handoff
@@ -120,7 +120,11 @@ The encounter omits Cards, Prime use, Controlled Apocalypse, and Shardfang by en
 20% HP is an authored protected disengagement floor, not a universal Subdual system.
 
 
-## v82 mandatory-vs-completionist validation
-Status: **PASS / VALIDATED WITH PLACEMENT DEPENDENCIES**.
+## Current validation status
+Historical mandatory-vs-completionist snapshots are **not current certification**. Re-run Chapter-6 difficulty validation only after the current enemy-tuning and progression inputs are stable enough for the active framework.
 
-Route anchors used: **Lv22 start → Lv23 Crownstorm Roc → Lv24 Zevraya → Lv25 Masked Seyrik → Lv27 end**. Seyrik is not a playable party member until after his forced-disengagement encounter and recruitment resolution. Weather Crown/Crimson ordinary bodies, Crimson Progenitor, Crownstorm Roc, Zevraya, Masked Seyrik, Winterglass Titan, and post-Ch6 Ashen Whitehorn retain their current numerical tuning. No direct-damage Power changed. Exact ordinary formations are restored in `../ENCOUNTER_FORMATIONS/CHAPTER_06_FORMATIONS.md`. Authored-special scene placements remain story-integration dependencies only; combat data is complete.
+Current ownership remains:
+- exact ordinary formations — `../ENCOUNTER_FORMATIONS/CHAPTER_06_FORMATIONS.md`;
+- authored-special scene placement — story-integration authority.
+
+No current mandatory-vs-completionist certification is asserted by this chapter file.
