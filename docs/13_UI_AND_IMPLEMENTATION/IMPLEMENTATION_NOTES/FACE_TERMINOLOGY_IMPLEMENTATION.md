@@ -22,6 +22,18 @@ If stable internal IDs currently encode `acuity`, `change`, or older `resource` 
 - preserve save compatibility when migrating serialized values;
 - do not create a new natural Accuracy character stat for Perception.
 
+## Current runtime migration state
+
+The Kessara/Relic-copy state layer now stores the six current Face names directly:
+> **Might / Elements / Grace / Perception / Memory / Ruin**
+
+For schema-v1 compatibility only, loaded or submitted legacy Face values canonicalize explicitly:
+- `Acuity` → **Perception**
+- Face-name `Change` → **Memory**
+- `Resource` → **Perception**
+
+Legacy aliases are compatibility inputs, not current display/storage authority. Loaded Relic/Forge-component records are normalized to the current names before they are re-saved.
+
 ## Current semantic mapping
 Perception:
 - Base Hit/application reliability where authored;
