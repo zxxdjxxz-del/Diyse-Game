@@ -1,4 +1,8 @@
 # Diyse — Optional CEXP Ledger
+
+**Status:** PROVISIONAL OPTIONAL-CEXP LEDGER — REBUILD PENDING  
+**Authority:** current progression-domain owner; values are retained only as rebuild inputs.  
+
 **v91 recalibration:** 2026-08-29
 
 > **STATUS — PROVISIONAL OPTIONAL-CEXP LEDGER / REBUILD PENDING.**
