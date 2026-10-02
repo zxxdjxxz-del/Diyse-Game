@@ -130,7 +130,7 @@ The ten-level optional advantage remains visible.
 |---:|---:|---:|---:|---:|---:|---:|---:|---:|
 | 58 | **17,106** | **226** | **148** | **144** | **131** | **55** | 5 | 10 |
 
-The inherited Audit132 raw line is retained unchanged.
+The current raw line is retained unchanged.
 
 Reason:
 - mandatory Lv54 is four levels below the authored boss;
