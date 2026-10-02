@@ -82,7 +82,7 @@ Full class completion still requires CL13 in both lines.
 
 ## Authority note
 
-Audit123 is historical provenance for the older 8-Mastery-Point purchase model. Current repository authority supersedes that model:
+The retired 8-Mastery-Point purchase model is historical provenance only. Current repository authority is:
 
 - Mastery Points are removed;
 - Masteries unlock automatically by Class Level;
