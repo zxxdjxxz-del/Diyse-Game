@@ -62,17 +62,24 @@ Do not use the current proof queue/confirm architecture as production battle-flo
 
 The former `tests/combat/validate_round_combat.gd` mechanics regression has been retired from the live tree because it hard-locked the obsolete whole-round queue, universal Item/Defend priority, bearer-locked `first_champion`, and two-round Recovered-Prime prototype. Current CI now smoke-checks only the combat proof's loadability, four-member party surface, and five canonical global commands; it does **not** certify the prototype's internal turn flow, Prime behavior, Card costs, or proof UI. Those runtime mechanics remain implementation debt until an intentional combat migration pass.
 
-## 4. Currency — HIGH
-Proof state:
-- technical identifier `gold` and old proof values may remain.
+## 4. Currency — STORAGE TERMINOLOGY RESOLVED / BALANCE OPEN
 
-Current player-facing currency terminology:
-- **G**
+Runtime and schema-v1 current state now use:
+- `rewards.g`;
+- player-facing **G** terminology.
 
-Retired player-facing currency name:
-- **Auren**
+Compatibility:
+- old schema-v1 `rewards.gold` values remain loadable and normalize to `rewards.g`;
+- retired **Auren** remains forbidden as player-facing currency.
 
-Detailed prices, payouts, balances, and liquidity values are rebuild-pending and must not be hard-coded from old proof fixtures during cleanup. Requires version-safe production state/schema/UI work. Internal migration may preserve a legacy technical identifier temporarily, but final player-facing presentation must use **G** and must not revive Auren.
+Still open:
+- detailed prices;
+- payouts;
+- balances;
+- liquidity;
+- final economy certification.
+
+Do not hard-code old proof values merely because the storage key is now current.
 
 ## 5. Proof equipment/content — HIGH
 GameState defaults still include:
