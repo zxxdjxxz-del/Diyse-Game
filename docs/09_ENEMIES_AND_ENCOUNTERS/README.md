@@ -2,6 +2,7 @@
 
 **Status:** ACTIVE ENEMY / ENCOUNTER DOMAIN ROUTER  
 **Authority:** current enemy/encounter owner plus later explicit approved corrections.  
+**Provenance policy:** active authority files state current ownership/status directly. Historical Audit/v## tracker labels belong in Git history and should not be repeated as live authority metadata.  
 
 
 Canonical home for:
