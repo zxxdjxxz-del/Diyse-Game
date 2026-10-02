@@ -131,4 +131,4 @@ Current production authority:
 
 Do not use executable stale rows to overwrite current encounter canon. Reconcile the runtime catalog in a dedicated implementation pass, without inventing open Chapter-3/4 formation decisions during cleanup.
 
-The CI suites `tests/encounters/validate_audit98_encounters.gd` and `tests/combat/validate_generated_encounter_battle_state.gd` currently regression-lock this engineering prototype. Their passing status proves prototype continuity only; it does not certify current Chapter-1/3/4 encounter authority, final EXP, or current player-facing economy behavior.
+`tests/encounters/validate_encounter_runtime_contract.gd` deliberately checks only content-neutral runtime structure: profile schema, weighted-pool integrity, pressure state behavior, and selector legality. `tests/combat/validate_generated_encounter_battle_state.gd` still proves that the mixed-authority engineering catalog can execute through the generated-battle path. Neither suite certifies current Chapter-1/3/4 encounter composition, final EXP/CEXP, or current player-facing economy behavior.

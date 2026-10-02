@@ -129,7 +129,7 @@ func _validate_invalid_transient_payloads(failures: Array[String]) -> void:
 
 func _finish(failures: Array[String]) -> void:
 	if failures.is_empty():
-		print("Audit98 transient field-combat-field random encounter loop validation passed.")
+		print("Transient field-combat-field random encounter loop validation passed.")
 		quit(0)
 		return
 	for failure in failures:
