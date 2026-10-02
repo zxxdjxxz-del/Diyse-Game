@@ -3,6 +3,7 @@ extends SceneTree
 const GameStateScript = preload("res://game/core/state/game_state.gd")
 const SaveManagerScript = preload("res://game/core/save/save_manager.gd")
 const TEST_PATH := "user://diyse_save_test.json"
+const LEGACY_TEST_PATH := "user://diyse_7b5g_save_test.json"
 
 var failures: Array[String] = []
 
@@ -11,6 +12,7 @@ func _initialize() -> void:
 	_test_full_state_round_trip()
 	_test_pre_kessara_schema_v1_save_is_compatible()
 	_test_legacy_face_names_normalize_on_load()
+	_test_legacy_save_path_fallback()
 	_test_invalid_json_is_safe()
 	_test_future_schema_is_rejected()
 	_cleanup()
@@ -21,8 +23,9 @@ func _expect(condition: bool, message: String) -> void:
 		failures.append(message)
 
 func _cleanup() -> void:
-	if FileAccess.file_exists(TEST_PATH):
-		DirAccess.remove_absolute(ProjectSettings.globalize_path(TEST_PATH))
+	for path in [TEST_PATH, LEGACY_TEST_PATH]:
+		if FileAccess.file_exists(path):
+			DirAccess.remove_absolute(ProjectSettings.globalize_path(path))
 
 func _test_missing_save_is_safe() -> void:
 	_cleanup()
@@ -158,6 +161,43 @@ func _test_legacy_face_names_normalize_on_load() -> void:
 	_expect(str(state.relic_inventory["RELIC_OLD_CHANGE"].get("face", "")) == "Memory", "Loaded Change Face must normalize to Memory")
 	_expect(str(state.relic_inventory["RELIC_OLD_ACUITY"].get("face", "")) == "Perception", "Loaded Acuity Face must normalize to Perception")
 	_expect(str(state.forge_components["FORGE_OLD_RESOURCE"].get("face", "")) == "Perception", "Loaded Resource Face must normalize to Perception")
+
+func _test_legacy_save_path_fallback() -> void:
+	_cleanup()
+	var legacy_data := {
+		"schema_version": SaveManagerScript.SCHEMA_VERSION,
+		"area": "field_proof",
+		"field_position": {"x": 2.0, "y": 0.9, "z": 3.0},
+		"party": [],
+		"inventory": {"Potion": 1},
+		"standard_cards": [],
+		"primes": {},
+		"equipment": {},
+		"flags": {"legacy_path": true},
+		"rewards": {"xp": 0, "gold": 0}
+	}
+	var legacy_file := FileAccess.open(LEGACY_TEST_PATH, FileAccess.WRITE)
+	legacy_file.store_string(JSON.stringify(legacy_data))
+	legacy_file.flush()
+
+	var manager = SaveManagerScript.new()
+	_expect(manager.has_save(TEST_PATH, LEGACY_TEST_PATH), "Legacy fallback path should count as an available save when the canonical path is absent")
+	var state = GameStateScript.new()
+	var load_result: Dictionary = manager.load_state(state, TEST_PATH, LEGACY_TEST_PATH)
+	_expect(bool(load_result.get("ok", false)), "Legacy save path should load through the explicit fallback")
+	_expect(bool(load_result.get("used_legacy_fallback", false)), "Legacy-path load should report that fallback was used")
+	_expect(str(load_result.get("path", "")) == LEGACY_TEST_PATH, "Legacy-path load should report the file actually read")
+	_expect(bool(state.flags.get("legacy_path", false)), "Legacy-path load should restore serialized state")
+
+	var save_result: Dictionary = manager.save_state(state, TEST_PATH)
+	_expect(bool(save_result.get("ok", false)), "Saving after a legacy-path load should succeed at the canonical path")
+	_expect(FileAccess.file_exists(TEST_PATH), "Canonical save path should be created on the next save")
+
+	var canonical_state = GameStateScript.new()
+	var canonical_load: Dictionary = manager.load_state(canonical_state, TEST_PATH, LEGACY_TEST_PATH)
+	_expect(bool(canonical_load.get("ok", false)), "Canonical save should load after forward migration")
+	_expect(not bool(canonical_load.get("used_legacy_fallback", true)), "Canonical path should take precedence once it exists")
+	_expect(str(canonical_load.get("path", "")) == TEST_PATH, "Canonical path should be reported after forward migration")
 
 func _test_invalid_json_is_safe() -> void:
 	var file := FileAccess.open(TEST_PATH, FileAccess.WRITE)
