@@ -2,7 +2,7 @@
 
 **Chapter:** 8 — Horizon Vault / Westguard / Varkesh  
 **Role:** mandatory Horizon Vault / western-line boss  
-**Status:** **FORMALLY VALIDATED v84 / RAW LINE RETAINED / POWER COMPLETE**
+**Status:** **RAW LINE RETAINED / POWER COMPLETE / BALANCE REVALIDATION OPEN**
 
 ## Preserved architecture
 
@@ -85,7 +85,7 @@ post-Volition Character Quests and Major Hunt #2 are allowed to matter.
 |---:|---:|---:|---:|---:|---:|---:|---:|---:|
 | 36 | **9,775** | **86** | **133** | **97** | **89** | **33** | 0 | 10 |
 
-The inherited Audit131 raw line is retained unchanged.
+The current raw line is retained unchanged.
 
 Reason:
 - mandatory Lv33 remains appropriately below the Lv36 boss;
@@ -278,7 +278,9 @@ The Rift Echo also does not create a Prime-refresh event.
 
 ---
 
-# DURATION CERTIFICATION
+# Historical pacing target — not current certification
+
+These round-count estimates are retained only as historical pacing intent. They must be revalidated under the current progression/enemy inputs before being used for balance decisions.
 
 ## Mandatory Lv33
 Expected:
@@ -326,7 +328,7 @@ No Spatial element.
 No hidden severance gauge.
 No extra-action system.
 
-> **FORMALLY VALIDATED v84 / RAW LINE RETAINED / POWER COMPLETE**
+> **RAW LINE RETAINED / POWER COMPLETE / BALANCE REVALIDATION OPEN**
 
 ## Reward
 Western Rift Engine:

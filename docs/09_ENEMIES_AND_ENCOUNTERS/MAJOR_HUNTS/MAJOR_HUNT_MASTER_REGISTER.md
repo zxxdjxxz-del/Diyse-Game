@@ -33,7 +33,7 @@ Only Major Hunt #2 has a genuine fresh second body:
 
 All other Major Hunts remain one-bar encounters under their current state architectures.
 
-Prime availability/restoration is owned globally by `05_BATTLE_SYSTEM/BOSS_FORM_RULES.md` and `07_CARDS/PRIME_CARDS/PRIME_SYSTEM_RULES.md`.
+Prime availability/restoration is owned globally by `../../05_BATTLE_SYSTEM/BOSS_FORM_RULES.md` and `../../07_CARDS/PRIME_CARDS/PRIME_SYSTEM_RULES.md`.
 
 ## Unlock timing
 Current unlock timing:

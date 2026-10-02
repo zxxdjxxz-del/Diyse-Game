@@ -2,7 +2,7 @@
 
 **Chapter:** 10 — The Last Blank  
 **Role:** mandatory Buried Registry threshold boss  
-**Status:** **FORMALLY VALIDATED v86 / RAW LINE RETAINED / POWER COMPLETE**
+**Status:** **RAW LINE RETAINED / POWER COMPLETE / BALANCE REVALIDATION OPEN**
 
 ## Story boundary
 
@@ -124,7 +124,7 @@ The nine-level optional spread is intentionally preserved.
 |---:|---:|---:|---:|---:|---:|---:|---:|---:|
 | 49 | **13,514** | **157** | **172** | **124** | **126** | **46** | 0 | 10 |
 
-The inherited Audit132 raw line is retained unchanged.
+The current raw line is retained unchanged.
 
 Reason:
 - mandatory Lv45 remains appropriately below the Lv49 boss;
@@ -260,7 +260,9 @@ because the Warden remains the same HP body.
 
 There is no second body or hidden third state.
 
-# Duration certification
+# Historical pacing target — not current certification
+
+These round-count estimates are retained only as historical pacing intent. They must be revalidated under the current progression/enemy inputs before being used for balance decisions.
 
 ## Mandatory Lv45
 Expected:
@@ -298,7 +300,7 @@ Open Registry direct damage:
 
 No harmful status riders anywhere in the kit.
 
-> **FORMALLY VALIDATED v86 / RAW LINE RETAINED / POWER COMPLETE**
+> **RAW LINE RETAINED / POWER COMPLETE / BALANCE REVALIDATION OPEN**
 
 ## Reward
 
@@ -308,5 +310,5 @@ Registry Warden:
 No random encounter layer is required after this boss before the Buried Registry story payoff.
 
 
-## v86 two-baseline validation
-Formal Chapter-10 validation retains the inherited raw line and all Powers unchanged at **Lv45 mandatory / Lv54 completionist / ~Lv55 high-side**. See `../../16_BALANCE_AND_TESTING/BALANCE/CHAPTER_10_MANDATORY_COMPLETIONIST_VALIDATION.md`.
+## Current validation status
+Historical Chapter-10 certification is not current authority. Difficulty certification is **OPEN** pending revalidation under `../../16_BALANCE_AND_TESTING/BALANCE/ENEMY_BOSS_MANDATORY_COMPLETIONIST_VALIDATION.md` with current progression and encounter inputs.

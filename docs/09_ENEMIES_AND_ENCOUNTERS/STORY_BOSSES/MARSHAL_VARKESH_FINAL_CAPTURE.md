@@ -4,7 +4,7 @@
 **Scene anchor:** S067–S068  
 **Role:** mandatory Black Host campaign boss / live-capture objective  
 **Outcome:** Varkesh captured alive  
-**Status:** **FORMALLY VALIDATED v88 / RAW LINE RETAINED / POWER COMPLETE**
+**Status:** **RAW LINE RETAINED / POWER COMPLETE / BALANCE REVALIDATION OPEN**
 
 ## Story / character boundary
 
@@ -130,7 +130,7 @@ The ten-level optional advantage remains visible.
 |---:|---:|---:|---:|---:|---:|---:|---:|---:|
 | 58 | **17,106** | **226** | **148** | **144** | **131** | **55** | 5 | 10 |
 
-The inherited Audit132 raw line is retained unchanged.
+The current raw line is retained unchanged.
 
 Reason:
 - mandatory Lv54 is four levels below the authored boss;
@@ -367,7 +367,9 @@ Prime direct damage is clamped at 3,421 HP while either Retreat Beacon remains.
 
 ---
 
-# Duration certification
+# Historical pacing target — not current certification
+
+These round-count estimates are retained only as historical pacing intent. They must be revalidated under the current progression/enemy inputs before being used for balance decisions.
 
 ## Mandatory Lv54
 
@@ -427,9 +429,5 @@ Only after capture:
 > Vhalmarch can be secured and activated as the Forward Hub.
 
 
-## v88 mandatory-vs-completionist certification
-- mandatory fight state: **Lv54**;
-- completionist fixed-content state: **Lv64**;
-- high-side: **~Lv65**;
-- existing ~11–13 mandatory / ~8–10 completionist duration target retained;
-- no raw stat, support value, capture threshold, or direct-damage Power changed.
+## Current validation status
+Historical chapter-level certification is not current authority. Difficulty certification is **OPEN** pending revalidation under `../../16_BALANCE_AND_TESTING/BALANCE/ENEMY_BOSS_MANDATORY_COMPLETIONIST_VALIDATION.md` with current progression and encounter inputs.

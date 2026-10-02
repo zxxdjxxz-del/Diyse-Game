@@ -1,12 +1,13 @@
 # Diyse — Mandatory Named / Story Boss Master Register
 
-**Status:** current cross-encounter raw-stat and certification index  
+**Status:** current cross-encounter story-boss raw-stat index; balance certification open  
 **Detailed encounter authority:** individual owner files in this folder  
-**True-battle authority:** `../../16_BALANCE_AND_TESTING/TRUE_BATTLES/`
+**True-battle status:** `../../16_BALANCE_AND_TESTING/TRUE_BATTLES/TRUE_BATTLE_SUITE_STATUS.md`  
+**Validation framework:** `../../16_BALANCE_AND_TESTING/BALANCE/ENEMY_BOSS_MANDATORY_COMPLETIONIST_VALIDATION.md`
 
-This register is intentionally concise. It indexes current raw bodies and certification state; it does not duplicate full action kits, phase logic, story outcomes, or playtest reports from their owners.
+This register is intentionally concise. It indexes current raw bodies and architecture; it does not duplicate full action kits, phase logic, story outcomes, or historical playtest reports from their owners.
 
-## Current certified mandatory named/form raw lines
+## Current mandatory named/form raw lines
 
 Exactly:
 > **33 rows**
@@ -57,31 +58,13 @@ Prime restoration comes only from a valid rest or an explicitly authored Prime-r
 
 This applies to every fresh-body encounter above, including Regulation Crucible → Seventh Reaction, Deepforge Colossus → Worldsmith Body, Zevraya → Perfected War Mother, Varkesh → Rift Conqueror, Rhazek → Bastion Devourer, Calder → Living Anchor, Vaelkor → Sovereign Panoply, and Reconstituted Entity → Last Command.
 
-## Representative true-battle certification
-Completed:
-- **Archive Leviathan — v97 PASS / RETAIN**;
-- **Regulation Crucible → The Seventh Reaction — v99 PASS / RETAIN**;
-- **Warden of the Nameless / Revision Arbiter — v100 PASS / RETAIN**;
-- **Commander Rhazek — Reforged Commander → Bastion Devourer — v101 PASS / RETAIN**.
+## Current validation boundary
 
-Rhazek v101:
-- mandatory Lv40 no Prime — **100% wins / median 14 / mean 14.48 / P90 17** over 20,000 runs;
-- one timed Last Sentinel — **100% wins / median 15 total rounds**, with the Prime crossing the genuine fresh-body transition in **99.04%** of stress runs and no spent-identity restoration;
-- legal Last Sentinel → 2 full normal rounds → Last Convergence — **100% wins / median 15 total rounds**, preserving resources without trivializing duration;
-- completionist Lv48–49 no Prime — **median 12 rounds**;
-- both raw bodies, all Powers/status chances/repetition locks, Demolition Breaker, Exposed Rhazek, and persistent Prime spending retained unchanged.
+There is currently **no live campaign-wide true-battle difficulty certification**. Historical v97–v103 PASS/RETAIN snapshots are preserved in Git history and must not be used as current implementation guidance.
 
-Detailed report:
-`../../16_BALANCE_AND_TESTING/TRUE_BATTLES/RHAZEK_BASTION_DEVOURER_TRUE_BATTLE_v101.md`
+Use:
+- `../../16_BALANCE_AND_TESTING/BALANCE/ENEMY_BOSS_MANDATORY_COMPLETIONIST_VALIDATION.md` for mandatory-vs-completionist validation;
+- `../../16_BALANCE_AND_TESTING/TRUE_BATTLES/TRUE_BATTLE_TEST_PROTOCOL.md` for new runtime/design-layer true-battle work;
+- `../../16_BALANCE_AND_TESTING/TRUE_BATTLES/TRUE_BATTLE_SUITE_STATUS.md` for the current certification frontier.
 
-## Current next representative anchor
-> **Chapter 12 — Emperor Vaelkor Draeven → Sovereign Panoply Unbound**
-
-Reference route levels:
-- mandatory **Lv56**;
-- completionist fixed-content **Lv66**.
-
-This is the next late mandatory full-system genuine-fresh-body test of the current persistent-spend Prime model.
-
-## Paper-validation status
-All mandatory story-boss raw bodies and action kits remain paper/static validated through the final boss. Individual owner files retain the detailed chapter-level certification notes and encounter behavior.
+Raw bodies and action kits listed here remain current encounter inputs unless their owning files explicitly reopen or replace them. A row in this register is not, by itself, balance certification.

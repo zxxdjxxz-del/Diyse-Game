@@ -2,7 +2,7 @@
 
 **Chapter:** 9 — Larkspire / Equal Mercy + Crownfall  
 **Role:** mandatory Equal Mercy / Last Sanctuary boss  
-**Status:** **PASS / FORMALLY VALIDATED v85 / RAW LINE RETAINED / POWER COMPLETE**
+**Status:** **RAW LINE RETAINED / POWER COMPLETE / BALANCE REVALIDATION OPEN**
 
 ## Story / combat boundary
 
@@ -104,7 +104,7 @@ The very large optional spread is intentionally preserved.
 |---:|---:|---:|---:|---:|---:|---:|---:|---:|
 | 40 | **10,025** | **105** | **140** | **89** | **107** | **43** | 0 | 10 |
 
-The inherited Audit132 raw line is retained unchanged.
+The current raw line is retained unchanged.
 
 Reason:
 - mandatory Lv37 remains appropriately below the Lv40 boss;
@@ -293,7 +293,9 @@ No support/action-tax state refreshes a Prime.
 
 ---
 
-# Duration certification
+# Historical pacing target — not current certification
+
+These round-count estimates are retained only as historical pacing intent. They must be revalidated under the current progression/enemy inputs before being used for balance decisions.
 
 ## Mandatory Lv37
 Expected:
@@ -340,7 +342,7 @@ No Barrier.
 No Triage resource.
 No universal Mercy command.
 
-> **PASS / FORMALLY VALIDATED v85 / RAW LINE RETAINED / POWER COMPLETE**
+> **RAW LINE RETAINED / POWER COMPLETE / BALANCE REVALIDATION OPEN**
 
 ## Rewards
 

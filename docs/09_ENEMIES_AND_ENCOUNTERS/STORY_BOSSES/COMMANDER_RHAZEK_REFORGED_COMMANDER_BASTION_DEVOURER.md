@@ -3,7 +3,7 @@
 **Chapter:** 9 — Larkspire / Crownfall / Rhazek  
 **Role:** mandatory Chapter-9 climax boss  
 **Story outcome:** Rhazek defeated; Crownfall demolition fails  
-**Status:** **TRUE-BATTLE CERTIFIED v101 / PASS / RETAIN / POWER COMPLETE**
+**Status:** **RAW LINES RETAINED / POWER COMPLETE / BALANCE REVALIDATION OPEN**
 
 ## Story / character boundary
 
@@ -131,7 +131,7 @@ The large optional advantage is preserved instead of dynamically scaling Rhazek 
 |---:|---:|---:|---:|---:|---:|---:|---:|---:|
 | 43 | **8,431** | **163** | **100** | **111** | **96** | **44** | 5 | 10 |
 
-The inherited Audit132 line is retained unchanged.
+The current raw line is retained unchanged.
 
 ## Action kit
 
@@ -202,7 +202,7 @@ This is not possession.
 |---:|---:|---:|---:|---:|---:|---:|---:|---:|
 | 44 | **10,462** | **175** | **131** | **107** | **104** | **46** | 0 | 10 |
 
-The inherited Audit132 line is retained unchanged.
+The current raw line is retained unchanged.
 
 ## Core action kit
 
@@ -373,7 +373,9 @@ At Form-II 0 HP:
 
 No third boss body follows.
 
-# Duration certification
+# Historical pacing target — not current certification
+
+These round-count estimates are retained only as historical pacing intent. They must be revalidated under the current progression/enemy inputs before being used for balance decisions.
 
 ## Mandatory Lv40
 Reforged Commander:
@@ -428,7 +430,7 @@ No extra-action system.
 No third full-health form.
 No possession absolution.
 
-> **PASS / FORMALLY VALIDATED v85 / RAW LINES RETAINED / POWER COMPLETE**
+> **RAW LINES RETAINED / POWER COMPLETE / BALANCE REVALIDATION OPEN**
 
 ## Rewards
 
@@ -440,50 +442,10 @@ Chapter clear:
 
 ---
 
-# v101 true-battle certification
+# Current validation status
 
-> **TRUE-BATTLE CERTIFIED / PASS / RETAIN**
+The former v101 true-battle snapshot is historical only and is not current difficulty certification. Revalidate this encounter under:
+- `../../16_BALANCE_AND_TESTING/BALANCE/ENEMY_BOSS_MANDATORY_COMPLETIONIST_VALIDATION.md`;
+- `../../16_BALANCE_AND_TESTING/TRUE_BATTLES/TRUE_BATTLE_TEST_PROTOCOL.md`.
 
-Strict prepared mandatory Lv40, no Prime — **20,000 runs**:
-- **100% wins**;
-- median **14 rounds**;
-- mean **14.48**;
-- P90 **17**;
-- any-KO incidence **0.08%**;
-- mean ending HP **75.06%**;
-- mean ending MP **12.18%**;
-- mean consumables **3.45**.
-
-Mandatory Lv40 with one timed Awakened Last Sentinel — **10,000 runs**:
-- **100% wins**;
-- median **15 total combat rounds**;
-- mean **15.34**;
-- P90 **17**;
-- Last Sentinel crossed the genuine Form-I → Form-II transition in **99.04%** of timed stress runs;
-- no spent-Prime restoration occurred.
-
-Mandatory legal two-Prime spacing stress — Last Sentinel → **2 full normal party rounds** → Last Convergence — **10,000 runs**:
-- **100% wins**;
-- median **15 total combat rounds**;
-- mean **15.17**;
-- P90 **17**;
-- mean ending MP **43.77%**;
-- mean consumables **0.98**.
-
-Completionist reference:
-- fixed-content Lv48 no Prime — **median 12 / mean 12.18 / P90 14** over 5,000 runs;
-- RH9-legal Lv49 no Prime — **median 12 / mean 12.06 / P90 14** over 5,000 runs.
-
-Demolition Breaker remained behaviorally relevant and produced no structural wipe pattern. Current Speed/control/persistent-mitigation/Prime timing supplies valid counterplay without extending Defend beyond its owning duration rule.
-
-Retain unchanged:
-- both HP bodies and raw stat lines;
-- all direct-damage Powers and status chances;
-- all repetition locks;
-- genuine fresh-body transition;
-- persistent spent-Prime state across that transition;
-- Demolition Breaker threshold / preparation / resolution package;
-- 18% Exposed Rhazek same-bar finish.
-
-Detailed certification:
-`../../16_BALANCE_AND_TESTING/TRUE_BATTLES/RHAZEK_BASTION_DEVOURER_TRUE_BATTLE_v101.md`
+Current mechanics, raw lines, Powers, repetition locks, fresh-body architecture, Exposed Rhazek finish, and persistent spent-Prime behavior remain the encounter-design inputs until an owning redesign explicitly changes them.

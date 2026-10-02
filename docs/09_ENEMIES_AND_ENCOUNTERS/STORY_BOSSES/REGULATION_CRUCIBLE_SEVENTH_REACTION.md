@@ -1,4 +1,4 @@
-# Regulation Crucible → The Seventh Reaction — Current Working Recertification
+# Regulation Crucible → The Seventh Reaction — Current Encounter Authority
 
 **Chapter:** 4  
 **Scene:** S024 — Regulation Core  
@@ -68,7 +68,7 @@ No Prime use is mandatory.
 |---:|---:|---:|---:|---:|---:|---:|---:|---:|
 | 18 | **2,400** | **64** | **90** | **54** | **57** | **30** | 0 | 10 |
 
-Audit130's corrected **2,400 HP** is retained.
+The current **2,400 HP** value is retained.
 
 The old ATK54 / MAG73 line is superseded by the current Power-complete pressure pass.
 
@@ -313,7 +313,9 @@ No extra action is granted.
 
 2-round repetition lock.
 
-## Duration certification
+## Historical pacing target — not current certification
+
+These round-count estimates are retained only as historical pacing intent. They must be revalidated under the current progression/enemy inputs before being used for balance decisions.
 
 ### Mandatory Lv15
 Expected:

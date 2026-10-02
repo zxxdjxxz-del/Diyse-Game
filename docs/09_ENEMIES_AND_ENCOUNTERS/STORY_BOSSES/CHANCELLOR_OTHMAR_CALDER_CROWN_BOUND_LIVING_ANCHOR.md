@@ -2,7 +2,7 @@
 
 **Chapter:** 11 — Crown Engine / Calder / Custodian / Truth  
 **Role:** mandatory Chapter-11 Crown Engine confrontation  
-**Status:** **FORMALLY VALIDATED v87 / RAW LINES RETAINED / POWER COMPLETE**
+**Status:** **RAW LINES RETAINED / POWER COMPLETE / BALANCE REVALIDATION OPEN**
 
 ## Character / story boundary
 
@@ -111,7 +111,7 @@ The ten-level optional spread is preserved rather than dynamically scaling Calde
 |---:|---:|---:|---:|---:|---:|---:|---:|---:|
 | 54 | **10,133** | **137** | **193** | **118** | **134** | **50** | 5 | 10 |
 
-The inherited Audit132 raw line is retained unchanged.
+The current raw line is retained unchanged.
 
 Calder is intentionally magic-forward.
 
@@ -233,7 +233,7 @@ This is voluntary system integration, not possession.
 |---:|---:|---:|---:|---:|---:|---:|---:|---:|
 | 55 | **13,662** | **181** | **204** | **139** | **139** | **47** | 0 | 10 |
 
-The inherited Audit132 raw line is retained unchanged.
+The current raw line is retained unchanged.
 
 ## Living Anchor Clamps
 
@@ -379,7 +379,9 @@ No third body exists.
 
 ---
 
-# Duration certification
+# Historical pacing target — not current certification
+
+These round-count estimates are retained only as historical pacing intent. They must be revalidated under the current progression/enemy inputs before being used for balance decisions.
 
 ## Mandatory Lv49
 
@@ -446,7 +448,5 @@ Full two-form confrontation:
 The deeper Custodian encounter remains later in Chapter 11.
 
 
-## v87 balance certification
-See `16_BALANCE_AND_TESTING/BALANCE/CHAPTER_11_MANDATORY_COMPLETIONIST_VALIDATION.md`.
-
-No raw stat, support value, phase threshold, or direct-damage Power changed in v87.
+## Current validation status
+Historical Chapter-11 certification is not current authority. Difficulty certification is **OPEN** pending revalidation under `../../16_BALANCE_AND_TESTING/BALANCE/ENEMY_BOSS_MANDATORY_COMPLETIONIST_VALIDATION.md` with current progression and encounter inputs.

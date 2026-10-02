@@ -3,7 +3,7 @@
 **Chapter:** 8 — Horizon Vault / Westguard / Varkesh  
 **Role:** mandatory Chapter-8 climax boss  
 **Story outcome:** defeated; successfully escapes/withdraws  
-**Status:** **FORMALLY VALIDATED v84 / RAW LINES RETAINED / POWER COMPLETE**
+**Status:** **RAW LINES RETAINED / POWER COMPLETE / BALANCE REVALIDATION OPEN**
 
 ## Preserved character/combat identity
 
@@ -110,7 +110,7 @@ The boss is not dynamically scaled upward to erase Character Quest / Hunt progre
 |---:|---:|---:|---:|---:|---:|---:|---:|---:|
 | 38 | **7,326** | **140** | **93** | **93** | **85** | **44** | 5 | 10 |
 
-The inherited Audit131 Form-I line is retained unchanged.
+The current Form-I raw line is retained unchanged.
 
 ## Action kit
 
@@ -185,7 +185,7 @@ The transformation is deliberate, not possession.
 |---:|---:|---:|---:|---:|---:|---:|---:|---:|
 | 39 | **8,485** | **151** | **107** | **97** | **91** | **45** | 5 | 10 |
 
-The inherited Audit131 Form-II line is retained unchanged.
+The current Form-II raw line is retained unchanged.
 
 ## Action kit
 
@@ -284,7 +284,9 @@ No third body exists.
 
 ---
 
-# DURATION CERTIFICATION
+# Historical pacing target — not current certification
+
+These round-count estimates are retained only as historical pacing intent. They must be revalidated under the current progression/enemy inputs before being used for balance decisions.
 
 ## Mandatory Lv35
 
@@ -339,7 +341,7 @@ No Spatial element.
 No extra-action system.
 No possession absolution.
 
-> **FORMALLY VALIDATED v84 / RAW LINES RETAINED / POWER COMPLETE**
+> **RAW LINES RETAINED / POWER COMPLETE / BALANCE REVALIDATION OPEN**
 
 ## Reward
 

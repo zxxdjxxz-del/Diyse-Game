@@ -3,7 +3,7 @@
 **Chapter:** 13 — The Last Command  
 **Location:** Last Weapon Archive  
 **Role:** mandatory pre–Last Shelter Ancient guardian  
-**Status:** **FORMALLY VALIDATED v89 / RAW LINE RETAINED / POWER COMPLETE**
+**Status:** **RAW LINE RETAINED / POWER COMPLETE / BALANCE REVALIDATION OPEN**
 
 ## Story boundary
 
@@ -115,7 +115,7 @@ The boss remains fixed and is not dynamically scaled upward.
 |---:|---:|---:|---:|---:|---:|---:|---:|---:|
 | 63 | **20,800** | **236** | **220** | **160** | **160** | **56** | 0 | 15 |
 
-The inherited Audit132 offensive/defensive line is retained, with HP raised for the revised mandatory pacing target.
+The current offensive/defensive line is retained, with HP raised for the revised pacing target.
 
 Reason:
 - mandatory Lv58 is five levels below the guardian;
@@ -311,7 +311,9 @@ Adjustment:
 
 This lengthens the fight without increasing per-hit lethality.
 
-# Duration certification
+# Historical pacing target — not current certification
+
+These round-count estimates are retained only as historical pacing intent. They must be revalidated under the current progression/enemy inputs before being used for balance decisions.
 
 ## Mandatory Lv58
 
@@ -373,5 +375,5 @@ Afterward:
 The Archon does not itself cross the true point of no return.
 
 
-## v89 mandatory-vs-completionist certification
-**PASS / FORMALLY VALIDATED.** Exact references are Lv58 mandatory / Lv69 broad completionist / Lv70 full completionist. The retained 20,800-HP body preserves the existing ~15–17 mandatory / ~9–12 completionist pacing. On the fragile unequipped Lv58 Green Arcanist reference, Compression Verdict is ~25% Max HP and Weapon Discharge ~14% per target. No raw stat or Power changed.
+## Current validation status
+Historical chapter-level certification is not current authority. Difficulty certification is **OPEN** pending revalidation under `../../16_BALANCE_AND_TESTING/BALANCE/ENEMY_BOSS_MANDATORY_COMPLETIONIST_VALIDATION.md` with current progression and encounter inputs.

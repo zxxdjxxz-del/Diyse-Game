@@ -82,4 +82,4 @@ No enemy, Hunt, boss, or damaging support-object kit can be numerically certifie
 
 Non-damaging actions explicitly use `Power: N/A — no direct damage`.
 
-See `05_BATTLE_SYSTEM/ACTION_POWER_REQUIREMENT.md`.
+See `../05_BATTLE_SYSTEM/ACTION_POWER_REQUIREMENT.md`.

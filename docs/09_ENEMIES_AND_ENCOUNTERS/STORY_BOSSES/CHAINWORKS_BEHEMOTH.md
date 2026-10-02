@@ -2,7 +2,7 @@
 
 **Chapter:** 7 — The Prison of Names  
 **Role:** mandatory Ashford / Chainworks named miniboss  
-**Status:** **VALIDATED v83 / RAW LINE RETAINED / POWER COMPLETE**
+**Status:** **RAW LINE RETAINED / POWER COMPLETE / BALANCE REVALIDATION OPEN**
 
 ## Preserved architecture
 
@@ -71,7 +71,7 @@ The large level spread is intentional: post-Chapter-6 optional progression is al
 |---:|---:|---:|---:|---:|---:|---:|---:|---:|
 | 29 | **5,135** | **109** | **57** | **77** | **59** | **32** | 0 | 5 |
 
-The Audit131 raw line is retained unchanged.
+The current raw line is retained unchanged.
 
 Reason:
 - mandatory Lv27 is appropriately below the Lv29 miniboss;
@@ -258,7 +258,9 @@ because it is the same HP body.
 
 Destroying Anchors also does not refresh a Prime.
 
-# Duration certification
+# Historical pacing target — not current certification
+
+These round-count estimates are retained only as historical pacing intent. They must be revalidated under the current progression/enemy inputs before being used for balance decisions.
 
 ## Mandatory Lv27
 

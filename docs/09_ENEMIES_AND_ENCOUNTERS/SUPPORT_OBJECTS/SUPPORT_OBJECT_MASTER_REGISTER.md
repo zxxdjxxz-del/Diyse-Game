@@ -1,9 +1,6 @@
 # Diyse — Support Object Master Register
-**Migration baseline:** `Diyse_CURRENT_WORKING_TRACKER_CONSOLIDATED_2026-08-27_v85.md`  
-**Historical enemy-production provenance:** Audit90/Audit93 plus later tracker-era roster/action cleanups.
-**Historical raw-stat provenance:** Audit129–Audit135.
-**Authority treatment:** this register is current support-object-domain authority; Audit/v85 references remain historical provenance only.
-**Migration rule:** current repository boss/support names, chapter placement, and Prime-restoration rules supersede conflicting historical support text.
+**Status:** CURRENT SUPPORT-OBJECT DOMAIN INDEX  
+**Authority:** current boss/support owner files plus later explicit approved corrections. Historical tracker/Audit provenance remains in Git history.
 
 
 | Chapter | Support object / identity | Current boundary |
