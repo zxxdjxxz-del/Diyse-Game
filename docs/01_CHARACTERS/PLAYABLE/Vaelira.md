@@ -1133,4 +1133,4 @@ Controlled, concise, exact, dry. Emotion should alter pressure and specificity, 
 ## Visual / combat identity firewall
 Current visual authority: `docs/14_ART_AND_VISUALS/PRODUCTION/CHARACTERS/VAELIRA_CURRENT_VISUAL_LOCK.md` and `asset_sources/characters/current/vaelira.jpg`.
 
-Vaelira's current ordinary weapon/visual identity uses **Arcane Staffs**. Do not restore bow, quiver, or archer/ranger language from superseded material.
+Vaelira's current gameplay weapon family is **Arcane Staff**, as owned by `08_ITEMS_AND_EQUIPMENT`. Her final exact visual master is **staff-free by default**; do not add a staff to the base/reference appearance merely to signal class. When battle/runtime presentation shows her actively equipped Arcane Staff, use staff-appropriate handling and silhouette. Do not restore bow, quiver, or archer/ranger language from superseded material.
