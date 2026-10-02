@@ -1,9 +1,6 @@
 # Diyse — Chapter 04 Enemies — REWORK BOUNDARY
-**Migration baseline:** `Diyse_CURRENT_WORKING_TRACKER_CONSOLIDATED_2026-08-27_v85.md`  
-**Historical enemy-production provenance:** Audit90/Audit93 plus later tracker-era roster/action cleanups.
-**Historical raw-stat provenance:** Audit129–Audit135.
-**Authority treatment:** this chapter file is current enemy roster/placement authority; Audit/v85 references remain historical provenance only.
-**Migration rule:** current repository names, chapter placement, system firewalls, and Prime-restoration rules supersede conflicting historical enemy text.
+**Current authority:** this chapter file owns the current chapter enemy roster and broad placement except where a narrower current enemy, formation, authored-encounter, boss, or story owner explicitly controls a subsection.  
+**Authority rule:** current repository names, current chapter/story placement, and current system firewalls supersede conflicting historical material; Git history is provenance only.
 
 
 ## Ordinary / repeatable — REWORK PENDING
