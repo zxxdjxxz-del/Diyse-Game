@@ -51,7 +51,7 @@ Numeric/action status:
 - **OPEN / DEFERRED** under `../CHAPTER_ENEMIES/CHAPTER_03.md`; exact per-enemy tuning remains for the later Chapter-3 combat/balance pass.
 
 Historical predecessor:
-- `ERASURE_WISP.md`
+- Erasure Wisp — retired; historical details remain in Git history.
 
 ## Visual authority
 
