@@ -40,8 +40,8 @@
 - Historical mandatory-vs-completionist snapshots are **not current certification**; re-run under the active validation framework when current tuning/progression inputs are stable.
 - Last Shelter remains the true-PONR preparation boundary; final-boss difficulty must be revalidated against current progression and tuning inputs.
 
-Summary:
-`../ORDINARY_ENEMIES/CHAPTER_13_POWER_AND_RAW_REGISTER.md`
+Current individual enemy owners:
+`../ORDINARY_ENEMIES/` — use the files matching the active roster identities listed above.
 
 ### Ordinary copy mechanics
 Devouring Echo:
