@@ -1,7 +1,7 @@
 # Diyse — B01 Stone Benchmark Execution v1
 
 **Benchmark:** B01 — Stone / Fortified Exterior  
-**Status:** SOURCE ANALYSIS COMPLETE / STYLE STUDY READY  
+**Status:** STYLE-PASS APPROVED — GAMEPLAY TEST READY / B00 CROSS-CHECK PENDING  
 **Style authority:** `../../DIYSE_VISUAL_STYLE_CANON.md`  
 **Benchmark authority:** `../STYLE_BENCHMARK_SET_V1.md`  
 **Conversion pipeline:** `../ASSET_STYLE_CONVERSION_PIPELINE.md`
@@ -137,21 +137,21 @@ Recommended family:
 
 Color variation should occur in **large grouped patches**, not random per-stone rainbow variation.
 
-## 7. Painterly Surface Rule
+## 7. Graphic Surface Rule
 
 Stone surfaces should use:
-- broad soft brush/value transitions inside planes;
-- occasional dry-brush/chalk-like breakup;
-- selective edge scumbling;
+- broad designed light/shadow planes with controlled value transitions;
+- sparse graphic material breakup;
+- selective tapered or broken edge accents;
 - simplified mineral staining;
 - restrained moss intrusion;
 - very limited grain/noise.
 
-The painterly layer carries material richness. The chaotic lines carry structure, weight, and damage.
+Graphic value/shape grouping carries material richness. Selective chaotic lines carry structure, weight and damage. Soft-brushed/painterly rendering is retired by the shared style authority.
 
 ## 8. Required B01 Style Study Outputs
 
-Before B01 can be marked STYLE-PASS, create the following:
+The existing within-family STYLE-PASS is retained. Use the following output set for revision and current-style/B00 cross-check; it does not imply restarting the completed approval:
 
 1. **Neutral stone swatch** — representative wall/ledge section with no dramatic scene light.
 2. **Broken ruin swatch** — stronger damage and chaotic-line clustering.
@@ -209,7 +209,7 @@ B01 passes only when all are true:
 - [ ] chaotic variable line weight is unmistakable at detail scale;
 - [ ] line weight becomes subordinate but still perceptible at gameplay scale;
 - [ ] no uniform outline treatment;
-- [ ] painterly planes remain visible;
+- [ ] graphic stone value planes remain visible;
 - [ ] moss/ground transitions are readable;
 - [ ] no photo-noise dependence;
 - [ ] no muddy all-gray result;
@@ -219,6 +219,6 @@ B01 passes only when all are true:
 
 ## 13. Production Decision
 
-**B01 is now ready for visual style-study generation.**
+B01 retains its within-family STYLE-PASS approval and remains gameplay-test/B00-cross-check pending, as indexed by `README.md`.
 
-Do not advance to B03 as an accepted benchmark until B01 has at least one STYLE-PASS visual reviewed against this execution sheet.
+Validate the existing stone family against current graphic-anime style and actual gameplay scale before final `ACCEPTED` promotion. Current work order belongs to `../../../90_WORKING/ACTIVE_WORK_QUEUE.md`; this sheet does not restart the benchmark sequence.
