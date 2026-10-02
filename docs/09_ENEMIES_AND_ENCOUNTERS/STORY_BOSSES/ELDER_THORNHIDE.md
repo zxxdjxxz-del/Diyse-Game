@@ -1,4 +1,4 @@
-# Elder Thornhide — Current Working Recertification
+# Elder Thornhide — Current Encounter Authority
 
 **Chapter:** 4  
 **Scene:** S022 — Lower Cresthaven Grounds  
