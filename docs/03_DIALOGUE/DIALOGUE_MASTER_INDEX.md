@@ -2,7 +2,6 @@
 
 **Current authority:** live owning-domain files, current production atomics, and later explicit approved revisions.  
 **Dialogue production root:** `docs/03_DIALOGUE/PRODUCTION/`  
-**Chapters 0–3 source-closure record:** `PRODUCTION/CHAPTERS_00_03_FULL_SOURCE_CLOSURE_2026-09-13.md`
 
 ## Current global state
 
@@ -261,34 +260,6 @@ Protected Beat-10 Authority Construct messages:
 Cyanis's Card becomes stable deep Ruby only after the Authority Construct is fully inert. Causation remains unresolved. No Prime event occurs and the Card is not used as a key.
 
 Nimera joins permanently in Beat 5. Torren/Nimera remain first-contact/new-acquaintance throughout Chapter 3.
-
----
-
-# Source-closure corrections completed on 2026-09-13
-
-Upstream runtime-brain fixes:
-- Cyanis — Crest Arcanist + non-question-feed guardrail;
-- Ilyra — removed generic caretaker/risk/agency default;
-- Torren — encoded social progression + non-route personality + Torren/Nimera chronology;
-- Nimera — encoded first-contact Torren timing + later earned paternal bond + adult profanity;
-- Maevra — encoded preexisting Cyanis/Ilyra familiarity + real rank + growing off-duty friendship.
-
-High-risk Chapter-1 spec fixes:
-- Beats 1, 3, 11, 12;
-- C02 Dinner;
-- C03 What the Map Says;
-- C04 Not Professionally.
-
-High-risk Chapter-3 spec/note fixes:
-- Beats 7, 8, 9, 11, 12, 14;
-- C06;
-- Beat 9 `Resource` → **Memory**;
-- Beat 11/12 stale `Sixfold Knight` references removed;
-- stale `Torren remains terse` production target removed;
-- Chapter-3 paternal Torren/Nimera behavior explicitly blocked.
-
-Full record:
-- `PRODUCTION/CHAPTERS_00_03_FULL_SOURCE_CLOSURE_2026-09-13.md`
 
 ---
 

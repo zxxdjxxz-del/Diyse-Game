@@ -202,7 +202,6 @@ def validate_cross_chapter_names(errors: list[str]) -> None:
 
     required = [
         PROD_ROOT / "CHAPTERS_00_03_DIALOGUE_SYNC_MANIFEST.md",
-        PROD_ROOT / "CHAPTERS_00_03_FULL_SOURCE_CLOSURE_2026-09-13.md",
     ]
     for path in required:
         if not path.is_file():
