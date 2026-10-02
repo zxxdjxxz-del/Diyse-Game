@@ -150,7 +150,7 @@ The fixed boss is not scaled upward to erase that optional progression.
 |---:|---:|---:|---:|---:|---:|---:|---:|---:|
 | 55 | **16,017** | **177** | **190** | **144** | **146** | **48** | 0 | 10 |
 
-The inherited Audit132 raw line is retained unchanged.
+The current raw line is retained unchanged.
 
 Reason:
 - mandatory Lv51 remains meaningfully below the Lv55 encounter;
