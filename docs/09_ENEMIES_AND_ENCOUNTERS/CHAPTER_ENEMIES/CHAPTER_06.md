@@ -46,8 +46,8 @@
 - Chapter 6 introduces no new harmful status.
 - No Poison / Blood status / Blood element exists.
 
-Summary:
-`../ORDINARY_ENEMIES/CHAPTER_06_POWER_AND_RAW_REGISTER.md`
+Current individual enemy owners:
+`../ORDINARY_ENEMIES/` — use the files matching the active roster identities listed above.
 
 ### Authored/special placement boundary
 Weather Crown Shield Guard, Blood Husk, and Perfected Soldier now have exact Power-complete combat kits.
