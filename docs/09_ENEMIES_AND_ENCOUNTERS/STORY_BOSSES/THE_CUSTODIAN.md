@@ -363,7 +363,9 @@ Destroying the Perception Node or Ruin Containment Seal also does not refresh Pr
 
 ---
 
-# Duration certification
+# Historical pacing target — not current certification
+
+These round-count estimates are retained only as historical pacing intent. They must be revalidated under the current progression/enemy inputs before being used for balance decisions.
 
 ## Mandatory Lv51
 Expected:
@@ -421,7 +423,5 @@ Current Standard Card continuity:
 The older `Chapter 10 — Custodian reconciliation` source label is retired because The Last Blank insertion moved this material to current Chapter 11.
 
 
-## v87 balance certification
-See `16_BALANCE_AND_TESTING/BALANCE/CHAPTER_11_MANDATORY_COMPLETIONIST_VALIDATION.md`.
-
-No raw stat, support value, phase threshold, or direct-damage Power changed in v87.
+## Current validation status
+Historical Chapter-11 certification is not current authority. Difficulty certification is **OPEN** pending revalidation under `../../16_BALANCE_AND_TESTING/BALANCE/ENEMY_BOSS_MANDATORY_COMPLETIONIST_VALIDATION.md` with current progression and encounter inputs.
