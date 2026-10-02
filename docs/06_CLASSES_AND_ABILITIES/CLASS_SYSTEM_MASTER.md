@@ -59,11 +59,11 @@ Current class-specific normalized kits use:
 | CL13 | Subclass Ultimate + cap |
 
 ### Reconciliation note
-The short summary near the front of v85 still contains an inherited line placing the fifth normal Subclass Ability at CL10. The later/current normalized class-specific kits consistently place that fifth Ability at **CL11**, and the current Mastery correction also uses CL11 for Legacy Mastery. This extraction follows the specific normalized kits and flags the older generic CL10 line as stale summary text.
+The retired generic summary placed the fifth normal Subclass Ability at CL10. The current normalized class-specific kits consistently place that fifth Ability at **CL11**, and current Mastery authority also uses CL11 for Legacy Mastery. Follow the specific normalized kits; the old generic CL10 line is stale.
 
 ## Mastery state — current repository authority
 
-Audit123 historically used Mastery Points. Current repository authority removes the **Mastery Point resource entirely**.
+The retired point-purchase model used Mastery Points. Current repository authority removes the **Mastery Point resource entirely**.
 
 Current behavior:
 - no Mastery Point grants;
@@ -77,7 +77,7 @@ Mastery completion occurs at:
 - Base CL12 for all four Core Masteries;
 - Subclass CL11 for all four Subclass Masteries.
 
-Historical Audit123 text may still document the retired point-purchase model, but it does not override the current repository rule above.
+Git history may document the retired point-purchase model, but it does not override the current repository rule above.
 
 ## Synthesis
 **Removed.**
