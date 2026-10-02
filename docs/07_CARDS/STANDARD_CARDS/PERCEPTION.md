@@ -91,9 +91,9 @@ The delay:
 The enemy still chooses its legal action using the real battle state when its delayed turn actually arrives.
 
 ## Global references
-- MP prices shown here are current repository values; Audit119/v85 remains provenance only.
+- MP prices shown here are current repository values.
 - Harmful statuses resolve through `../../05_BATTLE_SYSTEM/STATUS_EFFECTS.md`.
 - Base Hit/Evasion resolves through `../../05_BATTLE_SYSTEM/BASE_HIT_AND_EVASION.md`.
 - Initiative and next-round rerouting resolve through `../../05_BATTLE_SYSTEM/TURN_AND_ROUND_RULES.md`.
 - Penetration resolves through `../../05_BATTLE_SYSTEM/DAMAGE_FORMULAS.md`.
-- Current Bleed timing/clearing follows Audit122/current organized status authority, not stale Audit116 heal-clears-Bleed wording.
+- Current Bleed timing/clearing is owned by `../../05_BATTLE_SYSTEM/STATUS_EFFECTS.md`.
