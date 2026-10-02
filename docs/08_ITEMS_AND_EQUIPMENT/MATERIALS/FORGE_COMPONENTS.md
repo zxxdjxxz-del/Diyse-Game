@@ -8,8 +8,8 @@ Six Face material families:
 - Might — **Creststeel**
 - Elements — **Prismglass**
 - Grace — **Warding Silver**
-- Acuity — **Calibration**
-- Change — **Pattern Crystal**
+- Perception — **Calibration**
+- Memory — **Pattern Crystal**
 - Ruin — **Black Ore**
 
 Exactly **5 source slots per Face**:
@@ -27,4 +27,4 @@ A Legacy-gate component cannot forge a Relic copy.
 
 ## Final naming
 Exact variant display names for Gate A / Gate B / copy-specific grades may remain a later naming pass.
-Do not invent them merely to complete the migration.
+Do not invent them merely to fill currently open naming slots.
