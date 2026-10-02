@@ -42,7 +42,7 @@
 - Varkesh survives and is captured alive.
 - Vaelkor refuses surrender by agency; no possession reveal and no third form.
 - Chapter-12 broad ordinary / strong-normal / authored-protected Power pass: **PASS**.
-- Chapter-12 mandatory-vs-completionist balance: **PASS / VALIDATED v88**.
+- Historical mandatory-vs-completionist snapshots are **not current certification**; re-run under the active validation framework when current tuning/progression inputs are stable.
 - Recovered nine-formation composition set and 30/45/25 phase weights are retained; missing per-action percentages use `../ACTION_SELECTION_DEFAULT.md` unless explicitly authored.
 - Civilian populations remain distinct from the imperial war machine and are not default enemies.
 
@@ -72,11 +72,11 @@ No support respawn or transformation.
 ## Numerical boundary
 Chapter-12 ordinary raw bodies are now active-balance authority in individual files.
 
-Lord-Marshal Kharvek retains its inherited strong-normal raw line and is **FORMALLY VALIDATED v88**; exact within-chapter placement remains story-owned.
+Lord-Marshal Kharvek retains its inherited strong-normal raw line; exact within-chapter placement remains story-owned.
 
-Mandatory Varkesh/Vaelkor and their support authority remains separately owned and is **FORMALLY VALIDATED v88** with no numerical change.
+Mandatory Varkesh/Vaelkor and their support authority remains separately owned.
 
-Regional Hunt #11 is **FORMALLY VALIDATED v88** at recommended Lv61–62; exact within-chapter timing remains a story/world-state dependency.
+Regional Hunt #11 remains separately owned; exact within-chapter timing remains a story/world-state dependency.
 
 
 ## Current Varkesh final-capture handoff
