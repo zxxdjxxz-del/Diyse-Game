@@ -8,11 +8,12 @@ The repository's current written authority lives in the organized subject librar
 
 Read in this order:
 
-1. `docs/00_MASTER_CONTROL/CURRENT_CANON_STATUS.md`
-2. `docs/00_MASTER_CONTROL/CANON_QUICK_REFERENCE.md`
-3. the relevant numbered subject domain
-4. `docs/90_WORKING/` only when the subject is explicitly open/reopened
-5. `docs/99_ARCHIVE/` only for provenance/history
+1. `docs/00_MASTER_CONTROL/DIYSE_MASTER_INDEX.md`
+2. `docs/00_MASTER_CONTROL/AUTHORITY_AND_CHANGE_CONTROL.md`
+3. `docs/00_MASTER_CONTROL/CANON_QUICK_REFERENCE.md`
+4. the relevant numbered subject domain
+5. `docs/90_WORKING/` only when the subject is explicitly open/reopened
+6. `docs/99_ARCHIVE/` only for provenance/history
 
 When sources conflict, follow `docs/00_MASTER_CONTROL/AUTHORITY_AND_CHANGE_CONTROL.md`.
 
@@ -40,7 +41,7 @@ Current runtime architecture and known code/canon divergences are tracked under:
 
 - `docs/13_UI_AND_IMPLEMENTATION/CURRENT_RUNTIME_IMPLEMENTATION_STATUS.md`
 - `docs/13_UI_AND_IMPLEMENTATION/IMPLEMENTATION_NOTES/CURRENT_CODE_DIVERGENCES.md`
-- `docs/13_UI_AND_IMPLEMENTATION/IMPLEMENTATION_NOTES/IMPLEMENTATION_FRONTIER.md`
+- `docs/13_UI_AND_IMPLEMENTATION/IMPLEMENTATION_NOTES/VALIDATION_AND_TEST_GATES.md`
 
 The existing Godot runtime is an implementation foundation. Proof data, proof names, and historical behavior do not override current domain canon.
 

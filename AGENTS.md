@@ -6,7 +6,7 @@ This file governs AI-assisted engineering work in the Diyse implementation repos
 
 Before changing gameplay code, production content, data, UI, dialogue, progression, encounters, or saves:
 
-1. read `docs/00_MASTER_CONTROL/CURRENT_CANON_STATUS.md`;
+1. read `docs/00_MASTER_CONTROL/DIYSE_MASTER_INDEX.md`;
 2. read `docs/00_MASTER_CONTROL/AUTHORITY_AND_CHANGE_CONTROL.md`;
 3. read `docs/00_MASTER_CONTROL/CANON_QUICK_REFERENCE.md`;
 4. read the owning numbered subject domain;

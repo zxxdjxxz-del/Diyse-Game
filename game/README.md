@@ -23,7 +23,7 @@ Subdirectories should exist because current implementation work needs them, not 
 This folder is implementation, not the primary design/canon library.
 
 Before changing runtime behavior or production-facing content, follow:
-- `docs/00_MASTER_CONTROL/CURRENT_CANON_STATUS.md`;
+- `docs/00_MASTER_CONTROL/DIYSE_MASTER_INDEX.md`;
 - the owning numbered `docs/` domain;
 - `docs/13_UI_AND_IMPLEMENTATION/IMPLEMENTATION_AUTHORITY_PRECEDENCE.md`;
 - `docs/13_UI_AND_IMPLEMENTATION/IMPLEMENTATION_NOTES/CURRENT_CODE_DIVERGENCES.md` when proof/runtime behavior may be stale.
