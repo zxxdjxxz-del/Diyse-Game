@@ -61,7 +61,7 @@ Chapter roster:
 - `../CHAPTER_ENEMIES/CHAPTER_03.md`
 
 Power/raw-status boundary:
-- `../ORDINARY_ENEMIES/CHAPTER_03_POWER_AND_RAW_REGISTER.md`
+- **OPEN / DEFERRED** under current Chapter-3 enemy/balance authority; no separate chapter Power/raw register is current.
 
 Current exact dialogue / staging:
 - `../../03_DIALOGUE/PRODUCTION/CHAPTER_03/CH03_B07_DEEP_ARCHIVES_MEMORY_CONSTRUCT_DIALOGUE.md`
