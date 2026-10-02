@@ -16,7 +16,7 @@ Not yet canonized:
 9. exact equipment comparison presentation;
 10. exact original-vs-forged-Relic copy presentation;
 11. Kessara service unlock timing;
-12. Kessara service G fee, if any;
+12. Kessara fee display/affordability/transaction integration; final numeric amount is owned by the economy rebuild, while flat-fee structure is already defined in `../12_ECONOMY_AND_REWARDS/KESSARA_RELIC_COPY_ECONOMY.md`;
 13. Standard/Prime Card screen integration vs separate screens;
 14. quest/Hunt tracking/pinning UX;
 15. world-map marker/icon language;
