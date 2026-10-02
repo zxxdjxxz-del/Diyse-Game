@@ -636,9 +636,11 @@ Chapter 0:
 
 All current Chapter-0 enemy identities have direct-damage Power authored; this does not mean the new encounter order is difficulty-certified.
 
-## Regional Hunt Power closure — v73
+## Regional Hunt current action-data status
 Regional Hunts:
-> **#1–#11 POWER COMPLETE**
+> **active Hunts #4–#11 currently have explicit required action data**
+
+Retired slots #1–#3 are not part of the active Hunt set. Current action data remains an implementation reference pending the planned enemy-action/stat retuning pass.
 
 Support closure:
 - Authority Remnant Echo Node — max2 / HP1,050 / Power N/A
@@ -651,9 +653,11 @@ Winterglass Titan / Rift Gate Colossus remain same-bar state encounters.
 
 Major Hunts remain separate.
 
-## Major Hunt Power closure — v74
+## Major Hunt current action-data status
 Major Hunts:
-> **#1–#6 POWER COMPLETE**
+> **#1–#6 currently have explicit required action data**
+
+These values are current implementation references, not frozen final tuning; planned enemy-action/stat retuning may replace them.
 
 Fresh body:
 - #2 Crownless Siege Marshal → Crownless War Engine only
