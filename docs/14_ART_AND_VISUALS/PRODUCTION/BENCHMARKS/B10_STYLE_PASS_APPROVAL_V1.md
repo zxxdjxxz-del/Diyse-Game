@@ -5,6 +5,10 @@
 **Approved candidate:** `B10_REAL_PROP_REFINEMENT_CANDIDATE_V2.md`  
 **Style authority:** `../../DIYSE_VISUAL_STYLE_CANON.md`
 
+## Current evidence boundary
+
+This record preserves the results and review wording of its specific pilot/approval stage. Its painterly terminology, pending-review claims and proposed next actions describe that stage only; they do not override current graphic-anime requirements or completed later approvals. Current B10 status is owned by `README.md`, production requirements by `B10_CC0_PROP_CLUSTER_EXECUTION_V1.md`, and material handling by `../DIYSE_CC0_PROP_MATERIAL_GRAMMAR_V1.md`. Furniture/Metal within-family approval is retained, with runtime/B00 cross-check pending; Props/Cloth remain candidates. This record does not grant final `ACCEPTED` status.
+
 ## Approval
 
 The B10 v2 real-prop treatment is approved as the active Diyse style direction for the verified CC0 prop benchmark.
@@ -66,7 +70,7 @@ For the Quaternius 94-model pack, current dependency analysis finds these major 
 - Props — 39 models;
 - Cloth — 10 models.
 
-Furniture and Metal are approved by B10. Props and Cloth enter family-level validation under `DIYSE_CC0_PROP_MATERIAL_GRAMMAR_V1.md` before they are treated as equally proven.
+Furniture and Metal are approved by B10. Props and Cloth enter family-level validation under `../DIYSE_CC0_PROP_MATERIAL_GRAMMAR_V1.md` before they are treated as equally proven.
 
 ## Runtime gate before final ACCEPTED
 
