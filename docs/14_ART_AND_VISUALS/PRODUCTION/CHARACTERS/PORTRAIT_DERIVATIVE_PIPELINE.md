@@ -13,14 +13,11 @@ The current repository master image is never a disposable input and is never ove
 
 ## Authority chain
 
-For every portrait derivative:
+Follow the exact source-authority order owned by [`README.md`](README.md): newest approved source, registered approved fingerprint, matching repository binary, current visual lock, then shared style. This pipeline and derivative/export metadata remain subordinate.
 
-1. latest explicitly approved character revision;
-2. current source master in `asset_sources/characters/current/`;
-3. matching `*_CURRENT_VISUAL_LOCK.md`;
-4. `DIYSE_VISUAL_STYLE_CANON.md`;
-5. this derivative pipeline;
-6. purpose-specific derivative/export metadata.
+Verify a registered master against its approved fingerprint before creating derivatives. If a newer approved source is registered but not yet byte-synced, follow the exact-binary sync exception in `docs/00_MASTER_CONTROL/AUTHORITY_AND_CHANGE_CONTROL.md`; an older binary at the same path does not regain identity authority.
+
+Shared rendering authority: [`DIYSE_VISUAL_STYLE_CANON.md`](../../DIYSE_VISUAL_STYLE_CANON.md).
 
 A derivative may vary expression, pose/framing, crop, and production simplification only as needed for its approved purpose. It does not gain authority over the source master.
 
@@ -117,7 +114,7 @@ Every approved derivative should be traceable to:
 - orientation or side-specific requirement;
 - approval/status note.
 
-For the seven masters with verified SHA-256 fingerprints, use those fingerprints. For Kessara, use the current Git blob identity until a SHA-256 and exact dimensions are independently verified; do not fabricate them.
+Use the approved SHA-256 registered for the target character in `README.md` / `APPROVED_SOURCE_MANIFEST.json`; do not freeze a separate master-count snapshot in this pipeline. Kessara remains separately locked: use the current Git blob identity until her SHA-256 and exact dimensions are independently verified and registered; do not fabricate them.
 
 ## Source-master safety
 
