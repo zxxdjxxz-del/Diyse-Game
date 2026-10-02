@@ -18,4 +18,4 @@ Canonical global battle-system domain.
 - `BOSS_FORM_RULES.md`
 - `REMOVED_SYSTEMS_FIREWALL.md`
 
-This extraction is based on the v85 migration baseline but reconciled against current master-canon repository authority through v2.20 / Audit135 plus newer explicit battle-system corrections.
+Current battle authority is owned by the files above under `../00_MASTER_CONTROL/AUTHORITY_AND_CHANGE_CONTROL.md`. Migration baselines and audit snapshots remain Git-history provenance; they do not define a parallel combat contract.
