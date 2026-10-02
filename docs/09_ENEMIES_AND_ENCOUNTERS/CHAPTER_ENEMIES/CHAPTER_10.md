@@ -4,11 +4,9 @@
 
 
 ## Ordinary / repeatable
-- Vine Creeper
-- Briar Boar
-- Memory Construct
+- **REWORK PENDING — no current Chapter-10 ordinary enemy identities are locked.**
 
-Chapter-10 ordinary formation composition is **REWORK PENDING**. Do not restore the retired Judgment Frame / Erasure Wisp / Command Guard Frame / Authority Lens / Command Ring Drone package, and do not infer replacements from the retired recovered-formation sheet.
+All Chapter-10 ordinary enemies will be redesigned in a later enemy pass. Do not restore any retired carryover package, and do not infer replacement identities during repository cleanup.
 
 ## Support objects / support identities
 - None
@@ -26,17 +24,12 @@ Chapter-10 ordinary formation composition is **REWORK PENDING**. Do not restore 
 - None
 
 ## Current notes
-- The three retained carryover identities have current Chapter-10 body/action data; overall Chapter-10 ordinary roster/formation certification remains **OPEN**.
+- Chapter-10 ordinary enemy identity, raw tuning, actions, and formation composition are all **OPEN / REWORK PENDING**.
 - No approved strong normal-pool enemy in current Chapter 10.
 - No authored/protected identities in current Chapter 10.
 - No Regional Hunt in current Chapter 10.
 - All Chapter-10 ordinary formation composition is reopened for a later enemy/formation pass.
 - Registry Warden remains status-neutral by design; do not fabricate a generic status rider.
-
-Current individual enemy owners:
-- Vine Creeper — `../ORDINARY_ENEMIES/VINE_CREEPER.md`
-- Briar Boar — `../ORDINARY_ENEMIES/BRIAR_BOAR.md`
-- Memory Construct — `../ORDINARY_ENEMIES/ARCHIVE_SCRIBE_ENGINE.md` (legacy filename; file heading/current identity is Memory Construct)
 
 Strong normal-pool enemy:
 > **none — intentional**
@@ -45,7 +38,7 @@ Registry Warden:
 > **raw line retained / Power-complete / status-neutral**
 
 ## Numerical boundary
-Chapter-10 raw body/action data for the retained carryover identities remains owned by their individual files; formation-level balance authority is reopened.
+No Chapter-10 ordinary enemy raw body/action package is currently locked. Ordinary-enemy tuning and formation-level balance authority are reopened together.
 
 Mandatory Registry Warden authority remains separately owned and unchanged.
 
