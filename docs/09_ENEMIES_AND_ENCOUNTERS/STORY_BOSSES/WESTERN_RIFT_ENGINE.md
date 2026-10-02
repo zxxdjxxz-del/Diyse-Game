@@ -85,7 +85,7 @@ post-Volition Character Quests and Major Hunt #2 are allowed to matter.
 |---:|---:|---:|---:|---:|---:|---:|---:|---:|
 | 36 | **9,775** | **86** | **133** | **97** | **89** | **33** | 0 | 10 |
 
-The inherited Audit131 raw line is retained unchanged.
+The current raw line is retained unchanged.
 
 Reason:
 - mandatory Lv33 remains appropriately below the Lv36 boss;
