@@ -22,7 +22,6 @@ CH3 = ROOT / "docs/09_ENEMIES_AND_ENCOUNTERS/CHAPTER_ENEMIES/CHAPTER_03.md"
 CH1_FORMATIONS = ROOT / "docs/09_ENEMIES_AND_ENCOUNTERS/ENCOUNTER_FORMATIONS/CHAPTER_01_FORMATIONS.md"
 CH2_FORMATIONS = ROOT / "docs/09_ENEMIES_AND_ENCOUNTERS/ENCOUNTER_FORMATIONS/CHAPTER_02_FORMATIONS.md"
 CH3_FORMATIONS = ROOT / "docs/09_ENEMIES_AND_ENCOUNTERS/ENCOUNTER_FORMATIONS/CHAPTER_03_FORMATIONS.md"
-PLACEMENT = ROOT / "docs/09_ENEMIES_AND_ENCOUNTERS/CURRENT_PLACEMENT_AND_RESOLUTION_CORRECTIONS_2026-09-12.md"
 
 EXPECTED_DIALOGUE_LINES = 2015
 LABEL_RE = re.compile(r"^.+:\s*$")
@@ -31,10 +30,10 @@ LABEL_RE = re.compile(r"^.+:\s*$")
 BRIDGES = (
     ("Cyanis Solo", "Opening Ambush", (
         "Combat 1 — Cyanis solo: Black Host Raider + Black Host Crossbowman.",
-        "Combat 2 — Cyanis solo: Black Host Raider + Ruin Shieldbearer.",
+        "Combat 2 — Cyanis solo: Black Host Raider + Black Host Shieldbearer.",
         "Combat 3 — Cyanis solo: 2 War Hounds.",
         "Chapter 0 uses authored/tutorial encounters rather than the normal random-encounter cadence.",
-    ), CH0, ("Black Host Raider", "Black Host Crossbowman", "Ruin Shieldbearer", "2 War Hounds")),
+    ), CH0, ("Black Host Raider", "Black Host Crossbowman", "Black Host Shieldbearer", "2 War Hounds")),
     ("Hound Pressure", "Wreck Field", (
         "Combat 4 — Cyanis solo: Black Host Crossbowman + War Hound.",
         "Combat 5 — Cyanis solo: one lone War Hound threatening the survivor route.",
@@ -77,8 +76,8 @@ BRIDGES = (
         "Arcdrift is the Archive-specific ordinary identity. Memory Scribe is retired from Chapter 2.",
     ), CH2, ("Bogshell", "Cistern Leech", "Needlewing", "Arcdrift")),
     ("The Alarm", "Enemy Roster — Old Bastion", (
-        "Ruin Shieldbearer • Black Host Crossbowman • Black Host War-Sorcerer • Black Host Raider • War Hound",
-    ), CH2, ("Ruin Shieldbearer", "Black Host Crossbowman", "Black Host War-Sorcerer", "Black Host Raider", "War Hound")),
+        "Black Host Shieldbearer • Black Host Crossbowman • Battle Sorcerer • Black Host Raider • War Hound",
+    ), CH2, ("Black Host Shieldbearer", "Black Host Crossbowman", "Battle Sorcerer", "Black Host Raider", "War Hound")),
     ("Authority", "Boss — Commander Rhazek — Bastion Master", (
         "Commander Rhazek — Bastion Master",
     ), CH2, ("Commander Rhazek", "Bastion Master")),
@@ -177,8 +176,6 @@ def intro_text() -> list[str]:
 
 
 def validate_authority() -> None:
-    placement = PLACEMENT.read_text(encoding="utf-8")
-
     for authority, needles in FORMATION_AUTHORITIES:
         authority_text = authority.read_text(encoding="utf-8")
         for needle in needles:
@@ -187,12 +184,15 @@ def validate_authority() -> None:
                     f"Current formation authority {authority.relative_to(ROOT)} no longer contains {needle!r}"
                 )
 
-    if "NO PLAYABLE MANDATORY CHAPTER-3 ROAD STRETCH" not in placement:
-        raise RuntimeError("Chapter-3 no-road-combat firewall is missing")
-    if "Redwater Initiate" not in placement or "Do not place it automatically" not in placement:
-        raise RuntimeError("Waterworks Redwater placement firewall is missing")
-    if "HOLD THE JUNCTION IS RETIRED" not in placement:
-        raise RuntimeError("Hold-the-Junction retirement firewall is missing")
+    ch2_text = CH2.read_text(encoding="utf-8")
+    ch3_formations = CH3_FORMATIONS.read_text(encoding="utf-8")
+
+    if "no Caelora → Cresthaven road encounters" not in ch3_formations:
+        raise RuntimeError("Chapter-3 no-road-combat firewall is missing from current formation authority")
+    if "Retired from current Chapter-2 placement:" not in ch2_text or "- Redwater Initiate." not in ch2_text:
+        raise RuntimeError("Waterworks Redwater retirement firewall is missing from current Chapter-2 authority")
+    if "There is no Hold the Junction" not in ch2_text:
+        raise RuntimeError("Hold-the-Junction retirement firewall is missing from current Chapter-2 authority")
 
     cache = {}
     for _target, title, body, owner, needles in BRIDGES:
