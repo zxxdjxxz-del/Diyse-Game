@@ -14,7 +14,7 @@
 | **Zero Hour** | 48 | one enemy | Magical / Colorless | 300 | 100 | 50% Spirit penetration; if target begins resolution at or below 25% HP, +25% final damage. No instant death, status rider, HP-floor bypass, or form skip. | Major Hunt #6 — The Unfinished World |
 
 ## Global references
-- MP prices shown here are current repository values; Audit119/v85 remains provenance only.
-- Harmful statuses resolve through `05_BATTLE_SYSTEM/STATUS_EFFECTS.md`.
-- Base Hit/Evasion resolves through `05_BATTLE_SYSTEM/BASE_HIT_AND_EVASION.md`.
-- Current Bleed timing/clearing follows the active `05_BATTLE_SYSTEM` status authority; Audit122 and Audit116 are provenance only.
+- MP prices shown here are current repository values.
+- Harmful statuses resolve through `../../05_BATTLE_SYSTEM/STATUS_EFFECTS.md`.
+- Base Hit/Evasion resolves through `../../05_BATTLE_SYSTEM/BASE_HIT_AND_EVASION.md`.
+- Current Bleed timing/clearing is owned by `../../05_BATTLE_SYSTEM/STATUS_EFFECTS.md`.
