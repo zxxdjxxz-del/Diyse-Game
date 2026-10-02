@@ -1,6 +1,6 @@
 # Diyse — Natural Stat Curve
 
-**Status:** **RECOVERED / ACTIVE FOR BALANCE VALIDATION**  
+**Status:** ACTIVE NATURAL-STAT CURVE AUTHORITY  
 **Scope:** Player Levels 1–70 before selected-class multipliers and equipment.
 
 This file restores the neutral natural-stat formula required to reproduce player bodies during encounter validation.
