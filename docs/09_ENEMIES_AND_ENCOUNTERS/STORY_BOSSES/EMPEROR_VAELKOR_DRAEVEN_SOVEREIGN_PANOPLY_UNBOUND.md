@@ -3,7 +3,7 @@
 **Chapter:** 12 — The Reforged March  
 **Scene anchor:** S069 — Emperor Vaelkor Draeven  
 **Role:** mandatory Chapter-12 climax / collapse of Black Host imperial command  
-**Status:** **TRUE-BATTLE CERTIFIED v102 / PASS / RETAIN / RAW LINES RETAINED / POWER COMPLETE**
+**Status:** **RAW LINES RETAINED / POWER COMPLETE / BALANCE REVALIDATION OPEN**
 
 ## Story / agency boundary
 
@@ -399,7 +399,7 @@ The adjustment is intentionally HP-first rather than damage-first:
 
 The v54 follow-up raised HP so the paper mandatory-route target became 18–20 rounds without making individual hits more punishing.
 
-# Duration certification
+# Pacing target — revalidation required
 
 ## Historical paper reference
 Mandatory Lv56:
@@ -457,7 +457,7 @@ No third form.
 No possession reveal.
 No extra-action system.
 
-> **TRUE-BATTLE CERTIFIED v102 / PASS / RETAIN / RAW LINES RETAINED / POWER COMPLETE**
+> **RAW LINES RETAINED / POWER COMPLETE / BALANCE REVALIDATION OPEN**
 
 ## Reward
 
@@ -467,41 +467,10 @@ Full two-form clear:
 War structure broken / Chapter clear:
 > **1,400 EXP / 136 CEXP**
 
-## v88 mandatory-vs-completionist certification
-- mandatory fight state: **Lv56**;
-- completionist fixed-content state: **Lv66**;
-- high-side with legally pre-Vaelkor RH11: **~Lv67**;
-- no raw stat, threshold, fresh-body rule, or direct-damage Power changed.
+## Current validation status
+The former v88/v102 balance and simulation snapshots are historical tuning evidence only and are not current certification. Revalidate Vaelkor through the current global mandatory/completionist framework and True Battle suite using current progression, party, Prime, status, mitigation, and fresh-body rules.
 
-## v102 representative true-battle certification
-> **PASS / RETAIN**
-
-Mandatory Lv56 prepared late-ordinary reference:
-- no Prime — **100% wins / median 21 / mean 22.46 / P90 29** over 5,000 runs;
-- one Last Sentinel — **100% wins / median 20 / mean 20.70 / P90 25** over 5,000 runs;
-- legal two-Prime chain — **100% wins / median 19 / mean 19.14 / P90 23** over 5,000 runs.
-
-Prime persistence stress:
-- timed Last Sentinel crossed into the genuine fresh Sovereign Panoply body in **95.90%** of one-Prime runs and **96.38%** of two-Prime runs;
-- Form II began at full HP;
-- the spent Last Sentinel identity remained spent;
-- the same manifestation continued for remaining Prime rounds;
-- Last Convergence was invoked only after **2 full normal party rounds** had completed.
-
-No-Prime Sovereign Overrun:
-- Preparation appeared in **70.32%** of runs;
-- Resolution fired in **63.32%**;
-- all Overrun-resolution runs still cleared;
-- no unavoidable wipe signature appeared.
-
-Completionist Lv66 native-Legacy reference:
-- **100% wins / median 15 / mean 14.68 / P90 17** over 5,000 runs;
-- **0% any-KO**.
-
-No HP, raw-stat, Power, status, repetition-lock, Overrun, Final Sovereignty, or Prime-rule retune is justified.
-
-Detailed certification:
-`../../16_BALANCE_AND_TESTING/TRUE_BATTLES/VAELKOR_SOVEREIGN_PANOPLY_TRUE_BATTLE_v102.md`
+No boss mechanic, raw stat, Power, status chance, form transition, or reward is changed by this status cleanup.
 
 Next representative anchor:
 > **Reconstituted Entity → The Last Command — Chapter 13**
