@@ -1,11 +1,15 @@
 # Diyse — B10 Real Prop Refinement Candidate v2
 
 **Benchmark:** B10 — Verified CC0 Prop Cluster  
-**Status:** VISUAL REFINEMENT CANDIDATE V2 / USER REVIEW PENDING  
+**Status:** APPROVED CANDIDATE EVIDENCE — see `B10_STYLE_PASS_APPROVAL_V1.md`; RUNTIME / B00 CROSS-CHECK PENDING  
 **Execution authority:** `B10_CC0_PROP_CLUSTER_EXECUTION_V1.md`  
 **Style-study authority:** `B10_CC0_PROP_STYLE_STUDY_SPEC_V1.md`  
 **Previous technical baseline:** `B10_DETERMINISTIC_MATERIAL_BASELINE_PILOT_V1.md`  
 **Style authority:** `../../DIYSE_VISUAL_STYLE_CANON.md`
+
+## Current evidence boundary
+
+This record preserves the results and review wording of its specific pilot/approval stage. Its painterly terminology, pending-review claims and proposed next actions describe that stage only; they do not override current graphic-anime requirements or completed later approvals. Current B10 status is owned by `README.md`, production requirements by `B10_CC0_PROP_CLUSTER_EXECUTION_V1.md`, and material handling by `../DIYSE_CC0_PROP_MATERIAL_GRAMMAR_V1.md`. Furniture/Metal within-family approval is retained, with runtime/B00 cross-check pending; Props/Cloth remain candidates. This record does not grant final `ACCEPTED` status.
 
 ## 1. What changed from the first technical baseline
 
@@ -95,7 +99,7 @@ Verified real source extents used by the pilot:
 - Lantern_Wall: approximately **0.357 × 1.337 × 1.302**;
 - Workbench: approximately **2.019 × 0.895 × 1.024**.
 
-## 7. Current candidate read
+## 7. Recorded pre-approval candidate read
 
 Internal technical/art read before user approval:
 - **PASS candidate:** shared wood family now reads more quietly;
@@ -108,7 +112,7 @@ Internal technical/art read before user approval:
 - **PASS:** still **0 image-generation calls** for this deterministic candidate;
 - **USER REVIEW REQUIRED:** final artistic desirability of the v2 wood/metal treatment.
 
-## 8. Promotion rule
+## 8. Recorded candidate-stage promotion rule
 
 Do **not** mark B10 `STYLE-PASS` from this document alone.
 
