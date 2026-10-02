@@ -1,4 +1,4 @@
-# Regulation Crucible → The Seventh Reaction — Current Working Recertification
+# Regulation Crucible → The Seventh Reaction — Current Encounter Authority
 
 **Chapter:** 4  
 **Scene:** S024 — Regulation Core  
@@ -313,7 +313,9 @@ No extra action is granted.
 
 2-round repetition lock.
 
-## Duration certification
+## Historical pacing target — not current certification
+
+These round-count estimates are retained only as historical pacing intent. They must be revalidated under the current progression/enemy inputs before being used for balance decisions.
 
 ### Mandatory Lv15
 Expected:
