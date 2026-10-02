@@ -2,7 +2,7 @@
 
 **Chapter:** 10 — The Last Blank  
 **Role:** mandatory Buried Registry threshold boss  
-**Status:** **FORMALLY VALIDATED v86 / RAW LINE RETAINED / POWER COMPLETE**
+**Status:** **RAW LINE RETAINED / POWER COMPLETE / BALANCE REVALIDATION OPEN**
 
 ## Story boundary
 
@@ -260,7 +260,7 @@ because the Warden remains the same HP body.
 
 There is no second body or hidden third state.
 
-# Duration certification
+# Pacing target — revalidation required
 
 ## Mandatory Lv45
 Expected:
@@ -298,7 +298,7 @@ Open Registry direct damage:
 
 No harmful status riders anywhere in the kit.
 
-> **FORMALLY VALIDATED v86 / RAW LINE RETAINED / POWER COMPLETE**
+> **RAW LINE RETAINED / POWER COMPLETE / BALANCE REVALIDATION OPEN**
 
 ## Reward
 
@@ -308,5 +308,7 @@ Registry Warden:
 No random encounter layer is required after this boss before the Buried Registry story payoff.
 
 
-## v86 two-baseline validation
-Formal Chapter-10 validation retains the inherited raw line and all Powers unchanged at **Lv45 mandatory / Lv54 completionist / ~Lv55 high-side**. See `../../16_BALANCE_AND_TESTING/BALANCE/CHAPTER_10_MANDATORY_COMPLETIONIST_VALIDATION.md`.
+## Current validation status
+The former Chapter-10 two-baseline snapshot is historical only. Revalidate Registry Warden through the current global mandatory/completionist framework using the redesigned Chapter-10 progression and encounter context once that chapter's enemy pass is authored.
+
+No boss mechanic, raw stat, Power, or reward is changed by this status cleanup.
