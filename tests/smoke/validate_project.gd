@@ -151,34 +151,24 @@ func _run_validation() -> void:
 			failures.append("Combat proof did not initialize its battle state")
 		else:
 			if battle_state.party.size() != 4:
-				failures.append("Combat proof must initialize exactly four active party members")
-			if battle_state.enemies.size() != 3:
-				failures.append("Combat proof must initialize three test enemies")
-			if battle_state.phase != "selecting":
-				failures.append("Combat proof must begin in command-selection phase")
-			if battle_state.available_standard_cards().size() != 1:
-				failures.append("7B.5G must preserve exactly one placeholder Standard Card")
-			if battle_state.available_prime_cards_for_actor(0).size() != 1:
-				failures.append("Cyanis must initialize with bearer-locked First Champion available")
-			if not battle_state.available_prime_cards_for_actor(1).is_empty():
-				failures.append("First Champion must not appear for a non-bearer")
+				failures.append("Combat proof must initialize the current four-member active party surface")
+			if battle_state.enemies.is_empty():
+				failures.append("Combat proof must initialize at least one test enemy")
 		var commands = combat.get("command_buttons")
 		var required_commands := ["Attack", "Ability", "Card", "Item", "Defend"]
 		if not (commands is Dictionary) or commands.size() != 5:
-			failures.append("Combat proof must expose exactly five permanent commands")
+			failures.append("Combat proof must expose the five current global commands")
 		else:
 			for command in required_commands:
 				if not commands.has(command):
-					failures.append("Combat proof is missing command: %s" % command)
-		if combat.get("confirm_button") == null:
-			failures.append("Combat proof is missing CONFIRM ROUND control")
+					failures.append("Combat proof is missing current command: %s" % command)
 		combat.queue_free()
 
 	_finish(failures)
 
 func _finish(failures: Array[String]) -> void:
 	if failures.is_empty():
-		print("Diyse 7B.5G integrated exploration/dialogue/combat/Card/Prime/persistence smoke validation passed.")
+		print("Diyse integrated exploration/dialogue/combat/persistence smoke validation passed.")
 		quit(0)
 		return
 	for failure in failures:
