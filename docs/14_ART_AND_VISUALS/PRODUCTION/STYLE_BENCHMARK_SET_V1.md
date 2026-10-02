@@ -51,7 +51,7 @@ Every result is reviewed at both **source/detail scale** and **actual gameplay s
 - larger, cleaner stone masses;
 - deliberate irregular block edges;
 - sparse broken ink accents on fractures and overlaps;
-- painterly value grouping;
+- graphic cel-informed value grouping;
 - reduced micro-noise;
 - strong silhouette and edge readability.
 
@@ -90,7 +90,7 @@ Every result is reviewed at both **source/detail scale** and **actual gameplay s
 - grouped foliage masses rather than leaf-by-leaf realism;
 - irregular broken contour line weight concentrated at major silhouette turns;
 - darker trunk/branch clusters;
-- painterly internal value masses;
+- graphic internal foliage value masses;
 - clean alpha edges.
 
 **Pass test:** tree reads immediately at field scale and still carries the same line-energy family as character art.
@@ -127,7 +127,7 @@ Every result is reviewed at both **source/detail scale** and **actual gameplay s
 - broad luminous water bands;
 - graphic ripple shapes;
 - sparse dark line accents only at selected overlaps/edges;
-- painterly color movement;
+- graphic color/value flow bands;
 - sharper chaotic-line energy in splash impact than in calm surface water.
 
 **Pass test:** water remains fluid and atmospheric while the splash carries clear seinen-style impact energy.
@@ -136,9 +136,10 @@ Every result is reviewed at both **source/detail scale** and **actual gameplay s
 
 ### B06 — Fire / Light Emitter
 
-**Reference family:** Map092  
-**Primary sequence:** `gt_5_map092_fire_color_0.tga` through `gt_5_map092_fire_color_5.tga`  
-**Secondary sequence:** `gt_6_map092_fireplace_color_0.tga` through `gt_6_map092_fireplace_color_5.tga`
+**Primary source pool:** verified-CC0 Brackeys VFX bundle.  
+**Immediate replacement pilot:** `flipbooks/flame_01_16x4.tga`.  
+**Reference-only comparison:** Map092 fire/fireplace sequences.  
+**Execution / promotion owner:** `BENCHMARKS/B06_CC0_FIRE_LIGHT_EXECUTION_V1.md`. The first flame treatment is visually rejected technical evidence; approve replacement flame grammar before wider propagation.
 
 **Why this asset:** tests emissive rendering and whether chaotic lines can support light rather than muddy it.
 
@@ -164,7 +165,7 @@ Every result is reviewed at both **source/detail scale** and **actual gameplay s
 - large rock planes and ledges first;
 - sparse fracture lines with irregular weight;
 - deep ink buildup only in crevices/occlusion;
-- painterly moss/mineral breakup;
+- designed graphic moss/mineral breakup;
 - clear traversal surfaces.
 
 **Pass test:** dark atmosphere without losing walkable-space readability.
@@ -183,7 +184,7 @@ Every result is reviewed at both **source/detail scale** and **actual gameplay s
 - controlled ornament density;
 - richer but restrained palette;
 - variable line accents on seams, folds, carved edges and overlaps;
-- soft painterly fabrics;
+- broad cel-informed fabric fold/value groups;
 - sharp selective metal/detail highlights;
 - cinematic light-shaft compatibility.
 
@@ -230,7 +231,7 @@ Every result is reviewed at both **source/detail scale** and **actual gameplay s
 - avoid uniform black outlines around entire 3D models;
 - test compatibility with scene lighting.
 
-**Pass test:** the props feel native beside painterly 2D/HD-2D environment art rather than obviously imported low-poly assets.
+**Pass test:** the props feel native beside graphic anime-stylized HD-2D environment art rather than obviously imported low-poly assets.
 
 ---
 
@@ -293,7 +294,7 @@ The benchmark set must look related even though the subjects differ.
 - environment line treatment remains lighter than portrait/character treatment.
 
 ### Texture
-- broad painterly material breakup;
+- broad graphic anime-compatible material breakup;
 - no photo-noise dependence;
 - no uniform sharpening pass masquerading as stylization;
 - microdetail must disappear gracefully at gameplay scale.
@@ -334,7 +335,9 @@ If any answer is **no**, adjust the style implementation before broad conversion
 
 ## 6. Production Order
 
-Recommended sequence:
+The active immediate gate and cross-domain work order are owned by `../90_WORKING/ACTIVE_WORK_QUEUE.md` and `OPEN_VISUAL_PRODUCTION_ITEMS.md`. B00 rigged-model runtime validation is the current immediate visual gate; benchmark execution status is owned by `BENCHMARKS/README.md`.
+
+The following material-coverage sequence is a planning reference, not an instruction to restart completed family approvals or bypass B00/B06 gates:
 
 1. **B01 Stone** — establishes environmental line/noise baseline.
 2. **B03 Tree** — establishes alpha-edge and organic line grammar.
