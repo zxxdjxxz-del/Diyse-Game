@@ -1,9 +1,7 @@
 # Diyse — Major Hunt Master Register
-**Migration baseline:** `Diyse_CURRENT_WORKING_TRACKER_CONSOLIDATED_2026-08-27_v85.md`  
-**Historical enemy-production provenance:** Audit90/Audit93 plus later tracker-era roster/action cleanups.
-**Historical raw-stat provenance:** Audit129–Audit135.
-**Authority treatment:** this repository file is current Major-Hunt-domain authority; Audit/v85 references remain historical provenance only.
-**Migration rule:** current repository Hunt names, unlock timing, battle architecture, and Prime-restoration rules supersede conflicting historical text.
+
+**Status:** ACTIVE MAJOR-HUNT ENCOUNTER AUTHORITY  
+**Authority:** current enemy-domain Hunt owner plus later explicit approved corrections.  
 
 
 Exactly:
@@ -22,7 +20,7 @@ Exactly:
 Recommended Level is a preparedness target, not an access gate.
 
 ## Difficulty hierarchy
-> Ordinary < Elite < mandatory story boss < Regional Hunt < Major Hunt
+> baseline ordinary enemy < strong normal-pool enemy < mandatory story boss < Regional Hunt < Major Hunt
 
 ## Fresh-body rule
 Only Major Hunt #2 has a genuine fresh second body:
@@ -47,28 +45,23 @@ Current unlock timing is part of the Major Hunt encounter authority:
 Recommended Level remains a preparedness target, not an access gate.
 
 
-## Recertification progress
-- #1 Ashen Whitehorn — **RECERTIFIED** for the after-Ch6 window at recommended Lv33.
-- #2 Crownless Siege Marshal / Crownless War Engine — raw-stat/level baseline retained at encounter recommendation Lv41; the genuine fresh War Engine body does **not** refresh spent Prime identities.
-- #3 Concordance Guardian — **REVALIDATION OPEN** after the unlock moved to Sixfold Volition / end Chapter 7; Lv54/raw line retained provisionally.
-- #4 Worldscar Leviathan — **REVALIDATION OPEN** after the unlock moved to after Chapter 8; Lv60/raw line retained provisionally.
-- #5 Final Archive Arbiter — **REVALIDATION OPEN** after the unlock moved to after Chapter 10; Lv65/raw line retained provisionally.
-- #6 The Unfinished World — **TWO-BASELINE PAPER RECERTIFIED v88** for post-Vaelkor unlock; Lv70 target retained; runtime duration gate remains.
+## Current balance status
 
+Hunt identity, unlock timing, form architecture, Prime persistence behavior, and the current raw bodies in this register are the live encounter reference.
 
-## Recertification closure
-Major Hunt #1 retains its current two-baseline recertification. #2 retains its current numeric baseline under the global persistent-spend / no-form-refresh Prime rule but still has runtime Prime-economy revalidation open. #3–#5 require new mandatory/completionist validation for their earlier unlock windows; their existing numeric lines are provisional. #6 retains its runtime duration/attrition playtest gate.
+Recommended levels and raw tuning remain **provisional balance references** pending the planned progression and enemy-action/stat retuning pass. Do not treat older paper-recertification labels as final certification.
 
-Retained / provisional recommendations:
+Current recommendation references:
 - #1 Ashen Whitehorn — Lv33
-- #2 Crownless Siege Marshal / Crownless War Engine — encounter Lv41 retained pending Prime-economy runtime revalidation
+- #2 Crownless Siege Marshal / Crownless War Engine — encounter Lv41
 - #3 Concordance Guardian — Lv54
 - #4 Worldscar Leviathan — Lv60
 - #5 Final Archive Arbiter — Lv65
-- #6 The Unfinished World — Lv70 retained / v88 paper recertified
+- #6 The Unfinished World — Lv70
 
+#3–#5 especially require revalidation against their current earlier unlock windows. #2 still needs runtime Prime-economy validation; #6 still needs runtime duration/attrition validation.
 
-## Power completion — v74
+## Current action-data status
 All six Major Hunts now have exact:
 - direct-damage Power;
 - Base Hit;
@@ -78,8 +71,7 @@ All six Major Hunts now have exact:
 - same-bar/fresh-body behavior;
 - Preparation rules where used.
 
-Status:
-> **MAJOR HUNTS #1–#6 POWER COMPLETE**
+The register currently supplies explicit direct-damage Power and other required action data for all six Hunts. These are **current implementation references, not frozen final tuning**; the planned enemy-action/stat retuning pass may replace them without changing Hunt identity, unlock timing, or form architecture.
 
 Fresh-body rule remains:
 > only #2 Crownless Siege Marshal → Crownless War Engine has a genuine fresh second body; it **does not refresh spent Prime identities** when Form II begins.
