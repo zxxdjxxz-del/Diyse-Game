@@ -127,7 +127,7 @@ The ten-level optional advantage remains intentionally visible.
 |---:|---:|---:|---:|---:|---:|---:|---:|---:|
 | 60 | **16,800** | **223** | **209** | **155** | **150** | **54** | 5 | 10 |
 
-The inherited Audit132 offensive/defensive line is retained, with HP raised modestly for climax duration.
+The current offensive/defensive line is retained, with HP raised modestly for climax duration.
 
 ## Imperial Cut
 - one party member
@@ -209,7 +209,7 @@ The Entity does not visibly emerge or take control.
 |---:|---:|---:|---:|---:|---:|---:|---:|---:|
 | 61 | **20,200** | **238** | **224** | **163** | **157** | **55** | 0 | 10 |
 
-The inherited Audit132 offensive/defensive line is retained, with HP raised modestly for climax duration.
+The current offensive/defensive line is retained, with HP raised modestly for climax duration.
 
 ## Panoply Cleave
 - one party member
