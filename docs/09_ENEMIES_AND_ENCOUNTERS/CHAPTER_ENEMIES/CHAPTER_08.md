@@ -97,34 +97,11 @@ Current:
 - Chapter-12 capture remains separate.
 
 
-## v84 mandatory-vs-completionist validation
-Status:
-> **PASS / VALIDATED WITH EXPLICIT FORMATION/TIMING DEPENDENCIES**
+## Current validation status
+Historical mandatory-vs-completionist snapshots are **not current certification**. Re-run Chapter-8 difficulty validation only after the current enemy-tuning and progression inputs are stable enough for the active framework.
 
-Route anchors:
-- Lv32 chapter start;
-- Lv33 Western Rift Engine;
-- ~Lv34 western-line middle;
-- Lv35 Marshal Varkesh → Rift Conqueror;
-- Lv37 chapter end.
+Current ownership remains:
+- opening/middle/late ordinary formations and their 30/45/25 phase weights — `../ENCOUNTER_FORMATIONS/CHAPTER_08_FORMATIONS.md`;
+- exact Regional Hunt #8 optional-return timing — story/world-state authority.
 
-All six permanent characters are available, but the active party remains four. Subclasses are legal throughout Chapter 8.
-
-Retained unchanged:
-- all ordinary raw bodies and Powers;
-- Conqueror Legate Lv38 / 3,650 HP;
-- Western Rift Engine Lv36 / 9,775 HP;
-- Marshal Varkesh Lv38 / 7,326 HP → Rift Conqueror Lv39 / 8,485 fresh HP;
-- Regional Hunt #8 Rift Siege Beast Lv44 / 15,875 HP.
-
-No numerical or direct-damage Power change was required.
-
-Story-integration dependencies:
-- exact ordinary formation compositions/weights;
-- exact within-Chapter-8 optional-return timing of Regional Hunt #8 relative to the Western Rift Engine.
-
-Detailed proof:
-`../../16_BALANCE_AND_TESTING/BALANCE/CHAPTER_08_MANDATORY_COMPLETIONIST_VALIDATION.md`
-
-## v90 formation closure
-Accepted Chapter-8 opening/middle/late formation compositions and 30/45/25 weights are restored in `../ENCOUNTER_FORMATIONS/CHAPTER_08_FORMATIONS.md`.
+No current mandatory-vs-completionist certification is asserted by this chapter file.
