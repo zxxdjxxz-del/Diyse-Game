@@ -10,6 +10,7 @@ func _initialize() -> void:
 	_test_missing_save_is_safe()
 	_test_full_state_round_trip()
 	_test_pre_kessara_schema_v1_save_is_compatible()
+	_test_legacy_face_names_normalize_on_load()
 	_test_invalid_json_is_safe()
 	_test_future_schema_is_rejected()
 	_cleanup()
@@ -125,6 +126,38 @@ func _test_pre_kessara_schema_v1_save_is_compatible() -> void:
 	_expect(state.relic_inventory.is_empty(), "Pre-Kessara schema-v1 save should default Relic ownership empty")
 	_expect(state.forge_components.is_empty(), "Pre-Kessara schema-v1 save should default Forge-component ownership empty")
 	_expect(bool(state.flags.get("legacy_schema_v1", false)), "Pre-Kessara schema-v1 save should preserve its existing state")
+
+func _test_legacy_face_names_normalize_on_load() -> void:
+	_cleanup()
+	var legacy_data := {
+		"schema_version": SaveManagerScript.SCHEMA_VERSION,
+		"area": "field_proof",
+		"field_position": {"x": 1.0, "y": 0.9, "z": 2.0},
+		"party": [],
+		"inventory": {},
+		"standard_cards": [],
+		"primes": {},
+		"equipment": {},
+		"relic_inventory": {
+			"RELIC_OLD_CHANGE": {"face": "Change", "original_obtained": true, "forged_copy": false},
+			"RELIC_OLD_ACUITY": {"face": "Acuity", "original_obtained": true, "forged_copy": false}
+		},
+		"forge_components": {
+			"FORGE_OLD_RESOURCE": {"face": "Resource", "purpose": "relic_copy", "consumed": false}
+		},
+		"flags": {},
+		"rewards": {}
+	}
+	var file := FileAccess.open(TEST_PATH, FileAccess.WRITE)
+	file.store_string(JSON.stringify(legacy_data))
+	file.flush()
+	var manager = SaveManagerScript.new()
+	var state = GameStateScript.new()
+	var result: Dictionary = manager.load_state(state, TEST_PATH)
+	_expect(bool(result.get("ok", false)), "Schema-v1 saves with retired Face names must remain loadable")
+	_expect(str(state.relic_inventory["RELIC_OLD_CHANGE"].get("face", "")) == "Memory", "Loaded Change Face must normalize to Memory")
+	_expect(str(state.relic_inventory["RELIC_OLD_ACUITY"].get("face", "")) == "Perception", "Loaded Acuity Face must normalize to Perception")
+	_expect(str(state.forge_components["FORGE_OLD_RESOURCE"].get("face", "")) == "Perception", "Loaded Resource Face must normalize to Perception")
 
 func _test_invalid_json_is_safe() -> void:
 	var file := FileAccess.open(TEST_PATH, FileAccess.WRITE)
