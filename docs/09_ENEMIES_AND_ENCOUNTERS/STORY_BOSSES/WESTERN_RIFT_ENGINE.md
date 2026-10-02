@@ -278,7 +278,9 @@ The Rift Echo also does not create a Prime-refresh event.
 
 ---
 
-# DURATION CERTIFICATION
+# Historical pacing target — not current certification
+
+These round-count estimates are retained only as historical pacing intent. They must be revalidated under the current progression/enemy inputs before being used for balance decisions.
 
 ## Mandatory Lv33
 Expected:
