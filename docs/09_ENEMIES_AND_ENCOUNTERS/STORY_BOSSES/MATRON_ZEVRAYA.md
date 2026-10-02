@@ -2,7 +2,7 @@
 
 **Chapter:** 6 — Frostmere / Weather Crown / Crimson Work  
 **Role:** mandatory major story boss  
-**Status:** **VALIDATED v82 / POWER COMPLETE**
+**Status:** **POWER COMPLETE / BALANCE REVALIDATION OPEN**
 
 ## Preserved architecture
 
@@ -468,7 +468,9 @@ No third body exists.
 
 ---
 
-# DURATION CERTIFICATION
+# Historical pacing target — not current certification
+
+These round-count estimates are retained only as historical pacing intent. They must be revalidated under the current progression/enemy inputs before being used for balance decisions.
 
 ## Mandatory Lv24
 Blood Matron / Crimson Brood:
@@ -542,5 +544,5 @@ Current Standard Card:
 The boss does not create a new damage element or generic life-force subsystem.
 
 
-## v82 validation status
-Formally validated against the actual Chapter-6 mandatory/completionist route state. Current raw stats, architecture, and direct-damage Powers are retained. See `../../16_BALANCE_AND_TESTING/BALANCE/CHAPTER_06_MANDATORY_COMPLETIONIST_VALIDATION.md`.
+## Current validation status
+Historical Chapter-6 certification is not current authority. Difficulty certification is **OPEN** pending revalidation under `../../16_BALANCE_AND_TESTING/BALANCE/ENEMY_BOSS_MANDATORY_COMPLETIONIST_VALIDATION.md` with current progression and encounter inputs.
