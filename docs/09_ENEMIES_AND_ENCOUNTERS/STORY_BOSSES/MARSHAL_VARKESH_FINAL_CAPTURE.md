@@ -4,7 +4,7 @@
 **Scene anchor:** S067–S068  
 **Role:** mandatory Black Host campaign boss / live-capture objective  
 **Outcome:** Varkesh captured alive  
-**Status:** **FORMALLY VALIDATED v88 / RAW LINE RETAINED / POWER COMPLETE**
+**Status:** **RAW LINE RETAINED / POWER COMPLETE / BALANCE REVALIDATION OPEN**
 
 ## Story / character boundary
 
@@ -367,7 +367,7 @@ Prime direct damage is clamped at 3,421 HP while either Retreat Beacon remains.
 
 ---
 
-# Duration certification
+# Pacing target — revalidation required
 
 ## Mandatory Lv54
 
@@ -416,7 +416,7 @@ Support objects:
 - East Retreat Beacon — **Power N/A**
 - West Retreat Beacon — **Power N/A**
 
-> **WORKING PASS / RAW LINE RETAINED / POWER COMPLETE**
+> **RAW LINE RETAINED / POWER COMPLETE / BALANCE REVALIDATION OPEN**
 
 ## Reward / state change
 
@@ -427,9 +427,7 @@ Only after capture:
 > Vhalmarch can be secured and activated as the Forward Hub.
 
 
-## v88 mandatory-vs-completionist certification
-- mandatory fight state: **Lv54**;
-- completionist fixed-content state: **Lv64**;
-- high-side: **~Lv65**;
-- existing ~11–13 mandatory / ~8–10 completionist duration target retained;
-- no raw stat, support value, capture threshold, or direct-damage Power changed.
+## Current validation status
+The former Chapter-12 mandatory/completionist snapshot is historical only. Revalidate Final Capture through the current global mandatory/completionist framework using current progression, party, support-object, and capture rules.
+
+No boss mechanic, raw stat, Power, capture threshold, or reward is changed by this status cleanup.
