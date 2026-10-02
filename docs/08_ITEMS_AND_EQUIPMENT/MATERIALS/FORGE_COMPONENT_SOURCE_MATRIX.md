@@ -23,11 +23,11 @@ Gate and copy materials are **not interchangeable**.
 | Might | Creststeel | **Relic Copy 1** | Ch7 | Major Hunt #2 | Crownless Siege Marshal → Crownless War Engine |
 | Might | Creststeel | **Relic Copy 2** | Ch8 | Sidequest / character route | authored optional route |
 | Might | Creststeel | **Relic Copy 3** | Ch11 | Story / technical | Crown Engine-era late technical source |
-| Change | Pattern Crystal | **Legacy Gate A** | Ch4 | Story / technical | Kessara seed discovery |
-| Change | Pattern Crystal | **Relic Copy 1** | Ch5 | Exploration / protected cache | pattern-control / regulation side pocket |
-| Change | Pattern Crystal | **Relic Copy 2** | Ch9 | Major Hunt #3 | Concordance Guardian |
-| Change | Pattern Crystal | **Legacy Gate B** | Ch8 | Story / technical | reliable progression source |
-| Change | Pattern Crystal | **Relic Copy 3** | Ch9 | Exploration / protected cache | authored protected source |
+| Memory | Pattern Crystal | **Legacy Gate A** | Ch4 | Story / technical | Kessara seed discovery |
+| Memory | Pattern Crystal | **Relic Copy 1** | Ch5 | Exploration / protected cache | pattern-control / regulation side pocket |
+| Memory | Pattern Crystal | **Relic Copy 2** | Ch7 | Major Hunt #3 | Concordance Guardian |
+| Memory | Pattern Crystal | **Legacy Gate B** | Ch8 | Story / technical | reliable progression source |
+| Memory | Pattern Crystal | **Relic Copy 3** | Ch9 | Exploration / protected cache | authored protected source |
 | Elements | Prismglass | **Legacy Gate A** | Ch5 | Exploration / protected cache | furnace / regulation branch material |
 | Elements | Prismglass | **Relic Copy 1** | Ch6 | Regional Hunt #6 | Winterglass Titan |
 | Elements | Prismglass | **Legacy Gate B** | Ch7 | Story / technical | post-Volition elemental-system progression lane |
@@ -38,11 +38,11 @@ Gate and copy materials are **not interchangeable**.
 | Grace | Warding Silver | **Relic Copy 2** | Ch8 | Sidequest / character route | authored optional route |
 | Grace | Warding Silver | **Legacy Gate B** | Ch9 | Story / technical | Larkspire / Last Sanctuary-era Grace progression lane |
 | Grace | Warding Silver | **Relic Copy 3** | Ch12 | Exploration / protected cache | reindexed former Ch11 surplus slot |
-| Acuity | Calibration | **Legacy Gate A** | Ch5 | Story / technical | Deepforge / Kessara technical progression payoff |
-| Acuity | Calibration | **Relic Copy 1** | Ch6 | Regional Hunt #5 | Whitehorn Ravager |
-| Acuity | Calibration | **Relic Copy 2** | Ch7 | Exploration / protected cache | route / maintenance / logistics cache |
-| Acuity | Calibration | **Relic Copy 3** | Ch8 | Sidequest / character route | authored optional route |
-| Acuity | Calibration | **Legacy Gate B** | Ch11 | Story / technical | Crown Engine / maintenance / reserve-system lane |
+| Perception | Calibration | **Legacy Gate A** | Ch5 | Story / technical | Deepforge / Kessara technical progression payoff |
+| Perception | Calibration | **Relic Copy 1** | Ch6 | Regional Hunt #5 | Whitehorn Ravager |
+| Perception | Calibration | **Relic Copy 2** | Ch7 | Exploration / protected cache | route / maintenance / logistics cache |
+| Perception | Calibration | **Relic Copy 3** | Ch8 | Sidequest / character route | authored optional route |
+| Perception | Calibration | **Legacy Gate B** | Ch11 | Story / technical | Crown Engine / maintenance / reserve-system lane |
 | Ruin | Black Ore | **Legacy Gate A** | Ch6 | Story / technical | Crimson Work / Black Host technical salvage |
 | Ruin | Black Ore | **Relic Copy 1** | Ch7 | Exploration / protected cache | Prison / Rift infrastructure side route |
 | Ruin | Black Ore | **Relic Copy 2** | Ch8 | Sidequest / character route | authored optional route |
@@ -53,9 +53,9 @@ Gate and copy materials are **not interchangeable**.
 - Ch4 — 2
 - Ch5 — 4
 - Ch6 — 4
-- Ch7 — 5
+- Ch7 — 6
 - Ch8 — 5
-- Ch9 — 5
+- Ch9 — 4
 - Ch10 — 0
 - Ch11 — 3
 - Ch12 — 2
@@ -64,11 +64,13 @@ Gate and copy materials are **not interchangeable**.
 ## Terminology correction
 Retired:
 - Resource Face
+- Acuity Face
+- Change Face
 - Regulator Gearset
 
 Current:
-- **Acuity**
-- **Calibration**
+- **Perception** — Calibration
+- **Memory** — Pattern Crystal
 
 ## Presentation boundary
 The role/source matrix is closed.
@@ -76,6 +78,6 @@ Exact physical pickup presentation remains open for some sources.
 
 
 ## Major Hunt timing dependency
-Because Major Hunt #3 now unlocks only **after Chapter 9**, its Pattern Crystal Relic Copy 2 source is assigned to the Chapter-9 availability band rather than the former Chapter-7 band.
+Major Hunt #3 unlocks **after Sixfold Volition at the end of Chapter 7**, so its Pattern Crystal Relic Copy 2 source belongs to the Chapter-7 availability band. The former Chapter-9 assignment is retired.
 
 Major Hunt #2 now unlocks after Chapter 7, so its existing Ch7 Creststeel Relic Copy 1 band remains compatible.
