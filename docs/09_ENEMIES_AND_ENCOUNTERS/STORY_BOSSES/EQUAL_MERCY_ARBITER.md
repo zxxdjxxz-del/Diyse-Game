@@ -104,7 +104,7 @@ The very large optional spread is intentionally preserved.
 |---:|---:|---:|---:|---:|---:|---:|---:|---:|
 | 40 | **10,025** | **105** | **140** | **89** | **107** | **43** | 0 | 10 |
 
-The inherited Audit132 raw line is retained unchanged.
+The current raw line is retained unchanged.
 
 Reason:
 - mandatory Lv37 remains appropriately below the Lv40 boss;
