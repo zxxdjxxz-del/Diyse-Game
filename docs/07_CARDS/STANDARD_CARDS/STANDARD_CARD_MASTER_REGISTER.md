@@ -39,13 +39,13 @@ Current MP range:
 | Ruin | **Zero Hour** | 48 | Major Hunt #6 — The Unfinished World |
 
 ## Source status reconciliation
-Audit116 listed four homes as OPEN:
+Four acquisition homes were historically unresolved:
 - Restoration
 - Cinder Judgment
 - Iron Testament
 - Sunder the Gate
 
-Later v85 work assigned homes to all four, but newer chapter revisions supersede part of that source map.
+Later assignments were partially superseded by current chapter revisions. The live register below controls current source state.
 
 Current source state:
 - Restoration → Stonewake protected relief cache
