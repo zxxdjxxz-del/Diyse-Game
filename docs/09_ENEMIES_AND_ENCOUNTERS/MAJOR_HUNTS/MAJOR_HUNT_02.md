@@ -1,9 +1,7 @@
 # Diyse — Major Hunt #2: Crownless Siege Marshal → Crownless War Engine
-**Migration baseline:** `Diyse_CURRENT_WORKING_TRACKER_CONSOLIDATED_2026-08-27_v85.md`  
-**Historical enemy-production provenance:** Audit90/Audit93 plus later tracker-era roster/action cleanups.
-**Historical raw-stat provenance:** Audit129–Audit135.
-**Authority treatment:** this repository file is current Major-Hunt-domain authority; Audit/v85 references remain historical provenance only.
-**Migration rule:** current repository Hunt names, unlock timing, battle architecture, and Prime-restoration rules supersede conflicting historical text.
+
+**Status:** ACTIVE MAJOR-HUNT ENCOUNTER BODY — REVALIDATION PENDING  
+**Authority:** current enemy/encounter owner plus later explicit approved corrections.  
 
 
 | Ref | Encounter / form | Lv | HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR | Architecture |
@@ -24,53 +22,7 @@ Fixed authored tuning.
 No dynamic player-level scaling.
 
 
-## Recertification
-Current unlock:
-> **after Chapter 7**
-
-Expected party position at first access:
-- mandatory-route party: approximately **Lv32**
-- all normally available optional EXP before this Hunt: approximately **Lv37**
-
-Current encounter recommendation:
-> **Lv41**
-
-Form tuning:
-- Crownless Siege Marshal — Lv40
-- Crownless War Engine — Lv41
-
-Recertified raw lines:
-
-### Crownless Siege Marshal
-- HP **13,600**
-- ATK **155**
-- MAG **110**
-- DEF **111**
-- Spirit **96**
-- SPD **41**
-- EVA **5**
-- Status Resistance **10**
-
-### Crownless War Engine
-- HP **16,900**
-- ATK **174**
-- MAG **122**
-- DEF **121**
-- Spirit **105**
-- SPD **39**
-- EVA **0**
-- Status Resistance **10**
-
-Combined raw body HP:
-> **30,500**
-
-The two-form architecture is preserved. War Engine remains a genuine fresh body, but spent/Ready Prime state carries into Form II unchanged.
-
-### Prime-economy revalidation note
-The existing Lv41/raw-stat recertification predates the current persistent-spend / no-form-refresh Prime rule. Keep that numeric line as a provisional baseline only; runtime Prime-economy revalidation remains open and must not assume a fresh Form-II Prime refresh.
-
-## Power-complete action kit — v74
-**Status:** **POWER COMPLETE**
+## Current action kit
 
 ## Form I — Crownless Siege Marshal
 
