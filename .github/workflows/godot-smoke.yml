@@ -72,11 +72,8 @@ jobs:
       - name: Run transient field-combat-field loop validation
         run: godot --headless --path . --script tests/encounters/validate_transient_random_encounter_loop.gd
 
-      - name: Run exploration, dialogue, combat, Card, Prime, and persistence smoke validation
+      - name: Run integrated exploration, dialogue, combat, and persistence smoke validation
         run: godot --headless --path . --script tests/smoke/validate_project.gd
-
-      - name: Run legacy combat/Card/Prime proof regression
-        run: godot --headless --path . --script tests/combat/validate_round_combat.gd
 
       - name: Run Kessara Relic-copy service validation
         run: godot --headless --path . --script tests/equipment/validate_kessara_relic_copy_service.gd

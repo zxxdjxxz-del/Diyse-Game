@@ -28,4 +28,4 @@ Do not use that fixture to override current Last Sentinel / Prime authority.
 
 When production Card/Prime resources are introduced, synchronize them from the owning current authority rather than editing proof fixtures into apparent canon piecemeal.
 
-Proof resources may remain until the corresponding runtime architecture is migrated, but they must stay clearly non-authoritative.
+Proof resources may remain until the corresponding runtime architecture is migrated, but they must stay clearly non-authoritative. CI must not treat the retired `first_champion` bearer/duration/command assumptions as current Prime-mechanics certification.

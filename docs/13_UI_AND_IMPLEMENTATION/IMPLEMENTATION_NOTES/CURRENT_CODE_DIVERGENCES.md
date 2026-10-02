@@ -60,7 +60,7 @@ Current production battle flow:
 
 Do not use the current proof queue/confirm architecture as production battle-flow authority.
 
-The CI suite `tests/combat/validate_round_combat.gd` still regression-locks this proof architecture and the retired `first_champion` Prime fixture. It is an engineering continuity test, not production-mechanics certification, and must migrate with the combat runtime.
+The former `tests/combat/validate_round_combat.gd` mechanics regression has been retired from the live tree because it hard-locked the obsolete whole-round queue, universal Item/Defend priority, bearer-locked `first_champion`, and two-round Recovered-Prime prototype. Current CI now smoke-checks only the combat proof's loadability, four-member party surface, and five canonical global commands; it does **not** certify the prototype's internal turn flow, Prime behavior, Card costs, or proof UI. Those runtime mechanics remain implementation debt until an intentional combat migration pass.
 
 ## 4. Currency — HIGH
 Proof state:
