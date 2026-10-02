@@ -17,7 +17,7 @@
 These effects remain mechanically unchanged by the Face rename. Their Memory identity comes from preserving or reusing already-established state/action context rather than from a universal new replay subsystem.
 
 ## Global references
-- MP prices shown here are current repository values; Audit119/v85 remains provenance only.
+- MP prices shown here are current repository values.
 - Harmful statuses resolve through `../../05_BATTLE_SYSTEM/STATUS_EFFECTS.md`.
 - Base Hit/Evasion resolves through `../../05_BATTLE_SYSTEM/BASE_HIT_AND_EVASION.md`.
 - Current Bleed timing/clearing follows Audit122, not stale Audit116 heal-clears-Bleed wording.
