@@ -1,11 +1,10 @@
 # Diyse — Regional Hunt #7: Rift Gate Colossus
-**Migration baseline:** `Diyse_CURRENT_WORKING_TRACKER_CONSOLIDATED_2026-08-27_v85.md`  
-**Authority treatment:** this repository file is current Regional-Hunt-domain authority; Audit/v85 references remain historical provenance only.
+
+**Status:** ACTIVE REGIONAL-HUNT ENCOUNTER BODY — REVALIDATION PENDING  
+**Authority:** current enemy/encounter owner plus later explicit approved corrections.  
 **Scaling:** fixed authored tuning; no dynamic player-level scaling.
 
 
-**Recommended Lv:** 38  
-**Status:** **VALIDATED v83 / POWER COMPLETE**
 
 | Lv | HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR |
 |---:|---:|---:|---:|---:|---:|---:|---:|---:|
