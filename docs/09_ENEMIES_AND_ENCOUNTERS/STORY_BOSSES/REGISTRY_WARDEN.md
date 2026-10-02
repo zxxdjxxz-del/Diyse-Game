@@ -124,7 +124,7 @@ The nine-level optional spread is intentionally preserved.
 |---:|---:|---:|---:|---:|---:|---:|---:|---:|
 | 49 | **13,514** | **157** | **172** | **124** | **126** | **46** | 0 | 10 |
 
-The inherited Audit132 raw line is retained unchanged.
+The current raw line is retained unchanged.
 
 Reason:
 - mandatory Lv45 remains appropriately below the Lv49 boss;
