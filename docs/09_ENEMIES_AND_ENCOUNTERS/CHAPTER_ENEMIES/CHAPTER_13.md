@@ -36,7 +36,7 @@
 - Major Hunt #6 is separate optional content and must be completed before the final point of no return if desired.
 - Hunger/Ruin/Silence/Fear are Aspects of the single Reconstituted Entity continuity, not separate surviving Entity souls/fragments.
 - No third final-boss form, hidden copy, escape fragment, or surviving branch.
-- Chapter-13 broad ordinary / strong-normal / final-support Power pass: **PASS**.
+- Chapter-13 broad ordinary / strong-normal / final-support Power coverage: **COMPLETE**.
 - Historical mandatory-vs-completionist snapshots are **not current certification**; re-run under the active validation framework when current tuning/progression inputs are stable.
 - Last Shelter remains the true-PONR preparation boundary; final-boss difficulty must be revalidated against current progression and tuning inputs.
 
