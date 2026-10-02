@@ -50,7 +50,7 @@ Numeric/action status:
 - **OPEN / DEFERRED** under `../CHAPTER_ENEMIES/CHAPTER_03.md`; exact per-enemy tuning remains for the later Chapter-3 combat/balance pass.
 
 Historical predecessor:
-- `JUDGMENT_FRAME.md`
+- Judgment Frame — retired; historical details remain in Git history.
 
 ## Visual authority
 
