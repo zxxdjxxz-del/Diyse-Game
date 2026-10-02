@@ -1,8 +1,8 @@
-# Crownstorm Roc — Current Working Recertification
+# Crownstorm Roc — Current Encounter Authority
 
 **Chapter:** 6 — Frostmere / Weather Crown / Crimson Work  
 **Role:** mandatory Weather Crown boss  
-**Status:** **VALIDATED v82 / POWER COMPLETE**
+**Status:** **POWER COMPLETE / BALANCE REVALIDATION OPEN**
 
 ## Preserved architecture
 
@@ -221,7 +221,9 @@ No Prime use is mandatory.
 
 ---
 
-# DURATION CERTIFICATION
+# Historical pacing target — not current certification
+
+These round-count estimates are retained only as historical pacing intent. They must be revalidated under the current progression/enemy inputs before being used for balance decisions.
 
 Target pacing:
 
@@ -269,5 +271,5 @@ Current Standard Card continuity:
 The boss does not invent a new fifth element or Wind damage type.
 
 
-## v82 validation status
-Formally validated against the actual Chapter-6 mandatory/completionist route state. Current raw stats, architecture, and direct-damage Powers are retained. See `../../16_BALANCE_AND_TESTING/BALANCE/CHAPTER_06_MANDATORY_COMPLETIONIST_VALIDATION.md`.
+## Current validation status
+Historical Chapter-6 certification is not current authority. Difficulty certification is **OPEN** pending revalidation under `../../16_BALANCE_AND_TESTING/BALANCE/ENEMY_BOSS_MANDATORY_COMPLETIONIST_VALIDATION.md` with current progression and encounter inputs.
