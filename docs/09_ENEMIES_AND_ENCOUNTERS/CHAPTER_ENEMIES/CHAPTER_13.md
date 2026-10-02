@@ -37,8 +37,8 @@
 - Hunger/Ruin/Silence/Fear are Aspects of the single Reconstituted Entity continuity, not separate surviving Entity souls/fragments.
 - No third final-boss form, hidden copy, escape fragment, or surviving branch.
 - Chapter-13 broad ordinary / strong-normal / final-support Power pass: **PASS**.
-- Chapter-13 mandatory-vs-completionist balance: **PASS / VALIDATED v89**.
-- Last Shelter is the Lv60 true-PONR preparation boundary; final boss is validated at Lv61 mandatory / Lv70 completionist.
+- Historical mandatory-vs-completionist snapshots are **not current certification**; re-run under the active validation framework when current tuning/progression inputs are stable.
+- Last Shelter remains the true-PONR preparation boundary; final-boss difficulty must be revalidated against current progression and tuning inputs.
 
 Summary:
 `../ORDINARY_ENEMIES/CHAPTER_13_POWER_AND_RAW_REGISTER.md`
@@ -66,9 +66,9 @@ No permanent name/identity/progression erasure.
 ## Numerical boundary
 Chapter-13 ordinary raw bodies are now active-balance authority in individual files.
 
-Devourer of Names retains its inherited strong-normal raw line and is **FORMALLY VALIDATED v89**.
+Devourer of Names retains its inherited strong-normal raw line.
 
-Last Weapon Archon and Reconstituted Entity → The Last Command remain separately owned and are **FORMALLY VALIDATED v89** with no numerical change.
+Last Weapon Archon and Reconstituted Entity → The Last Command remain separately owned.
 
 Final Entity support authority remains separately owned and unchanged.
 
