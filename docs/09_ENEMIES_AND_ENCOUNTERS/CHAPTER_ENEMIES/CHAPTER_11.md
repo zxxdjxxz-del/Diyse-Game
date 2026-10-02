@@ -36,7 +36,7 @@
 - Current Chapter 11; historical pre-insertion sources may label this material Chapter 10.
 - Use current **Perception / Memory** Face terminology; Acuity and Face-name Change are retired.
 - Chapter-11 broad ordinary / strong-normal / authored-protected Power pass: **PASS**.
-- Chapter-11 mandatory-vs-completionist balance: **PASS / VALIDATED v87**.
+- Historical mandatory-vs-completionist snapshots are **not current certification**; re-run under the active validation framework when current tuning/progression inputs are stable.
 - Approved opening/middle/late formation compositions/weights restored in `../ENCOUNTER_FORMATIONS/CHAPTER_11_FORMATIONS.md`.
 - Chapter 11 introduces no new harmful status.
 
@@ -58,9 +58,9 @@ Chapter-11 ordinary raw bodies are now active-balance authority in individual fi
 
 Perfect Administrator retains its inherited strong-normal raw line.
 
-Mandatory Calder/Custodian and support-object authority remains separately owned and is **FORMALLY VALIDATED v87** with no numerical change.
+Mandatory Calder/Custodian and support-object authority remains separately owned.
 
-Regional Hunt #10 is **FORMALLY VALIDATED v87** at recommended Lv56; exact within-chapter access timing remains a story dependency.
+Regional Hunt #10 remains separately owned; exact within-chapter access timing remains a story dependency.
 
 ## Current Calder handoff
 Detailed current authority:
