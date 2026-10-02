@@ -4,7 +4,7 @@
 **Scene anchor:** S067–S068  
 **Role:** mandatory Black Host campaign boss / live-capture objective  
 **Outcome:** Varkesh captured alive  
-**Status:** **FORMALLY VALIDATED v88 / RAW LINE RETAINED / POWER COMPLETE**
+**Status:** **RAW LINE RETAINED / POWER COMPLETE / BALANCE REVALIDATION OPEN**
 
 ## Story / character boundary
 
@@ -427,9 +427,5 @@ Only after capture:
 > Vhalmarch can be secured and activated as the Forward Hub.
 
 
-## v88 mandatory-vs-completionist certification
-- mandatory fight state: **Lv54**;
-- completionist fixed-content state: **Lv64**;
-- high-side: **~Lv65**;
-- existing ~11–13 mandatory / ~8–10 completionist duration target retained;
-- no raw stat, support value, capture threshold, or direct-damage Power changed.
+## Current validation status
+Historical chapter-level certification is not current authority. Difficulty certification is **OPEN** pending revalidation under `../../16_BALANCE_AND_TESTING/BALANCE/ENEMY_BOSS_MANDATORY_COMPLETIONIST_VALIDATION.md` with current progression and encounter inputs.
