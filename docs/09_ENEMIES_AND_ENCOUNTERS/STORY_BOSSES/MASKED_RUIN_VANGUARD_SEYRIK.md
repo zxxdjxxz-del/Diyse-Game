@@ -3,7 +3,7 @@
 **Chapter:** 6 — Frostmere / Weather Crown / Crimson Work  
 **Role:** mandatory authored nonlethal / forced-disengagement encounter  
 **Identity:** Seyrik under concealed story presentation  
-**Status:** **VALIDATED v82 / POWER COMPLETE**
+**Status:** **POWER COMPLETE / BALANCE REVALIDATION OPEN**
 
 ## Story boundary
 
@@ -170,7 +170,7 @@ A Prime cannot kill Seyrik in this encounter:
 There is no fresh body or same-bar phase transition here, so:
 > no boss-form Prime refresh event occurs.
 
-## Duration certification
+## Pacing target — revalidation required
 
 Effective mandatory damage objective:
 > **3,200 HP** from 4,000 → protected 800.
@@ -199,7 +199,7 @@ Every direct-damage action uses the current Ruin Vanguard coefficient:
 - Fracturing Brand — **145 per target**
 - Unmaking Blow — **245**
 
-> **WORKING PASS / POWER COMPLETE**
+> **POWER COMPLETE / BALANCE REVALIDATION OPEN**
 
 ## Reward
 
@@ -210,5 +210,7 @@ Recruitment/chapter-clear reward remains separate:
 > **2,700 EXP / 106 CEXP**
 
 
-## v82 validation status
-Formally validated against the actual Chapter-6 mandatory/completionist route state. Current raw stats, architecture, and direct-damage Powers are retained. See `../../16_BALANCE_AND_TESTING/BALANCE/CHAPTER_06_MANDATORY_COMPLETIONIST_VALIDATION.md`.
+## Current validation status
+The former Chapter-6 validation snapshot is historical only. Revalidate this protected nonlethal encounter through the current global mandatory/completionist framework using current progression, party, Prime, and protected-floor rules.
+
+Current architecture and Power-complete action data remain unchanged by this status cleanup.
