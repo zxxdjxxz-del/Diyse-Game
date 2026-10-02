@@ -2,7 +2,7 @@
 
 **Chapter:** 7 — The Prison of Names  
 **Role:** mandatory Ashford / Chainworks named miniboss  
-**Status:** **VALIDATED v83 / RAW LINE RETAINED / POWER COMPLETE**
+**Status:** **RAW LINE RETAINED / POWER COMPLETE / BALANCE REVALIDATION OPEN**
 
 ## Preserved architecture
 
