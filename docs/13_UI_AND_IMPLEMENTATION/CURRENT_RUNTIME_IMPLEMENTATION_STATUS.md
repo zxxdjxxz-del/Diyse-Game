@@ -39,10 +39,8 @@ Implemented:
 - current scene metadata for story position, scene mode, readiness, movement lock, encounter policy, return-to-gameplay and qualitative production-cost tier.
 
 Current dialogue construction/presentation authority:
-- `../03_DIALOGUE/AGENT_SYSTEM/SCENE_CONSTRUCTION_STACK.md`
-- `../03_DIALOGUE/AGENT_SYSTEM/RUNTIME_ORCHESTRATION.md`
-- `../03_DIALOGUE/AGENT_SYSTEM/AUTHORITY_PACKET_COMPILER.md`
-- `../03_DIALOGUE/AGENT_SYSTEM/LIVE_RUNTIME_CONTEXT.md`
+- `../03_DIALOGUE/AGENT_SYSTEM/README.md` — Agent System and scene-construction contract
+- `../03_DIALOGUE/AGENT_SYSTEM/RUNTIME_ORCHESTRATION.md` — canary orchestration, authority compiler and curated live-runtime contracts
 - `IMPLEMENTATION_NOTES/AREA_TRAVERSAL_AUTHORING_INTERFACE.md`
 - `DIALOGUE_UI.md`
 
