@@ -2,7 +2,7 @@
 
 **Chapter:** 11 — Crown Engine / Calder / Custodian / Truth  
 **Role:** mandatory Chapter-11 Crown Engine confrontation  
-**Status:** **FORMALLY VALIDATED v87 / RAW LINES RETAINED / POWER COMPLETE**
+**Status:** **RAW LINES RETAINED / POWER COMPLETE / BALANCE REVALIDATION OPEN**
 
 ## Character / story boundary
 
@@ -379,7 +379,7 @@ No third body exists.
 
 ---
 
-# Duration certification
+# Pacing target — revalidation required
 
 ## Mandatory Lv49
 
@@ -436,7 +436,7 @@ No Break meter.
 No extra-action system.
 No possession absolution.
 
-> **WORKING PASS / RAW LINES RETAINED / POWER COMPLETE**
+> **RAW LINES RETAINED / POWER COMPLETE / BALANCE REVALIDATION OPEN**
 
 ## Reward
 
@@ -446,7 +446,7 @@ Full two-form confrontation:
 The deeper Custodian encounter remains later in Chapter 11.
 
 
-## v87 balance certification
-See `16_BALANCE_AND_TESTING/BALANCE/CHAPTER_11_MANDATORY_COMPLETIONIST_VALIDATION.md`.
+## Current validation status
+Historical Chapter-11 balance snapshots are not current certification. Revalidate this encounter through the current global mandatory/completionist framework and True Battle suite using current progression, party, Prime, and support-object rules.
 
-No raw stat, support value, phase threshold, or direct-damage Power changed in v87.
+No boss mechanic or numeric value is changed by this status cleanup.
