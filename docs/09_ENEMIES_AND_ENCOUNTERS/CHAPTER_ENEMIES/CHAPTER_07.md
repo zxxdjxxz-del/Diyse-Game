@@ -40,7 +40,7 @@
 ## Current notes
 - Sixfold Volition follows the chapter's Prison/identity resolution; it is party progression, not an enemy-system name.
 - Chapter-7 broad ordinary / strong-normal / authored-special Power pass: **PASS**.
-- Mandatory-vs-completionist difficulty validation: **PASS / VALIDATED v83**; no numerical or Power changes; ordinary formations are restored under v90; authored-special placements remain story-integration dependencies only.
+- Historical mandatory-vs-completionist snapshots are **not current certification**. Current ordinary formations are owned by `../ENCOUNTER_FORMATIONS/CHAPTER_07_FORMATIONS.md`; authored-special placements remain story-integration dependencies.
 - Chapter 7 introduces no new harmful status.
 
 Summary:
@@ -88,7 +88,7 @@ Detailed current authority:
 Support authority:
 `../SUPPORT_OBJECTS/CHAINWORKS_RESTRAINT_ANCHORS.md`
 
-The Audit131 raw body is retained unchanged.
+The inherited raw body is retained unchanged.
 
 The boss is now direct-damage Power-complete.
 
