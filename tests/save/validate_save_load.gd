@@ -2,7 +2,7 @@ extends SceneTree
 
 const GameStateScript = preload("res://game/core/state/game_state.gd")
 const SaveManagerScript = preload("res://game/core/save/save_manager.gd")
-const TEST_PATH := "user://diyse_7b5g_test_save.json"
+const TEST_PATH := "user://diyse_save_test.json"
 
 var failures: Array[String] = []
 
@@ -181,7 +181,7 @@ func _test_future_schema_is_rejected() -> void:
 
 func _finish() -> void:
 	if failures.is_empty():
-		print("Diyse 7B.5G versioned save/load persistence validation passed.")
+		print("Diyse versioned save/load persistence validation passed.")
 		quit(0)
 		return
 	for failure in failures:
