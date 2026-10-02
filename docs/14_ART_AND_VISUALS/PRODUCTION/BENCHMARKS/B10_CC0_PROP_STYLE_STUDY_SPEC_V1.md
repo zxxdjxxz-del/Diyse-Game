@@ -1,13 +1,13 @@
 # Diyse — B10 CC0 Prop Style Study Specification v1
 
 **Benchmark:** B10 — Verified CC0 Prop Cluster  
-**Status:** SHARED-MATERIAL STYLE STUDY LOCKED / REAL OUTPUT PENDING  
+**Status:** ACTIVE STUDY / REVISION SPEC — EXISTING FAMILY APPROVAL; RUNTIME / B00 CROSS-CHECK PENDING  
 **Execution authority:** `B10_CC0_PROP_CLUSTER_EXECUTION_V1.md`  
 **Style authority:** `../../DIYSE_VISUAL_STYLE_CANON.md`
 
 ## 1. Purpose
 
-B10 establishes how verified-CC0 3D props are integrated into Diyse's painterly seinen HD-2D language without relying on a universal toon-outline effect.
+B10 establishes how verified-CC0 3D props are integrated into Diyse's graphic seinen anime HD-2D language without relying on a universal toon-outline effect.
 
 Representative objects:
 - Barrel;
@@ -24,7 +24,7 @@ Therefore B10 is a **shared-material style pilot**, not four unrelated prop gene
 ## 2. Required transformation
 
 A valid B10 result must visibly move the existing CC0 material presentation toward Diyse through:
-- broad painterly value grouping;
+- broad graphic cel-informed value grouping;
 - authored edge wear/contact shadow;
 - selective chaotic variable-line influence at joints, recesses, damage, and focal silhouette turns;
 - controlled metal highlights;
@@ -55,19 +55,19 @@ The Metal trim must use:
 - stronger highlights than wood;
 - dark overlap/contact accents;
 - restrained scratches/dings;
-- painterly, non-photoreal reflection language;
+- graphic, non-photoreal reflection language;
 - selective sharp highlights;
 - no universal black contour shell;
 - enough flexibility to work on hoops, fasteners, brackets, and lantern structure.
 
 ## 5. Normal / ORM isolation rule
 
-For the first real B10 pilot:
+Current PBR handling is owned by `../DIYSE_CC0_PROP_MATERIAL_GRAMMAR_V1.md`, including QA-driven Furniture normal attenuation. The following is the historical first-pilot isolation procedure, not an instruction to reset later corrections:
 - keep the original Furniture and Metal Normal maps;
 - keep the original Furniture and Metal ORM maps;
 - alter only the two BaseColor trims;
 - render the actual four glTF models with the new BaseColor sheets;
-- judge whether source Normal/ORM response still fits the new painterly appearance.
+- judge whether source Normal/ORM response still fits the new BaseColor appearance.
 
 Do not rebuild Normal/ORM maps unless the real rendered result proves they are a problem.
 
@@ -81,7 +81,7 @@ Do not rebuild Normal/ORM maps unless the real rendered result proves they are a
 ### Diyse target
 - selective thick-to-thin accents at meaningful joints/overlaps;
 - broken/tapered surface marks;
-- painterly material planes dominate;
+- graphic material planes dominate;
 - silhouette stays readable without a total outline.
 
 ### Too heavy
@@ -134,7 +134,7 @@ Required evidence:
 10. lantern emissive close-up;
 11. gameplay-scale workshop/interior cluster;
 12. deterministic Asset Forge review sheet showing exact files/status/QA;
-13. reuse proof showing that only the two shared BaseColor trims were changed.
+13. shared-material reuse proof with every QA-driven Normal/ORM correction documented; no unexplained unique per-prop textures.
 
 ## 9. Automatic rejection conditions
 
@@ -161,8 +161,4 @@ At normal exploration scale:
 
 ## 11. Promotion rule
 
-Current state:
-
-`SOURCE ANALYSIS → SHARED-MATERIAL STUDY LOCKED → TWO-BASECOLOR REAL OUTPUT PENDING`
-
-Do not promote B10 to STYLE-PASS until the two shared BaseColor trims have been applied to the four actual models and the resulting real renders pass this gate.
+Current state is owned by `README.md`: **STYLE-PASS APPROVED — GAMEPLAY/RUNTIME TEST READY / B00 CROSS-CHECK PENDING**. Furniture/Metal approval is retained; Props/Cloth remain candidates under the material grammar. This study supports revision and runtime validation without restarting completed approval. Final `ACCEPTED` still requires current-style/B00 and representative runtime validation.
