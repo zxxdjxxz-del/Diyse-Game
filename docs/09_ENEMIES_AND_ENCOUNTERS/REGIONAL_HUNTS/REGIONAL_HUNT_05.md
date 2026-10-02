@@ -1,11 +1,10 @@
 # Diyse — Regional Hunt #5: Whitehorn Ravager
-**Migration baseline:** `Diyse_CURRENT_WORKING_TRACKER_CONSOLIDATED_2026-08-27_v85.md`  
-**Authority treatment:** this repository file is current Regional-Hunt-domain authority; Audit/v85 references remain historical provenance only.
+
+**Status:** ACTIVE REGIONAL-HUNT ENCOUNTER BODY — REVALIDATION PENDING  
+**Authority:** current enemy/encounter owner plus later explicit approved corrections.  
 **Scaling:** fixed authored tuning; no dynamic player-level scaling.
 
 
-**Recommended Lv:** 26  
-**Status:** **POWER COMPLETE / DIFFICULTY VALIDATED v81**
 
 | Lv | HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR |
 |---:|---:|---:|---:|---:|---:|---:|---:|---:|
@@ -44,11 +43,3 @@
 One HP bar.
 No second body or support wave.
 
-
-## v81 mandatory-vs-completionist validation
-Chapter-5 clear parties are intentionally below recommendation:
-- mandatory: roughly **Lv22**;
-- fixed-content completionist before this Hunt: roughly **Lv23**;
-- recommended benchmark: **Lv26**.
-
-Earlier access is a challenge option, not a reason to downscale the Hunt. Retain **8,678 HP** and all current Powers.
