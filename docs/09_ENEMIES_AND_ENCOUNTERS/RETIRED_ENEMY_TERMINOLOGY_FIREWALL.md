@@ -41,6 +41,7 @@ Retired with no current enemy owner:
 - **Erasure Wisp** — former Chapter-3 role superseded by Scriptshade; former Chapter-10 reuse retired; no current placement
 - **Command Guard Frame** — former Chapter-3 placement retired; former Chapter-10 reuse retired; no current placement
 - **Command Ring Drone** — former Chapter-3 placement retired; former Chapter-10 reuse retired; no current placement
+- **Briar Boar** — retired Chapter-1 name/identity superseded there by Bullhog; former Chapter-10 reuse retired; no current placement
 
 Retired authored encounter packages:
 - **Chapter 0 S005 Final Broken Convoy model** — superseded by the current B06 Riftmaw + Battle Sorcerer combined encounter
