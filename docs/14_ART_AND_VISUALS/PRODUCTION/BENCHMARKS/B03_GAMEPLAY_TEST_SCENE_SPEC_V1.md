@@ -94,7 +94,7 @@ Run at least three states on the same scene:
 Tests base material and alpha readability.
 
 ### Warm directional light
-Tests whether light-facing canopy planes remain painterly without becoming neon yellow or losing ink hierarchy.
+Tests whether graphic light-facing canopy planes remain readable without becoming neon yellow or losing ink hierarchy.
 
 ### Cool/night light
 Tests whether foliage stays legible without becoming a single black mass.
@@ -131,6 +131,6 @@ B03 may become `ACCEPTED` only when all are true:
 
 Current state:
 
-`STYLE-PASS APPROVED → GAMEPLAY TEST READY`
+`STYLE-PASS APPROVED → GAMEPLAY TEST READY / B00 CROSS-CHECK PENDING`
 
 Only successful runtime/representative integration proof advances B03 to `ACCEPTED`.

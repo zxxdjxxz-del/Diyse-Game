@@ -91,7 +91,7 @@ Regional variants may alter:
 
 Shared grammar must remain:
 - strong authored silhouette;
-- painterly canopy massing;
+- graphic anime-compatible canopy massing;
 - selective chaotic line weight;
 - intentional negative space;
 - clean alpha edge;
