@@ -1,9 +1,7 @@
 # Diyse — Major Hunt #5: Final Archive Arbiter
-**Migration baseline:** `Diyse_CURRENT_WORKING_TRACKER_CONSOLIDATED_2026-08-27_v85.md`  
-**Historical enemy-production provenance:** Audit90/Audit93 plus later tracker-era roster/action cleanups.
-**Historical raw-stat provenance:** Audit129–Audit135.
-**Authority treatment:** this repository file is current Major-Hunt-domain authority; Audit/v85 references remain historical provenance only.
-**Migration rule:** current repository Hunt names, unlock timing, battle architecture, and Prime-restoration rules supersede conflicting historical text.
+
+**Status:** ACTIVE MAJOR-HUNT ENCOUNTER BODY — REVALIDATION PENDING  
+**Authority:** current enemy/encounter owner plus later explicit approved corrections.  
 
 
 | Ref | Encounter / form | Lv | HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR | Architecture |
@@ -21,33 +19,7 @@ Fixed authored tuning.
 No dynamic player-level scaling.
 
 
-## Recertification
-Current unlock:
-> **after Chapter 10**
-
-The former after-Chapter-11 recertification window is superseded. Existing raw stats and the Lv65 recommendation are retained only as provisional inputs pending the later mandatory/completionist rebalance.
-
-Retained provisional recommendation:
-> **Lv65**
-
-Recertified raw line:
-- HP **52,600**
-- ATK **258**
-- MAG **276**
-- DEF **202**
-- Spirit **211**
-- SPD **56**
-- EVA **5**
-- Status Resistance **15**
-
-Final Archive Arbiter remains a high-durability, magic-forward custody/control Major Hunt.
-
-Custody Protocols, Archive Burden, and Transfer Windows remain one continuous HP-bar architecture. None of those same-bar state changes refresh Prime availability.
-
-Do not treat the older Chapter-11 first-access proof as current certification under the earlier unlock window.
-
-## Power-complete action kit — v74
-**Status:** **POWER COMPLETE**
+## Current action kit
 
 True construct:
 > **Bleed Immune**
@@ -152,10 +124,3 @@ Custody/Archive/Transfer presentation cannot:
 - alter save data;
 - permanently rename a character.
 
-
-## Timing-shift validation boundary
-**Status:** **REVALIDATION OPEN**
-
-The former Chapter-11 mandatory/completionist carry-forward is historical/provisional only because current access now begins after Chapter 10.
-
-Keep the existing raw body, recommendation, architecture, and Power package as provisional inputs until the planned mandatory/completionist rebalance.
