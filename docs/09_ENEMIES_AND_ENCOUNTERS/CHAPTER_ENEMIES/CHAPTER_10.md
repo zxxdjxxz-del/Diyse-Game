@@ -4,11 +4,11 @@
 
 
 ## Ordinary / repeatable
-- Thornvine Creeper
+- Vine Creeper
 - Briar Boar
-- Archive Scribe Engine
+- Memory Construct
 
-Eastern Wayfinder / Buried Registry ordinary-enemy composition is **REWORK PENDING**. Do not restore the retired Judgment Frame / Erasure Wisp / Command Guard Frame / Authority Lens / Command Ring Drone package, and do not invent replacements during cleanup.
+Chapter-10 ordinary formation composition is **REWORK PENDING**. Do not restore the retired Judgment Frame / Erasure Wisp / Command Guard Frame / Authority Lens / Command Ring Drone package, and do not infer replacements from the retired recovered-formation sheet.
 
 ## Support objects / support identities
 - None
@@ -26,11 +26,11 @@ Eastern Wayfinder / Buried Registry ordinary-enemy composition is **REWORK PENDI
 - None
 
 ## Current notes
-- Chapter-10 reused-ordinary Power coverage: **COMPLETE**.
+- The three retained carryover identities have current Chapter-10 body/action data; overall Chapter-10 ordinary roster/formation certification remains **OPEN**.
 - No approved strong normal-pool enemy in current Chapter 10.
 - No authored/protected identities in current Chapter 10.
 - No Regional Hunt in current Chapter 10.
-- Eastern forest retains its separately owned formation material; Eastern Wayfinder / Buried Registry ordinary composition is reopened and requires a later enemy-design pass.
+- All Chapter-10 ordinary formation composition is reopened for a later enemy/formation pass.
 - Registry Warden remains status-neutral by design; do not fabricate a generic status rider.
 
 Current individual enemy owners:
@@ -43,7 +43,7 @@ Registry Warden:
 > **raw line retained / Power-complete / status-neutral**
 
 ## Numerical boundary
-Chapter-10 ordinary/carryover raw bodies are now active-balance authority in individual files.
+Chapter-10 raw body/action data for the retained carryover identities remains owned by their individual files; formation-level balance authority is reopened.
 
 Mandatory Registry Warden authority remains separately owned and unchanged.
 
@@ -69,7 +69,7 @@ No Burn, Freeze, Stun, Staggered, Bleed, Poison, Registry status, Barrier, or Br
 Historical mandatory-vs-completionist snapshots are **not current certification**. Re-run Chapter-10 difficulty validation only after the current enemy-tuning and progression inputs are stable enough for the active framework.
 
 Current ownership remains:
-- Eastern Forest formations — `../ENCOUNTER_FORMATIONS/CHAPTER_10_RECOVERED_FORMATIONS.md`;
+- ordinary formation composition — **OPEN / no current locked Chapter-10 formation table**;
 - missing per-action percentages — `../ACTION_SELECTION_DEFAULT.md` unless an owning file has explicit weights.
 
 No current mandatory-vs-completionist certification is asserted by this chapter file.
