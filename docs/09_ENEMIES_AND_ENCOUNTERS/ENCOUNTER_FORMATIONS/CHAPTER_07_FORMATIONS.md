@@ -1,6 +1,5 @@
-# Diyse — Chapter 7 Recovered Formation Composition
+# Diyse — Chapter 7 Formation Composition
 
-**v90 promotion rule:** These compositions/weights were recovered from accepted pre-reorganization enemy/progression authority. Current enemy raw bodies, action kits, chapter levels, and current terminology remain controlled by the reorganized owning files. Historical EXP and superseded raw-stat rows are not restored here.
 
 | Phase | Formation | Composition | Weight |
 |---|---|---|---:|

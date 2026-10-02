@@ -1,9 +1,6 @@
 # Diyse — Formation Rules
-**Migration baseline:** `Diyse_CURRENT_WORKING_TRACKER_CONSOLIDATED_2026-08-27_v85.md`  
-**Historical enemy-production provenance:** Audit90/Audit93 plus later tracker-era roster/action cleanups.
-**Historical raw-stat provenance:** Audit129–Audit135.
-**Authority treatment:** this repository file is current formation-domain authority; Audit/v85 references remain historical provenance only.
-**Migration rule:** current repository roster, formation, and Prime-restoration rules supersede conflicting historical formation text.
+**Status:** CURRENT FORMATION-DOMAIN RULES  
+**Authority:** current formation rules plus later explicit approved corrections. Historical tracker/Audit provenance remains in Git history.
 
 
 - maximum simultaneously active enemies: **8**

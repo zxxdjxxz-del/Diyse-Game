@@ -1,23 +1,9 @@
-# Chapter 11 — Recovered Encounter Formations
+# Chapter 11 — Encounter Formations
 
-**Status:** **RECOVERED COMPOSITION/WEIGHT AUTHORITY / v87**  
-**Balance use:** Chapter-11 mandatory-vs-completionist validation  
-**Current numeric rule:** current individual Chapter-11 raw bodies/Powers and current progression budgets supersede historical phase-specific stat/EXP rows.
+**Status:** **CURRENT COMPOSITION / WEIGHT AUTHORITY**  
+**Authority boundary:** this file owns Chapter-11 formation names, compositions, and selection weights. Enemy raw bodies/actions remain in current individual owners, while EXP/CEXP and player-level progression remain in `10_PROGRESSION_AND_EXP`.
 
-## Provenance boundary
-These approved composition/weight rows were recovered from the late pre-reorganization working tracker.
-
-Recovered here:
-- formation names;
-- compositions;
-- weights.
-
-Not restored:
-- historical phase-specific enemy level variants;
-- old per-enemy EXP rows;
-- old formation EXP totals.
-
-Use current files in `../ORDINARY_ENEMIES/` for enemy raw bodies and `10_PROGRESSION_AND_EXP` for current EXP/progression authority.
+Historical recovery provenance is kept in Git history rather than repeated in live authority.
 
 ## Opening — Crown Engine
 | Formation | Composition | Weight |

@@ -47,13 +47,11 @@ Encounter volume, area split, formation count, and weights must be rebuilt from 
 | Full Annex Pressure | Annex Crucible Guard + Composite Elemental + Element Mirror + Reaction Node + Reaction Hound | 25% |
 
 ## Numeric firewall
-These recovered rows restore **composition and formation weights only**.
+These inherited rows are **composition/weight rework input only**.
 
-Do **not** restore historical phase-specific enemy raw-stat rows or superseded formation EXP values from older working trackers.
+Do **not** restore historical phase-specific enemy raw-stat rows or superseded formation EXP values.
 
-Current numerical authority remains:
-- `../ORDINARY_ENEMIES/CHAPTER_04_POWER_AND_RAW_REGISTER.md` and the current individual enemy files for raw stats / actions / Power;
-- `10_PROGRESSION_AND_EXP/` for current EXP/CEXP and player-level progression.
+Chapter-4 ordinary-enemy numeric/action tuning is **OPEN / REWORK PENDING**. Individual enemy files may contain candidate inputs, but they do not constitute chapter-wide numeric certification. EXP/CEXP and player-level progression remain owned by `10_PROGRESSION_AND_EXP/`.
 
 The same enemy identity can appear in multiple phases without becoming an invented I/II/III palette-upgrade identity.
 
@@ -65,10 +63,8 @@ Formation construction must therefore preserve the established rule:
 - do not routinely stack multiple high-rate Freeze sources in light formations;
 - one selected multi-element attack may apply at most one new canonical harmful status per target unless a specific boss rule explicitly says otherwise.
 
-## v80 balance verdict — HISTORICAL ONLY
-The old **PASS** is retained solely as historical tuning evidence.
-
-It does not certify the redesigned Chapter 4. Final roster, formation sizes, weights, encounter volume, forest-route encounters, and difficulty must be revalidated after the enemy rework.
+## Validation status — REOPENED
+No historical balance pass certifies the redesigned Chapter 4. Final roster, formation sizes, weights, encounter volume, forest-route encounters, and difficulty must be revalidated after the enemy rework.
 
 
 ## Annex Duelist placement — REOPENED
