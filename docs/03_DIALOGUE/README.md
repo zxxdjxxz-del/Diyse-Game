@@ -70,7 +70,7 @@ Current synchronization contract:
 - generated directly from current production atomics;
 - source and spoken-sequence hashes recorded in `game/content/dialogue/current/manifest.json`;
 - validated in Godot by `tests/dialogue/validate_current_dialogue_resources.gd`;
-- the former direct `game/content/dialogue/chapter_00` through `chapter_03` runtime folders are retired from the live tree and recoverable through Git history; only `current/` is the live generated mirror, while `proof/` remains non-authoritative.
+- the former direct `game/content/dialogue/chapter_00` through `chapter_03` runtime folders and obsolete Chapter-4 proof resources are retired from the live tree and recoverable through Git history; only `current/` is the live generated mirror, while `proof/` contains only two non-canon dialogue-engine test fixtures.
 
 Regenerate/check with:
 
@@ -79,15 +79,13 @@ Regenerate/check with:
 
 The Chapters 0–3 read-through is also generated from current atomics. Its player-facing world introduction is owned by `04_WORLD_AND_LORE/PLAYER_FACING_WORLD_INTRO.md`, and its between-beat encounter bridges are guarded against current `09_ENEMIES_AND_ENCOUNTERS` placement authority. Those layers may add reader context but may not alter spoken dialogue.
 
-## Chapter 0–1 source cleanup
+## Superseded dialogue source cleanup
 
-The obsolete `LINE_COMPLETE/CHAPTER_00` and `LINE_COMPLETE/CHAPTER_01` source sets have been removed from the live repository tree now that both chapters have complete current rehearsal-first production manuscripts.
+Obsolete `LINE_COMPLETE/` source sets are not kept in the live repository tree. Chapters 0–3 are represented by their current `PRODUCTION/` atomics, and the retired pre-restructure Chapter-4 S022–S026 / H05 / C08–C09 material is Git-history provenance only until current Chapter-4 dialogue is authored.
 
 The old Chapter-0 locked-manuscript casing overlay, the temporary Chapter-0 quick-pass cumulative manuscript, and the superseded pre-rehearsal Chapter-1 cumulative manuscript have also been removed.
 
-Git history remains the provenance/archive for those superseded versions. They must not be restored as competing dialogue authority.
-
-Chapter 3's retired S017–S021 / H01–H04 `LINE_COMPLETE` set has been moved to `HISTORICAL/CHAPTER_03/`. Historical `LINE_COMPLETE` material for other later chapters may remain temporarily until those chapters receive current rehearsal-first replacements. Its presence does not make it current spoken-dialogue authority.
+Git history remains the provenance/archive for superseded dialogue versions. They must not be restored as competing dialogue authority or used as current Chapter-4 production seed material.
 
 ## Explicit exact-line anchors
 

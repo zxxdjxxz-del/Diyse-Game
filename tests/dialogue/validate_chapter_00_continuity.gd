@@ -6,7 +6,7 @@ const EXPECTED := {
 	"B03": {"scene_id": "CH00_B03_EVACUATION_RELAY_DECISION", "kind": "mandatory", "spoken": 27},
 	"B04": {"scene_id": "CH00_B04_FIELD_TRIAGE_CAMP_ILYRA_FIRST_INCOMPLETE_RESPONSE", "kind": "mandatory", "spoken": 67},
 	"B05": {"scene_id": "CH00_B05_CONCEALED_RUIN_VANGUARD", "kind": "mandatory", "spoken": 41},
-	"B06": {"scene_id": "CH00_B06_RIFTMAW_WAR_SORCERER_FINAL_BROKEN_CONVOY_CONFRONTATION", "kind": "mandatory", "spoken": 52},
+	"B06": {"scene_id": "CH00_B06_RIFTMAW_BATTLE_SORCERER_FINAL_BROKEN_CONVOY_CONFRONTATION", "kind": "mandatory", "spoken": 52},
 	"B07": {"scene_id": "CH00_B07_AFTERMATH_SURVIVOR_RECOVERY_OVERNIGHT_CAMP", "kind": "mandatory", "spoken": 51},
 	"C01": {"scene_id": "CH00_C01_SIX_MINUTES", "kind": "character_life", "spoken": 79},
 }

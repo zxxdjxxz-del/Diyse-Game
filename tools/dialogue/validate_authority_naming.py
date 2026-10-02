@@ -203,7 +203,6 @@ def validate_cross_chapter_names(errors: list[str]) -> None:
     required = [
         PROD_ROOT / "CHAPTERS_00_03_DIALOGUE_SYNC_MANIFEST.md",
         PROD_ROOT / "CHAPTERS_00_03_FULL_SOURCE_CLOSURE_2026-09-13.md",
-        DIALOGUE_ROOT / "CHAPTERS_00_03_NATURAL_TURN_RHYTHM_AUDIT_TRACKER.md",
     ]
     for path in required:
         if not path.is_file():
@@ -228,25 +227,24 @@ def validate_runtime_dialogue_layout(errors: list[str]) -> None:
         if legacy.exists():
             errors.append(
                 f"{legacy.relative_to(ROOT)}: direct legacy chapter runtime folders are retired; "
-                "use current/ or proof/"
+                "use current/"
             )
 
     current = RUNTIME_DIALOGUE_ROOT / "current"
-    proof = RUNTIME_DIALOGUE_ROOT / "proof"
     if not current.is_dir():
         errors.append(f"{current.relative_to(ROOT)}: generated current runtime mirror missing")
-    if not proof.is_dir():
-        errors.append(f"{proof.relative_to(ROOT)}: proof runtime subtree missing")
 
-    legacy_ch4 = proof / "legacy_chapter_04"
-    if not legacy_ch4.is_dir():
-        errors.append(
-            f"{legacy_ch4.relative_to(ROOT)}: Chapter 4 legacy proof quarantine missing"
-        )
-    elif not (legacy_ch4 / "README.md").is_file():
-        errors.append(
-            f"{(legacy_ch4 / 'README.md').relative_to(ROOT)}: legacy proof quarantine README missing"
-        )
+    proof = RUNTIME_DIALOGUE_ROOT / "proof"
+    allowed_proof_entries = {"PROOF_SCHEMA.tres", "proof_portrait_registry.tres"}
+    if not proof.is_dir():
+        errors.append(f"{proof.relative_to(ROOT)}: dialogue schema proof fixtures missing")
+    else:
+        for path in sorted(proof.iterdir()):
+            if path.name not in allowed_proof_entries:
+                errors.append(
+                    f"{path.relative_to(ROOT)}: proof/ permits only the two active non-canon "
+                    "dialogue schema fixtures; historical chapter proof resources belong in Git history"
+                )
 
 
 def main() -> int:
