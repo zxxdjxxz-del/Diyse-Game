@@ -299,7 +299,9 @@ and implementation divergences are tracked in:
 > `IMPLEMENTATION_NOTES/CURRENT_CODE_DIVERGENCES.md`
 
 Persistence proof includes:
-- versioned JSON saves;
+- versioned JSON saves at `user://diyse_save.json`, with legacy `user://diyse_7b5g_save.json` load fallback;
+- current `rewards.g` currency storage with legacy schema-v1 `rewards.gold` normalization;
+- legacy equipment Face-name normalization to current Perception/Memory;
 - schema checks;
 - invalid/future save rejection;
 - GameState serialization;
