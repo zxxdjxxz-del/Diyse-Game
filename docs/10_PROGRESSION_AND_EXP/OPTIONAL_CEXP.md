@@ -3,10 +3,7 @@
 **Status:** PROVISIONAL OPTIONAL-CEXP LEDGER — REBUILD PENDING  
 **Authority:** current progression-domain owner; values are retained only as rebuild inputs.  
 
-**v91 recalibration:** 2026-08-29
 
-> **STATUS — PROVISIONAL OPTIONAL-CEXP LEDGER / REBUILD PENDING.**
->
 > The values below are the current reproducible planning ledger, not final balance certification. Every recruited permanent character receives an activity's CEXP package under the normal reserve-progression rule; CEXP still goes only to that character's selected class.
 
 ## Active Regional Hunts — 245 CEXP total
