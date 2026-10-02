@@ -2,7 +2,7 @@
 
 **Chapter:** 6 — Frostmere / Weather Crown / Crimson Work  
 **Role:** mandatory major story boss  
-**Status:** **VALIDATED v82 / POWER COMPLETE**
+**Status:** **POWER COMPLETE / BALANCE REVALIDATION OPEN**
 
 ## Preserved architecture
 
@@ -468,7 +468,7 @@ No third body exists.
 
 ---
 
-# DURATION CERTIFICATION
+# Pacing target — revalidation required
 
 ## Mandatory Lv24
 Blood Matron / Crimson Brood:
@@ -529,7 +529,7 @@ No Wind damage.
 No Water damage.
 No Barrier.
 
-> **WORKING PASS / POWER COMPLETE**
+> **POWER COMPLETE / BALANCE REVALIDATION OPEN**
 
 ## Reward continuity
 
@@ -542,5 +542,7 @@ Current Standard Card:
 The boss does not create a new damage element or generic life-force subsystem.
 
 
-## v82 validation status
-Formally validated against the actual Chapter-6 mandatory/completionist route state. Current raw stats, architecture, and direct-damage Powers are retained. See `../../16_BALANCE_AND_TESTING/BALANCE/CHAPTER_06_MANDATORY_COMPLETIONIST_VALIDATION.md`.
+## Current validation status
+The former Chapter-6 validation snapshot is historical only. Revalidate Matron Zevraya through the current global mandatory/completionist framework using current progression, party, support-organism, and Prime rules.
+
+Current architecture and Power-complete action data remain unchanged by this status cleanup.
