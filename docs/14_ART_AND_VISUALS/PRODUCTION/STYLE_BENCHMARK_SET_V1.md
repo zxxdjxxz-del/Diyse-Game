@@ -335,7 +335,7 @@ If any answer is **no**, adjust the style implementation before broad conversion
 
 ## 6. Production Order
 
-The active immediate gate and cross-domain work order are owned by `../90_WORKING/ACTIVE_WORK_QUEUE.md` and `OPEN_VISUAL_PRODUCTION_ITEMS.md`. B00 rigged-model runtime validation is the current immediate visual gate; benchmark execution status is owned by `BENCHMARKS/README.md`.
+The active immediate gate and cross-domain work order are owned by `../../90_WORKING/ACTIVE_WORK_QUEUE.md` and `OPEN_VISUAL_PRODUCTION_ITEMS.md`. B00 rigged-model runtime validation is the current immediate visual gate; benchmark execution status is owned by `BENCHMARKS/README.md`.
 
 The following material-coverage sequence is a planning reference, not an instruction to restart completed family approvals or bypass B00/B06 gates:
 
