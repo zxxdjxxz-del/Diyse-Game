@@ -6,7 +6,7 @@
 
 Scriptshade is the current Chapter-3 replacement for the former **Erasure Wisp** Chapter-3 identity/slot.
 
-This successor mapping is Chapter-3-specific. It does not globally delete later separately owned Erasure Wisp reuse.
+Erasure Wisp has no current placement after retirement of its former Chapter-10 reuse; Git history retains its historical tuning.
 
 ## Chapter-3 placement
 
