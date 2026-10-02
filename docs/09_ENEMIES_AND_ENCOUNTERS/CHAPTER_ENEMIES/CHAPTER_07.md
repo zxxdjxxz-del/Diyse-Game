@@ -39,7 +39,7 @@
 
 ## Current notes
 - Sixfold Volition follows the chapter's Prison/identity resolution; it is party progression, not an enemy-system name.
-- Chapter-7 broad ordinary / strong-normal / authored-special Power pass: **PASS**.
+- Chapter-7 broad ordinary / strong-normal / authored-special Power coverage: **COMPLETE**.
 - Historical mandatory-vs-completionist snapshots are **not current certification**. Current ordinary formations are owned by `../ENCOUNTER_FORMATIONS/CHAPTER_07_FORMATIONS.md`; authored-special placements remain story-integration dependencies.
 - Chapter 7 introduces no new harmful status.
 
