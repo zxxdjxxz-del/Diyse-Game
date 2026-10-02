@@ -2,7 +2,6 @@
 **Current authority:** this chapter file owns the current chapter enemy roster and broad placement except where a narrower current enemy, formation, authored-encounter, boss, or story owner explicitly controls a subsection.  
 **Authority rule:** current repository names, current chapter/story placement, and current system firewalls supersede conflicting historical material; Git history is provenance only.
 
-
 ## Ordinary / repeatable
 - Triage Automaton
 - Recovery Hound
@@ -33,8 +32,8 @@
 ## Current notes
 - Medical/quarantine fiction does not restore Poison or a universal Mercy/Triage resource.
 - Chapter-9 broad ordinary / strong-normal / authored-protected Power pass: **PASS**.
-- Chapter-9 mandatory-vs-completionist difficulty validation: **PASS / VALIDATED v85**.
-- Actual route anchors: **Lv37 start → Lv37 Equal Mercy → Lv38 post-Last-Sanctuary → Lv40 Rhazek → Lv42 clear**.
+- Historical mandatory-vs-completionist snapshots are **not current certification**; re-run under the active validation framework when current tuning/progression inputs are stable.
+
 - Ordinary formations are restored in `../ENCOUNTER_FORMATIONS/CHAPTER_09_FORMATIONS.md`. RH9 exact return trigger remains story-owned; no enemy-design, stat, or Power gap.
 - Chapter 9 introduces no new harmful status.
 
@@ -58,7 +57,6 @@ Mandatory boss authority remains separately owned and unchanged.
 
 Regional Hunt #9 remains outside this batch.
 
-
 ## Current Equal Mercy Arbiter handoff
 Detailed current authority:
 `../STORY_BOSSES/EQUAL_MERCY_ARBITER.md`
@@ -71,7 +69,6 @@ Current action-tax architecture:
 - Open Sanctuary begins at 45% HP and permanently removes the tax.
 
 No Poison, Barrier, Triage resource, victim-targeting system, or universal Mercy command is introduced.
-
 
 ## Current Commander Rhazek handoff
 Detailed current authority:
