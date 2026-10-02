@@ -10,15 +10,17 @@
 Current proof save system:
 - JSON
 - schema version: **1**
-- proof path: `user://diyse_7b5g_save.json`
+- canonical default path: `user://diyse_save.json`
+- compatibility fallback path: `user://diyse_7b5g_save.json`
 - version check
 - invalid JSON safe failure
 - missing-save safe failure
 - unknown future schema rejected
 - load clears stale transient random-encounter handoff state.
 
-The proof path/name is:
-> **not final production naming authority**
+Default load/has-save behavior checks the canonical path first and falls back to the old 7B.5G proof filename only when the canonical file is absent. The next ordinary save writes the canonical path, so legacy proof saves move forward without a schema bump or destructive rename.
+
+The path remains implementation-level naming rather than story/gameplay canon.
 
 ## Current schema-v1 serialized fields
 Current proof `GameState.to_save_dict()` stores:
