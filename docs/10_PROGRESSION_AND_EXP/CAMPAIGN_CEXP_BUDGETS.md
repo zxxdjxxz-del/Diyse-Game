@@ -3,17 +3,15 @@
 **Status:** PROVISIONAL CEXP PLANNING BASELINE — REBUILD PENDING  
 **Authority:** current progression-domain owner; values are retained only as rebuild inputs.  
 
-**v91 budget recalibration + v92 recruitment-aware proof correction:** 2026-08-29
 
 > **STATUS — PROVISIONAL NUMERIC BASELINE / REBUILD PENDING.**  
 > All chapter CEXP awards in this file are retained for planning continuity only until the later campaign CEXP rebalance replaces and recertifies them.
 
 The current reference model uses **CL1→CL13 / 0→6,000 CEXP** and a campaign award stream intended to place full Base + Subclass completion around the **Player Lv55–60 target window**. These award totals remain provisional pending the planned CEXP rebuild.
 
-> **Current structural warning:** the historical v91/v92 model still carries the former **350 CEXP** Chapter-1 budget, while the latest structurally corrected Chapter-1 reward map in `MANDATORY_EXP_CEXP_BY_CHAPTER.md` currently sums to **285 CEXP** after Watch Castellan removal. Do **not** reconcile this by inventing a top-up or by treating either figure as final; the planned CEXP rebuild owns the replacement budget and downstream completion proof.
+> **Current structural warning:** the retained planning table still carries the former **350 CEXP** Chapter-1 budget, while the latest structurally corrected Chapter-1 reward map in `MANDATORY_EXP_CEXP_BY_CHAPTER.md` currently sums to **285 CEXP** after Watch Castellan removal. Do **not** reconcile this by inventing a top-up or by treating either figure as final; the planned CEXP rebuild owns the replacement budget and downstream completion proof.
 
-## Pre-Volition
-Unchanged.
+## Pre-Volition planning stream
 
 | Chapter | Campaign CEXP |
 |---:|---:|
