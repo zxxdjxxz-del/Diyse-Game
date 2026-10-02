@@ -2,7 +2,7 @@
 
 **Chapter:** 6 — Frostmere / Weather Crown / Crimson Work  
 **Role:** mandatory Weather Crown boss  
-**Status:** **VALIDATED v82 / POWER COMPLETE**
+**Status:** **POWER COMPLETE / BALANCE REVALIDATION OPEN**
 
 ## Preserved architecture
 
@@ -221,7 +221,7 @@ No Prime use is mandatory.
 
 ---
 
-# DURATION CERTIFICATION
+# Pacing target — revalidation required
 
 Target pacing:
 
@@ -254,7 +254,7 @@ Stormbound:
 - Gale Pressure — **170 per target**
 - Eye of the Crown — **Power N/A**
 
-> **WORKING PASS / POWER COMPLETE**
+> **POWER COMPLETE / BALANCE REVALIDATION OPEN**
 
 ## Reward continuity
 
@@ -269,5 +269,7 @@ Current Standard Card continuity:
 The boss does not invent a new fifth element or Wind damage type.
 
 
-## v82 validation status
-Formally validated against the actual Chapter-6 mandatory/completionist route state. Current raw stats, architecture, and direct-damage Powers are retained. See `../../16_BALANCE_AND_TESTING/BALANCE/CHAPTER_06_MANDATORY_COMPLETIONIST_VALIDATION.md`.
+## Current validation status
+The former Chapter-6 validation snapshot is historical only. Revalidate Crownstorm Roc through the current global mandatory/completionist framework using current progression, party, Prime, and encounter assumptions.
+
+Current architecture and Power-complete action data remain unchanged by this status cleanup.
