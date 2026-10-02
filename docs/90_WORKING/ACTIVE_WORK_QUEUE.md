@@ -16,7 +16,7 @@ Use:
 - `../03_DIALOGUE/README.md`
 - `../02_STORY/OPEN_STORY_ITEMS.md`
 
-Story-owned enemy placement/timing questions remain deferred until their scenes are authored, including currently bounded identities such as False-Warrant Adept, Highland Resistance Fighter, and Crown Engine Technician.
+Story-owned enemy placement/timing questions remain deferred until their scenes are authored. Use the current Story and enemy-domain open-item owners rather than carrying retired or unplaced identity names forward in this sequencing index.
 
 ## 2 — Playable area / route production
 
@@ -53,7 +53,14 @@ Use:
 Current immediate gate:
 > **B00 rigged-model runtime validation**
 
-Six exact party masters are locked. Production work now focuses on a shared rig/model/shader solution that reproduces those masters in field and battle.
+Six exact party masters are locked. The shared UAL/Godot rig foundation and Ilyra v0.7 deformation path are already proven at architecture level.
+
+Current visual-production work should now focus on:
+- correcting proof character geometry toward the exact current masters;
+- final deformation/spring/attachment cleanup;
+- B00 material/shader/outline fidelity;
+- actual field and battle camera validation;
+- then safe propagation across the remaining party.
 
 The old mandatory field/battle sprite-derivative pipeline is retired.
 

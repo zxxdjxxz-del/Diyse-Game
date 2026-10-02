@@ -199,6 +199,8 @@ Any external AI output is a production draft until it passes the canonical layou
 
 ## Immediate next deliverable
 
-> **Build/test the Chapter-0 graybox from Blueprint 001.**
+> **Validate and revise the existing Chapter-0 graybox against Blueprint 001.**
 
-The graybox must validate scale, movement, Android touch navigation, camera framing, Wreck Field readability and transition seams before Blueprint 001 is promoted to L3.
+The repository already contains the Chapter-0 graybox implementation and automated structural/visual capture support. The next layout task is to use traversal evidence to revise scale, movement feel, Android touch navigation, camera framing, Wreck Field readability and transition seams.
+
+Blueprint 001 should be promoted to L3 only after that existing graybox is reviewed and the resulting topology is explicitly approved.

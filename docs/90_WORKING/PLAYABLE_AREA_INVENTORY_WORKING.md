@@ -325,7 +325,7 @@ These maps must be designed from the start to support meaningful state changes r
 
 These are not reasons to stop the inventory; they are bounded questions to resolve during the relevant map packet:
 
-1. exact physical attachment of several Regional Hunt branches (#1, #5–#8, #11);
+1. exact physical attachment of several active Regional Hunt branches (#5–#8, #11);
 2. whether certain named facility subspaces are one continuous map or separated by transitions/loading seams;
 3. exact internal district boundaries for large hubs, especially Caelora, Vorathen and Westguard;
 4. exact reusable-road relationship between chapter travel corridors and optional local routes;
@@ -392,12 +392,14 @@ The external AI may solve **construction and visual execution**. It may not sile
 
 # K. Immediate Next Action
 
-> **Begin Layout Blueprint 001: Chapter 0 — Convoy Road / Wreck Field route packet.**
+> **Validate and revise the existing Chapter-0 graybox against Blueprint 001.**
 
-Before locking that blueprint, establish the project-wide gameplay-scale constants used by every later map:
-- player/party visual scale;
+Blueprint 001 and the Chapter-0 graybox already exist. Use actual traversal, camera, Android-touch and visual-capture evidence to establish or revise the project-wide gameplay-scale constants used by later maps:
+- player visual scale;
 - nominal path width;
 - standard encounter clearing size;
 - camera framing;
 - first-pass target traversal time per route segment;
 - transition seam convention.
+
+Do not mark Blueprint 001 L3 until the resulting topology is explicitly approved.
