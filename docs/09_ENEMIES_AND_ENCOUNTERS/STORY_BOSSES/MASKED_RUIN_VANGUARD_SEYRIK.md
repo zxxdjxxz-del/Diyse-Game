@@ -1,9 +1,9 @@
-# Masked Ruin Vanguard — Seyrik — Current Working Recertification
+# Masked Ruin Vanguard — Seyrik — Current Encounter Authority
 
 **Chapter:** 6 — Frostmere / Weather Crown / Crimson Work  
 **Role:** mandatory authored nonlethal / forced-disengagement encounter  
 **Identity:** Seyrik under concealed story presentation  
-**Status:** **VALIDATED v82 / POWER COMPLETE**
+**Status:** **POWER COMPLETE / BALANCE REVALIDATION OPEN**
 
 ## Story boundary
 
@@ -170,7 +170,9 @@ A Prime cannot kill Seyrik in this encounter:
 There is no fresh body or same-bar phase transition here, so:
 > no boss-form Prime refresh event occurs.
 
-## Duration certification
+## Historical pacing target — not current certification
+
+These round-count estimates are retained only as historical pacing intent. They must be revalidated under the current progression/enemy inputs before being used for balance decisions.
 
 Effective mandatory damage objective:
 > **3,200 HP** from 4,000 → protected 800.
@@ -210,5 +212,5 @@ Recruitment/chapter-clear reward remains separate:
 > **2,700 EXP / 106 CEXP**
 
 
-## v82 validation status
-Formally validated against the actual Chapter-6 mandatory/completionist route state. Current raw stats, architecture, and direct-damage Powers are retained. See `../../16_BALANCE_AND_TESTING/BALANCE/CHAPTER_06_MANDATORY_COMPLETIONIST_VALIDATION.md`.
+## Current validation status
+Historical Chapter-6 certification is not current authority. Difficulty certification is **OPEN** pending revalidation under `../../16_BALANCE_AND_TESTING/BALANCE/ENEMY_BOSS_MANDATORY_COMPLETIONIST_VALIDATION.md` with current progression and encounter inputs.
