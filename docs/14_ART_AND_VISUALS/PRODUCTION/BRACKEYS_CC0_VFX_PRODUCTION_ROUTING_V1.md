@@ -26,12 +26,12 @@ Primary source candidates:
 - flame/fire particle primitives;
 - spark, flare, light and spotlight particles.
 
-B06 should compare these clean-provenance candidates with the earlier Map092 reference functionality.
+B06 uses this verified-CC0 pool as its primary production source. Map092 remains optional reference comparison only. Current B06 sequencing and promotion gates are owned by `BENCHMARKS/B06_CC0_FIRE_LIGHT_EXECUTION_V1.md`.
 
 Preferred route:
-1. select one fire flipbook as the motion/cadence anchor;
+1. build the replacement anime/seinen treatment on `flame_01_16x4`; the existing v1 treatment is visually rejected technical evidence only;
 2. preserve frame grid and timing;
-3. apply Diyse color/value/edge treatment without per-cell independent hallucination;
+3. obtain visual approval of that flame treatment before propagating to full-fire, ring/ground-fire or particle families; preserve structure without independent per-cell redraws;
 4. test additive/emissive rendering for the RGB fire flipbooks before constructing alpha;
 5. validate neutral/warm/night scene readability and restrained bloom;
 6. keep bright flame core mostly line-free;
@@ -118,7 +118,7 @@ Every output must preserve:
 
 ## 6. VFX Diyse grammar — provisional
 
-Until the dedicated effect benchmarks are approved, verified CC0 VFX candidates should target:
+Current shared style is owned by `../DIYSE_VISUAL_STYLE_CANON.md`; dedicated benchmarks refine effect-specific requirements. B06's 3–5 cel-like flame masses and pilot gates are owned by its execution sheet. Other verified CC0 VFX candidates should target:
 - strong readable outer motion silhouette;
 - 2–4 dominant value/color zones before fine particles;
 - bright cores with minimal or no dark line;
@@ -134,8 +134,8 @@ Until the dedicated effect benchmarks are approved, verified CC0 VFX candidates 
 
 When texture intake is complete enough to resume benchmark production:
 
-1. B04 animated vegetation remains next in the existing benchmark sequence unless explicitly reordered;
-2. B06 should use the verified CC0 fire/particle pool as a major source set;
+1. use `../../90_WORKING/ACTIVE_WORK_QUEUE.md` and `OPEN_VISUAL_PRODUCTION_ITEMS.md` for current production order; this source router does not supersede the immediate B00 rigged-model runtime gate;
+2. when B06 resumes, follow its replacement-flame visual gate before wider propagation;
 3. B09 should use its magic/energy components as building blocks while retaining original Diyse sigil composition;
 4. combat-impact VFX should receive a separate small gameplay-scale readability pass after the core material grammar stabilizes.
 
