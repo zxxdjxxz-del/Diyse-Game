@@ -81,15 +81,17 @@ Preserve:
 Do not lengthen the hair or rebuild the older gathered-braid / constellation-drape silhouette. Group or fade secondary utility detail through LOD/material logic.
 
 ### Vaelira
-**Emerald Green Arcanist + black foundation + silver accents + Arcane Staff.**
+**Emerald Green Arcanist + black foundation + silver accents; staff-free default visual master.**
 
 Preserve:
-- crimson/burgundy hair mass;
+- shoulder-length crimson/burgundy hair mass;
 - vivid royal/electric-blue eyes where camera distance permits;
 - emerald outer-garment and boot blocks;
 - black fitted foundation layer;
 - silver trim/metal highlights;
-- tall Arcane Staff silhouette with emerald/teal crystal focus.
+- the staff-free default silhouette shown by the exact current master.
+
+Arcane Staff remains her gameplay weapon family. If runtime battle presentation shows the currently equipped weapon, the staff must use the correct family/handling; it is not a mandatory part of her neutral/default visual silhouette.
 
 **Vaelira is not an archer.** Do not introduce bow, quiver, ranger, or bow-animation language in any runtime model or animation set.
 
