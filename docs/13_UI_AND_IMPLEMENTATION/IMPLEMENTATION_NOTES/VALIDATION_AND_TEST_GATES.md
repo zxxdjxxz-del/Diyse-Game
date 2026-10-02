@@ -13,6 +13,9 @@ Validates:
 - missing-save safe failure;
 - state round-trip;
 - pre-Kessara schema-v1 compatibility;
+- canonical save-path precedence plus legacy 7B.5G filename fallback;
+- legacy Face-name normalization to Perception/Memory;
+- legacy `rewards.gold` normalization to `rewards.g`;
 - invalid JSON rejection;
 - future schema rejection;
 - transient encounter exclusion.
@@ -25,7 +28,7 @@ Validates the current generated-battle engineering path can execute from encount
 
 Boundary:
 - proof enemy data may still be involved;
-- legacy technical reward keys may still be involved;
+- reward storage uses current `g` / **G** terminology, but proof reward amounts remain non-authoritative;
 - this test does **not** certify current chapter formation authority;
 - it does **not** certify the unresolved production turn-entry flow;
 - it does **not** certify current Prime timing/ownership behavior or final Standard Card MP behavior.

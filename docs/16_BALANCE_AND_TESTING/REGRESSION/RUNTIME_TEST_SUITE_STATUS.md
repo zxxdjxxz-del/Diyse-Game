@@ -5,7 +5,7 @@
 
 ## Current source inventory
 
-Current repository inspection finds **36 GDScript validation/test files** under `tests/`.
+Current repository inspection finds **35 GDScript validation/test files** under `tests/`.
 
 Coverage includes:
 - combat;
@@ -22,14 +22,17 @@ The source inventory is useful foundation coverage, but not all tests represent 
 
 ## Known legacy proof debt
 
-The current smoke/combat proof still contains legacy First Champion / `first_champion` assumptions, including:
-- Cyanis-only bearer access;
-- non-bearer rejection;
-- old manifestation/duration behavior.
+The executable combat proof still contains legacy First Champion / `first_champion` assumptions, including bearer-locked and outdated manifestation behavior.
 
-The legacy combat regression explicitly labels itself as proof-only, but the smoke test still asserts these stale Prime expectations.
+The obsolete mechanics regression that hard-locked those assumptions has been removed from the live tree. The current integrated smoke test deliberately checks only:
+- combat scene loadability;
+- four-member active-party surface;
+- at least one enemy;
+- the five current global commands.
 
-These tests must be updated before Prime-related CI can be treated as a current-canon gate.
+It does **not** certify Prime ownership, timing, cooldown, restoration, Card costs, or the retired whole-round queue.
+
+Prime-specific CI therefore remains incomplete, but the current smoke test is no longer itself asserting the stale Prime mechanics.
 
 ## Current interpretation
 

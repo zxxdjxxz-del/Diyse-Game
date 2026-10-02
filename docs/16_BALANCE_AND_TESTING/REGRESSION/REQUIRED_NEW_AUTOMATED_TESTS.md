@@ -13,13 +13,17 @@ High-value production regressions:
 - status resolver.
 
 ## Round logic
-- max4 active
+- max4 active party
 - max8 enemies
-- Item/Defend/Speed tiers
-- all tie rules
-- enemy action legality lock
-- no Speed extra actions
-- retarget.
+- normal round order begins from current effective Speed and the current tie rules
+- each actor selects/chooses and resolves its action on that actor's turn
+- player decisions use the battle state produced by earlier turns in the same round
+- enemy/entity AI chooses from the legitimate state when its turn arrives
+- Item and Defend do **not** receive universal priority phases
+- no whole-party action queue / universal Confirm Round gate
+- initiative remains locked for the current round after setup; mid-round Speed changes affect the next round only if still active
+- no Speed extra actions unless explicitly authored
+- legal retarget behavior.
 
 ## Status
 Full matrix in `TESTING/STATUS_REGRESSION_MATRIX.md`.
@@ -61,11 +65,12 @@ Do not freeze the stale model before rebalance.
 - 6 Major Hunts.
 
 ## Current terminology
-Automated current-facing data scan for retired:
-- Resource Face
+Automated current-facing data scan should reject retired terms outside explicit compatibility/firewall/provenance contexts:
+- Resource / Acuity / Change as current Face names
 - Last Measure
 - Southhold/Crownhold
 - Blackstone
 - Westreach
 - Sixfold Accord
+- Auren / Gold as player-facing ordinary currency
 - Barrier/Brace as combat mechanic.
