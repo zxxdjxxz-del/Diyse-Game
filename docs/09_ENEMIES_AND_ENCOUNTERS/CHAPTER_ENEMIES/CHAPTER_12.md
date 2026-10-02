@@ -46,8 +46,8 @@
 - Recovered nine-formation composition set and 30/45/25 phase weights are retained; missing per-action percentages use `../ACTION_SELECTION_DEFAULT.md` unless explicitly authored.
 - Civilian populations remain distinct from the imperial war machine and are not default enemies.
 
-Summary:
-`../ORDINARY_ENEMIES/CHAPTER_12_POWER_AND_RAW_REGISTER.md`
+Current individual enemy owners:
+`../ORDINARY_ENEMIES/` — use the files matching the active roster identities listed above.
 
 ### Compelled Relay Bearer
 Power-complete authored nonlethal identity.
