@@ -1,9 +1,7 @@
 # Diyse — Major Hunt #1: Ashen Whitehorn
-**Migration baseline:** `Diyse_CURRENT_WORKING_TRACKER_CONSOLIDATED_2026-08-27_v85.md`  
-**Historical enemy-production provenance:** Audit90/Audit93 plus later tracker-era roster/action cleanups.
-**Historical raw-stat provenance:** Audit129–Audit135.
-**Authority treatment:** this repository file is current Major-Hunt-domain authority; Audit/v85 references remain historical provenance only.
-**Migration rule:** current repository Hunt names, unlock timing, battle architecture, and Prime-restoration rules supersede conflicting historical text.
+
+**Status:** ACTIVE MAJOR-HUNT ENCOUNTER BODY — REVALIDATION PENDING  
+**Authority:** current enemy/encounter owner plus later explicit approved corrections.  
 
 
 | Ref | Encounter / form | Lv | HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR | Architecture |
@@ -21,33 +19,7 @@ Fixed authored tuning.
 No dynamic player-level scaling.
 
 
-## Recertification
-Current unlock:
-> **after Chapter 6**
-
-Expected party position at first access:
-- mandatory-route party: approximately **Lv27**
-- all normally available optional EXP before this Hunt: approximately **Lv29–30**
-
-Current recommended preparedness level:
-> **Lv33**
-
-This keeps Ashen Whitehorn above the Chapter-6 completionist party and above Regional Hunt #6's Lv32 recommendation while preserving fixed authored tuning.
-
-Current recertified raw line:
-- HP **15,600**
-- ATK **130**
-- MAG **94**
-- DEF **92**
-- Spirit **85**
-- SPD **44**
-- EVA **10**
-- Status Resistance **10**
-
-The encounter remains a physical-pressure Major Hunt with driven target focus and the same-bar Last Run escalation.
-
-## Power-complete action kit — v74
-**Status:** **POWER COMPLETE**
+## Current action kit
 
 ### Whitehorn Gore
 - one party member
@@ -106,6 +78,3 @@ Unlock:
 
 The state change grants no free action.
 
-
-## v82 mandatory-vs-completionist check
-Retained without numerical change. See `../../16_BALANCE_AND_TESTING/BALANCE/CHAPTER_06_MANDATORY_COMPLETIONIST_VALIDATION.md`.
