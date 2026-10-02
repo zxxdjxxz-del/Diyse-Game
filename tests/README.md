@@ -34,7 +34,7 @@ Add regression coverage for defects and authority-drift failures whenever practi
 Some current tests intentionally exercise still-unmigrated proof runtime code. They protect engineering continuity; they do **not** certify that proof data or behavior as current game-design authority.
 
 Important examples:
-- `tests/combat/validate_generated_encounter_battle_state.gd` proves that the executable encounter catalog can instantiate and resolve through the generated-battle path. It may touch proof enemy data and legacy technical reward keys; it does not certify current chapter formations, final rewards, production turn flow, Prime behavior or Card costs.
+- `tests/combat/validate_generated_encounter_battle_state.gd` proves that the executable encounter catalog can instantiate and resolve through the generated-battle path. It uses proof enemy data and current `rewards.g` storage; proof reward amounts remain non-authoritative. It does not certify current chapter formations, final rewards, production turn flow, Prime behavior or Card costs.
 - `tests/encounters/validate_encounter_runtime_contract.gd` checks content-neutral encounter-runtime invariants such as profile schema, weighted-pool integrity, pressure-state behavior and selector legality. It deliberately does not freeze superseded encounter counts, formations or progression totals.
 - `tests/smoke/validate_project.gd` checks integrated project loadability and current-safe surface contracts; it is not a certification of unresolved combat internals.
 
