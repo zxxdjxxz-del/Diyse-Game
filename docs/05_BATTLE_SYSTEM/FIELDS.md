@@ -60,7 +60,7 @@ In particular:
 - a Speed modifier from a Field becomes active immediately but does **not** reshuffle initiative already fixed for the current round;
 - if still active at the next normal round's initiative check, that Speed modifier affects ordering normally;
 - Defense/Spirit/Attack/Magic changes use `STAT_CHANGES.md`;
-- MP-cost changes use `06_CLASSES_AND_ABILITIES/MP_COST_RULES.md` where applicable;
+- MP-cost changes use `../06_CLASSES_AND_ABILITIES/MP_COST_RULES.md` where applicable;
 - direct-damage reduction uses `DAMAGE_FORMULAS.md`;
 - harmful statuses use `STATUS_EFFECTS.md`.
 
