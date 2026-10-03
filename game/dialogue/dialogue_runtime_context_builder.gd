@@ -74,6 +74,7 @@ const PROTECTED_REQUEST_KEYS := [
 	"participants",
 	"participant_profiles",
 	"person_runtime_contexts",
+	"context_construction",
 	"scene_purpose",
 	"authority_packet",
 	"allowed_information_transfers",
@@ -206,6 +207,14 @@ func validate_request_seed(
 		failures.append("request_seed.participant_profiles must be a Dictionary")
 	if not (request_seed.get("person_runtime_contexts", {}) is Dictionary):
 		failures.append("request_seed.person_runtime_contexts must be a Dictionary")
+	var construction = request_seed.get("context_construction", {})
+	if not (construction is Dictionary):
+		failures.append("request_seed.context_construction must be a Dictionary")
+	elif not construction.is_empty():
+		if str(construction.get("schema", "")) != "diyse_person_context_construction_v1":
+			failures.append("Unsupported automatic person-context construction schema")
+		if authority_packet is Dictionary and authority_packet.get("context_construction", {}) != construction:
+			failures.append("context_construction must match protected authority packet")
 	if not (request_seed.get("scene_context", {}) is Dictionary):
 		failures.append("request_seed.scene_context must be a Dictionary")
 	if not (request_seed.get("current_floor_state", {}) is Dictionary):
