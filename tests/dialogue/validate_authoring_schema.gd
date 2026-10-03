@@ -83,7 +83,7 @@ func _expect(condition: bool, message: String) -> void:
 
 func _finish() -> void:
 	if failures.is_empty():
-		print("Diyse 7B.6 production dialogue authoring schema validation passed.")
+		print("Production dialogue authoring schema validation passed.")
 		quit(0)
 		return
 	for failure in failures:
