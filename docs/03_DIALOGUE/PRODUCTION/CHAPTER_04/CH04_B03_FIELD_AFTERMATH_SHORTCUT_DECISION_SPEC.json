@@ -71,69 +71,11 @@
     "Ilyra may test assumptions/consequences but does not own navigation.",
     "Nobody may frame Ivorybridge as a newly discovered destination in this beat."
   ],
-  "person_runtime_contexts": {
-    "cyanis": {
-      "memory_authorization": {
-        "mode": "none"
-      },
-      "scene_local_state": {
-        "attention": [
-          "what must change at Cresthaven",
-          "what his Card just did"
-        ],
-        "avoidances": [
-          "forcing a Prime explanation",
-          "reopening the fight"
-        ]
-      }
-    },
-    "ilyra": {
-      "memory_authorization": {
-        "mode": "none"
-      },
-      "scene_local_state": {
-        "attention": [
-          "what the manifestation actually proves",
-          "consequences of restoration for the animal"
-        ],
-        "avoidances": [
-          "route-finding ownership",
-          "automatic emotional-summary role"
-        ]
-      }
-    },
-    "torren": {
-      "memory_authorization": {
-        "mode": "none"
-      },
-      "scene_local_state": {
-        "attention": [
-          "animal range responsibility",
-          "current position relative to Crown road",
-          "time saved by continuing forward"
-        ],
-        "avoidances": [
-          "turning the shortcut into a secret Ancient route"
-        ]
-      }
-    },
-    "nimera": {
-      "memory_authorization": {
-        "mode": "none"
-      },
-      "scene_local_state": {
-        "attention": [
-          "observation versus interpretation",
-          "what evidence remains missing for Prime classification"
-        ],
-        "avoidances": [
-          "historical lecture",
-          "overstating the event"
-        ]
-      }
-    }
-  },
   "exact_line_anchors": [],
   "max_beats": 16,
-  "production_cost_ceiling": "economical"
+  "production_cost_ceiling": "economical",
+  "story_clock": {
+    "chapter": 4,
+    "sequence": 3
+  }
 }
