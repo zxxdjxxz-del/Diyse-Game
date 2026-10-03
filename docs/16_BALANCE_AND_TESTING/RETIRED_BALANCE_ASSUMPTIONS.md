@@ -81,4 +81,4 @@ Do not restore their:
 - old PASS/RETAIN conclusions;
 - superseded Prime timing/restoration assumptions.
 
-Only the current `TRUE_BATTLE_TEST_PROTOCOL.md` remains a live testing method.
+Only the current `TRUE_BATTLES/TRUE_BATTLE_TEST_PROTOCOL.md` remains a live testing method.
