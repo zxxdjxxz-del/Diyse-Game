@@ -1,6 +1,6 @@
 # Diyse Supplemental User Texture Intake — 2026-08-31 Batch 1
 
-**Status:** INTAKE INVENTORIED / PROVENANCE PENDING / NOT YET MERGED INTO MASTER v5  
+**Status:** ACTIVE SUPPLEMENTAL INTAKE / PROVENANCE PENDING  
 **Intake tool:** `../../../../../tools/asset_forge/zip_intake_engine.py`  
 **Repository safety:** raw ZIPs remain outside public Git authority until licensing/provenance is established.
 
@@ -15,7 +15,7 @@ Six user-supplied ZIP archives were received as a new supplemental texture batch
 - `Bricks.zip`
 - `Emission.zip`
 
-This batch is **not** silently folded into DIYSE Asset Library Master v5. Master v5 remains the current canonical inventory for the earlier Map001–Map116/CC0 source set. This document records the new material as a separate intake layer until provenance and durable binary storage are resolved.
+This batch remains a separate current supplemental source lane from the 25-ZIP baseline recorded in `SOURCE_ARCHIVE_MANIFEST.md` until provenance and durable binary storage are resolved.
 
 ## 2. Batch totals
 
@@ -164,4 +164,4 @@ This intake becomes part of a future canonical Asset Library Master only after:
 
 Until then:
 
-> **Master v5 stays authoritative; Supplemental Batch 1 is an inventoried pending-provenance extension.**
+> **Supplemental Batch 1 remains an active inventoried pending-provenance source lane until its promotion gates are satisfied.**
