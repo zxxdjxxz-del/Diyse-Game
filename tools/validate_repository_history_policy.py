@@ -11,6 +11,14 @@ LEGACY_ARCHIVE_SEGMENT = "99_" + "ARCHIVE"
 RETIRED_DOC_REFERENCE_RE = re.compile(
     r"\b(?:RETIRED_[A-Z0-9_]+|REMOVED_SYSTEMS_FIREWALL)\.md\b"
 )
+HISTORICAL_DOC_ROOTS = (
+    ROOT / "docs" / "03_DIALOGUE" / "EXPERIMENTS",
+    ROOT / "docs" / "15_AUDIO_AND_MUSIC" / "RESEARCH_ARCHIVE",
+)
+HISTORICAL_REFERENCE_SEGMENTS = (
+    "EXPERIMENTS/",
+    "RESEARCH_ARCHIVE/",
+)
 TEXT_EXTENSIONS = {
     ".md", ".txt", ".json", ".py", ".gd", ".yml", ".yaml", ".cfg",
     ".tres", ".tscn", ".toml", ".ini",
@@ -25,6 +33,12 @@ def main() -> int:
         errors.append(
             f"{archive_root.relative_to(ROOT)} exists; superseded project history belongs in Git history"
         )
+
+    for historical_root in HISTORICAL_DOC_ROOTS:
+        if historical_root.exists():
+            errors.append(
+                f"{historical_root.relative_to(ROOT)} exists; non-production experiment/research history belongs in Git history"
+            )
 
     for path in (ROOT / "docs").rglob("*"):
         if not path.is_file():
@@ -54,6 +68,11 @@ def main() -> int:
         if matches:
             errors.append(
                 f"{path.relative_to(ROOT)} still references removed retired-document layer: {', '.join(matches)}"
+            )
+        historical_refs = [segment for segment in HISTORICAL_REFERENCE_SEGMENTS if segment in text]
+        if historical_refs:
+            errors.append(
+                f"{path.relative_to(ROOT)} still references removed experiment/research history: {', '.join(historical_refs)}"
             )
 
     if errors:
