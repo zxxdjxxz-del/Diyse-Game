@@ -80,9 +80,7 @@ Mastery completion occurs at:
 Git history may document the retired point-purchase model, but it does not override the current repository rule above.
 
 ## Synthesis
-**Removed.**
-
-See `RETIRED_SYNTHESIS_FIREWALL.md`.
+The current class architecture ends with Core and Subclass Masteries; there is no additional post-Subclass Mastery layer.
 
 ## Donor equipment milestones
 
