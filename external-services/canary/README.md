@@ -23,6 +23,7 @@ Endpoints:
 - `GET /health`
 - `GET /v1/identity`
 - `GET /v1/context-snapshot`
+- `POST /v1/runtime-context` — reconstruct a person-local, chronology-safe context without a model call
 - `POST /v1/turn`
 - `POST /v1/commit`
 - `POST /v1/open-conversation`
@@ -109,3 +110,11 @@ See:
 - `docs/03_DIALOGUE/AGENT_SYSTEM/RUNTIME_ORCHESTRATION.md` — compiler/runtime/service implementation authority
 - `docs/13_UI_AND_IMPLEMENTATION/IMPLEMENTATION_NOTES/AREA_TRAVERSAL_AUTHORING_INTERFACE.md`
 - `docs/13_UI_AND_IMPLEMENTATION/DIALOGUE_UI.md`
+
+## Automatic Person context construction
+
+`runtime_context.py` is shared by the authority compiler and both service containers. Every authored scene rebuilds each person's context from protected construction inputs and approved person-local continuity before model generation. Cached/manual runtime state and the latest unsliced database state cannot override the build.
+
+See `docs/03_DIALOGUE/AGENT_SYSTEM/AUTOMATIC_PERSON_CONTEXT.md` for structured assertions, story clocks, memory policies, migration, and limitations. `/v1/commit` requires both Canon Checker PASS and explicit author approval; the Orchestrator forwards the approved source story clock. Build endpoints remain read-only.
+
+Offline regression: `python3 tests/dialogue/test_automatic_person_context.py` after installing `external-services/canary/requirements.txt`.
