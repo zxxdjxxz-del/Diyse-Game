@@ -78,81 +78,11 @@
     "The group may connect the manifestation to LAST SENTINEL CONFIRMED and the existing Prime-Card hypothesis without promoting hypothesis to confirmed classification.",
     "No spoken dialogue may occur during active combat or the manifestation's combat execution."
   ],
-  "person_runtime_contexts": {
-    "cyanis": {
-      "memory_authorization": {
-        "mode": "none"
-      },
-      "epistemic_state": {
-        "last_sentinel": {
-          "status": "unknown_mechanism",
-          "value": "LAST SENTINEL CONFIRMED and deep-Ruby stabilization are known; no prior manifestation."
-        }
-      },
-      "scene_local_state": {
-        "attention": [
-          "protect people without assuming the animal is malicious",
-          "his Card's qualitatively new response after combat"
-        ],
-        "avoidances": [
-          "explaining the Prime system",
-          "treating himself as certain because the Card is his"
-        ]
-      }
-    },
-    "ilyra": {
-      "memory_authorization": {
-        "mode": "none"
-      },
-      "scene_local_state": {
-        "attention": [
-          "whether the conflict can be ended without unnecessary killing",
-          "what the manifestation changes in their assumptions"
-        ],
-        "avoidances": [
-          "acting as automatic medic/narrator",
-          "turning a possibility into a diagnosis"
-        ]
-      }
-    },
-    "torren": {
-      "memory_authorization": {
-        "mode": "none"
-      },
-      "epistemic_state": {
-        "elder_thornhide": {
-          "status": "inference_to_observation",
-          "value": "Tracking evidence supports an old territorial animal; identity is earned through the trail and confrontation."
-        }
-      },
-      "scene_local_state": {
-        "attention": [
-          "tracks and territorial behavior",
-          "signs that reoccupation changed the animal's range"
-        ],
-        "avoidances": [
-          "moralizing the animal",
-          "claiming certainty before evidence"
-        ]
-      }
-    },
-    "nimera": {
-      "memory_authorization": {
-        "mode": "none"
-      },
-      "scene_local_state": {
-        "attention": [
-          "what was directly observed",
-          "whether the manifestation changes the evidentiary status of the Prime hypothesis"
-        ],
-        "avoidances": [
-          "calling Cyanis's Card a confirmed Prime",
-          "generic archive exposition during an ecological crisis"
-        ]
-      }
-    }
-  },
   "exact_line_anchors": [],
   "max_beats": 20,
-  "production_cost_ceiling": "bespoke"
+  "production_cost_ceiling": "bespoke",
+  "story_clock": {
+    "chapter": 4,
+    "sequence": 2
+  }
 }
