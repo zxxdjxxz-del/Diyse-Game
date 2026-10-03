@@ -92,19 +92,19 @@ Preferred for signature, faction, story-defining and provenance-sensitive final 
 
 ## Repository visibility and binary safety
 
-`zxxdjxxz-del/Diyse-Game` is currently **private**.
+`zxxdjxxz-del/Diyse-Game` is currently **public**.
 
-That removes the former public-repository exposure condition, but it does **not** waive provenance, authorization, redistribution, or licensing requirements.
+Public visibility does **not** waive provenance, authorization, redistribution, or licensing requirements. License-unverified/private-reference binaries must remain outside tracked public history unless their rights are separately established.
 
 Repository safeguards and storage rules:
-- Diyse-original or otherwise authorized private source art may be stored in the appropriate source-art lane;
+- Diyse-original or otherwise authorized source art may be stored only in an appropriate tracked source-art lane;
 - license-unverified third-party material remains private/reference only and must not be represented as redistributable/open;
 - `asset_sources/private_reference/` remains ignored for material intentionally kept outside normal Git history;
 - `assets/environment/extracted_private_reference/` remains ignored;
 - `asset_sources/.gdignore` prevents source-package scanning by Godot;
 - redistributable source ZIPs under `asset_sources/third_party_cc0/` are routed through Git LFS by `.gitattributes`.
 
-If repository visibility changes back to public, license-unverified/private-reference binaries must be re-audited before any public exposure.
+At this audit point, the tracked tree contains no files under either ignored private-reference lane above. Re-audit repository visibility and tracked source contents before any future exposure or storage-policy change.
 
 ## Intake and verification tools
 
