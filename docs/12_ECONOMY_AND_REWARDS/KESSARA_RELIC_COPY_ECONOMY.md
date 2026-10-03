@@ -2,7 +2,7 @@
 
 **Status:** CURRENT RELIC-COPY SERVICE STRUCTURE / FEE PROVISIONAL PENDING ECONOMY REBUILD
 
-The Relic-copy mechanic itself is owned by `08_ITEMS_AND_EQUIPMENT/RELICS/RELIC_COPY_RULES.md`.
+The Relic-copy mechanic itself is owned by `../08_ITEMS_AND_EQUIPMENT/RELICS/RELIC_COPY_RULES.md`.
 
 Current mechanical requirements remain:
 - original Relic obtained;
