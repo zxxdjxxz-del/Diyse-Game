@@ -42,9 +42,9 @@ static func exp_to_next_level(exp_total: int) -> int:
 		return 0
 	return maxi(cumulative_exp_for_level(level + 1) - maxi(exp_total, 0), 0)
 
-# Audit98 publishes exact cumulative milestones. Godot's built-in round() uses a
-# different .5 tie rule than the validation model that produced those locked
-# milestones, so make the tie behavior explicit and platform-independent.
+# Current Player EXP authority publishes exact cumulative milestones. Godot's built-in
+# round() uses a different .5 tie rule than the milestone table, so keep the intended
+# tie behavior explicit and platform-independent.
 static func _round_to_nearest_hundred_half_even(value: float) -> int:
 	var scaled := value / 100.0
 	var lower := floori(scaled)
