@@ -30,7 +30,7 @@ This lived-world rule does not change any numerical Ability mechanics below.
 
 ## Application reliability
 
-When a class effect grants `+N application reliability`, use `05_BATTLE_SYSTEM/APPLICATION_RELIABILITY.md`.
+When a class effect grants `+N application reliability`, use `../05_BATTLE_SYSTEM/APPLICATION_RELIABILITY.md`.
 
 The bonus is **+N percentage points** to an eligible chance-based application check. It is not Base Hit, does not invent a secondary effect, does not turn an automatic effect into a roll, and does not bypass immunity/protected/scripted legality.
 
@@ -61,7 +61,7 @@ Default lifecycle, KO behavior, battle-end clearing, target/body replacement, re
 
 Individual class sheets still own the exact trigger, subject, duration, payload, consumption rule, and any explicit lifecycle override for their state.
 
-Prepared/delayed-action flow remains additionally subject to `05_BATTLE_SYSTEM/TURN_AND_ROUND_RULES.md`. Awakened Prime suspension/pause behavior remains owned by `07_CARDS/PRIME_CARDS/PRIME_SYSTEM_RULES.md`.
+Prepared/delayed-action flow remains additionally subject to `../05_BATTLE_SYSTEM/TURN_AND_ROUND_RULES.md`. Awakened Prime suspension/pause behavior remains owned by `../07_CARDS/PRIME_CARDS/PRIME_SYSTEM_RULES.md`.
 
 ## Removed class-mechanic firewalls
 Do not restore:
@@ -83,8 +83,8 @@ Multi-hit actions must state exact per-hit Power or exact total plus split.
 Non-damaging class commands use:
 > **Power: N/A — no direct damage**
 
-See `05_BATTLE_SYSTEM/ACTION_POWER_REQUIREMENT.md`.
+See `../05_BATTLE_SYSTEM/ACTION_POWER_REQUIREMENT.md`.
 
 
 ## Base Hit completion for true-battle resolution
-Unless an owning current Ability explicitly prints another Base Hit, a permanent-character or story-guest direct-damage Ability uses **Base Hit 100** under `05_BATTLE_SYSTEM/BASE_HIT_AND_EVASION.md`. Explicit action values and modifiers override/add normally.
+Unless an owning current Ability explicitly prints another Base Hit, a permanent-character or story-guest direct-damage Ability uses **Base Hit 100** under `../05_BATTLE_SYSTEM/BASE_HIT_AND_EVASION.md`. Explicit action values and modifiers override/add normally.
