@@ -34,8 +34,11 @@ def main() -> int:
                 f"{path.relative_to(ROOT)} is a retired/removed-system prose layer; use current owner authority plus Git history"
             )
 
+    validator_path = Path(__file__).resolve()
     for path in ROOT.rglob("*"):
         if not path.is_file() or ".git" in path.parts:
+            continue
+        if path.resolve() == validator_path:
             continue
         if path.suffix.lower() not in TEXT_EXTENSIONS:
             continue
