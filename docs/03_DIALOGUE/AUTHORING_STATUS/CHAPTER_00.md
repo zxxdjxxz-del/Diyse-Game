@@ -4,14 +4,14 @@
 **Chapter:** 0 — The Broken Convoy
 
 Current cumulative production manuscript:
-`docs/03_DIALOGUE/PRODUCTION/CHAPTER_00/CHAPTER_00_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md`
+`docs/03_DIALOGUE/PRODUCTION/CHAPTER_00/CHAPTER_00_DIALOGUE_MANUSCRIPT.md`
 
 Current standalone production scenes are stored in:
 `docs/03_DIALOGUE/PRODUCTION/CHAPTER_00/`
 
 ## Authority state
 
-Chapter 0 is assembled end-to-end through the rehearsal-first Dialogue Engine process: P01 → P07, optional C01 `Six Minutes`, and the explicit departure to Brackenwall.
+Chapter 0 is assembled end-to-end through the rehearsal-first Dialogue Engine process: B01 → B07, optional C01 `Six Minutes`, and the explicit departure to Brackenwall.
 
 The old Chapter-0 `LINE_COMPLETE` transcript set has been removed from the live repository tree. The temporary quick-pass cumulative manuscript and old casing-overlay manuscript have also been removed. Git history remains the archive for those superseded versions.
 
@@ -29,11 +29,11 @@ Required sequence:
 
 ## Key continuity
 
-- first incomplete Card flare: P04, fully ends before P05;
-- P05: concealed Ruin Vanguard Pursuer, Card inert;
-- P06: combined Riftmaw + Convoy War-Sorcerer boss, second flare;
-- recovery casing breaks during P06; Card survives intact;
-- P07 onward: Cyanis carries the Card itself;
+- first incomplete Card flare: B04, fully ends before P05;
+- B05: concealed Ruin Vanguard Pursuer, Card inert;
+- B06: combined Riftmaw + Convoy War-Sorcerer boss, second flare;
+- recovery casing breaks during B06; Card survives intact;
+- B07 onward: Cyanis carries the Card itself;
 - C01 `Six Minutes` is the current optional Character-Life scene;
 - Chapter 0 ends only through explicit departure to Brackenwall.
 

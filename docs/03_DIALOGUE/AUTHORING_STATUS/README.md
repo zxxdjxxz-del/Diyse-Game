@@ -1,6 +1,6 @@
 # Dialogue Authoring Status
 
-**Current whole-project written authority:** **v2.20 / Audit135**, plus later explicit user corrections/current domain migrations.
+**Authority treatment:** current live owning-domain files, current production atomics, and later explicit approved revisions are authoritative. Historical v2.20 / Audit135 material is provenance only.
 
 This folder records chapter-level dialogue readiness. These files are status/gate documents, not substitute scripts and not story authority.
 
