@@ -1,6 +1,6 @@
 # 15_AUDIO_AND_MUSIC
 
-Canonical home for Diyse's current audio authority, open music scope, sound-design requirements, runtime requirements, research archive, and retired audio terminology.
+Canonical home for Diyse's current audio authority, open music scope, sound-design requirements, and runtime requirements.
 
 ## Current status
 
@@ -16,6 +16,5 @@ Canonical home for Diyse's current audio authority, open music scope, sound-desi
 - music scope: `MUSIC/SOUNDTRACK_SCOPE_OPEN_REGISTER.md`
 - sound-design requirements: `SOUND_DESIGN/`
 - runtime/implementation requirements: `IMPLEMENTATION/`
-- historical research only: `RESEARCH_ARCHIVE/`
 
-Research may inform later composition or production, but it does not become current soundtrack canon without explicit promotion.
+Reference material does not become current soundtrack canon without explicit promotion. Superseded research is recoverable through Git history when genuinely needed.
