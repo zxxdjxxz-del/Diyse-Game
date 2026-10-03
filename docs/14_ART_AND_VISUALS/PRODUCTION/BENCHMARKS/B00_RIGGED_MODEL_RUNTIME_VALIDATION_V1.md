@@ -38,7 +38,7 @@ A runtime model is not approved merely because it is rigged and functional. It m
 
 The official prototype foundation is the **Quaternius Universal Animation Library humanoid `Armature`**, defined in `../QUATERNIUS_HUMANOID_RIG_STANDARD_V1.md`.
 
-The verified pilot payload represented by Asset Library Master v5 includes the standard and root-motion UAL1/UAL2 rigged mannequin GLBs plus a compatible female mannequin on the same Armature contract. This source is for **technical rig/animation validation**, not character identity.
+The verified pilot payload controlled by `../ASSET_LIBRARY/SOURCE_ARCHIVE_MANIFEST.md` includes the standard and root-motion UAL1/UAL2 rigged mannequin GLBs plus a compatible female mannequin on the same Armature contract. This source is for **technical rig/animation validation**, not character identity.
 
 Repository implementation has progressed beyond source-only verification. The staged preview under `game/characters/presentation/rig_preview/` proves UAL1 + UAL2 animation-library merging in Godot, the shared 65-bone UAL core, multi-bone deformation, 35 appended auxiliary spring bones, and the current Ilyra v0.7 replacement-shell deformation path. Those proofs validate architecture only; they do not override the current exact character masters.
 
