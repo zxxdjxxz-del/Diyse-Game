@@ -40,12 +40,12 @@ Crest Attunement lasts through end of following round; next different Crest Arca
 
 
 ## Global references
-- Damage/penetration: `05_BATTLE_SYSTEM/DAMAGE_FORMULAS.md`
-- Temporary stat changes: `05_BATTLE_SYSTEM/STAT_CHANGES.md`
-- Fields/removal: `05_BATTLE_SYSTEM/FIELDS.md`
-- Hit/Evasion: `05_BATTLE_SYSTEM/BASE_HIT_AND_EVASION.md`
-- Critical: `05_BATTLE_SYSTEM/CRITICAL_HITS.md`
-- Elements/statuses: `05_BATTLE_SYSTEM/ELEMENTS.md` and `STATUS_EFFECTS.md`
+- Damage/penetration: `../../05_BATTLE_SYSTEM/DAMAGE_FORMULAS.md`
+- Temporary stat changes: `../../05_BATTLE_SYSTEM/STAT_CHANGES.md`
+- Fields/removal: `../../05_BATTLE_SYSTEM/FIELDS.md`
+- Hit/Evasion: `../../05_BATTLE_SYSTEM/BASE_HIT_AND_EVASION.md`
+- Critical: `../../05_BATTLE_SYSTEM/CRITICAL_HITS.md`
+- Elements/statuses: `../../05_BATTLE_SYSTEM/ELEMENTS.md` and `../../05_BATTLE_SYSTEM/STATUS_EFFECTS.md`
 
 ## Firewall
 Do not restore removed historical mechanics merely because an archived version of this class used them.
