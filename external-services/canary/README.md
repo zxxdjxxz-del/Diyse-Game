@@ -85,9 +85,11 @@ Both services use:
 - `MODEL_API_URL`
 - `MODEL_API_KEY`
 - `MODEL_NAME`
+- `SERVICE_VERSION` (optional version metadata override)
 
 Person Agent:
 - `CHARACTER_ID`
+- `BRAIN_PROFILE_VERSION` (optional brain-profile version metadata override)
 - `PERSISTENCE_PATH`
 - `SERVICE_AUTH_TOKEN`
 - `PORT` (default 8080)
