@@ -178,11 +178,28 @@ def main() -> int:
             },
         }
     }
+    expect_compile_error(
+        explicit_context,
+        "Unproven manual runtime state must migrate to source-backed assertions",
+    )
+    explicit_context["person_runtime_contexts"] = {
+        "ilyra": {
+            "memory_authorization": {
+                "mode": "scene_ids",
+                "authorized_scene_ids": ["CH00_B05", "CH01_B01"],
+            }
+        }
+    }
     explicit_compiled = compiler.compile_spec_data(explicit_context, root=ROOT)
     expect(
-        explicit_compiled["request_seed"]["person_runtime_contexts"]["ilyra"]
-        == explicit_context["person_runtime_contexts"]["ilyra"],
-        "explicit per-person runtime context was not preserved",
+        explicit_compiled["request_seed"]["context_construction"]["memory_policies"]["ilyra"]
+        == explicit_context["person_runtime_contexts"]["ilyra"]["memory_authorization"],
+        "explicit memory authorization policy was not protected in automatic construction inputs",
+    )
+    expect(
+        explicit_compiled["request_seed"]["person_runtime_contexts"]["ilyra"]["hard_context"]["participant_id"]
+        == "ilyra",
+        "compiler did not automatically construct per-person hard context",
     )
 
     nonparticipant_context = json.loads(json.dumps(source_spec))
