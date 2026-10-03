@@ -48,9 +48,11 @@ Evidence shows Black Host forces have been:
 
 They have not successfully rebuilt the Last Weapon.
 
-## Optional-category separation
-Current Chapter-12 optional Elite:
+## Encounter-category separation
+Current Chapter-12 strong normal-pool identity:
 > **Lord-Marshal Kharvek**
+
+Kharvek is part of the chapter/area normal encounter pool, not a separate optional encounter category. Exact within-chapter placement remains owned by the current enemy/story handoff.
 
 Current Regional Hunt:
 > **#11 — Throne of Emperor Vaelkor**
@@ -99,7 +101,7 @@ Vaelkor's defeat does **not** automatically begin Chapter 13.
 Available:
 - Cresthaven ↔ Vhalmarch travel;
 - unfinished eligible Hunts;
-- Chapter-12 Elite / Hunt #11;
+- eligible Chapter-12 ordinary/strong-normal encounter pools and Hunt #11;
 - Character Quests and eligible exploration;
 - equipment/Cards/Legacy work still allowed by their domains.
 
