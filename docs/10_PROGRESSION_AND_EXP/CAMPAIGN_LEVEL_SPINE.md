@@ -1,9 +1,8 @@
 # Diyse — Campaign Level Spine
-**Historical migration provenance:** v85-era consolidated tracker.
-**Historical progression provenance:** Audit123–Audit128 plus compatible later raw-stat audits.
-**Authority treatment:** this repository file is current progression-domain authority; Audit/v85 references remain provenance only. Numeric reward/budget tables remain provisional where marked pending the planned progression rebuild.
-**Current structural rule:** Mastery Points do not exist; Masteries unlock automatically from Class Level under current repository class/progression authority.
 
+> **STATUS — PROVISIONAL EXP / LEVEL PLANNING BASELINE / REBUILD PENDING.**
+
+**Current structural rule:** Mastery Points do not exist; Masteries unlock automatically from Class Level.
 
 | Progress point | Campaign-only target | Cumulative mandatory EXP |
 |---|---:|---:|
@@ -22,6 +21,7 @@
 | End Ch13 — The Last Command | ~Lv62 | 447,800 |
 
 ## Chapter 13 internal anchors
+
 - start Ch13: **~Lv57 / 368,800 EXP**
 - Last Shelter: **~Lv60 / 415,100 EXP**
 - ending: **~Lv62 / 447,800 EXP**
@@ -31,8 +31,4 @@ Chapter 13:
 - post-Shelter mandatory EXP: **32,700**
 - total: **79,000**
 
-The temporary branch with End Ch12 ~Lv62 / Last Shelter ~Lv65 / ending ~Lv66 is superseded.
-
-
-## Current structural-delta note
-Removing the retired Chapter-1 Watch Castellan package subtracts **300 mandatory EXP** from the campaign-only cumulative spine from the end of Chapter 1 onward. The level labels remain approximate targets; exact chapter-start/end bands are already scheduled for the mandatory-vs-completionist level-spine recalibration.
+All level labels and cumulative EXP totals above are planning centers pending the mandatory-vs-completionist progression recalibration.
