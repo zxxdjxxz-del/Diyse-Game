@@ -15,19 +15,19 @@ This file owns the chapter-by-chapter delivery structure for mandatory-route G t
 # Provisional / structural reward map
 
 ## Chapter 1 — 3,000 G
-### Brackenwall / Protocol — S007
+### Brackenwall / Protocol — B01
 **Mandatory field-requisition issue: 1,800 G**
 
-### Hollow Watch aftermath — S008
+### Hollow Watch resolution / Greenhollow handoff — B08
 **Secured watch operations reserve: 1,200 G**
 
 Chapter total: **3,000 G**
 
 ## Chapter 2 — 4,000 G
-### Dunmere / Poisoned Waterworks — S012
+### Dunmere / Old Waterworks operation
 **Emergency field-requisition allocation: 1,600 G**
 
-### Red Transfer Bastion — S015
+### Old Bastion operation
 **Secured transfer-operation reserve: 2,400 G**
 
 Chapter total: **4,000 G**
@@ -167,7 +167,7 @@ Chapter total: **4,700 G**
 | **Total** | **80,800 G** |
 
 ## Placement status
-The **economic location, delivery channel, and G amount are closed**.
+The **delivery locations/channels are the current structural plan**. Exact G amounts remain **provisional pending the economy rebuild**, as stated above.
 
 Still presentation-dependent:
 - exact chest/locker prop model where a physical container is used;
