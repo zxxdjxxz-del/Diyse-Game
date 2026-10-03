@@ -11,6 +11,7 @@ PERSON_AGENT_PATH = ROOT / "external-services/canary/person_agent.py"
 ORCHESTRATOR_PATH = ROOT / "external-services/canary/scene_orchestrator.py"
 COMPILER_PATH = ROOT / "tools/dialogue/compile_scene_authority.py"
 DIALOGUE_SYSTEM_PATH = ROOT / "external-services/canary/context/dialogue_system.yaml"
+CONTEXT_DIR = ROOT / "external-services/canary/context"
 BRAIN_DIR = ROOT / "external-services/canary/brains"
 
 PERMANENT_SIX = ("cyanis", "ilyra", "torren", "nimera", "vaelira", "seyrik")
@@ -53,6 +54,20 @@ def main() -> int:
     ast.parse(compiler_source)
 
     runtime_keys = compact_brain_allowlist(person_source)
+
+    context_paths = sorted(CONTEXT_DIR.glob("*.yaml"))
+    expect(bool(context_paths), "shared runtime context directory must contain YAML files")
+    for context_path in context_paths:
+        context_data = yaml.safe_load(context_path.read_text(encoding="utf-8"))
+        expect(isinstance(context_data, dict), f"{context_path.name} must parse as a mapping")
+        expect(int(context_data.get("schema_version", 0)) >= 1, f"{context_path.name} must declare schema_version")
+        expect(bool(str(context_data.get("status", "")).strip()), f"{context_path.name} must declare status")
+
+        source_authority = context_data.get("source_authority", [])
+        expect(isinstance(source_authority, list) and bool(source_authority), f"{context_path.name} must declare source_authority")
+        for raw_source in source_authority:
+            source = ROOT / str(raw_source)
+            expect(source.exists(), f"{context_path.name} source_authority path does not exist: {raw_source}")
 
     for character_id in PERMANENT_SIX:
         brain_path = BRAIN_DIR / f"{character_id}.yaml"
