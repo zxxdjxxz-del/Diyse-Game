@@ -29,7 +29,7 @@ Quest unlock/reward presentation belongs in `11_QUESTS`.
 
 This is a design hierarchy, not a rule that every later encounter must have more HP than every earlier one.
 
-**Optional-combat rule:** Hunts are the only standalone optional enemy encounters. Quest-owned combat remains governed by its owning quest. Stronger normal identities belong to the ordinary enemy pool; there is no separate Elite encounter category.
+**Optional-combat rule:** Hunts are the default standalone optional enemy category. Quest-owned combat remains governed by its owning quest. A non-Hunt standalone optional encounter requires an explicit current story/encounter owner; Chapter 4's placement-reopened **Annex Duelist** is the current named exception pending that chapter's enemy rework. Stronger normal identities belong to the ordinary enemy pool; there is no separate Elite encounter category.
 
 ## Current raw-stat fields
 
