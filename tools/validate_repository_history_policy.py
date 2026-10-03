@@ -78,6 +78,10 @@ def main() -> int:
             errors.append(
                 f"{path.relative_to(ROOT)} is historical asset upload-event bookkeeping; current source manifests own active provenance"
             )
+        if path.name == "ARCHIVE_SCRIBE_ENGINE.md":
+            errors.append(
+                f"{path.relative_to(ROOT)} is a stale duplicate Memory Construct authority; use STORY_BOSSES/MEMORY_CONSTRUCT.md"
+            )
         relative_text = path.relative_to(ROOT).as_posix()
         if any(token in relative_text for token in RETIRED_RIG_STAGE_TOKENS):
             errors.append(
@@ -114,6 +118,10 @@ def main() -> int:
         if retired_rig_refs:
             errors.append(
                 f"{path.relative_to(ROOT)} still references superseded Ilyra rig-preview stage: {', '.join(retired_rig_refs)}"
+            )
+        if "ARCHIVE_SCRIBE_ENGINE.md" in text:
+            errors.append(
+                f"{path.relative_to(ROOT)} still references stale Memory Construct duplicate authority"
             )
 
     if errors:
