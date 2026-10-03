@@ -3,16 +3,16 @@
 **Status:** ACTIVE REGRESSION-DEBT REGISTER  
 **Balance/QA authority:** `../README.md`
 
-## HIGH — Prime proof tests
-Current smoke/combat proof still expects:
+## HIGH — Prime proof runtime migration
+The executable combat proof still implements:
 - `first_champion`;
 - Cyanis bearer lock;
 - non-bearers unable to use it;
 - older proof manifestation behavior.
 
-These expectations conflict with current Prime authority.
+These runtime assumptions conflict with current Prime authority.
 
-Production test update required.
+The obsolete mechanics regression that asserted those behaviors has already been retired, and current smoke/combat validation deliberately does not certify them. Production runtime migration plus current Prime-specific regression coverage are still required.
 
 ## HIGH — Mastery Point regression
 Older repository documentation references 8 automatic Mastery Points.
@@ -40,12 +40,13 @@ Proof:
 
 must not become production balance tests.
 
-## MEDIUM — Chapter ID range
-Older schema docs may stop at chapter_12/S062.
+## MEDIUM — Chapter 13 runtime coverage
+Current campaign authority includes `chapter_13`, but the generic random-encounter implementation is not whole-campaign complete:
+- executable formation pools currently stop at Chapter 4;
+- `encounter_balance.gd` profiles stop at Chapter 12;
+- `area_encounter_tuning.gd` currently rejects enabled Chapter-13 random-encounter contexts.
 
-Current:
-- chapter_13
-- S073.
+Current Chapter-13 repeatable formations therefore still require a deliberate runtime migration from the owning encounter data.
 
 ## MEDIUM — no full production CEXP test
 Exact campaign CEXP placement remains rebuild-pending. The retained class-completion target is Lv55–60.
