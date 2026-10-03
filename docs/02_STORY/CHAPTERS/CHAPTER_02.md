@@ -422,8 +422,8 @@ Hard chapter-boundary rule:
 ---
 
 # Character-Life cleanup authority
-- **C06 — Still Burns** is the current Chapter-2 cleanup Character-Life scene for Cyanis, Ilyra, Torren, and Maevra.
-- Former separate C07 is retired; its slot/function is folded into C06.
+- **C05 — Still Burns** is the current Chapter-2 cleanup Character-Life scene for Cyanis, Ilyra, Torren, and Maevra.
+- Any former separate Chapter-2 Character-Life slot beyond C05 is retired; compatible function is folded into C05 rather than preserving an obsolete live ID.
 
 # Reveal firewall
 Do not reveal in Chapter 2:
