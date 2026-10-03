@@ -9,42 +9,13 @@ This is one mandatory encounter with exactly two genuine full-HP forms:
 
 There is no third form.
 
-## Historical route-level reference — recertification pending
+## Route-level validation boundary
 
-The inherited EXP/level arithmetic below predates retirement of Regional Hunts #1–#3 and the current Chapter-4 encounter rework. It is **not current completionist-route authority**. Preserve it only as tuning provenance until the planned progression rebuild and Chapter-4 validation rerun.
+Exact mandatory/completionist pre-boss levels, optional-EXP advantages, and high-side level centers are **not current certification**.
 
-End Chapter 4 mandatory target:
-> **25,600 EXP = Lv17**
+Regional Hunts #1–#3 are retired/open, Annex Duelist placement is reopened, and Chapter 4's ordinary encounter layer is under rework. The planned Player EXP/CEXP rebuild and Chapter-4 validation pass own replacement route-level references.
 
-Post-boss fixed Chapter-4 EXP:
-- Regulation Crucible → Seventh Reaction full clear — 2,800
-- crisis resolved / chapter clear — 1,338
-
-Therefore the mandatory route immediately before the boss is:
-> **21,462 EXP**
-
-That places the mandatory party at:
-> **Lv15**, 1,038 EXP short of Lv16.
-
-Retired optional EXP assumptions in this inherited reference (not current availability):
-- The Marks We Leave — 500
-- Regional Hunt #1 — 1,000 — **RETIRED**
-- Regional Hunt #2 — 1,500 — **RETIRED**
-- Regional Hunt #3 — 2,200 — **RETIRED**
-
-Historical completionist pre-boss total (not current):
-> **26,662 EXP**
-
-Historical result only:
-> **Lv17**, 2,238 EXP short of Lv18.
-
-Historical high-side assumption:
-> **~Lv18**
-
-Historical balance references (not current certification):
-- mandatory — **Lv15**
-- completionist fixed-content — **Lv17**
-- high-side — **~Lv18**
+The two-form architecture, current raw bodies, chamber rules, inherited-element behavior, and action kits below remain live inputs for that revalidation.
 
 ## Prime access
 
@@ -315,38 +286,11 @@ No extra action is granted.
 
 2-round repetition lock.
 
-## Historical pacing target — not current certification
+## Pacing certification boundary
 
-These round-count estimates are retained only as historical pacing intent. They must be revalidated under the current progression/enemy inputs before being used for balance decisions.
+Inherited round-count targets are removed from live authority. Re-run pacing under the current progression/encounter inputs before setting mandatory/completionist duration targets.
 
-### Mandatory Lv15
-Expected:
-- Form I core-rush: **~6–7 rounds**
-- Form I chamber-control route: **~7–9 rounds**
-- Form II after core-rush inheritance: **~7–8 rounds**
-- Form II after substantial chamber destruction: **~6–7 rounds**
-
-Typical complete encounter:
-> **~13–15 rounds**
-
-A very defensive chamber-clear route can extend toward:
-> **~16 rounds**
-
-### Completionist Lv17
-Typical:
-- Form I **~5–6**
-- Form II **~5–6**
-
-Complete:
-> **~10–12 rounds**
-
-### High-side ~Lv18
-Complete:
-> **~9–11 rounds**
-
-This preserves the intended completionist advantage without dynamically scaling either form.
-
-## Historical power-completeness note — not current certification
+## Action Power coverage
 
 Form I direct damage:
 - Regulation Slash — **185**
@@ -370,4 +314,4 @@ Form-II non-damage:
 Optional Recovered Last Sentinel:
 - Sentinel Impact — **340**
 
-> Historical label: **WORKING PASS / POWER COMPLETE**. Current difficulty/power certification is **OPEN** pending Chapter-4 revalidation.
+> This inventory records authored Power fields only. Current difficulty/power certification is **OPEN** pending Chapter-4 revalidation.
