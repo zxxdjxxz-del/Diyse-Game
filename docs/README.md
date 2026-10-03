@@ -11,7 +11,7 @@ This `docs/` tree is the organized current authority library for Diyse. It repla
 3. the relevant numbered owning domain
 4. `13_UI_AND_IMPLEMENTATION/IMPLEMENTATION_AUTHORITY_PRECEDENCE.md` for implementation-facing conflicts
 5. `90_WORKING/ACTIVE_WORK_QUEUE.md` only for current sequencing/open cross-domain work
-6. `99_ARCHIVE/` or Git history only for provenance/history
+6. Git history only when deliberate provenance/recovery is needed
 
 ## Authority rule
 
@@ -52,7 +52,7 @@ Historical material never silently overrides active canon.
 
 Detailed open items belong in numbered owner domains.
 
-`99_ARCHIVE` and Git history contain migration history and superseded evidence. They are non-authoritative unless a current owner explicitly cites them for provenance.
+Git history preserves migration history and superseded evidence. It is non-authoritative unless deliberately consulted for provenance or recovery.
 
 ## Current Face terminology
 
