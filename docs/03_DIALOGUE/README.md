@@ -77,7 +77,7 @@ Regenerate/check with:
 `python tools/dialogue/compile_current_runtime_dialogue.py`  
 `python tools/dialogue/compile_current_runtime_dialogue.py --check`
 
-The Chapters 0–3 read-through is also generated from current atomics. Its player-facing world introduction is owned by `04_WORLD_AND_LORE/PLAYER_FACING_WORLD_INTRO.md`, and its between-beat encounter bridges are guarded against current `09_ENEMIES_AND_ENCOUNTERS` placement authority. Those layers may add reader context but may not alter spoken dialogue.
+The Chapters 0–3 read-through is also generated from current atomics. Its player-facing world introduction is owned by `../04_WORLD_AND_LORE/PLAYER_FACING_WORLD_INTRO.md`, and its between-beat encounter bridges are guarded against current `09_ENEMIES_AND_ENCOUNTERS` placement authority. Those layers may add reader context but may not alter spoken dialogue.
 
 ## Superseded dialogue source cleanup
 

@@ -55,11 +55,11 @@ During an Awakened Prime manifestation:
 - **Rank III — CL12:** the first ally each normal round to successfully benefit from one of Torren's route effects gains **+10 Base Hit / application reliability** for that benefiting action where relevant.
 
 ## Global references
-- Turn/round and initiative timing: `05_BATTLE_SYSTEM/TURN_AND_ROUND_RULES.md`
-- Damage/penetration/direct-damage reduction: `05_BATTLE_SYSTEM/DAMAGE_FORMULAS.md`
-- Temporary stat changes: `05_BATTLE_SYSTEM/STAT_CHANGES.md`
-- Hit/Evasion: `05_BATTLE_SYSTEM/BASE_HIT_AND_EVASION.md`
-- Elements/statuses: `05_BATTLE_SYSTEM/ELEMENTS.md` and `STATUS_EFFECTS.md`
+- Turn/round and initiative timing: `../../05_BATTLE_SYSTEM/TURN_AND_ROUND_RULES.md`
+- Damage/penetration/direct-damage reduction: `../../05_BATTLE_SYSTEM/DAMAGE_FORMULAS.md`
+- Temporary stat changes: `../../05_BATTLE_SYSTEM/STAT_CHANGES.md`
+- Hit/Evasion: `../../05_BATTLE_SYSTEM/BASE_HIT_AND_EVASION.md`
+- Elements/statuses: `../../05_BATTLE_SYSTEM/ELEMENTS.md` and `../../05_BATTLE_SYSTEM/STATUS_EFFECTS.md`
 
 ## Firewall
 Do not restore the retired Clear Route single-target cleanse/Speed package, old Crossroads buff-choice package, Covered Crossing Card-potency package, or Open the Way buff Field. Routeweaver's current identity is routing and sequencing, not a second War Archer Field kit.

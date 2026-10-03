@@ -24,7 +24,7 @@
 - boss raw stats → `09_ENEMIES_AND_ENCOUNTERS`
 - full scene/dialogue scripts → `03_DIALOGUE`
 - exact visual appearance/turnarounds/color specifications → `14_ART_AND_VISUALS`
-- global lived-world conditions → `04_WORLD_AND_LORE/LIVED_WORLD_SOCIAL_CONTEXT.md`
+- global lived-world conditions → `../04_WORLD_AND_LORE/LIVED_WORLD_SOCIAL_CONTEXT.md`
 - prices/commerce/economic calibration → `12_ECONOMY_AND_REWARDS`
 
 ## Permanent playable roster
@@ -60,7 +60,7 @@ That map preserves all 15 pair languages while exact spoken wording remains owne
 - roster/name/biography/personality/lived-person authority: this folder;
 - exact class mechanics: `06_CLASSES_AND_ABILITIES`;
 - Face/Card/Prime mechanics: `07_CARDS`;
-- exact current visual masters: `14_ART_AND_VISUALS/PRODUCTION/CHARACTERS/README.md` and `asset_sources/characters/current/`;
-- Dialogue Engine architecture: `03_DIALOGUE/AGENT_SYSTEM/README.md`.
+- exact current visual masters: `../14_ART_AND_VISUALS/PRODUCTION/CHARACTERS/README.md` and `../../asset_sources/characters/current/`;
+- Dialogue Engine architecture: `../03_DIALOGUE/AGENT_SYSTEM/README.md`.
 
 When stale migration text conflicts with a newer explicit correction, preserve compatible character truth but replace the stale name/system label. See `CHARACTER_AUTHORITY_BOUNDARIES.md`.

@@ -22,7 +22,7 @@ Current Character-Life material:
 
 The old 15-beat Hollow Watch/Castellan/Cistern atomics were removed from live authority on 2026-09-25.
 
-`CHAPTER_01_DIALOGUE_POLISH_PASS_01.md` is a process/audit record, not a competing manuscript.
+The former `CHAPTER_01_DIALOGUE_POLISH_PASS_01.md` process/audit record is no longer kept in the live production tree; Git history preserves it.
 `CHARACTER_LIFE_REBUILD_LOCK.md` records optional-scene constraints.
 `CHAPTER_01_DIALOGUE_AUTHORITY_INDEX.md` identifies the current atomics and conflict order.
 

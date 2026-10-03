@@ -12,7 +12,7 @@ When two active claims conflict:
 
 ## Character visual authority
 
-Exact current character appearance is owned by `14_ART_AND_VISUALS/PRODUCTION/CHARACTERS/README.md`.
+Exact current character appearance is owned by `../14_ART_AND_VISUALS/PRODUCTION/CHARACTERS/README.md`.
 
 Within that art authority:
 1. newest explicit approved replacement image;
