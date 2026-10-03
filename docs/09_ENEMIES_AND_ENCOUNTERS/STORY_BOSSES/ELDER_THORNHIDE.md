@@ -1,11 +1,13 @@
 # Elder Thornhide — Current Encounter Authority
 
 **Chapter:** 4  
-**Scene:** S022 — Lower Cresthaven Grounds  
+**Scene:** B02 — Elder Thornhide  
 **Encounter type:** mandatory authored nonlethal / protected  
-**Status:** **WORKING PASS / POWER COMPLETE**
+**Status:** **ACTIVE ENCOUNTER BODY — REVALIDATION PENDING**
 
-## Actual route-level reference
+## Historical route-level reference — recertification pending
+
+The inherited EXP/level arithmetic below predates retirement of Regional Hunts #1–#3 and is **not current completionist-route authority**. It is retained only as tuning provenance until the planned progression rebuild and Chapter-4 validation rerun. Do not use these levels as current certification.
 
 Mandatory Chapter-3 ending EXP:
 > **14,400 EXP = Lv13**
@@ -15,22 +17,22 @@ Elder Thornhide occurs at the opening of Chapter 4 before any Chapter-4 fixed EX
 Therefore:
 > **mandatory central = Lv13**
 
-Fixed optional EXP available before this encounter:
+Retired optional EXP assumptions in this inherited reference (not current availability):
 - The Marks We Leave — 500
-- Regional Hunt #1 — 1,000
-- Regional Hunt #2 — 1,500
-- Regional Hunt #3 — 2,200
+- Regional Hunt #1 — 1,000 — **RETIRED**
+- Regional Hunt #2 — 1,500 — **RETIRED**
+- Regional Hunt #3 — 2,200 — **RETIRED**
 
-Total fixed optional advantage:
+Historical removed optional subtotal:
 > **5,200 EXP**
 
-Completionist pre-Elder total:
+Historical completionist pre-Elder total (not current):
 > **19,600 EXP = Lv15 exactly**
 
 Incidental optional combat may place the high-side route around:
 > **Lv16**
 
-Balance references:
+Historical balance references (not current certification):
 - mandatory — **Lv13**
 - completionist fixed-content — **Lv15**
 - high-side — **~Lv16**
@@ -147,7 +149,7 @@ For this authored protected encounter:
 
 The nonlethal outcome is encounter-authored, not a universal Mercy/Subdual system.
 
-## Power-completeness verdict
+## Historical power-completeness note — not current certification
 
 Direct-damage actions:
 - Territorial Rush — **190**
@@ -159,11 +161,9 @@ Non-damaging:
 - Guard the Den — **Power N/A**
 - Warning Display — **Power N/A**
 
-> **WORKING PASS / POWER COMPLETE**
+> Historical label: **WORKING PASS / POWER COMPLETE**. Current difficulty/power certification is **OPEN** pending Chapter-4 revalidation.
 
-## Duration verdict
-- mandatory Lv13 — **4 rounds**
-- completionist Lv15 — **4 rounds**
-- high-side ~Lv16 — **4 rounds**
+## Duration rule
+The authored protected encounter remains exactly **4 rounds** for all current route states.
 
-Route advantage exists in safety and resource pressure, not duration.
+Historical level-specific mandatory/completionist labels are not current certification. Route advantage may exist in safety and resource pressure, not duration, and must be recertified after the progression rebuild.
