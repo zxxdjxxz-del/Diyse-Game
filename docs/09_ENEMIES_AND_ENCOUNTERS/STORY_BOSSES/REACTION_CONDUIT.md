@@ -1,11 +1,13 @@
 # Reaction Conduit — Current Encounter Authority
 
 **Chapter:** 4  
-**Scene:** S023 — Reaction Annex / Exposure Gallery  
+**Scene:** B08 — Interaction Gallery / Reaction Conduit  
 **Encounter type:** mandatory authored nonlethal stabilization  
-**Status:** **WORKING PASS / POWER COMPLETE**
+**Status:** **ACTIVE ENCOUNTER BODY — REVALIDATION PENDING**
 
-## Actual route-level reference
+## Historical route-level reference — recertification pending
+
+The inherited EXP/level arithmetic below predates retirement of Regional Hunts #1–#3 and the current Chapter-4 encounter rework. It is **not current completionist-route authority**. Preserve it only as tuning provenance until the planned progression rebuild and Chapter-4 validation rerun.
 
 End Chapter 3:
 > **14,400 mandatory EXP = Lv13**
@@ -20,22 +22,22 @@ Mandatory pre-Conduit total:
 Therefore:
 > **mandatory central = Lv13**, 1,550 EXP short of Lv14.
 
-Fixed optional EXP already available before Chapter 4:
+Retired optional EXP assumptions in this inherited reference (not current availability):
 - The Marks We Leave — 500
-- Regional Hunt #1 — 1,000
-- Regional Hunt #2 — 1,500
-- Regional Hunt #3 — 2,200
+- Regional Hunt #1 — 1,000 — **RETIRED**
+- Regional Hunt #2 — 1,500 — **RETIRED**
+- Regional Hunt #3 — 2,200 — **RETIRED**
 
-Adding those to the mandatory route before Reaction Conduit:
+Historical arithmetic using those retired assumptions:
 > **20,550 EXP**
 
-Therefore:
+Historical result only:
 > **completionist fixed-content = Lv15**, 1,950 EXP short of Lv16.
 
-Optional lower-gallery combat and the Annex Duelist branch can push a very thorough route toward:
+Historical high-side assumption:
 > **~Lv16**
 
-Balance references:
+Historical balance references (not current certification):
 - mandatory — **Lv13**
 - completionist — **Lv15**
 - high-side — **~Lv16**
@@ -73,7 +75,7 @@ At 0 HP:
 - the researcher is **stabilized**, not killed;
 - hostile actions cease;
 - the researcher collapses alive;
-- the S023 medical handoff begins.
+- the current B08 post-encounter medical/stabilization handoff begins.
 
 No universal Mercy, Capture, or Subdual system is created.
 
@@ -190,7 +192,7 @@ This encounter is intentionally shorter than the Authority Construct and Rhazek 
 
 Optional progression produces a visible duration advantage here.
 
-## Power-completeness verdict
+## Historical power-completeness note — not current certification
 
 Direct damage:
 - Reaction Pressure — **180**
@@ -201,4 +203,4 @@ Direct damage:
 Non-damaging:
 - Instinctive Guard — **Power N/A**
 
-> **WORKING PASS / POWER COMPLETE**
+> Historical label: **WORKING PASS / POWER COMPLETE**. Current difficulty/power certification is **OPEN** pending Chapter-4 revalidation.
