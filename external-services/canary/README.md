@@ -49,6 +49,7 @@ Every Person Agent loads all YAML files in `context/`:
 - `magic_and_cards.yaml`
 - `economy.yaml`
 - `dialogue_system.yaml`
+- `naming.yaml`
 
 This is the runtime synthesis that makes dialogue account for character life, lived magical/Card normality, the Prime knowledge firewall, world/economy pressure, map/traversal context, recent gameplay, comedy/cinematic/anime performance rules, and economical HD-2D staging together. `dialogue_system.yaml` combines the shared dialogue-life and scene-construction layers so they cannot drift apart.
 
@@ -84,9 +85,11 @@ Both services use:
 - `MODEL_API_URL`
 - `MODEL_API_KEY`
 - `MODEL_NAME`
+- `SERVICE_VERSION` (optional version metadata override)
 
 Person Agent:
 - `CHARACTER_ID`
+- `BRAIN_PROFILE_VERSION` (optional brain-profile version metadata override)
 - `PERSISTENCE_PATH`
 - `SERVICE_AUTH_TOKEN`
 - `PORT` (default 8080)
