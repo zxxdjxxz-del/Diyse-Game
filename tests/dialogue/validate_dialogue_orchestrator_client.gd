@@ -9,13 +9,13 @@ func _run() -> void:
 	var client := DiyseDialogueOrchestratorClient.new()
 	get_root().add_child(client)
 
-	var bad_url := client.configure("http://example.com", "secret", "v2.20-Audit135")
+	var bad_url := client.configure("http://example.com", "secret", "repo-test-current")
 	_expect(not bad_url.is_empty(), "non-local HTTP Orchestrator endpoint must be rejected")
 
 	var config_failures := client.configure(
 		"https://dialogue.example.test/",
 		"test-token-do-not-log",
-		"v2.20-Audit135"
+		"repo-test-current"
 	)
 	_expect(config_failures.is_empty(), "valid HTTPS Orchestrator configuration must pass")
 	_expect(client.is_configured(), "client should report configured")
@@ -37,11 +37,11 @@ func _run() -> void:
 	_expect(parsed_body is Dictionary, "prepared request body must be JSON object")
 	if parsed_body is Dictionary:
 		_expect(parsed_body.get("scene_id") == "PROOF_CLIENT", "transport body changed scene ID")
-		_expect(parsed_body.get("canon_snapshot_id") == "v2.20-Audit135", "transport body changed snapshot")
+		_expect(parsed_body.get("canon_snapshot_id") == "repo-test-current", "transport body changed snapshot")
 		_expect(parsed_body.get("person_runtime_contexts") == request.get("person_runtime_contexts"), "transport body changed person runtime contexts")
 
 	var wrong_snapshot := request.duplicate(true)
-	wrong_snapshot["canon_snapshot_id"] = "v2.19-Audit134"
+	wrong_snapshot["canon_snapshot_id"] = "repo-test-stale"
 	var wrong_snapshot_transport := client.prepare_build_transport(wrong_snapshot)
 	_expect(not (wrong_snapshot_transport.get("failures", []) as Array).is_empty(), "mismatched request snapshot must be rejected before HTTP")
 
@@ -64,7 +64,7 @@ func _run() -> void:
 	_expect(not wrong_response_failures.is_empty(), "mismatched handoff scene ID must be rejected")
 
 	var wrong_response_snapshot := _response_payload("PASS")
-	wrong_response_snapshot["canon_snapshot_id"] = "v2.19-Audit134"
+	wrong_response_snapshot["canon_snapshot_id"] = "repo-test-stale"
 	var wrong_snapshot_failures := client.validate_build_response(wrong_response_snapshot, "proof-client-request", "PROOF_CLIENT")
 	_expect(not wrong_snapshot_failures.is_empty(), "mismatched response snapshot must be rejected")
 
@@ -78,7 +78,7 @@ func _request_payload() -> Dictionary:
 		"scene_id": "PROOF_CLIENT",
 		"continuity_namespace": "story",
 		"story_position": "Dialogue Orchestrator client transport proof",
-		"canon_snapshot_id": "v2.20-Audit135",
+		"canon_snapshot_id": "repo-test-current",
 		"participants": ["cyanis", "ilyra"],
 		"participant_profiles": {
 			"cyanis": {"source_path": "docs/01_CHARACTERS/PLAYABLE/Cyanis.md"},
@@ -101,7 +101,7 @@ func _request_payload() -> Dictionary:
 		"scene_purpose": "Validate build-only Godot transport into the external Scene Orchestrator.",
 		"authority_packet": {
 			"schema": "diyse_scene_authority_packet_v1",
-			"canon_snapshot_id": "v2.20-Audit135",
+			"canon_snapshot_id": "repo-test-current",
 			"bundle_sha256": "proof",
 		},
 		"scene_context": {
@@ -124,7 +124,7 @@ func _response_payload(status: String) -> Dictionary:
 		"draft_id": "draft-proof-001",
 		"request_id": "proof-client-request",
 		"scene_id": "PROOF_CLIENT",
-		"canon_snapshot_id": "v2.20-Audit135",
+		"canon_snapshot_id": "repo-test-current",
 		"participant_sources": {"cyanis": "profile", "ilyra": "profile"},
 		"agent_snapshots": {},
 		"expected_previous_revisions": {},
