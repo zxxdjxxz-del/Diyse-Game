@@ -7,7 +7,7 @@ Before treating balance/testing as production-complete:
 
 1. current enemy/boss mandatory-vs-completionist validation completed;
 2. EXP/CEXP rebuilt and class-completion timing verified against the **Lv55–60** target;
-3. stale Prime proof tests replaced with current Prime architecture;
+3. stale Prime proof runtime replaced with the current Prime architecture and covered by the current Prime regression matrix;
 4. production save schema/version migration complete;
 5. player-facing **G** currency implemented and persistence-tested;
 6. all current content IDs/counts validated from their owner domains;
