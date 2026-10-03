@@ -31,8 +31,8 @@
       "role": "lived_economy_context"
     },
     {
-      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/SCENE_CONSTRUCTION_STACK.md",
-      "whole_file": true,
+      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/README.md",
+      "sections": ["Detailed scene-construction interface"],
       "role": "scene_construction_authoring_contract"
     }
   ],
