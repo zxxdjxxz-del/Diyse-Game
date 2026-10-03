@@ -15,7 +15,7 @@ Useful fields:
 - current/retired status.
 
 ## Canon naming boundary
-New active audio assets must use current canonical names and stable IDs. Retired names are centralized in `../RETIRED_AUDIO_TERMINOLOGY_FIREWALL.md` and may appear only in explicitly archival research/provenance.
+New active audio assets must use current canonical names and stable IDs. Git history is the recovery source for superseded naming provenance.
 
 ## Prototype naming
 Development renders should visibly indicate:
