@@ -10,7 +10,7 @@
 - no Caelora → Cresthaven road encounters;
 - Memory Construct is the mandatory Beat-7 boss and never random-spawns;
 - Authority Construct is the authored Beat-10 boss;
-- retired September-23 Chapter-3 enemy identities must not appear in current random formations.
+- random formations may use only the current identities listed in this file.
 
 # Caelora Archives
 
@@ -33,7 +33,7 @@ Placement character:
 - Arcdrift supplies the established elemental threat;
 - Ruin Spider supplies the natural/organic ruin ecology.
 
-## Archive enemy-introduction sequence — LOCKED 2026-09-27
+## Archive enemy-introduction sequence — LOCKED
 
 The Archive roster is deliberately stretched across physical subzones instead of front-loading nearly every identity.
 
@@ -134,7 +134,6 @@ Memory Construct:
 - Lower Archives: **3–4 — confirmed**
 - Buried Collections: **3–4 — confirmed**
 - Hall of Seals + Deep Archives: **under current formation rebuild**
-- Do not restore the previous automatic 4–5 / 4–5 / 4–6 escalation without explicit review.
 
 # Cresthaven Ancient tower base
 
@@ -208,22 +207,8 @@ Authority Chamber:
 - Authority approach: **5–6**
 - simultaneous ordinary-enemy ceiling: **6**
 
-# Retired formation firewall
-
-Do not restore the September-23 Chapter-3 formation identities without explicit revision:
-- Judgment Frame
-- Erasure Wisp
-- Authority Lens
-- Archive Current
-- Command Guard Frame
-- Command Ring Drone
-- Watch Sentry
-- Watch Ballista
-- Grand Inquisitor Frame
-- Watch Captain Frame
-
 # Validation boundary
 
 The roster is locked, but exact formation weights/frequencies and all numeric tuning remain open.
 
-The Chapter-3 Stun rollout also requires a new ordinary-enemy introduction because Command Guard Frame is no longer active in Chapter 3.
+The Chapter-3 Stun rollout still requires a current ordinary-enemy source assignment.
