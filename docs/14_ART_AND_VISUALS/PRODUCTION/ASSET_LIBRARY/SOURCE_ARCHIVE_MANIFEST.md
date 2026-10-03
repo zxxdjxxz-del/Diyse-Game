@@ -86,4 +86,4 @@ This resolves the prior mistaken assumption that a separate `Universal Base Char
 
 ## Verification rule
 
-Before a raw source archive is accepted into future Git LFS, external object storage, or another archival location, verify its SHA-256 against this manifest. A mismatch means it is not the same source archive used for Asset Library Master v5 and must be investigated before replacing the authority copy.
+Before a raw source archive is accepted into future Git LFS, external object storage, or another durable source location, verify its SHA-256 against this manifest. A mismatch means it is not the current baseline source archive and must be investigated before replacing the authority copy.
