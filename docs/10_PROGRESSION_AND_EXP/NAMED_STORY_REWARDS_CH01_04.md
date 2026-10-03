@@ -1,16 +1,12 @@
 # Diyse — Named / Story EXP + CEXP — Chapters 1–4
-**Historical migration provenance:** v85-era consolidated tracker.
-**Historical progression provenance:** Audit123–Audit128 plus compatible later raw-stat audits.
-**Authority treatment:** this repository file is current progression-domain authority; Audit/v85 references remain provenance only. Numeric reward/budget tables remain provisional where marked pending the planned progression rebuild.
-**Current structural rule:** Mastery Points do not exist; Masteries unlock automatically from Class Level under current repository class/progression authority.
 
+**Numeric status:** provisional pending the planned EXP/CEXP rebuild.
 
-Fixed one-time authored rewards. They are exempt from weak-enemy diminishing returns.
+Fixed one-time authored rewards are exempt from weak-enemy diminishing returns.
 
 ## Chapter 1 — Brackenwall and the Wayfinder
-**Current structural mapping; numeric values remain subject to the planned progression/CEXP recalibration.**
-
 Subtotal: **445 EXP / 107 CEXP**
+
 | Mandatory authored event | EXP | CEXP |
 |---|---:|---:|
 | Thornhide — normal lethal boss victory | 120 | 28 |
@@ -19,6 +15,7 @@ Subtotal: **445 EXP / 107 CEXP**
 
 ## Chapter 2
 Subtotal: **2,512 EXP / 220 CEXP**
+
 | Mandatory authored event | EXP | CEXP |
 |---|---:|---:|
 | Archive Leviathan | 700 | 55 |
@@ -27,12 +24,11 @@ Subtotal: **2,512 EXP / 220 CEXP**
 | Prisoner release / proper Bastion exit secured | 350 | 30 |
 | Return to Dunmere / road reopened / chapter clear | 312 | 40 |
 
-## Chapter 3 — structural reward-map rebuild required
-The current Chapter-3 route no longer contains the retired lawful-authority confrontation package. **Do not award** the former confrontation rewards (400 EXP / 24 CEXP and 500 EXP / 30 CEXP).
+## Chapter 3 — reward map open
 
-The former **4,520 EXP / 264 CEXP** subtotal is therefore historical/provisional arithmetic only and is **not an implementable current event sum**. The current Memory Construct encounter and revised Archive/Cresthaven sequence require fresh reward allocation during the planned progression rebuild.
+The current Chapter-3 route requires fresh reward allocation during the planned progression rebuild.
 
-Current identifiable reward-bearing milestones, with inherited values shown only as provisional inputs:
+Current identifiable reward-bearing milestones:
 
 | Mandatory authored event | Provisional EXP | Provisional CEXP |
 |---|---:|---:|
@@ -42,10 +38,11 @@ Current identifiable reward-bearing milestones, with inherited values shown only
 | Last Sentinel confirmed | 600 | 40 |
 | Cresthaven established / chapter clear | 720 | 50 |
 
-Do not manufacture a hidden top-up to preserve the historical Chapter-3 subtotal.
+Do not invent a hidden top-up to force Chapter 3 to a preselected subtotal. The rebuilt chapter total must be derived from the current route.
 
 ## Chapter 4
 Subtotal: **5,938 EXP / 304 CEXP**
+
 | Mandatory authored event | EXP | CEXP |
 |---|---:|---:|
 | Elder Thornhide — nonlethal resolution | 500 | 28 |

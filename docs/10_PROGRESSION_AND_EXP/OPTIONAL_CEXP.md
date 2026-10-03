@@ -1,9 +1,8 @@
 # Diyse — Optional CEXP Ledger
-**v91 recalibration:** 2026-08-29
 
 > **STATUS — PROVISIONAL OPTIONAL-CEXP LEDGER / REBUILD PENDING.**
 >
-> The values below are the current reproducible planning ledger, not final balance certification. Every recruited permanent character receives an activity's CEXP package under the normal reserve-progression rule; CEXP still goes only to that character's selected class.
+> The values below are the current planning ledger, not final balance certification. Every recruited permanent character receives an activity's CEXP package under the normal reserve-progression rule; CEXP goes only to that character's selected class.
 
 ## Active Regional Hunts — 245 CEXP total
 | # | Hunt | CEXP |
@@ -28,9 +27,10 @@
 | 5 | Final Archive Arbiter | 60 |
 | **Total #1–5** |  | **250** |
 
-Major Hunt #6 — **The Unfinished World** awards **75 CEXP**. It sits outside the 1,000-CEXP pre-superboss planning pool because it is itself the final optional combat stress test.
+Major Hunt #6 — **The Unfinished World** awards **75 CEXP** and sits outside the pre-superboss planning pool because it is itself the final optional combat stress test.
 
 ## Character Quests — 300 CEXP total
+
 Each of the six Character Quests awards:
 > **50 CEXP**
 
@@ -48,6 +48,7 @@ Total:
 | **Total** | **150** |
 
 ## Completionist envelope
+
 Before Major Hunt #6:
 > **945 optional CEXP maximum**
 
@@ -60,8 +61,4 @@ Planning bands:
 - broad completionist before MH6: up to **+945 CEXP**;
 - exhaustive all-content including MH6: **+1,020 CEXP**.
 
-This replaces the old approximate **~1,800 CEXP** family envelope. The reduction is intentional: optional progression should provide a meaningful Class-Level advantage without pulling full-roster class completion far outside the Lv55–60 late-game target.
-
-
-## Regional Hunt retirement sync — current
-Retired slots **#1, #2, and #3** no longer contribute their former CEXP awards. Cistern Devourer's retired slot removes **15 CEXP** from the previous active subtotal. Current Regional-Hunt optional CEXP subtotal is **245**.
+All optional-CEXP totals remain provisional pending the planned progression rebuild.

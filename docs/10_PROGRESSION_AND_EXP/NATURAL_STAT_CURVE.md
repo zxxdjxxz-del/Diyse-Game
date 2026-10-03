@@ -50,4 +50,4 @@ Mandatory-vs-completionist validation must use this natural-stat curve together 
 - current Player-Level route assumptions;
 - current Class-Level / Ability access.
 
-Do not substitute an obsolete pre-Lv70 natural-stat table.
+Use this Lv1–70 curve as the neutral natural-stat source for current balance validation.

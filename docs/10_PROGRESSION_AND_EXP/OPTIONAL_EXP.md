@@ -1,13 +1,8 @@
 # Diyse — Optional Player EXP
-**Historical migration provenance:** v85-era consolidated tracker.
-**Historical progression provenance:** Audit123–Audit128 plus compatible later raw-stat audits.
-**Authority treatment:** this repository file is current progression-domain authority; Audit/v85 references remain provenance only. Numeric reward/budget tables remain provisional where marked pending the planned progression rebuild.
-**Current structural rule:** Mastery Points do not exist; Masteries unlock automatically from Class Level under current repository class/progression authority.
 
+**Numeric status:** provisional pending the planned EXP rebuild.
 
 Fixed authored packages are exempt from weak-enemy diminishing returns.
-
-> **NUMERIC STATUS — PROVISIONAL.** Optional EXP values, subtotals, cap-proof pools, and recommended-level centers are retained as planning references pending the later EXP rebuild.
 
 ## Five ordinary Side Quests — 20,000
 | Side Quest | Giver | Timing | EXP |
@@ -17,8 +12,6 @@ Fixed authored packages are exempt from weak-enemy diminishing returns.
 | The Crown's Debt | Crown Princess Mirena Ceryth | post-Ch7 / ~Lv32 | 0 |
 | The Third Caravan | Talia Rell | post-Ch8 / ~Lv37 | 5,000 |
 | What We Build After | Crown Princess Mirena Ceryth | post-Vaelkor cleanup / ~Lv57 | 14,500 |
-
-Removed quests such as **The Living List** and **When the Roads Open** contribute 0 EXP to this final five-quest package.
 
 ## Six Character Quests — 55,000
 | Character Quest | EXP |
@@ -60,13 +53,7 @@ Pre-Last-Shelter cap-proof pool:
 Major Hunt #6 gives **24,000** but is excluded from the cap proof.
 Incidental optional combat is bonus progression.
 
-
-## Current Major Hunt timing effect
 Current Major Hunt access timing is:
 > after Ch6 / after Ch7 / after Sixfold Volition at end Ch7 / after Ch8 / after Ch10
 
-Their existing EXP awards are unchanged in this cleanup pass. Because #3–#5 moved to earlier access windows, any old completionist-level proof tied to the later timing is **provisional / revalidation open**. The full optional-EXP layer is scheduled for later rebalance.
-
-
-## Regional Hunt retirement sync — current
-Slots **#1, #2, and #3** are retired/open. Cistern Devourer's former **1,000 EXP** package is removed along with the previously retired #2/#3 awards. Current active Regional-Hunt EXP subtotal is **65,300**. Later Hunt numbering remains unchanged pending a separate numbering pass.
+EXP awards and recommended-level centers remain provisional until the optional-progression rebuild recertifies them against the current unlock cadence.

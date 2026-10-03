@@ -1,9 +1,8 @@
 # Diyse — Chapter 13 Final-Act Progression
-**Historical migration provenance:** v85-era consolidated tracker.
-**Historical progression provenance:** Audit123–Audit128 plus compatible later raw-stat audits.
-**Authority treatment:** this repository file is current progression-domain authority; Audit/v85 references remain provenance only. Numeric reward/budget tables remain provisional where marked pending the planned progression rebuild.
-**Current structural rule:** Mastery Points do not exist; Masteries unlock automatically from Class Level under current repository class/progression authority.
 
+> **STATUS — PROVISIONAL FINAL-ACT PROGRESSION BASELINE / REBUILD PENDING.**
+
+**Current structural rule:** Mastery Points do not exist; Masteries unlock automatically from Class Level.
 
 Start Ch13:
 - **368,800 EXP**
@@ -40,8 +39,8 @@ Chapter 13 total:
 - **79,000 Player EXP**
 - **1,750 CEXP**
 
+## Current balance-validation anchors
 
-## v89 balance-validation anchors
 Mandatory encounter references:
 - chapter start — **Lv57**;
 - Last Weapon Archon — **Lv58**;
@@ -50,18 +49,18 @@ Mandatory encounter references:
 - Reconstituted Entity → The Last Command — **Lv61**;
 - ending — **Lv62**.
 
-Completionist:
-- chapter start with established optional proof pool — **Lv68**;
-- pre-Archon without MH6 — **Lv69**, only 2,400 EXP short of Lv70;
-- by Last Shelter — **Lv70 cap** even without requiring MH6;
-- full all-content route may already be Lv70 before the Archon.
+Completionist planning:
+- chapter start — **Lv68**;
+- pre-Archon without MH6 — **Lv69**, approximately 2,400 EXP short of Lv70;
+- by Last Shelter — **Lv70 cap** without requiring MH6;
+- full all-content route may reach Lv70 before the Archon.
 
-## Historical v91/v92 class-completion reference
-At Last Shelter, the mandatory route has earned **8,500 post-Volition CEXP**. With the **v92 recruitment-aware Volition centers**, this places the slowest normal-route full Base + Subclass completion (Seyrik) at approximately **Lv60**.
+## Class-completion planning
 
-Balance implementation requirement:
-> Last Shelter recovery must allow entry into the irreversible Reactor Galleries sequence in full combat-ready condition. Do not accidentally carry mandatory Last Weapon Archon attrition into the final boss solely because of implementation omission.
+At Last Shelter, the current provisional mandatory route has earned **8,500 post-Volition CEXP**. Under the current recruitment-aware planning centers, the slowest normal-route full Base + Subclass completion reaches approximately **Lv60**.
 
+Final recertification remains part of the planned progression rebuild.
 
-## Current cumulative-EXP note
-The Chapter-13 internal **79,000 EXP** package is unchanged. The three cumulative campaign checkpoints above are each **300 EXP lower** because the retired Chapter-1 Watch Castellan package no longer contributes to the mandatory route. Approximate level labels remain pending the campaign level-spine recalibration.
+## Implementation requirement
+
+Last Shelter recovery must allow entry into the irreversible Reactor Galleries sequence in full combat-ready condition. Do not carry mandatory Last Weapon Archon attrition into the final boss solely because of implementation omission.
