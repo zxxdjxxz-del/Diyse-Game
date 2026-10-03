@@ -3,7 +3,12 @@
 **Status:** ACTIVE VERIFIED RUNTIME / CANON DIVERGENCE REGISTER  
 **Use:** engineering reconciliation only; current owner domains remain authoritative.
 
-These are known engineering gaps in the current proof runtime.
+These are known engineering gaps where the current proof/runtime can misrepresent or fail to implement current production authority.
+
+Routing rule:
+- resolved implementation migrations belong in `../CURRENT_RUNTIME_IMPLEMENTATION_STATUS.md`;
+- open production UX without a current code/canon contradiction belongs in `../OPEN_UI_IMPLEMENTATION_ITEMS.md`;
+- rebuild-pending balance/economy work belongs in its owning numbered domain and `16_BALANCE_AND_TESTING`.
 
 ## 1. Prime proof model — HIGH
 Proof runtime still uses:
@@ -51,26 +56,7 @@ Do not use the current proof queue/confirm architecture as production battle-flo
 
 The former `tests/combat/validate_round_combat.gd` mechanics regression has been retired from the live tree because it hard-locked the obsolete whole-round queue, universal Item/Defend priority, bearer-locked `first_champion`, and two-round Recovered-Prime prototype. Current CI now smoke-checks only the combat proof's loadability, four-member party surface, and five canonical global commands; it does **not** certify the prototype's internal turn flow, Prime behavior, Card costs, or proof UI. Those runtime mechanics remain implementation debt until an intentional combat migration pass.
 
-## 3. Currency — STORAGE TERMINOLOGY RESOLVED / BALANCE OPEN
-
-Runtime and schema-v1 current state now use:
-- `rewards.g`;
-- player-facing **G** terminology.
-
-Compatibility:
-- old schema-v1 `rewards.gold` values remain loadable and normalize to `rewards.g`;
-- retired **Auren** remains forbidden as player-facing currency.
-
-Still open:
-- detailed prices;
-- payouts;
-- balances;
-- liquidity;
-- final economy certification.
-
-Do not hard-code old proof values merely because the storage key is now current.
-
-## 4. Proof equipment/content — HIGH
+## 3. Proof equipment/content — HIGH
 GameState defaults still include:
 - generic Proof Sword / Proof Wardrod weapon placeholders;
 - proof armor;
@@ -81,17 +67,17 @@ They are fixtures, not current equipment/content authority.
 
 The prior Ilyra **Proof Warden Blade** contradiction has been removed; her proof placeholder now stays inside the current **Wardrod** weapon family.
 
-## 5. Save schema completeness — HIGH
+## 4. Save schema completeness — HIGH
 Schema v1 proves persistence but does not yet carry the complete production progression/quest/loadout state.
 
 Do not treat schema v1 proof completeness as production completeness.
 
-## 6. Dialogue proof panel — LOW/MEDIUM
+## 5. Dialogue proof panel — LOW/MEDIUM
 Current field proof dialogue panel occupies much more vertical space than the general lower-20–25% production target.
 
 Function is proven; final layout remains open.
 
-## 7. Combat proof UI — HIGH
+## 6. Combat proof UI — HIGH
 Current proof:
 - large text tables/log;
 - proof command/target buttons;
@@ -102,14 +88,10 @@ Current proof:
 
 It is not the final battle HUD and does not represent the current turn-entry command flow.
 
-## 8. Kessara service UI — MEDIUM
-Service logic exists.
-No production service menu/fee/timing presentation yet.
-
-## 9. Current-facing naming — ONGOING
+## 7. Current-facing naming — ONGOING
 Legacy technical identifiers may remain internally until safe migration, but player-facing text must use current names.
 
-## 10. Encounter runtime catalog / balance calibration — HIGH
+## 8. Encounter runtime catalog / balance calibration — HIGH
 `game/content/encounters/chapter_01_04_formations.gd` and `game/exploration/encounter_balance.gd` are executable engineering data, but they are not uniformly current encounter/progression authority.
 
 Known gaps:
