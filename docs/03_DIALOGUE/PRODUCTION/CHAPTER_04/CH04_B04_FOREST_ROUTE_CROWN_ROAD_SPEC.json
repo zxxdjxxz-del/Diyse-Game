@@ -70,67 +70,11 @@
     "No one may identify the Wayfinder pattern as Face interactions or an Ancient Reaction Annex diagram.",
     "Travel compresses after Crown road; do not create mandatory travel chatter."
   ],
-  "person_runtime_contexts": {
-    "cyanis": {
-      "memory_authorization": {
-        "mode": "none"
-      },
-      "scene_local_state": {
-        "attention": [
-          "pace and party readiness",
-          "getting to Ivorybridge without overcomplicating the shortcut"
-        ],
-        "avoidances": [
-          "commanding every exchange"
-        ]
-      }
-    },
-    "ilyra": {
-      "memory_authorization": {
-        "mode": "none"
-      },
-      "scene_local_state": {
-        "attention": [
-          "practical consequences of route choice",
-          "assumptions worth questioning only if they matter"
-        ],
-        "avoidances": [
-          "alternate-route brainstorming as identity"
-        ]
-      }
-    },
-    "torren": {
-      "memory_authorization": {
-        "mode": "none"
-      },
-      "scene_local_state": {
-        "attention": [
-          "terrain cues",
-          "reconnecting paths",
-          "transition to maintained ground"
-        ],
-        "avoidances": [
-          "constant navigation prompting",
-          "inventing Ancient-route certainty"
-        ]
-      }
-    },
-    "nimera": {
-      "memory_authorization": {
-        "mode": "none"
-      },
-      "scene_local_state": {
-        "attention": [
-          "what the copied record literally shows",
-          "keeping map claims bounded"
-        ],
-        "avoidances": [
-          "turning travel into archive exposition"
-        ]
-      }
-    }
-  },
   "exact_line_anchors": [],
   "max_beats": 16,
-  "production_cost_ceiling": "economical"
+  "production_cost_ceiling": "economical",
+  "story_clock": {
+    "chapter": 4,
+    "sequence": 4
+  }
 }
