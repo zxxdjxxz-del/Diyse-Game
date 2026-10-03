@@ -41,5 +41,5 @@ func _capture() -> void:
 		quit(1)
 		return
 
-	print("Saved 7B.5A field proof screenshot to %s" % absolute_file)
+	print("Saved field proof screenshot to %s" % absolute_file)
 	quit(0)
