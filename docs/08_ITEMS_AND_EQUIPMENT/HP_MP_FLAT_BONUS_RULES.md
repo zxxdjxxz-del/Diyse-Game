@@ -23,7 +23,7 @@ For an ordinary player body:
 3. round the selected-class natural value to a whole number;
 4. add all equipped flat Max HP / Max MP bonuses.
 
-Equipment HP/MP bonuses therefore behave like other persistent raw equipment stats and do **not** use `05_BATTLE_SYSTEM/STAT_CHANGES.md`.
+Equipment HP/MP bonuses therefore behave like other persistent raw equipment stats and do **not** use `../05_BATTLE_SYSTEM/STAT_CHANGES.md`.
 
 ## Stacking
 
