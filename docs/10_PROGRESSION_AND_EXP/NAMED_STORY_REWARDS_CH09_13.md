@@ -1,14 +1,12 @@
 # Diyse — Named / Story EXP + CEXP — Chapters 9–13
-**Historical migration provenance:** v85-era consolidated tracker.
-**Historical progression provenance:** Audit123–Audit128 plus compatible later raw-stat audits.
-**Authority treatment:** this repository file is current progression-domain authority; Audit/v85 references remain provenance only. Numeric reward/budget tables remain provisional where marked pending the planned progression rebuild.
-**Current structural rule:** Mastery Points do not exist; Masteries unlock automatically from Class Level under current repository class/progression authority.
 
+**Numeric status:** provisional pending the planned EXP/CEXP rebuild.
 
-Fixed one-time authored rewards. They are exempt from weak-enemy diminishing returns.
+Fixed one-time authored rewards are exempt from weak-enemy diminishing returns.
 
 ## Chapter 9
 Subtotal: **20,500 EXP / 837 CEXP**
+
 | Mandatory authored event | EXP | CEXP |
 |---|---:|---:|
 | Equal Mercy sanctuary progression | 1,500 | 60 |
@@ -20,6 +18,7 @@ Subtotal: **20,500 EXP / 837 CEXP**
 
 ## Chapter 10 — The Last Blank
 Subtotal: **21,500 EXP / 586 CEXP**
+
 | Mandatory authored event | EXP | CEXP |
 |---|---:|---:|
 | Cerythvale / Eastern Wayfinder route | 2,000 | 50 |
@@ -31,6 +30,7 @@ Subtotal: **21,500 EXP / 586 CEXP**
 
 ## Chapter 11 — Crown Engine
 Subtotal: **16,200 EXP / 1,015 CEXP**
+
 | Mandatory authored event | EXP | CEXP |
 |---|---:|---:|
 | Living Anchor / Crown Engine confrontation | 4,000 | 230 |
@@ -39,10 +39,9 @@ Subtotal: **16,200 EXP / 1,015 CEXP**
 | First Reckoning / Sixfold Reconciliation | 4,000 | 250 |
 | Chapter clear | 1,700 | 155 |
 
-> **v91 CEXP recalibration:** Chapter 12–13 CEXP awards below supersede the older Audit123 allocation. EXP values are unchanged.
-
 ## Chapter 12 — The Reforged March
 Subtotal: **22,900 EXP / 800 CEXP**
+
 | Mandatory authored event | EXP | CEXP |
 |---|---:|---:|
 | Blackspine / Draevensreach breakthrough | 3,000 | **90** |
@@ -54,6 +53,7 @@ Subtotal: **22,900 EXP / 800 CEXP**
 
 ## Chapter 13 pre–Last Shelter
 Subtotal: **27,700 EXP / 1,200 CEXP**
+
 | Mandatory authored event | EXP | CEXP |
 |---|---:|---:|
 | Deepest / Deep City route + Last Weapon Archive reached | 4,000 | **180** |
@@ -63,6 +63,7 @@ Subtotal: **27,700 EXP / 1,200 CEXP**
 
 ## Chapter 13 post–point-of-no-return
 Subtotal: **21,500 EXP / 180 CEXP**
+
 | Mandatory authored event | EXP | CEXP |
 |---|---:|---:|
 | Reactor Galleries / Entity realization | 3,500 | **40** |
