@@ -41,4 +41,4 @@ Prime invocation must read as a much larger manifestation event than Standard Ca
 ## Prime spectacle
 V4 is appropriate.
 
-Retired Face/Prime terminology is centralized in `../RETIRED_VISUAL_CONCEPTS_FIREWALL.md` rather than repeated in this active authority.
+Use only current Face and Prime terminology from the Card/Prime authority.
