@@ -28,8 +28,8 @@ They do **not**:
 
 ## Intended use
 The three Salves provide:
-- one expected recovery during the S001 multi-encounter pressure line;
-- one expected recovery before/around Riftmaw or the S002 Hound as needed;
+- one expected recovery during the current B01 multi-encounter pressure line;
+- one expected recovery before/around the B06 Riftmaw + Battle Sorcerer final boss or the B02 lone War Hound as needed;
 - one safety copy for poor play, miss variance, or conservative tutorial use.
 
 They are part of the Chapter-0 mandatory baseline.
