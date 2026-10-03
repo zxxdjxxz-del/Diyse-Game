@@ -1,15 +1,17 @@
 # Regulation Crucible → The Seventh Reaction — Current Encounter Authority
 
 **Chapter:** 4  
-**Scene:** S024 — Regulation Core  
-**Status:** **WORKING PASS / POWER COMPLETE**
+**Scenes:** B09–B10 — Central Regulation / Regulation Crucible → The Seventh Reaction  
+**Status:** **ACTIVE ENCOUNTER BODY — REVALIDATION PENDING**
 
 This is one mandatory encounter with exactly two genuine full-HP forms:
 > **Regulation Crucible → The Seventh Reaction**
 
 There is no third form.
 
-## Actual route-level reference
+## Historical route-level reference — recertification pending
+
+The inherited EXP/level arithmetic below predates retirement of Regional Hunts #1–#3 and the current Chapter-4 encounter rework. It is **not current completionist-route authority**. Preserve it only as tuning provenance until the planned progression rebuild and Chapter-4 validation rerun.
 
 End Chapter 4 mandatory target:
 > **25,600 EXP = Lv17**
@@ -24,22 +26,22 @@ Therefore the mandatory route immediately before the boss is:
 That places the mandatory party at:
 > **Lv15**, 1,038 EXP short of Lv16.
 
-Fixed optional EXP available before this fight:
+Retired optional EXP assumptions in this inherited reference (not current availability):
 - The Marks We Leave — 500
-- Regional Hunt #1 — 1,000
-- Regional Hunt #2 — 1,500
-- Regional Hunt #3 — 2,200
+- Regional Hunt #1 — 1,000 — **RETIRED**
+- Regional Hunt #2 — 1,500 — **RETIRED**
+- Regional Hunt #3 — 2,200 — **RETIRED**
 
-Fixed completionist pre-boss total:
+Historical completionist pre-boss total (not current):
 > **26,662 EXP**
 
-That places the completionist party at:
+Historical result only:
 > **Lv17**, 2,238 EXP short of Lv18.
 
-Annex Duelist and incidental optional combat can push a very thorough route toward:
+Historical high-side assumption:
 > **~Lv18**
 
-Balance references:
+Historical balance references (not current certification):
 - mandatory — **Lv15**
 - completionist fixed-content — **Lv17**
 - high-side — **~Lv18**
@@ -344,7 +346,7 @@ Complete:
 
 This preserves the intended completionist advantage without dynamically scaling either form.
 
-## Power-completeness verdict
+## Historical power-completeness note — not current certification
 
 Form I direct damage:
 - Regulation Slash — **185**
@@ -368,4 +370,4 @@ Form-II non-damage:
 Optional Recovered Last Sentinel:
 - Sentinel Impact — **340**
 
-> **WORKING PASS / POWER COMPLETE**
+> Historical label: **WORKING PASS / POWER COMPLETE**. Current difficulty/power certification is **OPEN** pending Chapter-4 revalidation.
