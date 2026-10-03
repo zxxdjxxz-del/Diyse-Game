@@ -28,13 +28,12 @@ Three labels are used throughout this folder:
 - exact final layout, interaction styling, slot count, menu transition, animation, copy/original badge, and other production presentation details remain open; numeric service-fee values belong to the rebuild-pending economy owner and must not be invented here.
 
 ## Current implementation warning
-The existing Godot repository still contains historical proof data and stale documentation in several places.
+The existing Godot repository still contains historical proof data and compatibility-era implementation residue in several places.
 
 Notable examples:
 - old `first_champion` proof Prime / bearer-lock assumptions;
 - proof reward amounts and detailed numeric economy values remain rebuild-pending; current runtime/save storage uses `rewards.g`, with legacy `rewards.gold` load compatibility;
 - proof Potion/equipment names;
-- older Mastery-Point documentation;
 - a proof battle UI rather than final production combat UI.
 
 Those are implementation debt, not current-facing canon.

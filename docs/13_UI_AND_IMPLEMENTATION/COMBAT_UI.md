@@ -30,7 +30,7 @@ Resolution rules live in `05_BATTLE_SYSTEM`:
 - party wins exact Speed ties against enemies;
 - party-party ties use the established player-selected tie order;
 - enemy-enemy ties use deterministic order;
-- Speed changes during a round affect later round ordering unless an individual authored effect explicitly overrides that rule.
+- once beginning-of-round setup locks initiative, mid-round Speed changes do **not** reshuffle that round; if still active, they affect the next round's Speed-derived order.
 
 Do not create:
 - ATB bar;

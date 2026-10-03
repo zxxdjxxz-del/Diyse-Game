@@ -18,14 +18,14 @@
 | Enemy raw stats | **CURRENT REFERENCE; may reopen where redesign requires** | `09` |
 | Enemy direct-damage Powers / action kits | **REOPENED / REDESIGN PENDING** | `09` + this domain |
 | Mandatory-vs-completionist validation | **REVALIDATION REQUIRED** | `16` + current owners |
-| Representative true-battle suite | **HISTORICAL / PROVISIONAL** | `TRUE_BATTLES/` |
+| Representative true-battle suite | **NO CURRENT CERTIFICATION — METHOD RETAINED** | `TRUE_BATTLES/` |
 | Ordinary equipment/item definitions | **CLOSED where owner catalog says closed** | `08` |
 | Economy numeric calibration | **REBUILD / RECALIBRATION PENDING** | `12` |
 | Production UI/audio balance | **OPEN production validation** | `13` / `15` |
 
 ## Historical-certification boundary
 
-The retained versioned true-battle reports document exact historical snapshots. Their old difficulty PASS/RETAIN conclusions are not current certification while enemy action kits, progression, and reward inputs are being rebuilt.
+The old versioned true-battle reports were removed from the live tree after their inputs reopened. Git history preserves those exact historical snapshots; their former difficulty PASS/RETAIN conclusions are not current certification while enemy action kits, progression, and reward inputs are being rebuilt.
 
 Mechanical findings remain usable only where they still match current owner-domain rules. Current combat, Prime, boss-form, status, progression, encounter, and reward owners always win over an old test report.
 

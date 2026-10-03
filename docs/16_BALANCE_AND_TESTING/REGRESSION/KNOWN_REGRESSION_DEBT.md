@@ -14,14 +14,6 @@ These runtime assumptions conflict with current Prime authority.
 
 The obsolete mechanics regression that asserted those behaviors has already been retired, and current smoke/combat validation deliberately does not certify them. Production runtime migration plus current Prime-specific regression coverage are still required.
 
-## HIGH — Mastery Point regression
-Older repository documentation references 8 automatic Mastery Points.
-
-Current:
-> Mastery Point currency removed.
-
-Add regression that no runtime/save/UI field reintroduces it.
-
 ## MEDIUM — currency balance / final economy coverage
 
 Runtime/save reward storage now uses `rewards.g`, and schema-v1 `rewards.gold` compatibility is regression-tested.

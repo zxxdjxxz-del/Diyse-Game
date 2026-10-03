@@ -5,18 +5,7 @@
 
 These are known engineering gaps in the current proof runtime.
 
-## 1. Mastery Points — HIGH
-Repository proof/older docs may still contain an 8-point Mastery schedule.
-
-Current authority:
-> Mastery Points removed.
-
-Required production implementation:
-- delete/avoid point persistence;
-- delete/avoid point counters;
-- derive automatic unlocks from Base/Subclass CL.
-
-## 2. Prime proof model — HIGH
+## 1. Prime proof model — HIGH
 Proof runtime still uses:
 - `first_champion`;
 - bearer lock;
@@ -38,7 +27,7 @@ Current production:
 - form/body transitions do **not** create a new automatic Prime-use allowance and do not erase or shorten an active 3-full-normal-round post-dismissal spacing gate;
 - valid rest and explicitly authored restoration effects such as Emergency Kit can restore eligible spent Prime identities without bypassing the spacing gate.
 
-## 3. Normal battle turn flow — HIGH
+## 2. Normal battle turn flow — HIGH
 Proof runtime still implements the retired whole-round queue model.
 
 Current proof code currently:
@@ -62,7 +51,7 @@ Do not use the current proof queue/confirm architecture as production battle-flo
 
 The former `tests/combat/validate_round_combat.gd` mechanics regression has been retired from the live tree because it hard-locked the obsolete whole-round queue, universal Item/Defend priority, bearer-locked `first_champion`, and two-round Recovered-Prime prototype. Current CI now smoke-checks only the combat proof's loadability, four-member party surface, and five canonical global commands; it does **not** certify the prototype's internal turn flow, Prime behavior, Card costs, or proof UI. Those runtime mechanics remain implementation debt until an intentional combat migration pass.
 
-## 4. Currency — STORAGE TERMINOLOGY RESOLVED / BALANCE OPEN
+## 3. Currency — STORAGE TERMINOLOGY RESOLVED / BALANCE OPEN
 
 Runtime and schema-v1 current state now use:
 - `rewards.g`;
@@ -81,7 +70,7 @@ Still open:
 
 Do not hard-code old proof values merely because the storage key is now current.
 
-## 5. Proof equipment/content — HIGH
+## 4. Proof equipment/content — HIGH
 GameState defaults still include:
 - generic Proof Sword / Proof Wardrod weapon placeholders;
 - proof armor;
@@ -92,17 +81,17 @@ They are fixtures, not current equipment/content authority.
 
 The prior Ilyra **Proof Warden Blade** contradiction has been removed; her proof placeholder now stays inside the current **Wardrod** weapon family.
 
-## 6. Save schema completeness — HIGH
+## 5. Save schema completeness — HIGH
 Schema v1 proves persistence but does not yet carry the complete production progression/quest/loadout state.
 
 Do not treat schema v1 proof completeness as production completeness.
 
-## 7. Dialogue proof panel — LOW/MEDIUM
+## 6. Dialogue proof panel — LOW/MEDIUM
 Current field proof dialogue panel occupies much more vertical space than the general lower-20–25% production target.
 
 Function is proven; final layout remains open.
 
-## 8. Combat proof UI — HIGH
+## 7. Combat proof UI — HIGH
 Current proof:
 - large text tables/log;
 - proof command/target buttons;
@@ -113,14 +102,14 @@ Current proof:
 
 It is not the final battle HUD and does not represent the current turn-entry command flow.
 
-## 9. Kessara service UI — MEDIUM
+## 8. Kessara service UI — MEDIUM
 Service logic exists.
 No production service menu/fee/timing presentation yet.
 
-## 10. Current-facing naming — ONGOING
+## 9. Current-facing naming — ONGOING
 Legacy technical identifiers may remain internally until safe migration, but player-facing text must use current names.
 
-## 11. Encounter runtime catalog / balance calibration — HIGH
+## 10. Encounter runtime catalog / balance calibration — HIGH
 `game/content/encounters/chapter_01_04_formations.gd` and `game/exploration/encounter_balance.gd` are executable engineering data, but they are not uniformly current encounter/progression authority.
 
 Known gaps:

@@ -35,10 +35,8 @@ Current first production anchor:
 ## 3 — Runtime / UI implementation reconciliation
 
 Current high-impact debt includes:
-- remove stale Mastery Point state/UI;
 - replace legacy First Champion/bearer-lock Prime proof behavior;
 - migrate combat proof flow to current turn-entry rules;
-- use player-facing **G**;
 - replace proof items/equipment/party fixtures;
 - expand/version save schema;
 - reconcile current encounter runtime data;
