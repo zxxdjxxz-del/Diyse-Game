@@ -26,10 +26,10 @@ High-value production regressions:
 - legal retarget behavior.
 
 ## Status
-Full matrix in `TESTING/STATUS_REGRESSION_MATRIX.md`.
+Full matrix in `../TESTING/STATUS_REGRESSION_MATRIX.md`.
 
 ## Primes
-Full current matrix in `TESTING/PRIME_REGRESSION_MATRIX.md`.
+Full current matrix in `../TESTING/PRIME_REGRESSION_MATRIX.md`.
 
 ## Equipment
 - three slots only
