@@ -95,7 +95,7 @@ It does **not** erase or bypass the separate post-dismissal spacing requirement.
 ### Ordinary Field interaction
 Awakened Prime rounds are not normal party rounds.
 
-Therefore, under the global Field lifecycle in `05_BATTLE_SYSTEM/FIELDS.md`:
+Therefore, under the global Field lifecycle in `../../05_BATTLE_SYSTEM/FIELDS.md`:
 - ordinary numbered-round Fields remain recorded while the party is suspended;
 - Prime rounds do not consume normal-round Field duration checkpoints;
 - an ordinary party-authored Field does not automatically treat the manifested Prime body as a normal conscious party member or ally target;
@@ -104,7 +104,7 @@ Therefore, under the global Field lifecycle in `05_BATTLE_SYSTEM/FIELDS.md`:
 ### Ordinary temporary-stat interaction
 Awakened Prime rounds also do not consume normal-round temporary Attack/Magic/Defense/Spirit/Speed durations.
 
-Therefore, under `05_BATTLE_SYSTEM/STAT_CHANGES.md`:
+Therefore, under `../../05_BATTLE_SYSTEM/STAT_CHANGES.md`:
 - ordinary party temporary core-stat modifiers remain recorded while the party is suspended;
 - Prime rounds do not consume those normal-round duration checkpoints;
 - suspended-party stat modifiers do not automatically modify the manifested Prime body;
@@ -116,7 +116,7 @@ Prime-local temporary core-stat modifiers use their authored Prime-round/action 
 For migrated/current Prime wording, a Prime-local core-stat modifier described only as lasting through an `authored window`, `next window`, or `next-Prime-round window` means:
 > **active immediately through the end of the next Prime round, or until dismissal if dismissal occurs first**
 
-Return-to-party stat effects begin when the ordinary party returns and use normal-round timing under `STAT_CHANGES.md`.
+Return-to-party stat effects begin when the ordinary party returns and use normal-round timing under `../../05_BATTLE_SYSTEM/STAT_CHANGES.md`.
 
 ### Ordinary tactical-state interaction
 An authored class/Ability state that explicitly measures its lifetime in **normal rounds** also pauses its duration clock during Awakened Prime rounds unless its owner explicitly says otherwise.
@@ -137,7 +137,7 @@ A pending effect written for the **next normal round's initiative setup** waits 
 
 Turn-window states tied to an ordinary party member's own turn do not advance merely because Prime rounds pass, because the suspended party member receives no ordinary turn during those Prime rounds. Cardweaver **Living Archive** therefore does not clear merely because a Prime round completes; it clears when Nimera actually completes her next ordinary turn under its owner rule.
 
-Harmful-status clocks remain owned separately by `05_BATTLE_SYSTEM/STATUS_EFFECTS.md`; this tactical-state rule does not silently rewrite status timing.
+Harmful-status clocks remain owned separately by `../../05_BATTLE_SYSTEM/STATUS_EFFECTS.md`; this tactical-state rule does not silently rewrite status timing.
 
 ## Post-dismissal Prime spacing
 After any Prime manifestation ends, the party must complete:
@@ -160,7 +160,7 @@ A genuine fresh-HP boss form:
 Same-bar phase/state changes also do **not** refresh spent Primes.
 
 Global fresh-form authority is in:
-`05_BATTLE_SYSTEM/BOSS_FORM_RULES.md`.
+`../../05_BATTLE_SYSTEM/BOSS_FORM_RULES.md`.
 
 
 ## Final Severance story-resolution exception
