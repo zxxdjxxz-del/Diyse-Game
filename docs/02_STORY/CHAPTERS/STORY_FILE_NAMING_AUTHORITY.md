@@ -142,7 +142,6 @@ Retired beats do not reserve current B-numbers. When a structure changes:
 
 - Chapter 1 Thornhide reveal lock: `CH01_B09_TO_B10_THORNHIDE_REVEAL_LOCK.md`;
 - Chapter 2 compact structure: `CHAPTER_02_BEAT_STRUCTURE.md`;
-- Chapter 3 compact structure: `CHAPTER_03_BEAT_STRUCTURE.md`;
 - Chapter 3 current beat support/locks: `CH03_B##_...`;
 - Chapter 3 Character-Life story support: `CH03_C06_...`, `CH03_C07_...`.
 

@@ -2,7 +2,7 @@
 
 **Status:** ACTIVE STORY SCENE-ID ROUTING INDEX  
 **Authority:** current chapter masters plus current Dialogue/runtime manifests; historical S### IDs are provenance only where explicitly marked.  
-**Domain rule:**** this folder owns mandatory story structure, chapter purpose, scene order, reveal order, recruitment/Prime milestones, interchapter causality, and story-state outcomes. Exact spoken dialogue belongs in `03_DIALOGUE`; battle numbers in `09_ENEMIES_AND_ENCOUNTERS`; progression numbers in `10_PROGRESSION_AND_EXP`.
+**Domain rule:** this folder owns mandatory story structure, chapter purpose, scene order, reveal order, recruitment/Prime milestones, interchapter causality, and story-state outcomes. Exact spoken dialogue belongs in `03_DIALOGUE`; battle numbers in `09_ENEMIES_AND_ENCOUNTERS`; progression numbers in `10_PROGRESSION_AND_EXP`.
 
 ## Scene-ID rule after Dialogue Engine restructuring
 

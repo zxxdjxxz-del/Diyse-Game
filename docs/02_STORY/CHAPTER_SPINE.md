@@ -2,7 +2,7 @@
 
 **Status:** ACTIVE CROSS-CHAPTER STORY SPINE  
 **Authority:** chapter-specific detail is owned by the current chapter masters and later explicit approved corrections.  
-**Domain rule:**** this folder owns mandatory story structure, chapter purpose, scene order, reveal order, recruitment/Prime milestones, interchapter causality, and story-state outcomes. Exact spoken dialogue belongs in `03_DIALOGUE`; battle numbers in `09_ENEMIES_AND_ENCOUNTERS`; progression numbers in `10_PROGRESSION_AND_EXP`.
+**Domain rule:** this folder owns mandatory story structure, chapter purpose, scene order, reveal order, recruitment/Prime milestones, interchapter causality, and story-state outcomes. Exact spoken dialogue belongs in `03_DIALOGUE`; battle numbers in `09_ENEMIES_AND_ENCOUNTERS`; progression numbers in `10_PROGRESSION_AND_EXP`.
 
 ## Global chapter-end cleanup / transition rule — LOCKED
 For **every chapter that has a following chapter (Chapter 0 through Chapter 12)**:
