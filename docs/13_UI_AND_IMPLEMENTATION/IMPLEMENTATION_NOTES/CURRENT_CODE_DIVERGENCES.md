@@ -127,7 +127,8 @@ Known gaps:
 - Chapter 3 rows still contain superseded pre-September-27 enemy identities/formations;
 - Chapter 4 rows preserve inherited Reaction Annex formations while the ordinary-enemy / formation layer is explicitly rework-pending;
 - proof enemy stats and encounter tuning remain engineering fixtures rather than production balance authority;
-- `encounter_balance.gd` still carries historical/provisional chapter encounter counts, tier weights, EXP anchors and ordinary-EXP pools; these values must not override reopened encounter or EXP/CEXP owners. Its Chapter-4 `expected_encounters = 19` value is specifically part of the retired pre-redesign volume model.
+- `encounter_balance.gd` still carries historical/provisional chapter encounter counts, tier weights, EXP anchors and ordinary-EXP pools; these values must not override reopened encounter or EXP/CEXP owners. Its Chapter-4 `expected_encounters = 19` value is specifically part of the retired pre-redesign volume model;
+- the generic random-encounter path is not whole-campaign complete: the executable formation catalog currently supplies areas only through Chapter 4, `encounter_balance.gd` has profiles only through Chapter 12, and `area_encounter_tuning.gd` rejects enabled random-encounter contexts above Chapter 12. Current Chapter-13 repeatable formation authority therefore cannot yet execute through this selector stack without a dedicated implementation migration.
 
 Current production authority:
 - `09_ENEMIES_AND_ENCOUNTERS/CHAPTER_ENEMIES/`;
