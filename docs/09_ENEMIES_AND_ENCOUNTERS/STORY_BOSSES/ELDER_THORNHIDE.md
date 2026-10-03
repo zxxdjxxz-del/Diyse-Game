@@ -1,39 +1,17 @@
 # Elder Thornhide — Current Encounter Authority
 
 **Chapter:** 4  
-**Scene:** S022 — Lower Cresthaven Grounds  
+**Scene:** B02 — Elder Thornhide  
 **Encounter type:** mandatory authored nonlethal / protected  
-**Status:** **WORKING PASS / POWER COMPLETE**
+**Status:** **ACTIVE ENCOUNTER BODY — REVALIDATION PENDING**
 
-## Actual route-level reference
+## Route-level validation boundary
 
-Mandatory Chapter-3 ending EXP:
-> **14,400 EXP = Lv13**
+Exact mandatory/completionist pre-encounter levels, optional-EXP advantages, and level-centered difficulty claims are **not current certification**.
 
-Elder Thornhide occurs at the opening of Chapter 4 before any Chapter-4 fixed EXP award.
+Regional Hunts #1–#3 are retired/open and must not be counted as current pre-Chapter-4 optional progression. The planned Player EXP/CEXP rebuild and Chapter-4 validation pass own replacement route-level references.
 
-Therefore:
-> **mandatory central = Lv13**
-
-Fixed optional EXP available before this encounter:
-- The Marks We Leave — 500
-- Regional Hunt #1 — 1,000
-- Regional Hunt #2 — 1,500
-- Regional Hunt #3 — 2,200
-
-Total fixed optional advantage:
-> **5,200 EXP**
-
-Completionist pre-Elder total:
-> **19,600 EXP = Lv15 exactly**
-
-Incidental optional combat may place the high-side route around:
-> **Lv16**
-
-Balance references:
-- mandatory — **Lv13**
-- completionist fixed-content — **Lv15**
-- high-side — **~Lv16**
+The encounter's authored four-round protected structure and current raw/action body below remain live inputs for that revalidation.
 
 ## Important duration exception
 
@@ -147,7 +125,7 @@ For this authored protected encounter:
 
 The nonlethal outcome is encounter-authored, not a universal Mercy/Subdual system.
 
-## Power-completeness verdict
+## Action Power coverage
 
 Direct-damage actions:
 - Territorial Rush — **190**
@@ -159,11 +137,9 @@ Non-damaging:
 - Guard the Den — **Power N/A**
 - Warning Display — **Power N/A**
 
-> **WORKING PASS / POWER COMPLETE**
+> This inventory records authored Power fields only. Current difficulty/power certification is **OPEN** pending Chapter-4 revalidation.
 
-## Duration verdict
-- mandatory Lv13 — **4 rounds**
-- completionist Lv15 — **4 rounds**
-- high-side ~Lv16 — **4 rounds**
+## Duration rule
+The authored protected encounter remains exactly **4 rounds** for all current route states.
 
-Route advantage exists in safety and resource pressure, not duration.
+Historical level-specific mandatory/completionist labels are not current certification. Route advantage may exist in safety and resource pressure, not duration, and must be recertified after the progression rebuild.

@@ -1,44 +1,17 @@
 # Reaction Conduit — Current Encounter Authority
 
 **Chapter:** 4  
-**Scene:** S023 — Reaction Annex / Exposure Gallery  
+**Scene:** B08 — Interaction Gallery / Reaction Conduit  
 **Encounter type:** mandatory authored nonlethal stabilization  
-**Status:** **WORKING PASS / POWER COMPLETE**
+**Status:** **ACTIVE ENCOUNTER BODY — REVALIDATION PENDING**
 
-## Actual route-level reference
+## Route-level validation boundary
 
-End Chapter 3:
-> **14,400 mandatory EXP = Lv13**
+Exact mandatory/completionist pre-encounter levels, optional-EXP advantages, and high-side level centers are **not current certification**.
 
-Mandatory fixed rewards before Reaction Conduit:
-- Elder Thornhide nonlethal resolution — 500 EXP
-- Vaelira recruitment / expedition milestone — 450 EXP
+Regional Hunts #1–#3 are retired/open, Annex Duelist placement is reopened, and Chapter 4's ordinary encounter layer is under rework. The planned Player EXP/CEXP rebuild and Chapter-4 validation pass own replacement route-level references.
 
-Mandatory pre-Conduit total:
-> **15,350 EXP**
-
-Therefore:
-> **mandatory central = Lv13**, 1,550 EXP short of Lv14.
-
-Fixed optional EXP already available before Chapter 4:
-- The Marks We Leave — 500
-- Regional Hunt #1 — 1,000
-- Regional Hunt #2 — 1,500
-- Regional Hunt #3 — 2,200
-
-Adding those to the mandatory route before Reaction Conduit:
-> **20,550 EXP**
-
-Therefore:
-> **completionist fixed-content = Lv15**, 1,950 EXP short of Lv16.
-
-Optional lower-gallery combat and the Annex Duelist branch can push a very thorough route toward:
-> **~Lv16**
-
-Balance references:
-- mandatory — **Lv13**
-- completionist — **Lv15**
-- high-side — **~Lv16**
+The current protected encounter body, element cycle, status behavior, and action kit below remain live inputs for that revalidation.
 
 ## Current raw line
 
@@ -73,7 +46,7 @@ At 0 HP:
 - the researcher is **stabilized**, not killed;
 - hostile actions cease;
 - the researcher collapses alive;
-- the S023 medical handoff begins.
+- the current B08 post-encounter medical/stabilization handoff begins.
 
 No universal Mercy, Capture, or Subdual system is created.
 
@@ -175,22 +148,11 @@ If used against Reaction Conduit:
 
 No mandatory Prime use is required.
 
-## Historical pacing target — not current certification
+## Pacing certification boundary
 
-These round-count estimates are retained only as historical pacing intent. They must be revalidated under the current progression/enemy inputs before being used for balance decisions.
+Inherited round-count targets are removed from live authority. Re-run pacing under the current progression/encounter inputs before setting mandatory/completionist duration targets.
 
-Target:
-- mandatory Lv13 normal — **~8–9 rounds**
-- mandatory aggressive — **~7–8**
-- completionist Lv15 — **~6–7**
-- high-side ~Lv16 — **~5–6**
-- safety / heavy cleansing — **~9–10**
-
-This encounter is intentionally shorter than the Authority Construct and Rhazek fights.
-
-Optional progression produces a visible duration advantage here.
-
-## Power-completeness verdict
+## Action Power coverage
 
 Direct damage:
 - Reaction Pressure — **180**
@@ -201,4 +163,4 @@ Direct damage:
 Non-damaging:
 - Instinctive Guard — **Power N/A**
 
-> **WORKING PASS / POWER COMPLETE**
+> This inventory records authored Power fields only. Current difficulty/power certification is **OPEN** pending Chapter-4 revalidation.
