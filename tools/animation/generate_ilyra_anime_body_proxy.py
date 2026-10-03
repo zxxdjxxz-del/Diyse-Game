@@ -6,8 +6,8 @@ female mannequin GLB. It preserves the existing skeleton, skin joints, weights,
 and inverse bind matrices so the Universal Animation Library remains directly
 compatible.
 
-This output is a motion/proportion prototype only. Ilyra's exact approved B00
-remains the visual authority.
+This output is a motion/proportion prototype only. Ilyra's current exact
+repository master and current visual lock remain the appearance authority.
 """
 
 from __future__ import annotations
@@ -158,7 +158,7 @@ def generate(source: Path, output: Path) -> None:
             node["name"] = "Ilyra_AnimeBody_Proxy"
     doc.setdefault("asset", {})["generator"] = "Diyse UAL anime-body proxy generator"
     doc.setdefault("extras", {})["diyse_note"] = (
-        "Motion/proportion prototype only. Ilyra B00 remains visual canon."
+        "Motion/proportion prototype only. Current exact Ilyra repository master remains visual canon."
     )
 
     output.parent.mkdir(parents=True, exist_ok=True)
