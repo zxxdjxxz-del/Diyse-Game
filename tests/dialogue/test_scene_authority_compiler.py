@@ -70,7 +70,6 @@ def main() -> int:
         "permanent-six relationship authority should be included when two permanent members are present",
     )
     for path in paths:
-        expect(not path.startswith("docs/99_ARCHIVE/"), f"archive source leaked into packet: {path}")
         expect(not path.startswith("docs/90_WORKING/"), f"working source leaked into packet: {path}")
         expect(
             not path.startswith("docs/03_DIALOGUE/LINE_COMPLETE/"),

@@ -24,4 +24,4 @@ Shared/donor Legacy access is now handled by:
 
 subject to actual donor Legacy completion/ownership and other separately established requirements.
 
-Historical Synthesis designs belong in `99_ARCHIVE`.
+Historical Synthesis designs belong in Git history, not the live tree.

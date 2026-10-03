@@ -13,7 +13,6 @@ Read in this order:
 3. `docs/00_MASTER_CONTROL/CANON_QUICK_REFERENCE.md`
 4. the relevant numbered subject domain
 5. `docs/90_WORKING/` only when the subject is explicitly open/reopened
-6. `docs/99_ARCHIVE/` only for provenance/history
 
 When sources conflict, follow `docs/00_MASTER_CONTROL/AUTHORITY_AND_CHANGE_CONTROL.md`.
 
@@ -21,7 +20,7 @@ Current cross-domain terminology handoffs:
 - classes → `docs/00_MASTER_CONTROL/CLASS_TERMINOLOGY_CURRENT.md`
 - Faces → `docs/00_MASTER_CONTROL/FACE_TERMINOLOGY_CURRENT.md`
 
-`docs/99_ARCHIVE/` is never current authority.
+Superseded or retired project material is recovered from Git history when provenance is genuinely needed; it is not retained as a parallel documentation layer on `main`.
 
 ## Character visual masters
 
@@ -33,7 +32,7 @@ Their production authority order and matching visual-lock documents are indexed 
 
 `docs/14_ART_AND_VISUALS/PRODUCTION/CHARACTERS/README.md`
 
-Use that index's source-authority order for exact appearance. A registered repository master controls only when its bytes match the approved fingerprint; newer approved sources and registered fingerprints outrank an older binary while sync is pending. Older prose, archived renders and historical hashes remain provenance.
+Use that index's source-authority order for exact appearance. A registered repository master controls only when its bytes match the approved fingerprint; newer approved sources and registered fingerprints outrank an older binary while sync is pending. Older prose, archived renders and historical hashes remain provenance only when a current production requirement explicitly preserves them.
 
 ## Implementation status
 
@@ -50,7 +49,7 @@ The existing Godot runtime is an implementation foundation. Proof data, proof na
 - `game/` — runtime game implementation
 - `tests/` — automated/regression validation
 - `tools/` — project tooling
-- `docs/` — current organized canon, design, implementation requirements, working queue, and archive
+- `docs/` — current organized canon, design, implementation requirements, and explicitly open working material
 - `asset_sources/` — source/reference art and other production inputs, separated by provenance/storage rules
 - `.github/` — CI/workflows
 - `project.godot` — Godot project definition
@@ -64,7 +63,7 @@ Before implementing or changing production content:
 2. read the owning numbered domain;
 3. check implementation divergence notes;
 4. preserve stable IDs and current terminology;
-5. do not restore retired mechanics or names from proof code/history;
+5. do not restore retired mechanics or names from proof code or Git history;
 6. run the relevant tests and project validation.
 
 The goal is one current authority surface with Git history providing recovery—not multiple competing generations of "current" documentation.

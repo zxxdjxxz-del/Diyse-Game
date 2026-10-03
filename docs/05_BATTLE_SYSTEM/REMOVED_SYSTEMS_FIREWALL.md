@@ -29,4 +29,4 @@ Do not confuse removed systems with valid current concepts:
 
 ## Migration rule
 
-Historical tracker text containing a removed system may be preserved in `99_ARCHIVE`, but must not be copied into active canonical domain files except as a clearly labeled historical note.
+Historical tracker text containing a removed system belongs in Git history and must not be copied back into active canonical domain files.

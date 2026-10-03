@@ -24,7 +24,7 @@ Use the precedence defined by the organized canon library. In implementation ter
 3. current master-control cross-domain rule;
 4. current operational implementation requirement;
 5. proof runtime;
-6. archived/historical material.
+6. Git history, only when deliberately consulted for recovery or provenance.
 
 Proof code demonstrates architecture. It does not restore stale mechanics, names, currencies, progression, or UI concepts.
 
@@ -55,6 +55,12 @@ Before production implementation, check:
 `docs/13_UI_AND_IMPLEMENTATION/IMPLEMENTATION_NOTES/CURRENT_CODE_DIVERGENCES.md`
 
 Known proof data/behavior may intentionally remain in runtime until migrated. Do not treat its presence as design approval.
+
+## Historical-material rule
+
+Do not add retired or superseded design documents to `main` merely for provenance. Git history is the recovery layer.
+
+Keep old identifiers or compatibility data in the working tree only when current runtime, save compatibility, validation, licensing/source provenance, or another active production requirement depends on them. Document that dependency beside the current owner.
 
 ## Validation
 

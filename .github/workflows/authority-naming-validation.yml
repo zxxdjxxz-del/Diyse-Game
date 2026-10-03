@@ -3,15 +3,19 @@ name: Authority Naming Validation
 on:
   push:
     paths:
-      - 'docs/02_STORY/CHAPTERS/**'
-      - 'docs/03_DIALOGUE/**'
+      - 'README.md'
+      - 'AGENTS.md'
+      - 'docs/**'
       - 'tools/dialogue/validate_authority_naming.py'
+      - 'tools/validate_repository_history_policy.py'
       - '.github/workflows/authority-naming-validation.yml'
   pull_request:
     paths:
-      - 'docs/02_STORY/CHAPTERS/**'
-      - 'docs/03_DIALOGUE/**'
+      - 'README.md'
+      - 'AGENTS.md'
+      - 'docs/**'
       - 'tools/dialogue/validate_authority_naming.py'
+      - 'tools/validate_repository_history_policy.py'
       - '.github/workflows/authority-naming-validation.yml'
 
 jobs:
@@ -28,3 +32,6 @@ jobs:
 
       - name: Validate canonical authority naming
         run: python tools/dialogue/validate_authority_naming.py
+
+      - name: Validate repository history policy
+        run: python tools/validate_repository_history_policy.py
