@@ -103,7 +103,7 @@ Current:
 - Heart Manifestation max1;
 - fresh The Last Command HP28,500;
 - Unbound Shards max2;
-- fresh Form II refreshes Prime availability;
+- fresh Form II does **not** restore spent Prime identities;
 - Final Directive Protected Preparation;
 - Distributed Command at25% same-bar;
 - no third boss form.
