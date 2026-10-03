@@ -907,8 +907,8 @@ Current intent:
 - physical-combat identity rather than a second mini-Crucible;
 - reward includes **Relentless Flurry — Might Standard Card** under current reward authority.
 
-## Optional elite
-**Annex Duelist** may remain optional combat under its own encounter authority.
+## Optional combat exception
+**Annex Duelist** may remain optional combat under its own encounter authority. This is a named story/encounter exception, not an Elite category.
 
 ## Major Hunt boundary
 Chapter 4 contains **no Major Hunt**.
