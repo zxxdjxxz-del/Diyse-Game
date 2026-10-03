@@ -106,7 +106,7 @@ Current:
 - Emperor of the Reforged Host;
 - fresh Sovereign Panoply Unbound;
 - both inherited raw bodies retained;
-- fresh Form II refreshes Prime availability;
+- fresh Form II does **not** restore spent Prime identities;
 - Sovereign Overrun uses one-round Protected Preparation;
 - Final Sovereignty begins at 25% Form-II HP on the same bar;
 - no third form;

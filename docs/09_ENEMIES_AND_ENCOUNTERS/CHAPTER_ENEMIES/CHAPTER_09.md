@@ -82,6 +82,6 @@ Current architecture:
 - Exposed Rhazek at 18% Form-II HP on the same bar;
 - no third full-health form.
 
-Current global fresh-body rule refreshes Prime availability at Bastion Devourer only.
+Current global fresh-body rule applies at Bastion Devourer: the fresh body does **not** restore spent Prime identities or reset an active post-dismissal spacing gate.
 
 No Barrier, possession, infinite support, or extra-action system is introduced.
