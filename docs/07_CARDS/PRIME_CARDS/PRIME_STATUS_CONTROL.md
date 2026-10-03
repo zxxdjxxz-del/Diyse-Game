@@ -29,7 +29,7 @@ Prime-specific handling remains a dedicated manifestation exception:
 - full Prime-local Bleed action value;
 - bounded to the Prime manifestation's own round/action handling.
 
-Global current Bleed rules remain in `05_BATTLE_SYSTEM/STATUS_EFFECTS.md`.
+Global current Bleed rules remain in `../../05_BATTLE_SYSTEM/STATUS_EFFECTS.md`.
 
 ## Staggered
 - 80% susceptibility;
