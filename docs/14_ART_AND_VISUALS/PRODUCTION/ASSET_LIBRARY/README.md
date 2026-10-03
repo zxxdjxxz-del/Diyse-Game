@@ -1,82 +1,73 @@
 # Diyse Asset Library
 
-**Status:** Authoritative visual-production asset inventory  
-**Added:** 2026-08-31
+**Status:** Authoritative visual-production source inventory
 
-This directory preserves the consolidated Diyse asset-library work and separately indexed post-Master-v5 source intakes. It supports environment construction, VFX, animation reuse, provenance, and visual-style conversion.
+This directory owns the current inventory, provenance, verification, and storage rules for reusable environment, VFX, animation, and third-party source inputs. Superseded inventory documents and upload-event history are recoverable through Git history rather than retained as a parallel authority layer.
 
-## Current authority
+## Current source authority
 
-The current consolidated inventory remains **DIYSE Asset Library Master v5**.
+Current source records are split by purpose:
 
-Repository preservation:
-`docs/14_ART_AND_VISUALS/PRODUCTION/ASSET_LIBRARY/archive/DIYSE_ASSET_LIBRARY_MASTER_2026-08-30_v5/`
+- `SOURCE_ARCHIVE_MANIFEST.md` — exact filename, byte size, member count, and SHA-256 identity for the **25 baseline source ZIPs**;
+- `SUPPLEMENTAL_INTAKE_INDEX.md` — routing for the **7 current supplemental source ZIPs**;
+- `SUPPLEMENTAL_USER_TEXTURE_INTAKE_2026-08-31_BATCH1.md` — exact identity, measured contents, and pending-provenance state for six user-supplied texture ZIPs;
+- `VERIFIED_CC0_VFX_INTAKE_2026-08-31_BATCH2.md` — exact identity, license evidence, and technical structure for the Brackeys CC0 VFX bundle;
+- `BINARY_PRESERVATION_STATUS.md` — current durable-storage state and remaining preservation actions.
 
-- Original master SHA-256: `17648aadd7ad28570b9a017a03362041875e6fa10df173315871dfcb89d57246`
-- Original master character count: `175133`
-- Original master version/date: `v5` / `2026-08-30`
+Together these represent **32 active asset-source ZIPs**. Superseded diagnostic uploads and older consolidated inventory documents are not live source authority.
 
-Master-v5 source archive identity is controlled by:
-`SOURCE_ARCHIVE_MANIFEST.md`
+## Baseline source coverage
 
-Post-Master-v5 intakes are controlled by:
-`SUPPLEMENTAL_INTAKE_INDEX.md`
+The baseline source set represented by `SOURCE_ARCHIVE_MANIFEST.md` contains:
 
-## Master v5 totals
-
-- **3,214** canonical extracted map/environment TGA records.
-- **2,878** exact-unique extracted TGAs after byte-level deduplication.
-- **107** represented source map families across Maps 001–116.
-- Missing map numbers through 116: **015, 033, 042, 085, 097, 098, 099, 101, 102**.
-- **94** verified-CC0 Quaternius Fantasy Props MegaKit models.
+- **22** map/environment archive ZIPs covering **107 represented map families** across Maps 001–116;
+- **3** verified-CC0 Quaternius source ZIPs;
+- **3,214** previously inventoried canonical map/environment TGA records;
+- **2,878** exact-unique extracted TGAs after byte-level deduplication;
+- **94** verified-CC0 Quaternius Fantasy Props MegaKit models;
 - **86** verified-CC0 Quaternius humanoid animation clips.
 
-Do not silently add later intake counts to these historical Master-v5 totals.
+Current missing map numbers through 116:
+> **015, 033, 042, 085, 097, 098, 099, 101, 102**
+
+The exact source ZIP identities, including the Quaternius rig payload hashes, are owned by `SOURCE_ARCHIVE_MANIFEST.md`. Detailed superseded per-file inventory snapshots remain available in Git history if forensic reconstruction is ever necessary.
 
 ## Supplemental Batch 1 — user textures / provenance pending
 
-Six uploaded archives were inventoried separately:
+Six current source archives are recorded in:
+`SUPPLEMENTAL_USER_TEXTURE_INTAKE_2026-08-31_BATCH1.md`
+
+Measured:
 - **4,607** file members;
 - **4,606** PNG textures;
 - **4,600** exact-unique members after seven SHA-confirmed duplicate pairs;
 - **1,422,620,538** ZIP bytes.
 
-Major families include Metal, Concrete, Brick, terrain/outdoors, Wood, emission/light support, Fire, Marble, Glass, ritual/mystic, Water and Foliage.
-
-Authority:
-`SUPPLEMENTAL_USER_TEXTURE_INTAKE_2026-08-31_BATCH1.md`
-
 Status:
 > **USER-SUPPLIED / LICENSE NOT YET VERIFIED**
 
-These raw binaries remain private/reference material unless provenance or authorization is established. Private repository visibility does not itself convert license-unverified material into redistributable/open assets.
+These raw binaries remain private/reference material unless provenance or authorization is established. They must not be represented as redistributable/open merely because the project has their technical inventory.
 
 ## Supplemental Batch 2 — verified CC0 VFX
 
-`brackeys_vfx_bundle.zip` includes its own license/credits file declaring the bundled assets CC0.
+The current Brackeys VFX source archive is recorded in:
+`VERIFIED_CC0_VFX_INTAKE_2026-08-31_BATCH2.md`
 
-Measured usable production payload:
+Measured usable payload:
 - **213** VFX images;
 - **185** particle textures;
 - **14** predrawn animation sheets;
 - **14** flipbooks;
-- **1,318** declared animation-sheet frames;
+- **1,318** implied animation-sheet frames;
 - **92** matched particle color/alpha pairs;
 - **0** exact duplicate usable images.
-
-Asset Forge v0.9 additionally verifies that all **28** predrawn/flipbook sheets split and repack with **0 pixel difference** when source padding/palette transparency are preserved.
-
-Authority:
-`VERIFIED_CC0_VFX_INTAKE_2026-08-31_BATCH2.md`
 
 Status:
 > **VERIFIED CC0 SOURCE POOL — DIRECT MODIFICATION ALLOWED / STYLE + RUNTIME VALIDATION REQUIRED**
 
-This source set is eligible for the verified third-party CC0 storage lane and is now the preferred production source pool for B06 fire/light testing.
+This source set is eligible for the verified third-party CC0 storage lane.
 
 ## Provenance separation
-
-Source lanes remain strict:
 
 ### License-unverified extracted/private reference
 
@@ -84,53 +75,49 @@ Map001–Map116 extracted material and Supplemental Batch 1 remain private/refer
 
 ### Verified open / redistributable
 
-Quaternius Fantasy Props MegaKit, both Quaternius animation libraries, and Brackeys VFX Batch 2 are verified-open sources under their recorded CC0 evidence and may be directly modified after Diyse style/runtime validation.
+Quaternius Fantasy Props MegaKit, both Quaternius animation libraries, and Brackeys VFX Batch 2 are verified-open sources under their recorded evidence and may be directly modified after Diyse style/runtime validation.
 
 ### Diyse-original
 
-Preferred for signature, faction, story-defining and provenance-sensitive final assets.
+Preferred for signature, faction, story-defining, and provenance-sensitive final assets.
 
 ## Repository visibility and binary safety
 
-`zxxdjxxz-del/Diyse-Game` is currently **public**.
+`zxxdjxxz-del/Diyse-Game` is public.
 
-Public visibility does **not** waive provenance, authorization, redistribution, or licensing requirements. License-unverified/private-reference binaries must remain outside tracked public history unless their rights are separately established.
+Public visibility does **not** waive provenance, authorization, redistribution, or licensing requirements.
 
-Repository safeguards and storage rules:
-- Diyse-original or otherwise authorized source art may be stored only in an appropriate tracked source-art lane;
-- license-unverified third-party material remains private/reference only and must not be represented as redistributable/open;
-- `asset_sources/private_reference/` remains ignored for material intentionally kept outside normal Git history;
-- `assets/environment/extracted_private_reference/` remains ignored;
+Repository safeguards:
+- Diyse-original or otherwise authorized source art belongs only in an appropriate tracked source-art lane;
+- license-unverified third-party material remains private/reference only;
+- `asset_sources/private_reference/` is ignored for private source material;
+- `assets/environment/extracted_private_reference/` is ignored;
 - `asset_sources/.gdignore` prevents source-package scanning by Godot;
 - redistributable source ZIPs under `asset_sources/third_party_cc0/` are routed through Git LFS by `.gitattributes`.
 
-At this audit point, the tracked tree contains no files under either ignored private-reference lane above. Re-audit repository visibility and tracked source contents before any future exposure or storage-policy change.
-
 ## Intake and verification tools
 
-Master-v5 verifier:
+Verify baseline source ZIPs against current checksums:
 
 ```bash
 python tools/verify_asset_archives.py
 ```
 
-ZIP-native supplemental intake:
+Inventory new ZIP-native source batches:
 
 ```bash
 python tools/asset_forge/zip_intake_engine.py /path/to/archive.zip
 ```
 
-VFX structural validation:
+Validate VFX source structure:
 
 ```bash
 python tools/asset_forge/vfx_processing_engine.py /path/to/vfx_bundle.zip
 ```
 
-The intake/processing tools preserve archive identity and technical relationships without overwriting source files.
-
 ## Project-use rule
 
-Source textures/VFX are a production parts/reference library, not a target for reconstructing another game's maps or visual identity. Diyse layouts, collision, traversal, encounter/treasure placement, camera design, landmarks, faction identity and final composition remain original project work.
+Source textures/VFX are a production parts/reference library, not a target for reconstructing another game's maps or visual identity. Diyse layouts, collision, traversal, encounter/treasure placement, camera design, landmarks, faction identity, and final composition remain original project work.
 
 ## Relationship to current visual canon
 
@@ -142,8 +129,6 @@ Active style authority:
 Required adaptation path:
 `../ASSET_STYLE_CONVERSION_PIPELINE.md`
 
-Merely enlarging, sharpening, recoloring, or applying a uniform filter does not satisfy the Diyse style standard.
-
 Current exact character masters are separately repository-backed under:
 `asset_sources/characters/current/`
 
@@ -152,9 +137,9 @@ Their controlling authority index is:
 
 ## Raw binary storage
 
-Master v5 source ZIPs total approximately **2.25 GB**. Supplemental Batch 1 adds approximately **1.42 GB** and Batch 2 adds approximately **28.2 MB**; neither supplemental batch changes historical Master-v5 totals until deliberate consolidation.
+The 25 baseline source ZIPs total approximately **2.25 GB**. Supplemental Batch 1 adds approximately **1.42 GB** and Batch 2 adds approximately **28.2 MB**.
 
 Current operational preservation state:
 `BINARY_PRESERVATION_STATUS.md`
 
-Inventory/checksum recording is not the same as durable binary backup. Every authoritative/pending source batch still requires a verified durable copy in the correct provenance/storage lane.
+Inventory/checksum recording is not the same as durable binary backup. Each active source batch requires a verified durable copy in the correct provenance/storage lane.

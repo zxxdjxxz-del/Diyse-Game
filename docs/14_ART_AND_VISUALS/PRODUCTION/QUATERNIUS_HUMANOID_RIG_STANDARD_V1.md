@@ -13,7 +13,7 @@ Final visible characters must be Diyse-original models built to the approved B00
 
 ## 2. V5 source verification
 
-The rig is already contained inside the two verified-CC0 Quaternius animation archives represented by **Asset Library Master v5**. A separate `Universal Base Characters` archive is **not required for the prototype rig**.
+The rig is already contained inside the two verified-CC0 Quaternius animation archives controlled by `ASSET_LIBRARY/SOURCE_ARCHIVE_MANIFEST.md`. A separate `Universal Base Characters` archive is **not required for the prototype rig**.
 
 The user re-uploaded both v5 archives in the active project conversation and their archive SHA-256 values exactly match `ASSET_LIBRARY/SOURCE_ARCHIVE_MANIFEST.md`:
 

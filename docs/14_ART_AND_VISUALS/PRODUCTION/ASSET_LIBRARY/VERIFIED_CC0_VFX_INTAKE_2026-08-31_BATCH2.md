@@ -240,4 +240,4 @@ Open preservation action:
 
 > **VERIFIED CC0 VFX SOURCE SET — INTAKE COMPLETE / STYLE AND RUNTIME VALIDATION REQUIRED**
 
-This archive should be added to the active verified-open source pool. It does not alter Master v5 counts retroactively; it is a separately inventoried supplemental open-source expansion until the next deliberate Asset Library Master consolidation.
+This archive is part of the active verified-open source pool and remains separately inventoried until a deliberate baseline consolidation changes its routing.
