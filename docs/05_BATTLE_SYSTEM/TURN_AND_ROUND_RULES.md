@@ -85,7 +85,7 @@ A later-precedence reroute may therefore change a combatant's final absolute lis
 ### Decisive Interval enemy delay
 
 The exact Decisive Opening state, damage payoff, ordinary-enemy eligibility, and expiry rules are owned by:
-`../07_CARDS/STANDARD_CARDS/ACUITY.md`.
+`../07_CARDS/STANDARD_CARDS/PERCEPTION.md`.
 
 For initiative only:
 - Decisive Opening may delay an eligible ordinary enemy only if that Opening remains active at a **later** beginning-of-round setup;
