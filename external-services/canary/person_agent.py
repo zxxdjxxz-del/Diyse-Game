@@ -351,6 +351,7 @@ def compact_brain() -> dict[str, Any]:
         "interests",
         "knowledge_model",
         "reasoning_model",
+        "counterfactual_reasoning",
         "authority_model",
         "mercy_accountability_model",
         "relationship_models",
