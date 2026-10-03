@@ -57,7 +57,7 @@ After all enemy damage from Crest of Companions resolves:
 - for each conscious active-party member, remove **1 eligible universal harmful status**; if more than one is eligible, the player chooses which status to remove for that party member;
 - then apply **Defense +30% / Spirit +30% for 2 rounds** to each conscious active-party member.
 
-The defensive bonuses are Major temporary core-stat increases under `05_BATTLE_SYSTEM/STAT_CHANGES.md`; they may stack with different legal effects only up to the global **+40% per-axis cap**.
+The defensive bonuses are Major temporary core-stat increases under `../../05_BATTLE_SYSTEM/STAT_CHANGES.md`; they may stack with different legal effects only up to the global **+40% per-axis cap**.
 
 Crest of Companions does not revive KO party members and does not cleanse or buff a party member who remains KO when the support package resolves.
 
@@ -73,12 +73,12 @@ All four Core Masteries unlock automatically at the listed Class Levels under cu
 
 
 ## Global references
-- Damage/penetration: `05_BATTLE_SYSTEM/DAMAGE_FORMULAS.md`
-- Hit/Evasion: `05_BATTLE_SYSTEM/BASE_HIT_AND_EVASION.md`
-- Critical: `05_BATTLE_SYSTEM/CRITICAL_HITS.md`
-- Elements/statuses: `05_BATTLE_SYSTEM/ELEMENTS.md` and `STATUS_EFFECTS.md`
-- Temporary stat changes: `05_BATTLE_SYSTEM/STAT_CHANGES.md`
-- Prepared/retargeting: `05_BATTLE_SYSTEM/TURN_AND_ROUND_RULES.md` and `TARGETING_AND_RETARGETING.md`
+- Damage/penetration: `../../05_BATTLE_SYSTEM/DAMAGE_FORMULAS.md`
+- Hit/Evasion: `../../05_BATTLE_SYSTEM/BASE_HIT_AND_EVASION.md`
+- Critical: `../../05_BATTLE_SYSTEM/CRITICAL_HITS.md`
+- Elements/statuses: `../../05_BATTLE_SYSTEM/ELEMENTS.md` and `../../05_BATTLE_SYSTEM/STATUS_EFFECTS.md`
+- Temporary stat changes: `../../05_BATTLE_SYSTEM/STAT_CHANGES.md`
+- Prepared/retargeting: `../../05_BATTLE_SYSTEM/TURN_AND_ROUND_RULES.md` and `../../05_BATTLE_SYSTEM/TARGETING_AND_RETARGETING.md`
 
 ## Firewall
 Do not restore the retired dual Physical/Magical route versions of Crest Reprisal, Twin Advance, or Crest Rend; each current Ability uses the fixed damage type/formula printed above. Do not restore the retired Vulnerability rider on Crest Rend.
