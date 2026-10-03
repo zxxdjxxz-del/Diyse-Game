@@ -46,6 +46,13 @@ RETIRED_RIG_STAGE_TOKENS = (
     "Ilyra_ProductionMesh_v06",
     "Ilyra_ProductionMesh_v04",
 )
+PROGRESSION_HISTORY_RE = re.compile(
+    r"\b(?:v85|v89|v91|v92|Audit12[3-8])\b"
+    r"|Historical migration provenance"
+    r"|Historical progression provenance"
+    r"|Regional Hunt retirement sync",
+    re.IGNORECASE,
+)
 TEXT_EXTENSIONS = {
     ".md", ".txt", ".json", ".py", ".gd", ".yml", ".yaml", ".cfg",
     ".tres", ".tscn", ".toml", ".ini",
@@ -122,6 +129,11 @@ def main() -> int:
         if "ARCHIVE_SCRIBE_ENGINE.md" in text:
             errors.append(
                 f"{path.relative_to(ROOT)} still references stale Memory Construct duplicate authority"
+            )
+        relative_path = path.relative_to(ROOT).as_posix()
+        if relative_path.startswith("docs/10_PROGRESSION_AND_EXP/") and PROGRESSION_HISTORY_RE.search(text):
+            errors.append(
+                f"{relative_path} contains migration/version-history language; progression authority must describe the current planning model directly"
             )
 
     if errors:
