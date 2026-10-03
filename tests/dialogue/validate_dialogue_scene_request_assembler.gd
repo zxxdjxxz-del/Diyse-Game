@@ -49,7 +49,7 @@ func _run() -> void:
 	var assembler := DiyseDialogueSceneRequestAssembler.new()
 	var assembled := assembler.assemble(
 		_request_seed(),
-		"v2.20-Audit135",
+		"repo-test-current",
 		provider,
 		{
 			"recent_events": ["the player entered the recovery line"],
@@ -84,7 +84,7 @@ func _run() -> void:
 
 	var no_map := assembler.assemble(
 		_request_seed(),
-		"v2.20-Audit135",
+		"repo-test-current",
 		null,
 		{},
 		{},
@@ -104,7 +104,7 @@ func _run() -> void:
 	get_root().add_child(bad_provider)
 	var bad := assembler.assemble(
 		_request_seed(),
-		"v2.20-Audit135",
+		"repo-test-current",
 		bad_provider,
 		{},
 		{},
@@ -125,7 +125,7 @@ func _request_seed() -> Dictionary:
 		"scene_id": "PROOF_ASSEMBLER",
 		"continuity_namespace": "story",
 		"story_position": "Chapter 0 request assembly proof",
-		"canon_snapshot_id": "v2.20-Audit135",
+		"canon_snapshot_id": "repo-test-current",
 		"participants": ["cyanis", "ilyra"],
 		"participant_profiles": {
 			"cyanis": {"source_path": "docs/01_CHARACTERS/PLAYABLE/Cyanis.md"},
@@ -134,7 +134,7 @@ func _request_seed() -> Dictionary:
 		"scene_purpose": "Validate compiled authority plus live map/runtime assembly.",
 		"authority_packet": {
 			"schema": "diyse_scene_authority_packet_v1",
-			"canon_snapshot_id": "v2.20-Audit135",
+			"canon_snapshot_id": "repo-test-current",
 			"bundle_sha256": "proof",
 		},
 		"scene_context": {},
