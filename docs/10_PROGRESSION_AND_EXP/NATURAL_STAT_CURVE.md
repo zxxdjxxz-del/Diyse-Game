@@ -27,7 +27,7 @@ For **Max HP / Max MP equipment**, step 4 uses persistent **flat raw additions**
 - `Max HP +N` adds N directly to the rounded selected-class Max HP;
 - `Max MP +N` adds N directly to the rounded selected-class Max MP.
 
-Current equipment does not multiply Max HP or Max MP by a percentage. Exact equipment authority is `08_ITEMS_AND_EQUIPMENT/HP_MP_FLAT_BONUS_RULES.md`.
+Current equipment does not multiply Max HP or Max MP by a percentage. Exact equipment authority is `../08_ITEMS_AND_EQUIPMENT/HP_MP_FLAT_BONUS_RULES.md`.
 
 Prime bodies remain separate and do not use this ordinary player-body construction.
 
@@ -45,7 +45,7 @@ Selected-class multipliers and equipment then produce the actual combat body.
 
 ## Balance-validation use
 Mandatory-vs-completionist validation must use this natural-stat curve together with:
-- `06_CLASSES_AND_ABILITIES/SELECTED_CLASS_STAT_PACKAGES.md`
+- `../06_CLASSES_AND_ABILITIES/SELECTED_CLASS_STAT_PACKAGES.md`
 - current owning equipment files;
 - current Player-Level route assumptions;
 - current Class-Level / Ability access.
