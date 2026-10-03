@@ -10,7 +10,7 @@ Exactly:
 
 | # | Major Hunt | Destination | Unlock | Prime |
 |---:|---|---|---|---|
-| 1 | **Ashen Whitehorn** | Ashfrost Expanse | after Chapter 6 fully ends | **Dawn Shepherd** |
+| 1 | **Ashen Whitehorn** | Ashfrost Expanse | after Chapter 6 | **Dawn Shepherd** |
 | 2 | **Crownless Siege Marshal / Crownless War Engine** | Crownfall Redoubt / deep old Crownfall ruins | after Chapter 7 | **Oathbound Colossus** |
 | 3 | **Concordance Guardian** | Concordance Vault | after **Sixfold Volition** at the end of Chapter 7 | **Living Revision** |
 | 4 | **Worldscar Leviathan** | Worldscar Basin | after Chapter 8 | **Prismatic Leviathan** |
