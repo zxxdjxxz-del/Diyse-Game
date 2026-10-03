@@ -1,10 +1,10 @@
 # Diyse Asset Source Archive Manifest
 
-**Status:** Authoritative checksum manifest for the source archives represented by Asset Library Master v5  
+**Status:** Authoritative checksum manifest for the 25 baseline source archives  
 **Generated:** 2026-08-31  
 **Total source ZIP bytes:** **2,245,575,854**
 
-This manifest records the exact source archives used to build the current consolidated asset inventory. It does **not** assert that every archive is legally redistributable. Provenance and license handling remain controlled by `docs/14_ART_AND_VISUALS/PRODUCTION/ASSET_LIBRARY/README.md` and the v5 master inventory.
+This manifest directly controls the exact identity of the current 25-ZIP baseline source set. It does **not** assert that every archive is legally redistributable. Provenance and license handling remain controlled by `docs/14_ART_AND_VISUALS/PRODUCTION/ASSET_LIBRARY/README.md`.
 
 | Archive | Bytes | Files | SHA-256 |
 |---|---:|---:|---|
@@ -78,10 +78,9 @@ Verified from archive copies re-uploaded in the active project conversation whos
 
 This resolves the prior mistaken assumption that a separate `Universal Base Characters` archive was required for the prototype rig.
 
-## Canonicalization notes
+## Current source-set notes
 
-- `080.zip` and `81-84.zip` contain the same 17 Map080 files byte-for-byte. The master inventory counts that Map080 set only once canonically.
-- Earlier `10-12.zip`, `13-19.zip`, and `20-28.zip` uploads were diagnostic/superseded because many later files were zero-byte. They are intentionally **not** part of this authoritative source manifest.
+- `080.zip` and `81-84.zip` contain the same 17 Map080 files byte-for-byte; count that payload once when deriving unique source totals.
 - Map093 is present despite its unusual `map_093` filename convention.
 - The current missing map numbers through 116 are 015, 033, 042, 085, 097, 098, 099, 101, and 102.
 
