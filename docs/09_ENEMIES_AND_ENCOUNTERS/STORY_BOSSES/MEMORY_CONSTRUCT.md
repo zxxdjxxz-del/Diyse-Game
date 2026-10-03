@@ -46,7 +46,7 @@ Current raw HP / Defense / Spirit / action budget / fight-length target are **no
 
 Do not:
 - invent a final attack kit during repository cleanup;
-- infer a final body from retired Chapter-3 boss drafts;
+- infer a final body from anything outside explicitly current Chapter-3 combat authority;
 - split the boss into multiple targetable bodies without explicit battle-authority revision;
 - assign Stun, Bleed, or another status role simply to fill an open Chapter-3 rollout slot.
 
