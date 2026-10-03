@@ -50,7 +50,7 @@ Current individual enemy owners:
 Elemental Researcher, Annex Battle Mage, and Crucible Attendant now have exact action kits, but:
 > **do not random-spawn them**
 
-S023 explicitly says academy staff are not random enemies.
+Current Chapter-4 story/encounter authority does not authorize these academy-staff identities for the random encounter pool.
 
 No current line-complete mandatory scene places these three identities as separate combatants.
 
