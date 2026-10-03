@@ -9,11 +9,46 @@ on:
       - 'docs/03_DIALOGUE/PRODUCTION/CHAPTER_02/**'
       - 'docs/03_DIALOGUE/PRODUCTION/CHAPTER_03/**'
       - 'tools/dialogue/compile_current_runtime_dialogue.py'
+      - 'tools/dialogue/compile_scene_authority.py'
       - 'game/content/dialogue/current/**'
       - 'game/dialogue/current_dialogue_catalog.gd'
       - 'tests/dialogue/validate_current_dialogue_resources.gd'
       - 'tests/dialogue/test_agent_magic_card_context.py'
+      - 'tests/dialogue/test_person_agent_runtime_contract.py'
+      - 'tests/dialogue/validate_chapter_01_resources.gd'
+      - 'tests/dialogue/validate_chapter_01_continuity.gd'
       - 'external-services/canary/context/magic_and_cards.yaml'
+      - 'external-services/canary/context/dialogue_system.yaml'
+      - 'external-services/canary/brains/**'
+      - 'external-services/canary/person_agent.py'
+      - 'external-services/canary/scene_orchestrator.py'
+      - 'external-services/canary/README.md'
+      - 'docs/04_WORLD_AND_LORE/LIVED_MAGIC_AND_CARD_CONTEXT.md'
+      - 'docs/04_WORLD_AND_LORE/MODERN_KNOWLEDGE_FIREWALL.md'
+      - 'docs/04_WORLD_AND_LORE/LIVED_WORLD_SOCIAL_CONTEXT.md'
+      - 'docs/04_WORLD_AND_LORE/HISTORY/CARDS_AND_RETURN_OF_MAGIC.md'
+      - 'docs/06_CLASSES_AND_ABILITIES/ABILITY_RULES.md'
+      - 'docs/07_CARDS/CARD_SYSTEM_MASTER.md'
+      - 'docs/07_CARDS/CARD_ACQUISITION.md'
+      - '.github/workflows/dialogue-runtime-smoke.yml'
+  pull_request:
+    paths:
+      - 'docs/03_DIALOGUE/PRODUCTION/CHAPTER_00/**'
+      - 'docs/03_DIALOGUE/PRODUCTION/CHAPTER_01/**'
+      - 'docs/03_DIALOGUE/PRODUCTION/CHAPTER_02/**'
+      - 'docs/03_DIALOGUE/PRODUCTION/CHAPTER_03/**'
+      - 'tools/dialogue/compile_current_runtime_dialogue.py'
+      - 'tools/dialogue/compile_scene_authority.py'
+      - 'game/content/dialogue/current/**'
+      - 'game/dialogue/current_dialogue_catalog.gd'
+      - 'tests/dialogue/validate_current_dialogue_resources.gd'
+      - 'tests/dialogue/test_agent_magic_card_context.py'
+      - 'tests/dialogue/test_person_agent_runtime_contract.py'
+      - 'tests/dialogue/validate_chapter_01_resources.gd'
+      - 'tests/dialogue/validate_chapter_01_continuity.gd'
+      - 'external-services/canary/context/magic_and_cards.yaml'
+      - 'external-services/canary/context/dialogue_system.yaml'
+      - 'external-services/canary/brains/**'
       - 'external-services/canary/person_agent.py'
       - 'external-services/canary/scene_orchestrator.py'
       - 'external-services/canary/README.md'
@@ -34,8 +69,14 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v4
 
+      - name: Install Agent contract validation dependency
+        run: python3 -m pip install --disable-pip-version-check 'PyYAML>=6,<7'
+
       - name: Validate Agent lived magic and Prime knowledge firewall
         run: python3 tests/dialogue/test_agent_magic_card_context.py
+
+      - name: Validate Person Agent runtime reliability contract
+        run: python3 tests/dialogue/test_person_agent_runtime_contract.py
 
       - name: Verify generated current dialogue mirror
         run: python3 tools/dialogue/compile_current_runtime_dialogue.py --check
@@ -50,3 +91,9 @@ jobs:
 
       - name: Validate current Chapters 0-3 dialogue Resources
         run: godot --headless --path . --script tests/dialogue/validate_current_dialogue_resources.gd
+
+      - name: Validate current Chapter 1 source/resource parity
+        run: godot --headless --path . --script tests/dialogue/validate_chapter_01_resources.gd
+
+      - name: Validate current Chapter 1 continuity and retirement firewalls
+        run: godot --headless --path . --script tests/dialogue/validate_chapter_01_continuity.gd
