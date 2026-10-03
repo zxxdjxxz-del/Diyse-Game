@@ -70,7 +70,7 @@ Unless an owning enemy action explicitly defines another clock:
 
 This does **not** convert ordinary normal-round duration effects into Prime-round durations.
 
-Effects explicitly measured in **normal party rounds** continue to follow `PRIME_SYSTEM_RULES.md`: ordinary Fields, ordinary normal-round temporary core-stat timers, and ordinary normal-round tactical-state timers remain recorded and paused unless their owner explicitly says otherwise.
+Effects explicitly measured in **normal party rounds** continue to follow `../07_CARDS/PRIME_CARDS/PRIME_SYSTEM_RULES.md`: ordinary Fields, ordinary normal-round temporary core-stat timers, and ordinary normal-round tactical-state timers remain recorded and paused unless their owner explicitly says otherwise.
 
 ## 5. Enemy/boss state changes during manifestation
 Normal legal HP thresholds, same-body state changes, support destruction/spawn rules, and genuine fresh enemy bodies may occur while a Prime is manifested.
