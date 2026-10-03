@@ -44,4 +44,3 @@ Global damage, Base Hit/Evasion, Critical, element, status, Guard, Field lifecyc
 - `CARD_ACQUISITION.md`
 - `STANDARD_CARDS/`
 - `PRIME_CARDS/`
-- `MIGRATION_VALIDATION.md`
