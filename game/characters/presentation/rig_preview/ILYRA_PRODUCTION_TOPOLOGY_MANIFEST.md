@@ -33,6 +33,6 @@ T-pose → Idle → Walk → Jog → Crouch → Climb → Roll → Shield Dash �
 The Stage 7 comparison geometry is intentionally lightweight rather than final sculpt topology. The standalone proof uses about **533 generated soft-surface vertices / 834 triangles**, excluding the underlying UAL-skinned body and retained hard/detail geometry.
 
 ## Authority boundary
-This is not Ilyra's final production model or appearance canon. Her approved cleaned B00 remains authoritative for exact face, vivid jade eyes, mature/confident expression, windswept blonde hair, slightly athletic natural-waist proportions, fitted pale-blue/white Warden clothing, restrained ornament, cape, utility gear, Wardrod, shield, colors and final silhouette.
+This is not Ilyra's final production model or appearance canon. Exact current appearance authority is `asset_sources/characters/current/ilyra.jpg` plus `docs/14_ART_AND_VISUALS/PRODUCTION/CHARACTERS/ILYRA_CURRENT_VISUAL_LOCK.md`. Any older topology-stage face, hair, costume, equipment, proportion, or silhouette details are historical proof data only.
 
 Stage 7 validates topology layout and deformation ownership. Exact sculpting, UVs, textures, facial topology, final hair geometry, cloth thickness and production secondary-motion systems remain later work.

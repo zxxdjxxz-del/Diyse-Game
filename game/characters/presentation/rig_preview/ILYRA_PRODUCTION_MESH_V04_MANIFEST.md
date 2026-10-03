@@ -6,11 +6,11 @@ The visual shell was first authored as a static candidate around the UAL rest pr
 
 ## B00-directed targets
 
-The approved cleaned Ilyra B00 remains exact visual authority. This candidate is trying to move the real geometry toward that authority:
+Exact current appearance authority is `asset_sources/characters/current/ilyra.jpg` plus `docs/14_ART_AND_VISUALS/PRODUCTION/CHARACTERS/ILYRA_CURRENT_VISUAL_LOCK.md`. The bullets below describe the historical v0.4 candidate and may include superseded proof geometry; they are not current design authority:
 
 - mature/confident anime face direction
 - vivid jade eyes
-- long windswept blonde hair
+- historical proof target: long windswept blonde hair (superseded; retained only to describe the v0.4 geometry)
 - slightly athletic build with a natural waist
 - fitted ivory / pale-blue Warden clothing rather than heavy armor
 - restrained decoration
@@ -69,7 +69,7 @@ Structural validation passed with 65 UAL joints, 58 total skinned primitives (2 
 ## What is not complete
 
 - production retopology and manual deformation cleanup
-- final face sculpt / exact B00 likeness
+- final face sculpt / exact current-master likeness
 - final hand-authored hair topology
 - final UVs/textures/materials
 - reconnecting the Stage 8 auxiliary spring chains to this exact new hair/cape mesh
@@ -83,4 +83,4 @@ Reconnect the already-tested Stage 8 secondary-motion chains to the v0.4 skinned
 
 ## Authority boundary
 
-This generated mesh is **not Ilyra visual canon**. The approved cleaned B00 remains exact authority and overrides this candidate anywhere they differ.
+This generated mesh is **not Ilyra visual canon**. The current exact master and current visual lock named above override this candidate anywhere they differ. Superseded v0.4 hair, costume, proportion, equipment, or rendering details are historical implementation evidence only.

@@ -2,7 +2,7 @@ extends "res://game/characters/presentation/rig_preview/ual_rig_preview.gd"
 
 # Shared live-production preview implementation for Ilyra replacement meshes.
 # Version-specific wrappers provide only the mesh asset, actor name, and HUD labels.
-# Approved cleaned B00 remains exact visual authority.
+# The current exact repository master and current visual lock remain exact visual authority.
 
 const STRESS_CLIPS := [
 	{"name": &"A_TPose", "hold": 2.0, "label": "Rest / spring rig"},

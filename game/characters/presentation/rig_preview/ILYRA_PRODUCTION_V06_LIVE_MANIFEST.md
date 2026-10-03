@@ -61,7 +61,7 @@ That offline renderer does not simulate `SpringBoneSimulator3D`; spring inertia 
 
 ## Known remaining visual problems
 
-- face is still a generated modeling-base approximation, not the exact B00 likeness
+- face is still a generated modeling-base approximation, not the exact current-master likeness
 - hair volumes are still simple authored/generated forms
 - boot/ankle and some joint transitions need production cleanup
 - extreme roll/crouch poses expose hard-gear intersections
@@ -72,4 +72,4 @@ Do not add another abstract rig stage unless a specific deformation failure requ
 
 ## Authority boundary
 
-This mesh is not Ilyra visual canon. The approved cleaned B00 remains exact visual authority and overrides the v0.6 candidate wherever they differ.
+This mesh is not Ilyra visual canon. Exact current appearance authority is `asset_sources/characters/current/ilyra.jpg` plus `docs/14_ART_AND_VISUALS/PRODUCTION/CHARACTERS/ILYRA_CURRENT_VISUAL_LOCK.md`; those current sources override the v0.6 candidate wherever they differ. v0.6 is retained only as the regression baseline for the seam failure documented above.

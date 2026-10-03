@@ -1,7 +1,7 @@
 extends "res://game/characters/presentation/rig_preview/ilyra_deformation_aware.gd"
 
 # Stage 7: broader production-topology surfaces on the unchanged UAL skeleton.
-# Still a deformation/topology proof; Ilyra's approved B00 remains appearance authority.
+# Still a deformation/topology proof; Ilyra's current exact repository master and visual lock remain appearance authority.
 
 const PRODUCTION_TEST_CLIPS := [
 	{"name": &"A_TPose", "hold": 2.2, "label": "Topology / T-pose"},
@@ -314,4 +314,4 @@ func _update_hud(display_name: String, clip_name: String) -> void:
 	if info_label == null:
 		return
 	var state := "STAGE 7 CONTINUOUS TOPOLOGY" if _use_production_topology else ("STAGE 6 MULTI-BONE" if _use_weighted_deformation else "STAGE 5 RIGID")
-	info_label.text = "Diyse — Ilyra Stage 7 production-topology / UAL proof\n%s  [%s]\n%s | %s | B00 remains visual authority\nSPACE next   P pause   V character/body   L Stage7/Stage6   K Stage6 weighted/rigid   B bones   Q/E rotate   T turntable   R restart" % [display_name, clip_name, state, "BONES ON" if _show_bone_debug else "BONES OFF"]
+	info_label.text = "Diyse — Ilyra Stage 7 production-topology / UAL proof\n%s  [%s]\n%s | %s | current master remains visual authority\nSPACE next   P pause   V character/body   L Stage7/Stage6   K Stage6 weighted/rigid   B bones   Q/E rotate   T turntable   R restart" % [display_name, clip_name, state, "BONES ON" if _show_bone_debug else "BONES OFF"]

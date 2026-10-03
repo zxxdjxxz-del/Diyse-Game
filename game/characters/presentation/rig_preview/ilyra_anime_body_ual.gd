@@ -3,7 +3,7 @@ extends "res://game/characters/presentation/rig_preview/ilyra_ual_proxy.gd"
 # Next-stage Ilyra motion/proportion proof.
 # This keeps the UAL skeleton and animation libraries, but uses a conservatively
 # reshaped skinned body mesh when that generated GLB is present.
-# It is NOT Ilyra visual canon. Her exact B00 remains authoritative.
+# It is NOT Ilyra visual canon. The current exact repository master and current visual lock remain authoritative.
 
 const ANIME_BODY_PATH := "res://asset_sources/animation/ual/Ilyra_AnimeBody_UAL.glb"
 

@@ -1,9 +1,9 @@
 extends "res://game/characters/presentation/rig_preview/ilyra_production_topology.gd"
 
-# Stage 8: dedicated spring-bone secondary motion for Ilyra's long hair and cape.
+# Stage 8: dedicated spring-bone secondary motion for historical proof long-hair geometry and cape.
 # The 65 imported UAL bones are preserved in their original order. This scene appends
 # auxiliary bones only after the UAL core, then lets SpringBoneSimulator3D modify those
-# extra chains after animation playback. Ilyra's approved B00 remains visual authority.
+# extra chains after animation playback. Ilyra's current exact repository master and visual lock remain visual authority.
 
 const UAL_CORE_BONE_COUNT := 65
 const HAIR_CHAIN_COUNT := 5

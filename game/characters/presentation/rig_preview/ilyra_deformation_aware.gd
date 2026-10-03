@@ -1,7 +1,7 @@
 extends "res://game/characters/presentation/rig_preview/ilyra_authored_geometry.gd"
 
 # Stage 6: deformation-aware authored geometry on the unchanged 65-bone UAL skeleton.
-# Long hair, fitted torso cloth, cape and tabards use actual ArrayMesh bone weights
+# Historical proof long-hair geometry, fitted torso cloth, cape and tabards use actual ArrayMesh bone weights
 # across multiple existing UAL bones. Rigid equipment stays bone-attached intentionally.
 
 const DEFORMATION_TEST_CLIPS := [
@@ -386,4 +386,4 @@ func _update_hud(display_name: String, clip_name: String) -> void:
 	var character_state := "CHARACTER ON" if _authored_visible else "UAL BODY ONLY"
 	var deformation_state := "MULTI-BONE SKINNING" if _use_weighted_deformation else "STAGE 5 RIGID COMPARISON"
 	var turn_state := "AUTO TURN ON" if _auto_turntable else "AUTO TURN OFF"
-	info_label.text = "Diyse — Ilyra Stage 6 deformation-aware / UAL proof\n%s  [%s]\n%s | %s | %s\n65-bone UAL core unchanged; B00 remains visual authority\nSPACE next   P pause   V character/body   K weighted/rigid   Q/E rotate   T turntable   R restart" % [display_name, clip_name, character_state, deformation_state, turn_state]
+	info_label.text = "Diyse — Ilyra Stage 6 deformation-aware / UAL proof\n%s  [%s]\n%s | %s | %s\n65-bone UAL core unchanged; current master remains visual authority\nSPACE next   P pause   V character/body   K weighted/rigid   Q/E rotate   T turntable   R restart" % [display_name, clip_name, character_state, deformation_state, turn_state]

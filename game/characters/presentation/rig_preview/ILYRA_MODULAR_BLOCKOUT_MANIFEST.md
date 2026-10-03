@@ -6,7 +6,7 @@ Purpose: determine whether Diyse's approved Ilyra silhouette and equipment langu
 
 ## Authority boundary
 
-The latest approved Ilyra B00 image is authoritative. The blockout may approximate only broad construction and motion behavior. It cannot redefine her face, anatomy, costume, colors, equipment, or proportions.
+Exact current appearance authority is `asset_sources/characters/current/ilyra.jpg` plus `docs/14_ART_AND_VISUALS/PRODUCTION/CHARACTERS/ILYRA_CURRENT_VISUAL_LOCK.md`. The blockout may approximate only broad construction and motion behavior. It cannot redefine her face, anatomy, hair, costume, colors, equipment, proportions, or silhouette.
 
 ## Preserved UAL foundation
 
@@ -56,4 +56,4 @@ The latest approved Ilyra B00 image is authoritative. The blockout may approxima
 
 ## Production conversion still required
 
-A final Ilyra asset still needs purpose-built topology, UVs, textures/material masks, exact anime face modeling, production hair geometry, exact B00 clothing cuts, weighted cloth/hair secondary bones or physics, final Wardrod/shield models, LODs, collision setup, and engine import validation.
+A final Ilyra asset still needs purpose-built topology, UVs, textures/material masks, exact anime face modeling, production hair geometry, exact current-master clothing cuts, weighted cloth/hair secondary bones or physics, final Wardrod/shield models, LODs, collision setup, and engine import validation.

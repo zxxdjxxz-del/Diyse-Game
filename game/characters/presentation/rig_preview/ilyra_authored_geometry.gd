@@ -2,7 +2,7 @@ extends "res://game/characters/presentation/rig_preview/ilyra_modular_blockout.g
 
 # Stage 5: repo-safe authored-geometry proof.
 # Keeps the ResourceLoader-based UAL chain and replaces the most obvious primitive
-# silhouette pieces with custom triangle meshes. The approved Ilyra B00 remains authority.
+# silhouette pieces with custom triangle meshes. Current exact Ilyra master/visual-lock authority remains unchanged.
 
 var authored_cape_pivots: Array[Node3D] = []
 var authored_hair_pivots: Array[Node3D] = []
@@ -276,4 +276,4 @@ func _update_hud(display_name: String, clip_name: String) -> void:
 		return
 	var geometry_state := "AUTHORED GEOMETRY ON" if _authored_visible else "ANIME BODY ONLY"
 	var turn_state := "AUTO TURN ON" if _auto_turntable else "AUTO TURN OFF"
-	info_label.text = "Diyse — Ilyra authored-geometry / UAL proof\n%s  [%s]\n%s | %s | B00 remains exact visual authority\nSPACE next   P pause   V compare   Q/E rotate   T turntable   R restart   ESC quit" % [display_name,clip_name,geometry_state,turn_state]
+	info_label.text = "Diyse — Ilyra authored-geometry / UAL proof\n%s  [%s]\n%s | %s | current master remains exact visual authority\nSPACE next   P pause   V compare   Q/E rotate   T turntable   R restart   ESC quit" % [display_name,clip_name,geometry_state,turn_state]
