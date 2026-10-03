@@ -29,6 +29,12 @@ Known authority boundaries:
 
 Do not silently update the executable catalog by guessing through open Chapter 3/4 formation gaps. Reconcile it only from current owning authority when the implementation pass is intentionally undertaken.
 
+### Adjacent selector calibration — `game/exploration/encounter_balance.gd`
+
+Executable engineering calibration only. Its chapter encounter counts, tier weights, EXP anchors, and ordinary-EXP pools include historical/provisional values and do not override current `docs/09` encounter authority or `docs/10` progression authority. In particular, the Chapter-4 19-encounter value belongs to the retired pre-redesign volume model.
+
+The generic selector stack is not whole-campaign complete: this directory's executable formation catalog currently covers Chapters 1–4, balance profiles stop at Chapter 12, and the reusable area-tuning schema does not yet accept Chapter 13. Do not fabricate missing Chapter 5–13 runtime pools during cleanup; migrate them deliberately from current owner files.
+
 ### `proof_enemy_combat_data.gd`
 
 Engineering proof stats only. Its HP/MP/Speed rows are not production raw-stat authority.

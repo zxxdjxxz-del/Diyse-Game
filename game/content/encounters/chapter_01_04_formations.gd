@@ -127,7 +127,7 @@ const AREAS := {
 	"ch03_old_city_archives": {
 		"chapter": 3,
 		"max_enemies": 6,
-		# Exact composition/subarea eligibility is current authority.
+		# Superseded September 27 implementation rows; composition/subarea eligibility here is not current authority.
 		# Tier weights and EXP remain engineering/runtime values pending final progression certification.
 		"formations": {
 			"light": [
@@ -186,7 +186,7 @@ const AREAS := {
 	"ch04_reaction_annex": {
 		"chapter": 4,
 		"max_enemies": 5,
-		# Repeatable baseline rows use recovered authoritative 30/45/25 weights.
+		# Historical 30/45/25 weights are retained only as Chapter 4 rework input; they are not current formation authority.
 		# Annex Duelist is intentionally not encoded here until its one-time/frequency insertion is locked.
 		"formations": {
 			"light": [

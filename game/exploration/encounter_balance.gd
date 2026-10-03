@@ -3,6 +3,12 @@ class_name DiyseEncounterBalance
 
 const MAX_ACTIVE_ENEMIES := 8
 
+# ENGINEERING RUNTIME CALIBRATION / MIGRATION DATA.
+# `expected_encounters`, tier weights, EXP anchors, and ordinary-EXP pools below are not
+# current encounter/progression authority. Several values predate reopened encounter and
+# EXP/CEXP work (including the retired Chapter 4 19-encounter model).
+# Current composition/placement authority lives in docs/09; progression totals live in docs/10.
+# Keep these values only as executable proof inputs until an intentional migration replaces them.
 const CHAPTER_PROFILES := {
 	1: {
 		"expected_encounters": 18,
