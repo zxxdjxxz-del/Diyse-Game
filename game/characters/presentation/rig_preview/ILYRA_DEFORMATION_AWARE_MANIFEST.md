@@ -32,4 +32,4 @@ The stress sequence includes walking, jogging, crouching, rolling, shield moveme
 
 ## Authority boundary
 
-This remains a rig/deformation proof rather than Ilyra's final production mesh. The approved cleaned B00 remains exact authority for her face identity, vivid jade eyes, blonde hair design, body proportions, clothing cuts, pale-blue cape, restrained decoration, and equipment appearance.
+This remains a rig/deformation proof rather than Ilyra's final production mesh. Exact current appearance authority is `asset_sources/characters/current/ilyra.jpg` plus `docs/14_ART_AND_VISUALS/PRODUCTION/CHARACTERS/ILYRA_CURRENT_VISUAL_LOCK.md`. Historical proof geometry and labels are regression/provenance evidence only and must not restore superseded appearance details.
