@@ -16,8 +16,8 @@ The world map and macro travel routes are not the same thing as playable area de
 Current authority already tells us where places are and, in many cases, the order in which named local spaces are visited. It does **not** yet define the actual explorable geometry needed to build the game.
 
 Examples of already-known macro authority include:
-- chapter travel sequences in `04_WORLD_AND_LORE/MAP/ROADS_AND_CHAPTER_TRAVEL.md`;
-- local Character Quest sequences in `04_WORLD_AND_LORE/LOCATIONS/CHARACTER_QUEST_GEOGRAPHY.md`;
+- chapter travel sequences in `../04_WORLD_AND_LORE/MAP/ROADS_AND_CHAPTER_TRAVEL.md`;
+- local Character Quest sequences in `../04_WORLD_AND_LORE/LOCATIONS/CHARACTER_QUEST_GEOGRAPHY.md`;
 - permanent world-map placement and road relationships.
 
 Those files remain authoritative. This stream fills the missing layer between those authorities and a production-ready environment.
