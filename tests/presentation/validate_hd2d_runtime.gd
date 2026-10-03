@@ -96,19 +96,24 @@ func _test_environment_states() -> void:
 
 func _test_encounter_presentation_without_enemy_placement() -> void:
 	var definition = EncounterPresentationDefinition.new()
-	definition.presentation_id = "elite_ready_not_assigned"
-	definition.encounter_kind = "elite"
+	definition.presentation_id = "fixed_ready_not_assigned"
+	definition.encounter_kind = "fixed"
 	definition.battle_background_family = "placeholder_family"
 	definition.cutscene_tier = "C1"
 	definition.vfx_tier = "V2"
 	definition.form_mode = "same_body_same_hp"
-	_expect(definition.validate_schema().is_empty(), "Generic Elite-capable presentation definition must validate without placing an Elite")
+	_expect(definition.validate_schema().is_empty(), "Generic fixed encounter presentation definition must validate without owning enemy placement")
 
 	var property_names: Array[String] = []
 	for property in definition.get_property_list():
 		property_names.append(str(property.get("name", "")))
 	for forbidden in ["enemy_id", "enemy_ids", "elite_id", "chapter_id", "location_id", "encounter_table"]:
-		_expect(forbidden not in property_names, "Presentation contract must not lock enemy/Elite placement field: %s" % forbidden)
+		_expect(forbidden not in property_names, "Presentation contract must not lock enemy or retired-Elite placement field: %s" % forbidden)
+
+	var retired_elite = EncounterPresentationDefinition.new()
+	retired_elite.presentation_id = "retired_elite_kind"
+	retired_elite.encounter_kind = "elite"
+	_expect(not retired_elite.validate_schema().is_empty(), "Retired Elite encounter kind must be rejected")
 
 func _test_dialogue_presentation_metadata() -> void:
 	var scene = DialogueSceneDefinition.new()
