@@ -26,6 +26,13 @@ func _run() -> void:
 	get_root().add_child(encounters)
 
 	var seed := _request_seed()
+	var construction := {
+		"schema": "diyse_person_context_construction_v1",
+		"continuity_policy": {"mode": "none"},
+		"assertions": [],
+	}
+	seed["context_construction"] = construction.duplicate(true)
+	seed["authority_packet"]["context_construction"] = construction.duplicate(true)
 	var original_seed := seed.duplicate(true)
 	var runtime_input := {
 		"map_context": {
@@ -72,6 +79,11 @@ func _run() -> void:
 	_expect(request.get("canon_snapshot_id") == original_seed.get("canon_snapshot_id"), "runtime merge changed canon_snapshot_id")
 	_expect(request.get("participants") == original_seed.get("participants"), "runtime merge changed participants")
 	_expect(request.get("person_runtime_contexts") == original_seed.get("person_runtime_contexts"), "runtime merge changed person runtime contexts")
+	_expect(request.get("context_construction") == original_seed.get("context_construction"), "runtime merge changed automatic context inputs")
+	var tampered := seed.duplicate(true)
+	tampered["context_construction"]["continuity_policy"] = {"mode": "all_committed_story"}
+	_expect(not builder.validate_request_seed(tampered, "v2.20-Audit135").is_empty(), "construction plan must match authority packet")
+	_expect(not builder.validate_runtime_input({"context_construction": construction}).is_empty(), "live input cannot replace construction policy")
 	_expect(request.get("authority_packet") == original_seed.get("authority_packet"), "runtime merge changed authority_packet")
 	_expect(request.get("exact_line_anchors") == original_seed.get("exact_line_anchors"), "runtime merge changed exact-line anchors")
 	_expect(request.get("current_floor_state") == original_seed.get("current_floor_state"), "runtime merge changed current_floor_state")

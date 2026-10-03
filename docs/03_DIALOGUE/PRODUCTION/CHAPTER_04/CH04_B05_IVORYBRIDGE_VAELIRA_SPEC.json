@@ -82,92 +82,11 @@
     "The party may show Vaelira the copied evidence for geographic comparison; nobody may reveal hidden six-Face network truth.",
     "Beat 5 is first-contact chemistry, not established late-friendship shorthand."
   ],
-  "person_runtime_contexts": {
-    "cyanis": {
-      "memory_authorization": {
-        "mode": "none"
-      },
-      "scene_local_state": {
-        "attention": [
-          "whether Vaelira can help test the lead",
-          "party logistics after recruitment"
-        ],
-        "avoidances": [
-          "recruiting through praise exposition",
-          "making himself the technical intermediary"
-        ]
-      }
-    },
-    "ilyra": {
-      "memory_authorization": {
-        "mode": "none"
-      },
-      "scene_local_state": {
-        "attention": [
-          "whether the visible failure point could be responding correctly to an upstream problem",
-          "how Vaelira reasons"
-        ],
-        "avoidances": [
-          "technical diagnosis",
-          "instant friendship shorthand",
-          "turning what-if into catchphrase"
-        ]
-      }
-    },
-    "torren": {
-      "memory_authorization": {
-        "mode": "none"
-      },
-      "scene_local_state": {
-        "attention": [
-          "geographic fit of north-running route",
-          "practical value of testing the lead"
-        ],
-        "avoidances": [
-          "scientific diagnosis outside expertise"
-        ]
-      }
-    },
-    "nimera": {
-      "memory_authorization": {
-        "mode": "none"
-      },
-      "scene_local_state": {
-        "attention": [
-          "what the map source actually supports",
-          "keeping resemblance distinct from interpretation"
-        ],
-        "avoidances": [
-          "competing with Vaelira as generic smart person",
-          "letting mechanism become historical fact"
-        ]
-      }
-    },
-    "vaelira": {
-      "memory_authorization": {
-        "mode": "none"
-      },
-      "epistemic_state": {
-        "wayfinder_copy": {
-          "status": "new_evidence",
-          "value": "A geographic/infrastructure pattern resembles modern elemental-reaction geometry, but Ancient notation is unreadable and the scale is anomalous."
-        }
-      },
-      "scene_local_state": {
-        "attention": [
-          "diagnose the actual regulator cause",
-          "test whether the map resemblance is real",
-          "decide whether the Annex offers a useful comparison"
-        ],
-        "avoidances": [
-          "arrogance performance",
-          "instant Face/network conclusions",
-          "automatic agreement with Ilyra"
-        ]
-      }
-    }
-  },
   "exact_line_anchors": [],
   "max_beats": 24,
-  "production_cost_ceiling": "moderate"
+  "production_cost_ceiling": "moderate",
+  "story_clock": {
+    "chapter": 4,
+    "sequence": 5
+  }
 }

@@ -20,6 +20,8 @@ on:
       - 'external-services/canary/context/**'
       - 'external-services/canary/brains/**'
       - 'external-services/canary/person_agent.py'
+      - 'external-services/canary/runtime_context.py'
+      - 'tests/dialogue/test_automatic_person_context.py'
       - 'external-services/canary/scene_orchestrator.py'
       - 'external-services/canary/README.md'
       - 'docs/01_CHARACTERS/PLAYABLE/**'
@@ -61,6 +63,8 @@ on:
       - 'external-services/canary/context/**'
       - 'external-services/canary/brains/**'
       - 'external-services/canary/person_agent.py'
+      - 'external-services/canary/runtime_context.py'
+      - 'tests/dialogue/test_automatic_person_context.py'
       - 'external-services/canary/scene_orchestrator.py'
       - 'external-services/canary/README.md'
       - 'docs/01_CHARACTERS/PLAYABLE/**'
@@ -93,8 +97,11 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v4
 
-      - name: Install Agent contract validation dependency
-        run: python3 -m pip install --disable-pip-version-check 'PyYAML>=6,<7'
+      - name: Install Person Agent test dependencies
+        run: python3 -m pip install --disable-pip-version-check -r external-services/canary/requirements.txt
+
+      - name: Validate automatic Person context construction
+        run: python3 tests/dialogue/test_automatic_person_context.py
 
       - name: Validate Agent lived magic and Prime knowledge firewall
         run: python3 tests/dialogue/test_agent_magic_card_context.py

@@ -89,82 +89,11 @@
     "Staff must not be framed as negligent merely because current evidence was previously unavailable.",
     "No one may introduce Wind, Water, a fifth element, or Face-interaction meaning."
   ],
-  "person_runtime_contexts": {
-    "cyanis": {
-      "memory_authorization": {
-        "mode": "none"
-      },
-      "scene_local_state": {
-        "attention": [
-          "what the team needs to test next",
-          "keeping the investigation actionable"
-        ],
-        "avoidances": [
-          "summary-machine role"
-        ]
-      }
-    },
-    "ilyra": {
-      "memory_authorization": {
-        "mode": "none"
-      },
-      "scene_local_state": {
-        "attention": [
-          "which assumptions the diagnostic sequence is testing"
-        ],
-        "avoidances": [
-          "solving technical mechanism",
-          "forced speculative spiral"
-        ]
-      }
-    },
-    "torren": {
-      "memory_authorization": {
-        "mode": "none"
-      },
-      "scene_local_state": {
-        "attention": [
-          "practical facility state and observed behavior"
-        ],
-        "avoidances": [
-          "pretending laboratory expertise"
-        ]
-      }
-    },
-    "nimera": {
-      "memory_authorization": {
-        "mode": "none"
-      },
-      "scene_local_state": {
-        "attention": [
-          "how anomalies were recorded/categorized",
-          "what the surviving evidence actually says"
-        ],
-        "avoidances": [
-          "mechanism ownership",
-          "retroactive negligence claims"
-        ]
-      }
-    },
-    "vaelira": {
-      "memory_authorization": {
-        "mode": "none"
-      },
-      "scene_local_state": {
-        "attention": [
-          "controlled comparison",
-          "boundary conditions",
-          "what observation would falsify her working model"
-        ],
-        "avoidances": [
-          "claiming the Wayfinder is solved",
-          "blaming staff",
-          "treating resemblance as identity"
-        ]
-      }
-    }
-  },
   "exact_line_anchors": [],
   "max_beats": 20,
-  "production_cost_ceiling": "moderate"
+  "production_cost_ceiling": "moderate",
+  "story_clock": {
+    "chapter": 4,
+    "sequence": 6
+  }
 }

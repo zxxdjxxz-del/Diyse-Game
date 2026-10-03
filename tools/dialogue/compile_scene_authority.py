@@ -25,6 +25,8 @@ from pathlib import Path
 from typing import Any
 
 ROOT = Path(__file__).resolve().parents[2]
+sys.path.insert(0, str(ROOT / "external-services/canary"))
+from runtime_context import SCHEMA as CONTEXT_SCHEMA, ContextError, build_person_context, validate_plan
 SPEC_SCHEMA = "diyse_scene_authority_spec_v1"
 AUTHORITY_PACKET_SCHEMA = "diyse_scene_authority_packet_v1"
 COMPILER_VERSION = "1.3.0"
@@ -348,6 +350,21 @@ def _compile_exact_anchors(
     return anchors, provenance
 
 
+def _derive_story_clock(spec: dict[str, Any]) -> dict[str, int]:
+    explicit = spec.get("story_clock")
+    if explicit is not None:
+        return copy.deepcopy(explicit)
+    match = re.match(r"^CH(\\d{2})_B(\\d{2})(?:_|$)", str(spec.get("scene_id", "")))
+    if not match:
+        return {}
+    chapter = int(match.group(1))
+    sequence = int(match.group(2))
+    chapter_id = str(spec.get("chapter_id", ""))
+    if chapter_id == f"chapter_{chapter:02d}":
+        return {"chapter": chapter, "sequence": sequence}
+    return {}
+
+
 def validate_spec(spec: dict[str, Any]) -> None:
     if not isinstance(spec, dict):
         raise CompileError("Scene authority spec must be a JSON object")
@@ -476,6 +493,114 @@ def compile_spec_data(spec: dict[str, Any], root: Path = ROOT) -> dict[str, Any]
     anchors, anchor_provenance = _compile_exact_anchors(root, spec, participants)
     source_records.extend(anchor_provenance)
 
+    # Authors provide authority once, not a hand-built context for every person.
+    # Structured annotations disambiguate ownership/status; prose is never guessed.
+    context_plan = {
+        "schema": CONTEXT_SCHEMA,
+        "chapter_id": spec["chapter_id"],
+        "scene_identity": {"scene_id": spec["scene_id"], "story_position": spec["story_position"],
+                           "participants": participants},
+        "forbidden_reveals": copy.deepcopy(spec.get("forbidden_reveals", [])),
+        "story_clock": _derive_story_clock(spec),
+        "forward_only": spec.get("forward_only", False),
+        "continuity_policy": copy.deepcopy(spec.get("continuity_policy", {"mode": "none"})),
+        "memory_policies": {cid: context["memory_authorization"]
+                            for cid, context in person_runtime_contexts.items()
+                            if cid in {_normalize_character_id(str(x)) for x in spec.get("person_runtime_contexts", {})}},
+        "assertions": [],
+    }
+    legacy_manual_context_fields: dict[str, dict[str, Any]] = {}
+    for cid, context in person_runtime_contexts.items():
+        manual = {key: copy.deepcopy(value) for key, value in context.items() if key != "memory_authorization"}
+        if manual:
+            legacy_manual_context_fields[cid] = manual
+    try:
+        validate_plan(context_plan, participants)
+    except ContextError as exc:
+        raise CompileError(str(exc)) from exc
+    # Owning scene sections can embed reusable typed annotations. Selecting that
+    # authority section is sufficient; authors do not repeat the annotations in specs.
+    for record in source_records:
+        if record["category"] != "story_authority":
+            continue
+        for selection in record["selections"]:
+            for match in re.finditer(r"^```diyse-context\s*\n(.*?)^```\s*$", selection["text"], re.M | re.S):
+                try:
+                    entries = json.loads(match.group(1))
+                except json.JSONDecodeError as exc:
+                    raise CompileError("Invalid diyse-context JSON in selected story authority") from exc
+                if not isinstance(entries, list):
+                    raise CompileError("diyse-context block must contain an assertion list")
+                for raw in entries:
+                    if not isinstance(raw, dict):
+                        raise CompileError("diyse-context assertions must be objects")
+                    assertion = copy.deepcopy(raw)
+                    assertion["source_proof"] = {"path": record["path"], "file_sha256": record["file_sha256"],
+                                                 "section_sha256": selection["sha256"]}
+                    context_plan["assertions"].append(assertion)
+    assertions = spec.get("context_assertions", [])
+    if not isinstance(assertions, list):
+        raise CompileError("context_assertions must be a list")
+    for raw in assertions:
+        if not isinstance(raw, dict) or not isinstance(raw.get("source"), dict):
+            raise CompileError("Every context assertion requires an exact current source")
+        record = _compile_source_record(root, raw["source"], "person_context_authority")
+        quote = raw.get("source_quote")
+        if not isinstance(quote, str) or not quote.strip() or not any(
+                quote in selection["text"] for selection in record["selections"]):
+            raise CompileError("Context assertion source_quote must occur verbatim in its selected source")
+        assertion = copy.deepcopy(raw)
+        assertion.pop("source")
+        assertion.pop("source_quote")
+        assertion["source_proof"] = {"path": record["path"], "file_sha256": record["file_sha256"],
+                                     "quote_sha256": _sha256_text(quote)}
+        context_plan["assertions"].append(assertion)
+        source_records.append(record)
+    try:
+        validate_plan(context_plan, participants)
+    except ContextError as exc:
+        raise CompileError(str(exc)) from exc
+
+    # Legacy manual runtime blobs are never consumed as authority. During migration,
+    # they may remain in a pre-dialogue spec only when selected current story authority
+    # already contains typed replacements for every manual field. Otherwise compilation fails.
+    typed_coverage = {
+        (str(item.get("owner_id", "")), str(item.get("kind", "")), str(item.get("key", "")))
+        for item in context_plan["assertions"]
+        if isinstance(item, dict)
+    }
+    local_legacy_key_map = {
+        "attention": "attention_target",
+        "avoidances": "immediate_avoidances",
+        "immediate_wants": "immediate_wants",
+        "immediate_avoidances": "immediate_avoidances",
+        "attention_target": "attention_target",
+        "participation": "participation",
+        "private_appraisal": "private_appraisal",
+        "visible_behavior": "visible_behavior",
+        "spoken_expression": "spoken_expression",
+        "withheld_content": "withheld_content",
+    }
+    for cid, manual in legacy_manual_context_fields.items():
+        for namespace, value in manual.items():
+            if namespace == "epistemic_state" and isinstance(value, dict):
+                missing = [key for key in value if (cid, "epistemic", str(key)) not in typed_coverage]
+            elif namespace == "scene_local_state" and isinstance(value, dict):
+                unsupported = [key for key in value if key not in local_legacy_key_map]
+                if unsupported:
+                    raise CompileError(f"{cid}: unsupported legacy scene-local fields: {unsupported}")
+                missing = [key for key in value if (cid, "local", local_legacy_key_map[key]) not in typed_coverage]
+            elif namespace == "relationship_runtime_state" and isinstance(value, dict):
+                # Old relationship blobs were structurally ambiguous; they require an explicit
+                # source-backed migration rather than automatic interpretation.
+                missing = list(value.keys())
+            else:
+                raise CompileError(f"{cid}: use source-backed context_assertions instead of manual runtime state")
+            if missing:
+                raise CompileError(
+                    f"{cid}: legacy {namespace} lacks typed source-backed replacements for {missing}"
+                )
+
     spec_sha256 = _sha256_text(_canonical_json(spec))
     authority_packet: dict[str, Any] = {
         "schema": AUTHORITY_PACKET_SCHEMA,
@@ -484,6 +609,7 @@ def compile_spec_data(spec: dict[str, Any], root: Path = ROOT) -> dict[str, Any]
         "scene_id": spec["scene_id"],
         "chapter_id": spec["chapter_id"],
         "scene_spec_sha256": spec_sha256,
+        "context_construction": context_plan,
         "participant_profile_sources": participant_fingerprints,
         "source_records": source_records,
         "compiler_guards": {
@@ -496,6 +622,7 @@ def compile_spec_data(spec: dict[str, Any], root: Path = ROOT) -> dict[str, Any]
             "missing_markdown_section_is_fatal": True,
             "no_silent_whole_file_fallback": True,
             "runtime_state_not_invented": True,
+            "legacy_manual_runtime_state_requires_typed_source_replacement": True,
         },
     }
     authority_packet["bundle_sha256"] = _sha256_text(_canonical_json(authority_packet))
@@ -513,6 +640,7 @@ def compile_spec_data(spec: dict[str, Any], root: Path = ROOT) -> dict[str, Any]
         "participants": participants,
         "participant_profiles": participant_profiles,
         "person_runtime_contexts": person_runtime_contexts,
+        "context_construction": copy.deepcopy(context_plan),
         "scene_purpose": spec["scene_purpose"],
         "authority_packet": authority_packet,
         "scene_context": copy.deepcopy(spec.get("scene_context_seed", {})),
@@ -525,6 +653,10 @@ def compile_spec_data(spec: dict[str, Any], root: Path = ROOT) -> dict[str, Any]
         "production_cost_ceiling": str(spec.get("production_cost_ceiling", "economical")),
     }
 
+    request_seed["person_runtime_contexts"] = {
+        cid: build_person_context(request_seed, cid) for cid in participants
+    }
+
     return {
         "schema": "diyse_scene_authority_compilation_v1",
         "compiler_version": COMPILER_VERSION,
@@ -532,7 +664,8 @@ def compile_spec_data(spec: dict[str, Any], root: Path = ROOT) -> dict[str, Any]
         "request_seed": request_seed,
         "dynamic_runtime_requirements": [
             "live persistent Person-Agent revisions/state and safe memory indexes are fetched by the Orchestrator",
-            "persistent story memory is unavailable unless person_runtime_contexts explicitly authorizes it",
+            "automatic contexts are rebuilt from context_construction and authorized committed continuity",
+            "persistent story memory is unavailable unless continuity_policy or a per-person policy authorizes it",
             "historical/regeneration scenes should authorize memory by explicit IDs or source scene IDs rather than all_committed_story",
             "current recent-gameplay/combat/fatigue state must be supplied or merged at build time when relevant",
             "live encounter pressure must be supplied at build time when relevant",
