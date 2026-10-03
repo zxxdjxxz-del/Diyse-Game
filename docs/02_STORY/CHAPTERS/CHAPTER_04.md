@@ -414,6 +414,512 @@ Do not fully repair the headquarters between chapters.
 - no one is confirmed badly hurt;
 - no Black Host, Ancient-system, Prime, or Last Sentinel theory is raised at the wake-up.
 
+### Typed Person-context authority
+
+This machine-readable block is current scene authority for automatic Person-context construction. It encodes scene-local knowledge, relationship chronology, motives, and reveal boundaries without preassigning dialogue performance.
+
+```diyse-context
+[
+  {
+    "id": "ch04b01_cyanis_ilyra_stage",
+    "owner_id": "cyanis",
+    "kind": "relationship",
+    "key": "chronology_stage",
+    "value": "chapter_04_established_mutual_practical_care",
+    "target_id": "ilyra"
+  },
+  {
+    "id": "ch04b01_cyanis_ilyra_silence",
+    "owner_id": "cyanis",
+    "kind": "relationship",
+    "key": "silence_comfort",
+    "value": "established",
+    "target_id": "ilyra"
+  },
+  {
+    "id": "ch04b01_cyanis_torren_stage",
+    "owner_id": "cyanis",
+    "kind": "relationship",
+    "key": "chronology_stage",
+    "value": "chapter_04_growing_close_friendship",
+    "target_id": "torren"
+  },
+  {
+    "id": "ch04b01_cyanis_torren_teasing",
+    "owner_id": "cyanis",
+    "kind": "relationship",
+    "key": "teasing_permission",
+    "value": "earned_not_late_game_maximal",
+    "target_id": "torren"
+  },
+  {
+    "id": "ch04b01_cyanis_nimera_stage",
+    "owner_id": "cyanis",
+    "kind": "relationship",
+    "key": "chronology_stage",
+    "value": "chapter_04_newer_party_relationship",
+    "target_id": "nimera"
+  },
+  {
+    "id": "ch04b01_cyanis_nimera_trust",
+    "owner_id": "cyanis",
+    "kind": "relationship",
+    "key": "trust",
+    "value": "growing_intellectual_and_social",
+    "target_id": "nimera"
+  },
+  {
+    "id": "ch04b01_ilyra_cyanis_stage",
+    "owner_id": "ilyra",
+    "kind": "relationship",
+    "key": "chronology_stage",
+    "value": "chapter_04_established_mutual_practical_care",
+    "target_id": "cyanis"
+  },
+  {
+    "id": "ch04b01_ilyra_cyanis_company",
+    "owner_id": "ilyra",
+    "kind": "relationship",
+    "key": "ordinary_company_comfort",
+    "value": "established",
+    "target_id": "cyanis"
+  },
+  {
+    "id": "ch04b01_ilyra_torren_stage",
+    "owner_id": "ilyra",
+    "kind": "relationship",
+    "key": "chronology_stage",
+    "value": "chapter_04_low_pressure_respect_growing_friendship",
+    "target_id": "torren"
+  },
+  {
+    "id": "ch04b01_ilyra_torren_trust",
+    "owner_id": "ilyra",
+    "kind": "relationship",
+    "key": "trust",
+    "value": "established_professional_growing_personal",
+    "target_id": "torren"
+  },
+  {
+    "id": "ch04b01_ilyra_nimera_stage",
+    "owner_id": "ilyra",
+    "kind": "relationship",
+    "key": "chronology_stage",
+    "value": "chapter_04_new_warm_friendship",
+    "target_id": "nimera"
+  },
+  {
+    "id": "ch04b01_ilyra_nimera_banter",
+    "owner_id": "ilyra",
+    "kind": "relationship",
+    "key": "profanity_vulgar_banter_permission",
+    "value": "early_earned",
+    "target_id": "nimera"
+  },
+  {
+    "id": "ch04b01_torren_cyanis_stage",
+    "owner_id": "torren",
+    "kind": "relationship",
+    "key": "chronology_stage",
+    "value": "chapter_04_growing_brother_like_friendship",
+    "target_id": "cyanis"
+  },
+  {
+    "id": "ch04b01_torren_cyanis_trust",
+    "owner_id": "torren",
+    "kind": "relationship",
+    "key": "trust",
+    "value": "strong_practical_growing_personal",
+    "target_id": "cyanis"
+  },
+  {
+    "id": "ch04b01_torren_ilyra_stage",
+    "owner_id": "torren",
+    "kind": "relationship",
+    "key": "chronology_stage",
+    "value": "chapter_04_low_pressure_respect_growing_friendship",
+    "target_id": "ilyra"
+  },
+  {
+    "id": "ch04b01_torren_ilyra_company",
+    "owner_id": "torren",
+    "kind": "relationship",
+    "key": "ordinary_company_comfort",
+    "value": "growing_easy",
+    "target_id": "ilyra"
+  },
+  {
+    "id": "ch04b01_torren_nimera_stage",
+    "owner_id": "torren",
+    "kind": "relationship",
+    "key": "chronology_stage",
+    "value": "chapter_04_early_competence_respect",
+    "target_id": "nimera"
+  },
+  {
+    "id": "ch04b01_torren_nimera_language",
+    "owner_id": "torren",
+    "kind": "relationship",
+    "key": "borrowed_language",
+    "value": "no_later_paternal_shorthand_yet",
+    "target_id": "nimera"
+  },
+  {
+    "id": "ch04b01_nimera_cyanis_stage",
+    "owner_id": "nimera",
+    "kind": "relationship",
+    "key": "chronology_stage",
+    "value": "chapter_04_newer_intellectual_push_pull",
+    "target_id": "cyanis"
+  },
+  {
+    "id": "ch04b01_nimera_cyanis_disagreement",
+    "owner_id": "nimera",
+    "kind": "relationship",
+    "key": "disagreement_tolerance",
+    "value": "growing",
+    "target_id": "cyanis"
+  },
+  {
+    "id": "ch04b01_nimera_ilyra_stage",
+    "owner_id": "nimera",
+    "kind": "relationship",
+    "key": "chronology_stage",
+    "value": "chapter_04_new_warm_friendship",
+    "target_id": "ilyra"
+  },
+  {
+    "id": "ch04b01_nimera_ilyra_banter",
+    "owner_id": "nimera",
+    "kind": "relationship",
+    "key": "profanity_vulgar_banter_permission",
+    "value": "early_earned",
+    "target_id": "ilyra"
+  },
+  {
+    "id": "ch04b01_nimera_torren_stage",
+    "owner_id": "nimera",
+    "kind": "relationship",
+    "key": "chronology_stage",
+    "value": "chapter_04_early_competence_respect",
+    "target_id": "torren"
+  },
+  {
+    "id": "ch04b01_nimera_torren_language",
+    "owner_id": "nimera",
+    "kind": "relationship",
+    "key": "borrowed_language",
+    "value": "no_later_paternal_shorthand_yet",
+    "target_id": "torren"
+  },
+  {
+    "id": "ch04b01_cyanis_morning_report",
+    "owner_id": "cyanis",
+    "kind": "epistemic",
+    "key": "morning_disturbance",
+    "value": "Torren reports that a very large creature crossed or approached occupied Cresthaven grounds.",
+    "status": "trusted_report"
+  },
+  {
+    "id": "ch04b01_cyanis_last_sentinel",
+    "owner_id": "cyanis",
+    "kind": "epistemic",
+    "key": "last_sentinel",
+    "value": "The Authority Construct ended with LAST SENTINEL CONFIRMED; his Card later stabilized deep Ruby.",
+    "status": "known_fact"
+  },
+  {
+    "id": "ch04b01_cyanis_prime_hypothesis",
+    "owner_id": "cyanis",
+    "kind": "epistemic",
+    "key": "prime_card_classification",
+    "value": "His Card might be what Ancient sources called a Prime Card because of the Authority Construct / Ruby sequence, but he does not know that it is one.",
+    "status": "inference"
+  },
+  {
+    "id": "ch04b01_cyanis_ivorybridge",
+    "owner_id": "cyanis",
+    "kind": "epistemic",
+    "key": "ivorybridge",
+    "value": "The party already chose Ivorybridge as the next practical northern investigation point in Chapter 3.",
+    "status": "known_fact"
+  },
+  {
+    "id": "ch04b01_ilyra_morning_report",
+    "owner_id": "ilyra",
+    "kind": "epistemic",
+    "key": "morning_disturbance",
+    "value": "A very large creature crossed or approached the grounds; no confirmed casualty is known at scene start.",
+    "status": "trusted_report"
+  },
+  {
+    "id": "ch04b01_ilyra_last_sentinel",
+    "owner_id": "ilyra",
+    "kind": "epistemic",
+    "key": "last_sentinel",
+    "value": "She witnessed the Authority Construct sequence and Cyanis's later deep-Ruby Card stabilization.",
+    "status": "known_fact"
+  },
+  {
+    "id": "ch04b01_ilyra_prime_hypothesis",
+    "owner_id": "ilyra",
+    "kind": "epistemic",
+    "key": "prime_card_classification",
+    "value": "Cyanis's Card might be one of the Ancient Prime Cards, but that remains an unproven possibility.",
+    "status": "inference"
+  },
+  {
+    "id": "ch04b01_torren_morning_observation",
+    "owner_id": "torren",
+    "kind": "epistemic",
+    "key": "morning_disturbance",
+    "value": "He personally saw fresh evidence that a very large creature crossed or approached occupied Cresthaven grounds.",
+    "status": "direct_observation"
+  },
+  {
+    "id": "ch04b01_torren_creature_identity",
+    "owner_id": "torren",
+    "kind": "epistemic",
+    "key": "creature_identity",
+    "value": "The evidence is consistent with a huge territorial animal, but Elder Thornhide identification must be earned from inspecting the ground.",
+    "status": "inference"
+  },
+  {
+    "id": "ch04b01_torren_casualty_state",
+    "owner_id": "torren",
+    "kind": "epistemic",
+    "key": "casualty_state",
+    "value": "He has no confirmed missing resident or casualty when he wakes or gathers the group.",
+    "status": "known_fact"
+  },
+  {
+    "id": "ch04b01_torren_last_sentinel",
+    "owner_id": "torren",
+    "kind": "epistemic",
+    "key": "last_sentinel",
+    "value": "He witnessed LAST SENTINEL CONFIRMED and the later Ruby stabilization; he does not know the mechanism.",
+    "status": "known_fact"
+  },
+  {
+    "id": "ch04b01_torren_prime_hypothesis",
+    "owner_id": "torren",
+    "kind": "epistemic",
+    "key": "prime_card_classification",
+    "value": "The Authority Construct naming Last Sentinel immediately before the Card stabilized makes Prime plausible, but not proven.",
+    "status": "inference"
+  },
+  {
+    "id": "ch04b01_torren_range_conflict",
+    "owner_id": "torren",
+    "kind": "epistemic",
+    "key": "restoration_range_conflict",
+    "value": "Fresh and older field evidence may support that Cresthaven's renewed use is interfering with an established large-animal range; this must be inferred from inspected ground.",
+    "status": "inference"
+  },
+  {
+    "id": "ch04b01_nimera_morning_report",
+    "owner_id": "nimera",
+    "kind": "epistemic",
+    "key": "morning_disturbance",
+    "value": "She knows only the group's reported morning disturbance until she sees the physical evidence herself.",
+    "status": "trusted_report"
+  },
+  {
+    "id": "ch04b01_nimera_last_sentinel",
+    "owner_id": "nimera",
+    "kind": "epistemic",
+    "key": "last_sentinel",
+    "value": "She witnessed the Authority Construct's exact LAST SENTINEL CONFIRMED wording and the Card's later Ruby stabilization.",
+    "status": "known_fact"
+  },
+  {
+    "id": "ch04b01_nimera_prime_term",
+    "owner_id": "nimera",
+    "kind": "epistemic",
+    "key": "prime_card_term",
+    "value": "Ancient sources repeatedly use Prime Card distinctly from ordinary Standard Cards; later historians did not understand the term.",
+    "status": "known_fact"
+  },
+  {
+    "id": "ch04b01_nimera_prime_hypothesis",
+    "owner_id": "nimera",
+    "kind": "epistemic",
+    "key": "cyanis_prime_classification",
+    "value": "Prime Card is now a materially better hypothesis for Cyanis's Card after the Authority Construct / Ruby sequence, but evidence remains insufficient for classification.",
+    "status": "inference"
+  },
+  {
+    "id": "ch04b01_cyanis_wants",
+    "owner_id": "cyanis",
+    "kind": "local",
+    "key": "immediate_wants",
+    "value": [
+      "find out whether anyone at Cresthaven is in danger",
+      "understand what crossed the grounds",
+      "move quickly without inventing a threat theory"
+    ]
+  },
+  {
+    "id": "ch04b01_cyanis_avoid",
+    "owner_id": "cyanis",
+    "kind": "local",
+    "key": "immediate_avoidances",
+    "value": [
+      "turning the morning into a Chapter-3 recap",
+      "taking over Torren's field expertise",
+      "treating the disturbance as hostile before evidence supports it"
+    ]
+  },
+  {
+    "id": "ch04b01_cyanis_attention",
+    "owner_id": "cyanis",
+    "kind": "local",
+    "key": "attention_target",
+    "value": [
+      "occupied people and exposed spaces",
+      "Torren's direct field evidence",
+      "what action is actually needed now"
+    ]
+  },
+  {
+    "id": "ch04b01_cyanis_no_prime_open",
+    "owner_id": "cyanis",
+    "kind": "local",
+    "key": "unwilling_to_discuss",
+    "value": [
+      "Prime / Last Sentinel theory during the wake-up and initial disturbance response"
+    ]
+  },
+  {
+    "id": "ch04b01_ilyra_wants",
+    "owner_id": "ilyra",
+    "kind": "local",
+    "key": "immediate_wants",
+    "value": [
+      "confirm the actual human risk",
+      "help inspect the situation without turning it into a medical scene",
+      "respond to evidence rather than alarm"
+    ]
+  },
+  {
+    "id": "ch04b01_ilyra_avoid",
+    "owner_id": "ilyra",
+    "kind": "local",
+    "key": "immediate_avoidances",
+    "value": [
+      "automatic caretaking assignment",
+      "inventing intent for the creature",
+      "acting as the group's moral or safety narrator"
+    ]
+  },
+  {
+    "id": "ch04b01_ilyra_attention",
+    "owner_id": "ilyra",
+    "kind": "local",
+    "key": "attention_target",
+    "value": [
+      "whether anyone is actually hurt or missing",
+      "what physical evidence changes the risk picture",
+      "the others' direct observations"
+    ]
+  },
+  {
+    "id": "ch04b01_ilyra_no_prime_open",
+    "owner_id": "ilyra",
+    "kind": "local",
+    "key": "unwilling_to_discuss",
+    "value": [
+      "Prime / Last Sentinel theory during the wake-up and initial disturbance response"
+    ]
+  },
+  {
+    "id": "ch04b01_torren_wants",
+    "owner_id": "torren",
+    "kind": "local",
+    "key": "immediate_wants",
+    "value": [
+      "get the group looking at the physical disturbance quickly",
+      "determine what animal crossed the grounds and where it went",
+      "keep the read bounded to what the ground actually shows"
+    ]
+  },
+  {
+    "id": "ch04b01_torren_avoid",
+    "owner_id": "torren",
+    "kind": "local",
+    "key": "immediate_avoidances",
+    "value": [
+      "speculating about Black Host or Ancient causes without evidence",
+      "turning route or animal expertise into certainty before inspection",
+      "long briefing before the player can inspect the grounds"
+    ]
+  },
+  {
+    "id": "ch04b01_torren_attention",
+    "owner_id": "torren",
+    "kind": "local",
+    "key": "attention_target",
+    "value": [
+      "tracks",
+      "damage and marking pattern",
+      "older range signs",
+      "where restoration changed the animal's habitual movement"
+    ]
+  },
+  {
+    "id": "ch04b01_torren_no_prime_open",
+    "owner_id": "torren",
+    "kind": "local",
+    "key": "unwilling_to_discuss",
+    "value": [
+      "Prime / Last Sentinel theory during the wake-up and initial disturbance response"
+    ]
+  },
+  {
+    "id": "ch04b01_nimera_wants",
+    "owner_id": "nimera",
+    "kind": "local",
+    "key": "immediate_wants",
+    "value": [
+      "see what evidence actually exists before adding a theory",
+      "preserve distinctions between observation and inference",
+      "help solve the immediate problem rather than drag the party back into archive analysis"
+    ]
+  },
+  {
+    "id": "ch04b01_nimera_avoid",
+    "owner_id": "nimera",
+    "kind": "local",
+    "key": "immediate_avoidances",
+    "value": [
+      "generic historian exposition",
+      "treating animal evidence as her expert domain",
+      "using the Prime Card term to classify Cyanis's Card"
+    ]
+  },
+  {
+    "id": "ch04b01_nimera_attention",
+    "owner_id": "nimera",
+    "kind": "local",
+    "key": "attention_target",
+    "value": [
+      "what is directly observable",
+      "contradictions between claims and evidence",
+      "whether any conclusion is being promoted too quickly"
+    ]
+  },
+  {
+    "id": "ch04b01_nimera_no_prime_open",
+    "owner_id": "nimera",
+    "kind": "local",
+    "key": "unwilling_to_discuss",
+    "value": [
+      "Prime / Last Sentinel theory during the wake-up and initial disturbance response"
+    ]
+  }
+]
+```
+
 ### Disturbed grounds
 First player-control objective:
 > **Inspect the disturbance**
