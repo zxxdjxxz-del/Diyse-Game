@@ -24,6 +24,28 @@ HISTORICAL_REFERENCE_SEGMENTS = (
     "DIYSE_ASSET_LIBRARY_MASTER_2026-08-30_v5",
     "Asset Library Master v5",
 )
+RETIRED_RIG_STAGE_TOKENS = (
+    "ILYRA_AUTHORED_GEOMETRY_MANIFEST.md",
+    "ILYRA_DEFORMATION_AWARE_MANIFEST.md",
+    "ILYRA_MODULAR_BLOCKOUT_MANIFEST.md",
+    "ILYRA_PRODUCTION_MESH_V04_MANIFEST.md",
+    "ILYRA_PRODUCTION_TOPOLOGY_MANIFEST.md",
+    "ILYRA_PRODUCTION_V06_LIVE_MANIFEST.md",
+    "ILYRA_SECONDARY_MOTION_MANIFEST.md",
+    "ilyra_anime_body_ual.",
+    "ilyra_authored_geometry.",
+    "ilyra_deformation_aware.",
+    "ilyra_modular_blockout.",
+    "ilyra_production_topology.",
+    "ilyra_production_v06_preview.",
+    "ilyra_secondary_motion.",
+    "ilyra_ual_proxy.",
+    "ual_rig_preview.tscn",
+    "generate_ilyra_anime_body_proxy.py",
+    "Ilyra_AnimeBody_UAL.glb",
+    "Ilyra_ProductionMesh_v06",
+    "Ilyra_ProductionMesh_v04",
+)
 TEXT_EXTENSIONS = {
     ".md", ".txt", ".json", ".py", ".gd", ".yml", ".yaml", ".cfg",
     ".tres", ".tscn", ".toml", ".ini",
@@ -56,6 +78,11 @@ def main() -> int:
             errors.append(
                 f"{path.relative_to(ROOT)} is historical asset upload-event bookkeeping; current source manifests own active provenance"
             )
+        relative_text = path.relative_to(ROOT).as_posix()
+        if any(token in relative_text for token in RETIRED_RIG_STAGE_TOKENS):
+            errors.append(
+                f"{path.relative_to(ROOT)} is a superseded Ilyra rig-preview stage; use the current v0.7 preview path"
+            )
 
     validator_path = Path(__file__).resolve()
     for path in ROOT.rglob("*"):
@@ -82,6 +109,11 @@ def main() -> int:
         if historical_refs:
             errors.append(
                 f"{path.relative_to(ROOT)} still references removed experiment/research history: {', '.join(historical_refs)}"
+            )
+        retired_rig_refs = sorted({token for token in RETIRED_RIG_STAGE_TOKENS if token in text})
+        if retired_rig_refs:
+            errors.append(
+                f"{path.relative_to(ROOT)} still references superseded Ilyra rig-preview stage: {', '.join(retired_rig_refs)}"
             )
 
     if errors:

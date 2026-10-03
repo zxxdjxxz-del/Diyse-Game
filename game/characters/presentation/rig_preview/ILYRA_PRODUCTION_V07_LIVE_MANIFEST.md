@@ -1,69 +1,55 @@
-# Ilyra Production Mesh v0.7 — seam-repaired live deformation candidate
+# Ilyra Production Mesh v0.7 — current live deformation candidate
 
-v0.7 keeps the v0.6 UAL + spring architecture unchanged and corrects the largest animated seam defects found by the literal UAL deformation contact sheet.
+**Status:** CURRENT ILYRA REPLACEMENT-MESH DEFORMATION TEST
 
 ## Binary asset
 
-Copy:
+Current working binary:
 
 `Ilyra_ProductionMesh_v07_UAL_SpringReady.glb`
 
-to:
+Expected local path:
 
 `asset_sources/animation/ual/`
 
-Then run:
+Current preview:
 
 `game/characters/presentation/rig_preview/ilyra_production_v07_preview.tscn`
 
-## What changed from v0.6
+## Current architecture
 
-The v0.6 mesh ended its flexible clothing at the `lowerarm_*` and `calf_*` bones while its rigid gloves/boots followed `hand_*` and `foot_*`. Under animation this created large visible gaps.
+- first **65** skin joints are the unchanged UAL humanoid core;
+- **35** auxiliary hair/cape spring bones are appended after the core;
+- **100** skin joints total;
+- UAL1 + UAL2 animation libraries use the shared core skeleton contract;
+- the pale-blue cape is spring-weighted across three chains;
+- five proof hair volumes are spring-weighted for secondary-motion architecture testing;
+- covered mannequin-derived torso/limb understructure is pruned;
+- flexible underlayers bridge each `lowerarm → hand` and `calf → foot` deformation span;
+- rigid bracers, gloves, greaves, and boots remain attached to their intended hard-gear bones.
 
-Measured v0.6 gaps across Walk/Crouch/Roll were approximately:
+Current connector-to-hard-gear gaps measured across Walk/Crouch/Roll are approximately **0.01–0.025 m**.
 
-- bracer / glove region: 0.21–0.23 m
-- greave / boot region: 0.36–0.40 m
+## Current stress sequence
 
-v0.7 adds four flexible underlayers:
+T-pose → Walk → Jog → Sprint → Crouch → Jump Start → Jump Land → Roll → Shield Dash → Warden Cast → Knockback.
 
-- `FlexibleForearmUnderlayer_l`
-- `FlexibleForearmUnderlayer_r`
-- `FlexibleShinUnderlayer_l`
-- `FlexibleShinUnderlayer_r`
-
-They are multi-bone skinned across:
-
-- `lowerarm → hand`
-- `calf → foot`
-
-The rigid bracers, gloves, greaves and boots remain rigid on their original attachment bones.
-
-After the repair, measured connector-to-hard-gear gaps across Walk/Crouch/Roll are approximately 0.01–0.025 m.
-
-## What did not change
-
-- first 65 skin joints are still the unchanged UAL core
-- 35 auxiliary hair/cape spring bones remain appended after the core
-- the v0.7 proof long-hair meshes remain spring-weighted for architecture testing; this does not lock their visual design
-- actual replacement cape remains spring-weighted
-- UAL animation-library merge path is unchanged
-- SpringBoneSimulator3D starter settings are unchanged
-- covered mannequin-derived torso/limb understructure remains pruned
+The shared implementation is owned by:
+`ilyra_production_preview_base.gd`
 
 ## Known remaining issues
 
-- face is still a generated approximation, not exact current-master likeness
-- the proof long-hair geometry does not match Ilyra's current neatly tied-back shorter hair and must be replaced during visual-fidelity work
-- boots/gloves/bracers/greaves remain primitive production-base shapes
-- extreme roll/crouch poses still produce hard-gear and tabard intersections
-- spring inertia has not been visually executed in this environment
-- final UVs, textures, materials and exact hair topology remain open
+- face is still a generated approximation, not exact current-master likeness;
+- proof long-hair geometry does not match Ilyra's current neatly tied-back shorter hair and must be replaced during visual-fidelity work;
+- boots/gloves/bracers/greaves remain primitive production-base shapes;
+- extreme roll/crouch poses still produce hard-gear and tabard intersections;
+- spring inertia still requires final visual tuning;
+- final UVs, textures, materials, and exact hair topology remain open.
 
-## Direction from here
+## Direction
 
-v0.7 is now the active replacement-mesh deformation test. Continue correcting concrete visual/deformation failures on this mesh, with the current exact Ilyra master controlling all appearance changes; do not add another abstract rig stage unless a specific failure proves the current architecture insufficient.
+Continue correcting concrete visual/deformation failures on the current model. Do not recreate earlier proxy/blockout/topology stages unless a current, specific technical requirement cannot be tested on this candidate.
 
 ## Authority boundary
 
-Exact Ilyra appearance is owned by `asset_sources/characters/current/ilyra.jpg` and `docs/14_ART_AND_VISUALS/PRODUCTION/CHARACTERS/ILYRA_CURRENT_VISUAL_LOCK.md`; those current sources override this generated candidate wherever they differ.
+Exact Ilyra appearance is owned by `asset_sources/characters/current/ilyra.jpg` and `docs/14_ART_AND_VISUALS/PRODUCTION/CHARACTERS/ILYRA_CURRENT_VISUAL_LOCK.md`. Those current sources override this generated candidate wherever they differ.
