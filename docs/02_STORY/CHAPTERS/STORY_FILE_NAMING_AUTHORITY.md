@@ -47,7 +47,7 @@ CH##_B##_SCENE_NAME_STORY_SUPPORT.md
 Example:
 
 ```text
-CH03_B13_RETURN_TO_MIRENA_CRESTHAVEN_IDENTIFIED_STORY_SUPPORT.md
+CH03_B04_SEAL_NOT_USED_STORY_SUPPORT.md
 ```
 
 These files supplement the chapter master and never silently override it.
@@ -69,8 +69,8 @@ CH##_B##_TO_B##_TOPIC_LOCK.md
 Examples:
 
 ```text
-CH03_B14_FIRST_COMMAND_WARDEN_FINAL_MESSAGE_LOCK.md
-CH03_B12_TO_B13_MIRENA_MEETING_LOCK.md
+CH03_B10_AUTHORITY_CONSTRUCT_FINAL_MESSAGE_LOCK.md
+CH03_B08_TO_B09_MIRENA_MEETING_LOCK.md
 CH01_B09_TO_B10_THORNHIDE_REVEAL_LOCK.md
 ```
 
@@ -121,13 +121,11 @@ A current correction should be promoted into a semantic `_LOCK.md`, `_STORY_SUPP
 
 ## Historical material
 
-Superseded beat packets belong under:
+Superseded beat packets are removed from the live `CHAPTERS/` tree.
 
-```text
-HISTORICAL/CHAPTER_##/
-```
+Git history preserves their former filenames and content for provenance. If a deliberate retained provenance artifact is ever needed in-repository, it belongs under the repository archive layer (`docs/99_ARCHIVE/`) and remains noncurrent.
 
-Historical files preserve their old filenames when useful for provenance. They are not current authority and must not be cited by scene-authority specs.
+Historical material must not be cited by scene-authority specs as current authority.
 
 ## Beat numbering
 
@@ -137,7 +135,7 @@ Retired beats do not reserve current B-numbers. When a structure changes:
 1. revise the chapter master;
 2. renumber the current live sequence;
 3. migrate current references;
-4. archive superseded packets;
+4. remove superseded packets from the live `CHAPTERS/` tree and preserve their history through Git (or `99_ARCHIVE` only for a deliberately retained provenance artifact);
 5. preserve former numbering through Git/history rather than ghost live slots.
 
 ## Current early-game examples
@@ -163,4 +161,4 @@ If an older support packet disagrees with the current chapter master:
 
 `python tools/dialogue/validate_authority_naming.py` validates the live `CHAPTERS/` root. It rejects mutable-state filenames such as `WORKING`, `CORRECTION`, `REVISION`, retired `BRIARHIDE` naming, old beat-specific `CHAPTER_##_BEAT_##_...` packets in the live root, and malformed `CH##_B##` / `CH##_C##` support identities.
 
-The `HISTORICAL/` subtree is intentionally excluded from current-name enforcement because those filenames are provenance.
+The validator checks current files in the live `CHAPTERS/` root. Superseded provenance belongs in Git history / `99_ARCHIVE`, not in a parallel live historical subtree.

@@ -24,7 +24,7 @@ Current all-dialogue regeneration/experiment authority applies:
 | Ch1 | **B01–B12** | **current mandatory production/runtime IDs; Character-Life C02–C04 are also live** |
 | Ch2 | **B01–B15** | **current mandatory production/runtime IDs; Character-Life C05 is also live** |
 | Ch3 | **B01–B11** | **current mandatory production/runtime IDs; Character-Life C06–C07 are also live** |
-| Ch4 | S022–S026 | **legacy implementation-compatibility IDs only; current production uses B01–B12, and no one-to-one S### → B## mapping should be inferred until an explicit runtime migration is authored** |
+| Ch4 | **B01–B12** | **current production IDs; exact runtime dialogue is not yet promoted. Legacy S022–S026 remain compatibility/provenance only, and no one-to-one S### → B## mapping should be inferred** |
 | Ch5 | current detailed S-range not promoted here | beat/macro authority |
 | Ch6 | includes S035 / S036 inherited anchors | macro/beat authority |
 | Ch7 | current detailed S-range not promoted here | macro authority |
