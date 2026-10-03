@@ -29,9 +29,9 @@ Playable-area work remains here because actual build-ready geometry/graybox prod
 Use the numbered domains instead of parallel working trackers:
 - story — `../02_STORY/OPEN_STORY_ITEMS.md`;
 - dialogue — `../03_DIALOGUE/README.md`;
-- implementation — `../13_UI_AND_IMPLEMENTATION/OPEN_UI_IMPLEMENTATION_ITEMS.md` and `IMPLEMENTATION_NOTES/CURRENT_CODE_DIVERGENCES.md`;
+- implementation — `../13_UI_AND_IMPLEMENTATION/OPEN_UI_IMPLEMENTATION_ITEMS.md` and `../13_UI_AND_IMPLEMENTATION/IMPLEMENTATION_NOTES/CURRENT_CODE_DIVERGENCES.md`;
 - visuals — `../14_ART_AND_VISUALS/PRODUCTION/OPEN_VISUAL_PRODUCTION_ITEMS.md`;
 - audio — `../15_AUDIO_AND_MUSIC/OPEN_AUDIO_ITEMS.md`;
-- balance/progression/QA — `../16_BALANCE_AND_TESTING/OPEN_BALANCE_ITEMS.md` and `FINAL_RELEASE_GATES.md`.
+- balance/progression/QA — `../16_BALANCE_AND_TESTING/OPEN_BALANCE_ITEMS.md` and `../16_BALANCE_AND_TESTING/FINAL_RELEASE_GATES.md`.
 
 Historical migrations, old certification snapshots, and retired sensitivity studies belong in Git history / archive, not in active working trackers.
