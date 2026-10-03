@@ -1,7 +1,7 @@
 # Diyse — Ordinary Equipment Registration & Repurchase
 **Historical migration provenance:** v85-era consolidated tracker.
 **Authority treatment:** this repository file is current equipment-registration/repurchase authority; Audit/v85 references remain provenance only. Numeric replacement prices are read from the provisional economy price owner.
-**Historical catalog provenance:** `Diyse_Item_Equipment_Catalog_Economy_Audit_ARCHIVE_FULL_v603.md` where not superseded by current repository authority.
+**Historical catalog provenance:** v603-era archived item/equipment catalog, where not superseded by current repository authority.
 **Domain rule:** `12_ECONOMY_AND_REWARDS` owns G denomination, purchase/replacement prices, sell rules, stock progression, commerce endpoint roles, reward-value/scarcity rules, and non-EXP reward handoffs. Item definitions remain in `08`; enemy bodies remain in `09`; EXP/CEXP remain in `10`; quest structure remains in `11`.
 
 
