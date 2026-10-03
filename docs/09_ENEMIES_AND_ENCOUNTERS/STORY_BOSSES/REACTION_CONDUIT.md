@@ -5,42 +5,13 @@
 **Encounter type:** mandatory authored nonlethal stabilization  
 **Status:** **ACTIVE ENCOUNTER BODY — REVALIDATION PENDING**
 
-## Historical route-level reference — recertification pending
+## Route-level validation boundary
 
-The inherited EXP/level arithmetic below predates retirement of Regional Hunts #1–#3 and the current Chapter-4 encounter rework. It is **not current completionist-route authority**. Preserve it only as tuning provenance until the planned progression rebuild and Chapter-4 validation rerun.
+Exact mandatory/completionist pre-encounter levels, optional-EXP advantages, and high-side level centers are **not current certification**.
 
-End Chapter 3:
-> **14,400 mandatory EXP = Lv13**
+Regional Hunts #1–#3 are retired/open, Annex Duelist placement is reopened, and Chapter 4's ordinary encounter layer is under rework. The planned Player EXP/CEXP rebuild and Chapter-4 validation pass own replacement route-level references.
 
-Mandatory fixed rewards before Reaction Conduit:
-- Elder Thornhide nonlethal resolution — 500 EXP
-- Vaelira recruitment / expedition milestone — 450 EXP
-
-Mandatory pre-Conduit total:
-> **15,350 EXP**
-
-Therefore:
-> **mandatory central = Lv13**, 1,550 EXP short of Lv14.
-
-Retired optional EXP assumptions in this inherited reference (not current availability):
-- The Marks We Leave — 500
-- Regional Hunt #1 — 1,000 — **RETIRED**
-- Regional Hunt #2 — 1,500 — **RETIRED**
-- Regional Hunt #3 — 2,200 — **RETIRED**
-
-Historical arithmetic using those retired assumptions:
-> **20,550 EXP**
-
-Historical result only:
-> **completionist fixed-content = Lv15**, 1,950 EXP short of Lv16.
-
-Historical high-side assumption:
-> **~Lv16**
-
-Historical balance references (not current certification):
-- mandatory — **Lv13**
-- completionist — **Lv15**
-- high-side — **~Lv16**
+The current protected encounter body, element cycle, status behavior, and action kit below remain live inputs for that revalidation.
 
 ## Current raw line
 
@@ -177,22 +148,11 @@ If used against Reaction Conduit:
 
 No mandatory Prime use is required.
 
-## Historical pacing target — not current certification
+## Pacing certification boundary
 
-These round-count estimates are retained only as historical pacing intent. They must be revalidated under the current progression/enemy inputs before being used for balance decisions.
+Inherited round-count targets are removed from live authority. Re-run pacing under the current progression/encounter inputs before setting mandatory/completionist duration targets.
 
-Target:
-- mandatory Lv13 normal — **~8–9 rounds**
-- mandatory aggressive — **~7–8**
-- completionist Lv15 — **~6–7**
-- high-side ~Lv16 — **~5–6**
-- safety / heavy cleansing — **~9–10**
-
-This encounter is intentionally shorter than the Authority Construct and Rhazek fights.
-
-Optional progression produces a visible duration advantage here.
-
-## Historical power-completeness note — not current certification
+## Action Power coverage
 
 Direct damage:
 - Reaction Pressure — **180**
@@ -203,4 +163,4 @@ Direct damage:
 Non-damaging:
 - Instinctive Guard — **Power N/A**
 
-> Historical label: **WORKING PASS / POWER COMPLETE**. Current difficulty/power certification is **OPEN** pending Chapter-4 revalidation.
+> This inventory records authored Power fields only. Current difficulty/power certification is **OPEN** pending Chapter-4 revalidation.
