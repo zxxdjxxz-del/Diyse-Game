@@ -69,7 +69,7 @@ Individual equipment Traits may modify an eligible action only where explicitly 
 
 Equipment may legally provide:
 - persistent raw **SPD**;
-- temporary or conditional **Speed ±N%** that resolves through `05_BATTLE_SYSTEM/STAT_CHANGES.md`;
+- temporary or conditional **Speed ±N%** that resolves through `../05_BATTLE_SYSTEM/STAT_CHANGES.md`;
 - an explicitly supported action-local bonus such as Base Hit, Evasion, application reliability, MP-cost reduction, healing potency, damage, penetration, or direct-damage reduction;
 - a specifically authored initiative-routing effect only where the battle-system owner explicitly supports it.
 
