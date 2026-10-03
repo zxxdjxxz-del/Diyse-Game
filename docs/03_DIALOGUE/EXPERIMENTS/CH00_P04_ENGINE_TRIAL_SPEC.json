@@ -2,7 +2,7 @@
   "schema": "diyse_scene_authority_spec_v1",
   "scene_id": "EXP_CH00_P04_ENGINE_TRIAL",
   "chapter_id": "chapter_00",
-  "story_position": "Chapter 0 — P04 — Field Triage Camp / Ilyra / First Incomplete Response",
+  "story_position": "Chapter 0 — B04 — Field Triage Camp / Ilyra / First Incomplete Response",
   "production_ready": false,
   "participants": [
     "cyanis",
@@ -20,9 +20,9 @@
       "path": "docs/02_STORY/CHAPTERS/CHAPTER_00.md",
       "sections": [
         "Chapter-wide locks",
-        "P04 — Field Triage Camp / Ilyra / First Incomplete Response"
+        "B04 — Field Triage Camp / Ilyra / First Incomplete Response"
       ],
-      "role": "current_chapter_00_p04_story_authority"
+      "role": "current_chapter_00_b04_story_authority"
     }
   ],
   "additional_authority_sources": [
@@ -37,8 +37,8 @@
       "role": "lived_economy_context"
     },
     {
-      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/SCENE_CONSTRUCTION_STACK.md",
-      "whole_file": true,
+      "path": "docs/03_DIALOGUE/AGENT_SYSTEM/README.md",
+      "sections": ["Detailed scene-construction interface"],
       "role": "scene_construction_authoring_contract"
     }
   ],
@@ -57,7 +57,7 @@
   },
   "current_floor_state": {
     "card_state": "sealed_inert_before_first_flare",
-    "cyanis_party_state": "solo_permanent_member_before_p04_join_transition",
+    "cyanis_party_state": "solo_permanent_member_before_b04_join_transition",
     "ilyra_party_state": "present_as_independent_wider_convoy_warden_not_yet_party_member"
   },
   "allowed_information_transfers": [],
