@@ -67,7 +67,7 @@ Current behavior:
 - automatically includes bounded current master/terminology/dialogue-handoff guardrails;
 - extracts exact Markdown sections rather than dumping whole source files by default;
 - missing or ambiguous requested headings are fatal;
-- rejects `90_WORKING`, `99_ARCHIVE`, historical `03_DIALOGUE/LINE_COMPLETE`, old `docs/chapters/`, and the historical exact-source manifest as current scene authority;
+- rejects `90_WORKING`, historical `03_DIALOGUE/LINE_COMPLETE`, old `docs/chapters/`, and the historical exact-source manifest as current scene authority;
 - exact-line anchors require current `03_DIALOGUE` proof and literal verbatim match;
 - fingerprints selected sections, source files, participant profiles, scene spec and final authority bundle with SHA-256;
 - never invents live gameplay state or C0–C3 / V1–V4 presentation tiers.
