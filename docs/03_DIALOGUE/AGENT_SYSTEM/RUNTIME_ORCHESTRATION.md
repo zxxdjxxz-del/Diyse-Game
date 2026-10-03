@@ -433,7 +433,6 @@ The compiler accepts current `docs/` authority only.
 
 It rejects as scene authority:
 - `docs/90_WORKING/`;
-- `docs/99_ARCHIVE/`;
 - `docs/03_DIALOGUE/LINE_COMPLETE/` historical transcripts;
 - pre-reorganization `docs/chapters/` paths.
 
