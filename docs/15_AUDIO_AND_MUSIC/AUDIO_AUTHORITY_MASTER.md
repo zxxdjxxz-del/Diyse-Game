@@ -10,7 +10,7 @@ Status:
 
 No final soundtrack grammar, track list, regional music identity, leitmotif system, instrumentation plan, or mix/master target is currently canonized.
 
-Historical regional and Ancient-music research remains available under `RESEARCH_ARCHIVE/`, but it is not active soundtrack authority.
+Reference studies are non-authoritative unless explicitly promoted into current audio authority.
 
 ## 2. Sound design
 
@@ -49,7 +49,6 @@ Audio remains a future production workstream rather than a hidden completed subs
 Final Diyse music and sound assets must be original or properly licensed for production use.
 
 Reference studies may teach arrangement, production, rhythm, instrumentation, dynamics, form, and mix behavior. They do not authorize copying protected melodies, lyrics, distinctive samples, recognizable riffs, or song-specific arrangements.
-
 
 ## 6. Cue promotion
 
