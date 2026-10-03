@@ -101,8 +101,8 @@ The authoring authority is the current Agent Brain architecture and current brai
 
 The current Chapter 0 and Chapter 1 rehearsal-first production manuscripts are the reference implementation for this method:
 
-- `../PRODUCTION/CHAPTER_00/CHAPTER_00_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md`
-- `../PRODUCTION/CHAPTER_01/CHAPTER_01_REHEARSAL_FIRST_WORKING_DIALOGUE_MANUSCRIPT.md`
+- `../PRODUCTION/CHAPTER_00/CHAPTER_00_DIALOGUE_MANUSCRIPT.md`
+- `../PRODUCTION/CHAPTER_01/CHAPTER_01_DIALOGUE_MANUSCRIPT.md`
 
 Their production method, not every individual line or cadence artifact, is the locked precedent.
 
