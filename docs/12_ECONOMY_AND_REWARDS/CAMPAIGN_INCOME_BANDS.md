@@ -6,7 +6,7 @@
 > **PROVISIONAL CAMPAIGN-INCOME REFERENCE / ECONOMY REBUILD PENDING**
 
 Exact formation-by-formation payouts live in `ENCOUNTER_G_REWARDS.md`.
-Chapter-level liquidity is validated in `CHAPTER_G_LIQUIDITY_VALIDATION.md`.
+Chapter-level liquidity certification is rebuild-pending; current status is owned by `OPEN_ECONOMY_ITEMS.md` and `MANDATORY_ROUTE_INCOME_BUDGET.md`.
 
 ## Currency
 All current-facing income values use:
