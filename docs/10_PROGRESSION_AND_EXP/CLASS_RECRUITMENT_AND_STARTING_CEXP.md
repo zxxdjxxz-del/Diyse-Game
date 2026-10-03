@@ -1,6 +1,6 @@
 # Diyse — Recruitment and Starting CEXP
 **v92 recruitment-aware correction:** 2026-08-29  
-**Migration baseline:** `Diyse_CURRENT_WORKING_TRACKER_CONSOLIDATED_2026-08-27_v85.md`
+**Historical migration provenance:** v85-era consolidated tracker.
 
 > **NUMERIC STATUS — PROVISIONAL.** Starting Base CL/CEXP values and recruitment-chapter CEXP splits are retained as planning inputs pending the later CEXP rebuild; scene/recruitment identities below should still match current story authority.
 
