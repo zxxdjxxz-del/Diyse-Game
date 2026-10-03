@@ -10,7 +10,7 @@ Current encounter identities/architecture remain useful, but enemy abilities, di
 Exact reward placement is provisional. **Lv55–60** remains the target completion window, but final Player EXP/CEXP placement and character completion centers must be rerun after encounter/reward validation.
 
 ## 3. Prime proof runtime migration — ACTIVE
-The executable combat proof still carries stale bearer-lock, duration, restoration, and manifestation assumptions. Current smoke/combat tests deliberately do not certify those mechanics, so production Prime migration must be followed by focused regression coverage from `07_CARDS/PRIME_CARDS/PRIME_SYSTEM_RULES.md`.
+The executable combat proof still carries stale bearer-lock, duration, restoration, and manifestation assumptions. Current smoke/combat tests deliberately do not certify those mechanics, so production Prime migration must be followed by focused regression coverage from `../../07_CARDS/PRIME_CARDS/PRIME_SYSTEM_RULES.md`.
 
 ## 4. Save schema / economy persistence — ACTIVE
 Currency-key migration is complete: runtime/save state uses `rewards.g` with legacy `rewards.gold` load normalization. Remaining risk is the incomplete production save schema plus provisional economy/progression values while those rebuilds remain open.
