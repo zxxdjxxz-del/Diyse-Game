@@ -350,6 +350,21 @@ def _compile_exact_anchors(
     return anchors, provenance
 
 
+def _derive_story_clock(spec: dict[str, Any]) -> dict[str, int]:
+    explicit = spec.get("story_clock")
+    if explicit is not None:
+        return copy.deepcopy(explicit)
+    match = re.match(r"^CH(\\d{2})_B(\\d{2})(?:_|$)", str(spec.get("scene_id", "")))
+    if not match:
+        return {}
+    chapter = int(match.group(1))
+    sequence = int(match.group(2))
+    chapter_id = str(spec.get("chapter_id", ""))
+    if chapter_id == f"chapter_{chapter:02d}":
+        return {"chapter": chapter, "sequence": sequence}
+    return {}
+
+
 def validate_spec(spec: dict[str, Any]) -> None:
     if not isinstance(spec, dict):
         raise CompileError("Scene authority spec must be a JSON object")
@@ -486,7 +501,7 @@ def compile_spec_data(spec: dict[str, Any], root: Path = ROOT) -> dict[str, Any]
         "scene_identity": {"scene_id": spec["scene_id"], "story_position": spec["story_position"],
                            "participants": participants},
         "forbidden_reveals": copy.deepcopy(spec.get("forbidden_reveals", [])),
-        "story_clock": copy.deepcopy(spec.get("story_clock", {})),
+        "story_clock": _derive_story_clock(spec),
         "forward_only": spec.get("forward_only", False),
         "continuity_policy": copy.deepcopy(spec.get("continuity_policy", {"mode": "none"})),
         "memory_policies": {cid: context["memory_authorization"]
@@ -494,9 +509,11 @@ def compile_spec_data(spec: dict[str, Any], root: Path = ROOT) -> dict[str, Any]
                             if cid in {_normalize_character_id(str(x)) for x in spec.get("person_runtime_contexts", {})}},
         "assertions": [],
     }
+    legacy_manual_context_fields: dict[str, dict[str, Any]] = {}
     for cid, context in person_runtime_contexts.items():
-        if set(context) - {"memory_authorization"}:
-            raise CompileError(f"{cid}: use source-backed context_assertions instead of manual runtime state")
+        manual = {key: copy.deepcopy(value) for key, value in context.items() if key != "memory_authorization"}
+        if manual:
+            legacy_manual_context_fields[cid] = manual
     try:
         validate_plan(context_plan, participants)
     except ContextError as exc:
@@ -544,6 +561,46 @@ def compile_spec_data(spec: dict[str, Any], root: Path = ROOT) -> dict[str, Any]
     except ContextError as exc:
         raise CompileError(str(exc)) from exc
 
+    # Legacy manual runtime blobs are never consumed as authority. During migration,
+    # they may remain in a pre-dialogue spec only when selected current story authority
+    # already contains typed replacements for every manual field. Otherwise compilation fails.
+    typed_coverage = {
+        (str(item.get("owner_id", "")), str(item.get("kind", "")), str(item.get("key", "")))
+        for item in context_plan["assertions"]
+        if isinstance(item, dict)
+    }
+    local_legacy_key_map = {
+        "attention": "attention_target",
+        "avoidances": "immediate_avoidances",
+        "immediate_wants": "immediate_wants",
+        "immediate_avoidances": "immediate_avoidances",
+        "attention_target": "attention_target",
+        "participation": "participation",
+        "private_appraisal": "private_appraisal",
+        "visible_behavior": "visible_behavior",
+        "spoken_expression": "spoken_expression",
+        "withheld_content": "withheld_content",
+    }
+    for cid, manual in legacy_manual_context_fields.items():
+        for namespace, value in manual.items():
+            if namespace == "epistemic_state" and isinstance(value, dict):
+                missing = [key for key in value if (cid, "epistemic", str(key)) not in typed_coverage]
+            elif namespace == "scene_local_state" and isinstance(value, dict):
+                unsupported = [key for key in value if key not in local_legacy_key_map]
+                if unsupported:
+                    raise CompileError(f"{cid}: unsupported legacy scene-local fields: {unsupported}")
+                missing = [key for key in value if (cid, "local", local_legacy_key_map[key]) not in typed_coverage]
+            elif namespace == "relationship_runtime_state" and isinstance(value, dict):
+                # Old relationship blobs were structurally ambiguous; they require an explicit
+                # source-backed migration rather than automatic interpretation.
+                missing = list(value.keys())
+            else:
+                raise CompileError(f"{cid}: use source-backed context_assertions instead of manual runtime state")
+            if missing:
+                raise CompileError(
+                    f"{cid}: legacy {namespace} lacks typed source-backed replacements for {missing}"
+                )
+
     spec_sha256 = _sha256_text(_canonical_json(spec))
     authority_packet: dict[str, Any] = {
         "schema": AUTHORITY_PACKET_SCHEMA,
@@ -565,6 +622,7 @@ def compile_spec_data(spec: dict[str, Any], root: Path = ROOT) -> dict[str, Any]
             "missing_markdown_section_is_fatal": True,
             "no_silent_whole_file_fallback": True,
             "runtime_state_not_invented": True,
+            "legacy_manual_runtime_state_requires_typed_source_replacement": True,
         },
     }
     authority_packet["bundle_sha256"] = _sha256_text(_canonical_json(authority_packet))
