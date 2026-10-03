@@ -107,7 +107,7 @@ func _validate_annex_scientific_boundaries() -> void:
 	_expect(b08.has_tag("RESEARCHER_SURVIVES") and b08.has_tag("NO_SEVENTH_ELEMENT"), "B08 must preserve researcher survival and the four-element boundary")
 	_expect(b09.has_tag("REGULATION_CRUCIBLE_FORM_I") and b09.has_tag("TWO_CHAMBERS_ACTIVE"), "B09 must own Regulation Crucible Form I")
 	_expect(b10.has_tag("REGULATION_CRUCIBLE_FORM_II") and b10.has_tag("FORM2_FRESH_HP_MP"), "B10 must own the fresh-HP/MP Form-II transition")
-	_expect(b10.has_tag("PRIME_REFRESH_FRESH_HP_FORM"), "B10 genuine fresh-HP form must refresh Prime availability")
+	_expect(b10.has_tag("NO_PRIME_REFRESH_FRESH_HP_FORM"), "B10 genuine fresh-HP form must preserve spent Prime state")
 	_expect(b10.has_tag("SEVENTH_REACTION_NOT_ELEMENT") and b10.has_tag("NO_THIRD_FORM"), "B10 must preserve Seventh Reaction as emergent behavior, not a new element or third form")
 	_expect(b11.has_tag("MODEL_REVISION") and b11.has_tag("WAYFINDER_UNRESOLVED"), "B11 must revise the model without solving the Wayfinder")
 

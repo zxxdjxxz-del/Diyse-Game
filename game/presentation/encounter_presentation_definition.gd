@@ -1,7 +1,7 @@
 extends Resource
 class_name DiyseEncounterPresentationDefinition
 
-const ALLOWED_ENCOUNTER_KINDS := ["random", "fixed", "boss", "hunt", "elite"]
+const ALLOWED_ENCOUNTER_KINDS := ["random", "fixed", "boss", "hunt"]
 const ALLOWED_RESOLUTION_MODES := [
 	"standard",
 	"nonlethal_retreat",
@@ -25,9 +25,9 @@ const ALLOWED_FORM_MODES := [
 @export var suppress_victory_pose: bool = false
 @export var suppress_generic_loot_show: bool = false
 
-# Intentionally absent: enemy IDs, chapter placement, map placement, Elite IDs,
+# Intentionally absent: enemy IDs, chapter placement, map placement, retired Elite IDs,
 # encounter tables, final stats, or final visual assets. This resource describes
-# presentation behavior only and cannot assign an Elite or ordinary enemy to a scene.
+# presentation behavior only and cannot assign enemy taxonomy or placement to a scene.
 
 func validate_schema() -> Array[String]:
 	var failures: Array[String] = []
