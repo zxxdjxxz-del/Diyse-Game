@@ -62,7 +62,7 @@ Current ordinary currency:
 
 Historical/current-facing economy text should not use **Auren** except when explicitly discussing retired provenance.
 
-Technical/runtime variables may temporarily retain names such as `gold` during implementation migration, but UI/design authority must use **G** and current G-scale values.
+Current runtime/save storage uses `rewards.g`. Legacy schema-v1 `rewards.gold` is accepted only as a compatibility input and normalizes to `rewards.g` on load; do not introduce new live `gold` storage or player-facing terminology.
 
 ## Face migration note
 Historical Face migration chain:
