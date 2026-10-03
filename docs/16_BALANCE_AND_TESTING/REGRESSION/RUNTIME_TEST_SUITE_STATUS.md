@@ -5,11 +5,13 @@
 
 ## Current source inventory
 
-Current repository inspection finds **35 GDScript validation/test files** under `tests/`.
+Current repository inspection finds **36 executable validation/test files** under `tests/`:
+- **33 GDScript** validations/capture utilities;
+- **3 Python** Dialogue Engine contract/compiler tests.
 
 Coverage includes:
 - combat;
-- dialogue/authoring/runtime context;
+- dialogue/authoring/runtime context, including Python authority/Person-Agent contracts;
 - encounters/field encounter flow;
 - equipment service;
 - exploration/graybox;

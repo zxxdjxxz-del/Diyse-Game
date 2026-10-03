@@ -67,7 +67,12 @@ Additional encounter tests cover field-controller behavior, area tuning and live
 
 ## Dialogue
 
-Current validators cover:
+Current Python contract/compiler tests:
+- `tests/dialogue/test_scene_authority_compiler.py` — repository-authority compilation and rejection boundaries;
+- `tests/dialogue/test_agent_magic_card_context.py` — lived magic/Card context firewalls;
+- `tests/dialogue/test_person_agent_runtime_contract.py` — Person-Agent runtime brain/memory/reliability contract.
+
+Current Godot validators cover:
 - authoring schema;
 - scene Resource validity;
 - exact source parity for completed chapters;
