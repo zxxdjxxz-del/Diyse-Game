@@ -426,7 +426,7 @@ Before placing a dialogue beat in an area:
 ## 18. Relationship to current Dialogue Engine
 
 The controlling dialogue integration file is:
-> `../../../03_DIALOGUE/AGENT_SYSTEM/SCENE_CONSTRUCTION_STACK.md`
+> `../../../03_DIALOGUE/AGENT_SYSTEM/README.md`
 
 The Dialogue Director should consume this interface before scene generation whenever location/traversal context is relevant.
 
