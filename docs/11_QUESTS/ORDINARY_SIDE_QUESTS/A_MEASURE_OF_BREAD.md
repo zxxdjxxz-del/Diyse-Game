@@ -7,7 +7,7 @@
 
 ## Identity
 - giver: Crown Princess Mirena Ceryth
-- unlock: after Chapter 3 / after S021 establishes Cresthaven
+- unlock: after Chapter 3 / after current B11 establishes Cresthaven as the operational headquarters
 - primary area: Caelora
 - runtime: ~15 minutes
 - boss: none
