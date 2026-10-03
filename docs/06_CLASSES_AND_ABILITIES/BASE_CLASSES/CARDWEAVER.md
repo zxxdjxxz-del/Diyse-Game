@@ -25,7 +25,7 @@ While Cardweaver is selected, Nimera records eligible allied actions performed b
 - **Rank II — CL6:** Living Archive capacity increases **2 → 3 eligible actions** per recording window.
 - **Rank III — CL12:** Nimera's personal Standard-Card MP reduction increases **20% → 30%**.
 
-Living Archive's personal Standard-Card reduction uses the global compatible MP-cost-modifier rules in `MP_COST_RULES.md`; it does not reduce Prime actions, which already cost 0 MP.
+Living Archive's personal Standard-Card reduction uses the global compatible MP-cost-modifier rules in `../MP_COST_RULES.md`; it does not reduce Prime actions, which already cost 0 MP.
 
 ## Copy resolution rules
 When Echo Weave or Grand Reweaving reproduces an eligible record:
@@ -73,11 +73,11 @@ All four Core Masteries unlock automatically at the listed Class Levels under th
 
 ## Global references
 - Standard Cards: `../../07_CARDS/CARD_SYSTEM_MASTER.md` and `../../07_CARDS/STANDARD_CARDS/STANDARD_CARD_USE_RULES.md`
-- Damage/penetration/direct-damage reduction: `05_BATTLE_SYSTEM/DAMAGE_FORMULAS.md`
-- Fields: `05_BATTLE_SYSTEM/FIELDS.md`
-- Turn/round and initiative timing: `05_BATTLE_SYSTEM/TURN_AND_ROUND_RULES.md`
-- Temporary stat changes: `05_BATTLE_SYSTEM/STAT_CHANGES.md`
-- Elements/statuses: `05_BATTLE_SYSTEM/ELEMENTS.md` and `STATUS_EFFECTS.md`
+- Damage/penetration/direct-damage reduction: `../../05_BATTLE_SYSTEM/DAMAGE_FORMULAS.md`
+- Fields: `../../05_BATTLE_SYSTEM/FIELDS.md`
+- Turn/round and initiative timing: `../../05_BATTLE_SYSTEM/TURN_AND_ROUND_RULES.md`
+- Temporary stat changes: `../../05_BATTLE_SYSTEM/STAT_CHANGES.md`
+- Elements/statuses: `../../05_BATTLE_SYSTEM/ELEMENTS.md` and `../../05_BATTLE_SYSTEM/STATUS_EFFECTS.md`
 
 ## Firewall
 Do not restore retired Weave Bolt, Weave Guard, Sovereign Index, Card-Seal mechanics, or the old first-Card potency Trait package. Cardweaver's current core is Card economy, Speed, archiving, and copying.
