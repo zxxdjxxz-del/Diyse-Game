@@ -72,19 +72,19 @@ Open soundtrack authority, sound-design requirements, implementation boundary, a
 Current balance/rebuild frontier, regression matrices, test methods, and release gates.
 
 Historical v93–v103 true-battle snapshots are no longer live authority; the current protocol is:
-> `16_BALANCE_AND_TESTING/TRUE_BATTLES/TRUE_BATTLE_TEST_PROTOCOL.md`
+> `../16_BALANCE_AND_TESTING/TRUE_BATTLES/TRUE_BATTLE_TEST_PROTOCOL.md`
 
 ## Working layer
 
-`90_WORKING/` is not a second canon tracker.
+`../90_WORKING/` is not a second canon tracker.
 
 Live contents are limited to:
-- `ACTIVE_WORK_QUEUE.md`;
+- `../90_WORKING/ACTIVE_WORK_QUEUE.md`;
 - playable-area/route production files and blueprints.
 
 ## Archive layer
 
-`99_ARCHIVE/` and Git history are provenance/history only. Nothing there is current by default.
+`../99_ARCHIVE/` and Git history are provenance/history only. Nothing there is current by default.
 
 ## Reorganization status
 
