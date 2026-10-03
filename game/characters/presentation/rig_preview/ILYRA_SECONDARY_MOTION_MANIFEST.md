@@ -4,7 +4,7 @@
 
 Stage 8 keeps the Stage 7 production-topology body and adds dedicated inertial motion for Ilyra's two largest secondary-silhouette systems: her long blonde hair and pale-blue cape.
 
-This remains a rig/deformation prototype. Ilyra's approved cleaned B00 image is still the exact appearance authority.
+This remains a rig/deformation prototype. Exact current appearance authority is `asset_sources/characters/current/ilyra.jpg` plus `docs/14_ART_AND_VISUALS/PRODUCTION/CHARACTERS/ILYRA_CURRENT_VISUAL_LOCK.md`. The long-hair geometry in this stage is historical proof geometry, not current Ilyra hair-design authority.
 
 ## Skeleton rule
 
@@ -97,7 +97,7 @@ T-pose → Walk → Jog → Sprint → Jump Start → Jump Land → Roll → Shi
 
 Stage 8 proves the architecture for secondary motion, not final simulation tuning. Before production lock, Ilyra still needs:
 
-- final authored hair/cape topology matching B00 exactly
+- final authored hair/cape topology matching the current master exactly
 - final chain locations placed against that topology
 - tuned per-joint stiffness/drag rather than one value per chain
 - self/body collision refinement
