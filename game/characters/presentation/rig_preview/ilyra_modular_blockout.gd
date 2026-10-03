@@ -1,7 +1,7 @@
 extends "res://game/characters/presentation/rig_preview/ilyra_anime_body_ual.gd"
 
 # Modular costume/detail blockout layered onto the reshaped UAL-skinned Ilyra proof.
-# Non-canon 3D prototype. The exact approved B00 remains visual authority.
+# Non-canon 3D prototype. The current exact repository master and visual lock remain visual authority.
 
 var _detail_visible := true
 var _detail_attachments: Array[BoneAttachment3D] = []
@@ -212,4 +212,4 @@ func _update_hud(display_name: String, clip_name: String) -> void:
 	if info_label == null:
 		return
 	var details := "DETAIL LAYERS ON" if _detail_visible else "DETAIL LAYERS OFF"
-	info_label.text = "Diyse — Ilyra modular UAL blockout\n%s  [%s]\n%s | reshaped UAL body + B00-guided construction\nSPACE next   P pause   V detail compare   Q/E rotate   R restart   ESC quit" % [display_name, clip_name, details]
+	info_label.text = "Diyse — Ilyra modular UAL blockout\n%s  [%s]\n%s | reshaped UAL body + historical proof construction\nSPACE next   P pause   V detail compare   Q/E rotate   R restart   ESC quit" % [display_name, clip_name, details]
