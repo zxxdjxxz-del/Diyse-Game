@@ -25,4 +25,4 @@ This stage replaces the most obvious primitive blockout pieces with custom gener
 
 ## Authority boundary
 
-This remains a geometry / rig / silhouette proof, not Ilyra's final production model. The approved cleaned B00 image is still the exact authority for face identity, body proportions, hair design, clothing cuts, cape, colors, and final equipment appearance.
+This remains a geometry / rig / silhouette proof, not Ilyra's final production model. Exact current appearance authority is `asset_sources/characters/current/ilyra.jpg` plus `docs/14_ART_AND_VISUALS/PRODUCTION/CHARACTERS/ILYRA_CURRENT_VISUAL_LOCK.md`. Historical proof geometry may be retained for regression/provenance only and must not redefine current face, hair, clothing, equipment, proportions, palette, or silhouette.
