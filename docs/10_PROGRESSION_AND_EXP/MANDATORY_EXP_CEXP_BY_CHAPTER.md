@@ -1,12 +1,9 @@
 # Diyse — Mandatory EXP / CEXP by Chapter
-**Historical migration provenance:** v85-era consolidated tracker.
-**Historical progression provenance:** Audit123–Audit128 plus compatible later raw-stat audits.
-**Authority treatment:** this repository file is current progression-domain authority; Audit/v85 references remain provenance only. Numeric reward/budget tables remain provisional where marked pending the planned progression rebuild.
-**Current structural rule:** Mastery Points do not exist; Masteries unlock automatically from Class Level under current repository class/progression authority.
+
+**Current structural rule:** Mastery Points do not exist; Masteries unlock automatically from Class Level.
 
 > **NUMERIC STATUS — PROVISIONAL PLANNING TABLE.**  
-> EXP, CEXP, chapter totals, encounter-count centers, and derived end-level projections below are scheduled for later rebalance. Preserve the table as the current reference baseline, not as final certification.
-
+> EXP, CEXP, chapter totals, encounter-count centers, and derived end-level projections below are scheduled for rebalance. Preserve the table as the current reference baseline, not as final certification.
 
 | Chapter | End level | Total EXP | Ordinary EXP | Named/story EXP | Campaign CEXP | Ordinary CEXP | Named/story CEXP | Encounters |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
@@ -24,7 +21,9 @@
 | Ch12 — The Reforged March | ~57 | 70,000 | 47,100 | 22,900 | **1,250** | **450** | **800** | 18 |
 | Ch13 — The Last Command | ~62 | 79,000 | 29,800 | 49,200 | **1,750** | **370** | **1,380** | 8 |
 
-> **v91 CEXP note:** Ch12/Ch13 CEXP columns are recalibrated; Player EXP and encounter counts are unchanged. Ch13 CEXP is split 1,500 pre–Last Shelter / 250 post–Last Shelter.
+Chapter 13 CEXP planning split:
+- **1,500** pre–Last Shelter;
+- **250** post–Last Shelter.
 
 Totals:
 - mandatory Player EXP: **447,800**
@@ -34,9 +33,18 @@ Totals:
 
 This is a pacing architecture, not a requirement to force a fixed number of random battles.
 
-### Chapter-3 structural warning
-The Chapter-3 **8,000 EXP / 550 CEXP** row still contains historical reward arithmetic from the retired lawful-authority confrontation branch and does not yet allocate a current reward for the Memory Construct. It is therefore a **provisional historical envelope, not an implementable exact event sum**. Do not invent replacement/top-up rewards; the planned progression rebuild must replace and recertify this row against the current Chapter-3 route.
+## Chapter-3 structural warning
 
+The current Chapter-3 row is a **provisional envelope, not an implementable exact event sum** because the current Memory Construct reward remains open.
 
-## Chapter-1 progression-note — current structural correction
-Chapter 1 no longer includes Watch Castellan. The named/story package is therefore **445 EXP / 107 CEXP**, and the current chapter total is **1,300 EXP / 285 CEXP** using the existing ordinary-route planning allocation. Final Chapter-1 level-spine certification remains open until the planned mandatory/completionist progression recalibration.
+Do not invent replacement/top-up rewards. The planned progression rebuild must replace and recertify the Chapter-3 row against the current route.
+
+## Chapter-1 structural note
+
+Current Chapter-1 planning total:
+> **1,300 EXP / 285 CEXP**
+
+Current named/story package:
+> **445 EXP / 107 CEXP**
+
+Final Chapter-1 level-spine certification remains open until the planned mandatory/completionist progression recalibration.
