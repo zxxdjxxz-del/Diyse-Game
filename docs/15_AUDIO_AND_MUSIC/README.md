@@ -16,7 +16,6 @@ Canonical home for Diyse's current audio authority, open music scope, sound-desi
 - music scope: `MUSIC/SOUNDTRACK_SCOPE_OPEN_REGISTER.md`
 - sound-design requirements: `SOUND_DESIGN/`
 - runtime/implementation requirements: `IMPLEMENTATION/`
-- retired terminology and superseded audio assumptions: `RETIRED_AUDIO_TERMINOLOGY_FIREWALL.md`
 - historical research only: `RESEARCH_ARCHIVE/`
 
 Research may inform later composition or production, but it does not become current soundtrack canon without explicit promotion.
