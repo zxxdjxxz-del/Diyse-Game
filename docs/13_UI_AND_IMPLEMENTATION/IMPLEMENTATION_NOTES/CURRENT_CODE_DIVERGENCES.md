@@ -120,13 +120,14 @@ No production service menu/fee/timing presentation yet.
 ## 10. Current-facing naming — ONGOING
 Legacy technical identifiers may remain internally until safe migration, but player-facing text must use current names.
 
-## 11. Encounter runtime catalog — HIGH
-`game/content/encounters/chapter_01_04_formations.gd` is executable engineering data, but it is not uniformly current encounter authority.
+## 11. Encounter runtime catalog / balance calibration — HIGH
+`game/content/encounters/chapter_01_04_formations.gd` and `game/exploration/encounter_balance.gd` are executable engineering data, but they are not uniformly current encounter/progression authority.
 
 Known gaps:
 - Chapter 3 rows still contain superseded pre-September-27 enemy identities/formations;
 - Chapter 4 rows preserve inherited Reaction Annex formations while the ordinary-enemy / formation layer is explicitly rework-pending;
-- proof enemy stats and encounter tuning remain engineering fixtures rather than production balance authority.
+- proof enemy stats and encounter tuning remain engineering fixtures rather than production balance authority;
+- `encounter_balance.gd` still carries historical/provisional chapter encounter counts, tier weights, EXP anchors and ordinary-EXP pools; these values must not override reopened encounter or EXP/CEXP owners. Its Chapter-4 `expected_encounters = 19` value is specifically part of the retired pre-redesign volume model.
 
 Current production authority:
 - `09_ENEMIES_AND_ENCOUNTERS/CHAPTER_ENEMIES/`;
