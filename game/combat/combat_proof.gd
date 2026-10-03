@@ -63,7 +63,7 @@ func _build_ui() -> void:
 	add_child(background)
 
 	title_label = Label.new()
-	title_label.text = "Diyse 7B.5F — Prime Direct-Control Proof"
+	title_label.text = "Diyse Technical Proof — Prime Direct-Control"
 	title_label.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
 	title_label.add_theme_font_size_override("font_size", 34)
 	_place(title_label, 0.08, 0.025, 0.92, 0.085)
@@ -153,9 +153,9 @@ func _build_ui() -> void:
 
 func _refresh_title() -> void:
 	if _generated_random_encounter:
-		title_label.text = "Diyse Audit98 — Generated Random Encounter Proof"
+		title_label.text = "Diyse Technical Proof — Generated Random Encounter"
 	else:
-		title_label.text = "Diyse 7B.5F — Prime Direct-Control Proof"
+		title_label.text = "Diyse Technical Proof — Prime Direct-Control"
 
 func _place(control: Control, left: float, top: float, right: float, bottom: float) -> void:
 	control.set_anchors_preset(Control.PRESET_FULL_RECT)

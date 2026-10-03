@@ -58,7 +58,7 @@ func _run() -> void:
 	var builder := DiyseDialogueRuntimeContextBuilder.new()
 	var result := builder.build_request(
 		seed,
-		"v2.20-Audit135",
+		"repo-test-current",
 		runtime_input,
 		game_state,
 		encounters
@@ -131,7 +131,7 @@ func _run() -> void:
 	# Unknown top-level fields cannot use the runtime merge as an authority override channel.
 	var protected_injection := runtime_input.duplicate(true)
 	protected_injection["authority_packet"] = {"fake": true}
-	var protected_result := builder.build_request(seed, "v2.20-Audit135", protected_injection, game_state, encounters)
+	var protected_result := builder.build_request(seed, "repo-test-current", protected_injection, game_state, encounters)
 	_expect(not (protected_result.get("failures", []) as Array).is_empty(), "runtime authority_packet injection must fail")
 
 	# Raw state-container/economy keys are rejected even when nested under an otherwise legal section.
@@ -141,15 +141,15 @@ func _run() -> void:
 		"gold": 999,
 		"inventory": {"Potion": 99},
 	}
-	var raw_state_result := builder.build_request(seed, "v2.20-Audit135", raw_state_injection, game_state, encounters)
+	var raw_state_result := builder.build_request(seed, "repo-test-current", raw_state_injection, game_state, encounters)
 	_expect(not (raw_state_result.get("failures", []) as Array).is_empty(), "raw proof GameState fields must fail runtime validation")
 
-	var stale_snapshot_result := builder.build_request(seed, "v2.21-Audit999", runtime_input, game_state, encounters)
+	var stale_snapshot_result := builder.build_request(seed, "repo-test-stale", runtime_input, game_state, encounters)
 	_expect(not (stale_snapshot_result.get("failures", []) as Array).is_empty(), "canon snapshot mismatch must fail")
 
 	var collision_seed := seed.duplicate(true)
 	collision_seed["scene_context"]["runtime_observable"] = {"spoof": true}
-	var collision_result := builder.build_request(collision_seed, "v2.20-Audit135", runtime_input, game_state, encounters)
+	var collision_result := builder.build_request(collision_seed, "repo-test-current", runtime_input, game_state, encounters)
 	_expect(not (collision_result.get("failures", []) as Array).is_empty(), "compiled seed may not pre-populate runtime_observable")
 
 	encounters.queue_free()
@@ -162,7 +162,7 @@ func _request_seed() -> Dictionary:
 		"scene_id": "PROOF_RUNTIME_CONTEXT",
 		"continuity_namespace": "story",
 		"story_position": "Chapter 0 runtime merge proof",
-		"canon_snapshot_id": "v2.20-Audit135",
+		"canon_snapshot_id": "repo-test-current",
 		"participants": ["cyanis", "ilyra"],
 		"participant_profiles": {
 			"cyanis": {"source_path": "docs/01_CHARACTERS/PLAYABLE/Cyanis.md"},
@@ -185,7 +185,7 @@ func _request_seed() -> Dictionary:
 		"scene_purpose": "Validate safe live runtime context merging without proof-state leakage.",
 		"authority_packet": {
 			"schema": "diyse_scene_authority_packet_v1",
-			"canon_snapshot_id": "v2.20-Audit135",
+			"canon_snapshot_id": "repo-test-current",
 			"bundle_sha256": "proof",
 		},
 		"scene_context": {

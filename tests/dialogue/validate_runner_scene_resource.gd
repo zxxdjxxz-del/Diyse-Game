@@ -17,7 +17,7 @@ func _run() -> void:
 	var registry = load(REGISTRY_PATH)
 	var scene = load(SCENE_PATH)
 	_expect(packed != null, "Field scene must load for dialogue runner integration validation")
-	_expect(registry != null and scene != null, "7B.6 authored Resource fixtures must load")
+	_expect(registry != null and scene != null, "authored Resource fixtures must load")
 	if packed == null or registry == null or scene == null:
 		_finish()
 		return
@@ -62,7 +62,7 @@ func _expect(condition: bool, message: String) -> void:
 
 func _finish() -> void:
 	if failures.is_empty():
-		print("Diyse 7B.6 production Resource -> DialogueRunner integration validation passed.")
+		print("Production Resource -> DialogueRunner integration validation passed.")
 		quit(0)
 		return
 	for failure in failures:

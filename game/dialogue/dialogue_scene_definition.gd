@@ -40,7 +40,7 @@ const FORBIDDEN_BRANCH_KEYS := ["choices", "responses", "branches", "dialogue_ch
 @export var encounter_policy: Dictionary = {}
 @export var return_to_gameplay: Dictionary = {}
 
-# Audit88 presentation metadata is deliberately optional/backward-compatible.
+# Presentation metadata remains deliberately optional/backward-compatible.
 # It describes how a closed scene should be staged without changing its dialogue.
 @export var cutscene_tier: String = "C0"
 @export var vfx_tier: String = "V1"
