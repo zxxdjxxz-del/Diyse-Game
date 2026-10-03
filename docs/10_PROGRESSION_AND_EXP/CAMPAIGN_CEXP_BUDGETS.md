@@ -31,7 +31,7 @@ Chapter totals are awards available across the chapter; they are **not retroacti
 - Vaelira: **500** of Ch4 after permanent recruitment;
 - Seyrik: **0** of Ch6 after permanent recruitment because he joins at chapter end.
 
-See `CLASS_RECRUITMENT_AND_STARTING_CEXP.md` and `CEXP_RECALIBRATION_PROOF_v92.md`.
+See `CLASS_RECRUITMENT_AND_STARTING_CEXP.md`. The former v92 recalibration proof is historical provenance preserved through Git history; the planned CEXP rebuild owns the next live completion proof.
 
 ## Post-Volition
 

@@ -3,7 +3,7 @@
 **Status:** ACTIVE STATUS QA OWNER  
 **Status-system authority:** `../../05_BATTLE_SYSTEM/STATUS_EFFECTS.md`
 
-Automate where practical. If this file conflicts with `STATUS_EFFECTS.md`, the battle-system owner wins and this matrix must be synchronized.
+Automate where practical. If this file conflicts with `../../05_BATTLE_SYSTEM/STATUS_EFFECTS.md`, the battle-system owner wins and this matrix must be synchronized.
 
 ## Burn
 
