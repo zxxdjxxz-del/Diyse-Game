@@ -32,7 +32,7 @@
 
 ## Current notes
 - No Spatial damage element, grid, rows, adjacency, hidden severance gauge, or extra-action system.
-- Chapter-8 broad ordinary / Elite Power coverage: **COMPLETE**.
+- Chapter-8 broad ordinary / strong-normal Power coverage: **COMPLETE**.
 - Chapter 8 introduces no new harmful status.
 
 Current individual enemy owners:
@@ -90,7 +90,7 @@ Both inherited raw bodies are retained.
 
 Current:
 - Marshal Varkesh → genuine fresh Rift Conqueror;
-- fresh Form II refreshes Prime availability;
+- fresh Form II does **not** restore spent Prime identities;
 - no Spatial element;
 - no bonus-action/extra-action system;
 - Varkesh survives Form-II defeat and successfully withdraws;
