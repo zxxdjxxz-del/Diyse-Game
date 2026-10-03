@@ -72,9 +72,6 @@ Exact status magnitudes/durations live in:
 Faces:
 > **Might / Elements / Grace / Perception / Memory / Ruin**
 
-Retired Face labels:
-> Resource / Acuity / Change
-
 Counts:
 - 24 Standard Cards
 - 12 Primes
@@ -130,9 +127,6 @@ Exact Player EXP/CEXP placement and derived route-level centers remain rebuild-p
 Current player-facing currency:
 > **G**
 
-Retired:
-> **Auren**
-
 Detailed prices, payouts, liquidity, and derived cash targets remain rebuild/recalibration-pending.
 
 ## Optional content
@@ -151,8 +145,6 @@ Exact current 2D character masters remain identity authority.
 Permanent-party field/battle runtime direction:
 > **rigged 3D models matched to those exact masters**
 
-The former required ~80 px field / ~200–220 px battle sprite-redraw pipeline is retired.
-
 Shared visual style:
 > **Seinen HD-2D Fantasy with Chaotic Variable Line Weight + Graphic Anime-Stylized Rendering**
 
@@ -167,7 +159,7 @@ Shared visual style:
 
 Enemy action-kit/difficulty, Player EXP/CEXP placement, and detailed economy calibration remain active rebuild/recertification frontiers.
 
-Old paper/sensitivity/true-battle certifications are not live implementation authority. New true-battle certifications must use current owner-domain inputs.
+New true-battle certifications must use current owner-domain inputs.
 
 ## Finale
 
