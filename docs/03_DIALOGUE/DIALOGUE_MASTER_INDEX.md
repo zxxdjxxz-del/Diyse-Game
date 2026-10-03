@@ -59,7 +59,7 @@ A conversational turn may be a fragment, one sentence, several connected sentenc
 > **Leadership is not a dialogue assignment.**
 
 Current runtime identity:
-- Crest Knight / **Crest Magus**.
+- Crest Knight / **Crest Arcanist**.
 
 He may lead, decide, joke, argue, volunteer an opinion, be wrong, revise, or stay quiet. He is not the automatic question-feed for specialists or the automatic plot-synthesis voice.
 
