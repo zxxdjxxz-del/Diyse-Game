@@ -33,10 +33,10 @@ All four Core Masteries unlock automatically at the listed Class Levels under cu
 
 
 ## Global references
-- Damage/penetration: `05_BATTLE_SYSTEM/DAMAGE_FORMULAS.md`
-- Hit/Evasion: `05_BATTLE_SYSTEM/BASE_HIT_AND_EVASION.md`
-- Critical: `05_BATTLE_SYSTEM/CRITICAL_HITS.md`
-- Elements/statuses: `05_BATTLE_SYSTEM/ELEMENTS.md` and `STATUS_EFFECTS.md`
+- Damage/penetration: `../../05_BATTLE_SYSTEM/DAMAGE_FORMULAS.md`
+- Hit/Evasion: `../../05_BATTLE_SYSTEM/BASE_HIT_AND_EVASION.md`
+- Critical: `../../05_BATTLE_SYSTEM/CRITICAL_HITS.md`
+- Elements/statuses: `../../05_BATTLE_SYSTEM/ELEMENTS.md` and `../../05_BATTLE_SYSTEM/STATUS_EFFECTS.md`
 
 ## Firewall
 Do not restore removed historical mechanics merely because an archived version of this class used them.

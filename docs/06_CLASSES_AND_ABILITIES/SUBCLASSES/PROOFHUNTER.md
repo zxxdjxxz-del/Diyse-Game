@@ -53,11 +53,11 @@ Proofhunter uses War Archer's same Hunter's Measure Prime lifecycle:
 - **Rank III — CL12:** damaging Proofhunter Abilities gain **15% additional applicable defensive-axis penetration** against targets that both have Hunter's Measure and are currently suffering Defense Down or Spirit Down. This stacks with explicitly authored same-axis penetration subject to the global penetration cap.
 
 ## Global references
-- Damage/penetration: `05_BATTLE_SYSTEM/DAMAGE_FORMULAS.md`
-- Temporary stat changes: `05_BATTLE_SYSTEM/STAT_CHANGES.md`
-- Hit/Evasion: `05_BATTLE_SYSTEM/BASE_HIT_AND_EVASION.md`
-- Critical: `05_BATTLE_SYSTEM/CRITICAL_HITS.md`
-- Elements/statuses: `05_BATTLE_SYSTEM/ELEMENTS.md` and `STATUS_EFFECTS.md`
+- Damage/penetration: `../../05_BATTLE_SYSTEM/DAMAGE_FORMULAS.md`
+- Temporary stat changes: `../../05_BATTLE_SYSTEM/STAT_CHANGES.md`
+- Hit/Evasion: `../../05_BATTLE_SYSTEM/BASE_HIT_AND_EVASION.md`
+- Critical: `../../05_BATTLE_SYSTEM/CRITICAL_HITS.md`
+- Elements/statuses: `../../05_BATTLE_SYSTEM/ELEMENTS.md` and `../../05_BATTLE_SYSTEM/STATUS_EFFECTS.md`
 
 ## Firewall
 Do not restore the retired Prepared-action interrupt version of Held Argument, old Speed-down Pin the Variable, Bleed-heavy Proofhunter package, or authored large/Hunt/structural-target bonus tags.

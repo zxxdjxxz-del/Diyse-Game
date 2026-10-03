@@ -56,11 +56,11 @@ All four Core Masteries unlock automatically at the listed Class Levels under cu
 
 
 ## Global references
-- Damage/penetration: `05_BATTLE_SYSTEM/DAMAGE_FORMULAS.md`
-- Hit/Evasion: `05_BATTLE_SYSTEM/BASE_HIT_AND_EVASION.md`
-- Critical: `05_BATTLE_SYSTEM/CRITICAL_HITS.md`
-- Elements/statuses: `05_BATTLE_SYSTEM/ELEMENTS.md` and `STATUS_EFFECTS.md`
-- Turn/round and Prepared timing: `05_BATTLE_SYSTEM/TURN_AND_ROUND_RULES.md`
+- Damage/penetration: `../../05_BATTLE_SYSTEM/DAMAGE_FORMULAS.md`
+- Hit/Evasion: `../../05_BATTLE_SYSTEM/BASE_HIT_AND_EVASION.md`
+- Critical: `../../05_BATTLE_SYSTEM/CRITICAL_HITS.md`
+- Elements/statuses: `../../05_BATTLE_SYSTEM/ELEMENTS.md` and `../../05_BATTLE_SYSTEM/STATUS_EFFECTS.md`
+- Turn/round and Prepared timing: `../../05_BATTLE_SYSTEM/TURN_AND_ROUND_RULES.md`
 
 ## Firewall
 Do not restore older Warden's Valor support/action-modification wording; the current Warden's Valor is the authored **170-Power Magical / Colorless offensive Ability** above. Do not restore Poison or obsolete harmful-status lists to Blue Warden support effects.

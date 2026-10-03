@@ -107,11 +107,11 @@ All four Core Masteries unlock automatically at the listed Class Levels under cu
 
 
 ## Global references
-- Damage/penetration/Ruin Hybrid rules: `05_BATTLE_SYSTEM/DAMAGE_FORMULAS.md` and `ABILITY_RULES.md`
-- Hit/Evasion: `05_BATTLE_SYSTEM/BASE_HIT_AND_EVASION.md`
-- Turn/round timing: `05_BATTLE_SYSTEM/TURN_AND_ROUND_RULES.md`
-- Temporary stat changes: `05_BATTLE_SYSTEM/STAT_CHANGES.md`
-- Elements/statuses: `05_BATTLE_SYSTEM/ELEMENTS.md` and `STATUS_EFFECTS.md`
+- Damage/penetration/Ruin Hybrid rules: `../../05_BATTLE_SYSTEM/DAMAGE_FORMULAS.md` and `../ABILITY_RULES.md`
+- Hit/Evasion: `../../05_BATTLE_SYSTEM/BASE_HIT_AND_EVASION.md`
+- Turn/round timing: `../../05_BATTLE_SYSTEM/TURN_AND_ROUND_RULES.md`
+- Temporary stat changes: `../../05_BATTLE_SYSTEM/STAT_CHANGES.md`
+- Elements/statuses: `../../05_BATTLE_SYSTEM/ELEMENTS.md` and `../../05_BATTLE_SYSTEM/STATUS_EFFECTS.md`
 
 ## Firewall
 Do not restore the retired Shardfang Defense-Down rider, summon gauge, controllable summon command menu, Rune subsystem, or the older first-Ruin-Ability-per-round damage Trait. Controlled Apocalypse keeps the current 75% Attack / 25% Magic Ruin-Hybrid rule rather than restoring an older superseded 60/40 split.

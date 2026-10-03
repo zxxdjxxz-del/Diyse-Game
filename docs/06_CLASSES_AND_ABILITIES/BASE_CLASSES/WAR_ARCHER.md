@@ -59,11 +59,11 @@ These bonuses are Torren/War-Archer-specific additions to Hunter's Measure's sha
 All four Core Masteries unlock automatically at the listed Class Levels under the current working rule.
 
 ## Global references
-- Damage/penetration/direct-damage reduction: `05_BATTLE_SYSTEM/DAMAGE_FORMULAS.md`
-- Fields: `05_BATTLE_SYSTEM/FIELDS.md`
-- Hit/Evasion: `05_BATTLE_SYSTEM/BASE_HIT_AND_EVASION.md`
-- Critical: `05_BATTLE_SYSTEM/CRITICAL_HITS.md`
-- Elements/statuses: `05_BATTLE_SYSTEM/ELEMENTS.md` and `STATUS_EFFECTS.md`
+- Damage/penetration/direct-damage reduction: `../../05_BATTLE_SYSTEM/DAMAGE_FORMULAS.md`
+- Fields: `../../05_BATTLE_SYSTEM/FIELDS.md`
+- Hit/Evasion: `../../05_BATTLE_SYSTEM/BASE_HIT_AND_EVASION.md`
+- Critical: `../../05_BATTLE_SYSTEM/CRITICAL_HITS.md`
+- Elements/statuses: `../../05_BATTLE_SYSTEM/ELEMENTS.md` and `../../05_BATTLE_SYSTEM/STATUS_EFFECTS.md`
 
 ## Firewall
 Do not restore retired Quarry Appraisal, Watchful Aim, or Speed-focused War Archer mechanics merely because an archived version used them.

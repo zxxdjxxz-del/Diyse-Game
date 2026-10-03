@@ -36,11 +36,11 @@ The previous third mechanical Subclass Mastery and old fourth-node Equipment-Mas
 - Rank III: whenever a Ruin Warden Ability restores HP to a conscious ally, that ally gains +10 Status Resistance through end following round; refreshes, does not stack; revival itself does not trigger it.
 
 ## Global references
-- Damage/penetration: `05_BATTLE_SYSTEM/DAMAGE_FORMULAS.md`
-- Temporary stat changes: `05_BATTLE_SYSTEM/STAT_CHANGES.md`
-- Hit/Evasion: `05_BATTLE_SYSTEM/BASE_HIT_AND_EVASION.md`
-- Critical: `05_BATTLE_SYSTEM/CRITICAL_HITS.md`
-- Elements/statuses: `05_BATTLE_SYSTEM/ELEMENTS.md` and `STATUS_EFFECTS.md`
+- Damage/penetration: `../../05_BATTLE_SYSTEM/DAMAGE_FORMULAS.md`
+- Temporary stat changes: `../../05_BATTLE_SYSTEM/STAT_CHANGES.md`
+- Hit/Evasion: `../../05_BATTLE_SYSTEM/BASE_HIT_AND_EVASION.md`
+- Critical: `../../05_BATTLE_SYSTEM/CRITICAL_HITS.md`
+- Elements/statuses: `../../05_BATTLE_SYSTEM/ELEMENTS.md` and `../../05_BATTLE_SYSTEM/STATUS_EFFECTS.md`
 
 ## Firewall
 Do not restore removed historical mechanics merely because an archived version of this class used them.
