@@ -123,7 +123,7 @@ A current correction should be promoted into a semantic `_LOCK.md`, `_STORY_SUPP
 
 Superseded beat packets are removed from the live `CHAPTERS/` tree.
 
-Git history preserves their former filenames and content for provenance. If a deliberate retained provenance artifact is ever needed in-repository, it belongs under the repository archive layer (`docs/99_ARCHIVE/`) and remains noncurrent.
+Git history preserves their former filenames and content for provenance. Superseded story packets do not remain in the live repository solely as provenance artifacts.
 
 Historical material must not be cited by scene-authority specs as current authority.
 
@@ -135,7 +135,7 @@ Retired beats do not reserve current B-numbers. When a structure changes:
 1. revise the chapter master;
 2. renumber the current live sequence;
 3. migrate current references;
-4. remove superseded packets from the live `CHAPTERS/` tree and preserve their history through Git (or `99_ARCHIVE` only for a deliberately retained provenance artifact);
+4. remove superseded packets from the live `CHAPTERS/` tree and preserve their history through Git;
 5. preserve former numbering through Git/history rather than ghost live slots.
 
 ## Current early-game examples
@@ -160,4 +160,4 @@ If an older support packet disagrees with the current chapter master:
 
 `python tools/dialogue/validate_authority_naming.py` validates the live `CHAPTERS/` root. It rejects mutable-state filenames such as `WORKING`, `CORRECTION`, `REVISION`, retired `BRIARHIDE` naming, old beat-specific `CHAPTER_##_BEAT_##_...` packets in the live root, and malformed `CH##_B##` / `CH##_C##` support identities.
 
-The validator checks current files in the live `CHAPTERS/` root. Superseded provenance belongs in Git history / `99_ARCHIVE`, not in a parallel live historical subtree.
+The validator checks current files in the live `CHAPTERS/` root. Superseded provenance belongs in Git history, not in a parallel live historical subtree.
