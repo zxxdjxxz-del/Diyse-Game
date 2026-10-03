@@ -2,12 +2,11 @@
 
 ## Authority
 
-Newest explicit approved correction → current owning numbered domain → `00_MASTER_CONTROL` cross-domain rule → `90_WORKING` only for unresolved sequencing/work → archive/Git history for provenance only.
+Newest explicit approved correction → current owning numbered domain → `00_MASTER_CONTROL` cross-domain rule → `90_WORKING` only for unresolved sequencing/work → Git history for deliberate provenance/recovery only.
 
 Cross-domain terminology handoffs:
 - current class names → `CLASS_TERMINOLOGY_CURRENT.md`
 - current Face names → `FACE_TERMINOLOGY_CURRENT.md`
-- retired/current terminology migration → `RETIRED_TERMINOLOGY_MAP.md`
 - current glossary → `TERMINOLOGY_GLOSSARY.md`
 
 ## Active domains
@@ -66,12 +65,12 @@ Current character visual authority:
 > `docs/14_ART_AND_VISUALS/PRODUCTION/CHARACTERS/README.md`
 
 ### 15_AUDIO_AND_MUSIC
-Open soundtrack authority, sound-design requirements, implementation boundary, and historical research archive.
+Open soundtrack authority, sound-design requirements, implementation boundary, and current research inputs.
 
 ### 16_BALANCE_AND_TESTING
 Current balance/rebuild frontier, regression matrices, test methods, and release gates.
 
-Historical v93–v103 true-battle snapshots are no longer live authority; the current protocol is:
+Historical v93–v103 true-battle snapshots are not live authority; current certification uses:
 > `../16_BALANCE_AND_TESTING/TRUE_BATTLES/TRUE_BATTLE_TEST_PROTOCOL.md`
 
 ## Working layer
@@ -82,9 +81,11 @@ Live contents are limited to:
 - `../90_WORKING/ACTIVE_WORK_QUEUE.md`;
 - playable-area/route production files and blueprints.
 
-## Archive layer
+## History and recovery
 
-`../99_ARCHIVE/` and Git history are provenance/history only. Nothing there is current by default.
+Superseded and retired project material belongs in Git history rather than a parallel archive directory on `main`.
+
+If current compatibility code, validation, licensing/source provenance, or another active production dependency requires historical identifiers or data, keep only the minimum required compatibility surface beside its current owner.
 
 ## Reorganization status
 
