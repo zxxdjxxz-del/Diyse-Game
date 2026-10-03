@@ -69,7 +69,7 @@ Resolution:
 Underlying retrospective canon:
 > this is **Seyrik Rell under concealed identity**.
 
-This encounter is **authored / protected**, not an optional Elite encounter.
+This encounter is **authored / protected**, not optional combat and not part of an ordinary/strong-normal encounter pool.
 
 A real noncombat field / triage / defensive-repositioning interval must separate this encounter from Riftmaw.
 
