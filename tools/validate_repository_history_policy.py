@@ -14,10 +14,15 @@ RETIRED_DOC_REFERENCE_RE = re.compile(
 HISTORICAL_DOC_ROOTS = (
     ROOT / "docs" / "03_DIALOGUE" / "EXPERIMENTS",
     ROOT / "docs" / "15_AUDIO_AND_MUSIC" / "RESEARCH_ARCHIVE",
+    ROOT / "docs" / "14_ART_AND_VISUALS" / "PRODUCTION" / "ASSET_LIBRARY" / "archive",
 )
 HISTORICAL_REFERENCE_SEGMENTS = (
     "EXPERIMENTS/",
     "RESEARCH_ARCHIVE/",
+    "PRODUCTION/ASSET_LIBRARY/archive/",
+    "GLOBAL_ASSET_ARCHIVE_LEDGER.md",
+    "DIYSE_ASSET_LIBRARY_MASTER_2026-08-30_v5",
+    "Asset Library Master v5",
 )
 TEXT_EXTENSIONS = {
     ".md", ".txt", ".json", ".py", ".gd", ".yml", ".yaml", ".cfg",
@@ -46,6 +51,10 @@ def main() -> int:
         if path.name.startswith("RETIRED_") or path.name == "REMOVED_SYSTEMS_FIREWALL.md":
             errors.append(
                 f"{path.relative_to(ROOT)} is a retired/removed-system prose layer; use current owner authority plus Git history"
+            )
+        if path.name == "GLOBAL_ASSET_ARCHIVE_LEDGER.md":
+            errors.append(
+                f"{path.relative_to(ROOT)} is historical asset upload-event bookkeeping; current source manifests own active provenance"
             )
 
     validator_path = Path(__file__).resolve()
