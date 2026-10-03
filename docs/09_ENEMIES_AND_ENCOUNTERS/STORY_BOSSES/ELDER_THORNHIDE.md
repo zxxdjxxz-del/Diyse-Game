@@ -5,37 +5,13 @@
 **Encounter type:** mandatory authored nonlethal / protected  
 **Status:** **ACTIVE ENCOUNTER BODY — REVALIDATION PENDING**
 
-## Historical route-level reference — recertification pending
+## Route-level validation boundary
 
-The inherited EXP/level arithmetic below predates retirement of Regional Hunts #1–#3 and is **not current completionist-route authority**. It is retained only as tuning provenance until the planned progression rebuild and Chapter-4 validation rerun. Do not use these levels as current certification.
+Exact mandatory/completionist pre-encounter levels, optional-EXP advantages, and level-centered difficulty claims are **not current certification**.
 
-Mandatory Chapter-3 ending EXP:
-> **14,400 EXP = Lv13**
+Regional Hunts #1–#3 are retired/open and must not be counted as current pre-Chapter-4 optional progression. The planned Player EXP/CEXP rebuild and Chapter-4 validation pass own replacement route-level references.
 
-Elder Thornhide occurs at the opening of Chapter 4 before any Chapter-4 fixed EXP award.
-
-Therefore:
-> **mandatory central = Lv13**
-
-Retired optional EXP assumptions in this inherited reference (not current availability):
-- The Marks We Leave — 500
-- Regional Hunt #1 — 1,000 — **RETIRED**
-- Regional Hunt #2 — 1,500 — **RETIRED**
-- Regional Hunt #3 — 2,200 — **RETIRED**
-
-Historical removed optional subtotal:
-> **5,200 EXP**
-
-Historical completionist pre-Elder total (not current):
-> **19,600 EXP = Lv15 exactly**
-
-Incidental optional combat may place the high-side route around:
-> **Lv16**
-
-Historical balance references (not current certification):
-- mandatory — **Lv13**
-- completionist fixed-content — **Lv15**
-- high-side — **~Lv16**
+The encounter's authored four-round protected structure and current raw/action body below remain live inputs for that revalidation.
 
 ## Important duration exception
 
@@ -149,7 +125,7 @@ For this authored protected encounter:
 
 The nonlethal outcome is encounter-authored, not a universal Mercy/Subdual system.
 
-## Historical power-completeness note — not current certification
+## Action Power coverage
 
 Direct-damage actions:
 - Territorial Rush — **190**
@@ -161,7 +137,7 @@ Non-damaging:
 - Guard the Den — **Power N/A**
 - Warning Display — **Power N/A**
 
-> Historical label: **WORKING PASS / POWER COMPLETE**. Current difficulty/power certification is **OPEN** pending Chapter-4 revalidation.
+> This inventory records authored Power fields only. Current difficulty/power certification is **OPEN** pending Chapter-4 revalidation.
 
 ## Duration rule
 The authored protected encounter remains exactly **4 rounds** for all current route states.
