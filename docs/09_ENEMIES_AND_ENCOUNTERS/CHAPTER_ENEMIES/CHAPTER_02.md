@@ -57,7 +57,7 @@ Current pool:
 
 These are established Black Host identities reused from earlier chapters with Chapter-2-appropriate tuning where required.
 
-Retired-name normalization is centralized in `../RETIRED_ENEMY_TERMINOLOGY_FIREWALL.md`; this chapter file lists the current active identities for Chapter 2.
+This chapter file lists the current active enemy identities for Chapter 2.
 
 ---
 
@@ -142,4 +142,3 @@ Do not restore without explicit revision:
 - Regional Hunt #2 — Scaldback
 - Scriptshade — belongs to Chapter 3
 
-Retired aliases are governed by `../RETIRED_ENEMY_TERMINOLOGY_FIREWALL.md`.
