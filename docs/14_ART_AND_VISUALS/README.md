@@ -110,8 +110,4 @@ The asset library records what source material exists and its provenance/product
 
 Historical visual concepts may remain in Git history or explicitly retired documentation, but must not silently reactivate when they conflict with current authority.
 
-See:
-
-`RETIRED_VISUAL_CONCEPTS_FIREWALL.md`
-
-Current production documents should point forward to active masters and locks rather than depending on obsolete migration filenames or memory-based reconstructions.
+Current production documents should point forward to active masters and locks rather than depending on superseded migration material or memory-based reconstructions.

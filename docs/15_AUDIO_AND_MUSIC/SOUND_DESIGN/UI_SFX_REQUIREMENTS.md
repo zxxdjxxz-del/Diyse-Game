@@ -26,7 +26,7 @@ Production UI will need coherent feedback for:
 - warning/point-of-no-return confirmation.
 
 ## Current-system boundary
-Only author UI feedback for systems present in the current UI/gameplay authorities. Retired system names are centralized in `../RETIRED_AUDIO_TERMINOLOGY_FIREWALL.md`.
+Only author UI feedback for systems present in the current UI/gameplay authorities.
 
 ## Kessara service
 Relic-copy service may have:

@@ -73,7 +73,6 @@ See:
 - `FIELDS.md`
 - `GUARD.md`
 - `BOSS_FORM_RULES.md`
-- `REMOVED_SYSTEMS_FIREWALL.md`
 
 ## Important reconciliation
 

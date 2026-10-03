@@ -8,7 +8,6 @@ War Hound is the current display identity in Chapters 0 and 2.
 
 - Chapter 0 does **not** use a Rift Hound.
 - Chapter 2 also uses **War Hound**, not Rift Hound.
-- `Convoy Rift Hound` is a retired display/filename identity recorded centrally in `../RETIRED_ENEMY_TERMINOLOGY_FIREWALL.md`.
 - Actual later Rift Hound material remains separately owned by `RIFT_HOUND.md`.
 
 ## Chapter 0 — current authored variant

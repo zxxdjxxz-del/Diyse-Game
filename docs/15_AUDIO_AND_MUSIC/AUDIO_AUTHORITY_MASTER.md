@@ -2,7 +2,6 @@
 
 **Status:** ACTIVE AUDIO-DOMAIN AUTHORITY  
 **Open-work register:** `OPEN_AUDIO_ITEMS.md`  
-**Retired terminology:** `RETIRED_AUDIO_TERMINOLOGY_FIREWALL.md`
 
 ## 1. Music
 

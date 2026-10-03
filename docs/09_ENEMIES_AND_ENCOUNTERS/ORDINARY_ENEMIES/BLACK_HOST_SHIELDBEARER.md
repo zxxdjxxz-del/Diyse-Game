@@ -6,7 +6,7 @@
 
 Black Host Shieldbearer is the current displayed identity in Chapters 0, 1, and 2.
 
-The retired **Ruin Shieldbearer** name is historical only and is recorded centrally in `../RETIRED_ENEMY_TERMINOLOGY_FIREWALL.md`; it must not be treated as a separate current enemy identity.
+Treat **Black Host Shieldbearer** as the sole current shieldbearer identity for these placements.
 
 ## Chapter 0 — current authored variant
 

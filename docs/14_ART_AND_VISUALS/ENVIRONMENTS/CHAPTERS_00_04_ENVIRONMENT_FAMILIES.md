@@ -48,4 +48,4 @@ Current Chapter-4 elemental presentation:
 - Lightning;
 - Earth.
 
-Retired environment names and superseded element packages are centralized in `../RETIRED_VISUAL_CONCEPTS_FIREWALL.md`.
+Use only environment names and element packages established by the current world, battle, and art owners.

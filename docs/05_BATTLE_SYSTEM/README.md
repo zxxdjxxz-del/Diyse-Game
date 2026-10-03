@@ -16,6 +16,5 @@ Canonical global battle-system domain.
 - `FIELDS.md`
 - `GUARD.md`
 - `BOSS_FORM_RULES.md`
-- `REMOVED_SYSTEMS_FIREWALL.md`
 
 Current battle authority is owned by the files above under `../00_MASTER_CONTROL/AUTHORITY_AND_CHANGE_CONTROL.md`. Migration baselines and audit snapshots remain Git-history provenance; they do not define a parallel combat contract.

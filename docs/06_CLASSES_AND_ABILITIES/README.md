@@ -49,6 +49,5 @@ Detailed Relic/Legacy item definitions remain destined for `08_ITEMS_AND_EQUIPME
 - `TRAITS.md`
 - `ULTIMATES.md`
 - `MASTERY.md`
-- `RETIRED_SYNTHESIS_FIREWALL.md`
 - `BASE_CLASSES/`
 - `SUBCLASSES/`
