@@ -52,8 +52,7 @@ The legacy mandatory-route aggregate is not a complete current ledger because Ch
 ## Historical/provisional chapter-liquidity model
 
 Chapter 1's current per-formation G remap remains open, so the liquidity result below is a **provisional stress-test pass** rather than a final exact Chapter-1 certification.
-The whole-game total is also validated at chapter scale in:
-> `CHAPTER_G_LIQUIDITY_VALIDATION.md`
+The former chapter-scale liquidity tracker was removed from the live authority surface after its inputs reopened. The inline figures below are retained as historical/provisional stress evidence only; there is no current final liquidity certification until the economy rebuild reruns it.
 
 Stress-test model using **mandatory-route income only**:
 - meaningful ordinary-equipment purchase allowance through Chapter 12: **115,600 G** total;
@@ -210,7 +209,6 @@ Optional content should make the player richer and widen build flexibility, not 
 - story bosses/named encounters → `STORY_BOSS_G_REWARDS.md`
 - fixed authored combats → `ENEMY_REWARD_HANDOFF.md`
 - mandatory non-battle map → `MANDATORY_NONBATTLE_G_BUDGET.md`
-- chapter liquidity validation → `CHAPTER_G_LIQUIDITY_VALIDATION.md`
 - Regional Hunts → `REGIONAL_HUNT_REWARD_BOUNDARY.md`
 - Major Hunts → `MAJOR_HUNT_REWARD_BOUNDARY.md`
 - Side Quests → `SIDE_QUEST_REWARD_BOUNDARY.md`
