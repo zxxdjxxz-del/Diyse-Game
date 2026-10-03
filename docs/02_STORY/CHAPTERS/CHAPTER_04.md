@@ -945,6 +945,111 @@ No additional headquarters briefing occurs.
 
 ## Beat 2 — Elder Thornhide
 
+### Typed Person-context authority — Beat 2
+
+This machine-readable block carries the scene-local Person-context authority forward without preassigning dialogue performance.
+
+```diyse-context
+[
+  {
+    "id": "ch04b02_cyanis_attention",
+    "owner_id": "cyanis",
+    "kind": "local",
+    "key": "attention_target",
+    "value": [
+      "protect people without assuming the animal is malicious",
+      "his Card's qualitatively new response after combat"
+    ]
+  },
+  {
+    "id": "ch04b02_cyanis_avoid",
+    "owner_id": "cyanis",
+    "kind": "local",
+    "key": "immediate_avoidances",
+    "value": [
+      "explaining the Prime system",
+      "treating himself as certain because the Card is his"
+    ]
+  },
+  {
+    "id": "ch04b02_cyanis_last_sentinel",
+    "owner_id": "cyanis",
+    "kind": "epistemic",
+    "key": "last_sentinel",
+    "value": "LAST SENTINEL CONFIRMED and deep-Ruby stabilization are known; no prior manifestation, and the mechanism remains unknown.",
+    "status": "known_fact"
+  },
+  {
+    "id": "ch04b02_ilyra_attention",
+    "owner_id": "ilyra",
+    "kind": "local",
+    "key": "attention_target",
+    "value": [
+      "whether the conflict can be ended without unnecessary killing",
+      "what the manifestation changes in their assumptions"
+    ]
+  },
+  {
+    "id": "ch04b02_ilyra_avoid",
+    "owner_id": "ilyra",
+    "kind": "local",
+    "key": "immediate_avoidances",
+    "value": [
+      "acting as automatic medic or narrator",
+      "turning a possibility into a diagnosis"
+    ]
+  },
+  {
+    "id": "ch04b02_torren_attention",
+    "owner_id": "torren",
+    "kind": "local",
+    "key": "attention_target",
+    "value": [
+      "tracks and territorial behavior",
+      "signs that reoccupation changed the animal's range"
+    ]
+  },
+  {
+    "id": "ch04b02_torren_avoid",
+    "owner_id": "torren",
+    "kind": "local",
+    "key": "immediate_avoidances",
+    "value": [
+      "moralizing the animal",
+      "claiming certainty before evidence"
+    ]
+  },
+  {
+    "id": "ch04b02_torren_elder_thornhide",
+    "owner_id": "torren",
+    "kind": "epistemic",
+    "key": "elder_thornhide",
+    "value": "Tracking evidence supports an old territorial animal; Elder Thornhide identity is earned through the trail and confrontation rather than assumed beforehand.",
+    "status": "inference"
+  },
+  {
+    "id": "ch04b02_nimera_attention",
+    "owner_id": "nimera",
+    "kind": "local",
+    "key": "attention_target",
+    "value": [
+      "what was directly observed",
+      "whether the manifestation changes the evidentiary status of the Prime hypothesis"
+    ]
+  },
+  {
+    "id": "ch04b02_nimera_avoid",
+    "owner_id": "nimera",
+    "kind": "local",
+    "key": "immediate_avoidances",
+    "value": [
+      "calling Cyanis's Card a confirmed Prime",
+      "generic archive exposition during an ecological crisis"
+    ]
+  }
+]
+```
+
 **Purpose:** resolve the ecological threat nonlethally and deliver Last Sentinel's first verified modern manifestation / Recovered transition.
 
 ### Tracking
@@ -974,6 +1079,95 @@ The characters do not receive a full Prime-system explanation from this event.
 
 ## Beat 3 — Field Aftermath / Shortcut Decision
 
+### Typed Person-context authority — Beat 3
+
+This machine-readable block carries the scene-local Person-context authority forward without preassigning dialogue performance.
+
+```diyse-context
+[
+  {
+    "id": "ch04b03_cyanis_attention",
+    "owner_id": "cyanis",
+    "kind": "local",
+    "key": "attention_target",
+    "value": [
+      "what must change at Cresthaven",
+      "what his Card just did"
+    ]
+  },
+  {
+    "id": "ch04b03_cyanis_avoid",
+    "owner_id": "cyanis",
+    "kind": "local",
+    "key": "immediate_avoidances",
+    "value": [
+      "forcing a Prime explanation",
+      "reopening the fight"
+    ]
+  },
+  {
+    "id": "ch04b03_ilyra_attention",
+    "owner_id": "ilyra",
+    "kind": "local",
+    "key": "attention_target",
+    "value": [
+      "what the manifestation actually proves",
+      "consequences of restoration for the animal"
+    ]
+  },
+  {
+    "id": "ch04b03_ilyra_avoid",
+    "owner_id": "ilyra",
+    "kind": "local",
+    "key": "immediate_avoidances",
+    "value": [
+      "route-finding ownership",
+      "automatic emotional-summary role"
+    ]
+  },
+  {
+    "id": "ch04b03_torren_attention",
+    "owner_id": "torren",
+    "kind": "local",
+    "key": "attention_target",
+    "value": [
+      "animal range responsibility",
+      "current position relative to Crown road",
+      "time saved by continuing forward"
+    ]
+  },
+  {
+    "id": "ch04b03_torren_avoid",
+    "owner_id": "torren",
+    "kind": "local",
+    "key": "immediate_avoidances",
+    "value": [
+      "turning the shortcut into a secret Ancient route"
+    ]
+  },
+  {
+    "id": "ch04b03_nimera_attention",
+    "owner_id": "nimera",
+    "kind": "local",
+    "key": "attention_target",
+    "value": [
+      "observation versus interpretation",
+      "what evidence remains missing for Prime classification"
+    ]
+  },
+  {
+    "id": "ch04b03_nimera_avoid",
+    "owner_id": "nimera",
+    "kind": "local",
+    "key": "immediate_avoidances",
+    "value": [
+      "historical lecture",
+      "overstating the event"
+    ]
+  }
+]
+```
+
 **Purpose:** let the Prime event land briefly, close the Thornhide crisis responsibly, and convert the party's field position into a faster route toward the already-selected Ivorybridge lead.
 
 Mandatory:
@@ -997,6 +1191,93 @@ The party does not return to headquarters first.
 ---
 
 ## Beat 4 — Forest Route / Crown Road
+
+### Typed Person-context authority — Beat 4
+
+This machine-readable block carries the scene-local Person-context authority forward without preassigning dialogue performance.
+
+```diyse-context
+[
+  {
+    "id": "ch04b04_cyanis_attention",
+    "owner_id": "cyanis",
+    "kind": "local",
+    "key": "attention_target",
+    "value": [
+      "pace and party readiness",
+      "getting to Ivorybridge without overcomplicating the shortcut"
+    ]
+  },
+  {
+    "id": "ch04b04_cyanis_avoid",
+    "owner_id": "cyanis",
+    "kind": "local",
+    "key": "immediate_avoidances",
+    "value": [
+      "commanding every exchange"
+    ]
+  },
+  {
+    "id": "ch04b04_ilyra_attention",
+    "owner_id": "ilyra",
+    "kind": "local",
+    "key": "attention_target",
+    "value": [
+      "practical consequences of route choice",
+      "assumptions worth questioning only if they matter"
+    ]
+  },
+  {
+    "id": "ch04b04_ilyra_avoid",
+    "owner_id": "ilyra",
+    "kind": "local",
+    "key": "immediate_avoidances",
+    "value": [
+      "alternate-route brainstorming as identity"
+    ]
+  },
+  {
+    "id": "ch04b04_torren_attention",
+    "owner_id": "torren",
+    "kind": "local",
+    "key": "attention_target",
+    "value": [
+      "terrain cues",
+      "reconnecting paths",
+      "transition to maintained ground"
+    ]
+  },
+  {
+    "id": "ch04b04_torren_avoid",
+    "owner_id": "torren",
+    "kind": "local",
+    "key": "immediate_avoidances",
+    "value": [
+      "constant navigation prompting",
+      "inventing Ancient-route certainty"
+    ]
+  },
+  {
+    "id": "ch04b04_nimera_attention",
+    "owner_id": "nimera",
+    "kind": "local",
+    "key": "attention_target",
+    "value": [
+      "what the copied record literally shows",
+      "keeping map claims bounded"
+    ]
+  },
+  {
+    "id": "ch04b04_nimera_avoid",
+    "owner_id": "nimera",
+    "kind": "local",
+    "key": "immediate_avoidances",
+    "value": [
+      "turning travel into archive exposition"
+    ]
+  }
+]
+```
 
 **Purpose:** provide a medium exploration/travel beat, reward Torren's field expertise, and decompress after the Thornhide/Last Sentinel event before Ivorybridge.
 
@@ -1038,6 +1319,125 @@ New objective:
 ---
 
 ## Beat 5 — Ivorybridge / Vaelira
+
+### Typed Person-context authority — Beat 5
+
+This machine-readable block carries the scene-local Person-context authority forward without preassigning dialogue performance.
+
+```diyse-context
+[
+  {
+    "id": "ch04b05_cyanis_attention",
+    "owner_id": "cyanis",
+    "kind": "local",
+    "key": "attention_target",
+    "value": [
+      "whether Vaelira can help test the lead",
+      "party logistics after recruitment"
+    ]
+  },
+  {
+    "id": "ch04b05_cyanis_avoid",
+    "owner_id": "cyanis",
+    "kind": "local",
+    "key": "immediate_avoidances",
+    "value": [
+      "recruiting through praise exposition",
+      "making himself the technical intermediary"
+    ]
+  },
+  {
+    "id": "ch04b05_ilyra_attention",
+    "owner_id": "ilyra",
+    "kind": "local",
+    "key": "attention_target",
+    "value": [
+      "whether the visible failure point could be responding correctly to an upstream problem",
+      "how Vaelira reasons"
+    ]
+  },
+  {
+    "id": "ch04b05_ilyra_avoid",
+    "owner_id": "ilyra",
+    "kind": "local",
+    "key": "immediate_avoidances",
+    "value": [
+      "technical diagnosis",
+      "instant friendship shorthand",
+      "turning what-if into a catchphrase"
+    ]
+  },
+  {
+    "id": "ch04b05_torren_attention",
+    "owner_id": "torren",
+    "kind": "local",
+    "key": "attention_target",
+    "value": [
+      "geographic fit of north-running route",
+      "practical value of testing the lead"
+    ]
+  },
+  {
+    "id": "ch04b05_torren_avoid",
+    "owner_id": "torren",
+    "kind": "local",
+    "key": "immediate_avoidances",
+    "value": [
+      "scientific diagnosis outside expertise"
+    ]
+  },
+  {
+    "id": "ch04b05_nimera_attention",
+    "owner_id": "nimera",
+    "kind": "local",
+    "key": "attention_target",
+    "value": [
+      "what the map source actually supports",
+      "keeping resemblance distinct from interpretation"
+    ]
+  },
+  {
+    "id": "ch04b05_nimera_avoid",
+    "owner_id": "nimera",
+    "kind": "local",
+    "key": "immediate_avoidances",
+    "value": [
+      "competing with Vaelira as generic smart person",
+      "letting mechanism become historical fact"
+    ]
+  },
+  {
+    "id": "ch04b05_vaelira_attention",
+    "owner_id": "vaelira",
+    "kind": "local",
+    "key": "attention_target",
+    "value": [
+      "diagnose the actual regulator cause",
+      "test whether the map resemblance is real",
+      "decide whether the Annex offers a useful comparison"
+    ]
+  },
+  {
+    "id": "ch04b05_vaelira_avoid",
+    "owner_id": "vaelira",
+    "kind": "local",
+    "key": "immediate_avoidances",
+    "value": [
+      "arrogance performance",
+      "instant Face or network conclusions",
+      "automatic agreement with Ilyra"
+    ]
+  },
+  {
+    "id": "ch04b05_vaelira_wayfinder_copy",
+    "owner_id": "vaelira",
+    "kind": "epistemic",
+    "key": "wayfinder_copy",
+    "value": "The copied geographic and infrastructure pattern resembles modern elemental-reaction geometry, while the Ancient notation remains unreadable and the scale remains anomalous.",
+    "status": "inference"
+  }
+]
+```
 
 **Purpose:** introduce Vaelira through competent work, connect the Wayfinder pattern to her scientific expertise without solving it, and recruit her permanently.
 
@@ -1101,6 +1501,113 @@ The correct next move is comparison/testing, not conclusion.
 
 ## Beat 6 — Reaction Annex Arrival / Initial Investigation
 
+### Typed Person-context authority — Beat 6
+
+This machine-readable block carries the scene-local Person-context authority forward without preassigning dialogue performance.
+
+```diyse-context
+[
+  {
+    "id": "ch04b06_cyanis_attention",
+    "owner_id": "cyanis",
+    "kind": "local",
+    "key": "attention_target",
+    "value": [
+      "what the team needs to test next",
+      "keeping the investigation actionable"
+    ]
+  },
+  {
+    "id": "ch04b06_cyanis_avoid",
+    "owner_id": "cyanis",
+    "kind": "local",
+    "key": "immediate_avoidances",
+    "value": [
+      "summary-machine role"
+    ]
+  },
+  {
+    "id": "ch04b06_ilyra_attention",
+    "owner_id": "ilyra",
+    "kind": "local",
+    "key": "attention_target",
+    "value": [
+      "which assumptions the diagnostic sequence is testing"
+    ]
+  },
+  {
+    "id": "ch04b06_ilyra_avoid",
+    "owner_id": "ilyra",
+    "kind": "local",
+    "key": "immediate_avoidances",
+    "value": [
+      "solving technical mechanism",
+      "forced speculative spiral"
+    ]
+  },
+  {
+    "id": "ch04b06_torren_attention",
+    "owner_id": "torren",
+    "kind": "local",
+    "key": "attention_target",
+    "value": [
+      "practical facility state and observed behavior"
+    ]
+  },
+  {
+    "id": "ch04b06_torren_avoid",
+    "owner_id": "torren",
+    "kind": "local",
+    "key": "immediate_avoidances",
+    "value": [
+      "pretending laboratory expertise"
+    ]
+  },
+  {
+    "id": "ch04b06_nimera_attention",
+    "owner_id": "nimera",
+    "kind": "local",
+    "key": "attention_target",
+    "value": [
+      "how anomalies were recorded or categorized",
+      "what the surviving evidence actually says"
+    ]
+  },
+  {
+    "id": "ch04b06_nimera_avoid",
+    "owner_id": "nimera",
+    "kind": "local",
+    "key": "immediate_avoidances",
+    "value": [
+      "mechanism ownership",
+      "retroactive negligence claims"
+    ]
+  },
+  {
+    "id": "ch04b06_vaelira_attention",
+    "owner_id": "vaelira",
+    "kind": "local",
+    "key": "attention_target",
+    "value": [
+      "controlled comparison",
+      "boundary conditions",
+      "what observation would falsify her working model"
+    ]
+  },
+  {
+    "id": "ch04b06_vaelira_avoid",
+    "owner_id": "vaelira",
+    "kind": "local",
+    "key": "immediate_avoidances",
+    "value": [
+      "claiming the Wayfinder is solved",
+      "blaming staff",
+      "treating resemblance as identity"
+    ]
+  }
+]
+```
+
 **Purpose:** establish a healthy working facility, compare the Wayfinder resemblance under controlled conditions, and define a falsifiable diagnostic sequence.
 
 ### Annex state
@@ -1130,6 +1637,71 @@ New objective:
 
 ## Beat 7 — Elemental Laboratory Ring
 
+### Typed Person-context authority — Beat 7
+
+This machine-readable block carries the scene-local Person-context authority forward without preassigning dialogue performance.
+
+```diyse-context
+[
+  {
+    "id": "ch04b07_ilyra_attention",
+    "owner_id": "ilyra",
+    "kind": "local",
+    "key": "attention_target",
+    "value": [
+      "what a correct result does and does not rule out"
+    ]
+  },
+  {
+    "id": "ch04b07_ilyra_avoid",
+    "owner_id": "ilyra",
+    "kind": "local",
+    "key": "immediate_avoidances",
+    "value": [
+      "technical vocabulary she does not own"
+    ]
+  },
+  {
+    "id": "ch04b07_nimera_attention",
+    "owner_id": "nimera",
+    "kind": "local",
+    "key": "attention_target",
+    "value": [
+      "distinguishing validated observations from interpretation"
+    ]
+  },
+  {
+    "id": "ch04b07_nimera_avoid",
+    "owner_id": "nimera",
+    "kind": "local",
+    "key": "immediate_avoidances",
+    "value": [
+      "record exposition unrelated to the tests"
+    ]
+  },
+  {
+    "id": "ch04b07_vaelira_attention",
+    "owner_id": "vaelira",
+    "kind": "local",
+    "key": "attention_target",
+    "value": [
+      "whether each branch reproduces expected behavior",
+      "what remains after correct branch behavior is accounted for"
+    ]
+  },
+  {
+    "id": "ch04b07_vaelira_avoid",
+    "owner_id": "vaelira",
+    "kind": "local",
+    "key": "immediate_avoidances",
+    "value": [
+      "discarding the residual because the branches passed",
+      "jumping directly to a whole-system conclusion"
+    ]
+  }
+]
+```
+
 **Purpose:** prove the individual branch models are correct and earn confidence before the later reversal.
 
 One interconnected laboratory ring contains four concise legs:
@@ -1156,6 +1728,111 @@ New objective:
 ---
 
 ## Beat 8 — Interaction Gallery / Reaction Conduit
+
+### Typed Person-context authority — Beat 8
+
+This machine-readable block carries the scene-local Person-context authority forward without preassigning dialogue performance.
+
+```diyse-context
+[
+  {
+    "id": "ch04b08_cyanis_attention",
+    "owner_id": "cyanis",
+    "kind": "local",
+    "key": "attention_target",
+    "value": [
+      "getting the researcher out alive",
+      "actionable containment priorities"
+    ]
+  },
+  {
+    "id": "ch04b08_cyanis_avoid",
+    "owner_id": "cyanis",
+    "kind": "local",
+    "key": "immediate_avoidances",
+    "value": [
+      "scientific-summary ownership"
+    ]
+  },
+  {
+    "id": "ch04b08_ilyra_attention",
+    "owner_id": "ilyra",
+    "kind": "local",
+    "key": "attention_target",
+    "value": [
+      "the assumption connecting successful local tests to expected global behavior"
+    ]
+  },
+  {
+    "id": "ch04b08_ilyra_avoid",
+    "owner_id": "ilyra",
+    "kind": "local",
+    "key": "immediate_avoidances",
+    "value": [
+      "naming the scientific answer",
+      "route or navigation reasoning",
+      "comedy during danger"
+    ]
+  },
+  {
+    "id": "ch04b08_torren_attention",
+    "owner_id": "torren",
+    "kind": "local",
+    "key": "attention_target",
+    "value": [
+      "physical danger and safe intervention windows"
+    ]
+  },
+  {
+    "id": "ch04b08_torren_avoid",
+    "owner_id": "torren",
+    "kind": "local",
+    "key": "immediate_avoidances",
+    "value": [
+      "laboratory-mechanism authority"
+    ]
+  },
+  {
+    "id": "ch04b08_nimera_attention",
+    "owner_id": "nimera",
+    "kind": "local",
+    "key": "attention_target",
+    "value": [
+      "which failures are actually ruled out",
+      "what remains evidentially open"
+    ]
+  },
+  {
+    "id": "ch04b08_nimera_avoid",
+    "owner_id": "nimera",
+    "kind": "local",
+    "key": "immediate_avoidances",
+    "value": [
+      "turning a strong hypothesis into historical fact"
+    ]
+  },
+  {
+    "id": "ch04b08_vaelira_attention",
+    "owner_id": "vaelira",
+    "kind": "local",
+    "key": "attention_target",
+    "value": [
+      "whether all local relationships can remain correct while global behavior differs",
+      "a mechanism consistent with the readings"
+    ]
+  },
+  {
+    "id": "ch04b08_vaelira_avoid",
+    "owner_id": "vaelira",
+    "kind": "local",
+    "key": "immediate_avoidances",
+    "value": [
+      "automatic agreement with Ilyra",
+      "calling the hypothesis final proof"
+    ]
+  }
+]
+```
 
 **Purpose:** prove all six pair models are locally correct, then show a dangerous whole-system discrepancy that none of them individually explains.
 
@@ -1204,6 +1881,74 @@ The chapter shifts from investigation into containment.
 ---
 
 ## Beat 9 — Central Regulation / Regulation Crucible
+
+### Typed Person-context authority — Beat 9
+
+This machine-readable block carries the scene-local Person-context authority forward without preassigning dialogue performance.
+
+```diyse-context
+[
+  {
+    "id": "ch04b09_ilyra_attention",
+    "owner_id": "ilyra",
+    "kind": "local",
+    "key": "attention_target",
+    "value": [
+      "consequences if the system boundary itself was the hidden assumption"
+    ]
+  },
+  {
+    "id": "ch04b09_ilyra_avoid",
+    "owner_id": "ilyra",
+    "kind": "local",
+    "key": "immediate_avoidances",
+    "value": [
+      "repeating Beat-8 insight as a catchphrase"
+    ]
+  },
+  {
+    "id": "ch04b09_nimera_attention",
+    "owner_id": "nimera",
+    "kind": "local",
+    "key": "attention_target",
+    "value": [
+      "what observations now justify",
+      "preventing pattern resemblance from becoming an Ancient-purpose claim"
+    ]
+  },
+  {
+    "id": "ch04b09_nimera_avoid",
+    "owner_id": "nimera",
+    "kind": "local",
+    "key": "immediate_avoidances",
+    "value": [
+      "solving undocumented history from mechanism alone"
+    ]
+  },
+  {
+    "id": "ch04b09_vaelira_attention",
+    "owner_id": "vaelira",
+    "kind": "local",
+    "key": "attention_target",
+    "value": [
+      "direct complete-system behavior",
+      "difference between local pair correctness and global instability",
+      "containment failure"
+    ]
+  },
+  {
+    "id": "ch04b09_vaelira_avoid",
+    "owner_id": "vaelira",
+    "kind": "local",
+    "key": "immediate_avoidances",
+    "value": [
+      "Face explanation",
+      "mid-battle lecture",
+      "self-blame beyond evidence"
+    ]
+  }
+]
+```
 
 **Purpose:** directly observe the all-four mechanism, escalate containment pressure, and enter the chapter's two-form final boss.
 
@@ -1275,6 +2020,74 @@ No third form.
 
 ## Beat 10 — The Seventh Reaction
 
+### Typed Person-context authority — Beat 10
+
+This machine-readable block carries the scene-local Person-context authority forward without preassigning dialogue performance.
+
+```diyse-context
+[
+  {
+    "id": "ch04b10_cyanis_attention",
+    "owner_id": "cyanis",
+    "kind": "local",
+    "key": "attention_target",
+    "value": [
+      "surviving the encounter and protecting others",
+      "what actionable conclusion remains after shutdown"
+    ]
+  },
+  {
+    "id": "ch04b10_cyanis_avoid",
+    "owner_id": "cyanis",
+    "kind": "local",
+    "key": "immediate_avoidances",
+    "value": [
+      "explaining scientific mechanism"
+    ]
+  },
+  {
+    "id": "ch04b10_nimera_attention",
+    "owner_id": "nimera",
+    "kind": "local",
+    "key": "attention_target",
+    "value": [
+      "exact evidentiary boundary of the conclusion",
+      "what remains unresolved"
+    ]
+  },
+  {
+    "id": "ch04b10_nimera_avoid",
+    "owner_id": "nimera",
+    "kind": "local",
+    "key": "immediate_avoidances",
+    "value": [
+      "historical certainty from visual resemblance"
+    ]
+  },
+  {
+    "id": "ch04b10_vaelira_attention",
+    "owner_id": "vaelira",
+    "kind": "local",
+    "key": "attention_target",
+    "value": [
+      "what the unified behavior proves after combat",
+      "which prior assumptions failed"
+    ]
+  },
+  {
+    "id": "ch04b10_vaelira_avoid",
+    "owner_id": "vaelira",
+    "kind": "local",
+    "key": "immediate_avoidances",
+    "value": [
+      "mid-battle explanation",
+      "new-element language",
+      "claiming the Wayfinder solved"
+    ]
+  }
+]
+```
+
 **Purpose:** make the chapter's scientific conclusion visible through combat: correct local pair models are insufficient to predict complete-system behavior.
 
 The Seventh Reaction:
@@ -1309,6 +2122,117 @@ Final break:
 ---
 
 ## Beat 11 — Safe Upper Labs / Aftermath
+
+### Typed Person-context authority — Beat 11
+
+This machine-readable block carries the scene-local Person-context authority forward without preassigning dialogue performance.
+
+```diyse-context
+[
+  {
+    "id": "ch04b11_cyanis_attention",
+    "owner_id": "cyanis",
+    "kind": "local",
+    "key": "attention_target",
+    "value": [
+      "people are safe",
+      "what the team actually needs to do next"
+    ]
+  },
+  {
+    "id": "ch04b11_cyanis_avoid",
+    "owner_id": "cyanis",
+    "kind": "local",
+    "key": "immediate_avoidances",
+    "value": [
+      "therapist or summary voice"
+    ]
+  },
+  {
+    "id": "ch04b11_ilyra_attention",
+    "owner_id": "ilyra",
+    "kind": "local",
+    "key": "attention_target",
+    "value": [
+      "counterfactual consequences of complete-system behavior",
+      "whether a hypothetical actually changes current action"
+    ]
+  },
+  {
+    "id": "ch04b11_ilyra_avoid",
+    "owner_id": "ilyra",
+    "kind": "local",
+    "key": "immediate_avoidances",
+    "value": [
+      "what-if catchphrase",
+      "instant panic",
+      "technical diagnosis"
+    ]
+  },
+  {
+    "id": "ch04b11_torren_attention",
+    "owner_id": "torren",
+    "kind": "local",
+    "key": "attention_target",
+    "value": [
+      "practical recovery state",
+      "whether theory changes immediate action"
+    ]
+  },
+  {
+    "id": "ch04b11_torren_avoid",
+    "owner_id": "torren",
+    "kind": "local",
+    "key": "immediate_avoidances",
+    "value": [
+      "anti-science caricature"
+    ]
+  },
+  {
+    "id": "ch04b11_nimera_attention",
+    "owner_id": "nimera",
+    "kind": "local",
+    "key": "attention_target",
+    "value": [
+      "evidence chain",
+      "confidence calibration",
+      "records and log preservation"
+    ]
+  },
+  {
+    "id": "ch04b11_nimera_avoid",
+    "owner_id": "nimera",
+    "kind": "local",
+    "key": "immediate_avoidances",
+    "value": [
+      "making the joke into canon",
+      "generic historian monologue"
+    ]
+  },
+  {
+    "id": "ch04b11_vaelira_attention",
+    "owner_id": "vaelira",
+    "kind": "local",
+    "key": "attention_target",
+    "value": [
+      "specific failed assumption",
+      "procedure change that fixes the failure",
+      "what remains unknown"
+    ]
+  },
+  {
+    "id": "ch04b11_vaelira_avoid",
+    "owner_id": "vaelira",
+    "kind": "local",
+    "key": "immediate_avoidances",
+    "value": [
+      "punitive self-blame",
+      "global institutional paranoia",
+      "claiming resemblance is identity"
+    ]
+  }
+]
+```
 
 **Purpose:** consolidate what was actually learned, let Vaelira revise her model responsibly, and show institutional learning without solving the Wayfinder.
 
@@ -1349,6 +2273,112 @@ The party returns to Ivorybridge overnight.
 ---
 
 ## Beat 12 — Ivorybridge Morning / Cresthaven Return
+
+### Typed Person-context authority — Beat 12
+
+This machine-readable block carries the scene-local Person-context authority forward without preassigning dialogue performance.
+
+```diyse-context
+[
+  {
+    "id": "ch04b12_cyanis_attention",
+    "owner_id": "cyanis",
+    "kind": "local",
+    "key": "attention_target",
+    "value": [
+      "returning the group to usable headquarters rhythm",
+      "cleanup freedom"
+    ]
+  },
+  {
+    "id": "ch04b12_cyanis_avoid",
+    "owner_id": "cyanis",
+    "kind": "local",
+    "key": "immediate_avoidances",
+    "value": [
+      "forcing Chapter 5 transition"
+    ]
+  },
+  {
+    "id": "ch04b12_ilyra_attention",
+    "owner_id": "ilyra",
+    "kind": "local",
+    "key": "attention_target",
+    "value": [
+      "how the group's assumptions changed",
+      "new social ease with Vaelira"
+    ]
+  },
+  {
+    "id": "ch04b12_ilyra_avoid",
+    "owner_id": "ilyra",
+    "kind": "local",
+    "key": "immediate_avoidances",
+    "value": [
+      "announcing friendship",
+      "repeating the speculative spiral"
+    ]
+  },
+  {
+    "id": "ch04b12_torren_attention",
+    "owner_id": "torren",
+    "kind": "local",
+    "key": "attention_target",
+    "value": [
+      "practical return and home-base state"
+    ]
+  },
+  {
+    "id": "ch04b12_torren_avoid",
+    "owner_id": "torren",
+    "kind": "local",
+    "key": "immediate_avoidances",
+    "value": [
+      "replaying route guidance"
+    ]
+  },
+  {
+    "id": "ch04b12_nimera_attention",
+    "owner_id": "nimera",
+    "kind": "local",
+    "key": "attention_target",
+    "value": [
+      "record preservation and unresolved questions",
+      "keeping historical claims bounded"
+    ]
+  },
+  {
+    "id": "ch04b12_nimera_avoid",
+    "owner_id": "nimera",
+    "kind": "local",
+    "key": "immediate_avoidances",
+    "value": [
+      "chapter-summary machine"
+    ]
+  },
+  {
+    "id": "ch04b12_vaelira_attention",
+    "owner_id": "vaelira",
+    "kind": "local",
+    "key": "attention_target",
+    "value": [
+      "evidence that procedure changed",
+      "what field questions remain worth testing",
+      "settling into party and workspace without overexplaining it"
+    ]
+  },
+  {
+    "id": "ch04b12_vaelira_avoid",
+    "owner_id": "vaelira",
+    "kind": "local",
+    "key": "immediate_avoidances",
+    "value": [
+      "redoing the full scientific debrief",
+      "treating personal choice as only professional obligation"
+    ]
+  }
+]
+```
 
 **Purpose:** decompress, show the Annex actually changed its practice, establish Vaelira's ongoing fieldwork, return to headquarters, and reopen player freedom.
 
