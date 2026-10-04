@@ -30,4 +30,4 @@ Fail if implementation:
 - restores a spent Prime merely because a boss changes state/body/form;
 - pays final EXP/G/rewards before the full encounter is complete;
 - creates an extra boss form not present in the current encounter owner;
-- lets a historical balance report override current boss-form or Prime rules.
+- disagrees with current boss-form or Prime authority.
