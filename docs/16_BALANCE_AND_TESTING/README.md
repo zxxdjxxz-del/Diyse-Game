@@ -7,15 +7,13 @@
 
 1. Preserve current encounter architecture/identity while enemy ability/action-kit and difficulty tuning are reopened.
 2. Revalidate mandatory and completionist encounter baselines against the current party/story structure.
-3. Rebuild Player EXP / CEXP placement and confirm full Base + Subclass completion still lands in the **Lv55–60 target window**.
+3. Rebuild Player EXP / CEXP placement and confirm full Base + Subclass completion lands in the **Lv55–60 target window**.
 4. Rebuild/recalibrate economy values in `12_ECONOMY_AND_REWARDS`.
 5. Resume representative true-battle certification against the rebuilt encounter/progression inputs.
 
-Historical direct-damage Power audits, paper certifications, sensitivity studies, and old true-battle PASS results are evidence of what was tested at the time. They are not current tuning authority where their inputs have since reopened.
-
 ## Closed structural balance layers
 
-Current owning domains still close:
+Current owning domains close:
 - direct damage formulas;
 - Base Hit/Evasion;
 - crit rules;
@@ -28,4 +26,4 @@ Current owning domains still close:
 
 Current raw-stat tables, EXP/CEXP tables, G tables, enemy Powers/action kits, and timing-dependent difficulty proofs are reference inputs until their owning rebuild/revalidation pass closes them again.
 
-A reproducible test result or explicit later authority may reopen an affected numeric layer. Historical PASS text must never silently override a current owner.
+Current owner-domain rules are the only test oracle. A reproducible current failure may reopen an affected numeric layer through normal balance change control.
