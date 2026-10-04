@@ -2,7 +2,7 @@
 
 **Status:** ACTIVE SUBJECT-BASED CANON LIBRARY
 
-This `docs/` tree is the organized current authority library for Diyse. It replaces the old cumulative-tracker workflow.
+This `docs/` tree is the organized current authority library for Diyse.
 
 ## Read order
 
@@ -11,7 +11,8 @@ This `docs/` tree is the organized current authority library for Diyse. It repla
 3. the relevant numbered owning domain
 4. `13_UI_AND_IMPLEMENTATION/IMPLEMENTATION_AUTHORITY_PRECEDENCE.md` for implementation-facing conflicts
 5. `90_WORKING/ACTIVE_WORK_QUEUE.md` only for current sequencing/open cross-domain work
-6. Git history only when deliberate provenance/recovery is needed
+
+Git history is a recovery mechanism, not part of the normal authority read path.
 
 ## Authority rule
 
@@ -19,10 +20,7 @@ When current claims conflict:
 1. newest explicit approved user correction;
 2. current owning numbered-domain authority;
 3. current cross-domain authority in `00_MASTER_CONTROL`;
-4. clearly marked current working material for an intentionally unresolved question;
-5. archived/historical material only for provenance.
-
-Historical material never silently overrides active canon.
+4. clearly marked current working material for an intentionally unresolved question.
 
 ## Active domains
 
@@ -44,15 +42,13 @@ Historical material never silently overrides active canon.
 - `15_AUDIO_AND_MUSIC` — music/sound authority and implementation boundary
 - `16_BALANCE_AND_TESTING` — balance frontier, regression gates, QA methods, release gates
 
-## Working and archive
+## Working layer
 
-`90_WORKING` now contains only:
+`90_WORKING` contains only:
 - the cross-domain active work queue;
 - genuinely active playable-area/route production work.
 
 Detailed open items belong in numbered owner domains.
-
-Git history preserves migration history and superseded evidence. It is non-authoritative unless deliberately consulted for provenance or recovery.
 
 ## Current Face terminology
 
@@ -62,8 +58,6 @@ Current Faces:
 Detailed Face authority:
 > `07_CARDS/SIX_FACES.md`
 
-Retired Face labels such as Resource, Acuity, and Change belong only in historical/retirement context.
-
 ## Repository/runtime boundary
 
-Canon reorganization does not replace runtime/build/test infrastructure. Preserve the root engineering surfaces routed by `../AGENTS.md`, including `game/`, `tests/`, `tools/`, `.github/`, `project.godot`, and `export_presets.cfg`, unless an explicit implementation task changes them.
+Canon organization does not replace runtime/build/test infrastructure. Preserve the root engineering surfaces routed by `../AGENTS.md`, including `game/`, `tests/`, `tools/`, `.github/`, `project.godot`, and `export_presets.cfg`, unless an explicit implementation task changes them.
