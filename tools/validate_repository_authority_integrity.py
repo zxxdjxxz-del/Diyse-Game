@@ -183,7 +183,7 @@ def main() -> int:
             f"{m.group('num')}_{m.group('name')}"
             for m in MASTER_DOMAIN_HEADING_RE.finditer(text)
         ]
-        expected_numbered = list(EXPECTED_DOMAIN_DIRS[:17])
+        expected_numbered = list(EXPECTED_DOMAIN_DIRS[1:17])
         if headings != expected_numbered:
             errors.append(
                 "DIYSE_MASTER_INDEX.md numbered domain headings do not exactly match "
