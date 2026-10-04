@@ -7,20 +7,23 @@ When two active claims conflict:
 1. newest explicit approved user correction;
 2. current file in the owning numbered domain;
 3. cross-domain authority in `00_MASTER_CONTROL`;
-4. clearly marked current working item in `90_WORKING` when intentionally unresolved;
-5. Git history for deliberate provenance/recovery only.
+4. clearly marked current working item in `90_WORKING` when intentionally unresolved.
 
-## Historical-material policy
+Proof/runtime behavior is implementation evidence only and never overrides the current owner.
 
-Superseded or retired design material does not remain on `main` solely to preserve history. Git history is the project recovery layer.
+Git history is recovery infrastructure, not an authority layer.
 
-Historical identifiers, fixtures, data, or source records may remain only when a current production requirement depends on them, such as:
+## Repository retention
+
+`main` should contain current authority and active production dependencies.
+
+Identifiers, fixtures, source records, or compatibility data may remain only when a current production requirement depends on them, such as:
 - save/data compatibility;
 - active regression validation;
 - licensing or exact-source provenance;
-- a still-used proof/runtime dependency that is explicitly tracked for migration.
+- a still-used proof/runtime dependency explicitly tracked for migration.
 
-Those exceptions must be documented beside the current owning system and do not regain design authority.
+Those exceptions remain implementation/provenance data and do not gain design authority.
 
 ## Character visual authority
 
@@ -31,15 +34,14 @@ Within that art authority:
 2. exact approved source fingerprint registered by the active production authority;
 3. repository master binary when it matches the fingerprint;
 4. matching current visual-lock document;
-5. shared current visual-style rules;
-6. older source evidence only when a current provenance requirement explicitly preserves it.
-
-A detailed older text description never outranks the current approved image.
+5. shared current visual-style rules.
 
 ### Exact-binary sync exception
 
-When an approved replacement image cannot be promoted into Git in the same operation, the art domain may register its SHA-256, dimensions, native format, and intended path as temporary exact-source authority. During that state the registered source outranks any older binary at the path. Promotion completes only when the repository binary hashes exactly to the registered source. The source must not be altered merely to make sync easier.
+When an approved replacement image cannot be promoted into Git in the same operation, the art domain may register its SHA-256, dimensions, native format, and intended path as temporary exact-source authority. During that state the registered source controls until the repository binary hashes exactly to it.
 
-## No silent resurrection
+The source must not be altered merely to make synchronization easier.
 
-An old audit, runtime proof, historical filename, stale binary, or past commit does not regain authority because a newer source has not yet been byte-synced.
+## Current-source rule
+
+Proof runtime, unmatched binaries, and Git recovery data do not outrank current approved owner-domain authority.
