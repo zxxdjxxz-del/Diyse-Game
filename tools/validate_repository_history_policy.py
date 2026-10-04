@@ -53,6 +53,16 @@ PROGRESSION_HISTORY_RE = re.compile(
     r"|Regional Hunt retirement sync",
     re.IGNORECASE,
 )
+BALANCE_HISTORY_RE = re.compile(
+    r"\bhistorical\b"
+    r"|\bretired\b"
+    r"|\bsuperseded\b"
+    r"|\bobsolete\b"
+    r"|PASS/RETAIN"
+    r"|\bAudit\d+\b"
+    r"|\bv(?:8\d|9\d|10\d)\b",
+    re.IGNORECASE,
+)
 TEXT_EXTENSIONS = {
     ".md", ".txt", ".json", ".py", ".gd", ".yml", ".yaml", ".cfg",
     ".tres", ".tscn", ".toml", ".ini",
@@ -134,6 +144,10 @@ def main() -> int:
         if relative_path.startswith("docs/10_PROGRESSION_AND_EXP/") and PROGRESSION_HISTORY_RE.search(text):
             errors.append(
                 f"{relative_path} contains migration/version-history language; progression authority must describe the current planning model directly"
+            )
+        if relative_path.startswith("docs/16_BALANCE_AND_TESTING/") and BALANCE_HISTORY_RE.search(text):
+            errors.append(
+                f"{relative_path} contains retired/versioned test-history language; balance authority must describe current methods, debt, and certification state directly"
             )
 
     if errors:
