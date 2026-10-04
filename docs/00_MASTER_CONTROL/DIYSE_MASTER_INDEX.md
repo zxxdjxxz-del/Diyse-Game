@@ -2,7 +2,9 @@
 
 ## Authority
 
-Newest explicit approved correction → current owning numbered domain → `00_MASTER_CONTROL` cross-domain rule → `90_WORKING` only for unresolved sequencing/work → Git history for deliberate provenance/recovery only.
+Newest explicit approved correction → current owning numbered domain → `00_MASTER_CONTROL` cross-domain rule → `90_WORKING` only for unresolved sequencing/work.
+
+Git history is recovery infrastructure, not part of the normal authority chain.
 
 Cross-domain terminology handoffs:
 - current class names → `CLASS_TERMINOLOGY_CURRENT.md`
@@ -65,12 +67,12 @@ Current character visual authority:
 > `docs/14_ART_AND_VISUALS/PRODUCTION/CHARACTERS/README.md`
 
 ### 15_AUDIO_AND_MUSIC
-Open soundtrack authority, sound-design requirements, implementation boundary, and current research inputs.
+Open soundtrack authority, sound-design requirements, and implementation boundary.
 
 ### 16_BALANCE_AND_TESTING
 Current balance/rebuild frontier, regression matrices, test methods, and release gates.
 
-Historical v93–v103 true-battle snapshots are not live authority; current certification uses:
+Current true-battle certification method:
 > `../16_BALANCE_AND_TESTING/TRUE_BATTLES/TRUE_BATTLE_TEST_PROTOCOL.md`
 
 ## Working layer
@@ -81,11 +83,9 @@ Live contents are limited to:
 - `../90_WORKING/ACTIVE_WORK_QUEUE.md`;
 - playable-area/route production files and blueprints.
 
-## History and recovery
+## Repository retention
 
-Superseded and retired project material belongs in Git history rather than a parallel archive directory on `main`.
-
-If current compatibility code, validation, licensing/source provenance, or another active production dependency requires historical identifiers or data, keep only the minimum required compatibility surface beside its current owner.
+`main` contains current authority and active production dependencies. Compatibility, validation, and source-provenance data remain only where a current production requirement depends on them.
 
 ## Reorganization status
 
