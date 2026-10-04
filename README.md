@@ -20,7 +20,7 @@ Current cross-domain terminology handoffs:
 - classes → `docs/00_MASTER_CONTROL/CLASS_TERMINOLOGY_CURRENT.md`
 - Faces → `docs/00_MASTER_CONTROL/FACE_TERMINOLOGY_CURRENT.md`
 
-Superseded or retired project material is recovered from Git history when provenance is genuinely needed; it is not retained as a parallel documentation layer on `main`.
+Git history is the recovery mechanism; `main` is the current production surface.
 
 ## Character visual masters
 
@@ -32,7 +32,7 @@ Their production authority order and matching visual-lock documents are indexed 
 
 `docs/14_ART_AND_VISUALS/PRODUCTION/CHARACTERS/README.md`
 
-Use that index's source-authority order for exact appearance. A registered repository master controls only when its bytes match the approved fingerprint; newer approved sources and registered fingerprints outrank an older binary while sync is pending. Older prose, archived renders and historical hashes remain provenance only when a current production requirement explicitly preserves them.
+Use that index's current source-authority order for exact appearance. A registered approved source fingerprint controls while repository binary synchronization is pending.
 
 ## Implementation status
 
@@ -42,7 +42,7 @@ Current runtime architecture and known code/canon divergences are tracked under:
 - `docs/13_UI_AND_IMPLEMENTATION/IMPLEMENTATION_NOTES/CURRENT_CODE_DIVERGENCES.md`
 - `docs/13_UI_AND_IMPLEMENTATION/IMPLEMENTATION_NOTES/VALIDATION_AND_TEST_GATES.md`
 
-The existing Godot runtime is an implementation foundation. Proof data, proof names, and historical behavior do not override current domain canon.
+The existing Godot runtime is an implementation foundation. Proof data and proof behavior do not override current domain canon.
 
 ## Repository layout
 
@@ -63,7 +63,7 @@ Before implementing or changing production content:
 2. read the owning numbered domain;
 3. check implementation divergence notes;
 4. preserve stable IDs and current terminology;
-5. do not restore retired mechanics or names from proof code or Git history;
+5. implement only values/rules supported by current owners;
 6. run the relevant tests and project validation.
 
-The goal is one current authority surface with Git history providing recovery—not multiple competing generations of "current" documentation.
+The goal is one current authority surface with Git providing recovery when genuinely needed.
