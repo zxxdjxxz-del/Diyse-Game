@@ -76,4 +76,4 @@ Automated current-facing data validation should enforce the owning registries di
 - current battle commands/status/mechanics from `05_BATTLE_SYSTEM`;
 - current class names from `00_MASTER_CONTROL/CLASS_TERMINOLOGY_CURRENT.md`.
 
-Tests should validate the current allowed set rather than preserve a catalog of superseded names.
+Tests should validate the current allowed set directly from owning registries.
