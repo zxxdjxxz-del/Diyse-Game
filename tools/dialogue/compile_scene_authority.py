@@ -75,7 +75,7 @@ RELATIONSHIP_MAP_PATH = "docs/01_CHARACTERS/RELATIONSHIPS/PERMANENT_SIX_RELATION
 DEFAULT_GLOBAL_SOURCES: list[dict[str, Any]] = [
     {
         "path": "docs/00_MASTER_CONTROL/AUTHORITY_AND_CHANGE_CONTROL.md",
-        "sections": ["Current authority precedence", "No silent resurrection"],
+        "sections": ["Current authority precedence", "Current-source rule"],
         "role": "authority_precedence",
     },
     {
@@ -96,9 +96,9 @@ DEFAULT_GLOBAL_SOURCES: list[dict[str, Any]] = [
     {
         "path": "docs/13_UI_AND_IMPLEMENTATION/IMPLEMENTATION_AUTHORITY_PRECEDENCE.md",
         "sections": [
-            "Critical current override: Story Prime access",
-            "Critical current override: currency",
-            "Critical current override: final chapter IDs",
+            "Story Prime access",
+            "Currency",
+            "Final chapter IDs",
         ],
         "role": "implementation_guardrail",
     },
@@ -106,16 +106,9 @@ DEFAULT_GLOBAL_SOURCES: list[dict[str, Any]] = [
 
 FORBIDDEN_AUTHORITY_PREFIXES = (
     "docs/90_WORKING/",
-    "docs/03_DIALOGUE/LINE_COMPLETE/",
-    "docs/03_DIALOGUE/HISTORICAL/",
-    "docs/02_STORY/CHAPTERS/HISTORICAL/",
-    "docs/chapters/",
 )
 
-FORBIDDEN_AUTHORITY_PATHS = {
-    # This current file is an index of historical exact-source provenance, not scene authority.
-    "docs/03_DIALOGUE/EXACT_SOURCE_MANIFEST.md",
-}
+FORBIDDEN_AUTHORITY_PATHS: set[str] = set()
 
 
 class CompileError(RuntimeError):

@@ -8,6 +8,7 @@ on:
       - 'docs/**'
       - 'tools/dialogue/validate_authority_naming.py'
       - 'tools/validate_repository_history_policy.py'
+      - 'tools/validate_repository_authority_integrity.py'
       - '.github/workflows/authority-naming-validation.yml'
   pull_request:
     paths:
@@ -16,6 +17,7 @@ on:
       - 'docs/**'
       - 'tools/dialogue/validate_authority_naming.py'
       - 'tools/validate_repository_history_policy.py'
+      - 'tools/validate_repository_authority_integrity.py'
       - '.github/workflows/authority-naming-validation.yml'
 
 jobs:
@@ -35,3 +37,6 @@ jobs:
 
       - name: Validate repository history policy
         run: python tools/validate_repository_history_policy.py
+
+      - name: Validate repository authority integrity
+        run: python tools/validate_repository_authority_integrity.py

@@ -1,7 +1,8 @@
 # Diyse — Current Terminology Glossary
 
 ## World
-**Yahtrenhold** — current southern/core Yahtrean macro-region label. Do not write “The Yahtrenhold” as the formal map label.
+
+**Yahtrenhold** — current southern/core Yahtrean macro-region label.
 
 **The Westways** — current western macro-region.
 
@@ -20,6 +21,7 @@
 **The Veiled Citadel** — Vaelkor's inner palace/stronghold within Vorathen.
 
 ## Combat
+
 **Spirit** — magic-resistance defensive stat.
 
 **Base Hit** — action-level hit value; there is no natural Accuracy character stat.
@@ -31,6 +33,7 @@
 **Ruin** — special affinity/school; not a fifth standard element.
 
 ## Cards
+
 **Perception** — current Face governing Accuracy-oriented effects under the existing Base Hit/application-reliability system, Evasion, Critical Hits, and Fields. Represents reading the battlefield, positioning, timing, openings, and controlling/exploiting space.
 
 **Memory** — current Face governing recall, repetition, preservation, and reuse of prior actions/states. Represents what has happened remaining available to influence the present.
@@ -44,24 +47,20 @@
 Current Face set:
 > **Might / Elements / Grace / Perception / Memory / Ruin**
 
-Retired Face labels:
-> Resource / Acuity / Change
-
 ## Chapter 4 / Ancient regulation
-**Reaction Annex**
-**Reaction Node**
-**Reaction Conduit**
-**Regulation Crucible**
+
+**Reaction Annex**  
+**Reaction Node**  
+**Reaction Conduit**  
+**Regulation Crucible**  
 **The Seventh Reaction**
 
 ## Economy
+
 **G** — current ordinary currency and the only current-facing ordinary currency term.
 
-The older **1 economy unit = 200 G** conversion and **2,500 G Chapter-0 starting-wallet** value are retained only as provisional pre-rebuild economy references. They are not terminology locks or final economy calibration.
-
-**Auren** — retired former currency name; use only for explicit historical/provenance discussion.
-
 ## Progression
+
 **Class Level (CL)** — per-class progression level.
 
 **CEXP** — Class EXP received by the currently selected class for each recruited character.
@@ -69,6 +68,7 @@ The older **1 economy unit = 200 G** conversion and **2,500 G Chapter-0 starting
 **Mastery** — automatic Class-Level unlock; no Mastery Point currency.
 
 ## Equipment
+
 **Relic** — exceptional equipment tier below Legacy.
 
 **Legacy** — strongest current exceptional equipment tier.
@@ -76,7 +76,8 @@ The older **1 economy unit = 200 G** conversion and **2,500 G Chapter-0 starting
 **Legacy Component** — unique Character-Quest project item used in native Legacy completion.
 
 ## Prime states
-**Recovered**
+
+**Recovered**  
 **Awakened**
 
 Awakened is final.

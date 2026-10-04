@@ -14,7 +14,7 @@ Routing rule:
 Proof runtime still uses:
 - `first_champion`;
 - bearer lock;
-- old proof direct-control assumptions;
+- proof direct-control assumptions that do not match current Prime authority;
 - stale Prime timing/state behavior.
 
 Current production:
@@ -33,7 +33,7 @@ Current production:
 - valid rest and explicitly authored restoration effects such as Emergency Kit can restore eligible spent Prime identities without bypassing the spacing gate.
 
 ## 2. Normal battle turn flow — HIGH
-Proof runtime still implements the retired whole-round queue model.
+Proof runtime still implements a whole-round queue model that does not match current production turn flow.
 
 Current proof code currently:
 - locks enemy actions at round start;
@@ -54,7 +54,7 @@ Current production battle flow:
 
 Do not use the current proof queue/confirm architecture as production battle-flow authority.
 
-The former `tests/combat/validate_round_combat.gd` mechanics regression has been retired from the live tree because it hard-locked the obsolete whole-round queue, universal Item/Defend priority, bearer-locked `first_champion`, and two-round Recovered-Prime prototype. Current CI now smoke-checks only the combat proof's loadability, four-member party surface, and five canonical global commands; it does **not** certify the prototype's internal turn flow, Prime behavior, Card costs, or proof UI. Those runtime mechanics remain implementation debt until an intentional combat migration pass.
+Current CI smoke-checks only the combat proof's loadability, four-member party surface, and five canonical global commands. It does **not** certify the proof's internal turn flow, Prime behavior, Card costs, or proof UI. Those runtime mechanics remain implementation debt until an intentional combat migration pass.
 
 ## 3. Proof equipment/content — HIGH
 GameState defaults still include:
@@ -89,16 +89,16 @@ Current proof:
 It is not the final battle HUD and does not represent the current turn-entry command flow.
 
 ## 7. Current-facing naming — ONGOING
-Legacy technical identifiers may remain internally until safe migration, but player-facing text must use current names.
+Compatibility or proof technical identifiers may remain internally only while a current runtime dependency requires them; player-facing text must use current names.
 
 ## 8. Encounter runtime catalog / balance calibration — HIGH
 `game/content/encounters/chapter_01_04_formations.gd` and `game/exploration/encounter_balance.gd` are executable engineering data, but they are not uniformly current encounter/progression authority.
 
 Known gaps:
-- Chapter 3 rows still contain superseded pre-September-27 enemy identities/formations;
+- Chapter 3 executable rows do not yet match the current Chapter-3 enemy/formation owners;
 - Chapter 4 rows preserve inherited Reaction Annex formations while the ordinary-enemy / formation layer is explicitly rework-pending;
 - proof enemy stats and encounter tuning remain engineering fixtures rather than production balance authority;
-- `encounter_balance.gd` still carries historical/provisional chapter encounter counts, tier weights, EXP anchors and ordinary-EXP pools; these values must not override reopened encounter or EXP/CEXP owners. Its Chapter-4 `expected_encounters = 19` value is specifically part of the retired pre-redesign volume model;
+- `encounter_balance.gd` still carries provisional chapter encounter counts, tier weights, EXP anchors and ordinary-EXP pools; these values must not override current encounter or EXP/CEXP owners. Its Chapter-4 encounter-count value is not current production authority and must be replaced during the dedicated runtime migration;
 - the generic random-encounter path is not whole-campaign complete: the executable formation catalog currently supplies areas only through Chapter 4, `encounter_balance.gd` has profiles only through Chapter 12, and `area_encounter_tuning.gd` rejects enabled random-encounter contexts above Chapter 12. Current Chapter-13 repeatable formation authority therefore cannot yet execute through this selector stack without a dedicated implementation migration.
 
 Current production authority:

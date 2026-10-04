@@ -12,10 +12,10 @@ Current repository validation proves important implementation foundations. It do
 Validates:
 - missing-save safe failure;
 - state round-trip;
-- pre-Kessara schema-v1 compatibility;
-- canonical save-path precedence plus legacy 7B.5G filename fallback;
-- legacy Face-name normalization to Perception/Memory;
-- legacy `rewards.gold` normalization to `rewards.g`;
+- supported schema-v1 compatibility;
+- canonical save-path precedence plus supported filename fallback;
+- supported schema-v1 Face-key normalization to the current Face set;
+- `rewards.gold` input normalization to `rewards.g`;
 - invalid JSON rejection;
 - future schema rejection;
 - transient encounter exclusion.
@@ -35,8 +35,6 @@ Boundary:
 
 Current production combat rules remain owned by `../../05_BATTLE_SYSTEM/`, with known runtime debt recorded in `CURRENT_CODE_DIVERGENCES.md`.
 
-The former `tests/combat/validate_round_combat.gd` regression was retired because it hard-locked obsolete whole-round queue, universal Item/Defend priority, bearer-locked First Champion and old Recovered-Prime behavior.
-
 ## Encounter runtime contract
 
 `tests/encounters/validate_encounter_runtime_contract.gd`
@@ -48,9 +46,7 @@ Validates content-neutral runtime invariants:
 - selector legality;
 - pressure-state behavior.
 
-It deliberately does not certify superseded encounter counts, chapter formations, EXP/CEXP totals or reopened Chapter 3/4 content.
-
-The former Audit98 encounter regression was retired from the live tree; Git history preserves it for provenance.
+It deliberately does not certify chapter encounter counts, chapter formations, EXP/CEXP totals, or open Chapter-3/4 content decisions.
 
 ## Random encounter handoff
 
@@ -116,10 +112,24 @@ As production systems replace proof runtime, add focused regression coverage for
 - Standard Card MP consumption and loadout legality;
 - no Mastery Point widgets/fields;
 - current class unlock display;
-- 3 Standard + 2 Prime slots;
+- 3 Standard + 2 Prime slots where currently unlocked;
 - no Accessory slot;
 - two-slot equipment commitments;
-- player-facing **G** display and explicit rejection of retired **Auren** output;
+- player-facing **G** display;
 - current names/terminology;
 - save-schema migrations;
 - final PONR warning gating.
+
+## Repository authority integrity
+
+`tools/validate_repository_authority_integrity.py`
+
+Validates the surviving repository authority graph after cleanup:
+- exact top-level docs owner domains;
+- required root/master authority surfaces;
+- one current 00–16 numbered-domain index set;
+- the intentionally small `90_WORKING` surface;
+- required root guidance routes;
+- relative Markdown file links across current documentation.
+
+This gate is structural. It does not decide game-design content; it prevents deleted owners, stray top-level authority layers, and dangling documentation routes from silently returning.

@@ -71,10 +71,6 @@ def main() -> int:
     )
     for path in paths:
         expect(not path.startswith("docs/90_WORKING/"), f"working source leaked into packet: {path}")
-        expect(
-            not path.startswith("docs/03_DIALOGUE/LINE_COMPLETE/"),
-            f"historical line-complete source leaked into packet: {path}",
-        )
 
     chapter_record = next(
         record for record in source_records if record["path"] == "docs/02_STORY/CHAPTERS/CHAPTER_01.md"
@@ -103,27 +99,26 @@ def main() -> int:
         expect(len(profile["file_sha256"]) == 64, "participant source fingerprint is malformed")
         expect(bool(profile["authority_text"].strip()), "participant authority text is empty")
 
-    historical = json.loads(json.dumps(source_spec))
-    historical["additional_authority_sources"].append(
+    working_source = json.loads(json.dumps(source_spec))
+    working_source["additional_authority_sources"].append(
         {
-            "path": "docs/03_DIALOGUE/LINE_COMPLETE/retired.md",
+            "path": "docs/90_WORKING/ACTIVE_WORK_QUEUE.md",
             "whole_file": True,
         }
     )
-    expect_compile_error(historical, "historical line-complete authority must be rejected")
+    expect_compile_error(working_source, "90_WORKING must be rejected as scene authority")
 
-
-    historical_story = json.loads(json.dumps(source_spec))
-    historical_story["story_sources"] = [
+    working_story = json.loads(json.dumps(source_spec))
+    working_story["story_sources"] = [
         {
-            "path": "docs/02_STORY/CHAPTERS/HISTORICAL/CHAPTER_03/CHAPTER_03_BEAT_03_IMPOSSIBLE_ORDERS_WORKING.md",
+            "path": "docs/90_WORKING/AREA_AND_ROUTE_LAYOUT_PRODUCTION_WORKING.md",
             "whole_file": True,
-            "role": "historical_story_packet",
+            "role": "working_story_source",
         }
     ]
     expect_compile_error(
-        historical_story,
-        "historical Chapter-3 story packets must be rejected as live scene authority",
+        working_story,
+        "working production notes must be rejected as live scene authority",
     )
 
     missing_heading = json.loads(json.dumps(source_spec))
