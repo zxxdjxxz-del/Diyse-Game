@@ -15,7 +15,7 @@ For every validation point, read current inputs from their owners:
 - Cards/Primes — `07_CARDS`;
 - economy/rewards — `12_ECONOMY_AND_REWARDS`.
 
-Never reconstruct a current chapter from an old balance snapshot.
+Construct every validation snapshot from current owner-domain inputs.
 
 ## Route baselines
 
@@ -70,4 +70,4 @@ Record:
 
 Enemy action-kit/difficulty tuning is reopened. Exact EXP/CEXP and G placement are also rebuild-pending.
 
-Therefore current chapter-by-chapter historical validation snapshots are not certification. Re-run this framework only after the relevant current inputs are stable enough to test.
+Run chapter-by-chapter certification only when the relevant current inputs are stable enough to test.
