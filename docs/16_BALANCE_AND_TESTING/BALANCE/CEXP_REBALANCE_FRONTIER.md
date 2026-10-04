@@ -8,7 +8,7 @@
 Normal full Base + Subclass completion should land in the:
 > **Lv55–60 target window**
 
-This is a target window, not a promise that historical CEXP totals or old completion levels survive the rebuild.
+The rebuild is free to replace provisional CEXP totals and completion centers as needed to satisfy current structure and validation.
 
 ## Sequence
 
@@ -22,13 +22,11 @@ This is a target window, not a promise that historical CEXP totals or old comple
 ## Boundaries
 
 - class-level thresholds and unlock rules are owned by `10_PROGRESSION_AND_EXP` and `06_CLASSES_AND_ABILITIES`;
-- do not copy historical cumulative CEXP totals into this file as permanent canon;
+- current cumulative CEXP totals remain provisional until the progression owner recertifies them;
 - no Mastery Point currency;
 - Subclass access begins at **Sixfold Volition** under current class/story authority;
 - recruitment-aware accounting is mandatory;
 - no CEXP diminishing returns unless the progression owner explicitly adds one.
-
-Historical v91/v92 arithmetic remains available in Git history for comparison only. It is not current certification.
 
 ## Close condition
 

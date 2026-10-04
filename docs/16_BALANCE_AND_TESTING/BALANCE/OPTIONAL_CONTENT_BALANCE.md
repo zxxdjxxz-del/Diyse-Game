@@ -33,8 +33,8 @@ Verify:
 ## Side Quests
 
 Verify:
-- current five-quest roster only;
-- removed quests do not reactivate or pay rewards;
+- only the current five-quest roster is registered;
+- only current quests can pay rewards;
 - no accidental unique-boss creep where current quest design does not call for one.
 
 ## Hunts
@@ -46,4 +46,4 @@ Verify:
 - current reward family;
 - Major Hunts remain above-level optional challenges.
 
-Historical optional EXP totals and cap-proof packages are not current acceptance targets while progression/reward values are being rebuilt.
+Optional EXP/CEXP acceptance targets must come from the current progression/reward owners.

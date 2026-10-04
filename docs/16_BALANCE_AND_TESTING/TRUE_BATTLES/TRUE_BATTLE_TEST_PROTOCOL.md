@@ -15,7 +15,7 @@ Before every test, read current inputs from their owners:
 - encounter bodies/forms/actions — `../../09_ENEMIES_AND_ENCOUNTERS/`;
 - Player EXP/CEXP route state — `../../10_PROGRESSION_AND_EXP/`.
 
-Never copy an old true-battle snapshot forward as current authority.
+Build each test snapshot directly from those current owners. A prior test snapshot is evidence of that run, not authority for the next one.
 
 ## Snapshot requirements
 

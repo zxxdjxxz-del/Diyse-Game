@@ -10,8 +10,6 @@
 Regional Hunts:
 > **8 active**
 
-The older 11-slot Regional Hunt ladder is not the current active count.
-
 Major Hunts:
 > **6**
 
@@ -54,4 +52,4 @@ Record:
 - mechanic-response pressure;
 - duration secondarily.
 
-Historical recommended-level ladders, Power-completeness PASS labels, and recertification stats remain Git-history evidence only.
+Only results produced from these current inputs count as Hunt certification.

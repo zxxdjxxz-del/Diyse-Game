@@ -18,7 +18,7 @@ Rebuild/revalidate:
 - Regional/Major Hunt difficulty;
 - mandatory-vs-completionist combat certification.
 
-Historical global Power scalars and prior PASS/RETAIN labels are not current implementation recommendations.
+Implementation recommendations must come from current enemy/battle owners and current validation results.
 
 ## 2. Mandatory vs completionist comparison standard
 
@@ -40,8 +40,8 @@ Status:
 > **REOPENED / REBUILD PENDING**
 
 - **Lv55–60** remains the target window for normal full Base + Subclass completion;
-- former exact EXP/CEXP totals and completion centers are provisional historical references;
-- recruitment-aware accounting remains required;
+- current EXP/CEXP totals and completion centers remain provisional until rebuilt;
+- recruitment-aware accounting is required;
 - rerun the progression model after current encounter validation and reward placement stabilize.
 
 ## 4. Economy

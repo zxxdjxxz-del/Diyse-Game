@@ -6,16 +6,18 @@
 Testing layers:
 
 ## 1. Static data consistency
+
 Checks:
 - counts;
 - names;
 - totals;
 - references;
-- no retired terminology in current-facing data;
+- current-facing terminology matches owning registries;
 - no duplicate IDs;
 - no impossible slot combinations.
 
 ## 2. Deterministic unit/regression
+
 Best for:
 - formulas;
 - turn order;
@@ -26,6 +28,7 @@ Best for:
 - reward once-only state.
 
 ## 3. Integration
+
 Best for:
 - field → dialogue → battle → field;
 - random encounter handoff;
@@ -35,6 +38,7 @@ Best for:
 - save/load across systems.
 
 ## 4. Balance simulation
+
 Best for:
 - damage distributions;
 - hit/status probabilities;
@@ -44,6 +48,7 @@ Best for:
 - build comparisons.
 
 ## 5. Human playtest
+
 Required for:
 - encounter readability;
 - decision quality;
@@ -55,6 +60,7 @@ Required for:
 - build diversity.
 
 ## 6. Device/presentation
+
 Required for:
 - Android;
 - touch;

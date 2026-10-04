@@ -1,23 +1,10 @@
 # Diyse — Representative True-Battle Suite Status
 
-**Status:** FINAL DIFFICULTY CERTIFICATION PAUSED / METHOD RETAINED  
+**Status:** FINAL DIFFICULTY CERTIFICATION PAUSED / METHOD ACTIVE  
 **Current protocol:** `TRUE_BATTLE_TEST_PROTOCOL.md`  
 **Current balance authority:** `../README.md`
 
-## Historical report cleanup
-
-The detailed v93–v103 true-battle snapshots have been removed from the live repository tree because their tested inputs are no longer current enough to act as implementation guidance.
-
-Those reports froze combinations of:
-- retired encounters/party states;
-- old enemy action kits/Powers;
-- provisional route levels and CEXP/EXP assumptions;
-- superseded Prime-spacing/restoration behavior;
-- historical PASS/RETAIN conclusions.
-
-Git history preserves the exact reports if historical provenance is needed.
-
-## Current meaning
+## Current certification state
 
 There is currently **no live true-battle difficulty certification** for the campaign.
 

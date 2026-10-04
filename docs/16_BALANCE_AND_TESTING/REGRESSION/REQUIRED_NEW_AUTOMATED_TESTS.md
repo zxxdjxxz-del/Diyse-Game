@@ -20,15 +20,17 @@ High-value production regressions:
 - player decisions use the battle state produced by earlier turns in the same round
 - enemy/entity AI chooses from the legitimate state when its turn arrives
 - Item and Defend do **not** receive universal priority phases
-- no whole-party action queue / universal Confirm Round gate
+- there is no whole-party action queue / universal Confirm Round gate
 - initiative remains locked for the current round after setup; mid-round Speed changes affect the next round only if still active
 - no Speed extra actions unless explicitly authored
 - legal retarget behavior.
 
 ## Status
+
 Full matrix in `../TESTING/STATUS_REGRESSION_MATRIX.md`.
 
 ## Primes
+
 Full current matrix in `../TESTING/PRIME_REGRESSION_MATRIX.md`.
 
 ## Equipment
@@ -47,10 +49,11 @@ Full current matrix in `../TESTING/PRIME_REGRESSION_MATRIX.md`.
 - no pre-Volition Subclass.
 
 ## CEXP
-After rebalance:
-- explicit class-completion timing regression around the final Lv55–60 route target after recalibration.
 
-Do not freeze the stale model before rebalance.
+After rebalance:
+- explicit class-completion timing regression around the final **Lv55–60** route target.
+
+Do not freeze the current provisional model before rebalance.
 
 ## Content counts
 - 78 Ability/Ultimate entries
@@ -65,12 +68,12 @@ Do not freeze the stale model before rebalance.
 - 6 Major Hunts.
 
 ## Current terminology
-Automated current-facing data scan should reject retired terms outside explicit compatibility/firewall/provenance contexts:
-- Resource / Acuity / Change as current Face names
-- Last Measure
-- Southhold/Crownhold
-- Blackstone
-- Westreach
-- Sixfold Accord
-- Auren / Gold as player-facing ordinary currency
-- Barrier/Brace as combat mechanic.
+
+Automated current-facing data validation should enforce the owning registries directly:
+- Faces exactly: **Might / Elements / Grace / Perception / Memory / Ruin**;
+- current world/region names from `04_WORLD_AND_LORE`;
+- ordinary player-facing currency: **G**;
+- current battle commands/status/mechanics from `05_BATTLE_SYSTEM`;
+- current class names from `00_MASTER_CONTROL/CLASS_TERMINOLOGY_CURRENT.md`.
+
+Tests should validate the current allowed set directly from owning registries.

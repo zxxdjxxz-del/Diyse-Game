@@ -10,7 +10,7 @@ Existing proof coverage is useful, but production schema must expand beyond proo
 - invalid JSON safe failure;
 - unsupported future schema rejection;
 - state round-trip;
-- old schema compatibility where intentionally supported;
+- intentionally supported prior-schema normalization;
 - transient random-encounter state excluded;
 - transient state cleared on load.
 
@@ -30,14 +30,17 @@ Existing proof coverage is useful, but production schema must expand beyond proo
 - story state;
 - settings.
 
-## Must not serialize as current canon
-- Mastery Point currency;
-- stale proof `gold` as a separate player-facing currency system;
-- Auren as current currency;
-- unconfirmed UI cursor state;
-- live scene-node references.
+## Serialization boundary
+
+Production saves must represent current systems directly:
+- Masteries derive from Class Level; there is no separate Mastery-resource field;
+- ordinary currency persists as **G**;
+- supported schema-v1 `rewards.gold` may normalize on load but is not a separate current currency system;
+- unconfirmed UI cursor state is not persistent canon;
+- live scene-node references are not serialized.
 
 ## Exploit regression
+
 Test save/load around:
 - reward collection;
 - Hunt first clear;

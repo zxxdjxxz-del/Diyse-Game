@@ -5,6 +5,7 @@
 **Reward-number authority:** `../../10_PROGRESSION_AND_EXP/` and `../../12_ECONOMY_AND_REWARDS/`
 
 ## Counts
+
 Current:
 - **6** Character Quests;
 - **5** ordinary Side Quests;
@@ -12,6 +13,7 @@ Current:
 - **6** Major Hunts.
 
 ## Character Quests
+
 Verify:
 - unlock window;
 - correct location;
@@ -21,9 +23,11 @@ Verify:
 - no direct finished Legacy reward unless equipment authority says so.
 
 ## Side Quests
-Verify only the current five quest identities from `11_QUESTS`. Retired quests must not remain in the active quest registry or reward totals.
+
+Only the current five quest identities from `11_QUESTS` may exist in the active quest registry or contribute rewards.
 
 ## Hunts
+
 Verify:
 - current unlock/access;
 - recommended level is display guidance, not an access gate;
@@ -33,9 +37,11 @@ Verify:
 - no dynamic player-level scaling.
 
 ## Reward boundary
-Exact EXP/CEXP/G values are rebuild/recalibration inputs and must be tested against the current owner, not historical balance snapshots.
+
+Exact EXP/CEXP/G values are rebuild/recalibration inputs and must be tested against their current owners.
 
 ## Final cutoff
+
 Entering Chapter 13 does not automatically close optional content.
 
 True cutoff:

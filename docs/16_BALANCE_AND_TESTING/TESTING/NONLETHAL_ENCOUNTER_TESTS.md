@@ -8,14 +8,13 @@ Some authored encounters resolve without generic lethal defeat.
 Current examples requiring protected/nonlethal handling include:
 - **Elder Thornhide** in Chapter 4;
 - Reaction Conduit stabilization;
-- lawful-authority confrontations where current story authority specifies nonlethal resolution;
-- prisoner/victim/coerced-human encounters;
+- prisoner/victim/coerced-human encounters where the current owner specifies a protected outcome;
 - animal retreat contexts where explicitly authored.
 
-Regression firewall:
-- Chapter 1 **Thornhide** is the current normal lethal final boss and must **not** inherit retired Briarhide/Stalker nonlethal treatment.
+Chapter 1 **Thornhide Stalker** is a normal lethal final boss and must use the current Chapter-1 boss outcome.
 
 ## Presentation
+
 Nonlethal resolution should suppress generic:
 - death dissolve;
 - corpse assumption;
@@ -23,6 +22,7 @@ Nonlethal resolution should suppress generic:
 - loot framing when not authored.
 
 ## Mechanics
+
 Protected/nonlethal state must not:
 - leave the target farmable;
 - pay rewards repeatedly;

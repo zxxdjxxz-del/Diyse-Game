@@ -87,6 +87,6 @@ Verify:
 - hit-attached status rider never applies on miss;
 - ordinary status chance clamps to 5%–95%;
 - explicit immunity/guarantee/script may override the ordinary clamp;
-- Status Resistance uses raw 0/5/10/15 values;
+- Status Resistance uses raw **0 / 5 / 10 / 15** values;
 - application-reliability bonuses add percentage points where legal;
-- retired percentage-based Status Resistance tables do not reappear.
+- no alternate percentage-based Status Resistance table is accepted as current data.
