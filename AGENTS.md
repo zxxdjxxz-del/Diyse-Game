@@ -23,10 +23,9 @@ Use the precedence defined by the organized canon library. In implementation ter
 2. current organized domain authority;
 3. current master-control cross-domain rule;
 4. current operational implementation requirement;
-5. proof runtime;
-6. Git history, only when deliberately consulted for recovery or provenance.
+5. proof runtime only as implementation evidence.
 
-Proof code demonstrates architecture. It does not restore stale mechanics, names, currencies, progression, or UI concepts.
+Git history is recovery/provenance infrastructure, not implementation authority.
 
 ## Repository boundaries
 
@@ -56,11 +55,11 @@ Before production implementation, check:
 
 Known proof data/behavior may intentionally remain in runtime until migrated. Do not treat its presence as design approval.
 
-## Historical-material rule
+## Repository retention rule
 
-Do not add retired or superseded design documents to `main` merely for provenance. Git history is the recovery layer.
+`main` should contain current authority and active production dependencies.
 
-Keep old identifiers or compatibility data in the working tree only when current runtime, save compatibility, validation, licensing/source provenance, or another active production requirement depends on them. Document that dependency beside the current owner.
+Compatibility identifiers/data, validation fixtures, and source/license records should remain only when a current runtime, test, compatibility, or production requirement depends on them. Document that dependency beside the current owner.
 
 ## Validation
 
@@ -70,6 +69,6 @@ For any implementation change:
 - run applicable smoke/regression gates;
 - preserve stable IDs and save compatibility where required;
 - verify current-facing terminology;
-- do not weaken tests merely to make stale behavior pass.
+- do not weaken tests merely to make noncurrent proof behavior pass.
 
 For documentation-only transitions, additionally verify that all root guidance paths resolve into the organized `docs/` library.
