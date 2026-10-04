@@ -67,7 +67,7 @@ Current behavior:
 - automatically includes bounded current master/terminology/dialogue-handoff guardrails;
 - extracts exact Markdown sections rather than dumping whole source files by default;
 - missing or ambiguous requested headings are fatal;
-- rejects `90_WORKING`, historical `03_DIALOGUE/LINE_COMPLETE`, old `docs/chapters/`, and the historical exact-source manifest as current scene authority;
+- accepts only current production/owner sources for scene authority and rejects noncurrent working/provenance sources;
 - exact-line anchors require current `03_DIALOGUE` proof and literal verbatim match;
 - fingerprints selected sections, source files, participant profiles, scene spec and final authority bundle with SHA-256;
 - never invents live gameplay state or C0–C3 / V1–V4 presentation tiers.
@@ -290,16 +290,16 @@ Still incomplete:
 
 Combat proof still demonstrates architecture for rounds, command/target selection, Speed ordering, hostile retargeting, Standard Cards, Prime direct-control and field return.
 
-Its normal round-control flow remains legacy proof behavior in places. Current production battle authority is in:
+Its normal round-control flow remains proof behavior in places and does not yet match current production battle authority in:
 > `../05_BATTLE_SYSTEM/TURN_AND_ROUND_RULES.md`
 
 and implementation divergences are tracked in:
 > `IMPLEMENTATION_NOTES/CURRENT_CODE_DIVERGENCES.md`
 
 Persistence proof includes:
-- versioned JSON saves at `user://diyse_save.json`, with legacy `user://diyse_7b5g_save.json` load fallback;
-- current `rewards.g` currency storage with legacy schema-v1 `rewards.gold` normalization;
-- legacy equipment Face-name normalization to current Perception/Memory;
+- versioned JSON saves at `user://diyse_save.json`, with the supported prior-path `user://diyse_7b5g_save.json` load fallback;
+- current `rewards.g` currency storage with supported schema-v1 `rewards.gold` normalization;
+- supported equipment Face-key normalization to current Perception/Memory;
 - schema checks;
 - invalid/future save rejection;
 - GameState serialization;
