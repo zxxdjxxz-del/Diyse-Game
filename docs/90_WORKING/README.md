@@ -34,4 +34,4 @@ Use the numbered domains instead of parallel working trackers:
 - audio — `../15_AUDIO_AND_MUSIC/OPEN_AUDIO_ITEMS.md`;
 - balance/progression/QA — `../16_BALANCE_AND_TESTING/OPEN_BALANCE_ITEMS.md` and `../16_BALANCE_AND_TESTING/FINAL_RELEASE_GATES.md`.
 
-This folder contains active production work only. Do not use it for provenance, recovery records, or superseded project-state preservation.
+This folder contains active production work only. Do not use it for provenance or recovery records.
