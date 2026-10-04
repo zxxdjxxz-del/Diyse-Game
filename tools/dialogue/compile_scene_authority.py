@@ -75,7 +75,7 @@ RELATIONSHIP_MAP_PATH = "docs/01_CHARACTERS/RELATIONSHIPS/PERMANENT_SIX_RELATION
 DEFAULT_GLOBAL_SOURCES: list[dict[str, Any]] = [
     {
         "path": "docs/00_MASTER_CONTROL/AUTHORITY_AND_CHANGE_CONTROL.md",
-        "sections": ["Current authority precedence", "No silent resurrection"],
+        "sections": ["Current authority precedence", "Current-source rule"],
         "role": "authority_precedence",
     },
     {
