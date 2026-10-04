@@ -4,6 +4,7 @@
 **Visual authority:** `../../14_ART_AND_VISUALS/`
 
 ## Devices
+
 Test multiple Android classes:
 - lower-spec supported target;
 - midrange;
@@ -13,6 +14,7 @@ Test multiple Android classes:
 Exact supported-device floor remains a production decision.
 
 ## Validate
+
 - stable frame pacing;
 - battle input latency;
 - touch target readability;
@@ -28,9 +30,10 @@ Exact supported-device floor remains a production decision.
 - memory pressure;
 - scene-transition stability.
 
-The retired ~80 px field / ~200–220 px battle sprite targets are **not** production gates.
+Readability gates must be derived from the current rigged-3D presentation and actual target-device captures.
 
 ## Quality scaling
+
 Allowed to reduce:
 - decorative particles;
 - reflections;
@@ -49,6 +52,7 @@ Never reduce:
 - status readability.
 
 ## Manual screenshot/video review
+
 Capture representative:
 - bright scene;
 - dark scene;
