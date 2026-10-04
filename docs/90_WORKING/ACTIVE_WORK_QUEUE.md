@@ -16,7 +16,7 @@ Use:
 - `../03_DIALOGUE/README.md`
 - `../02_STORY/OPEN_STORY_ITEMS.md`
 
-Story-owned enemy placement/timing questions remain deferred until their scenes are authored. Use the current Story and enemy-domain open-item owners rather than carrying retired or unplaced identity names forward in this sequencing index.
+Story-owned enemy placement/timing questions remain deferred until their scenes are authored. Use only identities and placements present in the current Story and enemy-domain owners.
 
 ## 2 — Playable area / route production
 
@@ -60,7 +60,7 @@ Current visual-production work should now focus on:
 - actual field and battle camera validation;
 - then safe propagation across the remaining party.
 
-The old mandatory field/battle sprite-derivative pipeline is retired.
+Permanent-party field/battle production now uses rigged 3D models matched to the exact current 2D masters.
 
 Environment/material B01–B11 certification remains open before bulk environment conversion.
 
@@ -77,7 +77,7 @@ Current:
 - **Lv55–60** remains the normal full Base + Subclass completion target;
 - detailed **G** economy pricing/payout/liquidity calibration remains rebuild-pending.
 
-Do not restore retired global ×1.20 sensitivity or old PASS/certification snapshots.
+Use current enemy, progression, economy, and QA owners for all rebuild and certification work.
 
 Use:
 - `../09_ENEMIES_AND_ENCOUNTERS/`
@@ -100,7 +100,7 @@ Use:
 - `../16_BALANCE_AND_TESTING/FINAL_RELEASE_GATES.md`
 - `../16_BALANCE_AND_TESTING/TRUE_BATTLES/TRUE_BATTLE_TEST_PROTOCOL.md`
 
-There is currently no live historical true-battle certification to inherit; new certifications must use current inputs.
+There is currently no live true-battle difficulty certification; new certifications must use current inputs.
 
 ## 8 — Intentionally open story/lore
 
@@ -114,4 +114,4 @@ Use:
 When a working item is resolved:
 1. update the numbered owner domain;
 2. update this queue only if sequencing changes;
-3. delete obsolete working notes rather than preserving parallel authority.
+3. delete resolved working notes rather than preserving parallel authority.

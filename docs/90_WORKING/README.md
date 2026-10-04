@@ -10,7 +10,7 @@ It is not a canon tracker and never overrides numbered owner domains.
 - do not duplicate numbered-domain open-item registers;
 - route detailed rules to the owner domain;
 - when work becomes current authority, update the owner first;
-- delete obsolete working trackers rather than keeping compatibility copies unless a real workflow depends on the filename.
+- delete resolved working trackers rather than keeping compatibility copies unless a real workflow depends on the filename.
 
 ## Live working content
 
@@ -34,4 +34,4 @@ Use the numbered domains instead of parallel working trackers:
 - audio — `../15_AUDIO_AND_MUSIC/OPEN_AUDIO_ITEMS.md`;
 - balance/progression/QA — `../16_BALANCE_AND_TESTING/OPEN_BALANCE_ITEMS.md` and `../16_BALANCE_AND_TESTING/FINAL_RELEASE_GATES.md`.
 
-Historical migrations, old certification snapshots, and retired sensitivity studies belong in Git history / archive, not in active working trackers.
+This folder contains active production work only. Do not use it for provenance or recovery records.

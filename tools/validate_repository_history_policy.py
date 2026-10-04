@@ -63,6 +63,17 @@ BALANCE_HISTORY_RE = re.compile(
     r"|\bv(?:8\d|9\d|10\d)\b",
     re.IGNORECASE,
 )
+WORKING_HISTORY_RE = re.compile(
+    r"\bretired\b"
+    r"|\bobsolete\b"
+    r"|\bsuperseded\b"
+    r"|old PASS"
+    r"|old certification"
+    r"|historical migration"
+    r"|historical certification"
+    r"|Git history / archive",
+    re.IGNORECASE,
+)
 TEXT_EXTENSIONS = {
     ".md", ".txt", ".json", ".py", ".gd", ".yml", ".yaml", ".cfg",
     ".tres", ".tscn", ".toml", ".ini",
@@ -148,6 +159,10 @@ def main() -> int:
         if relative_path.startswith("docs/16_BALANCE_AND_TESTING/") and BALANCE_HISTORY_RE.search(text):
             errors.append(
                 f"{relative_path} contains retired/versioned test-history language; balance authority must describe current methods, debt, and certification state directly"
+            )
+        if relative_path.startswith("docs/90_WORKING/") and WORKING_HISTORY_RE.search(text):
+            errors.append(
+                f"{relative_path} contains project-history residue; working files must describe active production work directly"
             )
 
     if errors:
