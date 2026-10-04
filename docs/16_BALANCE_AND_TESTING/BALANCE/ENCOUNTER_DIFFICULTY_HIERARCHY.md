@@ -28,6 +28,7 @@ Effective challenge may include:
 Boss form/state changes do **not** restore spent Prime identities merely because a transition occurs.
 
 ## Hunts
+
 Recommended level is preparedness guidance, not an access gate.
 
 Tuning is fixed/authored:
@@ -36,4 +37,5 @@ Tuning is fixed/authored:
 Major Hunts are intentionally above-level optional challenges at their relevant access windows.
 
 ## Acceptance boundary
-Do not freeze historical round-count targets as universal tier definitions. Measure temporary KOs, wipes, ending HP/MP, recovery pressure, mechanic-response pressure, and duration against the current encounter owner.
+
+Measure temporary KOs, wipes, ending HP/MP, recovery pressure, mechanic-response pressure, and duration against the current encounter owner. Round count is one observation, not a universal tier definition.
