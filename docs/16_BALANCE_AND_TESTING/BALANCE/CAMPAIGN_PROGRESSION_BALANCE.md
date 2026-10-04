@@ -25,7 +25,7 @@ This file defines what progression balance must demonstrate. Exact EXP totals, c
 
 ## Route outcomes
 
-Do not hard-code historical chapter-end or ending-level centers here while the progression rebuild is open.
+While the progression rebuild is open, route outcomes must be read directly from the current progression owner rather than duplicated here.
 
 For each route, record:
 - Player Level by chapter/major validation point;
@@ -35,5 +35,3 @@ For each route, record:
 - weak-enemy diminishing-return effects;
 - when each character completes Base + Subclass progression;
 - whether the route hits Level 70 and when.
-
-Historical v8x/v9x EXP totals and level centers remain Git-history evidence only and are not current acceptance targets unless the rebuilt progression owner independently reproduces them.
