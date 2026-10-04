@@ -26,4 +26,4 @@ Required automated/integration cases:
 19. Same-bar state also does not refresh.
 20. Boss defeat ends battle; no cooldown check after victory.
 21. Save/load must preserve persistent Prime spent/Ready state; transient manifestation/spacing state remains separately scoped.
-22. Old bearer-locked `first_champion` proof expectation must be removed from production tests.
+22. Production tests must not impose bearer locking on acquired Story Prime combat use.
