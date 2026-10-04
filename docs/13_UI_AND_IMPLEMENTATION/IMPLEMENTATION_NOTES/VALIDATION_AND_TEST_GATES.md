@@ -119,3 +119,17 @@ As production systems replace proof runtime, add focused regression coverage for
 - current names/terminology;
 - save-schema migrations;
 - final PONR warning gating.
+
+## Repository authority integrity
+
+`tools/validate_repository_authority_integrity.py`
+
+Validates the surviving repository authority graph after cleanup:
+- exact top-level docs owner domains;
+- required root/master authority surfaces;
+- one current 00–16 numbered-domain index set;
+- the intentionally small `90_WORKING` surface;
+- required root guidance routes;
+- relative Markdown file links across current documentation.
+
+This gate is structural. It does not decide game-design content; it prevents deleted owners, stray top-level authority layers, and dangling documentation routes from silently returning.
