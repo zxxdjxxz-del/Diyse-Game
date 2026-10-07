@@ -1,85 +1,73 @@
 # Diyse — Prime UI
 
-**Status:** ACTIVE UI / IMPLEMENTATION SPEC
-**Authority:** current repository UI/implementation domain; cross-domain gameplay/content rules defer to their current numbered owner domains.
-
-**Implementation rule:** current domain canon beats older proof code/docs. Proof implementations are evidence of architecture, not permission to restore stale mechanics, names, currencies, progression, or UI concepts.
-
+**Status:** ACTIVE UI / IMPLEMENTATION SPEC  
+**Authority:** UI implementation defers gameplay behavior to `../05_BATTLE_SYSTEM/BATTLE_SYSTEM_MASTER.md` and `../07_CARDS/PRIME_CARDS/PRIME_SYSTEM_RULES.md`.  
 
 ## Count / progression
+
 Exactly:
+
 - 12 Prime Cards
 - 6 Story
-- 6 Major Hunt
+- 6 Major-Hunt
 
 Story progression:
-> Recovered → Awakened
 
-Major-Hunt Prime:
-> acquired Awakened
+**Recovered → Awakened**
 
-No Concordant screen.
+Major-Hunt Primes are acquired Awakened. No third progression-state screen is required.
 
 ## Loadout
-From Chapter-4 Prime-loadout access until Sixfold Volition:
-> **1 Prime slot per permanent character**
+
+From Chapter-4 Prime battle-loadout access until Sixfold Volition:
+
+- **1 Prime slot per permanent character**
 
 After Sixfold Volition:
-> **2 Prime slots per permanent character**
 
-Prime slots are separate from 3 Standard Card slots.
+- **2 Prime slots per permanent character**
 
-Any acquired Prime may occupy a legal Prime slot.
+Prime slots are separate from the character's **4 Standard Card slots**.
 
-Story bearer association is narrative:
-- it does not owner-lock battle use.
+Any acquired Prime may occupy a legal Prime slot. Story bearer association is narrative and does not owner-lock battle use.
 
-## Invocation costs
-Prime Invocation costs:
-> **0 MP**
+## Costs and availability
 
-Prime commands after manifestation also cost:
-> **0 MP**
+- Prime Invocation: **0 MP**
+- Prime commands: **0 MP** unless a specific Prime explicitly defines another internal restriction
+- each Prime identity has one use until valid restoration
+- spent/Ready state persists across battles
+- same-bar/fresh-HP form changes do not restore availability
 
-Do not display or reserve a Prime-specific MP charge, per-round MP drain, or state-based Prime MP tier.
+The UI must represent at least:
 
-## Recovered UI state
-Recovered Story Prime:
-- manifests as the selected invocation action;
-- performs exactly one strong signature action;
-- dismisses that same ordinary round.
+- Ready vs spent identity state;
+- whether a party-wide post-Prime lockout is active;
+- lockout owner;
+- owner's personal TURNs remaining in the 3-TURN lockout;
+- explicit restoration results.
 
-Do not show a three-round Recovered duration.
+Do not display the old **3 full normal party rounds** cooldown.
 
-## Awakened UI state
-Awakened Prime:
-- suspends active party;
-- directly controlled for **3 Prime rounds**;
-- one selected Prime command per Prime round.
+## Parked manifestation UI
 
-Prime UI must expose:
-- rounds remaining;
-- legal commands;
-- target where required.
+Exact Recovered/Awakened manifestation TURN sequencing is currently parked.
 
-## Availability
-Each Prime identity:
-> one use until restored by a valid rest or an explicit authored restoration effect.
+Therefore, production UI must **not** hard-code:
 
-After normal dismissal:
-> 3 full normal party rounds
+- exactly one Recovered action in an ordinary round;
+- exactly 3 Awakened Prime rounds;
+- a Prime-round counter;
+- assumptions about normal-party hidden-cycle behavior during manifestation.
 
-before another unused equipped Prime may be invoked.
+The final manifestation HUD/command presentation should be completed after the dedicated Prime sequencing pass.
 
-The UI must be able to represent:
-- available;
-- used;
-- cooldown rounds remaining;
-- explicit authored restoration only.
+## Stable post-manifestation lockout
 
-Neither same-bar phase changes nor genuine fresh-HP form changes refresh Prime availability.
+After a Prime demanifests, nobody may invoke another Prime until the invoking character has processed **3 personal TURNs**.
 
-## Implementation divergence
-Current proof runtime still models an old bearer-locked `first_champion` and an outdated proof duration.
-
-Do not ship that proof behavior as final production Prime UX.
+- that character is the cooldown owner;
+- their hidden reserve TURNs count;
+- queued EXECUTION markers do not count;
+- a denied owner TURN counts if the TURN occurred;
+- restoration of spent Primes does not bypass the active lockout.
