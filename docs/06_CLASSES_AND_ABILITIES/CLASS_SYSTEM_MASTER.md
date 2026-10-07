@@ -1,92 +1,74 @@
 # Diyse — Class System Master
 
-**Status:** ACTIVE CLASS / ABILITY AUTHORITY  
+**Status:** ACTIVE CLASS / ABILITY STRUCTURAL AUTHORITY  
 **Authority:** current class-domain owner plus later explicit approved corrections.  
 
-
-## Current architecture
+## Stable class structure
 
 Each permanent character has:
+
 - one native Base Class;
 - one reciprocal Subclass;
 - a Base Class cap of **CL13**;
 - a Subclass cap of **CL13**.
 
-Subclasses do not become usable before the **Sixfold Volition at the end of Chapter 7**.
+Subclasses do not become usable before **Sixfold Volition at the end of Chapter 7**.
 
-Reciprocal donor pairs:
+Reciprocal donor pairs remain:
+
 - Cyanis ⇄ Vaelira
 - Ilyra ⇄ Seyrik
 - Torren ⇄ Nimera
 
-## Selected-class behavior
+Selected-class equipment/stat/CEXP routing remains class-domain content. Global battle timing/math/status behavior is owned by `../05_BATTLE_SYSTEM/BATTLE_SYSTEM_MASTER.md`.
 
-The selected class controls:
-- the currently active class Trait;
-- the selected-class natural-stat package;
-- which class receives battle CEXP.
+## Redesigned native-kit architecture
 
-Unlocked learned Abilities remain learned and usable according to current persistent-Ability rules; changing selected class does not erase already learned Abilities.
+Current target capacity:
 
-Equipment does not choose an Ability's Physical / Magical / Hybrid formula.
+- Base class: **6–8 active Abilities**
+- Subclass: **4–6 active Abilities**
+- fully developed native toolkit: roughly **10–14 active Abilities**
+- Base class: **4 passives**
+- Subclass: **3 passives**
+- fully developed native total: **7 passives**
 
-## Base-Class learning rhythm
+Starting characters begin with:
 
-| Class Level | Result |
-|---:|---|
-| CL1 | starting abilities + Trait Rank I |
-| CL3 | next Ability + Core Mastery 1 |
-| CL6 | next Ability + Core Mastery 2 + Trait Rank II |
-| CL9 | next Ability + Core Mastery 3 |
-| CL12 | Core Mastery 4 + Trait Rank III |
-| CL13 | Base Ultimate + cap |
+- **3 base active Abilities**
+- **1 base passive**
 
-## Subclass learning rhythm
+When subclass access is gained, it immediately grants:
 
-Current class-specific normalized kits use:
+- **2 subclass active Abilities**
+- **1 subclass passive**
 
-| Class Level | Result |
-|---:|---|
-| CL1 | Subclass Ability 1 + Trait Rank I + donor Primary access |
-| CL3 | Subclass Mastery 1 + donor Armor access |
-| CL4 | Subclass Ability 2 |
-| CL5 | Subclass Mastery 2 + donor Secondary access |
-| CL6 | Trait Rank II |
-| CL7 | Subclass Ability 3 + **Equipment Mastery** |
-| CL9 | Subclass Ability 4 |
-| CL11 | Subclass Ability 5 + **Legacy Mastery** |
-| CL12 | Trait Rank III |
-| CL13 | Subclass Ultimate + cap |
+Later-joining characters may enter with more already unlocked according to campaign progression.
 
-### Reconciliation note
-The retired generic summary placed the fifth normal Subclass Ability at CL10. The current normalized class-specific kits consistently place that fifth Ability at **CL11**, and current Mastery authority also uses CL11 for Legacy Mastery. Follow the specific normalized kits; the old generic CL10 line is stale.
+Base and subclass Abilities share the top-level **Abilities** command, with visible Base/Subclass origin tagging rather than separate battle submenus.
 
-## Mastery state — current repository authority
+## Progression boundary
 
-The retired point-purchase model used Mastery Points. Current repository authority removes the **Mastery Point resource entirely**.
+Active Abilities and passives should unlock gradually and interleave. Early tools establish role identity; later tools deepen specialization without making early tools strictly obsolete.
 
-Current behavior:
-- no Mastery Point grants;
-- no banking;
-- no spending;
-- no respec/refund;
-- no replacement skill-point currency;
-- Masteries change from **Locked → Unlocked** automatically when the required Class Level is reached.
+**Exact Ability/passive CL unlock thresholds are not currently locked.** The former normalized learning rhythms must not constrain the dedicated class-kit rebuild.
 
-Mastery completion occurs at:
-- Base CL12 for all four Core Masteries;
-- Subclass CL11 for all four Subclass Masteries.
+The no-Mastery-Point rule remains current: Masteries unlock through their owning class/progression rules rather than a spendable Mastery Point currency.
 
-Git history may document the retired point-purchase model, but it does not override the current repository rule above.
+## Existing kit policy
 
-## Synthesis
-The current class architecture ends with Core and Subclass Masteries; there is no additional post-Subclass Mastery layer.
+Existing class Ability/passive content is source material, not a constraint. During the dedicated rebuild, an existing entry may be:
 
-## Donor equipment milestones
+- kept;
+- mechanically reworked;
+- renamed;
+- merged;
+- moved between active/passive design space;
+- moved between Base/Subclass where appropriate;
+- replaced entirely.
 
-Current rules:
-- Subclass CL7 / Equipment Mastery opens class eligibility for the donor Base-Class Relic, subject to actually owning that Relic and any other established requirements.
-- Subclass CL11 / Legacy Mastery opens class eligibility for the donor Base-Class Legacy, subject to the donor Legacy actually being completed/obtained and any other established requirements.
-- A character's own native Base-Class Legacy does **not** require donor Legacy Mastery or Synthesis.
+The redesigned battle system is authoritative.
 
-Exact item definitions belong to `08_ITEMS_AND_EQUIPMENT`.
+## Donor equipment boundary
+
+Donor Relic/Legacy eligibility and exact item definitions remain owned by the class/equipment domains. This battle redesign does not itself remove the donor-equipment relationship.
