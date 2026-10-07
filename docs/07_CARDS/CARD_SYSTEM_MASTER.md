@@ -15,7 +15,7 @@ There are no duplicate-rank, Essence, generated-card, Card-XP, or material-upgra
 
 ## Lived-world baseline
 
-Standard Cards are known Ancient Diysean magical artifacts in modern life. They preserve abilities that a current holder/user can access. Prime Cards are the exceptional, historically uncertain layer; player/system knowledge of Prime mechanics is not automatically character knowledge.
+**Standard Cards are a normal, known part of modern magical life.** They are known Ancient Diysean magical artifacts that preserve abilities a current holder/user can access. Prime Cards are the exceptional, historically uncertain layer; player/system knowledge of Prime mechanics is not automatically character knowledge.
 
 Story-facing knowledge remains governed by the world/lore knowledge firewalls.
 
@@ -124,6 +124,6 @@ After a Prime demanifests, Prime invocation enters a **party-wide lockout measur
 - a denied owner TURN counts if the TURN occurred;
 - restoring a spent Prime does not bypass an active lockout.
 
-Exact Recovered/Awakened manifestation TURN sequencing is intentionally parked. Do not use the former three-Prime-round or three-normal-party-round model as current authority.
+Exact Recovered/Awakened manifestation TURN sequencing is intentionally parked. Do not use a fixed Prime-round or fixed normal-party-round sequence as current authority.
 
 Current Prime battle foundation is detailed in `PRIME_CARDS/PRIME_SYSTEM_RULES.md` and `../05_BATTLE_SYSTEM/BATTLE_SYSTEM_MASTER.md`.
