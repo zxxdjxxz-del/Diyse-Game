@@ -11,50 +11,41 @@ Routing rule:
 - rebuild-pending balance/economy work belongs in its owning numbered domain and `16_BALANCE_AND_TESTING`.
 
 ## 1. Prime proof model — HIGH
-Proof runtime still uses:
-- `first_champion`;
-- bearer lock;
-- proof direct-control assumptions that do not match current Prime authority;
-- stale Prime timing/state behavior.
 
-Current production:
-- Last Sentinel current name;
-- any acquired Prime can occupy any legal character Prime slot;
+The proof runtime does not implement the current Prime manifestation system.
+
+Current production authority requires:
+
+- any acquired Prime may occupy any legal character Prime slot;
 - 1 Prime slot/character from Chapter-4 Prime-loadout access until Sixfold Volition; 2 Prime slots/character after Volition;
-- Recovered = one signature action/same round;
-- Awakened = 3 Prime rounds;
-- Prime Invocation costs **0 MP**;
-- each Prime identity has **one use until restored by valid rest or an explicitly authored restoration effect**;
-- Prime spent/Ready state **persists across battle end** until valid restoration;
-- after any Prime manifestation ends, **3 full normal party rounds** must pass before another Ready Prime may be invoked;
-- genuine fresh-HP enemy bodies/forms do **not** refresh spent Prime identities;
-- same-bar phase/state changes do **not** refresh spent Prime identities;
-- form/body transitions do **not** create a new automatic Prime-use allowance and do not erase or shorten an active 3-full-normal-round post-dismissal spacing gate;
-- valid rest and explicitly authored restoration effects such as Emergency Kit can restore eligible spent Prime identities without bypassing the spacing gate.
+- Recovered Story Prime = one signature action, then immediate demanifestation;
+- Awakened Prime = active allied battlefield replacement using a **3-segment Manifestation Meter**;
+- Awakened kit structure = **2 Basic / 2 Medium / 1 Heavy / 1 automatic Dismissal**;
+- meter is spent only when a selected Prime command successfully reaches EXECUTION;
+- a meter-emptying action enters **Final Return** and Dismissal occurs on the Prime's already-scheduled next TURN;
+- active party TURN/EXECUTION/status-duration progression is suspended during Awakened manifestation while enemy timeline progression continues;
+- Prime Invocation costs **0 MP** and consumes the invoker's current command opportunity;
+- Prime identities use persistent Ready/Spent state until valid restoration;
+- post-Prime lockout is owned by the invoker and ends after that character processes **3 personal TURNs**.
+
+The proof runtime must be rebuilt against `../../07_CARDS/PRIME_CARDS/PRIME_SYSTEM_RULES.md` rather than patched around its current Prime control path.
 
 ## 2. Normal battle turn flow — HIGH
-Proof runtime still implements a whole-round queue model that does not match current production turn flow.
 
-Current proof code currently:
-- locks enemy actions at round start;
-- asks the player to select actions for all conscious party members;
-- requires **Confirm Round** before resolution;
-- sorts **Item** before **Defend** before ordinary commands through `round_resolver.gd`;
-- resolves the queued combined action list afterward.
+Proof runtime still implements a whole-round queue/confirm model that does not match current production battle flow.
 
-Current production battle flow:
-- remains **discrete round-based**, not ATB;
-- establishes normal turn order at round start from current effective Speed and tie rules;
-- when a player character's turn arrives, the player selects that character's action and target/content from the current battle state;
-- that action resolves before the next normal combatant acts;
-- enemy/entity AI likewise chooses its legal action when its turn arrives from the then-current legitimate state;
-- **Item** and **Defend** have no separate universal priority phases;
-- there is no whole-party action queue and no universal **Confirm Round** step;
-- normal initiative locks for the rest of the round after beginning-of-round setup; mid-round Speed changes do **not** reshuffle that round, but affect the next round's initiative if still active.
+Current production uses the ordered **TURN / EXECUTION** timeline owned by `../../05_BATTLE_SYSTEM/BATTLE_SYSTEM_MASTER.md`:
 
-Do not use the current proof queue/confirm architecture as production battle-flow authority.
+- a combatant receives a TURN and selects one command;
+- Immediate actions resolve at once; queued actions create a future EXECUTION marker;
+- the combatant's next TURN is scheduled when the command is selected using Return timing;
+- other TURNs and EXECUTIONs may occur before a queued action resolves;
+- Speed controls personal TURN spacing rather than a round-start initiative sort;
+- there is no whole-party action queue;
+- there is no universal Confirm Round step;
+- Item and Defend do not have separate universal priority phases.
 
-Current CI smoke-checks only the combat proof's loadability, four-member party surface, and five canonical global commands. It does **not** certify the proof's internal turn flow, Prime behavior, Card costs, or proof UI. Those runtime mechanics remain implementation debt until an intentional combat migration pass.
+Current CI smoke-checks only the combat proof's loadability and limited surface contracts. It does **not** certify production TURN / EXECUTION behavior, Prime manifestation, final Card costs, or final combat UI. Those runtime mechanics remain implementation debt until an intentional combat migration pass.
 
 ## 3. Proof equipment/content — HIGH
 GameState defaults still include:
@@ -78,15 +69,20 @@ Current field proof dialogue panel occupies much more vertical space than the ge
 Function is proven; final layout remains open.
 
 ## 6. Combat proof UI — HIGH
-Current proof:
-- large text tables/log;
-- proof command/target buttons;
-- proof **Confirm Round** button;
-- proof Flee button;
-- proof numeric summaries;
-- stale Prime terminology.
 
-It is not the final battle HUD and does not represent the current turn-entry command flow.
+Current proof UI remains an engineering surface rather than the production combat HUD.
+
+It does not yet represent:
+
+- the ordered TURN / EXECUTION timeline and projected EXECUTION/next-TURN preview;
+- current Delay / Interrupt marker inspection;
+- the current 4-active / 2-reserve Swap flow;
+- the Awakened Prime 3-segment Manifestation Meter;
+- Basic / Medium / Heavy meter costs;
+- Final Return and automatic Dismissal;
+- current Prime Ready/Spent and invoker-owned 3-TURN lockout presentation.
+
+Production combat/Prime UI authority lives in `../COMBAT_UI.md`, `../PRIME_UI.md`, and the owning battle/Prime-system files.
 
 ## 7. Current-facing naming — ONGOING
 Compatibility or proof technical identifiers may remain internally only while a current runtime dependency requires them; player-facing text must use current names.
