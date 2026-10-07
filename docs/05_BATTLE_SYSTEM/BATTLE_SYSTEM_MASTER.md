@@ -772,47 +772,88 @@ Every native Ability must explicitly define MP cost, Execution, Return, targetin
 
 Existing Ability/passive content is source material, not a constraint. It may be kept, reworked, renamed, merged, moved, or replaced during the dedicated character-kit rebuild. Exact CL unlock thresholds remain parked.
 
-## 24. Prime system — stable battle foundation
+## 24. Prime system — manifestation authority
 
-Exact internal Prime manifestation TURN sequencing is **parked** and is not current authority yet.
+Prime-specific manifestation behavior is owned in detail by `../07_CARDS/PRIME_CARDS/PRIME_SYSTEM_RULES.md`.
 
-Stable rules:
+Stable battle integration:
 
 - exactly 12 Primes: 6 Story + 6 Major-Hunt;
 - Story progression: Recovered → Awakened only;
 - Major-Hunt Primes are acquired Awakened;
-- no Prime XP, levels, duplicates, or material progression;
+- no Prime XP, permanent Prime levels, duplicates, or material progression;
 - Chapter 4 Prime battle-loadout access: 1 Prime slot per permanent;
 - after Sixfold Volition at end of Chapter 7: 2 Prime slots per permanent;
 - Story bearer association is narrative/thematic, not battle-use owner-lock;
 - Major-Hunt Primes are not owner-locked;
-- invocation costs 0 MP;
-- Prime commands cost 0 MP unless a specific Prime explicitly defines another internal restriction;
+- Invocation costs 0 MP and consumes the invoking character's current command opportunity;
+- Invocation resolves immediately and cannot itself be Interrupted;
 - each Prime identity has 1 use until restored;
 - spent/Ready persists across battles;
 - battle end/new battle do not restore spent Primes;
-- valid full rest or checkpoint-area restoration restores eligible spent Primes;
-- explicit restoration effects may restore spent Primes;
-- Emergency Kit restores every acquired Story and Major-Hunt Prime to Ready without changing progression state;
+- valid full rest, checkpoint restoration, or explicit Prime-restoring effects may restore spent Primes;
+- Emergency Kit restores every acquired Story and Major-Hunt Prime to Ready without bypassing an active post-Prime lockout;
 - same-bar phases and fresh-HP enemy bodies/forms do not automatically restore Prime uses.
 
-Manifestation temporarily replaces the normal active party; party HP/MP/persistent state are preserved while manifested. Exact party hidden-cycle behavior and Recovered/Awakened sequence timing are part of the parked Prime pass.
+### Recovered Story Prime
 
-Every Prime has an automatic signature effect when manifestation ends; exact finisher timing and Delay/Interrupt interaction remain part of that parked sequencing pass.
+A Recovered Story Prime manifests, performs its single signature action, and demanifests immediately.
 
-After demanifestation, Prime invocation enters a **party-wide lockout measured by the invoking character's next 3 personal TURNs**.
+Recovered does not enter the controllable Awakened sequence and does not use the Manifestation Meter.
 
-- invoking character is cooldown owner;
-- nobody may manifest any Prime during the lockout;
-- each owner TURN reduces it by 1;
+### Awakened Prime
+
+An Awakened Prime temporarily replaces the active party and becomes the active allied battlefield unit.
+
+Every Awakened manifestation begins with a **3-segment Manifestation Meter**.
+
+- Basic commands cost 1 segment;
+- Medium commands cost 2 segments;
+- Heavy commands cost 3 segments;
+- standard kit structure is **2 Basic / 2 Medium / 1 Heavy / 1 automatic Dismissal**;
+- meter is spent only when a selected Prime command successfully reaches EXECUTION.
+
+If a successful command reduces meter to 0, the Prime enters **Final Return**. It remains manifested until its already-scheduled next TURN. At that TURN the automatic Dismissal ability resolves, then the Prime demanifests and the party returns.
+
+Prime command Execution and Return use the normal battle framework. Prime commands are not inherently immune to Delay or Interrupt. If a queued Prime command is canceled before EXECUTION, its meter is not spent and the already-scheduled next TURN does not move earlier.
+
+### Party and enemy timeline behavior
+
+While an Awakened Prime is manifested:
+
+- the four active party members are suspended;
+- party TURN progression is frozen;
+- party queued EXECUTIONs do not progress;
+- party status/buff/debuff durations do not tick;
+- party timeline positions are preserved;
+- ordinary battlefield effects do not affect the suspended party unless a Prime ability explicitly reaches that preserved state;
+- enemy TURNs, EXECUTIONs, Return, and statuses continue normally.
+
+Already-committed hostile actions are not erased by manifestation/demanifestation; they use the Prime-system targeting-transition rules.
+
+### Prime stats
+
+Primes use their own independent stat profiles.
+
+Reference Level is:
+
+> **highest current level among all currently recruited permanent party members**
+
+Primes do not inherit the invoker's stats/equipment/state and do not gain permanent Prime levels.
+
+### Ending and lockout
+
+Normal Dismissal occurs only through the Final Return sequence.
+
+Prime KO, forced removal, or manual early dismissal ends manifestation immediately and does **not** trigger the Dismissal ability.
+
+After any demanifestation, Prime Invocation enters a party-wide lockout owned by the invoking character:
+
+- nobody may invoke a Prime until that owner has processed 3 personal TURNs;
 - hidden reserve TURNs belonging to the owner count;
 - queued EXECUTIONs do not count;
-- swapping itself does not add a count;
-- a denied owner TURN counts if that TURN occurred;
-- after the third owner TURN is processed, the lockout ends;
-- restoring a spent Prime does not bypass the active lockout.
-
-No placeholder three-Prime-round or three-normal-round sequencing rule is authoritative until the dedicated Prime pass is completed.
+- a denied owner TURN counts if the TURN occurred;
+- restoration does not shorten or bypass the lockout.
 
 ## 25. Current numerical design targets
 
@@ -830,7 +871,7 @@ Current formula constants **R = 200** and **K = 300** are locked design targets 
 The global battle-rule foundation is closed. Remaining work is deliberately limited to:
 
 - exact Standard Card roster/content;
-- dedicated Prime manifestation/TURN sequencing and exact Prime kits/finishers;
+- migration/rebalance of the twelve exact Prime kits within the locked Manifestation Meter structure;
 - exact character native Ability/passive rebuild and CL unlock thresholds;
 - item catalog and exceptional item-specific effects;
 - numerical certification of stat curves, R/K, Potencies, MP costs, HP/MP growth, and encounter pacing;
