@@ -26,13 +26,13 @@ Exact current dialogue for completed chapters plus authoring status for later ch
 Current geography, map, factions, modern/ancient history, and lore truth.
 
 ### 05_BATTLE_SYSTEM
-Global combat formulas, round/turn rules, targeting, statuses, elements, and boss-form rules.
+Global TURN / EXECUTION combat formulas, action timing, targeting, statuses, elements, and boss-form rules.
 
 ### 06_CLASSES_AND_ABILITIES
 12 classes, Ability/Ultimate roster, Traits, MP, class progression structure, and automatic Masteries.
 
 ### 07_CARDS
-24 Standard Cards, 12 Primes, the six current Faces, Prime loadouts, progression, and runtime rules.
+24 Standard Cards, 12 Primes, the six current Faces, 4-slot Standard Card loadouts, Prime loadouts, progression, Manifestation Meter rules, and Prime runtime behavior.
 
 ### 08_ITEMS_AND_EQUIPMENT
 Consumables, 91 equipment identities, Relics, Legacies, Forge Components, and project materials.
