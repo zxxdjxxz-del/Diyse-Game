@@ -1,26 +1,19 @@
-# Diyse — Prime Sequencing Boundary
+# Diyse — Prime Sequencing Route
 
-**Status:** PARKED — NOT FINAL SEQUENCING AUTHORITY  
-**Authority:** `BATTLE_SYSTEM_MASTER.md` §24 and `../07_CARDS/PRIME_CARDS/PRIME_SYSTEM_RULES.md`
+**Status:** ROUTING SURFACE — NO INDEPENDENT COMBAT AUTHORITY  
+**Authority:** `../07_CARDS/PRIME_CARDS/PRIME_SYSTEM_RULES.md`
 
-The former exact Prime-round model is not current authority under the TURN / EXECUTION redesign.
+Current Prime manifestation sequencing is owned entirely by the Prime-system authority.
 
-Stable battle rules already locked:
+Key routing summary:
 
-- Prime manifestation is initiated by an eligible active character from their TURN;
-- manifestation temporarily replaces the normal active party;
-- after demanifestation, no party member may invoke a Prime until the invoking character has processed **3 personal TURNs**;
-- that owner's hidden reserve TURNs count;
-- queued EXECUTION markers do not count;
-- restoring a spent Prime does not bypass the active lockout.
+- **Recovered Story Prime:** manifests, performs one signature action, then demanifests immediately.
+- **Awakened Prime:** replaces the active party and begins with a 3-segment Manifestation Meter.
+- Meter is spent only when a Basic / Medium / Heavy command successfully reaches EXECUTION.
+- A meter-emptying command puts the Prime into **Final Return**.
+- The Prime stays manifested until its already-scheduled next TURN.
+- At that TURN, the automatic Dismissal ability resolves and the Prime demanifests.
+- The suspended party then returns to its preserved timeline/state.
+- Enemy TURNs and EXECUTIONs continue throughout an Awakened manifestation.
 
-Still deliberately unresolved:
-
-- exact Recovered manifestation sequence;
-- exact Awakened manifestation sequence;
-- whether Awakened still uses exactly three Prime TURNs;
-- party hidden-cycle behavior during manifestation;
-- exact demanifestation-finisher placement;
-- Delay/Interrupt interaction with Prime commands and finisher.
-
-Do not implement a placeholder three-Prime-round or three-normal-party-round sequence as current authority.
+Do not define parallel Prime sequencing in this file. Detailed Invocation, Delay/Interrupt, targeting-transition, KO/removal, early-dismissal, party-suspension, restoration, and post-Prime lockout rules are all owned by `../07_CARDS/PRIME_CARDS/PRIME_SYSTEM_RULES.md`.
