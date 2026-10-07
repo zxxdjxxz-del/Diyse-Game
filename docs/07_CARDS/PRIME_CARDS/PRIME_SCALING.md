@@ -39,4 +39,4 @@ The later Prime stat rebalance must express all final Prime values through curre
 - Spirit
 - Speed
 
-No Prime scaling formula may depend on retired hidden Power, Base Hit, Evasion, Accuracy, or Status Resistance stats.
+Prime scaling formulas may use only the current combat-stat framework listed above.
