@@ -16,7 +16,3 @@ Exactly **6 Major-Hunt Primes**.
 
 Each Major-Hunt Prime is obtained **already Awakened**.
 
-Retired continuity:
-- **Sheltering Host** → current **Parallax Host**
-- Living Revision Face: **Change → Memory**
-- Parallax Host Face: **Acuity → Perception**

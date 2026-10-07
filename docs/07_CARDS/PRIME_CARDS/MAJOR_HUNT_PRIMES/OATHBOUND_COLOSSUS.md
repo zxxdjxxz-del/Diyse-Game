@@ -1,34 +1,32 @@
 # Diyse — Prime: Oathbound Colossus
 
-**Status:** ACTIVE PRIME AUTHORITY  
-**Authority:** current Card/Prime-domain owner plus later explicit approved corrections.  
-
+**Status:** ACTIVE PRIME IDENTITY AUTHORITY — EXACT KIT REBUILD PENDING  
+**Authority:** current Card/Prime-domain owner plus `../PRIME_SYSTEM_RULES.md`.
 
 **Face:** Might  
 **Source:** Major Hunt #2 — Crownless Siege Marshal / Crownless War Engine  
 **Acquisition state:** Awakened
 
-## Command package
-| Command | Target | Formula | Power | Base Hit | Effect |
-|---|---|---|---:|---:|---|
-| **Siege Ram** | one enemy | Physical / Neutral | 330 | 105 | 40% Defense penetration; 40% Staggered; gain **Defense +10% / Spirit +10% through the end of the next Prime round, or until dismissal if dismissal occurs first**. |
-| **Crownless Barrage** | all enemies | Physical / Neutral | 220 each | 100 | 20% Defense penetration; 25% Staggered per damaged target; self-heal 8% Max HP once. |
-| **Iron Oath** | one enemy | Physical / Neutral | 265 | 110 | 25% Defense penetration; gain **Defense +25% / Spirit +25% through the end of the next Prime round, or until dismissal if dismissal occurs first**; arm **Oathbound Momentum** for that same deadline. Unavailable Round 3. |
-| **Legacy/final — Citadel Breaker** | Prime Round 3 only; one enemy | Physical / Neutral | 430 | 105 | 55% Defense penetration; 50% Staggered; Oathbound Momentum may boost it. |
+## Manifestation structure
 
-## Oathbound Momentum exact resolver
-- Oathbound Momentum is a Prime-local one-use setup state.
-- It grants **+20% final damage** to Oathbound Colossus's next damaging command that resolves before the end of the next Prime round, or before dismissal if dismissal occurs first.
-- A non-damaging command does not consume it.
-- The first damaging command consumes Oathbound Momentum after that command resolves, whether or not the attack hits or deals positive damage.
-- If no damaging command uses it before the deadline, it expires unused.
-- Consuming Oathbound Momentum does not end Iron Oath's separate Defense/Spirit modifier early.
+Oathbound Colossus uses the universal Awakened structure:
+
+**2 Basic / 2 Medium / 1 Heavy / 1 Dismissal**
+
+## Kit identity anchors
+
+The later exact kit rebuild should preserve Oathbound Colossus's established identity around:
+
+- heavy focused physical impact;
+- exceptional durability;
+- defensive self-setup;
+- momentum/oath setup that empowers a later damaging commitment;
+- a defining high-commitment strike within the meter system.
+
+Exact Potency, Execution, Return, setup duration, control effects, and Dismissal package remain open for the dedicated Prime-kit pass.
 
 ## Global Prime references
+
 - `../PRIME_SYSTEM_RULES.md`
 - `../PRIME_SCALING.md`
 - `../PRIME_STATUS_CONTROL.md`
-
-## Ruin formula scope
-If this Prime contains Ruin damage, use the command's explicitly authored Prime formula.
-Do **not** force the character-Ability 75/25 Ruin rule onto a Prime command.

@@ -1,39 +1,32 @@
 # Diyse — Prime: Prismatic Leviathan
 
-**Status:** ACTIVE PRIME AUTHORITY  
-**Authority:** current Card/Prime-domain owner plus later explicit approved corrections.  
-
+**Status:** ACTIVE PRIME IDENTITY AUTHORITY — EXACT KIT REBUILD PENDING  
+**Authority:** current Card/Prime-domain owner plus `../PRIME_SYSTEM_RULES.md`.
 
 **Face:** Elements  
 **Source:** Major Hunt #4 — Worldscar Leviathan  
 **Acquisition state:** Awakened
 
-## Command package
-| Command | Target | Formula | Power | Base Hit | Effect |
-|---|---|---|---:|---:|---|
-| **Prismatic Breath** | all enemies | Magical / chosen Fire/Ice/Lightning/Earth | 195 each | — | 30% linked Burn/Freeze/Stun/Staggered according to chosen element. |
-| **Regulator Fang** | one enemy | Magical / chosen standard element | 250 | — | 25% Spirit penetration; no harmful status. |
-| **Regulator Pulse** | all enemies | Magical / chosen standard element | 200 each | 110 | No status; after damage remove one eligible temporary elemental-resistance increase from each affected enemy. Cannot remove innate/permanent affinities, immunities, Fields, boss mechanics, or scripts. |
-| **Prismatic Mantle** | all enemies | Magical / chosen standard element | 185 each | 110 | No status; after damage Prismatic Leviathan takes **40% less eligible direct damage from the chosen element until its next selected action begins**. This does not change its actual elemental affinity or linked-status susceptibility. |
-| **Legacy/final — Prismatic Deluge** | Prime Round 3/final; all enemies | Magical sequence Fire → Ice → Lightning → Earth | 4 × 90 = 360 per target | — | Each wave may attempt its linked status at 15%; maximum 1 newly inflicted harmful status per target from the whole command; no Colorless finishing hit. |
+## Manifestation structure
 
-## Prismatic Mantle exact resolver
-- The chosen-element protection becomes active after Prismatic Mantle's complete damage package resolves.
-- For eligible incoming **direct** damage of that chosen element while the protection is active:
-  > **MantledDamage = PreMantleDirectDamage × 0.60**
-- The reduction applies after the attack's ordinary elemental-affinity damage multiplier and other normal damage construction, in the same late direct-damage-reduction layer used by supported direct-damage protection.
-- It does not reduce Burn, Bleed, fixed damage, indirect damage, or nonmatching elements merely because they occur while Mantle is active.
-- It does not rewrite Weak / Neutral / Resistant / Strongly Resistant / Immune identity and therefore does not alter linked-status application modifiers.
-- Prismatic Mantle ends immediately when Prismatic Leviathan's next selected action begins, before that action resolves.
-- Reusing Prismatic Mantle later replaces the prior chosen-element protection rather than stacking another Mantle.
+Prismatic Leviathan uses the universal Awakened structure:
 
-Current authority fixes **Prismatic Deluge at 90 Power × 4 waves = 360 total per target**.
+**2 Basic / 2 Medium / 1 Heavy / 1 Dismissal**
+
+## Kit identity anchors
+
+The later exact kit rebuild should preserve Prismatic Leviathan's established identity around:
+
+- selecting among Fire / Ice / Lightning / Earth;
+- broad elemental pressure;
+- interaction with temporary elemental-resistance changes without rewriting innate affinities;
+- temporary protection against a chosen element;
+- a multi-element defining action or Dismissal effect.
+
+Exact Potency, Execution, Return, resistance interaction, protection values, status interaction, and Dismissal package remain open for the dedicated Prime-kit pass.
 
 ## Global Prime references
+
 - `../PRIME_SYSTEM_RULES.md`
 - `../PRIME_SCALING.md`
 - `../PRIME_STATUS_CONTROL.md`
-
-## Ruin formula scope
-If this Prime contains Ruin damage, use the command's explicitly authored Prime formula.
-Do **not** force the character-Ability 75/25 Ruin rule onto a Prime command.

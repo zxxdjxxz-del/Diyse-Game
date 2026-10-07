@@ -1,58 +1,52 @@
 # Diyse — Prime Status and Control Rules
 
-**Status:** ACTIVE PRIME AUTHORITY  
-**Authority:** current Card/Prime-domain owner plus later explicit approved corrections.  
+**Status:** ACTIVE PRIME STATUS / CONTROL AUTHORITY  
+**Authority:** `PRIME_SYSTEM_RULES.md` and current global status/timeline rules in `../../05_BATTLE_SYSTEM/BATTLE_SYSTEM_MASTER.md`.
 
+Awakened Primes are normal active battlefield units unless a specific Prime explicitly says otherwise.
 
-Primes are not blanket-immune to harmful statuses.
+They may generally:
 
-Default Prime application susceptibility:
-> **80%**
+- take direct and indirect damage;
+- receive legal healing;
+- receive buffs and stat-up effects;
+- receive debuffs and stat-down effects;
+- receive applicable harmful statuses;
+- be affected by ordinary Delay and Interrupt;
+- be affected by normal targeting and other current battle mechanics.
 
-for:
-- Burn
-- Freeze
-- Stun
-- Staggered
-- Bleed
+Primes do **not** have blanket status or control immunity.
 
-Prime-local statuses disappear on dismissal and do not transfer to the returning party.
+Any resistance, immunity, altered susceptibility, or special status/control interaction belongs to the individual Prime and must be explicitly authored.
 
-## Burn
-- 80% susceptibility;
-- normal Prime-local Burn value;
-- cannot outlive remaining manifestation duration.
+## Prime-local state
 
-## Bleed
-Prime-specific handling remains a dedicated manifestation exception:
-- 80% susceptibility;
-- full Prime-local Bleed action value;
-- bounded to the Prime manifestation's own round/action handling.
+Temporary manifestation-local state ends when the Prime demanifests.
 
-Global current Bleed rules remain in `../../05_BATTLE_SYSTEM/STATUS_EFFECTS.md`.
+This includes temporary:
 
-## Staggered
-- 80% susceptibility;
-- full current Staggered package while active on the Prime body: **Attack −20% / Magic −20% / Speed −20%**;
-- Staggered does **not** reduce Base Hit or Evasion;
-- it remains bounded by the manifestation and disappears on dismissal.
+- buffs;
+- debuffs;
+- harmful statuses;
+- setup states;
+- control states.
 
-## Freeze
-- 80% susceptibility;
-- may deny at most **1 selected Prime command per application**;
-- then ends;
-- successful direct Physical damage still breaks Freeze after the hit where the global rule applies.
+It does not transfer to the returning party and does not carry into a later restored manifestation.
 
-## Stun
-- 80% susceptibility;
-- **20%** chance to lose the selected Prime command on an affected Prime turn;
-- one Stun application may cause at most one lost Prime command.
+## Current global status language
 
-## Control Guard
-Across one 3-round manifestation:
+Prime effects and Prime-targeting effects use the current player-facing status vocabulary and mechanics from the battle master:
 
-> Freeze and Stun together may deny at most **1 selected Prime command**.
+- Quick
+- Slow
+- Stuck
+- Asleep
+- Poison
+- Wounded
+- Sealed
+- Ward
+- Regen
+- Doomed
+- Strength / Magic / Intelligence / Defense / Spirit Up or Down
 
-After that one hard-control loss, the Prime becomes Freeze/Stun immune for the rest of that manifestation.
-
-This prevents a three-round manifestation from being reduced to zero usable commands while preserving status interaction.
+Individual Prime kits must be rebuilt against those current rules rather than preserving incompatible status behavior.
