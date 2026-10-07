@@ -23,7 +23,3 @@ All Story Primes:
 - are final at Awakened;
 - use the normal Prime-slot access rules after acquisition.
 
-Retired continuity:
-- **Last Measure** → current **Last Cartographer**
-- Last Cartographer Face: **Acuity → Perception**
-- Last Scribe Face: **Change → Memory**
