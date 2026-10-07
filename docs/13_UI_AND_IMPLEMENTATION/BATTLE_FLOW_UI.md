@@ -1,65 +1,78 @@
 # Diyse — Battle Flow UI States
 
-**Status:** ACTIVE UI / IMPLEMENTATION SPEC
-**Authority:** current repository UI/implementation domain; cross-domain gameplay/content rules defer to their current numbered owner domains.
+**Status:** ACTIVE UI / IMPLEMENTATION SPEC  
+**Authority:** gameplay behavior defers to `../05_BATTLE_SYSTEM/BATTLE_SYSTEM_MASTER.md`.  
 
-**Implementation rule:** current domain canon beats older proof code/docs. Proof implementations are evidence of architecture, not permission to restore stale mechanics, names, currencies, progression, or UI concepts.
+Production combat UI must support the current ordered **TURN / EXECUTION** timeline.
 
+## Timeline
 
-Production combat UI must support these logical states even if the final layout differs:
+The battle UI must clearly distinguish:
 
-## Round start / turn order
-- beginning-of-round effects and state checks resolve;
-- the normal round's actor order is established from current effective Speed and tie rules;
-- the UI must be able to communicate which combatant is currently acting;
-- an ATB gauge is not required or implied.
+- **TURN** markers — command opportunities;
+- **EXECUTION** markers — queued actions waiting to resolve.
 
-## Player-character turn
-When a player-controlled character's turn arrives:
-- that acting character is highlighted clearly;
-- the normal command list is available;
-- the player selects command, content, and legal target as applicable;
-- only that acting character's decision is being made;
-- once confirmed, that action resolves before the next normal actor's turn.
+When a player TURN is active, time pauses for command selection.
 
-There is no production requirement to queue the whole party before resolution and no universal **Confirm Round** button.
+Before confirmation, the UI should show the selected action's projected EXECUTION position and the acting character's projected next TURN.
 
-## Enemy/entity turn
-When an enemy/entity turn arrives:
-- player command selection is inactive for that normal turn;
-- enemy AI chooses from the legitimate current battle state;
-- its action and resulting reactions/state changes resolve before the next normal turn begins.
+## Player TURN
 
-## In-turn resolution
-- the current actor's selected action package resolves completely;
-- animations, reactions, damage/healing, costs, statuses, and resulting state changes are presented before advancing to the next normal actor;
-- later player characters may therefore make decisions using the state created by earlier turns in the same round.
+When a player-controlled character's TURN arrives:
 
-## Round complete
-After all eligible normal actors have completed or lost their turns:
-- end-of-round processing resolves;
-- status changes remain readable;
-- the next round begins and a new Speed-based order is established.
+- highlight that character clearly;
+- expose the legal command list;
+- allow command/content/target selection;
+- allow voluntary Swap with a conscious reserve;
+- if the selected action is Immediate, resolve it now;
+- otherwise create its future EXECUTION marker;
+- schedule the user's next TURN under the current Return/Speed rules.
 
-## Prime invocation / Prime control
-- Prime invocation occurs as a selected Card/Prime action on the acting character's turn;
-- Recovered and Awakened states behave differently;
-- Awakened Prime suspends the ordinary party and enters direct-control Prime rounds;
-- the established Prime restoration and **3-full-normal-party-round** spacing rule remains owned by `07_CARDS`.
+A character with one of its own actions still pending cannot receive another command TURN before that EXECUTION resolves.
 
-## Victory / defeat / authored nonlethal
+## Enemy TURN / intent
+
+Enemy TURNs use the same timeline language.
+
+Queued enemy actions normally expose readable intent, target/group where not intentionally concealed, Execution category, and current Delay/Interrupt eligibility.
+
+## Interactive marker inspection
+
+Queued EXECUTION inspection should expose at minimum:
+
+- actor;
+- action name/intent where not concealed;
+- target/group where not concealed;
+- Execution category;
+- current Interruptible / Delay-only / Uninterruptible state;
+- whether standard Delay applications remain;
+- visible timing/special conditions.
+
+TURN inspection may expose projected TURN, Quick/Slow, Delay eligibility, and remaining Delay applications.
+
+Inspection costs no TURN/time. Legal Delay/Interrupt targets should be directly selectable when choosing those effects.
+
+## Resolution
+
+An authored action resolves through its complete hit/effect sequence before automatic reactions and before battle outcome is checked. Emergency KO replacement is never inserted into the middle of a multi-hit or mixed-effect sequence.
+
+## Reserves
+
+The visible party supports **4 active + 2 reserve** permanents.
+
+Reserve characters have hidden personal TURN cycles for status/timer processing. Voluntary Swap and KO emergency replacement use different timing rules as defined by the battle master.
+
+## Prime
+
+Prime manifestation uses the stable Prime foundation, but exact Recovered/Awakened manifestation timeline presentation is **parked** until the dedicated Prime sequencing pass. Do not hard-code the former Prime-round UI.
+
+## Battle end
+
 The UI must support:
-- ordinary victory;
-- defeat;
-- authored nonlethal resolution;
-- fresh-form continuation without premature reward payout.
 
-## Reward timing
-Same-bar phase changes:
-- no separate first-clear payout.
-
-Fresh-form boss:
-- combined reward after final form unless separately authored.
-
-Exact reward-panel animation/presentation:
-> OPEN PRODUCTION UX.
+- Victory;
+- Defeat;
+- Mutual KO resolving to Defeat by default;
+- successful Escape;
+- authored nonlethal/story outcomes;
+- multi-form continuation without premature reward payout.
