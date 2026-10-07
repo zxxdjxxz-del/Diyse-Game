@@ -9,7 +9,7 @@
 2. Rebuild player natural-stat growth for the current HP / MP / Strength / Magic / Intelligence / Defense / Spirit / Speed model.
 3. Revalidate mandatory and completionist encounter baselines against the TURN / EXECUTION battle system.
 4. Rebuild Player EXP / CEXP placement and confirm full Base + Subclass completion lands in the **Lv55–60 target window**.
-5. Choose/certify the final Player Level cap during the progression rebuild rather than assuming Lv70.
+5. Choose/certify the final Player Level cap during the progression rebuild rather than assuming a fixed endpoint.
 6. Rebuild/recalibrate economy values in `12_ECONOMY_AND_REWARDS`.
 7. Certify current formula constants, Potencies, MP costs, HP/MP growth, and encounter pacing through representative true-battle simulation/playtesting.
 
@@ -45,4 +45,4 @@ Still open:
 - EXP/CEXP/economy rebalance;
 - enemy action-kit/difficulty tuning.
 
-Current owner-domain rules are the test oracle. Reproducible current failures may reopen affected numeric tuning through normal change control without restoring retired round/Base-Hit/status systems.
+Current owner-domain rules are the test oracle. Reproducible current failures may reopen affected numeric tuning through normal change control without changing the closed structural battle architecture.
