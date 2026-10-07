@@ -3,7 +3,6 @@
 **Status:** ACTIVE ITEMS / EQUIPMENT DOMAIN ROUTER  
 **Authority:** current items/equipment-domain owner plus later explicit approved corrections.  
 
-
 Canonical home for:
 - ordinary equipment;
 - Relics;
@@ -13,11 +12,17 @@ Canonical home for:
 - consumable identities/functions;
 - Legacy precursors and Character Quest Legacy Components;
 - Forge Components;
-- Kessara Relic-copy mechanics;
-- retired-equipment firewalls.
+- Kessara Relic-copy mechanics.
 
-Economy values such as purchase price, sell value, shop stock, and reward-budget economics belong in:
-`12_ECONOMY_AND_REWARDS`.
+Economy values such as purchase price, sell value, shop stock, and reward-budget economics belong in `../12_ECONOMY_AND_REWARDS`.
+
+Global combat behavior belongs in `../05_BATTLE_SYSTEM/BATTLE_SYSTEM_MASTER.md`.
+
+## Battle-redesign boundary
+
+Equipment raises the character's **visible combat stats directly** and may grant explicit passives. There is no hidden Weapon Power layer in the current damage formula.
+
+The exact item catalog remains owned here, but combat-facing magnitudes/effects that depend on the redesigned formulas, statuses, timing, targeting, or stat set must be certified against the battle master before implementation. Consumable-specific exceptional behavior may override the battle master's default Item timing only when explicitly authored.
 
 ## Current active equipment count
 
@@ -41,9 +46,7 @@ Consumables and project/material items are tracked separately and are not counte
 
 > **Ordinary < Relic < Legacy**
 
-A Relic may retain a narrow specialist advantage.
-A Legacy is stronger overall as the late-game capstone layer.
-
+A Relic may retain a narrow specialist advantage. A Legacy is stronger overall as the late-game capstone layer.
 
 Balance reference:
 - `STARTING_LOADOUTS.md` records guaranteed starting/join equipment used to construct mandatory-route player bodies.
