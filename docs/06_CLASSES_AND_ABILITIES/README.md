@@ -3,27 +3,24 @@
 **Status:** ACTIVE CLASS / ABILITY DOMAIN ROUTER  
 **Authority:** current class-domain owner plus later explicit approved corrections.  
 
-Canonical home for:
-- the 12 current playable classes;
-- class learning structure;
-- individual Abilities;
-- class Traits;
-- Base and Subclass Ultimates;
-- Ability MP costs;
-- Core/Subclass Masteries;
-- selected-class stat-package identities;
-- reciprocal donor-class relationships;
-- general class-authored combat-state lifecycle;
-- shared class-authored combat states used by more than one current class.
+Canonical home for the playable class system, native Abilities/passives, class progression, Masteries, donor relationships, and class-authored states.
 
-This folder references global combat math/status rules from `05_BATTLE_SYSTEM`.
-It does not redefine the global damage, Hit/Evasion, Critical, element, or status resolver.
+Global TURN / EXECUTION timing, damage/healing math, targeting, crit, elements, statuses, Delay/Interrupt, and other universal combat rules are owned by `../05_BATTLE_SYSTEM/BATTLE_SYSTEM_MASTER.md`.
 
-Detailed Player EXP/CEXP economy and campaign progression are owned by `10_PROGRESSION_AND_EXP`.
+## Current redesign boundary
 
-This folder owns the **structural class architecture**: CL caps, class learning/unlock levels, selected-class CEXP routing, automatic Mastery unlock levels, class kits, and subclass access after Sixfold Volition. The older exact CEXP threshold curve and recruitment starting-CL/CEXP values are **provisional pre-rebuild references**, not final numeric progression locks.
+The battle redesign locks the native-kit structural targets and required Ability data, but **exact character kit rebuilding and exact Ability/passive CL unlock thresholds are intentionally parked**.
 
-Detailed Relic/Legacy item definitions remain destined for `08_ITEMS_AND_EQUIPMENT`.
+Existing class sheets remain source material for that rebuild; they do not override the redesigned battle architecture where they still contain old Power, Base Hit, round, status, healing-stat, or timing assumptions.
+
+Stable class structure remains:
+
+- one Base Class and one reciprocal Subclass per permanent character;
+- Base/Subclass cap **CL13**;
+- no subclass use before Sixfold Volition at the end of Chapter 7;
+- no Mastery Point currency.
+
+Detailed Player EXP/CEXP economy remains owned by `../10_PROGRESSION_AND_EXP`.
 
 ## Current classes
 
@@ -36,7 +33,7 @@ Detailed Relic/Legacy item definitions remain destined for `08_ITEMS_AND_EQUIPME
 | Vaelira | Green Arcanist | Axiomblade |
 | Seyrik | Ruin Vanguard | Ruin Warden |
 
-## Files
+## Core files
 
 - `CLASS_SYSTEM_MASTER.md`
 - `ABILITY_RULES.md`
