@@ -1,79 +1,42 @@
-# Diyse — Prime Manifestation Scaling
+# Diyse — Prime Scaling
 
-**Status:** ACTIVE PRIME AUTHORITY  
-**Authority:** current Card/Prime-domain owner plus later explicit approved corrections.  
+**Status:** ACTIVE PRIME SCALING AUTHORITY  
+**Authority:** `PRIME_SYSTEM_RULES.md` plus the current battle-stat framework in `../../05_BATTLE_SYSTEM/BATTLE_SYSTEM_MASTER.md`.
 
+## Independent Prime stats
 
-Prime manifestation uses deterministic battle-time scaling.
+Primes use their own stat profiles. They do not inherit the invoking character's stats, equipment, HP percentage, buffs, or harmful statuses.
 
-There is no:
-- Prime Level;
-- Prime EXP;
-- permanent Prime stat growth;
-- invoker-stat inheritance.
+Each Prime's stat distribution is part of that Prime's combat identity.
 
 ## Reference Level
 
-> **Reference Level = highest current level among the four active permanent-party members at Invocation**
+> **Reference Level = highest current level among all currently recruited permanent party members**
 
-Clamp:
-- minimum 1;
-- maximum 70.
+This applies regardless of which four characters are active.
 
-The Prime does not permanently store this level.
+The Reference Level is calculated for the current manifestation and is not stored as permanent Prime progression.
 
-## Neutral manifestation baseline
+Primes do not gain Prime EXP or permanent Prime levels.
 
-At Reference Level `L`:
+## Recovered / Awakened relationship
 
-- HP baseline = **2.25 × Neutral HP(L)**
-- Attack baseline = **4.75 × Neutral ATK(L)**
-- Magic baseline = **4.75 × Neutral MAG(L)**
-- Defense baseline = **1.65 × Neutral DEF(L)**
-- Spirit baseline = **1.65 × Neutral SPR(L)**
-- Speed baseline = **Neutral SPD(L) + 8**
+Recovered and Awakened forms use the same underlying Prime stat identity and Reference Level rule.
 
-## State multipliers
+Recovered changes the manifestation format; it does not use a different character-derived stat source.
 
-| State | HP | ATK/MAG | DEF/SPR | Speed |
-|---|---:|---:|---:|---:|
-| Recovered Story | 0.85 | 0.82 | 0.85 | 0.95 |
-| Awakened Story | 1.00 | 1.00 | 1.00 | 1.00 |
-| Awakened Major Hunt | 1.08 | 1.06 | 1.08 | 1.04 |
+## Numerical boundary
 
-## Identity multipliers
+Exact Prime stat formulas, growth curves, and any state/identity multipliers are not certified under the rebuilt battle-stat system yet.
 
-| Prime | HP | ATK | MAG | DEF | Spirit | SPD |
-|---|---:|---:|---:|---:|---:|---:|
-| Last Sentinel | 1.12 | 1.16 | 0.74 | 1.18 | 0.95 | 0.90 |
-| Last Cartographer | 0.96 | 1.10 | 0.82 | 0.90 | 0.92 | 1.18 |
-| Last Convergence | 0.90 | 0.70 | 1.18 | 0.86 | 1.10 | 1.02 |
-| Last Scribe | 0.95 | 0.78 | 1.08 | 0.94 | 1.12 | 1.08 |
-| Last Sanctuary | 1.05 | 0.72 | 1.05 | 1.05 | 1.20 | 0.92 |
-| Last Erasure | 1.10 | 1.12 | 1.08 | 1.08 | 0.92 | 0.90 |
-| Dawn Shepherd | 1.08 | 1.05 | 1.05 | 1.00 | 1.15 | 1.00 |
-| Oathbound Colossus | 1.18 | 1.20 | 0.65 | 1.22 | 0.90 | 0.82 |
-| Living Revision | 1.05 | 1.00 | 1.00 | 1.03 | 1.03 | 1.05 |
-| Prismatic Leviathan | 1.10 | 0.65 | 1.18 | 1.00 | 1.18 | 0.90 |
-| Parallax Host | 0.98 | 1.02 | 1.02 | 0.90 | 0.90 | 1.18 |
-| Starfall Engine | 1.15 | 1.12 | 1.12 | 1.08 | 0.92 | 0.88 |
+The later Prime stat rebalance must express all final Prime values through current combat stats:
 
-## Implementation order
-1. determine Reference Level;
-2. calculate neutral natural stat at that level;
-3. apply Prime-neutral baseline;
-4. apply state multiplier;
-5. apply identity multiplier;
-6. round final raw stat to nearest whole number.
+- HP
+- Strength
+- Magic
+- Intelligence where a Prime-specific effect explicitly uses it
+- Defense
+- Spirit
+- Speed
 
-Do not round intermediate values.
-
-## No invoker inheritance
-Do not copy:
-- invoker Attack/Magic/Defense/Spirit;
-- equipment;
-- current HP%;
-- current buffs;
-- current harmful statuses.
-
-Prime-specific effects applied after manifestation still modify the Prime normally.
+No Prime scaling formula may depend on retired hidden Power, Base Hit, Evasion, Accuracy, or Status Resistance stats.
