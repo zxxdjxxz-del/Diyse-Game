@@ -1,53 +1,56 @@
-# Diyse — Natural Stat Curve
+# Diyse — Natural Stat Growth Rebuild Boundary
 
-**Status:** **RECOVERED / ACTIVE FOR BALANCE VALIDATION**  
-**Scope:** Player Levels 1–70 before selected-class multipliers and equipment.
+**Status:** OPEN / REBUILD REQUIRED  
+**Authority:** progression domain constrained by `../05_BATTLE_SYSTEM/BATTLE_SYSTEM_MASTER.md`.  
 
-This file restores the neutral natural-stat formula required to reproduce player bodies during encounter validation.
+The previous fixed Lv1–70 natural-stat formula is not current authority under the redesigned battle system.
 
-Let:
-> **x = Player Level − 1**
+## Required combat-stat set
 
-Neutral natural stats:
-- **HP = 220 + 34x + 0.28x²**
-- **MP = 28 + 3.25x + 0.018x²**
-- **Attack = 18 + 2.05x + 0.008x²**
-- **Magic = 18 + 2.05x + 0.008x²**
-- **Defense = 16 + 1.70x + 0.006x²**
-- **Spirit = 16 + 1.70x + 0.006x²**
-- **Speed = 22 + 0.52x**
+Future player natural-stat growth must support:
 
-## Resolution order
-1. Calculate the neutral natural stat for the character's Player Level.
-2. Apply the currently selected class stat multiplier.
-3. Round the resulting selected-class natural stat to a whole number.
-4. Add equipment bonuses afterward.
+- HP
+- MP
+- Strength
+- Magic
+- Intelligence
+- Defense
+- Spirit
+- Speed
 
-For **Max HP / Max MP equipment**, step 4 uses persistent **flat raw additions** only:
-- `Max HP +N` adds N directly to the rounded selected-class Max HP;
-- `Max MP +N` adds N directly to the rounded selected-class Max MP.
+There is no natural Accuracy, Evasion, Critical Chance, Status Potency, or Status Resistance stat.
 
-Current equipment does not multiply Max HP or Max MP by a percentage. Exact equipment authority is `../08_ITEMS_AND_EQUIPMENT/HP_MP_FLAT_BONUS_RULES.md`.
+## Current battle-system constraints
 
-Prime bodies remain separate and do not use this ordinary player-body construction.
+Technical ceilings:
 
-## Chapter 0 anchor
-Chapter 0 is Player-Level static, so Cyanis and Ilyra use the Level-1 neutral body when they are active there:
-- HP 220
-- MP 28
-- Attack 18
-- Magic 18
-- Defense 16
-- Spirit 16
-- Speed 22
+- non-HP combat stats: 999
+- player HP: 9,999
+- player MP: 999
 
-Selected-class multipliers and equipment then produce the actual combat body.
+Practical non-HP targets:
 
-## Balance-validation use
-Mandatory-vs-completionist validation must use this natural-stat curve together with:
-- `../06_CLASSES_AND_ABILITIES/SELECTED_CLASS_STAT_PACKAGES.md`
-- current owning equipment files;
-- current Player-Level route assumptions;
-- current Class-Level / Ability access.
+- early ~20–80
+- mid ~70–180
+- late ~150–350
+- specialized ~350–500+
 
-Use this Lv1–70 curve as the neutral natural-stat source for current balance validation.
+Practical HP targets:
+
+- early 300–700
+- mid 800–1,600
+- late 1,600–3,000
+- high-HP/defensive builds 3,000–4,500
+
+Practical MP targets:
+
+- early 50–110
+- mid 100–200
+- late 180–330
+- high-MP specialists 330–500
+
+## Progression boundary
+
+The final Player Level cap remains open. New natural-stat formulas must therefore be stable across low/mid/high ranges without depending on Lv70 as a structural endpoint.
+
+Exact growth formulas and selected-class stat-package integration must be certified during the planned progression/balance rebuild before they become current implementation authority.
