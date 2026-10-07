@@ -1,90 +1,64 @@
 # Diyse — Ability Rules
 
-**Status:** ACTIVE CLASS / ABILITY AUTHORITY  
-**Authority:** current class-domain owner plus later explicit approved corrections.  
+**Status:** ACTIVE CLASS / ABILITY STRUCTURAL AUTHORITY  
+**Authority:** current class-domain owner plus `../05_BATTLE_SYSTEM/BATTLE_SYSTEM_MASTER.md`.  
 
+## Lived-world identity
 
-## Lived-world magical identity
+Character Abilities are natural forms of magic/technique expressed through the person using them. In-world characters do not experience ordinary trained Ability use as game commands or artifact powers.
 
-> **Character Abilities are natural forms of magic expressed through the person using them.**
+## Universal native-Ability rules
 
-Modern people do not experience ordinary trained Ability use as a mysterious supernatural event or as a separate artifact system. An Ability may combine magical capability, class/professional training, physical technique, weapon practice, instinct, and learned control.
+- **MP** is the ordinary native-Ability resource.
+- There is no separate class-specific combat gauge by default.
+- Native Abilities generally cost less MP than comparable Standard Cards.
+- Global timing, targeting, damage/healing, crit, elements, statuses, Delay/Interrupt, and cancellation rules are owned by the battle master.
+- Native damage normally scales from Strength for physical output or Magic for magical output unless the Ability explicitly defines another current rule.
+- Native scalable healing uses **Spirit**.
+- Equipment does not secretly choose an Ability's source stat or output type.
 
-In character-facing fiction:
-- the existence of magic is ordinary;
-- the use of a normal trained Ability is ordinary;
-- what may be noteworthy is power, rarity, precision, danger, an unfamiliar school/effect, or somebody performing a technique they should not plausibly know;
-- characters should not describe their own Abilities as game commands, menu selections, or external powers being handed to them.
+## Required authored data
 
-This lived-world rule does not change any numerical Ability mechanics below.
+Every native Ability must explicitly define:
 
-## Universal class-Ability rules
+- MP Cost
+- Execution category
+- Return category
+- Targeting
+- Potency or fixed magnitude
+- Physical / Magical / Other type where relevant
+- Element if any
+- crit eligibility
+- queued-action interaction class: Interruptible / Delay-only / Uninterruptible
+- status application chance if any
+- timeline effect such as Delay/Interrupt if any
+- explicit conditions/special rules
 
-- **MP** is the universal ordinary Ability resource.
-- Do not create character-specific combat gauges/resources.
-- Every damaging Ability is explicitly authored as **Physical**, **Magical**, or **Hybrid**.
-- Damage type is authored by the Ability; equipment does not choose it.
-- Learned Abilities remain weapon-independent once learned unless an individual current rule explicitly says otherwise.
-- Element/affinity is separate from damage type.
-- Global damage, penetration, Base Hit/Evasion, application reliability, Critical, elements, and harmful-status rules are owned by `05_BATTLE_SYSTEM`.
+No Ability should rely on hidden timing assumptions.
 
-## Application reliability
+A legal direct-damage Ability hits by default under the current battle system unless an explicit miss/evade mechanic applies. Do not assign legacy Base Hit values as a universal requirement.
 
-When a class effect grants `+N application reliability`, use `../05_BATTLE_SYSTEM/APPLICATION_RELIABILITY.md`.
+Scalable direct-damage Abilities use **Potency**, not the former Power-100 scale. See `../05_BATTLE_SYSTEM/ACTION_POWER_REQUIREMENT.md`.
 
-The bonus is **+N percentage points** to an eligible chance-based application check. It is not Base Hit, does not invent a secondary effect, does not turn an automatic effect into a roll, and does not bypass immunity/protected/scripted legality.
+## Kit architecture
 
-## Ruin
-For **character Abilities** that actually deal Ruin damage:
+Current system targets:
 
-> **Hybrid / Ruin = 75% Attack / 25% Magic**
+- Base class: **6–8 active Abilities**
+- Subclass: **4–6 active Abilities**
+- fully developed native toolkit: roughly **10–14 active Abilities**
+- Base class: **4 passives**
+- Subclass: **3 passives**
+- fully developed total: **7 passives**
 
-unless a later explicit rule changes that specific Ability.
+Starting characters begin with **3 base active Abilities + 1 base passive**.
 
-Ruin is a special affinity/school, not a fifth standard element.
+When subclass access is gained, it immediately grants **2 subclass active Abilities + 1 subclass passive**.
 
-## Healing
-Healing uses **Magic** as its output stat where a healing coefficient is authored.
+Base and subclass Abilities share one top-level **Abilities** command with visible origin tags; no extra Base/Subclass submenu is required.
 
-**Spirit is the defensive magic-resistance stat.**
+## Content rebuild boundary
 
-Do not restore old healing text that scales from Spirit merely because an archived file used that terminology.
+Existing Ability/passive sheets are source material, not constraints under the redesigned battle system. Individual actions/passives may be kept, reworked, renamed, merged, moved between active/passive or base/subclass space, or replaced.
 
-## Prepared/setup effects and class states
-Prepared states and class setup states may exist when explicitly authored, but:
-- they are not universal harmful statuses;
-- they do not create extra ordinary actions by default;
-- they do not recreate removed global gauges.
-
-Default lifecycle, KO behavior, battle-end clearing, target/body replacement, refresh/replacement, and class-state category boundaries are owned by:
-> `CLASS_STATE_LIFECYCLE.md`
-
-Individual class sheets still own the exact trigger, subject, duration, payload, consumption rule, and any explicit lifecycle override for their state.
-
-Prepared/delayed-action flow remains additionally subject to `../05_BATTLE_SYSTEM/TURN_AND_ROUND_RULES.md`. Awakened Prime suspension/pause behavior remains owned by `../07_CARDS/PRIME_CARDS/PRIME_SYSTEM_RULES.md`.
-
-## Removed class-mechanic firewalls
-Do not restore:
-- Card Seals;
-- Imprints;
-- global Break/Stagger meter;
-- Barrier;
-- Brace;
-- global Rune-effect system.
-
-`Rune` may survive in an Ability name such as **Siphon Rune** without creating a Rune subsystem.
-
-
-## Explicit Power requirement
-Every class Ability that deals direct damage must state an exact numeric Power.
-
-Multi-hit actions must state exact per-hit Power or exact total plus split.
-
-Non-damaging class commands use:
-> **Power: N/A — no direct damage**
-
-See `../05_BATTLE_SYSTEM/ACTION_POWER_REQUIREMENT.md`.
-
-
-## Base Hit completion for true-battle resolution
-Unless an owning current Ability explicitly prints another Base Hit, a permanent-character or story-guest direct-damage Ability uses **Base Hit 100** under `../05_BATTLE_SYSTEM/BASE_HIT_AND_EVASION.md`. Explicit action values and modifiers override/add normally.
+Exact character-kit rebuilding and exact CL unlock thresholds are intentionally parked for the dedicated class-content pass.
