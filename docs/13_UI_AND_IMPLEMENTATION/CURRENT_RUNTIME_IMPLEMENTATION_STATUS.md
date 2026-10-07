@@ -288,12 +288,30 @@ Still incomplete:
 
 ## 8. Combat / persistence proof status
 
-Combat proof still demonstrates architecture for rounds, command/target selection, Speed ordering, hostile retargeting, Standard Cards, Prime direct-control and field return.
+The combat proof currently demonstrates only partial engineering architecture for command/target selection, Speed-related ordering concepts, hostile retargeting, Standard Cards, Prime direct-control scaffolding, field return, and persistence integration.
 
-Its normal round-control flow remains proof behavior in places and does not yet match current production battle authority in:
-> `../05_BATTLE_SYSTEM/TURN_AND_ROUND_RULES.md`
+It does **not** yet implement the current production combat authority:
 
-and implementation divergences are tracked in:
+- ordered **TURN / EXECUTION** timeline;
+- Execution and Return categories;
+- current Delay / Interrupt rules;
+- current 4-active / 2-reserve Swap and emergency-replacement behavior;
+- current status system;
+- current Standard Card timing/cost/output rules;
+- Recovered one-action Prime manifestation;
+- Awakened **3-segment Manifestation Meter**;
+- **2 Basic / 2 Medium / 1 Heavy / 1 Dismissal** Prime kit structure;
+- Final Return;
+- suspended-party / continuing-enemy timeline behavior during Awakened manifestation;
+- current Prime targeting transitions, early/abnormal dismissal behavior, or invoker-owned post-Prime lockout.
+
+Production combat authority:
+> `../05_BATTLE_SYSTEM/BATTLE_SYSTEM_MASTER.md`
+
+Production Prime manifestation authority:
+> `../07_CARDS/PRIME_CARDS/PRIME_SYSTEM_RULES.md`
+
+Current implementation divergences:
 > `IMPLEMENTATION_NOTES/CURRENT_CODE_DIVERGENCES.md`
 
 Persistence proof includes:
