@@ -1,51 +1,48 @@
 # Diyse — Standard Card UI
 
-**Status:** ACTIVE UI / IMPLEMENTATION SPEC
-**Authority:** current repository UI/implementation domain; cross-domain gameplay/content rules defer to their current numbered owner domains.
-
-**Implementation rule:** current domain canon beats older proof code/docs. Proof implementations are evidence of architecture, not permission to restore stale mechanics, names, currencies, progression, or UI concepts.
-
+**Status:** ACTIVE UI / IMPLEMENTATION SPEC  
+**Authority:** Card behavior defers to `../07_CARDS/CARD_SYSTEM_MASTER.md` and `../05_BATTLE_SYSTEM/BATTLE_SYSTEM_MASTER.md`.  
 
 ## Standard Card loadout
-Each permanent character:
-> **3 Standard Card slots**
 
-Cards are:
-- reusable;
-- selected actions;
-- MP-consuming;
-- not charge-based.
+Each permanent character has exactly **4 Standard Card slots**.
 
-## No deck UI
-Do not implement:
-- draw pile;
-- hand;
-- discard;
-- shuffle;
-- deck size;
-- duplicate rank;
-- card XP;
-- card fusion.
+Unlocks:
 
-## Current Card display
-A Card screen should be able to communicate:
+- Base CL1
+- Base CL4
+- Base CL8
+- Base CL12
+
+Cards are unique, reusable, selected actions, MP-consuming, and not charge-based.
+
+Every equipped Standard Card must be able to display its equipped stat bonus/passive benefit as well as its active-use effect.
+
+## Card display
+
+The Card UI should be able to communicate:
+
 - name;
 - Face;
+- equipped character/slot;
+- equipped stat bonus/passive;
 - MP cost;
-- target;
-- formula/type where relevant;
-- Power/Base Hit where relevant;
-- effect/status rider;
-- equipped character/slot.
+- Execution category;
+- Return category;
+- target pattern;
+- Potency or fixed magnitude where relevant;
+- physical/magical/other output type where relevant;
+- element where relevant;
+- crit eligibility where relevant;
+- status/timeline rider;
+- Interruptible / Delay-only / Uninterruptible classification where the action queues.
 
-Exact sorting/filter UI:
-> OPEN.
+Do not use legacy Power/Base-Hit fields as universal current requirements.
 
-## Battle Card command
-`Card` is the permanent command.
+## No deck UI
 
-The content selection under that command must be able to distinguish:
-- equipped Standard Cards;
-- legal equipped Primes.
+Do not implement draw pile, hand, discard, shuffle, deck-size, duplicate-rank, Card-XP, fusion, or random Card-generation surfaces.
 
-Do not create a separate universal Summon command merely to present Primes.
+## Prime boundary
+
+Prime slots are separate from the four Standard Card slots. Prime loadout and battle availability use the current Prime UI/spec rather than pretending a Prime consumes a Standard Card slot.
