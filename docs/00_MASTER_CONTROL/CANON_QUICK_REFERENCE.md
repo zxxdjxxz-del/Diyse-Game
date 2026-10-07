@@ -77,7 +77,10 @@ Counts:
 - 12 Primes
 
 Standard Card loadout:
-> **3 per character**
+> **4 per character**
+
+Unlocks:
+> **Base CL1 / CL4 / CL8 / CL12**
 
 Prime slots:
 - from Chapter-4 Prime-loadout access until Sixfold Volition — **1 per character**
@@ -87,12 +90,16 @@ Prime progression:
 > **Recovered → Awakened**
 
 Prime resource/runtime:
-- invocation costs **0 MP**;
-- manifested Prime commands cost **0 MP**;
+- invocation costs **0 MP** and consumes the invoking character's current command opportunity;
+- Recovered Story Prime = one signature action, then immediate demanifestation;
+- Awakened Prime = **3-segment Manifestation Meter**;
+- Basic / Medium / Heavy cost **1 / 2 / 3 segments**;
+- Awakened kit structure = **2 Basic / 2 Medium / 1 Heavy / 1 automatic Dismissal**;
+- Prime commands cost **0 MP** unless explicitly authored otherwise;
 - each Prime identity has one use until valid restoration;
 - spent/Ready state persists across battle end;
 - boss form/state changes do **not** restore spent Primes;
-- after dismissal, **3 full normal party rounds** must complete before another Ready Prime may be invoked.
+- after demanifestation, nobody may invoke a Prime until the invoking character processes **3 personal TURNs**.
 
 ## Equipment
 
@@ -112,7 +119,7 @@ Ilyra:
 ## Progression
 
 Player Level cap:
-> **70**
+> **OPEN — not currently fixed**
 
 Chapter 0:
 > **no Player Levels**
