@@ -45,14 +45,16 @@ Current year:
 
 ## Combat
 
-Permanent commands:
-> **Attack / Ability / Card / Item / Defend**
+Universal commands:
+> **Attack / Abilities / Cards / Item / Defend / Swap**
+
+Prime manifestation is a separate special access path.
 
 Elements:
 > **Fire / Ice / Lightning / Earth**
 
-Universal harmful statuses:
-> **Burn / Freeze / Stun / Staggered / Bleed**
+Core player-facing status vocabulary:
+> **Quick / Slow / Stuck / Asleep / Poison / Wounded / Sealed / Ward / Regen / Doomed / stat Up/Down**
 
 Magic-resistance defensive stat:
 > **Spirit**
