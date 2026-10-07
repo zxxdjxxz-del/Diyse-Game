@@ -1,78 +1,90 @@
 # Diyse — Combat UI
 
-**Status:** ACTIVE UI / IMPLEMENTATION SPEC
-**Authority:** current repository UI/implementation domain; cross-domain gameplay/content rules defer to their current numbered owner domains.
-
-**Implementation rule:** current domain canon beats older proof code/docs. Proof implementations are evidence of architecture, not permission to restore stale mechanics, names, currencies, progression, or UI concepts.
-
+**Status:** ACTIVE UI / IMPLEMENTATION SPEC  
+**Authority:** gameplay behavior defers to `../05_BATTLE_SYSTEM/BATTLE_SYSTEM_MASTER.md`.  
 
 ## Permanent commands
+
 Exactly:
-> **Attack / Ability / Card / Item / Defend**
 
-## Turn-entry command requirement
-Diyse remains round-based, but normal party actions are not selected as a whole-party batch.
+**Attack / Abilities / Cards / Item / Defend / Swap**
 
-During a normal round:
-1. Speed/tie rules establish the normal turn order at round start;
-2. when a player-controlled character's turn arrives, the UI opens that character's legal command selection;
-3. the player chooses the action and target/content for that character using the current battle state;
-4. the action resolves before the next normal combatant's turn begins.
+Prime manifestation is handled through its own special access path and is not assumed to be a universal always-visible command.
 
-There is no universal whole-party action queue and no production **Confirm Round** step.
+## Timeline presentation
 
-The UI must make it clear which character is currently acting and which command/target is being confirmed for that turn.
+Diyse uses an ordered TURN / EXECUTION timeline rather than discrete rounds.
 
-## Order
-Resolution rules live in `05_BATTLE_SYSTEM`:
-- normal turn order is highest current effective Speed to lowest as established at round start;
-- **Item** and **Defend** resolve on the actor's normal turn and have no separate universal priority phase;
-- party wins exact Speed ties against enemies;
-- party-party ties use the established player-selected tie order;
-- enemy-enemy ties use deterministic order;
-- once beginning-of-round setup locks initiative, mid-round Speed changes do **not** reshuffle that round; if still active, they affect the next round's Speed-derived order.
+The UI must make clear:
 
-Do not create:
-- ATB bar;
-- free extra actions from Speed;
-- initiative resource;
-- Break turn bonus.
+- whose TURN is active;
+- visible future TURN markers;
+- visible queued EXECUTION markers;
+- projected EXECUTION and next-TURN position before command confirmation;
+- current Quick/Slow where relevant;
+- Delay/Interrupt eligibility and remaining standard Delay applications where relevant.
+
+If a TURN and EXECUTION share the same exact timeline position, the EXECUTION resolves first under global authority.
 
 ## Party display
-Must support up to:
-> **4 active permanent party members**
 
-Reserve characters are not in the normal battle frame.
+Must support:
 
-Display must be able to communicate:
+- **4 active permanent party members**;
+- **2 reserves**;
 - HP;
 - MP;
-- current harmful statuses;
-- current temporary buffs/debuffs where relevant;
+- current statuses/buffs/debuffs;
 - conscious/KO state;
-- Defend/Guard state where relevant;
-- current acting character clearly enough for turn-entry command selection.
+- Defend/Ward state where relevant;
+- equipped Card/Prime access surfaces as required;
+- clear active-TURN ownership.
+
+Reserve characters are normally off-field for targeting, but remain part of battle continuation and hidden timing.
+
+## Status naming
+
+Current player-facing names include:
+
+- Quick
+- Slow
+- Stuck
+- Asleep
+- Poison
+- Wounded
+- Sealed
+- Ward
+- Regen
+- Doomed
+- Strength / Magic / Intelligence / Defense / Spirit Up or Down
 
 ## Enemy display
+
 Must support:
-- multiple enemies up to current simultaneous cap **8**;
+
+- multiple active enemies up to the current encounter cap;
 - targetability;
-- KO/dead removal state;
-- named boss/form identity;
-- one vs fresh multi-form HP behavior;
-- support targets when authored.
+- KO/dead state;
+- boss/form identity;
+- queued action intent where not intentionally concealed;
+- target/group intent where not intentionally concealed;
+- current Interruptible / Delay-only / Uninterruptible eligibility.
 
 ## Targeting
-Player selects a legal target when the acting character chooses the command.
 
-Because later party characters do not pre-queue targets, an enemy defeated earlier in the round is simply unavailable to those later characters.
+A queued single-enemy action whose original target becomes invalid automatically retargets the next valid enemy in stable encounter order. The UI should not ask for a second target confirmation in that case.
 
-If an already-selected hostile target becomes invalid between selection and final resolution because of an explicit interrupt/reaction or authored multi-step package, runtime uses the current automatic slot-order retarget rule without asking for a second target confirmation.
+Ally-targeting/non-enemy actions do not auto-retarget unless their owning action explicitly says they do.
 
-## No obsolete meters
-Do not display:
-- Barrier bar;
-- Brace;
+## No obsolete meters/surfaces
+
+Do not display or implement as universal systems:
+
+- ATB gauge;
+- whole-party Confirm Round flow;
 - Break/Stagger gauge;
-- natural Accuracy gauge;
-- character-specific resource gauges not currently canon.
+- Accuracy/Evasion meter;
+- Status Resistance meter;
+- hidden weapon-power value;
+- default character-specific resource gauges;
+- former round-based Prime cooldown counter.

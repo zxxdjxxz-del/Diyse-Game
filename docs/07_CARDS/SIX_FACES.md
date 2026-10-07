@@ -1,62 +1,54 @@
 # Diyse — Six Faces
 
 **Status:** ACTIVE CARD-SYSTEM AUTHORITY  
-**Authority:** current Card/Prime-domain owner plus later explicit approved corrections.  
-
+**Authority:** current Card-domain owner plus later explicit approved corrections.  
 
 The current six Faces are exactly:
 
-| Face | Standard Cards | Story Prime | Major-Hunt Prime |
-|---|---:|---|---|
-| Might | 5 | Last Sentinel | Oathbound Colossus |
-| Elements | 5 | Last Convergence | Prismatic Leviathan |
-| Grace | 4 | Last Sanctuary | Dawn Shepherd |
-| **Perception** | 4 | Last Cartographer | Parallax Host |
-| **Memory** | 3 | Last Scribe | Living Revision |
-| Ruin | 3 | Last Erasure | Starfall Engine |
+- **Might**
+- **Elements**
+- **Grace**
+- **Perception**
+- **Memory**
+- **Ruin**
 
-Total:
-- 24 Standard Cards;
-- 12 Primes;
-- 36 Card identities.
+Current collection remains 24 Standard Cards + 12 Primes = 36 Card identities.
 
-## Face identities
+## Combat identity
+
+### Might
+Physical force, impact, aggression, vitality.
+
+### Elements
+Elemental offense and affinity interaction.
+
+### Grace
+Healing, protection, recovery, stability.
 
 ### Perception
-**Perception** governs:
-- Accuracy-oriented effects under the current Base Hit/application-reliability system;
-- Evasion;
-- Critical Hits;
-- Fields.
+Rogue / Assassin / Hunter space:
 
-It represents:
-> **reading the battlefield, positioning, timing, openings, and controlling or exploiting space.**
+- precision;
+- criticals;
+- opportunistic timing;
+- especially **Interrupt** and canceling eligible queued actions.
 
-Perception does **not** create or restore a natural Accuracy stat. Current Base Hit/Evasion authority remains in `../05_BATTLE_SYSTEM/BASE_HIT_AND_EVASION.md`.
+Perception does not create a natural Accuracy/Evasion stat, universal weakness-exploitation system, or defense-piercing subsystem.
 
 ### Memory
-**Memory** governs:
-- recall;
-- repetition;
-- preservation;
-- reuse of prior actions/states.
+Time Mage / Blue Mage / Copy space:
 
-It represents:
-> **what has happened remaining available to influence the present.**
+- Quick;
+- Slow;
+- Delay;
+- Stuck;
+- duration manipulation;
+- delayed/echo effects;
+- controlled recall/copy.
 
-Memory may preserve, reference, transfer, repeat, recall, or reuse an already-established action/state only where an owning Card/Prime effect explicitly says so. The Face identity does not create a universal copy/replay mechanic by itself.
+Memory has the strongest association with manipulating **when actions happen** and **how long effects persist**. It does not create a universal copy/replay mechanic by itself.
 
-## Terminology firewall
+### Ruin
+Destructive, degrading, dangerous, or high-risk effects.
 
-Current Face names:
-> **Might / Elements / Grace / Perception / Memory / Ruin**
-
-Retired Face labels:
-- `Resource`;
-- `Acuity`;
-- `Change`.
-
-`Acuity` is replaced by **Perception**.  
-`Change` is replaced by **Memory**.
-
-These terminology retirements are specific to the Card-Face system. Ordinary English prose may still use the words `acuity`, `change`, `resource`, `perception`, or `memory` where they are not Card-Face labels.
+Exact individual Standard Card mechanics remain for the dedicated Card-content pass. Global timing/status/formula behavior is owned by `../05_BATTLE_SYSTEM/BATTLE_SYSTEM_MASTER.md`.

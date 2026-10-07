@@ -1,73 +1,53 @@
 # Diyse — Standard Card Use Rules
 
-**Status:** ACTIVE STANDARD-CARD AUTHORITY  
-**Authority:** current Card/Prime-domain owner plus later explicit approved corrections.  
+**Status:** ACTIVE STANDARD-CARD STRUCTURAL AUTHORITY  
+**Authority:** current Card-domain owner plus `../../05_BATTLE_SYSTEM/BATTLE_SYSTEM_MASTER.md`.  
 
 ## Equip
-Each permanent character may equip:
-> **3 Standard Cards**
 
-## Use
+Each permanent character may equip exactly **4 Standard Cards**.
+
+Unlocks:
+
+- Base CL1
+- Base CL4
+- Base CL8
+- Base CL12
+
+Each named Standard Card is unique and may be assigned to only one character at a time.
+
+Card assignment happens outside battle and cannot be changed mid-battle.
+
+## Equipped benefits
+
+Every equipped Standard Card grants at least:
+
+- one or more visible stat bonuses;
+- a passive effect;
+- or both.
+
+No Standard Card is active-use only.
+
+Character-bound stat/passive benefits remain attached while the character is in reserve. A passive does not affect the active party from reserve unless it explicitly says it does.
+
+## Battle use
+
 A Standard Card:
-- consumes the user's normal selected action;
-- begins from its authored Base MP cost and pays the resulting cost after any **legal current cost modifiers** are applied;
-- may be reused while equipped and legal;
-- has no charge count;
-- has no battle-start refresh because it has no limited-use state.
 
-Current class-facing examples of legal Standard-Card MP modifiers include:
-- Cardweaver **Living Archive** — Nimera's personal Standard-Card discount;
-- Cardweaver **Ancient Override** — party-wide Field discount;
-- Routeweaver **Throughline** — first qualifying allied action against the routed target each round;
-- Routeweaver **Open the Way** — routed next-round actions.
+- uses the user's normal selected TURN/action;
+- follows the global TURN / EXECUTION timing framework unless explicitly overridden;
+- uses normal MP;
+- is reusable while equipped and legal;
+- has no charges or default per-battle use limit;
+- generally costs more MP than a comparable native Ability;
+- uses **Intelligence** for all scalable numerical output where scaling applies.
 
-Exact modifier percentages, compatibility, ordering, rounding, and minimum-cost rules are owned by `../../06_CLASSES_AND_ABILITIES/MP_COST_RULES.md`.
+The Card itself defines output type, targeting, Potency/fixed magnitude, element, crit eligibility, status chance, queued-action interaction class, timing, and special conditions.
 
-## No deck system
-There is no:
-- deck;
-- hand;
-- draw;
-- discard;
-- shuffle;
-- duplicate-rank progression;
-- random Card generation.
+There is no deck/hand/draw/discard/shuffle system and no duplicate-rank progression.
 
-## No Standard summons
-Standard Cards do not create independent collectible manifestations.
+## Content boundary
 
-Prime Cards own collectible manifestation.
+Exact individual Standard Card effects, MP costs, timing, equipped bonuses/passives, and copy/recall eligibility are intentionally parked for the dedicated Card-content redesign.
 
-A class Ability may still summon something if that Ability is independently authored to do so.
-
-## Cardweaver copy boundary
-Standard Cards may be eligible records for Cardweaver **Living Archive** only under the current Cardweaver copy firewall in `../../06_CLASSES_AND_ABILITIES/BASE_CLASSES/CARDWEAVER.md`.
-
-An action whose effect grants additional actual actions or changes the number of normal actions is not copy-eligible. Therefore **Split Moment** itself remains a legal reusable Standard Card but is **not** eligible for Living Archive, Echo Weave, Perfect Recall, or Grand Reweaving.
-
-## Hit and application
-A direct-damage Card with a status or other hit-attached chance-based rider:
-1. resolves hit/evasion;
-2. resolves damage;
-3. if the hit landed, resolves the rider's application chance separately.
-
-Application reliability uses `../../05_BATTLE_SYSTEM/APPLICATION_RELIABILITY.md`:
-- `+N application reliability` means **+N percentage points** to an eligible chance-based application check;
-- it does not change the Card's Base Hit;
-- it does not invent a rider or bypass immunity/protected/scripted legality;
-- an automatic Card effect remains automatic rather than gaining a new application roll.
-
-Vaelira's personal Green-Arcanist linked-status specialist bonus does **not** automatically apply to Standard Cards.
-
-## Initiative interaction
-Standard Cards do not normally alter current-round action order.
-
-**Decisive Interval** is the current explicit exception only in the narrow form defined by its owner:
-- it never reshuffles the already-fixed current round;
-- an eligible ordinary-enemy delay may resolve only during a later beginning-of-round initiative setup while Decisive Opening is still active;
-- the exact one-slot delay and its precedence relative to Routeweaver routing are owned by `../../05_BATTLE_SYSTEM/TURN_AND_ROUND_RULES.md` and `PERCEPTION.md`;
-- this does not create a pending-action queue, Wait command, action Speed, or extra action.
-
-## Acquisition fiction
-Cards are pre-existing Ancient Diysean artifacts.
-Enemies may guard, expose, release, or provide access to them, but do not create them.
+Existing Card content is source material, not a constraint when that pass begins.

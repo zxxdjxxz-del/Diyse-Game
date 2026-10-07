@@ -1,50 +1,30 @@
-# Diyse — Action Power Requirement
+# Diyse — Action Potency Requirement
 
-## Canon rule
-Every action that deals ordinary direct HP damage must have an explicit numeric **Power** coefficient.
+**Status:** ACTIVE IMPLEMENTATION REQUIREMENT  
+**Authority:** `BATTLE_SYSTEM_MASTER.md` §8
 
-Qualitative phrases such as `light`, `strong`, `heavy`, `very heavy`, or `powerful` may describe role, but never replace the coefficient.
+Every action that deals ordinary scalable direct HP damage must define an explicit numeric **Potency**.
 
-A direct-damage action may not remain numerically open with missing, deferred, or unresolved Power.
+Qualitative labels such as light, strong, heavy, very heavy, or powerful may describe role but never replace the numeric value.
 
 ## Required formats
-- single hit: **Power N**
-- multi-hit: exact per-hit Power, with exact total where useful
-- Hybrid: one authored total Power plus the established weighting, unless separate component Powers are explicitly authored
-- reaction/counter: the triggered direct damage has its own Power
-- summoned/autonomous attack: every direct-damage summon action has Power
-- copied/echoed direct damage: conversion rule must be explicit and bounded
 
-## Non-damaging actions
-Support, healing, revival, information, Field-only, stance-only, and other no-direct-damage commands use:
-> **Power: N/A — no direct damage**
+- single hit: exact Potency
+- multi-hit: exact per-hit Potency, with exact total where useful
+- reaction/counter: triggered scalable direct damage defines its own Potency
+- summoned/autonomous attack: every scalable direct-damage action defines Potency
+- copied/echoed scalable damage: conversion rule must be explicit and bounded
 
-Do not assign fake 0 Power to non-damaging actions.
+Fixed/percentage damage states its fixed/percentage rule instead of fake Potency.
+
+Non-damaging support/healing/revival/information/field/stance actions use Potency only where their owning formula actually scales from Potency.
 
 ## Universal Attack
-> **100 Power / Physical / Neutral**
+
+**Potency 1.00 / Physical / Neutral**
 
 ## Closure gate
-A combat kit cannot be marked numerically CLOSED, PASS, or RECERTIFIED while any direct-damage action lacks Power.
 
-Applies to:
-- Base Classes and Subclasses
-- Standard Cards and Prime commands
-- guest abilities
-- ordinary enemies and support objects
-- Elites
-- mandatory bosses
-- Regional Hunts
-- Major Hunts
+A combat kit cannot be numerically certified while a scalable direct-damage action lacks Potency or another explicit current damage rule.
 
-## Boss recertification gate
-Mandatory-vs-completionist boss testing must certify:
-1. HP / duration
-2. raw offense
-3. every direct-damage action Power
-4. Base Hit where applicable
-5. statuses/riders
-6. action locks/Preparation
-7. form/state behavior
-
-No future boss pass may finish with a damaging move whose Power is unspecified.
+Future boss/encounter certification should validate HP/duration, offense, action Potencies/fixed rules, statuses/riders, timeline interaction, and form/state behavior against the current TURN / EXECUTION system.

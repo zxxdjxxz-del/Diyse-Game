@@ -1,45 +1,15 @@
-# Diyse — Targeting and Automatic Retargeting
+# Diyse — Targeting and Retargeting Route
 
-**Status:** ACTIVE BATTLE-SYSTEM AUTHORITY  
-**Authority:** current battle-system owner plus later explicit approved corrections.  
+**Status:** ROUTING SURFACE  
+**Authority:** `BATTLE_SYSTEM_MASTER.md`
 
+Current targeting authority is owned by `BATTLE_SYSTEM_MASTER.md`:
 
-## Normal turn-entry targeting
+- §14 Targeting and automatic retargeting
+- §4 Party, swapping, reserves, and KO replacement
+- §16 Items
+- §19 Reactions, counters, Reflect, and redirection
 
-During ordinary round flow, a player selects an action and its legal target/content when that character's turn actually arrives.
+Key current rule: a queued single-enemy action whose original target becomes invalid automatically retargets the next valid enemy in stable encounter target order. Non-enemy target categories do not auto-retarget unless explicitly authored.
 
-The selected action then resolves immediately as that character's action package before the next normal combatant's turn begins.
-
-Because ordinary player actions are no longer pre-queued for the whole round, a target defeated earlier in the round is simply unavailable when a later character reaches target selection.
-
-## Automatic hostile retargeting
-
-Automatic retargeting remains a safety rule for the narrower case where a selected hostile action has a legal target when chosen, but that target becomes invalid **between selection and final resolution** because of an explicit interrupt, reaction, or authored multi-step action package.
-
-In that case:
-
-1. retarget to the next living enemy in encounter-slot order after the original target;
-2. if no later slot is living, wrap to the first living enemy;
-3. if no enemies remain living, normal battle resolution proceeds.
-
-Retargeting changes only the target.
-
-It does **not** change:
-- the selected action;
-- its cost;
-- the acting character;
-- the already-established normal turn order.
-
-This applies by default to:
-- Attack;
-- hostile/damaging Abilities;
-- hostile/damaging Standard Card commands;
-- equivalent directly controlled Prime hostile commands;
-
-unless an individual action explicitly overrides the normal rule.
-
-## Multi-target / multi-hit hit checks
-
-Unless an action explicitly defines one shared roll:
-- each authored direct hit resolves its own hit check;
-- each target of a multi-target action resolves its own hit check.
+Do not define a parallel targeting resolver here.

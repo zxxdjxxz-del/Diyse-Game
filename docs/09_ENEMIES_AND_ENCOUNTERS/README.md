@@ -2,9 +2,6 @@
 
 **Status:** ACTIVE ENEMY / ENCOUNTER DOMAIN ROUTER  
 **Authority:** current enemy/encounter owner plus later explicit approved corrections.  
-**Provenance policy:** active authority files state current ownership/status directly. Historical Audit/v## tracker labels belong in Git history and should not be repeated as live authority metadata.  
-**Balance-validation policy:** historical chapter PASS/v## snapshots are not current certification. Current difficulty certification must use `../16_BALANCE_AND_TESTING/BALANCE/ENEMY_BOSS_MANDATORY_COMPLETIONIST_VALIDATION.md` with current enemy, formation, party, and progression inputs.  
-
 
 Canonical home for:
 - chapter enemy rosters;
@@ -16,12 +13,12 @@ Canonical home for:
 - Regional Hunts;
 - Major Hunts;
 - boss form architecture;
-- enemy raw-stat records;
+- enemy stat records;
 - encounter-composition references.
 
-Global battle math remains in `05_BATTLE_SYSTEM`.
-Player/formation EXP and CEXP budgets remain in `10_PROGRESSION_AND_EXP`.
-Quest unlock/reward presentation belongs in `11_QUESTS`.
+Global battle timing, formulas, targeting, statuses, elements, Delay/Interrupt, crit/hit rules, and battle-state resolution are owned by `../05_BATTLE_SYSTEM/BATTLE_SYSTEM_MASTER.md`.
+Player/formation EXP and CEXP budgets remain in `../10_PROGRESSION_AND_EXP`.
+Quest unlock/reward presentation belongs in `../11_QUESTS`.
 
 ## Current difficulty hierarchy
 
@@ -31,20 +28,21 @@ This is a design hierarchy, not a rule that every later encounter must have more
 
 **Optional-combat rule:** Hunts are the default standalone optional enemy category. Quest-owned combat remains governed by its owning quest. A non-Hunt standalone optional encounter requires an explicit current story/encounter owner; Chapter 4's placement-reopened **Annex Duelist** is the current named exception pending that chapter's enemy rework. Stronger normal identities belong to the ordinary enemy pool; there is no separate Elite encounter category.
 
-## Current raw-stat fields
+## Battle-redesign boundary
 
-Enemy raw bodies use:
-- Level
-- HP
-- Attack
-- Magic
-- Defense
-- Spirit
-- Speed
-- Evasion
-- Status Resistance
+Enemy identities, encounter placement, ecology, authored roles, and form architecture remain valid where not otherwise changed.
 
-There is no natural Accuracy stat.
+Exact enemy combat stats, action kits, status riders, action timing, Potencies, and numerical difficulty tuning are **open for the enemy/balance rebuild**. Existing leaf sheets may be used as source material, but they cannot override the current battle-system master where they still carry incompatible combat fields or mechanics.
+
+Current enemy data must not treat the following as universal core stats/mechanics:
+
+- Accuracy;
+- Evasion;
+- Status Resistance;
+- legacy action Power/Base Hit fields;
+- discrete-round timing.
+
+Future enemy stat/action records must resolve through the battle master's HP/offense/Defense/Spirit/Speed, Potency/fixed-effect, status-susceptibility, and TURN / EXECUTION rules as applicable.
 
 ## Current roster organization
 
@@ -55,5 +53,3 @@ Important current reindex:
 - Chapter 11 = **Crown Engine / Calder / Custodian**
 - Chapter 12 = **The Reforged March / Black Host Territory**
 - Chapter 13 = **The Last Command / final domain**
-
-Do not use pre-insertion chapter numbers to relocate those rosters.
