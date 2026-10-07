@@ -69,7 +69,7 @@ Standard Cards:
 
 Exact Standard Card effects, MP costs, timing, Potencies, equipped bonuses/passives, Face distribution of individual mechanics, and Memory copy/recall eligibility are intentionally parked for the dedicated Card-content pass.
 
-## Prime Cards — stable foundation
+## Prime Cards — current battle foundation
 
 Exactly:
 
@@ -82,22 +82,16 @@ Story Prime progression:
 
 Major-Hunt Primes are acquired Awakened. Awakened is final.
 
-Removed as progression systems:
+Prime progression does not use Prime XP, permanent Prime levels, duplicates, material upgrades, or a third progression state.
 
-- Concordant
-- Prime XP/levels
-- duplicate progression
-- Prime upgrade materials
-- third-stage progression
+Prime Invocation costs **0 MP** and consumes the invoking character's current command opportunity. Prime commands cost **0 MP** unless a specific Prime explicitly defines another internal restriction.
 
-Prime invocation costs **0 MP**. Prime commands cost **0 MP** unless a specific Prime explicitly defines an internal exception.
-
-Each Prime identity has **1 use until restored**. Spent/Ready state persists across battles. Battle end/new battle do not restore a spent Prime.
+Each Prime identity has **1 use until restored**. Spent/Ready state persists across battles.
 
 Valid restoration includes:
 
 - full rest;
-- checkpoint-area heal/restoration;
+- checkpoint-area restoration;
 - an explicitly authored Prime-restoring effect;
 - Emergency Kit, which restores every acquired Story and Major-Hunt Prime to Ready without changing progression state.
 
@@ -112,18 +106,43 @@ Same-bar phase changes and genuine fresh-HP enemy bodies/forms do **not** automa
 - any acquired Story Prime may be equipped/invoked by any eligible active permanent through the slot system
 - Major-Hunt Primes are not owner-locked
 
+## Prime manifestation structure
+
+### Recovered
+
+A Recovered Story Prime manifests, performs its single signature action, and demanifests immediately.
+
+Recovered does not use the Awakened Manifestation Meter.
+
+### Awakened
+
+Every Awakened Prime manifestation begins with a **3-segment Manifestation Meter**.
+
+- Basic = 1 segment
+- Medium = 2 segments
+- Heavy = 3 segments
+
+Standard Awakened kit structure:
+
+**2 Basic / 2 Medium / 1 Heavy / 1 automatic Dismissal**
+
+Meter is spent only when the selected command successfully reaches EXECUTION.
+
+When a command empties the meter, the Prime enters **Final Return** and stays manifested until its already-scheduled next TURN. At that TURN its automatic Dismissal ability resolves and the party returns.
+
+The active party is suspended during Awakened manifestation while enemies continue their normal TURN / EXECUTION progression.
+
+Detailed Invocation, meter, Final Return, party suspension, targeting transitions, KO/removal, early dismissal, scaling, restoration, and status/control rules are owned by `PRIME_CARDS/PRIME_SYSTEM_RULES.md`.
+
 ## Post-Prime lockout
 
-After a Prime demanifests, Prime invocation enters a **party-wide lockout measured by the invoking character's next 3 personal TURNs**.
+After any Prime demanifests, Prime Invocation enters a **party-wide lockout measured by the invoking character's next 3 personal TURNs**.
 
 - invoking character is the cooldown owner;
 - nobody may manifest any Prime during the lockout;
 - the owner's hidden reserve TURNs count;
 - queued EXECUTION markers do not count;
-- swapping itself does not add a count;
 - a denied owner TURN counts if the TURN occurred;
 - restoring a spent Prime does not bypass an active lockout.
 
-Exact Recovered/Awakened manifestation TURN sequencing is intentionally parked. Do not use a fixed Prime-round or fixed normal-party-round sequence as current authority.
-
-Current Prime battle foundation is detailed in `PRIME_CARDS/PRIME_SYSTEM_RULES.md` and `../05_BATTLE_SYSTEM/BATTLE_SYSTEM_MASTER.md`.
+Exact individual Prime kits remain the next Prime content/rebalance pass.
