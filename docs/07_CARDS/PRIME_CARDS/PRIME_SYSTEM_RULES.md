@@ -1,182 +1,117 @@
 # Diyse — Prime System Rules
 
-**Status:** ACTIVE PRIME AUTHORITY  
-**Authority:** current Card/Prime-domain owner plus later explicit approved corrections.  
+**Status:** ACTIVE PRIME FOUNDATION; EXACT MANIFESTATION SEQUENCING PARKED  
+**Authority:** current Prime-domain owner plus `../../05_BATTLE_SYSTEM/BATTLE_SYSTEM_MASTER.md`.  
 
+## Identity and progression
 
-## Count
 Exactly **12 Prime Cards**:
-- 6 Story Primes;
-- 6 Major-Hunt Primes.
 
-## Progression
-Story:
-> **Recovered → Awakened**
+- 6 Story Primes
+- 6 Major-Hunt Primes
 
-Major-Hunt:
-> acquired **Awakened**
+Story progression:
 
-Awakened is final.
+**Recovered → Awakened**
 
-Removed:
-- Concordant;
-- Reactive;
-- Prime XP;
-- Prime levels;
-- duplicate progression;
-- upgrade materials;
-- third-state progression.
+Major-Hunt Primes are acquired **Awakened**. Awakened is final.
 
-Legacy/final commands formerly described as Concordant functionality remain part of the final Awakened command architecture.
+Prime progression does not use XP, levels, duplicates, material upgrades, or a third progression state.
 
-## Invocation is a selected action
-Prime Invocation consumes a legal selected combat action.
+## Invocation and MP
 
-It is not:
-- free reaction;
-- passive proc;
-- Item action;
-- Standard Card play.
+Prime manifestation is initiated by an eligible active character from that character's TURN.
 
-## Invocation MP
-Prime Invocation costs:
-> **0 MP**
+- Invocation costs **0 MP**.
+- Prime commands cost **0 MP** unless a specific Prime explicitly defines another internal restriction.
+- Prime manifestation is not a passive proc or ordinary Standard Card play.
 
-Prime commands after manifestation also cost:
-> **0 MP**
+## Use state and restoration
 
-There is no Prime MP stat, invocation MP charge, or per-Prime-round MP drain.
+Each individual Prime identity has **1 use until restored**.
 
-## Prime use and restoration
-Each Prime identity has:
-> **one use until restored by a valid rest or an explicitly authored restoration effect**
+- invoking one Prime spends only that identity;
+- spent/Ready persists across battles;
+- battle end does not restore spent Primes;
+- entering another battle does not restore spent Primes;
+- a valid full rest restores eligible spent Primes;
+- a checkpoint-area heal/restoration is a valid restoration point;
+- an explicitly authored Prime-restoring item/effect may restore eligible spent Primes;
+- same-bar phase/state changes do not restore spent Primes;
+- genuine fresh-HP enemy bodies/forms do not restore spent Primes.
 
-Invoking a Prime spends that specific Prime identity until valid restoration.
+### Emergency Kit
 
-Using one Prime does not spend any other available Prime.
+Emergency Kit restores every **acquired** Story and Major-Hunt Prime to Ready.
 
-Prime spent/Ready state is **persistent across battles**:
-- battle end does **not** clear spent state;
-- a new battle does **not** automatically restore spent Prime identities;
-- valid rest can restore eligible spent Prime identities;
-- explicit authored restoration effects can restore eligible spent Prime identities;
-- same-bar phase/state changes do **not** refresh spent Prime identities;
-- genuine fresh-HP enemy bodies/forms do **not** refresh spent Prime identities;
-- changing enemy bodies/forms does not create a new automatic Prime-use allowance.
+It:
 
-### Emergency Kit restoration
-**Emergency Kit** is an explicitly authored valid Prime-restoration effect.
+- can restore a Prime spent earlier in the same battle;
+- does not grant unacquired Primes;
+- does not change Recovered/Awakened progression;
+- restores spent/Ready state only;
+- does not bypass an active post-Prime party lockout.
 
-When Emergency Kit legally resolves:
-- every **acquired** Story Prime identity is restored to Ready;
-- every **acquired** Major-Hunt Prime identity is restored to Ready;
-- restoration applies whether or not that Prime is currently equipped/assigned;
-- a Prime spent earlier in the same battle may be restored;
-- an unacquired Prime is not granted;
-- Story Prime progression is unchanged: Recovered stays Recovered and Awakened stays Awakened.
+## Party replacement concept
 
-Emergency Kit restoration changes **Prime spent/Ready state only**.
+During manifestation, the Prime temporarily replaces the normal active party.
 
-It does **not** erase or bypass the separate post-dismissal spacing requirement. If the party is still inside the 3-full-normal-round spacing gate after a Prime dismissal, restored Primes are Ready but cannot be invoked until that spacing gate is complete.
+- party HP, MP, and persistent battle state are preserved;
+- exact party hidden-cycle behavior while manifested is part of the parked sequencing pass;
+- exact Recovered and Awakened internal TURN/EXECUTION structure is not yet final.
 
-## Recovered Story Prime
-- manifests in the current ordinary round;
-- performs exactly one strong Recovered signature action;
-- dismisses in that same ordinary round;
-- does not create a persistent three-round body.
+## Demanifestation finisher
 
-## Awakened Prime
-- replaces/suspends the active ordinary party;
-- is directly controlled for exactly **3 Prime rounds**;
-- receives **1 selected Prime command per Prime round**;
-- the ordinary party does not act or become targetable during normal Prime rounds;
-- party Standard Cards/Items do not operate from off-field unless an explicit Prime effect says so.
+Every manifested Prime has a final automatic signature effect when manifestation ends.
 
-### Ordinary Field interaction
-Awakened Prime rounds are not normal party rounds.
+- it does not require another ordinary command selection;
+- each Prime may define unique targeting, element, Potency, and secondary effects;
+- exact placement and Delay/Interrupt interaction remain part of the parked Prime sequencing pass.
 
-Therefore, under the global Field lifecycle in `../../05_BATTLE_SYSTEM/FIELDS.md`:
-- ordinary numbered-round Fields remain recorded while the party is suspended;
-- Prime rounds do not consume normal-round Field duration checkpoints;
-- an ordinary party-authored Field does not automatically treat the manifested Prime body as a normal conscious party member or ally target;
-- a Field affects the Prime only where the Field or Prime effect explicitly says it does.
+## Party-wide post-Prime lockout
 
-### Ordinary temporary-stat interaction
-Awakened Prime rounds also do not consume normal-round temporary Attack/Magic/Defense/Spirit/Speed durations.
+After a Prime demanifests, no party member may invoke any Prime until the **invoking character has processed 3 personal TURNs**.
 
-Therefore, under `../../05_BATTLE_SYSTEM/STAT_CHANGES.md`:
-- ordinary party temporary core-stat modifiers remain recorded while the party is suspended;
-- Prime rounds do not consume those normal-round duration checkpoints;
-- suspended-party stat modifiers do not automatically modify the manifested Prime body;
-- ordinary enemy-side temporary core-stat modifiers that are measured in normal rounds likewise do **not** consume normal-round duration checkpoints merely because Prime rounds pass;
-- when ordinary normal-round flow returns, those modifiers resume with the same remaining normal-round duration they had when suspension began.
+- the invoking character is the cooldown owner;
+- each owner TURN reduces the lockout by 1;
+- the owner's hidden reserve TURNs count;
+- queued EXECUTION markers do not count;
+- swapping itself does not create a count;
+- a denied/skipped owner TURN counts if that TURN occurred;
+- after the third owner TURN is processed, the party-wide lockout ends;
+- restoring a spent Prime does not shorten or bypass this lockout.
 
-Prime-local temporary core-stat modifiers use their authored Prime-round/action window and disappear on dismissal unless a command explicitly creates a separate return-to-party effect.
+This replaces the former three-full-normal-round spacing model.
 
-For migrated/current Prime wording, a Prime-local core-stat modifier described only as lasting through an `authored window`, `next window`, or `next-Prime-round window` means:
-> **active immediately through the end of the next Prime round, or until dismissal if dismissal occurs first**
+## Parked manifestation sequencing
 
-Return-to-party stat effects begin when the ordinary party returns and use normal-round timing under `../../05_BATTLE_SYSTEM/STAT_CHANGES.md`.
+The following are intentionally unresolved until the dedicated Prime sequencing pass:
 
-### Ordinary tactical-state interaction
-An authored class/Ability state that explicitly measures its lifetime in **normal rounds** also pauses its duration clock during Awakened Prime rounds unless its owner explicitly says otherwise.
+- exact Recovered battle sequence;
+- exact Awakened battle sequence;
+- whether Awakened still uses exactly 3 Prime TURNs;
+- normal party hidden-cycle behavior during manifestation;
+- exact finisher placement;
+- Delay/Interrupt interaction with Prime commands and finisher.
 
-Current examples include:
-- War Archer / Proofhunter **Hunter's Measure**;
-- Routeweaver **Throughline** and **Crossroads**;
-- Cardweaver **Perfect Recall**;
-- Route Weaving Rank I's stored `before the end of the following round` benefit.
-
-These states remain recorded/attached while their normal-round clocks are paused, but Prime manifestation does **not** broaden their subjects or triggers:
-- a bonus written for ordinary party members does not automatically apply to the Prime body;
-- a trigger requiring an allied Ability or Standard Card is not satisfied by a Prime command;
-- a Prime command does not become a copied/recorded ordinary Ability or Standard Card;
-- a state may still end if its own structural condition ends, such as its target being defeated/replaced or a required link ceasing to exist.
-
-A pending effect written for the **next normal round's initiative setup** waits through intervening Prime rounds and attempts to resolve at the first normal-round initiative setup after dismissal. Routeweaver **Covered Crossing** and **Open the Way** use this rule and still perform their normal Torren-eligibility check at that setup.
-
-Turn-window states tied to an ordinary party member's own turn do not advance merely because Prime rounds pass, because the suspended party member receives no ordinary turn during those Prime rounds. Cardweaver **Living Archive** therefore does not clear merely because a Prime round completes; it clears when Nimera actually completes her next ordinary turn under its owner rule.
-
-Harmful-status clocks remain owned separately by `../../05_BATTLE_SYSTEM/STATUS_EFFECTS.md`; this tactical-state rule does not silently rewrite status timing.
-
-## Post-dismissal Prime spacing
-After any Prime manifestation ends, the party must complete:
-> **3 full normal party rounds**
-
-before another available Prime may be invoked later in that battle.
-
-The spacing gate does not restore the Prime that was just spent. It only controls when a different still-available Prime may be invoked.
-
-An explicit restoration effect such as Emergency Kit may restore spent Prime identities during this spacing window, but it does not shorten or cancel the spacing window itself.
+Do not implement a placeholder three-Prime-round or three-normal-party-round sequence as current authority.
 
 ## Boss-form interaction
-Prime identity availability is **persistent across battles** until valid restoration; it is not enemy-body-scoped.
 
-A genuine fresh-HP boss form:
-- does **not** refresh spent Prime identities;
-- does **not** create a new Prime-use allowance;
-- does **not** cancel or shorten an active post-dismissal spacing gate.
+Prime availability is not enemy-body-scoped.
 
-Same-bar phase/state changes also do **not** refresh spent Primes.
+A same-bar state change or genuine fresh-HP form:
 
-Global fresh-form authority is in:
-`../../05_BATTLE_SYSTEM/BOSS_FORM_RULES.md`.
-
+- does not refresh spent Prime identities;
+- does not create a new Prime-use allowance;
+- does not cancel or shorten an active post-Prime lockout.
 
 ## Final Severance story-resolution exception
 
-The mandatory Chapter-13 Final Severance sequence occurs:
-> **after The Last Command's combat body reaches 0 HP**
+The mandatory Chapter-13 Final Severance sequence occurs **after The Last Command's combat body reaches 0 HP**.
 
-It is:
-- a story-resolution manifestation sequence;
-- not another selected combat Prime Invocation;
-- not a third boss combat phase.
+It is a story-resolution manifestation sequence rather than another selected combat Prime Invocation or another boss combat phase. Combat spent/availability flags and the normal post-Prime lockout therefore do not block the six required Story Prime manifestations in that story-resolution sequence.
 
-Therefore:
-> combat spent/availability flags and the three-round Prime-spacing gate do not block the six required Story Prime manifestations in Final Severance.
+Final Severance order remains:
 
-Combat Prime rules remain unchanged during the actual fight.
-
-Final Severance order:
-> HOLD → DISTINGUISH → MAP → PRESERVE → CONTAIN → END
+**HOLD → DISTINGUISH → MAP → PRESERVE → CONTAIN → END**
