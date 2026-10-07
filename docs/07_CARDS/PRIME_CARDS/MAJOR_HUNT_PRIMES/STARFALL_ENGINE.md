@@ -1,28 +1,34 @@
 # Diyse — Prime: Starfall Engine
 
-**Status:** ACTIVE PRIME AUTHORITY  
-**Authority:** current Card/Prime-domain owner plus later explicit approved corrections.  
-
+**Status:** ACTIVE PRIME IDENTITY AUTHORITY — EXACT KIT REBUILD PENDING  
+**Authority:** current Card/Prime-domain owner plus `../PRIME_SYSTEM_RULES.md`.
 
 **Face:** Ruin  
 **Source:** Major Hunt #6 — The Unfinished World  
 **Acquisition state:** Awakened
 
-## Command package
-| Command | Target | Formula | Power | Base Hit | Effect |
-|---|---|---|---:|---:|---|
-| **Ruin Salvo** | one enemy | Magical / Ruin | 3 × 100 | — | 30% Spirit penetration; no harmful status. |
-| **Craterfall** | all enemies | Physical / Ruin | 215 each | — | 25% Defense penetration; 30% Staggered. |
-| **Collapse Vector** | one enemy | Hybrid / Ruin | 325 | — | 35% relevant-axis penetration; Defense −15% and Spirit −15% for 2 rounds; no canonical harmful status. |
-| **Legacy/final — Final Starfall** | Prime Round 3 only; all enemies | 4 mixed Physical/Magical Ruin impacts | 4 × 90 | — | 30% relevant-axis penetration; if target already Staggered at resolution start, +15% final damage; does not apply/consume/refresh Staggered. |
+## Manifestation structure
 
-Starfall Engine has no standalone passive, no healing command, and no Bleed identity.
+Starfall Engine uses the universal Awakened structure:
+
+**2 Basic / 2 Medium / 1 Heavy / 1 Dismissal**
+
+## Kit identity anchors
+
+The later exact kit rebuild should preserve Starfall Engine's established identity around:
+
+- destructive Ruin multi-hit pressure;
+- physical/magical hybrid expression;
+- Defense / Spirit degradation where appropriate;
+- large-scale destructive commitment;
+- a distinct catastrophic Dismissal effect rather than a support-oriented identity.
+
+Starfall Engine is not required to gain healing utility.
+
+Exact Potency, Execution, Return, degradation values, condition checks, and Dismissal package remain open for the dedicated Prime-kit pass.
 
 ## Global Prime references
+
 - `../PRIME_SYSTEM_RULES.md`
 - `../PRIME_SCALING.md`
 - `../PRIME_STATUS_CONTROL.md`
-
-## Ruin formula scope
-If this Prime contains Ruin damage, use the command's explicitly authored Prime formula.
-Do **not** force the character-Ability 75/25 Ruin rule onto a Prime command.
