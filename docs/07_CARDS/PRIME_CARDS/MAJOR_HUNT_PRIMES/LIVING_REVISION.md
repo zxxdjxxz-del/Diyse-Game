@@ -1,31 +1,33 @@
 # Diyse — Prime: Living Revision
 
-**Status:** ACTIVE PRIME AUTHORITY  
-**Authority:** current Card/Prime-domain owner plus later explicit approved corrections.  
+**Status:** ACTIVE PRIME IDENTITY AUTHORITY — EXACT KIT REBUILD PENDING  
+**Authority:** current Card/Prime-domain owner plus `../PRIME_SYSTEM_RULES.md`.
 
 **Face:** Memory  
 **Source:** Major Hunt #3 — Concordance Guardian  
 **Acquisition state:** Awakened
 
-## Command package
-| Command | Target | Formula | Power | Base Hit | Effect |
-|---|---|---|---:|---:|---|
-| **Assault Form** | one enemy | Physical / Neutral | 240 | — | No harmful status. Defensive profile until next action: **Defense +15% / Spirit −10%**. |
-| **Arcane Form** | all enemies | Magical / Colorless | 190 each | — | No harmful status. Defensive profile until next action: **Defense −10% / Spirit +20%**. |
-| **Continuance Form** | one enemy | Physical / Neutral | 220 | 110 | No harmful status and no healing. Defensive profile until next action: **Defense +10% / Spirit +10%**. |
-| **Mirror Revision** | copied legal target | Copied legal formula/typing | 70% of copied action's original Power | copied/legal | Copy last legal ordinary enemy damaging action using Living Revision's own stats/targeting. May retain eligible ordinary Burn/Freeze/Stun/Staggered/Bleed rider. Cannot copy protected boss actions, Prime actions, Items, summons, transformations, scripts, or protected states. |
-| **Legacy/final — Perfect Revision** | final/late command; mode-selected | Assault / Arcane / Continuance modes | 470 ST Physical OR 310 AoE Magical OR 285 AoE Physical | Continuance 110 | Continuance mode has no harmful status; after dismissal, conscious party gains Attack/Magic/Defense/Spirit +15% and Speed +10% for 2 full normal rounds. Living Revision has no healing branch. |
+## Manifestation structure
 
-Living Revision's Memory identity is expressed most directly by **Mirror Revision**: an already completed eligible enemy action remains available to influence the present through explicit reuse. The Face itself does not grant a universal copy mechanic.
+Living Revision uses the universal Awakened structure:
 
-Living Revision has **no standalone passive** and **no healing command**.
+**2 Basic / 2 Medium / 1 Heavy / 1 Dismissal**
+
+## Kit identity anchors
+
+The later exact kit rebuild should preserve Living Revision's established identity around:
+
+- switching between distinct Assault / Arcane / Continuance-style combat expressions;
+- changing its own offensive/defensive profile through selected actions;
+- a mode-sensitive Heavy or Dismissal decision;
+- adaptation through revised form rather than healing-centric play.
+
+Living Revision is not required to gain a healing command.
+
+Exact mode values, Potency, Execution, Return, defensive tradeoffs, and Dismissal package remain open for the dedicated Prime-kit pass.
 
 ## Global Prime references
+
 - `../PRIME_SYSTEM_RULES.md`
 - `../PRIME_SCALING.md`
 - `../PRIME_STATUS_CONTROL.md`
-- `../../../05_BATTLE_SYSTEM/PRIME_ROUND_SEQUENCING.md`
-
-## Ruin formula scope
-If this Prime contains Ruin damage, use the command's explicitly authored Prime formula.
-Do **not** force the character-Ability 75/25 Ruin rule onto a Prime command.
