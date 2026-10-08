@@ -9,7 +9,7 @@
 
 War Archer is Torren's physical precision, battlefield-reading, hunting, and route-control identity.
 
-Perception expression should emphasize timing, openings, critical pressure, information, and eligible Interrupt interaction without creating universal hit/evasion stats.
+Perception expression should emphasize timing, openings, critical pressure, information, and eligible Interrupt interaction within the current combat-stat model.
 
 ## Rebuild boundary
 
