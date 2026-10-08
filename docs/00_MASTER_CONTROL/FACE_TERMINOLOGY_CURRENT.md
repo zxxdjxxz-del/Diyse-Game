@@ -4,19 +4,22 @@
 **Owning detailed authority:** `../07_CARDS/SIX_FACES.md`
 
 The current Six Faces are exactly:
+
 > **Might / Elements / Grace / Perception / Memory / Ruin**
 
-Perception represents **Accuracy-oriented effects under the existing Base Hit system, Evasion, Critical Hits, and Fields**: reading the battlefield, positioning, timing, openings, and controlling or exploiting space.
+## Current combat identities
 
-Memory represents **recall, repetition, preservation, and reuse of prior actions/states**: what has happened remaining available to influence the present.
+- **Might** — physical force, impact, aggression, vitality.
+- **Elements** — elemental offense and affinity interaction.
+- **Grace** — healing, protection, recovery, stability.
+- **Perception** — precision, criticals, opportunistic timing, battlefield reading, and especially Interrupt against eligible queued actions.
+- **Memory** — Quick, Slow, Delay, Stuck, duration manipulation, delayed/echo effects, and controlled recall/copy.
+- **Ruin** — destructive, degrading, dangerous, or high-risk effects.
 
-This terminology does not:
-- create a natural Accuracy stat;
-- rename ordinary English words merely because they overlap a Face name;
-- change the counts of Standard Cards or Primes;
-- change Story Prime bearer identity.
+These Face identities do not create additional universal combat stats or a universal weakness/break subsystem.
 
-Current Story bearer mapping:
+## Story bearer mapping
+
 - Might — Cyanis / Last Sentinel
 - Perception — Torren / Last Cartographer
 - Elements — Vaelira / Last Convergence
@@ -24,4 +27,4 @@ Current Story bearer mapping:
 - Ruin — Seyrik / Last Erasure
 - Grace — Ilyra / Last Sanctuary
 
-Any current-facing file must use this Face set and the `07_CARDS` owner.
+Any current-facing file must use this Face set and defer detailed Card/Prime behavior to `07_CARDS`.
