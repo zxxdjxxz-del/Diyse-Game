@@ -23,7 +23,6 @@ Placement rules:
 - Needlewing is limited to chambers with enough overhead space for its aerial presentation;
 - Scaldback is **not** a Regional Hunt and does not appear in the earliest municipal works.
 
-Retired from current Chapter-2 placement:
 - Redwater Initiate.
 
 ## Sunken Archive
@@ -40,7 +39,6 @@ Current Archive rule:
 
 The Archive deliberately remains light on Ancient-machine enemies so Chapter 3 owns the stronger construct escalation.
 
-Retired from current Chapter-2 placement:
 - Memory Scribe
 - Watch Sentry
 - Archive Duplicant
@@ -106,39 +104,8 @@ Owning composition authority:
 
 ---
 
-# Status / numerical boundary
-Chapter 2 introduces:
-> **Burn**
+## Combat-kit rebuild boundary
 
-Bleed remains active.
-Do not introduce Stun or Freeze here.
+Chapter placement, roster identity, encounter role, formation routing, and story outcome remain current where stated above.
 
-Existing enemy raw bodies and Power values remain usable only where their current identity is still active, but final Chapter-2 difficulty certification is reopened because the encounter structure and party-size assumptions changed.
-
-Final:
-- raw-body retuning for renamed/reused carryovers;
-- formation selection weights;
-- encounter rate;
-- mandatory-vs-completionist difficulty;
-- Rhazek support decision;
-
-remain open for the later validation pass.
-
----
-
-# Retired Chapter-2 roster material
-Do not restore without explicit revision:
-- Redwater Initiate
-- Memory Scribe
-- Vault Sentinel
-- Watch Sentry
-- Archive Duplicant
-- Drowned Archive Maw
-- Bastion Shield Guard
-- Bastion Crossbow Guard
-- Transfer Adept
-- Beast Handler
-- Hold the Junction
-- Regional Hunt #2 — Scaldback
-- Scriptshade — belongs to Chapter 3
-
+Exact enemy levels, HP/stats, actions, Potencies, statuses, susceptibility, Execution/Return, AI weights, thresholds, and other combat tuning are open for the dedicated enemy-kit redesign.
