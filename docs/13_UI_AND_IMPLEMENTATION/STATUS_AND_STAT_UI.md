@@ -1,60 +1,43 @@
-# Diyse — Status & Stat UI
+# Diyse — Status and Stat UI
 
-**Status:** ACTIVE UI / IMPLEMENTATION SPEC
-**Authority:** current repository UI/implementation domain; cross-domain gameplay/content rules defer to their current numbered owner domains.
+**Status:** ACTIVE UI SPEC  
+**Gameplay authority:** `../05_BATTLE_SYSTEM/BATTLE_SYSTEM_MASTER.md`.
 
-**Implementation rule:** current domain canon beats older proof code/docs. Proof implementations are evidence of architecture, not permission to restore stale mechanics, names, currencies, progression, or UI concepts.
+## Core stats
 
+The UI may display the current core combat stats where appropriate:
 
-## Current core combat-stat labels
-Use:
 - HP
 - MP
-- Attack
+- Strength
 - Magic
+- Intelligence
 - Defense
 - Spirit
 - Speed
-- Evasion
-- Status Resistance
 
-## No natural Accuracy
-Do not put `Accuracy` on the ordinary character stat sheet as a natural stat.
+There are no additional universal hit, evade, luck, crit-chance, or status-resistance character stats.
 
-Actions may show:
-> **Base Hit**
+## Current battle states/statuses
 
-when that information is useful.
+Player-facing status/buff/debuff names:
 
-## Status Resistance
-Raw general bands:
-- 0 — Normal
-- 5 — Resistant
-- 10 — Highly Resistant
-- 15 — Exceptional
+- Quick
+- Slow
+- Stuck
+- Asleep
+- Poison
+- Wounded
+- Sealed
+- Ward
+- Regen
+- Doomed
+- Strength / Magic / Intelligence / Defense / Spirit Up or Down
 
-Exact UI representation may be numeric, descriptive, or both.
-It must not imply these values are percentages.
+Status displays should expose duration/countdown information when the player is entitled to know it.
 
-## Harmful statuses
-Universal current harmful statuses:
-- Burn
-- Freeze
-- Stun
-- Staggered
-- Bleed
+Quick/Slow should communicate TURN-spacing impact. Stuck should communicate its queued-EXECUTION risk. Doomed requires a visible countdown.
 
-Do not restore generic:
-- Poison;
-- Slow;
-- Silence;
-- Blind;
-- old Break state
+Stat Up/Down should identify the affected stat and remaining affected TURNs.
 
-unless a later specific authority explicitly reintroduces one.
-
-## Guard / Defend
-Guard remains valid as a deliberate defensive state where current rules support it.
-`Defend` is the player's permanent command label.
-
-Do not display `Brace`.
+Prime-local states belong to the Prime HUD and disappear when that Prime demanifests unless an explicit ability modifies the suspended party instead.
