@@ -194,7 +194,7 @@ Core stats:
 - **Spirit** — magical mitigation and native healing potency
 - **Speed** — TURN spacing
 
-There are no core Accuracy, Evasion, Critical Chance, Luck, Status Potency, or Status Resistance stats.
+The universal core combat-stat set is exactly HP, MP, Strength, Magic, Intelligence, Defense, Spirit, and Speed.
 
 Source stat and output/mitigation type are separate concepts. A physical-type Card may scale from Intelligence and still resolve against Defense.
 
