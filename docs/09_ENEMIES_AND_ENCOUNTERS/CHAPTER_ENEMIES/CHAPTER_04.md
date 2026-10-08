@@ -1,7 +1,5 @@
 # Diyse — Chapter 04 Enemies — REWORK BOUNDARY
 **Current authority:** this chapter file owns the current chapter enemy roster and broad placement except where a narrower current enemy, formation, authored-encounter, boss, or story owner explicitly controls a subsection.  
-**Authority rule:** current repository names, current chapter/story placement, and current system firewalls supersede conflicting historical material; Git history is provenance only.
-
 
 ## Ordinary / repeatable — REWORK PENDING
 The inherited identities below are **candidate/source material only**, not a finalized Chapter-4 ordinary roster:
@@ -26,8 +24,6 @@ Chapter 4's ordinary enemies still require a dedicated roster/role/placement rew
 ## Annex Duelist — PLACEMENT REOPENED
 Annex Duelist's combat identity may be retained as source material, but its **placement is not currently locked**.
 
-The current Chapter-4 story authority explicitly allows Annex Duelist to remain optional combat. The older normal-pool conversion is therefore superseded pending the Chapter-4 enemy rework.
-
 ## Mandatory named / boss
 - Regulation Crucible — fresh Form I
 - The Seventh Reaction — fresh Form II
@@ -37,11 +33,8 @@ The current Chapter-4 story authority explicitly allows Annex Duelist to remain 
 
 ## Current notes
 - Current elements exactly Fire / Ice / Lightning / Earth.
-- `Elemental Hexarch` is retired; use Reaction Conduit.
 - Do not restore six-state Annex Duelist wording; current Duelist uses four standard elemental states.
 - Regulation Crucible Form I has four chambers, exactly two active/targetable at once.
-- Chapter-4 broad ordinary/strong-normal/protected Power pass is **reopened** because the enemy roster/formations still require rework.
-- Freeze is introduced in Chapter 4.
 
 Current individual enemy owners:
 `../ORDINARY_ENEMIES/` — use the files matching the active roster identities listed above.
@@ -63,36 +56,11 @@ One bar:
 > Fire → Ice → Lightning → Earth
 
 State thresholds:
-> 75% / 50% / 25%
 
 No refill, free action, or Prime refresh at state change.
 
-## Numerical boundary
-Current ordinary-enemy raw bodies/actions are **historical/provisional rework inputs**, not final Chapter-4 balance authority.
+## Combat-kit rebuild boundary
 
-Annex Duelist's inherited body remains available as a rework input, but its placement is open.
+Chapter placement, roster identity, encounter role, formation routing, and story outcome remain current where stated above.
 
-Mandatory story-required encounters remain separately owned:
-- Elder Thornhide;
-- Reaction Conduit;
-- Regulation Crucible → The Seventh Reaction.
-
-Regional Hunt #4 remains separately owned and is not reopened merely by the ordinary-enemy rework.
-
-## Current validation status
-Historical Chapter-4 validation snapshots are **not current certification**. The current story redesign and ordinary-enemy rework reopened chapter-wide difficulty validation.
-
-Do not treat historical validation as locking:
-- the ordinary roster;
-- ordinary raw bodies/actions;
-- Annex Duelist placement;
-- any inherited fixed encounter-count model;
-- final Chapter-4 difficulty.
-
-Story-required encounter identities and Crown Prototype retain their separate owners, but Chapter-wide certification must be rerun under the current validation framework after the enemy rework.
-
-Formation authority:
-`../ENCOUNTER_FORMATIONS/CHAPTER_04_FORMATIONS.md`
-
-Current validation framework:
-`../../16_BALANCE_AND_TESTING/BALANCE/ENEMY_BOSS_MANDATORY_COMPLETIONIST_VALIDATION.md`
+Exact enemy levels, HP/stats, actions, Potencies, statuses, susceptibility, Execution/Return, AI weights, thresholds, and other combat tuning are open for the dedicated enemy-kit redesign.
