@@ -1,11 +1,11 @@
 # Diyse — Selected-Class Stat Identity Boundary
 
 **Status:** REBUILD BOUNDARY  
-**Authority:** `CLASS_SYSTEM_MASTER.md` plus the current combat-stat framework.
+**Authority:** `CLASS_SYSTEM_MASTER.md` plus current progression/stat authority.
 
-Selected classes may modify a character's stat profile, but the previous multiplier tables are not current authority under the rebuilt combat-stat model.
+A selected class may shape the character's combat stat profile, but no exact class multiplier table is currently locked.
 
-Any future selected-class stat package must use only current core stats where applicable:
+Any rebuilt selected-class stat package must use the current core stat model:
 
 - HP
 - MP
@@ -16,6 +16,4 @@ Any future selected-class stat package must use only current core stats where ap
 - Spirit
 - Speed
 
-Exact class multipliers and progression interaction are open for the class/stat rebuild.
-
-Class role identity should guide the later values without preserving earlier numeric tables.
+Exact multipliers and level-growth interaction remain open for the class/stat rebuild.
