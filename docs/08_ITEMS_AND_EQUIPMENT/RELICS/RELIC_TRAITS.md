@@ -1,118 +1,44 @@
-# Diyse — Current Relic Trait Rules
+# Diyse — Relic Trait Identities
 
-**Status:** ACTIVE RELIC AUTHORITY  
-**Authority:** current items/equipment-domain owner plus later explicit approved corrections.  
+**Status:** ACTIVE TRAIT-NAME AUTHORITY — TRAIT EFFECTS REBUILD PENDING
 
+Current Relic Trait names:
 
-This file applies the later current-system cleanup to remove Barrier/Brace dependencies where they were superseded.
+- **Opening Measure**
+- **Crest Conduction**
+- **Formation Cut**
+- **Measured Correction**
+- **Vow in Motion**
+- **Break the Posture**
+- **Answer the Blow**
+- **Heavy Step**
+- **Warded Impact**
+- **Carry the Hit**
+- **Warden's Quiet**
+- **Answer Quickly**
+- **Clean Shot**
+- **Split the Field**
+- **Known Line**
+- **Good Footing**
+- **Correct the Miss**
+- **Read the Commitment**
+- **Twin Pattern**
+- **Written in Air**
+- **Open Pattern**
+- **Rewrite Position**
+- **Hold the Pattern**
+- **Chosen Element**
+- **Refracted Sequence**
+- **Hot Channel**
+- **Held Charge**
+- **Follow the Damage**
+- **Reaping Arc**
+- **Refuse the Fall**
+- **Keep Going**
+- **Hold the Impact**
+- **Nothing Through**
+- **Find the Opening**
+- **Return Strength**
+- **Exact Moment**
 
-### Opening Measure
-Before target's first action this round: +10 Base Hit, +6pp Critical Chance; if single-target, +6% final damage.
-
-### Crest Conduction
-Eligible attacks with authored hybrid/off-axis scaling gain the established lower-offense contribution support. Pure-axis actions do not invent a new Hybrid formula.
-
-### Formation Cut
-Against 2+ enemies: +8% final damage and +5pp applicable Defense penetration; at 4+ enemies penetration becomes +8pp. Existing Staggered rider gains +5pp at 2+ / +8pp at 4+.
-
-### Answer the Blow
-After direct Physical damage: +10% Defense and 5% less direct Physical damage through next round; if hit was at least 15% Max HP, Defense bonus becomes +12%. Max once/round.
-
-### Heavy Step
-Above 50% HP: **Speed +8%** and +8 Base Hit. A mid-round HP change does not reshuffle initiative already fixed for the current round. After Defend/Guard, retain the **Speed +8%** benefit through the end of the following round even if HP later falls to 50% or lower.
-
-### Warded Impact
-After Magical damage of at least 12% Max HP: +10% Spirit and +15 Status Resistance through remainder of current round and next round. Max once/round.
-
-### Measured Correction
-Eligible Wardrod harmful-status/control/negative-stat/utility actions gain +12 application reliability. If the effect lands, next eligible Wardrod attack against that target through next round gains +5% final damage.
-
-### Vow in Motion
-After a real heal or eligible harmful-status removal on another ally, store one setup. Next Wardrod attack through next round gains +8% final damage and +10 Base Hit. One stored maximum.
-
-### Break the Posture
-Against a Guarding enemy: +8% final damage and +15pp applicable Defense/Spirit penetration. If action already has Staggered, +5pp Staggered. Name does not create a Break meter.
-
-### Carry the Hit
-At 50% HP or lower: 10% less direct Physical damage. After Physical hit worth at least 15% Max HP: +10% Defense through next round. Max once/round.
-
-### Warden's Quiet
-+15 Status Resistance; 12% resistance to eligible ordinary negative-stat application. After successfully resisting a harmful status/negative stat change, +8% Spirit through next round.
-
-### Answer Quickly
-Once/round when an ally enters/begins an action at 30% HP or lower, wearer's next healing Ability through next round costs **15% less MP** and gains **+8% healing potency** for the qualifying target. This does not alter current-round initiative or grant priority.
-
-### Clean Shot
-Single-target bow attacks: +10 Base Hit and +5pp Critical Chance. If target has no Evasion bonus, +6% final damage.
-
-### Split the Field
-Against 2+ targets: +7% final damage and +10 Base Hit; at 4+ targets Base Hit bonus becomes +15.
-
-### Known Line
-Against a target with an already-established/revealed relevant profile: +12 Base Hit and +10pp applicable Defense penetration. If target has eligible Evasion Down/Base-Hit-reducing state, Base Hit bonus becomes +18. Existing harmful-status rider gets +5pp. No hidden information reveal.
-
-### Good Footing
-If not directly hit this round: **+8 Base Hit and +8 Evasion**. After successfully hitting an enemy, the benefit persists for the rest of that round even if wearer is directly hit later.
-
-### Correct the Miss
-After missing an eligible attack, next eligible attack gains +15 Base Hit and +5% final damage. One stored correction; expires after following round if unused.
-
-### Read the Commitment
-When enemy directly targets wearer, until wearer's next action against that enemy: +10 Base Hit and +5pp Critical Chance; incoming Staggered from that enemy ×0.80. Expires when used or end following round.
-
-### Twin Pattern
-Normal Attack becomes 2 × 58% = 116% total listed Power on same target, one selected action. A selected-action harmful-status rider checks once unless explicitly authored per hit.
-
-### Written in Air
-Eligible Conduit attack may use its better legally supported Magical scaling profile when the action supports that substitution; when Magical, +6 application reliability to an existing chance-based rider. No unsupported axis is invented.
-
-### Open Pattern
-Normal Attack may target up to 3 enemies at 75% Power per target. Cards unaffected; no automatic status rider.
-
-### Rewrite Position
-When target changes between consecutive eligible actions: **+8% Magic contribution** and **+8 Base Hit / application reliability where relevant** for the newly selected action.
-
-### Hold the Pattern
-Once/battle extend one eligible beneficial temporary effect on wearer by one standard duration step; same specific application can only be extended once; protected/scripted states excluded. Also +10 Status Resistance.
-
-### Chosen Element
-When same standard element is repeated on consecutive eligible actions: +8% final damage and +8 application reliability to an already-existing linked elemental status rider.
-
-### Refracted Sequence
-When using a different standard element from previous eligible elemental action: +7% final damage and 10% lower MP cost for that action.
-
-### Hot Channel
-Damaging spell whose base MP cost is at least 8% of Max MP: +10% final damage and +8pp Spirit penetration.
-
-### Held Charge
-If wearer ends round without taking damage, at start next round gain +10% Spirit and +10 Status Resistance until first damaging spell that round.
-
-### Follow the Damage
-Against target at or below 40% HP: +10% final damage; at or below 20% HP total becomes +15%.
-
-### Reaping Arc
-Against 2+ targets: +8% final damage and +5pp Defense penetration; at 4+ targets penetration becomes +8pp.
-
-### Refuse the Fall
-At 50% HP or lower: 8% less direct Physical damage. After Physical hit worth at least 15% Max HP leaves wearer conscious: +8% Defense through next round. Max once/round.
-
-### Keep Going
-After defeating an enemy: **Attack +8% / Speed +8%** through the end of the following round. One stack; retrigger refreshes. Current-round initiative is not reshuffled.
-
-### Hold the Impact
-Once/round after direct Physical hit worth at least 12% Max HP: +10% Defense and 8% less direct Physical damage through next round. Earth damage ×0.80; incoming ordinary Staggered application ×0.80.
-
-### Nothing Through
-+15 Status Resistance; 12% resistance to eligible ordinary negative-stat application; 5% less direct Magical damage; Lightning damage ×0.80.
-
-### Find the Opening
-When exploiting established elemental weakness/vulnerability: +8% final damage. If action already has Burn/Freeze/Stun/Staggered/Bleed application, +5pp application chance.
-
-### Return Strength
-Direct-healing Abilities +10% potency; +15% if recipient is at or below 50% HP. Wearer +10 Status Resistance.
-
-### Exact Moment
-Eligible debuff/dispel/purge/status/control actions gain **+12 application reliability** and **+10 Base Hit where the action makes a hit check**. After one succeeds, store **+5 Base Hit / application reliability** for the next eligible action that uses one of those checks. One stored benefit maximum; expires at the end of the following round if unused.
-
-## Action-Speed firewall
-`Action Speed` is not an active Diyse combat mechanic. Relic Traits may use the actual **Speed** stat when a modifier can legally affect a later round's initiative, or another explicitly supported action-local mechanic, but they may not create per-action priority, cast speed, or mid-round initiative reshuffling.
+The mechanical effect of every Relic Trait is open for redesign against the current battle system.
