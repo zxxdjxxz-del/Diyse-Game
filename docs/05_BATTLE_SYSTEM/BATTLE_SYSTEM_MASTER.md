@@ -316,7 +316,7 @@ Drain heals from **actual HP removed**, not theoretical overkill damage. A hit t
 
 ### Hit / miss / evade
 
-There is no universal Accuracy-vs-Evasion roll. A legal valid action hits by default.
+There is no universal Accuracy-vs-avoidance roll. A legal valid action hits by default.
 
 Miss/Evade only occur through explicit authored effects. Sure Hit may override an eligible Evade effect when authored to do so.
 
