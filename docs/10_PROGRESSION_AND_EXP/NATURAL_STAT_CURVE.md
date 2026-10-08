@@ -1,9 +1,7 @@
 # Diyse — Natural Stat Growth Rebuild Boundary
 
 **Status:** OPEN / REBUILD REQUIRED  
-**Authority:** progression domain constrained by `../05_BATTLE_SYSTEM/BATTLE_SYSTEM_MASTER.md`.  
-
-The previous fixed Lv1–70 natural-stat formula is not current authority under the redesigned battle system.
+**Authority:** progression domain constrained by `../05_BATTLE_SYSTEM/BATTLE_SYSTEM_MASTER.md`.
 
 ## Required combat-stat set
 
@@ -17,8 +15,6 @@ Future player natural-stat growth must support:
 - Defense
 - Spirit
 - Speed
-
-There is no natural Accuracy, Evasion, Critical Chance, Status Potency, or Status Resistance stat.
 
 ## Current battle-system constraints
 
@@ -51,6 +47,6 @@ Practical MP targets:
 
 ## Progression boundary
 
-The final Player Level cap remains open. New natural-stat formulas must therefore be stable across low/mid/high ranges without depending on Lv70 as a structural endpoint.
+The final Player Level cap remains open.
 
 Exact growth formulas and selected-class stat-package integration must be certified during the planned progression/balance rebuild before they become current implementation authority.
