@@ -1,34 +1,14 @@
 # Diyse — Campaign Level Spine
 
-> **STATUS — PROVISIONAL EXP / LEVEL PLANNING BASELINE / REBUILD PENDING.**
+**Status:** REBUILD PENDING
 
-**Current structural rule:** Mastery Points do not exist; Masteries unlock automatically from Class Level.
+The exact chapter-by-chapter Player Level spine and cumulative mandatory EXP totals are open.
 
-| Progress point | Campaign-only target | Cumulative mandatory EXP |
-|---|---:|---:|
-| End Ch1 | ~Lv5 | 1,300 |
-| End Ch2 | ~Lv9 | 6,100 |
-| End Ch3 | ~Lv13 | 14,100 |
-| End Ch4 | ~Lv17 | 25,300 |
-| End Ch5 | ~Lv22 | 44,100 |
-| End Ch6 | ~Lv27 | 69,000 |
-| End Ch7 / Sixfold Volition | ~Lv32 | 100,300 |
-| End Ch8 | ~Lv37 | 138,500 |
-| End Ch9 | ~Lv42 | 184,000 |
-| End Ch10 — The Last Blank | ~Lv47 | 237,300 |
-| End Ch11 — Crown Engine | ~Lv52 | 298,800 |
-| End Ch12 — The Reforged March | ~Lv57 | 368,800 |
-| End Ch13 — The Last Command | ~Lv62 | 447,800 |
+Current structural boundaries:
+- Chapter 0 has no Player Levels;
+- final Player Level cap is not fixed;
+- mandatory and completionist routes must be validated separately;
+- normal full Base + Subclass completion should land around **Lv55–60**;
+- exact chapter start/mid/end level centers require the planned EXP/CEXP rebuild and encounter validation.
 
-## Chapter 13 internal anchors
-
-- start Ch13: **~Lv57 / 368,800 EXP**
-- Last Shelter: **~Lv60 / 415,100 EXP**
-- ending: **~Lv62 / 447,800 EXP**
-
-Chapter 13:
-- pre-Shelter mandatory EXP: **46,300**
-- post-Shelter mandatory EXP: **32,700**
-- total: **79,000**
-
-All level labels and cumulative EXP totals above are planning centers pending the mandatory-vs-completionist progression recalibration.
+No earlier chapter-level table is current authority.
