@@ -1,26 +1,25 @@
 # Diyse — Relic Armors
 
-**Status:** ACTIVE RELIC AUTHORITY  
-**Authority:** current items/equipment-domain owner plus later explicit approved corrections.  
+**Status:** ACTIVE RELIC IDENTITY AUTHORITY — STATS / EFFECTS REBUILD PENDING
 
+| Character | Relic | Trait identity |
+|---|---|---|
+| Cyanis | Answering Plate | Answer the Blow |
+| Cyanis | Marchlight | Heavy Step |
+| Cyanis | Veilforged Plate | Warded Impact |
+| Ilyra | Weight of Mercy | Carry the Hit |
+| Ilyra | Blue Silence | Warden's Quiet |
+| Ilyra | The Second Answer | Answer Quickly |
+| Torren | Clear Ground | Good Footing |
+| Torren | Second Bearing | Correct the Miss |
+| Torren | Return Mark | Read the Commitment |
+| Nimera | Moving Script | Rewrite Position |
+| Nimera | Unbroken Pattern | Hold the Pattern |
+| Vaelira | Burning Glass | Hot Channel |
+| Vaelira | Storm at Rest | Held Charge |
+| Seyrik | Standing Dead | Refuse the Fall |
+| Seyrik | Red Momentum | Keep Going |
 
-Current surviving Relic armor count:
-> **15**
+Relic names, owner/tradition, Trait names, and placement remain current.
 
-| Character | Relic | Raw stats | Trait |
-|---|---|---|---|
-| Cyanis | Answering Plate | +45 DEF / +31 SPR / -1 SPD | Answer the Blow |
-| Cyanis | Marchlight | +38 DEF / +28 SPR / +5 SPD | Heavy Step |
-| Cyanis | Veilforged Plate | +43 DEF / +35 SPR | Warded Impact |
-| Ilyra | Weight of Mercy | +31 DEF / +30 SPR | Carry the Hit |
-| Ilyra | Blue Silence | +23 DEF / +39 SPR | Warden's Quiet |
-| Ilyra | The Second Answer | +27 DEF / +36 SPR | Answer Quickly |
-| Torren | Clear Ground | +31 DEF / +23 SPR / +5 SPD | Good Footing |
-| Torren | Second Bearing | +38 DEF / +27 SPR / -1 SPD | Correct the Miss |
-| Torren | Return Mark | +36 DEF / +28 SPR | Read the Commitment |
-| Nimera | Moving Script | +20 DEF / +30 SPR / +5 MAG / +4 SPD | Rewrite Position |
-| Nimera | Unbroken Pattern | +27 DEF / +35 SPR | Hold the Pattern |
-| Vaelira | Burning Glass | +20 DEF / +39 SPR / +7 MAG | Hot Channel |
-| Vaelira | Storm at Rest | +24 DEF / +45 SPR | Held Charge |
-| Seyrik | Standing Dead | +52 DEF / +23 SPR / -3 SPD | Refuse the Fall |
-| Seyrik | Red Momentum | +43 DEF / +22 SPR / +7 ATK / +3 SPD | Keep Going |
+Exact stats and Trait effects are open.
