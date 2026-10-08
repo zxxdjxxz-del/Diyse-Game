@@ -1,12 +1,8 @@
 # Diyse — Chapter 10 Enemies — The Last Blank
 **Current authority:** this chapter file owns the current chapter enemy roster and broad placement except where a narrower current enemy, formation, authored-encounter, boss, or story owner explicitly controls a subsection.  
-**Authority rule:** current repository names, current chapter/story placement, and current system firewalls supersede conflicting historical material; Git history is provenance only.
-
 
 ## Ordinary / repeatable
 - **REWORK PENDING — no current Chapter-10 ordinary enemy identities are locked.**
-
-All Chapter-10 ordinary enemies will be redesigned in a later enemy pass. Do not restore any retired carryover package, and do not infer replacement identities during repository cleanup.
 
 ## Support objects / support identities
 - None
@@ -32,36 +28,9 @@ All Chapter-10 ordinary enemies will be redesigned in a later enemy pass. Do not
 - Registry Warden remains status-neutral by design; do not fabricate a generic status rider.
 
 Registry Warden:
-> **raw line retained / Power-complete / status-neutral**
 
-## Numerical boundary
-No Chapter-10 ordinary enemy raw body/action package is currently locked. Ordinary-enemy tuning and formation-level balance authority are reopened together.
+## Combat-kit rebuild boundary
 
-Mandatory Registry Warden authority remains separately owned and unchanged.
+Chapter placement, roster identity, encounter role, formation routing, and story outcome remain current where stated above.
 
-
-## Current Registry Warden handoff
-Detailed current authority:
-`../STORY_BOSSES/REGISTRY_WARDEN.md`
-
-The inherited raw line is retained unchanged.
-
-Current architecture:
-- Closed Registry;
-- Open Registry at 40% HP;
-- same bar;
-- no Prime refresh;
-- no support objects/add wave.
-
-The Warden remains status-neutral exactly as required.
-No Burn, Freeze, Stun, Staggered, Bleed, Poison, Registry status, Barrier, or Break meter is introduced.
-
-
-## Current validation status
-Historical mandatory-vs-completionist snapshots are **not current certification**. Re-run Chapter-10 difficulty validation only after the current enemy-tuning and progression inputs are stable enough for the active framework.
-
-Current ownership remains:
-- ordinary formation composition — **OPEN / no current locked Chapter-10 formation table**;
-- missing per-action percentages — `../ACTION_SELECTION_DEFAULT.md` unless an owning file has explicit weights.
-
-No current mandatory-vs-completionist certification is asserted by this chapter file.
+Exact enemy levels, HP/stats, actions, Potencies, statuses, susceptibility, Execution/Return, AI weights, thresholds, and other combat tuning are open for the dedicated enemy-kit redesign.
