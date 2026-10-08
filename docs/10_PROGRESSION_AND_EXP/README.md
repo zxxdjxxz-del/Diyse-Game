@@ -1,25 +1,31 @@
 # 10_PROGRESSION_AND_EXP
 
-**Current structural rule:** Mastery Points do not exist; Masteries unlock automatically from Class Level.
+**Status:** ACTIVE PROGRESSION DOMAIN ROUTER
 
-Canonical home for Player EXP, campaign levels, CEXP, Class-Level pacing, formation rewards, optional progression, overlevel controls, and progression-to-enemy handoff.
+Canonical home for Player EXP, Player Level, CEXP, Class-Level pacing, formation rewards, optional progression, overlevel controls, and progression-to-enemy handoff.
 
-## Current redesign boundary
-
-The redesigned battle system no longer fixes a final **Player Level cap**. The final cap is a separate progression decision and remains open until the progression rebuild.
-
-Likewise, old natural-stat formulas built specifically around Lv1–70 are not current battle-stat authority. Player stat growth must be rebuilt against the current combat stat set and practical bands in `../05_BATTLE_SYSTEM/BATTLE_SYSTEM_MASTER.md`.
-
-## Stable structure
+## Current structure
 
 - Base Class cap: **CL13**
 - Subclass cap: **CL13**
 - Chapter 0: **no Player Levels**
-- no Mastery Point currency
-- target for normal full Base + Subclass completion remains approximately **Lv55–60** as a progression-design target, subject to the planned EXP/CEXP rebuild
+- no spendable Mastery Point currency
+- final Player Level cap: **open**
+- normal full Base + Subclass completion target: approximately **Lv55–60**
 
-## Provisional numeric material
+## Rebuild boundary
 
-Current EXP/CEXP tables, campaign level projections, encounter reward totals, completion proofs, and similar numeric documents are planning material pending the planned progression rebuild. They must not be used to re-lock the old Lv70 cap or override the redesigned battle-system stat architecture.
+Exact:
+- Player EXP curve;
+- final Player Level cap;
+- chapter Level spine;
+- CEXP thresholds;
+- mandatory/optional EXP and CEXP totals;
+- recruitment catch-up values;
+- formation rewards;
+- encounter-count planning;
+- natural-stat growth formulas
 
-`NATURAL_STAT_CURVE.md` now owns only the open stat-growth rebuild boundary until replacement formulas are certified.
+remain open until the dedicated progression/balance rebuild.
+
+Current combat-stat structure comes from `../05_BATTLE_SYSTEM/BATTLE_SYSTEM_MASTER.md`.
