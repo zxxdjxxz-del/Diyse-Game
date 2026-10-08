@@ -1,80 +1,28 @@
-# Memory Construct
+# Diyse — Memory Construct
 
-**Chapter:** 3 — Deep Archives  
-**Current beat:** **Beat 7**  
-**Role:** mandatory authored story boss / Caelora Archives mechanical-combat climax  
-**Status:** **CURRENT IDENTITY / PLACEMENT + ONE-BODY ARCHITECTURE LOCKED / RAW BODY + ACTION KIT REVALIDATION OPEN**
+**Status:** ACTIVE IDENTITY ANCHOR / EXACT COMBAT KIT REBUILD PENDING  
+**Category:** enemy/encounter identity
 
-The Memory Construct is procedural Ancient archive/security/copying machinery.
+This identity remains part of the current enemy/encounter catalog wherever it is routed by current chapter, formation, Hunt, boss, support-object, quest, or story authority.
 
-It is not a speaking villain and must not be reframed as one during implementation cleanup.
+The previous combat kit has been removed from live authority.
 
-## Current battle-party lock
+## Rebuild boundary
 
-The Memory Construct is fought by exactly:
-- Cyanis;
-- Ilyra;
-- Torren;
-- Nimera.
+The dedicated enemy-kit redesign will re-author, as applicable:
 
-Nimera has already joined permanently in Beat 5, so this boss must be validated against the current four-person party state.
+- Level and HP;
+- Strength / Magic / Intelligence / Defense / Spirit / Speed;
+- action list and AI selection;
+- Potency or fixed numerical output;
+- Execution and Return;
+- targeting and retargeting;
+- current status effects and susceptibility;
+- Delay / Interrupt behavior;
+- phase thresholds and numerical modifiers;
+- support-object numerical behavior;
+- encounter-specific combat tuning.
 
-## Battle architecture
+Do not reconstruct the superseded kit from repository history. Use current battle-system authority and the later enemy-kit redesign.
 
-Current Chapter-3 authority locks:
-- one continuous HP bar;
-- one targetable boss body;
-- mandatory authored boss encounter;
-- no separate optional-Hunt framing.
-
-Narrative/visual assemblies may move as part of the machine, but they do not create additional targetable boss bodies unless later live battle authority explicitly revises the fight.
-
-## Story / behavior boundary
-
-The Memory Construct:
-- activates in the intact transfer chamber;
-- functions as archive/security/copying machinery;
-- does not speak;
-- is defeated as the Deep Archives mechanical/combat climax;
-- opens access to the protected Inner Collections when the active mechanism is stopped.
-
-Do not invent a humanlike motive or dialogue for the construct.
-
-## Combat-authoring boundary
-
-Current raw HP / Defense / Spirit / action budget / fight-length target are **not currently certified**.
-
-Do not:
-- invent a final attack kit during repository cleanup;
-- infer a final body from anything outside explicitly current Chapter-3 combat authority;
-- split the boss into multiple targetable bodies without explicit battle-authority revision;
-- assign Stun, Bleed, or another status role simply to fill an open Chapter-3 rollout slot.
-
-Current numeric/action/status authority must be authored and validated in the dedicated Chapter-3 combat pass.
-
-## Current owners
-
-Story:
-- `../../02_STORY/CHAPTERS/CHAPTER_03.md`
-
-Chapter roster:
-- `../CHAPTER_ENEMIES/CHAPTER_03.md`
-
-Power/raw-status boundary:
-- **OPEN / DEFERRED** under current Chapter-3 enemy/balance authority; no separate chapter Power/raw register is current.
-
-Current exact dialogue / staging:
-- `../../03_DIALOGUE/PRODUCTION/CHAPTER_03/CH03_B07_DEEP_ARCHIVES_MEMORY_CONSTRUCT_DIALOGUE.md`
-
-Current scene spec:
-- `../../03_DIALOGUE/PRODUCTION/CHAPTER_03/CH03_B07_DEEP_ARCHIVES_MEMORY_CONSTRUCT_SPEC.json`
-
-## Visual authority
-
-Exact approved master:
-- `asset_sources/enemies/chapter_03/current/06_memory_construct.png`
-- format: PNG
-- dimensions: **1448 × 1086**
-- SHA-256: `203b299ec1a6b3b6001eb688a0e11e0ba61a1084a8edc6929c90bda6662f4812`
-
-The visual master is current and exact-binary synced. Combat tuning remains open independently of the locked visual.
+Identity, current placement, narrative role, protected/nonlethal outcome, and form/body relationships remain owned by the corresponding current encounter/story/register authorities.

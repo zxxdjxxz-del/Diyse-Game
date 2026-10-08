@@ -1,24 +1,28 @@
-# Barkling
+# Diyse — Barkling
 
-**Chapter:** 1 — Southern Briar Passage  
-**Role:** ordinary natural threat / sturdy frontline bruiser  
-**Status:** **CURRENT IDENTITY / PLACEMENT LOCKED / NUMERIC REVALIDATION OPEN**
+**Status:** ACTIVE IDENTITY ANCHOR / EXACT COMBAT KIT REBUILD PENDING  
+**Category:** enemy/encounter identity
 
-Barkling is the current Chapter-1 identity. **Rubbleback is retired.** Earlier Brambleback naming is also retired.
+This identity remains part of the current enemy/encounter catalog wherever it is routed by current chapter, formation, Hunt, boss, support-object, quest, or story authority.
 
-## Current placement
-Southern Briar only.
+The previous combat kit has been removed from live authority.
 
-## Provisional inherited tuning reference
-The former Rubbleback body/action package may be used only as provisional tuning material until current Chapter-1 validation closes:
-- Lv5 / HP265 / ATK35 / MAG8 / DEF29 / Spirit18 / SPD18 / EVA0 / SR5
-- Bramble Charge — 165 Power / Base Hit95 / 10% Bleed / 1-round repetition lock
-- Spine Sweep — 95 Power per target / Base Hit95 / 2-round repetition lock
-- Hunker — Defense +15% through end of following round / 2-round repetition lock
+## Rebuild boundary
 
-Current structural role:
-- sturdier frontline / bruiser pressure;
-- Southern Briar uses at most 3 active player characters;
-- exact final stats/actions remain open.
+The dedicated enemy-kit redesign will re-author, as applicable:
 
-Exact appearance is owned by `../../14_ART_AND_VISUALS/ENEMIES/CHAPTER_01_ENEMY_VISUAL_AUTHORITY.md`, whose approved Barkling master is current.
+- Level and HP;
+- Strength / Magic / Intelligence / Defense / Spirit / Speed;
+- action list and AI selection;
+- Potency or fixed numerical output;
+- Execution and Return;
+- targeting and retargeting;
+- current status effects and susceptibility;
+- Delay / Interrupt behavior;
+- phase thresholds and numerical modifiers;
+- support-object numerical behavior;
+- encounter-specific combat tuning.
+
+Do not reconstruct the superseded kit from repository history. Use current battle-system authority and the later enemy-kit redesign.
+
+Identity, current placement, narrative role, protected/nonlethal outcome, and form/body relationships remain owned by the corresponding current encounter/story/register authorities.

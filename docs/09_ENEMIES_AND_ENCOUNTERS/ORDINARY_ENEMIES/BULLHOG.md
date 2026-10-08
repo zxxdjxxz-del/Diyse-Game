@@ -1,25 +1,28 @@
-# Bullhog
+# Diyse — Bullhog
 
-**Chapter:** 1 — Northern and Southern Briar Passage  
-**Role:** ordinary natural threat / sturdy physical pressure  
-**Status:** **CURRENT IDENTITY / PLACEMENT LOCKED / NUMERIC REVALIDATION OPEN**
+**Status:** ACTIVE IDENTITY ANCHOR / EXACT COMBAT KIT REBUILD PENDING  
+**Category:** enemy/encounter identity
 
-Bullhog is the current Chapter-1 identity replacing **Briar Boar**.
+This identity remains part of the current enemy/encounter catalog wherever it is routed by current chapter, formation, Hunt, boss, support-object, quest, or story authority.
 
-## Current placement
-- Northern / first Briar
-- Southern Briar
+The previous combat kit has been removed from live authority.
 
-## Provisional inherited tuning reference
-The former Briar Boar Chapter-1 body/actions may be used only as a starting point until current Chapter-1 balance validation closes:
-- Lv4 / HP195 / ATK32 / MAG8 / DEF22 / Spirit15 / SPD21 / EVA0 / SR0
-- Tusk Rush — 160 Power / Base Hit95 / 10% Bleed / 1-round repetition lock
-- Shoulder Charge — 145 Power / Base Hit100
+## Rebuild boundary
 
-These numbers are not a final lock merely because the name changed.
+The dedicated enemy-kit redesign will re-author, as applicable:
 
-## Current identity boundary
-- natural Briar wildlife;
-- exact appearance is owned by `../../14_ART_AND_VISUALS/ENEMIES/CHAPTER_01_ENEMY_VISUAL_AUTHORITY.md`;
-- no Black Host alteration/corruption;
-- later-chapter reuse requires separate chapter authority and tuning.
+- Level and HP;
+- Strength / Magic / Intelligence / Defense / Spirit / Speed;
+- action list and AI selection;
+- Potency or fixed numerical output;
+- Execution and Return;
+- targeting and retargeting;
+- current status effects and susceptibility;
+- Delay / Interrupt behavior;
+- phase thresholds and numerical modifiers;
+- support-object numerical behavior;
+- encounter-specific combat tuning.
+
+Do not reconstruct the superseded kit from repository history. Use current battle-system authority and the later enemy-kit redesign.
+
+Identity, current placement, narrative role, protected/nonlethal outcome, and form/body relationships remain owned by the corresponding current encounter/story/register authorities.

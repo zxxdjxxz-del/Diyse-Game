@@ -1,37 +1,23 @@
 # Diyse — Campaign Progression Balance
 
-**Status:** ACTIVE PROGRESSION-BALANCE FRAMEWORK / EXACT ROUTE NUMBERS PROVISIONAL  
-**Progression owner:** `../../10_PROGRESSION_AND_EXP/`  
-**Balance/QA authority:** `../README.md`
+**Status:** ACTIVE PROGRESSION-BALANCE FRAMEWORK / NUMERIC REBUILD PENDING  
+**Progression owner:** `../../10_PROGRESSION_AND_EXP/`
 
-This file defines what progression balance must demonstrate. Exact EXP totals, chapter level anchors, CEXP placement, and ending-route centers belong to the progression owner and are currently rebuild-pending.
+## Current targets
 
-## Current locks / targets
-
-- Player Level cap: **70**;
-- Chapter 0: no Player Levels;
-- no dynamic enemy scaling to erase optional progression;
-- full Base + Subclass completion target: **Lv55–60** under normal developed play;
-- recruitment-aware CEXP accounting is required.
+- Chapter 0 has no Player Levels.
+- Final Player Level cap is open.
+- Enemies do not dynamically scale in a way that erases optional progression by default.
+- Normal full Base + Subclass completion target: **Lv55–60**.
+- Recruitment-aware CEXP accounting is required.
 
 ## Validation sequence
 
-1. stabilize current encounter rosters/formations and mandatory/completionist comparison points;
-2. rebuild Player EXP placement;
-3. rebuild CEXP placement from each character's actual permanent recruitment point;
-4. validate campaign-only, light-optional, typical-developed, heavy-optional, and completionist routes;
-5. verify optional progression creates meaningful advantage without making mandatory-route tuning dependent on optional grind;
-6. confirm the Level 70 cap is reachable only through legitimate authored progression/grind behavior intended by the final progression owner.
+1. rebuild Player EXP placement;
+2. rebuild CEXP placement from each character's actual permanent recruitment point;
+3. rebuild natural-stat growth and class-progression inputs;
+4. validate campaign-only, light-optional, developed, heavy-optional, and completionist routes;
+5. verify optional progression provides meaningful advantage without becoming mandatory;
+6. choose and certify the final Player Level cap from the rebuilt campaign model.
 
-## Route outcomes
-
-While the progression rebuild is open, route outcomes must be read directly from the current progression owner rather than duplicated here.
-
-For each route, record:
-- Player Level by chapter/major validation point;
-- CEXP and selected class progression by character;
-- optional content completed;
-- ordinary encounters fought;
-- weak-enemy diminishing-return effects;
-- when each character completes Base + Subclass progression;
-- whether the route hits Level 70 and when.
+For each route, record Player Level, CEXP/class state, optional content completed, ordinary encounters fought, and class-completion timing.

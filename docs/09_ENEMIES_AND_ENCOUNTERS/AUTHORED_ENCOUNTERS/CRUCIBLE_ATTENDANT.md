@@ -1,43 +1,28 @@
-# Crucible Attendant
+# Diyse — Crucible Attendant
 
-**Chapter:** 4 roster identity  
-**Classification:** authored/protected / nonlethal  
-**Status:** **POWER COMPLETE / PLACEMENT UNSCHEDULED / DO NOT RANDOM-SPAWN**
+**Status:** ACTIVE IDENTITY ANCHOR / EXACT COMBAT KIT REBUILD PENDING  
+**Category:** enemy/encounter identity
 
-No controlling line-complete Chapter-4 scene currently deploys this identity as a mandatory combat body.
+This identity remains part of the current enemy/encounter catalog wherever it is routed by current chapter, formation, Hunt, boss, support-object, quest, or story authority.
 
-Do not add an Attendant battle to the Regulation Crucible approach without separate approval.
+The previous combat kit has been removed from live authority.
 
-## Body
-| Lv | HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR |
-|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| 15 | **480** | 50 | 55 | **44** | **44** | 27 | 0 | 5 |
+## Rebuild boundary
 
-## Actions
+The dedicated enemy-kit redesign will re-author, as applicable:
 
-### Control Rod
-- one party member
-- Physical / Neutral
-- **155 Power**
-- Base Hit100
+- Level and HP;
+- Strength / Magic / Intelligence / Defense / Spirit / Speed;
+- action list and AI selection;
+- Potency or fixed numerical output;
+- Execution and Return;
+- targeting and retargeting;
+- current status effects and susceptibility;
+- Delay / Interrupt behavior;
+- phase thresholds and numerical modifiers;
+- support-object numerical behavior;
+- encounter-specific combat tuning.
 
-### Regulator Pulse
-- one party member
-- Magical / Colorless
-- **145 Power**
-- Base Hit100
+Do not reconstruct the superseded kit from repository history. Use current battle-system authority and the later enemy-kit redesign.
 
-### Guard
-> **Power: N/A — no direct damage**
-
-Effect:
-> **+10 Total Defense through the end of the following round**
-
-2-round repetition lock.
-
-## Nonlethal resolution
-0 HP means:
-> unable to continue.
-
-No death presentation.
-No personal loot.
+Identity, current placement, narrative role, protected/nonlethal outcome, and form/body relationships remain owned by the corresponding current encounter/story/register authorities.

@@ -1,58 +1,28 @@
-# Furnace Servitor — Action Authority
+# Diyse — Furnace Servitor
 
-**Chapter home:** 5  
-**Role:** ordinary/support machine  
-**Power status:** **POWER COMPLETE / ORDINARY RAW BODY AUTHORED**
+**Status:** ACTIVE IDENTITY ANCHOR / EXACT COMBAT KIT REBUILD PENDING  
+**Category:** enemy/encounter identity
 
-This file owns the current action coefficients for Furnace Servitor.
+This identity remains part of the current enemy/encounter catalog wherever it is routed by current chapter, formation, Hunt, boss, support-object, quest, or story authority.
 
-## Ordinary Chapter-5 body
+The previous combat kit has been removed from live authority.
 
-| Lv | HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR |
-|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| 19 | **380** | 36 | **78** | **44** | **47** | **31** | 0 | 5 |
+## Rebuild boundary
 
-The ordinary body deliberately retains the same MAG / DEF / Spirit / SPD identity used by the Furnace Tyrant support instance, while having its own ordinary-formation HP.
+The dedicated enemy-kit redesign will re-author, as applicable:
 
-The Furnace Tyrant's finite support instance remains:
-> **HP280**
+- Level and HP;
+- Strength / Magic / Intelligence / Defense / Spirit / Speed;
+- action list and AI selection;
+- Potency or fixed numerical output;
+- Execution and Return;
+- targeting and retargeting;
+- current status effects and susceptibility;
+- Delay / Interrupt behavior;
+- phase thresholds and numerical modifiers;
+- support-object numerical behavior;
+- encounter-specific combat tuning.
 
-That encounter-specific HP does not replace the ordinary 380-HP body.
+Do not reconstruct the superseded kit from repository history. Use current battle-system authority and the later enemy-kit redesign.
 
-## Scalding Vent
-- one party member
-- Magical / Fire
-- **150 Power**
-- Base Hit **100**
-- **20% Burn**
-- 1-round repetition lock
-
-## Feed Furnace
-> **Power: N/A — no direct damage**
-
-When used in an encounter with a legal Heat/Pressure recipient, Feed Furnace advances that recipient's authored local state one step.
-
-It never grants another enemy an extra action.
-
-2-round repetition lock.
-
-## Overheat Vent
-Passive on-defeat trigger only when the Servitor is in its authored Overheated state:
-- all conscious party members
-- Magical / Fire
-- **80 Power per target**
-- Base Hit **100**
-- **10% Burn per target**
-
-It triggers at most once and is not an ordinary selected action.
-
-## Furnace Tyrant encounter instance
-The finite Furnace Tyrant support instance uses:
-- HP280
-- MAG78
-- DEF44
-- Spirit47
-- SPD31
-- SR5
-
-Those encounter-instance numbers do not automatically define every ordinary Furnace Servitor formation.
+Identity, current placement, narrative role, protected/nonlethal outcome, and form/body relationships remain owned by the corresponding current encounter/story/register authorities.

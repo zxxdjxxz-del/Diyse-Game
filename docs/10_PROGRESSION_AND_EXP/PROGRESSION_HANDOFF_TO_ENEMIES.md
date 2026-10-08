@@ -1,21 +1,23 @@
 # Diyse — Progression Handoff to Enemies
-**Current structural rule:** Mastery Points do not exist; Masteries unlock automatically from Class Level under current repository class/progression authority.
 
+**Status:** ACTIVE STRUCTURAL HANDOFF
 
-`10_PROGRESSION_AND_EXP` owns global thresholds, chapter budgets, formation reward envelopes, and overlevel reward rules.
+`10_PROGRESSION_AND_EXP` owns:
+- Player EXP structure;
+- CEXP structure;
+- final Player Level cap decision;
+- chapter progression targets;
+- reward envelopes after rebuild;
+- weak-enemy Player-EXP diminishing returns where current.
 
-`09_ENEMIES_AND_ENCOUNTERS` owns individual:
-- enemy Level;
-- HP / Attack / Magic / Defense / Spirit / Speed / Evasion / Status Resistance;
-- base EXP;
-- AI/actions;
-- encounter compositions;
-- boss/Hunt raw bodies.
+`09_ENEMIES_AND_ENCOUNTERS` owns individual enemy identity, encounter placement, and recertified combat bodies/actions.
 
-Main-story enemies use authored content bands, not unrestricted player scaling.
+Current combat-body fields must use the battle-system model where applicable:
 
-Reused identities keep their identity/kit but use current-content-appropriate numerical bodies where the enemy authority calls for rebasing.
+> **HP / Strength / Magic / Intelligence when explicitly relevant / Defense / Spirit / Speed**
 
-Do not invent optional-content scaling formulas here; use dedicated quest/Hunt/enemy authority.
+Enemy action output must use current Potency/fixed-effect rules, current statuses, and TURN / EXECUTION timing.
 
-Fixed authored completion rewards remain exempt from ordinary enemy-kill diminishing returns.
+Main-story enemies are authored rather than unrestrictedly scaled from the player's current Level.
+
+Exact chapter enemy levels and reward values remain open until both domains are recertified together.

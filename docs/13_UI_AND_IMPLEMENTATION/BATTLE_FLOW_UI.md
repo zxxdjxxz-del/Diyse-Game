@@ -1,78 +1,35 @@
-# Diyse — Battle Flow UI States
+# Diyse — Battle Flow UI
 
-**Status:** ACTIVE UI / IMPLEMENTATION SPEC  
-**Authority:** gameplay behavior defers to `../05_BATTLE_SYSTEM/BATTLE_SYSTEM_MASTER.md`.  
+**Status:** ACTIVE UI SPEC  
+**Gameplay authority:** `../05_BATTLE_SYSTEM/BATTLE_SYSTEM_MASTER.md` and `../07_CARDS/PRIME_CARDS/PRIME_SYSTEM_RULES.md`.
 
-Production combat UI must support the current ordered **TURN / EXECUTION** timeline.
+The battle UI presents the ordered **TURN / EXECUTION** timeline.
 
-## Timeline
+For a player TURN, the command surface must support:
 
-The battle UI must clearly distinguish:
+> **Attack / Abilities / Cards / Item / Defend / Swap**
 
-- **TURN** markers — command opportunities;
-- **EXECUTION** markers — queued actions waiting to resolve.
+Prime Invocation is a separate special access path when legal.
 
-When a player TURN is active, time pauses for command selection.
+Before confirming a selected action, the UI should show the projected EXECUTION position and projected next TURN where those values are knowable.
 
-Before confirmation, the UI should show the selected action's projected EXECUTION position and the acting character's projected next TURN.
+Queued enemy actions should expose current visible intent/targeting information and Delay/Interrupt eligibility according to battle authority.
 
-## Player TURN
+## Prime flow
 
-When a player-controlled character's TURN arrives:
+Recovered Story Prime:
+- presents/resolves one signature action;
+- does not open the Awakened meter HUD;
+- demanifests after that action.
 
-- highlight that character clearly;
-- expose the legal command list;
-- allow command/content/target selection;
-- allow voluntary Swap with a conscious reserve;
-- if the selected action is Immediate, resolve it now;
-- otherwise create its future EXECUTION marker;
-- schedule the user's next TURN under the current Return/Speed rules.
+Awakened Prime:
+- replaces the active party;
+- shows a 3-segment Manifestation Meter;
+- shows Basic / Medium / Heavy meter costs;
+- spends meter only on successful EXECUTION;
+- enters Final Return when meter reaches 0;
+- keeps the Prime on field until its already-scheduled next TURN;
+- resolves automatic Dismissal at that TURN;
+- restores the suspended party afterward.
 
-A character with one of its own actions still pending cannot receive another command TURN before that EXECUTION resolves.
-
-## Enemy TURN / intent
-
-Enemy TURNs use the same timeline language.
-
-Queued enemy actions normally expose readable intent, target/group where not intentionally concealed, Execution category, and current Delay/Interrupt eligibility.
-
-## Interactive marker inspection
-
-Queued EXECUTION inspection should expose at minimum:
-
-- actor;
-- action name/intent where not concealed;
-- target/group where not concealed;
-- Execution category;
-- current Interruptible / Delay-only / Uninterruptible state;
-- whether standard Delay applications remain;
-- visible timing/special conditions.
-
-TURN inspection may expose projected TURN, Quick/Slow, Delay eligibility, and remaining Delay applications.
-
-Inspection costs no TURN/time. Legal Delay/Interrupt targets should be directly selectable when choosing those effects.
-
-## Resolution
-
-An authored action resolves through its complete hit/effect sequence before automatic reactions and before battle outcome is checked. Emergency KO replacement is never inserted into the middle of a multi-hit or mixed-effect sequence.
-
-## Reserves
-
-The visible party supports **4 active + 2 reserve** permanents.
-
-Reserve characters have hidden personal TURN cycles for status/timer processing. Voluntary Swap and KO emergency replacement use different timing rules as defined by the battle master.
-
-## Prime
-
-Prime manifestation uses the stable Prime foundation, but exact Recovered/Awakened manifestation timeline presentation is **parked** until the dedicated Prime sequencing pass. Do not hard-code the former Prime-round UI.
-
-## Battle end
-
-The UI must support:
-
-- Victory;
-- Defeat;
-- Mutual KO resolving to Defeat by default;
-- successful Escape;
-- authored nonlethal/story outcomes;
-- multi-form continuation without premature reward payout.
+Detailed Prime HUD behavior is owned by `PRIME_UI.md`.

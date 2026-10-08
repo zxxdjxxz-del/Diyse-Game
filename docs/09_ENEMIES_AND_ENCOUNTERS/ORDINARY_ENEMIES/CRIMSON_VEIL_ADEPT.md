@@ -1,45 +1,28 @@
-# Crimson Veil Adept
+# Diyse — Crimson Veil Adept
 
-**Chapter:** 12 — Vorathen / Veiled Citadel  
-**Status:** **POWER COMPLETE / RAW BODY AUTHORED**
+**Status:** ACTIVE IDENTITY ANCHOR / EXACT COMBAT KIT REBUILD PENDING  
+**Category:** enemy/encounter identity
 
-"Crimson" is presentation, not a Blood element/status.
+This identity remains part of the current enemy/encounter catalog wherever it is routed by current chapter, formation, Hunt, boss, support-object, quest, or story authority.
 
-## Body
-| Lv | HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR |
-|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| 56 | **1,350** | 62 | **198** | 88 | **122** | 40 | 5 | 10 |
+The previous combat kit has been removed from live authority.
 
-## Actions
+## Rebuild boundary
 
-### Crimson Fire
-- one party member
-- Magical / Fire
-- **235 Power**
-- Base Hit100
-- **25% Burn**
-- 2-round repetition lock
+The dedicated enemy-kit redesign will re-author, as applicable:
 
-### Ruin Veil
-- one party member
-- Magical / Ruin
-- **245 Power**
-- Base Hit100
+- Level and HP;
+- Strength / Magic / Intelligence / Defense / Spirit / Speed;
+- action list and AI selection;
+- Potency or fixed numerical output;
+- Execution and Return;
+- targeting and retargeting;
+- current status effects and susceptibility;
+- Delay / Interrupt behavior;
+- phase thresholds and numerical modifiers;
+- support-object numerical behavior;
+- encounter-specific combat tuning.
 
-### Veil Burst
-- all conscious party members
-- Magical / Colorless
-- **180 Power per target**
-- Base Hit95
-- 2-round repetition lock
+Do not reconstruct the superseded kit from repository history. Use current battle-system authority and the later enemy-kit redesign.
 
-### Veil Ward
-> **Power: N/A — no direct damage**
-
-Effect:
-> Magic +10% / Spirit +10 through the end of the following round
-
-2-round repetition lock.
-
-No Blood status.
-No Poison.
+Identity, current placement, narrative role, protected/nonlethal outcome, and form/body relationships remain owned by the corresponding current encounter/story/register authorities.

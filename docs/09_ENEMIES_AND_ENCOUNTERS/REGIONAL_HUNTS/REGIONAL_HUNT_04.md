@@ -1,59 +1,28 @@
-# Diyse — Regional Hunt #4: Crown Prototype
+# Diyse — Regional Hunt 04
 
-**Status:** ACTIVE REGIONAL-HUNT ENCOUNTER BODY — REVALIDATION PENDING  
-**Authority:** current enemy/encounter owner plus later explicit approved corrections.  
-**Scaling:** fixed authored tuning; no dynamic player-level scaling.
+**Status:** ACTIVE IDENTITY ANCHOR / EXACT COMBAT KIT REBUILD PENDING  
+**Category:** enemy/encounter identity
 
+This identity remains part of the current enemy/encounter catalog wherever it is routed by current chapter, formation, Hunt, boss, support-object, quest, or story authority.
 
+The previous combat kit has been removed from live authority.
 
-| Lv | HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR |
-|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| 20 | **6,503** | **81** | **68** | 57 | 54 | 33 | 5 | 10 |
+## Rebuild boundary
 
-## Four-element state
-At encounter load:
-> **Fire**
+The dedicated enemy-kit redesign will re-author, as applicable:
 
-At each later beginning-round:
-> Fire → Ice → Lightning → Earth → Fire
+- Level and HP;
+- Strength / Magic / Intelligence / Defense / Spirit / Speed;
+- action list and AI selection;
+- Potency or fixed numerical output;
+- Execution and Return;
+- targeting and retargeting;
+- current status effects and susceptibility;
+- Delay / Interrupt behavior;
+- phase thresholds and numerical modifiers;
+- support-object numerical behavior;
+- encounter-specific combat tuning.
 
-State change:
-- grants no free action;
-- does not create a fifth element;
-- does not create a Composite Reaction system.
+Do not reconstruct the superseded kit from repository history. Use current battle-system authority and the later enemy-kit redesign.
 
-## Actions
-
-### Prototype Edge
-- Physical / Neutral / one target
-- **265 Power**
-- Base Hit100
-
-### Crown Reaction
-- Magical / current state element / one target
-- **255 Power**
-- Base Hit100
-
-Current-state rider:
-- Fire — **25% Burn**
-- Ice — **25% Freeze**
-- Lightning — **25% Stun**
-- Earth — **25% Staggered**
-
-Only the current state's rider is eligible.
-
-### Prototype Burst
-- Magical / current state element / all conscious party members
-- **190 Power per target**
-- Base Hit95
-- no harmful-status rider
-- 2-round repetition lock
-
-### Prototype Guard
-> **Power: N/A — no direct damage**
-- Defense +10% / Spirit +10% through end following round
-- 2-round repetition lock
-
-## Architecture
-One HP bar.
-No transformation.
+Identity, current placement, narrative role, protected/nonlethal outcome, and form/body relationships remain owned by the corresponding current encounter/story/register authorities.

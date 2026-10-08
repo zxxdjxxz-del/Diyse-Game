@@ -1,57 +1,28 @@
-# Calamity Memory
+# Diyse — Calamity Memory
 
-**Chapter:** 13 — Final Domain  
-**Status:** **POWER COMPLETE / BOUNDED MEMORY RULE**
+**Status:** ACTIVE IDENTITY ANCHOR / EXACT COMBAT KIT REBUILD PENDING  
+**Category:** enemy/encounter identity
 
-Calamity Memory is a combat-memory construct.
-It is not another Entity fragment or independent ancient survivor.
+This identity remains part of the current enemy/encounter catalog wherever it is routed by current chapter, formation, Hunt, boss, support-object, quest, or story authority.
 
-## Body
-| Lv | HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR |
-|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| 62 | **1,720** | **194** | **226** | 112 | **126** | 44 | 5 | 15 |
+The previous combat kit has been removed from live authority.
 
-## Actions
+## Rebuild boundary
 
-### Memory Rupture
-- one party member
-- Hybrid / Ruin
-- **75% ATK / 25% MAG**
-- **255 Power**
-- Base Hit100
+The dedicated enemy-kit redesign will re-author, as applicable:
 
-### Calamity Replay
-Records the most recent completed eligible direct-damage party action.
+- Level and HP;
+- Strength / Magic / Intelligence / Defense / Spirit / Speed;
+- action list and AI selection;
+- Potency or fixed numerical output;
+- Execution and Return;
+- targeting and retargeting;
+- current status effects and susceptibility;
+- Delay / Interrupt behavior;
+- phase thresholds and numerical modifiers;
+- support-object numerical behavior;
+- encounter-specific combat tuning.
 
-On a later selected Calamity Replay:
+Do not reconstruct the superseded kit from repository history. Use current battle-system authority and the later enemy-kit redesign.
 
-> **Power = clamp(round(source total Power × 0.85), 140, 300)**
-
-Eligibility and recording timing match Devouring Echo:
-- only after the action completes;
-- Attack / direct-damage Ability / direct-damage Standard Card only;
-- no Items, Defend, support-only, reactions, summons, Ultimates, Prime Invocation, or Prime commands.
-
-Rules:
-- Base Hit100;
-- preserve damage school/element;
-- preserve target shape;
-- preserve physical/magical/hybrid weighting;
-- use Calamity Memory's own ATK/MAG.
-
-Multi-hit:
-- convert total Power first;
-- preserve hit count;
-- split converted total as evenly as possible.
-
-Calamity Replay does **not** reproduce:
-- status riders;
-- penetration;
-- healing/drain;
-- stat/resource effects;
-- forced targeting;
-- extra actions;
-- once-per-battle gates.
-
-No prediction.
-No permanent-state rewrite.
+Identity, current placement, narrative role, protected/nonlethal outcome, and form/body relationships remain owned by the corresponding current encounter/story/register authorities.

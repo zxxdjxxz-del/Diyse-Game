@@ -1,91 +1,29 @@
 # Diyse — Class EXP and Mastery Rules
 
-**Status:** ACTIVE CLASS / ABILITY AUTHORITY  
-**Authority:** current class-domain owner plus later explicit approved corrections.  
+**Status:** ACTIVE STRUCTURAL AUTHORITY / NUMERIC REBUILD PENDING  
+**Authority:** current class-domain owner plus `../10_PROGRESSION_AND_EXP/`.
 
+## Class-Level caps
 
-## Class-Level cap
 - Base Class: **CL13**
 - Subclass: **CL13**
 
-## Provisional pre-rebuild CEXP threshold reference
-
-> **Numeric rebuild boundary:** the values below are retained as the current pre-rebuild reference only. `10_PROGRESSION_AND_EXP` owns the planned EXP/CEXP recalibration and may replace these cumulative thresholds. Do not use this table as final balance certification.
-
-| Class Level | Cumulative CEXP |
-|---:|---:|
-| CL1 | 0 |
-| CL2 | 150 |
-| CL3 | 350 |
-| CL4 | 600 |
-| CL5 | 950 |
-| CL6 | 1,350 |
-| CL7 | 1,800 |
-| CL8 | 2,300 |
-| CL9 | 2,850 |
-| CL10 | 3,450 |
-| CL11 | 4,150 |
-| CL12 | 4,950 |
-| CL13 | **6,000** |
-
 Base and Subclass CEXP are separate.
 
-Battle CEXP goes to the **currently selected class only**.
-The unselected class receives 0.
+Battle CEXP applies to the **currently selected class** unless a later progression rule explicitly changes that behavior.
 
-The detailed chapter CEXP economy, formation awards, optional-source budgets, simulations, and final threshold calibration belong in `10_PROGRESSION_AND_EXP`.
+## Subclass access
 
-## Provisional recruitment Base-Class planning inputs
+Sixfold Volition at the end of Chapter 7 unlocks Subclass use.
 
-Recruitment **chapters** below remain current story facts. Starting Base CL/CEXP values are provisional progression inputs and must be revalidated with the EXP/CEXP rebuild.
+## Mastery
 
-| Character | Recruitment | Starting Base CL | Starting Base CEXP |
-|---|---|---:|---:|
-| Cyanis | Ch0 | CL1 | 0 |
-| Ilyra | Ch0 | CL1 | 0 |
-| Torren | Ch1 | CL4 | 600 |
-| Nimera | Ch3 | CL4 | 600 |
-| Vaelira | Ch4 | CL7 | 1,800 |
-| Seyrik | Ch6 | CL8 | 2,300 |
+There is no spendable Mastery Point currency.
 
-## Current active Mastery behavior
+Exact Mastery/passive unlock thresholds and effects are open for the dedicated class-kit/progression rebuild.
 
-Mastery Points are **removed**.
+## Numeric boundary
 
-Automatic Core Masteries:
-- CL3 — Core 1
-- CL6 — Core 2
-- CL9 — Core 3
-- CL12 — Core 4
+Exact cumulative CEXP thresholds, recruitment starting CEXP/Class Levels, chapter CEXP budgets, and class-completion timing are owned by the pending progression rebuild.
 
-Automatic Subclass Masteries:
-- CL3 — Subclass 1
-- CL5 — Subclass 2
-- CL7 — Equipment Mastery
-- CL11 — Legacy Mastery
-
-Therefore:
-
-> **Battle → CEXP → selected Class Level → Ability / Trait / Mastery unlock**
-
-Player Level is no longer a Mastery currency gate.
-
-Sixfold Volition:
-- unlocks access to Subclasses;
-- does **not** grant a Mastery Point.
-
-A character has all eight Masteries at:
-- Base CL12;
-- Subclass CL11.
-
-Full class completion still requires CL13 in both lines.
-
-## Authority note
-
-The retired 8-Mastery-Point purchase model is historical provenance only. Current repository authority is:
-
-- Mastery Points are removed;
-- Masteries unlock automatically by Class Level;
-- Sixfold Volition unlocks Subclass access but grants no Mastery currency.
-
-The pending EXP/CEXP rebuild may change the **CEXP required to reach a Class Level**, but it does not by itself reopen the Class-Level unlock schedule above.
+No earlier threshold table is current balance authority.

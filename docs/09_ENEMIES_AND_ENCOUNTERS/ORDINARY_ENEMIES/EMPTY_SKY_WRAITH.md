@@ -1,37 +1,28 @@
-# Empty Sky Wraith
+# Diyse — Empty Sky Wraith
 
-**Chapter:** 13 — Final Domain  
-**Status:** **POWER COMPLETE / RAW BODY AUTHORED**
+**Status:** ACTIVE IDENTITY ANCHOR / EXACT COMBAT KIT REBUILD PENDING  
+**Category:** enemy/encounter identity
 
-"Sky" does not create a Wind element.
+This identity remains part of the current enemy/encounter catalog wherever it is routed by current chapter, formation, Hunt, boss, support-object, quest, or story authority.
 
-## Body
-| Lv | HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR |
-|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| 61 | **1,420** | 92 | **224** | 92 | **128** | **50** | 10 | 15 |
+The previous combat kit has been removed from live authority.
 
-## Actions
+## Rebuild boundary
 
-### Empty Bolt
-- one party member
-- Magical / Colorless
-- **245 Power**
-- Base Hit100
+The dedicated enemy-kit redesign will re-author, as applicable:
 
-### Sky Shock
-- one party member
-- Magical / Lightning
-- **235 Power**
-- Base Hit100
-- **20% Stun**
-- 2-round repetition lock
+- Level and HP;
+- Strength / Magic / Intelligence / Defense / Spirit / Speed;
+- action list and AI selection;
+- Potency or fixed numerical output;
+- Execution and Return;
+- targeting and retargeting;
+- current status effects and susceptibility;
+- Delay / Interrupt behavior;
+- phase thresholds and numerical modifiers;
+- support-object numerical behavior;
+- encounter-specific combat tuning.
 
-### Hollow Gale
-- all conscious party members
-- Magical / Colorless
-- **180 Power per target**
-- Base Hit95
-- 2-round repetition lock
+Do not reconstruct the superseded kit from repository history. Use current battle-system authority and the later enemy-kit redesign.
 
-`Gale` is presentation only.
-No Wind element.
+Identity, current placement, narrative role, protected/nonlethal outcome, and form/body relationships remain owned by the corresponding current encounter/story/register authorities.

@@ -1,63 +1,16 @@
 # Diyse — Ilyra Native Legacies
 
-**Status:** ACTIVE LEGACY AUTHORITY  
-**Authority:** current items/equipment-domain owner plus later explicit approved corrections.  
+**Status:** ACTIVE LEGACY IDENTITY AUTHORITY — STATS / EFFECTS REBUILD PENDING
 
+| Legacy | Slot | Trait identity |
+|---|---|---|
+| **I Said Enough.** | Wardrod | **Final Warning** |
+| **Try Me Instead.** | Shield | **Sanctuary** |
+| **No. Stay Here.** | Focus | **Stay With Me** |
+| **Get Behind Me.** | Warding Armor | **Immediate Shelter** |
 
+These Legacy names, slots, and Trait names remain current. Exact stats, capstones, and Trait effects are open.
 
-| Legacy | Slot | Raw stats | Capstone | Trait |
-|---|---|---|---|---|
-| **I Said Enough.** | Wardrod | +58 ATK / +63 MAG | +10% direct healing | **Final Warning** |
-| **Try Me Instead.** | Shield | +28 DEF / +30 SPR | Max HP +250 | **Sanctuary** |
-| **No. Stay Here.** | Focus | +22 MAG / +28 SPR | Max MP +40 | **Stay With Me** |
-| **Get Behind Me.** | Warding Armor | +34 DEF / +44 SPR | Max HP +325 | **Immediate Shelter** |
+Ilyra's equipment lock remains: Wardrod Primary only; no sword / Two-Handed Sword access.
 
-
-## I Said Enough. — Final Warning
-After the wearer resolves a real eligible heal or harmful-status removal on another ally:
-- store one Final Warning setup.
-Next eligible damaging Wardrod action gains:
-- **+15% final damage**
-- **+15pp applicable Defense/Spirit penetration**
-under its current action formula.
-One setup maximum; no free attack.
-
-## Try Me Instead. — Sanctuary
-Capstone:
-- **Max HP +250**.
-
-While wearer is conscious:
-- other conscious active-party allies at **50% Max HP or lower** take **8% less eligible direct damage**.
-Does not protect wearer, redirect damage, alter targeting, or create Cover/interception.
-
-## No. Stay Here. — Stay With Me
-Capstone:
-- **Max MP +40**.
-
-Once per round, after the first eligible **Ability** actually:
-- restores HP to an ally;
-- removes an eligible harmful status from an ally; or
-- successfully revives an ally;
-
-restore **8% of wearer's Max MP** after the Ability resolves.
-
-Full MP cost must be payable first.
-No Items, Standard Cards, Prime Invocation, or Prime commands.
-No effect if the support action produced no qualifying real effect.
-
-## Get Behind Me. — Immediate Shelter
-Capstone:
-- **Max HP +325**.
-
-When an eligible healing Ability targets a conscious ally at **30% Max HP or lower** when the action begins:
-- that qualifying target gains **+15% direct-healing potency** from the Ability;
-- after the Ability resolves, that qualifying target takes **10% less eligible direct damage through the end of the following round**.
-
-For multi-target healing, both benefits are evaluated separately per target.
-The direct-damage reduction follows the global strongest-active direct-damage-reduction rule; it does not add with a stronger simultaneous reduction.
-No extra action, revive bonus, Barrier, priority, or turn-order rewrite.
-
-
-## Donor legality
-The Legacy Trait travels with the actual item and must function for any legal donor receiver.
-No universal off-owner penalty exists.
+Donor legality remains governed by `DONOR_LEGACY_ACCESS.md`.

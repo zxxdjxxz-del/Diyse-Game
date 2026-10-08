@@ -16,4 +16,4 @@ Susceptibility:
 
 Final chance caps at 100%.
 
-There is no hidden Status Potency, Status Resistance, Accuracy, or application-reliability core stat. Individual effects may explicitly modify a chance or guarantee/prevent an application, but this file must not define a second global resolver.
+Individual effects may explicitly modify a chance or guarantee/prevent an application, but this file must not define a second global resolver.

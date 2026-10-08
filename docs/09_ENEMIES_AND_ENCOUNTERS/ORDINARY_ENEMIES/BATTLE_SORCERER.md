@@ -1,114 +1,28 @@
-# Battle Sorcerer
+# Diyse — Battle Sorcerer
 
-**Chapter:** 0 — P06 combined final Broken Convoy confrontation  
-**Status:** **POWER COMPLETE / AUTHORED STORY BODY**
+**Status:** ACTIVE IDENTITY ANCHOR / EXACT COMBAT KIT REBUILD PENDING  
+**Category:** enemy/encounter identity
 
-This is the exact Battle Sorcerer used in the current P06 combined final boss with Riftmaw.
+This identity remains part of the current enemy/encounter catalog wherever it is routed by current chapter, formation, Hunt, boss, support-object, quest, or story authority.
 
-## Body
-| Lv | HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR |
-|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| 4 | **620** | 24 | **40** | 22 | **26** | 21 | 0 | 5 |
+The previous combat kit has been removed from live authority.
 
-## Actions
+## Rebuild boundary
 
-### War-Sorcery Bolt
-- one party member
-- Magical / Colorless
-- **140 Power**
-- Base Hit100
+The dedicated enemy-kit redesign will re-author, as applicable:
 
-### Shard Volley
-- all conscious party members
-- Magical / Colorless
-- **100 Power per target**
-- Base Hit100
-- 2-round repetition lock
+- Level and HP;
+- Strength / Magic / Intelligence / Defense / Spirit / Speed;
+- action list and AI selection;
+- Potency or fixed numerical output;
+- Execution and Return;
+- targeting and retargeting;
+- current status effects and susceptibility;
+- Delay / Interrupt behavior;
+- phase thresholds and numerical modifiers;
+- support-object numerical behavior;
+- encounter-specific combat tuning.
 
-### Rift Lance Preparation
-> **Power: N/A — no direct damage**
+Do not reconstruct the superseded kit from repository history. Use current battle-system authority and the later enemy-kit redesign.
 
-Availability:
-> **Round 2 or later only**
-
-Rules:
-- consumes the Battle Sorcerer's selected action;
-- can be selected only if no Rift Lance is currently prepared;
-- once selected, locks **Rift Lance** as the Battle Sorcerer's next selected action if the Battle Sorcerer remains able to act;
-- **once per battle**;
-- no free action;
-- no prediction of player commands.
-
-### Rift Lance
-- one party member
-- Magical / Ruin
-- **210 Power**
-- Base Hit100
-
-Rift Lance is legal only after Rift Lance Preparation.
-
-No harmful-status rider.
-
-## P06 victory rule
-The Battle Sorcerer is one of two mandatory bodies in P06:
-- Battle Sorcerer;
-- Riftmaw.
-
-Victory requires both bodies to be defeated.
-
-At Battle Sorcerer 0 HP:
-- the Battle Sorcerer is defeated;
-- the battle continues if Riftmaw remains active;
-- no second wave occurs.
-
-No Phase 2.
-No fresh body.
-No Prime refresh.
-
-
-## Chapter-0 formation lock
-The final Broken Convoy confrontation uses:
-> **Riftmaw + Battle Sorcerer**
-
-The injured Iron Cohort Soldier is not part of the Chapter-0 combat roster. There is no separate Riftmaw fight and no separate later Battle Sorcerer fight.
-
-## P06 behavior lock
-- Round 1: Rift Lance Preparation is illegal.
-- Round 2 onward: Rift Lance Preparation becomes eligible if it has not been used and no Rift Lance is already prepared.
-- Selecting Rift Lance Preparation consumes the Battle Sorcerer's action exactly as authored.
-- Once prepared, **Rift Lance is forced as the Battle Sorcerer's next selected action** if the Battle Sorcerer remains able to act.
-- Rift Lance selects equally between conscious Cyanis and Ilyra when that forced action is selected; preparation does not secretly pre-mark or focus a target.
-- Shard Volley retains its 2-round repetition lock.
-- When no forced Rift Lance exists, currently legal War-Sorcery Bolt / Shard Volley / eligible Preparation use the normal action-selection fallback.
-- No hidden coordination or focus-fire rule is shared with Riftmaw.
-
-## Visual authority
-Current locked Chapter-0 appearance:
-> `../../14_ART_AND_VISUALS/ENEMIES/CHAPTER_00_ENEMY_VISUAL_AUTHORITY.md`
-
-Combat/encounter mechanics remain owned by this file; visual identity is owned by the art-domain authority above.
-
-## Exact current visual master
-The Battle Sorcerer's exact Chapter-0 appearance is the approved render recorded in:
-> `../../14_ART_AND_VISUALS/ENEMIES/CHAPTER_00_ENEMY_VISUAL_AUTHORITY.md`
-
-Master fingerprint:
-- image-generation ID: `6da6acea-2115-45f3-870b-1651c27286f7`
-- SHA-256: `4090842e2e765cecc83235d1ddf79d0b211872f3abbf2baff0955bd3bfff3573`
-- dimensions: **1145 × 1374**
-
-The visual master controls helmet/hood treatment, armor-vs-cloth balance, staff geometry, purple focus crystal, and overall B00/B00.5 silhouette over older prose.
-
-
-## Chapter-2 ordinary use — Old Bastion
-Battle Sorcerer is the current Chapter-2 caster identity, replacing the older **Black Host War-Sorcerer / Transfer Adept** lane.
-
-Chapter-2 status:
-> **PLACEMENT LOCKED / ORDINARY RAW BODY + ACTION KIT OPEN**
-
-Rules:
-- do not copy the Chapter-0 P06 authored-boss body unchanged into ordinary Chapter-2 encounters;
-- exact Chapter-2 stats/actions remain open;
-- Battle Sorcerer is a valid candidate to carry Chapter 2's Burn rollout, but exact Burn ownership remains open until the ordinary kit is finalized;
-- no Stun or Freeze in Chapter 2;
-- maximum one Battle Sorcerer per ordinary formation under current formation authority.
+Identity, current placement, narrative role, protected/nonlethal outcome, and form/body relationships remain owned by the corresponding current encounter/story/register authorities.

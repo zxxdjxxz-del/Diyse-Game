@@ -1,55 +1,28 @@
-# Ruin Breach Captain
-**Chapter:** 9 strong normal-pool enemy — Crownfall theater  
-**Architecture:** one HP bar  
-**Status:** **POWER COMPLETE / RAW LINE RETAINED**
+# Diyse — Ruin Breach Captain
 
-| Lv | HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR |
-|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| 44 | **4,350** | **160** | **120** | **108** | **99** | **46** | 5 | 10 |
+**Status:** ACTIVE IDENTITY ANCHOR / EXACT COMBAT KIT REBUILD PENDING  
+**Category:** enemy/encounter identity
 
-### Breach Captain Cleave
-- Physical / Neutral / one target
-- **300 Power**
-- Base Hit100
-- **25% Bleed**
-- 1-round repetition lock
+This identity remains part of the current enemy/encounter catalog wherever it is routed by current chapter, formation, Hunt, boss, support-object, quest, or story authority.
 
-### Ruin Breach
-- Hybrid / Ruin75/25 / one target
-- **310 Power**
-- Base Hit100
-- **25% Staggered**
-- 2-round repetition lock
+The previous combat kit has been removed from live authority.
 
-### Breachline Sweep
-- Physical / Neutral / all conscious party members
-- **220 Power per target**
-- Base Hit95
-- 2-round repetition lock
+## Rebuild boundary
 
-### Cinder Breach
-- Hybrid / Fire75/25 / one target
-- **285 Power**
-- Base Hit100
-- **25% Burn**
-- 2-round repetition lock
+The dedicated enemy-kit redesign will re-author, as applicable:
 
-### Breach Command
-> **Power: N/A — no direct damage**
-- Attack +10%
-- Magic +10%
-- Speed +10%
-through end of following round
-- no extra action
-- 2-round repetition lock
+- Level and HP;
+- Strength / Magic / Intelligence / Defense / Spirit / Speed;
+- action list and AI selection;
+- Potency or fixed numerical output;
+- Execution and Return;
+- targeting and retargeting;
+- current status effects and susceptibility;
+- Delay / Interrupt behavior;
+- phase thresholds and numerical modifiers;
+- support-object numerical behavior;
+- encounter-specific combat tuning.
 
-One body. No support wave. No transformation. No extra ordinary action.
+Do not reconstruct the superseded kit from repository history. Use current battle-system authority and the later enemy-kit redesign.
 
-
-## Normal-pool conversion — 2026-09-22
-Ruin Breach Captain is no longer optional side content.
-
-Current role:
-> **strong normal-pool enemy**
-
-It is encountered through the chapter/area's normal encounter structure rather than an optional room or branch. If the identity is unique/named, use a one-time normal-pool entry rather than repeatable copies. Existing raw stats and Power remain retained; encounter frequency/placement and reward impact require revalidation where the prior optional placement mattered.
+Identity, current placement, narrative role, protected/nonlethal outcome, and form/body relationships remain owned by the corresponding current encounter/story/register authorities.

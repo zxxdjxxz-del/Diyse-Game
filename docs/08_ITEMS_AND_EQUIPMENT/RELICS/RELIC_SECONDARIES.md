@@ -1,19 +1,13 @@
 # Diyse — Relic Secondaries
 
-**Status:** ACTIVE RELIC AUTHORITY  
-**Authority:** current items/equipment-domain owner plus later explicit approved corrections.  
+**Status:** ACTIVE RELIC IDENTITY AUTHORITY — STATS / EFFECTS REBUILD PENDING
 
+| Type | Relic | Trait identity |
+|---|---|---|
+| Shield | No Further | Hold the Impact |
+| Shield | The Quiet Gate | Nothing Through |
+| Focus | Glass Hunger | Find the Opening |
+| Focus | Second Spring | Return Strength |
+| Focus | One Breath Ahead | Exact Moment |
 
-Current Relic Secondary count:
-> **5**
-
-- 2 Shields
-- 3 Foci
-
-| Type | Relic | Raw stats | Trait | Additional |
-|---|---|---|---|---|
-| Shield | No Further | +29 DEF / +12 SPR / -4 SPD | Hold the Impact | Earth damage ×0.80; incoming Staggered application ×0.80 |
-| Shield | The Quiet Gate | +16 DEF / +27 SPR / -1 SPD | Nothing Through | Lightning damage ×0.80; +15 Status Resistance |
-| Focus | Glass Hunger | +24 MAG / +11 SPR | Find the Opening | — |
-| Focus | Second Spring | +17 MAG / +23 SPR | Return Strength | +10 Status Resistance |
-| Focus | One Breath Ahead | +16 MAG / +16 SPR / +9 SPD | Exact Moment | — |
+Exact stats, resistances, additional bonuses, and Trait effects are open for the equipment rebuild.

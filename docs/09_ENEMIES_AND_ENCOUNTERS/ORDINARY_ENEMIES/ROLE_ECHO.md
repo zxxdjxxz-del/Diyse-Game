@@ -1,74 +1,28 @@
-# Role Echo
+# Diyse — Role Echo
 
-**Chapter:** 7 — Prison of Names  
-**Status:** **POWER COMPLETE / BOUNDED ECHO RULE**
+**Status:** ACTIVE IDENTITY ANCHOR / EXACT COMBAT KIT REBUILD PENDING  
+**Category:** enemy/encounter identity
 
-Role Echo never predicts a player command and never erases or changes permanent class identity.
+This identity remains part of the current enemy/encounter catalog wherever it is routed by current chapter, formation, Hunt, boss, support-object, quest, or story authority.
 
-## Body
-| Lv | HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR |
-|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| 31 | **820** | **102** | **112** | 62 | 70 | 40 | 5 | 10 |
+The previous combat kit has been removed from live authority.
 
-## Actions
+## Rebuild boundary
 
-### Echo Strike
-- one party member
-- Hybrid / Neutral
-- **50% ATK / 50% MAG**
-- **190 Power**
-- Base Hit100
+The dedicated enemy-kit redesign will re-author, as applicable:
 
-### Replayed Role
-The Echo records the most recent completed eligible direct-damage party action.
+- Level and HP;
+- Strength / Magic / Intelligence / Defense / Spirit / Speed;
+- action list and AI selection;
+- Potency or fixed numerical output;
+- Execution and Return;
+- targeting and retargeting;
+- current status effects and susceptibility;
+- Delay / Interrupt behavior;
+- phase thresholds and numerical modifiers;
+- support-object numerical behavior;
+- encounter-specific combat tuning.
 
-Eligible:
-- Attack;
-- direct-damage Ability;
-- direct-damage Standard Card.
+Do not reconstruct the superseded kit from repository history. Use current battle-system authority and the later enemy-kit redesign.
 
-Not eligible:
-- Items;
-- Defend;
-- healing/support-only actions;
-- counters/reactions;
-- summons;
-- Ultimates;
-- Prime Invocation / Prime commands.
-
-Recording happens:
-> **only after the party action actually completes**
-
-On a later selected Role Echo action:
-
-> **Power = clamp(round(source total Power × 0.70), 100, 220)**
-
-Also:
-- Base Hit100;
-- preserve source damage school / element;
-- preserve source target shape;
-- preserve source physical/magical/hybrid weighting;
-- use Role Echo's own ATK/MAG.
-
-Multi-hit:
-- convert source total Power first;
-- preserve hit count;
-- split converted total as evenly as possible.
-
-Replayed Role does **not** copy:
-- status riders;
-- penetration;
-- healing/drain;
-- stat/resource effects;
-- forced targeting;
-- extra actions;
-- once-per-battle gates.
-
-It cannot alter:
-- permanent class;
-- Masteries;
-- equipment;
-- Cards;
-- character identity.
-
-This is a bounded combat echo, not identity theft.
+Identity, current placement, narrative role, protected/nonlethal outcome, and form/body relationships remain owned by the corresponding current encounter/story/register authorities.

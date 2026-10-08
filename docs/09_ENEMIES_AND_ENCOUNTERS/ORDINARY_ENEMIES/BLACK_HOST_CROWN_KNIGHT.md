@@ -1,45 +1,28 @@
-# Black Host Crown Knight
+# Diyse — Black Host Crown Knight
 
-**Chapter:** 12 — Black Host imperial heartland  
-**Status:** **POWER COMPLETE / RAW BODY AUTHORED**
+**Status:** ACTIVE IDENTITY ANCHOR / EXACT COMBAT KIT REBUILD PENDING  
+**Category:** enemy/encounter identity
 
-"Crown" is political/military presentation.
+This identity remains part of the current enemy/encounter catalog wherever it is routed by current chapter, formation, Hunt, boss, support-object, quest, or story authority.
 
-This enemy does not use Cards, Prime Invocation, or Crown Engine player mechanics.
+The previous combat kit has been removed from live authority.
 
-## Body
-| Lv | HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR |
-|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| 57 | **2,000** | **212** | 148 | **136** | 116 | 37 | 0 | 10 |
+## Rebuild boundary
 
-## Actions
+The dedicated enemy-kit redesign will re-author, as applicable:
 
-### Crown Blade
-- one party member
-- Physical / Neutral
-- **265 Power**
-- Base Hit100
-- **25% Bleed**
-- 1-round repetition lock
+- Level and HP;
+- Strength / Magic / Intelligence / Defense / Spirit / Speed;
+- action list and AI selection;
+- Potency or fixed numerical output;
+- Execution and Return;
+- targeting and retargeting;
+- current status effects and susceptibility;
+- Delay / Interrupt behavior;
+- phase thresholds and numerical modifiers;
+- support-object numerical behavior;
+- encounter-specific combat tuning.
 
-### Imperial Ruin
-- one party member
-- Hybrid / Ruin
-- **75% ATK / 25% MAG**
-- **275 Power**
-- Base Hit100
+Do not reconstruct the superseded kit from repository history. Use current battle-system authority and the later enemy-kit redesign.
 
-### Crownfall Sweep
-- all conscious party members
-- Physical / Neutral
-- **195 Power per target**
-- Base Hit95
-- 2-round repetition lock
-
-### Guard
-> **Power: N/A — no direct damage**
-
-Effect:
-> **Defense +15% / Spirit +15% through the end of the following round**
-
-2-round repetition lock.
+Identity, current placement, narrative role, protected/nonlethal outcome, and form/body relationships remain owned by the corresponding current encounter/story/register authorities.

@@ -1,23 +1,24 @@
 # Diyse — Standard Cards: Memory
 
-**Status:** ACTIVE STANDARD-CARD AUTHORITY  
-**Authority:** current Card/Prime-domain owner plus later explicit approved corrections.  
+**Status:** STRUCTURAL FACE AUTHORITY / EXACT CARD CONTENT REBUILD PENDING
 
-**Face identity:** recall, repetition, preservation, and reuse of prior actions/states; what has happened remaining available to influence the present.
+The Standard Card system contains **24 total Standard Cards** across the six current Faces.
 
-## Current count
-**3**
+Memory identity:
+> Quick, Slow, Delay, Stuck, duration manipulation, delayed/echo effects, and controlled recall/copy.
 
-| Card | MP | Target | Formula | Power | Base Hit | Effect | Acquisition |
-|---|---:|---|---|---:|---:|---|---|
-| **Burden Shift** | 26 | one conscious ally + one enemy | Status transfer | — | — | Choose Burn/Freeze/Stun/Staggered/Bleed on ally; remove it and transfer its current remaining state/duration to a nonimmune enemy. No fresh application/Status-Resistance roll. Does not move positive effects, stat changes, Fields, or protected/scripted states. | Chapter 3 — protected Ancient repository |
-| **Reversal Engine** | 40 | one conscious ally or enemy | Tactical state | — | — | Through end of target's second normal turn, eligible HP damage and HP healing are inverted. No recursive inversion; overheal does not become extra damage; protected/scripted healing remains excluded. | **OPEN / TBD — retired Regional Hunt #3 / Archive Judgment Engine source removed; replacement source not yet assigned** |
-| **Split Moment** | 48 | one conscious ally; self legal | Action economy | — | — | On target's next normal turn, take 2 independently selected actions and pay each action's full normal cost. Cap is 2 actions. Cannot grant extra Prime rounds/commands. If Prime Invocation begins in one slot, any unresolved ordinary second slot is forfeited. Current Bleed-on-action rules apply to each qualifying actual action. | Chapter 7 — Warden of the Nameless / Revision Arbiter |
+The exact Memory Card roster is open for the dedicated Standard Card redesign.
 
-These effects remain mechanically unchanged by the Face rename. Their Memory identity comes from preserving or reusing already-established state/action context rather than from a universal new replay subsystem.
+Open:
+- individual Card names;
+- acquisition sources;
+- active effects;
+- equipped stat bonuses/passives;
+- MP costs;
+- Potencies/fixed magnitudes;
+- targeting;
+- Execution / Return;
+- status/timeline interaction;
+- copy/recall eligibility where relevant.
 
-## Global references
-- MP prices shown here are current repository values.
-- Harmful statuses resolve through `../../05_BATTLE_SYSTEM/STATUS_EFFECTS.md`.
-- Base Hit/Evasion resolves through `../../05_BATTLE_SYSTEM/BASE_HIT_AND_EVASION.md`.
-- Current Bleed timing/clearing is owned by `../../05_BATTLE_SYSTEM/STATUS_EFFECTS.md`.
+Any future Memory Card content must use the current battle-system stats, statuses, targeting, and TURN / EXECUTION framework.

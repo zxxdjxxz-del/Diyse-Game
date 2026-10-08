@@ -8,7 +8,7 @@
 
 **The Greyspires** — current mountain macro-region.
 
-**Black Host Territory** — political/territorial label for Black Host-controlled homeland; not a conventional country name.
+**Black Host Territory** — political/territorial label for Black Host-controlled homeland.
 
 **The Blackspine** — dark frontier mountain range within Black Host Territory.
 
@@ -22,21 +22,37 @@
 
 ## Combat
 
-**Spirit** — magic-resistance defensive stat.
+**TURN** — a combatant's command opportunity.
 
-**Base Hit** — action-level hit value; there is no natural Accuracy character stat.
+**EXECUTION** — resolution point for a selected queued action.
 
-**Guard** — valid intentional defensive state for appropriate enemies.
+**Return** — the action-specific multiplier used when scheduling the acting combatant's next TURN.
 
-**Staggered** — harmful status applying **Attack −20% / Magic −20% / Speed −20%** under its current target-rank duration rules; it does not reduce Base Hit/Evasion and is not a Break meter.
+**Potency** — explicit coefficient used by scalable damage/healing rules where applicable.
+
+**Strength** — native physical offense.
+
+**Magic** — native magical offense.
+
+**Intelligence** — scalable Standard Card numerical output.
+
+**Defense** — physical mitigation.
+
+**Spirit** — magical mitigation and native healing potency.
+
+**Speed** — personal TURN-spacing stat.
+
+**Quick / Slow** — current TURN-spacing modifiers.
+
+**Stuck / Asleep / Poison / Wounded / Sealed / Ward / Regen / Doomed** — current named battle states/statuses as defined by the battle master.
 
 **Ruin** — special affinity/school; not a fifth standard element.
 
 ## Cards
 
-**Perception** — current Face governing Accuracy-oriented effects under the existing Base Hit/application-reliability system, Evasion, Critical Hits, and Fields. Represents reading the battlefield, positioning, timing, openings, and controlling/exploiting space.
+**Perception** — Face associated with precision, criticals, opportunistic timing, battlefield reading, and Interrupt.
 
-**Memory** — current Face governing recall, repetition, preservation, and reuse of prior actions/states. Represents what has happened remaining available to influence the present.
+**Memory** — Face associated with Quick, Slow, Delay, Stuck, duration manipulation, delayed/echo effects, and controlled recall/copy.
 
 **Last Cartographer** — Torren-associated Perception Story Prime.
 
@@ -45,6 +61,7 @@
 **Sixfold Volition** — end-Ch7 decision/event that unlocks all Subclasses.
 
 Current Face set:
+
 > **Might / Elements / Grace / Perception / Memory / Ruin**
 
 ## Chapter 4 / Ancient regulation
@@ -57,7 +74,7 @@ Current Face set:
 
 ## Economy
 
-**G** — current ordinary currency and the only current-facing ordinary currency term.
+**G** — current ordinary currency.
 
 ## Progression
 
@@ -65,7 +82,7 @@ Current Face set:
 
 **CEXP** — Class EXP received by the currently selected class for each recruited character.
 
-**Mastery** — automatic Class-Level unlock; no Mastery Point currency.
+**Mastery** — class progression concept with no spendable Mastery Point currency.
 
 ## Equipment
 
@@ -75,9 +92,12 @@ Current Face set:
 
 **Legacy Component** — unique Character-Quest project item used in native Legacy completion.
 
-## Prime states
+## Prime states and manifestation
 
-**Recovered**  
-**Awakened**
+**Recovered** — Story Prime state that manifests for one signature action and then demanifests.
 
-Awakened is final.
+**Awakened** — final Prime progression state; uses the 3-segment Manifestation Meter.
+
+**Manifestation Meter** — 3-segment Awakened Prime battery used by Basic / Medium / Heavy commands.
+
+**Final Return** — state entered after a successful Prime command empties the meter; automatic Dismissal resolves on the Prime's already-scheduled next TURN.

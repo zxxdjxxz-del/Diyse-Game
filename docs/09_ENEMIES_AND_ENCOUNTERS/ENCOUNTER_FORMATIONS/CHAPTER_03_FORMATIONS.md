@@ -207,8 +207,6 @@ Authority Chamber:
 - Authority approach: **5–6**
 - simultaneous ordinary-enemy ceiling: **6**
 
-# Validation boundary
+## Combat-kit boundary
 
-The roster is locked, but exact formation weights/frequencies and all numeric tuning remain open.
-
-The Chapter-3 Stun rollout still requires a current ordinary-enemy source assignment.
+Formation names/compositions and current placement remain encounter-structure authority. Exact enemy kits and numerical tuning are rebuilt separately.

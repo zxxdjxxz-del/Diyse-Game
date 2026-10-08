@@ -1,37 +1,28 @@
-# Brackenwall Reaver
+# Diyse — Brackenwall Reaver
 
-**Current chapter placement:** **UNASSIGNED — removed from active Chapter-1 roster on 2026-09-22**  
-**Status:** **IDENTITY / RAW BODY RETAINED; FUTURE PLACEMENT OPEN**
+**Status:** ACTIVE IDENTITY ANCHOR / EXACT COMBAT KIT REBUILD PENDING  
+**Category:** enemy/encounter identity
 
-## Body
-| Lv | HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR |
-|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| 2 | 115 | 27 | 8 | 14 | 11 | 23 | 0 | 0 |
+This identity remains part of the current enemy/encounter catalog wherever it is routed by current chapter, formation, Hunt, boss, support-object, quest, or story authority.
 
-## Actions
+The previous combat kit has been removed from live authority.
 
-### Reaver Chop
-- one party member
-- Physical / Neutral
-- **130 Power**
-- Base Hit **100**
-- no harmful-status rider
+## Rebuild boundary
 
-### Ragged Cleave
-- one party member
-- Physical / Neutral
-- **150 Power**
-- Base Hit **95**
-- **10% Bleed**
-- 1-round repetition lock
+The dedicated enemy-kit redesign will re-author, as applicable:
 
+- Level and HP;
+- Strength / Magic / Intelligence / Defense / Spirit / Speed;
+- action list and AI selection;
+- Potency or fixed numerical output;
+- Execution and Return;
+- targeting and retargeting;
+- current status effects and susceptibility;
+- Delay / Interrupt behavior;
+- phase thresholds and numerical modifiers;
+- support-object numerical behavior;
+- encounter-specific combat tuning.
 
-## Placement correction — 2026-09-22
-Brackenwall Reaver is not used in current Chapter-1 random formations.
+Do not reconstruct the superseded kit from repository history. Use current battle-system authority and the later enemy-kit redesign.
 
-Reason:
-- Chapter-1 Briar Passage is reserved for natural threats;
-- Chapter-1 Black Host and construct ordinary enemies are confined to Hollow Watch;
-- the Reaver overlaps the early melee-pressure job already covered by Black Host Raider.
-
-The identity and authored body are retained rather than deleted. A later chapter/area may reuse or relocate it only through a separate explicit placement decision.
+Identity, current placement, narrative role, protected/nonlethal outcome, and form/body relationships remain owned by the corresponding current encounter/story/register authorities.

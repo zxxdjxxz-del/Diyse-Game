@@ -1,89 +1,28 @@
-# Thornhide
+# Diyse — Thornhide
 
-**Chapter:** 1 — Southern Briar Passage  
-**Role:** mandatory named story boss / Chapter-1 final combat climax  
-**Species / boss display identity:** Thornhide  
-**Status:** **POWER COMPLETE / STORY RESOLUTION CORRECTED**
+**Status:** ACTIVE IDENTITY ANCHOR / EXACT COMBAT KIT REBUILD PENDING  
+**Category:** enemy/encounter identity
 
-## Current story lock
+This identity remains part of the current enemy/encounter catalog wherever it is routed by current chapter, formation, Hunt, boss, support-object, quest, or story authority.
 
-The **Thornhide** is:
-- an exceptionally large, powerful Thornhide native to Briar Passage;
-- a naturally occurring wild Greater Beast;
-- not corrupted, controlled, fitted, collared, or altered by the Black Host;
-- fought as a normal mandatory boss;
-- defeated through ordinary combat victory.
+The previous combat kit has been removed from live authority.
 
-There is **no** protected HP floor, targetable irritant fitting, purification objective, nonlethal objective, or forced retreat resolution.
+## Rebuild boundary
 
-At ordinary combat defeat:
-> **Thornhide is dead.**
+The dedicated enemy-kit redesign will re-author, as applicable:
 
-This matches the current Chapter-1 story and exact Beat-10 dialogue authority.
+- Level and HP;
+- Strength / Magic / Intelligence / Defense / Spirit / Speed;
+- action list and AI selection;
+- Potency or fixed numerical output;
+- Execution and Return;
+- targeting and retargeting;
+- current status effects and susceptibility;
+- Delay / Interrupt behavior;
+- phase thresholds and numerical modifiers;
+- support-object numerical behavior;
+- encounter-specific combat tuning.
 
-## Current battle-party lock
-Thornhide is fought by exactly:
-- Cyanis;
-- Ilyra;
-- Torren.
+Do not reconstruct the superseded kit from repository history. Use current battle-system authority and the later enemy-kit redesign.
 
-Chapter-1 combat-party cap:
-> **3**
-
-Maevra remains noncombat. Do not tune or validate this boss against the general four-character battle-party maximum.
-
-## Raw body — RETAIN
-
-| Lv | HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR |
-|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| 4 | **850** | **34** | **18** | **22** | **20** | **29** | 10 | 0 |
-
-## Actions
-
-### Panic Rush
-- one party member
-- Physical / Neutral
-- **155 Power**
-- Base Hit **100**
-- no harmful-status rider
-
-### Briar Rend
-- one party member
-- Physical / Neutral
-- **135 Power**
-- Base Hit **100**
-- **20% Bleed**
-- 1-round repetition lock
-
-### Cornered Sweep
-- all conscious party members
-- Physical / Neutral
-- **110 Power per target**
-- Base Hit **95**
-- no harmful-status rider
-- 2-round repetition lock
-
-### Frightened Guard
-> **Power: N/A — no direct damage**
-
-Effect:
-> **Defense +10% / Spirit +10% through the end of the following round**
-
-2-round repetition lock.
-
-No Brace.  
-No Barrier.
-
-The legacy action name does not imply a protected-victim or Black Host-control story state.
-
-## Reward
-Normal boss victory:
-> **120 EXP / 28 CEXP**
-
-## Superseded material
-Retire all older Chapter-1 Briarhide text that describes:
-- a Black Host Irritant Fitting;
-- a 25% protected animal floor;
-- stabilization or fitting removal as the win condition;
-- the animal retreating alive after the fight;
-- Black Host involvement in its aggression.
+Identity, current placement, narrative role, protected/nonlethal outcome, and form/body relationships remain owned by the corresponding current encounter/story/register authorities.

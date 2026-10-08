@@ -1,47 +1,15 @@
-# Diyse — Formation EXP / CEXP
+# Diyse — Formation EXP / CEXP Boundary
 
-> **STATUS — PROVISIONAL FORMATION REWARD BASELINE / REBUILD PENDING.**
+**Status:** NUMERIC REBUILD PENDING
 
-**Current structural rule:** Mastery Points do not exist; Masteries unlock automatically from Class Level.
+Exact formation EXP/CEXP bands, weighted chapter pools, and ordinary-encounter reward totals are open.
 
-## Late-game Player-EXP formation anchors
+The rebuild must coordinate:
+- current encounter formations;
+- chapter encounter density;
+- mandatory/completionist route validation;
+- selected-class CEXP assignment;
+- weak-enemy Player-EXP diminishing returns where still applicable;
+- the **Lv55–60** normal full-class-completion target.
 
-| Chapter | Light EXP | Standard EXP | Heavy EXP | L/S/H mix |
-|---:|---:|---:|---:|
-| Ch9 | 1,245 | 1,540 | 1,920 | 22 / 55 / 23 |
-| Ch10 | 1,700 | 2,100 | 2,500 | 20 / 55 / 25 |
-| Ch11 | 2,100 | 2,650 | 3,100 | 19 / 55 / 26 |
-| Ch12 | 2,100 | 2,600 | 3,150 | 22 / 55 / 23 |
-| Ch13 | 3,000 | 3,700 | 4,500 | 22.5 / 55 / 22.5 |
-
-## Formation CEXP bands
-
-| Chapter | Light CEXP | Standard CEXP | Heavy CEXP | Ordinary CEXP pool |
-|---:|---:|---:|---:|---:|
-| Ch1 | 8 | 10 | 12 | ~178 |
-| Ch2 | 10 | 12 | 15 | ~230 |
-| Ch3 | 12 | 15 | 18 | ~286 |
-| Ch4 | 14 | 18 | 22 | ~346 |
-| Ch5 | 17 | 21 | 26 | ~433 |
-| Ch6 | 20 | 25 | 31 | ~489 |
-| Ch7 | 23 | 29 | 36 | ~569 |
-| Ch8 | 26 | 33 | 41 | ~613 |
-| Ch9 | 30 | 38 | 47 | ~613 |
-| Ch10 | 32 | 40 | 50 | ~614 |
-| Ch11 | 36 | 45 | 56 | ~785 |
-| Ch12 | **20** | **25** | **30** | **~450** |
-| Ch13 | **36** | **46** | **57** | **~370** |
-
-Rules:
-- encounter counts are planning centers, not required fights;
-- no hidden chapter top-up;
-- no forced grind;
-- CEXP does not use Player-EXP diminishing returns.
-
-## Late-game CEXP planning
-
-Current weighted planning centers:
-- Ch12: **~450 ordinary CEXP across 18 expected encounters**;
-- Ch13: **~370 ordinary CEXP across 8 expected encounters**.
-
-These bands remain provisional until the CEXP rebuild recertifies the chapter pools.
+No earlier formation reward table is current authority.

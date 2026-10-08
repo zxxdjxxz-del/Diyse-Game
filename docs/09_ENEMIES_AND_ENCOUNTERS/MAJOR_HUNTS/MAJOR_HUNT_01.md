@@ -1,80 +1,28 @@
-# Diyse — Major Hunt #1: Ashen Whitehorn
+# Diyse — Major Hunt 01
 
-**Status:** ACTIVE MAJOR-HUNT ENCOUNTER BODY — REVALIDATION PENDING  
-**Authority:** current enemy/encounter owner plus later explicit approved corrections.  
+**Status:** ACTIVE IDENTITY ANCHOR / EXACT COMBAT KIT REBUILD PENDING  
+**Category:** enemy/encounter identity
 
+This identity remains part of the current enemy/encounter catalog wherever it is routed by current chapter, formation, Hunt, boss, support-object, quest, or story authority.
 
-| Ref | Encounter / form | Lv | HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR | Architecture |
-|---:|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---|
-| — | **Ashen Whitehorn** | 33 | 15,600 | 130 | 94 | 92 | 85 | 44 | 10 | 10 | one bar / Last Run same-bar |
+The previous combat kit has been removed from live authority.
 
-## Unlock
-After **Chapter 6**.
+## Rebuild boundary
 
-## Architecture
-One continuous HP bar. Driven target focus. Last Run is a same-bar escalation and does not refresh Prime availability.
+The dedicated enemy-kit redesign will re-author, as applicable:
 
-## Scaling
-Fixed authored tuning.
-No dynamic player-level scaling.
+- Level and HP;
+- Strength / Magic / Intelligence / Defense / Spirit / Speed;
+- action list and AI selection;
+- Potency or fixed numerical output;
+- Execution and Return;
+- targeting and retargeting;
+- current status effects and susceptibility;
+- Delay / Interrupt behavior;
+- phase thresholds and numerical modifiers;
+- support-object numerical behavior;
+- encounter-specific combat tuning.
 
+Do not reconstruct the superseded kit from repository history. Use current battle-system authority and the later enemy-kit redesign.
 
-## Current action kit
-
-### Whitehorn Gore
-- one party member
-- Physical / Neutral
-- **315 Power**
-- Base Hit100
-- **30% Bleed**
-- 1-round repetition lock
-
-### Ashfrost Rush
-- one party member
-- Physical / Neutral
-- **295 Power**
-- Base Hit95
-- **25% Staggered**
-- 2-round repetition lock
-
-### Frostwake
-- all conscious party members
-- Magical / Ice
-- **215 Power per target**
-- Base Hit95
-- **15% Freeze per target**
-- 2-round repetition lock
-
-### Horn Guard
-> **Power: N/A — no direct damage**
-
-Effect:
-> **Defense +15% / Spirit +15% through the end of the following round**
-
-2-round repetition lock.
-
-## Last Run
-At first reaching:
-> **30% HP**
-
-Ashen Whitehorn enters **Last Run** for the remainder of battle:
-- Attack +15%
-- Speed +10%
-- Defense −10%
-- Spirit −10%
-
-No HP refill.
-No Prime refresh.
-
-Unlock:
-
-### Last Run
-- one party member
-- Physical / Neutral
-- **380 Power**
-- Base Hit95
-- **30% Staggered**
-- 2-round repetition lock
-
-The state change grants no free action.
-
+Identity, current placement, narrative role, protected/nonlethal outcome, and form/body relationships remain owned by the corresponding current encounter/story/register authorities.

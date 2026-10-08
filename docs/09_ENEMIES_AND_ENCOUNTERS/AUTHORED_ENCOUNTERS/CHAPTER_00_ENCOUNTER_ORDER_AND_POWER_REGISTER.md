@@ -1,287 +1,37 @@
-# Chapter 0 — Encounter Order + Power Register
+# Diyse — Chapter 0 Encounter Order
 
-**Status:** **STRUCTURAL ENCOUNTER DESIGN CLOSED / POWER COMPLETE / NUMERIC DIFFICULTY-RESOURCE VALIDATION DEFERRED**
+**Status:** ACTIVE CHAPTER-0 ENCOUNTER-ORDER AUTHORITY — EXACT ENEMY KITS REBUILD PENDING
 
-This file controls the current Chapter-0 encounter order. Historical S001–S006 dialogue files are regeneration/reference sources and do not force obsolete encounter placement.
+## Placement principle
 
-## Current placement principle
-Chapter 0 deliberately separates Cyanis's solo tutorial pressure from the heavier named encounters.
-
-- Cyanis handles **five authored solo fights** across B01–B02 before Ilyra joins.
-- B01 contains three fights that progressively teach basic roles rather than opening with every Black Host role at once.
-- B02 contains two shorter Wreck Field fights, including the existing lone-Hound survivor-route beat.
-- B03 remains combat-free.
-- **Ruin Vanguard Pursuer / concealed Seyrik does not appear in combat until after Ilyra has joined Cyanis in the defense.**
-- after a real noncombat reset, **Riftmaw + Battle Sorcerer form one combined final boss encounter** under current story authority.
-
-## Chapter-0 Card-response combat rule
-Chapter 0 uses **two separate incomplete-response flares**.
-
-- **First flare:** occurs during B04's triage crisis and fully subsides before the next combat.
-- **Ruin Vanguard Pursuer / concealed Seyrik:** no Card-derived protection.
-- **Second flare:** returns only for the combined Riftmaw + Battle Sorcerer final confrontation and owns the current three-round Defense / Spirit bonus.
-- neither flare is a Prime action, Prime manifestation, selectable Card command, or bearer confirmation.
-
-## Mandatory-resource baseline
-Chapter 0 currently guarantees:
-> **3 Field Salves** as Cyanis's finite convoy field issue.
-
-This is not Chapter-0 normal shop stock. Reliable normal purchasing still begins in Chapter 1.
-
-Because two encounters have moved from the solo state to the Cyanis+Ilyra state, resource pressure and difficulty for those moved encounters must be revalidated before Chapter-0 difficulty is reclosed.
-
-## Chapter-0 encounter-spacing lock
-
-The seven authored combats are **separate encounters**, not wave chains.
-
-Exact seconds/meters remain map-playtest variables, but the following presentation order is locked:
-
-### B01 — opening ambush
-**Combat 1 — Raider + Crossbowman**
-- occurs after Cyanis is split onto the east side;
-- after victory, return to player control;
-- Cyanis gets a short route-clearing / survivor-movement interval before the next fight.
-
-**Combat 2 — Raider + Black Host Shieldbearer**
-- occurs at a later road pocket, not as an immediate reinforcement wave;
-- after victory, return to player control;
-- a second short movement / wreckage-read interval separates it from Combat 3.
-
-**Combat 3 — 2 War Hounds**
-- occurs late on the Convoy Road, near the handoff into the Wreck Field;
-- after victory, do not immediately spawn Combat 4;
-- the Wreck Field begins with rescue/investigation gameplay first.
-
-### B02 — Wreck Field
-Before Combat 4, the player must receive:
-- Wounded Escort story trigger;
-- short rescue route;
-- Trapped Survivor story trigger;
-- Stone-Line route decision/read.
-
-**Combat 4 — Crossbowman + War Hound**
-- occurs only after that rescue/route material;
-- after victory, survivors visibly continue along the safer lower route;
-- player receives a short traversal/escort interval before Combat 5.
-
-**Combat 5 — lone War Hound**
-- interrupts the survivor route as its own encounter;
-- after victory, no more Cyanis-solo combat occurs;
-- the officer/north-withdrawal sightline material follows before B03.
-
-### B03
-> **FULL COMBAT-FREE BREATHER**
-
-No random/authored combat on the Evacuation Relay / decision sequence.
-
-### B04
-> **NO STANDALONE BATTLE**
-
-Ilyra introduction, triage friction, first incomplete flare, and her decision to join the defense occur without inserting another fight.
-
-### B05
-- begins only after a short perimeter/player-control interval following B04;
-- concealed Seyrik / Ruin Vanguard is one discrete encounter.
-
-### B05 → B06 reset
-A real noncombat reset is mandatory:
-- no battle-to-battle transition;
-- no immediate boss sting;
-- Card remains inert;
-- triage/perimeter activity visibly resumes;
-- Cyanis + Ilyra receive a discrete breathing interval before the final push.
-
-### B06
-Riftmaw + Battle Sorcerer is the final mandatory combat.
-
-### B07
-> **NO COMBAT**
-
-These locks are structural. Exact traversal length and timing remain open to graybox/playtest tuning.
+Ruin Vanguard Pursuer / concealed Seyrik does not enter combat until after Ilyra has joined Cyanis in the defense.
 
 ## Current combat order
 
-### 0-01 — B01 Opening Line — CYANIS SOLO
-Formation:
+1. **B01 Opening Line** — Cyanis solo
+2. **B01 Shield Push** — Cyanis solo
+3. **B01 Hound Rush** — Cyanis solo
+4. **B02 Wreck Field Mixed Pressure** — Cyanis solo
+5. **B02 Survivor-Route Hound** — Cyanis solo
+6. **B05 Ruin Vanguard Pursuer** — Cyanis + Ilyra
+7. **B06 Combined Final Boss** — Cyanis + Ilyra
+
+B03 and B04 contain the evacuation / Ilyra-entry sequence rather than another ordinary combat slot.
+
+After the Seyrik confrontation there is a noncombat separation before the B06 final confrontation.
+
+## Roster identities used by Chapter 0
+
 - Black Host Raider
 - Black Host Crossbowman
-
-Purpose:
-> basic Attack / Ability / target-selection introduction
-
-Clear:
-> defeat both
-
-No statuses.
-
-### 0-02 — B01 Shield Push — CYANIS SOLO
-Formation:
-- Black Host Raider
 - Black Host Shieldbearer
-
-Purpose:
-> introduce a more durable defensive enemy and teach target/tempo adjustment
-
-Clear:
-> defeat both
-
-No statuses.
-
-### 0-03 — B01 Hound Rush — CYANIS SOLO
-Formation:
-- 2 War Hounds
-
-Purpose:
-> faster pressure and a change from the Black Host soldier pairings
-
-Clear:
-> defeat both Hounds
-
-No Handler.
-No reinforcement.
-
-After this fight, B01's opening combat pressure ends. **Do not place Seyrik or Riftmaw here.**
-
-### 0-04 — B02 Wreck Field Mixed Pressure — CYANIS SOLO
-Formation:
-- Black Host Crossbowman
 - War Hound
-
-Purpose:
-> combine ranged and fast-melee pressure while Cyanis is moving survivors through the wreck field
-
-Clear:
-> defeat both
-
-No additional story reveal is attached to this fight.
-
-### 0-05 — B02 Survivor-Route Hound — CYANIS SOLO
-Formation:
-- exactly 1 War Hound
-
-Clear:
-> defeat the Hound
-
-This remains the short authored Hound beat immediately before the north-withdrawal observation.
-
-No Handler / second Hound / new creature form.
-
-### B03 — Evacuation Relay
-> **No combat**
-
-The Evacuation Relay Decision remains a dialogue/decision sequence and provides a deliberate noncombat break after five solo fights.
-
-### B04 — Ilyra introduction / first Card flare / party expansion
-The first incomplete Card response occurs here as a brief story flare and fully subsides before the next combat.
-
-By the time the next authored combat begins:
-> active combat pair = **Cyanis + Ilyra**.
-
-### 0-06 — B05 Ruin Vanguard Pursuer — CYANIS + ILYRA
-Formation:
-- Ruin Vanguard Pursuer only
-
-Resolution:
-- disengages at 70% HP or after 2 full rounds, whichever occurs first;
-- retreats alive;
-- no identity reveal.
-
-Underlying retrospective canon:
-> this is **Seyrik Rell under concealed identity**.
-
-No Card-derived protection is active.
-
-### Noncombat separation after Seyrik
-There must be a real story/triage/repositioning interval before B06.
-
-### 0-07 — B06 Combined Final Boss — CYANIS + ILYRA
-Formation:
+- Ruin Vanguard Pursuer
 - Riftmaw
 - Battle Sorcerer
 
-This is the single final mandatory boss encounter for Chapter 0.
+## Combat-kit rebuild boundary
 
-Current story/encounter locks:
-- Riftmaw uses one HP bar;
-- no Riftmaw transformation;
-- no support wave;
-- no injured Iron Cohort Soldier;
-- second incomplete Card flare grants **Defense +15% / Spirit +15% for Rounds 1–3**;
-- Rift Lance Preparation no earlier than Round 2;
-- the damaged recovery casing breaks during the fight after the second flare is active;
-- victory requires defeating both Riftmaw and the Battle Sorcerer;
-- both are defeated in the same encounter.
+The order, participant chronology, encounter identities, and story placement above remain current.
 
-### B07
-> **No combat**
-
-Aftermath / survivor recovery / overnight-camp handoff.
-
-## Chapter-0 raw + Power summary
-
-| Identity | Lv | HP | Direct-damage Powers |
-|---|---:|---:|---|
-| Black Host Raider — Ch0 | 1 | 88 | 110 / 125 |
-| Black Host Crossbowman — Ch0 | 1 | 72 | 115 / 135 |
-| Black Host Shieldbearer — Ch0 | 2 | 128 | 105 / 125 Ruin |
-| War Hound | 2 | 142 | 135 / 130 Ruin / 145 |
-| Ruin Vanguard Pursuer | 4 | 620 | 150 / 155 Ruin |
-| Riftmaw | 4 | 340 | 165 / 175 Ruin / 120 AoE |
-| Battle Sorcerer | 4 | 620 | 140 / 100 AoE / 210 Ruin |
-
-## Chapter-0 status boundary
-Chapter 0:
-> **does not inflict harmful party statuses**
-
-Status rollout remains later:
-- Burn begins Chapter 2;
-- Stun begins Chapter 3;
-- Freeze begins Chapter 4;
-- Bleed is not used against the party in Chapter 0.
-
-## Progression boundary
-Chapter 0 remains:
-> **Player-Level static**
-
-This encounter placement change does not create Chapter-0 Player-Level gains.
-
-## Current closure state
-Riftmaw:
-> **RETAINED / MOVED AFTER ILYRA JOINS / NO CARD PROTECTION**
-
-Ruin Vanguard Pursuer:
-> **SEYRIK CONCEALED / RETREATS ALIVE / MOVED AFTER ILYRA JOINS / NO CARD PROTECTION**
-
-B06:
-> **FINAL BROKEN CONVOY CONFRONTATION / SECOND CARD FLARE**
-
-Enemy direct-damage Power completeness:
-> **PASS / unchanged**
-
-Difficulty-validation status:
-> **REOPENED FOR CURRENT ENCOUNTER FLOW**
-
-Revalidation must cover:
-- cumulative resource pressure across the five Cyanis-solo fights;
-- B05 Ruin Vanguard Pursuer against Cyanis + Ilyra;
-- the combined B06 Riftmaw + Battle Sorcerer final boss against Cyanis + Ilyra with the current three-round Card protection.
-
-Raw stats/Powers are not automatically changed by the placement revision.
-
-Current revalidation framework:
-`../../16_BALANCE_AND_TESTING/BALANCE/ENEMY_BOSS_MANDATORY_COMPLETIONIST_VALIDATION.md`
-
-Historical Chapter-0 proof remains available through Git history only.
-
-
-## Chapter-0 roster lock
-Chapter 0 uses exactly these combat identities:
-- Black Host Raider;
-- Black Host Crossbowman;
-- Black Host Shieldbearer;
-- War Hound;
-- Ruin Vanguard Pursuer / concealed Seyrik;
-- Riftmaw;
-- Battle Sorcerer.
-
-Beast Handler and injured Iron Cohort Soldier are removed from Chapter-0 combat placement.
+Exact enemy levels, HP/stats, actions, Potencies, statuses, timing, AI behavior, and numerical tuning are open for the dedicated enemy-kit redesign.

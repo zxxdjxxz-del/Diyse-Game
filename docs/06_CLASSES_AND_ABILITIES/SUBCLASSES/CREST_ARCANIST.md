@@ -1,51 +1,13 @@
 # Diyse — Crest Arcanist
 
-**Status:** ACTIVE SUBCLASS AUTHORITY  
-**Authority:** current class sheet plus later explicit approved corrections.  
-
-
+**Status:** ACTIVE SUBCLASS IDENTITY / EXACT KIT REBUILD PENDING  
 **Owner:** Cyanis  
-**Donor tradition:** Green Arcanist  
-**Identity:** caster-forward Crest anti-magic / elemental execution  
-**Trait:** **Crest Resonance**  
-**Ultimate:** **Crest Dominion**
+**Donor tradition:** Green Arcanist
 
-## Ability spine
-| Unlock | Ability | MP | Current effect |
-|---:|---|---:|---|
-| CL1 | **Arcane Lance** | 19 | One enemy; Magical / Colorless; 220 Power; 25% Spirit penetration; after damage grants Crest Attunement. |
-| CL4 | **Elemental Crest** | 15 | One enemy; Magical; choose Fire / Ice / Lightning / Earth; 180 Power; no status, Field, or buff. |
-| CL7 | **Nullifying Seal** | 22 | One enemy; Magical / Colorless; 175 Power; if target has a removable positive buff, +25% final damage; after damage remove up to 2 removable buffs. `Seal` is name-only. |
-| CL9 | **Arcane Rupture** | 31 | All enemies; Magical / Colorless; 205 Power; remove 1 removable hostile Field after damage and apply **Minor Magic Down = Magic −10% for 4 rounds**. |
-| CL11 | **Elemental Convergence** | 27 | One enemy; four sequential Magical hits Fire → Ice → Lightning → Earth; 240 total Power; each hit checks affinity independently; no harmful-status riders. |
-| CL13 | **Crest Dominion** | 54 | Subclass Ultimate; all enemies; Magical / Colorless; 330 Power; 35% Spirit penetration; remove up to 2 removable positive buffs from each affected enemy and 1 removable hostile Field; creates no Field. |
+## Identity
 
-## Masteries
-| Unlock | Mastery | Current effect |
-|---:|---|---|
-| CL3 | **Arcane Force** | Arcane Lance 220 → 240 Power. |
-| CL5 | **Elemental Precision** | Elemental Crest 180 → 200 Power and +10 Base Hit. |
-| CL7 | **Equipment Mastery** | Unlocks class eligibility for the donor **Green Arcanist Relic**, subject to actual Relic ownership and other established requirements. |
-| CL11 | **Legacy Mastery** | Unlocks class eligibility for the donor **Green Arcanist Legacy**, subject to donor Legacy completion/ownership and other established requirements. |
+Crest Arcanist is Cyanis's caster-forward Crest expression, combining anti-magic pressure, elemental technique, and magical execution.
 
-The previous third mechanical Subclass Mastery and old fourth-node Equipment-Mastery layout are historical. Current repository structure is two mechanical Masteries → Equipment Mastery → Legacy Mastery, with no Mastery Point cost.
+## Rebuild boundary
 
-## Trait ranks
-- Rank I: all MP-costing Crest Arcanist Abilities cost 2 less MP, minimum 1.
-- Rank II: damaging Magical / Colorless Crest Arcanist Abilities gain +15% Spirit penetration.
-- Rank III: consuming Crest Attunement also grants +10% final damage.
-
-## Class setup state
-Crest Attunement lasts through end of following round; next different Crest Arcanist Ability consumes it for +15 Base Hit/application reliability. One instance; reapplication refreshes.
-
-
-## Global references
-- Damage/penetration: `../../05_BATTLE_SYSTEM/DAMAGE_FORMULAS.md`
-- Temporary stat changes: `../../05_BATTLE_SYSTEM/STAT_CHANGES.md`
-- Fields/removal: `../../05_BATTLE_SYSTEM/FIELDS.md`
-- Hit/Evasion: `../../05_BATTLE_SYSTEM/BASE_HIT_AND_EVASION.md`
-- Critical: `../../05_BATTLE_SYSTEM/CRITICAL_HITS.md`
-- Elements/statuses: `../../05_BATTLE_SYSTEM/ELEMENTS.md` and `../../05_BATTLE_SYSTEM/STATUS_EFFECTS.md`
-
-## Firewall
-Do not restore removed historical mechanics merely because an archived version of this class used them.
+Exact Abilities, passives, MP costs, Potencies, setup states, dispels, timing, Masteries, and unlock thresholds are open.

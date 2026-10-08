@@ -1,78 +1,28 @@
-# Diyse — UI & Implementation Master
+# Diyse — UI and Implementation Master
 
-**Status:** ACTIVE UI / IMPLEMENTATION REQUIREMENTS MASTER  
-**Gameplay authority:** defer exact mechanics/content to their current numbered owner domains.
+**Status:** ACTIVE UI / IMPLEMENTATION ROUTER  
+**Authority:** owning gameplay/content domains remain authoritative over UI presentation.
 
-## Production target
-- Godot
-- Android/APK first-class target
-- HD-2D
-- landscape
-- reference composition: **1920×1080 / 16:9**
-- wider Android displays reveal additional horizontal scenery instead of stretching critical composition
-- rendering baseline currently uses Godot GL Compatibility
-- UI scales through `canvas_items` in the proof project
+## Battle command surface
 
-## Core UI priorities
-1. readable on Android landscape;
-2. fast command entry;
-3. current system truth visible without obsolete gauges;
-4. stable data-driven content rather than hardcoded story/item text in generic UI code;
-5. clear current-facing names even where legacy technical IDs remain;
-6. no player-dialogue-choice architecture;
-7. no hidden second system introduced for presentation convenience.
+Current universal command surface:
 
-## Permanent battle commands
-Exactly:
-> **Attack / Ability / Card / Item / Defend**
+> **Attack / Abilities / Cards / Item / Defend / Swap**
 
-The UI must not add:
-- Brace;
-- Break;
-- Limit;
-- Rune;
-- Summon as a separate universal command;
-- a sixth resource-specific command.
+Prime Invocation is a separate special access path when legal.
 
-Prime invocation is accessed through the current Card/Prime loadout architecture, not by inventing another permanent command.
+## Battle information
 
-## Core menu domains that must be representable
-- party / formation
-- character status
-- class / selected class / Class Level / CEXP
-- Masteries
-- Abilities
-- equipment
-- Standard Cards
-- Prime Cards
-- inventory / materials
-- quests / Hunts
-- world map / travel
-- shops / Quartermaster / services
-- save/load/options
+Current combat presentation is built around:
 
-Exact final menu hierarchy remains an **OPEN PRODUCTION UX** decision.
+- ordered TURN / EXECUTION timeline;
+- projected EXECUTION and next-TURN information for selected actions where knowable;
+- visible queued enemy intent where not intentionally concealed;
+- current Delay / Interrupt eligibility;
+- 4 active / 2 reserve party structure;
+- current HP / MP / Strength / Magic / Intelligence / Defense / Spirit / Speed;
+- current named statuses and stat Up/Down effects;
+- Standard Card loadout/access;
+- Prime Ready/Spent state, Manifestation Meter, Final Return, and post-Prime lockout.
 
-## System-display firewall
-Current-facing UI must use:
-- Spirit
-- Evasion
-- Status Resistance
-- Perception
-- Last Cartographer
-- Sixfold Volition
-- G
-- Weapon / Secondary / Armor
-- Locked / Unlocked Masteries
-
-It must not display:
-- Accuracy as a natural character stat;
-- MDEF as the primary current label;
-- Resource Face;
-- Last Measure;
-- Mastery Points;
-- Synthesis;
-- Accessory slot;
-- Barrier meter;
-- Brace;
-- Break/Stagger gauge.
+Detailed surfaces are owned by the specific UI files in this folder.

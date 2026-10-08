@@ -1,40 +1,28 @@
-# The Custodian — Perception Node / Ruin Containment Seal
+# Diyse — Custodian Domain Supports
 
-**Chapter:** 11  
-**Encounter:** The Custodian  
-**Status:** **POWER COMPLETE**
+**Status:** ACTIVE IDENTITY ANCHOR / EXACT COMBAT KIT REBUILD PENDING  
+**Category:** enemy/encounter identity
 
-## Perception Node
+This identity remains part of the current enemy/encounter catalog wherever it is routed by current chapter, formation, Hunt, boss, support-object, quest, or story authority.
 
-| Count | HP | DEF | Spirit | EVA | SR | Power |
-|---:|---:|---:|---:|---:|---:|---|
-| 1 | 700 | 140 | 152 | 0 | 10 | **N/A** |
+The previous combat kit has been removed from live authority.
 
-While functional:
-- Custodian Base Hit +10
-- Custodian Speed +10%
-- no additional action
+## Rebuild boundary
 
-## Ruin Containment Seal
+The dedicated enemy-kit redesign will re-author, as applicable:
 
-| Count | HP | DEF | Spirit | EVA | SR | Power |
-|---:|---:|---:|---:|---:|---:|---|
-| 1 | 760 | 150 | 145 | 0 | 10 | **N/A** |
+- Level and HP;
+- Strength / Magic / Intelligence / Defense / Spirit / Speed;
+- action list and AI selection;
+- Potency or fixed numerical output;
+- Execution and Return;
+- targeting and retargeting;
+- current status effects and susceptibility;
+- Delay / Interrupt behavior;
+- phase thresholds and numerical modifiers;
+- support-object numerical behavior;
+- encounter-specific combat tuning.
 
-While functional:
-- Custodian Defense +10% / Spirit +10%
-- direct Ruin-school HP damage taken by Custodian −15% final
+Do not reconstruct the superseded kit from repository history. Use current battle-system authority and the later enemy-kit redesign.
 
-This is not Barrier.
-
-## Shared rules
-- no independent turns
-- no direct HP-damage actions
-- no repair
-- no respawn
-- destroyed state persists
-- surviving supports disengage at Open Reconciliation
-- no Prime restoration from support destruction or disengagement
-
-Both:
-> **Power: N/A — no independent direct damage**
+Identity, current placement, narrative role, protected/nonlethal outcome, and form/body relationships remain owned by the corresponding current encounter/story/register authorities.

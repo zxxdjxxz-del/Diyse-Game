@@ -1,58 +1,28 @@
-# Diyse — Regional Hunt #7: Rift Gate Colossus
+# Diyse — Regional Hunt 07
 
-**Status:** ACTIVE REGIONAL-HUNT ENCOUNTER BODY — REVALIDATION PENDING  
-**Authority:** current enemy/encounter owner plus later explicit approved corrections.  
-**Scaling:** fixed authored tuning; no dynamic player-level scaling.
+**Status:** ACTIVE IDENTITY ANCHOR / EXACT COMBAT KIT REBUILD PENDING  
+**Category:** enemy/encounter identity
 
+This identity remains part of the current enemy/encounter catalog wherever it is routed by current chapter, formation, Hunt, boss, support-object, quest, or story authority.
 
+The previous combat kit has been removed from live authority.
 
-| Lv | HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR |
-|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| 38 | **13,276** | **144** | **127** | 107 | 98 | 36 | 0 | 10 |
+## Rebuild boundary
 
-True construct:
-> **Bleed Immune**
+The dedicated enemy-kit redesign will re-author, as applicable:
 
-## Actions
+- Level and HP;
+- Strength / Magic / Intelligence / Defense / Spirit / Speed;
+- action list and AI selection;
+- Potency or fixed numerical output;
+- Execution and Return;
+- targeting and retargeting;
+- current status effects and susceptibility;
+- Delay / Interrupt behavior;
+- phase thresholds and numerical modifiers;
+- support-object numerical behavior;
+- encounter-specific combat tuning.
 
-### Gate Hammer
-- Physical / Neutral / one target
-- **325 Power**
-- Base Hit100
+Do not reconstruct the superseded kit from repository history. Use current battle-system authority and the later enemy-kit redesign.
 
-### Rift Cannon
-- Magical / Ruin / one target
-- **320 Power**
-- Base Hit100
-
-### Gate Pulse
-- Magical / Ruin / all conscious party members
-- **235 Power per target**
-- Base Hit95
-- 2-round repetition lock
-
-### Gate Guard
-> **Power: N/A — no direct damage**
-- Defense +15% / Spirit +15% through end following round
-- 2-round repetition lock
-
-## 50% — Marching Protocol
-At first reaching 50% HP:
-- Speed +10% for the rest of battle;
-- Defense −10% / Spirit −10% for the rest of battle;
-- unlock Marching Crush.
-
-No HP refill.
-No Prime refresh.
-
-### Marching Crush
-- Physical / Neutral / one target
-- **355 Power**
-- Base Hit95
-- **25% Staggered**
-- 2-round repetition lock
-
-## Architecture
-One continuous HP bar.
-
-"Gate Form" / "Marching" is presentation and same-bar escalation only.
+Identity, current placement, narrative role, protected/nonlethal outcome, and form/body relationships remain owned by the corresponding current encounter/story/register authorities.

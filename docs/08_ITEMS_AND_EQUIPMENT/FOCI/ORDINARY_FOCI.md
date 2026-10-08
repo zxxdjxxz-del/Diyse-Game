@@ -1,16 +1,15 @@
 # Diyse — Ordinary Foci
 
-**Status:** ACTIVE ITEMS / EQUIPMENT AUTHORITY  
-**Authority:** current items/equipment-domain owner plus later explicit approved corrections.  
-
+**Status:** ACTIVE FOCUS IDENTITY AUTHORITY — STATS REBUILD PENDING
 
 Current ordinary Focus count:
+
 > **3**
 
-| Focus | Raw stats |
-|---|---|
-| **Warding Focus** | +9 MAG / +19 SPR |
-| **Swift Focus** | +15 MAG / +14 SPR / +6 SPD |
-| **Battle Focus** | +21 MAG / +10 SPR |
+- **Warding Focus**
+- **Swift Focus**
+- **Battle Focus**
 
 Foci occupy Secondary.
+
+Exact Focus stats/effects are open for the equipment rebuild.

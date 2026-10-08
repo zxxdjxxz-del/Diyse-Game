@@ -1,55 +1,28 @@
-# Siege Engineer
+# Diyse — Siege Engineer
 
-**Current certified use:** Chapter 5  
-**Status:** **CH5 POWER COMPLETE / CH5 RAW BODY AUTHORED**
+**Status:** ACTIVE IDENTITY ANCHOR / EXACT COMBAT KIT REBUILD PENDING  
+**Category:** enemy/encounter identity
 
-## Chapter-5 body
-| Lv | HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR |
-|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| 19 | **430** | 58 | **74** | 42 | 50 | 33 | 0 | 5 |
+This identity remains part of the current enemy/encounter catalog wherever it is routed by current chapter, formation, Hunt, boss, support-object, quest, or story authority.
 
-## Actions
+The previous combat kit has been removed from live authority.
 
-### Cinder Charge
-- one party member
-- Magical / Fire
-- **170 Power**
-- Base Hit100
-- **20% Burn**
-- 1-round repetition lock
+## Rebuild boundary
 
-### Shrapnel Burst
-- all conscious party members
-- Physical / Neutral
-- **130 Power per target**
-- Base Hit95
-- no harmful-status rider
-- 2-round repetition lock
+The dedicated enemy-kit redesign will re-author, as applicable:
 
-### Siege Calibration
-> **Power: N/A — no direct damage**
+- Level and HP;
+- Strength / Magic / Intelligence / Defense / Spirit / Speed;
+- action list and AI selection;
+- Potency or fixed numerical output;
+- Execution and Return;
+- targeting and retargeting;
+- current status effects and susceptibility;
+- Delay / Interrupt behavior;
+- phase thresholds and numerical modifiers;
+- support-object numerical behavior;
+- encounter-specific combat tuning.
 
-Target:
-> one other living Black Host ally
+Do not reconstruct the superseded kit from repository history. Use current battle-system authority and the later enemy-kit redesign.
 
-Effect:
-> **Base Hit +10 through the end of the following round**
-
-No extra action.
-
-If no other legal ally exists:
-> use Cinder Charge instead.
-
-## Reuse boundary
-The Chapter-9 carryover requires a later chapter-appropriate raw body.
-Do not automatically reuse this Chapter-5 line.
-
-## Chapter-9 Crownfall body
-| Lv | HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR |
-|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| 40 | **980** | 94 | **152** | 70 | 86 | 36 | 0 | 10 |
-
-Chapter-9 actions:
-- Cinder Charge — **225 Power**, Fire, **25% Burn**
-- Shrapnel Burst — **175 Power per target**
-- Siege Calibration — **Power N/A**, Base Hit +10 to one ally
+Identity, current placement, narrative role, protected/nonlethal outcome, and form/body relationships remain owned by the corresponding current encounter/story/register authorities.

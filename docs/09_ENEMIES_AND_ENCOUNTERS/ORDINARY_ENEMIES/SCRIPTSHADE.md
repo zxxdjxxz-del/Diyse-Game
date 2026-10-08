@@ -1,65 +1,28 @@
-# Scriptshade
+# Diyse — Scriptshade
 
-**Current use:** Chapter 3 — Old City Archives  
-**Role:** strange archive-magic ordinary enemy  
-**Status:** **CURRENT CHAPTER-3 IDENTITY / PLACEMENT LOCKED / RAW BODY + ACTION KIT OPEN**
+**Status:** ACTIVE IDENTITY ANCHOR / EXACT COMBAT KIT REBUILD PENDING  
+**Category:** enemy/encounter identity
 
-Scriptshade is the current Chapter-3 replacement for the former **Erasure Wisp** Chapter-3 identity/slot.
+This identity remains part of the current enemy/encounter catalog wherever it is routed by current chapter, formation, Hunt, boss, support-object, quest, or story authority.
 
-Erasure Wisp has no current placement after retirement of its former Chapter-10 reuse; Git history retains its historical tuning.
+The previous combat kit has been removed from live authority.
 
-## Chapter-3 placement
+## Rebuild boundary
 
-Scriptshade is **not used in Chapter 2**.
+The dedicated enemy-kit redesign will re-author, as applicable:
 
-### Beat 6 — Hall of Seals
-Scriptshade first enters the current Chapter-3 ordinary roster in the Hall of Seals.
+- Level and HP;
+- Strength / Magic / Intelligence / Defense / Spirit / Speed;
+- action list and AI selection;
+- Potency or fixed numerical output;
+- Execution and Return;
+- targeting and retargeting;
+- current status effects and susceptibility;
+- Delay / Interrupt behavior;
+- phase thresholds and numerical modifiers;
+- support-object numerical behavior;
+- encounter-specific combat tuning.
 
-Current role:
-- introduces a distinct strange archive-magic presence;
-- should not read as generic crowd filler;
-- appears only after the Lower Archives introductory layer.
+Do not reconstruct the superseded kit from repository history. Use current battle-system authority and the later enemy-kit redesign.
 
-Exact Hall of Seals formation compositions remain under the current formation rebuild.
-
-### Beat 7 — Deep Archives
-Scriptshade remains eligible in the Deep Archives after its Hall of Seals introduction.
-
-It may mix with the currently introduced Old City roster subject to the current Deep Archives formation rebuild.
-
-## Combat-authoring boundary
-
-Current raw body and action budget are **not yet locked**.
-
-Do not:
-- copy Erasure Wisp stats/actions automatically;
-- restore Erasure Wisp mechanics under the Scriptshade name by default;
-- assign the open Chapter-3 Stun introduction to Scriptshade without an explicit combat decision;
-- invent current numeric tuning during repository cleanup.
-
-Current numeric/action authority must be authored and validated in the dedicated Chapter-3 combat pass.
-
-## Current owners
-
-Roster and placement:
-- `../CHAPTER_ENEMIES/CHAPTER_03.md`
-
-Formation structure:
-- `../ENCOUNTER_FORMATIONS/CHAPTER_03_FORMATIONS.md`
-
-Numeric/action status:
-- **OPEN / DEFERRED** under `../CHAPTER_ENEMIES/CHAPTER_03.md`; exact per-enemy tuning remains for the later Chapter-3 combat/balance pass.
-
-Historical predecessor:
-- Erasure Wisp — retired; historical details remain in Git history.
-
-## Visual authority
-
-Exact approved master:
-- `asset_sources/enemies/chapter_03/current/scriptshade.png`
-- format: PNG
-- dimensions: **1122 × 1402**
-- SHA-256: `b45dbe0c2d20ea8104b523f90335218de1ed5f318607b8426017049a3399f4f1`
-- image-generation ID: `a8d32a4b-c04b-44c0-a8f9-8636b5cb01aa`
-
-The visual master is current and exact-binary synced. Combat tuning remains open independently of the locked visual.
+Identity, current placement, narrative role, protected/nonlethal outcome, and form/body relationships remain owned by the corresponding current encounter/story/register authorities.

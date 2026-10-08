@@ -1,54 +1,28 @@
-# Renewal War-Sorcerer
+# Diyse — Renewal War Sorcerer
 
-**Chapter:** 12 — late Black Host military support  
-**Status:** **POWER COMPLETE / RAW BODY AUTHORED**
+**Status:** ACTIVE IDENTITY ANCHOR / EXACT COMBAT KIT REBUILD PENDING  
+**Category:** enemy/encounter identity
 
-Renewal is finite battle support.
+This identity remains part of the current enemy/encounter catalog wherever it is routed by current chapter, formation, Hunt, boss, support-object, quest, or story authority.
 
-It does not create:
-- infinite resurrection;
-- a Renewal resource;
-- an extra-action system.
+The previous combat kit has been removed from live authority.
 
-## Body
-| Lv | HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR |
-|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| 58 | **1,500** | 64 | **214** | 92 | **128** | 40 | 0 | 10 |
+## Rebuild boundary
 
-## Actions
+The dedicated enemy-kit redesign will re-author, as applicable:
 
-### Renewal Flame
-- one party member
-- Magical / Fire
-- **245 Power**
-- Base Hit100
-- **25% Burn**
-- 2-round repetition lock
+- Level and HP;
+- Strength / Magic / Intelligence / Defense / Spirit / Speed;
+- action list and AI selection;
+- Potency or fixed numerical output;
+- Execution and Return;
+- targeting and retargeting;
+- current status effects and susceptibility;
+- Delay / Interrupt behavior;
+- phase thresholds and numerical modifiers;
+- support-object numerical behavior;
+- encounter-specific combat tuning.
 
-### Ruin Lance
-- one party member
-- Magical / Ruin
-- **260 Power**
-- Base Hit100
+Do not reconstruct the superseded kit from repository history. Use current battle-system authority and the later enemy-kit redesign.
 
-### War-Sorcerer Wave
-- all conscious party members
-- Magical / Colorless
-- **185 Power per target**
-- Base Hit95
-- 2-round repetition lock
-
-### Renewal Surge
-> **Power: N/A — no direct damage**
-
-Target:
-> one living allied Black Host military unit; self legal
-
-Effect:
-> restore **320 HP**
-
-Hard cap:
-> **2 successful uses per Renewal War-Sorcerer per battle**
-
-Cannot revive or exceed Max HP.
-2-round repetition lock.
+Identity, current placement, narrative role, protected/nonlethal outcome, and form/body relationships remain owned by the corresponding current encounter/story/register authorities.

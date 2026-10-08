@@ -101,12 +101,6 @@ Chapter-3 Cresthaven placement:
   2. **LAST SENTINEL CONFIRMED**
 - Authority Construct becomes fully inert before Cyanis's Card stabilizes deep Ruby.
 
-# Status rollout
-
-> **Stun is introduced in Chapter 3.**
-
-The exact ordinary-enemy Stun introduction is currently **OPEN** and must be decided before final encounter certification.
-
 # Formation authority
 
 Exact current formation compositions and sub-area eligibility are owned by:
@@ -125,12 +119,8 @@ Cresthaven body-count structure remains provisional pending its own formation pa
 - Authority approach — **5–6 enemies**
 - simultaneous ordinary-enemy ceiling there remains **6** until reviewed
 
-# Validation boundary
+## Combat-kit rebuild boundary
 
-Still open:
-- raw bodies / action-Power authoring for current identities that still need them;
-- ordinary-enemy Stun introduction;
-- final formation selection weights;
-- encounter frequencies;
-- mandatory/completionist level anchors;
-- Memory Construct and Authority Construct current-party validation.
+Chapter placement, roster identity, encounter role, formation routing, and story outcome remain current where stated above.
+
+Exact enemy levels, HP/stats, actions, Potencies, statuses, susceptibility, Execution/Return, AI weights, thresholds, and other combat tuning are open for the dedicated enemy-kit redesign.

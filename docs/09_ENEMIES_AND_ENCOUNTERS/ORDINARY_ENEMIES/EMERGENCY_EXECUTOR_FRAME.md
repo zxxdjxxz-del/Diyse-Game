@@ -1,27 +1,28 @@
-# Emergency Executor Frame
-**Chapter:** 11 — Crown Engine emergency systems  
-**Status:** **POWER COMPLETE / RAW BODY AUTHORED**
+# Diyse — Emergency Executor Frame
 
-| Lv | HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR |
-|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| 49 | **1,900** | **178** | 118 | **120** | 96 | 34 | 0 | 10 |
+**Status:** ACTIVE IDENTITY ANCHOR / EXACT COMBAT KIT REBUILD PENDING  
+**Category:** enemy/encounter identity
 
-True construct: **Bleed Immune**
+This identity remains part of the current enemy/encounter catalog wherever it is routed by current chapter, formation, Hunt, boss, support-object, quest, or story authority.
 
-### Executor Cleave
-- Physical / Neutral / one target — **250 Power**, Base Hit100
+The previous combat kit has been removed from live authority.
 
-### Emergency Crush
-- Physical / Neutral / one target — **275 Power**, Base Hit95
-- **25% Staggered**, 2-round repetition lock
+## Rebuild boundary
 
-### Execution Sweep
-- Physical / Neutral / all conscious party members
-- **190 Power per target**, Base Hit95, 2-round repetition lock
+The dedicated enemy-kit redesign will re-author, as applicable:
 
-### Emergency Guard
-> **Power: N/A — no direct damage**
-- +15 Total Defense through end following round
-- 2-round repetition lock
+- Level and HP;
+- Strength / Magic / Intelligence / Defense / Spirit / Speed;
+- action list and AI selection;
+- Potency or fixed numerical output;
+- Execution and Return;
+- targeting and retargeting;
+- current status effects and susceptibility;
+- Delay / Interrupt behavior;
+- phase thresholds and numerical modifiers;
+- support-object numerical behavior;
+- encounter-specific combat tuning.
 
-"Executor" does not imply permanent character deletion.
+Do not reconstruct the superseded kit from repository history. Use current battle-system authority and the later enemy-kit redesign.
+
+Identity, current placement, narrative role, protected/nonlethal outcome, and form/body relationships remain owned by the corresponding current encounter/story/register authorities.

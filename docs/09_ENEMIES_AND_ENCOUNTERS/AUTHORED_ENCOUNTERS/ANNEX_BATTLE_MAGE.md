@@ -1,60 +1,28 @@
-# Annex Battle Mage
+# Diyse — Annex Battle Mage
 
-**Chapter:** 4 roster identity  
-**Classification:** authored/protected / nonlethal  
-**Status:** **POWER COMPLETE / PLACEMENT UNSCHEDULED / DO NOT RANDOM-SPAWN**
+**Status:** ACTIVE IDENTITY ANCHOR / EXACT COMBAT KIT REBUILD PENDING  
+**Category:** enemy/encounter identity
 
-No controlling line-complete Chapter-4 scene currently places this identity as a mandatory combatant.
+This identity remains part of the current enemy/encounter catalog wherever it is routed by current chapter, formation, Hunt, boss, support-object, quest, or story authority.
 
-S023's Annex staff remain civilians/research staff, not random enemies.
+The previous combat kit has been removed from live authority.
 
-## Body
-| Lv | HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR |
-|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| 16 | **520** | 42 | **78** | 40 | **48** | 33 | 5 | 5 |
+## Rebuild boundary
 
-## Elemental stance
-At encounter start, a separately authored placement must assign exactly one:
-- Fire
-- Ice
-- Lightning
-- Earth
+The dedicated enemy-kit redesign will re-author, as applicable:
 
-No six-state version exists.
+- Level and HP;
+- Strength / Magic / Intelligence / Defense / Spirit / Speed;
+- action list and AI selection;
+- Potency or fixed numerical output;
+- Execution and Return;
+- targeting and retargeting;
+- current status effects and susceptibility;
+- Delay / Interrupt behavior;
+- phase thresholds and numerical modifiers;
+- support-object numerical behavior;
+- encounter-specific combat tuning.
 
-## Actions
+Do not reconstruct the superseded kit from repository history. Use current battle-system authority and the later enemy-kit redesign.
 
-### Annex Bolt
-- one party member
-- Magical / assigned element
-- **175 Power**
-- Base Hit100
-
-Rider:
-- Fire — 20% Burn
-- Ice — **20% Freeze**
-- Lightning — 15% Stun
-- Earth — 20% Staggered
-
-### Element Sweep
-- all conscious party members
-- Magical / assigned element
-- **135 Power per target**
-- Base Hit95
-- no harmful-status rider
-- 2-round repetition lock
-
-### Ward
-> **Power: N/A — no direct damage**
-
-Effect:
-> **+10 Total Defense through the end of the following round**
-
-2-round repetition lock.
-
-## Nonlethal resolution
-0 HP means:
-> disarmed / yielded / unable to continue.
-
-No death presentation.
-No personal loot.
+Identity, current placement, narrative role, protected/nonlethal outcome, and form/body relationships remain owned by the corresponding current encounter/story/register authorities.

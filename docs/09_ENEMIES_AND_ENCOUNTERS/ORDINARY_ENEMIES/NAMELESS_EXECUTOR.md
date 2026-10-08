@@ -1,47 +1,28 @@
-# Nameless Executor
+# Diyse — Nameless Executor
 
-**Chapter:** 7 — Prison of Names  
-**Role:** tougher ordinary encounter  
-**Status:** **POWER COMPLETE / RAW BODY AUTHORED**
+**Status:** ACTIVE IDENTITY ANCHOR / EXACT COMBAT KIT REBUILD PENDING  
+**Category:** enemy/encounter identity
 
-## Body
-| Lv | HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR |
-|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| 31 | **1,180** | **126** | **112** | **82** | 76 | 36 | 5 | 10 |
+This identity remains part of the current enemy/encounter catalog wherever it is routed by current chapter, formation, Hunt, boss, support-object, quest, or story authority.
 
-## Actions
+The previous combat kit has been removed from live authority.
 
-### Executor Blade
-- one party member
-- Physical / Neutral
-- **230 Power**
-- Base Hit100
-- **20% Bleed**
-- 1-round repetition lock
+## Rebuild boundary
 
-### Nulling Verdict
-- one party member
-- Hybrid / Ruin
-- **75% ATK / 25% MAG**
-- **245 Power**
-- Base Hit100
-- no harmful-status rider
+The dedicated enemy-kit redesign will re-author, as applicable:
 
-### Execution Sweep
-- all conscious party members
-- Physical / Neutral
-- **165 Power per target**
-- Base Hit95
-- **15% Staggered per target**
-- 2-round repetition lock
+- Level and HP;
+- Strength / Magic / Intelligence / Defense / Spirit / Speed;
+- action list and AI selection;
+- Potency or fixed numerical output;
+- Execution and Return;
+- targeting and retargeting;
+- current status effects and susceptibility;
+- Delay / Interrupt behavior;
+- phase thresholds and numerical modifiers;
+- support-object numerical behavior;
+- encounter-specific combat tuning.
 
-### Executor Guard
-> **Power: N/A — no direct damage**
+Do not reconstruct the superseded kit from repository history. Use current battle-system authority and the later enemy-kit redesign.
 
-Effect:
-> **+15 Total Defense through the end of the following round**
-
-2-round repetition lock.
-
-Despite its name:
-> it cannot permanently erase a character, class, command, Card, item, or save-state property.
+Identity, current placement, narrative role, protected/nonlethal outcome, and form/body relationships remain owned by the corresponding current encounter/story/register authorities.

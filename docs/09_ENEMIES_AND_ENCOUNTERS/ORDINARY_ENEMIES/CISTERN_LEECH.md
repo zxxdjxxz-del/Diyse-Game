@@ -1,30 +1,28 @@
-# Cistern Leech
+# Diyse — Cistern Leech
 
-**Current use:** Chapter 2 — Old Waterworks and compatible flooded Sunken Archive sectors  
-**Status:** **POWER COMPLETE / RAW BODY AUTHORED**
+**Status:** ACTIVE IDENTITY ANCHOR / EXACT COMBAT KIT REBUILD PENDING  
+**Category:** enemy/encounter identity
 
-## Body
-| Lv | HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR |
-|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| 5 | **160** | **35** | 18 | 18 | 17 | **28** | 5 | 0 |
+This identity remains part of the current enemy/encounter catalog wherever it is routed by current chapter, formation, Hunt, boss, support-object, quest, or story authority.
 
-## Actions
+The previous combat kit has been removed from live authority.
 
-### Drain Bite
-- one party member
-- Physical / Neutral
-- **130 Power**
-- Base Hit100
-- **15% Bleed**
+## Rebuild boundary
 
-### Latch
-- one party member
-- Physical / Neutral
-- **155 Power**
-- Base Hit95
-- no harmful-status rider
-- 1-round repetition lock
+The dedicated enemy-kit redesign will re-author, as applicable:
 
+- Level and HP;
+- Strength / Magic / Intelligence / Defense / Spirit / Speed;
+- action list and AI selection;
+- Potency or fixed numerical output;
+- Execution and Return;
+- targeting and retargeting;
+- current status effects and susceptibility;
+- Delay / Interrupt behavior;
+- phase thresholds and numerical modifiers;
+- support-object numerical behavior;
+- encounter-specific combat tuning.
 
-## Sunken Archive carryover
-Cistern Leech may continue from the Old Waterworks into flooded Sunken Archive sectors where standing water / submerged access makes ecological sense. It remains ordinary wildlife rather than an Archive-made creature.
+Do not reconstruct the superseded kit from repository history. Use current battle-system authority and the later enemy-kit redesign.
+
+Identity, current placement, narrative role, protected/nonlethal outcome, and form/body relationships remain owned by the corresponding current encounter/story/register authorities.

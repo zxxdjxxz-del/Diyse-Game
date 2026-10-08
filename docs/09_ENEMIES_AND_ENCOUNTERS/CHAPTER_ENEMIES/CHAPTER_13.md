@@ -1,7 +1,5 @@
 # Diyse — Chapter 13 Enemies — The Last Command / Final Domain
 **Current authority:** this chapter file owns the current chapter enemy roster and broad placement except where a narrower current enemy, formation, authored-encounter, boss, or story owner explicitly controls a subsection.  
-**Authority rule:** current repository names, current chapter/story placement, and current system firewalls supersede conflicting historical material; Git history is provenance only.
-
 
 ## Ordinary / repeatable
 - Hunger Aspect
@@ -36,8 +34,6 @@
 - Major Hunt #6 is separate optional content and must be completed before the final point of no return if desired.
 - Hunger/Ruin/Silence/Fear are Aspects of the single Reconstituted Entity continuity, not separate surviving Entity souls/fragments.
 - No third final-boss form, hidden copy, escape fragment, or surviving branch.
-- Chapter-13 broad ordinary / strong-normal / final-support Power coverage: **COMPLETE**.
-- Historical mandatory-vs-completionist snapshots are **not current certification**; re-run under the active validation framework when current tuning/progression inputs are stable.
 - Last Shelter remains the true-PONR preparation boundary; final-boss difficulty must be revalidated against current progression and tuning inputs.
 
 Current individual enemy owners:
@@ -45,71 +41,22 @@ Current individual enemy owners:
 
 ### Ordinary copy mechanics
 Devouring Echo:
-> 75% completed source total Power / clamp120–260
 
 Calamity Memory:
-> 85% completed source total Power / clamp140–300
 
 Neither predicts player commands or copies permanent state.
 
 ### Devourer of Names
 Raw retained:
-> Lv63 / HP7,000 / ATK216 / MAG230 / DEF151 / Spirit159 / SPD57
 
 One bar.
 
 At60%:
-> one temporary Consumed Echo, max1, Power N/A, no independent turn.
 
 No permanent name/identity/progression erasure.
 
-## Numerical boundary
-Chapter-13 ordinary raw bodies are now active-balance authority in individual files.
+## Combat-kit rebuild boundary
 
-Devourer of Names retains its inherited strong-normal raw line.
+Chapter placement, roster identity, encounter role, formation routing, and story outcome remain current where stated above.
 
-Last Weapon Archon and Reconstituted Entity → The Last Command remain separately owned.
-
-Final Entity support authority remains separately owned and unchanged.
-
-
-## Current Last Weapon Archon handoff
-Detailed authority:
-`../STORY_BOSSES/LAST_WEAPON_ARCHON.md`
-
-Current:
-- one HP bar;
-- Archive Authority → Weapon Protocol Unsealed at 60%;
-- +10 Speed / -10 Total Defense after transition;
-- no Prime refresh;
-- no support wave;
-- one visible convergence → compression → discharge sequence;
-- not Entity intelligence;
-- no fragment-survival-mechanism reveal.
-
-After the fight:
-> Last Shelter
-
-
-## Current final-boss handoff
-Detailed authority:
-`../STORY_BOSSES/RECONSTITUTED_ENTITY_THE_LAST_COMMAND.md`
-
-Support authority:
-`../SUPPORT_OBJECTS/FINAL_ENTITY_MANIFESTATIONS.md`
-
-Current:
-- Reconstituted Entity HP22,500;
-- Heart Manifestation max1;
-- fresh The Last Command HP28,500;
-- Unbound Shards max2;
-- fresh Form II does **not** restore spent Prime identities;
-- Final Directive Protected Preparation;
-- Distributed Command at25% same-bar;
-- no third boss form.
-
-At The Last Command 0 HP:
-> combat ends into Final Severance.
-
-Final Severance remains:
-> HOLD → DISTINGUISH → MAP → PRESERVE → CONTAIN → END
+Exact enemy levels, HP/stats, actions, Potencies, statuses, susceptibility, Execution/Return, AI weights, thresholds, and other combat tuning are open for the dedicated enemy-kit redesign.

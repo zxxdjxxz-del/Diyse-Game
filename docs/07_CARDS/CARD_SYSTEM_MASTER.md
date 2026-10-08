@@ -39,7 +39,7 @@ System-level combat lanes are owned jointly with `../05_BATTLE_SYSTEM/BATTLE_SYS
 - **Memory:** Quick, Slow, Delay, Stuck, duration manipulation, delayed/echo effects, controlled recall/copy
 - **Ruin:** destructive, degrading, dangerous/high-risk effects
 
-Perception does not create Accuracy/Evasion core stats or a weakness-piercing subsystem. Memory does not create a universal copy mechanic by itself.
+Perception emphasizes precision, criticals, timing, and Interrupt. Memory emphasizes timing/duration manipulation and controlled recall/copy.
 
 ## Standard Cards — structural rules
 

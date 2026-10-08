@@ -1,31 +1,28 @@
-# Triage Automaton
-**Chapter:** 9 — Larkspire / Equal Mercy  
-**Status:** **POWER COMPLETE / RAW BODY AUTHORED**
+# Diyse — Triage Automaton
 
-Medical presentation does not create Poison, a disease meter, a Triage resource, or a universal Mercy command.
+**Status:** ACTIVE IDENTITY ANCHOR / EXACT COMBAT KIT REBUILD PENDING  
+**Category:** enemy/encounter identity
 
-| Lv | HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR |
-|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| 38 | **1,050** | 72 | **150** | 86 | **98** | 37 | 0 | 10 |
+This identity remains part of the current enemy/encounter catalog wherever it is routed by current chapter, formation, Hunt, boss, support-object, quest, or story authority.
 
-True construct: **Bleed Immune**
+The previous combat kit has been removed from live authority.
 
-### Sterilizing Ray
-- Magical / Fire / one target
-- **215 Power**
-- Base Hit100
-- **20% Burn**
-- 2-round repetition lock
+## Rebuild boundary
 
-### Triage Pulse
-- Magical / Colorless / all conscious party members
-- **160 Power per target**
-- Base Hit100
-- 2-round repetition lock
+The dedicated enemy-kit redesign will re-author, as applicable:
 
-### Emergency Repair
-> **Power: N/A — no direct damage**
-- restore **240 HP** to one living allied construct; self legal
-- max **2 successful uses per Automaton per battle**
-- cannot revive or exceed Max HP
-- 2-round repetition lock
+- Level and HP;
+- Strength / Magic / Intelligence / Defense / Spirit / Speed;
+- action list and AI selection;
+- Potency or fixed numerical output;
+- Execution and Return;
+- targeting and retargeting;
+- current status effects and susceptibility;
+- Delay / Interrupt behavior;
+- phase thresholds and numerical modifiers;
+- support-object numerical behavior;
+- encounter-specific combat tuning.
+
+Do not reconstruct the superseded kit from repository history. Use current battle-system authority and the later enemy-kit redesign.
+
+Identity, current placement, narrative role, protected/nonlethal outcome, and form/body relationships remain owned by the corresponding current encounter/story/register authorities.

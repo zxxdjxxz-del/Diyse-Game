@@ -1,64 +1,28 @@
-# Beast Handler + Bound Rift Hound
+# Diyse — Beast Handler Bound Rift Hound
 
-**Chapter:** 7 authored/protected roster identity  
-**Status:** **POWER COMPLETE / PLACEMENT AND RESOLUTION BOUNDED**
+**Status:** ACTIVE IDENTITY ANCHOR / EXACT COMBAT KIT REBUILD PENDING  
+**Category:** enemy/encounter identity
 
-Chapter 7 is not line-complete.
+This identity remains part of the current enemy/encounter catalog wherever it is routed by current chapter, formation, Hunt, boss, support-object, quest, or story authority.
 
-This file certifies the two-body combat kit without inventing:
-- exact scene ID;
-- why the Hound is bound;
-- who owns/captured it;
-- whether the encounter ends by defeat, release, escape, or intervention;
-- a fixed reward.
+The previous combat kit has been removed from live authority.
 
-## Beast Handler
-Detailed Chapter-7 body/action authority:
-`../ORDINARY_ENEMIES/BEAST_HANDLER.md`
+## Rebuild boundary
 
-Chapter-7 raw:
-> Lv29 / HP780 / ATK108 / DEF61 / Spirit53 / SPD35
+The dedicated enemy-kit redesign will re-author, as applicable:
 
-Direct damage:
-- Handler Lash — **170**
+- Level and HP;
+- Strength / Magic / Intelligence / Defense / Spirit / Speed;
+- action list and AI selection;
+- Potency or fixed numerical output;
+- Execution and Return;
+- targeting and retargeting;
+- current status effects and susceptibility;
+- Delay / Interrupt behavior;
+- phase thresholds and numerical modifiers;
+- support-object numerical behavior;
+- encounter-specific combat tuning.
 
-Support:
-- Drive the Bound Hound — **Power N/A**
-- Handler Guard — **Power N/A**
+Do not reconstruct the superseded kit from repository history. Use current battle-system authority and the later enemy-kit redesign.
 
-## Bound Rift Hound
-
-| Lv | HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR |
-|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| 29 | **920** | **118** | 58 | 62 | 50 | **42** | 5 | 10 |
-
-### Bound Pounce
-- one party member
-- Physical / Neutral
-- **205 Power**
-- Base Hit100
-
-### Ruin Bite
-- one party member
-- Hybrid / Ruin
-- **75% ATK / 25% MAG**
-- **195 Power**
-- Base Hit100
-- **20% Bleed**
-- 1-round repetition lock
-
-### Chain Rush
-- all conscious party members
-- Physical / Neutral
-- **155 Power per target**
-- Base Hit95
-- 2-round repetition lock
-
-## Protection firewall
-This is an authored/protected encounter identity.
-
-The balance pass does **not** declare the Hound killed at 0 HP.
-
-Exact scene-specific protection/end condition remains owned by later Chapter-7 story placement.
-
-Do not random-spawn this paired encounter.
+Identity, current placement, narrative role, protected/nonlethal outcome, and form/body relationships remain owned by the corresponding current encounter/story/register authorities.

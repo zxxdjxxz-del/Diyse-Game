@@ -1,44 +1,28 @@
-# Zevraya — Brood Organisms
+# Diyse — Zevraya Brood Organisms
 
-**Encounter:** Matron Zevraya  
-**Status:** **POWER COMPLETE**
+**Status:** ACTIVE IDENTITY ANCHOR / EXACT COMBAT KIT REBUILD PENDING  
+**Category:** enemy/encounter identity
 
-These are finite authored non-person support organisms.
+This identity remains part of the current enemy/encounter catalog wherever it is routed by current chapter, formation, Hunt, boss, support-object, quest, or story authority.
 
-They are not an infinite add pool.
+The previous combat kit has been removed from live authority.
 
-## Crimson Brood Organism
+## Rebuild boundary
 
-| HP | ATK | DEF | Spirit | SPD | EVA | SR |
-|---:|---:|---:|---:|---:|---:|---:|
-| 260 | 82 | 54 | 50 | 38 | 0 | 5 |
+The dedicated enemy-kit redesign will re-author, as applicable:
 
-### Brood Rend
-- one party member
-- Physical / Neutral
-- **155 Power**
-- Base Hit100
-- **15% Bleed**
+- Level and HP;
+- Strength / Magic / Intelligence / Defense / Spirit / Speed;
+- action list and AI selection;
+- Potency or fixed numerical output;
+- Execution and Return;
+- targeting and retargeting;
+- current status effects and susceptibility;
+- Delay / Interrupt behavior;
+- phase thresholds and numerical modifiers;
+- support-object numerical behavior;
+- encounter-specific combat tuning.
 
-Exactly one may deploy from a surviving Brood Reservoir during Crimson Brood.
+Do not reconstruct the superseded kit from repository history. Use current battle-system authority and the later enemy-kit redesign.
 
-It is removed at the genuine Form-II transformation if still alive.
-
-## Perfected Brood Organism
-
-| HP | ATK | DEF | Spirit | SPD | EVA | SR |
-|---:|---:|---:|---:|---:|---:|---:|
-| 320 | 94 | 58 | 54 | 40 | 0 | 5 |
-
-### Perfected Brood Rend
-- one party member
-- Physical / Neutral
-- **175 Power**
-- Base Hit100
-- **15% Bleed**
-
-Exactly one deploys at Form-II entry only if Brood Reservoir survived Form I.
-
-No replacement.
-No respawn.
-No Poison.
+Identity, current placement, narrative role, protected/nonlethal outcome, and form/body relationships remain owned by the corresponding current encounter/story/register authorities.

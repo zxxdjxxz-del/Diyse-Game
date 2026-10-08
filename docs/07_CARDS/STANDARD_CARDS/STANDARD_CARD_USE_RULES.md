@@ -1,14 +1,12 @@
 # Diyse — Standard Card Use Rules
 
-**Status:** ACTIVE STANDARD-CARD STRUCTURAL AUTHORITY  
-**Authority:** current Card-domain owner plus `../../05_BATTLE_SYSTEM/BATTLE_SYSTEM_MASTER.md`.  
+**Status:** ACTIVE STANDARD-CARD STRUCTURAL AUTHORITY
 
 ## Equip
 
 Each permanent character may equip exactly **4 Standard Cards**.
 
 Unlocks:
-
 - Base CL1
 - Base CL4
 - Base CL8
@@ -16,38 +14,32 @@ Unlocks:
 
 Each named Standard Card is unique and may be assigned to only one character at a time.
 
-Card assignment happens outside battle and cannot be changed mid-battle.
+Card assignment occurs outside battle and cannot be changed mid-battle.
 
-## Equipped benefits
+## Equipped benefit
 
-Every equipped Standard Card grants at least:
-
+Every equipped Standard Card must grant:
 - one or more visible stat bonuses;
 - a passive effect;
 - or both.
 
-No Standard Card is active-use only.
-
-Character-bound stat/passive benefits remain attached while the character is in reserve. A passive does not affect the active party from reserve unless it explicitly says it does.
+Character-bound stat/passive benefits remain attached while the character is in reserve. A passive affects the active party from reserve only when explicitly authored.
 
 ## Battle use
 
 A Standard Card:
-
-- uses the user's normal selected TURN/action;
-- follows the global TURN / EXECUTION timing framework unless explicitly overridden;
-- uses normal MP;
+- uses the user's normal command TURN;
+- follows the global TURN / EXECUTION framework unless explicitly overridden;
+- uses the normal MP pool;
 - is reusable while equipped and legal;
-- has no charges or default per-battle use limit;
+- has no default charge system or per-battle use limit;
 - generally costs more MP than a comparable native Ability;
 - uses **Intelligence** for all scalable numerical output where scaling applies.
 
-The Card itself defines output type, targeting, Potency/fixed magnitude, element, crit eligibility, status chance, queued-action interaction class, timing, and special conditions.
+The Card itself defines output type, targeting, Potency/fixed magnitude, element, crit eligibility, status chance, timeline interaction, Execution, Return, and special conditions.
 
 There is no deck/hand/draw/discard/shuffle system and no duplicate-rank progression.
 
-## Content boundary
+## Rebuild boundary
 
-Exact individual Standard Card effects, MP costs, timing, equipped bonuses/passives, and copy/recall eligibility are intentionally parked for the dedicated Card-content redesign.
-
-Existing Card content is source material, not a constraint when that pass begins.
+The exact 24-card roster and all individual Card content are open for redesign.

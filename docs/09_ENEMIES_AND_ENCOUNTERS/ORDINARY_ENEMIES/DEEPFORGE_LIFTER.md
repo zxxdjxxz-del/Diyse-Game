@@ -1,36 +1,28 @@
-# Deepforge Lifter
+# Diyse — Deepforge Lifter
 
-**Chapter:** 5 — Deepforge  
-**Status:** **POWER COMPLETE / RAW BODY AUTHORED**
+**Status:** ACTIVE IDENTITY ANCHOR / EXACT COMBAT KIT REBUILD PENDING  
+**Category:** enemy/encounter identity
 
-## Body
-| Lv | HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR |
-|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| 20 | **760** | **86** | 32 | **66** | 48 | 20 | 0 | 10 |
+This identity remains part of the current enemy/encounter catalog wherever it is routed by current chapter, formation, Hunt, boss, support-object, quest, or story authority.
 
-True construct:
-> **Bleed Immune**
+The previous combat kit has been removed from live authority.
 
-## Actions
+## Rebuild boundary
 
-### Lift Arm
-- one party member
-- Physical / Neutral
-- **195 Power**
-- Base Hit100
+The dedicated enemy-kit redesign will re-author, as applicable:
 
-### Load Drop
-- one party member
-- Physical / Neutral
-- **220 Power**
-- Base Hit95
-- **20% Staggered**
-- 2-round repetition lock
+- Level and HP;
+- Strength / Magic / Intelligence / Defense / Spirit / Speed;
+- action list and AI selection;
+- Potency or fixed numerical output;
+- Execution and Return;
+- targeting and retargeting;
+- current status effects and susceptibility;
+- Delay / Interrupt behavior;
+- phase thresholds and numerical modifiers;
+- support-object numerical behavior;
+- encounter-specific combat tuning.
 
-### Stabilize Chassis
-> **Power: N/A — no direct damage**
+Do not reconstruct the superseded kit from repository history. Use current battle-system authority and the later enemy-kit redesign.
 
-Effect:
-> **Defense +10 through the end of the following round**
-
-2-round repetition lock.
+Identity, current placement, narrative role, protected/nonlethal outcome, and form/body relationships remain owned by the corresponding current encounter/story/register authorities.

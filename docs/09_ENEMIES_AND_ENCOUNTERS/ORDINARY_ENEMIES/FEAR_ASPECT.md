@@ -1,40 +1,28 @@
-# Fear Aspect
+# Diyse — Fear Aspect
 
-**Chapter:** 13 — Final Domain  
-**Status:** **POWER COMPLETE / RAW BODY AUTHORED**
+**Status:** ACTIVE IDENTITY ANCHOR / EXACT COMBAT KIT REBUILD PENDING  
+**Category:** enemy/encounter identity
 
-Fear Aspect is an expression of the **same sole Reconstituted Entity continuity**.
+This identity remains part of the current enemy/encounter catalog wherever it is routed by current chapter, formation, Hunt, boss, support-object, quest, or story authority.
 
-There is no Fear status in Diyse.
-The name is presentation only.
+The previous combat kit has been removed from live authority.
 
-## Body
-| Lv | HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR |
-|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| 60 | **1,680** | **208** | 184 | 116 | 112 | **47** | 5 | 15 |
+## Rebuild boundary
 
-## Actions
+The dedicated enemy-kit redesign will re-author, as applicable:
 
-### Panic Claw
-- one party member
-- Physical / Neutral
-- **250 Power**
-- Base Hit100
+- Level and HP;
+- Strength / Magic / Intelligence / Defense / Spirit / Speed;
+- action list and AI selection;
+- Potency or fixed numerical output;
+- Execution and Return;
+- targeting and retargeting;
+- current status effects and susceptibility;
+- Delay / Interrupt behavior;
+- phase thresholds and numerical modifiers;
+- support-object numerical behavior;
+- encounter-specific combat tuning.
 
-### Dread Rush
-- one party member
-- Physical / Neutral
-- **270 Power**
-- Base Hit95
-- **25% Staggered**
-- 2-round repetition lock
+Do not reconstruct the superseded kit from repository history. Use current battle-system authority and the later enemy-kit redesign.
 
-### Fright Sweep
-- all conscious party members
-- Hybrid / Neutral
-- **50% ATK / 50% MAG**
-- **180 Power per target**
-- Base Hit95
-- 2-round repetition lock
-
-No Fear status or forced flee mechanic.
+Identity, current placement, narrative role, protected/nonlethal outcome, and form/body relationships remain owned by the corresponding current encounter/story/register authorities.
