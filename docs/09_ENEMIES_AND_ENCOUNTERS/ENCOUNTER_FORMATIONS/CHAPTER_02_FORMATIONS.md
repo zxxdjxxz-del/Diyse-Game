@@ -95,8 +95,6 @@ Current pool:
 - Cistern Leech
 - Needlewing
 
-Memory Scribe is retired from Chapter 2.
-
 Arcdrift is the only Archive-specific ordinary identity; carried wildlife prevents the area from becoming construct-heavy before Chapter 3.
 
 | Tier | Formation | Composition |
@@ -241,29 +239,10 @@ If support is later used:
 
 ---
 
-# Retired formation structure
-
-Do not restore:
-- the temporary 2–3 / 4-max Chapter-2 reduction;
-- Infantry Block;
-- old Command Defense;
-- old Rift Pursuit;
-- old six-body Full Bastion Response **composition using retired display identities**;
-- Memory-Scribe formations;
-- Regional-Hunt Scaldback encounter structure;
-- Hold the Junction;
-- extraction-causeway formations;
-- post-extraction surprise combat.
-
----
-
 # Formation behavior intent
 
 ## Old Waterworks
 - Bogshell supplies durability.
-- Cistern Leech supplies fast Bleed pressure.
-- Needlewing supplies aerial speed/evasion contrast.
-- Scaldback adds the late-Waterworks geothermal/Burn-facing identity without restoring its former Hunt/boss architecture.
 
 ## Sunken Archive
 - Arcdrift supplies fast Lightning / magical pressure.
@@ -294,3 +273,7 @@ Still open:
 - current three-person mandatory-vs-completionist difficulty certification;
 - final carryover raw-body retuning;
 - Rhazek support decision.
+
+## Combat-kit boundary
+
+Formation names/compositions and current placement remain encounter-structure authority. Exact enemy kits and numerical tuning are rebuilt separately.
