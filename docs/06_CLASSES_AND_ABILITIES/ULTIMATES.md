@@ -1,26 +1,10 @@
-# Diyse — Ultimate Register
+# Diyse — Ultimate Architecture
 
-**Status:** ACTIVE CLASS / ABILITY AUTHORITY  
-**Authority:** current class-domain owner plus later explicit approved corrections.  
+**Status:** REBUILD BOUNDARY  
+**Authority:** `CLASS_SYSTEM_MASTER.md`.
 
+Each Base Class and Subclass may include a defining late-kit capstone/Ultimate as part of the rebuilt native toolkit.
 
-Current class capstone rule:
-- Base Ultimate: **CL13**
-- Subclass Ultimate: **CL13**
+Exact Ultimate names, CL unlock points, MP costs, Potencies, targeting, timing, and effects are open until the owning class kit is rebuilt.
 
-| Character | Class | Ultimate | Line | Unlock |
-|---|---|---|---|---:|
-| Cyanis | Crest Knight | **Crest of Companions** | Base | CL13 |
-| Ilyra | Blue Warden | **Dawn Without End** | Base | CL13 |
-| Torren | War Archer | **The Great Beast Falls** | Base | CL13 |
-| Nimera | Cardweaver | **Grand Reweaving** | Base | CL13 |
-| Vaelira | Green Arcanist | **Arcanum Ascendant** | Base | CL13 |
-| Seyrik | Ruin Vanguard | **Controlled Apocalypse** | Base | CL13 |
-| Cyanis | Crest Arcanist | **Crest Dominion** | Subclass | CL13 |
-| Ilyra | Vowblade | **Mercy's Final Edge** | Subclass | CL13 |
-| Torren | Routeweaver | **Open the Way** | Subclass | CL13 |
-| Nimera | Proofhunter | **Final Annotation** | Subclass | CL13 |
-| Vaelira | Axiomblade | **Final Axiom** | Subclass | CL13 |
-| Seyrik | Ruin Warden | **Mercy Through Ruin** | Subclass | CL13 |
-
-Ultimates remain ordinary class-kit commands using the Ability action unless their individual current rule explicitly says otherwise.
+Ultimates use the normal **Abilities** command unless an explicitly approved future rule creates a separate access surface.
