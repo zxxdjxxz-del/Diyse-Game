@@ -1,36 +1,30 @@
 # Diyse — Native Legacy Master Register
 
-**Status:** ACTIVE LEGACY AUTHORITY  
-**Authority:** current items/equipment-domain owner plus later explicit approved corrections.  
+**Status:** ACTIVE LEGACY IDENTITY AUTHORITY — STATS / EFFECTS REBUILD PENDING
 
+> **17 / 17 Legacy identities**
 
-## Current status
-The current Legacy register contains:
-> **17 / 17 current Legacy identities**
+| Character | Legacy | Slot | Trait identity |
+|---|---|---|---|
+| Cyanis | Move or I Move You. | Sword | Forced Opening |
+| Cyanis | That Was Dumb. | Shield | Bad Choice |
+| Cyanis | That Didn't Do Shit. | Heavy Armor | Still Standing |
+| Ilyra | I Said Enough. | Wardrod | Final Warning |
+| Ilyra | Try Me Instead. | Shield | Sanctuary |
+| Ilyra | No. Stay Here. | Focus | Stay With Me |
+| Ilyra | Get Behind Me. | Warding Armor | Immediate Shelter |
+| Torren | Should've Moved. | Great Bow — Weapon + Secondary | Predicted Line |
+| Torren | Figured You'd Come This Way. | Medium Armor | Prepared Ground |
+| Nimera | Good Fuck, Definitely. Good Fuck. | Two-Handed Conduit — Weapon + Secondary | Better Version |
+| Nimera | Hold On. That's Useful. | Focus | Keep That |
+| Nimera | Fuck It. New Plan. | Light Ritual Armor | New Plan |
+| Vaelira | There's Your Problem. | Arcane Staff — one-slot Primary | Correct Answer |
+| Vaelira | That Saves Me the Trouble. | Focus | Borrowed Answer |
+| Vaelira | Oh, I Can Use That. | Light Caster Armor | Useful Pressure |
+| Seyrik | You Are Finished. | Two-Handed Sword — Weapon + Secondary | End It |
+| Seyrik | You Should Have Killed Me. | Battle Heavy Armor | Still Dangerous |
 
-This register is direct repository authority and does not depend on a tracker/audit promotion layer.
-
-| Character | Legacy | Slot | Current raw stats | Capstone perk | Legacy Trait |
-|---|---|---|---|---|---|
-| Cyanis | Move or I Move You. | Sword | +74 ATK / +55 MAG | +10pp applicable Defense/Spirit penetration | Forced Opening |
-| Cyanis | That Was Dumb. | Shield | +30 DEF / +28 SPR | +12 Status Resistance | Bad Choice |
-| Cyanis | That Didn't Do Shit. | Heavy Armor | +50 DEF / +42 SPR | Max HP +400 | Still Standing |
-| Ilyra | I Said Enough. | Wardrod | +58 ATK / +63 MAG | +10% direct healing | Final Warning |
-| Ilyra | Try Me Instead. | Shield | +28 DEF / +30 SPR | Max HP +250 | Sanctuary |
-| Ilyra | No. Stay Here. | Focus | +22 MAG / +28 SPR | Max MP +40 | Stay With Me |
-| Ilyra | Get Behind Me. | Warding Armor | +34 DEF / +44 SPR | Max HP +325 | Immediate Shelter |
-| Torren | Should've Moved. | Great Bow — Weapon + Secondary | +95 ATK | +10 Base Hit | Predicted Line |
-| Torren | Figured You'd Come This Way. | Medium Armor | +42 DEF / +33 SPR / +3 SPD | Evasion +10 | Prepared Ground |
-| Nimera | Good Fuck, Definitely. Good Fuck. | Two-Handed Conduit — Weapon + Secondary | +60 ATK / +82 MAG | +10% eligible Conduit final damage | Better Version |
-| Nimera | Hold On. That's Useful. | Focus | +22 MAG / +22 SPR / +8 SPD | Standard Cards gain +10 Base Hit / application reliability where relevant | Keep That |
-| Nimera | Fuck It. New Plan. | Light Ritual Armor | +32 DEF / +42 SPR | Speed +10% while disrupted | New Plan |
-| Vaelira | There's Your Problem. | Arcane Staff — one-slot Primary | +12 ATK / +83 MAG | +10pp Spirit penetration on eligible elemental damaging Staff actions | Correct Answer |
-| Vaelira | That Saves Me the Trouble. | Focus | +24 MAG / +24 SPR / +5 SPD | Max MP +45 | Borrowed Answer |
-| Vaelira | Oh, I Can Use That. | Light Caster Armor | +29 DEF / +50 SPR / +4 SPD | 10% less eligible direct elemental damage | Useful Pressure |
-| Seyrik | You Are Finished. | Two-Handed Sword — Weapon + Secondary | +105 ATK / +7 MAG | +10pp Critical Chance | End It |
-| Seyrik | You Should Have Killed Me. | Battle Heavy Armor | +56 DEF / +34 SPR | Max HP +600 | Still Dangerous |
-
-## Count by character
+Count by character:
 - Cyanis — 3
 - Ilyra — 4
 - Torren — 2
@@ -38,13 +32,10 @@ This register is direct repository authority and does not depend on a tracker/au
 - Vaelira — 3
 - Seyrik — 2
 
-## Type totals
+Type totals:
 - 6 weapons
 - 6 armors
 - 2 shields
 - 3 foci
 
-Total = **17**
-
-## Max HP / Max MP equipment rule
-Equipment Max HP and Max MP bonuses are persistent flat raw additions. See `../HP_MP_FLAT_BONUS_RULES.md`.
+Exact raw stats, capstone effects, Trait mechanics, and numerical combat payload are open for the equipment rebuild.
