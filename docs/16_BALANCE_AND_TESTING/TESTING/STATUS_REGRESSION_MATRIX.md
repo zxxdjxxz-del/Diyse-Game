@@ -1,92 +1,119 @@
 # Diyse — Status Regression Matrix
 
 **Status:** ACTIVE STATUS QA OWNER  
-**Status-system authority:** `../../05_BATTLE_SYSTEM/STATUS_EFFECTS.md`
+**Authority:** `../../05_BATTLE_SYSTEM/BATTLE_SYSTEM_MASTER.md`
 
-Automate where practical. If this file conflicts with `../../05_BATTLE_SYSTEM/STATUS_EFFECTS.md`, the battle-system owner wins and this matrix must be synchronized.
-
-## Burn
+## Shared duration/reapplication
 
 Verify:
-- 4-round duration;
-- 6% Max HP end-of-round damage per affected round;
-- application round can count as round 1 when Burn remains active through round end;
-- Defense −10% and Spirit −10% while active;
-- reapplication refreshes duration;
-- Burn does not stack with itself;
-- damage cannot Crit;
-- damage ignores Defense/Spirit;
-- damage can KO;
-- Regional Hunt damage conversion = 4.5% Max HP/round;
-- Major Hunt / mandatory boss damage conversion = 3% Max HP/round;
-- high-rank conversion changes damage magnitude only, not the Defense/Spirit rider.
+- timed duration counts the affected unit's own TURNs;
+- hidden reserve TURNs count;
+- same-status reapplication refreshes full duration rather than stacking;
+- same-TURN duration protection prevents immediate loss of a newly applied/refreshed duration;
+- KO clears ordinary temporary statuses/buffs/debuffs under current KO rules.
 
-## Freeze
+## Quick
 
-Verify:
-- target cannot act;
-- first 2 affected rounds guaranteed;
-- separate 80% persistence checks into affected rounds 3 and 4;
-- ordinary maximum 4 affected rounds;
-- first successful direct Physical hit removes Freeze after that hit;
-- no refresh while active;
-- Regional Hunt maximum 2 affected rounds;
-- Major Hunt / mandatory boss maximum 1 affected round;
-- application timing correctly distinguishes before-turn vs after-turn application.
+- personal TURN spacing ×0.75;
+- 4 affected TURNs;
+- no Execution change;
+- does not move an already queued EXECUTION;
+- mutually exclusive with Slow;
+- opposite effect cancels to neutral.
 
-## Stun
+## Slow
 
-Verify:
-- 4 affected turns;
-- 40% action-loss chance on each ordinary affected turn;
-- cannot refresh while active;
-- Regional Hunt action-loss chance = 25%;
-- Major Hunt / mandatory boss action-loss chance = 20%;
-- each affected turn opportunity consumes one duration count whether the action-loss roll succeeds or fails.
+- personal TURN spacing ×1.25;
+- 4 affected TURNs;
+- no Execution change;
+- mutually exclusive with Quick.
 
-## Staggered
+## Stuck
 
-Verify:
-- 5-round ordinary duration;
-- Attack −20%;
-- Magic −20%;
-- Speed −20%;
-- application round counts as round 1;
-- mid-round application does not reorder the already-fixed current-round initiative;
-- Speed penalty affects later beginning-of-round ordering while active;
-- reapplication refreshes duration;
-- no self-stacking;
-- remains a normal harmful status, not a Break/Stagger meter;
-- Regional Hunt duration = 4 rounds;
-- Major Hunt / mandatory boss duration = 3 rounds.
+- 4 affected TURNs;
+- commands remain available;
+- at queued EXECUTION, 40% trigger chance;
+- trigger pushes EXECUTION by 25% of normal personal spacing;
+- does not cancel the action;
+- Immediate actions are unaffected;
+- at most one Stuck push per queued action;
+- no Stuck check if the status expired before EXECUTION.
 
-## Bleed
+## Asleep
 
-Verify:
-- starts at 3% Max HP per qualifying proc;
-- end-of-round proc while active;
-- additional proc after each actual action by the affected unit;
-- lost/no-action turns can advance Bleed age but do not create an action proc;
-- third completed affected turn's action proc still uses 3%;
-- after that third completed turn, same uncleared Bleed escalates to 4%;
-- reapplication while active does not reset age/escalation;
-- full removal + later reapplication starts a fresh 3% Bleed;
-- can KO;
-- cannot Crit;
+- 3 affected TURNs;
+- denies command on affected TURN;
+- queued action remains pending if sleep is applied after selection;
+- if still Asleep at that EXECUTION, the action fails;
+- direct damage wakes after damage;
+- passive DoT and healing do not wake by default;
+- legal cleanse/wake removes it.
+
+## Poison
+
+- 6% Max HP at each afflicted TURN;
+- 5 affected TURNs;
+- exact indirect damage;
 - ignores Defense/Spirit;
-- full HP clears;
-- valid harmful-status clear/item clears;
-- partial heal does not clear;
-- Regen clears only if full HP is actually reached or an explicit clear is included;
-- Regional Hunt magnitude = 2.25% initially → 3% escalated;
-- Major Hunt / mandatory boss magnitude = 1.5% initially → 2% escalated.
+- Ward does not reduce it;
+- cannot Crit;
+- can KO;
+- hidden reserve TURNs process it.
 
-## Application resolver
+## Wounded
 
-Verify:
-- hit-attached status rider never applies on miss;
-- ordinary status chance clamps to 5%–95%;
-- explicit immunity/guarantee/script may override the ordinary clamp;
-- Status Resistance uses raw **0 / 5 / 10 / 15** values;
-- application-reliability bonuses add percentage points where legal;
-- no alternate percentage-based Status Resistance table is accepted as current data.
+- 4% Max HP when afflicted unit successfully resolves an action;
+- canceled action creates no proc;
+- +10% physical damage taken;
+- self-damage ignores Defense/Spirit/Ward and cannot Crit;
+- can KO;
+- persists until its healing threshold is reached or another legal clear occurs;
+- reapplication does not stack and updates threshold only under the current Wounded rule.
+
+## Sealed
+
+- 3 affected TURNs;
+- blocks future selection of native Abilities;
+- does not block Attack, Cards, Item, Defend, Swap, or Prime access;
+- does not cancel an already queued Ability.
+
+## Ward
+
+- incoming direct physical/magical damage ×0.75;
+- 3 affected TURNs;
+- refreshes rather than stacks.
+
+## Regen
+
+- 6% Max HP at each affected TURN;
+- 5 affected TURNs;
+- exact healing;
+- hidden reserve TURNs process it;
+- contributes toward Wounded healing threshold.
+
+## Doomed
+
+- visible 5-TURN countdown;
+- decrements on afflicted TURN;
+- reaching 0 KOs;
+- Quick/Slow indirectly change real-time frequency by changing TURN spacing.
+
+## Stat Up / Down
+
+For Strength / Magic / Intelligence / Defense / Spirit:
+- Up +25%;
+- Down −25%;
+- 4 affected TURNs;
+- same state refreshes;
+- opposite cancels to neutral;
+- no generic Speed Up/Down.
+
+## Application
+
+`final chance = base chance × susceptibility`
+
+- Vulnerable ×1.5
+- Normal ×1.0
+- Resistant ×0.5
+- Immune ×0
+- cap 100%
