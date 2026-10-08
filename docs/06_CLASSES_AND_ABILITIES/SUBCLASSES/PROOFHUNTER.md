@@ -12,4 +12,4 @@ Proofhunter is Nimera's Perception-aligned hybrid precision subclass, focused on
 
 Exact Abilities, passives, MP costs, Potencies, tactical states, crit interaction, timing, Masteries, and unlock thresholds are open.
 
-The rebuilt kit must not recreate universal hit/evasion stats or unsupported status families.
+The rebuilt kit must remain inside the current combat-stat and status framework.
