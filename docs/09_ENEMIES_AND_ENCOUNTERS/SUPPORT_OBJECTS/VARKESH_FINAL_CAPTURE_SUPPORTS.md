@@ -1,65 +1,28 @@
-# Marshal Varkesh — Final Capture Supports
+# Diyse — Varkesh Final Capture Supports
 
-**Chapter:** 12  
-**Status:** **POWER COMPLETE**
+**Status:** ACTIVE IDENTITY ANCHOR / EXACT COMBAT KIT REBUILD PENDING  
+**Category:** enemy/encounter identity
 
-## Reforged Command Standard
-- HP900
-- DEF148
-- Spirit138
-- EVA0
-- SR10
-- **Power N/A**
+This identity remains part of the current enemy/encounter catalog wherever it is routed by current chapter, formation, Hunt, boss, support-object, quest, or story authority.
 
-While functional:
-- Varkesh Attack +10%
-- Varkesh Base Hit +5
-- Varkesh Black Guard Attack +10%
+The previous combat kit has been removed from live authority.
 
-No independent turn.
-No bonus-action or reinforcement engine.
-No repair/respawn.
+## Rebuild boundary
 
-## Varkesh Black Guard
-Exactly one finite body.
+The dedicated enemy-kit redesign will re-author, as applicable:
 
-- HP1,400
-- ATK195
-- MAG60
-- DEF145
-- Spirit125
-- SPD52
-- EVA5
-- SR10
+- Level and HP;
+- Strength / Magic / Intelligence / Defense / Spirit / Speed;
+- action list and AI selection;
+- Potency or fixed numerical output;
+- Execution and Return;
+- targeting and retargeting;
+- current status effects and susceptibility;
+- Delay / Interrupt behavior;
+- phase thresholds and numerical modifiers;
+- support-object numerical behavior;
+- encounter-specific combat tuning.
 
-Actions:
-- Guardline Cut — **235 Power**, Physical/Neutral, Base Hit100, 15% Bleed
-- Covering Rush — **205 Power**, Physical/Neutral, Base Hit95, 15% Staggered
-- Interpose — **Power N/A**, Varkesh +10 Total Defense through end following round
+Do not reconstruct the superseded kit from repository history. Use current battle-system authority and the later enemy-kit redesign.
 
-No replacement/respawn.
-
-## East Retreat Beacon
-- HP1,100
-- DEF140
-- Spirit150
-- EVA0
-- SR10
-- **Power N/A**
-
-## West Retreat Beacon
-- HP1,100
-- DEF140
-- Spirit150
-- EVA0
-- SR10
-- **Power N/A**
-
-While either Beacon survives:
-> Varkesh cannot be reduced below **3,421 HP / 20% Max HP**.
-
-Both Beacons must be destroyed before final capture can resolve.
-
-No Beacon acts independently.
-No Beacon respawns.
-No Beacon creates a Prime refresh.
+Identity, current placement, narrative role, protected/nonlethal outcome, and form/body relationships remain owned by the corresponding current encounter/story/register authorities.

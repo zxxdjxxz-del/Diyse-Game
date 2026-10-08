@@ -1,30 +1,28 @@
-# Scaldback
+# Diyse — Scaldback
 
-**Chapter:** 2 — Old Waterworks  
-**Role:** ordinary geothermal monster / late-Waterworks pressure  
-**Status:** **CURRENT IDENTITY / PLACEMENT LOCKED / ORDINARY RAW BODY + ACTION KIT OPEN**
+**Status:** ACTIVE IDENTITY ANCHOR / EXACT COMBAT KIT REBUILD PENDING  
+**Category:** enemy/encounter identity
 
-Scaldback is an ordinary Chapter-2 monster. Its former Regional-Hunt identity/body is retired.
+This identity remains part of the current enemy/encounter catalog wherever it is routed by current chapter, formation, Hunt, boss, support-object, quest, or story authority.
 
-## Placement
-- Old Waterworks only in later hot-runoff / steam / mineral sectors;
-- does not appear in the earliest municipal works;
-- maximum one Scaldback per ordinary formation;
-- no Chapter-2 Regional Hunt exists.
+The previous combat kit has been removed from live authority.
 
-## Combat identity
-Current broad role:
-- geothermal / heat-facing monster;
-- sturdier late-Waterworks pressure than the earliest flooded wildlife;
-- compatible with Chapter 2's Burn rollout;
-- exact Burn chance/action ownership remains open until the ordinary kit is authored.
+## Rebuild boundary
 
-## Retired Hunt firewall
-Do not use the former Hunt:
-- Lv11 recommendation;
-- 3,760 HP boss body;
-- boss-length action architecture;
-- cleanup-only access assumptions;
-- first-clear Hunt EXP/CEXP/G package.
+The dedicated enemy-kit redesign will re-author, as applicable:
 
-The ordinary enemy requires a fresh Chapter-2 body and action pass.
+- Level and HP;
+- Strength / Magic / Intelligence / Defense / Spirit / Speed;
+- action list and AI selection;
+- Potency or fixed numerical output;
+- Execution and Return;
+- targeting and retargeting;
+- current status effects and susceptibility;
+- Delay / Interrupt behavior;
+- phase thresholds and numerical modifiers;
+- support-object numerical behavior;
+- encounter-specific combat tuning.
+
+Do not reconstruct the superseded kit from repository history. Use current battle-system authority and the later enemy-kit redesign.
+
+Identity, current placement, narrative role, protected/nonlethal outcome, and form/body relationships remain owned by the corresponding current encounter/story/register authorities.

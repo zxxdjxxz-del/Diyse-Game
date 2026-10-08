@@ -1,70 +1,28 @@
-# Final Entity Manifestations — Heart Manifestation / Unbound Shard
+# Diyse — Final Entity Manifestations
 
-**Chapter:** 13  
-**Encounter:** Reconstituted Entity → The Last Command  
-**Status:** **POWER COMPLETE**
+**Status:** ACTIVE IDENTITY ANCHOR / EXACT COMBAT KIT REBUILD PENDING  
+**Category:** enemy/encounter identity
 
-These are temporary/capped manifestations of:
-> **the one sole Entity continuity**
+This identity remains part of the current enemy/encounter catalog wherever it is routed by current chapter, formation, Hunt, boss, support-object, quest, or story authority.
 
-They are not:
-- independent Entity souls;
-- new fragments;
-- surviving copies;
-- sequel seeds.
+The previous combat kit has been removed from live authority.
 
-## Heart Manifestation
+## Rebuild boundary
 
-Form:
-> Reconstituted Entity
+The dedicated enemy-kit redesign will re-author, as applicable:
 
-Deployment:
-> once at 65% Form-I HP
+- Level and HP;
+- Strength / Magic / Intelligence / Defense / Spirit / Speed;
+- action list and AI selection;
+- Potency or fixed numerical output;
+- Execution and Return;
+- targeting and retargeting;
+- current status effects and susceptibility;
+- Delay / Interrupt behavior;
+- phase thresholds and numerical modifiers;
+- support-object numerical behavior;
+- encounter-specific combat tuning.
 
-| Count max | HP | DEF | Spirit | EVA | SR | Power |
-|---:|---:|---:|---:|---:|---:|---|
-| 1 | 1,100 | 160 | 172 | 0 | 15 | **N/A** |
+Do not reconstruct the superseded kit from repository history. Use current battle-system authority and the later enemy-kit redesign.
 
-While functional:
-- Entity +10 Total Defense
-- Magic +10%
-
-No independent turn.
-No repair.
-No respawn.
-
-If still alive at Crest Integration:
-> consumed into the fresh Form-II transition.
-
-## Unbound Shard
-
-Form:
-> The Last Command
-
-Deployment:
-- one at 70% Form-II HP
-- one at 40% Form-II HP
-
-Maximum:
-> **2 total**
-
-| HP each | DEF | Spirit | EVA | SR | Power |
-|---:|---:|---:|---:|---:|---|
-| 1,050 | 170 | 170 | 5 | 15 | **N/A** |
-
-Each functional Shard grants:
-- +5 Total Defense
-- Attack +5%
-- Magic +5%
-
-No independent turn.
-No repair.
-No respawn.
-
-At Form-II 0 HP:
-> surviving Shards are part of the distributed trace field resolved by Final Severance.
-
-They do not create another combat body.
-
-Both support identities:
-> **Power: N/A — no independent direct damage**
+Identity, current placement, narrative role, protected/nonlethal outcome, and form/body relationships remain owned by the corresponding current encounter/story/register authorities.

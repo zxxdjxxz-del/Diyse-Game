@@ -1,94 +1,28 @@
-# Black Host Remnant Captain
+# Diyse — Black Host Remnant Captain
 
-**Character Quest:** Seyrik — *The Name That Remains*  
-**Unlock:** after Chapter 8  
-**Architecture:** one continuous HP bar / no adds / no transformation  
-**Status:** **EXACT CURRENT KIT CONSOLIDATED v90 / RAW BODY AUTHORED v90 / POWER COMPLETE / PAPER VALIDATED**
+**Status:** ACTIVE IDENTITY ANCHOR / EXACT COMBAT KIT REBUILD PENDING  
+**Category:** enemy/encounter identity
 
-The action kit below preserves the already-authored current package. v90 closes the remaining missing raw-body dependency rather than redesigning the encounter.
+This identity remains part of the current enemy/encounter catalog wherever it is routed by current chapter, formation, Hunt, boss, support-object, quest, or story authority.
 
-## Balance reference
-- immediate mandatory-route access after Chapter 8: approximately **Lv37**;
-- strong optional/completionist access in this window: approximately **Lv42–44**;
-- intended boss body: **Lv41**.
+The previous combat kit has been removed from live authority.
 
-## Raw body
-| Lv | HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR |
-|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| 41 | **7,200** | **165** | **150** | **103** | **100** | 43 | 5 | 10 |
+## Rebuild boundary
 
-## Actions
-### Remnant Slash
-- one party member
-- Physical / Neutral
-- **150 Power**
-- Base Hit100
-- **20% Bleed**
-- weight **35**
+The dedicated enemy-kit redesign will re-author, as applicable:
 
-### Ruin Shot
-- one party member
-- Magical / Colorless
-- **140 Power**
-- Base Hit100
-- **15% Spirit penetration**
-- weight **25**
+- Level and HP;
+- Strength / Magic / Intelligence / Defense / Spirit / Speed;
+- action list and AI selection;
+- Potency or fixed numerical output;
+- Execution and Return;
+- targeting and retargeting;
+- current status effects and susceptibility;
+- Delay / Interrupt behavior;
+- phase thresholds and numerical modifiers;
+- support-object numerical behavior;
+- encounter-specific combat tuning.
 
-### Severing Brand
-- one party member
-- Magical / Colorless
-- **120 Power**
-- Base Hit100
-- 45% rider:
-  - Defense Down **−10%**
-  - Spirit Down **−10%**
-  - duration **2 rounds**
-- 1-round repetition lock
-- weight **15**
+Do not reconstruct the superseded kit from repository history. Use current battle-system authority and the later enemy-kit redesign.
 
-The Brand is a temporary battle effect. It does not alter Seyrik's permanent identity, name, Class, equipment, or commands.
-
-### Remnant Directive
-> **Power: N/A — no direct damage**
-
-- self
-- Attack Up **+10%**
-- Magic Up **+10%**
-- duration **2 rounds**
-- 2-round repetition lock
-- eligible only while neither bonus is currently active
-- weight **15**
-
-### Final Order
-#### Preparation
-> **Power: N/A — no direct damage**
-
-- **Interruptible Preparation**
-- duration: **1 round**
-- available below **60% HP**
-- 2-round repetition lock begins after resolution
-- weight **10**
-
-#### Resolution
-- all conscious party members
-- Magical / Colorless
-- **225 Power per target**
-- Base Hit95
-- **25% Spirit penetration**
-
-Only eligible authored interruption pressure may cancel the Preparation.
-
-Below **30% HP**:
-- Final Order weight **10 → 20**;
-- Remnant Slash weight **35 → 25**;
-- no extra action or second form is gained.
-
-## v90 balance certification
-On the conservative fragile Lv37 reference:
-- Remnant Slash is approximately **11.9% Max HP** before Bleed;
-- Ruin Shot is approximately **8.7%** before Spirit penetration;
-- Final Order is approximately **13.9% per target** before Spirit penetration.
-
-The danger comes from Bleed, temporary defense pressure, self-buffing, and the telegraphed Final Order rather than one-action deletion. The **7,200 HP** body places the encounter above an ordinary remnant officer but below the Hunt tier available in the same broad window.
-
-**Verdict:** **PASS / RAW-BODY GAP CLOSED v90**
+Identity, current placement, narrative role, protected/nonlethal outcome, and form/body relationships remain owned by the corresponding current encounter/story/register authorities.

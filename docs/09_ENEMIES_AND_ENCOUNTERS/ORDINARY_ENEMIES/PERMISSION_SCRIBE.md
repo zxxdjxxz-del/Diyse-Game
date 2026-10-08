@@ -1,25 +1,28 @@
-# Permission Scribe
-**Chapter:** 11 — Crown Engine administrative domain  
-**Status:** **POWER COMPLETE / RAW BODY AUTHORED**
+# Diyse — Permission Scribe
 
-Permission terminology cannot remove player command categories or permanently lock equipment/abilities.
+**Status:** ACTIVE IDENTITY ANCHOR / EXACT COMBAT KIT REBUILD PENDING  
+**Category:** enemy/encounter identity
 
-| Lv | HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR |
-|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| 49 | **1,180** | 56 | **174** | 82 | **116** | 41 | 5 | 10 |
+This identity remains part of the current enemy/encounter catalog wherever it is routed by current chapter, formation, Hunt, boss, support-object, quest, or story authority.
 
-True construct: **Bleed Immune**
+The previous combat kit has been removed from live authority.
 
-### Permission Ray
-- Magical / Colorless / one target — **225 Power**, Base Hit100
+## Rebuild boundary
 
-### Denial Pulse
-- Magical / Colorless / all conscious party members
-- **165 Power per target**, Base Hit100, 2-round repetition lock
+The dedicated enemy-kit redesign will re-author, as applicable:
 
-### Grant Priority
-> **Power: N/A — no direct damage**
-- one other living allied construct
-- Speed +10% / Base Hit +10 through end following round
-- no extra action
-- if no legal ally exists, use Permission Ray
+- Level and HP;
+- Strength / Magic / Intelligence / Defense / Spirit / Speed;
+- action list and AI selection;
+- Potency or fixed numerical output;
+- Execution and Return;
+- targeting and retargeting;
+- current status effects and susceptibility;
+- Delay / Interrupt behavior;
+- phase thresholds and numerical modifiers;
+- support-object numerical behavior;
+- encounter-specific combat tuning.
+
+Do not reconstruct the superseded kit from repository history. Use current battle-system authority and the later enemy-kit redesign.
+
+Identity, current placement, narrative role, protected/nonlethal outcome, and form/body relationships remain owned by the corresponding current encounter/story/register authorities.

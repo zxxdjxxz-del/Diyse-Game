@@ -1,37 +1,28 @@
-# Redaction Adept
+# Diyse — Redaction Adept
 
-**Chapter-7 authority:** Prison of Names  
-**Status:** **POWER COMPLETE / CH7 RAW BODY AUTHORED**
+**Status:** ACTIVE IDENTITY ANCHOR / EXACT COMBAT KIT REBUILD PENDING  
+**Category:** enemy/encounter identity
 
-Redaction presentation never deletes permanent player progression.
+This identity remains part of the current enemy/encounter catalog wherever it is routed by current chapter, formation, Hunt, boss, support-object, quest, or story authority.
 
-## Chapter-7 body
-| Lv | HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR |
-|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| 30 | **760** | 46 | **124** | 53 | **74** | 37 | 5 | 10 |
+The previous combat kit has been removed from live authority.
 
-## Actions
+## Rebuild boundary
 
-### Redaction Lance
-- one party member
-- Magical / Ruin
-- **205 Power**
-- Base Hit100
+The dedicated enemy-kit redesign will re-author, as applicable:
 
-### Blackline Burst
-- all conscious party members
-- Magical / Colorless
-- **145 Power per target**
-- Base Hit95
-- 2-round repetition lock
+- Level and HP;
+- Strength / Magic / Intelligence / Defense / Spirit / Speed;
+- action list and AI selection;
+- Potency or fixed numerical output;
+- Execution and Return;
+- targeting and retargeting;
+- current status effects and susceptibility;
+- Delay / Interrupt behavior;
+- phase thresholds and numerical modifiers;
+- support-object numerical behavior;
+- encounter-specific combat tuning.
 
-### Revision Shock
-- one party member
-- Magical / Lightning
-- **190 Power**
-- Base Hit100
-- **20% Stun**
-- 2-round repetition lock
+Do not reconstruct the superseded kit from repository history. Use current battle-system authority and the later enemy-kit redesign.
 
-## Reuse boundary
-Later Character-Quest reuse requires chapter-appropriate raw scaling.
+Identity, current placement, narrative role, protected/nonlethal outcome, and form/body relationships remain owned by the corresponding current encounter/story/register authorities.

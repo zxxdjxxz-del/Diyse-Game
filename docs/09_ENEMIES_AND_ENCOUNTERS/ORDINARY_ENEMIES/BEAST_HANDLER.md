@@ -1,91 +1,28 @@
-# Beast Handler
+# Diyse — Beast Handler
 
-**Current use:** later explicitly authored specialized encounters; Chapter 2 placement retired  
-**Status:** **CHAPTER-2 PLACEMENT RETIRED / LATER AUTHORED USE RETAINED**
+**Status:** ACTIVE IDENTITY ANCHOR / EXACT COMBAT KIT REBUILD PENDING  
+**Category:** enemy/encounter identity
 
-## Chapter-2 body
-| Lv | HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR |
-|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| 7 | **225** | **42** | 20 | 27 | 25 | 27 | 0 | 5 |
+This identity remains part of the current enemy/encounter catalog wherever it is routed by current chapter, formation, Hunt, boss, support-object, quest, or story authority.
 
-## Actions
+The previous combat kit has been removed from live authority.
 
-### Handler Lash
-- one party member
-- Physical / Neutral
-- **140 Power**
-- Base Hit100
-- no harmful-status rider
+## Rebuild boundary
 
-### Drive the Hound
-> **Power: N/A — no direct damage**
+The dedicated enemy-kit redesign will re-author, as applicable:
 
-Target:
-> one living allied Rift Hound
+- Level and HP;
+- Strength / Magic / Intelligence / Defense / Spirit / Speed;
+- action list and AI selection;
+- Potency or fixed numerical output;
+- Execution and Return;
+- targeting and retargeting;
+- current status effects and susceptibility;
+- Delay / Interrupt behavior;
+- phase thresholds and numerical modifiers;
+- support-object numerical behavior;
+- encounter-specific combat tuning.
 
-Effect:
-> that Hound's next direct-damage action gains **+20% final damage**
+Do not reconstruct the superseded kit from repository history. Use current battle-system authority and the later enemy-kit redesign.
 
-The buff:
-- expires after that Hound's next resolved direct-damage action;
-- does not grant an extra action;
-- does not stack with itself.
-
-If no allied Rift Hound is alive:
-> Handler Lash is used instead.
-
-## Carryover boundary
-The former Chapter-2 body is historical only.
-Chapter 0 is already structurally closed and explicitly **does not use Beast Handler**.
-Later explicitly authored Handler + Hound encounters remain legal only where their own chapter authority includes them.
-
-
-## Chapter-7 authored body
-
-This variant is used only when a separately authored Chapter-7 encounter deploys:
-> **Beast Handler + Bound Rift Hound**
-
-| Lv | HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR |
-|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| 29 | **780** | **108** | 42 | 61 | 53 | 35 | 0 | 10 |
-
-### Handler Lash
-- one party member
-- Physical / Neutral
-- **170 Power**
-- Base Hit100
-
-### Drive the Bound Hound
-> **Power: N/A — no direct damage**
-
-Target:
-> the linked living Bound Rift Hound
-
-Effect:
-> the Hound's next direct-damage action gains **+20% final damage**
-
-Rules:
-- expires after that next resolved direct-damage action;
-- no extra action;
-- does not stack with itself.
-
-### Handler Guard
-> **Power: N/A — no direct damage**
-
-Effect:
-> **+10 Total Defense through the end of the following round**
-
-This Chapter-7 body does not replace the Chapter-2 variant.
-
-## Chapter-0 placement correction — 2026-09-22
-Beast Handler is **not a Chapter-0 combat enemy**.
-
-Chapter-0 Hound Pressure uses Convoy Rift Hounds without a Handler. The retained active uses of Beast Handler are controlled by later-chapter placement authority.
-
-
-## Chapter-2 placement retirement — 2026-09-23
-Beast Handler is no longer part of the active Chapter-2 Old Bastion roster.
-
-The Chapter-2 raw body/action data above is retained only as historical design material and must not be placed in current Chapter-2 formations.
-
-Later explicitly authored Handler + Hound encounters remain legal where separately owned by their chapter authority.
+Identity, current placement, narrative role, protected/nonlethal outcome, and form/body relationships remain owned by the corresponding current encounter/story/register authorities.

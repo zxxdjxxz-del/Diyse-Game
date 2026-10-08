@@ -1,37 +1,28 @@
-# Reaction Hound
+# Diyse — Reaction Hound
 
-**Chapter:** 4 — Reaction Annex  
-**Status:** **CHAPTER-4 REWORK INPUT / NOT FINAL CURRENT AUTHORITY**
+**Status:** ACTIVE IDENTITY ANCHOR / EXACT COMBAT KIT REBUILD PENDING  
+**Category:** enemy/encounter identity
 
-> The identity, body, actions, and placement below are inherited design material for the pending Chapter-4 enemy rework. Do not treat them as locked current roster/balance authority until that rework explicitly retains or revises them.
+This identity remains part of the current enemy/encounter catalog wherever it is routed by current chapter, formation, Hunt, boss, support-object, quest, or story authority.
 
-## Body
-| Lv | HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR |
-|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| 14 | **390** | **67** | 40 | 38 | 34 | **39** | 10 | 5 |
+The previous combat kit has been removed from live authority.
 
-## Actions
+## Rebuild boundary
 
-### Reaction Pounce
-- one party member
-- Physical / Neutral
-- **180 Power**
-- Base Hit100
+The dedicated enemy-kit redesign will re-author, as applicable:
 
-### Frostbite Snap
-- one party member
-- Hybrid / Ice
-- **75% ATK / 25% MAG**
-- **165 Power**
-- Base Hit100
-- **20% Freeze**
-- 2-round repetition lock
+- Level and HP;
+- Strength / Magic / Intelligence / Defense / Spirit / Speed;
+- action list and AI selection;
+- Potency or fixed numerical output;
+- Execution and Return;
+- targeting and retargeting;
+- current status effects and susceptibility;
+- Delay / Interrupt behavior;
+- phase thresholds and numerical modifiers;
+- support-object numerical behavior;
+- encounter-specific combat tuning.
 
-### Static Chase
-- one party member
-- Hybrid / Lightning
-- **75% ATK / 25% MAG**
-- **155 Power**
-- Base Hit100
-- **15% Stun**
-- 2-round repetition lock
+Do not reconstruct the superseded kit from repository history. Use current battle-system authority and the later enemy-kit redesign.
+
+Identity, current placement, narrative role, protected/nonlethal outcome, and form/body relationships remain owned by the corresponding current encounter/story/register authorities.

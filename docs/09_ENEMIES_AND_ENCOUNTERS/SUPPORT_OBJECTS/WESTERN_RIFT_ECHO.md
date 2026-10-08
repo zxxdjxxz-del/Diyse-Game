@@ -1,38 +1,28 @@
-# Western Rift Engine — Rift Echo
+# Diyse — Western Rift Echo
 
-**Chapter:** 8  
-**Encounter:** Western Rift Engine  
-**Status:** **POWER COMPLETE**
+**Status:** ACTIVE IDENTITY ANCHOR / EXACT COMBAT KIT REBUILD PENDING  
+**Category:** enemy/encounter identity
 
-Exactly one finite Rift Echo may be deployed at 70% boss HP.
+This identity remains part of the current enemy/encounter catalog wherever it is routed by current chapter, formation, Hunt, boss, support-object, quest, or story authority.
 
-| HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR |
-|---:|---:|---:|---:|---:|---:|---:|---:|
-| **420** | 0 | **128** | **68** | **72** | **40** | 5 | 10 |
+The previous combat kit has been removed from live authority.
 
-## Echo Bolt
-- one party member
-- Magical / Colorless
-- **165 Power**
-- Base Hit100
-- no harmful-status rider
+## Rebuild boundary
 
-## Echo Static
-- one party member
-- Magical / Lightning
-- **145 Power**
-- Base Hit100
-- **15% Stun**
-- 1-round repetition lock
+The dedicated enemy-kit redesign will re-author, as applicable:
 
-Rules:
-- exactly one deployment;
-- no replacement;
-- no respawn;
-- no summon chain;
-- one ordinary action per Echo round;
-- may persist into Rift Incarnate if still alive;
-- never becomes bonus boss HP;
-- never triggers Prime refresh.
+- Level and HP;
+- Strength / Magic / Intelligence / Defense / Spirit / Speed;
+- action list and AI selection;
+- Potency or fixed numerical output;
+- Execution and Return;
+- targeting and retargeting;
+- current status effects and susceptibility;
+- Delay / Interrupt behavior;
+- phase thresholds and numerical modifiers;
+- support-object numerical behavior;
+- encounter-specific combat tuning.
 
-There is no Spatial element.
+Do not reconstruct the superseded kit from repository history. Use current battle-system authority and the later enemy-kit redesign.
+
+Identity, current placement, narrative role, protected/nonlethal outcome, and form/body relationships remain owned by the corresponding current encounter/story/register authorities.

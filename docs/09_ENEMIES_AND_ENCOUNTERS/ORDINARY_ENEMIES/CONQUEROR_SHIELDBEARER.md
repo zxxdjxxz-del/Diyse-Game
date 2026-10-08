@@ -1,44 +1,28 @@
-# Conqueror Shieldbearer
-**Chapter:** 8 — Westguard / Varkesh command routes  
-**Status:** **POWER COMPLETE / RAW BODY AUTHORED**
+# Diyse — Conqueror Shieldbearer
 
-## Body
-| Lv | HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR |
-|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| 34 | **1,180** | **134** | 50 | **94** | 72 | 30 | 0 | 10 |
+**Status:** ACTIVE IDENTITY ANCHOR / EXACT COMBAT KIT REBUILD PENDING  
+**Category:** enemy/encounter identity
 
-## Actions
-### Shield Edge
-- one party member
-- Physical / Neutral
-- **205 Power**
-- Base Hit100
+This identity remains part of the current enemy/encounter catalog wherever it is routed by current chapter, formation, Hunt, boss, support-object, quest, or story authority.
 
-### Conqueror Bash
-- one party member
-- Physical / Neutral
-- **235 Power**
-- Base Hit95
-- **25% Staggered**
-- 2-round repetition lock
+The previous combat kit has been removed from live authority.
 
-### Hold the Line
-> **Power: N/A — no direct damage**
-Target:
-> self and one other living allied Black Host unit if available
-Effect:
-> **Defense +10% / Spirit +10% through the end of the following round**
-No extra action.
-2-round repetition lock.
-No Barrier. No Brace.
+## Rebuild boundary
 
-## Chapter-9 Crownfall body
-| Lv | HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR |
-|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| 40 | **1,480** | **156** | 58 | **108** | 82 | 31 | 0 | 10 |
+The dedicated enemy-kit redesign will re-author, as applicable:
 
-Chapter-9 actions:
-- Shield Edge — **215 Power**
-- Conqueror Bash — **245 Power**, **25% Staggered**
-- Hold the Line — **Power N/A**, Defense +10% / Spirit +10% to self and one ally through the end of the following round
-No Barrier. No Brace.
+- Level and HP;
+- Strength / Magic / Intelligence / Defense / Spirit / Speed;
+- action list and AI selection;
+- Potency or fixed numerical output;
+- Execution and Return;
+- targeting and retargeting;
+- current status effects and susceptibility;
+- Delay / Interrupt behavior;
+- phase thresholds and numerical modifiers;
+- support-object numerical behavior;
+- encounter-specific combat tuning.
+
+Do not reconstruct the superseded kit from repository history. Use current battle-system authority and the later enemy-kit redesign.
+
+Identity, current placement, narrative role, protected/nonlethal outcome, and form/body relationships remain owned by the corresponding current encounter/story/register authorities.

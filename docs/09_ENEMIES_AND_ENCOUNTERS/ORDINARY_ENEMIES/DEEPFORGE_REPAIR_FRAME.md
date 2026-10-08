@@ -1,48 +1,28 @@
-# Deepforge Repair Frame
+# Diyse — Deepforge Repair Frame
 
-**Chapter:** 5 — Repair Galleries / Deepforge  
-**Status:** **POWER COMPLETE / RAW BODY AUTHORED**
+**Status:** ACTIVE IDENTITY ANCHOR / EXACT COMBAT KIT REBUILD PENDING  
+**Category:** enemy/encounter identity
 
-## Body
-| Lv | HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR |
-|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| 20 | **520** | 62 | **70** | 58 | **60** | 24 | 0 | 10 |
+This identity remains part of the current enemy/encounter catalog wherever it is routed by current chapter, formation, Hunt, boss, support-object, quest, or story authority.
 
-True construct:
-> **Bleed Immune**
+The previous combat kit has been removed from live authority.
 
-## Actions
+## Rebuild boundary
 
-### Repair Claw
-- one party member
-- Physical / Neutral
-- **145 Power**
-- Base Hit100
+The dedicated enemy-kit redesign will re-author, as applicable:
 
-### Welding Arc
-- one party member
-- Magical / Lightning
-- **155 Power**
-- Base Hit100
-- **15% Stun**
-- 2-round repetition lock
+- Level and HP;
+- Strength / Magic / Intelligence / Defense / Spirit / Speed;
+- action list and AI selection;
+- Potency or fixed numerical output;
+- Execution and Return;
+- targeting and retargeting;
+- current status effects and susceptibility;
+- Delay / Interrupt behavior;
+- phase thresholds and numerical modifiers;
+- support-object numerical behavior;
+- encounter-specific combat tuning.
 
-### Field Repair
-> **Power: N/A — no direct damage**
+Do not reconstruct the superseded kit from repository history. Use current battle-system authority and the later enemy-kit redesign.
 
-Target:
-> one living allied construct, self legal
-
-Effect:
-> restore **160 HP**
-
-Hard cap:
-> **2 successful uses per Repair Frame per battle**
-
-Field Repair:
-- cannot exceed Max HP;
-- cannot revive;
-- cannot recreate destroyed support objects;
-- does not grant an extra action.
-
-2-round repetition lock.
+Identity, current placement, narrative role, protected/nonlethal outcome, and form/body relationships remain owned by the corresponding current encounter/story/register authorities.

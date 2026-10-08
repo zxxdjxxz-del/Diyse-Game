@@ -1,52 +1,28 @@
-# Resistance Saboteur
+# Diyse — Resistance Saboteur
 
-**Chapter:** 7 authored/protected roster identity  
-**Status:** **POWER COMPLETE / EXACT STORY PLACEMENT OPEN**
+**Status:** ACTIVE IDENTITY ANCHOR / EXACT COMBAT KIT REBUILD PENDING  
+**Category:** enemy/encounter identity
 
-Chapter 7 is not line-complete.
+This identity remains part of the current enemy/encounter catalog wherever it is routed by current chapter, formation, Hunt, boss, support-object, quest, or story authority.
 
-No faction name, motive, allegiance dispute, or exact confrontation has been recovered for this identity.
+The previous combat kit has been removed from live authority.
 
-## Body
-| Lv | HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR |
-|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| 29 | **760** | **110** | 64 | 59 | 54 | **40** | 5 | 5 |
+## Rebuild boundary
 
-## Actions
+The dedicated enemy-kit redesign will re-author, as applicable:
 
-### Saboteur Cut
-- one party member
-- Physical / Neutral
-- **175 Power**
-- Base Hit100
+- Level and HP;
+- Strength / Magic / Intelligence / Defense / Spirit / Speed;
+- action list and AI selection;
+- Potency or fixed numerical output;
+- Execution and Return;
+- targeting and retargeting;
+- current status effects and susceptibility;
+- Delay / Interrupt behavior;
+- phase thresholds and numerical modifiers;
+- support-object numerical behavior;
+- encounter-specific combat tuning.
 
-### Charge Burst
-- one party member
-- Magical / Fire
-- **190 Power**
-- Base Hit100
-- **20% Burn**
-- 2-round repetition lock
+Do not reconstruct the superseded kit from repository history. Use current battle-system authority and the later enemy-kit redesign.
 
-### Covering Blast
-- all conscious party members
-- Physical / Neutral
-- **130 Power per target**
-- Base Hit95
-- 2-round repetition lock
-
-### Withdraw Position
-> **Power: N/A — no direct damage**
-
-Effect:
-> Speed +10 through the end of the following round.
-
-No extra action.
-
-## Resolution boundary
-If used as a protected/nonlethal authored confrontation:
-> 0 HP = unable to continue / withdrawal / disarm as the scene requires.
-
-No death outcome or fixed reward is invented here.
-
-Do not random-spawn.
+Identity, current placement, narrative role, protected/nonlethal outcome, and form/body relationships remain owned by the corresponding current encounter/story/register authorities.

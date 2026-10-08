@@ -1,41 +1,28 @@
-# Mercy Warden
-**Chapter:** 9 — Equal Mercy authored/protected identity  
-**Status:** **POWER COMPLETE / NONLETHAL / EXACT SCENE PLACEMENT BOUNDED**
+# Diyse — Mercy Warden
 
-Chapter 9 is not line-complete; this file does not invent an exact scene ID.
+**Status:** ACTIVE IDENTITY ANCHOR / EXACT COMBAT KIT REBUILD PENDING  
+**Category:** enemy/encounter identity
 
-| Lv | HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR |
-|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| 39 | **1,650** | **138** | **148** | **104** | **108** | 34 | 0 | 10 |
+This identity remains part of the current enemy/encounter catalog wherever it is routed by current chapter, formation, Hunt, boss, support-object, quest, or story authority.
 
-### Warden Staff
-- Physical / Neutral / one target
-- **210 Power**
-- Base Hit100
+The previous combat kit has been removed from live authority.
 
-### Mercy Pulse
-- Magical / Colorless / all conscious party members
-- **155 Power per target**
-- Base Hit100
-- 2-round repetition lock
+## Rebuild boundary
 
-### Restraint Shock
-- Magical / Lightning / one target
-- **220 Power**
-- Base Hit100
-- **20% Stun**
-- 2-round repetition lock
+The dedicated enemy-kit redesign will re-author, as applicable:
 
-### Protective Guard
-> **Power: N/A — no direct damage**
-- **+15 Total Defense through end of following round**
-- 2-round repetition lock
+- Level and HP;
+- Strength / Magic / Intelligence / Defense / Spirit / Speed;
+- action list and AI selection;
+- Potency or fixed numerical output;
+- Execution and Return;
+- targeting and retargeting;
+- current status effects and susceptibility;
+- Delay / Interrupt behavior;
+- phase thresholds and numerical modifiers;
+- support-object numerical behavior;
+- encounter-specific combat tuning.
 
-## Nonlethal resolution
-At 0 HP:
-> disabled / disarmed / unable to continue
+Do not reconstruct the superseded kit from repository history. Use current battle-system authority and the later enemy-kit redesign.
 
-No death presentation.
-No personal loot.
-No random spawn.
-No universal Mercy command.
+Identity, current placement, narrative role, protected/nonlethal outcome, and form/body relationships remain owned by the corresponding current encounter/story/register authorities.

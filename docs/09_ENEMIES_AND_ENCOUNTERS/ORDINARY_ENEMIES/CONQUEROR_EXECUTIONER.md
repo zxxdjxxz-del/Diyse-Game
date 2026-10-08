@@ -1,43 +1,28 @@
-# Conqueror Executioner
-**Chapter:** 8 — rare ordinary encounter  
-**Status:** **POWER COMPLETE / RAW BODY AUTHORED**
+# Diyse — Conqueror Executioner
 
-This is:
-> **a rare ordinary enemy, not an optional Elite**
+**Status:** ACTIVE IDENTITY ANCHOR / EXACT COMBAT KIT REBUILD PENDING  
+**Category:** enemy/encounter identity
 
-## Body
-| Lv | HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR |
-|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| 36 | **1,480** | **150** | 86 | **92** | 72 | 34 | 0 | 10 |
+This identity remains part of the current enemy/encounter catalog wherever it is routed by current chapter, formation, Hunt, boss, support-object, quest, or story authority.
 
-## Actions
-### Executioner Cleave
-- one party member
-- Physical / Neutral
-- **250 Power**
-- Base Hit100
-- **25% Bleed**
-- 1-round repetition lock
+The previous combat kit has been removed from live authority.
 
-### Conquest Crush
-- one party member
-- Physical / Neutral
-- **270 Power**
-- Base Hit95
-- **25% Staggered**
-- 2-round repetition lock
+## Rebuild boundary
 
-### Heavy Sweep
-- all conscious party members
-- Physical / Neutral
-- **180 Power per target**
-- Base Hit95
-- 2-round repetition lock
+The dedicated enemy-kit redesign will re-author, as applicable:
 
-### Guard
-> **Power: N/A — no direct damage**
-Effect:
-> **+15 Total Defense through the end of the following round**
-2-round repetition lock.
+- Level and HP;
+- Strength / Magic / Intelligence / Defense / Spirit / Speed;
+- action list and AI selection;
+- Potency or fixed numerical output;
+- Execution and Return;
+- targeting and retargeting;
+- current status effects and susceptibility;
+- Delay / Interrupt behavior;
+- phase thresholds and numerical modifiers;
+- support-object numerical behavior;
+- encounter-specific combat tuning.
 
-Rare-ordinary placement must remain sparser than normal formation identities.
+Do not reconstruct the superseded kit from repository history. Use current battle-system authority and the later enemy-kit redesign.
+
+Identity, current placement, narrative role, protected/nonlethal outcome, and form/body relationships remain owned by the corresponding current encounter/story/register authorities.

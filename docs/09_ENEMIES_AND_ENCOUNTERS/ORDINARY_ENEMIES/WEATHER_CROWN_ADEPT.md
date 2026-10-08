@@ -1,37 +1,28 @@
-# Weather Crown Adept
+# Diyse — Weather Crown Adept
 
-**Chapter:** 6 — Frostmere / Weather Crown  
-**Status:** **POWER COMPLETE / RAW BODY AUTHORED**
+**Status:** ACTIVE IDENTITY ANCHOR / EXACT COMBAT KIT REBUILD PENDING  
+**Category:** enemy/encounter identity
 
-## Body
-| Lv | HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR |
-|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| 23 | **560** | 38 | **88** | 45 | **58** | 35 | 0 | 10 |
+This identity remains part of the current enemy/encounter catalog wherever it is routed by current chapter, formation, Hunt, boss, support-object, quest, or story authority.
 
-## Actions
+The previous combat kit has been removed from live authority.
 
-### Crownbolt
-- one party member
-- Magical / Lightning
-- **180 Power**
-- Base Hit100
-- **20% Stun**
-- 2-round repetition lock
+## Rebuild boundary
 
-### Frost Channel
-- one party member
-- Magical / Ice
-- **175 Power**
-- Base Hit100
-- **20% Freeze**
-- 2-round repetition lock
+The dedicated enemy-kit redesign will re-author, as applicable:
 
-### Weather Ward
-> **Power: N/A — no direct damage**
+- Level and HP;
+- Strength / Magic / Intelligence / Defense / Spirit / Speed;
+- action list and AI selection;
+- Potency or fixed numerical output;
+- Execution and Return;
+- targeting and retargeting;
+- current status effects and susceptibility;
+- Delay / Interrupt behavior;
+- phase thresholds and numerical modifiers;
+- support-object numerical behavior;
+- encounter-specific combat tuning.
 
-Effect:
-> **Spirit +10% through the end of the following round**
+Do not reconstruct the superseded kit from repository history. Use current battle-system authority and the later enemy-kit redesign.
 
-2-round repetition lock.
-
-No Wind element is created.
+Identity, current placement, narrative role, protected/nonlethal outcome, and form/body relationships remain owned by the corresponding current encounter/story/register authorities.

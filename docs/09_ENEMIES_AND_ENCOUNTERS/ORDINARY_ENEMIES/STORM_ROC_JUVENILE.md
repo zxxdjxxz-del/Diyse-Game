@@ -1,40 +1,28 @@
-# Storm Roc Juvenile
+# Diyse — Storm Roc Juvenile
 
-**Chapter-6 authority:** Weather Crown ecology  
-**Status:** **POWER COMPLETE / CH6 RAW BODY AUTHORED**
+**Status:** ACTIVE IDENTITY ANCHOR / EXACT COMBAT KIT REBUILD PENDING  
+**Category:** enemy/encounter identity
 
-## Chapter-6 body
-| Lv | HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR |
-|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| 24 | **760** | **84** | 70 | 48 | 45 | **41** | 10 | 5 |
+This identity remains part of the current enemy/encounter catalog wherever it is routed by current chapter, formation, Hunt, boss, support-object, quest, or story authority.
 
-## Actions
+The previous combat kit has been removed from live authority.
 
-### Juvenile Talon
-- one party member
-- Physical / Neutral
-- **190 Power**
-- Base Hit100
-- **15% Bleed**
-- 1-round repetition lock
+## Rebuild boundary
 
-### Hail Wing
-- all conscious party members
-- Magical / Ice
-- **135 Power per target**
-- Base Hit95
-- **15% Freeze per target**
-- 2-round repetition lock
+The dedicated enemy-kit redesign will re-author, as applicable:
 
-### Gale Dive
-- one party member
-- Physical / Neutral
-- **205 Power**
-- Base Hit95
-- **15% Staggered**
-- 2-round repetition lock
+- Level and HP;
+- Strength / Magic / Intelligence / Defense / Spirit / Speed;
+- action list and AI selection;
+- Potency or fixed numerical output;
+- Execution and Return;
+- targeting and retargeting;
+- current status effects and susceptibility;
+- Delay / Interrupt behavior;
+- phase thresholds and numerical modifiers;
+- support-object numerical behavior;
+- encounter-specific combat tuning.
 
-`Gale` remains Physical / Neutral presentation.
+Do not reconstruct the superseded kit from repository history. Use current battle-system authority and the later enemy-kit redesign.
 
-## Reuse boundary
-Later Character-Quest use requires chapter-appropriate raw scaling.
+Identity, current placement, narrative role, protected/nonlethal outcome, and form/body relationships remain owned by the corresponding current encounter/story/register authorities.

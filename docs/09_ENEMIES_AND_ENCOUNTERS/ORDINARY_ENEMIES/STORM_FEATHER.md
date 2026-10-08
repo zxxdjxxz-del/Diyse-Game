@@ -1,38 +1,28 @@
-# Storm Feather
+# Diyse — Storm Feather
 
-**Chapter-6 authority:** Weather Crown ecology  
-**Status:** **POWER COMPLETE / CH6 RAW BODY AUTHORED**
+**Status:** ACTIVE IDENTITY ANCHOR / EXACT COMBAT KIT REBUILD PENDING  
+**Category:** enemy/encounter identity
 
-## Chapter-6 body
-| Lv | HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR |
-|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| 23 | **430** | **74** | 58 | 39 | 38 | **43** | 10 | 5 |
+This identity remains part of the current enemy/encounter catalog wherever it is routed by current chapter, formation, Hunt, boss, support-object, quest, or story authority.
 
-## Actions
+The previous combat kit has been removed from live authority.
 
-### Gale Cut
-- one party member
-- Physical / Neutral
-- **165 Power**
-- Base Hit100
+## Rebuild boundary
 
-`Gale` is presentation only.
-It is not Wind damage.
+The dedicated enemy-kit redesign will re-author, as applicable:
 
-### Static Feather
-- one party member
-- Magical / Lightning
-- **160 Power**
-- Base Hit100
-- **15% Stun**
-- 2-round repetition lock
+- Level and HP;
+- Strength / Magic / Intelligence / Defense / Spirit / Speed;
+- action list and AI selection;
+- Potency or fixed numerical output;
+- Execution and Return;
+- targeting and retargeting;
+- current status effects and susceptibility;
+- Delay / Interrupt behavior;
+- phase thresholds and numerical modifiers;
+- support-object numerical behavior;
+- encounter-specific combat tuning.
 
-### Wing Scatter
-- all conscious party members
-- Physical / Neutral
-- **120 Power per target**
-- Base Hit95
-- 2-round repetition lock
+Do not reconstruct the superseded kit from repository history. Use current battle-system authority and the later enemy-kit redesign.
 
-## Reuse boundary
-Later Character-Quest reuse requires chapter-appropriate raw stats.
+Identity, current placement, narrative role, protected/nonlethal outcome, and form/body relationships remain owned by the corresponding current encounter/story/register authorities.

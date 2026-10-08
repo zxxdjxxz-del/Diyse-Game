@@ -1,48 +1,28 @@
-# Name Clerk
+# Diyse — Name Clerk
 
-**Chapter:** 7 — Prison of Names  
-**Status:** **POWER COMPLETE / RAW BODY AUTHORED**
+**Status:** ACTIVE IDENTITY ANCHOR / EXACT COMBAT KIT REBUILD PENDING  
+**Category:** enemy/encounter identity
 
-The administrative identity is combat presentation only.
+This identity remains part of the current enemy/encounter catalog wherever it is routed by current chapter, formation, Hunt, boss, support-object, quest, or story authority.
 
-It cannot:
-- alter permanent character names;
-- delete classes;
-- remove equipment;
-- erase Cards;
-- remove learned abilities;
-- rewrite save data.
+The previous combat kit has been removed from live authority.
 
-## Body
-| Lv | HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR |
-|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| 30 | **720** | 42 | **120** | 51 | **76** | 35 | 0 | 10 |
+## Rebuild boundary
 
-## Actions
+The dedicated enemy-kit redesign will re-author, as applicable:
 
-### Registry Bolt
-- one party member
-- Magical / Colorless
-- **180 Power**
-- Base Hit100
+- Level and HP;
+- Strength / Magic / Intelligence / Defense / Spirit / Speed;
+- action list and AI selection;
+- Potency or fixed numerical output;
+- Execution and Return;
+- targeting and retargeting;
+- current status effects and susceptibility;
+- Delay / Interrupt behavior;
+- phase thresholds and numerical modifiers;
+- support-object numerical behavior;
+- encounter-specific combat tuning.
 
-### Filing Pulse
-- all conscious party members
-- Magical / Colorless
-- **130 Power per target**
-- Base Hit100
-- 2-round repetition lock
+Do not reconstruct the superseded kit from repository history. Use current battle-system authority and the later enemy-kit redesign.
 
-### Process Order
-> **Power: N/A — no direct damage**
-
-Target:
-> one other living allied prison-system enemy
-
-Effect:
-> Attack +10% / Magic +10% through the end of the following round.
-
-No extra action.
-
-If no legal ally exists:
-> Registry Bolt is used instead.
+Identity, current placement, narrative role, protected/nonlethal outcome, and form/body relationships remain owned by the corresponding current encounter/story/register authorities.

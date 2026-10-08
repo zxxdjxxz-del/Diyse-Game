@@ -1,50 +1,28 @@
-# Annex Crucible Guard
+# Diyse — Annex Crucible Guard
 
-**Chapter:** 4 — Reaction Annex / Regulation Core  
-**Status:** **CHAPTER-4 REWORK INPUT / NOT FINAL CURRENT AUTHORITY**
+**Status:** ACTIVE IDENTITY ANCHOR / EXACT COMBAT KIT REBUILD PENDING  
+**Category:** enemy/encounter identity
 
-> The identity, body, actions, and placement below are inherited design material for the pending Chapter-4 enemy rework. Do not treat them as locked current roster/balance authority until that rework explicitly retains or revises them.
+This identity remains part of the current enemy/encounter catalog wherever it is routed by current chapter, formation, Hunt, boss, support-object, quest, or story authority.
 
-## Body
-| Lv | HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR |
-|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| 16 | **560** | **76** | 48 | **52** | 44 | 26 | 0 | 10 |
+The previous combat kit has been removed from live authority.
 
-True construct:
-> **Bleed Immune**
+## Rebuild boundary
 
-## Actions
+The dedicated enemy-kit redesign will re-author, as applicable:
 
-### Crucible Bash
-- one party member
-- Physical / Neutral
-- **190 Power**
-- Base Hit100
+- Level and HP;
+- Strength / Magic / Intelligence / Defense / Spirit / Speed;
+- action list and AI selection;
+- Potency or fixed numerical output;
+- Execution and Return;
+- targeting and retargeting;
+- current status effects and susceptibility;
+- Delay / Interrupt behavior;
+- phase thresholds and numerical modifiers;
+- support-object numerical behavior;
+- encounter-specific combat tuning.
 
-### Chamber Vent
-- all conscious party members
-- Magical / current gallery element
-- **150 Power per target**
-- Base Hit95
-- no harmful-status rider
-- 2-round repetition lock
+Do not reconstruct the superseded kit from repository history. Use current battle-system authority and the later enemy-kit redesign.
 
-Current gallery element must be exactly one of:
-- Fire
-- Ice
-- Lightning
-- Earth
-
-If no elemental gallery state is active:
-> Chamber Vent is Colorless.
-
-### Guard
-> **Power: N/A — no direct damage**
-
-Effect:
-> **Defense +15% / Spirit +15% through the end of the following round**
-
-2-round repetition lock.
-
-No Brace.
-No Barrier.
+Identity, current placement, narrative role, protected/nonlethal outcome, and form/body relationships remain owned by the corresponding current encounter/story/register authorities.

@@ -1,40 +1,28 @@
-# Imperial Bulwark
+# Diyse — Imperial Bulwark
 
-**Chapter:** 12 — Black Host Territory campaign  
-**Status:** **POWER COMPLETE / RAW BODY AUTHORED**
+**Status:** ACTIVE IDENTITY ANCHOR / EXACT COMBAT KIT REBUILD PENDING  
+**Category:** enemy/encounter identity
 
-## Body
-| Lv | HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR |
-|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| 54 | **1,920** | **188** | 66 | **136** | 104 | 31 | 0 | 10 |
+This identity remains part of the current enemy/encounter catalog wherever it is routed by current chapter, formation, Hunt, boss, support-object, quest, or story authority.
 
-## Actions
+The previous combat kit has been removed from live authority.
 
-### Bulwark Strike
-- one party member
-- Physical / Neutral
-- **235 Power**
-- Base Hit100
+## Rebuild boundary
 
-### Imperial Bash
-- one party member
-- Physical / Neutral
-- **265 Power**
-- Base Hit95
-- **25% Staggered**
-- 2-round repetition lock
+The dedicated enemy-kit redesign will re-author, as applicable:
 
-### Hold Formation
-> **Power: N/A — no direct damage**
+- Level and HP;
+- Strength / Magic / Intelligence / Defense / Spirit / Speed;
+- action list and AI selection;
+- Potency or fixed numerical output;
+- Execution and Return;
+- targeting and retargeting;
+- current status effects and susceptibility;
+- Delay / Interrupt behavior;
+- phase thresholds and numerical modifiers;
+- support-object numerical behavior;
+- encounter-specific combat tuning.
 
-Target:
-> self and one other living allied Black Host military unit if available
+Do not reconstruct the superseded kit from repository history. Use current battle-system authority and the later enemy-kit redesign.
 
-Effect:
-> **Defense +10% / Spirit +10% through the end of the following round**
-
-No extra action.
-2-round repetition lock.
-
-No Barrier.
-No Brace.
+Identity, current placement, narrative role, protected/nonlethal outcome, and form/body relationships remain owned by the corresponding current encounter/story/register authorities.

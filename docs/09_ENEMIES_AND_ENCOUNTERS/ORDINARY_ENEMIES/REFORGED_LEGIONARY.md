@@ -1,42 +1,28 @@
-# Reforged Legionary
+# Diyse — Reforged Legionary
 
-**Chapter:** 12 — Black Host Territory campaign  
-**Status:** **POWER COMPLETE / RAW BODY AUTHORED**
+**Status:** ACTIVE IDENTITY ANCHOR / EXACT COMBAT KIT REBUILD PENDING  
+**Category:** enemy/encounter identity
 
-This is a military Black Host combatant, not a civilian-population identity.
+This identity remains part of the current enemy/encounter catalog wherever it is routed by current chapter, formation, Hunt, boss, support-object, quest, or story authority.
 
-## Body
-| Lv | HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR |
-|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| 53 | **1,560** | **190** | 72 | 112 | 88 | 39 | 0 | 10 |
+The previous combat kit has been removed from live authority.
 
-## Actions
+## Rebuild boundary
 
-### Reforged Blade
-- one party member
-- Physical / Neutral
-- **230 Power**
-- Base Hit100
+The dedicated enemy-kit redesign will re-author, as applicable:
 
-### Legion Press
-- one party member
-- Physical / Neutral
-- **255 Power**
-- Base Hit95
-- **25% Bleed**
-- 1-round repetition lock
+- Level and HP;
+- Strength / Magic / Intelligence / Defense / Spirit / Speed;
+- action list and AI selection;
+- Potency or fixed numerical output;
+- Execution and Return;
+- targeting and retargeting;
+- current status effects and susceptibility;
+- Delay / Interrupt behavior;
+- phase thresholds and numerical modifiers;
+- support-object numerical behavior;
+- encounter-specific combat tuning.
 
-### Formation Sweep
-- all conscious party members
-- Physical / Neutral
-- **180 Power per target**
-- Base Hit95
-- 2-round repetition lock
+Do not reconstruct the superseded kit from repository history. Use current battle-system authority and the later enemy-kit redesign.
 
-### Guard
-> **Power: N/A — no direct damage**
-
-Effect:
-> **+10 Total Defense through the end of the following round**
-
-2-round repetition lock.
+Identity, current placement, narrative role, protected/nonlethal outcome, and form/body relationships remain owned by the corresponding current encounter/story/register authorities.

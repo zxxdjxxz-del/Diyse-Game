@@ -1,59 +1,28 @@
-# Perfected Soldier
+# Diyse — Perfected Soldier
 
-**Chapter:** 6 — Crimson Work authored/special roster identity  
-**Status:** **POWER COMPLETE / PLACEMENT BOUNDED**
+**Status:** ACTIVE IDENTITY ANCHOR / EXACT COMBAT KIT REBUILD PENDING  
+**Category:** enemy/encounter identity
 
-This file defines combat behavior only.
+This identity remains part of the current enemy/encounter catalog wherever it is routed by current chapter, formation, Hunt, boss, support-object, quest, or story authority.
 
-It does not:
-- establish the subject's identity/history;
-- declare consent;
-- declare death at 0 HP;
-- add a Blood status or Poison.
+The previous combat kit has been removed from live authority.
 
-Exact Chapter-6 placement remains open.
+## Rebuild boundary
 
-## Body
-| Lv | HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR |
-|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| 27 | **1,080** | **106** | 72 | **70** | 59 | 35 | 5 | 10 |
+The dedicated enemy-kit redesign will re-author, as applicable:
 
-## Actions
+- Level and HP;
+- Strength / Magic / Intelligence / Defense / Spirit / Speed;
+- action list and AI selection;
+- Potency or fixed numerical output;
+- Execution and Return;
+- targeting and retargeting;
+- current status effects and susceptibility;
+- Delay / Interrupt behavior;
+- phase thresholds and numerical modifiers;
+- support-object numerical behavior;
+- encounter-specific combat tuning.
 
-### Perfected Cut
-- one party member
-- Physical / Neutral
-- **225 Power**
-- Base Hit100
+Do not reconstruct the superseded kit from repository history. Use current battle-system authority and the later enemy-kit redesign.
 
-### Ruin Drive
-- one party member
-- Hybrid / Ruin
-- **75% ATK / 25% MAG**
-- **220 Power**
-- Base Hit100
-- **20% Staggered**
-- 2-round repetition lock
-
-### Reconstruction Burst
-- all conscious party members
-- Magical / Colorless
-- **150 Power per target**
-- Base Hit95
-- 2-round repetition lock
-
-### Stabilize
-> **Power: N/A — no direct damage**
-
-Effect:
-> restore **180 HP**
-
-Hard cap:
-> **1 successful use per battle**
-
-Cannot exceed Max HP.
-
-## Protected-placement boundary
-Do not random-spawn.
-
-Exact authored outcome remains open until Chapter-6 placement is recovered/approved.
+Identity, current placement, narrative role, protected/nonlethal outcome, and form/body relationships remain owned by the corresponding current encounter/story/register authorities.

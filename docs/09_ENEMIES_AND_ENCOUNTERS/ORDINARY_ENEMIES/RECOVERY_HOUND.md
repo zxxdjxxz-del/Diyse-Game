@@ -1,28 +1,28 @@
-# Recovery Hound
-**Chapter:** 9 — Larkspire / Equal Mercy  
-**Status:** **POWER COMPLETE / RAW BODY AUTHORED**
+# Diyse — Recovery Hound
 
-| Lv | HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR |
-|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| 38 | **1,120** | **146** | 68 | 80 | 67 | **45** | 5 | 5 |
+**Status:** ACTIVE IDENTITY ANCHOR / EXACT COMBAT KIT REBUILD PENDING  
+**Category:** enemy/encounter identity
 
-### Recovery Pounce
-- Physical / Neutral / one target
-- **225 Power**
-- Base Hit100
+This identity remains part of the current enemy/encounter catalog wherever it is routed by current chapter, formation, Hunt, boss, support-object, quest, or story authority.
 
-### Restraint Bite
-- Physical / Neutral / one target
-- **210 Power**
-- Base Hit100
-- **20% Bleed**
-- 1-round repetition lock
+The previous combat kit has been removed from live authority.
 
-### Driving Rush
-- Physical / Neutral / one target
-- **235 Power**
-- Base Hit95
-- **20% Staggered**
-- 2-round repetition lock
+## Rebuild boundary
 
-No Poison.
+The dedicated enemy-kit redesign will re-author, as applicable:
+
+- Level and HP;
+- Strength / Magic / Intelligence / Defense / Spirit / Speed;
+- action list and AI selection;
+- Potency or fixed numerical output;
+- Execution and Return;
+- targeting and retargeting;
+- current status effects and susceptibility;
+- Delay / Interrupt behavior;
+- phase thresholds and numerical modifiers;
+- support-object numerical behavior;
+- encounter-specific combat tuning.
+
+Do not reconstruct the superseded kit from repository history. Use current battle-system authority and the later enemy-kit redesign.
+
+Identity, current placement, narrative role, protected/nonlethal outcome, and form/body relationships remain owned by the corresponding current encounter/story/register authorities.

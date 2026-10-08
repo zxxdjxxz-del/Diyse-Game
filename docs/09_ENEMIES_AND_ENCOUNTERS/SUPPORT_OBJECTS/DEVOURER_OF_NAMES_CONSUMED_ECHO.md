@@ -1,28 +1,28 @@
-# Devourer of Names — Consumed Echo
+# Diyse — Devourer Of Names Consumed Echo
 
-**Chapter:** 13 strong-normal support  
-**Encounter:** Devourer of Names  
-**Status:** **POWER COMPLETE / TEMPORARY CAPPED SUPPORT**
+**Status:** ACTIVE IDENTITY ANCHOR / EXACT COMBAT KIT REBUILD PENDING  
+**Category:** enemy/encounter identity
 
-Deployment:
-> once at 60% Devourer of Names HP
+This identity remains part of the current enemy/encounter catalog wherever it is routed by current chapter, formation, Hunt, boss, support-object, quest, or story authority.
 
-| Count max | HP | DEF | Spirit | EVA | SR | Power |
-|---:|---:|---:|---:|---:|---:|---|
-| 1 | **900** | **150** | **158** | 5 | 10 | **N/A** |
+The previous combat kit has been removed from live authority.
 
-While functional:
-- Devourer Magic +10%
-- Devourer +10 Total Defense
+## Rebuild boundary
 
-Rules:
-- no independent turn;
-- no direct-damage action;
-- no repair;
-- no respawn;
-- max1 total.
+The dedicated enemy-kit redesign will re-author, as applicable:
 
-> **Power: N/A — no independent direct damage**
+- Level and HP;
+- Strength / Magic / Intelligence / Defense / Spirit / Speed;
+- action list and AI selection;
+- Potency or fixed numerical output;
+- Execution and Return;
+- targeting and retargeting;
+- current status effects and susceptibility;
+- Delay / Interrupt behavior;
+- phase thresholds and numerical modifiers;
+- support-object numerical behavior;
+- encounter-specific combat tuning.
 
-This is a temporary projection only.
-It cannot steal, rename, erase, or preserve a permanent character identity.
+Do not reconstruct the superseded kit from repository history. Use current battle-system authority and the later enemy-kit redesign.
+
+Identity, current placement, narrative role, protected/nonlethal outcome, and form/body relationships remain owned by the corresponding current encounter/story/register authorities.

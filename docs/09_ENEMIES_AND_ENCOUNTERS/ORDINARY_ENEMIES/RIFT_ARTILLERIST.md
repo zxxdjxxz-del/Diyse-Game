@@ -1,40 +1,28 @@
-# Rift Artillerist
+# Diyse — Rift Artillerist
 
-**Chapter:** 7 — Veycross transfer corridor  
-**Status:** **POWER COMPLETE / RAW BODY AUTHORED**
+**Status:** ACTIVE IDENTITY ANCHOR / EXACT COMBAT KIT REBUILD PENDING  
+**Category:** enemy/encounter identity
 
-## Body
-| Lv | HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR |
-|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| 29 | **650** | 80 | **118** | 48 | 62 | 34 | 0 | 10 |
+This identity remains part of the current enemy/encounter catalog wherever it is routed by current chapter, formation, Hunt, boss, support-object, quest, or story authority.
 
-## Actions
+The previous combat kit has been removed from live authority.
 
-### Rift Shell
-- one party member
-- Magical / Ruin
-- **220 Power**
-- Base Hit95
+## Rebuild boundary
 
-### Transfer Barrage
-- all conscious party members
-- Magical / Colorless
-- **155 Power per target**
-- Base Hit95
-- 2-round repetition lock
+The dedicated enemy-kit redesign will re-author, as applicable:
 
-### Shock Payload
-- one party member
-- Magical / Lightning
-- **195 Power**
-- Base Hit95
-- **20% Stun**
-- 2-round repetition lock
+- Level and HP;
+- Strength / Magic / Intelligence / Defense / Spirit / Speed;
+- action list and AI selection;
+- Potency or fixed numerical output;
+- Execution and Return;
+- targeting and retargeting;
+- current status effects and susceptibility;
+- Delay / Interrupt behavior;
+- phase thresholds and numerical modifiers;
+- support-object numerical behavior;
+- encounter-specific combat tuning.
 
-### Recalibrate
-> **Power: N/A — no direct damage**
+Do not reconstruct the superseded kit from repository history. Use current battle-system authority and the later enemy-kit redesign.
 
-Effect:
-> Base Hit +10 through the end of the following round.
-
-No extra action.
+Identity, current placement, narrative role, protected/nonlethal outcome, and form/body relationships remain owned by the corresponding current encounter/story/register authorities.

@@ -1,29 +1,28 @@
-# Element Matrix
-**Chapter:** 11 — Crown Engine  
-**Status:** **POWER COMPLETE / RAW BODY AUTHORED**
+# Diyse — Element Matrix
 
-The name references the **Elements Face** thematically.
-Enemies do **not** use Cards.
+**Status:** ACTIVE IDENTITY ANCHOR / EXACT COMBAT KIT REBUILD PENDING  
+**Category:** enemy/encounter identity
 
-| Lv | HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR |
-|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| 50 | **1,520** | 62 | **184** | 88 | **122** | 39 | 5 | 10 |
+This identity remains part of the current enemy/encounter catalog wherever it is routed by current chapter, formation, Hunt, boss, support-object, quest, or story authority.
 
-True construct: **Bleed Immune**
+The previous combat kit has been removed from live authority.
 
-At encounter load: Fire.
-At each later beginning-round:
-> Fire → Ice → Lightning → Earth → Fire
+## Rebuild boundary
 
-No free action. No Wind or Water.
+The dedicated enemy-kit redesign will re-author, as applicable:
 
-### Matrix Lance
-- Magical / current element / one target
-- **245 Power**, Base Hit100
-- Fire20% Burn / Ice20% Freeze / Lightning20% Stun / Earth20% Staggered
+- Level and HP;
+- Strength / Magic / Intelligence / Defense / Spirit / Speed;
+- action list and AI selection;
+- Potency or fixed numerical output;
+- Execution and Return;
+- targeting and retargeting;
+- current status effects and susceptibility;
+- Delay / Interrupt behavior;
+- phase thresholds and numerical modifiers;
+- support-object numerical behavior;
+- encounter-specific combat tuning.
 
-### Matrix Wave
-- Magical / current element / all conscious party members
-- **180 Power per target**, Base Hit95
-- no harmful-status rider
-- 2-round repetition lock
+Do not reconstruct the superseded kit from repository history. Use current battle-system authority and the later enemy-kit redesign.
+
+Identity, current placement, narrative role, protected/nonlethal outcome, and form/body relationships remain owned by the corresponding current encounter/story/register authorities.

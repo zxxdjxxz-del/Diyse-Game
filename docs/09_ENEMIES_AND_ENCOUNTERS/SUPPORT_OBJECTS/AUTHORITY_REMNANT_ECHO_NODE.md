@@ -1,33 +1,28 @@
-# Authority Remnant — Echo Node
+# Diyse — Authority Remnant Echo Node
 
-**Encounter:** Regional Hunt #10 — Authority Remnant  
-**Status:** **POWER COMPLETE / FINITE SUPPORT**
+**Status:** ACTIVE IDENTITY ANCHOR / EXACT COMBAT KIT REBUILD PENDING  
+**Category:** enemy/encounter identity
 
-Spawn thresholds:
-- one at 70% Authority Remnant HP;
-- one at 35% Authority Remnant HP.
+This identity remains part of the current enemy/encounter catalog wherever it is routed by current chapter, formation, Hunt, boss, support-object, quest, or story authority.
 
-Maximum:
-> **2 total**
+The previous combat kit has been removed from live authority.
 
-Each Node:
+## Rebuild boundary
 
-| HP | DEF | Spirit | EVA | SR | Power |
-|---:|---:|---:|---:|---:|---|
-| **1,050** | **148** | **154** | 0 | 10 | **N/A** |
+The dedicated enemy-kit redesign will re-author, as applicable:
 
-While functional, each Node grants Authority Remnant:
-- Magic +5%
-- +5 Total Defense
+- Level and HP;
+- Strength / Magic / Intelligence / Defense / Spirit / Speed;
+- action list and AI selection;
+- Potency or fixed numerical output;
+- Execution and Return;
+- targeting and retargeting;
+- current status effects and susceptibility;
+- Delay / Interrupt behavior;
+- phase thresholds and numerical modifiers;
+- support-object numerical behavior;
+- encounter-specific combat tuning.
 
-Rules:
-- no independent turn;
-- no direct-damage action;
-- no repair;
-- no respawn;
-- no replacement beyond the two scheduled thresholds.
+Do not reconstruct the superseded kit from repository history. Use current battle-system authority and the later enemy-kit redesign.
 
-> **Power: N/A — no independent direct damage**
-
-These Nodes are administrative Echo machinery.
-They are not Entity fragments, souls, or copies.
+Identity, current placement, narrative role, protected/nonlethal outcome, and form/body relationships remain owned by the corresponding current encounter/story/register authorities.

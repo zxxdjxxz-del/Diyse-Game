@@ -1,36 +1,28 @@
-# Renewal Attendant Frame
+# Diyse — Renewal Attendant Frame
 
-**Encounter:** Regional Hunt #11 — Throne of Emperor Vaelkor  
-**Status:** **POWER COMPLETE / EXACT ACTIVE BALANCE VALUE**
+**Status:** ACTIVE IDENTITY ANCHOR / EXACT COMBAT KIT REBUILD PENDING  
+**Category:** enemy/encounter identity
 
-One instance enters with Sealed Throne.
+This identity remains part of the current enemy/encounter catalog wherever it is routed by current chapter, formation, Hunt, boss, support-object, quest, or story authority.
 
-| HP | DEF | Spirit | EVA | SR | Power |
-|---:|---:|---:|---:|---:|---|
-| **1,350** | **160** | **170** | 0 | 10 | **N/A** |
+The previous combat kit has been removed from live authority.
 
-## Capped Renewal
-After the Throne completes a selected action, if:
-- this Frame is functional; and
-- the current Throne body is below Max HP; and
-- a successful Renewal use remains,
+## Rebuild boundary
 
-restore:
-> **450 HP**
+The dedicated enemy-kit redesign will re-author, as applicable:
 
-Encounter-wide cap:
-> **3 successful Renewal triggers total**
+- Level and HP;
+- Strength / Magic / Intelligence / Defense / Spirit / Speed;
+- action list and AI selection;
+- Potency or fixed numerical output;
+- Execution and Return;
+- targeting and retargeting;
+- current status effects and susceptibility;
+- Delay / Interrupt behavior;
+- phase thresholds and numerical modifiers;
+- support-object numerical behavior;
+- encounter-specific combat tuning.
 
-Unused triggers carry into Walking Throne if the Frame survives.
+Do not reconstruct the superseded kit from repository history. Use current battle-system authority and the later enemy-kit redesign.
 
-Rules:
-- no independent turn;
-- no direct-damage action;
-- cannot revive a defeated Throne body;
-- cannot heal past Max HP;
-- no repair;
-- no respawn.
-
-The fresh Walking Throne body does **not** reset the three-use cap.
-
-> **Power: N/A — no independent direct damage**
+Identity, current placement, narrative role, protected/nonlethal outcome, and form/body relationships remain owned by the corresponding current encounter/story/register authorities.

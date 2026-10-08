@@ -1,45 +1,28 @@
-# Diyse — Regional Hunt #5: Whitehorn Ravager
+# Diyse — Regional Hunt 05
 
-**Status:** ACTIVE REGIONAL-HUNT ENCOUNTER BODY — REVALIDATION PENDING  
-**Authority:** current enemy/encounter owner plus later explicit approved corrections.  
-**Scaling:** fixed authored tuning; no dynamic player-level scaling.
+**Status:** ACTIVE IDENTITY ANCHOR / EXACT COMBAT KIT REBUILD PENDING  
+**Category:** enemy/encounter identity
 
+This identity remains part of the current enemy/encounter catalog wherever it is routed by current chapter, formation, Hunt, boss, support-object, quest, or story authority.
 
+The previous combat kit has been removed from live authority.
 
-| Lv | HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR |
-|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| 26 | **8,678** | **104** | 74 | 70 | 64 | 41 | 10 | 5 |
+## Rebuild boundary
 
-## Actions
+The dedicated enemy-kit redesign will re-author, as applicable:
 
-### Whitehorn Charge
-- Physical / Neutral / one target
-- **285 Power**
-- Base Hit95
-- **25% Staggered**
-- 2-round repetition lock
+- Level and HP;
+- Strength / Magic / Intelligence / Defense / Spirit / Speed;
+- action list and AI selection;
+- Potency or fixed numerical output;
+- Execution and Return;
+- targeting and retargeting;
+- current status effects and susceptibility;
+- Delay / Interrupt behavior;
+- phase thresholds and numerical modifiers;
+- support-object numerical behavior;
+- encounter-specific combat tuning.
 
-### Ravager Gore
-- Physical / Neutral / one target
-- **305 Power**
-- Base Hit100
-- **30% Bleed**
-- 1-round repetition lock
+Do not reconstruct the superseded kit from repository history. Use current battle-system authority and the later enemy-kit redesign.
 
-### Frost Breath
-- Magical / Ice / all conscious party members
-- **215 Power per target**
-- Base Hit95
-- **15% Freeze per target**
-- 2-round repetition lock
-
-### Snowbound Rush
-- Physical / Neutral / one target
-- **320 Power**
-- Base Hit95
-- 2-round repetition lock
-
-## Architecture
-One HP bar.
-No second body or support wave.
-
+Identity, current placement, narrative role, protected/nonlethal outcome, and form/body relationships remain owned by the corresponding current encounter/story/register authorities.

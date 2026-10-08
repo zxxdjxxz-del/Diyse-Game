@@ -1,26 +1,28 @@
-# Crown Engine Sentinel
-**Chapter:** 11 — Crown Engine  
-**Status:** **POWER COMPLETE / RAW BODY AUTHORED**
+# Diyse — Crown Engine Sentinel
 
-| Lv | HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR |
-|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| 47 | **1,480** | **166** | 128 | **112** | 101 | 36 | 0 | 10 |
+**Status:** ACTIVE IDENTITY ANCHOR / EXACT COMBAT KIT REBUILD PENDING  
+**Category:** enemy/encounter identity
 
-True construct: **Bleed Immune**
+This identity remains part of the current enemy/encounter catalog wherever it is routed by current chapter, formation, Hunt, boss, support-object, quest, or story authority.
 
-### Sentinel Blade
-- Physical / Neutral / one target — **225 Power**, Base Hit100
+The previous combat kit has been removed from live authority.
 
-### Crown Pulse
-- Magical / Colorless / all conscious party members — **175 Power per target**, Base Hit100
-- 2-round repetition lock
+## Rebuild boundary
 
-### Enforcement Shock
-- Magical / Lightning / one target — **215 Power**, Base Hit100
-- **20% Stun**, 2-round repetition lock
+The dedicated enemy-kit redesign will re-author, as applicable:
 
-### Guard
-> **Power: N/A — no direct damage**
-- +10 Total Defense through end following round
-- 2-round repetition lock
-- no Barrier / Brace
+- Level and HP;
+- Strength / Magic / Intelligence / Defense / Spirit / Speed;
+- action list and AI selection;
+- Potency or fixed numerical output;
+- Execution and Return;
+- targeting and retargeting;
+- current status effects and susceptibility;
+- Delay / Interrupt behavior;
+- phase thresholds and numerical modifiers;
+- support-object numerical behavior;
+- encounter-specific combat tuning.
+
+Do not reconstruct the superseded kit from repository history. Use current battle-system authority and the later enemy-kit redesign.
+
+Identity, current placement, narrative role, protected/nonlethal outcome, and form/body relationships remain owned by the corresponding current encounter/story/register authorities.

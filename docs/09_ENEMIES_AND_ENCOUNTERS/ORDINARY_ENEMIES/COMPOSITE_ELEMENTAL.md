@@ -1,45 +1,28 @@
-# Composite Elemental
+# Diyse — Composite Elemental
 
-**Chapter:** 4 — Reaction Annex  
-**Status:** **CHAPTER-4 REWORK INPUT / NOT FINAL CURRENT AUTHORITY**
+**Status:** ACTIVE IDENTITY ANCHOR / EXACT COMBAT KIT REBUILD PENDING  
+**Category:** enemy/encounter identity
 
-> The identity, body, actions, and placement below are inherited design material for the pending Chapter-4 enemy rework. Do not treat them as locked current roster/balance authority until that rework explicitly retains or revises them.
+This identity remains part of the current enemy/encounter catalog wherever it is routed by current chapter, formation, Hunt, boss, support-object, quest, or story authority.
 
-## Body
-| Lv | HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR |
-|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| 14 | **460** | 52 | **68** | 42 | 44 | 31 | 5 | 10 |
+The previous combat kit has been removed from live authority.
 
-## Four-element cycle
-The Composite Elemental begins in Fire expression.
+## Rebuild boundary
 
-At each later beginning-round:
-> Fire → Ice → Lightning → Earth → Fire
+The dedicated enemy-kit redesign will re-author, as applicable:
 
-The expression changes no more than once per round.
+- Level and HP;
+- Strength / Magic / Intelligence / Defense / Spirit / Speed;
+- action list and AI selection;
+- Potency or fixed numerical output;
+- Execution and Return;
+- targeting and retargeting;
+- current status effects and susceptibility;
+- Delay / Interrupt behavior;
+- phase thresholds and numerical modifiers;
+- support-object numerical behavior;
+- encounter-specific combat tuning.
 
-No action is granted by the change.
+Do not reconstruct the superseded kit from repository history. Use current battle-system authority and the later enemy-kit redesign.
 
-## Actions
-
-### Composite Surge
-- one party member
-- Magical / current expression
-- **175 Power**
-- Base Hit100
-
-Rider by expression:
-- Fire — 20% Burn
-- Ice — **20% Freeze**
-- Lightning — 15% Stun
-- Earth — 20% Staggered
-
-Only the current expression's one rider is eligible.
-
-### Cross-Reaction
-- all conscious party members
-- Magical / current expression
-- **130 Power per target**
-- Base Hit95
-- no harmful-status rider
-- 2-round repetition lock
+Identity, current placement, narrative role, protected/nonlethal outcome, and form/body relationships remain owned by the corresponding current encounter/story/register authorities.

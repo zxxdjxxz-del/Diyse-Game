@@ -1,28 +1,28 @@
-# Might Bastion
-**Chapter:** 11 — Crown Engine  
-**Status:** **POWER COMPLETE / RAW BODY AUTHORED**
+# Diyse — Might Bastion
 
-The name references the **Might Face** thematically.
-Enemies do **not** use Cards or Prime Invocation.
+**Status:** ACTIVE IDENTITY ANCHOR / EXACT COMBAT KIT REBUILD PENDING  
+**Category:** enemy/encounter identity
 
-| Lv | HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR |
-|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| 50 | **2,050** | **184** | 92 | **132** | 104 | 30 | 0 | 10 |
+This identity remains part of the current enemy/encounter catalog wherever it is routed by current chapter, formation, Hunt, boss, support-object, quest, or story authority.
 
-True construct: **Bleed Immune**
+The previous combat kit has been removed from live authority.
 
-### Bastion Hammer
-- Physical / Neutral / one target — **265 Power**, Base Hit100
+## Rebuild boundary
 
-### Might Impact
-- Physical / Neutral / one target — **290 Power**, Base Hit95
-- **25% Staggered**, 2-round repetition lock
+The dedicated enemy-kit redesign will re-author, as applicable:
 
-### Bastion Sweep
-- Physical / Neutral / all conscious party members
-- **195 Power per target**, Base Hit95, 2-round repetition lock
+- Level and HP;
+- Strength / Magic / Intelligence / Defense / Spirit / Speed;
+- action list and AI selection;
+- Potency or fixed numerical output;
+- Execution and Return;
+- targeting and retargeting;
+- current status effects and susceptibility;
+- Delay / Interrupt behavior;
+- phase thresholds and numerical modifiers;
+- support-object numerical behavior;
+- encounter-specific combat tuning.
 
-### Guard
-> **Power: N/A — no direct damage**
-- Defense +15% / Spirit +15% through end following round
-- 2-round repetition lock
+Do not reconstruct the superseded kit from repository history. Use current battle-system authority and the later enemy-kit redesign.
+
+Identity, current placement, narrative role, protected/nonlethal outcome, and form/body relationships remain owned by the corresponding current encounter/story/register authorities.

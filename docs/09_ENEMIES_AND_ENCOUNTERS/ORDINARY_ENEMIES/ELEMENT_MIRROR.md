@@ -1,54 +1,28 @@
-# Element Mirror
+# Diyse — Element Mirror
 
-**Chapter:** 4 — Reaction Annex  
-**Status:** **CHAPTER-4 REWORK INPUT / NOT FINAL CURRENT AUTHORITY**
+**Status:** ACTIVE IDENTITY ANCHOR / EXACT COMBAT KIT REBUILD PENDING  
+**Category:** enemy/encounter identity
 
-> The identity, body, actions, and placement below are inherited design material for the pending Chapter-4 enemy rework. Do not treat them as locked current roster/balance authority until that rework explicitly retains or revises them.
+This identity remains part of the current enemy/encounter catalog wherever it is routed by current chapter, formation, Hunt, boss, support-object, quest, or story authority.
 
-## Body
-| Lv | HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR |
-|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| 15 | **330** | 32 | **76** | 34 | **52** | 35 | 10 | 10 |
+The previous combat kit has been removed from live authority.
 
-True construct:
-> **Bleed Immune**
+## Rebuild boundary
 
-## Mirror rule
-The Element Mirror remembers only:
-> the element of the most recent direct elemental damage it actually received since its previous selected action.
+The dedicated enemy-kit redesign will re-author, as applicable:
 
-Eligible:
-- Fire
-- Ice
-- Lightning
-- Earth
+- Level and HP;
+- Strength / Magic / Intelligence / Defense / Spirit / Speed;
+- action list and AI selection;
+- Potency or fixed numerical output;
+- Execution and Return;
+- targeting and retargeting;
+- current status effects and susceptibility;
+- Delay / Interrupt behavior;
+- phase thresholds and numerical modifiers;
+- support-object numerical behavior;
+- encounter-specific combat tuning.
 
-It does **not** copy:
-- source Power;
-- source action;
-- source status;
-- source target shape;
-- source penetration;
-- source resource effects.
+Do not reconstruct the superseded kit from repository history. Use current battle-system authority and the later enemy-kit redesign.
 
-This is elemental mirroring, not copied-action damage.
-
-## Actions
-
-### Mirror Ray
-- one party member
-- Magical / Colorless
-- **165 Power**
-- Base Hit100
-
-### Element Return
-If a valid element is currently remembered:
-- one party member
-- Magical / remembered element
-- **180 Power**
-- Base Hit100
-- no harmful-status rider
-- consumes the remembered element
-
-If no valid element is remembered:
-> use Mirror Ray instead.
+Identity, current placement, narrative role, protected/nonlethal outcome, and form/body relationships remain owned by the corresponding current encounter/story/register authorities.

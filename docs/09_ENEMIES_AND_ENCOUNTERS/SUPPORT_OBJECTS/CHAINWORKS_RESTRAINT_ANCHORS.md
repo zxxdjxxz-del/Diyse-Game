@@ -1,51 +1,28 @@
-# Chainworks Behemoth — Restraint Anchors
+# Diyse — Chainworks Restraint Anchors
 
-**Chapter:** 7  
-**Encounter:** Chainworks Behemoth  
-**Status:** **POWER COMPLETE**
+**Status:** ACTIVE IDENTITY ANCHOR / EXACT COMBAT KIT REBUILD PENDING  
+**Category:** enemy/encounter identity
 
-Exactly three targetable Restraint Anchors.
+This identity remains part of the current enemy/encounter catalog wherever it is routed by current chapter, formation, Hunt, boss, support-object, quest, or story authority.
 
-| Count | HP each | DEF | Spirit | EVA | SR | Power |
-|---:|---:|---:|---:|---:|---:|---|
-| 3 | **240** | **72** | **62** | 0 | 10 | **N/A** |
+The previous combat kit has been removed from live authority.
 
-> **Power: N/A — no independent direct damage.**
+## Rebuild boundary
 
-They:
-- take no independent ordinary turns;
-- cannot be repaired;
-- remain destroyed;
-- are not a Break/Stagger/posture system.
+The dedicated enemy-kit redesign will re-author, as applicable:
 
-## While Bound
-Each intact Anchor gives Chainworks Behemoth:
-> **+5 Total Defense**
+- Level and HP;
+- Strength / Magic / Intelligence / Defense / Spirit / Speed;
+- action list and AI selection;
+- Potency or fixed numerical output;
+- Execution and Return;
+- targeting and retargeting;
+- current status effects and susceptibility;
+- Delay / Interrupt behavior;
+- phase thresholds and numerical modifiers;
+- support-object numerical behavior;
+- encounter-specific combat tuning.
 
-Maximum:
-> **+15**
+Do not reconstruct the superseded kit from repository history. Use current battle-system authority and the later enemy-kit redesign.
 
-At least one intact Anchor is required for Bound-state Gate Crush.
-
-## Release timing
-Normal release:
-> **55% Behemoth HP**
-
-Early release:
-> after a resolved action leaves **2 or more Anchors destroyed**
-
-The Behemoth becomes Freed immediately after that action.
-
-No free transition attack.
-
-## Breakout bonus
-At transition, count Anchors still intact.
-
-For the first two Freed rounds:
-> **Attack +5% per intact Anchor, max +15%**
-
-Then all Anchor functions end.
-
-This gives both valid routes a cost:
-- destroy Anchors → lower defense / earlier but weaker breakout;
-- ignore Anchors → more Bound protection / later but stronger breakout.
+Identity, current placement, narrative role, protected/nonlethal outcome, and form/body relationships remain owned by the corresponding current encounter/story/register authorities.

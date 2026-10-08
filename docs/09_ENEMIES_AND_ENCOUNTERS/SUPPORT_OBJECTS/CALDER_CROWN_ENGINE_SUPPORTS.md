@@ -1,54 +1,28 @@
-# Calder / Crown Engine — Authentication Lenses and Living Anchor Clamps
+# Diyse — Calder Crown Engine Supports
 
-**Chapter:** 11  
-**Encounter:** Chancellor Othmar Calder → Crown-Bound Living Anchor  
-**Status:** **POWER COMPLETE**
+**Status:** ACTIVE IDENTITY ANCHOR / EXACT COMBAT KIT REBUILD PENDING  
+**Category:** enemy/encounter identity
 
-## Authentication Lens
+This identity remains part of the current enemy/encounter catalog wherever it is routed by current chapter, formation, Hunt, boss, support-object, quest, or story authority.
 
-Form-I count:
-> **2**
+The previous combat kit has been removed from live authority.
 
-| HP | DEF | Spirit | EVA | SR | Power |
-|---:|---:|---:|---:|---:|---|
-| 600 | 120 | 145 | 0 | 10 | **N/A** |
+## Rebuild boundary
 
-Each intact Lens:
-- Defense +5% / Spirit +5% to Calder;
-- +5 Base Hit to Calder's selected damaging actions.
+The dedicated enemy-kit redesign will re-author, as applicable:
 
-At least one intact Lens is required for Authenticated Judgment.
+- Level and HP;
+- Strength / Magic / Intelligence / Defense / Spirit / Speed;
+- action list and AI selection;
+- Potency or fixed numerical output;
+- Execution and Return;
+- targeting and retargeting;
+- current status effects and susceptibility;
+- Delay / Interrupt behavior;
+- phase thresholds and numerical modifiers;
+- support-object numerical behavior;
+- encounter-specific combat tuning.
 
-Rules:
-- no independent turn;
-- no direct damage;
-- no repair;
-- no respawn;
-- all remaining Lenses are consumed at fresh Form-II transition.
+Do not reconstruct the superseded kit from repository history. Use current battle-system authority and the later enemy-kit redesign.
 
-## Living Anchor Clamp
-
-Form-II count:
-> **2**
-
-| HP | DEF | Spirit | EVA | SR | Power |
-|---:|---:|---:|---:|---:|---|
-| 720 | 138 | 145 | 0 | 10 | **N/A** |
-
-Each intact Clamp:
-- Defense +5% / Spirit +5% to Crown-Bound Living Anchor.
-
-Below 60% Form-II HP, one intact Clamp may be loaded for Continuity Collapse.
-
-If the loaded Clamp is destroyed before resolution:
-- Continuity Collapse is canceled.
-
-If Continuity Collapse resolves:
-- the loaded Clamp burns out and is destroyed automatically.
-
-Therefore there can be at most two successful Continuity Collapse resolutions.
-
-No independent Clamp attack.
-No respawn.
-No Break meter.
-No Barrier.
+Identity, current placement, narrative role, protected/nonlethal outcome, and form/body relationships remain owned by the corresponding current encounter/story/register authorities.

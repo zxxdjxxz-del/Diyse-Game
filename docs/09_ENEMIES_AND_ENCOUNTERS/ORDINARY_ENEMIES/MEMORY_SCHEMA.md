@@ -1,35 +1,28 @@
-# Memory Schema
-**Chapter:** 11 — Crown Engine  
-**Status:** **POWER COMPLETE / RAW BODY AUTHORED**
+# Diyse — Memory Schema
 
-The name references the **Memory Face** thematically.
-Enemies do **not** use Cards.
-It cannot rewrite permanent player state.
+**Status:** ACTIVE IDENTITY ANCHOR / EXACT COMBAT KIT REBUILD PENDING  
+**Category:** enemy/encounter identity
 
-| Lv | HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR |
-|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| 51 | **1,580** | **150** | **178** | 96 | **116** | **42** | 5 | 10 |
+This identity remains part of the current enemy/encounter catalog wherever it is routed by current chapter, formation, Hunt, boss, support-object, quest, or story authority.
 
-True construct: **Bleed Immune**
+The previous combat kit has been removed from live authority.
 
-### Schema Cut
-- Hybrid / Neutral / 50% ATK /50% MAG / one target
-- **240 Power**, Base Hit100
+## Rebuild boundary
 
-### Revision Burst
-- Magical / Colorless / all conscious party members
-- **175 Power per target**, Base Hit95, 2-round repetition lock
+The dedicated enemy-kit redesign will re-author, as applicable:
 
-### Adaptive Schema
-> **Power: N/A — no direct damage**
+- Level and HP;
+- Strength / Magic / Intelligence / Defense / Spirit / Speed;
+- action list and AI selection;
+- Potency or fixed numerical output;
+- Execution and Return;
+- targeting and retargeting;
+- current status effects and susceptibility;
+- Delay / Interrupt behavior;
+- phase thresholds and numerical modifiers;
+- support-object numerical behavior;
+- encounter-specific combat tuning.
 
-If above50% HP:
-> Attack +10% / Magic +10% through end following round
+Do not reconstruct the superseded kit from repository history. Use current battle-system authority and the later enemy-kit redesign.
 
-If at/below50%:
-> Defense +15% / Spirit +15% through end following round
-
-No extra action.
-2-round repetition lock.
-
-Cannot copy a class, remove abilities/equipment/Cards, or change permanent stats.
+Identity, current placement, narrative role, protected/nonlethal outcome, and form/body relationships remain owned by the corresponding current encounter/story/register authorities.

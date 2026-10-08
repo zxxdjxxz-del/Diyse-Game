@@ -1,71 +1,28 @@
-# Compelled Relay Bearer
+# Diyse — Compelled Relay Bearer
 
-**Chapter:** 12 authored/protected identity  
-**Classification:** protected human / nonlethal  
-**Status:** **POWER COMPLETE / NONLETHAL / CONTROL MECHANISM STORY-OWNED**
+**Status:** ACTIVE IDENTITY ANCHOR / EXACT COMBAT KIT REBUILD PENDING  
+**Category:** enemy/encounter identity
 
-"Compelled" is an authored narrative condition.
+This identity remains part of the current enemy/encounter catalog wherever it is routed by current chapter, formation, Hunt, boss, support-object, quest, or story authority.
 
-This balance file does **not** define it as:
-- possession;
-- a universal mind-control status;
-- identity erasure;
-- willing collaboration.
+The previous combat kit has been removed from live authority.
 
-Chapter 12 is not line-complete, so exact placement and cause remain story-owned.
+## Rebuild boundary
 
-## Body
-| Lv | HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR |
-|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| 55 | **1,420** | **146** | 152 | 96 | 102 | 36 | 0 | 5 |
+The dedicated enemy-kit redesign will re-author, as applicable:
 
-HP represents:
-> ability to continue the forced relay crisis, not lethal injury.
+- Level and HP;
+- Strength / Magic / Intelligence / Defense / Spirit / Speed;
+- action list and AI selection;
+- Potency or fixed numerical output;
+- Execution and Return;
+- targeting and retargeting;
+- current status effects and susceptibility;
+- Delay / Interrupt behavior;
+- phase thresholds and numerical modifiers;
+- support-object numerical behavior;
+- encounter-specific combat tuning.
 
-## Actions
+Do not reconstruct the superseded kit from repository history. Use current battle-system authority and the later enemy-kit redesign.
 
-### Compelled Strike
-- one party member
-- Physical / Neutral
-- **175 Power**
-- Base Hit100
-- no harmful-status rider
-
-### Relay Discharge
-- one party member
-- Magical / Lightning
-- **190 Power**
-- Base Hit100
-- **15% Stun**
-- 2-round repetition lock
-
-### Relay Surge
-- all conscious party members
-- Magical / Colorless
-- **125 Power per target**
-- Base Hit95
-- no harmful-status rider
-- 2-round repetition lock
-
-### Resist the Relay
-> **Power: N/A — no direct damage**
-
-Effect:
-> **+10 Total Defense through the end of the following round**
-
-This represents the Bearer's own effort to survive/resist the immediate condition.
-
-No new universal control subsystem is created.
-
-## Nonlethal resolution
-At 0 HP:
-> safely disabled / disconnected from the immediate relay crisis / unable to continue
-
-No death presentation.
-No personal loot.
-
-The Bearer is not treated as a normal lethal enemy.
-
-Do not random-spawn.
-
-This does not create a universal Mercy/Subdual/Stabilize command.
+Identity, current placement, narrative role, protected/nonlethal outcome, and form/body relationships remain owned by the corresponding current encounter/story/register authorities.

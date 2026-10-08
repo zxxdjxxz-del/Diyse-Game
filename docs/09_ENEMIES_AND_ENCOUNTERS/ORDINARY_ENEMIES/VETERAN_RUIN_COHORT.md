@@ -1,48 +1,28 @@
-# Veteran Ruin Cohort
-**Chapter:** 8 — western counteroffensive  
-**Status:** **POWER COMPLETE / RAW BODY AUTHORED**
+# Diyse — Veteran Ruin Cohort
 
-## Body
-| Lv | HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR |
-|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| 33 | **1,020** | **132** | 64 | 84 | 68 | 37 | 0 | 10 |
+**Status:** ACTIVE IDENTITY ANCHOR / EXACT COMBAT KIT REBUILD PENDING  
+**Category:** enemy/encounter identity
 
-## Actions
-### Veteran Cut
-- one party member
-- Physical / Neutral
-- **205 Power**
-- Base Hit100
+This identity remains part of the current enemy/encounter catalog wherever it is routed by current chapter, formation, Hunt, boss, support-object, quest, or story authority.
 
-### Ruin Press
-- one party member
-- Hybrid / Ruin
-- **75% ATK / 25% MAG**
-- **225 Power**
-- Base Hit100
-- **20% Bleed**
-- 1-round repetition lock
+The previous combat kit has been removed from live authority.
 
-### Cohort Sweep
-- all conscious party members
-- Physical / Neutral
-- **155 Power per target**
-- Base Hit95
-- 2-round repetition lock
+## Rebuild boundary
 
-### Guard
-> **Power: N/A — no direct damage**
-Effect:
-> **+10 Total Defense through the end of the following round**
-2-round repetition lock.
+The dedicated enemy-kit redesign will re-author, as applicable:
 
-## Chapter-9 Crownfall body
-| Lv | HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR |
-|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| 40 | **1,320** | **154** | 76 | 96 | 76 | 39 | 0 | 10 |
+- Level and HP;
+- Strength / Magic / Intelligence / Defense / Spirit / Speed;
+- action list and AI selection;
+- Potency or fixed numerical output;
+- Execution and Return;
+- targeting and retargeting;
+- current status effects and susceptibility;
+- Delay / Interrupt behavior;
+- phase thresholds and numerical modifiers;
+- support-object numerical behavior;
+- encounter-specific combat tuning.
 
-Chapter-9 actions:
-- Veteran Cut — **215 Power**
-- Ruin Press — **235 Power**, Hybrid / Ruin75/25, **25% Bleed**
-- Cohort Sweep — **165 Power per target**
-- Guard — **Power N/A**, +10 Total Defense
+Do not reconstruct the superseded kit from repository history. Use current battle-system authority and the later enemy-kit redesign.
+
+Identity, current placement, narrative role, protected/nonlethal outcome, and form/body relationships remain owned by the corresponding current encounter/story/register authorities.

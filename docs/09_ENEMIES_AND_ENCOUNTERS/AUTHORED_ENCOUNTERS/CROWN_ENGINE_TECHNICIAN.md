@@ -1,37 +1,28 @@
-# Crown Engine Technician
-**Chapter:** 11 authored/protected identity  
-**Classification:** human / protected / nonlethal  
-**Status:** **POWER COMPLETE / EXACT SCENE PLACEMENT BOUNDED**
+# Diyse — Crown Engine Technician
 
-Chapter 11 is not line-complete. This file does not invent an exact scene, name, faction, culpability, or reward.
+**Status:** ACTIVE IDENTITY ANCHOR / EXACT COMBAT KIT REBUILD PENDING  
+**Category:** enemy/encounter identity
 
-| Lv | HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR |
-|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| 48 | **1,260** | 118 | **142** | 92 | 98 | 38 | 0 | 5 |
+This identity remains part of the current enemy/encounter catalog wherever it is routed by current chapter, formation, Hunt, boss, support-object, quest, or story authority.
 
-### Control Rod
-- Physical / Neutral / one target — **185 Power**, Base Hit100
+The previous combat kit has been removed from live authority.
 
-### Safety Discharge
-- Magical / Lightning / one target — **195 Power**, Base Hit100
-- **15% Stun**, 2-round repetition lock
+## Rebuild boundary
 
-### Emergency Vent
-- Magical / Fire / all conscious party members
-- **135 Power per target**, Base Hit95, 2-round repetition lock
+The dedicated enemy-kit redesign will re-author, as applicable:
 
-### Protect Position
-> **Power: N/A — no direct damage**
-- +10 Total Defense through end following round
-- 2-round repetition lock
+- Level and HP;
+- Strength / Magic / Intelligence / Defense / Spirit / Speed;
+- action list and AI selection;
+- Potency or fixed numerical output;
+- Execution and Return;
+- targeting and retargeting;
+- current status effects and susceptibility;
+- Delay / Interrupt behavior;
+- phase thresholds and numerical modifiers;
+- support-object numerical behavior;
+- encounter-specific combat tuning.
 
-## Nonlethal resolution
-At0 HP:
-> disarmed / disabled / unable to continue
+Do not reconstruct the superseded kit from repository history. Use current battle-system authority and the later enemy-kit redesign.
 
-No death presentation.
-No personal loot.
-No random spawn.
-No universal Mercy/Subdual command.
-
-Do not turn the Technician into a Calder clone, possession shell, permanent operator/anchor, or new lore-confession source without later story approval.
+Identity, current placement, narrative role, protected/nonlethal outcome, and form/body relationships remain owned by the corresponding current encounter/story/register authorities.

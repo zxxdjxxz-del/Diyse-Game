@@ -1,118 +1,28 @@
-# Annex Duelist
+# Diyse — Annex Duelist
 
-**Chapter:** 4 — placement open pending enemy rework  
-**Architecture:** one chassis / one HP bar / exactly four elemental states  
-**Status:** **HISTORICAL RAW/POWER INPUT / PLACEMENT REOPENED**
+**Status:** ACTIVE IDENTITY ANCHOR / EXACT COMBAT KIT REBUILD PENDING  
+**Category:** enemy/encounter identity
 
-## Raw body — RETAIN
-| Lv | HP | ATK | MAG | DEF | Spirit | SPD | EVA | SR |
-|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| 18 | **1,700** | **72** | **72** | **50** | **49** | **34** | 10 | 5 |
+This identity remains part of the current enemy/encounter catalog wherever it is routed by current chapter, formation, Hunt, boss, support-object, quest, or story authority.
 
-## State progression
+The previous combat kit has been removed from live authority.
 
-One continuous HP bar.
+## Rebuild boundary
 
-State thresholds:
-- **100–76% HP — Fire**
-- **75–51% HP — Ice**
-- **50–26% HP — Lightning**
-- **25–0% HP — Earth**
+The dedicated enemy-kit redesign will re-author, as applicable:
 
-Threshold changes:
-- occur immediately after resolving the damage that crossed the threshold;
-- do not refill HP;
-- do not grant a free action;
-- do not refresh Prime availability.
+- Level and HP;
+- Strength / Magic / Intelligence / Defense / Spirit / Speed;
+- action list and AI selection;
+- Potency or fixed numerical output;
+- Execution and Return;
+- targeting and retargeting;
+- current status effects and susceptibility;
+- Delay / Interrupt behavior;
+- phase thresholds and numerical modifiers;
+- support-object numerical behavior;
+- encounter-specific combat tuning.
 
-If one hit crosses multiple thresholds:
-> the Duelist moves directly to the correct resulting state.
+Do not reconstruct the superseded kit from repository history. Use current battle-system authority and the later enemy-kit redesign.
 
-There is no Wind or Water state.
-
-## State effects
-
-Each state modifier lasts only while that state is current and ends immediately when the Duelist changes state.
-
-Fire:
-- Attack +10%
-- Magic +10%
-
-Ice:
-- Defense +10%
-- Spirit +10%
-
-Lightning:
-- Speed +10%
-
-Earth:
-- Defense +15%
-- Spirit +15%
-
-Only the current state's effect applies.
-
-## Actions
-
-### Duelist Cut
-- one party member
-- Hybrid / Neutral
-- **50% ATK / 50% MAG**
-- **210 Power**
-- Base Hit100
-
-### Elemental Technique
-- one party member
-- Hybrid / current state element
-- **50% ATK / 50% MAG**
-- **240 Power**
-- Base Hit100
-
-Rider:
-- Fire — **25% Burn**
-- Ice — **25% Freeze**
-- Lightning — **20% Stun**
-- Earth — **25% Staggered**
-
-Only one current-state rider can apply.
-
-### Elemental Sweep
-- all conscious party members
-- Hybrid / current state element
-- **50% ATK / 50% MAG**
-- **170 Power per target**
-- Base Hit95
-- no harmful-status rider
-- 2-round repetition lock
-
-### Duelist Crosscut
-- one party member
-- Hybrid / Neutral
-- **50% ATK / 50% MAG**
-- **2 × 130 Power = 260 total**
-- Base Hit100 per hit
-- 2-round repetition lock
-
-### Recenter
-> **Power: N/A — no direct damage**
-
-Effects:
-- Attack +10%
-- Magic +10%
-
-through the end of the following round.
-
-No extra action.
-
-2-round repetition lock.
-
-## Fight-length role
-The standing strong-normal fight-length target remains:
-> **roughly 2–4 serious party rounds**
-
-The four-state identity remains visible through HP thresholds without creating extra bodies.
-
-
-## Normal-pool conversion — 2026-09-22 — SUPERSEDED
-That conversion is no longer current authority.
-
-Current Chapter-4 story authority explicitly allows Annex Duelist to remain optional combat. Final placement is **OPEN** pending the Chapter-4 enemy rework. Preserve the inherited chassis/state design only as a candidate until that decision closes.
+Identity, current placement, narrative role, protected/nonlethal outcome, and form/body relationships remain owned by the corresponding current encounter/story/register authorities.
