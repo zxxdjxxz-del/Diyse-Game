@@ -21,7 +21,7 @@ The later exact kit rebuild should preserve Parallax Host's established identity
 - exploiting the currently weaker defensive axis through authored action logic;
 - layered or dual-component attacks;
 - Defense / Spirit pressure or debuffing where appropriate;
-- perceptual ambiguity without creating a universal Accuracy/Evasion subsystem.
+- perceptual ambiguity without creating a universal Accuracy/avoidance subsystem.
 
 Exact Potency, Execution, Return, defense-axis logic, debuff values, and Dismissal package remain open for the dedicated Prime-kit pass.
 
