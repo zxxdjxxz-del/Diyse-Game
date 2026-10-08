@@ -33,7 +33,7 @@ Rogue / Assassin / Hunter space:
 - opportunistic timing;
 - especially **Interrupt** and canceling eligible queued actions.
 
-Perception does not create a natural Accuracy/Evasion stat, universal weakness-exploitation system, or defense-piercing subsystem.
+Perception uses the current battle-system tools for precision, criticals, timing, openings, and Interrupt.
 
 ### Memory
 Time Mage / Blue Mage / Copy space:
