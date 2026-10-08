@@ -1,54 +1,13 @@
 # Diyse — Nimera Native Legacies
 
-**Status:** ACTIVE LEGACY AUTHORITY  
-**Authority:** current items/equipment-domain owner plus later explicit approved corrections.  
+**Status:** ACTIVE LEGACY IDENTITY AUTHORITY — STATS / EFFECTS REBUILD PENDING
 
+| Legacy | Slot | Trait identity |
+|---|---|---|
+| **Good Fuck, Definitely. Good Fuck.** | Two-Handed Conduit — Weapon + Secondary | **Better Version** |
+| **Hold On. That's Useful.** | Focus | **Keep That** |
+| **Fuck It. New Plan.** | Light Ritual Armor | **New Plan** |
 
+These Legacy names, slots, and Trait names remain current. Exact stats, capstones, and Trait effects are open.
 
-| Legacy | Slot | Raw stats | Capstone | Trait |
-|---|---|---|---|---|
-| **Good Fuck, Definitely. Good Fuck.** | Two-Handed Conduit — Weapon + Secondary | +60 ATK / +82 MAG | +10% eligible Conduit final damage | **Better Version** |
-| **Hold On. That's Useful.** | Focus | +22 MAG / +22 SPR / +8 SPD | Standard Cards gain +10 Base Hit / application reliability where relevant | **Keep That** |
-| **Fuck It. New Plan.** | Light Ritual Armor | +32 DEF / +42 SPR | Speed +10% while disrupted | **New Plan** |
-
-
-## Good Fuck, Definitely. Good Fuck. — Better Version
-For an eligible normal Conduit Attack or Conduit-tagged damaging action that legally supports both profiles:
-- player chooses **Physical or Magical** when selecting the action.
-Does not change element, Power, hit count, target set, MP, or status rider.
-No hidden Defense/Spirit read.
-Standard Cards and Prime commands are unaffected.
-Capstone adds **+10% eligible Conduit final damage**.
-
-## Hold On. That's Useful. — Keep That
-Once per round, the first eligible beneficial temporary effect on wearer that would:
-- expire naturally; or
-- be removed by an ordinary hostile dispel/purge
-
-is preserved through the end of the following round.
-Each specific effect application may be preserved once.
-No loops, copies, or new effect slot.
-
-Capstone:
-- Nimera's Standard Cards gain **+10 Base Hit / application reliability where relevant**.
-- This does not create priority, extra actions, or a separate Card-speed mechanic.
-
-## Fuck It. New Plan. — New Plan
-While wearer has a harmful status or ordinary negative stat change:
-- **Speed +10%**.
-
-This is an ordinary conditional temporary Speed modifier under the global ±40% core-stat cap. It does not reshuffle initiative already fixed for the current round; if still active at the next normal-round initiative setup, it affects ordering normally.
-
-The first qualifying pressure each round creates one two-round compensation; one active compensation, new one replaces old:
-- Attack/Magic Down → +15% final damage
-- Defense Down → 20% less direct Physical damage
-- Spirit Down → 20% less direct Magical damage
-- Speed Down or harmful status → +25 Status Resistance
-- elemental damage pressure → 20% less same-element damage
-
-Original penalty remains; this is compensation, not cleanse/immunity.
-
-
-## Donor legality
-The Legacy Trait travels with the actual item and must function for any legal donor receiver.
-No universal off-owner penalty exists.
+Donor legality remains governed by `DONOR_LEGACY_ACCESS.md`.
