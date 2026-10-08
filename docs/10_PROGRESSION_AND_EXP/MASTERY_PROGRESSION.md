@@ -1,28 +1,13 @@
 # Diyse — Mastery Progression
 
-**Current structural rule:** Mastery Points do not exist. Masteries unlock automatically from Class Level.
+**Status:** ACTIVE STRUCTURAL AUTHORITY / EXACT MASTERIES OPEN
 
-## Automatic Core Masteries
-| Mastery | Unlock |
-|---|---:|
-| Core 1 | Base CL3 |
-| Core 2 | Base CL6 |
-| Core 3 | Base CL9 |
-| Core 4 | Base CL12 |
+There is no spendable Mastery Point currency.
 
-## Automatic Subclass Masteries
-| Mastery | Unlock |
-|---|---:|
-| Subclass 1 | Subclass CL3 |
-| Subclass 2 | Subclass CL5 |
-| Equipment Mastery / Subclass 3 | Subclass CL7 |
-| Legacy Mastery / Subclass 4 | Subclass CL11 |
+Masteries are class-progression unlocks.
 
-Sixfold Volition unlocks Subclasses but grants no separate Mastery resource.
+Exact Mastery names, effects, counts, and Class-Level unlock thresholds are open for the dedicated class-kit/progression rebuild.
 
-Donor Relic eligibility begins at Subclass CL7, subject to actual item ownership.
-Donor Legacy eligibility begins at Subclass CL11, subject to actual Legacy completion/ownership.
+Sixfold Volition unlocks Subclass access; it does not grant a separate Mastery currency.
 
-All eight Masteries are unlocked once Base CL12 and Subclass CL11 are reached.
-Class progression continues to CL13.
-Player Lv60 has no special Mastery function.
+Donor Relic/Legacy eligibility remains jointly owned by the class and equipment domains and must be revalidated with the rebuilt Mastery structure.
