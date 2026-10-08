@@ -1,74 +1,58 @@
 # Diyse — Class System Master
 
 **Status:** ACTIVE CLASS / ABILITY STRUCTURAL AUTHORITY  
-**Authority:** current class-domain owner plus later explicit approved corrections.  
+**Authority:** current class-domain owner plus later explicit approved corrections.
 
-## Stable class structure
+## Stable structure
 
-Each permanent character has:
+Each permanent character has one native Base Class and one reciprocal Subclass.
 
-- one native Base Class;
-- one reciprocal Subclass;
-- a Base Class cap of **CL13**;
-- a Subclass cap of **CL13**.
+| Character | Base Class | Subclass |
+|---|---|---|
+| Cyanis | Crest Knight | Crest Arcanist |
+| Ilyra | Blue Warden | Vowblade |
+| Torren | War Archer | Routeweaver |
+| Nimera | Cardweaver | Proofhunter |
+| Vaelira | Green Arcanist | Axiomblade |
+| Seyrik | Ruin Vanguard | Ruin Warden |
 
-Subclasses do not become usable before **Sixfold Volition at the end of Chapter 7**.
+Base and Subclass caps remain **CL13**. Subclasses become usable at **Sixfold Volition at the end of Chapter 7**.
 
-Reciprocal donor pairs remain:
+Reciprocal donor pairs:
 
 - Cyanis ⇄ Vaelira
 - Ilyra ⇄ Seyrik
 - Torren ⇄ Nimera
 
-Selected-class equipment/stat/CEXP routing remains class-domain content. Global battle timing/math/status behavior is owned by `../05_BATTLE_SYSTEM/BATTLE_SYSTEM_MASTER.md`.
-
-## Redesigned native-kit architecture
+## Native-kit architecture
 
 Current target capacity:
 
-- Base class: **6–8 active Abilities**
+- Base Class: **6–8 active Abilities**
 - Subclass: **4–6 active Abilities**
 - fully developed native toolkit: roughly **10–14 active Abilities**
-- Base class: **4 passives**
+- Base Class: **4 passives**
 - Subclass: **3 passives**
 - fully developed native total: **7 passives**
 
-Starting characters begin with:
+Starting characters begin with **3 Base active Abilities + 1 Base passive**.
 
-- **3 base active Abilities**
-- **1 base passive**
+Subclass access immediately grants **2 Subclass active Abilities + 1 Subclass passive**.
 
-When subclass access is gained, it immediately grants:
+Later recruits may enter with additional Base content already unlocked according to campaign progression.
 
-- **2 subclass active Abilities**
-- **1 subclass passive**
+Base and Subclass Abilities share the top-level **Abilities** command with visible origin tagging.
 
-Later-joining characters may enter with more already unlocked according to campaign progression.
+## Rebuild boundary
 
-Base and subclass Abilities share the top-level **Abilities** command, with visible Base/Subclass origin tagging rather than separate battle submenus.
+Exact Ability names, effects, MP costs, Potencies, Execution, Return, targeting, status riders, custom states, passives, Masteries, and CL unlock thresholds are **open for the dedicated class-kit rebuild**.
 
-## Progression boundary
+All rebuilt content must use the current battle-system rules in:
 
-Active Abilities and passives should unlock gradually and interleave. Early tools establish role identity; later tools deepen specialization without making early tools strictly obsolete.
+> `../05_BATTLE_SYSTEM/BATTLE_SYSTEM_MASTER.md`
 
-**Exact Ability/passive CL unlock thresholds are not currently locked.** The former normalized learning rhythms must not constrain the dedicated class-kit rebuild.
-
-The no-Mastery-Point rule remains current: Masteries unlock through their owning class/progression rules rather than a spendable Mastery Point currency.
-
-## Existing kit policy
-
-Existing class Ability/passive content is source material, not a constraint. During the dedicated rebuild, an existing entry may be:
-
-- kept;
-- mechanically reworked;
-- renamed;
-- merged;
-- moved between active/passive design space;
-- moved between Base/Subclass where appropriate;
-- replaced entirely.
-
-The redesigned battle system is authoritative.
+There is no spendable Mastery Point currency.
 
 ## Donor equipment boundary
 
-Donor Relic/Legacy eligibility and exact item definitions remain owned by the class/equipment domains. This battle redesign does not itself remove the donor-equipment relationship.
+Donor Relic/Legacy relationships remain a separate class/equipment design layer. Exact legality is owned jointly with `../08_ITEMS_AND_EQUIPMENT/`.
